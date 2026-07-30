@@ -1,0 +1,19 @@
+{
+ "episode": "A-01", "outdir": "05_素材/A-01_青龍", "prefix": "青龍",
+ "field": {"center": [240, -20], "radius": 42, "maglim": 5.6},
+ "layers": [
+  {"type": "stars", "mains": [65474, 80763]},
+  {"type": "milkyway"},
+  {"type": "lines", "name": "全龍", "color": "amber", "split": true,
+   "source": {"culture": "chinese", "names": ["角宿","亢宿","氐宿","房宿","心宿","尾宿","箕宿"]}},
+  {"type": "lines", "name": "天蠍座", "color": "blue", "lw": 2.2, "optional": true,
+   "source": {"culture": "western", "iau": "Sco"}},
+  {"type": "labels", "name": "標籤", "auto_from": "全龍",
+   "items": [{"hip": 65474, "zh": "角宿一", "en": "Spica", "dy": -4.2, "size": 15},
+             {"hip": 80763, "zh": "心宿二・大火", "en": "Antares", "dx": -9.5, "dy": -3.5, "size": 15}]}
+ ],
+ "disc_overlay": {"disc": "auto", "auto_labels": true,
+  "lines": [{"color": "amber",
+   "source": {"culture": "chinese", "names": ["角宿","亢宿","氐宿","房宿","心宿","尾宿","箕宿"]}}]},
+ "previews": [{"name": "中西對比", "layers": ["星點層","銀河層","全龍","天蠍座","標籤"]}]
+}

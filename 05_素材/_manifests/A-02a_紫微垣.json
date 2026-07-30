@@ -1,0 +1,239 @@
+{
+ "episode": "A-02",
+ "outdir": "05_素材/A-02_三垣/紫微垣",
+ "prefix": "紫微垣",
+ "field": {
+  "center": [
+   0,
+   90
+  ],
+  "radius": 50,
+  "maglim": 5.4
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    11767,
+    72607,
+    75097
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "垣牆",
+   "color": "amber",
+   "split": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "紫微右垣",
+     "紫微左垣"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "核心",
+   "color": "amber",
+   "lw": 2.4,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "北极",
+     "勾陈",
+     "天皇大帝",
+     "华盖",
+     "杠 (附华盖)"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "垣內官署",
+   "color": "amber",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "天床",
+     "御女",
+     "尚书",
+     "柱史",
+     "女史",
+     "阴德",
+     "天柱",
+     "六甲",
+     "内厨",
+     "天理"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "北斗",
+   "color": "blue",
+   "lw": 2.4,
+   "optional": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "北斗",
+     "辅 (附北斗)",
+     "三台",
+     "文昌"
+    ]
+   }
+  },
+  {
+   "type": "labels",
+   "name": "垣名",
+   "auto_from": "垣牆",
+   "rename": {
+    "紫微右垣": {
+     "zh": "紫微右垣",
+     "dx": -11,
+     "dy": -6,
+     "size": 20
+    },
+    "紫微左垣": {
+     "zh": "紫微左垣",
+     "dx": 11,
+     "dy": -4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "核心名",
+   "auto_from": "核心",
+   "optional": true,
+   "rename": {
+    "北极": {
+     "zh": "北極五星",
+     "dx": -9,
+     "dy": 1,
+     "size": 15
+    },
+    "勾陈": {
+     "zh": "勾陳",
+     "dx": 7,
+     "dy": 2,
+     "size": 15
+    },
+    "天皇大帝": {
+     "zh": "天皇大帝",
+     "dx": 6,
+     "dy": -2.5,
+     "size": 13
+    },
+    "华盖": {
+     "zh": "華蓋",
+     "dx": 0,
+     "dy": 4,
+     "size": 15
+    },
+    "杠 (附华盖)": ""
+   }
+  },
+  {
+   "type": "labels",
+   "name": "帝星標",
+   "optional": true,
+   "items": [
+    {
+     "hip": 72607,
+     "zh": "帝星（北極二）",
+     "en": "Kochab",
+     "dx": -6,
+     "dy": -4,
+     "size": 15
+    },
+    {
+     "hip": 11767,
+     "zh": "今北極星",
+     "en": "Polaris",
+     "dx": 6,
+     "dy": -3,
+     "size": 15
+    }
+   ]
+  }
+ ],
+ "disc_overlay": {
+  "disc": "north",
+  "lines": [
+   {
+    "color": "amber",
+    "source": {
+     "culture": "chinese",
+     "names": [
+      "紫微右垣",
+      "紫微左垣"
+     ]
+    }
+   },
+   {
+    "color": "amber",
+    "lw": 1.8,
+    "source": {
+     "culture": "chinese",
+     "names": [
+      "太微右垣",
+      "太微左垣",
+      "天市右垣",
+      "天市左垣"
+     ]
+    }
+   }
+  ],
+  "labels": [
+   {
+    "hip": 11767,
+    "zh": "紫微垣",
+    "dy": 0.12,
+    "size": 14
+   },
+   {
+    "hip": 57632,
+    "zh": "太微垣",
+    "dx": 0.05,
+    "dy": -0.1,
+    "size": 14
+   },
+   {
+    "hip": 84345,
+    "zh": "天市垣",
+    "dx": 0.12,
+    "dy": 0.05,
+    "size": 14
+   }
+  ]
+ },
+ "previews": [
+  {
+   "name": "全紫微垣",
+   "layers": [
+    "星點層",
+    "垣牆",
+    "核心",
+    "垣內官署",
+    "垣名",
+    "核心名"
+   ]
+  },
+  {
+   "name": "北斗指極",
+   "layers": [
+    "星點層",
+    "垣牆",
+    "核心",
+    "北斗",
+    "垣名",
+    "帝星標"
+   ]
+  }
+ ]
+}

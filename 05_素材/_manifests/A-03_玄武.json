@@ -1,0 +1,234 @@
+{
+ "episode": "A-03",
+ "outdir": "05_素材/A-03_玄武",
+ "prefix": "玄武",
+ "field": {
+  "center": [
+   322,
+   -3
+  ],
+  "radius": 48,
+  "maglim": 5.4
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    113963,
+    677,
+    113881,
+    1067,
+    113368
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "七宿",
+   "color": "amber",
+   "split": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "斗宿",
+     "牛宿",
+     "女宿",
+     "虚宿",
+     "危宿",
+     "室宿",
+     "壁宿"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "軍陣",
+   "color": "amber",
+   "lw": 1.8,
+   "optional": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "羽林军",
+     "垒壁阵",
+     "北落师门",
+     "天垒城"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "秋季四邊形",
+   "color": "blue",
+   "lw": 2.6,
+   "optional": true,
+   "hips": [
+    [
+     113963,
+     113881,
+     677,
+     1067,
+     113963
+    ]
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "飛馬座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Peg"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "宿名",
+   "auto_from": "七宿",
+   "rename": {
+    "斗宿": {
+     "zh": "斗宿",
+     "dy": -6,
+     "size": 20
+    },
+    "牛宿": {
+     "zh": "牛宿",
+     "dy": -5.5,
+     "size": 20
+    },
+    "女宿": {
+     "zh": "女宿",
+     "dx": 5,
+     "dy": -3,
+     "size": 20
+    },
+    "虚宿": {
+     "zh": "虛宿",
+     "dx": 5,
+     "dy": 2,
+     "size": 20
+    },
+    "危宿": {
+     "zh": "危宿",
+     "dy": 5,
+     "size": 20
+    },
+    "室宿": {
+     "zh": "室宿",
+     "dx": 6.5,
+     "dy": -1,
+     "size": 20
+    },
+    "壁宿": {
+     "zh": "壁宿",
+     "dx": -6.5,
+     "dy": 2,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "主星標",
+   "optional": true,
+   "items": [
+    {
+     "hip": 113368,
+     "zh": "北落師門",
+     "en": "Fomalhaut",
+     "dy": -4,
+     "size": 16
+    },
+    {
+     "hip": 113963,
+     "zh": "室宿一",
+     "en": "Markab",
+     "dx": 4.5,
+     "dy": -3,
+     "size": 14
+    },
+    {
+     "hip": 1067,
+     "zh": "壁宿一",
+     "en": "Algenib",
+     "dx": 4.5,
+     "dy": -3,
+     "size": 14
+    },
+    {
+     "hip": 677,
+     "zh": "壁宿二",
+     "en": "Alpheratz",
+     "dx": 5,
+     "dy": 2.5,
+     "size": 14
+    },
+    {
+     "hip": 113881,
+     "zh": "室宿二",
+     "en": "Scheat",
+     "dx": -5,
+     "dy": 2.5,
+     "size": 14
+    }
+   ]
+  }
+ ],
+ "disc_overlay": {
+  "disc": "both",
+  "auto_labels": true,
+  "lines": [
+   {
+    "color": "amber",
+    "source": {
+     "culture": "chinese",
+     "names": [
+      "斗宿",
+      "牛宿",
+      "女宿",
+      "虚宿",
+      "危宿",
+      "室宿",
+      "壁宿"
+     ]
+    }
+   }
+  ]
+ },
+ "previews": [
+  {
+   "name": "玄武全景",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "七宿",
+    "宿名"
+   ]
+  },
+  {
+   "name": "軍陣",
+   "layers": [
+    "星點層",
+    "七宿",
+    "軍陣",
+    "宿名",
+    "主星標"
+   ]
+  },
+  {
+   "name": "秋季四邊形對照",
+   "layers": [
+    "星點層",
+    "七宿",
+    "秋季四邊形",
+    "飛馬座",
+    "宿名",
+    "主星標"
+   ]
+  }
+ ]
+}

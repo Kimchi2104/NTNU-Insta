@@ -1,0 +1,166 @@
+{
+ "episode": "A-10",
+ "outdir": "05_素材/A-10_東加/烏韋阿雲",
+ "prefix": "烏韋阿雲",
+ "field": {
+  "center": [
+   227,
+   25
+  ],
+  "radius": 18,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    78493,
+    78159,
+    77512,
+    76952,
+    76267,
+    75695,
+    76127,
+    69673
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "東加星座",
+   "color": "amber",
+   "lw": 2.2,
+   "split": true,
+   "source": {
+    "culture": "tongan",
+    "names": [
+     "Cloud of 'Uvea"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "北冕座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "CrB"
+   }
+  },
+  {
+   "type": "lines",
+   "name": "牧夫座",
+   "color": "green",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Boo"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "東加原名",
+   "auto_from": "東加星座",
+   "auto_text": "native",
+   "rename": {
+    "Cloud of 'Uvea": {
+     "zh": "ʻAo ʻo ʻUvea",
+     "dx": 0,
+     "dy": 3.4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "漢字名",
+   "optional": true,
+   "auto_from": "東加星座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Cloud of 'Uvea": {
+     "zh": "烏韋阿雲",
+     "dx": 0,
+     "dy": 3.4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "具名星",
+   "optional": true,
+   "items": [
+    {
+     "hip": 69673,
+     "zh": "Hikule'o",
+     "en": "Arcturus 大角星",
+     "dx": -3.4,
+     "dy": -2.6,
+     "size": 16
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "西方名",
+   "optional": true,
+   "auto_from": "北冕座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Corona Borealis": {
+     "zh": "北冕座",
+     "dx": 4.5,
+     "dy": -3.2,
+     "size": 17
+    },
+    "Bootes": {
+     "zh": "牧夫座",
+     "dx": -5,
+     "dy": -3.4,
+     "size": 17
+    }
+   }
+  }
+ ],
+ "previews": [
+  {
+   "name": "東加",
+   "layers": [
+    "星點層",
+    "東加星座",
+    "東加原名"
+   ]
+  },
+  {
+   "name": "漢字",
+   "layers": [
+    "星點層",
+    "東加星座",
+    "漢字名"
+   ]
+  },
+  {
+   "name": "具名星",
+   "layers": [
+    "星點層",
+    "東加星座",
+    "東加原名",
+    "具名星"
+   ]
+  },
+  {
+   "name": "中西對比",
+   "layers": [
+    "星點層",
+    "北冕座",
+    "牧夫座",
+    "東加星座",
+    "東加原名",
+    "西方名"
+   ]
+  }
+ ]
+}

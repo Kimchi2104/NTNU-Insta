@@ -1,0 +1,162 @@
+﻿分類,Stellarium ID,英文名 English,原文名 Native,讀音 Pronounce,IPA,繁中譯名 zh_TW,星數,組成恆星 (HIP),對應國際星名,Stellarium 描述,社團清單,社團補充備註,參考文獻#
+星座/星官,CON tongan 001,Southern Wild Duck,Toloatonga,,,南部野鴨,4,61084 60718 62434 59747,Gacrux、Acrux、Mimosa、Imai,,✓,(also known as Toloatonga) 12h29m04.8s -60˚06’45.5’’,
+星座/星官,CON tongan 002,Two Men,Lua tangata,,,兩名男子,2,36850 37826,Castor、Pollux,,✓,(also known as Lua tangata) 07h40m01.3s +29˚57’51.2’’,
+星座/星官,CON tongan 003,Wild Duck,Toloa,,,野鴨,3,26727 26311 25930,Alnitak、Alnilam、Mintaka,,✓,(also known as Toloa) 05h36m21.7s -01˚07’12.8’’,
+星座/星官,CON tongan 004,Pigeon Perch,Tu'ulalupe,,,鴿子棲息,5,21421 20885 20205 20455 20889,Aldebaran、Hyadum III、Prima Hyadum、Secunda Hyadum、Ain,,✓,(also known as Tu’ulalupe) 04h25m52.4s +16˚44’51.3’’,
+星座/星官,CON tongan 005,Big Wild Duck,Toloalahi,,,大野鴨,4,42913 45556 41037 45941,Alsephina、Aspidiske、Avior、Markeb,,✓,(also known as Toloalahi) 08h54m06.4s -57˚28’52.3’’,
+星座/星官,CON tongan 006,Mound Top,Fungasia,,,丘頂,2,71683 68702,Alpha Centauri、Hadar,,✓,(also known as Fungasia) 14h21m29.4s -60˚40’47.1’’,
+星座/星官,CON tongan 007,String of fishes,Tuinga ika,,,魚串,9,25281 25930 26311 26727 26549 26263 26237 26258 26241,Saif al Jabbar、Mintaka、Alnilam、Alnitak、Mizan Batil I、Hatysa,,✓,(also known as Tuinga ika) 05h33m41.7s -03˚06’13.3’’,
+星座/星官,CON tongan 008,Wild Duck's Point of Land,Houmatoloa,,,野鴨的土地,3,26311 45496 60781,Alnilam,,✓,(also known as Houmatoloa) 07h34m26.6s -40˚46’46.2’’,
+星座/星官,CON tongan 009,Two Carriers,Fatanalua,,,兩個承運人,3,60742 64394 64241,Al Dafirah、Diadem,,✓,(also known as Fatanalua) 12h49m18.5s +22˚59’33.3’’,
+星座/星官,CON tongan 010,Cloud of 'Uvea,ʻAo ʻo ʻUvea,,,烏韋阿雲,7,78493 78159 77512 76952 76267 75695 76127,Alphecca、Nusakan,,✓,(also known as ‘Ao’o’Uvea) 15h44m35.1s +29˚32’51.2’’,
+星座/星官,CON tongan 011,Wing of Tafahi,Kapakau'o'tafahi,,,塔法希翼,5,8886 6686 4427 3179 746,Segin、Ruchbah、Navi、Shedar、Caph,,✓,(also known as Kapakau’o’tafahi) 00h57m55.7s +62˚02’10.5’’,
+具名恆星,HIP 30438,,Ma'afutoka,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Canopus,,✓（社團原文「Ma’afutoka - Canopus」）,Canopus,
+具名恆星,HIP 32349,,Ma'afulele,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Sirius,,✓（社團原文「Ma’afulele - Sirius」）,Sirius ｜ Large Magellanic Cloud,
+具名恆星,HIP 24436,,Velitoa hififo,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Rigel,,✓（社團原文「Velitoa hififo - Rigel」）,Rigel,
+具名恆星,HIP 27989,,Velitoa hahake,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Betelgeuse,,✓（社團原文「Valitoa hahake - Betelgeuse」）,Valitoa hahake,
+具名恆星,HIP 69673,,Hikule'o,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Arcturus,,✓（社團原文「Hikule’o - Arcturus」）,Arcturus,
+具名恆星,HIP 25336,,Monuafe,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Bellatrix,,✓（社團原文「Monuafe - Bellatrix」）,Bellatrix,
+具名恆星,HIP 17499,,Motuliki,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Electra,,✓ 模糊對應（社團原文「Motoliki - Pleiades」）,Pleiades,
+具名深空天體,C 99,,Humu,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Coalsack Nebula,,,,
+具名深空天體,NGC 292,,Ma'afutoka / 'otu Ma'afu,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+ / Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Small Magellanic Cloud,,,,
+具名深空天體/其他,NAME Large Magellanic Cloud,,Ma'afulele / 'otu Ma'afu,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+ / Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Large Magellanic Cloud,,,,
+具名深空天體,NAME Milky Way,,Kaniva,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Milky Way,,,,
+具名深空天體/其他,NAME Pleiades,,Motuliki,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Pleiades,,,,
+具名深空天體,C 41,,Tu'ulalupe,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Hyades,,,,
+具名深空天體/其他,NAME Venus,,Tapukitea,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Venus,,✓（社團原文「Tapukitea - venus」）,venus,
+具名深空天體/其他,NAME Sun,,La'a,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Sun,,✓（社團原文「La’a - sun」）,sun,
+具名深空天體/其他,NAME Moon,,Mahina,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Moon,,✓（社團原文「Mahina - moon」）,moon,
+具名深空天體/其他,NAME Mars,,Matamemea,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Mars,,✓（社團原文「Matamemea - Mars」）,Mars,

@@ -1,0 +1,202 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Italian (https://www.transifex.com/stellarium/teams/80998/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Inuit"
+msgstr "Eschimese"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"The Inuit are the indigenous peoples in the arctic areas of America, i.e.\n"
+"central and northeast Canada and Greenland. Their culture is part of the\n"
+"various arctic and subarctic cultures but the term \"Eskimo\" refers to a much\n"
+"larger group (also including peoples from Alaska and on both sides of the\n"
+"Behring Strait)."
+msgstr ""
+"Gli Inuit sono le popolazioni indigene nelle aree artiche dell'America, "
+"ovvero il Canada centrale e nord-orientale e la Groenlandia. La loro cultura"
+" fa parte delle varie culture artiche e subartiche, ma il termine "
+"\"eschimese\" si riferisce a un gruppo molto più ampio (compresi anche i "
+"popoli dell'Alaska e su entrambi i lati dello stretto di Behring)."
+
+#. Sky culture description section in markdown format
+msgid ""
+"This sky culture for Stellarium is an adaptation of John MacDonald's research\n"
+"in his book _The Arctic Sky: Inuit Astronomy, Star Lore and Legend_. While\n"
+"placements and specifics of Inuit constellations might differ from tribe to\n"
+"tribe, the information in Stellarium presents the constellations and general\n"
+"themes of the arctic universe."
+msgstr ""
+"Questa cultura del cielo per Stellarium è un adattamento della ricerca di "
+"John MacDonald nel suo libro _ The Arctic Sky: Inuit Astronomy, Star Lore "
+"and Legend_. Mentre i posizionamenti e i dettagli delle costellazioni Inuit "
+"potrebbero differire da tribù a tribù, le informazioni in Stellarium "
+"presentano le costellazioni e i temi generali dell'universo artico."
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: John MacDonald. The Arctic Sky: Inuit Astronomy, Star Lore and "
+"Legend."
+msgstr ""
+" - [#1]: John MacDonald. The Arctic Sky: Inuit Astronomy, Star Lore and "
+"Legend."
+
+#. Sky culture authors section in markdown format
+msgid ""
+"This sky culture was contributed by _Karrie Berglund_ of Digitalis Education\n"
+"Solutions, Inc. based primarily on the book __The Arctic Sky: Inuit Astronomy,\n"
+"Star Lore and Legend__ by John MacDonald.\n"
+"\n"
+"Illustrations by Johan Meuris.\n"
+"\n"
+"Edited by Susanne M Hoffmann and the Stellarium's team."
+msgstr ""
+"Questa cultura del cielo è stata fornita da _Karrie Berglund_ di Digitalis Education Solutions, Inc. basata principalmente sul libro __The Arctic Sky: Inuit Astronomy, Star Lore and Legend__ di John MacDonald.\n"
+"\n"
+"Illustrazioni di Johan Meuris.\n"
+"\n"
+"A cura di Susanne M Hoffmann e il team dello Stellarium."
+
+#. Sky culture license section in markdown format
+msgid ""
+"Text and data: GNU GPL v2.0\n"
+"\n"
+"Illustrations: Free Art License"
+msgstr ""
+"Testo e dati: GNU GPL v2.0\n"
+"\n"
+"Illustrazioni: licenza d'arte gratuita"
+
+#. Inuit constellation, native: Aagjuuk
+msgid "Two Sunbeams"
+msgstr "Due raggi di sole"
+
+#. Description of Inuit constellation Two Sunbeams
+msgid "An important constellation for timekeeping."
+msgstr "Una costellazione importante per il cronometraggio."
+
+#. Inuit constellation, native: Akkuttujuuk
+msgid "Two Placed Far Apart"
+msgstr "Due a grande distanza l'uno dall'altro"
+
+#. Description of Inuit constellation Two Placed Far Apart
+msgid "Two stars signaling the return of sunlight to the arctic"
+msgstr "Due stelle segnalano il ritorno della luce solare nell'Artico"
+
+#. Inuit constellation, native: Qimmiitt
+msgid "Dogs"
+msgstr "Cani"
+
+#. Description of Inuit constellation Dogs
+msgid "Five dogs harassing Nanook, or Nanurjuk, the polar bear."
+msgstr "Cinque cani che molestano Nanook, o Nanurjuk, l'orso polare."
+
+#. Inuit constellation, native: Quturjuuk
+msgid "Collarbones"
+msgstr "Clavicole"
+
+#. Inuit constellation, native: Pituaq
+msgid "Lamp Stand"
+msgstr "Candelabro a sette bracci (menorah)"
+
+#. Description of Inuit constellation Lamp Stand
+msgid "Stand containing the burning fuel providing light"
+msgstr "Stand contenente il combustibile che brucia che fornisce luce"
+
+#. Inuit constellation, native: Tukturjuit
+msgid "Caribou"
+msgstr "Caribù"
+
+#. Description of Inuit constellation Caribou
+msgid "The big dipper is Tukturjuit, the caribou."
+msgstr "Il grande mestolo è Tukturjuit, il caribù."
+
+#. Inuit constellation, native: Sivulliik
+msgid "Two in Front"
+msgstr "Due Davanti"
+
+#. Description of Inuit constellation Two in Front
+msgid ""
+"\"The first ones\", Little Orphan Boy being chased by an angry grandfather."
+msgstr "\"I primi\", Little Orphan Boy inseguito da un nonno arrabbiato."
+
+#. Inuit constellation, native: Sakiattiak
+msgid "Breastbone"
+msgstr "Sterno"
+
+#. Description of Inuit constellation Breastbone
+msgid "The Pleiades, are seen as a breast bone."
+msgstr "Le Pleiadi, sono viste come un osso mammario."
+
+#. Inuit constellation, native: Ullaktut
+msgid "Runners"
+msgstr "Corridori"
+
+#. Description of Inuit constellation Runners
+msgid ""
+"Orion's Belt is Ullaktut, three hunters lost on a hunting trip for Nanuk, "
+"the polar bear."
+msgstr ""
+"La cintura di Orione è Ullaktut, tre cacciatori persi durante una battuta di"
+" caccia per Nanuk, l'orso polare."
+
+#. Inuit constellation, native: Uqsuutaattiaq
+msgid "Blubber Container"
+msgstr "Contenitore di grasso di balena"
+
+#. Description of Inuit constellation Blubber Container
+msgid "A seal flipper skin sewn shut, contains fuel for lamps."
+msgstr ""
+"Una pelle di pinna sigillata cucita chiusa, contiene carburante per lampade."
+
+#. Inuit constellation, native: Kingulliq
+msgid "The One Behind"
+msgstr "Uno Dietro"
+
+#. Description of Inuit constellation The One Behind
+msgid "The grandmother chasing the Two in Front"
+msgstr "La nonna insegue i Due di fronte"
+
+#. Inuit name for HIP 91262
+msgid "The Old Woman"
+msgstr "La vecchia signora"
+
+#. Inuit name for HIP 21421
+msgid "Spirit of a Polar Bear"
+msgstr "Spirito di un orso polare"
+
+#. Inuit name for HIP 11767, native: Nuuttuittuq
+msgid "Never Moves"
+msgstr "Non si muove mai"
+
+#. Inuit name for HIP 37279, native: Sikuliaqsiujuittuq
+msgid "Name of a Murdered Man"
+msgstr "Nome di un uomo assassinato"
+
+#. Inuit name for HIP 32349
+msgid "Flickering"
+msgstr "Tremolante"
+
+#. Inuit name for HIP 26241
+msgid "Nephews"
+msgstr "Nipoti"
+
+#. Inuit name for HIP 69673
+msgid "The Old Man"
+msgstr "L'anziano"
+
+#. Inuit name for HIP 67927
+msgid "The Little Orphan Boy"
+msgstr "Il piccolo orfano"
+
+#. Inuit name for NAME Orion Nebula, native: Qangimmaariik
+msgid "Nephews or Nieces"
+msgstr "Nipoti o nipoti"

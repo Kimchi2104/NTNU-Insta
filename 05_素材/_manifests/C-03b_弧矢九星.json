@@ -1,0 +1,200 @@
+{
+ "episode": "C-03",
+ "outdir": "05_素材/C-03_麒麟與倮獸/弧矢九星",
+ "prefix": "弧矢",
+ "field": {
+  "center": [
+   110,
+   -27
+  ],
+  "radius": 17,
+  "maglim": 5.8
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    32349,
+    32759,
+    33579,
+    34444,
+    35264,
+    35904,
+    37229,
+    37819,
+    38070,
+    38901
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "弧矢",
+   "color": "blue",
+   "lw": 2.8,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "弧矢"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "弧矢直狼",
+   "color": "amber",
+   "lw": 2.2,
+   "optional": true,
+   "hips": [
+    [
+     34444,
+     32349
+    ]
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "大犬座",
+   "color": "green",
+   "lw": 2.2,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "CMa"
+   }
+  },
+  {
+   "type": "lines",
+   "name": "船尾座",
+   "color": "purple",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Pup"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "弧矢名",
+   "auto_from": "弧矢",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "弧矢": {
+     "zh": "弧矢（九星）",
+     "dx": 4,
+     "dy": -4,
+     "size": 21
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "天狼標",
+   "items": [
+    {
+     "hip": 32349,
+     "zh": "天狼",
+     "en": "Sirius",
+     "dx": -3,
+     "dy": 3.2,
+     "size": 19
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "直狼題辭",
+   "optional": true,
+   "items": [
+    {
+     "hip": 34444,
+     "zh": "「下有四星曰弧，直狼」",
+     "en": "the Bow points at the Wolf",
+     "dx": 5.2,
+     "dy": 3.9,
+     "size": 16
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "西方名",
+   "optional": true,
+   "auto_from": "大犬座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Canis Major": {
+     "zh": "大犬座",
+     "dx": -4,
+     "dy": 4,
+     "size": 18
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "倮獸候選標",
+   "optional": true,
+   "items": [
+    {
+     "hip": 35904,
+     "zh": "候選三：弧矢",
+     "en": "Kaogongji: bow-and-arrow banner",
+     "dx": 0,
+     "dy": -5.5,
+     "size": 17
+    }
+   ]
+  }
+ ],
+ "previews": [
+  {
+   "name": "弧矢",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "弧矢",
+    "弧矢名",
+    "天狼標"
+   ]
+  },
+  {
+   "name": "弧矢直狼",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "弧矢",
+    "弧矢直狼",
+    "弧矢名",
+    "天狼標",
+    "直狼題辭"
+   ]
+  },
+  {
+   "name": "弧矢_倮獸候選",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "弧矢",
+    "弧矢名",
+    "天狼標",
+    "倮獸候選標"
+   ]
+  },
+  {
+   "name": "中西對比",
+   "layers": [
+    "星點層",
+    "弧矢",
+    "大犬座",
+    "船尾座",
+    "弧矢名",
+    "西方名",
+    "天狼標"
+   ]
+  }
+ ]
+}

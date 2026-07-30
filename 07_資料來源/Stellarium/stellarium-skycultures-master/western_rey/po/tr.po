@@ -1,0 +1,305 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Turkish (https://www.transifex.com/stellarium/teams/80998/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Western (H.A.Rey)"
+msgstr "Batı (H.A.Rey)"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"A variation of the Western sky culture with lines reproducing the 1952 book\n"
+"_The Stars - A New Way To See Them_ by H. A. Rey."
+msgstr ""
+"Batı gökyüzü kültürünün, 1952 tarihli H. A. Rey'in _Yıldızlar - Onları "
+"Görmenin Yeni Bir Yolu_ kitabını yeniden üreten çizgilerle bir varyasyonu."
+
+#. Sky culture description section in markdown format
+msgid ""
+"During the 19th century the use and further editions of richly illustrated\n"
+"atlases with sumptuously engraved mythological figures fell out of fashion. The\n"
+"stars of the constellations in atlases of that time started to be shown\n"
+"connected with line patterns (\"stickfigures\"), which however appear sometimes\n"
+"only to have been used to indicate which stars belong to which constellation.\n"
+"\n"
+"Over several decades the figures had ceased to resemble the figures they were\n"
+"named after and appeared incomprehensible to beginning stargazers in the middle\n"
+"of the 20th century. H. A. Rey (Hans Augusto Reyersbach) (1898-1977), an artist\n"
+"and author of children's books of German descent but emigrated to the USA,\n"
+"published his answer to this problem in 1952 with the book _The Stars - A New\n"
+"Way To See Them_ [#1].\n"
+"\n"
+"### The Constellations\n"
+"\n"
+"In this book, which has become very popular especially in the US, Rey connected\n"
+"the stars of every constellation \"in such a way that the resulting shape makes\n"
+"sense.\" What surprised him was \"that nobody has done it before. The basic idea\n"
+"is so simple.\"\n"
+"\n"
+"Rey's new stick figures make it indeed very simple to recognize the depicted\n"
+"constellation figures. Rey's work does not include figurative artwork,\n"
+"therefore this sky culture deliberately only comes with Rey's original stick\n"
+"figures. The constellation names were also always given in English by Rey. If\n"
+"you switch to \"Native\" name display mode, you may see exactly the spelling used\n"
+"in his book. Also the stars named here are limited to those included in the\n"
+"book.\n"
+"\n"
+"### Rey's Figures and the Classic Constellations\n"
+"\n"
+"Rey's constellations adhere to the tradition of the Western sky culture and\n"
+"describes the 88 officially acknowledged constellations, with addition of\n"
+"asterisms of the two Dippers and the \"Great Square\" (of Pegasus). However, at\n"
+"several points Rey's figures deviate from the canonical figures described since\n"
+"Ptolemy's Almagest (2nd century AD), where also positions of the stars in their\n"
+"constellations had been described in their names. For example:\n"
+"\n"
+" * Rey inverted the figure of the Great Bear (_Ursa Major_) to look like a polar\n"
+"bear scenting prey. This on one hand does not have the usual problem to explain\n"
+"its long tail. On the other hand, the bear is not shown to walk around the pole\n"
+"in this orientation.\n"
+"\n"
+" * The Bull (_Taurus_), only the front of which is shown with long upright horns\n"
+"in usual depictions, is shown with a complete body including its tail, with\n"
+"horns stretched wide like those of a buffalo. Its bright eye _Aldebaran_ now\n"
+"lies in its neck.\n"
+"\n"
+" * The head of _Hercules_ is usually next to the head of _Ophiuchus_, the\n"
+"serpent holder, and the four stars known as \"keystone\" form his body. Rey makes\n"
+"his head out of the keystone, and the star that usually marks the hero's head\n"
+"is now one of his feet.\n"
+"\n"
+" * The Whale (_Cetus_) has been turned around, its formermouth now forming a\n"
+"tail fin.\n"
+"\n"
+" * _Pegasus_ exchanged feet and head.\n"
+"\n"
+" * _Bootes_, the herdsman, is shown sitting and smoking a pipe (no trace of\n"
+"political correctness in a children's book of the 1950s!)"
+msgstr ""
+"19. yüzyılda, zengin bir şekilde resmedilmiş mitolojik figürlerle zengin resimli atlasların kullanımı ve sonraki baskıları modası geçti. O zamanın atlaslarındaki takımyıldızların yıldızları, çizgi desenleriyle (\"stickfigures\") bağlantılı olarak gösterilmeye başlandı, ancak bazen sadece hangi yıldızların hangi takımyıldıza ait olduğunu belirtmek için kullanılmış gibi görünüyor.\n"
+"\n"
+"Birkaç on yıl boyunca figürler, adlarını verdikleri figürlere benzemeyi bırakmıştı ve 20. yüzyılın ortalarında yeni başlayanlar için anlaşılmaz görünüyordu. Alman kökenli çocuk kitaplarının yazarı ve ressamı H. A. Rey (Hans Augusto Reyersbach) (1898-1977), bu soruna cevabını 1952'de _The Stars - A New Way To See Them adlı kitapla yayımladı. RefX1].\n"
+"\n"
+"### Takımyıldızlar\n"
+"\n"
+"Özellikle ABD'de oldukça popüler hale gelen bu kitapta Rey, her takımyıldızın yıldızlarını \"ortaya çıkan şekil anlamlı olacak şekilde\" bağladı. Onu şaşırtan şey \"daha önce kimsenin yapmamış olmasıydı. Temel fikir çok basit.\"\n"
+"\n"
+"Rey'in yeni çubuk figürleri, tasvir edilen takımyıldız figürlerini tanımayı gerçekten çok kolaylaştırıyor. Rey'in çalışmaları figüratif sanat eseri içermez, bu nedenle bu gökyüzü kültürü kasıtlı olarak sadece Rey'in orijinal çubuk figürleriyle birlikte gelir. Takımyıldız isimleri de her zaman İngilizce olarak Rey tarafından verilmiştir. \"Yerli\" ad görüntüleme moduna geçerseniz, kitabında tam olarak kullanılan yazımı görebilirsiniz. Ayrıca burada adı geçen yıldızlar kitapta yer alan yıldızlarla sınırlıdır.\n"
+"\n"
+"### Rey'in Figürleri ve Klasik Takımyıldızlar\n"
+"\n"
+"Rey'in takımyıldızları, Batı gökyüzü kültürü geleneğine bağlıdır ve iki Kepçe ve \"Büyük Kare\" (Pegasus'un) yıldız işaretlerinin eklenmesiyle resmi olarak kabul edilen 88 takımyıldızı tanımlar. Bununla birlikte, bazı noktalarda Rey'in figürleri, Ptolemy'nin Almagest'inden (MS 2. yüzyıl) beri tanımlanan kanonik figürlerden sapmaktadır; burada yıldızların takımyıldızlarındaki konumları da isimlerinde tanımlanmıştır. Örneğin:\n"
+"\n"
+" * Rey, bir kutup ayısı kokulu av gibi görünmek için Büyük Ayı (_Ursa Major_) figürünü ters çevirdi. Bu, bir yandan, uzun kuyruğunu açıklamak için olağan bir soruna sahip değil. Öte yandan, ayının bu yönde direğin etrafında dolaştığı gösterilmemiştir.\n"
+"\n"
+" * Alışılmış tasvirlerde sadece ön kısmı uzun dik boynuzlarla gösterilen Boğa (_Boğa_), kuyruğu da dahil olmak üzere tam bir gövde ile, boynuzları bir bufalo gibi genişçe gerilmiş olarak gösterilmiştir. Parlak gözü _Aldebaran_ şimdi boynunda yatıyor.\n"
+"\n"
+" * Herkül'ün başı genellikle yılan tutucu Ophiuchus'un başının yanındadır ve vücudunu \"kilit taşı\" olarak bilinen dört yıldız oluşturur. Rey kafasını kilit taşından çıkarır ve genellikle kahramanın kafasını işaretleyen yıldız artık ayaklarından biridir.\n"
+"\n"
+" * Balina (_Cetus_) döndürüldü, eski ağzı artık bir kuyruk yüzgeci oluşturuyor.\n"
+"\n"
+" * _Pegasus_ ayak ve kafa değiştirdi.\n"
+"\n"
+" * Çoban, otururken ve pipo içerken gösteriliyor (1950'lerin çocuk kitabında politik doğruculuktan eser yok!)"
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: H.A. Rey. [Wikipedia page](http://en.wikipedia.org/wiki/H._A._Rey)"
+msgstr ""
+" - [#1]: H.A. Rey. [Wikipedia "
+"sayfası](http://en.wikipedia.org/wiki/H._A._Rey)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"Mike Richards and Georg Zotti.\n"
+"\n"
+"This sky culture used to be for a long time an easy user-installable addon\n"
+"example contributed by Mike Richards. It has been reworked following the 41st\n"
+"reprint and completed with this description by Georg Zotti."
+msgstr ""
+"Mike Richards ve Georg Zotti.\n"
+"\n"
+"Bu gökyüzü kültürü, uzun süredir Mike Richards'ın katkıda bulunduğu, kullanıcı tarafından kolayca kurulabilen bir eklenti örneğiydi. 41. baskının ardından yeniden işlendi ve Georg Zotti'nin bu açıklamasıyla tamamlandı."
+
+#. Sky culture license section in markdown format
+msgid "CC BY-SA"
+msgstr "CC BY-SA"
+
+#. Western (H.A.Rey) constellation, pronounce: BIG DIPPER
+msgid "Big Dipper"
+msgstr "Büyük Kepçe"
+
+#. Western (H.A.Rey) constellation
+msgid "Pointers"
+msgstr "işaretçiler"
+
+#. Western (H.A.Rey) constellation, pronounce: LITTLE DIPPER
+msgid "Little Dipper"
+msgstr "Küçük kepçe"
+
+#. Western (H.A.Rey) constellation
+msgid "Guardians"
+msgstr "koruyucular"
+
+#. Western (H.A.Rey) constellation
+msgid "feet"
+msgstr "ayak"
+
+#. Western (H.A.Rey) constellation
+msgid "head"
+msgstr "kafa"
+
+#. Western (H.A.Rey) constellation
+msgid "tail"
+msgstr "kuyruk"
+
+#. Western (H.A.Rey) constellation
+msgid "paws"
+msgstr "patiler"
+
+#. Western (H.A.Rey) constellation
+msgid "body"
+msgstr "gövde"
+
+#. Western (H.A.Rey) constellation
+msgid "pipe"
+msgstr "boru"
+
+#. Western (H.A.Rey) constellation
+msgid "wing"
+msgstr "kanat"
+
+#. Western (H.A.Rey) constellation
+msgid "outstretched neck"
+msgstr "uzanmış boyun"
+
+#. Western (H.A.Rey) constellation
+msgid "club"
+msgstr "kulüp"
+
+#. Western (H.A.Rey) constellation
+msgid "Keystone"
+msgstr "Kilit taşı"
+
+#. Western (H.A.Rey) constellation
+msgid "the chain"
+msgstr "zincir"
+
+#. Western (H.A.Rey) constellation, pronounce: GREAT SQUARE
+msgid "Great Square"
+msgstr "Büyük Meydan"
+
+#. Western (H.A.Rey) constellation
+msgid "horn"
+msgstr "Boynuz"
+
+#. Western (H.A.Rey) constellation
+msgid "belt"
+msgstr "kemer"
+
+#. Western (H.A.Rey) constellation
+msgid "shield"
+msgstr "kalkan"
+
+#. Western (H.A.Rey) constellation
+msgid "Hydra's head"
+msgstr "Hydra'nın başı"
+
+#. Western (H.A.Rey) constellation, pronounce: HYDRA's tail
+msgid "Hydra's tail"
+msgstr "Hydra'nın kuyruğu"
+
+#. Western (H.A.Rey) constellation
+msgid "bill"
+msgstr "fatura"
+
+#. Western (H.A.Rey) constellation
+msgid "foot"
+msgstr "ayak"
+
+#. Western (H.A.Rey) constellation, pronounce: SERPENT'S TAIL
+msgid "Serpens Cauda"
+msgstr "Yılan Kauda"
+
+#. Western (H.A.Rey) constellation, pronounce: SERPENT'S HEAD
+msgid "Serpens Caput"
+msgstr "yılanlar"
+
+#. Western (H.A.Rey) constellation
+msgid "arm"
+msgstr "kol"
+
+#. Western (H.A.Rey) constellation
+msgid "claws"
+msgstr "pençeler"
+
+#. Western (H.A.Rey) constellation
+msgid "cat's eyes"
+msgstr "kedinin gözleri"
+
+#. Western (H.A.Rey) constellation
+msgid "skirt"
+msgstr "etek"
+
+#. Western (H.A.Rey) constellation
+msgid "the bow"
+msgstr "yay"
+
+#. Western (H.A.Rey) constellation
+msgid "vessel"
+msgstr "gemi"
+
+#. Western (H.A.Rey) constellation, pronounce: N.FISH
+msgid "Northern Fish"
+msgstr "Kuzey Balığı"
+
+#. Western (H.A.Rey) constellation, pronounce: Circlet or W. FISH
+msgid "Circlet"
+msgstr "Taç"
+
+#. Western (H.A.Rey) constellation
+msgid "False Cross"
+msgstr "Yanlış Çapraz"
+
+#. Western (H.A.Rey) constellation
+msgid "figurehead"
+msgstr "figüran"
+
+#. Western (H.A.Rey) constellation
+msgid "transom"
+msgstr "kıç yatırması"
+
+#. Western (H.A.Rey) constellation
+msgid "ears"
+msgstr "kulaklar"
+
+#. Western (H.A.Rey) constellation
+msgid "front legs"
+msgstr "ön bacaklar"
+
+#. Western (H.A.Rey) constellation
+msgid "hind legs"
+msgstr "Arka bacaklar"
+
+#. Western (H.A.Rey) constellation, pronounce: FLY
+msgid "Fly"
+msgstr "Uçmak"
+
+#. Western (H.A.Rey) constellation
+msgid "eyes"
+msgstr "gözler"
+
+#. Western (H.A.Rey) name for HIP 11767
+msgid "Pole Star"
+msgstr "Kutup Yıldızı"
+
+#. Western (H.A.Rey) name for HIP 9487
+msgid "Knot"
+msgstr "Düğüm"

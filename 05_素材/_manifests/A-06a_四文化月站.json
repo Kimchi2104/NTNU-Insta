@@ -1,0 +1,263 @@
+{
+ "episode": "A-06",
+ "outdir": "05_素材/A-06_二十八宿/四文化對照",
+ "prefix": "月站對照",
+ "field": {
+  "center": [
+   63,
+   14
+  ],
+  "radius": 28,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    17702,
+    21421,
+    27989,
+    24436,
+    25336
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "中國",
+   "color": "amber",
+   "split": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "胃宿",
+     "昴宿",
+     "毕宿",
+     "觜宿",
+     "参宿"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "印度",
+   "color": "blue",
+   "lw": 2.4,
+   "optional": true,
+   "source": {
+    "culture": "indian",
+    "names": [
+     "She who bears",
+     "Nurses of kartiikeya",
+     "The spirited one",
+     "The deer's head",
+     "The moist one"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "阿拉伯",
+   "color": "purple",
+   "lw": 2.4,
+   "optional": true,
+   "source": {
+    "culture": "arabic_lunar_stations",
+    "names": [
+     "The little abdomen",
+     "Al-Thurayya",
+     "The circular mark",
+     "The string"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "日本",
+   "color": "green",
+   "lw": 2.2,
+   "optional": true,
+   "source": {
+    "culture": "japanese_moon_stations",
+    "names": [
+     "Stomach",
+     "Stopping Place",
+     "Net",
+     "Turtle Snout",
+     "Investigator"
+    ]
+   }
+  },
+  {
+   "type": "dso",
+   "name": "昴宿星團",
+   "items": [
+    {
+     "id": "M 45"
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "中國名",
+   "auto_from": "中國",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "胃宿": {
+     "dy": 4.5,
+     "size": 18
+    },
+    "昴宿": {
+     "dx": -4,
+     "dy": 4.5,
+     "size": 18
+    },
+    "毕宿": {
+     "zh": "畢宿",
+     "dy": -4.5,
+     "size": 18
+    },
+    "觜宿": {
+     "dx": 4,
+     "dy": 3.5,
+     "size": 16
+    },
+    "参宿": {
+     "zh": "參宿",
+     "dx": 5,
+     "dy": -4,
+     "size": 18
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "印度名",
+   "optional": true,
+   "auto_from": "印度",
+   "auto_text": "pronounce",
+   "rename": {
+    "She who bears": {
+     "dy": 4.5,
+     "size": 16
+    },
+    "Nurses of kartiikeya": {
+     "dx": -4,
+     "dy": 4.5,
+     "size": 16
+    },
+    "The spirited one": {
+     "dy": -4.5,
+     "size": 16
+    },
+    "The deer's head": {
+     "dx": 4,
+     "dy": 3.5,
+     "size": 15
+    },
+    "The moist one": {
+     "dx": 5,
+     "dy": -4,
+     "size": 16
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "阿拉伯名",
+   "optional": true,
+   "auto_from": "阿拉伯",
+   "auto_text": "native",
+   "rename": {
+    "The little abdomen": {
+     "dy": 4.5,
+     "size": 17
+    },
+    "Al-Thurayya": {
+     "dx": -4,
+     "dy": 4.5,
+     "size": 17
+    },
+    "The circular mark": {
+     "dx": 4,
+     "dy": 3.5,
+     "size": 16
+    },
+    "The string": {
+     "dx": -4,
+     "dy": -4,
+     "size": 16
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "日本名",
+   "optional": true,
+   "auto_from": "日本",
+   "auto_text": "po:ja",
+   "rename": {
+    "Stomach": {
+     "dy": 4.5,
+     "size": 16
+    },
+    "Stopping Place": {
+     "dx": -4,
+     "dy": 4.5,
+     "size": 16
+    },
+    "Net": {
+     "dy": -4.5,
+     "size": 16
+    },
+    "Turtle Snout": {
+     "dx": 4,
+     "dy": 3.5,
+     "size": 15
+    },
+    "Investigator": {
+     "dx": 5,
+     "dy": -4,
+     "size": 16
+    }
+   }
+  }
+ ],
+ "previews": [
+  {
+   "name": "中國",
+   "layers": [
+    "星點層",
+    "中國",
+    "昴宿星團",
+    "中國名"
+   ]
+  },
+  {
+   "name": "印度",
+   "layers": [
+    "星點層",
+    "印度",
+    "昴宿星團",
+    "印度名"
+   ]
+  },
+  {
+   "name": "阿拉伯",
+   "layers": [
+    "星點層",
+    "阿拉伯",
+    "昴宿星團",
+    "阿拉伯名"
+   ]
+  },
+  {
+   "name": "日本",
+   "layers": [
+    "星點層",
+    "日本",
+    "昴宿星團",
+    "日本名"
+   ]
+  }
+ ]
+}

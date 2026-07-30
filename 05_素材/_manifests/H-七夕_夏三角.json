@@ -1,0 +1,22 @@
+{
+ "episode": "H-七夕", "outdir": "05_素材/H-七夕_夏三角", "prefix": "夏三角",
+ "field": {"center": "auto", "radius": "auto", "maglim": 5.8},
+ "layers": [
+  {"type": "stars", "mains": [91262, 97649, 102098]},
+  {"type": "milkyway"},
+  {"type": "lines", "name": "大三角", "hips": [[91262, 97649, 102098, 91262]]},
+  {"type": "lines", "name": "扁擔", "color": "blue", "lw": 2.2, "hips": [[97278, 97649, 98036]]},
+  {"type": "labels", "name": "標籤", "items": [
+    {"hip": 91262, "zh": "織女星", "en": "Vega", "dx": -1.5, "dy": 2.6, "size": 21},
+    {"hip": 97649, "zh": "牛郎星", "en": "Altair", "dx": 2.2, "dy": -4.8, "size": 21},
+    {"hip": 102098, "zh": "天津四", "en": "Deneb", "dy": 2.6, "size": 21},
+    {"hip": 97278, "zh": "河鼓三", "dx": -4.5, "dy": 1.0, "size": 12},
+    {"hip": 98036, "zh": "河鼓一", "dx": 5.2, "dy": -0.8, "size": 12}]}
+ ],
+ "disc_overlay": {"disc": "auto",
+  "lines": [{"name": "大三角", "hips": [[91262, 97649, 102098, 91262]]},
+            {"name": "扁擔", "color": "blue", "lw": 1.8, "hips": [[97278, 97649, 98036]]}],
+  "labels": [{"hip": 91262, "zh": "織女星", "dy": 0.05, "size": 13},
+             {"hip": 97649, "zh": "牛郎星", "dx": 0.1, "dy": -0.07, "size": 13},
+             {"hip": 102098, "zh": "天津四", "dy": 0.05, "size": 13}]}
+}

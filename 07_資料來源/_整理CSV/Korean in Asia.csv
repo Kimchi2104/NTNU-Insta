@@ -1,0 +1,826 @@
+﻿分類,Stellarium ID,英文名 English,原文名 Native,讀音 Pronounce,IPA,繁中譯名 zh_TW,星數,組成恆星 (HIP),對應國際星名,Stellarium 描述,社團清單,社團補充備註,參考文獻#
+星座/星官,CON korean 001,Holy Kettle,,JuJeong,,周鼎,3,65721 64792 64852,,,,,
+星座/星官,CON korean 002,Farm of Capital City,,CheonJeon,,天田,2,68520 66200,,,,,
+星座/星官,CON korean 003,Dignity of King,,JwaGak,,角宿,4,66249 65474 66006 65420,Heze、Spica,,✓,,
+星座/星官,CON korean 004,Nomination,,JinHyeon,,進賢,1,64238,,,,,
+星座/星官,CON korean 005,Gate of Sky,,CheonMun,,天門,2,65639 64407,,,,,
+星座/星官,CON korean 006,Equality,,Pyeong,,平,2,64962 64166,,,✓,,
+星座/星官,CON korean 007,Helper,,SeopJae,,攝提,3,67927 67275 67459,Muphrid,,✓,,
+星座/星官,CON korean 008,Helper,,SeopJae,,攝提,3,72125 71762 71795,,,,,
+星座/星官,CON korean 009,Position of Holy King,,DaeGaak,,大角,1,69673,Arcturus,,✓,,
+星座/星官,CON korean 010,Neck of Dragon,,Hang,,亢宿,4,70755 69701 69427 69974,Elgafar、Syrma、Kang、Khambaliya,,,,
+星座/星官,CON korean 011,Beheading,,JeolWii,,折威,6,67494 68269 68895 69415 70306 70753,,,✓,,
+星座/星官,CON korean 012,Judge,,DuunWaan,,頓頑,2,68933 71352,Menkent,,✓,,
+星座/星官,CON korean 013,Flutting Flag,,ChoYo,,招搖,1,71075,Seginus,,✓,,
+星座/星官,CON korean 014,Javelin of Sky,,GyeongHaa,,梗河,3,72105 71284 71053,Izar,,✓,,
+星座/星官,CON korean 015,Seat for Longevity,,JaeSeok,,帝席,3,70602 69226 67480,,,,,
+星座/星官,CON korean 016,Oar for visitor,,HangJii,,亢池,6,69612 70327 70400 69389 68707 68498,,,,,
+星座/星官,CON korean 017,Milk of Sky,,CheonYuu,,天乳,1,77516,,,,,
+星座/星官,CON korean 018,House of Queen,,Jeo,,氐宿,4,74785 76333 74392 72622,Zubeneschamali、Zubenelhakrabi、Zubenelgenubi II,,✓,,
+星座/星官,CON korean 019,Ancient Chariot,,JinGeo,,陣車,3,73714 74857 72571,Brachium,,✓,,
+星座/星官,CON korean 020,Carriage for King,,CheonPouk,,天輻,2,76470 76600,,,,,
+星座/星官,CON korean 021,General of Cavalry,,GiJinJangGuun,,騎陣將軍,1,71860,,,✓,,
+星座/星官,CON korean 022,Cavalry of Emperor,,GiGwan,,騎官,22,60718 60260 61084 59196 60823 61932 66657 70069 70264 63003 62434 59747 68523 68282 67472 65109 64408 62896 74395 74376 74911 74824,Acrux、Ginan、Gacrux、Muhlifain、Mimosa、Imai,,✓,,
+星座/星官,CON korean 023,General of Mobile Troops,,GeoGii,,車騎,3,71683 71908 68702,Alpha Centauri、Hadar,,✓,,
+星座/星官,CON korean 024,East Road,,DongHaam,,東咸,4,80815 80473 80975 80343,,,,,
+星座/星官,CON korean 025,Gate Bolt,,GeonPae,,鍵閉,1,79374,Jabbah,,,,
+星座/星官,CON korean 026,Door Lock and Key,,GuGeom,,鉤鈐,3,78820 78933 78990,Acrab、Jabhat Acrabi I、Jabhat Acrabi II,,✓,,
+星座/星官,CON korean 027,Penalty,,Beol,,罰,3,79788 79599 79524,,,,,
+星座/星官,CON korean 028,Royal Hall,,Baang,,房宿,4,78820 78401 78265 78104,Acrab、Dschubba、Fang、Iklil,,✓,,
+星座/星官,CON korean 029,Chamberlain,,JongGwan,,從官,2,78105 77634,,,,,
+星座/星官,CON korean 030,Sun,,iil,,,1,77840,,,,,
+星座/星官,CON korean 031,West Road,,SeoHaam,,西咸,4,79375 78727 78207 77853,Grafias,,,,
+星座/星官,CON korean 032,Seat of Emperor,,Shim,,心宿,3,81266 80763 80112,Paikauhale、Antares、Alniyat,,✓,,
+星座/星官,CON korean 033,Five Troops,,JeokJol,,積卒,10,76297 75141 75264 76829 78384 78639 78914 73273 73807 75177,,,✓,,
+星座/星官,CON korean 034,River of Sky,,CheonGang,,天江,4,85755 85340 84970 84405,Garafsa、Guniibuu,,✓,,
+星座/星官,CON korean 035,Prayer for Progeny,,BuYeol,,傅說,1,87261,Fuyue,,✓,,
+星座/星官,CON korean 036,Fish,,Eo,,魚,1,87569,,,,,
+星座/星官,CON korean 037,Forcast,,Ku,,龜,5,86092 87846 89112 88714 85792,,,✓,,
+星座/星官,CON korean 038,Yard for Empresses,,Mii,,尾宿,9,82396 82514 82729 84143 86228 87073 86670 85927 85696,Larawag、Xamidimura、Sargas、Girtab、Mula、Shaula、Lesath,,✓,,
+星座/星官,CON korean 039,Holy Palace,,ShinGuung,,神宮,2,82545 82514,Pipirima、Xamidimura,,✓,,
+星座/星官,CON korean 040,Winnow,,Kii,,箕宿,4,88635 89931 90185 89642,Alnasl、Kaus Media、Kaus Australis、Hamalwarid,,,,
+星座/星官,CON korean 041,Outer Pestle,,WaeJeo,,外杵,3,90830 90414 90568,,,,,
+星座/星官,CON korean 042,Chaff,,Gaang,,糠,1,90422,,,,,
+星座/星官,CON korean 043,Head of Town,,CheonByeon,,天弁,9,93526 93805 93429 93026 92175 92202 91845 91726 91117,Al Thalimain Prior,,✓,,
+星座/星官,CON korean 044,Build,,Geon,,立,6,95176 95168 94820 94141 93683 93085,Albaldah,,✓,,
+星座/星官,CON korean 045,Fowl of Sky,,CheonGae,,天雞,2,96483 96327,,,,,
+星座/星官,CON korean 046,Shrine of Sky,,NaamDoo,,斗宿,6,89341 90496 92041 92855 93864 93506,Polis、Kaus Borealis、Namalsadirah I、Nunki、Namalsadirah II、Ascella,,✓,,
+星座/星官,CON korean 047,Dog,,Goo,,狗,2,93667 93134,,,,,
+星座/星官,CON korean 048,Northeastern Nations,,GuuGuuk,,狗國,4,96950 97290 96465 95477,Namalsadirah III,,,,
+星座/星官,CON korean 049,Old Farmer,,NongJaang_iin,,農丈人,1,89678,,,,,
+星座/星官,CON korean 050,Snapping Turtle,,Byeol,,鼈,13,92953 92308 91494 90982 90887 91875 92989 93174 93825 94114 94160 94005 93542,Meridiana,,,,
+星座/星官,CON korean 051,Road for Emperor,,YeonDo,,輦道,4,100587 98110 97118 92862,,,,,
+星座/星官,CON korean 052,The Weaver,,JikNyeo,,織女,3,91919 91262 91971,Double Double I、Vega、Nasr Alwaki I,,✓,,
+星座/星官,CON korean 053,River adjoining Tower,,JaamDae,,漸臺,4,93194 92420 92791 94481,Sulafat、Sheliak、Aladfar,,✓,,
+星座/星官,CON korean 054,Left Flag,,JwaGi,,左旗,9,99742 98754 98819 98438 98738 98337 97365 96837 96757,Sham,,,,
+星座/星官,CON korean 055,Drum of River,,HaGo,,河鼓,3,97278 97649 98036,Tarazed、Altair、Alshain,,✓ 模糊對應（社團原文「Brum of river」）,,
+星座/星官,CON korean 056,Drumstick of Sky,,CheonBu,,天桴,3,97675 97938 98823,Libertas,,,,
+星座/星官,CON korean 057,Right Flag,,UuGi,,右旗,7,96229 95501 96665 95585 96468 97804 99473,Almizan I、Al Thalimain Posterior、Almizan II、Almizan III,,✓,,
+星座/星官,CON korean 058,Cow leading Man,,GyeonUu,,牽牛,6,100064 100345 101027 101123 100881 100310,Algedi、Dabih、Alshat,,✓,,
+星座/星官,CON korean 059,Bank Spread,,NaaEon,,羅堰,3,101923 102026 101984,,,,,
+星座/星官,CON korean 060,Basket for Silkworm,,BuuGwang,,扶筐,7,91755 92512 90905 90156 91315 90344 89348,Fafnir,,,,
+星座/星官,CON korean 061,Officer for Cart,,HaeJuung,,奚仲,4,94779 95853 96441 92689,Fawaris I,,,,
+星座/星官,CON korean 062,Ferry of Sky,,CheonJin,,天津,9,104732 105138 104887 103413 102098 99675 97165 100453 102488,Fawaris III、Deneb、Fawaris、Sadr、Aljanah,,✓,,
+星座/星官,CON korean 063,Fruit,,Gwa,,瓠瓜,5,102532 101958 101769 102281 101589,Al Salib、Sualocin、Rotanev、Al Ukud,,,,
+星座/星官,CON korean 064,Seed,,PaeGwa,,敗瓜,5,103294 101483 101800 101916 101421,Aldulfin,,,,
+星座/星官,CON korean 065,Storage for Lady,,iiJuu,,離珠,4,101936 101847 101692 101101,,,,,
+星座/星官,CON korean 066,Court Lady,,SuuNyeo,,須女,4,102624 103005 103045 102618,Albulan I、Albali,,,,
+星座/星官,CON korean 067,Judge Fault,,SaaBii,,司非,2,112917 111944,,,,,
+星座/星官,CON korean 068,Amend Fault,,SaaWii,,司危,2,112242 111104,,,,,
+星座/星官,CON korean 069,Grant Life,,SaaRok,,司祿,2,111841 109754,,,,,
+星座/星官,CON korean 070,Punish,,SaaMyeong,,司命,2,104858 104521,,,,,
+星座/星官,CON korean 071,Empty House,,Heo,,虛宿,2,104987 106278,Kitalpha、Sadalsuud,,✓,,
+星座/星官,CON korean 072,Weep,,Gok,,哭,2,106786 107382,Bunda,,,,
+星座/星官,CON korean 073,Sob,,Eup,,泣,2,107517 107095,,,,,
+星座/星官,CON korean 074,Castle with Rampart,,CheonRuSeong,,天壘城,6,104139 104019 104365 104963 105515 104974,,,,,
+星座/星官,CON korean 075,Hook for Dress,,Guu,,臼,8,107418 107259 107136 107533 106481 105186 104060 104194,Castula、The Garnet Star、Azelfafage,,,,
+星座/星官,CON korean 076,Groom,,ChoBo,,造父,5,109592 110991 109556 109492 109857,,,✓,,
+星座/星官,CON korean 077,Charioteer,,GeoBuu,,車府,7,107235 106711 106551 107253 109102 110351 111022,,,,,
+星座/星官,CON korean 078,Human,,iinSeong,,人星,5,106140 107472 108060 107348 105502,,,,,
+星座/星官,CON korean 079,Inner Pestle,,NaeJeo,,內杵,2,109937 109410,,,,,
+星座/星官,CON korean 080,Mortar,,Gu,,臼,4,110371 109176 107354 107310,,,,,
+星座/星官,CON korean 081,Warehouse of Sky,,Wii,,危宿,3,107315 109427 109074,Enif、Biham、Sadalmelik,,✓ 模糊對應（社團原文「Warehouse of why」）,,
+星座/星官,CON korean 082,Tomb,,BunMyo,,墳墓,4,110672 110960 110395 111497,Seat、Sadaltager、Sadachbia,,,,
+星座/星官,CON korean 083,Cover of House,,GaeOok,,蓋屋,2,108874 110003,Sadalmulk、Ancha,,,,
+星座/星官,CON korean 084,Broken Mortar,,PaeGuu,,敗臼,4,102485 102978 105881 105665,,,,,
+星座/星官,CON korean 085,Climbing Serpent,,DeungSaa,,螣蛇,17,115990 114622 113561 114104 117301 117863 118243 114924 113919 114570 115022 116584 116805 116631 113726 113288 113327,Bradley 3077,,,,
+星座/星官,CON korean 086,Palace of Emperor,,Shil,,室宿,8,113881 113963 112158 112051 112748 112440 115250 115623,Scheat、Markab、Matar、Sadalmatar、Sadalbari、Sadalnazi、Salm、Alkarab,,✓,,
+星座/星官,CON korean 087,Detached Palace,,iiGuung,,離宮,1,115250,Salm,,,,
+星座/星官,CON korean 088,Official for Materials Supply,,TouGongRi,,土公吏,2,112447 112029,Suudalnujum、Homam,,✓ 模糊對應（社團原文「Official of materials supply」）,,
+星座/星官,CON korean 089,Lightening,,JeonNwoe,,雷電,5,114389 114144 114520 113186 112935,,,,,
+星座/星官,CON korean 090,Rampart,,NuByeokJin,,壘壁陣,7,112961 111123 109139 107556 106985 106723 107188,Hydor、Deneb Algedi、Nashira,,✓,,
+星座/星官,CON korean 091,Troops of Sky,,URimGuun,,羽林軍,41,1170 983 301 910 355 117567 116971 116957 116901 117218 117629 1158 443 145 664 118209 840 154 116591 116853 117314 117541 115115 115033 114855 114939 114724 113996 115125 115404 115438 115669 116247 115126 112716 112211 112529 114341 114375 114119 115142,,,,,
+星座/星官,CON korean 092,Village for Patrol,,BukRakSaMuun,,北落師門,1,113368,Fomalhaut,,✓,,
+星座/星官,CON korean 093,Net of Sky,,CheonMang,,天綱,1,111954,,,,,
+星座/星官,CON korean 094,Stable of Sky,,CheonGu,,天廄,10,101076 99874 99824 99951 100435 101868 102388 103004 103200 102453,,,,,
+星座/星官,CON korean 095,Eastern Wall,,DongByeok,,東壁,2,1067 677,Algenib、Alpheratz,,✓,,
+星座/星官,CON korean 096,Civil Engineer,,TouGong,,土公,2,2219 3810,,,✓,,
+星座/星官,CON korean 097,Thunderbolts,,ByeokRyeok,,霹靂,5,118268 116771 115830 114971 113889,Fumalsamakah,,,,
+星座/星官,CON korean 098,Clouds and Rain,,UunUu,,雲雨,4,117245 116928 115738 114273,,,,,
+星座/星官,CON korean 099,Highway,,GaakDo,,閣道,7,3504 3801 5542 6242 6686 8886 11569,Marfak、Ruchbah、Segin,,✓,,
+星座/星官,CON korean 100,Whip,,Chaek,,策,1,2599,,,,,
+星座/星官,CON korean 101,Officer for Chariot of,,WaangRaang,,王郞,5,4427 746 2920 3821 3179,Navi、Caph、Fulu、Achird、Shedar,,✓,,
+星座/星官,CON korean 102,Side Road,,BuRo,,附路,1,5434,,,,,
+星座/星官,CON korean 103,Armory,,Gyu,,奎宿,15,3881 4436 5447 5544 5586 6193 5742 5454 4463 3693 3031 3092 2912 2942 3231,Mirach,,✓,,
+星座/星官,CON korean 104,Southern Gate of Emperator,,GuunNaamMun,,軍南門,1,8796,Mothallah,,✓ 模糊對應（社團原文「Sourthern gate of emperotor」）,,
+星座/星官,CON korean 105,Outer Folding Screen,,WaeByeong,,外屏,7,8833 7884 7007 5737 4906 3786 2548,Revati、Kuton I,,,,
+星座/星官,CON korean 106,Toilet of Sky,,CheonHoun,,天溷,5,6061 4147 2762 4914 5951,,,,,
+星座/星官,CON korean 107,Architect,,SaaGong,,司空,1,3419,Diphda,,✓,,
+星座/星官,CON korean 108,Emperator,,CheonJaangGuun,,天將軍,10,10340 9640 7513 6813 7607 8068 9977 10064 10670 12086,Almach、Titawin、Nembus、Mizan,,✓,,
+星座/星官,CON korean 109,Watchtower,,Ruu,,婁宿,3,9884 8903 8832,Hamal、Sheratan、Mesarthim,,✓,,
+星座/星官,CON korean 110,Left Elm,,JwaGyeong,,左更,5,12332 10306 10732 10155 10328,,,,,
+星座/星官,CON korean 111,Right Elm,,UuGyeong,,右更,5,9110 7447 7097 7535 7740,Alpherg,,,,
+星座/星官,CON korean 112,Storehouse of Sky,,CheonChang,,天倉,6,1562 5364 6537 8645 8102 9347,Deneb Kaitos Shemali、Dheneb、Al Naymat I、Baten Kaitos、Al Naymat II、Al Naymat III,,✓,,
+星座/星官,CON korean 113,Stack of Cereals,,CheonYu,,天庾,3,8209 7679 6960,,,,,
+星座/星官,CON korean 114,Ship of Sky,,CheonSeon,,天船,9,19949 20070 19812 19343 17358 16826 15863 14328 13268,Mirfak、Miram,,✓,,
+星座/星官,CON korean 115,Store of Water,,JeokSuu,,積水,1,19167,,,,,
+星座/星官,CON korean 116,Mausoleum,,DaeReung,,大陵,8,9505 13531 14632 14668 14576 14354 13254 12623,Misam、Algol、Gorgonea Tertia,,✓,,
+星座/星官,CON korean 118,Stomach of Tiger,,Wii,,胃宿,3,13209 13061 12719,Bharani、Lilii Borea、Barani II,,,,
+星座/星官,CON korean 119,Store of Millet for,,CheonReum,,天廩,4,16369 16322 16083 15900,,,,,
+星座/星官,CON korean 120,Storehouse for Cereals,,CheonGyun,,天囷,13,13954 12828 11484 10324 9487 9589 10305 11791 12387 12706 14135 15457 16852,Menkar、Al Kaff al Jidhmah II、Al Kaff al Jidhmah I、Alrescha、Al Kaff al Jidhmah III、Kaffaljidhma,,✓,,
+星座/星官,CON korean 121,Whetstone,,RyeoSeok,,礪石,4,20354 21476 22453 22678,,,,,
+星座/星官,CON korean 122,Rolled Tongue,,GwonSeol,,卷舌,6,17529 18532 18614 18246 17448 17313,Menkib、Atik,,✓,,
+星座/星官,CON korean 123,Shaman of Sky,,CheonCham,,天讒,1,17886,,,,,
+星座/星官,CON korean 124,Ear and Eye of,,Myo,,昴宿,7,17847 17702 17608 17499 17573 17531 17489,Atlas、Alcyone、Merope、Electra、Maia、Taygeta、Celaeno,,✓,,
+星座/星官,CON korean 125,Moon,,Wol,,,1,19038,,,,,
+星座/星官,CON korean 126,Hill of Sky,,CheonAa,,天阿,1,21881,,,✓,,
+星座/星官,CON korean 127,Conspiracy of Sky,,CheonEum,,天陰,5,19799 20522 19740 19860 19719,,,,,
+星座/星官,CON korean 128,Fodder,,ChuuGo,,芻蒿,4,12107 12390 11345 11783,Sadr al Kaitos III、Sadr al Kaitos I、Sadr al Kaitos II,,,,
+星座/星官,CON korean 129,Hill of Sky,,Cheonwon,,天阿,14,21248 21393 20535 20042 17874 17797 17351 16870 15510 13847 12486 11477 13147 14879,Beemim、Theemin、Beemim I、Acamar、Dalim,,,,
+星座/星官,CON korean 130,Garage for Chariot,,OoGeo,,五車,5,28360 24608 23015 25428 28380,Menkalinan、Capella、Hassaleh、Elnath、Mahasim,,✓,,
+星座/星官,CON korean 131,Pond for Fish,,HaamJii,,咸池,3,25048 24813 24340,Alhiba II、Alhiba I,,,,
+星座/星官,CON korean 132,Pillar,,Ju,,柱,3,23767 23416 23453,Haedus、Almaaz、Saclateni,,✓,,
+星座/星官,CON korean 133,Pillar,,Ju,,柱,3,27673 27639 27483,,,,,
+星座/星官,CON korean 134,Pillar,,Ju,,柱,3,25984 26536 25492,,,,,
+星座/星官,CON korean 135,Puddle of Sky,,CheonHwang,,天潢,5,24879 24575 24799 24727 24504,,,,,
+星座/星官,CON korean 136,Kings,,JaeWaang,,諸王,6,17954 19171 20250 20430 23088 23900,Alkalbain I、Alkalbain II,,,,
+星座/星官,CON korean 137,Gateway of Sky,,CheonGwan,,天關,1,26451,Tianguan,,✓,,
+星座/星官,CON korean 138,Flage of Saam,,SaamGii,,參旗,9,23607 22957 22833 22845 22509 22449 22549 22797 23123,Al Kumm II、Manica、Al Taj IV、Al Taj I、Tabit、Al Taj II、Al Taj III、Al Taj V,,✓,,
+星座/星官,CON korean 139,Village of Sky,,CheonGa,,天街,2,20711 19990,Alkalbain V,,,,
+星座/星官,CON korean 140,Belvedere of Sky,,CheonGo,,天高,4,26777 25945 25278 25555,The Ruby Star,,,,
+星座/星官,CON korean 141,General of Border,,Piil,,畢宿,9,20889 20648 20455 20205 18724 20713 21029 21421 21683,Ain、Secunda Hyadum、Prima Hyadum、Aldebaran,,✓,,
+星座/星官,CON korean 142,Celebration of Sky,,CheonJeol,,天節,7,21273 20732 20219 20901 21589 21402 21670,,,,,
+星座/星官,CON korean 143,Flag of Emperor,,GuuYuu,,九斿,8,23166 22881 22479 22325 22263 22028 21763 22086,,,,,
+星座/星官,CON korean 144,Nine Territory,,GuJuJuGu,,九州殊口,9,22109 22701 22024 21297 19849 19587 20507 21444 21547,Keid、Beid,,,,
+星座/星官,CON korean 145,Garden of Sky,,CheonWon,,天園,15,18543 17593 17378 16537 15197 13701 12770 12843 13288 14146 15474 16611 17651 18216 18673,Zaurak、Rana、Ran、Zibal、Azha、Sadr al Kaitos IV、Angetenar,,✓,,
+星座/星官,CON korean 146,Settled Flag,,JwaGii,,座旗,8,29696 28237 27830 27468 26248 25539 24822 23497,,,,,
+星座/星官,CON korean 147,Forcast Calamity,,SaaGwae,,司怪,3,29650 28716 27913,,,,,
+星座/星官,CON korean 148,Scout of Three Troups,,Zaa,,觜宿,2,30122 30277,Furud,,✓,,
+星座/星官,CON korean 149,Saam,,,,參宿,7,27989 26727 26311 25930 24436 25336 27366,Betelgeuse、Alnitak、Alnilam、Mintaka、Rigel、Bellatrix、Saiph,,✓,,
+星座/星官,CON korean 150,Expeditionary Force,,Beol,,伐,4,26311 26237 26221 26241,Alnilam、Mizan Batil I、Becklin's Star、Hatysa,,✓ 模糊對應（社團原文「Exepeditionary force」）,,
+星座/星官,CON korean 151,Well for Millitary,,GuunJeong,,軍井,4,24244 24327 24845 24873,,,,,
+星座/星官,CON korean 152,Well of Jade,,OkJeong,,玉井,4,24674 23875 23364 23972,Cursa、Kursi al Jauzah I、Kursi al Jauzah II,,✓,,
+星座/星官,CON korean 153,Folding Screen,,Byeong,,屏,2,24305 23685,,,✓,,
+星座/星官,CON korean 154,Toilet,,Cheuk,,廁,4,25985 25606 27072 27654,Arneb、Nihal、Kursi al Jabbar、Arsh al Jauzah,,✓,,
+星座/星官,CON korean 155,Arrow,,Shii,,天矢,1,25859,,,,,
+星座/星官,CON korean 156,Piled Brushwood,,JeokShin,,積薪,1,37265,Jishui,,,,
+星座/星官,CON korean 157,Store of Water,,JeokSuu,,積水,1,36145,,,,,
+星座/星官,CON korean 158,Northern River,,BuukHa,,北河,3,37826 36850 36366,Pollux、Castor,,✓,,
+星座/星官,CON korean 159,Five Lords,,OJeHuu,,五諸侯,5,37740 36962 36046 34693 33018,,,,,
+星座/星官,CON korean 160,Wine Glass of Sky,,CheonJuun,,天樽,3,35550 37908 36760,Wasat,,,,
+星座/星官,CON korean 161,Eastern Well,,DongJeong,,東井,9,35350 34088 32921 32246 30883 30343 31681 32362 29655,Mekbuda、Mebsuta、Nucatai、Tejat、Alhena、Alzirr、Propus,,✓,,
+星座/星官,CON korean 162,Flood control,,SuuBuu,,水府,4,29704 29434 29038 29426,,,,,
+星座/星官,CON korean 163,Balance of Water,,SuuWii,,水位,1,40526,Tarf,,,,
+星座/星官,CON korean 164,Four Spirit of River,,SaaDok,,四瀆,4,33202 31978 31216 30419,,,,,
+星座/星官,CON korean 165,Southern River,,NamHa,,南河,3,37279 36188 36284,Procyon、Gomeisa,,✓,,
+星座/星官,CON korean 166,Twin Gate,,GwolGu,,闕丘,2,39311 34769,,,,,
+星座/星官,CON korean 167,Bow,,Ho,,弧,8,37819 34444 38901 36377 35264 35904 38170 39906,Wezen、Aludra、Azmidi,,✓,,
+星座/星官,CON korean 168,Star of Wolf,,RangSeong,,狼星,1,32349,Sirius,,✓,,
+星座/星官,CON korean 169,Wild Fowls,,YaGae,,野鷄,1,30324,Mirzam,,✓,,
+星座/星官,CON korean 170,Market for Army,,GuunShii,,軍市,8,31592 31827 31084 30457 28910 28816 29048 29941,,,,,
+星座/星官,CON korean 171,Grandchildren,,Soun,,孫,2,33579 32759,Adhara,,✓,,
+星座/星官,CON korean 172,Son,,Za,,子,3,26207 26176 26366,Meissa、Heka,,,,
+星座/星官,CON korean 173,Grown-up,,Zaang_iin,,丈人,2,26634 27628,Phact、Wazn,,✓,,
+星座/星官,CON korean 174,Oldman,,Noin,,老人,1,30438,Canopus,,✓,,
+星座/星官,CON korean 175,Beacon,,Gwan,,爟,4,43103 43834 44818 44154,Zubanah,,,,
+星座/星官,CON korean 176,Eye of Sky,,Kwii,,鬼宿,4,42806 42911 41822 41909,Asellus Borealis、Asellus Australis,,,,
+星座/星官,CON korean 177,Pile of Dead,,JeokShii,,積尸,1,42516,,,,,
+星座/星官,CON korean 178,Green Ridge,,CheonGu,,靑丘,7,51849 51232 50371 51576 52468 53253 52742,,,✓,,
+星座/星官,CON korean 179,Outer Kitchen,,WaeJuu,,外廚,6,41307 39863 39079 38474 37901 37447,,,,,
+星座/星官,CON korean 180,Dog of Sky,,CheonGu,,天狗,3,30772 30867 29651,,,,,
+星座/星官,CON korean 181,Spirit of GuRyoung,,CheonSa,,天社,6,39953 42570 42913 45941 41037 44816,Regor、Alsephina、Markeb、Avior、Suhail,,,,
+星座/星官,CON korean 182,Flag of Wine Officer,,JuuGii,,酒旗,3,44066 44798 45410,Acubens,,,,
+星座/星官,CON korean 183,Officer of Kitchen,,Ryu,,柳宿,8,45336 44659 43813 43109 42313 42402 42799 43234,Minazal V、Ashlesha、Minazal I、Minchir、Minazal II、Minazal IV,,✓,,
+星座/星官,CON korean 184,Equality and Fair,,NaePyeong,,內平,4,48833 47029 49593 46952,,,,,
+星座/星官,CON korean 185,Emperor HeonWon,,HeonWon,,軒轅,17,41075 43531 44248 44700 45688 45860 46146 46750 47908 48455 50335 50583 49583 49669 47508 51624 49637,Alsciaukat、Al Minlear al Asad、Alterf、Algenubi、Rasalas、Adhafera、Algieba、Al Jabhah、Regulus、Subra,,✓,,
+星座/星官,CON korean 186,Capital of Sky,,Seong,,星宿,7,47431 46776 46509 46404 46390 45811 45751,Ukdah、Ukdah II、Ukdah I、Alphard,,✓,,
+星座/星官,CON korean 187,Chief of Farming,,Jiik,,稷,5,43409 42828 46651 42312 39429,Naos,,✓,,
+星座/星官,CON korean 188,Officer of Tomb,,Jaang,,張宿,7,52085 51069 49841 49402 48356 47452 48615,Zhang、Al Sharasif I、Felis,,,,
+星座/星官,CON korean 189,Tomb of Sky,,CheonMyo,,天廟,12,46880 46371 45902 44824 45001 46026 46578 47187 47758 48559 48584 47522,,,,,
+星座/星官,CON korean 190,Wing of Red Bird,,iik,,翼宿,19,55282 55705 54682 53740 52943 57283 54029 55687 56802 56633 58576 54204 54477 56280 51172 53502 55756 56922 57936,Al Sharasif、Alkes,,✓ 模糊對應（社團原文「Wing of read bird」）,,
+星座/星官,CON korean 191,Eastern Pottery,,DonGu,,東甌,5,52727 51986 51635 51561 50191,,,✓,,
+星座/星官,CON korean 192,Chariot of Emperor,,Jin,,軫宿,6,61359 60965 59803 59316 59199 61174,Kraz、Algorab、Gienah、Minkar、Alchiba,,✓,,
+星座/星官,CON korean 193,Sand for Life,,JangSaa,,長沙,2,60189 59316,Minkar,,✓ 模糊對應（社團原文「Sand of life」）,,
+星座/星官,CON korean 194,Gateway for Troops,,GuunMuun,,軍門,2,56480 55425,,,,,
+星座/星官,CON korean 195,Civil Engineer,,TouSaaGong,,土公,4,52419 54301 54751 54463,,,,,
+星座/星官,CON korean 196,Guardian Knight,,NangJaang,,郞將,1,63125,Cor Caroli,,✓,,
+星座/星官,CON korean 197,Three Steps,,SaamTae,,三台,6,44127 44471 50372 50801 55219 55203,Talitha、Alkaphrah、Tania Borealis、Tania Australis、Alula Borealis、Alula Australis,,✓ 模糊對應（社團原文「Three step」）,,
+星座/星官,CON korean 198,Five Feudal Lords,,OZehu,,五諸侯,5,59819 60202 61418 62886 64394,,,,,
+星座/星官,CON korean 199,SangJiin,,,,常陳,6,61394 60941 60746 60742 60351 59847,Al Dafirah,,,,
+星座/星官,CON korean 200,Low Fence,,SoMii,,少微,4,53954 53417 52098 51233,,,,,
+星座/星官,CON korean 201,Tall Fence,,TaeMi,,太微垣,5,54872 54879 55642 55434 57757,Zosma、Chertan、Zavijava,,✓,,
+星座/星官,CON korean 202,Tall Fence,,TaeMi,,太微垣,5,64241 63608 63090 61941 60129,Diadem、Vindemiatrix、Minelauva、Porrima、Zaniah,,,,
+星座/星官,CON korean 203,Nine Lords,,GuGyeong,,九卿,3,63355 62807 62356,,,,,
+星座/星官,CON korean 204,Dung of Tiger,,HoBuun,,虎賁,1,54951,Zubrah,,,,
+星座/星官,CON korean 205,Crown Prince,,TeaJaa,,太子,1,57565,,,,,
+星座/星官,CON korean 206,Chamberlain,,JongGwan,,從官,1,56975,,,,,
+星座/星官,CON korean 207,Five Emperor,,OJe,,五帝座,2,57632 58159,Denebola,,✓,,
+星座/星官,CON korean 208,Folding Screen,,Byeong,,屏,4,58948 58590 57380 57328,,,,,
+星座/星官,CON korean 209,Three Minister,,SaamGongNaeJwa,,三公,3,62325 61960 62267,,,,,
+星座/星官,CON korean 210,Officer for Audience,,AlZaa,,謁者,1,60172,,,,,
+星座/星官,CON korean 211,Grave Front,,MyeongDang,,明堂,3,56647 56127 55084,,,,,
+星座/星官,CON korean 212,Observatory,,YeongDae,,靈臺,3,54182 53807 53907,,,,,
+星座/星官,CON korean 213,Female Officer,,YeoEoGwan,,女御,4,80480 81854 79822 78661,,,,,
+星座/星官,CON korean 214,Wide Lodging Area,,JeonSaa,,傳舍,7,9598 115088 113864 112724 108917 105199 102422,Kurhah、Alderamin、Kabalfird,,✓,,
+星座/星官,CON korean 215,Eight Cereals,,PalGok,,八穀,8,22783 29997 33449 28358 25197 23522 23040 23783,,,,,
+星座/星官,CON korean 216,Advance Guard,,CheonBae,,天棓,5,87585 85819 85670 87833 86414,Grumium、Rastaban、Eltanin,,✓,,
+星座/星官,CON korean 217,Three Ministers,,SamGong,,三公,3,66234 64906 65550,,,,,
+星座/星官,CON korean 218,Three Ministers,,SamGong,,三公,3,52353 51448 50933,,,,,
+星座/星官,CON korean 219,Northern Dipper,,BukDuu,,北斗,7,67301 65378 62956 59774 58001 53910 54061,Alkaid、Mizar、Alioth、Megrez、Phecda、Merak、Dubhe,,✓,,
+星座/星官,CON korean 220,Helper,,Bo,,攝提,1,65477,Alcor,,,,
+星座/星官,CON korean 221,Virtue,,EumDeok,,陰德,2,74605 73199,,,,,
+星座/星官,CON korean 222,Emperor's God of War,,Cheon_iil,,天一,1,61384,,,,,
+星座/星官,CON korean 223,Emperor's God of Weather,,Tae_iil,,太一,1,60998,,,,,
+星座/星官,CON korean 224,Inner Kitchen,,NaeJuu,,內廚,2,63432 63076,Taiyi,,,,
+星座/星官,CON korean 225,Flap of Flag,,HyeonGwa,,玄戈,1,73555,Nekkar,,,,
+星座/星官,CON korean 226,Minister,,Saang,,相,1,57399,Taiyangshou,,,,
+星座/星官,CON korean 227,General and Minister,,TaeYaangSuu,,太陽守,1,54539,,,✓,,
+星座/星官,CON korean 228,Jail of Sky,,CheonRyoe,,天理,6,53043 53261 52136 51459 51814 52478,,,,,
+星座/星官,CON korean 229,Six Department,,MunChang,,文昌,7,41704 45075 46733 48319 48402 46853 44901,Muscida、Alhaud II、Alhaud IV、Alhaud VI、Alhaud VII、Alhaud V、Alhaud I,,✓,,
+星座/星官,CON korean 230,Inner Stairway,,NaeGae,,內階,6,47594 46977 45038 44390 42527 42080,Althiba VII、Althiba VI、Althiba IV、Althiba III,,,,
+星座/星官,CON korean 231,Spear of Sky,,CheonChang,,天槍,3,69713 70497 69483,Asellus Secundus、Asellus Primus、Asellus Tertius,,,,
+星座/星官,CON korean 232,Cover for Emperor,,HwaGae,,華蓋,7,107119 108535 106032 109400 111532 114222 116727,Alfirk、Al Aghnam II、Errai,,✓,,
+星座/星官,CON korean 233,Place for Five Emperor,,OJeJwa,,五帝内座,5,94648 92056 89937 92782 92112,Athafi II、Alahakan、Athafi I,,,,
+星座/星官,CON korean 234,60 Years,,YuukGaap,,六甲,1,99255,Al Aghnam I,,,,
+星座/星官,CON korean 235,Kitchen of Sky,,CheonJu,,天廚,5,95081 98702 97433 96100 94376,Tais I、Tais II、Tyl、Alsafi、Altais,,✓,,
+星座/星官,CON korean 236,North Pole,,BukGeuk,,北極,5,75097 72607 70692 69112 62572,Pherkad、Kochab,,✓,,
+星座/星官,CON korean 237,Wound Lodge,,GuJiin,,勾陳,6,112519 5372 11767 85822 82080 77055,Polaris、Yildun、Circitores、Akfa Farkadain,,✓,,
+星座/星官,CON korean 238,Single-log Bridge,,Gaang,,杠,7,102208 100965 102599 104756 105727 104105 104968,,,,,
+星座/星官,CON korean 239,Great Emperor,,CheonHwangTaeJae,,天皇,1,113116,,,,,
+星座/星官,CON korean 240,Officer for Opinion,,SaangSeo,,尙書,5,75974 77277 75260 75256 75696,,,,,
+星座/星官,CON korean 241,Pillar of Sky,,CheonJu,,天柱,5,79414 79867 80161 78893 80650,,,,,
+星座/星官,CON korean 242,Secretary,,JuHaSa,,柱下史,1,86614,Dziban,,,,
+星座/星官,CON korean 243,Maid,,YeoSa,,女史,1,87728,,,,,
+星座/星官,CON korean 244,Desk of Woman,,YeoSaang,,女床,3,85112 84606 84380,,,✓ 模糊對應（社團原文「Desk of women」）,,
+星座/星官,CON korean 245,Judge Prison,,DaeRii,,天理,3,57477 58181 56035,,,,,
+星座/星官,CON korean 246,Purple Fence,,JaMi,,紫微垣,7,89908 86201 83895 80331 78527 75458 68756,Aldhiba、Aldhibah、Athebyne、Edasich、Thuban,,✓,,
+星座/星官,CON korean 247,Purple Fence,,JaMi,,紫微垣,6,61281 56211 52425 47654 33694 25110,Giausar,,,,
+星座/星官,CON korean 248,Order of Sky,,CheonGii,,天紀,9,90191 89826 88836 89172 87998 87933 86974 85693 84379,Al Athfar、Maasym、Sarin,,✓,,
+星座/星官,CON korean 249,Seven Minister,,ChilGong,,七公,7,81833 81126 79992 79101 77760 75411 74666,Alkalurops、Thiba,,,,
+星座/星官,CON korean 250,Thread Straw,,GwanSak,,貫索,7,78493 78159 77512 76952 76267 75695 76127,Alphecca、Nusakan,,✓,,
+星座/星官,CON korean 251,Market Fence,,CheonShi,,天市垣,11,84012 86263 88048 89962 91975 92946 93747 92043 90139 88886 88267,Sabik、Alya、Okab,,✓,,
+星座/星官,CON korean 252,Market Fence,,CheonShi,,天市垣,11,80816 80170 79043 78072 77233 76276 77070 77622 79593 79882 81377,Kornephoros、Nasak Shamiya III、Marsic、Nasak Shamiya II、Nasak Shamiya I、Nasak Yamani I、Unukalhai、Nasak Yamani II、Yed Prior、Yed Posterior、Saik,,,,
+星座/星官,CON korean 253,Feudal Lord,,Huu,,侯,1,86032,Rasalhague,,✓,,
+星座/星官,CON korean 254,Seat for Emperor,,JaeJwa,,帝座,1,84345,Rasalgethi,,✓,,
+星座/星官,CON korean 255,Royal Family,,JongSeong,,宗星,2,88771 88765,,,,,
+星座/星官,CON korean 256,Head of Family,,JongJeong,,宗正,2,86742 87108,Cebalrai、Muliphen,,✓,,
+星座/星官,CON korean 257,Record of Family,,Jong_iin,,宗人,4,88149 88601 88290 88192,,,,,
+星座/星官,CON korean 258,Officer for Family,,JongDaeBuu,,宗大夫,4,91217 91237 89918 89772,,,,,
+星座/星官,CON korean 259,Tower in Market,,ShiRuu,,市樓,6,84402 83962 86284 85922 85365 84880,,,,,
+星座/星官,CON korean 260,Measure Cereal,,Gok,,斛,4,80883 80179 79488 80351,Marfik,,,,
+星座/星官,CON korean 261,Cereal Measure Regulation,,Duu,,斗宿,5,83000 82673 82073 82402 82216,,,✓,,
+星座/星官,CON korean 262,Eunuch,,HwanJaa,,勢,4,84671 84177 83613 83430,,,,,
+星座/星官,CON korean 263,Officer for Chariots,,GeoSaa,,車肆,2,84514 82369,,,,,
+星座/星官,CON korean 264,Measure Amount,,BaekTaak,,帛度,2,90067 88899,,,,,
+星座/星官,CON korean 265,Butchery,,DoSaa,,屠肆,2,93244 92161,Deneb al Okab Borealis,,,,
+星座/星官,CON korean 266,Officer for Jewel,,YeolSaa,,列肆,2,80463 81008,Cujam,,,,
+星座/星官,CON korean 267,Royal,,JwaHaal,,左轄,1,61174,,,,,
+星座/星官,CON korean 268,Lord,,UuHaal,,右轄,1,59199,Alchiba,,,,
+星座/星官,CON korean 269,Left Executor,,JwaJipBeop,,左執法,1,60129,Zaniah,,,,
+星座/星官,CON korean 270,Right Executor,,UuJipBeop,,右執法,1,57757,Zavijava,,,,
+星座/星官,CON korean 271,Crossbeam for Heo,,HeoRyang,,虛梁,4,110532 110273 110009 109472,,,,,
+星座/星官,CON korean 272,Threading Coins,,CheonJeon,,天錢,7,109786 110391 110746 110529 109990 109737 109375,,,,,
+具名恆星,HIP 78820,,,SangSang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Acrab,,,,
+具名恆星,HIP 78401,,,ChaSang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Dschubba,,,,
+具名恆星,HIP 78265,,,ChaJang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Fang,,,,
+具名恆星,HIP 78104,,,ChaSang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Iklil,,,,
+具名恆星,HIP 97278,,,UJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Tarazed,,,,
+具名恆星,HIP 97649,,,DaeJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Altair,,,,
+具名恆星,HIP 98036,,,JwaJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alshain,,,,
+具名恆星,HIP 746,,,WangRang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Caph,,,,
+具名恆星,HIP 4427,,,CheonSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Navi,,,,
+具名恆星,HIP 3821,,,CheonSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Achird,,,,
+具名恆星,HIP 3179,,,CheonSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Shedar,,,,
+具名恆星,HIP 2920,,,CheonSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Fulu,,,,
+具名恆星,HIP 21421,,,CheonGou,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Aldebaran,,,,
+具名恆星,HIP 28360,,,SaGong,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Menkalinan,,,,
+具名恆星,HIP 28380,,,CheonOk,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Mahasim,,,,
+具名恆星,HIP 25428,,,CheonChang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Elnath,,,,
+具名恆星,HIP 24608,,,CheonGou,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Capella,,,,
+具名恆星,HIP 23015,,,Gyeong,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Hassaleh,,,,
+具名恆星,HIP 27989,,,JwaJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Betelgeuse,,,,
+具名恆星,HIP 27366,,,HuJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Saiph,,,,
+具名恆星,HIP 25336,,,UJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Bellatrix,,,,
+具名恆星,HIP 24436,,,PyeonJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Rigel,,,,
+具名恆星,HIP 25930,,,SamJangGun,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Mintaka,,,,
+具名恆星,HIP 37740,,,TaeSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 37740,,,,
+具名恆星,HIP 36962,,,BakSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 36962,,,,
+具名恆星,HIP 36046,,,SamGong,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 36046,,,,
+具名恆星,HIP 34693,,,JaeUu,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 34693,,,,
+具名恆星,HIP 33018,,,JaeSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 33018,,,,
+具名恆星,HIP 49669,,,YeoJu,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Regulus,,,,
+具名恆星,HIP 49637,,,YeoEo,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 49637,,,,
+具名恆星,HIP 47508,,,TaeMin,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Subra,,,,
+具名恆星,HIP 51624,,,SouMin,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 51624,,,,
+具名恆星,HIP 49583,,,Buin,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Al Jabhah,,,,
+具名恆星,HIP 50583,,,WangBi,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Algieba,,,,
+具名恆星,HIP 50335,,,HuGung,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Adhafera,,,,
+具名恆星,HIP 57632,,,HwangJae,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Denebola,,,,
+具名恆星,HIP 53954,,,CheoSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 53954,,,,
+具名恆星,HIP 53417,,,EuiSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 53417,,,,
+具名恆星,HIP 52098,,,BakSa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 52098,,,,
+具名恆星,HIP 51233,,,DaeBu,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 51233,,,,
+具名恆星,HIP 44127,,,SangTae,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Talitha,,,,
+具名恆星,HIP 50372,,,JungTae,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Tania Borealis,,,,
+具名恆星,HIP 55219,,,HaTae,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alula Borealis,,,,
+具名恆星,HIP 75097,,,TaeJa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Pherkad,,,,
+具名恆星,HIP 72607,,,JaeWang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Kochab,,,,
+具名恆星,HIP 70692,,,SeoJa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 70692,,,,
+具名恆星,HIP 60112,,,HuGung,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 60112,,,,
+具名恆星,HIP 62572,,,CheonChu,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 62572,,,,
+具名恆星,HIP 41704,,,SangJang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Muscida,,,,
+具名恆星,HIP 45075,,,ChaJang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alhaud II,,,,
+具名恆星,HIP 46733,,,TaeSang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alhaud IV,,,,
+具名恆星,HIP 46853,,,SaJu.DaeRi,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alhaud V,,,,
+具名恆星,HIP 54061,,,Jeong,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Dubhe,,,,
+具名恆星,HIP 53910,,,Beop,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Merak,,,,
+具名恆星,HIP 58001,,,Ryeong,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Phecda,,,,
+具名恆星,HIP 59774,,,Beol,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Megrez,,,,
+具名恆星,HIP 62956,,,Sal,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alioth,,,,
+具名恆星,HIP 65378,,,Wi,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Mizar,,,,
+具名恆星,HIP 67301,,,Eung,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alkaid,,,,
+具名恆星,HIP 80763,,,MyeongDang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Antares,,,,
+具名恆星,HIP 81266,,,SeoJa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Paikauhale,,,,
+具名恆星,HIP 80112,,,TaeJa,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Alniyat,,,,
+具名恆星,HIP 82396,,,Hu,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Larawag,,,,
+具名恆星,HIP 82514,,,Buin,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Xamidimura,,,,
+具名恆星,HIP 82729,,,Buin,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 82729,,,,
+具名恆星,HIP 84143,,,Buin,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 84143,,,,
+具名恆星,HIP 86228,,,Bin,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Sargas,,,,
+具名恆星,HIP 5447,,,DaeJang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Mirach,,,,
+具名恆星,HIP 9640,,,DaeJang,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Almach,,,,
+具名深空天體/其他,NAME Pleiades,Heap of Corpse,,JeokShi,,積尸,,,Pleiades,,,,
+僅社團清單,,Winnow skirt of GuRyoung,,,,,,,,,✓（Stellarium 無對應）,,

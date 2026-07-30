@@ -1,0 +1,298 @@
+{
+ "episode": "A-05",
+ "outdir": "05_素材/A-05_日本月站",
+ "prefix": "月站",
+ "field": {
+  "center": [
+   24,
+   22
+  ],
+  "radius": 41,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    113963,
+    113881,
+    677,
+    9884,
+    17702
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "秋季六宿",
+   "color": "amber",
+   "split": true,
+   "source": {
+    "culture": "japanese_moon_stations",
+    "names": [
+     "Room",
+     "Wall",
+     "Stride",
+     "Hill",
+     "Stomach",
+     "Stopping Place"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "西方星座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Peg"
+   }
+  },
+  {
+   "type": "lines",
+   "name": "白羊座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Ari"
+   }
+  },
+  {
+   "type": "lines",
+   "name": "仙女座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "And"
+   }
+  },
+  {
+   "type": "dso",
+   "name": "昴宿星團",
+   "items": [
+    {
+     "id": "M 45"
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "繁中名",
+   "auto_from": "秋季六宿",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Room": {
+     "zh": "室宿",
+     "dx": -5,
+     "dy": 5.5,
+     "size": 19
+    },
+    "Wall": {
+     "zh": "壁宿",
+     "dx": 5,
+     "dy": -5,
+     "size": 19
+    },
+    "Stride": {
+     "zh": "奎宿",
+     "dx": 0,
+     "dy": 4.5,
+     "size": 19
+    },
+    "Hill": {
+     "zh": "婁宿",
+     "dx": 0,
+     "dy": -4.5,
+     "size": 19
+    },
+    "Stomach": {
+     "zh": "胃宿",
+     "dx": -4,
+     "dy": 4,
+     "size": 19
+    },
+    "Stopping Place": {
+     "zh": "昴宿",
+     "dx": 7,
+     "dy": -7.5,
+     "size": 19
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "日文名",
+   "optional": true,
+   "auto_from": "秋季六宿",
+   "auto_text": "po:ja",
+   "rename": {
+    "Room": {
+     "zh": "室(しつ)宿",
+     "dx": -5,
+     "dy": 5.5,
+     "size": 16
+    },
+    "Wall": {
+     "zh": "壁(へき)宿",
+     "dx": 5,
+     "dy": -5,
+     "size": 16
+    },
+    "Stride": {
+     "zh": "奎(けい)宿",
+     "dx": 0,
+     "dy": 4.5,
+     "size": 16
+    },
+    "Hill": {
+     "zh": "婁(ろう)宿",
+     "dx": 0,
+     "dy": -4.5,
+     "size": 16
+    },
+    "Stomach": {
+     "zh": "胃(い)宿",
+     "dx": -4,
+     "dy": 4,
+     "size": 16
+    },
+    "Stopping Place": {
+     "zh": "昴(ぼう)宿",
+     "dx": 7,
+     "dy": -7.5,
+     "size": 16
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "和名讀音",
+   "optional": true,
+   "auto_from": "秋季六宿",
+   "auto_text": "pronounce",
+   "rename": {
+    "Room": {
+     "dx": -5,
+     "dy": 5.5,
+     "size": 15
+    },
+    "Wall": {
+     "dx": 5,
+     "dy": -5,
+     "size": 15
+    },
+    "Stride": {
+     "dx": 0,
+     "dy": 4.5,
+     "size": 15
+    },
+    "Hill": {
+     "dx": 0,
+     "dy": -4.5,
+     "size": 15
+    },
+    "Stomach": {
+     "dx": -4,
+     "dy": 4,
+     "size": 15
+    },
+    "Stopping Place": {
+     "dx": 7,
+     "dy": -7.5,
+     "size": 15
+    }
+   }
+  }
+ ],
+ "disc_overlay": {
+  "disc": "both",
+  "lines": [
+   {
+    "color": "amber",
+    "lw": 2.0,
+    "source": {
+     "culture": "japanese_moon_stations"
+    }
+   }
+  ],
+  "label_sets": [
+   {
+    "name": "繁中",
+    "auto_text": "po:zh_TW",
+    "size": 11,
+    "rename": {
+     "Room": {
+      "zh": "室宿"
+     },
+     "Chamber": {
+      "zh": "房宿"
+     }
+    }
+   },
+   {
+    "name": "日文",
+    "auto_text": "po:ja",
+    "size": 10,
+    "rename": {
+     "Room": {
+      "zh": "室(しつ)宿"
+     },
+     "Chamber": {
+      "zh": "房(ぼう)宿"
+     }
+    }
+   },
+   {
+    "name": "和名",
+    "auto_text": "pronounce",
+    "size": 10
+   }
+  ]
+ },
+ "previews": [
+  {
+   "name": "繁中版",
+   "layers": [
+    "星點層",
+    "秋季六宿",
+    "昴宿星團",
+    "繁中名"
+   ]
+  },
+  {
+   "name": "日文版",
+   "layers": [
+    "星點層",
+    "秋季六宿",
+    "昴宿星團",
+    "日文名"
+   ]
+  },
+  {
+   "name": "和名版",
+   "layers": [
+    "星點層",
+    "秋季六宿",
+    "昴宿星團",
+    "和名讀音"
+   ]
+  },
+  {
+   "name": "西方對照",
+   "layers": [
+    "星點層",
+    "秋季六宿",
+    "西方星座",
+    "白羊座",
+    "仙女座",
+    "昴宿星團",
+    "繁中名"
+   ]
+  }
+ ]
+}

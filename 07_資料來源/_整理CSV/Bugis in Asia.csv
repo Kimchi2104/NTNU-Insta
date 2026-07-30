@@ -1,0 +1,50 @@
+﻿分類,Stellarium ID,英文名 English,原文名 Native,讀音 Pronounce,IPA,繁中譯名 zh_TW,星數,組成恆星 (HIP),對應國際星名,Stellarium 描述,社團清單,社團補充備註,參考文獻#
+星座/星官,CON bugis 001,Incomplete House,Bintoѐng Bola Kѐppang,,,不完整的房子,5,60718 62434 61084 59747 63003,Acrux、Mimosa、Gacrux、Imai,,✓,不完整的房子,
+星座/星官,CON bugis 002,Shark,Bintoѐng Balѐ Mangiwѐng,,,鯊魚,6,87261 85927 85696 86670 86228 85792,Fuyue、Shaula、Lesath、Mula、Sargas,Uncertain if the shark line figure is complete.,✓,鯊魚,
+星座/星官,CON bugis 003,Ray Fish,Bintoѐng Lambaruѐ,,,雷魚,10,78820 78401 78265 78104 80112 80763 81266 82396 82514 82729,Acrab、Dschubba、Fang、Iklil、Alniyat、Antares、Paikauhale、Larawag、Xamidimura,,✓,雷魚,
+星座/星官,CON bugis 004,Mandar Widow,Bintoѐng Balu Mandara',,,曼達寡婦,2,53910 54061,Merak、Dubhe,,✓,曼打寡婦,
+星座/星官,CON bugis 005,Ship,Bintoѐng Kappala'ѐ,,,船,5,58001 59774 62956 65378 67301,Phecda、Megrez、Alioth、Mizar、Alkaid,,✓,船,
+星座/星官,CON bugis 006,Ship,Bintoѐng Kappala'ѐ,,,船,10,58001 59774 62956 65378 67301 54539 53910 54061 72607 75097,Phecda、Megrez、Alioth、Mizar、Alkaid、Merak、Dubhe、Kochab、Pherkad,,,,
+星座/星官,CON bugis 007,Sign of Three,Tanra Tѐlluѐ,,,三的標誌,3,26727 26311 25930,Alnitak、Alnilam、Mintaka,,✓,三的標誌,
+星座/星官,CON bugis 008,Plough,Bintoéng Rakkalaé,,,犁,6,25336 25930 26311 26727 27366 24436,Bellatrix、Mintaka、Alnilam、Alnitak、Saiph、Rigel,,✓,犁,
+星座/星官,CON bugis 009,Widow Before Marriage,Bintoѐng Baluѐ,,,婚前寡婦,2,68702 71683,Hadar、Alpha Centauri,,✓,婚前寡婦,
+星座/星官,CON bugis 010,Chicken,Manu',,,雞,3,30438 32349 37279,Canopus、Sirius、Procyon,,✓,雞,
+星座/星官,CON bugis 011,Job’s Tears Stalk,Watang-mpata,,,約伯的眼淚莖,2,49669 57632,Regulus、Denebola,,✓,約伯的眼淚莖,
+星座/星官,CON bugis 012,Pushed Plough,Tékkoroso,,,推犁,3,10064 8796 10670,Mizan、Mothallah,This is marked as uncertain.,✓,推犁,
+具名恆星,HIP 80763,Lost Pleiad,,,,失落的昴宿星,,,Antares,,,,
+具名恆星,HIP 97649,Eastern Star,Bintoéng Timoro',,,東方之星,,,Altair,,,,
+具名恆星,HIP 21421,Burning Coal,Wara-wara,,,燒煤,,,Aldebaran,,,,
+具名恆星,HIP 24436,,Pajjѐkoѐ,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: 
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Rigel,,,,
+具名深空天體/其他,NAME Pleiades,Seven Stars / Cluster / Tuft,Bintoéng Pitu / Worong-porongngé / Worong-mpolong,,,七顆星 / 簇 / 簇絨,,,Pleiades,,,,
+具名深空天體/其他,NAME Coalsack Nebula,Goat,Bembé'é,,,山羊,,,Coalsack Nebula,,,,
+具名深空天體/其他,NAME Large Magellanic Cloud,Sign of the Bajau,Tanra Bajoé,,,巴瑤族的標誌,,,Large Magellanic Cloud,,,,
+具名深空天體,NAME Milky Way,,Bintoѐng Nagaѐ,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: 
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Milky Way,,,,
+具名深空天體/其他,NAME Venus,,Wari wariѐ / Bintoѐng Bawi,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: 
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+ / Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: 
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,Venus,,,,

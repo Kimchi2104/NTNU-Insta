@@ -1,0 +1,112 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Spanish (https://www.transifex.com/stellarium/teams/80998/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Tupi-Guarani"
+msgstr "Tupí-guaraní"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"Tupi-Guarani is a name given to a family of languages spoken by the indigenous\n"
+"peoples of Brazil and other South American countries."
+msgstr ""
+"Tupi-Guaraní es un nombre dado a una familia de idiomas hablados por los "
+"pueblos indígenas de Brasil y otros países sudamericanos."
+
+#. Sky culture description section in markdown format
+msgid ""
+"As with many cultures, constellations were identified and used to help keep\n"
+"track of the seasons and predict the seasonal variations which affect daily\n"
+"life. In the book _Histoire de la Mission de Pères Capucins en l'Isle de\n"
+"Maragnan et terres circonvoisines_, published in Paris, 1614, it is stated that\n"
+"the Tupi people identified some thirty constellations but the book only details\n"
+"seven."
+msgstr ""
+"Al igual que con muchas culturas, las constelaciones se identificaron y "
+"utilizaron para ayudar a realizar un seguimiento de las estaciones y "
+"predecir las variaciones estacionales que afectan la vida diaria. En el "
+"libro _Histoire de la Mission de Pères Capucins en l'Isle de Maragnan et "
+"terres circonvoisines_, publicado en París, 1614, se afirma que el pueblo "
+"tupí identificó una treintena de constelaciones, pero el libro solo detalla "
+"siete."
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: The Tupi People. [Wikipedia article](http://en.wikipedia.org/wiki/Tupi_people)\n"
+" - [#2]: The Brazilian Indigenous Constellations by Germano Bruno Afonso (Portugese). [PDF](http://www.telescopiosnaescola.pro.br/indigenas.pdf)"
+msgstr ""
+" - [#1]: El pueblo Tupi. [Artículo de Wikipedia](http://en.wikipedia.org/wiki/Tupi_people)\n"
+" - [#2]: Las constelaciones indígenas brasileñas por Germano Bruno Afonso (portugués). [PDF](http://www.telescopiosnaescola.pro.br/indigenas.pdf)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"This sky culture was contributed by Stellarium user _Paulo Marcelo Pontes_."
+msgstr ""
+"Esta cultura del cielo fue aportada por el usuario de Stellarium _Paulo "
+"Marcelo Pontes_."
+
+#. Sky culture license section in markdown format
+msgid "GNU GPL v2.0"
+msgstr "GNU GPL v2.0"
+
+#. Tupi-Guarani constellation, native: Guirá Nhandu
+msgid "White Ostrich"
+msgstr "Avestruz Blanco"
+
+#. Description of Tupi-Guarani constellation White Ostrich
+msgid ""
+"The Tupi name for this constellation is _Iandutim_ (_Guirá Nhandu_ in Guarani),\n"
+"which literally translates to _White Ostrich_. The constellation depicts a\n"
+"large bird.\n"
+"\n"
+"In the first two weeks of June this constellation is fully visible in the\n"
+"Eastern sky in the evening, indicating the beginning of Winter in the South of\n"
+"Brazil, and the start of the dry season in the North."
+msgstr ""
+"El nombre Tupi para esta constelación es _Iandutim_ (_Guirá Nhandu_ en guaraní), que se traduce literalmente como _Avestruz blanca_. La constelación representa un pájaro grande.\n"
+"\n"
+"En las dos primeras semanas de junio, esta constelación es totalmente visible en el cielo oriental por la noche, lo que indica el comienzo del invierno en el sur de Brasil y el comienzo de la estación seca en el norte."
+
+#. Tupi-Guarani constellation, native: Tuivae
+msgid "Old Man"
+msgstr "Hombre Viejo"
+
+#. Description of Tupi-Guarani constellation Old Man
+msgid ""
+"This constellation depicts an old man holding a stick.\n"
+"\n"
+"In the second half of December, the constellation is fully visible in the\n"
+"Eastern evening sky. This marks the beginning of summer in the southern parts\n"
+"of Brazil and the start of the rainy season in the North."
+msgstr ""
+"Esta constelación muestra a un anciano sosteniendo un palo.\n"
+"\n"
+"En la segunda quincena de diciembre, la constelación es completamente visible en el cielo oriental de la tarde. Esto marca el comienzo del verano en el sur de Brasil y el comienzo de la temporada de lluvias en el norte."
+
+#. Tupi-Guarani constellation, native: Tapi'i
+msgid "Northern Tapir"
+msgstr "Tapir del norte"
+
+#. Tupi-Guarani constellation
+msgid "Deer"
+msgstr "Ciervo"
+
+#. Tupi-Guarani constellation
+msgid "Joykexo"
+msgstr "Joykexo"
+
+#. Tupi-Guarani constellation, native: Eixu
+msgid "Hornet"
+msgstr "Avispón"
+
+#. Tupi-Guarani constellation, native: Tapi'i rainhyka
+msgid "Tapir's Jaw"
+msgstr "Mandíbula de Tapir"

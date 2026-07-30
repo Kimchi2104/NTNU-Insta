@@ -1,0 +1,146 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Russian (https://www.transifex.com/stellarium/teams/80998/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Norse"
+msgstr "Скандинавская"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"The norse culture is considered as originally North Germanic. The pre-Christian\n"
+"Scandinavian folklore with Odin as main god was transformed into a Christian\n"
+"culture."
+msgstr ""
+"Норвежская культура считается изначально северогерманской. Дохристианский "
+"скандинавский фольклор с главным богом Одином был преобразован в "
+"христианскую культуру."
+
+#. Sky culture description section in markdown format
+msgid ""
+"Hardly anything is known about the Norse constellations. There are only few\n"
+"sources allowing to reconstruct some ideas of these people's cosmology and\n"
+"mythology, and only few constellations are possibly known.\n"
+"\n"
+"In Beckman and Kålund’s compilation [#7] of Rimtöl (rhymes of time) they\n"
+"present five constellations that appear to have the old norse names:\n"
+"\n"
+"| norse name | translation | identification |\n"
+"| -----------|-------------|----------------|\n"
+"| Ulf's Keptr | Mouth of the Wolf | Hyades |\n"
+"| Fiskikarlar | Fishermen, Orion’s | belt |\n"
+"| Kvennavagn | Woman's chariot | Ursa Minor |\n"
+"| Karlvagn | Man's chariot | The big dipper |\n"
+"| Asar Bardagi | The Asar Battlefield |  Auriga |\n"
+"|   | Aurvandil's Toe | Corona Borealis |\n"
+"\n"
+"Some star names:\n"
+"\n"
+"| norse name | translation | identification |\n"
+"|----------|-----------|---------|\n"
+"| Dagstjarna | Day star | Arcturus |\n"
+"| Leidarstjarna  | Guiding star | Polaris  |\n"
+"| Sudrstjarna  | South star |  Vega  |"
+msgstr ""
+"О скандинавских созвездиях почти ничего не известно. Существует всего несколько источников, позволяющих реконструировать некоторые идеи космологии и мифологии этих людей, и, возможно, известно лишь несколько созвездий.\n"
+"\n"
+"В сборнике Бекмана и Колунда [#7] о Римтоле (стихотворения времени) они представляют пять созвездий, которые, кажется, имеют старые скандинавские имена:\n"
+"\n"
+"| скандинавское имя | перевод | идентификация |\n"
+"|-------------|---------------|------------------|\n"
+"| Ульф Кептр | Пасть волка | Гиады |\n"
+"| Фискикарлар | Рыбаки Ориона | ремень |\n"
+"| Квеннавагн | Женская колесница | Малая Медведица |\n"
+"| Карлвань | Мужская колесница | Большая Медведица |\n"
+"| Асар Бардаги | Поле битвы Асар | Аурига |\n"
+"| | Палец ноги Аурвандила | Корона Бореалис |\n"
+"\n"
+"Некоторые звёздные имена:\n"
+"\n"
+"| скандинавское имя | перевод | идентификация |\n"
+"|------------|-------------|-----------|\n"
+"| Дагстярна | Дневная звезда | Арктур |\n"
+"| Лейдарстярна | Путеводная звезда | Полярис |\n"
+"| Судрстъярна | Южная звезда | Вега |"
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: Roslund Curt, Stjärn-Oddi: En vikingatida astronom på Island, Astronomisk årsbok, s 28, 1984 (in Swedish)\n"
+" - [#2]: Beckman, N. and Kålund, Kr. (1914-16). Alfræði íslenzk: Islandsk encyklo-pædisk litteratur: II. Rímtöl \\[Encyclopaedic literature on the calendar\\]. s 48-53 (in Swedish).\n"
+" - [#3]: Richard Hinckley Allen, Star Names; Their lore and meaning\n"
+" - [#4]: Saxo Grammaticus, ”Gesta danorum\" (In Latin)\n"
+" - [#5]: Rudolf Simek, The Dictionary of Northen Mythology\n"
+" - [#6]: Jan de Vries, Altgermanische Religionsgeschichte (in German)\n"
+" - [#7]: Beckman, N. and Kålund, Kr. (1914-16). Alfræði íslenzk: Islandsk encyklo-pædisk litteratur: II. Rímtöl \\[Encyclopaedic literature on the calendar\\]. s 72. (in Swedish)\n"
+" - [#8]: Gislason, K. Fire og fyrretyve for en stor Deel forhen utrykte Prøver af oldnordisk Sprog og Litteratur. (København: Gyldendalska bogh. 1860) (in Danish)\n"
+" - [#9]: [Norse Constellations](http://digitaliseducation.com/resources-norse.html)\n"
+" - [#10]: Norse Mythology: [article on Wikipedia](https://en.wikipedia.org/wiki/Norse_mythology)"
+msgstr ""
+" - [#1]: Roslund Curt, Stjärn-Oddi: En vikingatida astronom p Island, Astronomisk årsbok, с. 28, 1984 (на шведском)\n"
+" - [#2]: Бекман, Н. и Колунд, Кр. (1914-16). Alfræði íslenzk: Islandsk encyklo-pædisk litteratur: II. Римтол \\[Энциклопедическая литература по календарю\\]. с 48-53 (по шведски).\n"
+" - [#3]: Ричард Хинкли Аллен, Звездные Имена; Их знания и значение\n"
+" - [#4]: Saxo Grammaticus, «Gesta danorum» (на латыни)\n"
+" - [#5]: Рудольф Симек, Словарь северной мифологии\n"
+" - [#6]: Ян де Врис, Altgermanische Religionsgeschichte (на немецком языке)\n"
+" - [#7]: Бекман, Н. и Колунд, Кр. (1914-16). Alfræði íslenzk: Islandsk encyklo-pædisk litteratur: II. Римтол \\[Энциклопедическая литература по календарю\\]. с 72. (по-шведски)\n"
+" - [#8]: Гисласон К. Огонь фырретиве для эн-лор-деил за утренний срок действия. (Копенгаген: Gyldendalska Bogh. 1860) (на датском)\n"
+" - [#9]: [Norse Constellations](http://digitaliseducation.com/resources-norse.html)\n"
+" - [#10]: скандинавская мифология: [статья в Википедии](https://en.wikipedia.org/wiki/Norse_mythology)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"This sky culture was contributed by Stellarium user [Jonas Persson](mailto:jonas.persson@physics.org).\n"
+"Homepage [link](https://www.ntnu.edu/employees/jonas.persson).\n"
+"\n"
+"Description by Susanne M Hoffmann"
+msgstr ""
+"Эта небесная культура была предоставлена пользователем Stellarium [Йонасом Перссоном](mailto:jonas.persson@physics.org). Домашняя страница [ссылка](https://www.ntnu.edu/employees/jonas.persson).\n"
+"\n"
+"Описание Susanne M Hoffmann"
+
+#. Sky culture license section in markdown format
+msgid "CC BY-SA"
+msgstr "CC BY-SA"
+
+#. Norse constellation
+msgid "Aurvandil's Toe"
+msgstr "Палец Орвандила"
+
+#. Norse constellation
+msgid "Wolf's Mouth"
+msgstr "Волчья пасть"
+
+#. Norse constellation
+msgid "The Fishermen"
+msgstr "Рыбак"
+
+#. Norse constellation
+msgid "Woman's Cart"
+msgstr "Повозка женщины"
+
+#. Norse constellation
+msgid "Man's Cart"
+msgstr "Повозка мужчины"
+
+#. Norse constellation
+msgid "The Asar Battlefield"
+msgstr "Азарское поле битвы"
+
+#. Norse name for HIP 11767
+msgid "Guide Star"
+msgstr "Путеводная звезда"
+
+#. Norse name for HIP 69673
+msgid "Day Star"
+msgstr "Дневная звезда"
+
+#. Norse name for HIP 91262
+msgid "South Star"
+msgstr "Южная звезда"

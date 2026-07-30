@@ -1,0 +1,112 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Dutch (https://www.transifex.com/stellarium/teams/80998/nl/)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Tupi-Guarani"
+msgstr "Tupi-Guarani"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"Tupi-Guarani is a name given to a family of languages spoken by the indigenous\n"
+"peoples of Brazil and other South American countries."
+msgstr ""
+"Tupi-Guarani is een naam die wordt gegeven aan een talenfamilie die wordt "
+"gesproken door de inheemse volkeren van Brazilië en andere Zuid-Amerikaanse "
+"landen."
+
+#. Sky culture description section in markdown format
+msgid ""
+"As with many cultures, constellations were identified and used to help keep\n"
+"track of the seasons and predict the seasonal variations which affect daily\n"
+"life. In the book _Histoire de la Mission de Pères Capucins en l'Isle de\n"
+"Maragnan et terres circonvoisines_, published in Paris, 1614, it is stated that\n"
+"the Tupi people identified some thirty constellations but the book only details\n"
+"seven."
+msgstr ""
+"Zoals met veel culturen, werden sterrenbeelden geïdentificeerd en gebruikt "
+"om de seizoenen bij te houden en de seizoensvariaties te voorspellen die het"
+" dagelijks leven beïnvloeden. In het boek Histoire de la Mission de Pères "
+"Capucins en l'Isle de Maragnan et terres circonvoisines, gepubliceerd in "
+"Parijs, 1614, wordt vermeld dat het Tupi-volk zo'n dertig sterrenbeelden "
+"identificeerde, maar het boek vermeldt er slechts zeven."
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: The Tupi People. [Wikipedia article](http://en.wikipedia.org/wiki/Tupi_people)\n"
+" - [#2]: The Brazilian Indigenous Constellations by Germano Bruno Afonso (Portugese). [PDF](http://www.telescopiosnaescola.pro.br/indigenas.pdf)"
+msgstr ""
+" - [#1]: The Tupi People. [Wikipedia-artikel](http://en.wikipedia.org/wiki/Tupi_people)\n"
+" - [#2]: de Braziliaanse inheemse sterrenbeelden door Germano Bruno Afonso (Portugees). [PDF](http://www.telescopiosnaescola.pro.br/indigenas.pdf)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"This sky culture was contributed by Stellarium user _Paulo Marcelo Pontes_."
+msgstr ""
+"Deze hemelcultuur werd bijgedragen door Stellarium-gebruiker _Paulo Marcelo "
+"Pontes_."
+
+#. Sky culture license section in markdown format
+msgid "GNU GPL v2.0"
+msgstr "GNU GPL v2.0"
+
+#. Tupi-Guarani constellation, native: Guirá Nhandu
+msgid "White Ostrich"
+msgstr "Witte struisvogel"
+
+#. Description of Tupi-Guarani constellation White Ostrich
+msgid ""
+"The Tupi name for this constellation is _Iandutim_ (_Guirá Nhandu_ in Guarani),\n"
+"which literally translates to _White Ostrich_. The constellation depicts a\n"
+"large bird.\n"
+"\n"
+"In the first two weeks of June this constellation is fully visible in the\n"
+"Eastern sky in the evening, indicating the beginning of Winter in the South of\n"
+"Brazil, and the start of the dry season in the North."
+msgstr ""
+"De Tupi-naam voor dit sterrenbeeld is _Iandutim_ (_Guirá Nhandu_ in Guarani), wat zich letterlijk vertaalt naar _White Ostrich_. Het sterrenbeeld stelt een grote vogel voor.\n"
+"\n"
+"In de eerste twee weken van juni is dit sterrenbeeld 's avonds volledig zichtbaar aan de oostelijke hemel, wat het begin van de winter in het zuiden van Brazilië aangeeft en het begin van het droge seizoen in het noorden."
+
+#. Tupi-Guarani constellation, native: Tuivae
+msgid "Old Man"
+msgstr "Oude man"
+
+#. Description of Tupi-Guarani constellation Old Man
+msgid ""
+"This constellation depicts an old man holding a stick.\n"
+"\n"
+"In the second half of December, the constellation is fully visible in the\n"
+"Eastern evening sky. This marks the beginning of summer in the southern parts\n"
+"of Brazil and the start of the rainy season in the North."
+msgstr ""
+"Dit sterrenbeeld stelt een oude man voor die een stok vasthoudt.\n"
+"\n"
+"In de tweede helft van december is het sterrenbeeld volledig zichtbaar aan de oostelijke avondhemel. Dit markeert het begin van de zomer in de zuidelijke delen van Brazilië en het begin van het regenseizoen in het noorden."
+
+#. Tupi-Guarani constellation, native: Tapi'i
+msgid "Northern Tapir"
+msgstr "Noordelijke tapir"
+
+#. Tupi-Guarani constellation
+msgid "Deer"
+msgstr "Herten"
+
+#. Tupi-Guarani constellation
+msgid "Joykexo"
+msgstr "Joykexo"
+
+#. Tupi-Guarani constellation, native: Eixu
+msgid "Hornet"
+msgstr "Horzel"
+
+#. Tupi-Guarani constellation, native: Tapi'i rainhyka
+msgid "Tapir's Jaw"
+msgstr "Tapir's kaak"

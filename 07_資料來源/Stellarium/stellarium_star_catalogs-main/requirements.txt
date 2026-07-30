@@ -1,0 +1,9 @@
+numpy
+pandas
+astropy >= 7.0
+astroquery >= 0.4.9
+matplotlib
+ipykernel
+gaiaxpy
+trimesh
+embreex

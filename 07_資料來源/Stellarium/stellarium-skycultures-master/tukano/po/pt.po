@@ -1,0 +1,271 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Portuguese (https://www.transifex.com/stellarium/teams/80998/pt/)\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Tukano"
+msgstr "Tucano"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"Tukano is the common name for a group of indigenous tribes who live around the\n"
+"northwestern region of Brazil, near Colombia and Venezuela. The group shown in\n"
+"this work live on the banks of the Rio Tiquié within the Rio Negro bay in the\n"
+"Amazonas State, Brazil."
+msgstr ""
+"Tukano é o nome comum para um grupo de tribos indígenas que vivem na região "
+"noroeste do Brasil, perto da Colômbia e Venezuela. O grupo mostrado neste "
+"trabalho vive nas margens do rio Tiquié, na baía de Rio Negro, no estado do "
+"Amazonas, Brasil."
+
+#. Sky culture description section in markdown format
+msgid ""
+"![Circular calendar](Calendario_Tukano.webp)\n"
+"One circular calendar developed in 2007 [#1][#2].\n"
+"{: .img_and_caption }\n"
+"\n"
+"### Tukano Constellations\n"
+"\n"
+"Constellations within Tukano astronomical culture are related with natural\n"
+"phenomena as a whole. We gathered twelve constellations with a group who speaks\n"
+"Tukano language. This is not the definitive number of constellations. There\n"
+"are, surely, more constellations to be described. We presented here essentially\n"
+"\"the main cycle\" [#2] of the Tukano constellations. Sometimes someone relates\n"
+"new discoveries about these Indians sky concepts or presents new constellation\n"
+"descriptions. Though we are establishing limits and configurations to these\n"
+"constellations that are new to us (non- Indians), they don’t organize this body\n"
+"of knowledge in the same way. Their conceptions about sky and Universe are\n"
+"different when compared with ours. They don’t organize and conceive ideas about\n"
+"the Universe as a whole, like us.\n"
+"\n"
+"Hereby we present few data from a research carried out with living people and\n"
+"this data may be variable in near future. We worked with basic school students,\n"
+"elders and story tellers comparing the talks and summarizing it as you’ll see\n"
+"below.\n"
+"\n"
+"In general, we can say that a Tukano constellation, or parts of it, are\n"
+"observed when its setting occurs, like the sunset (heliacal setting) during the\n"
+"short period of an year. There are an amount of natural phenomena related to\n"
+"this astronomical event. For example we can consider Aña’s head setting during\n"
+"November and its relation with the increase and decrease of the Tiquié river\n"
+"level. The variation of the river level is accompanied with an emerging of\n"
+"different fishes which appear as the result of these changeable natural\n"
+"conditions. Other larger fishes follow the first group for multiple purposes\n"
+"(eating smaller ones for example). All of them eat some fruits which eventually\n"
+"fall over the river surface. Ground animals and microorganisms are interested\n"
+"on these fruits, as well as either. So, a phenomenon first described as an\n"
+"astronomical set for us can be seen inside a more complex behavior for Tukanos\n"
+"and their neighbors around this region. Animals, plants and also spiritual\n"
+"manifestations are in a complex relationship under the cosmological view that\n"
+"we can’t ignore anymore.\n"
+"\n"
+"### Sources\n"
+"\n"
+"This work is part of an amount of researches developed as a survey, conducted\n"
+"between 2005 and 2007 that resulted in a doctoral/PhD thesis (Cardoso, 2007).\n"
+"Relying on Ethnomatematics sources (D’ambrosio, 2002), in practical sky\n"
+"observation activities and on classical sources about constellations observed\n"
+"in Brazil’s Amazon region, we accomplished a sky mapping of these Indian\n"
+"ethnicity: Tukano, Dessano and Tuyuka but in particular, the first one. From\n"
+"the description of many constellations we created an astronomical events and\n"
+"climate calendar along with students from differentiated Yupuri’s indigenous\n"
+"school. Rain periods, drought, planting and harvesting are marked by the sunset\n"
+"and sunrise of the major constellations created by Amazonia northwest Indians."
+msgstr ""
+"![Calendário circular](Calendario_Tukano.webp) Um calendário circular desenvolvido em 2007 [#1] [#2].\n"
+"{: .img_and_caption }\n"
+"\n"
+"Constelações de Tukano\n"
+"\n"
+"Constelações na cultura astronômica de Tukano estão relacionadas com os fenômenos naturais como um todo. Reunimos doze constelações com um grupo que fala a língua tukano. Este não é o número definitivo de constelações. Certamente há mais constelações a serem descritas. Apresentamos aqui essencialmente \"o ciclo principal\" [#2] das constelações de Tukano. Às vezes, alguém relata novas descobertas sobre esses conceitos do céu indiano ou apresenta novas descrições de constelações. Embora estejamos estabelecendo limites e configurações para essas constelações que são novas para nós (não-índios), eles não organizam esse corpo de conhecimento da mesma maneira. Suas concepções sobre céu e universo são diferentes quando comparadas às nossas. Eles não organizam e concebem idéias sobre o Universo como um todo, como nós.\n"
+"\n"
+"Apresentamos poucos dados de uma pesquisa realizada com pessoas vivas e esses dados podem ser variáveis em um futuro próximo. Trabalhamos com alunos do ensino básico, idosos e contadores de histórias comparando as palestras e resumindo-as, como você verá abaixo.\n"
+"\n"
+"Em geral, podemos dizer que uma constelação de Tukano, ou partes dela, é observada quando ocorre o seu cenário, como o pôr do sol (cenário helíaco) durante o curto período de um ano. Há uma quantidade de fenômenos naturais relacionados a esse evento astronômico. Por exemplo, podemos considerar a configuração da cabeça de Aña durante novembro e sua relação com o aumento e a diminuição do nível do rio Tiquié. A variação do nível do rio é acompanhada pelo surgimento de diferentes peixes que aparecem como resultado dessas condições naturais variáveis. Outros peixes maiores seguem o primeiro grupo para vários propósitos (comer peixes menores, por exemplo). Todos comem algumas frutas que eventualmente caem sobre a superfície do rio. Animais terrestres e microorganismos também estão interessados nessas frutas. Assim, um fenômeno descrito pela primeira vez como um conjunto astronômico para nós pode ser visto dentro de um comportamento mais complexo para Tukanos e seus vizinhos nessa região. Animais, plantas e também manifestações espirituais estão em um relacionamento complexo sob a visão cosmológica que não podemos mais ignorar.\n"
+"\n"
+"### Fontes\n"
+"\n"
+"Este trabalho faz parte de uma quantidade de pesquisas desenvolvidas como uma pesquisa, realizada entre 2005 e 2007, que resultou em uma tese de doutorado / doutorado (Cardoso, 2007). Contando com fontes etnomateáticas (D'ambrosio, 2002), em atividades práticas de observação do céu e em fontes clássicas sobre constelações observadas na região amazônica do Brasil, realizamos um mapeamento do céu da etnia indiana: Tukano, Dessano e Tuyuka, mas em particular a primeira 1. A partir da descrição de muitas constelações, criamos um calendário astronômico de eventos e clima junto com os alunos da escola indígena diferenciada de Yupuri. Períodos de chuva, seca, plantio e colheita são marcados pelo pôr do sol e nascer do sol das principais constelações criadas pelos índios do noroeste da Amazônia."
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: Cardoso, Walmir Thomazi. Sao Paulo, 2007. [Thesis Abstract](https://www.sapientia.pucsp.br/handle/handle/11272)\n"
+" - [#2]: Cardoso, Walmir Thomazi. Sao Paulo, 2007. [Thesis](https://www.sapientia.pucsp.br/bitstream/handle/11272/1/Walmir%20Thomazi%20Cardoso.pdf)"
+msgstr ""
+" - [#1]: Cardoso, Walmir Thomazi. São Paulo, 2007. [Resumo da Tese](https://www.sapientia.pucsp.br/handle/handle/11272)\n"
+" - [#2]: Cardoso, Walmir Thomazi. São Paulo, 2007. [Tese](https://www.sapientia.pucsp.br/bitstream/handle/11272/1/Walmir%20Thomazi%20Cardoso.pdf)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"[Walmir Thomazi Cardoso](mailto:walmir.astronomia@gmail.com) gathered this\n"
+"information in a survey that is part of his PhD. Thesis of Ethnomathematics.\n"
+"\n"
+"Illustrations were made by Antonio Gumercindo Taques dos Santos (Ticão) and\n"
+"[Youssif Ganthous Filho](mailto:youssif@gmail.com).\n"
+"\n"
+"Technical adaption: Stellarium's team"
+msgstr ""
+"[Walmir Thomazi Cardoso](mailto:walmir.astronomia@gmail.com) reuniu essas informações em uma pesquisa que faz parte de seu doutorado. Tese de Etnomatemática.\n"
+"\n"
+"As ilustrações foram de Antonio Gumercindo Taques dos Santos (Ticão) e [Youssif Ganthous Filho](mailto:youssif@gmail.com).\n"
+"\n"
+"Adaptação técnica: equipe do Stellarium"
+
+#. Sky culture license section in markdown format
+msgid "Text, lines and illustrations: CC BY-SA"
+msgstr "Texto, linhas e ilustrações: CC BY-SA"
+
+#. Tukano constellation, native: Aña
+msgid "Jararaca"
+msgstr "Jararaca"
+
+#. Description of Tukano constellation Jararaca
+msgid ""
+"A big snake that is found in part of our Scorpius, Sagittarius and Corona\n"
+"Australis constellations. Its setting with the sunset correspond of the\n"
+"beginning of the year to this group of Tukanos."
+msgstr ""
+"Uma grande cobra encontrada em parte de nossas constelações de Escorpião, "
+"Sagitário e Corona Australis. Seu cenário com o pôr do sol corresponde, no "
+"início do ano, a esse grupo de tukanos."
+
+#. Tukano constellation, native: Pamõ
+msgid "Armadillo"
+msgstr "Tatu"
+
+#. Description of Tukano constellation Armadillo
+msgid ""
+"This constellation is found in the modern constellations of the Dolphin and\n"
+"parts of Aquila constellation. This group of faint stars is placed inside a\n"
+"poor stellar field with exception of the bright Altair (Alfa Aquilae)."
+msgstr ""
+"Esta constelação é encontrada nas constelações modernas do golfinho e em "
+"partes da constelação de Aquila. Este grupo de estrelas fracas é colocado "
+"dentro de um campo estelar pobre, com exceção do brilhante Altair (Alfa "
+"Aquilae)."
+
+#. Tukano constellation, native: Dahsiaw
+msgid "Caridean Shrimp"
+msgstr "Camarão Caridea"
+
+#. Tukano constellation, native: Mhua
+msgid "Crenicichla"
+msgstr "Crenicichla"
+
+#. Description of Tukano constellation Crenicichla
+msgid ""
+"Both constellations are joined together in a few bright stars of the Aquarius\n"
+"and Pisces area. As they are faint, it is a wonderful challenge to try to see\n"
+"it during the night."
+msgstr ""
+"Ambas as constelações são unidas em algumas estrelas brilhantes da área de "
+"Aquário e Peixes. Como são fracos, é um desafio maravilhoso tentar vê-lo "
+"durante a noite."
+
+#. Tukano constellation, native: Yai
+msgid "Jaguar"
+msgstr "Jaguar"
+
+#. Description of Tukano constellation Jaguar
+msgid ""
+"It is a big constellation – one of the biggest – inside the north portions of\n"
+"night skies. All night long near the horizon, the big puma is described inside\n"
+"our Cepheus, Cassiopeia and Perseus constellations."
+msgstr ""
+"É uma grande constelação - uma das maiores - dentro das partes norte do céu "
+"noturno. Durante toda a noite, perto do horizonte, o grande puma é descrito "
+"dentro de nossas constelações de Cepheus, Cassiopeia e Perseus."
+
+#. Tukano constellation, native: Nhorkoatero
+msgid "Group of Stars"
+msgstr "Grupo de Estrelas"
+
+#. Description of Tukano constellation Group of Stars
+msgid ""
+"The translation of _nhorkoatero_ is literally 'group of stars'. Identified as\n"
+"our Pleiades this is very significant as a time keeper within a complex\n"
+"calendar to Tukano people. It is also used as a harbinger of the rainy period."
+msgstr ""
+"A tradução de _nhorkoatero_ é literalmente 'grupo de estrelas'. "
+"Identificadas como nossas Plêiades, isso é muito significativo como "
+"guardador do tempo dentro de um calendário complexo para o povo Tukano. "
+"Também é usado como prenúncio do período chuvoso."
+
+#. Tukano constellation, native: Waikhasa
+msgid "Moquém"
+msgstr "Moquém"
+
+#. Description of Tukano constellation Moquém
+msgid ""
+"A _Waikase_ (Moquém) in portuguese is a kind of grill to cook fish. It is\n"
+"identified with the Hyades open cluster of stars in Taurus and with the bright\n"
+"star Aldebaran which follows the Pleiades. This is an asterism easy to be seen\n"
+"all over the sky."
+msgstr ""
+"Um _Waikase_ (Moquém) em português é uma espécie de grelha para cozinhar "
+"peixe. É identificado com o aglomerado aberto de estrelas Hyades em Touro e "
+"com a estrela brilhante Aldebaran, que segue as Plêiades. Este é um "
+"asterismo fácil de ser visto em todo o céu."
+
+#. Tukano constellation, native: Sioyahpu
+msgid "Adze Handle"
+msgstr "Azuela"
+
+#. Description of Tukano constellation Adze Handle
+msgid ""
+"As a part of Orion belt and two of the others brightest stars of this\n"
+"constellation – our Betelgeuse and Bellatrix – this constellation represents a\n"
+"part of a tool which is used to carve wood.\n"
+"\n"
+"### Sipé Phairo\n"
+"\n"
+"This snake corresponds to the brightest stars of the Big Dipper. In a legend\n"
+"when this constellation touches the horizon after the sunset almost all fishes\n"
+"in the main river are swallowed by it."
+msgstr ""
+"Como parte do cinturão de Órion e duas das outras estrelas mais brilhantes desta constelação - nossa Betelgeuse e Bellatrix - essa constelação representa parte de uma ferramenta usada para esculpir madeira.\n"
+"\n"
+"### Sipé Phairo\n"
+"\n"
+"Esta cobra corresponde às estrelas mais brilhantes da Ursa Maior. Em uma lenda, quando esta constelação toca o horizonte após o pôr do sol, quase todos os peixes no rio principal são engolidos por ela."
+
+#. Tukano constellation, native: Yhé
+msgid "Egret"
+msgstr "Garça"
+
+#. Description of Tukano constellation Egret
+msgid ""
+"The real position of this constellation is still in discussion: are those stars\n"
+"in the Berenices' hair region or inside the Corvus? We choose the first\n"
+"region because it was present as the real one by the Tukanos of São José II\n"
+"tribe."
+msgstr ""
+"A posição real dessa constelação ainda está em discussão: essas estrelas "
+"estão na região dos cabelos de Berenices ou dentro do Corvus? Escolhemos a "
+"primeira região porque estava presente como real pela tribo Tukanos de São "
+"José II."
+
+#. Tukano constellation, native: Yurara
+msgid "Tortoise"
+msgstr "Cágado"
+
+#. Description of Tukano constellation Tortoise
+msgid ""
+"This constellation is described as the occidental Southern Cross constellation.\n"
+"Sometimes this traditional occidental constellation also meant an Otter or a\n"
+"turtle for the Tukano people."
+msgstr ""
+"Esta constelação é descrita como a constelação ocidental de Southern Cross. "
+"Às vezes, essa constelação ocidental tradicional também significava uma "
+"lontra ou uma tartaruga para o povo Tukano."
+
+#. Tukano constellation, native: Sipé Phairó
+msgid "Snake"
+msgstr "Serpente"

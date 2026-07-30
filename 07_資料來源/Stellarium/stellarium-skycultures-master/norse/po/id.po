@@ -1,0 +1,146 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Indonesian (https://www.transifex.com/stellarium/teams/80998/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Norse"
+msgstr "Norwegia"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"The norse culture is considered as originally North Germanic. The pre-Christian\n"
+"Scandinavian folklore with Odin as main god was transformed into a Christian\n"
+"culture."
+msgstr ""
+"Budaya norse dianggap sebagai budaya Jermanik Utara. Cerita rakyat "
+"Skandinavia pra-Kristen dengan Odin sebagai dewa utama diubah menjadi budaya"
+" Kristen."
+
+#. Sky culture description section in markdown format
+msgid ""
+"Hardly anything is known about the Norse constellations. There are only few\n"
+"sources allowing to reconstruct some ideas of these people's cosmology and\n"
+"mythology, and only few constellations are possibly known.\n"
+"\n"
+"In Beckman and Kålund’s compilation [#7] of Rimtöl (rhymes of time) they\n"
+"present five constellations that appear to have the old norse names:\n"
+"\n"
+"| norse name | translation | identification |\n"
+"| -----------|-------------|----------------|\n"
+"| Ulf's Keptr | Mouth of the Wolf | Hyades |\n"
+"| Fiskikarlar | Fishermen, Orion’s | belt |\n"
+"| Kvennavagn | Woman's chariot | Ursa Minor |\n"
+"| Karlvagn | Man's chariot | The big dipper |\n"
+"| Asar Bardagi | The Asar Battlefield |  Auriga |\n"
+"|   | Aurvandil's Toe | Corona Borealis |\n"
+"\n"
+"Some star names:\n"
+"\n"
+"| norse name | translation | identification |\n"
+"|----------|-----------|---------|\n"
+"| Dagstjarna | Day star | Arcturus |\n"
+"| Leidarstjarna  | Guiding star | Polaris  |\n"
+"| Sudrstjarna  | South star |  Vega  |"
+msgstr ""
+"Hampir tidak ada yang diketahui tentang rasi bintang Norse. Hanya ada sedikit sumber yang memungkinkan untuk merekonstruksi beberapa gagasan tentang kosmologi dan mitologi orang-orang ini, dan hanya sedikit konstelasi yang mungkin diketahui.\n"
+"\n"
+"Dalam kompilasi Beckman dan Kålund [#7] dari Rimtöl (rima waktu) mereka menyajikan lima rasi bintang yang tampaknya memiliki nama norse kuno:\n"
+"\n"
+"| nama norse | terjemahan | identifikasi |\n"
+"|------------|-------------|----------------|\n"
+"| Penjaga Ulf | Mulut Serigala | Hyades |\n"
+"| Fiskikarlar | Nelayan, Orion | sabuk |\n"
+"| Kvennavagn | Kereta wanita | Ursa Kecil |\n"
+"| Karlvagn | Kereta pria | Biduk besar |\n"
+"| Asar Bardagi | Medan Perang Asar | Auriga |\n"
+"| | Jari Kaki Aurvandil | Corona Borealis |\n"
+"\n"
+"Beberapa nama bintang:\n"
+"\n"
+"| nama norse | terjemahan | identifikasi |\n"
+"|----------|-----------|--------|\n"
+"| Dagstjarna | Bintang siang | Arcturus |\n"
+"| Leidarstjarna | Bintang pemandu | Polaris |\n"
+"| Sudrstjarna | Bintang selatan | Vega |"
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: Roslund Curt, Stjärn-Oddi: En vikingatida astronom på Island, Astronomisk årsbok, s 28, 1984 (in Swedish)\n"
+" - [#2]: Beckman, N. and Kålund, Kr. (1914-16). Alfræði íslenzk: Islandsk encyklo-pædisk litteratur: II. Rímtöl \\[Encyclopaedic literature on the calendar\\]. s 48-53 (in Swedish).\n"
+" - [#3]: Richard Hinckley Allen, Star Names; Their lore and meaning\n"
+" - [#4]: Saxo Grammaticus, ”Gesta danorum\" (In Latin)\n"
+" - [#5]: Rudolf Simek, The Dictionary of Northen Mythology\n"
+" - [#6]: Jan de Vries, Altgermanische Religionsgeschichte (in German)\n"
+" - [#7]: Beckman, N. and Kålund, Kr. (1914-16). Alfræði íslenzk: Islandsk encyklo-pædisk litteratur: II. Rímtöl \\[Encyclopaedic literature on the calendar\\]. s 72. (in Swedish)\n"
+" - [#8]: Gislason, K. Fire og fyrretyve for en stor Deel forhen utrykte Prøver af oldnordisk Sprog og Litteratur. (København: Gyldendalska bogh. 1860) (in Danish)\n"
+" - [#9]: [Norse Constellations](http://digitaliseducation.com/resources-norse.html)\n"
+" - [#10]: Norse Mythology: [article on Wikipedia](https://en.wikipedia.org/wiki/Norse_mythology)"
+msgstr ""
+" - [#1]: Roslund Curt, Stjärn-Oddi: En vikingatida astronom på Island, Astronomisk rsbok, s 28, 1984 (dalam bahasa Swedia)\n"
+" - [#2]: Beckman, N. dan Kålund, Kr. (1914-16). Alfræði íslenzk: Islandsk ensiklo-pædisk litteratur: II. Rímtöl \\[Literatur ensiklopedis pada kalender\\]. s 48-53 (dalam bahasa Swedia).\n"
+" - [#3]: Richard Hinckley Allen, Nama Bintang; Pengetahuan dan makna mereka\n"
+" - [#4]: Saxo Grammaticus, ”Gesta danorum” (Latin)\n"
+" - [#5]: Rudolf Simek, Kamus Mitologi Utara\n"
+" - [#6]: Jan de Vries, Altgermanische Religionsgeschichte (dalam bahasa Jerman)\n"
+" - [#7]: Beckman, N. dan Kålund, Kr. (1914-16). Alfræði íslenzk: Islandsk ensiklo-pædisk litteratur: II. Rímtöl \\[Literatur ensiklopedis pada kalender\\]. s 72. (dalam bahasa Swedia)\n"
+" - [#8]: Gislason, K. Fire og fyrretyve for en stor Deel forhen utrykte Prøver af oldnordisk Sprog og Litteratur. (København: Gyldendalska bogh. 1860) (dalam bahasa Denmark)\n"
+" - [#9]: [Rasi Bintang Nordik](http://digitaliseducation.com/resources-norse.html)\n"
+" - [#10]: Mitologi Nordik: [artikel di Wikipedia](https://en.wikipedia.org/wiki/Norse_mythology)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"This sky culture was contributed by Stellarium user [Jonas Persson](mailto:jonas.persson@physics.org).\n"
+"Homepage [link](https://www.ntnu.edu/employees/jonas.persson).\n"
+"\n"
+"Description by Susanne M Hoffmann"
+msgstr ""
+"Budaya langit ini disumbangkan oleh pengguna Stellarium [Jonas Persson](mailto:jonas.persson@physics.org). Beranda [tautan](https://www.ntnu.edu/employees/jonas.persson).\n"
+"\n"
+"Deskripsi oleh Susanne M Hoffmann"
+
+#. Sky culture license section in markdown format
+msgid "CC BY-SA"
+msgstr "CC BY-SA"
+
+#. Norse constellation
+msgid "Aurvandil's Toe"
+msgstr "Jari Kaki Aurvandil"
+
+#. Norse constellation
+msgid "Wolf's Mouth"
+msgstr "Mulut Srigala"
+
+#. Norse constellation
+msgid "The Fishermen"
+msgstr "Sang Nelayan"
+
+#. Norse constellation
+msgid "Woman's Cart"
+msgstr "Kereta Wanita"
+
+#. Norse constellation
+msgid "Man's Cart"
+msgstr "Kereta Pria"
+
+#. Norse constellation
+msgid "The Asar Battlefield"
+msgstr "Pertempuran Asar"
+
+#. Norse name for HIP 11767
+msgid "Guide Star"
+msgstr "Bintang Panduan"
+
+#. Norse name for HIP 69673
+msgid "Day Star"
+msgstr "Bintang Hari"
+
+#. Norse name for HIP 91262
+msgid "South Star"
+msgstr "Bintang Selatan"

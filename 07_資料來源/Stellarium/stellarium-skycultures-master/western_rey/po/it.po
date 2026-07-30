@@ -1,0 +1,305 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Italian (https://www.transifex.com/stellarium/teams/80998/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Western (H.A.Rey)"
+msgstr "Occidentale (H.A.Rey)"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"A variation of the Western sky culture with lines reproducing the 1952 book\n"
+"_The Stars - A New Way To See Them_ by H. A. Rey."
+msgstr ""
+"Una variazione della cultura del cielo occidentale con linee che riproducono"
+" il libro del 1952 _The Stars - A New Way To See Them_ di H. A. Rey."
+
+#. Sky culture description section in markdown format
+msgid ""
+"During the 19th century the use and further editions of richly illustrated\n"
+"atlases with sumptuously engraved mythological figures fell out of fashion. The\n"
+"stars of the constellations in atlases of that time started to be shown\n"
+"connected with line patterns (\"stickfigures\"), which however appear sometimes\n"
+"only to have been used to indicate which stars belong to which constellation.\n"
+"\n"
+"Over several decades the figures had ceased to resemble the figures they were\n"
+"named after and appeared incomprehensible to beginning stargazers in the middle\n"
+"of the 20th century. H. A. Rey (Hans Augusto Reyersbach) (1898-1977), an artist\n"
+"and author of children's books of German descent but emigrated to the USA,\n"
+"published his answer to this problem in 1952 with the book _The Stars - A New\n"
+"Way To See Them_ [#1].\n"
+"\n"
+"### The Constellations\n"
+"\n"
+"In this book, which has become very popular especially in the US, Rey connected\n"
+"the stars of every constellation \"in such a way that the resulting shape makes\n"
+"sense.\" What surprised him was \"that nobody has done it before. The basic idea\n"
+"is so simple.\"\n"
+"\n"
+"Rey's new stick figures make it indeed very simple to recognize the depicted\n"
+"constellation figures. Rey's work does not include figurative artwork,\n"
+"therefore this sky culture deliberately only comes with Rey's original stick\n"
+"figures. The constellation names were also always given in English by Rey. If\n"
+"you switch to \"Native\" name display mode, you may see exactly the spelling used\n"
+"in his book. Also the stars named here are limited to those included in the\n"
+"book.\n"
+"\n"
+"### Rey's Figures and the Classic Constellations\n"
+"\n"
+"Rey's constellations adhere to the tradition of the Western sky culture and\n"
+"describes the 88 officially acknowledged constellations, with addition of\n"
+"asterisms of the two Dippers and the \"Great Square\" (of Pegasus). However, at\n"
+"several points Rey's figures deviate from the canonical figures described since\n"
+"Ptolemy's Almagest (2nd century AD), where also positions of the stars in their\n"
+"constellations had been described in their names. For example:\n"
+"\n"
+" * Rey inverted the figure of the Great Bear (_Ursa Major_) to look like a polar\n"
+"bear scenting prey. This on one hand does not have the usual problem to explain\n"
+"its long tail. On the other hand, the bear is not shown to walk around the pole\n"
+"in this orientation.\n"
+"\n"
+" * The Bull (_Taurus_), only the front of which is shown with long upright horns\n"
+"in usual depictions, is shown with a complete body including its tail, with\n"
+"horns stretched wide like those of a buffalo. Its bright eye _Aldebaran_ now\n"
+"lies in its neck.\n"
+"\n"
+" * The head of _Hercules_ is usually next to the head of _Ophiuchus_, the\n"
+"serpent holder, and the four stars known as \"keystone\" form his body. Rey makes\n"
+"his head out of the keystone, and the star that usually marks the hero's head\n"
+"is now one of his feet.\n"
+"\n"
+" * The Whale (_Cetus_) has been turned around, its formermouth now forming a\n"
+"tail fin.\n"
+"\n"
+" * _Pegasus_ exchanged feet and head.\n"
+"\n"
+" * _Bootes_, the herdsman, is shown sitting and smoking a pipe (no trace of\n"
+"political correctness in a children's book of the 1950s!)"
+msgstr ""
+"Nel corso del XIX secolo l'uso e le successive edizioni di atlanti riccamente illustrati con figure mitologiche sontuosamente incise caddero di moda. Le stelle delle costellazioni negli atlanti di quel tempo iniziarono ad essere mostrate collegate con motivi lineari (\"stickfigures\"), che però a volte sembrano essere stati usati solo per indicare quali stelle appartengono a quale costellazione.\n"
+"\n"
+"Nel corso di diversi decenni le figure avevano cessato di assomigliare alle figure da cui prendevano il nome e sembravano incomprensibili agli astronomi principianti a metà del XX secolo. HA Rey (Hans Augusto Reyersbach) (1898-1977), artista e autore di libri per bambini di origine tedesca ma emigrato negli USA, pubblicò la sua risposta a questo problema nel 1952 con il libro _The Stars - A New Way To See Them_ [ RifX1].\n"
+"\n"
+"### Le costellazioni\n"
+"\n"
+"In questo libro, diventato molto popolare soprattutto negli Stati Uniti, Rey ha collegato le stelle di ogni costellazione \"in modo tale che la forma risultante abbia un senso\". Quello che lo ha sorpreso è stato \"che nessuno l'avesse fatto prima. L'idea di base è così semplice\".\n"
+"\n"
+"Le nuove figure stilizzate di Rey rendono davvero molto semplice riconoscere le figure della costellazione raffigurate. Il lavoro di Rey non include opere d'arte figurative, quindi questa cultura del cielo viene deliberatamente solo con le figure stilizzate originali di Rey. I nomi delle costellazioni sono sempre stati dati anche in inglese da Rey. Se passi alla modalità di visualizzazione del nome \"Nativo\", potresti vedere esattamente l'ortografia usata nel suo libro. Anche le stelle qui nominate sono limitate a quelle incluse nel libro.\n"
+"\n"
+"### Le figure di Rey e le costellazioni classiche\n"
+"\n"
+"Le costellazioni di Rey aderiscono alla tradizione della cultura del cielo occidentale e descrivono le 88 costellazioni ufficialmente riconosciute, con l'aggiunta degli asterismi dei due Carri e della \"Grande Piazza\" (di Pegaso). Tuttavia, in diversi punti le figure di Rey si discostano dalle figure canoniche descritte fin dall'Almagesto di Tolomeo (II secolo dC), dove nei loro nomi erano state descritte anche le posizioni delle stelle nelle loro costellazioni. Per esempio:\n"
+"\n"
+" * Rey ha invertito la figura dell'Orsa Maggiore (_Orsa Maggiore_) per sembrare una preda che fiuta un orso polare. Questo da un lato non ha il solito problema di spiegare la sua lunga coda. D'altra parte, l'orso non è mostrato camminare intorno al palo con questo orientamento.\n"
+"\n"
+" * Il Toro (_Toro_), solo il davanti del quale è mostrato con lunghe corna dritte nelle raffigurazioni usuali, è mostrato con un corpo completo compresa la coda, con le corna allargate come quelle di un bufalo. Il suo occhio luminoso _Aldebaran_ ora giace nel suo collo.\n"
+"\n"
+" * La testa di _Ercole_ è solitamente accanto alla testa di _Ofiuco_, il portatore del serpente, e le quattro stelle conosciute come \"chiave di volta\" formano il suo corpo. Rey fa uscire la testa dalla chiave di volta e la stella che di solito segna la testa dell'eroe è ora uno dei suoi piedi.\n"
+"\n"
+" * La balena (_Cetus_) è stata capovolta, la sua precedente bocca ora forma una pinna caudale.\n"
+"\n"
+" * _Pegasus_ ha scambiato piedi e testa.\n"
+"\n"
+" * _Bootes_, il pastore, è mostrato seduto mentre fuma la pipa (nessuna traccia di correttezza politica in un libro per bambini degli anni '50!)"
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: H.A. Rey. [Wikipedia page](http://en.wikipedia.org/wiki/H._A._Rey)"
+msgstr ""
+" - [#1]: H.A. Rey. [Pagina "
+"Wikipedia](http://en.wikipedia.org/wiki/H._A._Rey)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"Mike Richards and Georg Zotti.\n"
+"\n"
+"This sky culture used to be for a long time an easy user-installable addon\n"
+"example contributed by Mike Richards. It has been reworked following the 41st\n"
+"reprint and completed with this description by Georg Zotti."
+msgstr ""
+"Mike Richards e Georg Zotti.\n"
+"\n"
+"Questa cultura del cielo era per molto tempo un semplice esempio di componente aggiuntivo installabile dall'utente fornito da Mike Richards. È stato rielaborato in seguito alla 41a ristampa e completato con questa descrizione da Georg Zotti."
+
+#. Sky culture license section in markdown format
+msgid "CC BY-SA"
+msgstr "CC BY-SA"
+
+#. Western (H.A.Rey) constellation, pronounce: BIG DIPPER
+msgid "Big Dipper"
+msgstr "Big Dipper"
+
+#. Western (H.A.Rey) constellation
+msgid "Pointers"
+msgstr "Puntatori"
+
+#. Western (H.A.Rey) constellation, pronounce: LITTLE DIPPER
+msgid "Little Dipper"
+msgstr "Piccolo carro"
+
+#. Western (H.A.Rey) constellation
+msgid "Guardians"
+msgstr "Guardiani"
+
+#. Western (H.A.Rey) constellation
+msgid "feet"
+msgstr "piedi"
+
+#. Western (H.A.Rey) constellation
+msgid "head"
+msgstr "testa"
+
+#. Western (H.A.Rey) constellation
+msgid "tail"
+msgstr "coda"
+
+#. Western (H.A.Rey) constellation
+msgid "paws"
+msgstr "paws"
+
+#. Western (H.A.Rey) constellation
+msgid "body"
+msgstr "corpo"
+
+#. Western (H.A.Rey) constellation
+msgid "pipe"
+msgstr "tubo"
+
+#. Western (H.A.Rey) constellation
+msgid "wing"
+msgstr "ala"
+
+#. Western (H.A.Rey) constellation
+msgid "outstretched neck"
+msgstr "Collo Teso"
+
+#. Western (H.A.Rey) constellation
+msgid "club"
+msgstr "club"
+
+#. Western (H.A.Rey) constellation
+msgid "Keystone"
+msgstr "Chiave di Volta"
+
+#. Western (H.A.Rey) constellation
+msgid "the chain"
+msgstr "la catena"
+
+#. Western (H.A.Rey) constellation, pronounce: GREAT SQUARE
+msgid "Great Square"
+msgstr "Great Square"
+
+#. Western (H.A.Rey) constellation
+msgid "horn"
+msgstr "corno"
+
+#. Western (H.A.Rey) constellation
+msgid "belt"
+msgstr "cintura"
+
+#. Western (H.A.Rey) constellation
+msgid "shield"
+msgstr "scudo"
+
+#. Western (H.A.Rey) constellation
+msgid "Hydra's head"
+msgstr "Testa dell'Idra"
+
+#. Western (H.A.Rey) constellation, pronounce: HYDRA's tail
+msgid "Hydra's tail"
+msgstr "Coda dell'Idra"
+
+#. Western (H.A.Rey) constellation
+msgid "bill"
+msgstr "fattura"
+
+#. Western (H.A.Rey) constellation
+msgid "foot"
+msgstr "piede"
+
+#. Western (H.A.Rey) constellation, pronounce: SERPENT'S TAIL
+msgid "Serpens Cauda"
+msgstr "Serpens Cauda"
+
+#. Western (H.A.Rey) constellation, pronounce: SERPENT'S HEAD
+msgid "Serpens Caput"
+msgstr "Serpens Caput"
+
+#. Western (H.A.Rey) constellation
+msgid "arm"
+msgstr "braccio"
+
+#. Western (H.A.Rey) constellation
+msgid "claws"
+msgstr "artigli"
+
+#. Western (H.A.Rey) constellation
+msgid "cat's eyes"
+msgstr "occhi felini"
+
+#. Western (H.A.Rey) constellation
+msgid "skirt"
+msgstr "gonna"
+
+#. Western (H.A.Rey) constellation
+msgid "the bow"
+msgstr "l'arco"
+
+#. Western (H.A.Rey) constellation
+msgid "vessel"
+msgstr "vascello"
+
+#. Western (H.A.Rey) constellation, pronounce: N.FISH
+msgid "Northern Fish"
+msgstr "Pesce del Nord"
+
+#. Western (H.A.Rey) constellation, pronounce: Circlet or W. FISH
+msgid "Circlet"
+msgstr "Cerchietto"
+
+#. Western (H.A.Rey) constellation
+msgid "False Cross"
+msgstr "Falsa Croce"
+
+#. Western (H.A.Rey) constellation
+msgid "figurehead"
+msgstr "polena"
+
+#. Western (H.A.Rey) constellation
+msgid "transom"
+msgstr "specchio di poppa"
+
+#. Western (H.A.Rey) constellation
+msgid "ears"
+msgstr "orecchie"
+
+#. Western (H.A.Rey) constellation
+msgid "front legs"
+msgstr "zampe anteriori"
+
+#. Western (H.A.Rey) constellation
+msgid "hind legs"
+msgstr "zampe posteriori"
+
+#. Western (H.A.Rey) constellation, pronounce: FLY
+msgid "Fly"
+msgstr "Mosca"
+
+#. Western (H.A.Rey) constellation
+msgid "eyes"
+msgstr "occhi"
+
+#. Western (H.A.Rey) name for HIP 11767
+msgid "Pole Star"
+msgstr "Stella polare"
+
+#. Western (H.A.Rey) name for HIP 9487
+msgid "Knot"
+msgstr "Nodo"

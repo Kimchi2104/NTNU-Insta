@@ -1,0 +1,348 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Russian (https://www.transifex.com/stellarium/teams/80998/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Japanese Lunar Stations"
+msgstr "Японские Лунные Станции"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"The Japanese astronomy adopted the Chinese concepts and constellations, i.e.\n"
+"the asterisms as well as the division of the path of the Moon into 28\n"
+"\"stations\" (lunar mansions) as a frame of reference in right ascension."
+msgstr ""
+"Японская астрономия приняла китайские концепции и созвездия, то есть "
+"астеризмы, а также разделение пути Луны на 28 «станций» (лунных особняков) в"
+" качестве системы отсчета при прямом вознесении."
+
+#. Sky culture description section in markdown format
+msgid ""
+"Most astronomical observation in Japan until the Meiji Restoration was closely\n"
+"tied to astrological purposes. For ancient Chinese and later Korean and\n"
+"Japanese cartographers four seasons and four cardinal directions are marked as\n"
+"four talismanic animals - the Azure Dragon of the East (Spring), the Red Bird\n"
+"of the South (Summer), the White Tiger of the West (Fall), and the \"Genbu\"\n"
+"(Black Tortoise) of the North (Winter). Corresponding to each of the talismanic\n"
+"animals the celestial \"palaces\" were seven _sei shuku_ or what are sometimes\n"
+"called \"lunar lodges\" or lunar mansions or lunar houses. The lunar stations\n"
+"probably might be used to determine position of Sun and planets as well as the\n"
+"Moon, and their number may or may not have been related to the period of the\n"
+"moon's orbit. Origins of these associations are obscure and even controversial.\n"
+"\n"
+"Determination of the talismanic animals and associated star \"palaces\" together\n"
+"with the associated 28 _sei shuku_ or lunar lodges represent some of the most\n"
+"complex aspects of Asian \"astronomy\". An apparent anomaly is the fact that the\n"
+"actual positional path of the sun seems to move in a direction opposite the\n"
+"seasonal associations of spring and fall. Some scientists argue that this is\n"
+"due to the animals and _sei shuku_ being created some 17 to 18 millennia ago\n"
+"(precession creating the anomaly), but it does not really explain the apparent\n"
+"\"backward\" motion of the Sun through seasons.\n"
+"\n"
+"According to some scientists, the talismanic animals with their associated _sei\n"
+"shuku_ were probably used in conjunction with the direction to which the handle\n"
+"of the Big Dipper (often called the \"Northern Seven Stars\" or \"Northern Dipper\"\n"
+"in China, Korea, and Japan) pointed at the equinoxes and solstices. Before the\n"
+"Christian Era, when the _sei shuku_ were created, the Big Dipper did not appear\n"
+"to set, because they had a relatively \"higher\" position than now.\n"
+"\n"
+"Like myths and traditions in western cultures, these views still wield\n"
+"influence in the daily life of people in China, Korea, and Japan (despite quite\n"
+"prominent scientific literacy). However, it should be pointed out that\n"
+"astrological divination in China, Korea and Japan was and is rather complex.\n"
+"\n"
+"The lore related to lunar mansions is one of the most interesting aspects of\n"
+"Asian ethnoastronomy. Japanese interpretations of these associations tended to\n"
+"revolve around agricultural needs and animistic views of nature. Unlike many\n"
+"western myths and traditions, Japanese gods in the similitude of the talismanic\n"
+"animals can be seen as manifestations of nature.\n"
+"\n"
+"Below is an example of a star chart from the Japanese Edo Era.\n"
+"\n"
+"![](chart.webp)\n"
+"Close-Up of Yasui's Map Showing the First 15 Lunar Stations\n"
+"{: .img_and_caption}"
+msgstr ""
+"Большинство астрономических наблюдений в Японии до Реставрации Мэйдзи было тесно связано с астрологическими целями. Для древних китайских, а затем корейских и японских картографов четыре сезона и четыре кардинальных направления отмечены как четыре талисмана - Лазурный Восточный Дракон (Весна), Красная Птица Юга (Лето), Белый Тигр Запада (Осень). ), и \"Genbu\" (Черная черепаха) Севера (Зима). Каждому из талисманских животных соответствовали небесные «дворцы», состоящие из семи шей шуку, или то, что иногда называют «лунными домиками» или лунными особняками или лунными домами. Лунные станции, вероятно, могут быть использованы для определения положения Солнца и планет, а также Луны, и их число может быть или не быть связано с периодом орбиты Луны. Истоки этих ассоциаций неясны и даже противоречивы.\n"
+"\n"
+"Определение талисманских животных и связанных с ними звездных «дворцов» вместе со связанными 28-ю шуками или лунными ложами представляет некоторые из наиболее сложных аспектов азиатской «астрономии». Очевидной аномалией является тот факт, что фактическая траектория движения Солнца, кажется, движется в направлении, противоположном сезонным ассоциациям весны и осени. Некоторые ученые утверждают, что это происходит из-за животных и _sei shuku_, созданных приблизительно 17-18 тысячелетий назад (прецессия, создающая аномалию), но это не действительно объясняет очевидное \"обратное\" движение Солнца через сезоны.\n"
+"\n"
+"По мнению некоторых ученых, талисманские животные с ассоциированным с ними _sei shuku_, вероятно, использовались в сочетании с направлением, в котором ручка Большой Медведицы (часто называемая «Северные семь звезд» или «Северная Медведица» в Китае, Корее и Японии). ) указал на равноденствия и солнцестояния. До христианской эры, когда были созданы _sei shuku_, Большая Медведица, казалось, не установилась, потому что они имели относительно \"более высокое\" положение, чем сейчас.\n"
+"\n"
+"Подобно мифам и традициям в западных культурах, эти взгляды по-прежнему оказывают влияние в повседневной жизни людей в Китае, Корее и Японии (несмотря на довольно заметную научную грамотность). Однако следует отметить, что астрологическое гадание в Китае, Корее и Японии было и остается довольно сложным.\n"
+"\n"
+"История лунных особняков - один из самых интересных аспектов азиатской этноастрономии. Японские интерпретации этих ассоциаций имели тенденцию вращаться вокруг потребностей сельского хозяйства и анимистических представлений о природе. В отличие от многих западных мифов и традиций, японские боги в подобии талисманских животных можно рассматривать как проявления природы.\n"
+"\n"
+"Ниже приведен пример звездной карты эпохи Эдо в Японии.\n"
+"\n"
+"![](chart.webp) Крупный план карты Ясуи с указанием первых 15 лунных станций\n"
+"{: .img_and_caption }"
+
+#. Sky culture extras section in markdown format
+msgid ""
+"### The Azure Dragon of the East (Spring)\n"
+"\n"
+"The 7 Lunar Stations of the \"East\" or \"Blue Dragon\".\n"
+"\n"
+"| # | Chinese Character | Meaning | Key Star | Japanese Name |\n"
+"|---|-------------------|---------|----------|---------------|\n"
+"| 1 | 角 | Horn(s), perhaps Angle, Corner | Alpha Vir | SuBoshi |\n"
+"| 2 | 亢 | Neck, Throat | Kappa Vir | AmiBoshi |\n"
+"| 3 | 氐 | Root, perhaps Shoulder or Base | Iota Lib; sometimes Alpha Lib | TomoBoshi |\n"
+"| 4 | 房 | Chamber, perhaps Breasts | Delta Sco; sometimes Pi Sco | SoiBoshi |\n"
+"| 5 | 心 | Heart | Sigma Sco | NakagoBoshi |\n"
+"| 6 | 尾 | Tail | Mu Sco | AshitareBoshi |\n"
+"| 7 | 箕 | Basket | Gamma Sgr; sometimes Eta Sgr | MiBoshi |\n"
+"\n"
+"\n"
+"### The \"Genbu\" (Black Tortoise) of the North (Winter)\n"
+"\n"
+"The 7 Lunar Stations of the \"North\" (Genbu) or \"Black Tortoise of Winter\" (also \"Somber\" or \"Black\" Warrior).\n"
+"\n"
+"| # | Chinese Character | Meaning | Key Star | Japanese Name |\n"
+"|---|----------------|-------------------|-----------|---------|\n"
+"| 8 | 斗 | Dipper; Measure | Phi Sgr | HikitsuBoshi |\n"
+"| 9 | 牛 | Cow | Beta Cap | InamiBoshi |\n"
+"| 10 | 女 | Woman; perhaps Waiting Maid | Epsilon Aqr | UrukiBoshi |\n"
+"| 11 | 虛 | Emptiness | Beta Aqr | TomiteBoshi |\n"
+"| 12 | 危 | Roof Top, perhaps Danger, Steep | Alpha Aqr | UmiyameBoshi |\n"
+"| 13 | 室 | Room, perhaps Encampment | Alpha Peg | HatsuiBoshi |\n"
+"| 14 | 壁 | Wall | Gamma Peg | NamameBoshi |\n"
+"\n"
+"\n"
+"### The White Tiger of the West (Fall)\n"
+"\n"
+"The 7 Lunar Stations of the \"West\" or \"White Tiger\".\n"
+"\n"
+"| # | Chinese Character | Meaning | Key Star | Japanese Name |\n"
+"|---|----------------|-------------------------|-----------|---------|\n"
+"| 15 | 奎 | Stride, Foot | Delta And | TokakiBoshi |\n"
+"| 16 | 婁 | Hill, Lasso; perhaps Bellows | Beta Ari | TataraBoshi |\n"
+"| 17 | 胃 | Stomach | 35 Ari | EkieBoshi |\n"
+"| 18 | 昴 | Stopping Place, United; perhaps \"Getting Together\" | 17 Tau; sometimes 16 Tau | SubaruBoshi |\n"
+"| 19 | 畢 | Net; perhaps related to Rain | Epsilon Tau | AmefuriBoshi |\n"
+"| 20 | 觜 | Turtle Snout, perhaps Tuft on Owl's Head | Turtle Snout, perhaps Tuft on Owl's Head | TorokiBoshi |\n"
+"| 21 | 参 | Investigator, Three | Delta Ori; sometimes Beta Ori | KagasukiBoshi |\n"
+"\n"
+"### The Red Bird of the South (Summer)\n"
+"\n"
+"The 7 Lunar Stations of the \"South\" or \"Red Bird\".\n"
+"\n"
+"| # | Chinese Character | Meaning | Key Star | Japanese Name |\n"
+"|---|----------------|----------------|-----------|---------|\n"
+"| 22 | 井 | Well | Mu Gem | ChichiriBoshi |\n"
+"| 23 | 鬼 | Ogre, Devil, perhaps Ghost | Delta Cnc; sometimes Theta Cnc | TamahomeBoshi |\n"
+"| 24 | 柳 | Willow | Delta Hya | NurikoBoshi |\n"
+"| 25 | 星 | Stars | Alpha Hya | HotohoriBoshi |\n"
+"| 26 | 張 | Stretched Net | Nu Hya | ChirikoBoshi |\n"
+"| 27 | 翼 | Wings | Alpha Crt | TasukiBoshi |\n"
+"| 28 | 軫 | Chariot Cross-Board, perhaps strings of Koto | Gamma Crv | MitsukakeBoshi |"
+msgstr ""
+"### Лазурный дракон Востока (Весна)\n"
+"\n"
+"7 Лунных Станций \"Востока\" или \"Синего Дракона\".\n"
+"\n"
+"| # | Китайский иероглиф | Смысл | Key Star | Японское имя |\n"
+"|-----|---------------------|-----------|------------|------------------|\n"
+"| 1 |角 | Рог (ы), возможно Угол, Угол | Альфа Вир | СуБоши |\n"
+"| 2 |亢 | Шея, горло | Каппа Вир | АмиБоши |\n"
+"| 3 |氐 | Корень, может быть, плечо или основание | Йота Либ; иногда Альфа Либ | ТомоБоши |\n"
+"| 4 |房 | Палата, возможно грудь | Delta Sco; иногда Пи Ско | СоиБоши |\n"
+"| 5 |心 | Сердце | Sigma Sco | НакагоБоши |\n"
+"| 6 |尾 | Хвост | Му ско | AshitareBoshi |\n"
+"| 7 |箕 | Корзина | Гамма сгр; иногда эта сгр | МиБоши |\n"
+"\n"
+"\n"
+"### \"Genbu\" (Черная черепаха) Севера (зима)\n"
+"\n"
+"7 Лунных Станций \"Севера\" (Генбу) или \"Черной черепахи Зимы\" (также \"Мрачный\" или \"Черный\" Воин).\n"
+"\n"
+"| # | Китайский иероглиф | Смысл | Key Star | Японское имя |\n"
+"|-----|------------------|---------------------|--------------|-----------|\n"
+"| 8 |斗 | Ковш; Мера | Фи Сгр | ХикицуБоши |\n"
+"| 9 |牛 | Корова | Бета-кепка | ИнамиБоши |\n"
+"| 10 |女 | Женщина; возможно, в ожидании горничной | Эпсилон Акр | УрукиБоши |\n"
+"| 11 |虛 | Пустота | Бета Акр | TomiteBoshi |\n"
+"| 12 |危 | Крыша, возможно, опасная, крутая | Альфа Акр | UmiyameBoshi |\n"
+"| 13 |室 | Комната, возможно, Лагерь | Альфа Пег | ХацуиБоши |\n"
+"| 14 |壁 | Стена | Гамма Пег | НамамэБоши |\n"
+"\n"
+"\n"
+"### Белый тигр Запада (осень)\n"
+"\n"
+"7 Лунных Станций \"Запада\" или \"Белого Тигра\".\n"
+"\n"
+"| # | Китайский иероглиф | Смысл | Key Star | Японское имя |\n"
+"|-----|------------------|---------------------------|-------------|-----------|\n"
+"| 15 |奎 | Страйд, Фут | Дельта А | ТокакиБоши |\n"
+"| 16 |婁 | Хилл, Лассо; возможно сильфон | Бета Ари | TataraBoshi |\n"
+"| 17 |胃 | Желудок | 35 Ари | EkieBoshi |\n"
+"| 18 |昴 | Остановка Место, Юнайтед; возможно \"Собираемся вместе\" | 17 Тау; иногда 16 тау | SubaruBoshi |\n"
+"| 19 |畢 | Сеть; возможно, связано с дождем | Эпсилон Тау | АмефуриБоши |\n"
+"| 20 |觜 | Морда черепахи, возможно, тафта на голове совы | Морда черепахи, возможно, тафта на голове совы | ТорокиБоши |\n"
+"| 21 |参 | Следователь, Три | Delta Ori; иногда бета ори | КагасукиБоши |\n"
+"\n"
+"### Красная птица Юга (лето)\n"
+"\n"
+"7 лунных станций \"юга\" или \"красной птицы\".\n"
+"\n"
+"| # | Китайский иероглиф | Смысл | Key Star | Японское имя |\n"
+"|-----|------------------|------------------|-------------|-----------|\n"
+"| 22 |井 | Хорошо | Му Gem | ЧичириБоши |\n"
+"| 23 |鬼 | Огр, Дьявол, возможно Призрак | Delta Cnc; иногда тета чпу | ТамахомеБоши |\n"
+"| 24 |柳 | Ива | Дельта Хья | НурикоБоши |\n"
+"| 25 |星 | Звезды | Альфа Хья | ХотохориБоши |\n"
+"| 26 |張 | Натянутая сеть | Ну Хя | ЧирикоБоши |\n"
+"| 27 |翼 | Крылья | Альфа Крит | TasukiBoshi |\n"
+"| 28 |軫 | Колесница Cross-Board, возможно, строки из Кото | Гамма Црв | MitsukakeBoshi |"
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: Steve Renshaw: [A Cultural History of Astronomy in Japan](http://www.academia.edu/5293593/A_Cultural_History_of_Astronomy_in_Japan)\n"
+" - [#2]: Z Xu, W Pankenier, Y Jiang: East-Asian Archaeoastronomy: Historical Records of Astronomical Observations of China, Japan and Korea, Cambria Press, New York,  2000\n"
+" - [#3]: David W. Pankenier, Xu Zhentao, and Jiang Yaotiao: East-Asian Archaeoastronomy: Historical Observational Records of Comets and Meteor Showers from China, Japan, and Korea, Cambria Press, NY, 2008\n"
+" - [#4]: Watanabe, T. (1987) Kinsei Nihon Tenmon Gakushi; Vol II: Kansatsu Gijutsu Shi. (A View of Japanese History of Astronomy in Modern Times; Vol II: Techniques of Observation). Koseisha Kosaikaku, Tokyo."
+msgstr ""
+" - [#1]: Стив Реншоу: [Культурная история астрономии в Японии](http://www.academia.edu/5293593/A_Cultural_History_of_Astronomy_in_Japan)\n"
+" - [#2]: Z Xu, W. Pankenier, Y Jiang: Восточно-азиатская археоастрономия: исторические записи астрономических наблюдений Китая, Японии и Кореи, Cambria Press, Нью-Йорк, 2000\n"
+" - [#3]: Дэвид В. Панкенир, Сюй Чжентао и Цзян Яотяо: Восточноазиатская археоастрономия: исторические записи наблюдений комет и метеорных потоков из Китая, Японии и Кореи, Cambria Press, NY, 2008\n"
+" - [#4]: Ватанабэ, Т. (1987) Кинсей Нихон Тэнмон Гакуши; Том II: Кансацу Гидзюцу Ши. (Взгляд на японскую историю астрономии в наше время; Том II: Методы наблюдений). Косейша Косайкаку, Токио."
+
+#. Sky culture authors section in markdown format
+msgid ""
+"Text and data by Alexander Wolf\n"
+"\n"
+"Clean-up by Susanne M Hoffmann and the Stellarium's team."
+msgstr ""
+"Текст и данные Александра Вольфа\n"
+"\n"
+"Очистка Сюзанной М. Хоффманн и командой Stellarium."
+
+#. Sky culture license section in markdown format
+msgid ""
+"Text and data: CC BY-SA\n"
+"\n"
+"Yasui's Map detail[4] used with authorisation from Steven Renshaw"
+msgstr ""
+"Текст и данные: CC BY-SA\n"
+"\n"
+"Деталь карты Ясуи [4] используется с разрешения Стивена Реншоу."
+
+#. Japanese Lunar Stations constellation, pronounce: SuBoshi
+msgid "Horn"
+msgstr "Рог"
+
+#. Japanese Lunar Stations constellation, pronounce: AmiBoshi
+msgid "Neck"
+msgstr "Шея"
+
+#. Japanese Lunar Stations constellation, pronounce: TomoBoshi
+msgid "Root"
+msgstr "Корень"
+
+#. Japanese Lunar Stations constellation, pronounce: SoiBoshi
+msgid "Chamber"
+msgstr "Палата"
+
+#. Japanese Lunar Stations constellation, pronounce: NakagoBoshi
+msgid "Heart"
+msgstr "Сердце"
+
+#. Japanese Lunar Stations constellation, pronounce: AshitareBoshi
+msgid "Tail"
+msgstr "Хвост"
+
+#. Japanese Lunar Stations constellation, pronounce: MiBoshi
+msgid "Basket"
+msgstr "Корзина"
+
+#. Japanese Lunar Stations constellation, pronounce: HikitsuBoshi
+msgid "Dipper"
+msgstr "Ковш"
+
+#. Japanese Lunar Stations constellation, pronounce: InamiBoshi
+msgid "Cow"
+msgstr "Корова"
+
+#. Japanese Lunar Stations constellation, pronounce: UrukiBoshi
+msgid "Woman"
+msgstr "Женщина"
+
+#. Japanese Lunar Stations constellation, pronounce: TomiteBoshi
+msgid "Emptiness"
+msgstr "Пустота"
+
+#. Japanese Lunar Stations constellation, pronounce: UmiyameBoshi
+msgid "Roof Top"
+msgstr "Конёк"
+
+#. Japanese Lunar Stations constellation, pronounce: HatsuiBoshi
+msgid "Room"
+msgstr "Комната"
+
+#. Japanese Lunar Stations constellation, pronounce: NamameBoshi
+msgid "Wall"
+msgstr "Стена"
+
+#. Japanese Lunar Stations constellation, pronounce: TokakiBoshi
+msgid "Stride"
+msgstr "Большой шаг"
+
+#. Japanese Lunar Stations constellation, pronounce: TataraBoshi
+msgid "Hill"
+msgstr "Холм"
+
+#. Japanese Lunar Stations constellation, pronounce: EkieBoshi
+msgid "Stomach"
+msgstr "Желудок"
+
+#. Japanese Lunar Stations constellation, pronounce: SubaruBoshi
+msgid "Stopping Place"
+msgstr "Место остановки"
+
+#. Japanese Lunar Stations constellation, pronounce: AmefuriBoshi
+msgid "Net"
+msgstr "Сетка"
+
+#. Japanese Lunar Stations constellation, pronounce: TorokiBoshi
+msgid "Turtle Snout"
+msgstr "Морда черепахи"
+
+#. Japanese Lunar Stations constellation, pronounce: KagasukiBoshi
+msgid "Investigator"
+msgstr "Следователь"
+
+#. Japanese Lunar Stations constellation, pronounce: ChichiriBoshi
+msgid "Well"
+msgstr "Родник"
+
+#. Japanese Lunar Stations constellation, pronounce: TamahomeBoshi
+msgid "Ogre"
+msgstr "Людоед"
+
+#. Japanese Lunar Stations constellation, pronounce: NurikoBoshi
+msgid "Willow"
+msgstr "Ива"
+
+#. Japanese Lunar Stations constellation, pronounce: HotohoriBoshi
+msgid "Stars"
+msgstr "Звёзды"
+
+#. Japanese Lunar Stations constellation, pronounce: ChirikoBoshi
+msgid "Stretched Net"
+msgstr "Натянутая сеть"
+
+#. Japanese Lunar Stations constellation, pronounce: TasukiBoshi
+msgid "Wings"
+msgstr "Крылья"
+
+#. Japanese Lunar Stations constellation, pronounce: MitsukakeBoshi
+msgid "Chariot Cross-Board"
+msgstr "Крестовина колесницы"

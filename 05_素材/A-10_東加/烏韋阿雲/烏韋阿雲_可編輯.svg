@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20.16 -20.16 40.32 40.32" font-family="Noto Sans CJK TC, sans-serif">
+<g id="stars" fill="#FFFFFF">
+<circle cx="-6.70" cy="14.42" r="0.177"/>
+<circle cx="-14.48" cy="7.28" r="0.113"/>
+<circle cx="-8.34" cy="12.00" r="0.086"/>
+<circle cx="-5.96" cy="-1.87" r="0.313"/>
+<circle cx="5.13" cy="-2.19" r="0.298"/>
+<circle cx="7.15" cy="-13.67" r="0.258"/>
+<circle cx="-1.58" cy="-8.34" r="0.225"/>
+<circle cx="1.17" cy="-15.49" r="0.223"/>
+<circle cx="7.82" cy="-5.66" r="0.218"/>
+<circle cx="-4.34" cy="-4.19" r="0.211"/>
+<circle cx="6.59" cy="11.18" r="0.204"/>
+<circle cx="-7.79" cy="-1.55" r="0.185"/>
+<circle cx="-5.34" cy="-6.50" r="0.178"/>
+<circle cx="-11.08" cy="-2.40" r="0.178"/>
+<circle cx="-3.31" cy="-12.49" r="0.172"/>
+<circle cx="7.25" cy="-4.99" r="0.153"/>
+<circle cx="-7.92" cy="5.11" r="0.150"/>
+<circle cx="0.79" cy="-1.95" r="0.147"/>
+<circle cx="5.47" cy="7.95" r="0.143"/>
+<circle cx="-9.35" cy="-1.43" r="0.141"/>
+<circle cx="3.93" cy="5.85" r="0.137"/>
+<circle cx="-10.13" cy="3.65" r="0.129"/>
+<circle cx="5.50" cy="-1.66" r="0.129"/>
+<circle cx="10.27" cy="-11.11" r="0.128"/>
+<circle cx="1.33" cy="-0.02" r="0.127"/>
+<circle cx="-12.55" cy="1.59" r="0.126"/>
+<circle cx="13.07" cy="-0.79" r="0.125"/>
+<circle cx="-15.98" cy="-7.12" r="0.124"/>
+<circle cx="11.67" cy="8.27" r="0.124"/>
+<circle cx="6.67" cy="16.85" r="0.123"/>
+<circle cx="6.58" cy="8.46" r="0.121"/>
+<circle cx="-11.63" cy="-5.48" r="0.115"/>
+<circle cx="-4.58" cy="-16.13" r="0.114"/>
+<circle cx="-6.36" cy="-11.90" r="0.114"/>
+<circle cx="-3.29" cy="-5.34" r="0.114"/>
+<circle cx="15.90" cy="-3.60" r="0.112"/>
+<circle cx="-4.42" cy="-16.06" r="0.110"/>
+<circle cx="-5.37" cy="-14.25" r="0.104"/>
+<circle cx="-4.32" cy="9.54" r="0.099"/>
+<circle cx="-5.79" cy="-15.65" r="0.092"/>
+<circle cx="-1.42" cy="-4.18" r="0.091"/>
+<circle cx="-2.91" cy="-7.99" r="0.083"/>
+<circle cx="9.85" cy="5.44" r="0.081"/>
+<circle cx="12.03" cy="11.62" r="0.081"/>
+<circle cx="-9.55" cy="-13.53" r="0.079"/>
+<circle cx="-3.80" cy="-9.43" r="0.077"/>
+<circle cx="3.52" cy="-12.39" r="0.074"/>
+<circle cx="-2.64" cy="-4.65" r="0.072"/>
+<circle cx="1.01" cy="-10.24" r="0.071"/>
+<circle cx="-2.86" cy="-14.71" r="0.070"/>
+<circle cx="6.53" cy="13.28" r="0.067"/>
+<circle cx="-7.62" cy="-7.82" r="0.066"/>
+<circle cx="-13.95" cy="-9.88" r="0.066"/>
+<circle cx="-10.34" cy="-12.28" r="0.065"/>
+<circle cx="12.43" cy="5.29" r="0.468"/>
+<circle cx="-9.28" cy="9.33" r="0.212"/>
+<circle cx="-11.77" cy="8.93" r="0.199"/>
+<circle cx="-9.73" cy="6.55" r="0.181"/>
+<circle cx="-12.39" cy="-12.38" r="0.133"/>
+<circle cx="-8.86" cy="-11.11" r="0.126"/>
+<circle cx="0.16" cy="0.13" r="0.118"/>
+<circle cx="-12.76" cy="6.65" r="0.104"/>
+<circle cx="-7.14" cy="14.94" r="0.092"/>
+<circle cx="-11.16" cy="-8.95" r="0.082"/>
+<circle cx="-10.96" cy="4.26" r="0.077"/>
+<circle cx="13.32" cy="11.57" r="0.071"/>
+<circle cx="-12.06" cy="10.18" r="0.070"/>
+</g>
+<g id="lines_東加星座" stroke="#FFC94A" stroke-width="0.121" fill="none" stroke-linecap="round">
+<path d="M -11.63 -5.48 L -11.08 -2.40 L -9.35 -1.43 L -7.79 -1.55 L -5.96 -1.87 L -4.34 -4.19 L -5.34 -6.50"/>
+</g>
+<g id="lines_北冕座" stroke="#FFC94A" stroke-width="0.121" fill="none" stroke-linecap="round">
+<path d="M -5.34 -6.50 L -4.34 -4.19 L -5.96 -1.87 L -7.79 -1.55 L -9.35 -1.43 L -11.08 -2.40 L -11.63 -5.48"/>
+</g>
+<g id="lines_牧夫座" stroke="#FFC94A" stroke-width="0.121" fill="none" stroke-linecap="round">
+<path d="M 6.59 11.18 L 12.43 5.29 L 5.13 -2.19 L -1.58 -8.34 L 1.17 -15.49 L 7.15 -13.67 L 7.82 -5.66 L 12.43 5.29 L 17.54 5.56 L 19.13 8.06"/>
+</g>
+</svg>

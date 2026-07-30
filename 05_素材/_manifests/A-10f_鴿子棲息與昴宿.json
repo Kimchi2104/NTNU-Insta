@@ -1,0 +1,154 @@
+{
+ "episode": "A-10",
+ "outdir": "05_素材/A-10_東加/鴿子棲息",
+ "prefix": "鴿子棲息",
+ "field": {
+  "center": [
+   62,
+   20.5
+  ],
+  "radius": 16,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    21421,
+    20885,
+    20205,
+    20455,
+    20889,
+    17499
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "東加星座",
+   "color": "amber",
+   "lw": 2.2,
+   "split": true,
+   "source": {
+    "culture": "tongan",
+    "names": [
+     "Pigeon Perch"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "金牛座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Tau"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "東加原名",
+   "auto_from": "東加星座",
+   "auto_text": "native",
+   "rename": {
+    "Pigeon Perch": {
+     "zh": "Tu'ulalupe",
+     "dx": 3,
+     "dy": -3.4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "漢字名",
+   "optional": true,
+   "auto_from": "東加星座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Pigeon Perch": {
+     "zh": "鴿子棲息",
+     "dx": 3,
+     "dy": -3.4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "具名星",
+   "optional": true,
+   "items": [
+    {
+     "hip": 17499,
+     "zh": "Motuliki",
+     "en": "Pleiades 昴宿星團",
+     "dx": -2.6,
+     "dy": 3.0,
+     "size": 16
+    },
+    {
+     "hip": 21421,
+     "en": "Aldebaran（無東加名記錄）",
+     "dx": 3.0,
+     "dy": -2.2,
+     "size": 14,
+     "zh": "畢宿五"
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "西方名",
+   "optional": true,
+   "auto_from": "金牛座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Taurus": {
+     "zh": "金牛座",
+     "dx": 5,
+     "dy": 3.4,
+     "size": 17
+    }
+   }
+  }
+ ],
+ "previews": [
+  {
+   "name": "東加",
+   "layers": [
+    "星點層",
+    "東加星座",
+    "東加原名"
+   ]
+  },
+  {
+   "name": "漢字",
+   "layers": [
+    "星點層",
+    "東加星座",
+    "漢字名"
+   ]
+  },
+  {
+   "name": "具名星",
+   "layers": [
+    "星點層",
+    "東加星座",
+    "東加原名",
+    "具名星"
+   ]
+  },
+  {
+   "name": "中西對比",
+   "layers": [
+    "星點層",
+    "金牛座",
+    "東加星座",
+    "東加原名",
+    "西方名"
+   ]
+  }
+ ]
+}

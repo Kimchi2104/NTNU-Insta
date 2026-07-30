@@ -1,0 +1,107 @@
+{
+ "episode": "A-02",
+ "outdir": "05_素材/A-02_三垣/天市垣",
+ "prefix": "天市垣",
+ "field": {
+  "center": [
+   256,
+   10
+  ],
+  "radius": 28,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    84345,
+    86032
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "垣牆",
+   "color": "amber",
+   "split": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "天市右垣",
+     "天市左垣"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "垣內",
+   "color": "amber",
+   "lw": 2.2,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "帝座",
+     "宗正",
+     "宗人",
+     "宗",
+     "候",
+     "宦者",
+     "列肆",
+     "斗",
+     "斛",
+     "市楼",
+     "车肆",
+     "屠肆"
+    ]
+   }
+  },
+  {
+   "type": "labels",
+   "name": "垣名",
+   "auto_from": "垣牆",
+   "rename": {
+    "天市左垣": {
+     "zh": "天市左垣",
+     "dx": -13,
+     "dy": 11,
+     "size": 20
+    },
+    "天市右垣": {
+     "zh": "天市右垣",
+     "dx": 15,
+     "dy": 8,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "垣內名",
+   "auto_from": "垣內",
+   "optional": true
+  },
+  {
+   "type": "labels",
+   "name": "主星標",
+   "optional": true,
+   "items": [
+    {
+     "hip": 84345,
+     "zh": "帝座",
+     "en": "Rasalgethi α Her",
+     "dy": -3,
+     "size": 15
+    },
+    {
+     "hip": 86032,
+     "zh": "候",
+     "en": "Rasalhague α Oph",
+     "dy": -3,
+     "size": 15
+    }
+   ]
+  }
+ ]
+}

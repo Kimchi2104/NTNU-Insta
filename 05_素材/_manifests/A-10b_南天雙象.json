@@ -1,0 +1,158 @@
+{
+ "episode": "A-10",
+ "outdir": "05_素材/A-10_東加/南天雙象",
+ "prefix": "南天雙象",
+ "field": {
+  "center": [
+   201.5,
+   -60
+  ],
+  "radius": 18,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    61084,
+    60718,
+    62434,
+    59747,
+    71683,
+    68702
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "東加星座",
+   "color": "amber",
+   "lw": 2.2,
+   "split": true,
+   "source": {
+    "culture": "tongan",
+    "names": [
+     "Southern Wild Duck",
+     "Mound Top"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "南十字座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Cru"
+   }
+  },
+  {
+   "type": "lines",
+   "name": "半人馬座",
+   "color": "green",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Cen"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "東加原名",
+   "auto_from": "東加星座",
+   "auto_text": "native",
+   "rename": {
+    "Southern Wild Duck": {
+     "zh": "Toloatonga",
+     "dx": -3,
+     "dy": 3.4,
+     "size": 21
+    },
+    "Mound Top": {
+     "zh": "Fungasia",
+     "dx": 3,
+     "dy": 2.8,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "漢字名",
+   "optional": true,
+   "auto_from": "東加星座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Southern Wild Duck": {
+     "zh": "南部野鴨",
+     "dx": -3,
+     "dy": 3.4,
+     "size": 20
+    },
+    "Mound Top": {
+     "zh": "丘頂",
+     "dx": 3,
+     "dy": 2.8,
+     "size": 19
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "西方名",
+   "optional": true,
+   "auto_from": "南十字座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Crux": {
+     "zh": "南十字座",
+     "dx": -4.5,
+     "dy": -3.6,
+     "size": 17
+    },
+    "Centaurus": {
+     "zh": "半人馬座",
+     "dx": 5,
+     "dy": -3.0,
+     "size": 17
+    }
+   }
+  }
+ ],
+ "previews": [
+  {
+   "name": "東加",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "東加星座",
+    "東加原名"
+   ]
+  },
+  {
+   "name": "漢字",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "東加星座",
+    "漢字名"
+   ]
+  },
+  {
+   "name": "中西對比",
+   "layers": [
+    "星點層",
+    "南十字座",
+    "半人馬座",
+    "東加星座",
+    "東加原名",
+    "西方名"
+   ]
+  }
+ ]
+}

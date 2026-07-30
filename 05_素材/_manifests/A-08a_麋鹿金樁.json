@@ -1,0 +1,23 @@
+{
+ "episode": "A-08", "outdir": "05_素材/A-08_西伯利亞/麋鹿金樁", "prefix": "麋鹿",
+ "field": {"center": [190, 68], "radius": 27, "maglim": 5.6},
+ "layers": [
+  {"type": "stars", "mains": [54061, 53910, 58001, 59774, 62956, 65378, 67301, 11767]},
+  {"type": "lines", "name": "麋鹿", "color": "amber",
+   "source": {"culture": "siberian", "names": ["Elk"]}},
+  {"type": "lines", "name": "指極線", "color": "blue", "lw": 2.0, "optional": true,
+   "hips": [[53910, 54061, 11767]]},
+  {"type": "labels", "name": "繁中名", "auto_from": "麋鹿", "auto_text": "po:zh_TW",
+   "rename": {"Elk": {"zh": "麋鹿（北斗七星）", "dy": 5, "size": 20}}},
+  {"type": "labels", "name": "俄文名", "optional": true, "auto_from": "麋鹿", "auto_text": "po:ru",
+   "rename": {"Elk": {"dy": 5, "size": 21}}},
+  {"type": "labels", "name": "讀音名", "optional": true, "auto_from": "麋鹿", "auto_text": "pronounce",
+   "rename": {"Elk": {"dy": 5, "size": 20}}},
+  {"type": "labels", "name": "金樁", "optional": true,
+   "items": [{"hip": 11767, "zh": "金樁 Golden Stake", "en": "北極星 Polaris", "dy": -4, "size": 17}]}
+ ],
+ "previews": [
+  {"name": "麋鹿", "layers": ["星點層", "麋鹿", "繁中名"]},
+  {"name": "俄文", "layers": ["星點層", "麋鹿", "俄文名"]},
+  {"name": "金樁指極", "layers": ["星點層", "麋鹿", "指極線", "金樁", "繁中名"]}]
+}

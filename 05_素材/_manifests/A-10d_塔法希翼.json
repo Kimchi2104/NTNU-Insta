@@ -1,0 +1,126 @@
+{
+ "episode": "A-10",
+ "outdir": "05_素材/A-10_東加/塔法希翼",
+ "prefix": "塔法希翼",
+ "field": {
+  "center": [
+   15,
+   60
+  ],
+  "radius": 13,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    8886,
+    6686,
+    4427,
+    3179,
+    746
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "東加星座",
+   "color": "amber",
+   "lw": 2.2,
+   "split": true,
+   "source": {
+    "culture": "tongan",
+    "names": [
+     "Wing of Tafahi"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "仙后座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Cas"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "東加原名",
+   "auto_from": "東加星座",
+   "auto_text": "native",
+   "rename": {
+    "Wing of Tafahi": {
+     "zh": "Kapakau'o'tafahi",
+     "dx": 0,
+     "dy": -5.4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "漢字名",
+   "optional": true,
+   "auto_from": "東加星座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Wing of Tafahi": {
+     "zh": "塔法希翼",
+     "dx": 0,
+     "dy": -5.4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "西方名",
+   "optional": true,
+   "auto_from": "仙后座",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Cassiopeia": {
+     "zh": "仙后座",
+     "dx": 4.5,
+     "dy": 3.2,
+     "size": 18
+    }
+   }
+  }
+ ],
+ "previews": [
+  {
+   "name": "東加",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "東加星座",
+    "東加原名"
+   ]
+  },
+  {
+   "name": "漢字",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "東加星座",
+    "漢字名"
+   ]
+  },
+  {
+   "name": "中西對比",
+   "layers": [
+    "星點層",
+    "仙后座",
+    "東加星座",
+    "東加原名",
+    "西方名"
+   ]
+  }
+ ]
+}

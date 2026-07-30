@@ -1,0 +1,24 @@
+﻿分類,Stellarium ID,英文名 English,原文名 Native,讀音 Pronounce,IPA,繁中譯名 zh_TW,星數,組成恆星 (HIP),對應國際星名,Stellarium 描述,社團清單,社團補充備註,參考文獻#
+星座/星官,CON tupi 001,White Ostrich,Guirá Nhandu,,,白鴕鳥,42,78820 78401 78933 78265 78104 77634 76297 74395 74824 70264 62268 60718 61585 62322 64094 65387 72131 77952 79664 82363 83081 83153 85792 89096 88726 87936 87846 83057 82729 82514 82396 81266 80763 80112 84143 86228 87073 86670 85927 79374 87261 86698,Acrab、Dschubba、Jabhat Acrabi I、Fang、Iklil、Acrux、Xamidimura、Larawag、Paikauhale、Antares、Alniyat、Sargas、Girtab、Mula、Shaula、Jabbah、Fuyue,"The Tupi name for this constellation is Iandutim (Guirá Nhandu in Guarani), which literally translates to White Ostrich. The constellation depicts a large bird. In the first two weeks of June this constellation is fully visible in the Eastern sky in the evening, indicating the beginning of Winter in the South of Brazil, and the start of the dry season in the North.",✓,白鴕鳥,
+星座/星官,CON tupi 002,Old Man,Tuivae,,,老人,22,25336 25930 26311 26727 27366 27989 21421 20894 20889 20455 20205 17847 22449 22509 22845 22549 22797 24010 23607 24197 24436 23875,Bellatrix、Mintaka、Alnilam、Alnitak、Saiph、Betelgeuse、Aldebaran、Chamukuy、Ain、Secunda Hyadum、Prima Hyadum、Atlas、Tabit、Al Taj I、Al Taj IV、Al Taj II、Al Taj III、Rigel、Cursa,"This constellation depicts an old man holding a stick. In the second half of December, the constellation is fully visible in the Eastern evening sky. This marks the beginning of summer in the southern parts of Brazil and the start of the rainy season in the North. - 1]: The Tupi People. [Wikipedia article - 2]: The Brazilian Indigenous Constellations by Germano Bruno Afonso (Portugese). [PDF This sky culture was contributed by Stellarium user Paulo Marcelo Pontes. GNU GPL v2.0",✓,老人,
+星座/星官,CON tupi 003,Northern Tapir,Tapi'i,,,北Tap,31,109492 112724 107418 105199 110991 114104 746 3179 3300 3821 117221 116584 110351 106711 105102 106551 104887 6686 4427 103413 102843 102098 102724 104060 103632 107930 107533 1960 2599 3951 5589,Castula、Alderamin、Caph、Shedar、Achird、Ruchbah、Navi、Deneb,,✓,,
+星座/星官,CON tupi 004,Deer,,,,鹿,41,60718 60260 59747 62434 61084 60009 62322 63613 61585 59072 61199 57363 56862 52419 50954 50099 51313 48002 45238 47854 50371 45556 45080 42913 39953 42312 42884 44816 46651 45448 45085 44511 45941 48774 41039 41616 42088 42834 51523 55425 60059,Acrux、Ginan、Imai、Mimosa、Gacrux、Miaplacidus、Aspidiske、Alsephina、Regor、Suhail、Markeb,,✓,鹿,
+星座/星官,CON tupi 005,Joykexo,,,,Joykexo,3,25930 26311 26727,Mintaka、Alnilam、Alnitak,,✓,,
+星座/星官,CON tupi 006,Hornet,Eixu,,,大黃蜂,7,17847 17702 17608 17573 17499 17531 17579,Atlas、Alcyone、Merope、Maia、Electra、Taygeta、Asterope,,✓,大黃蜂,
+星座/星官,CON tupi 007,Tapir's Jaw,Tapi'i rainhyka,,,ir顎,5,20205 20455 20889 21421 20894,Prima Hyadum、Secunda Hyadum、Ain、Aldebaran、Chamukuy,,✓,,
+具名恆星,HIP 61199,,Guirá-Rupiá,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 61199,,,,
+具名恆星,HIP 63613,,Guirá-Rupiá,,,"Project-Id-Version: 1.0
+Last-Translator: Stellarium's developers
+Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
+Language: zh_TW
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+",,,HIP 63613,,,,

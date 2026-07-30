@@ -1,0 +1,12 @@
+Sky Cultures
+X
+Inuit
+Region: America
+Use
+The Inuit are the indigenous peoples in the arctic areas of America, i.e. central and northeast Canada and Greenland. Their culture is part of the various arctic and subarctic cultures but the term "Eskimo" refers to a much larger group (also including peoples from Alaska and on both sides of the Behring Strait).
+This sky culture for Stellarium is an adaptation of John MacDonald's research in his book The Arctic Sky: Inuit Astronomy, Star Lore and Legend. While placements and specifics of Inuit constellations might differ from tribe to tribe, the information in Stellarium presents the constellations and general themes of the arctic universe.
+^ About
+Authors
+This sky culture was contributed by Karrie Berglund of Digitalis Education Solutions, Inc. based primarily on the book The Arctic Sky: Inuit Astronomy, Star Lore and Legend by John MacDonald.
+Illustrations by Johan Meuris.
+Edited by Susanne M Hoffmann and the Stellarium's team.

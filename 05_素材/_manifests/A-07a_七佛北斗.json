@@ -1,0 +1,242 @@
+{
+ "episode": "A-07",
+ "outdir": "05_素材/A-07_蒙古/七佛北斗",
+ "prefix": "七佛",
+ "field": {
+  "center": [
+   190,
+   68
+  ],
+  "radius": 27,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    54061,
+    53910,
+    58001,
+    59774,
+    62956,
+    65378,
+    67301,
+    11767
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "七佛",
+   "color": "amber",
+   "source": {
+    "culture": "mongolian",
+    "names": [
+     "The Seven Buddhas"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "指極線",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "hips": [
+    [
+     53910,
+     54061,
+     11767
+    ]
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "星官名",
+   "auto_from": "七佛",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "The Seven Buddhas": {
+     "zh": "七佛（北斗七星）",
+     "dy": 5,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "蒙古讀音",
+   "optional": true,
+   "auto_from": "七佛",
+   "auto_text": "pronounce",
+   "rename": {
+    "The Seven Buddhas": {
+     "dy": 5,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "生肖標",
+   "optional": true,
+   "items": [
+    {
+     "hip": 54061,
+     "zh": "鼠・羊",
+     "en": "Dubhe 天樞",
+     "dx": 3,
+     "dy": 3,
+     "size": 15
+    },
+    {
+     "hip": 53910,
+     "zh": "牛・猴",
+     "en": "Merak 天璇",
+     "dx": -3,
+     "dy": -3.5,
+     "size": 15
+    },
+    {
+     "hip": 58001,
+     "zh": "虎・雞",
+     "en": "Phecda 天璣",
+     "dx": 0,
+     "dy": -4,
+     "size": 15
+    },
+    {
+     "hip": 59774,
+     "zh": "兔・狗",
+     "en": "Megrez 天權",
+     "dx": 0,
+     "dy": 3,
+     "size": 15
+    },
+    {
+     "hip": 62956,
+     "zh": "龍・豬",
+     "en": "Alioth 玉衡",
+     "dx": 0,
+     "dy": 3,
+     "size": 15
+    },
+    {
+     "hip": 65378,
+     "zh": "蛇",
+     "en": "Mizar 開陽",
+     "dx": 0,
+     "dy": 3,
+     "size": 15
+    },
+    {
+     "hip": 67301,
+     "zh": "馬",
+     "en": "Alkaid 搖光",
+     "dx": 0,
+     "dy": 3,
+     "size": 15
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "金樁",
+   "optional": true,
+   "items": [
+    {
+     "hip": 11767,
+     "zh": "Алтан Гадас 金樁",
+     "en": "北極星 Polaris",
+     "dy": -4,
+     "size": 17
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "蒙古文",
+   "optional": true,
+   "items": [
+    {
+     "ra": 184.9,
+     "dec": 55.8,
+     "zh": "Долоон бурхан",
+     "en": "七佛 / Долоон өвгөн 七位老人",
+     "dy": 6,
+     "size": 19
+    }
+   ]
+  }
+ ],
+ "disc_overlay": {
+  "disc": "north",
+  "lines": [
+   {
+    "color": "amber",
+    "lw": 2.4,
+    "source": {
+     "culture": "mongolian"
+    }
+   }
+  ],
+  "label_sets": [
+   {
+    "name": "繁中",
+    "auto_text": "po:zh_TW",
+    "size": 13,
+    "lines_index": 0
+   },
+   {
+    "name": "蒙古讀音",
+    "auto_text": "pronounce",
+    "size": 12,
+    "lines_index": 0
+   }
+  ],
+  "labels": []
+ },
+ "previews": [
+  {
+   "name": "七佛",
+   "layers": [
+    "星點層",
+    "七佛",
+    "星官名"
+   ]
+  },
+  {
+   "name": "十二生肖",
+   "layers": [
+    "星點層",
+    "七佛",
+    "生肖標"
+   ]
+  },
+  {
+   "name": "金樁指極",
+   "layers": [
+    "星點層",
+    "七佛",
+    "指極線",
+    "金樁",
+    "星官名"
+   ]
+  },
+  {
+   "name": "蒙古讀音",
+   "layers": [
+    "星點層",
+    "七佛",
+    "蒙古讀音"
+   ]
+  },
+  {
+   "name": "蒙古文",
+   "layers": [
+    "星點層",
+    "七佛",
+    "蒙古文"
+   ]
+  }
+ ]
+}

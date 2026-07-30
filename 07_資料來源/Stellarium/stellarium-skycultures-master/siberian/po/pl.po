@@ -1,0 +1,127 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Polish (https://www.transifex.com/stellarium/teams/80998/pl/)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Siberian"
+msgstr "syberyjska"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"Siberia is the Asian part of Russia, i.e. the northern third of the Asian\n"
+"continent. As it belongs to Russia, the modern constellations are used there\n"
+"since many centuries."
+msgstr ""
+"Syberia to azjatycka część Rosji, tj. Północna trzecia część kontynentu "
+"azjatyckiego. Jak należy do Rosji, współczesne konstelacje są tam używane od"
+" wielu stuleci."
+
+#. Sky culture description section in markdown format
+msgid ""
+"The names of the constellations of the native Siberian peoples and tribes is\n"
+"poorly studied. Additonally, due to the large territory, the knowledge about\n"
+"constellations is difficult to reconcile in a single integrated picture. In\n"
+"this sky culture, only specific names and objects are marked which are typical\n"
+"for whole of Siberia. There had been more in only certain areas of Siberia,\n"
+"used by only a smaller group of people.\n"
+"\n"
+"### Milky Way\n"
+"\n"
+"The names of the Milky Way are quite numerous, but they can be distinguished\n"
+"into two groups: (i) the names coming from the past (e.g., _Goose Road_) and\n"
+"(ii) the name of a later periods (_Mamay Road_). The names of the later period\n"
+"is are clearly influenced by the Mongol-Tatar invasion to Russia.\n"
+"\n"
+"### Pleiades\n"
+"\n"
+"The Pleiades have many names, even more than names for the Milky Way exist.\n"
+"However, all of them in Siberia can be reduced to the notion for a star cluster\n"
+"as a bird's nest. Among these names _Duck Nest_ is the most common.\n"
+"\n"
+"### Ursa Major\n"
+"\n"
+"In central Siberia, the name _Elk_ is used very often for this constellation\n"
+"but in Eastern Siberia the name \"Bear\" is used more frequently.\n"
+"\n"
+"### Orion\n"
+"\n"
+"Of the constellation of Orion, Siberians usually use only three stars of the\n"
+"belt: they are called _Kichigi_ (the Threshers). It is a typical image of the\n"
+"threchers from north-eastern Russia that they stand in a row. In the European\n"
+"part of Russia an asterism called _Kichigi_ usually hides the Ursa Major\n"
+"constellation."
+msgstr ""
+"Nazwy konstelacji rdzennych syberyjskich ludów i plemion są słabo zbadane. Dodatkowo, ze względu na duże terytorium, wiedza na temat konstelacji jest trudna do pogodzenia w jednym zintegrowanym obrazie. W kulturze tego nieba zaznaczane są tylko określone nazwy i przedmioty, które są typowe dla całej Syberii. Było ich więcej tylko w niektórych regionach Syberii, z których korzystała tylko mniejsza grupa ludzi.\n"
+"\n"
+"### Droga Mleczna\n"
+"\n"
+"Nazwy Drogi Mlecznej są dość liczne, ale można je podzielić na dwie grupy: (i) nazwy pochodzące z przeszłości (np. „Goose Road”) i (ii) nazwy późniejszych okresów („May Road”). Na nazwy późniejszego okresu wyraźnie wpływa inwazja mongolsko-tatarska na Rosję.\n"
+"\n"
+"### Plejady\n"
+"\n"
+"Plejady mają wiele nazw, nawet więcej niż nazwy Drogi Mlecznej. Jednak wszystkie z nich na Syberii można sprowadzić do pojęcia gromady gwiazd jako ptasiego gniazda. Spośród tych nazw najczęściej występuje Nest Nest.\n"
+"\n"
+"### Wielka Niedźwiedzica\n"
+"\n"
+"Na środkowej Syberii nazwa _Elk_ jest używana bardzo często w tej konstelacji, ale na Syberii Wschodniej nazwa „Niedźwiedź” jest używana częściej.\n"
+"\n"
+"### Orion\n"
+"\n"
+"Z konstelacji Oriona Syberyjczycy zwykle używają tylko trzech gwiazd pasa: nazywają się _Kichigi_ (Młocarni). Jest to typowy wizerunek threcherów z północno-wschodniej Rosji, którzy stoją w rzędzie. W europejskiej części Rosji asteryzm o nazwie _Kichigi_ zwykle kryje gwiazdozbiór Wielkiej Niedźwiedzicy."
+
+#. Sky culture references section in markdown format
+msgid ""
+" - [#1]: Svjatskij, D.O. Astronomija Drevnej Rusi. - M., 2007. - 664 s.\n"
+" - [#2]: Svjatskij, D.O. Pod svodom hrustal'nogo neba: Ocherki po astral'noj mifologii v oblasti religioznogo i narodnogo mirovozzrenija. Izd. 2-e M.: Knizhnyj dvor \"LIBROKOM\", 2011. - 192 s.\n"
+" - [#3]: Rut, M.E. Slovar' astronimov. Zvezdnoe nebo po-russki. - M.: AST-PRESS KNIGA, 2010. - 288 s.\n"
+" - [#4]: Karpenko, Ju.A. Nazvanija zvezdnogo neba. - M.: Nauka, 1981. - 184 s."
+msgstr ""
+" - [#1]: Svjatskij, D.O. Astronomija Drevnej Rusi. - M., 2007. - 664 s.\n"
+" - [#2]: Svjatskij, D.O. Pod svodom hrustal'nogo neba: Ocherki po astral'noj mifologii v oblasti religioznogo i narodnogo mirovozzrenija. Izd. 2-e M .: Knizhnyj dvor \"LIBROKOM\", 2011. - 192 s.\n"
+" - [#3]: Rut, M.E. Slovar 'astronimov. Zvezdnoe nebo po-russki. - M .: AST-PRESS KNIGA, 2010. - 288 s.\n"
+" - [#4]: Karpenko, Ju.A. Nazvanija zvezdnogo neba. - M .: Nauka, 1981. - 184 s."
+
+#. Sky culture authors section in markdown format
+msgid ""
+"Text and data by Alexander Wolf\n"
+"\n"
+"Text adapted by Susanne M Hoffmann"
+msgstr ""
+"Tekst i dane: Alexander Wolf\n"
+"\n"
+"Tekst dostosowany przez Susanne M Hoffmann"
+
+#. Sky culture license section in markdown format
+msgid "CC BY-SA"
+msgstr "CC BY-SA"
+
+#. Siberian constellation, pronounce: Los'
+msgid "Elk"
+msgstr "Łoś"
+
+#. Siberian constellation, pronounce: Kichigi
+msgid "Threshers"
+msgstr "Młocarnie"
+
+#. Siberian constellation, pronounce: Utinoe gnezdo
+msgid "Duck Nest"
+msgstr "Gniazdo Kaczki"
+
+#. Siberian name for HIP 11767
+msgid "Golden stake"
+msgstr "Złoty kołek"
+
+#. Siberian name for NAME Milky Way
+msgid "Goose Road"
+msgstr "Goose Road"
+
+#. Siberian name for NAME Milky Way
+msgid "Mamay Road"
+msgstr "Mamay Road"

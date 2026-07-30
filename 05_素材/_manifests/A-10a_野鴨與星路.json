@@ -1,0 +1,293 @@
+{
+ "episode": "A-10",
+ "outdir": "05_素材/A-10_東加/野鴨與星路",
+ "prefix": "野鴨星路",
+ "field": {
+  "center": [
+   83.5,
+   0
+  ],
+  "radius": 16,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    26727,
+    26311,
+    25930,
+    24436,
+    27989,
+    25336,
+    26549,
+    26263,
+    26237,
+    26258,
+    26241,
+    25281
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "野鴨",
+   "color": "amber",
+   "lw": 2.8,
+   "source": {
+    "culture": "tongan",
+    "names": [
+     "Wild Duck"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "魚串",
+   "color": "green",
+   "lw": 2.4,
+   "optional": true,
+   "source": {
+    "culture": "tongan",
+    "names": [
+     "String of fishes"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "獵戶座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Ori"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "東加名",
+   "auto_from": "野鴨",
+   "auto_text": "native",
+   "rename": {
+    "Wild Duck": {
+     "zh": "Toloa",
+     "dx": 0,
+     "dy": 3.4,
+     "size": 22
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "漢字名",
+   "optional": true,
+   "auto_from": "野鴨",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Wild Duck": {
+     "zh": "野鴨",
+     "dx": 0,
+     "dy": 3.4,
+     "size": 21
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "魚串名",
+   "optional": true,
+   "auto_from": "魚串",
+   "auto_text": "native",
+   "rename": {
+    "String of fishes": {
+     "zh": "Tuinga ika（魚串）",
+     "dx": -1,
+     "dy": -5.2,
+     "size": 18
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "具名星",
+   "optional": true,
+   "items": [
+    {
+     "hip": 24436,
+     "zh": "Velitoa hififo",
+     "en": "Rigel 參宿七",
+     "dx": -3.4,
+     "dy": -2.2,
+     "size": 15
+    },
+    {
+     "hip": 27989,
+     "zh": "Velitoa hahake",
+     "en": "Betelgeuse 參宿四",
+     "dx": 3.2,
+     "dy": 2.2,
+     "size": 15
+    },
+    {
+     "hip": 25336,
+     "zh": "Monuafe",
+     "en": "Bellatrix 參宿五",
+     "dx": -3.6,
+     "dy": 2.0,
+     "size": 14
+    }
+   ]
+  }
+ ],
+ "previews": [
+  {
+   "name": "野鴨",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "野鴨",
+    "東加名"
+   ]
+  },
+  {
+   "name": "野鴨_漢字",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "野鴨",
+    "漢字名"
+   ]
+  },
+  {
+   "name": "野鴨與魚串",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "野鴨",
+    "魚串",
+    "東加名",
+    "魚串名"
+   ]
+  },
+  {
+   "name": "具名星",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "野鴨",
+    "魚串",
+    "東加名",
+    "具名星"
+   ]
+  },
+  {
+   "name": "中西對比",
+   "layers": [
+    "星點層",
+    "野鴨",
+    "魚串",
+    "獵戶座",
+    "東加名"
+   ]
+  }
+ ],
+ "disc_overlay": {
+  "disc": "both",
+  "lines": [
+   {
+    "color": "amber",
+    "lw": 2.6,
+    "source": {
+     "culture": "tongan",
+     "names": [
+      "Wild Duck's Point of Land"
+     ]
+    }
+   },
+   {
+    "color": "green",
+    "lw": 1.8,
+    "source": {
+     "culture": "tongan",
+     "names": [
+      "Wild Duck",
+      "Big Wild Duck",
+      "Southern Wild Duck"
+     ]
+    }
+   },
+   {
+    "color": "blue",
+    "lw": 1.6,
+    "source": {
+     "culture": "tongan",
+     "names": [
+      "Two Men",
+      "Pigeon Perch",
+      "Mound Top",
+      "String of fishes",
+      "Two Carriers",
+      "Cloud of 'Uvea",
+      "Wing of Tafahi"
+     ]
+    }
+   }
+  ],
+  "label_sets": [
+   {
+    "name": "東加原名",
+    "auto_text": "native",
+    "size": 10,
+    "rename": {
+     "Wild Duck": {
+      "zh": "Toloa",
+      "dx": 0.02,
+      "dy": 0.13,
+      "size": 11
+     },
+     "String of fishes": {
+      "zh": "Tuinga ika",
+      "dx": -0.17,
+      "dy": -0.05,
+      "size": 10
+     },
+     "Wild Duck's Point of Land": {
+      "zh": "Houmatoloa（星路）",
+      "dx": 0.06,
+      "dy": 0.07,
+      "size": 13
+     }
+    }
+   },
+   {
+    "name": "漢字",
+    "auto_text": "po:zh_TW",
+    "size": 10,
+    "rename": {
+     "Wild Duck": {
+      "zh": "野鴨",
+      "dx": 0.02,
+      "dy": 0.13,
+      "size": 11
+     },
+     "String of fishes": {
+      "zh": "魚串",
+      "dx": -0.14,
+      "dy": -0.05,
+      "size": 10
+     },
+     "Wild Duck's Point of Land": {
+      "zh": "野鴨的土地（星路）",
+      "dx": 0.06,
+      "dy": 0.07,
+      "size": 13
+     }
+    }
+   }
+  ]
+ }
+}

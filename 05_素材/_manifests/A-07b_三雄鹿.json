@@ -1,0 +1,32 @@
+{
+ "episode": "A-07", "outdir": "05_素材/A-07_蒙古/三雄鹿與弓箭", "prefix": "三雄鹿",
+ "field": {"center": [300, 37], "radius": 30, "maglim": 5.6},
+ "layers": [
+  {"type": "stars", "mains": [91262, 97649, 102098]},
+  {"type": "milkyway"},
+  {"type": "lines", "name": "三雄鹿", "color": "amber", "lw": 2.8,
+   "source": {"culture": "mongolian", "names": ["The Three Stags"]}},
+  {"type": "lines", "name": "弓與箭", "color": "green", "lw": 2.4,
+   "source": {"culture": "mongolian", "names": ["The Bow and the Arrow"]}},
+  {"type": "lines", "name": "中國星官", "color": "blue", "lw": 2.0, "optional": true,
+   "source": {"culture": "chinese", "names": ["织女", "河鼓", "天津"]}},
+  {"type": "labels", "name": "蒙古名", "auto_from": "三雄鹿", "auto_text": "po:zh_TW",
+   "rename": {"The Three Stags": {"zh": "三個雄鹿", "dx": -3, "dy": 4, "size": 20}}},
+  {"type": "labels", "name": "弓箭名", "auto_from": "弓與箭", "auto_text": "po:zh_TW",
+   "rename": {"The Bow and the Arrow": {"zh": "弓與箭", "dx": 6, "dy": 3, "size": 18}}},
+  {"type": "labels", "name": "蒙古讀音", "optional": true, "auto_from": "三雄鹿", "auto_text": "pronounce",
+   "rename": {"The Three Stags": {"dx": -3, "dy": 4, "size": 19}}},
+  {"type": "labels", "name": "中國名", "optional": true, "auto_from": "中國星官", "auto_text": "po:zh_TW",
+   "rename": {"织女": {"zh": "織女", "dx": -3, "dy": 3, "size": 16},
+              "河鼓": {"zh": "河鼓（牛郎）", "dx": 3, "dy": -3.5, "size": 16},
+              "天津": {"zh": "天津", "dx": 0, "dy": 3, "size": 16}}},
+  {"type": "labels", "name": "主星標", "optional": true,
+   "items": [{"hip": 91262, "zh": "織女星", "en": "Vega", "dx": -3, "dy": -3.5, "size": 15},
+             {"hip": 97649, "zh": "牛郎星", "en": "Altair", "dx": 3, "dy": -3.5, "size": 15},
+             {"hip": 102098, "zh": "天津四", "en": "Deneb", "dy": -3.5, "size": 15}]}
+ ],
+ "previews": [
+  {"name": "三雄鹿", "layers": ["星點層", "銀河層", "三雄鹿", "蒙古名", "主星標"]},
+  {"name": "弓與箭", "layers": ["星點層", "銀河層", "三雄鹿", "弓與箭", "蒙古名", "弓箭名"]},
+  {"name": "中蒙對照", "layers": ["星點層", "三雄鹿", "中國星官", "蒙古名", "中國名"]}]
+}

@@ -1,0 +1,1160 @@
+\documentclass[10pt]{article}
+
+\usepackage{arxiv}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{hyperref,url,multirow,amsfonts,amsmath,amssymb,nicefrac,graphicx}
+\usepackage{orcidlink}
+
+\title{The network signature of constellation line figures} 
+
+\date{} % suppresses date
+\author{
+	Doina Bucur \orcidlink{0000-0002-4830-7162} \\
+	\href{mailto:d.bucur@utwente.nl}{\nolinkurl{d.bucur@utwente.nl}}\\
+	University of Twente, The Netherlands
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+In traditional astronomies across the world, groups of stars in the night sky were linked into constellations---symbolic representations rich in meaning and with practical roles. In some sky cultures, constellations are represented as \emph{line} (or connect-the-dot) \emph{figures}, which are spatial networks drawn over the fixed background of stars. We analyse 1802 line figures from 56 sky cultures spanning all continents, in terms of their network, spatial, and brightness features, and ask what associations exist between these visual features and culture type or sky region. First, an embedded map of constellations is learnt, to show \emph{clusters} of line figures. We then form the network of constellations (as linked by their similarity), to study how \emph{similar} cultures are by computing their \emph{assortativity} (or homophily) over the network. Finally, we measure the \emph{diversity} (or entropy) index for the set of constellations drawn per sky region. Our results show distinct types of line figures, and that many folk astronomies with oral traditions have widespread similarities in constellation design, which do not align with cultural ancestry. In a minority of sky regions, certain line designs appear universal, but this is not the norm: in the majority of sky regions, the line geometries are diverse.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+
+For sky watchers through time, the night sky was a canvas to be filled with symbols. They designed \emph{constellations} as groups of stars, which were named and assigned a practical utility or a background story. The constellation figures form a visual communication system in some ways similar to characters in a written script~\cite{miton2021graphic}; they are more or less complex in form, may or may not resemble the animal, human figure, or object that they were named after, and may or may not have been drawn similarly in unrelated cultures~\cite{auerbach03phd}. Constellations are now usually represented as \emph{line figures}, with the stars connected by imaginary lines. There is great diversity among their shapes, sizes, and internal complexity across cultures---Fig~\ref{fig:skies} shows traditional Chinese~\cite{pan1989history,Stellarium} and reconstructed ancient Babylonian constellations~\cite{hoffmann2017hipparchs,hoffmann2017history,hoffmann2018drawing,Stellarium} for the same southern sky region: where the Chinese drew abstract, short and twisted chains, the Babylonians filled large surfaces with polygons and realistic human or animal figures.
+
+\begin{figure}[ht]
+	% Fig1
+	\includegraphics[width=\linewidth]{Fig1}
+
+	\caption{{\footnotesize {\bf The diversity of constellations line figures.} 
+	Traditional Chinese (top) and ancient Babylonian (bottom) constellations for the same southern sky: declinations $[-90^{\circ}, 20^{\circ}]$, right ascensions $[90^{\circ}, 270^{\circ}]$. The choice of stars and lines differs. Some constellation names removed for clarity.}}
+	\label{fig:skies}
+\end{figure}
+
+We study 56 sky cultures across the world (located geographically in Fig~\ref{fig:culture_map}), with line figures recorded in the literature. For some cultures (such as the Chinese and their area of influence), the line-figure style of representation dates to the beginning of their astronomical records~\cite{pan1989history}. For others (such as the Western sky culture and its ancestors), the line figures are the result of an evolutionary process from allegorical pictographs~\cite{rogers1998origins1,rogers1998origins2} to now globally recognised figures~\cite{rey1952stars,IAU}. For yet other cultures (such as those native to the Americas), the line figures are often recent interpretations for unlined groups of stars~\cite{magana1984tupi,magana1982carib,miller1997stars,lee2014dlakota,lee2014ojibwe,cardoso2007ceu,rybka2018lokono}. 
+
+\begin{figure}[ht]
+	% Fig2
+	\includegraphics[width=\linewidth]{Fig2}
+
+	\caption{{\footnotesize {\bf The location of sky cultures.} 
+	The 56 cultures are shown with: name, the date of documentation, and the number of constellations (or asterisms) with at least one line. Sky cultures with global reach are highlighted at the bottom.}}
+	\label{fig:culture_map}
+\end{figure}
+
+We ask whether the geometry of constellations is unique to a sky culture (are humanoid-like figures characteristic only to Babylonia, and abstract figures only to China?), or to a type of culture (do cultures of Mesopotamian ancestry, or seafaring cultures, each have a characteristic geometric style?). We also ask whether certain line figures are universal in a sky region (were they driven by the star pattern, not by the sky watchers?). We investigate these questions in a unified way across cultures. 
+
+We first settle the technical terms, then draw the hypotheses. 
+\begin{description}
+	\setlength\itemsep{0mm}
+	%
+	\item[Sky culture] denotes the astronomical traditions of a society at a point in time. The cultures are treated equally (a Native American tribe is treated on par with Imperial China), regardless of the population size, the time of documentation (from before 0 AD to the 21st century), the author (the society as a collective, or a specific individual), or the number of line figures.
+	%
+	\item[Constellation or asterism] denotes a group of stars joined into a line figure, rather than the International Astronomical Union (IAU) definition~\cite{IAU}, namely a bounded region of the sky. The difference between constellations and asterisms is the tendency for asterisms to be small in size.
+	%
+	\item[Line figure] denotes the dot-and-line representation of constellations. Other names include connect-the-dots or stick figures. Line figures are \emph{spatial graphs}. The stars are \emph{nodes}, at specific spherical coordinates on the sky, labelled with a magnitude. The \emph{links} are arcs (or geodesics) between pairs of stars. The spatial graphs may or may not be spatially planar, or even connected (although the majority are).
+	%
+	\item[Visual signature] denotes here a set of 19 measurable, quantitative features (or statistics) of a line figure. These features include \emph{network features} (the number of nodes, the size of components and cycles, statistics over node degrees, the connectivity of the spatial graph, and others), \emph{spatial features} (the diameter of the figure, the length of its edges, the sharpness of the angles, and whether it is spatially planar), and \emph{brightness} features (statistics over the star magnitudes).
+	%
+\end{description}
+
+We draw two hypotheses.
+
+\subsubsection*{[Hypothesis I] The type of sky culture associates with the visual signature of constellations}
+
+The type of a sky culture may relate with, and possible have determined, how constellations look in that culture, the way the complexity of characters in a written script may have been determined by the type of script~\cite{miton2021graphic}. We use mostly associative language (``associates with'') rather than causal language (``determines'' or ``influences''), because a causal link cannot be proven. We study the following four culture types:
+%
+\begin{description}
+	\setlength\itemsep{0mm}
+	%
+	\item[I.1] The {\bf culture} itself: Does each culture uniquely associate with the visual signature of its constellations? In other words, are its constellations not only homogeneous visually, but also distinct from those of other cultures, as the Chinese constellations are when compared to the Babylonian?
+	\item[I.2] Astronomical {\bf literacy}: Do written (as opposed to oral) astronomical traditions associate with the visual signature of constellations from these traditions?
+	\item[I.3] The {\bf practical use} of constellations: Do constellations used as markers for open-sea navigation have a different visual signature than those used for political or religious astrology, or for time-keeping in agrarian and hunter-gatherer societies?
+	\item[I.4] The {\bf phylogeny} of the culture: Is a common ancestry of cultures associated with the visual signature of constellations from that ancestry?
+\end{description}
+
+The literature shows similarities between cultures based \emph{only} on selected constellations: the Big Dipper asterism connects western Siberian with western N-American traditions, and Orion's Belt connects central Eurasian with (south)western N-American, perhaps Mesoamerican, and some Polynesian traditions~\cite{berezkin2005cosmic,miller1997stars,kelley2005exploring}. No study quantified the visual complexity of line figures, nor the association between that and culture type, by which cultural (dis)similarities can be studied \emph{at scale}. 
+
+Our {\bf results} reveal a clear, global picture. Sky cultures across the world \emph{cluster} in visual signature, with almost \emph{no similarity} between three major clusters: (1) literate traditions of Chinese ancestry, (2) written traditions of Mesopotamian, Egyptian, and Greek ancestry, and (3) oral traditions across the globe. This lack of connection can be explained by the largely independent development of these traditions. More surprisingly, weak but widespread \emph{similarities} connect most \emph{oral folk traditions across five geographical regions} (N- and S-America, Europe, Asia, and the Pacific) into a dense cluster. This finding cannot be explained by a common ancestry, so it implies that cross-cultural principles of forming constellations may exist (and remain to be studied).
+
+\subsubsection*{[Hypothesis II] The region of the sky associates with the visual signature of constellations across cultures}
+%
+Having multi-cultural constellation data over the same sky allows us to make a distinction between the background data (e.g., the star pattern around the celestial north pole) and the foreground data (i.e., the line figures drawn in that region by various cultures). Since the background data is fixed, a complementary hypothesis arises: the sky background itself may be the significant driver of constellation shapes, overpowering the role of the culture typology. Variants of the Big Dipper, Orion, and other star groups recur across cultures~\cite{berezkin2005cosmic,kemp2020perceptual}, but does diversity remain in the design of line figures? We answer the question:
+%
+\begin{description}
+	\setlength\itemsep{0mm}
+	%
+	\item[II] The {\bf sky region}: Is there recurrent universality in the visual signature of constellations per region of the sky, or, on the contrary, diversity?
+\end{description}
+
+Previous studies stated some cognitive basis for forming star groups without lines (for 30 constellations~\cite{dry2009perceptual}, and for 27 cultures~\cite{kemp2020perceptual}), finding that perceptual grouping can explain part of the popular asterisms. 
+
+Our {\bf results} point to a much more complex picture over more data (56 sky cultures). We find that, among the visual signatures of constellations from popular sky regions, \emph{diversity is more likely than universality}: the majority of sky regions have \emph{high diversity}, with particularly high scores for the regions overlapping IAU Pegasus, Andromeda, Canis Major, Orion, Sagittarius, and Cygnus. On the other hand, low diversity, or nearly \emph{universal constellation design} across cultures, is found in a minority of sky regions overlapping IAU Cassiopeia, Corona Borealis, Leo, Ursa Major, and particularly Scorpius. This implies that some patterns of stars are indeed conducive to universal design, but also that these patterns (such as the long chain of bright stars in IAU Scorpius) occur quite rarely in reality.
+
+We provide our results in Sec.~\ref{sec:results}, a discussion and conclusion in Sec.~\ref{sec:discussion}, details on the data in Sec.~\ref{sec:data} and on the method in Sec.~\ref{sec:method}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Results}
+\label{sec:results}
+
+% -------------------------------------------------------------------------------------------------
+\subsection{Statistics of constellation features}
+\label{sec:statistics}
+
+The constellations are spatial networks. Their features vary greatly, both within and across cultures. Fig~\ref{fig:avg_constell_features} shows the culture size, and average and standard deviation of four {\bf constellation features} per sky culture.
+
+\begin{figure}[ht]
+	% Fig3
+	\includegraphics[width=\linewidth]{Fig3}
+
+	\caption{{\footnotesize {\bf Constellations features aggregated per sky culture.} 
+	The culture size (constellation count) is on the left. Four constellation features ($s_1$, $s_{12}$, $s_{16}$, and $s_{17}$) are then shown via their averages and standard deviations per culture. The global average of each statistic is marked with a dotted line. The horizontal scales for the first two statistics are logarithmic, and the rest linear.}}
+	\label{fig:avg_constell_features}
+\end{figure}
+
+The features in Fig~\ref{fig:avg_constell_features} are selected from a set of 19 such features, denoted $s_1$ to $s_{19}$ and listed below in brief (for details on their definition and meaning, see Sec.~\ref{sec:features}). \emph{Network constellation features} are structural statistics of the line figure:
+%
+\begin{itemize}
+	\setlength\itemsep{-1mm}
+
+	\item[$s_1$] the {\bf number of links};
+	\item[$s_2$, $s_3$] the {\bf maximum} and {\bf average degree};
+	\item[$s_4$] the {\bf clustering coefficient}; 
+	\item[$s_5$] the {\bf maximum core number};
+	\item[$s_6$, $s_7$] the {\bf number of basic cycles}, and the size of the {\bf largest basic cycle};
+	\item[$s_8$] the {\bf number of connected components} (CCs);
+	\item[$s_9$, $s_{10}$] the average {\bf link diameter} and shortest path among the CCs;
+	\item[$s_{11}$] the {\bf link connectivity}.
+\end{itemize}
+
+\emph{Spatial constellation features} capture geometric statistics:
+%
+\begin{itemize}
+	\setlength\itemsep{-1mm}
+
+	\item[$s_{12}$, $s_{13}$] the {\bf spatial diameter} of the constellation, and the {\bf average link length} (in degrees on the celestial sphere, from the point of view of an observer);
+	\item[$s_{14}$, $s_{15}$] the {\bf sharpest} and the {\bf average angle} formed by any two links incident at any star (both in degrees);
+	\item[$s_{16}$] whether the spatial network is {\bf planar} or not.
+\end{itemize}
+
+\emph{Brightness constellation features} measure basic statistics on star magnitudes:
+%
+\begin{itemize}
+	\setlength\itemsep{-1mm}
+
+	\item[$s_{17}$, $s_{18}$, $s_{19}$] the {\bf average, minimum,} and {\bf maximum star magnitude}.
+\end{itemize}
+
+The standard deviations in Fig~\ref{fig:avg_constell_features} tend to be large, so the cultures are internally diverse. We thus expect that, if an association exists between the individual sky culture and the visual signature of constellations, it is weak. On the other hand, there are also clear distinctions between sky cultures. Five out of six S-American cultures have very large constellations (an average of 20.50 links per constellation for Tupi, and 12.40 for Tukano), compared to an average of 6.72 links per constellation across all cultures. All moon-station asterisms have few links (averages between 2.42 and 4.11 links per culture). Large E-Asian sky cultures (China and Korea) are also below average: averages between 4.28 and 4.82 links per culture. In terms of spatial diameter, it is not only sky cultures with many links per constellation that also have large constellation diameters: the largest average spatial diameter is Hawaii ($40.27^{\circ}$, compared to a global average of $18.25^{\circ}$), although the same culture only has a below average number of links per constellation. The fraction of non-planar constellations is close to zero in N America and S Asia, but occasionally high for other cultures. In N America, S Asia, and the Pacific, cultures consistently use brighter (lower-magnitude) stars. This raises the expectation that an association may exist between cultures (when aggregated by type, such as by common ancestry, correlated to geographic location) and visual signature.
+
+% -------------------------------------------------------------------------------------------------
+\subsection{A clustered map of constellations}
+\label{sec:embedding}
+
+We first build an intuition about the types of line figures present. For this, we project all 1802 constellations across sky cultures into a two-dimensional ``map of constellations'', which is learnt by t-SNE embedding from the 19 original constellation features. The embedding has a very high trustworthiness score of 0.98 out of 1, meaning that the neighbours of each constellation by Euclidean distance are largely preserved between the original 19 and the final two dimensions. (The method and its evaluation are detailed in Sec.~\ref{sec:tsne}.) Fig~\ref{fig:manifold_gradients} shows and interprets this map.
+
+\begin{figure}[ht]
+	% Fig4
+	\includegraphics[width=\linewidth]{Fig4}
+
+	\caption{{\footnotesize {\bf The map of constellation features in two embedded dimensions.} 
+	All plots show the same embedding. One point represents one constellation. {\bf(top)} The gradient of each constellation feature, as projected in the low-dimension space. Twelve constellation features are shown. {\bf (bottom)} A summary of the clusters.}}
+	\label{fig:manifold_gradients}
+\end{figure}
+
+The map has rich internal structure. The orientation of the embedding, the measurement units, and the concrete values on the axes are not meaningful~\cite{van2008visualizing,van2014accelerating} so are not shown; instead, it is the gradients of each of the 19 original constellation features which help to interpret these reduced dimensions. Twelve of them are overlaid on the embedding, at the top of Fig~\ref{fig:manifold_gradients}. There are distinct ``islands'' (or clusters) of constellations, and also local and global gradients for the constellation features.
+
+\paragraph{The embedding of constellation features} Constellations with a large number of links ($s_1$) are located right of centre and are distributed among a number of clusters; those with only one link (the simplest possible shape) form an isolated cluster on the left. The peaks for the average degree ($s_3$), the number of cycles ($s_6$), and the link diameter ($s_9$) are close to the top-right corner, and that for clustering ($s_4$) is at the extreme right, with smooth gradients for all these features across the embedding. The maximum core number (not shown) is low and only takes values 1 and 2; almost all constellations with a 2-core are embedded in the top-right quadrant. There are relatively few disconnected constellations ($s_8$), and they are embedded close to connected constellations which have otherwise similar statistics in other dimensions. The average angle formed by two links in a constellation ($s_{15}$) also has a global gradient, from $360^{\circ}$ (meaning no angles) in the leftmost cluster, to sharp angles throughout the rightmost. Almost all non-planar constellations ($s_{16}$) are isolated from the rest, in a central cluster. Many statistics have local gradients; in particular, the average magnitude ($s_{17}$) has a distinct gradient within many of the clusters.
+
+\paragraph{Six clusters of constellations} Fig~\ref{fig:manifold_gradients} (bottom) summarises intuitively the clusters of line figures. (They correspond to the strongly connected components of the nearest-neighbour network of constellations described in Sec.~\ref{sec:metrics}.)
+
+Cluster $\mathbf{C_1}$ (the smallest figures: single links) comprises 12\% of all constellations. $\mathbf{C_2}$ (line- and tree-like constellations) is the largest cluster at 46\% and has small subclusters, e.g., disconnected line figures in (a). $\mathbf{C_3}$ (4\% of the total) groups almost all of the non-planar constellations; besides their non-planarity, these constellations are otherwise diverse in shape. $\mathbf{C_4}$ (large constellations with complex internal structures of both cycles and tendrils) is the second-largest cluster with 21\%. $\mathbf{C_5}$ (triangles and triangular meshes, no tendrils) groups 4\% of the figures. Finally, $\mathbf{C_6}$ (cycles larger than three lines, no tendrils) comprises 12\%.
+
+In the embedding, constellations in different clusters, but with some common features, remain close. For example, constellations in $\mathbf{C_3}$ with few links ($s_1$) are oriented towards $\mathbf{C_1}$, and those with many links towards $\mathbf{C_4}$. The clusters have internal gradients in feature values. We show where well known IAU constellations, and less known constellations from other cultures, are embedded, in Fig~\ref{fig:manifold_examples}: black stars mark some of the IAU constellations~\cite{IAU}, while orange ones mark some constellations from other cultures. Their line figures are shown to scale.
+
+\begin{figure}[ht]
+	% Fig5
+	\includegraphics[width=\linewidth]{Fig5}
+
+	\caption{{\footnotesize {\bf Examples of constellations over the embedding.} 
+	In the background, in light blue, the embedding of all constellations, the same as in Fig~\ref{fig:manifold_gradients}. In the foreground, we show example constellations: (1) black markers for IAU constellations~\cite{IAU}; (2) orange markers for other cultures.}}
+	\label{fig:manifold_examples}
+\end{figure}
+
+% -------------------------------------------------------------------------------------------------
+\subsection{[Hypothesis I] The type of sky culture associates with the visual signature of constellations}
+
+The questions we posed can now be answered by introducing the types of cultures, and measuring the extent to which they have unique, characteristic visual signatures. We do these measurements over the original set of 19 constellation features, and use the two-dimensional embedding from Sec.~\ref{sec:embedding} to explain the findings intuitively.
+
+For this hypothesis, we require a score which reaches its maximum value 1 for a strong association between a culture type and visual signature. For example, for question {\bf I.1}, value 1 would signal that all constellations from a culture have a unique geometry different from that of all other cultures, or that the visual signatures \emph{segregate} along cultural lines. The score must instead be 0 when the culture types mix randomly, or are de-segregated. A suitable score is the {\bf assortativity coefficient} $r$ by a discrete node attribute~\cite{PhysRevE.67.026126}. This is computed over the \emph{directed, nearest-neighbour network of constellations}: from each constellation, outlinks exist to its nearest neighbours by Euclidean distance. $r$ is accompanied by its \emph{expected statistical error}, denoted $\sigma_r$. We also require a {\bf similarity metric} $\Delta$ between any two culture types, which is positive if merging the two raises assortativity, or makes the mixing \emph{less} random, so signals similarity. On the contrary, the similarity metric is negative if merging the two makes the mixing \emph{more} random. This similarity metric is a statistic defined in this work. (Sec.~\ref{sec:metrics} details the assortativity and similarity metrics.) We build a graph of similarities between culture types at each question, drawing links weighted by $\Delta$.
+
+% -------------------------------------------------------------------------------------------------
+\subsection*{Question I.1. The {\bf culture} itself} % Does the culture itself strongly associate with the visual signature of its constellations? In other terms, are its constellations homogeneous, and visually distinct from other cultures?
+%
+\paragraph{Cultures only weakly associate with a unique visual signature} If the culture itself were to have a characteristic geometry, then constellations from the same culture would be (1) internally homogeneous, or close neighbours in signature, but also (2) externally heterogeneous, or apart from constellations of other cultures. When the predictor is the culture itself, this is only weakly the case (the assortativity is positive but low, $r = 0.079$ with $\sigma_r = 10^{-3}$). Although in some cultures many constellations are visually similar (and would be embedded closely together), in those cases there are similarities also with other cultures. This is shown for five large sky cultures in Fig~\ref{fig:predictor_culture_of} (top), where each plot emphasises the embedding of a single culture. The E-Asian cultures (China and Korea) are relatively homogeneous (with many constellations in clusters $\mathbf{C_1}$ and $\mathbf{C_2}$), but are also similar cross-culture. The same holds to a lesser extent for the three Babylonian and Western cultures, whose focal cluster is $\mathbf{C_4}$. These similarities are expected, and may be naturally explained by a common ancestry. The constellations of many other sky cultures (not shown in the figure) are scattered in the embedding, so not even internally homogeneous.
+
+\begin{figure}[ht]
+	% Fig6
+	\includegraphics[width=\linewidth]{Fig6}
+
+	\caption{{\footnotesize {\bf Visual signatures by culture (question {\bf I.1}).} 
+	{\bf (top)} Constellations from example cultures are shown in the foreground, over the background of all other constellations. {\bf (bottom)} The similarity graph for cultures. The node size is proportional to the number of constellations per culture, and the edge width to the similarity $\Delta$.}}
+	\label{fig:predictor_culture_of}
+\end{figure}
+
+We also zoom in locally, on one culture at a time, to assess how that culture mixes with all other cultures taken as one. The Chinese cultures and Charles Dien's 1831 star chart are the most distinct in geometry ($r=0.141$ and $r=0.140$, respectively). Other cultures are more weakly distinct ($r > 0.050$): Al-Sufi, Korea, Ruelle, Rey, IAU, and Western asterisms---all of the above with $\sigma_r < 10^{-3}$. The other cultures mix almost randomly with all others. We thus conclude that, with few exceptions, the 56 individual cultures have cross-culture commonalities in constellation design. In the following, we locate these commonalities.
+
+\paragraph{Culture similarity clusters do not always follow phylogeny} The graph of similarities $\Delta$ computed between all pairs of cultures shows clear `families' of cultures. Fig~\ref{fig:predictor_culture_of} (bottom) draws this graph. Only positive values for $\Delta$ are used (namely, similarities rather than dissimilarities), and the graph is laid out with a force-directed layout guided by the similarity as edge weight. The strongest pairwise similarity is unsurprisingly between China and medieval China ($\Delta=0.097$). The lowest similarity drawn in the figure is $\Delta=0.005$, to sparsify the graph. 
+
+China and Korea form their own cluster, on the left of Fig~\ref{fig:predictor_culture_of} (bottom). Another distinct cluster (at the top) is formed by the `classical' cultures close to the ancestral roots of Western constellations (IAU and its derivations, plus Al-Sufi, Babylonia, and Egypt). Romania is the only folk culture similar to these classical cultures: it contains the same style of large, intricate constellations. These clusters follow ancestry, so are not surprising: the cultures of Chinese origin are strongly related, as expected (with the exception of the Japanese moon stations), and so are some of those with Greek and Mesopotamian origin. The asterisms of the three moon-station cultures are similar, but isolated from all others except for some similarity with the Western asterisms and the constellations of the Marshall Islands.
+
+Surprisingly, the largest cluster (at the bottom) is formed by mostly folk astronomies with oral traditions, covering all continents. Many European folk cultures (also of Greek influence) are \emph{as similar} with N-American, S-American, Austronesian, and Polynesian cultures as they are among themselves. We thus expect that some phylogenies will measure to be similar despite the geographical distance and lack of known cross-influence. Later, question {\bf I.4} will test phylogeny as a predictor.
+
+% -------------------------------------------------------------------------------------------------
+\subsection*{Question I.2. Astronomical {\bf literacy}} % Do written (as opposed to oral) astronomical traditions associate with the visual signature of constellations from these traditions?
+%
+A minority of the sky cultures in this study have written astronomies (marked in column {\bf type} in Table~\ref{tab:culture_list} in Sec.~\ref{sec:data} on the data). In these cases, the constellations were documented early on a longer-lasting medium, such as a codex, chart, book, stone or clay tablets. Unsurprisingly, the number of surviving constellations from written cultures is higher: the 30\% of written cultures hold 78\% of the constellations.
+
+\paragraph{Oral astronomies use brighter stars} The type of astronomical literacy positively associates with the visual signature of constellations ($r = 0.234$ with $\sigma_r = 2\cdot 10^{-3}$). This means that constellations issued from oral cultures can be statistically distinguished, to an extent, from those of written cultures. We test this by also training a Support-Vector classifier with a nonlinear kernel and balancing class weights, for the two classes. The classifier confirms this (balanced accuracy 0.75).
+
+The positive association is explained by the characteristics of oral astronomies, most of which formed the largest similarity cluster in Fig~\ref{fig:predictor_culture_of} (bottom). The oral group consists of some Eurasian, almost all native American, Austronesian, and Polynesian cultures. Their constellations are present in all clusters of the embedding, but preferentially in regions where \emph{brighter stars} are used---towards the centre of the embedding, as shown by the average magnitude ($s_{17}$) in Fig~\ref{fig:manifold_gradients}. The written cultures, on the other hand, do not have this preference: they include cultures of both Chinese and Western origins, which are complementary in visual signatures, and use all star magnitudes. The classifier confirms that brightness is crucial to distinguish oral from written constellations: the most important feature is the \emph{average star magnitude}, $s_{17}$. The F1-score (the harmonic mean of the precision and recall) is higher for the written (0.86) than for the oral constellations (0.60), since faint constellations can be correctly assigned to written cultures, but bright constellations may belong to either class.
+
+A caveat to this result is that this association may be due to the limitations of data collection from oral cultures (specifically, a possible bias towards recalling brighter constellations, as per Sec.~\ref{sec:data}).
+
+% -------------------------------------------------------------------------------------------------
+\subsection*{I.3. The practical {\bf use} of constellations} % Do constellations used as markers for open-sea navigation have a different visual signature than those used for political or religious astrology, or for time-keeping in agrarian and hunter-gatherer societies?
+%
+Only four cultures have \emph{political divination} as practical use (column {\bf type} in Table~\ref{tab:culture_list}), but these comprise 41\% of the constellations. They include the distinct Chinese-Korean similarity cluster (from question {\bf I.1}, shown in Fig~\ref{fig:predictor_culture_of}). We thus expect that political divination retains a unique visual signature.
+
+There are three other constellation uses in the dataset (16\% \emph{folk/agrarian/hunter-gatherer time-keeping or orientation on land}, 17\% \emph{navigation}, and 18\% \emph{religious divination}, with the remaining uncategorised). Whether or not they also have an association with the visual signature is not clear from the answer to question {\bf I.1} alone. In particular, the Western cultures are mixed: they contain some constellations with an originally religious role (those inherited from Mesopotamia via the Greek~\cite{rogers1998origins1,allen2013star}), and some originally designed by navigators around the northern pole, on the celestial equator, and in the southern skies~\cite{rogers1998origins2,allen2013star,sawyer1951out}. The practical use of the same star group also changed with the evolution of cultures: while Ursa Major was a navigator's constellation in the Greek tradition~\cite{rogers1998origins2}, its Big Dipper asterism is now part of many agrarian and hunter-gatherer folk cultures~\cite{berezkin2005cosmic}. Only the seafaring cultures (of Austronesian, Polynesian ancestry) are geographically apart from most others, so some uniqueness in visual signature is expected.
+
+\begin{figure}[ht]
+	% Fig7
+	\includegraphics[width=\linewidth]{Fig7}
+
+	\caption{{\footnotesize {\bf Visual signatures by practical use (question {\bf I.3}).} 
+	{\bf (top)} Constellations per use are shown in the foreground, over the background of all other constellations. {\bf (bottom)} The similarity graph between practical uses. The node size is proportional to the number of constellations per use, and the edge width to the similarity $\Delta$.}}
+	\label{fig:predictor_practical_use}
+\end{figure}
+
+\paragraph{Navigation, religious, and folk constellations are similar} For question {\bf I.3}, the result only partly follows expectations. The practical use positively associates with the visual signature of constellations ($r = 0.238$), but this is mainly due a characteristic political-use signature ($r = 0.439$ when testing the mixing of political use with all other uses). ($\sigma_r < 3\cdot 10^{-3}$ in both cases.) The location of political-use constellations over the embedding (Fig~\ref{fig:predictor_practical_use}, left) shows the expected segregation of this use away from the centre of the embedding. On the other hand, all other uses (also in Fig~\ref{fig:predictor_practical_use}) appear similar, so mix almost randomly. The similarity graph is in the same figure, on the right. Only three positive similarity links exist, and they are comparable in value: the strongest is between navigation and folk constellations ($\Delta=0.069$). 
+
+We thus conclude that (1) as expected, political constellations have a strong associated signature, but (2) unexpectedly, all other use culture types including seafaring yield similar line figures.
+
+% -------------------------------------------------------------------------------------------------
+\subsection*{I.4. The {\bf phylogeny} of the culture} % Is a common ancestry of cultures associated with the visual signature of constellations from that ancestry?
+%
+The 56 sky cultures are grouped into ancestry groups (by column {\bf an.} in Table~\ref{tab:culture_list}). The Mesopotamian ancestry includes Babylonia, and all descendants of Greek and IAU cultures. The Sami and Egyptian cultures have no known ancestry, and each forms their own group. Of the resulting nine groups, the largest six are shown in Fig~\ref{fig:predictor_ancestor_of}. 
+
+\begin{figure}[ht]
+	% Fig8
+	\includegraphics[width=\linewidth]{Fig8}
+
+	\caption{{\footnotesize {\bf Visual signatures by phylogeny (question {\bf I.4}).} 
+	{\bf (left)} Constellations with common phylogeny are shown in the foreground, over the background of all other constellations. The smallest three phylogenies are not shown: Sami (3 constellations), Egypt (26), and Austronesia (27). {\bf (right)} The similarity graph between phylogenies. The node size is proportional to the number of constellations per phylogeny, and the edge width to the similarity $\Delta$.}}
+	\label{fig:predictor_ancestor_of}
+\end{figure}
+
+For phylogeny as a predictor, we obtain a positive association with visual signature ($r = 0.291$ with $\sigma_r = 2\cdot 10^{-3}$). However, this is due to a strong association for only some of the phylogenies: Chinese and Mesopotamian.
+
+\paragraph{Chinese and Mesopotamian ancestries have characteristic signatures} Constellations of Chinese ancestry self-group to a large extent (Fig~\ref{fig:predictor_ancestor_of}, left), and dominate the constellation clusters with the \emph{simplest visual shapes over faint stars}: a large part of $\mathbf{C_1}$ (isolated line segments), a large part of $\mathbf{C_2}$ (line- and tree-like constellations), and part of $\mathbf{C_6}$ (single-cycle constellations)---all with relatively faint stars. Chinese ancestry mixes relatively little with all others ($r=0.440$), as expected from the answer to question {\bf I.3}. Constellations of Mesopotamian ancestry self-group to a lesser extent ($r=0.331$), and dominate the clusters defined, on the contrary, by the \emph{most complex visual shapes over bright stars}: $\mathbf{C_4}$ (constellations with both cycles and tendrils), $\mathbf{C_5}$ (triangular meshes), and part of $\mathbf{C_6}$ (constellations with cycles larger than a triangle)---all with relatively bright stars. The N-American ancestry overlaps with the Mesopotamian (draws a diversity of shapes over bright stars), so has less of a distinct signature ($r=0.057$). The Polynesian has some commonalities with all other ancestries ($r=0.077$). ($\sigma_r < 3\cdot 10^{-3}$ in all cases.)
+
+\paragraph{Non-Chinese ancestries are similar, and Polynesia is a bridge} The similarity graph between phylogenies (Fig~\ref{fig:predictor_ancestor_of}, right) draws all existing edges with positive similarity values. The strongest pairwise similarity is between Mesopotamian and N-American ancestries ($\Delta=0.037$). In the similarity graph, regions of similarity are apparent: a possible Chinese zone of influence (with similarities with India and Polynesia), but also a tight cluster of six phylogenies from all continents, with Polynesia forming a bridge between the two. If the Chinese zone of influence may be explained by geographical vicinity, the cluster of six phylogenies cannot. The outlier Sami culture (with only three constellations) bares some resemblance with Polynesian and American cultures. However, it is not internally homogeneous: the three constellations have little similarity among themselves, which leads to weak assortativity for this culture in any test.
+
+This similarity graph signals that complex visual shapes over bright stars, using cycles, tendrils, and combinations, may be a natural, universal preference in sky cultures outside the zone of Chinese influence.
+
+% -------------------------------------------------------------------------------------------------
+\subsection{[Hypothesis II] The region of the sky associates with the visual signature of constellations across cultures} % Is there recurrent universality in the visual signature of constellations per region of the sky, or, on the contrary, diversity?
+
+Some stars are much more frequently linked into constellations than others. From among the stars present in this dataset, 72 stars are present in 22 or more constellations each. Occasionally, a culture has constellation variants, or simply different constellations which overlap; in these cases, the same star is present in two or more constellations of the same culture. This is relatively rare; the majority of constellations per root star come from different cultures. We take these stars as \emph{root stars}, each defining a sky region. When two stars are close in the sky, their constellation sets overlap, but are rarely identical. The most frequent star is $\zeta$ Ori, in Orion (IAU), with 62 constellation variants; outside the belt of Orion, the next most frequent star is $\beta$ UMa, with 44. We measure the diversity for each of the 72 root stars.
+
+Over the embedding, we have previously delimited clusters of visual signatures (Fig~\ref{fig:manifold_gradients}). Although they are of unequal sizes, they have significant presence from the root stars: even in the smallest clusters, $\mathbf{C_3}$ and $\mathbf{C_5}$, the root stars have 48 and 16 constellations, respectively. Almost all root stars are present in the largest clusters, $\mathbf{C_2}$ and $\mathbf{C_4}$. We compute the Shannon entropy or {\bf diversity index} $H$ per sky region defined by root star, over these six clusters (Sec.~\ref{sec:diversity} details this method).
+
+We provide the results in Fig~\ref{fig:root_star_diversity}. Per root star, this shows the diversity index $H$ among all constellations of that star (on the left axis), and the number of constellations with that star (on the right axis). The dotted line marks the middle of the diversity range, 0.5, and the diversity markers are coloured differently above and below this; although this middle value has no particular meaning, it helps to separate the results into high and low. Only 35\% of these root stars have a diversity index below 0.5, and there is no strong relationship between the number of constellations per star and the diversity index. 
+
+\begin{figure}[ht]
+	% Fig9
+	\includegraphics[width=\linewidth]{Fig9}
+
+	\caption{{\footnotesize {\bf Diversity by root star (II).} 
+	Per root star, the diversity index $H$ among all constellations with that star (on the {\bf left} y axis with triangles), and the number of constellations with that star (on the {\bf right} y axis with dashes). Value 0.5 for diversity is marked with a dotted line, and the diversity markers are coloured differently above and below this. The mean diversity is $H=0.568$. The alternating background emphasises root stars from the same IAU constellation.}}
+	\label{fig:root_star_diversity}
+\end{figure}
+
+\paragraph{A minority of root stars yield universal line figures} Root stars in IAU Cas, CrB, and Sco score lowest. Constellations which include $\eta$ Sco (which lies on the tail half of IAU Sco) have the lowest diversity ($H=0.325$). These line figures can only be found in two clusters: $\mathbf{C_2}$ for chain-like variants of the line figure, and $\mathbf{C_4}$ for variants with chains and added cycles. Constellations which include $\theta$ CrB (which forms one end of the IAU CrB chain) also have low diversity ($H=0.367$) and can mostly be found in two clusters: $\mathbf{C_2}$ for chain-like variants of the line figure without cycles, like the IAU line figure, and $\mathbf{C_6}$ for variants in which the chain of stars is closed into a large cycle. 
+
+This low diversity can hypothetically be explained: characteristic to the sky regions in IAU Cas, CrB, and Sco is a chain-like pattern of bright stars, which then tends to produce relatively universal lines. The scorpion (and other long-tailed animals, such as snakes or stingrays) using stars in IAU Sco are indeed encountered in cultures which are geographically apart, and where the constellations were not Western-influenced: the Aztec, Maya, and Huave in Mesoamerica, Kari{\textquotesingle}na in S America, Maricopa in N America, Manus and Mandar in Oceania. Our results imply that this universality of the constellation shape is even broader than the recurring constellation semantics: line figures with long chains of stars are drawn around $\eta$ Sco regardless of what the constellation represents.
+
+\paragraph{The majority of root stars yield diverse line figures} 65\% of root stars have high diversity, and the peaks are in IAU And, CMa, Ori, Peg, and Sgr ($H>0.8$). We provide one detailed example: the popular root star $\alpha$ Ori (one of IAU Orion's shoulders) has $H=0.818$. The 31 constellations over this star span all clusters, although not equally. Fig~\ref{fig:constellations_of_alf_Ori} provides $\alpha$-Ori constellations as examples, to scale, with their embedding. Not all could be included; another example is in Fig~\ref{fig:manifold_examples}: Wintermaker (Ojibwe). The high diversity is not only in shape, but also in constellation semantics (although not the subject of this study); many of the shapes do not depict a human figure, as in Mesopotamian and Greek traditions.
+
+\begin{figure}[ht]
+	% Fig10
+	\includegraphics[width=\linewidth]{Fig10}
+
+	\caption{{\footnotesize {\bf The diversity of constellations over the root star $\alpha$ Ori (II).} 
+	In the background, in light blue, the embedding of all constellations. The IAU constellation Orion is shown at the top left, with $\alpha$ Ori emphasised. In the foreground, there are examples: black stars mark all constellations over $\alpha$ Ori, of which some are also shown, to scale.}}
+	\label{fig:constellations_of_alf_Ori}
+\end{figure}
+
+We conclude that a diversity of constellation designs appears more likely among popular sky regions. Exceptions occur for sky regions with special characteristics, such as a chain-like star pattern of bright stars, which produce universal line designs.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion and conclusion}
+\label{sec:discussion}
+
+\paragraph{Implications of the results} The map of constellations can serve as a \emph{global taxonomy for line figures}, with its distinct clusters of single-link figures and chain-like figures characteristic to Eastern cultures, triangular meshes, non-planar spatial graphs, large loops, or the polygon-and-tendril designs characteristic to Western cultures. 
+
+The similarity graphs among cultures and culture types show that individual sky cultures do not have a unique visual signature, but cluster in three groups. The largest and most surprising is \emph{a group of folk astronomies with oral traditions}, covering all continents. Culture \emph{similarity aligns with ancestry} only for the region of influence of China and India, and for the root cultures of Western astronomy. In all other cases, \emph{similarity does not align with ancestry}: other phylogenies have dense similarity links despite the geographical distance and lack of cross-influence. These findings imply that visual shapes over bright stars, using cycles, tendrils, and combinations, may be a natural, universal preference outside the zone of Chinese influence.
+
+We found relatively \emph{universal line designs in a minority of sky regions} around popular stars in IAU Cas, CrB, and Sco. Long chains of stars are drawn in these sky regions regardless of what the constellation represents: these shapes appear also when the constellation does not represent the scorpion which recurs across cultures in the IAU Sco region. This implies that geometry is even more universal than semantics in these sky regions. On the other hand, we found \emph{diverse line designs in a majority of sky regions}, which implies that diversity is the norm rather than the exception, and that the star pattern in a sky region determines the amount of diversity possible in line design.
+
+\paragraph{Limitations of the method} We assembled a diverse dataset of line figures from old and new astronomies around the world, but most oral cultures have an \emph{incomplete record}, with their astronomy supplanted by modern tools, and possibly biased recall of the old traditions. Also, the \emph{complexity of star constellations} is a debatable concept. Instead of fixing it into one dimension, we worked with a multidimensional definition, composed of many morphological features, which allows one to call different constellations complex for difference reasons. The features are interpretable, and the map of constellations in two dimensions retains this interpretability, with the feature gradient overlaid (as in Fig~\ref{fig:manifold_gradients}). However, the \emph{choice of morphological features} for constellations also has limitations: it captures the spatial-network properties, but may consider two constellations dissimilar when human perception would not. For example, adding a link to close a cycle in a constellation makes a difference in network structure, but, if the link is very short, only a small difference in perception.
+
+\paragraph{Future work} This study provided global statistics across cultures, but a more focused study would be possible, by retaining part of the data and re-parametrising the embedding to separate smaller subclusters. Also, the taxonomy of constellations, the similarity graphs for cultures, and the diversity results can help to guide future work which aims to find the cognitive principles of drawing constellation lines, or the features of the star patterns which yield specific constellation geometries.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Data: inclusion, limitations, types, and timeline}
+\label{sec:data}
+
+\paragraph{Overview} The sky cultures in this study are listed in Table~\ref{tab:culture_list}. The most difficult aspect of this research was collecting and verifying existing constellation data from a multitude of ethnographic and other sources, and categorising both cultures and constellations by type. We share the data at \url{https://github.com/doinab/constellation-lines}.
+
+\begin{table}[htbp]
+\centering
+\caption{\footnotesize {\bf Summary of sky cultures.}}
+%
+\label{tab:culture_list}
+%
+% \setlength{\tabcolsep}{0.5em} % less horizontal padding
+% \centering
+%
+{\footnotesize
+%
+{\renewcommand{\arraystretch}{0.94} % more/less vertical padding
+%
+\begin{tabular}{rcclrcrrrrr}
+{\bf location}	&	{\bf id.} &	{\bf an.} & {\bf sky culture}	& {\bf timestamp}	& {\bf source}	& \multicolumn{2}{c}{{\bf type}}	& {\bf count}	& {\bf references} \\
+\hline
+%
+Global		& I	& G	& \textbf{IAU}			& 105 AD--20th c.& standard		& w	& re,nv	& 86	& \cite{IAU,Stellarium} \\
+Global		& 	& I	& \textbf{Rey}			& 1952			& book			& w	& re,nv	& 80	& \cite{rey1952stars,Stellarium} \\
+Global		& 	& I	& \textbf{Western}	& present		& dataset		& w	& re,nv	& 88	& \cite{Stellarium} \\
+Global		& 	& I	& \textbf{Western asterisms} & present	& dataset		& w	& re,nv	& 53	& \cite{Stellarium} \\
+\hline
+%
+N Africa	& 	& 	& \textbf{Egypt}		& 1470, 50 BC 	& carving,paper & w	& re	& 26 	& \cite{lull2009constellations,Stellarium} \\
+W Asia		& M	& 	& \textbf{Babylonia}& 1100-700 BC	& tablet,papers	& w	& re	& 50	& \cite{hoffmann2017hipparchs,hoffmann2017history,hoffmann2018drawing,Stellarium} \\
+W Asia		& 	& In& \textbf{Arabia moon st.}	& 9th c.	& book,paper	& w	& re	& 21	& \cite{kunitzsch2013lunar,Stellarium} \\
+W Asia		& 	& G	& \textbf{Al-Sufi}	& 964 AD		& book,dataset	& w	& re,nv	& 51	& \cite{Al_Sufi_Book,Stellarium} \\
+S Asia		& In& 	& \textbf{India moon st.}	& < 500 BC	& book,dataset	& w	& re	& 21	& \cite{basham1954wonder,Stellarium} \\
+S Asia		& 	& A	& \textbf{Bugis}		& present		& papers		& o	& nv	& 12	& \cite{orchiston2021mandar,orchiston2021seasia} \\
+S Asia		& 	& A	& \textbf{Java}			& 19th c.		& book,paper	& o	& fo	& 3		& \cite{van1885astronomie,khairuddin2021austronesian} \\
+S Asia		& 	& A	& \textbf{Madura}		& present		& paper			& o	& nv	& 6		& \cite{fatima2021madura} \\
+S Asia		& 	& A	& \textbf{Mandar}		& present		& paper			& o	& nv	& 6		& \cite{orchiston2021mandar} \\
+E Asia		& C	& 	& \textbf{China medieval}	& 1092 AD	& chart,book	& w	& po	& 245	& \cite{pan1989history,Stellarium} \\
+E Asia		& 	& C	& \textbf{China}		& 1756-1950		& chart,book	& w	& po	& 253	& \cite{pan1989history,Stellarium} \\
+E Asia		& 	& C	& \textbf{Korea}		& 1395			& chart,dataset	& w	& po	& 219	& \cite{Stellarium} \\
+E Asia		& 	& C	& \textbf{Japan moon st.} & 8th c. 	& chart,paper	& w	& po	& 27	& \cite{renshaw2000cultural,Stellarium} \\
+E Asia		& 	& I	& \textbf{Mongolia}	& present		& dataset		& o	& fo	& 4		& \cite{Stellarium} \\
+Eurasia		& 	& I	& \textbf{Russia}		& present		& book			& o	& fo	& 4		& \cite{svjatskij2007astronomija} \\
+\hline
+%
+W Europe	& 	& I	& \textbf{Ruelle}		& 1786			& chart			& w	& re,nv	& 74	& \cite{Ruelle} \\
+W Europe	& 	& I	& \textbf{Dien}			& 1831			& chart			& w	& re,nv	& 100	& \cite{Dien} \\
+E Europe	& 	& I	& \textbf{Belarus}	& 19th-21st c.	& paper			& o	& fo	& 12	& \cite{avilin2008astronyms,Stellarium} \\
+E Europe	& 	& I	& \textbf{Romania}	& 1907			& book,exhibition& o& fo	& 38	& \cite{otescu1907,crtro,Stellarium} \\
+S Europe	& 	& I	& \textbf{Macedonia}& present		& paper			& o	& fo	& 16	& \cite{cenev2008macedonian,Stellarium} \\
+S Europe	& 	& I	& \textbf{Sardinia}	& present		& dataset		& o	& fo	& 11	& \cite{Stellarium} \\
+N Europe	& 	& I	& \textbf{Norse}		& 13th c.		& verse,book,dataset& o	& nv& 6		& \cite{kaalund1908alfraedhi,Stellarium} \\
+N Europe	& 	& 	& \textbf{Sami}			& 19th c.		& book			& o	& fo	& 3		& \cite{Lundmark1982bmn,Stellarium} \\
+\hline
+%
+N America	& 	& nA& \textbf{Maya}			& 15th c.		& codex,books	& w	& re	& 14	& \cite{freidel1993maya,spotak2015maya,Stellarium} \\
+N America	& 	& nA& \textbf{Aztec}		& 16th c.		& codices,book	& w	& re	& 4		& \cite{PrimerosMemoriales,FlorentineCodex,aveni1980skywatchers,Stellarium} \\
+N America	& 	& nA& \textbf{Huave}		& 1981			& paper			& o	& fo	& 15	& \cite{lupo1981conoscenze} \\
+N America	& 	& nA& \textbf{Inuit}		& 20th c.		& book,dataset	& o	& fo& 9	& \cite{macdonald1998arctic,Stellarium} \\
+N America	& 	& nA& \textbf{Koyukon}	& 20th c.		& book			& o	& fo	& 1		& \cite{miller1997stars} \\
+N America	& 	& nA& \textbf{Tutchone}	& 20th c.		& book			& o	& fo	& 1		& \cite{miller1997stars} \\
+N America	& 	& nA& \textbf{Mi{\textquotesingle}kmaq}& late 19th c.& book	& o	& fo	& 4		& \cite{miller1997stars} \\
+N America	& 	& nA& \textbf{Ojibwe}		& present		& book			& o	& fo	& 9		& \cite{lee2014ojibwe,Stellarium} \\
+N America	& 	& nA& \textbf{Blackfoot}& 20th c.		& book			& o	& fo	& 4		& \cite{miller1997stars} \\
+N America	& 	& nA& \textbf{Pawnee}		& 20th c.		& book			& o	& fo	& 11		& \cite{miller1997stars} \\
+N America	& 	& nA& \textbf{Sioux}		& present		& books			& o	& fo	& 13	& \cite{lee2014dlakota,miller1997stars,Stellarium} \\
+N America	& 	& nA& \textbf{Maricopa}	& 20th c.		& book			& o	& fo	& 4		& \cite{miller1997stars} \\
+N America	& 	& nA& \textbf{Navajo}		& 20th c.		& book			& o	& fo	& 5		& \cite{miller1997stars} \\
+N America	& 	& nA& \textbf{Zuni}			& 20th c.		& book			& o	& fo	& 9		& \cite{miller1997stars} \\
+\hline
+%
+S America	& 	& sA& \textbf{Inca}			& 1613			& book			& o	& fo	& 8	 	& \cite{lehmann1928coricancha} \\
+S America	& 	& sA& \textbf{Kari{\textquotesingle}na}& 1980& paper		& o	& fo	& 8		& \cite{magana1982carib} \\
+S America	& 	& sA& \textbf{Lokono}		& present		& dataset		& o	& fo	& 10	& \cite{rybka2018lokono,Stellarium} \\
+S America	& 	& sA& \textbf{Quechua}	& 20th c.		& paper			& o	& fo	& 4		& \cite{urton1978beasts} \\
+S America	& 	& sA& \textbf{Tukano}		& 1905/2007		& book/thesis	& o	& fo	& 20	& \cite{koch1905anfange,cardoso2007ceu,Stellarium} \\
+S America	& 	& sA& \textbf{Tupi}			& 1614			& book,papers			& o	& fo	& 8		& \cite{abbeville1614histoire,magana1984tupi,afonso2013constelaccoes,Stellarium} \\
+\hline
+%
+Pacific		& 	& P	& \textbf{Anuta}		& 1998			& book			& o	& nv	& 11	& \cite{feinberg1988polynesian,Stellarium} \\
+Pacific		& 	& P	& \textbf{Carolines}& 1951			& paper			& o	& nv	& 12	& \cite{goodenough1951native,holton2015east} \\
+Pacific		& 	& P	& \textbf{Hawaii}		& present		& website,dataset& o& nv	& 13	& \cite{HSL,Stellarium} \\
+Pacific		& 	& P	& \textbf{Kiribati}	& present		& dictionary& o	& nv	& 16	& \cite{KED} \\
+Pacific		& 	& P	& \textbf{Manus}		& 20th c.		& paper			& o	& nv	& 12	& \cite{hoeppe2000shark} \\
+Pacific		& 	& P	& \textbf{Maori}		& 19th c.		& paper			& o	& nv	& 4		& \cite{orchiston2000polynesian,Stellarium} \\
+Pacific		& 	& P	& \textbf{Marshall}	& present		& dictionary& o	& nv	& 41	& \cite{MEOO} \\
+Pacific		& 	& P	& \textbf{Tonga}		& late 19th c.	& paper	& o	& nv	& 11	& \cite{collocott1922tongan,Stellarium} \\
+Pacific		& 	& P	& \textbf{Vanuatu}	& present		& website,dataset& o& fo	& 6		& \cite{DMR,Stellarium} \\
+\hline
+%
+\end{tabular}
+}
+}
+\medskip
+\begin{flushleft}
+{\footnotesize {\bf id.}\ provides an identifier, and {\bf an.}\ ancestry. Under {\bf type}, knowledge transmission is marked as written (w) or oral (o). The (main) practical use(s) (at the time of origin) are for: navigation (nv), religious (re) or political (po) divination, or folk/agrarian/hunter-gatherer time-keeping on land (fo). The {\bf count} includes constellations with at least one line.}
+\end{flushleft}
+\end{table}
+
+Column {\bf location} in Table~\ref{tab:culture_list} locates the culture by continent. Column {\bf id.}\ provides an identifier to important cultures: IAU (I), Babylonia (M from Mesopotamia), India (In), China medieval (C). Other identifiers (not defined in column {\bf id.}) include the Greek (G), which comprises constellations in the standard IAU culture and is partly of Mesopotamian (M) ancestry, leading to indirect M ancestry for its descendants. Others denote cultural or migration regions: Austronesia (A), Polynesia (P), North America (nA) (with regional sky cultures from the Arctic to the south west, the Great Plains~\cite{miller1997stars} and Mesoamerica), and South America (sA) (with two regional Guiana cultures, Kari{\textquotesingle}na and Lokono, two co-located Peru cultures separated only by time, Inca and Quechua, and two cultures now in Brazil, Tukano and Tupi---since some tribes migrated across this continent~\cite{magana1984tupi}). With these identifiers, column {\bf an.}\ marks the ancestry or \emph{phylogeny} of cultures. For a more detailed account of the phylogeny of sky cultures, see Sec.~\ref{sec:sources-and-phylogeny}.
+
+For each culture, column {\bf type} marks two properties of the culture: whether astronomical knowledge transmission was written (w) or oral (o), and what the main practical uses were (at the time when the constellations were designed): for navigation (nv), religious (re) or political (po) divination, or folk/agrarian/hunter-gatherer time-keeping or orientation on land (fo). For details of this typology, see also Sec.~\ref{sec:sources-and-phylogeny}.
+
+Column {\bf timestamp} provides the earliest date of a constellation record, and {\bf count} provides the number of constellations with at least one line. In some cases, the first source for the sky culture is an ancient artefact, which only provides constellation names and some account of their location in the sky. Later work was needed to identify the stars and lines---the {\bf references} in Table~\ref{tab:culture_list} point to modern data sources. These are of many types: short-form publications from field work or recent studies of medieval codices and other artefacts, books summarising constellation information from prior publications, language dictionaries which also document constellations, and sky cultures embedded in the Stellarium astronomy software~\cite{Stellarium}. Sec.~\ref{sec:line-figures} provides a timeline of line-figure representations for constellations, across cultures.
+
+% -------------------------------------------------------------------------------------------------
+
+\subsection{The criteria for inclusion, and limitations of the data} 
+
+Not all cultures with documented astronomies, nor all constellations from a culture were included. The {\bf inclusion criteria} are:
+
+\begin{description}
+	\item[Constellations have lines] From the entirety of a sky culture, we study constellations with at least one line. This excludes constellations which are either single stars (frequent in E-Asian cultures), or tight star clusters such as the Pleiades, where lines would be invisible to an observer on the ground.
+	%
+	\item[Line figures are described] The line figures come from literature, and are not a contribution here. Sources in which no line figures were drawn or described are excluded; this is the case for many N-American tribes~\cite{miller1997stars} other than those included in Table~\ref{tab:culture_list}, the Tuareg~\cite{bernus1989etoiles}, the Rapanui~\cite{edwards2018consolidation}, and many others. 
+	%
+	\item[Line figures are justified] We exclude unreferenced Stellarium~\cite{Stellarium} data, with the exceptions: Western and Western asterisms (simple variants of IAU issued by popular magazines), Korea (from publicly available star charts), and Mongolia, Sardinia, Hawaii, and Vanuatu, which are recent, informally published field work with or by locals. Sometimes, a reference exists, but it only contains the star identification, pictographs, star groups, or a textual description of its shape; the line figure is tenuous, but follows the perimeter of the pictograph and the stars identified, so captures many of the constellation features (network size, spatial size, and brightness properties)---so are retained. This is the case for: Al-Sufi, India/Japan moon stations, Maya, and Inuit.
+\end{description}
+
+Of the 56 sky cultures, 27 come from ethnographic studies not already in Stellarium, so were gathered for this research. Of these, 3 (Sioux, Tukano and Tupi) are a mix of new literature and a prior Stellarium dataset. The Stellarium datasets were verified against their sources in most cases, and line figures were occasionally corrected or removed. Very faint stars unlikely to be seen with the naked eye (magnitude above 7.0), very rarely used, were removed and the line figures reconnected.
+
+Not every type of analysis can be performed on this dataset, due to its {\bf limitations}:
+%
+\begin{description}
+	\item[Approximate star identification] A star may be imprecisely identified from rough sky charts, in the neighbourhood of the star intended. This is especially the case for E Asian (Chinese, Korean, Japanese) sky cultures, for the non-determinative (or minor) stars in an asterism~\cite{stephenson1994chinese}. This means that the exact identity of a star in a line figure cannot be counted on.
+	%
+	\item[Unknown culture age] The exact age of most sky cultures is unknown: their time of birth is lost in long periods without surviving records. This is the case for ancient cultures with written records, but also for recent cultures with oral traditions. Thus, age cannot be used as a culture feature, and questions cannot be asked about the evolution of sky cultures in time, or about the design of constellations in specific sky regions, such as around the poles (since the location of the celestial poles drifts due to the natural precession of the earth's axis).
+	%
+	\item[Unknown culture size] The original number of constellations cannot be established for oral cultures, for many reasons. Part of the oral knowledge was not documented before becoming lost. There may have been taboos about sharing this information with strangers~\cite{miller1997stars}. Some ethnographers did not have astronomical knowledge, so did not inquire about celestial traditions, or were vague about the identification of constellations in the sky. The result is poor ethnographic records for N America~\cite{miller1997stars,lupo1981conoscenze}, S America~\cite{rybka2018lokono}, Europe~\cite{kaalund1908alfraedhi,svjatskij2007astronomija}, and the Pacific~\cite{HSL}. Thus, conclusions about cultures should not be drawn based on their sizes.
+	%
+	\item[Preference or bias towards bright stars] In oral cultures, the constellations that were remembered were  not a random sample from a larger, forgotten tradition. Instead, the recollection may have been \emph{biased} towards the more salient constellations, such as those with bright stars. This is not certain; in some oral cultures, bright stars have utilitarian \emph{preference}: in Polynesian seafaring, only they are named and considered major~\cite{feinberg1988polynesian}.
+\end{description}
+
+% -------------------------------------------------------------------------------------------------
+
+\subsection{Sky cultures, their type, and phylogeny}
+\label{sec:sources-and-phylogeny}
+
+Each paragraph introduces a related group of astronomical cultures from Table~\ref{tab:culture_list}, whether the culture had written or oral traditions, their practical use (column {\bf type} in the table),  limitations in their documentation, and the ancestry (column {\bf an.} in the table). Each culture or group of cultures is emphasised in bold in the text when first mentioned. This is a too broad a subject to cover in depth here, so this general summary remains brief.
+
+\paragraph{Primitive astronomies: moon stations} The moon stations, also known as \emph{lunar lodges} or \emph{lunar mansions}, were groups of stars on the ecliptic. Between 27 and 28 moon stations (\emph{nak\d{s}atras}) or lunar mansions were documented during the {\bf Indian} Vedic period (before 500 BC); if there was external influence in this early period, the literature is too late to provide information~\cite{basham1954wonder}. {\bf Arabic} asterisms for time-keeping and orientation (the \emph{anw\={a}'}) also predate the Arabs' knowledge of other astronomies. At an unknown time, the Arabs received the Indian system of 28 lunar mansions~\cite{king2013islamic}, and each mansion was then identified with one of the Arabic \emph{anw\={a}'}. After the spread of the Greek astronomy, these asterisms were documented, in the 9th-century \emph{Book of Anw\={a}'} by Ibn Qutaybah~\cite{kunitzsch2013lunar}. Both systems were used for divination~\cite{kunitzsch2013lunar}. 
+
+The 28 {\bf Chinese} \emph{xiu} (lunar lodges) were named \textasciitilde433 BC on a chest discovered in a tomb; they are likely much older (as old as the 3rd millennium BC), but evidence is lacking~\cite{stephenson2013EAmaps}. The question whether they were influenced by the Indian \emph{nak\d{s}atras} remains open~\cite{yoke2013china}. {\bf Japanese} astronomy closely followed the Chinese tradition. The Japanese \emph{sei shuku} (lunar lodges) are based on their earliest sky chart, on the ceiling of a tomb from \textasciitilde700 AD, identified with the help of a later 17th-century chart~\cite{renshaw2000cultural}. The Indian, Arabic, and Japanese moon stations are recorded in this study in individual datasets; the Chinese moon stations are instead part of two Chinese sky-wide datasets.
+
+\paragraph{Early astronomies: Mesopotamia and Egypt} The {\bf Babylonian} sky is reconstructed from \textit{MUL.APIN}~\cite{rogers1998origins1}, a clay-tablet compilation of Babylonian star catalogues produced up until that time. These were developed in stages from \textasciitilde3200 BC in two overlapping traditions, to represent gods and their symbols (the twelve signs of the zodiac and associated animals), and rustic activities. ``Many constellations belonged to both traditions, but only the divine were transmitted to the West''~\cite{rogers1998origins1}. We mark this culture as having primarily religious usage. The line figures follow pictographic representations of the zodiacal signs: on cylinder seals (from \textasciitilde3200 BC onwards), boundary stones (\textasciitilde1350--1000 BC), in the Seleucid zodiac (clay tablets, with some copies surviving from the last few centuries BC) and the circular zodiac at the temple of Hathor in Dendera (an Egyptian ceiling bas-relief, \textasciitilde50 BC, merging  Mesopotamian and Egyptian constellations)~\cite{rogers1998origins1}. 
+
+For the reconstruction of the ancient {\bf Egyptian} sky, also with religious use~\cite{allen2013star}, two pictographic references are used: the astronomical ceiling of the tomb of Senenmut at Deir el Bahari in Luxor (\textasciitilde1470 BC), and the Egyptian figures on the Dendera zodiac~\cite{lull2009constellations}. In classical times, these native Egyptian constellations were combined with the Mesopotamian, producing the standard sky of the Greco-Roman period. We only use the older, native Egyptian constellations.
+
+\paragraph{Early astronomies: The Mediterranean} The classical {\bf Greek} sky (not a culture in this study, but included in all Western cultures) had 48 constellations and derived from two pre-Greek cultures~\cite{rogers1998origins1,rogers1998origins2}. In 500 BC, the Greeks adopted the twelve Mesopotamian signs of the zodiac and associated animal constellations. These are, from oldest to newest: Taurus, Leo, Scorpius, and Aquarius (3000 BC, when they marked the cardinal points), Gemini, Virgo, Sagittarius, Pisces, and Capricornus (3rd or 2nd millennium BC). Aries, Cancer and Libra, the least bright, were accepted late, in classical times~\cite{rogers1998origins2}. Other large constellations around the pole and equator of that time date from \textasciitilde2800 BC, probably originate from the Mediterranean region, and were designed as markers for sea navigation~\cite{rogers1998origins2}. The Greek classical constellations of Mediterranean origin are bears (Ursa Major/Minor), serpents (Draco, Hydra, Serpens and Cetus), giants (Hercules, Ophiuchus, Bo\"otes, Auriga), and some large southern marine constellations (Eridanus, representing a river meandering southwards). Likely, this set includes also Ara, Centaurus, Argo Navis, and Lupus~\cite{rogers1998origins2}. The Greeks assembled these traditions 540-370 BC, with the definitive documentation by Ptolemy in the \textit{Almagest}, 150 AD. The {\bf Al-Sufi} \textit{Book of Fixed Stars}~\cite{Al_Sufi_Book} is a revision of the \textit{Almagest} with corrections and the addition of indigenous Arabic astronomical traditions.
+
+All sky cultures of Greek ancestry have this mix of constellations of (originally) religious and navigational use. The practical use is thus per constellation, not per culture. The constellations with religious use are the Mesopotamian zodiac and their associates, Orion, and constellations associated with Greek mythology and their associates. Greek mythology characters and their vassals were: Cepheus, Cassiopeia, Andromeda, Perseus, Pegasus, Coma Berenices, Corona Australis/Borealis, Canes Venatici, Delphinus, Lyra, Canis Major/Minor, Lepus, Crater, Sagitta, Triangulum~\cite{rogers1998origins2,allen2013star}. Those with navigational use are the Mediterranean constellations, and, for more recent cultures, the constellations surrounding the south pole, attributed to various navigators~\cite{sawyer1951out}. Western constellations without a clear purpose when formed are left uncategorised.
+
+\paragraph{Early astronomies: East Asia} Chinese astronomy is well documented; refer to~\cite{stephenson1994chinese,stephenson2013EAmaps} for an extended description, of which we provide a summary. Chinese astronomy developed independently of external influences until as late as the 17th century. Some star groups were mentioned in East Asia before 1000 BC: the Big Dipper asterism on rock carvings, the name \emph{Dou} (the Ladle, presumably for the Big Dipper) on bone inscriptions, and four asterisms including the Ladle, explicitly described, in folk songs. Qualitative descriptions of about 100 \emph{xingguans} (asterisms) were given in a catalogue from the 1st century BC, and later catalogues list 280 asterisms. The only surviving celestial map until the 10th century is the Dunhuang star chart (a manuscript on paper dated around 700 AD), which draws the entire night sky visible from China (1345 stars in 257 asterisms). Astronomer Su Song's printed star chart from the Song period (1092 AD, with 1,464 stars in 283 constellations, which have become standard) is the oldest printed chart to survive. The Chinese asterisms are small, and name terrestrial items (the imperial family, officials, domestic animals, crops, and buildings). They were used for astrological predictions at the imperial court~\cite{stephenson1994chinese}.
+
+The {\bf China medieval} dataset draws the Song-period chart, \emph{Xinyi xiang fayao} (New design for an armillary and globe), using books of accurate stellar measurements by officials from 1052 AD; this information was compiled in a book~\cite{pan1989history}. The later {\bf China} dataset draws the skies based on a star catalogue revised by Qing-period officials with the help of Western astronomers, finished in 1756~\cite{pan1989history}, and later additions to this. The Western astronomers did not supplant the Chinese asterisms with Western ones, but measured star positions more precisely, occasionally added stars to asterisms, and added stars near the south pole which were invisible from China. The {\bf Korean} dataset follows the earliest surviving Korean chart, a marble stele dated 1395 AD, \emph{Ch’onsang yolch’a punyajido} (Chart of the regular division of the celestial bodies). This chart is a reproduction of an older Chinese chart, although some line figures differ. Modern measurements of the star positions suggest a date around 30 BC---so this may preserve traditions older than the surviving Chinese charts~\cite{stephenson2013EAmaps}. The identification of the stars on these maps is tenuous, due to the irregular projections and imprecise star placement.
+
+\paragraph{Western sky cultures} The International Astronomical Union (IAU) standardised a list of 88 constellations with names and three-letter abbreviations (in 1922) based on the classical Greek sky and later discoveries in the southern hemisphere. At that time, the constellation figures had vague and variable perimeters. Standard constellation boundaries were published in 1930~\cite{delporte1930delimitation}. Line figures had been sketched by French astronomers, Alexandre {\bf Ruelle} and Charles {\bf Dien}, on the first modern-looking star charts with line figures and without pictographs~\cite{Ruelle,Dien} (dated 1786 and 1831), including constellations which are now obsolete. We transcribe these early charts in two datasets. The first popular line figures were H. A. {\bf Rey}'s~\cite{rey1952stars} (1952) intuitive figures of the objects they are supposed to represent. They largely adhere to previous traditions, but also sometimes deviate from the figures described since the \textit{Almagest}. For example, Rey's bear in Ursa Major is oriented the opposite way compared to Ptolemy's description. The {\bf IAU} line figures, ``Alan MacRobert's constellation patterns [from the Sky \& Telescope magazine] were influenced by those of H. A. Rey but in many cases were adjusted to preserve earlier traditions''~\cite{IAU}. The {\bf Western} constellation set is a simpler variant used by the popular astronomical software Stellarium~\cite{Stellarium}. Separately, we have the set of popular {\bf Western asterisms} which do not respect IAU constellation lines, such as the Spring and Summer Triangles (with various sources provided for the figures~\cite{Stellarium}); we mark this is a folk culture.
+
+The {\bf Belarusian} folk sky is compiled by a local ethnoastronomer~\cite{avilin2008astronyms} from sources in the 19th to 21st centuries. Most lines are a subset of the IAU constellations, with different names and meanings. The {\bf Romanian} sky is the result of an early study (1896) by a local mathematician and teacher~\cite{otescu1907}, who sent copies of a sky map to teachers throughout Romania, requesting them to ask the oldest peasants about their beliefs about constellations. In 39 of the papers returned, there were new accounts of constellations; this makes the collection unique in depth among the few documented astromythologies of Europe. {\bf Macedonian} ethnoastronomical research began in 1982, with 140 villages visited for surveys. Given the symbolism of the constellations, the roots of this sky culture are likely in early agricultural communities of the Neolithic in the Balkans~\cite{cenev2008macedonian}. The {\bf Sardinian} data is the result of unpublished research by locals~\cite{Stellarium}. Only four constellation shapes are identified well across {\bf Russian}-speaking republics from the early 20th century onwards; the collectors of Russian folklore were not familiar with the sky, leading to poor ethnographic records~\cite{svjatskij2007astronomija}. 
+
+The present {\bf Mongolian} constellations are of Western influence (although the Mongolian mythology has its own identity~\cite{Stellarium}, and earlier cultures may have been influenced by the Chinese). Knowledge transmission in this culture remains essentially oral; this data was collected in 2014 from field work.
+
+All these folk cultures had oral traditions, a mostly agrarian iconography, and influence from the IAU constellations.
+
+{\bf Norse} (particularly Icelandic) astronomy may have been well developed for navigation and time-keeping, but little has been preserved. Greek and Latin names for constellations supplanted local ones in the medieval period, and continental influence is likely. The only old sources are literary: the Eddas (from 13th century Iceland), and a compilation of timetelling verse~\cite{kaalund1908alfraedhi} give Norse interpretations to parts of modern constellations. The {\bf Sami} sky culture may be very old, but written records for this oral tradition of reindeer herders exist only since the 19th century~\cite{Lundmark1982bmn}. There are few constellations, all connected to Sarva the Elk. The Sami sky culture doesn't resemble the Western, and there is no documented influence.
+
+\paragraph{North American sky cultures} In Mesoamerica, the ancient {\bf Maya} sky is due to research~\cite{freidel1993maya,spotak2015maya} based on imprecise information, namely the partial pictographs of animal constellations in the \textit{Paris Codex}, dated around 1450. Unlike the Maya sky, the {\bf Aztec} sky is based on line figures and textual descriptions from 16th-century codices (line figures in \textit{Primeros Memoriales}~\cite{PrimerosMemoriales}, and descriptions in the \textit{Florentine Codex}~\cite{FlorentineCodex}; the challenge was in locating the stars and constellations~\cite{aveni1980skywatchers}, which is approximate. Both Maya and Aztec cultures kept written astronomical records, which served a divinatory function. The current constellations of the {\bf Huave} in Mexico are only used for telling time, and retain some pre-colonial influences. 
+
+The {\bf Native American} sky cultures outside Mesoamerica are all oral traditions documented recently, between the late 19th century and the present, with a practical use as time-telling tools for farming, hunting, and gathering~\cite{krupp2013namerica}. Their traditions retained some originality, with star mythology related to hunting and planting~\cite{miller1997stars}. There are occasionally striking commonalities: natives in the Northeast, Southeast, western Subarctic, and the Plateau all have myths about the Big Dipper asterism in Ursa Major as a bear and hunters. The datasets are small due to lost traditions and a lack of timely documentation~\cite{miller1997stars}. ``Many of the [Inuit] elders insisted that the information they possessed about astronomy was meagre compared to that of their parents or grandparents; the present generation of elders is the last repository of a more or less detailed knowledge on this subject''~\cite{macdonald1998arctic}.
+
+\paragraph{South American sky cultures} The traditions are oral and represent the natural world. Like the Maya sky, the coastal {\bf Tupi} have constellations documented in an 1614 book~\cite{abbeville1614histoire}, only later identified by 20th-century studies via comparisons with the constellations of other tribes~\cite{magana1984tupi,afonso2013constelaccoes}. Due to migrations, there is influence between the coastal Tupi, Amazonian, Guianan and Andean tribes~\cite{magana1984tupi}. In the Andes, the {\bf Inca} constellations are a 1928 interpretation~\cite{lehmann1928coricancha} of a 1613 astronomical drawing in Cuzco, Peru; the identification uses textual descriptions from co-located tribes, Aymara and Quechua. Field work from 1978 also documents the little that remains of these constellations of the {\bf Quechua}~\cite{urton1978beasts}, now heavily Spanish-influenced. On the coast, the {\bf Lokono} territory borders that of the {\bf Kari{\textquotesingle}na}; though unrelated, they share a Guianan culture, and the ethnoastronomical traditions have similarities. The Lokono constellations are recent ethnographic work~\cite{rybka2018lokono}. Those of the neighbouring Kari{\textquotesingle}na were documented from before 1900 to 1980 (the latter, field research in three Carib villages from Suriname~\cite{magana1982carib}). The Kari{\textquotesingle}na sky traditions are fading fast: many of the constellations which were mentioned in a 1907 study were unknown by 1980. For the Amazon, {\bf Tukano} constellation data was provided in research reported in 1905~\cite{koch1905anfange} and 2007~\cite{cardoso2007ceu}, with all figures in a similar style. We add them up as the Tukano sky culture.
+
+\paragraph{Polynesian sky cultures} Stars and constellations are the most important tool for long-range oceanic navigation for the Polynesians (Hawaii, Maori, Tonga), outlying islands which are culturally Polynesian (Anuta, Vanuatu), and others (Caroline, Marshall, Kiribati, Manus), all with ancestry in a common seafaring culture. Their knowledge was transmitted orally. Some constellations were still known by {\bf Anuta} sailors at the end of the 20th century, and were identified and then drawn during field research in 1972-83~\cite{feinberg1988polynesian}. The {\bf Hawaii} ``star lines'' were lost by the 1970s, then reconstructed with help from a Micronesian navigator~\cite{HSL}: a star line is a group of main stars connected into lines and simple shapes, pointing to main cardinal points. {\bf Tonga} data is a synthesis of the sailing directions written by a high Tongan chief in the late 19th century~\cite{collocott1922tongan}. {\bf Maori} data is a synthesis of 19th-century information and fieldwork~\cite{orchiston2000polynesian}. The {\bf Vanuatu} data comes from field work with locals on the Tanna island by an amateur astronomer in 2019, published informally; the researcher also states that ``in many places of Vanuatu this ancestral knowledge is now almost forgotten''~\cite{DMR}. This data is an outlier for this geographical region: all constellations represent agricultural concepts. The {\bf Marshall} and {\bf Kiribati} data was digitised from language dictionaries which include names and descriptions for constellations, initially written in the 1970s, and updated since~\cite{MEOO,KED}. The data for the {\bf Carolines} comes from field work published by 1951~\cite{goodenough1951native} with a later correction of names~\cite{holton2015east}; that for {\bf Manus} is a summary of field work done throughout the 20th century~\cite{hoeppe2000shark}.
+
+\paragraph{Austronesian sky cultures} All four are oral cultures, recently documented. The {\bf Mandar}~\cite{orchiston2021mandar} and the {\bf Bugis}~\cite{orchiston2021mandar,orchiston2021seasia} are two neighbouring ethnic groups on the island of Sulawesi in Indonesia. Both have a strong seafaring tradition due to the Austronesians which migrated into Sulawesi. The Mandar constellations are fading from memory: the data was collected ``through interviews with retired fishermen. We noted that the younger fishermen did not use star patterns for their navigation''~\cite{orchiston2021mandar}. The Bugis data is a unified drawing of constellations from prior sources~\cite{orchiston2021seasia}. On the island of {\bf Madura}, Indonesia, off the coast of Java, the locals also have a maritime tradition, likely also of Austronesian origin. The constellation data was collected via a survey of about 100 families~\cite{fatima2021madura}. Nearby on the island of Java, the {\bf Java} astronomy serves an agrarian society, cultivating rice. Information for one constellation (The Plough in IAU Orion) was first provided in person to the author of a 1885 study~\cite{van1885astronomie} by a religious figure from an English mission on the island. This was confirmed and supplemented with two others in a recent paper~\cite{khairuddin2021austronesian} with data from 2019 interviews; the authors also confirm ``widespread similar asterisms in the archipelago''.
+
+% -------------------------------------------------------------------------------------------------
+
+\subsection{Line figures: both ancient and modern representation for constellations}
+\label{sec:line-figures}
+
+The line-figure representation is new in many cultures, but native in others. We summarise the timeline (also in Fig~\ref{fig:timeline_line_figures}) and the sources for line figures, emphasising any limitations in their collection.
+
+\begin{figure}[ht]
+	% Fig11
+	\includegraphics[width=\linewidth]{Fig11}
+
+	\caption{{\footnotesize {\small {\bf Regional timeline for line figures.} 
+	The centuries AD are marked at the bottom, on a non-linear scale. Dark blue time intervals are recent periods, during which line figures are documented. They are preceded by periods of development or transition (in light blue), during which important sources for line figures are marked. In E Asia, the circle-and-line representation is native. In Europe and W Asia, line figures developed out of pictographs, alongside the development of modern astronomy. In the Americas and the Pacific, they were likely introduced under Western influence.}}}
+	\label{fig:timeline_line_figures}
+\end{figure}
+
+\paragraph{From ancient pictographs or text to recent line-figure interpretations} The ancient skies in {\bf Babylonia} and {\bf Egypt} are based on pictographs, without clearly identifying the stars, so the line-figure identification is tenuous. The reconstruction differs among researchers (for both Babylonia~\cite{rogers1998origins1,hoffmann2018drawing} and Egypt~\cite{lull2009constellations}). We use the most recent and extensive identifications~\cite{hoffmann2017hipparchs,hoffmann2017history,hoffmann2018drawing,lull2009constellations}. The line-figure identification is tenuous also for the {\bf Inca}, {\bf Maya}, and {\bf Tupi} skies, for which the early 15th- and 17th-century sources do not identify stars and rarely draw line figures: the Inca source draws the Stove constellation (equivalent to IAU Crux) with lines, but the rest are from recent identification research.
+
+Also of ancient pictographic origin, the sources of IAU constellations do identify most stars, but never had standard line figures. There are instead many early and current variants based on the \textit{Almagest}~\cite{toomer1984ptolemy}), such as {\bf Al-Sufi}: the \textit{Book of Fixed Stars}~\cite{Al_Sufi_Book}, like \textit{Almagest}, draws pictograms and places the stars with their astronomical data (latitude, longitude, magnitude) in the pictogram ($\alpha$ UMi is ``the star at the end of the tail''~\cite{toomer1984ptolemy}). 
+
+The {\bf Norse} constellation Aurvandil's Toe is mentioned in the Eddas (only in verse), and its identification with IAU Corona Borealis is likely, but not certain~\cite{Stellarium}. The remaining Norse constellations use simple line figures~\cite{kaalund1908alfraedhi,Stellarium}. The {\bf Indian}~\cite{basham1954wonder} and {\bf Arabic}~\cite{kunitzsch2013lunar} moon stations consisted of well-identified stars, without lines; the dataset draws very basic lines to link these stars (in most cases a chain). 
+
+\paragraph{From ancient oral traditions to recent line-figure interpretations} The traditions of native tribes in {\bf N America} outside Mesoamerica had very few artifacts recording star groups (without lines): pictographs on the ceilings of Navajo caves show constellations from the 1700s; early 1900s Navajo and Tipai sandpaintings and an undated Pawnee star chart on buckskin show recognisable star groupings~\cite{buckstaff1927stars,miller1997stars}. The line figures are interpretations of the researcher. The same is the case for {\bf Lokono} in S America: the researchers write that ``many Lokono, when drawing constellations, did not connect the stars with lines and that in some cases, there was little agreement among speakers as to which star within a constellation corresponds to which parts of the plant or animal it represents; the Lokono tradition allows for more flexibility in interpreting particular star groups''~\cite{rybka2018lokono}. The {\bf Tukano} also drew their constellations in the form of star clusters without lines; it is the researchers who added the lines: Koch-Gr{\"u}nberg as a printed star chart in his 1905 book~\cite{koch1905anfange}, and a dataset based on a 2007 dissertation~\cite{cardoso2007ceu}. This process was similar for the {\bf Quechua}~\cite{urton1978beasts}. 
+
+Other native tribes did provide line figures. The {\bf Huave} in Mesoamerica provided constellations which clearly resemble certain animals or religious objects in contour, so the shape of the figure is certain. The {\bf Kari{\textquotesingle}na} line figures in S America ``have been drawn in the sky by villagers and referred to Western sky-maps by us''~\cite{magana1982carib}. The Indonesian ({\bf Mandar}, {\bf Bugis}, {\bf Madura}, {\bf Java}), and culturally Polynesian ({\bf Anuta}, {\bf Vanuatu}) constellations were identified with locals and drawn by the researchers as either pictograms or line figures~\cite{fatima2021madura,van1885astronomie,khairuddin2021austronesian,orchiston2021seasia,fatima2021madura,feinberg1988polynesian,DMR}. The oldest explicitly drawn line figure is from an 1885 Javanese source~\cite{van1885astronomie}. When pictograms are drawn, they are a contour (or lines through) the stars identified, so are fairly certain.
+
+Other Polynesian ({\bf Maori}, {\bf Tonga}), neighbouring Micronesian ({\bf Marshall}, {\bf Kiribati}, {\bf Carolines}) and Melanesian ({\bf Manus}) constellations were described only in text~\cite{orchiston2000polynesian,collocott1922tongan,MEOO,KED,goodenough1951native}, but simple lines correspond well to this text. For example, ``Toloa means a wild duck, and Tongan imagination pictures the cross as a duck whose head is $\gamma$ and tail $\alpha$, the wings being $\beta$ and $\delta$ [Cru]''~\cite{collocott1922tongan}). The Marshallese constellation ``Ao\d{l}\={o}t is shaped like leather-jack fish ($\theta$, $\eta$, $\zeta$ Dra) whose head has been pierced by a spear (18, 19 Dra)''. In the Carolines, for IAU Cru, sources confirm that the figure follows the name, so can be drawn with certainty: ``the Micronesians do not see a cross, but rather a triggerfish with its distinctive diamond shape''~\cite{chadwick2017great}.
+
+Some oral sky cultures in Eurasia ({\bf Russia}, {\bf Sami}, {\bf Belarus}, {\bf Macedonia}, {\bf Romania}, {\bf Sardinia}, {\bf Mongolia}) were documented recently (in the 19th century or later, by researchers using sky charts), and described all line figures at collection time. Most researchers provide line drawings directly. Others describe them in words, such as the Belarusian report~\cite{avilin2008astronyms} (constellation The Cross is ``$\alpha$, $\gamma$, $\eta$, $\beta$ Cygnus -- a vertical beam, $\epsilon$, $\gamma$, $\delta$ Cygnus -- a cross beam''). 
+
+\paragraph{Native line figures of all ages} In E Asia, line figures were and remain the only standard representations for star asterisms; on a {\bf Chinese} tomb ceiling (uncertain date BC), the moon stations are depicted with stars as small circles, joined into groups by straight lines. The Dunhuang star chart and its successors in China, Korea, and Japan, draw line figures, with the stars of roughly equal size regardless of magnitude, annotated with star names. In the Americas, the \textit{Primeros Memoriales} codex~\cite{PrimerosMemoriales} drew line figures for the {\bf Aztec} sky in the 16th-century, and one {\bf Inca} constellation is lined in the 17th-century source~\cite{lehmann1928coricancha}. In the Western world, the first complete star charts with line figures were by {\bf Ruelle}~\cite{Ruelle} (1786) and {\bf Dien}~\cite{Dien} (1831). {\bf Rey}'s line figures~\cite{rey1952stars} (1952) became widely adopted, followed by variants, such as the {\bf IAU} and Sky \& Telescope magazine's~\cite{IAU} and the simpler {\bf Western} sets~\cite{Stellarium}. All are included in this study.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Method: measuring, clustering, and comparing visual signatures}
+\label{sec:method}
+
+To provide answers to the questions posed, the steps followed are: measuring the constellation visual signatures (described here in Sec.~\ref{sec:features}), clustering constellations and interpreting the clusters (Sec.~\ref{sec:tsne}), and finally measuring the association of culture, type, or sky region to the visual signature (Sec.~\ref{sec:metrics} and~\ref{sec:diversity}).
+
+%-------------------------------------------------------------------------------------------------
+\subsection{Measuring the visual signature of a constellation}
+\label{sec:features}
+
+A constellation is a \emph{spatial network} in the astronomical coordinate system. The \emph{nodes} are stars annotated with locations on the celestial sphere (independent of the location of observers on the earth): the declination $\delta$ (equivalent to the geographic latitude) is the north or south angle between the celestial equator and the star; the right ascension $\alpha$ (equivalent to the geographic longitude) is the angle measured along the celestial equator. An additional annotation is the magnitude, a measure of the star's visible brightness. A \emph{link} (or line) is the undirected geodesic between two nodes. 
+
+We define a set of 19 {\bf constellation features} or statistics. For definitions of the network features ($s_1$ to $s_{11}$), refer to~\cite{newman2018networks}. All features jointly form the visual signature of the constellation. We listed the features in Sec.~\ref{sec:statistics}. Here, we clarify the choice.
+
+Statistic $s_1$ is the {\bf number of links}, a measure of the network size, while $s_4$ is the {\bf clustering coefficient} (the average of all local clustering coefficients), a measure of how close the network is to being a triangular mesh. $s_5$ is the {\bf maximum core number} (the largest $k$ so that there is a maximal subgraph containing nodes of degree $k$), a measure of whether the network has one or more dense core regions, distinct from sparsely linked peripheral regions. $s_6$ (the {\bf number of cycles}) and $s_7$ (the size of the {\bf largest basic cycle}) are computed over the cycle basis (the minimal set of cycles so that any cycle in the network is a sum of these). $s_9$ and $s_{10}$ are the average {\bf link diameter} and shortest path among the connected components (the latter shows whether the network is {\bf small-world}). $s_{11}$ is the {\bf link connectivity} (the minimum number of links which, if removed, disconnect the network). Other constellations statistics could be defined; this set was selected to cover fundamental visual aspects of the line figures, and to exclude redundant measures. For example, the number of nodes in the network is not explicitly included, but is proportional to $s_1 / s_3$. These statistics also do not count on the stars being identified precisely (given the limitations of the data collection): if a star was mistaken for another in the close neighbourhood and of similar magnitude, the statistics change little. 
+
+We opt for this highly \emph{multidimensional} definition for the visual signature, instead of defining a small number of more abstract or high-level measures of visual complexity, such as the perimetric complexity applicable to written characters~\cite{miton2021graphic} or binary images~\cite{watson2012perimetric}, and the algorithmic, representational, or algebraic complexity applicable to 3D shapes~\cite{rossignac2005shape} or written characters~\cite{miton2021graphic}. Each of our features remain interpretable, are similar to other known measures of shape complexity, such as morphological and combinatorial complexity~\cite{rossignac2005shape}, and capture the salient characteristics of these spatial networks over scattered bright points on a sphere. This allows us to understand the word `complexity' in more than one way: a spatially small ($s_{12}$) but sharp-angled ($s_{14}$) constellation with closed polygons ($s_6$, $s_7$) such as IAU Cygnus can be called complex for reasons different than a long ($s_9$), spatially large ($s_{12}$), but entirely linear ($s_2$) constellation such as IAU Eridanus. 
+
+%-------------------------------------------------------------------------------------------------
+\subsection{Embedding visual signatures: nearest-neighbour dimensionality reduction}
+\label{sec:tsne}
+
+We use \emph{manifold learning}~\cite{gorban2008principal} out of the high-dimensional constellation features, to optimise the projection (or \emph{embedding}) of this data into two dimensions. The objective is to preserve the neighbours of a constellation (by Euclidean distance, which captures the similarity across all features) between the original many dimensions and the final two dimensions. Constellations which are \emph{similar} in the original space remain neighbours in the embedded space, and can now be visualised and interpreted.
+
+The \emph{t-distributed Stochastic Neighbor Embedding} (t-SNE)~\cite{van2008visualizing,van2014accelerating} is manifold learning which also separates any clusters in the data. Conclusions can thus be drawn from the embedding at multiple scales: some constellations will be local neighbours, while some clusters of constellations will be regional neighbours on a higher scale. T-SNE visually disentangles data that has internal structure at different scales. This embedding serves as a clustered summary of constellation visual signatures. 
+
+\paragraph{Tuning the manifold learning} We run the t-SNE~\cite{van2008visualizing,van2014accelerating} implementation from scikit-learn~\cite{scikit-learn} and parametrise it as in Table~\ref{tab:tsne_parameters}. We aim for two dimensions, which can be visualised clearly. The distance used is squared \emph{Euclidean distance}, which is calculated after \emph{scaling} the data feature-wise with a standard scaler, which removes the mean of the distribution and scales the feature to unit variance. First, t-SNE converts the closeness of data points into joint probabilities, and minimises their Kullback-Leibler (KL) divergence in the original vs.\ the embedded space. The gradient-descent algorithm does not guarantee that it will reach the optimum KL divergence, so we try different random seeds (that is, do multiple restarts) and select the best divergence found. The algorithm is computationally heavy---the runtime of manifold learning with 20,000 iterations is on the order of tens of minutes, even though the number of data points (constellations) is relatively small, in the thousands. Two identical constellations are embedded at roughly the same coordinates.
+
+\begin{table}[htb]
+\caption{\footnotesize {\bf Parameters for the t-distributed Stochastic Neighbor Embedding (t-SNE)}.}
+\label{tab:tsne_parameters}
+%
+\centering
+%
+{\small
+	\begin{tabular}{lr}
+		{\bf t-SNE parameter}			&	{\bf value}	\\
+		\hline
+		embedding dimensions			&	2 		\\ 
+		initialisation					&	Principal Component Analysis		\\
+		gradient calculation algorithm	&	exact	\\
+		learning rate					&	50 		\\
+		max. number of iterations		&	20,000	\\ 
+		perplexity $p$					&	32		\\
+		\hline
+	\end{tabular}
+}
+%
+\end{table}
+
+The \emph{perplexity} parameter $p$ matters: it is essentially the number of nearest neighbours to consider. We set this to the average culture size (the number of constellations per culture, here 32). This makes regional structure visible. A smaller value for $p$ would be useful if splitting large clusters is desirable.
+
+\paragraph{Evaluating the embedding} The \emph{trustworthiness} metric~\cite{venna2001neighborhood,van2009learning} expresses to what extent the local structure (the neighbourhood of all constellations) is retained by the embedding. Given a number of nearest neighbours as parameter (here, equal to the perplexity value from Table~\ref{tab:tsne_parameters}) and a type of distance (here, Euclidean), the trustworthiness is a value in $[0,1]$ which reaches 1 if all constellations have retained all their nearest neighbours after the embedding. We report the trustworthiness value to evaluate the embedding itself. 
+
+\paragraph{Interpreting the embedding} For t-SNE, the interpretation of the embedding has some caveats. The scale of the two embedded dimensions has no meaning (similar to the dimension of a distribution after standard scaling), so is never shown. The size of clusters in the embedding (for example, the area of the convex hull around a cluster) also has no meaning, because the t-SNE algorithm adapts to regional density variations in the data, and equalises these. The composition of the clusters is meaningful, although dependent on the perplexity parameter.
+
+For both of our hypotheses, the predictors are categorical variables: the culture name, the type of knowledge transmission or type of practical use, the ancestor culture, or the sky region. The questions ask whether these categorical variables associate (and may have driven) the numerical constellation features (defined in Sec.~\ref{sec:features} above). For Hypothesis I, the next step is to measure the association between the categorical predictors and visual signatures.
+
+%-------------------------------------------------------------------------------------------------
+\subsection{Measuring association with culture types: assortativity and similarity metrics}
+\label{sec:metrics}
+
+The scoring of questions {\bf I.1-4} proceeds as follows. Out of the 19-dimensional dataset of constellation features, we compute a \emph{directed, nearest-neighbour network of constellations}: for each constellation, outlinks are drawn to the $p$ nearest neighbours by Euclidean distance. We again set $p$ equal to the average culture size, 32. The nodes in this network are marked with the culture type; for example, for question {\bf I.1}, each constellation is assigned the name of its culture.
+
+{\bf The assortativity coefficient.} This normalised score measures the degree of mixing, and is similar to the intra-class correlation coefficients used to compare different groups in a population~\cite{fleiss2013statistical}. Assortativity is also referred to as \emph{homophily}. An $r=0$ means that the cultures mix randomly, or that the constellations are equally similar intra-culture as they are inter-culture. A value $r>0$ signals instead that the constellations are similar intra-culture and dissimilar inter-culture, so the culture is indeed a predictor of the visual signature. A negative value for $r$ is possible, and signals the opposite, that constellations are more similar inter- than intra-culture.
+
+The assortativity coefficient $r$ is a classical (2003~\cite{PhysRevE.67.026126}) measure for assortative mixing in a graph. We repeat the definition here for completeness; examples and a discussion are available in~\cite{PhysRevE.67.026126,newman2018networks}. Given a directed network whose nodes have a categorical type marked (denoted $i$ or $j$), a square \emph{mixing matrix} can be formed out of this graph. This matrix has as many rows as there are distinct node types. A cell, denoted $e_{ij}$, contains the \emph{fraction} of directed edges in this network which connect a vertex of type $i$ to one of type $j$. The sum of all cells in the mixing matrix is 1. The fraction of edges which have as source any node of type $i$ is denoted $a_i$, and likewise $b_i$ for destinations of type $i$. The expressions for $a_i$, $b_i$, the assortativity coefficient $r$, and the expected statistical error $\sigma_r$ are:
+\[
+a_i = \sum_j e_{ij}, \qquad 
+b_j = \sum_i e_{ij}, \qquad 
+r = \dfrac{\sum_i e_{ii} - \sum_i a_i b_i}{1 - \sum_i a_i b_i}, \qquad 
+\sigma_r^2 = \sum_k (r_k - r)^2,
+\]
+where $r_k$ is the value of $r$ for the network in which the $k$th edge is removed (a standard method using link removal~\cite{PhysRevE.67.026126}).
+
+Intuitively, $r$ compares the diagonal of the mixing matrix (the total fraction of edges between nodes of the same type, regardless of the type) with the expected value for this total fraction, as given by random chance: $a_i b_i$ is the expected fraction of same-type edges, given the relative fraction of those types in the data. This definition is normalised, so the maximum value is 1. However, this maximum value of 1 is not reachable for any network, for example when the node outdegrees are larger than the number of nodes from one type~\cite{newman2018networks}. When this occurs, we report $r$ normalised, divided by its empirical maximum value. 
+
+When one type of constellations is much less numerous than other types (since the cultures are heterogeneous in size), the assortativity coefficient treats any constellation equally, so less numerous types are not weighted more than more frequent ones~\cite{PhysRevE.67.026126}. This makes for a stable coefficient $r$, which changes little if one constellation or link is added or removed from the data.
+
+We provide both the global assortativity (for example, for question {\bf I.1}, a mixing score for all cultures), and also a one-versus-others assortativity, which measure how a particular predictor value mixes with all others taken as one group (for example, for question {\bf I.4}, the mixing of all cultures of Chinese ancestry with all other cultures).
+
+{\bf The similarity metric.} When the results signal positive assortativity, we also measure the similarity between any two culture types. This similarity metric is a single statistic, defined in this work. Given two classes $c_1, c_2$ (for example, two cultures), we compute:
+
+\begin{itemize}
+	\item $r$: over the constellation network consisting of three labels: $c_1, c_2$, and \emph{other};
+	\item $r_m$: over the network with class labels $c_1, c_2$ merged into a single class $c$.
+\end{itemize}
+
+We define the \emph{similarity} $\Delta$ as their signed difference, $\Delta = r_m - r$. $\Delta$ is positive if merging the two classes raises the assortativity of the network, or makes the mixing of classes \emph{less} random; this signals similarity in the merged classes. $\Delta$ is negative if merging the classes makes the mixing of classes \emph{more} random, so signals dissimilarity. We build a graph of similarities between the predictor values of each question, drawing links weighted by $\Delta$ between classes, when $\Delta$ is positive.
+
+%-------------------------------------------------------------------------------------------------
+\subsection{Measuring diversity per sky region}
+\label{sec:diversity}
+
+We define a sky region not by its boundary coordinates, but by a \emph{root star}: a sky region is the \emph{set of constellations} (from any culture) which all include a given root star. This definition is less biased than alternatives: by not limiting a region to certain celestial coordinates, we remove any assumptions over the size of constellation that may be drawn there. Sky regions defined by two neighbouring root stars will overlap.
+
+For Hypothesis II, the problem is of a different nature than for Hypothesis I, and thus requires a different scoring. Here, we do not compare sets of constellations, but measure how \emph{diverse} (or, on the contrary, uniform) the constellations of a single set are, over the clusters of constellations (described in Sec.~\ref{sec:tsne}). Assume that the embedding shows $k$ clusters of visual signatures, and the sky region under study is a set of $n$ constellations. Maximum diversity is achieved when the $n$ constellations are distributed equally over the $k$ clusters, and minimum diversity when all constellations fall within one cluster. 
+
+We use the classic Shannon diversity (or entropy) index $H$~\cite{shannon1948mathematical}, a common score for diversity. $H$ measures how much ``choice'' there is among the values of a discrete distribution. In this case, it measures how constellations from a given set distribute among discrete clusters of visual signatures. Assuming that the embedding shows $k$ clusters of visual signatures (indexed by $i$), and the sky region under study is a set of $n$ constellations, the diversity index is:
+\[
+H = - \sum_i p_i\ \text{log } p_i,
+\]
+where $p_i$ is the \emph{fraction} from the $n$ constellations which fall into cluster $i$. $H=0$ if all constellations fall into one cluster. The maximum value, $\text{log } k$, is reached if the constellations distribute equally among all clusters. We report $H$ normalised, divided by this maximum value. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Acknowledgments}
+
+The author wishes to thank the Stellarium team (particularly Dr. Susanne M. Hoffmann and Fabien Ch{\'e}reau), the contributors to the Stellarium repositories for sky cultures across the world, Prof. Charles Kemp, and Dr. Pieter-Tjerk de Boer.
+
+% Compile your BiBTeX database using our plos2015.bst
+% style file and paste the contents of your .bbl file
+% here. See http://journals.plos.org/plosone/s/latex for 
+% step-by-step instructions.
+
+{\footnotesize
+
+\begin{thebibliography}{10}
+
+\bibitem{miton2021graphic}
+Miton H, Morin O.
+\newblock Graphic complexity in writing systems.
+\newblock Cognition. 2021;214:104771.
+
+\bibitem{auerbach03phd}
+{E}xcursus on the drawings of {Josef Albers}~c 1950-1960 SC.
+\newblock Auerbach, Anthony W.; 2003.
+
+\bibitem{pan1989history}
+Pan N.
+\newblock Zhongguo hengxing guance shi ({H}istory of Stellar Observations in
+  {China}).
+\newblock Shelin Chubanshe, Shanghai; 1989.
+
+\bibitem{Stellarium}
+Zotti G, Hoffmann SM, Wolf A, Ch{\'e}reau F, Ch{\'e}reau G.
+\newblock The Simulated Sky: Stellarium for Cultural Astronomy Research.
+\newblock Journal of Skyscape Archaeology. 2021;6(2):221–258.
+
+\bibitem{hoffmann2017hipparchs}
+Hoffmann SM.
+\newblock {H}ipparchs {H}immelsglobus: {E}in {B}indeglied in der
+  babylonisch-griechischen {A}strometrie? ({H}ipparch's Celestial Globe: {A}
+  Link in {Babylonian-Greek} Astrometry?).
+\newblock Springer-Verlag; 2017.
+
+\bibitem{hoffmann2017history}
+Hoffmann SM.
+\newblock History of Constellations as Popularization of Uranometry;. p.
+  135--157.
+
+\bibitem{hoffmann2018drawing}
+Hoffmann SM. Drawing {B}abylonian constellations; 2018.
+\newblock Rencontre Assyriologique Internationale.
+
+\bibitem{rogers1998origins1}
+Rogers JH.
+\newblock Origins of the ancient constellations: {I}. {T}he {M}esopotamian
+  traditions.
+\newblock Journal of the British Astronomical Association. 1998;108:9--28.
+
+\bibitem{rogers1998origins2}
+Rogers JH.
+\newblock Origins of the ancient constellations: {II}. {T}he {M}editerranean
+  traditions.
+\newblock Journal of the British Astronomical Association. 1998;108:79--89.
+
+\bibitem{rey1952stars}
+Rey HA.
+\newblock The stars: A new way to see them.
+\newblock Houghton Mifflin, Boston; 1952.
+
+\bibitem{IAU}
+{International Astronomical Union}. The Constellations;.
+\newblock \url{https://www.iau.org/public/themes/constellations/}.
+
+\bibitem{magana1984tupi}
+Magana E.
+\newblock Some {Tupi} Constellations.
+\newblock Ibero-amerikanisches Archiv. 1984;10(2):189--221.
+
+\bibitem{magana1982carib}
+Maga{\~n}a E, Jara F, Langaman CM, Awarajari J, Awakaru C, Tapoka L, et~al.
+\newblock The {C}arib sky.
+\newblock Journal de la Soci{\'e}t{\'e} des Am{\'e}ricanistes. 1982; p.
+  105--132.
+
+\bibitem{miller1997stars}
+Miller DS.
+\newblock Stars of the first people: {N}ative {A}merican star myths and
+  constellations.
+\newblock Westwinds Press; 1997.
+
+\bibitem{lee2014dlakota}
+Lee A, Rock J, O’Rourke C.
+\newblock Dakota/{L}akota star map constellation guidebook: {A}n Introduction
+  to {D(L)}akota star knowledge.
+\newblock Native Skywatchers; 2014.
+
+\bibitem{lee2014ojibwe}
+Lee AS, Wilson W, Tibbetts J, Gawboy C.
+\newblock Ojibwe sky star map constellation guidebook: {A}n introduction to
+  {O}jibwe star knowledge.
+\newblock Native Skywatchers; 2014.
+
+\bibitem{cardoso2007ceu}
+Cardoso WT.
+\newblock O c{\'e}u dos {T}ukano na Escola {Y}upuri: {C}onstruindo um
+  calend{\'a}rio din{\^a}mico ({T}he {T}ukano sky at {Y}upuri school:
+  {B}uilding a dynamic calendar); 2007.
+
+\bibitem{rybka2018lokono}
+Rybka K. Lokono sky culture: a description of {L}okono ethnoastronomical
+  knowledge for {S}tellarium software; 2018.
+
+\bibitem{berezkin2005cosmic}
+Berezkin Y.
+\newblock Cosmic Hunt: Variants of {Siberian}-{North American} Myth.
+\newblock Electronic Journal of Folklore. 2005;(31):79--100.
+
+\bibitem{kelley2005exploring}
+Kelley DH, Milone EF.
+\newblock Exploring ancient skies: an encyclopedic survey of archaeoastronomy.
+\newblock Springer Science \& Business Media; 2005.
+
+\bibitem{kemp2020perceptual}
+Kemp C, Hamacher DW, Little DR, Cropper SJ.
+\newblock Perceptual grouping explains constellations across cultures.
+\newblock arXiv preprint arXiv:201006108. 2020;.
+
+\bibitem{dry2009perceptual}
+Dry M, Navarro D, Preiss A, Lee M.
+\newblock The perceptual organization of point constellations.
+\newblock In: Proceedings of the 31st Annual Conference of the Cognitive
+  Science Society; 2009. p. 1151--1156.
+
+\bibitem{van2008visualizing}
+Van~der Maaten L, Hinton G.
+\newblock Visualizing data using t-{SNE}.
+\newblock The Journal of Machine Learning Research. 2008;9(11).
+
+\bibitem{van2014accelerating}
+Van Der~Maaten L.
+\newblock Accelerating t-{SNE} using tree-based algorithms.
+\newblock The Journal of Machine Learning Research. 2014;15(1):3221--3245.
+
+\bibitem{PhysRevE.67.026126}
+Newman MEJ.
+\newblock Mixing patterns in networks.
+\newblock Phys Rev E. 2003;67:026126.
+\newblock doi:{10.1103/PhysRevE.67.026126}.
+
+\bibitem{allen2013star}
+Allen RH.
+\newblock Star names: Their lore and meaning.
+\newblock Dover Publications Inc.; 1963.
+
+\bibitem{sawyer1951out}
+Sawyer~Hogg H.
+\newblock Out of Old Books ({Pieter Dircksz Keijser}, Delineator of the
+  {Southern} Constellations).
+\newblock Journal of the Royal Astronomical Society of Canada. 1951;45:215.
+
+\bibitem{lull2009constellations}
+Lull J, Belmonte JA.
+\newblock The constellations of ancient {E}gypt.
+\newblock Search of cosmic order: Selected essays on Egyptian archaeoastronomy.
+  2009; p. 157--161.
+
+\bibitem{kunitzsch2013lunar}
+Kunitzsch P.
+\newblock Lunar mansions in {Islamic} astronomy.
+\newblock In: Selin H, editor. Encyclopaedia of the history of science,
+  technology, and medicine in non-{W}estern cultures. Springer Science \&
+  Business Media; 2013.
+
+\bibitem{Al_Sufi_Book}
+al-Ra\d{h}m\={a}n~al \d{S}\={u}f\={\i} A.
+\newblock Kit\={a}b \d{S}uwar al-kaw\={a}kib (al-th\={a}bitah) ({B}ook of
+  pictures of the (fixed) stars); 964.
+
+\bibitem{basham1954wonder}
+Basham AL.
+\newblock The wonder that was India: A survey of the history and culture of the
+  Indian sub-continent before the coming of the Muslims; 1954.
+
+\bibitem{orchiston2021mandar}
+Rasyid AA, Hidayat T, Orchiston W.
+\newblock Star Patterns in {Mandar} Navigation.
+\newblock In: Orchiston W, Vahia MN, editors. Exploring the History of
+  Southeast Asian Astronomy. Springer, Cham; 2021. p. 549--564.
+
+\bibitem{orchiston2021seasia}
+Ohashi Y, Orchiston W.
+\newblock The Evolution of Local {Southeast Asian} Astronomy and the Influence
+  of {China, India, the Islamic World and the West}.
+\newblock In: Orchiston W, Vahia MN, editors. Exploring the History of
+  Southeast Asian Astronomy. Springer, Cham; 2021. p. 673--767.
+
+\bibitem{van1885astronomie}
+Van~Sandick R.
+\newblock L'Astronomie Chez les {Javanais}.
+\newblock L'Astronomie. 1885;4:367--372.
+
+\bibitem{khairuddin2021austronesian}
+Khairuddin AH, Jaafar NF.
+\newblock The Linkage Between Asterisms and Local Ecological Systems Among the
+  {Austronesian} Speakers of {Southeast Asia}.
+\newblock In: Orchiston W, Vahia MN, editors. Exploring the History of
+  Southeast Asian Astronomy. Springer, Cham; 2021. p. 517--528.
+
+\bibitem{fatima2021madura}
+Fatima S, Orchiston W, Hidayat T.
+\newblock Ethnoastronomy in {Madura, Indonesia}: Observations of the Night Sky
+  and Eclipses.
+\newblock In: Orchiston W, Vahia MN, editors. Exploring the History of
+  Southeast Asian Astronomy. Springer, Cham; 2021. p. 565--587.
+
+\bibitem{renshaw2000cultural}
+Renshaw SL, Ihara S.
+\newblock A cultural history of astronomy in {Japan}.
+\newblock In: Astronomy across Cultures. Springer; 2000. p. 385--407.
+
+\bibitem{svjatskij2007astronomija}
+Svjatskij DO.
+\newblock Astronomija Drevnej Rusi: s katalogom astronomi{\v{c}}eskich izvestij
+  v Russkich letopisjach, sostavlennym ML Gorodeckim ({A}stronomy of Ancient
+  {R}ussia: with the catalog of astronomical news in the {R}ussian annals,
+  compiled by {ML Gorodetsky}).
+\newblock Russkaja panorama; 2007.
+
+\bibitem{Ruelle}
+Ruelle A. {Nouvelle Uranographie} ou m{\'e}thode tr{\`e}s facile pour apprendre
+  les constellations; 1786.
+\newblock \url{https://gallica.bnf.fr/ark:/12148/btv1b53062000r}.
+
+\bibitem{Dien}
+Dien C. Uranographie dress{\'e}e sous l'inspection de {Monsieur Bouvard},
+  astronome; 1831.
+\newblock \url{https://gallica.bnf.fr/ark:/12148/btv1b530835872}.
+
+\bibitem{avilin2008astronyms}
+Avilin T.
+\newblock Astronyms In {B}elarussian Folk Beliefs.
+\newblock Archaeologia Baltica. 2008;(10).
+
+\bibitem{otescu1907}
+Otescu I.
+\newblock Credințele țăranului român despre cer și stele ({R}omanian
+  peasants beliefs in stars and sky); 1907.
+
+\bibitem{crtro}
+Constelații Românești Tradiționale ({T}raditional {R}omanian
+  Constellations);.
+\newblock \url{http://crt-ro.com/39constelatii/}.
+
+\bibitem{cenev2008macedonian}
+Cenev G.
+\newblock Macedonian Folk Constellations.
+\newblock Publications de l'Observatoire Astronomique de Beograd.
+  2008;85:97--109.
+
+\bibitem{kaalund1908alfraedhi}
+K{\aa}lund K, Beckman N.
+\newblock Alfr{\ae}{\dh}i {\'\i}slenzk: Islandsk encyklop{\ae}disk litteratur.
+\newblock SL M{\o}llers bogtrykkeri; 1914-1916.
+
+\bibitem{Lundmark1982bmn}
+Lundmark B.
+\newblock B{\ae}i'vi m{\'a}nno n{\'a}stit: sol och m{\aa}nkult samt astrala och
+  celesta f{\"o}rest{\"a}llningar bland samerna.
+\newblock Ume{\aa}: V{\"a}sterbottens l{\"a}ns hembygdsf{\"o}ren; 1982.
+
+\bibitem{freidel1993maya}
+Freidel DA, Schele L, Parker J, Kerr J.
+\newblock Maya cosmos: three thousand years on the shaman's path.
+\newblock William Morrow and Company; 1993.
+
+\bibitem{spotak2015maya}
+\v{S}pot{\'a}k J.
+\newblock The {Paris Codex} -- {C}omplex analysis of an ancient {M}aya
+  manuscript; 2015.
+
+\bibitem{PrimerosMemoriales}
+de~Sahag{\'u}n B.
+\newblock Primeros {M}emoriales ({F}irst Memoranda); 1558.
+
+\bibitem{FlorentineCodex}
+de~Sahag{\'u}n B.
+\newblock La Historia General de las Cosas de {N}ueva {E}spa{\~n}a ({T}he
+  Universal History of the Things of {N}ew {S}pain) ({The Florentine Codex});
+  1568.
+
+\bibitem{aveni1980skywatchers}
+Aveni AF.
+\newblock Skywatchers of ancient {M}exico.
+\newblock University of Texas Press; 1980.
+
+\bibitem{lupo1981conoscenze}
+Lupo A.
+\newblock Conoscenze astronomiche e concezioni cosmologiche dei {Huave di San
+  Mateo del Mar (Oaxaca, Messico)}.
+\newblock L'Uomo societ{\`a} tradizione sviluppo. 1981;5(2).
+
+\bibitem{macdonald1998arctic}
+MacDonald J, Schledermann P.
+\newblock The {A}rctic sky: Inuit astronomy, star lore \& legend.
+\newblock Arctic. 1998;51(4):394.
+
+\bibitem{lehmann1928coricancha}
+Lehmann-Nitsche R.
+\newblock Coricancha: el Templo del Sol en el Cuzco y las im{\'a}genes de su
+  altar mayor.
+\newblock Revista del Museo de la Plata. 1928;31:1--260.
+
+\bibitem{urton1978beasts}
+Urton G.
+\newblock Beasts and geometry: some constellations of the {Peruvian Quechuas}.
+\newblock Anthropos. 1978;(H. 1./2):32--40.
+
+\bibitem{koch1905anfange}
+Koch-Gr{\"u}nberg T.
+\newblock Anf{\"a}nge der Kunst im Urwald: Indianer-Handzeichnungen auf seinen
+  Reisen in Brasilien gesammelt ({B}eginnings of art in the jungle: {I}ndian
+  hand drawings collected on his travels in {B}razil).
+\newblock Edition Oosterhout 2nd ed. 1969; 1905.
+
+\bibitem{abbeville1614histoire}
+d'Abbeville C.
+\newblock Histoire de la mission des P{\`e}res {C}apucins en l'{I}sle de
+  {M}arignan et terres circonvoisines o{\`u} est traict{\'e} des singularitez
+  admirables et des moeurs merveilleuses des {I}ndiens habitans de ce pays
+  ({H}istory of the mission of the {C}apuchin Fathers in the {I}sle of
+  {M}arignan and surrounding lands where admirable singularities and marvelous
+  manners of the {I}ndians living in this country are described).
+\newblock L'imprimerie de Fran{\c{c}}ois Huby, Paris; 1614.
+
+\bibitem{afonso2013constelaccoes}
+Afonso GB.
+\newblock As constela{\c{c}}{\~o}es ind{\'\i}genas brasileiras ({T}he
+  {B}razilian Indigenous Constellations).
+\newblock Telesc{\'o}pios na Escola, Rio de Janeiro. 2013; p. 1--11.
+
+\bibitem{feinberg1988polynesian}
+Feinberg R.
+\newblock Polynesian seafaring and navigation: ocean travel in Anutan culture
+  and society.
+\newblock Kent State University Press; 1988.
+
+\bibitem{goodenough1951native}
+Goodenough WH.
+\newblock Native astronomy in {Micronesia}: A rudimentary science.
+\newblock The {Scientific Monthly}. 1951;73(2):105--110.
+
+\bibitem{holton2015east}
+Holton G, Hachibmai C, Haleyalur A, Lipka J, Rubinstein D.
+\newblock East is not a'big bird': the etymology of the star {Altair} in the
+  {Carolinian} sidereal compass.
+\newblock Oceanic Linguistics. 2015;54(2):579--588.
+
+\bibitem{HSL}
+{The Polynesian Voyaging Society}. Hawaiian Star Lines and Names for Stars;.
+\newblock
+  \url{http://archive.hokulea.com/ike/hookele/hawaiian_star_lines.html}.
+
+\bibitem{KED}
+Trussel S, Groves GW. A Combined {Kiribati-English} Dictionary; 1978.
+\newblock \url{https://www.trussel.com/kir/dic/dic_a.htm}.
+
+\bibitem{hoeppe2000shark}
+Hoeppe G.
+\newblock When the shark bites the stingray: the night sky in the construction
+  of the {Manus} World.
+\newblock Anthropos. 2000; p. 23--36.
+
+\bibitem{orchiston2000polynesian}
+Orchiston W.
+\newblock A {P}olynesian astronomical perspective: the {M}aori of {New
+  Zealand}.
+\newblock In: Astronomy Across Cultures. Springer; 2000. p. 161--196.
+
+\bibitem{MEOO}
+Abo T, Bender BW, Capelle A, DeBrum T. {Marshallese-English} Dictionary; 1976.
+\newblock
+  \url{https://evols.library.manoa.hawaii.edu/html/10524/19441/index.htm}.
+
+\bibitem{collocott1922tongan}
+Collocott EEV.
+\newblock Tongan astronomy and calendar.
+\newblock Occasional Papers of the Bernice Pauahi Bishop Museum of Polynesian
+  ethnology and Natural History. 1922;8(4):157--173.
+
+\bibitem{DMR}
+Ram{\'i}k DM. Vanuatu Sky -- native astronomy of {V}anuatu; 2019.
+\newblock \url{http://dominicweb.eu/en/vanuatu-sky/}.
+
+\bibitem{bernus1989etoiles}
+Bernus E, Ag~Sidiyene E.
+\newblock Etoiles et constellations chez les nomades.
+\newblock Awal: Cahiers d'Etudes Berb{\`e}res. 1989;(5):141--153.
+
+\bibitem{edwards2018consolidation}
+Edwards A, d’Ans B, Edwards E.
+\newblock Consolidation of the {Rapanui} astronomy concept inventory and
+  re-appraisal of applied astronomic observation at {Papa Ui Hetu’u, Rapa
+  Nui}.
+\newblock Mediterranean Archaeology and Archaeometry. 2018;18(4):139--147.
+
+\bibitem{stephenson1994chinese}
+Stephenson FR.
+\newblock Chinese and {Korean} star maps and catalogs.
+\newblock In: Harley JB, Woodward D, editors. The history of cartography.
+  vol.~2. University of Chicago Press; 1994. p. 511--578.
+
+\bibitem{king2013islamic}
+King DA.
+\newblock Astronomy in the {Islamic} World.
+\newblock In: Selin H, editor. Encyclopaedia of the history of science,
+  technology, and medicine in non-{W}estern cultures. Springer Science \&
+  Business Media; 2013.
+
+\bibitem{stephenson2013EAmaps}
+Stephenson FR.
+\newblock Maps and Mapmaking: Celestial {East Asian} Maps.
+\newblock In: Selin H, editor. Encyclopaedia of the history of science,
+  technology, and medicine in non-{W}estern cultures. Springer Science \&
+  Business Media; 2013. p. 1278--1282.
+
+\bibitem{yoke2013china}
+Yoke HP.
+\newblock Astronomy in {China}.
+\newblock In: Selin H, editor. Encyclopaedia of the history of science,
+  technology, and medicine in non-{W}estern cultures. Springer Science \&
+  Business Media; 2013.
+
+\bibitem{delporte1930delimitation}
+Delporte E.
+\newblock D{\'e}limitation scientifique des constellations (tables et cartes)
+  ({S}cientific delineation of constellations (tables and maps)).
+\newblock Cambridge University Press; 1930.
+
+\bibitem{krupp2013namerica}
+Krupp EC.
+\newblock Astronomy in {Native North America}.
+\newblock In: Selin H, editor. Encyclopaedia of the history of science,
+  technology, and medicine in non-{W}estern cultures. Springer Science \&
+  Business Media; 2013.
+
+\bibitem{toomer1984ptolemy}
+Toomer GJ.
+\newblock Ptolemy's {A}lmagest.
+\newblock Duckworth, London; 1984.
+
+\bibitem{buckstaff1927stars}
+Buckstaff RN.
+\newblock Stars and constellations of a {Pawnee} sky map.
+\newblock American Anthropologist. 1927;29(2):279--285.
+
+\bibitem{chadwick2017great}
+Chadwick SR, Pavioursmith M.
+\newblock The Great Canoes in the Sky.
+\newblock Springer; 2017.
+
+\bibitem{newman2018networks}
+Newman M.
+\newblock Networks.
+\newblock {Oxford University Press}; 2018.
+
+\bibitem{watson2012perimetric}
+Watson AB.
+\newblock Perimetric complexity of binary digital images.
+\newblock Math J. 2012;14:1--40.
+
+\bibitem{rossignac2005shape}
+Rossignac J.
+\newblock Shape complexity.
+\newblock The visual computer. 2005;21(12):985--996.
+
+\bibitem{gorban2008principal}
+Gorban AN, K{\'e}gl B, Wunsch DC, Zinovyev AY, et~al.
+\newblock Principal manifolds for data visualization and dimension reduction.
+  vol.~58.
+\newblock Springer; 2008.
+
+\bibitem{scikit-learn}
+Pedregosa F, Varoquaux G, Gramfort A, Michel V, Thirion B, Grisel O, et~al.
+\newblock Scikit-learn: Machine Learning in {P}ython.
+\newblock Journal of Machine Learning Research. 2011;12:2825--2830.
+
+\bibitem{venna2001neighborhood}
+Venna J, Kaski S.
+\newblock Neighborhood preservation in nonlinear projection methods: An
+  experimental study.
+\newblock In: International Conference on Artificial Neural Networks. Springer;
+  2001. p. 485--491.
+
+\bibitem{van2009learning}
+Van Der~Maaten L.
+\newblock Learning a parametric embedding by preserving local structure.
+\newblock In: Artificial Intelligence and Statistics. PMLR; 2009. p. 384--391.
+
+\bibitem{fleiss2013statistical}
+Fleiss JL, Levin B, Paik MC.
+\newblock Statistical methods for rates and proportions.
+\newblock John Wiley \& Sons; 2013.
+
+\bibitem{shannon1948mathematical}
+Shannon CE.
+\newblock A mathematical theory of communication.
+\newblock The Bell system technical journal. 1948;27(3):379--423.
+
+\end{thebibliography}
+
+}
+
+% For compilation to .bbl only!
+% {\footnotesize
+% 	\bibliographystyle{plos2015}
+% 	\bibliography{main}
+% }
+\end{document}

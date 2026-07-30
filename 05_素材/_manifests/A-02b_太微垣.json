@@ -1,0 +1,161 @@
+{
+ "episode": "A-02",
+ "outdir": "05_素材/A-02_三垣/太微垣",
+ "prefix": "太微垣",
+ "field": {
+  "center": [
+   174,
+   8
+  ],
+  "radius": 36,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    57632,
+    65474,
+    49669
+   ]
+  },
+  {
+   "type": "lines",
+   "name": "垣牆",
+   "color": "amber",
+   "split": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "太微右垣",
+     "太微左垣"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "垣內",
+   "color": "amber",
+   "lw": 2.2,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "五帝座",
+     "从官 (太微垣)",
+     "三公 (太微垣)",
+     "内平",
+     "势"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "獅子座",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "western",
+    "iau": "Leo"
+   }
+  },
+  {
+   "type": "labels",
+   "name": "垣名",
+   "auto_from": "垣牆",
+   "rename": {
+    "太微右垣": {
+     "zh": "太微右垣",
+     "dx": 6,
+     "dy": 6,
+     "size": 20
+    },
+    "太微左垣": {
+     "zh": "太微左垣",
+     "dx": -7,
+     "dy": 5,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "垣內名",
+   "auto_from": "垣內",
+   "optional": true,
+   "rename": {
+    "五帝座": {
+     "zh": "五帝座",
+     "dx": 0,
+     "dy": 3.5,
+     "size": 16
+    },
+    "从官 (太微垣)": {
+     "zh": "從官",
+     "dx": 3.5,
+     "dy": 1.5,
+     "size": 12
+    },
+    "三公 (太微垣)": {
+     "zh": "三公",
+     "dx": -3.5,
+     "dy": -2.5,
+     "size": 12
+    },
+    "内平": {
+     "zh": "內平",
+     "dy": 2.5,
+     "size": 12
+    },
+    "势": {
+     "zh": "勢",
+     "dx": -3,
+     "dy": 2,
+     "size": 12
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "主星標",
+   "optional": true,
+   "items": [
+    {
+     "hip": 57632,
+     "zh": "五帝座一",
+     "en": "Denebola",
+     "dx": -4,
+     "dy": -3.2,
+     "size": 15
+    },
+    {
+     "hip": 49669,
+     "zh": "軒轅十四",
+     "en": "Regulus",
+     "dy": -3.2,
+     "size": 15
+    },
+    {
+     "hip": 65474,
+     "zh": "角宿一",
+     "en": "Spica",
+     "dy": -3.2,
+     "size": 15
+    }
+   ]
+  }
+ ],
+ "previews": [
+  {
+   "name": "對照獅子座",
+   "layers": [
+    "星點層",
+    "垣牆",
+    "垣內",
+    "獅子座",
+    "垣名",
+    "主星標"
+   ]
+  }
+ ]
+}

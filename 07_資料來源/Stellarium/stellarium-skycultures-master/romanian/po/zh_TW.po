@@ -1,0 +1,300 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Romanian"
+msgstr "羅馬尼亞(Romanian)"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"Romania is a land in southeast Europe. Romanian popular stellar mythology is a\n"
+"mixture of several historical epochs from pre-Christian to modern."
+msgstr "羅馬尼亞是東南歐的土地。羅馬尼亞流行的恆星神話是從前基督教到現代的幾個歷史時期的混合。"
+
+#. Sky culture description section in markdown format
+msgid ""
+"Considered as a whole, Romanian popular stellar mythology has three essential\n"
+"components:\n"
+"\n"
+"1. The ancestral pastoral-agricultural culture: in this pre-Christian culture,\n"
+"the sky is seen both as an agrarian clock for specific activities and as an\n"
+"\"exhibition\" of agricultural tools used by peasants.\n"
+"\n"
+"2. More recently, corresponding to the Christianization of Romanian\n"
+"geographical space, there was also a repositioning in the sky: Christian and\n"
+"pre-Christian elements and constellations are associated with cosmogonical and\n"
+"theogonical myths, so that the sky is seen more like a church.\n"
+"\n"
+"3. The origin of the Romanian people: historical scenes from the conquest of\n"
+"Dacia by the Romans are projected in the sky.\n"
+"\n"
+"One of the differences between the Romanian and the modern sky culture is in\n"
+"the constellation of Orion, the Hunter. There are four traditional Romanian\n"
+"constellations overlapping in this modern constellation area.\n"
+"\n"
+"### Thanks\n"
+"\n"
+"Thanks to Andrei Dorian Gheorghe and Alastair McBeth – SARM members"
+msgstr ""
+"總體而言，羅馬尼亞流行的恆星神話具有三個基本組成部分：\n"
+"\n"
+"1. 祖傳的田園農業文化：在這種前基督教文化中，天空既被視為特定活動的農業時鐘，又被視為農民使用的農具的“展覽”。\n"
+"\n"
+"2. 最近，對應於羅馬尼亞地理空間的基督教化，天空中也出現了重新定位：基督教和前基督教的元素和星座與宇宙論和神學神話相關聯，因此天空看起來更像一座教堂。\n"
+"\n"
+"3、羅馬尼亞人的起源：羅馬人征服達契亞的歷史場景被投影在天空中。\n"
+"\n"
+"羅馬尼亞人和現代天空文化之間的差異之一是獵戶座，獵戶座。在這個現代星座區，有四個傳統的羅馬尼亞星座重疊。\n"
+"\n"
+"### 謝謝\n"
+"\n"
+"感謝 Andrei Dorian Gheorghe 和 Alastair McBeth – SARM 成員"
+
+#. Sky culture references section in markdown format
+msgid ""
+"- [#1]: Traditional Romanian Constellation. [Website](http://www.crt-ro.com)\n"
+"- [#2]: On-line booklet in ro/en about 39 Traditional Romanian Constellations. [Link](http://www.slideshare.net/planetariubm/broura-constelaii-romanesti-tradiionale)\n"
+"- [#3]: 30 seconds movies made from scripts and with subtitle in English. [Video on YouTube](http://www.youtube.com/playlist?list=PLwaYDxThuSyGt1Pw55UxfI9802pq5fFro)\n"
+"- [#4]: _Romanian peasants beliefs in stars and sky_ – Translation of texts adapted from Ion Ottescu. [link](http://www.sarm.ro/newsite/index.php?id=1&zi=29&luna=12&an=2009&act=news)\n"
+"- [#5]: PLANETARIUL BAIA MARE – MARAMURES. [link](http://planetariubm.ro/)"
+msgstr ""
+"-[#1]：羅馬尼亞傳統星座。 [網站](http://www.crt-ro.com)\n"
+"-[#2]：約39羅馬尼亞傳統星座的在線小冊子。 [鏈接](http://www.slideshare.net/planetariubm/broura-constelaii-romanesti-tradiionale)\n"
+"-[#3]：30秒鐘由腳本製作並帶有英文字幕的電影。 [YouTube上的視頻](http://www.youtube.com/playlist?list=PLwaYDxThuSyGt1Pw55UxfI9802pq5fFro)\n"
+"-[#4]：羅馬尼亞農民對星空的信仰–改寫自Ion Ottescu的文字。 [link](http://www.sarm.ro/newsite/index.php?id=1&zi=29&luna=12&an=2009&act=news)\n"
+"-[#5]：PLANETARIUL BAIA MARE – MARAMURES。 [link](http://planetariubm.ro/)"
+
+#. Sky culture authors section in markdown format
+msgid ""
+"This sky culture was contributed by Stellarium user Mircea Lite on behalf of\n"
+"[Baia Mare Planetarium](planetariul_bm@yahoo.com), as a result of a project\n"
+"called _Traditional Romanian Constellations_ developed in 2012-2013 by the \n"
+"[Baia Mare Planetarium](https://www.planetariubm.ro)\n"
+"([email](mailto:planetariubm@gmail.com)) and funded partially by the Romanian\n"
+"Cultural Fond Administration.\n"
+"It is primarily based on the book _Romanian peasants beliefs in stars and sky_\n"
+"by Ion Ottescu.\n"
+"\n"
+"The Romanian constellation lines, images, scripts and texts for movies prepared\n"
+"by [Radu Lodina](mailto:rlodina@gmail.com) and [Ovidiu\n"
+"Ignat](mailto:OviIgnat@yahoo.com).\n"
+"\n"
+"Romanian constellation art done by [Zamfir Somcutean](naturazam@yahoo.com).\n"
+"\n"
+"Adapted by Susanne M Hoffmann"
+msgstr ""
+"這種天空文化是由恆星用戶Mircea Lite代表[Baia Mare天文館](planetariul_bm@yahoo.com)做出的，這是[Baia Mare天文館]在2012-2013年開發的一個項目，稱為“傳統羅馬尼亞星座” ：//www.planetariubm.ro）（[email](mailto：planetariubm@gmail.com)），部分資金由羅馬尼亞文化基金會（Romanian Cultural Fond Administration）資助。它主要基於Ion Ottescu的《羅馬尼亞農民對星空的信仰》一書。\n"
+"\n"
+"[Radu Lodina](mailto：rlodina@gmail.com)和[Ovidiu Ignat](mailto：OviIgnat@yahoo.com)準備的羅馬尼亞電影的羅馬尼亞星座線條，圖像，腳本和文本。\n"
+"\n"
+"[Zamfir Somcutean](naturazam@yahoo.com)製作的羅馬尼亞星座藝術。\n"
+"\n"
+"由Susanne M Hoffmann改編"
+
+#. Sky culture license section in markdown format
+msgid "Text, lines and illustrations: CC BY-SA"
+msgstr "文字，線條和插圖：CC BY-SA"
+
+#. Romanian constellation, native: Carul Mare
+msgid "The Great Chariot"
+msgstr "大戰車"
+
+#. Romanian constellation, native: Capra
+msgid "The She-Goat with Three She-Goat’s Kids"
+msgstr "母山羊與它的三隻小山羊"
+
+#. Romanian constellation, native: Coasa
+msgid "The Scythe"
+msgstr "大鐮刀"
+
+#. Romanian constellation, native: Ciobanul cu oile
+msgid "The Shepherd with His Sheep"
+msgstr "牧羊人與羊"
+
+#. Romanian constellation, native: Hora
+msgid "The Ring Dance"
+msgstr "繞圈舞蹈"
+
+#. Romanian constellation, native: Jgheabul si putul
+msgid "The Wall with a Drain"
+msgstr "有水道的牆"
+
+#. Romanian constellation, native: Tronul
+msgid "God’s Chair"
+msgstr "神椅"
+
+#. Romanian constellation, native: Fata de imparat
+msgid "The Emperor’s Daughter with a Yoke"
+msgstr "挑擔的皇帝女兒"
+
+#. Romanian constellation, native: Closca cu pui
+msgid "The Hatching Hen with Her Chicks"
+msgstr "孵蛋的母雞與小雞"
+
+#. Romanian constellation, native: Carul mic
+msgid "The Little Chariot"
+msgstr "小戰車"
+
+#. Romanian constellation, native: Fratii
+msgid "The Brothers"
+msgstr "兄弟"
+
+#. Romanian constellation, native: Crucea mare
+msgid "The Great Cross"
+msgstr "大十字架"
+
+#. Romanian constellation, native: Crucea mica
+msgid "The Little Cross"
+msgstr "小十字架"
+
+#. Romanian constellation, native: Tapul
+msgid "The He-Goat"
+msgstr "公山羊"
+
+#. Romanian constellation, native: Racul
+msgid "The Crayfish"
+msgstr "小龍蝦"
+
+#. Romanian constellation, native: Calul
+msgid "The Horse"
+msgstr "馬"
+
+#. Romanian constellation, native: Balaurul
+msgid "The Dragon"
+msgstr "天龍座"
+
+#. Romanian constellation, native: Corbul
+msgid "The Raven"
+msgstr "烏鴉座"
+
+#. Romanian constellation, native: Cantarul
+msgid "The Scales"
+msgstr "天秤"
+
+#. Romanian constellation, native: Fecioara
+msgid "The Virgin"
+msgstr "聖母"
+
+#. Romanian constellation, native: Crapii
+msgid "The Carp"
+msgstr "鯉魚"
+
+#. Romanian constellation, native: Berbecul
+msgid "The Ram"
+msgstr "白羊座"
+
+#. Romanian constellation, native: Dulaul
+msgid "The Mastiff"
+msgstr "獒犬"
+
+#. Romanian constellation, native: Catelul
+msgid "The Little Dog"
+msgstr "小狗"
+
+#. Romanian constellation, native: Vacarul
+msgid "The Herdsman"
+msgstr "牧人"
+
+#. Romanian constellation, native: Porumbita
+msgid "The Turtle Dove"
+msgstr "斑鳩"
+
+#. Romanian constellation, native: Varsatorul
+msgid "He Who Pours Out the Water"
+msgstr "倒水的人"
+
+#. Romanian constellation, native: Chitul
+msgid "The Whale"
+msgstr "鯨魚（雙魚座）"
+
+#. Romanian constellation, native: Rarita
+msgid "The Little Plough"
+msgstr "小犁"
+
+#. Romanian constellation, native: Secera
+msgid "The Sickle"
+msgstr "鐮刀"
+
+#. Romanian constellation, native: Sfredelul mare
+msgid "The Great Auger"
+msgstr "大螺旋鑽"
+
+#. Romanian constellation, native: Taurul
+msgid "The Bull"
+msgstr "金牛座"
+
+#. Romanian constellation, native: Omul
+msgid "The Man"
+msgstr "男人"
+
+#. Romanian constellation, native: Sarpele
+msgid "The Serpent"
+msgstr "蛇"
+
+#. Romanian constellation, native: Scorpia
+msgid "The Scorpion"
+msgstr "天蠍座"
+
+#. Romanian constellation, native: Barda
+msgid "The Axe"
+msgstr "斧"
+
+#. Romanian constellation, native: Arcasul
+msgid "The Archer"
+msgstr "射手（人馬座）"
+
+#. Romanian constellation, native: Trisfetitele
+msgid "The Three Saints"
+msgstr "三聖人"
+
+#. Romanian constellation, native: Vierii
+msgid "The Boars"
+msgstr "野豬"
+
+#. Romanian name for HIP 11767
+msgid "The Sky's Votive Light"
+msgstr "勾陳一 (天空的還願光)"
+
+#. Romanian name for HIP 21421
+msgid "The Bright Star of the Pig"
+msgstr "豬的璀璨之星"
+
+#. Romanian name for HIP 21421
+msgid "The Alarm Clock"
+msgstr "鬧鐘"
+
+#. Romanian name for HIP 32349
+msgid "Morning Star"
+msgstr "天狼星 (晨星)"
+
+#. Romanian name for HIP 36850
+msgid "Romulus"
+msgstr "北河二 (Romulus)"
+
+#. Romanian name for HIP 37826
+msgid "Remus"
+msgstr "北河三 (Remus)"
+
+#. Romanian name for HIP 65477
+msgid "The Little Bitch"
+msgstr "輔 (小母狗)"
+
+#. Romanian name for HIP 91262
+msgid "The Shepherd"
+msgstr "牧羊人"
+
+#. Romanian name for HIP 91262
+msgid "The Stars Queen"
+msgstr "星星女王"
+
+#. Romanian name for HIP 112029
+msgid "Homan"
+msgstr "雷電一 (Homan)"

@@ -1,0 +1,359 @@
+{
+ "episode": "A-04",
+ "outdir": "05_素材/A-04_韓國",
+ "prefix": "韓國星圖",
+ "field": {
+  "center": [
+   297,
+   20
+  ],
+  "radius": 34,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    91262,
+    97649,
+    102098
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "韓國星官",
+   "color": "amber",
+   "split": true,
+   "source": {
+    "culture": "korean",
+    "names": [
+     "The Weaver",
+     "Drum of River",
+     "Drumstick of Sky",
+     "Ferry of Sky",
+     "River adjoining Tower",
+     "Road for Emperor",
+     "Left Flag",
+     "Right Flag",
+     "Fruit",
+     "Seed",
+     "Court Lady",
+     "Empty House"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "夏季大三角",
+   "color": "blue",
+   "lw": 2.4,
+   "optional": true,
+   "hips": [
+    [
+     91262,
+     97649,
+     102098,
+     91262
+    ]
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "漢字名",
+   "auto_from": "韓國星官",
+   "rename": {
+    "The Weaver": {
+     "zh": "織女",
+     "dx": -3,
+     "dy": 3.5,
+     "size": 19
+    },
+    "Drum of River": {
+     "zh": "河鼓",
+     "dx": 2,
+     "dy": -4,
+     "size": 19
+    },
+    "Ferry of Sky": {
+     "zh": "天津",
+     "dx": -2,
+     "dy": 3,
+     "size": 19
+    },
+    "River adjoining Tower": {
+     "zh": "漸台",
+     "dx": -6,
+     "dy": -3,
+     "size": 15
+    },
+    "Road for Emperor": {
+     "zh": "輦道",
+     "dx": 5,
+     "dy": 1.5,
+     "size": 15
+    },
+    "Left Flag": {
+     "zh": "左旗",
+     "dx": 4.5,
+     "dy": 0,
+     "size": 15
+    },
+    "Right Flag": {
+     "zh": "右旗",
+     "dx": -4.5,
+     "dy": 0,
+     "size": 15
+    },
+    "Fruit": {
+     "zh": "瓠瓜",
+     "dx": 0,
+     "dy": 2.6,
+     "size": 14
+    },
+    "Seed": {
+     "zh": "敗瓜",
+     "dx": 0,
+     "dy": -3,
+     "size": 14
+    },
+    "Court Lady": {
+     "zh": "女宿",
+     "dx": 0,
+     "dy": -3,
+     "size": 15
+    },
+    "Empty House": {
+     "zh": "虛宿",
+     "dx": 0,
+     "dy": 2.8,
+     "size": 15
+    },
+    "Drumstick of Sky": {
+     "zh": "天桴",
+     "dx": 3.5,
+     "dy": 1.5,
+     "size": 13
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "韓音名",
+   "optional": true,
+   "auto_from": "韓國星官",
+   "rename": {
+    "The Weaver": {
+     "zh": "JikNyeo",
+     "dx": -3,
+     "dy": 3.5,
+     "size": 19
+    },
+    "Drum of River": {
+     "zh": "HaGo",
+     "dx": 2,
+     "dy": -4,
+     "size": 19
+    },
+    "Ferry of Sky": {
+     "zh": "CheonJin",
+     "dx": -2,
+     "dy": 3,
+     "size": 19
+    },
+    "River adjoining Tower": {
+     "zh": "JaamDae",
+     "dx": -6,
+     "dy": -3,
+     "size": 15
+    },
+    "Road for Emperor": {
+     "zh": "YeonDo",
+     "dx": 5,
+     "dy": 1.5,
+     "size": 15
+    },
+    "Left Flag": {
+     "zh": "JwaGi",
+     "dx": 4.5,
+     "dy": 0,
+     "size": 15
+    },
+    "Right Flag": {
+     "zh": "UuGi",
+     "dx": -4.5,
+     "dy": 0,
+     "size": 15
+    },
+    "Fruit": {
+     "zh": "Gwa",
+     "dx": 0,
+     "dy": 2.6,
+     "size": 14
+    },
+    "Seed": {
+     "zh": "PaeGwa",
+     "dx": 0,
+     "dy": -3,
+     "size": 14
+    },
+    "Court Lady": {
+     "zh": "SuuNyeo",
+     "dx": 0,
+     "dy": -3,
+     "size": 15
+    },
+    "Empty House": {
+     "zh": "Heo",
+     "dx": 0,
+     "dy": 2.8,
+     "size": 15
+    },
+    "Drumstick of Sky": {
+     "zh": "CheonBu",
+     "dx": 3.5,
+     "dy": 1.5,
+     "size": 13
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "韓文名",
+   "optional": true,
+   "auto_from": "韓國星官",
+   "auto_text": "po:ko",
+   "rename": {
+    "The Weaver": {
+     "dx": -3,
+     "dy": 3.5,
+     "size": 19
+    },
+    "Drum of River": {
+     "dx": 2,
+     "dy": -4,
+     "size": 19
+    },
+    "Ferry of Sky": {
+     "dx": -2,
+     "dy": 3,
+     "size": 19
+    },
+    "River adjoining Tower": {
+     "dx": -6,
+     "dy": -3,
+     "size": 15
+    },
+    "Road for Emperor": {
+     "dx": 5,
+     "dy": 1.5,
+     "size": 15
+    },
+    "Left Flag": {
+     "dx": 4.5,
+     "dy": 0,
+     "size": 15
+    },
+    "Right Flag": {
+     "dx": -4.5,
+     "dy": 0,
+     "size": 15
+    },
+    "Fruit": {
+     "dx": 0,
+     "dy": 2.6,
+     "size": 14
+    },
+    "Seed": {
+     "dx": 0,
+     "dy": -3,
+     "size": 14
+    },
+    "Court Lady": {
+     "dx": 0,
+     "dy": -3,
+     "size": 15
+    },
+    "Empty House": {
+     "dx": 0,
+     "dy": 2.8,
+     "size": 15
+    },
+    "Drumstick of Sky": {
+     "dx": 3.5,
+     "dy": 1.5,
+     "size": 13
+    }
+   }
+  }
+ ],
+ "disc_overlay": {
+  "disc": "both",
+  "lines": [
+   {
+    "color": "amber",
+    "lw": 1.4,
+    "source": {
+     "culture": "korean"
+    }
+   }
+  ],
+  "label_sets": [
+   {
+    "name": "漢字",
+    "auto_text": "po:zh_TW",
+    "size": 9
+   },
+   {
+    "name": "韓音",
+    "auto_text": "pronounce",
+    "size": 9
+   },
+   {
+    "name": "韓文",
+    "auto_text": "po:ko",
+    "size": 9
+   }
+  ]
+ },
+ "previews": [
+  {
+   "name": "漢字版",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "韓國星官",
+    "漢字名"
+   ]
+  },
+  {
+   "name": "韓音版",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "韓國星官",
+    "韓音名"
+   ]
+  },
+  {
+   "name": "夏三角對照",
+   "layers": [
+    "星點層",
+    "韓國星官",
+    "夏季大三角",
+    "漢字名"
+   ]
+  },
+  {
+   "name": "韓文版",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "韓國星官",
+    "韓文名"
+   ]
+  }
+ ]
+}

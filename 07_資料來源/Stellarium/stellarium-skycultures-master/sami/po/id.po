@@ -1,0 +1,161 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Last-Translator: Stellarium's developers\n"
+"Language-Team: Indonesian (https://www.transifex.com/stellarium/teams/80998/id/)\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Sky culture name
+msgid "Sami"
+msgstr "Sami"
+
+#. Sky culture introduction section in markdown format
+msgid ""
+"The Sami people are considered to be the native population of northern Norway,\n"
+"Sweden, Finland and West Russia (the Kola Peninsula)."
+msgstr ""
+"Orang Sami dianggap sebagai penduduk asli Norwegia utara, Swedia, Finlandia,"
+" dan Rusia Barat (Semenanjung Kola)."
+
+#. Sky culture description section in markdown format
+msgid ""
+"Sami constellations can be observed on Sami artifacts connected to the old\n"
+"religion, suggesting that the night sky played an important cultural role for\n"
+"them. The Sami sky culture has a lot in common with other arctic and sub-arctic\n"
+"cultures in Eurasia. One unfortunate similarity is that much of the culture was\n"
+"lost before it was recorded properly.\n"
+"\n"
+"This sky culture is a conglomeration of at least three slightly different\n"
+"cultures from the people of the South-Sami, North-Sami and Russian Sami. Each\n"
+"of these groups have slightly different languages and as such there may be\n"
+"small differences with some references [#1][#2].\n"
+"\n"
+"Stellarium's Sami sky culture is based on the work of Bo Lundmark _Bæi'vi mánno\n"
+"nástit_ [#3], who based much of his work on the writings of the Sami artist and\n"
+"author Johan Turi.\n"
+"\n"
+"### Constellations and Stars\n"
+"\n"
+"The Sami constellations are probably very old but were recorded in writing\n"
+"during the 19th century. It is unclear if the written record is complete. The\n"
+"constellations and stars included here are all connected to the dominant\n"
+"constellation, _Sarva_ — the elk. Sarva is the Sami name for elk, an\n"
+"alternative name is _Sarvvis_ — Bull elk. The origin of this constellation\n"
+"probably dates back to the old hunter culture before reindeer were\n"
+"domesticated.\n"
+"\n"
+"_Sarva_ consists of the modern constellations Cassiopeia, Perseus and parts of\n"
+"Auriga. Constellations and stars surrounding Sarva represent hunters of the\n"
+"elk. _Favdna_ (also transcribed as _Favtna_) is the star Arcturus, and\n"
+"represents the Hunter who aims at the elk with his bow and arrow (_Fauna\n"
+"davgge_ — the Big Dipper). _Favdna_ must aim well, for if he hits\n"
+"_Boahjenaste_, the Sky Support (the star Polaris), legend has it that the world\n"
+"will come to an end.\n"
+"\n"
+"_Favdna_ has a number of helpers: _Galla_ (Procyon) and his sons _Gallabarneck_\n"
+"(Orion's belt), the \"Ski Runners\", _Cuoigahægjek_ (Castor and Pollux) and \"The\n"
+"Runner\" (Vega). The Pleiades are called _Rougot_ (dog pack) or _Miese-cora_\n"
+"(calfpack). The identification of Procyon with _Galla_ is not certain: It could\n"
+"be Procyon, Rigel, or Sirius - we suggest Procyon as _Galla_ in this sky\n"
+"culture because Sirius is very hard to spot from the latitude where the Sami\n"
+"live.\n"
+"\n"
+"The Milky Way is called _Lodde-raiddaras_ (lit. bird path) or _Jakke-mærka_\n"
+"(lit. year mark). The name used depends on the season. In the sky chart of\n"
+"Johan Turi, one can observe a star _Guovso-naste_, morning star, that can be\n"
+"identified as Venus, but this is not certain as it can also be identified as\n"
+"Altair, a star showing the morning is approaching (similar to Arcturus in the\n"
+"Norse sky culture).\n"
+"\n"
+"The Sami sky culture does not have a large number of constellations. This is\n"
+"thought to be mainly because of the high Northerly latitude of the Sami\n"
+"people's range. Two factors contribute to this: that the Southern sky stays\n"
+"below the horizon to a large extent, and that the Aurora Borealis is frequently\n"
+"bright enough to obscure many stars."
+msgstr ""
+"Rasi bintang Sami dapat diamati pada artefak Sami yang terkait dengan agama lama, menunjukkan bahwa langit malam memainkan peran budaya yang penting bagi mereka. Budaya langit Sami memiliki banyak kesamaan dengan budaya Arktik dan sub-Arktik lainnya di Eurasia. Satu kesamaan yang disayangkan adalah banyak budaya yang hilang sebelum direkam dengan benar.\n"
+"\n"
+"Budaya langit ini adalah konglomerasi dari setidaknya tiga budaya yang sedikit berbeda dari orang-orang Sami Selatan, Sami Utara, dan Sami Rusia. Masing-masing grup ini memiliki bahasa yang sedikit berbeda dan oleh karena itu mungkin ada sedikit perbedaan dengan beberapa referensi [#1][#2].\n"
+"\n"
+"Budaya langit Sami Stellarium didasarkan pada karya Bo Lundmark _Bæi'vi mánno nástit_ [#3], yang mendasarkan sebagian besar karyanya pada tulisan seniman dan penulis Sami Johan Turi.\n"
+"\n"
+"### Rasi Bintang dan Bintang\n"
+"\n"
+"Rasi bintang Sami mungkin sangat tua tetapi tercatat secara tertulis selama abad ke-19. Tidak jelas apakah catatan tertulis itu lengkap. Rasi bintang dan bintang yang disertakan di sini semuanya terhubung ke konstelasi dominan, _Sarva_ — rusa. Sarva adalah nama Sami untuk rusa, nama alternatifnya adalah _Sarvvis_ — Rusa banteng. Asal usul konstelasi ini mungkin berasal dari budaya pemburu tua sebelum rusa dijinakkan.\n"
+"\n"
+"_Sarva_ terdiri dari rasi bintang modern Cassiopeia, Perseus dan bagian dari Auriga. Rasi bintang dan bintang di sekitar Sarva mewakili pemburu rusa. _Favdna_ (juga ditranskripsikan sebagai _Favtna_) adalah bintang Arcturus, dan mewakili Pemburu yang membidik rusa dengan busur dan anak panahnya (_Fauna davgge_ — Biduk). _Favdna_ harus membidik dengan baik, karena jika dia mengenai _Boahjenaste_, Pendukung Langit (bintang Polaris), menurut legenda dunia akan kiamat.\n"
+"\n"
+"_Favdna_ memiliki sejumlah pembantu: _Galla_ (Procyon) dan putranya _Gallabarneck_ (sabuk Orion), \"Pelari Ski\", _Cuoigahægjek_ (Castor dan Pollux) dan \"The Runner\" (Vega). Pleiades disebut _Rougot_ (paket anjing) atau _Miese-cora_ (paket anak sapi). Identifikasi Procyon dengan _Galla_ tidak pasti: Bisa jadi Procyon, Rigel, atau Sirius - kami menyarankan Procyon sebagai _Galla_ dalam budaya langit ini karena Sirius sangat sulit dikenali dari garis lintang tempat orang Sami tinggal.\n"
+"\n"
+"Bima Sakti disebut _Lodde-raiddaras_ (jalur burung secara harfiah) atau _Jakke-mærka_ (tanda tahun secara harfiah). Nama yang digunakan tergantung pada musim. Dalam peta langit Johan Turi, kita dapat mengamati sebuah bintang _Guovso-naste_, bintang pagi, yang dapat diidentifikasi sebagai Venus, tetapi ini tidak pasti karena dapat juga diidentifikasi sebagai Altair, sebuah bintang yang menunjukkan pagi mendekat (mirip ke Arcturus dalam budaya langit Norse).\n"
+"\n"
+"Budaya langit Sami tidak memiliki banyak rasi bintang. Hal ini diperkirakan terutama karena garis lintang utara yang tinggi dari jangkauan orang Sami. Dua faktor berkontribusi pada hal ini: bahwa langit Selatan sebagian besar tetap berada di bawah cakrawala, dan bahwa Aurora Borealis seringkali cukup terang untuk mengaburkan banyak bintang."
+
+#. Sky culture references section in markdown format
+msgid ""
+"- [#1]: Website about Samis. [samer.se](http://samer.se/english)\n"
+"- [#2]: Sami people. [Article in Wikipedia](http://en.wikipedia.org/wiki/Sami_people).\n"
+"- [#3]: Bo Lundmark. _Bæi'vi mánno nástit_ (Swedish title: _Sol-och månkult samt astrala och celesta föreställninga bland samerna_), _Sun and Moon cult and astral and celestial concepts among the Sami_, 1982."
+msgstr ""
+"- [#1]: Situs web tentang Samis. [samer.se](http://samer.se/english)\n"
+"- [#2]: Orang Sami. [Artikel di Wikipedia](http://en.wikipedia.org/wiki/Sami_people).\n"
+"- [#3]: Bo Lundmark. _Bæi'vi mánno nástit_ (judul bahasa Swedia: _Sol-och månkult samt astrala och celesta föreställninga bland samerna_), _Pemujaan matahari dan bulan serta konsep astral dan langit di antara Sami_, 1982."
+
+#. Sky culture authors section in markdown format
+msgid ""
+"This sky culture was contributed by Stellarium user [Jonas Persson](mailto:jonas.persson@physics.org).\n"
+"Homepage [link](https://www.ntnu.edu/employees/jonas.persson).\n"
+"\n"
+"Technical rework by Susanne M Hoffmann"
+msgstr ""
+"Budaya langit ini disumbangkan oleh pengguna Stellarium [Jonas Persson](mailto:jonas.persson@physics.org). Beranda [tautan](https://www.ntnu.edu/employees/jonas.persson).\n"
+"\n"
+"Pengerjaan ulang teknis oleh Susanne M Hoffmann"
+
+#. Sky culture license section in markdown format
+msgid "CC BY-SA"
+msgstr "CC BY-SA"
+
+#. Sami constellation
+msgid "Sarva the Elk"
+msgstr "Sarva the Elk"
+
+#. Sami constellation
+msgid "Favdna's Bow and Arrow"
+msgstr "Favdna's Bow and Arrow"
+
+#. Sami constellation
+msgid "Galla's Sons"
+msgstr "Galla's Sons"
+
+#. Sami constellation
+msgid "Sky Support"
+msgstr "Sky Support"
+
+#. Sami constellation
+msgid "Favdna"
+msgstr "Favdna"
+
+#. Sami constellation
+msgid "The Runner"
+msgstr "The Runner (Pelari)"
+
+#. Sami constellation
+msgid "Morning Star"
+msgstr "Morning Star (Bintang Fajar)"
+
+#. Sami constellation
+msgid "Pack of Dogs"
+msgstr "Pack of Dogs (Sekumpulan Anjing)"
+
+#. Sami constellation
+msgid "Galla"
+msgstr "Galla"
+
+#. Sami constellation
+msgid "The Ski Runners"
+msgstr "The Ski Runners"

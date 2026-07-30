@@ -1,0 +1,213 @@
+{
+ "episode": "A-08",
+ "outdir": "05_素材/A-08_西伯利亞/打穀者與鴨巢",
+ "prefix": "打穀者",
+ "field": {
+  "center": [
+   76,
+   9
+  ],
+  "radius": 28,
+  "maglim": 5.6
+ },
+ "layers": [
+  {
+   "type": "stars",
+   "mains": [
+    26311,
+    25930,
+    26727,
+    17702
+   ]
+  },
+  {
+   "type": "milkyway"
+  },
+  {
+   "type": "lines",
+   "name": "打穀者",
+   "color": "amber",
+   "lw": 2.8,
+   "source": {
+    "culture": "siberian",
+    "names": [
+     "Threshers"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "鴨巢",
+   "color": "green",
+   "lw": 2.4,
+   "source": {
+    "culture": "siberian",
+    "names": [
+     "Duck Nest"
+    ]
+   }
+  },
+  {
+   "type": "lines",
+   "name": "中國對照",
+   "color": "blue",
+   "lw": 2.0,
+   "optional": true,
+   "source": {
+    "culture": "chinese",
+    "names": [
+     "参宿",
+     "昴宿"
+    ]
+   }
+  },
+  {
+   "type": "dso",
+   "name": "昴宿星團",
+   "items": [
+    {
+     "id": "M 45"
+    }
+   ]
+  },
+  {
+   "type": "labels",
+   "name": "繁中名",
+   "auto_from": "打穀者",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Threshers": {
+     "zh": "打穀者",
+     "dx": -6,
+     "dy": -3,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "鴨巢名",
+   "auto_from": "鴨巢",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "Duck Nest": {
+     "zh": "鴨巢",
+     "dx": 4,
+     "dy": 4,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "俄文名",
+   "optional": true,
+   "auto_from": "打穀者",
+   "auto_text": "po:ru",
+   "rename": {
+    "Threshers": {
+     "dx": -6,
+     "dy": -3,
+     "size": 20
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "鴨巢俄文",
+   "optional": true,
+   "auto_from": "鴨巢",
+   "auto_text": "po:ru",
+   "rename": {
+    "Duck Nest": {
+     "dx": 4,
+     "dy": 4,
+     "size": 18
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "中國名",
+   "optional": true,
+   "auto_from": "中國對照",
+   "auto_text": "po:zh_TW",
+   "rename": {
+    "参宿": {
+     "zh": "參宿",
+     "dx": 5,
+     "dy": 3,
+     "size": 17
+    },
+    "昴宿": {
+     "zh": "昴宿",
+     "dx": -5,
+     "dy": -4,
+     "size": 17
+    }
+   }
+  },
+  {
+   "type": "labels",
+   "name": "銀河名",
+   "optional": true,
+   "items": [
+    {
+     "ra": 97,
+     "dec": 6,
+     "zh": "鵝之路",
+     "en": "Гусиная дорога・銀河",
+     "size": 18
+    }
+   ]
+  }
+ ],
+ "previews": [
+  {
+   "name": "打穀者與鴨巢",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "打穀者",
+    "鴨巢",
+    "昴宿星團",
+    "繁中名",
+    "鴨巢名"
+   ]
+  },
+  {
+   "name": "俄文",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "打穀者",
+    "鴨巢",
+    "昴宿星團",
+    "俄文名",
+    "鴨巢俄文"
+   ]
+  },
+  {
+   "name": "中國對照",
+   "layers": [
+    "星點層",
+    "打穀者",
+    "鴨巢",
+    "中國對照",
+    "繁中名",
+    "鴨巢名",
+    "中國名"
+   ]
+  },
+  {
+   "name": "鵝之路",
+   "layers": [
+    "星點層",
+    "銀河層",
+    "打穀者",
+    "鴨巢",
+    "銀河名"
+   ]
+  }
+ ]
+}

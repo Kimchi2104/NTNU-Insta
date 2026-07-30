@@ -1,0 +1,16 @@
+1
+Sky Cultures
+X
+Bugis
+Region: Asia
+Use
+The Bugis are an ethnic group on the island of Sulawesi in Indonesia, with a strong seafaring and trading tradition. This sky culture has
+12
+constellation line figures. It also has names for four stars and five other sky objects (the Pleiades, the Coalsack Nebula, the Magellanic Cloud(s), the Milky Way, and Venus). Many of the constellations reflect the seafaring tradition; the others are of agricultural origin.
+This sky culture for Stellarium is a transcript of data recorded in a book by The evolution of local Southeast Asian astronomy and the influence of China, India, the Islamic World and the West!
+. It provides a unified
+drawing of Bugis constellations from two prior sources (one from 1999, one from 1987) which had overlapping but not identical data.
+The Mandar sky culture is related (they
+• are
+neighbouring ethnic groups on the island of Sulawesi) so it is similar. The Mandar sourcel also provides some data for the Bugis.
+v About
