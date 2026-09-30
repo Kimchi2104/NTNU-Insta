@@ -1,0 +1,36 @@
+{
+ "long": [
+  "MAHV2X8TYxs",
+  "MAHV2Xep8ss",
+  "MAHV2cDHAoE",
+  "MAHV2bjZvGw"
+ ],
+ "north": [
+  "MAHV2UYgkQw",
+  "MAHV2UcW8aY",
+  "MAHV2fBggjc",
+  "MAHV2T4_pyg"
+ ],
+ "south": [
+  "MAHV2WWvPaw",
+  "MAHV2QP2_kI",
+  "MAHV2SIZlrU",
+  "MAHV2djcjGA"
+ ],
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A05-01_六連星_星點層_透明.png": "MAHWszOGI6Q",
+  "C-A05-01_六連星_束線層_透明.png": "MAHWsytcMwI",
+  "C-A05-01_六連星_標籤層_透明.png": "MAHWtPk2BgA",
+  "C-A05-01_六連星_方言層_透明.png": "MAHWs1FrBAc",
+  "C-A05-02_キトラ四圈_圈層_透明.png": "MAHWs98_q8k",
+  "C-A05-02_キトラ四圈_尺寸層_透明.png": "MAHWtG0trsg",
+  "C-A05-02_キトラ四圈_算式層_透明.png": "MAHWs1lMNu4",
+  "C-A05-02_キトラ四圈_爭議層_透明.png": "MAHWs3X0FGU"
+ },
+ "_design": {
+  "id": "DAHV2DZTsZI",
+  "title": "A-05 日本"
+ }
+}

@@ -301,6 +301,8 @@ class Pages:
         """本頁要開的標籤層：一頁兩用時取下一鏡；鏡頭最後一格可用 labels_end 換層"""
         if pg.get("transition"):
             return []
+        if pg.get("overlay_files"):               # 概念圖頁不放星名：半透明框會透出來、和圖上的字打架
+            return []
         if pg.get("labels_from") and not pg.get("shot_next"):
             return Pages.label_names(pg["labels_from"])
         sh = pg.get("shot_next") or pg["shot"]
