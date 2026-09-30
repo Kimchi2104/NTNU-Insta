@@ -11,6 +11,7 @@
   {EP}_逐頁標籤座標.csv       每頁每條標籤：原文／拼音／英文／中文、中心 X/Y px、字級 px、色碼
                             → 不必再用 SVG 標籤層（Canva 解析度不夠），直接原生打字對位
   {EP}_標籤對照表.csv         全集名詞：原文／拼音／英文翻譯／中文／來源（給不會中文的組員複製貼上）
+  {EP}_Canva頁面參數.json    同一份數字的機器版（Claude 用 Canva 連接器逐頁排版時讀這個）
   {EP}_對位參考/P##_頁名.png  每頁 1080×1920：畫面長相＋標籤虛影＋主角星白圈＋Reels 安全區
                             ＋地平線；放在該頁最上層當描圖紙，對好就刪
 
@@ -18,6 +19,7 @@
   長圖頁：元素寬 W＝360/fov×1080；盤頁：W＝H＝2·R_fill/fov×1080
   X/Y＝元素「未旋轉時」的左上角（Canva 位置面板）；旋轉以元素中心為軸，
   盤心置中時旋轉不影響 X/Y。北盤負角＝逆時針＝時間往前（1 小時＝15.041°）。
+  長圖 H 用 Canva 取整後的比例（360×466），Y 由內容中心反推（見 placement）。
 
 用法：
   python3 gen_canva_pages.py A-07              # 讀 05_素材/*/_v4大畫布/A-07_*
@@ -140,8 +142,12 @@ class Pages:
         m = self.m
         x0, y0, x1, y1 = m.extent
         if pg["group"] == "長圖":
-            W = (x1 - x0) * u; H = (y1 - y0) * u
-            X = PW / 2 - (cx - x0) * u; Y = PH / 2 - (y1 - cy) * u
+            # Canva 匯入 SVG 時把寬高取整數（360×465.72 → 360×466），內容等比置中；
+            # 所以 H 用 Canva 的比例，Y 由「內容中心」反推，填進去才不會上下差 10–20 px
+            W = (x1 - x0) * u
+            H = W * round(y1 - y0) / round(x1 - x0)
+            X = PW / 2 - (cx - x0) * u
+            Y = PH / 2 - (y1 - cy) * u + ((y1 - y0) * u - H) / 2
             return dict(W=W, H=H, X=X, Y=Y, rot=0.0)
         north = pg["group"] == "北盤"
         xt, yc = m.disc_center(north)
@@ -293,6 +299,16 @@ class Pages:
                                  "顏色": lb["color"], "對應星X": round(lb["starX"]),
                                  "對應星Y": round(lb["starY"]), "key": lb["key"]})
         self._csv(f"{self.ep}_Canva逐頁製作表.csv", rows)
+        # 給 Claude 直接操作 Canva 用（Canva MCP edit-design：left/top/width/height/rotation）
+        api = [{"page": r["頁"], "title": r["頁名"], "group": r["圖層組"],
+                "left": round(pl["X"], 2), "top": round(pl["Y"], 2),
+                "width": round(pl["W"], 2), "height": round(pl["H"], 2),
+                "rotation": round(pl["rot"], 2), "layers": r["留下的圖層"].split("、"),
+                "notes": r["旁白（本頁起播）"]}
+               for r, pl in zip(rows, (self.placement(pg) for pg in pages))]
+        json.dump(api, open(os.path.join(self.dir, f"{self.ep}_Canva頁面參數.json"), "w",
+                            encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"  ✓ {self.ep}_Canva頁面參數.json")
         self._csv(f"{self.ep}_逐頁標籤座標.csv", lab_rows)
         self._terms_csv()
         self._md(rows)
@@ -322,7 +338,7 @@ class Pages:
                          "顏色": HEX.get(t["顏色"], t["顏色"]), "來源／備註": t["來源備註"]})
         for c in self.lab.get("cross", []):
             rows.append({"項目": "跨文化", "原文": c["原文"], "拼音": "",
-                         "英文翻譯": "", "中文": c["中譯"],
+                         "英文翻譯": c.get("英文", ""), "中文": c["中譯"],
                          "顏色": HEX.get(c["顏色"], c["顏色"]), "來源／備註": "Stellarium"})
         seen = set()
         for ls in self.lab.get("label_sets", []):
