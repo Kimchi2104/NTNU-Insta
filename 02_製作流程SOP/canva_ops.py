@@ -162,6 +162,34 @@ def page_ops(pg, pid, media, labels=()):
     return ops
 
 
+def c_page_ops(pg, pid, media, dels=(), new=False):
+    """C 系列（概念圖定格頁）一頁的 ops：清舊元素 →（新頁才要）背景＋山 → 概念圖圖層 → 備註
+    pg 來自 make_cXX_canva.py 的 {EP}_Canva頁面參數.json；沿用舊頁時保留它原本的背景與山。
+    圖層 back=True（宣夜的氣、眾星）要等插入後拿到 locator，再依反序 layer_element back（見 SOP 七）。"""
+    ops = [{"type": "delete_element", "locator_id": l} for l in dels]
+    if new:
+        ops.append({"type": "update_fill", "locator_id": pid, "asset_type": "image",
+                    "asset_id": media["background"], "alt_text": "背景漸層"})
+        ops.append({"type": "insert_fill", "page_id": pid, "asset_type": "image",
+                    "asset_id": media["mountain"], "alt_text": "山的剪影", **MOUNT})
+    for ly in pg["layers"]:
+        op = {"type": "insert_fill", "page_id": pid, "asset_type": "image",
+              "asset_id": media["concept"][ly["file"]],
+              "alt_text": os.path.basename(ly["file"]).replace("_透明.png", "").replace(".png", ""),
+              "left": ly["left"], "top": ly["top"], "width": ly["width"], "height": ly["height"]}
+        if ly.get("rotation"):
+            op["rotation"] = ly["rotation"]
+        ops.append(op)
+    names = "＋".join(os.path.basename(l["file"]).replace("_透明.png", "").replace(".png", "")
+                     + (f"（{l['rotation']:+.0f}°）" if l.get("rotation") else "") for l in pg["layers"])
+    note = [pg["title"], f"起 {pg['start']:.0f}s｜{pg['dur']} 秒｜與上一頁：{pg['trans']}"]
+    if pg.get("vo"):
+        note.append("旁白：" + pg["vo"])
+    note.append("圖層：" + names)
+    ops.append({"type": "replace_speaker_notes", "page_id": pid, "notes": "\n".join(note)})
+    return ops
+
+
 def mountain_crop(locator):
     return {"type": "crop_media", "locator_id": locator, "left": 0, "top": 0,
             "width": MOUNT["width"], "height": MOUNT["height"]}
