@@ -125,8 +125,8 @@ def page_ops(pg, pid, media, labels=()):
                     "alt_text": nm, "left": pg["left"], "top": pg["top"],
                     "width": pg["width"], "height": pg["height"], "rotation": pg["rotation"]})
     mt = pg.get("mountain_top")
-    if mt is not None:                          # 地平線升高：山上移，下面補地面（黑）
-        gt = mt + MOUNT["height"] - 20
+    gt = mt + MOUNT["height"] - 20 if mt is not None else None
+    if gt is not None and gt < 1920:            # 地平線升高：山上移，下面補地面（黑）；山在頁底以下就不用補
         ops.append({"type": "insert_shape", "page_id": pid, "left": MOUNT["left"], "top": round(gt, 1),
                     "width": MOUNT["width"], "height": round(1940 - gt, 1),
                     "path": f"M0 0H{MOUNT['width']:.1f}V{1940 - gt:.1f}H0Z",
