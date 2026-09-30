@@ -24,6 +24,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 MOUNT = dict(left=-212.30305796440007, top=1622.4420974142777,
              width=1939.0832424885327, height=300.5579025857226)   # 團隊模板的山（全集共用）
 LABEL_MIN, LABEL_MAX = 36, 96          # 原生標籤字級上下限（大特寫時標籤會算到幾百 px）
+LIST_MIN = 30                          # 名稱表（同一欄疊好幾行，例：跨文化對照）最小那一行的字級
+SAFE_X = 48                            # 名稱表靠左排時的左邊界
 
 
 def folder(ep):
@@ -36,6 +38,77 @@ def folder(ep):
 
 def text_w(t, f):
     return sum(1.0 if unicodedata.east_asian_width(c) in "WF" else 0.62 for c in t) * f + 0.6 * f
+
+
+def _wrap(t, f, maxw):
+    """太寬就在最靠近中間的空白折成兩行（中文名稱不折）"""
+    if text_w(t, f) <= maxw or " " not in t:
+        return [t]
+    cut = min((i for i, c in enumerate(t) if c == " "), key=lambda i: abs(i - len(t) / 2))
+    return [t[:cut], t[cut + 1:]]
+
+
+def label_items(labels):
+    """每個原生標籤的位置、字級、顏色、對齊（page_ops 打字、之後 format_text 都用這份）。
+
+    一般標籤：字級夾在 36–96，以中心點置中。
+    名稱表（同一個中心 X 疊 3 行以上、且原字級有小於 36 的）：直接夾到 36 會一行壓一行，
+    所以整欄等比放大到最小那行 = LIST_MIN、行距跟著放大，改成靠左一欄；
+    太長的（例 Seven Brothers and Their Sister）折兩行，欄的右緣不碰到它指的星。
+    每行的文字框只包住自己的字：阿拉伯文等右到左的字在「靠左」框裡會貼右邊，框太寬就會跑離整欄。
+    """
+    by_x = {}
+    for lb in labels:
+        by_x.setdefault(lb["中心X px"], []).append(lb)
+    stacks = {x for x, g in by_x.items()
+              if len(g) >= 3 and min(int(lb["字級px"]) for lb in g) < LABEL_MIN}
+    items = []
+    for lb in labels:                                    # 照 CSV 順序（打字順序＝之後對 locator 的順序）
+        x = lb["中心X px"]
+        if x in stacks:
+            if lb is by_x[x][0]:
+                items += _stack(by_x[x])
+            continue
+        f = min(max(int(lb["字級px"]), LABEL_MIN), LABEL_MAX)
+        X, Y = int(lb["中心X px"]), int(lb["中心Y px"])
+        w = round(text_w(lb["文字"], f))
+        if X - w / 2 < -0.3 * w or X + w / 2 > 1080 + 0.3 * w:     # 大半在畫面外就不放
+            continue
+        items.append(dict(text=lb["文字"], left=X - w / 2, top=Y - 0.6 * f, width=w,
+                          size=f, color=lb["顏色"], align="center"))
+    return items
+
+
+def _stack(grp):
+    grp = sorted(grp, key=lambda lb: int(lb["中心Y px"]))
+    s = LIST_MIN / min(int(lb["字級px"]) for lb in grp)
+    X = int(grp[0]["中心X px"])
+    ref = min((int(float(lb.get("對應星X") or 1080)) for lb in grp), default=1080)
+    maxw = max(min(ref - 120, 1080 - SAFE_X) - SAFE_X, 320)
+    rows = []
+    for lb in grp:
+        f = min(round(int(lb["字級px"]) * s), LABEL_MAX)
+        lines = _wrap(lb["文字"], f, maxw)
+        rows.append((lb, f, lines))
+    colw = max(text_w(t, f) for _, f, ls in rows for t in ls)
+    left = max(SAFE_X, X - colw / 2)
+    ys = [int(lb["中心Y px"]) for lb, _, _ in rows]
+    yc = (ys[0] + ys[-1]) / 2
+    # 行距等比放大；折行的那一格多出來的高度，上下各讓一半
+    cy = [0.0]
+    for i in range(1, len(rows)):
+        h0 = (len(rows[i - 1][2]) - 1) * rows[i - 1][1] * 1.2 / 2
+        h1 = (len(rows[i][2]) - 1) * rows[i][1] * 1.2 / 2
+        cy.append(cy[-1] + (ys[i] - ys[i - 1]) * s + h0 + h1)
+    off = yc - (cy[0] + cy[-1]) / 2
+    out = []
+    for (lb, f, lines), c in zip(rows, cy):
+        Y = c + off
+        out.append(dict(text="\n".join(lines), left=round(left, 1),
+                        top=round(Y - len(lines) * f * 1.2 / 2, 1),
+                        width=round(max(text_w(t, f) for t in lines)),
+                        size=f, color=lb["顏色"], align="start"))
+    return out
 
 
 def page_ops(pg, pid, media, labels=()):
@@ -62,14 +135,9 @@ def page_ops(pg, pid, media, labels=()):
     ops.append({"type": "insert_fill", "page_id": pid, "asset_type": "image",
                 "asset_id": media["mountain"], "alt_text": "山的剪影",
                 **dict(MOUNT, top=mt if mt is not None else MOUNT["top"])})
-    for lb in labels:
-        f = min(max(int(lb["字級px"]), LABEL_MIN), LABEL_MAX)
-        X, Y = int(lb["中心X px"]), int(lb["中心Y px"])
-        w = round(text_w(lb["文字"], f))
-        if X - w / 2 < -0.3 * w or X + w / 2 > 1080 + 0.3 * w:     # 大半在畫面外就不放
-            continue
-        ops.append({"type": "add_text", "page_id": pid, "text": lb["文字"],
-                    "left": X - w / 2, "top": Y - 0.6 * f, "width": w})
+    for it in label_items(labels):
+        ops.append({"type": "add_text", "page_id": pid, "text": it["text"],
+                    "left": it["left"], "top": it["top"], "width": it["width"]})
     ov = pg.get("overlay") or []
     if ov and pg.get("panel"):
         P = pg["panel"]
@@ -104,10 +172,11 @@ def fill_crop(locator, width, height):
             "width": width, "height": height}
 
 
-def label_format(locator, size, color):
+def label_format(locator, item):
+    """add_text 之後補字級、顏色、對齊、行高（item 來自 label_items）"""
     return {"type": "format_text", "locator_id": locator,
-            "formatting": {"font_size": min(max(int(size), LABEL_MIN), LABEL_MAX),
-                           "color": color, "text_align": "center", "line_height": 1.2}}
+            "formatting": {"font_size": int(item["size"]), "color": item["color"],
+                           "text_align": item["align"], "line_height": 1.2}}
 
 
 if __name__ == "__main__":

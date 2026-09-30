@@ -64,6 +64,8 @@
   山的上緣放在逐頁表「地平線北點 Y」（`Canva頁面參數.json` 的 `mountain_top`），山下面補一塊黑色地面到頁底，
   整個山＋地面在頁與頁之間 Match & Move 上升。起格用第一個緯度、迄格用最後一個。
 - 標籤一律原生打字（SVG 標籤在 Canva 解析度不夠）；字級限制在 36–96 px；大半在畫面外的不放。
+- **名稱表**（同一個中心 X 疊 3 行以上、原字級有小於 36 的，例：A-07 鏡頭09 跨文化對照）：不能每行各自夾到 36（會一行壓一行），
+  `canva_ops.label_items` 會整欄等比放大到最小行 30 px、改成靠左一欄、太長的英文折兩行；每行文字框只包住自己的字（阿拉伯文等右到左的字才不會跑到欄外）。
 
 ## 三、Claude 在 Canva 的操作順序
 
@@ -74,7 +76,7 @@
 5. 補三個連接器的脾氣（下一批 ops 順便送）：
    - 山 `insert_fill` 後內圖框會多裁 1px → `crop_media` 回 0/0/1939.08×300.56；
    - `update_fill` 換圖後內圖框會被放大 → `crop_media` 回原尺寸；
-   - `add_text` 後用回傳的 locator 送 `format_text`（字級、顏色、置中、行高 1.2）。
+   - `add_text` 後用回傳的 locator 送 `format_text`（`label_format(locator, item)`，字級／顏色／對齊都跟 `label_items` 同一份）。
 6. `reorder_page` 依逐頁表放到正確位置；用 `design_content` 讀回來比對頁序（presenter_notes 在 transaction 裡可能是舊的，別用它比）。
 7. 看縮圖：換組前後兩頁要一模一樣；概念圖不疊字；山的位置一致。
 8. 給你預覽 → **你說「存檔」才 commit**。
@@ -98,6 +100,7 @@ python3 canva_ops.py A-05 --list  # 看頁序與每頁要放什麼
 | 情況 | 做法 |
 |---|---|
 | 不能刪頁 | 舊頁移到最後，請你刪 |
+| 一份設計最多 100 頁 | 複製來的檔案本來就有 80 多頁時 `add_page` 會卡住：先請你把上一集的舊頁刪掉；來不及就把舊頁清空重用（頁名會留舊的，請你改） |
 | SVG 不能 update_fill（只收點陣圖） | 刪元素再 insert_fill；PNG 可以 update_fill，但要再 crop_media |
 | recolor_element 只能單色 | 雙色的山交給你用「全部變更」 |
 | 分支 raw 連結有快取 | 用 commit SHA 連結 |
