@@ -417,9 +417,9 @@ def hun_earth(ax):
     d = horizon_pts(0.42)
     ax.add_patch(Polygon([(x, y) for x, y, _ in d], closed=True, fc=GREEN, ec=GREEN, lw=2.5,
                          alpha=.55, zorder=5))
-    T(ax, -0.97, -0.20, "地如雞子中黃", 24, GREEN, ha="left")
+    T(ax, -0.93, -0.20, "地如\n雞子中黃", 24, GREEN, ha="left")
     ex, ey, _ = pj(-E1*0.42)
-    ax.plot([-0.60, ex-0.01], [-0.20, ey], c=GREEN, lw=1.2, alpha=.6)
+    ax.plot([-0.69, ex-0.01], [-0.23, ey], c=GREEN, lw=1.2, alpha=.6)
 
 
 def hun_poles(ax):
@@ -434,9 +434,9 @@ def hun_poles(ax):
     nh = pj(NORTH)
     ax.plot([HC[0], nh[0]], [HC[1], nh[1]], c=WHITE, lw=1.2, alpha=.5)
     mid = arc[len(arc)//2]
-    ax.plot([-0.74, mid[0]-0.02], [0.11, mid[1]], c=WHITE, lw=1.2, alpha=.5)
-    T(ax, -0.97, 0.14, "北極出地", 22, WHITE, ha="left")
-    T(ax, -0.97, 0.075, "三十六度", 22, WHITE, ha="left")
+    ax.plot([-0.71, mid[0]-0.02], [0.11, mid[1]], c=WHITE, lw=1.2, alpha=.5)
+    T(ax, -0.93, 0.14, "北極出地", 22, WHITE, ha="left")
+    T(ax, -0.93, 0.075, "三十六度", 22, WHITE, ha="left")
 
 
 def hun_equator(ax):
