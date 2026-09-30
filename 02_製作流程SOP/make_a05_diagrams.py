@@ -84,21 +84,38 @@ def ple_bundle(ax):
 
 
 def ple_labels(ax):
-    """標籤沿質心→星的方向往外推；方位角太近的互相錯開推距，避免疊字"""
+    """標籤沿質心→星的方向往外推；和已放好的標籤重疊就改試別的角度／推距
+    （昴宿二、昴宿四方位角幾乎一樣，只靠推距錯開會疊在一起）"""
     pts = sorted(_ple_xy(), key=lambda p: math.atan2(p[1], p[0]))
-    push, prev = [], None
-    for x, y, *_ in pts:
-        a = math.degrees(math.atan2(y, x))
-        d = 0.17 if prev is None or abs(a - prev) > 26 else 0.34
-        push.append(d); prev = a
-    for (x, y, en, zh, v), d0 in zip(pts, push):
+    boxes = [(x, y, r + 0.012, r + 0.012)       # 星點本身也是障礙物（實心圓的外接框）
+             for x, y, *_, v in pts
+             for r in [max(0.016, (6.6 - v) ** 1.55 * 0.0105)]]
+
+    def hit(cx, cy, hw, hh):
+        if abs(cx) + hw > 0.98 or cy + hh > 0.80 or cy - hh < -0.74:
+            return True
+        return any(abs(cx - bx) < hw + bw and abs(cy - by) < hh + bh
+                   for bx, by, bw, bh in boxes)
+
+    for x, y, en, zh, v in pts:
         d = math.hypot(x, y) or 1e-6
-        ux, uy = x / d, y / d
-        lx, ly = x + ux * d0, y + uy * d0
+        a0 = math.atan2(y, x)
+        hw, hh = max(len(zh) * 0.042, len(en) * 0.022) + 0.02, 0.085
+        for dd in (0.17, 0.26, 0.36):
+            for da in (0, 25, -25, 50, -50, 80, -80):
+                a = a0 + math.radians(da)
+                lx, ly = x + math.cos(a) * dd, y + math.sin(a) * dd
+                if not hit(lx, ly - 0.005, hw, hh):
+                    break
+            else:
+                continue
+            break
+        boxes.append((lx, ly - 0.005, hw, hh))
+        ux, uy = math.cos(a), math.sin(a)
         T(ax, lx, ly + 0.032, zh, 20, WHITE)
         T(ax, lx, ly - 0.042, en, 15, MW)
-        ax.plot([x + ux * 0.055, x + ux * (d0 - 0.06)],
-                [y + uy * 0.055, y + uy * (d0 - 0.06)], c=MW, lw=.9,
+        ax.plot([x + ux * 0.055, x + ux * (dd - 0.06)],
+                [y + uy * 0.055, y + uy * (dd - 0.06)], c=MW, lw=.9,
                 alpha=.5, zorder=2)
     T(ax, 0.0, 0.93, "六連星（むつらぼし）", 34, WHITE)
     T(ax, 0.0, 0.855, "昴星團・肉眼可見六到七顆", 20, MW)
@@ -146,15 +163,17 @@ def kitora_dims(ax):
     """三條半徑線各走不同方位角，標註不互相壓"""
     for d, c, lab, ang in ((D_OUT, AMBER, f"外規　徑 {D_OUT} cm", 38),
                            (D_EQ, WHITE, f"赤道　徑 {D_EQ} cm", -20),
-                           (D_IN, BLUE, f"內規　徑 {D_IN} cm", -72)):
+                           (D_IN, BLUE, f"內規　徑 {D_IN} cm", -125)):
         r = d / 2 * SC
         a = math.radians(ang)
         ax.plot([0, r * math.cos(a)], [0, r * math.sin(a)], c=c, lw=1.2,
                 alpha=.55, zorder=3)
         ax.plot([r * math.cos(a)], [r * math.sin(a)], marker="o", ms=5, c=c,
                 zorder=5)
-        T(ax, r * math.cos(a) + 0.03, r * math.sin(a) + 0.045, lab, 19, c,
-          ha="left")
+        left = math.cos(a) < 0                   # 左半邊的標註往左長，不壓到右邊的線
+        T(ax, r * math.cos(a) + (-0.03 if left else 0.03),
+          r * math.sin(a) + (-0.05 if left else 0.045), lab, 19, c,
+          ha="right" if left else "left")
     T(ax, -0.075, 0.075 + D_ECL / 2 * SC + 0.05,
       f"黃道　徑 {D_ECL} cm（キトラ把它畫在錯的一側）", 17, GREEN)
 
