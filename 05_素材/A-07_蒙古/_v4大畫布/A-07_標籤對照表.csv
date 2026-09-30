@@ -1,0 +1,65 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+北斗-佛,Долоон бурхан,Doloon Burkhan,Seven Buddhas / Seven Gods,七尊佛,#FFC94A,Stellarium mongolian CON 003；бурхан＝佛、神
+北斗-老人,Долоон өвгөн,Doloon Övgön,Seven Old Men,七位老人,#FFC94A,蒙古語別名（Wiktionary: Big Dipper）
+金樁,Алтан гадас,Altan Gadas,Golden Stake (tethering peg),金樁,#6FA8FF,Stellarium 作 Altan Hadaas（хадаас＝釘子）；其 zh_TW 譯「黃金賭注」是誤譯
+弓箭,Нум сум,Num Sum,Bow and Arrow,弓與箭,#7BD88F,Stellarium mongolian CON 001（天鵝座）；僅此一來源
+五星人,Хүн таван од,Khün Tavan Od,Five-Star Person,五顆星的人,#B78AFF,Stellarium 譯 Five Stars Woman；хүн＝人
+三頭鹿,Гурван марал,Gurvan Maral,Three (Red) Deer,三頭鹿,#FFC94A,＝獵戶座腰帶（蒙古語辭典、奧伊拉特口傳）；Stellarium 錯置在夏季大三角
+銀河,Тэнгэрийн заадас,Tengeriin Zaadas,Seam of the Sky,天空的縫線,#FFFFFF,蒙古語銀河；заадас＝縫線
+昴,Мичид,Michid,the Pleiades,昴,#FFFFFF,蒙古語昴星團（牧民季節曆）；只上標籤不唸
+跨文化,Долоон бурхан,,,七尊佛（蒙古）,#FFC94A,Stellarium
+跨文化,Лось,,,麋鹿（西伯利亞）,#FFFFFF,Stellarium
+跨文化,Tukturjuit,,,馴鹿（因紐特）,#FFFFFF,Stellarium
+跨文化,بنات نعش,,,送葬的女兒們（阿拉伯）,#FFFFFF,Stellarium
+跨文化,Karlvagn,,,男人的車（北歐）,#FFFFFF,Stellarium
+跨文化,Seven Brothers and Their Sister,,,七兄弟和妹妹（黑腳族）,#FFFFFF,Stellarium
+跨文化,Sos Sette Frades,,,七兄弟（薩丁尼亞）,#FFFFFF,Stellarium
+英文｜HIP 54061,Dubhe,,,,#FFC94A,
+英文｜HIP 53910,Merak,,,,#FFC94A,
+英文｜HIP 58001,Phecda,,,,#FFC94A,
+英文｜HIP 59774,Megrez,,,,#FFC94A,
+英文｜HIP 62956,Alioth,,,,#FFC94A,
+英文｜HIP 65378,Mizar,,,,#FFC94A,
+英文｜HIP 67301,Alkaid,,,,#FFC94A,
+英文｜HIP 65477,Alcor,,,,#FFFFFF,
+英文｜HIP 11767,Polaris,,,,#6FA8FF,
+英文｜HIP 91262,Vega,,,,#FFFFFF,
+英文｜HIP 97649,Altair,,,,#FFFFFF,
+英文｜HIP 102098,Deneb,,,,#FFFFFF,
+英文｜HIP 27989,Betelgeuse,,,,#FFFFFF,
+英文｜HIP 24436,Rigel,,,,#FFFFFF,
+繁中｜HIP 54061,天樞,,,,#FFC94A,
+繁中｜HIP 53910,天璇,,,,#FFC94A,
+繁中｜HIP 58001,天璣,,,,#FFC94A,
+繁中｜HIP 59774,天權,,,,#FFC94A,
+繁中｜HIP 62956,玉衡,,,,#FFC94A,
+繁中｜HIP 65378,開陽,,,,#FFC94A,
+繁中｜HIP 67301,搖光,,,,#FFC94A,
+繁中｜HIP 65477,輔,,,,#FFFFFF,
+繁中｜HIP 11767,北極星（勾陳一）,,,,#6FA8FF,
+繁中｜HIP 91262,織女,,,,#FFFFFF,
+繁中｜HIP 97649,牛郎（河鼓二）,,,,#FFFFFF,
+繁中｜HIP 102098,天津四,,,,#FFFFFF,
+繁中｜HIP 27989,參宿四,,,,#FFFFFF,
+繁中｜HIP 24436,參宿七,,,,#FFFFFF,
+生肖-循環版｜HIP 54061,鼠・羊,,,,#FFFFFF,
+生肖-循環版｜HIP 53910,牛・猴,,,,#FFFFFF,
+生肖-循環版｜HIP 58001,虎・雞,,,,#FFFFFF,
+生肖-循環版｜HIP 59774,兔・狗,,,,#FFFFFF,
+生肖-循環版｜HIP 62956,龍・豬,,,,#FFFFFF,
+生肖-循環版｜HIP 65378,蛇,,,,#FFFFFF,
+生肖-循環版｜HIP 67301,馬,,,,#FFFFFF,
+生肖-折返版｜HIP 54061,鼠,,,,#FFFFFF,
+生肖-折返版｜HIP 53910,牛・豬,,,,#FFFFFF,
+生肖-折返版｜HIP 58001,虎・狗,,,,#FFFFFF,
+生肖-折返版｜HIP 59774,兔・雞,,,,#FFFFFF,
+生肖-折返版｜HIP 62956,龍・猴,,,,#FFFFFF,
+生肖-折返版｜HIP 65378,蛇・羊,,,,#FFFFFF,
+生肖-折返版｜HIP 67301,馬,,,,#FFFFFF,
+本命星君｜HIP 54061,貪狼,,,,#FFC94A,
+本命星君｜HIP 53910,巨門,,,,#FFC94A,
+本命星君｜HIP 58001,祿存,,,,#FFC94A,
+本命星君｜HIP 59774,文曲,,,,#FFC94A,
+本命星君｜HIP 62956,廉貞,,,,#FFC94A,
+本命星君｜HIP 65378,武曲,,,,#FFC94A,
+本命星君｜HIP 67301,破軍,,,,#FFC94A,
