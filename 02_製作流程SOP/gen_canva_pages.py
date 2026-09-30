@@ -92,28 +92,81 @@ class Pages:
                         prev["name"] += f"＝{nm}"
                         prev["shot_next"] = sh
                         continue
-                    if same:                                  # 同框換組：轉場頁
-                        if grp != "長圖":
-                            n_in += 1
-                            pg["name"] = f"長圖轉{grp}{n_in}＝{nm}"
-                        else:
-                            n_out += 1
-                            pg["name"] = f"{prev['group']}轉長圖{n_out}＝{nm}"
-                        pg["trans"] = "無（同框硬切：前一頁複製後只換圖層組）"
-                    else:
-                        pg["trans"] = "無（硬切，新構圖）"
-                        if prev["group"] != grp and grp == "長圖":
-                            pg["trans"] += (f"；{prev['group']}→長圖不同框，"
-                                            "若要同框接回＝複製前頁、倒序轉回 0°")
+                    pg["trans"] = "無（硬切，新構圖）"      # 換圖層組的頁由 _bridges 補轉場
                 elif j == 0:
                     pg["trans"] = "（第一頁）"
                 else:
                     pg["trans"] = f"Match & Move（{pg['sec']:.1f} 秒）"
                 pages.append(pg)
+        pages = self._bridges(pages)
         for i, pg in enumerate(pages, 1):
             pg["no"] = i
         self.pages = pages
         return pages
+
+    # ───────── 長圖⇄盤 轉場（團隊做法：同框換組＋倒放回來） ─────────
+    TRANS_MM = "Match & Move（轉場，≤2.5 秒）"
+
+    def _bridge_page(self, name, group, frame, shot, trans):
+        sh = {k: v for k, v in shot.items()
+              if k not in ("labels", "labels_end", "vo", "note", "overlay", "card")}
+        return dict(name=name, shot=sh, group=group, frame=tuple(frame), t=0.5, sec=0.0,
+                    trans=trans, transition=True)
+
+    def _bridges(self, pages):
+        """長圖→盤：先回長圖中心（走廊 x_t），沿走廊往上到盤心，同框硬切換成盤組。
+        盤→長圖：盤轉回 0° 回到換組那一格，同框硬切換回長圖，再往下回到出發點（＝前面的倒放）。
+        換組那兩頁畫面逐點相同（check_disc_align 驗證），觀眾看不出換了檔。"""
+        same = lambda a, b: all(abs(x - y) < 1e-6 for x, y in zip(a, b))
+        out, state, n_in, n_out = [], None, 0, 0
+        for pg in pages:
+            prev = out[-1] if out else None
+            if prev and prev["group"] == "長圖" and pg["group"] != "長圖":
+                grp, north = pg["group"], pg["group"] == "北盤"
+                xt, yc = self.m.disc_center(north)
+                pf, sh_prev = prev["frame"], prev.get("shot_next") or prev["shot"]
+                n_in += 1
+                if abs(pf[0] - xt) < 1e-6 and abs(pf[1] - yc) < 1e-6:
+                    f_sw = pf[2]
+                    t0 = sh_prev["frames"][0]            # 往上的起點＝這一鏡（T）的起格
+                    origin = tuple(t0) if sh_prev["kind"] == "T" else (xt, 0.0, f_sw, 0.0)
+                else:
+                    f_sw = min(pf[2], pg["frame"][2], 50.0)
+                    origin = (xt, 0.0, f_sw, 0.0)
+                    if not same(pf, origin):
+                        out.append(self._bridge_page(f"長圖轉{grp}{n_in}-回中心", "長圖", origin,
+                                                     sh_prev, self.TRANS_MM))
+                    out.append(self._bridge_page(f"長圖轉{grp}{n_in}-上移", "長圖",
+                                                 (xt, yc, f_sw, 0.0), sh_prev, self.TRANS_MM))
+                sw = (xt, yc, f_sw, 0.0)
+                hard = f"無（同框硬切：畫面完全相同，只把長圖換成{grp}）"
+                if same(pg["frame"], sw):
+                    pg["name"] = f"長圖轉{grp}{n_in}＝{pg['name']}"
+                    pg["trans"] = hard
+                else:
+                    out.append(self._bridge_page(f"長圖轉{grp}{n_in}", grp, sw, pg["shot"], hard))
+                    pg["trans"] = self.TRANS_MM
+                state = (grp, sw, origin)
+            elif prev and prev["group"] != "長圖" and pg["group"] == "長圖" and state:
+                grp, sw, origin = state
+                n_out += 1
+                sh_prev = prev["shot"]
+                if not same(prev["frame"], sw):
+                    out.append(self._bridge_page(f"{grp}轉長圖{n_out}-歸位", grp, sw, sh_prev,
+                                                 self.TRANS_MM + "；盤轉回 0°"))
+                out.append(self._bridge_page(f"{grp}轉長圖{n_out}", "長圖", sw, sh_prev,
+                                             f"無（同框硬切：畫面完全相同，只把{grp}換回長圖）"))
+                down = self.TRANS_MM + f"；＝長圖轉{grp}的倒放"
+                if same(pg["frame"], origin):
+                    pg["name"] = f"{grp}轉長圖{n_out}-下移＝{pg['name']}"
+                    pg["trans"] = down
+                else:
+                    out.append(self._bridge_page(f"{grp}轉長圖{n_out}-下移", "長圖", origin,
+                                                 sh_prev, down))
+                    pg["trans"] = self.TRANS_MM
+                state = None
+            out.append(pg)
+        return out
 
     def _split(self, frs, sec):
         """每段 ≤ seg 秒：在關鍵格之間插中間頁（Canva 元素空間線性內插＝M&M 本身的內插）"""
@@ -176,6 +229,8 @@ class Pages:
     @staticmethod
     def label_names(pg):
         """本頁要開的標籤層：一頁兩用時取下一鏡；鏡頭最後一格可用 labels_end 換層"""
+        if pg.get("transition"):
+            return []
         sh = pg.get("shot_next") or pg["shot"]
         if pg.get("shot_next"):
             return sh.get("labels", [])
@@ -355,7 +410,10 @@ class Pages:
         L = [f"# {self.ep}｜Canva 逐頁製作表（自動產生，勿手改；改鏡頭請改 make 腳本後重跑）", "",
              "- **X／Y＝Canva「位置」面板的左上角**（未旋轉時）；寬高直接填。",
              "- 頁名＝團隊慣例；「＝」表示同一頁兩用（上一鏡迄格＝下一鏡起格）。",
-             "- 「長圖轉北盤」＝前一頁複製一份、只把長圖圖層組換成北盤圖層組（同框硬切）。",
+             "- 長圖→北盤：長圖先回中心、沿走廊往上到北盤心；「長圖轉北盤」＝前一頁複製一份、"
+             "只把長圖圖層組換成北盤圖層組（畫面完全重疊，觀眾看不出換檔）。",
+             "- 北盤→長圖＝倒放：「-歸位」盤轉回 0° 回到換組那一格 →「北盤轉長圖」同框換回長圖 →"
+             "「-下移」往下回到出發點，再繼續長圖上的鏡頭。",
              "- 標籤請看 `逐頁標籤座標.csv`＋`對位參考/`：原生打字，把文字中心放到虛影上。", "",
              "| 頁 | 頁名 | 組 | W | H | X | Y | 旋轉 | 與上一頁 | 留下的圖層 | 旁白 |",
              "|---:|---|---|---:|---:|---:|---:|---:|---|---|---|"]
