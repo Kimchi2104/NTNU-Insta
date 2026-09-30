@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:42.744249</dc:date>
+    <dc:date>2026-09-30T18:23:41.263610</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p81a1f39817)">
+    <g clip-path="url(#padb7622a76)">
      <!-- 鼠・羊 -->
      <g style="fill: #ffffff" transform="translate(490.862054 235.203888) scale(0.05304 -0.05304)">
       <defs>
@@ -186,7 +186,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p81a1f39817)">
+    <g clip-path="url(#padb7622a76)">
      <!-- 牛・猴 -->
      <g style="fill: #ffffff" transform="translate(508.672992 211.331032) scale(0.05304 -0.05304)">
       <defs>
@@ -321,7 +321,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p81a1f39817)">
+    <g clip-path="url(#padb7622a76)">
      <!-- 虎・雞 -->
      <g style="fill: #ffffff" transform="translate(538.430593 217.284157) scale(0.05304 -0.05304)">
       <defs>
@@ -538,7 +538,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p81a1f39817)">
+    <g clip-path="url(#padb7622a76)">
      <!-- 兔・狗 -->
      <g style="fill: #ffffff" transform="translate(550.788768 239.805114) scale(0.05304 -0.05304)">
       <defs>
@@ -690,7 +690,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p81a1f39817)">
+    <g clip-path="url(#padb7622a76)">
      <!-- 龍・豬 -->
      <g style="fill: #ffffff" transform="translate(547.333068 256.643031) scale(0.05304 -0.05304)">
       <defs>
@@ -929,7 +929,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p81a1f39817)">
+    <g clip-path="url(#padb7622a76)">
      <!-- 蛇 -->
      <g style="fill: #ffffff" transform="translate(570.353412 267.952519) scale(0.05304 -0.05304)">
       <defs>
@@ -1029,7 +1029,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p81a1f39817)">
+    <g clip-path="url(#padb7622a76)">
      <!-- 馬 -->
      <g style="fill: #ffffff" transform="translate(599.20202 271.91624) scale(0.05304 -0.05304)">
       <defs>
@@ -1121,7 +1121,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p81a1f39817">
+  <clipPath id="padb7622a76">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>

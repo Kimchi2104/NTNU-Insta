@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:43.090786</dc:date>
+    <dc:date>2026-09-30T18:23:41.606540</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pae08a69f74)">
+    <g clip-path="url(#p5001afaf70)">
      <!-- Долоон бурхан -->
      <g style="fill: #ffc94a" transform="translate(609.560488 298.041936) scale(0.085398 -0.085398)">
       <defs>
@@ -298,7 +298,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pae08a69f74)">
+    <g clip-path="url(#p5001afaf70)">
      <!-- Долоон өвгөн -->
      <g style="fill: #ffc94a" transform="translate(612.216497 319.161317) scale(0.085398 -0.085398)">
       <defs>
@@ -397,7 +397,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pae08a69f74)">
+    <g clip-path="url(#p5001afaf70)">
      <!-- Алтан гадас -->
      <g style="fill: #6fa8ff" transform="translate(437.88262 451.1429) scale(0.085398 -0.085398)">
       <defs>
@@ -510,7 +510,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pae08a69f74)">
+    <g clip-path="url(#p5001afaf70)">
      <!-- Хүн таван од -->
      <g style="fill: #b78aff" transform="translate(300.049985 589.890037) scale(0.085398 -0.085398)">
       <defs>
@@ -588,7 +588,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pae08a69f74">
+  <clipPath id="p5001afaf70">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

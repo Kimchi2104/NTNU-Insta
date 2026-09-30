@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:43.050921</dc:date>
+    <dc:date>2026-09-30T18:23:41.560888</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 天樞 -->
      <g style="fill: #ffc94a" transform="translate(510.226747 336.256176) scale(0.066421 -0.066421)">
       <defs>
@@ -182,7 +182,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 天璇 -->
      <g style="fill: #ffc94a" transform="translate(530.954294 302.648218) scale(0.066421 -0.066421)">
       <defs>
@@ -296,7 +296,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 天璣 -->
      <g style="fill: #ffc94a" transform="translate(573.542479 311.168152) scale(0.066421 -0.066421)">
       <defs>
@@ -429,7 +429,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 天權 -->
      <g style="fill: #ffc94a" transform="translate(586.466195 342.841313) scale(0.066421 -0.066421)">
       <defs>
@@ -596,7 +596,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 玉衡 -->
      <g style="fill: #ffc94a" transform="translate(591.046368 366.381078) scale(0.066421 -0.066421)">
       <defs>
@@ -765,7 +765,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 開陽 -->
      <g style="fill: #ffc94a" transform="translate(608.810543 382.566878) scale(0.066421 -0.066421)">
       <defs>
@@ -962,7 +962,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 搖光 -->
      <g style="fill: #ffc94a" transform="translate(652.925796 388.239636) scale(0.066421 -0.066421)">
       <defs>
@@ -1113,7 +1113,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 輔 -->
      <g style="fill: #ffffff" transform="translate(629.424573 371.639198) scale(0.066421 -0.066421)">
       <defs>
@@ -1266,7 +1266,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 北極星（勾陳一） -->
      <g style="fill: #6fa8ff" transform="translate(437.719015 480.382243) scale(0.066421 -0.066421)">
       <defs>
@@ -1650,7 +1650,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 七尊佛 -->
      <g style="fill: #ffc94a" transform="translate(630.320335 307.376545) scale(0.079072 -0.079072)">
       <defs>
@@ -1884,7 +1884,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 七位老人 -->
      <g style="fill: #ffc94a" transform="translate(626.366728 328.21438) scale(0.079072 -0.079072)">
       <defs>
@@ -2013,7 +2013,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 金樁 -->
      <g style="fill: #6fa8ff" transform="translate(456.38004 460.025167) scale(0.079072 -0.079072)">
       <defs>
@@ -2184,7 +2184,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#pb83721ee7f)">
+    <g clip-path="url(#p1da2dec1c8)">
      <!-- 五顆星的人 -->
      <g style="fill: #b78aff" transform="translate(308.479273 598.955775) scale(0.079072 -0.079072)">
       <defs>
@@ -2414,7 +2414,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pb83721ee7f">
+  <clipPath id="p1da2dec1c8">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

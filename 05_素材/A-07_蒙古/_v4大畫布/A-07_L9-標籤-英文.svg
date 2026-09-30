@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:42.574048</dc:date>
+    <dc:date>2026-09-30T18:23:41.108265</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Dubhe -->
      <g style="fill: #ffc94a" transform="translate(492.830159 234.951948) scale(0.04641 -0.04641)">
       <defs>
@@ -169,7 +169,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Merak -->
      <g style="fill: #ffc94a" transform="translate(509.404985 211.469092) scale(0.04641 -0.04641)">
       <defs>
@@ -300,7 +300,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Phecda -->
      <g style="fill: #ffc94a" transform="translate(538.116186 217.422217) scale(0.04641 -0.04641)">
       <defs>
@@ -381,7 +381,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Megrez -->
      <g style="fill: #ffc94a" transform="translate(550.207215 239.228304) scale(0.04641 -0.04641)">
       <defs>
@@ -449,7 +449,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Alioth -->
      <g style="fill: #ffc94a" transform="translate(548.606679 256.001091) scale(0.04641 -0.04641)">
       <defs>
@@ -564,7 +564,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Mizar -->
      <g style="fill: #ffc94a" transform="translate(562.743602 267.310579) scale(0.04641 -0.04641)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e"/>
@@ -576,7 +576,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Alkaid -->
      <g style="fill: #ffc94a" transform="translate(594.481356 271.2743) scale(0.04641 -0.04641)">
       <use xlink:href="#NotoSerifCJKjp-Regular-22"/>
@@ -589,7 +589,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Alcor -->
      <g style="fill: #ffffff" transform="translate(576.967922 259.675092) scale(0.04641 -0.04641)">
       <use xlink:href="#NotoSerifCJKjp-Regular-22"/>
@@ -601,7 +601,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Polaris -->
      <g style="fill: #6fa8ff" transform="translate(457.620519 335.657013) scale(0.04641 -0.04641)">
       <defs>
@@ -640,7 +640,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Vega -->
      <g style="fill: #ffffff" transform="translate(573.882193 499.7988) scale(0.04641 -0.04641)">
       <defs>
@@ -671,7 +671,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Altair -->
      <g style="fill: #ffffff" transform="translate(524.756429 590.382481) scale(0.04641 -0.04641)">
       <use xlink:href="#NotoSerifCJKjp-Regular-22"/>
@@ -684,7 +684,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Deneb -->
      <g style="fill: #ffffff" transform="translate(490.988148 483.213673) scale(0.04641 -0.04641)">
       <defs>
@@ -730,7 +730,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Betelgeuse -->
      <g style="fill: #ffffff" transform="translate(126.213063 581.381202) scale(0.04641 -0.04641)">
       <defs>
@@ -779,7 +779,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#pf26ff550de)">
+    <g clip-path="url(#p20be46c4e8)">
      <!-- Rigel -->
      <g style="fill: #ffffff" transform="translate(159.004595 634.443953) scale(0.04641 -0.04641)">
       <defs>
@@ -828,7 +828,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pf26ff550de">
+  <clipPath id="p20be46c4e8">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>

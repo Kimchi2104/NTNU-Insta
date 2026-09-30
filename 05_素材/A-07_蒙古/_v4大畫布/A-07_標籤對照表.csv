@@ -1,16 +1,16 @@
 ﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
 北斗-佛,Долоон бурхан,Doloon Burkhan,Seven Buddhas / Seven Gods,七尊佛,#FFC94A,Stellarium mongolian CON 003；бурхан＝佛、神
 北斗-老人,Долоон өвгөн,Doloon Övgön,Seven Old Men,七位老人,#FFC94A,蒙古語別名（Wiktionary: Big Dipper）
-金樁,Алтан гадас,Altan Gadas,Golden Stake (tethering peg),金樁,#6FA8FF,Stellarium 作 Altan Hadaas（хадаас＝釘子）；其 zh_TW 譯「黃金賭注」是誤譯
+金樁,Алтан гадас,Altan Gadas,Golden Stake (tethering peg),金樁,#6FA8FF,蒙古通行寫法 Алтан гадас；Stellarium 拼作 Altan Hadaas（хадаас＝釘子），其 zh_TW 譯「黃金賭注」是誤譯
 弓箭,Нум сум,Num Sum,Bow and Arrow,弓與箭,#7BD88F,Stellarium mongolian CON 001（天鵝座）；僅此一來源
 五星人,Хүн таван од,Khün Tavan Od,Five-Star Person,五顆星的人,#B78AFF,Stellarium 譯 Five Stars Woman；хүн＝人
-三頭鹿,Гурван марал,Gurvan Maral,Three (Red) Deer,三頭鹿,#FFC94A,＝獵戶座腰帶（蒙古語辭典、奧伊拉特口傳）；Stellarium 錯置在夏季大三角
+三頭鹿,Гурван марал,Gurvan Maral,"Three (Red) Deer, female",三頭鹿,#FFC94A,＝獵戶座腰帶（蒙古語辭典、Хөхдэй мэргэн 傳說）；марал＝母鹿；Stellarium 錯置在夏季大三角且譯作雄鹿
 銀河,Тэнгэрийн заадас,Tengeriin Zaadas,Seam of the Sky,天空的縫線,#FFFFFF,蒙古語銀河；заадас＝縫線
 昴,Мичид,Michid,the Pleiades,昴,#FFFFFF,蒙古語昴星團（牧民季節曆）；只上標籤不唸
 跨文化,Долоон бурхан,,,七尊佛（蒙古）,#FFC94A,Stellarium
-跨文化,Лось,,,麋鹿（西伯利亞）,#FFFFFF,Stellarium
+跨文化,Лось,,,駝鹿（西伯利亞）,#FFFFFF,Stellarium
 跨文化,Tukturjuit,,,馴鹿（因紐特）,#FFFFFF,Stellarium
-跨文化,بنات نعش,,,送葬的女兒們（阿拉伯）,#FFFFFF,Stellarium
+跨文化,بنات نعش,,,抬棺架的女兒們（阿拉伯）,#FFFFFF,Stellarium
 跨文化,Karlvagn,,,男人的車（北歐）,#FFFFFF,Stellarium
 跨文化,Seven Brothers and Their Sister,,,七兄弟和妹妹（黑腳族）,#FFFFFF,Stellarium
 跨文化,Sos Sette Frades,,,七兄弟（薩丁尼亞）,#FFFFFF,Stellarium

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:43.117630</dc:date>
+    <dc:date>2026-09-30T18:23:41.632768</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p85a7f33035)">
+    <g clip-path="url(#p503bc8cb2a)">
      <!-- Doloon Burkhan -->
      <g style="fill: #ffc94a" transform="translate(611.647844 307.256355) scale(0.075909 -0.075909)">
       <defs>
@@ -312,7 +312,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p85a7f33035)">
+    <g clip-path="url(#p503bc8cb2a)">
      <!-- Doloon Övgön -->
      <g style="fill: #ffc94a" transform="translate(615.94502 327.66898) scale(0.075909 -0.075909)">
       <defs>
@@ -437,7 +437,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p85a7f33035)">
+    <g clip-path="url(#p503bc8cb2a)">
      <!-- Altan Gadas -->
      <g style="fill: #6fa8ff" transform="translate(442.129461 459.904977) scale(0.075909 -0.075909)">
       <defs>
@@ -572,7 +572,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p85a7f33035)">
+    <g clip-path="url(#p503bc8cb2a)">
      <!-- Khün Tavan Od -->
      <g style="fill: #b78aff" transform="translate(299.733301 598.835586) scale(0.075909 -0.075909)">
       <defs>
@@ -704,7 +704,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p85a7f33035">
+  <clipPath id="p503bc8cb2a">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

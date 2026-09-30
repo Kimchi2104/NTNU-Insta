@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:42.852125</dc:date>
+    <dc:date>2026-09-30T18:23:41.377560</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p3ae81846a5)">
+    <g clip-path="url(#p234b0e8c95)">
      <!-- Долоон бурхан -->
      <g style="fill: #ffc94a" transform="translate(439.444977 174.768645) scale(0.05304 -0.05304)">
       <defs>
@@ -298,7 +298,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p3ae81846a5)">
+    <g clip-path="url(#p234b0e8c95)">
      <!-- Лось -->
      <g style="fill: #ffffff" transform="translate(453.330269 189.728931) scale(0.05304 -0.05304)">
       <defs>
@@ -379,7 +379,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p3ae81846a5)">
+    <g clip-path="url(#p234b0e8c95)">
      <!-- Tukturjuit -->
      <g style="fill: #ffffff" transform="translate(446.355095 203.888645) scale(0.05304 -0.05304)">
       <defs>
@@ -572,7 +572,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p3ae81846a5)">
+    <g clip-path="url(#p234b0e8c95)">
      <!-- ﺶﻌﻧ ﺕﺎﻨﺑ -->
      <g style="fill: #ffffff" transform="translate(448.785404 218.519503) scale(0.05304 -0.05304)">
       <defs>
@@ -790,7 +790,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p3ae81846a5)">
+    <g clip-path="url(#p234b0e8c95)">
      <!-- Karlvagn -->
      <g style="fill: #ffffff" transform="translate(448.140222 233.037651) scale(0.05304 -0.05304)">
       <defs>
@@ -974,7 +974,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p3ae81846a5)">
+    <g clip-path="url(#p234b0e8c95)">
      <!-- Seven Brothers and Their Sister -->
      <g style="fill: #ffffff" transform="translate(419.04281 247.968931) scale(0.05304 -0.05304)">
       <defs>
@@ -1178,7 +1178,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p3ae81846a5)">
+    <g clip-path="url(#p234b0e8c95)">
      <!-- Sos Sette Frades -->
      <g style="fill: #ffffff" transform="translate(438.976734 262.528931) scale(0.05304 -0.05304)">
       <defs>
@@ -1232,7 +1232,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p3ae81846a5">
+  <clipPath id="p234b0e8c95">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>

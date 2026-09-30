@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """A-07 蒙古｜概念圖（C 系列骨架）
-  C-A07-01_生肖值班表兩個版本   → 逐字稿 06–07 鏡疊用（9:16 圖卡＋方形分層）
+  C-A07-01_生肖本命星兩個版本   → 逐字稿 06–07 鏡疊用（9:16 圖卡＋方形分層）
   C-A07-02_七兄弟不是一家人     → 逐字稿 08 鏡疊用（距離＋大熊座移動星群）
 輸出：05_素材/A-07_蒙古/_概念圖/
 距離＝依巴谷視差（van Leeuwen 2007）換算，四捨五入到 0.1 光年；見逐字稿考據備忘。
@@ -39,15 +39,15 @@ def route(ax, y, seq2, col, lab):
 
 def card_01():
     f, ax = C.newcard(dark=True)
-    T(ax, .5, .945, "生肖值班表：兩個版本", 24, WHITE)
-    T(ax, .5, .905, "七顆星、十二年——走到斗柄尾端之後怎麼辦？", 12.5, GREY, w="normal")
+    T(ax, .5, .945, "生肖本命星：兩個版本", 24, WHITE)
+    T(ax, .5, .905, "七顆星、十二生肖——數到斗柄尾端之後怎麼辦？", 12.5, GREY, w="normal")
     # 表頭
     y0, dy = .83, .046
     for x, t, c in ((.16, "北斗", WHITE), (.40, "循環版", AMBER), (.66, "折返版", BLUE),
                     (.88, "本命星君", BLUE)):
         T(ax, x, y0, t, 14, c)
     T(ax, .40, y0 - .026, "Stellarium 記錄", 9, AMBER, w="normal")
-    T(ax, .66, y0 - .026, "蒙古《北斗經》", 9, BLUE, w="normal")
+    T(ax, .66, y0 - .026, "蒙古《北斗七星經》", 9, BLUE, w="normal")
     T(ax, .88, y0 - .026, "台灣禮斗同一張表", 9, BLUE, w="normal")
     for i in range(7):
         y = y0 - .07 - i * dy
@@ -63,15 +63,15 @@ def card_01():
     ax.add_patch(C.FancyBboxPatch((.06, yb - .085), .88, .075,
                                   boxstyle="round,pad=0.008,rounding_size=0.015",
                                   fc="#1B2240", ec=AMBER, lw=1.2, zorder=2))
-    T(ax, .5, yb - .03, "2026 馬年：兩版都輪到 搖光（破軍）", 13.5, AMBER)
-    T(ax, .5, yb - .062, "2027 羊年起分家：循環版回到天樞　折返版退到開陽", 11, WHITE,
+    T(ax, .5, yb - .03, "2026 馬年出生：兩版都是 搖光（破軍）", 13.5, AMBER)
+    T(ax, .5, yb - .062, "2027 羊年出生起分家：循環版回到天樞　折返版退到開陽", 11, WHITE,
       w="normal")
     # 兩條路線示意（第二輪 8–12 落在哪顆星）
     route(ax, .262, [0, 1, 2, 3, 4], AMBER, "循環：7 馬之後跳回天樞，8 羊…12 豬")
     route(ax, .122, [5, 4, 3, 2, 1], BLUE, "折返：7 馬之後原路退回，8 羊在開陽…12 豬在天璇")
     T(ax, .5, .045, "資料：Stellarium mongolian／Elverskog 2006〈The Mongolian Big Dipper Sūtra〉"
                     "／《太上玄靈北斗本命延生真經》", 7.5, GREY, w="normal")
-    C.save(f, "", "C-A07-01_生肖值班表兩個版本_圖卡.png", transparent=False)
+    C.save(f, "", "C-A07-01_生肖本命星兩個版本_圖卡.png", transparent=False)
 
 
 DIST = [("天樞", "Dubhe", 123.0, False), ("天璇", "Merak", 79.7, True),

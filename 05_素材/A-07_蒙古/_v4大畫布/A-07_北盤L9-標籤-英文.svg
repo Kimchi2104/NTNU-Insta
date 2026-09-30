@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:43.010404</dc:date>
+    <dc:date>2026-09-30T18:23:41.530934</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Dubhe -->
      <g style="fill: #ffc94a" transform="translate(503.536179 336.256176) scale(0.066421 -0.066421)">
       <defs>
@@ -169,7 +169,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Merak -->
      <g style="fill: #ffc94a" transform="translate(527.257572 302.648218) scale(0.066421 -0.066421)">
       <defs>
@@ -300,7 +300,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Phecda -->
      <g style="fill: #ffc94a" transform="translate(568.348181 311.168152) scale(0.066421 -0.066421)">
       <defs>
@@ -381,7 +381,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Megrez -->
      <g style="fill: #ffc94a" transform="translate(585.652499 342.376369) scale(0.066421 -0.066421)">
       <defs>
@@ -449,7 +449,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Alioth -->
      <g style="fill: #ffc94a" transform="translate(583.36186 366.381078) scale(0.066421 -0.066421)">
       <defs>
@@ -564,7 +564,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Mizar -->
      <g style="fill: #ffc94a" transform="translate(603.5942 382.566878) scale(0.066421 -0.066421)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e"/>
@@ -576,7 +576,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Alkaid -->
      <g style="fill: #ffc94a" transform="translate(649.016321 388.239636) scale(0.066421 -0.066421)">
       <use xlink:href="#NotoSerifCJKjp-Regular-22"/>
@@ -589,7 +589,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Alcor -->
      <g style="fill: #ffffff" transform="translate(623.951619 371.639198) scale(0.066421 -0.066421)">
       <use xlink:href="#NotoSerifCJKjp-Regular-22"/>
@@ -601,7 +601,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#p737fa33b9b)">
+    <g clip-path="url(#p831a871a3e)">
      <!-- Polaris -->
      <g style="fill: #6fa8ff" transform="translate(453.145199 480.382243) scale(0.066421 -0.066421)">
       <defs>
@@ -642,7 +642,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p737fa33b9b">
+  <clipPath id="p831a871a3e">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-30T18:08:42.699774</dc:date>
+    <dc:date>2026-09-30T18:23:41.232541</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Doloon Burkhan -->
      <g style="fill: #ffc94a" transform="translate(568.370917 214.688931) scale(0.05304 -0.05304)">
       <defs>
@@ -312,7 +312,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Doloon Övgön -->
      <g style="fill: #ffc94a" transform="translate(571.373479 228.951825) scale(0.05304 -0.05304)">
       <defs>
@@ -437,7 +437,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Altan Gadas -->
      <g style="fill: #6fa8ff" transform="translate(449.923504 321.348953) scale(0.05304 -0.05304)">
       <defs>
@@ -572,7 +572,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Num Sum -->
      <g style="fill: #7bd88f" transform="translate(444.475648 522.241437) scale(0.05304 -0.05304)">
       <defs>
@@ -682,7 +682,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Khün Tavan Od -->
      <g style="fill: #b78aff" transform="translate(350.427175 418.423801) scale(0.05304 -0.05304)">
       <defs>
@@ -812,7 +812,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Gurvan Maral -->
      <g style="fill: #ffc94a" transform="translate(132.76934 600.040933) scale(0.05304 -0.05304)">
       <defs>
@@ -866,7 +866,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Tengeriin Zaadas -->
      <g style="fill: #ffffff" transform="translate(440.629803 491.077642) scale(0.05304 -0.05304)">
       <defs>
@@ -951,7 +951,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pee34e23e12)">
+    <g clip-path="url(#pd97cb2d41b)">
      <!-- Michid -->
      <g style="fill: #ffffff" transform="translate(212.161314 541.66368) scale(0.05304 -0.05304)">
       <defs>
@@ -983,7 +983,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pee34e23e12">
+  <clipPath id="pd97cb2d41b">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>
