@@ -16,7 +16,8 @@
    "L7-標籤-和名"
   ],
   "notes": "你今天在路上一定看過這六顆星。它是日本現存最古老的星名，寫在一千一百年前的字典裡，現在印在車頭上——すばる。昴。同一片星空，日本人把它，叫回自己的話。",
-  "trans": "（第一頁）"
+  "trans": "（第一頁）",
+  "mountain_top": null
  },
  {
   "page": 2,
@@ -35,7 +36,8 @@
    "L7-標籤-和名"
   ],
   "notes": "",
-  "trans": "Match & Move（16.0 秒）"
+  "trans": "Match & Move（16.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 3,
@@ -54,6 +56,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -91,6 +94,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -135,6 +139,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -186,6 +191,7 @@
   ],
   "notes": "但要從一座墳墓講起。奈良縣明日香村，キトラ古墳，七世紀末。一九八三年，纖維鏡從盜掘孔照見北壁的玄武。一九九八年，相機再進去一次，才看見天花板上是一整片星空——而且是中國的星空。",
   "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [],
   "panel": null
@@ -206,7 +212,8 @@
    "L4-星座連線"
   ],
   "notes": "三百六十顆以上的金箔星點，直徑六公釐；七十四個星官用朱線連起來；外面四個同心圓：內規、赤道、外規、黃道。東邊一枚金的太陽，西邊一枚銀的月亮。",
-  "trans": "Match & Move（18.0 秒）"
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 8,
@@ -224,7 +231,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（16.0 秒）"
+  "trans": "Match & Move（16.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 9,
@@ -243,6 +251,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -280,6 +289,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -324,6 +334,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -375,6 +386,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [],
   "panel": null
@@ -395,7 +407,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "",
-  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）"
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
  },
  {
   "page": 14,
@@ -413,7 +426,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "奈良文化財研究所的說法要聽清楚：它是「具備那四個圈的完整中國式圓形星圖裡，現存世界最古老的一張」。不是「最古老的星圖」——敦煌星圖比它早或同時。",
-  "trans": "Match & Move（轉場，≤2.5 秒）"
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
  },
  {
   "page": 15,
@@ -431,7 +445,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "更誠實的是：它量不出來。宮島一彥算出觀測緯度三十七到三十八度、平壤、公元前六十五年；相馬充算出三十三點九度、長安、公元三百年。奈文研自己的結論是——這張圖畫得不夠準，兩邊都不能信。",
-  "trans": "Match & Move（18.0 秒）"
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 16,
@@ -449,7 +464,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（20.0 秒）"
+  "trans": "Match & Move（20.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 17,
@@ -468,6 +484,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -505,6 +522,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [],
   "panel": null
@@ -525,7 +543,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°"
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
  },
  {
   "page": 20,
@@ -543,7 +562,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）"
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
  },
  {
   "page": 21,
@@ -561,7 +581,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放"
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
  },
  {
   "page": 22,
@@ -581,7 +602,8 @@
    "L7-標籤-和名"
   ],
   "notes": "所以真正有意思的不是那張圖。是日本人照抄了整套格子，卻沒有照抄名字。",
-  "trans": "Match & Move（轉場，≤2.5 秒）"
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
  },
  {
   "page": 23,
@@ -602,7 +624,8 @@
    "L8-標籤-和名語意"
   ],
   "notes": "江戶時代，學者替二十八宿每一宿配了一個日文讀法。看西邊這七宿：奎，斗掻き星——刮平米斗的那根棒子。婁，蹈鞴星——辭書說是踩著送風的煉鐵風箱。胃。昴，すばる。畢，雨降り星。觜。参，唐鋤星——一把犁。",
-  "trans": "Match & Move（10.0 秒）"
+  "trans": "Match & Move（10.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 24,
@@ -623,7 +646,8 @@
    "L8-標籤-和名語意"
   ],
   "notes": "上一集我們說，韓國的星圖替中國保存了一整份官職名冊。心宿是天王正位，房宿是明堂。到了日本，同一片天變成——量米的棒子、煉鐵的風箱、下雨、一把犁。",
-  "trans": "Match & Move（25.0 秒）"
+  "trans": "Match & Move（25.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 25,
@@ -644,7 +668,8 @@
    "L8-標籤-和名語意"
   ],
   "notes": "",
-  "trans": "Match & Move（16.0 秒）"
+  "trans": "Match & Move（16.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 26,
@@ -665,7 +690,8 @@
    "L8-標籤-和名語意"
   ],
   "notes": "再往東邊掃：井，ちちり。鬼，魂緒の星。柳，ぬりこ。星，ほとおり星——可能是「熱」。張，ちりこ。翼，たすき星——一說是綁袖子幹活的那條帶。軫，みつかけ。",
-  "trans": "無（硬切，新構圖）"
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
  },
  {
   "page": 27,
@@ -684,7 +710,8 @@
    "L7-標籤-和名"
   ],
   "notes": "這裡要停一下。這些不是自古流傳的民間星名，是江戶中期學者配的訓讀；野尻抱影自己就這麼寫。而且二十八個裡面，到今天還沒有公認語意的，有十一個。",
-  "trans": "Match & Move（15.0 秒）"
+  "trans": "Match & Move（15.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 28,
@@ -703,7 +730,8 @@
    "L7-標籤-和名"
   ],
   "notes": "",
-  "trans": "Match & Move（18.0 秒）"
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 29,
@@ -721,7 +749,8 @@
    "L4-星座連線"
   ],
   "notes": "更麻煩的是：真正的民間星名跟這套對不上。日本農民看畢宿，叫它釣鐘星、稲叢星、扇星——完全沒有雨。「雨降り星」是把中國《詩經》那句「月離于畢，俾滂沱矣」整句搬過來的。",
-  "trans": "無（硬切，新構圖）"
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
  },
  {
   "page": 30,
@@ -739,7 +768,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（20.0 秒）"
+  "trans": "Match & Move（20.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 31,
@@ -759,7 +789,8 @@
    "L8-標籤-和名語意"
   ],
   "notes": "但有兩個是真的。第一個是すばる。《古事記》裡有「美須麻流之珠」——一串串起來的玉。《和名類聚抄》——大約九三四年——寫「昴星，和名須八流」。《枕草子》寫星星那一段，第一句就是「星は、すばる」。語源是統ばる：把散的東西束成一把。",
-  "trans": "無（硬切，新構圖）"
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
  },
  {
   "page": 32,
@@ -777,7 +808,8 @@
    "L4-星座連線"
   ],
   "notes": "一九五五年，富士重工第一任社長北謙治堅持日本車要有日本名字，選了すばる；六顆星，是五家出資公司加上富士重工。一千一百年前的星名，現在每天在路上跑。",
-  "trans": "Match & Move（20.0 秒）"
+  "trans": "Match & Move（20.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 33,
@@ -795,7 +827,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（16.0 秒）"
+  "trans": "Match & Move（16.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 34,
@@ -814,6 +847,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [
    {
@@ -851,6 +885,7 @@
   ],
   "notes": "",
   "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
   "hold": true,
   "overlay": [],
   "panel": null
@@ -871,7 +906,8 @@
    "L4-星座連線"
   ],
   "notes": "第二個是からすきぼし。参宿的三顆腰帶加下面的小三星，排成一個彎柄——那是犁。而同一排星，蘇拉威西的布吉人叫「犁」，羅馬尼亞叫「小犁」，白俄羅斯叫「割草的人」，西伯利亞叫「打穀的人」，亞馬遜的圖卡諾人叫「錛子的柄」，四國叫「桛星」——繞紗的線框。",
-  "trans": "無（硬切，新構圖）"
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
  },
  {
   "page": 37,
@@ -889,7 +925,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（25.0 秒）"
+  "trans": "Match & Move（25.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 38,
@@ -907,7 +944,8 @@
    "L4-星座連線"
   ],
   "notes": "這不太可能是互相抄來的。每一個靠天吃飯的地方，都把那排星星，看成自己手裡的那件工具。",
-  "trans": "無（硬切，新構圖）"
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
  },
  {
   "page": 39,
@@ -925,7 +963,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（14.0 秒）"
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 40,
@@ -943,7 +982,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "",
-  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）"
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
  },
  {
   "page": 41,
@@ -961,7 +1001,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "而日本的天不是只有農具。北極星和北斗，七世紀經由高句麗、百濟的渡來人傳進來，變成妙見菩薩——千葉一族的戰神。宮廷裡的陰陽寮則規定：天上有異變，要密封直奏天皇，連太政官都不能看。",
-  "trans": "Match & Move（轉場，≤2.5 秒）"
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
  },
  {
   "page": 42,
@@ -979,7 +1020,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（18.0 秒）"
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
  },
  {
   "page": 43,
@@ -997,7 +1039,8 @@
    "北盤L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°"
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
  },
  {
   "page": 44,
@@ -1015,7 +1058,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）"
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
  },
  {
   "page": 45,
@@ -1033,7 +1077,8 @@
    "L4-星座連線"
   ],
   "notes": "",
-  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放"
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
  },
  {
   "page": 46,
@@ -1052,7 +1097,8 @@
    "L7-標籤-和名"
   ],
   "notes": "今晚九點以後往東邊到東北東等。昴會先升起來，一小時後是畢，再兩小時是参。白虎那七宿，會照著名字的順序上工。下週五中秋，我們把二十八宿整圈走完。",
-  "trans": "Match & Move（轉場，≤2.5 秒）"
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
  },
  {
   "page": 47,
@@ -1071,6 +1117,7 @@
    "L7-標籤-和名"
   ],
   "notes": "",
-  "trans": "Match & Move（15.0 秒）"
+  "trans": "Match & Move（15.0 秒）",
+  "mountain_top": null
  }
 ]

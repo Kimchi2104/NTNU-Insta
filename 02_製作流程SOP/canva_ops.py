@@ -4,7 +4,8 @@
 給 Claude 用：每一頁輸出一批 operations，照順序送進 edit-design 即可。
 媒體 ID 記在 05_素材/{集}/_v4大畫布/{EP}_Canva媒體ID.json（上傳一次、之後都讀這份）：
 
-  {"long": [L1..L4 的 media id], "north": [...], "south": [...],
+  {"layers": {"L1-銀河": id, …, "北盤L1-銀河": id, …}   ← A-07 起（每層一個）
+   或 "long": [L1..L4 的 media id], "north": [...], "south": [...]   ← A-05
    "mountain": "MAD4KTwSGtw", "background": "MAHWs5D_MpY",
    "concept": {"C-A05-01_六連星_星點層_透明.png": "MAHW...", ...}}
 
@@ -39,15 +40,28 @@ def text_w(t, f):
 
 def page_ops(pg, pid, media, labels=()):
     """一頁的完整 ops：背景 → 天空四層 → 山 → 原生標籤 → 概念圖框 → 概念圖 → 備註"""
-    grp = {"長圖": "long", "北盤": "north", "南盤": "south"}[pg["group"]]
     ops = [{"type": "update_fill", "locator_id": pid, "asset_type": "image",
             "asset_id": media["background"], "alt_text": "背景漸層"}]
-    for i, a in enumerate(media[grp], 1):
+    if "layers" in media:                       # 每層各自的 media id（A-07 起：L5/L6/L7 也要放）
+        sky = [(n, media["layers"][n]) for n in pg["layers"] if "標籤" not in n]
+    else:                                       # A-05：只有 L1–L4
+        grp = {"長圖": "long", "北盤": "north", "南盤": "south"}[pg["group"]]
+        sky = [(f"{pg['group']} L{i}", a) for i, a in enumerate(media[grp], 1)]
+    for nm, a in sky:
         ops.append({"type": "insert_fill", "page_id": pid, "asset_type": "image", "asset_id": a,
-                    "alt_text": f"{pg['group']} L{i}", "left": pg["left"], "top": pg["top"],
+                    "alt_text": nm, "left": pg["left"], "top": pg["top"],
                     "width": pg["width"], "height": pg["height"], "rotation": pg["rotation"]})
+    mt = pg.get("mountain_top")
+    if mt is not None:                          # 地平線升高：山上移，下面補地面（黑）
+        gt = mt + MOUNT["height"] - 20
+        ops.append({"type": "insert_shape", "page_id": pid, "left": MOUNT["left"], "top": round(gt, 1),
+                    "width": MOUNT["width"], "height": round(1940 - gt, 1),
+                    "path": f"M0 0H{MOUNT['width']:.1f}V{1940 - gt:.1f}H0Z",
+                    "view_box_width": round(MOUNT["width"], 1), "view_box_height": round(1940 - gt, 1),
+                    "color": "#000000", "stroke_weight": 0})
     ops.append({"type": "insert_fill", "page_id": pid, "asset_type": "image",
-                "asset_id": media["mountain"], "alt_text": "山的剪影", **MOUNT})
+                "asset_id": media["mountain"], "alt_text": "山的剪影",
+                **dict(MOUNT, top=mt if mt is not None else MOUNT["top"])})
     for lb in labels:
         f = min(max(int(lb["字級px"]), LABEL_MIN), LABEL_MAX)
         X, Y = int(lb["中心X px"]), int(lb["中心Y px"])

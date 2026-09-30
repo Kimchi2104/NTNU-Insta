@@ -94,7 +94,11 @@ class Pages:
                         prev["shot_next"] = sh
                         first = len(pages) - 1
                         continue
-                    pg["trans"] = "無（硬切，新構圖）"      # 換圖層組的頁由 _bridges 補轉場
+                    # 同一圖層組的鏡頭之間：鏡頭滑過去（Match & Move）；只有腳本明寫【硬切】才硬切
+                    # （框位差一點又硬切＝跳一下，最明顯）。換圖層組的頁由 _bridges 補轉場
+                    cut = sh.get("cut") or "硬切" in sh.get("note", "")
+                    pg["trans"] = ("無（硬切，新構圖）" if cut or prev["group"] != grp
+                                   else self.TRANS_MM)
                 elif j == 0:
                     pg["trans"] = "（第一頁）"
                 else:
@@ -359,6 +363,20 @@ class Pages:
             out.append((phi, Y))
         return out
 
+    def mountain_top(self, pg):
+        """山的剪影上緣 Y（有地平線的鏡頭）：起格用第一個緯度、迄格用最後一個；
+        一頁兩用時取下一鏡的起格。None＝沿用團隊模板位置"""
+        if pg["group"] == "長圖":
+            return None
+        sh = pg.get("shot_next") or pg["shot"]
+        hz = sh.get("horizon") or []
+        if not hz:
+            return None
+        phi = hz[0] if (pg.get("shot_next") or pg["t"] < 1.0) else hz[-1]
+        cx, cy, fov, rot = pg["frame"]
+        yc = self.m.disc_center(pg["group"] == "北盤")[1]
+        return PH / 2 - (yc - self.m.k * phi - cy) * PW / fov
+
     def horizon_curve(self, pg, phi):
         """地平線在頁面上的整條曲線（固定不動；天空在它後面轉）"""
         m = self.m
@@ -434,6 +452,8 @@ class Pages:
                 "width": round(pl["W"], 2), "height": round(pl["H"], 2),
                 "rotation": round(pl["rot"], 2), "layers": r["留下的圖層"].split("、"),
                 "notes": r["旁白（本頁起播）"], "trans": r["與上一頁"],
+                "mountain_top": (round(self.mountain_top(pg), 1)
+                                 if self.mountain_top(pg) is not None else None),
                 **self._overlay_api(pg)}
                for r, pl, pg in zip(rows, (self.placement(pg) for pg in pages), pages)]
         json.dump(api, open(os.path.join(self.dir, f"{self.ep}_Canva頁面參數.json"), "w",

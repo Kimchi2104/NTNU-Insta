@@ -316,7 +316,7 @@ def build():
         dict(code="06", kind="Z", sec=20, north=True,
              frames=[(dipc[0], dipc[1], 52.0, 0.0), (dipc[0], dipc[1], 52.0, 0.0)],
              layers=["L4"], labels=["生肖-循環版"], labels_end=["生肖-折返版"],
-             overlay="C-A07-01_生肖本命星兩個版本",
+             overlay="C-A07-01_生肖本命星兩個版本", overlay_layers=["北斗層", "循環版層", "折返版層"],
              vo="明年羊年，版本就分家了。Stellarium 記的是從頭再數：羊回到天樞。"
                 "蒙古文的《北斗七星經》，還有今天蒙古人拜星的說法，卻是折返：羊在開陽、"
                 "猴在玉衡，一路退回去，豬落在天璇。",
@@ -332,7 +332,7 @@ def build():
         dict(code="08", kind="Z", sec=22, north=True,
              frames=[(dipc[0], dipc[1], 58.0, 0.0), (dipc[0], dipc[1], 50.0, 0.0)],
              layers=["L4"], labels=["繁中"],
-             overlay="C-A07-02_七兄弟不是一家人",
+             overlay="C-A07-02_七兄弟不是一家人", overlay_layers=["距離層", "結論層"],
              vo="但這七兄弟，其實不是一家人。量過距離：中間五顆都在八十光年上下，"
                 "一起誕生、朝同一個方向走；天樞一百二十三光年、搖光一百零四光年，"
                 "只是剛好路過。大約五萬年後，這把勺子就認不出來了。",
@@ -350,7 +350,7 @@ def build():
              layers=["L4"], labels=["蒙古原文"],
              vo="Stellarium 收的蒙古星座不多。沿著金樁往下，是銀河——蒙古人叫它 "
                 "Тэнгэрийн заадас，天空的縫線。",
-             note="【硬切】到金樁置中，沿北走廊（RA 305＝銀河）往下到天鵝座"),
+             note="從北斗平移到金樁置中（Match & Move），再沿北走廊（RA 305＝銀河）往下到天鵝座"),
         dict(code="11", kind="Z", sec=20, north=True,
              frames=[(tri[0] - 4.0, tri[1], 64.0, 0.0), (20.0, 6.0, 40.0, 0.0)],
              layers=["L4", "Stellarium三雄鹿"], labels=["繁中", "Stellarium錯置"],
