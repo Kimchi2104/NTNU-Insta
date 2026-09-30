@@ -27,6 +27,7 @@
   python3 gen_canva_pages.py A-07 --no-png     # 只出表格
 """
 import os, sys, csv, json, math, glob, argparse
+import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gen_ep_assets as G
 import gen_master_canvas as MC
@@ -43,6 +44,13 @@ def find_folder(base, ep):
     if not hits:
         sys.exit(f"找不到 {ep}_畫布資訊.json（先跑 make_{ep.lower().replace('-', '')}_v4.py）")
     return os.path.dirname(hits[0])
+
+
+# 團隊模板山的剪影（left −212.3、寬 1939.08）稜線比圖框上緣低多少 px（頁面 x → 深度；A-08 P36 縮圖量得）
+RIDGE_DIP = [(0, 208), (40, 201), (80, 192), (120, 182), (160, 169), (200, 147), (240, 124),
+             (280, 121), (320, 137), (360, 148), (400, 156), (440, 160), (480, 153), (520, 130),
+             (560, 108), (600, 92), (640, 73), (680, 30), (720, 3), (760, 38), (800, 54),
+             (840, 70), (880, 117), (920, 160), (960, 185), (1000, 198), (1040, 201), (1080, 205)]
 
 
 class Pages:
@@ -365,7 +373,10 @@ class Pages:
 
     def mountain_top(self, pg):
         """山的剪影上緣 Y（有地平線的鏡頭）：起格用第一個緯度、迄格用最後一個；
-        一頁兩用時取下一鏡的起格。None＝沿用團隊模板位置"""
+        一頁兩用時取下一鏡的起格。None＝沿用團隊模板位置。
+        山稜線高低不平（山谷比山頂低 0–210 px，RIDGE_DIP），地平線在盤上又是往兩側翹的弧：
+        取整頁「地平線 Y − 山谷深度」的中位數，稜線才會大致壓在地平線上，
+        地平線以下的星（例：A-08 台北 20:00 的斗口）不會從山谷裡露出來。"""
         if pg["group"] == "長圖":
             return None
         sh = pg.get("shot_next") or pg["shot"]
@@ -373,9 +384,15 @@ class Pages:
         if not hz:
             return None
         phi = hz[0] if (pg.get("shot_next") or pg["t"] < 1.0) else hz[-1]
-        cx, cy, fov, rot = pg["frame"]
-        yc = self.m.disc_center(pg["group"] == "北盤")[1]
-        return PH / 2 - (yc - self.m.k * phi - cy) * PW / fov
+        pts = sorted((x, y) for p in self.horizon_curve(pg, phi) if p
+                     for x, y in [p] if -300 < x < PW + 300)
+        if len(pts) < 2:
+            cx, cy, fov, rot = pg["frame"]
+            yc = self.m.disc_center(pg["group"] == "北盤")[1]
+            return PH / 2 - (yc - self.m.k * phi - cy) * PW / fov
+        hx, hy = [p[0] for p in pts], [p[1] for p in pts]
+        need = sorted(float(np.interp(x, hx, hy)) - d for x, d in RIDGE_DIP)
+        return need[len(need) // 2]
 
     def horizon_curve(self, pg, phi):
         """地平線在頁面上的整條曲線（固定不動；天空在它後面轉）"""
