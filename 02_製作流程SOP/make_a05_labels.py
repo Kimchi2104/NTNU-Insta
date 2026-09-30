@@ -80,9 +80,12 @@ HYADES_JA = [
 ]
 
 # 每鏡要開的原生標籤層、概念圖、字卡（依逐字稿 v2「用檔／圖層」欄）
+# 概念圖＝_概念圖/ 裡的檔名前綴；分層圖用 overlay_layers 依序一層一頁疊上去，
+# gen_canva_pages 會在該鏡迄格後插「定格頁」（畫面不動，只加概念圖），overlay_at="start" 改放起格後
 SHOT_EXTRA = {
-    "01": dict(labels=["和名"], overlay="C-A05-01_六連星"),
-    "03": dict(overlay="C-A05-02_キトラ四圈"),
+    "01": dict(labels=["和名"], overlay="C-A05-01_六連星",
+               overlay_layers=["星點層", "束線層", "標籤層"]),
+    "03": dict(overlay="C-A05-02_キトラ四圈", overlay_layers=["圈層", "尺寸層", "算式層"]),
     "05": dict(overlay="C-A05-02_キトラ四圈_爭議層"),
     "06": dict(labels=["繁中宿名", "和名"]),
     "07": dict(labels=["繁中宿名", "和名", "和名語意"]),
@@ -191,7 +194,7 @@ def main():
         ex = SHOT_EXTRA.get(sh["code"], {})
         sh["vo"] = vo.get(sh["code"], "")
         sh["labels"] = ex.get("labels", [])
-        for k in ("overlay", "card"):
+        for k in ("overlay", "overlay_layers", "overlay_at", "card"):
             if k in ex:
                 sh[k] = ex[k]
         if "note_add" in ex and ex["note_add"] not in sh.get("note", ""):

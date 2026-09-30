@@ -79,6 +79,7 @@ class Pages:
             frs = [tuple(f) for f in sh["frames"]]
             keys = self._split(frs, sh["sec"]) if self.seg > 0 else \
                 [(i / (len(frs) - 1) if len(frs) > 1 else 0.0, f) for i, f in enumerate(frs)]
+            first = None                         # 這一鏡的起格頁（可能是與上一鏡共用的那頁）
             for j, (t, fr) in enumerate(keys):
                 last = j == len(keys) - 1
                 nm = (f"鏡頭{sh['code']}開始" if j == 0 else
@@ -91,6 +92,7 @@ class Pages:
                     if same and prev["group"] == grp:          # 同框同組：一頁兩用
                         prev["name"] += f"＝{nm}"
                         prev["shot_next"] = sh
+                        first = len(pages) - 1
                         continue
                     pg["trans"] = "無（硬切，新構圖）"      # 換圖層組的頁由 _bridges 補轉場
                 elif j == 0:
@@ -98,6 +100,14 @@ class Pages:
                 else:
                     pg["trans"] = f"Match & Move（{pg['sec']:.1f} 秒）"
                 pages.append(pg)
+                if first is None:
+                    first = len(pages) - 1
+            files = self.overlay_files(sh)
+            if files:
+                if sh.get("overlay_at", "end") == "start":
+                    pages[first + 1:first + 1] = self._holds(sh, pages[first], files, clear=False)
+                else:
+                    pages += self._holds(sh, pages[-1], files, clear=True)
         pages = self._bridges(pages)
         for i, pg in enumerate(pages, 1):
             pg["no"] = i
@@ -106,6 +116,66 @@ class Pages:
 
     # ───────── 長圖⇄盤 轉場（團隊做法：同框換組＋倒放回來） ─────────
     TRANS_MM = "Match & Move（轉場，≤2.5 秒）"
+
+    # ───────── 概念圖定格頁（同一鏡多頁、畫面不動） ─────────
+    PANEL = dict(left=24, top=0, width=1032, height=0, color="#000000",
+                 opacity=0.75, radius=48)            # 團隊半透明黑底圓角框（韓國集同款）
+
+    def overlay_files(self, sh):
+        """_概念圖/ 裡這一鏡要疊的檔案（依序＝一頁多一層）"""
+        ov = sh.get("overlay")
+        if not ov:
+            return []
+        d = os.path.join(os.path.dirname(self.dir), "_概念圖")
+        if sh.get("overlay_layers"):
+            files = [f"{ov}_{L}_透明.png" for L in sh["overlay_layers"]]
+        else:
+            files = next(([c] for c in (f"{ov}_透明.png", f"{ov}_圖卡.png", f"{ov}.png")
+                          if os.path.exists(os.path.join(d, c))), [f"{ov}_透明.png"])
+        miss = [f for f in files if not os.path.exists(os.path.join(d, f))]
+        if miss:
+            print(f"  ⚠ 鏡頭{sh['code']} 概念圖找不到：{miss}（先跑 make_*_diagrams.py）")
+        return files
+
+    def overlay_box(self, fn, group):
+        """概念圖在頁面上的位置。
+        9:16 圖卡＝滿版；方形分層圖＝寬 1032 置中，整組（group＝這一鏡全部層）內容的
+        聯集框垂直置中在畫面中心，後面墊團隊的半透明黑底圓角框（只包住內容＋留白）"""
+        from PIL import Image
+        d = os.path.join(os.path.dirname(self.dir), "_概念圖")
+        path = os.path.join(d, fn)
+        if not os.path.exists(path):
+            return dict(left=0, top=0, width=PW, height=PH), None
+        w, h = Image.open(path).size
+        if abs(h / w - PH / PW) < 0.05:
+            return dict(left=0, top=0, width=PW, height=PH), None
+        P = dict(self.PANEL)
+        sc = P["width"] / w
+        boxes = [Image.open(os.path.join(d, f)).getchannel("A").getbbox()
+                 for f in group if os.path.exists(os.path.join(d, f))]
+        boxes = [b for b in boxes if b] or [(0, 0, w, h)]
+        x0, y0 = min(b[0] for b in boxes), min(b[1] for b in boxes)
+        x1, y1 = max(b[2] for b in boxes), max(b[3] for b in boxes)
+        top = PH / 2 - (y0 + y1) / 2 * sc
+        pad = 40
+        pt, pb = max(SAFE / 2, top + y0 * sc - pad), min(PH - SAFE / 2, top + y1 * sc + pad)
+        P.update(top=pt, height=pb - pt)
+        return dict(left=P["left"], top=top, width=w * sc, height=h * sc), P
+
+    def _holds(self, sh, base, files, clear):
+        n, out = len(files), []
+        for i in range(1, n + 1):
+            nm = f"鏡頭{sh['code']}-概念圖" + (f"{i}" if n > 1 else "")
+            tr = ("Match & Move（畫面不動；概念圖" + (f"第 {i} 層" if n > 1 else "") + "淡入）")
+            out.append(dict(name=nm, shot=sh, group=base["group"], frame=base["frame"],
+                            t=base["t"], sec=0.0, trans=tr, hold=True, labels_from=base,
+                            overlay_files=files[:i]))
+        if clear:                                 # 收：畫面不動、概念圖淡出，後面接換組／下一鏡都乾淨
+            out.append(dict(name=f"鏡頭{sh['code']}-概念圖收", shot=sh, group=base["group"],
+                            frame=base["frame"], t=base["t"], sec=0.0, hold=True,
+                            labels_from=base, overlay_files=[],
+                            trans="Match & Move（畫面不動；概念圖淡出）"))
+        return out
 
     def _bridge_page(self, name, group, frame, shot, trans):
         sh = {k: v for k, v in shot.items()
@@ -231,6 +301,8 @@ class Pages:
         """本頁要開的標籤層：一頁兩用時取下一鏡；鏡頭最後一格可用 labels_end 換層"""
         if pg.get("transition"):
             return []
+        if pg.get("labels_from") and not pg.get("shot_next"):
+            return Pages.label_names(pg["labels_from"])
         sh = pg.get("shot_next") or pg["shot"]
         if pg.get("shot_next"):
             return sh.get("labels", [])
@@ -342,7 +414,7 @@ class Pages:
                 "本段秒數": round(pg["sec"], 1) if pg["sec"] else "",
                 "鏡頭總秒數": sh["sec"],
                 "留下的圖層": "、".join(self.layers_for(pg)),
-                "概念圖": sh.get("overlay", ""), "字卡": sh.get("card", ""),
+                "概念圖": "＋".join(pg.get("overlay_files", [])), "字卡": sh.get("card", ""),
                 "地平線北點Y px": "；".join(f"緯度{p:g}°→{y:.0f}" for p, y in hz),
                 "旁白（本頁起播）": shv.get("vo", "") if (is_start or pg.get("shot_next")) else "",
                 "備註": shv.get("note", "") if (is_start or pg.get("shot_next")) else "",
@@ -359,8 +431,9 @@ class Pages:
                 "left": round(pl["X"], 2), "top": round(pl["Y"], 2),
                 "width": round(pl["W"], 2), "height": round(pl["H"], 2),
                 "rotation": round(pl["rot"], 2), "layers": r["留下的圖層"].split("、"),
-                "notes": r["旁白（本頁起播）"]}
-               for r, pl in zip(rows, (self.placement(pg) for pg in pages))]
+                "notes": r["旁白（本頁起播）"], "trans": r["與上一頁"],
+                **self._overlay_api(pg)}
+               for r, pl, pg in zip(rows, (self.placement(pg) for pg in pages), pages)]
         json.dump(api, open(os.path.join(self.dir, f"{self.ep}_Canva頁面參數.json"), "w",
                             encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"  ✓ {self.ep}_Canva頁面參數.json")
@@ -376,6 +449,16 @@ class Pages:
                 self.render(pg, d)
             print(f"  ✓ {self.ep}_對位參考/（{len(pages)} 張 1080×1920）")
         print(f"  ✓ 共 {len(pages)} 頁；標籤座標 {len(lab_rows)} 筆")
+
+    def _overlay_api(self, pg):
+        if not pg.get("hold"):
+            return {}
+        ov, panel = [], None
+        grp = self.overlay_files(pg["shot"])
+        for fn in pg.get("overlay_files", []):
+            box, panel = self.overlay_box(fn, grp)
+            ov.append(dict(file=fn, **{k: round(v, 2) for k, v in box.items()}))
+        return {"hold": True, "overlay": ov, "panel": panel if ov else None}
 
     def _csv(self, name, rows):
         if not rows:
@@ -414,6 +497,8 @@ class Pages:
              "只把長圖圖層組換成北盤圖層組（畫面完全重疊，觀眾看不出換檔）。",
              "- 北盤→長圖＝倒放：「-歸位」盤轉回 0° 回到換組那一格 →「北盤轉長圖」同框換回長圖 →"
              "「-下移」往下回到出發點，再繼續長圖上的鏡頭。",
+             "- 概念圖＝「定格頁」：同一鏡可以不只開始／結束兩頁，中間插畫面完全不動的頁，"
+             "一頁多疊一層概念圖（半透明黑底圓角框＋透明 PNG）；最後「-概念圖收」把概念圖淡出。",
              "- 標籤請看 `逐頁標籤座標.csv`＋`對位參考/`：原生打字，把文字中心放到虛影上。", "",
              "| 頁 | 頁名 | 組 | W | H | X | Y | 旋轉 | 與上一頁 | 留下的圖層 | 旁白 |",
              "|---:|---|---|---:|---:|---:|---:|---:|---|---|---|"]
@@ -519,6 +604,22 @@ class Pages:
                     ha="center", va="center", zorder=8)
             ax.plot([lb["X"] - 7, lb["X"] + 7], [lb["Y"], lb["Y"]], c="#FF6B6B", lw=1, zorder=9)
             ax.plot([lb["X"], lb["X"]], [lb["Y"] - 7, lb["Y"] + 7], c="#FF6B6B", lw=1, zorder=9)
+        # 概念圖（定格頁）
+        for fn in pg.get("overlay_files", []):
+            box, panel = self.overlay_box(fn, self.overlay_files(pg["shot"]))
+            if panel:
+                from matplotlib.patches import FancyBboxPatch
+                ax.add_patch(FancyBboxPatch((panel["left"], panel["top"]), panel["width"],
+                                            panel["height"],
+                                            boxstyle=f"round,pad=0,rounding_size={panel['radius']}",
+                                            fc=panel["color"], ec="none", alpha=panel["opacity"],
+                                            zorder=9.2))
+            path = os.path.join(os.path.dirname(self.dir), "_概念圖", fn)
+            if os.path.exists(path):
+                ax.imshow(plt.imread(path), extent=(box["left"], box["left"] + box["width"],
+                                                    box["top"] + box["height"], box["top"]),
+                          zorder=9.5, interpolation="antialiased")
+        ax.set_xlim(0, PW); ax.set_ylim(PH, 0)
         # 安全區與頁頭
         for y0, y1 in ((0, SAFE), (PH - SAFE, PH)):
             ax.add_patch(plt.Rectangle((0, y0), PW, y1 - y0, fc="#000000", ec="none",
@@ -532,7 +633,7 @@ class Pages:
                 fontproperties=FP, fontsize=15, color="#9FB3D9", ha="left", va="top",
                 zorder=11)
         vo = (pg.get("shot_next") or sh).get("vo", "")
-        if vo and (pg["t"] == 0.0 or pg.get("shot_next")):
+        if vo and ((pg["t"] == 0.0 and not pg.get("hold")) or pg.get("shot_next")):
             import textwrap
             ax.text(20, PH - SAFE + 18, "\n".join(textwrap.wrap(vo, 34)[:5]),
                     fontproperties=FP, fontsize=17, color="#FFFFFF", alpha=.9,
