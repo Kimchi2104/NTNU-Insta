@@ -1,9 +1,9 @@
 ﻿分類,Stellarium ID,英文名 English,原文名 Native,讀音 Pronounce,IPA,繁中譯名 zh_TW,星數,組成恆星 (HIP),對應國際星名,Stellarium 描述,社團清單,社團補充備註,參考文獻#
 星座/星官,CON mongolian 001,The Bow and the Arrow,,Num Sum,,弓箭,10,94779 95853 97165 100453 102098 102488 104732 107310 98110 95947,Fawaris I、Fawaris、Sadr、Deneb、Aljanah、Fawaris III、Albireo,,✓,,
-星座/星官,CON mongolian 002,The Five Stars Woman,,Hun Tavan Od,,五顆星的女人,5,8886 6686 4427 3179 746,Segin、Ruchbah、Navi、Shedar、Caph,,✓,,
+星座/星官,CON mongolian 002,The Five Stars Woman,,Hun Tavan Od,,五顆星的人,5,8886 6686 4427 3179 746,Segin、Ruchbah、Navi、Shedar、Caph,,✓,Hun＝хүн（人）；Stellarium 英文作 Woman，與蒙古語原意不符,
 星座/星官,CON mongolian 003,The Seven Buddhas,,Doloon Burkhan,,七佛,7,67301 65378 62956 59774 58001 53910 54061,Alkaid、Mizar、Alioth、Megrez、Phecda、Merak、Dubhe,,✓,,
-星座/星官,CON mongolian 004,The Three Stags,,Gurvan Maral Od,,三個雄鹿,3,102098 91262 97649,Deneb、Vega、Altair,,✓,,
-具名恆星,HIP 11767,Golden Stake,,Altan Hadaas,,黃金賭注,,,Polaris,,,,
+星座/星官,CON mongolian 004,The Three Stags,,Gurvan Maral Od,,三頭雄鹿,3,102098 91262 97649,Deneb、Vega、Altair,,✓,Stellarium 連在夏季大三角（天津四／織女／牛郎）；蒙古本地傳統的三頭鹿（Гурван марал）是獵戶腰帶三星，見 A-07 逐字稿考據,
+具名恆星,HIP 11767,Golden Stake,,Altan Hadaas,,金樁,,,Polaris,,,Stellarium zh_TW 誤譯為「黃金賭注」（stake 被當成賭注）；蒙古通行寫法 Алтан гадас（金樁／拴馬樁）,
 具名恆星,HIP 65477,Recovery Star,,,,復原星,,,Alcor,,,,
 具名恆星,HIP 67301,7.Horse,,,,馬七,,,Alkaid,,,,
 具名恆星,HIP 65378,6.Snake,,,,蛇六,,,Mizar,,,,
