@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T16:14:04.096462</dc:date>
+    <dc:date>2026-10-04T16:25:07.458060</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pa2bae71eff)">
+    <g clip-path="url(#pcf9959f41e)">
      <!-- 北極星 -->
      <g style="fill: #ffffff" transform="translate(454.059427 463.243899) scale(0.084716 -0.084716)">
       <defs>
@@ -253,7 +253,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pa2bae71eff)">
+    <g clip-path="url(#pcf9959f41e)">
      <!-- 造父一 -->
      <g style="fill: #7bd88f" transform="translate(566.667258 580.081822) scale(0.084716 -0.084716)">
       <defs>
@@ -380,7 +380,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pa2bae71eff)">
+    <g clip-path="url(#pcf9959f41e)">
      <!-- 天船三 -->
      <g style="fill: #ff6b6b" transform="translate(325.366014 608.403574) scale(0.084716 -0.084716)">
       <defs>
@@ -536,7 +536,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pa2bae71eff)">
+    <g clip-path="url(#pcf9959f41e)">
      <!-- 大陵五 -->
      <g style="fill: #ff6b6b" transform="translate(370.194164 651.288989) scale(0.084716 -0.084716)">
       <defs>
@@ -697,7 +697,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pa2bae71eff)">
+    <g clip-path="url(#pcf9959f41e)">
      <!-- 五車二 -->
      <g style="fill: #ffc94a" transform="translate(256.799456 551.431739) scale(0.084716 -0.084716)">
       <defs>
@@ -800,7 +800,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pa2bae71eff">
+  <clipPath id="pcf9959f41e">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T16:14:04.389258</dc:date>
+    <dc:date>2026-10-04T16:25:07.735512</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p8c3f1f8213)">
+    <g clip-path="url(#p07cc7701f6)">
      <!-- 仙女座大星系 -->
      <g style="fill: #ffffff" transform="translate(487.666519 -83.267359) scale(0.075799 -0.075799)">
       <defs>
@@ -317,7 +317,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p8c3f1f8213)">
+    <g clip-path="url(#p07cc7701f6)">
      <!-- 雙星團 -->
      <g style="fill: #ffffff" transform="translate(238.544899 -115.038787) scale(0.075799 -0.075799)">
       <defs>
@@ -586,7 +586,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p8c3f1f8213)">
+    <g clip-path="url(#p07cc7701f6)">
      <!-- δ 流星雨輻射點 -->
      <g style="fill: #ffffff" transform="translate(-94.976609 273.09009) scale(0.075799 -0.075799)">
       <defs>
@@ -1106,7 +1106,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p8c3f1f8213">
+  <clipPath id="p07cc7701f6">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T16:14:03.661704</dc:date>
+    <dc:date>2026-10-04T16:25:07.042512</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p20fe8cdfdb)">
+    <g clip-path="url(#pfd8ebf6dd0)">
      <!-- 仙女座大星系 -->
      <g style="fill: #ffffff" transform="translate(465.959 661.393854) scale(0.0442 -0.0442)">
       <defs>
@@ -317,7 +317,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p20fe8cdfdb)">
+    <g clip-path="url(#pfd8ebf6dd0)">
      <!-- 蜂巢星團 -->
      <g style="fill: #ffffff" transform="translate(163.02 716.511254) scale(0.0442 -0.0442)">
       <defs>
@@ -644,7 +644,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p20fe8cdfdb)">
+    <g clip-path="url(#pfd8ebf6dd0)">
      <!-- 昴宿星團 -->
      <g style="fill: #ffffff" transform="translate(350.61 691.421254) scale(0.0442 -0.0442)">
       <defs>
@@ -804,7 +804,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p20fe8cdfdb)">
+    <g clip-path="url(#pfd8ebf6dd0)">
      <!-- 雙星團 -->
      <g style="fill: #ffffff" transform="translate(413.017588 603.78972) scale(0.0442 -0.0442)">
       <defs>
@@ -957,7 +957,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p20fe8cdfdb)">
+    <g clip-path="url(#pfd8ebf6dd0)">
      <!-- 獵戶座大星雲 -->
      <g style="fill: #ffffff" transform="translate(292.968 777.507254) scale(0.0442 -0.0442)">
       <defs>
@@ -1234,7 +1234,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p20fe8cdfdb)">
+    <g clip-path="url(#pfd8ebf6dd0)">
      <!-- δ 流星雨輻射點 -->
      <g style="fill: #ffffff" transform="translate(273.525728 654.813254) scale(0.0442 -0.0442)">
       <defs>
@@ -1754,7 +1754,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p20fe8cdfdb">
+  <clipPath id="pfd8ebf6dd0">
    <rect x="0" y="0" width="936" height="1518.427309"/>
   </clipPath>
  </defs>
