@@ -1,0 +1,25 @@
+{
+ "design_id": "DAHWtBxwGeo",
+ "commit": "f70920aa15d7b0ec0693b7d77783cea0470c3884",
+ "layers": {
+  "L1-銀河": "MAHXDpo3440",
+  "L2-星點": "MAHXDqcmCtg",
+  "L3-經緯線": "MAHXDj6BECU",
+  "L4-星座連線": "MAHXDj3PBY4",
+  "L5-連線-舀水杓": "MAHXDtGc0jc",
+  "L6-連線-脊椎骨": "MAHXDiVQ1VQ",
+  "L7-連線-釣線": "MAHXDs1lkhU",
+  "L8-連線-風箏": "MAHXDvmg1o0",
+  "L9-連線-指針": "MAHXDj4ut0s",
+  "L10-主角星白點": "MAHXDnHMak0",
+  "北盤L1-銀河": "MAHXDr6_fBo",
+  "北盤L2-星點": "MAHXDrReOhY",
+  "北盤L3-經緯線": "MAHXDl9MggA",
+  "北盤L4-星座連線": "MAHXDmOdxCY",
+  "北盤L9-連線-指針": "MAHXDl65TN0",
+  "北盤L10-主角星白點": "MAHXDqJRLSM"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {}
+}

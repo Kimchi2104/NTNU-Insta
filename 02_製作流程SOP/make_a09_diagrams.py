@@ -90,7 +90,7 @@ def c01_mintaka(ax):
     ax.add_patch(C.FancyBboxPatch((-0.86, -0.995), 1.72, 0.10,
                                   boxstyle="round,pad=0.01,rounding_size=0.03",
                                   fc="#1B2240", ec=AMBER, lw=1.4, zorder=2))
-    T(ax, 0.0, -0.945, "從哪一間升起，就從正對面同名的那一間落下", 19, WHITE)
+    T(ax, 0.0, -0.945, "從東邊哪一間升起，就從西邊同名的那一間落下", 19, WHITE)
 
 
 # ══════════════════════ C-A09-02 緯度尺 ══════════════════════

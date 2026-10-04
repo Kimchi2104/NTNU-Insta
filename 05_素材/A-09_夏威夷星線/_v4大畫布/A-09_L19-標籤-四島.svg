@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T14:47:51.182762</dc:date>
+    <dc:date>2026-10-04T14:59:00.867615</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p589d71046f)">
+    <g clip-path="url(#p2722b8d99d)">
      <!-- 考艾 Kauaʻi -->
      <g style="fill: #ffffff" transform="translate(27.657139 669.923187) scale(0.0442 -0.0442)">
       <defs>
@@ -287,7 +287,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p589d71046f)">
+    <g clip-path="url(#p2722b8d99d)">
      <!-- 歐胡 Oʻahu -->
      <g style="fill: #ffffff" transform="translate(107.226431 666.299591) scale(0.0442 -0.0442)">
       <defs>
@@ -533,7 +533,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p589d71046f)">
+    <g clip-path="url(#p2722b8d99d)">
      <!-- 茂宜 Maui -->
      <g style="fill: #ffffff" transform="translate(27.694688 715.959188) scale(0.0442 -0.0442)">
       <defs>
@@ -709,7 +709,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p589d71046f)">
+    <g clip-path="url(#p2722b8d99d)">
      <!-- 夏威夷島 Hawaiʻi -->
      <g style="fill: #ffffff" transform="translate(83.461221 716.943204) scale(0.0442 -0.0442)">
       <defs>
@@ -1093,7 +1093,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p589d71046f">
+  <clipPath id="p2722b8d99d">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>

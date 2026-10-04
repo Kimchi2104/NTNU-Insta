@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T14:47:50.932227</dc:date>
+    <dc:date>2026-10-04T14:59:00.592542</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Hōkūpaʻa -->
      <g style="fill: #7bd88f" transform="translate(457.096409 442.831578) scale(0.05083 -0.05083)">
       <defs>
@@ -232,7 +232,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Hōkūleʻa -->
      <g style="fill: #7bd88f" transform="translate(409.814099 688.157208) scale(0.05083 -0.05083)">
       <defs>
@@ -285,7 +285,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Hikianalia -->
      <g style="fill: #7bd88f" transform="translate(490.045341 767.028145) scale(0.05083 -0.05083)">
       <defs>
@@ -361,7 +361,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Hōkūlei -->
      <g style="fill: #ffc94a" transform="translate(804.400261 623.618515) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-29"/>
@@ -375,7 +375,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Nānāmua -->
      <g style="fill: #ffc94a" transform="translate(673.839861 654.060504) scale(0.05083 -0.05083)">
       <defs>
@@ -521,7 +521,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Nānāhope -->
      <g style="fill: #ffc94a" transform="translate(707.454004 669.464962) scale(0.05083 -0.05083)">
       <defs>
@@ -583,7 +583,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Puana -->
      <g style="fill: #ffc94a" transform="translate(711.546697 724.955373) scale(0.05083 -0.05083)">
       <defs>
@@ -623,7 +623,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- ʻAʻā -->
      <g style="fill: #ffc94a" transform="translate(720.620152 782.004395) scale(0.05083 -0.05083)">
       <defs>
@@ -660,7 +660,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Mintaka -->
      <g style="fill: #ffc94a" transform="translate(792.993456 737.225965) scale(0.05083 -0.05083)">
       <defs>
@@ -729,7 +729,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Hawaiki -->
      <g style="fill: #6fa8ff" transform="translate(175.63361 634.839457) scale(0.05083 -0.05083)">
       <defs>
@@ -773,7 +773,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Keoe -->
      <g style="fill: #6fa8ff" transform="translate(254.457111 636.127461) scale(0.05083 -0.05083)">
       <defs>
@@ -821,7 +821,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Humu -->
      <g style="fill: #6fa8ff" transform="translate(207.265999 722.226272) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-29"/>
@@ -832,7 +832,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Lehua Kona -->
      <g style="fill: #6fa8ff" transform="translate(318.729076 806.731836) scale(0.05083 -0.05083)">
       <defs>
@@ -873,7 +873,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Manōkalanipō -->
      <g style="fill: #b78aff" transform="translate(12.985195 658.899317) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e"/>
@@ -892,7 +892,7 @@ z
     </g>
    </g>
    <g id="text_15">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Kākuhihewa -->
      <g style="fill: #b78aff" transform="translate(85.995435 659.791531) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2c"/>
@@ -909,7 +909,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Keawe -->
      <g style="fill: #b78aff" transform="translate(108.72303 704.195144) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2c"/>
@@ -921,7 +921,7 @@ z
     </g>
    </g>
    <g id="text_17">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Piʻilani -->
      <g style="fill: #b78aff" transform="translate(27.735577 704.251128) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-31"/>
@@ -936,11 +936,11 @@ z
     </g>
    </g>
    <g id="text_18">
-    <g clip-path="url(#pf07f5443df)">
-     <!-- Kukaniloko -->
+    <g clip-path="url(#pa2bc67fa09)">
+     <!-- Kūkaniloko -->
      <g style="fill: #b78aff" transform="translate(116.660248 815.028079) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2c"/>
-      <use xlink:href="#NotoSerifCJKjp-Regular-56" transform="translate(71 0)"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-d9" transform="translate(71 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-4c" transform="translate(136.296875 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-42" transform="translate(197 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-4f" transform="translate(252.296875 0)"/>
@@ -953,7 +953,7 @@ z
     </g>
    </g>
    <g id="text_19">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Nā Hiku -->
      <g style="fill: #7bd88f" transform="translate(503.864501 563.963148) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2f"/>
@@ -967,7 +967,7 @@ z
     </g>
    </g>
    <g id="text_20">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Meʻe -->
      <g style="fill: #7bd88f" transform="translate(531.01369 785.376862) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e"/>
@@ -978,7 +978,7 @@ z
     </g>
    </g>
    <g id="text_21">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Hānaiakamalama -->
      <g style="fill: #7bd88f" transform="translate(457.145918 912.929182) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-29"/>
@@ -999,7 +999,7 @@ z
     </g>
    </g>
    <g id="text_22">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Makaliʻi -->
      <g style="fill: #ffc94a" transform="translate(844.378602 667.888669) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e"/>
@@ -1014,7 +1014,7 @@ z
     </g>
    </g>
    <g id="text_23">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Ka Heihei o Nā Keiki -->
      <g style="fill: #ffc94a" transform="translate(757.183544 774.875635) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2c"/>
@@ -1041,7 +1041,7 @@ z
     </g>
    </g>
    <g id="text_24">
-    <g clip-path="url(#pf07f5443df)">
+    <g clip-path="url(#pa2bc67fa09)">
      <!-- Ka Makau Nui o Māui -->
      <g style="fill: #6fa8ff" transform="translate(309.124708 753.308622) scale(0.05083 -0.05083)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2c"/>
@@ -1069,7 +1069,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pf07f5443df">
+  <clipPath id="pa2bc67fa09">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>
