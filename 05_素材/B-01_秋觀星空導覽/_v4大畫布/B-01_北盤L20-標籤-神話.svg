@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T16:25:07.434629</dc:date>
+    <dc:date>2026-10-04T16:30:05.206705</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pcb302211b8)">
+    <g clip-path="url(#p34081847e6)">
      <!-- 飛馬 -->
      <g style="fill: #b78aff" transform="translate(626.432189 728.36097) scale(0.084716 -0.084716)">
       <defs>
@@ -196,7 +196,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pcb302211b8)">
+    <g clip-path="url(#p34081847e6)">
      <!-- 公主 -->
      <g style="fill: #b78aff" transform="translate(461.639553 696.987989) scale(0.084716 -0.084716)">
       <defs>
@@ -271,7 +271,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pcb302211b8)">
+    <g clip-path="url(#p34081847e6)">
      <!-- 海怪 -->
      <g style="fill: #6fa8ff" transform="translate(336.681894 866.757378) scale(0.084716 -0.084716)">
       <defs>
@@ -445,7 +445,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pcb302211b8)">
+    <g clip-path="url(#p34081847e6)">
      <!-- 王后 -->
      <g style="fill: #7bd88f" transform="translate(458.788529 588.547511) scale(0.084716 -0.084716)">
       <defs>
@@ -527,7 +527,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pcb302211b8)">
+    <g clip-path="url(#p34081847e6)">
      <!-- 國王 -->
      <g style="fill: #7bd88f" transform="translate(523.80561 556.573837) scale(0.084716 -0.084716)">
       <defs>
@@ -628,7 +628,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pcb302211b8)">
+    <g clip-path="url(#p34081847e6)">
      <!-- 英雄 -->
      <g style="fill: #ff6b6b" transform="translate(337.932581 624.885799) scale(0.084716 -0.084716)">
       <defs>
@@ -806,7 +806,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pcb302211b8">
+  <clipPath id="p34081847e6">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

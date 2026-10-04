@@ -74,6 +74,8 @@ def label_items(labels):
         w = round(text_w(lb["文字"], f))
         if X - w / 2 < -0.3 * w or X + w / 2 > 1080 + 0.3 * w:     # 大半在畫面外就不放
             continue
+        if Y - 0.6 * f < -0.36 * f or Y + 0.6 * f > 1920 + 0.36 * f:  # 上下也一樣（B-01 起）
+            continue
         items.append(dict(text=lb["文字"], left=X - w / 2, top=Y - 0.6 * f, width=w,
                           size=f, color=lb["顏色"], align="center"))
     _unstack(items)
