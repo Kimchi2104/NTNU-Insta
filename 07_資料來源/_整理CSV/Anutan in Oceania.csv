@@ -17,14 +17,7 @@
 具名恆星,HIP 32607,The East Wing's Precursor,Te Taki O Te Kapakau Tonga,,,東翼的先驅,,,HIP 32607,,,,
 具名恆星,HIP 677,Middle Precursor,Taki Roto,,,中間前體,,,Alpheratz,It is uncertain whether this star name is attached to this or a neighbouring star in the Square of Pegasus.,,,
 具名深空天體/其他,NAME Pleiades,Small Face,Matariki,,,小臉,,,Pleiades,,✓（社團原文「Small face - pleiades」）,pleiades,
-具名深空天體,NAME Milky Way,,Te Tukaniva,,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: 
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Milky Way,,,,
+具名深空天體,NAME Milky Way,,Te Tukaniva,,,銀河,,,Milky Way,,,,
 具名深空天體/其他,NAME Large Magellanic Cloud,The Running Cloud,Te Ao Rere,,,奔跑的雲,,,Large Magellanic Cloud,,✓（社團原文「The running cloud - Large Magellanic Cloud」）,Large Magellanic Cloud,
 具名深空天體/其他,NAME Small Magellanic Cloud,The Restrained Cloud,Te Ao Toka,,,克制的雲,,,Small Magellanic Cloud,The English gloss is marked uncertain.,✓（社團原文「The restrained Cloud - Small Magellanic Cloud」）,Small Magellanic Cloud,
 具名深空天體/其他,NAME Venus,The Morning Star / The Evening Star,Te Petuu Ao / Tiuriuri,,,晨星 / 晚星,,,Venus,,✓（社團原文「The morning Star - venus」）,venus,
