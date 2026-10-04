@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """萬國星空 C 系列共用：背景星空（給 Canva 每頁墊底、用 Match & Move 緩慢旋轉）
 
-畫面：以北天極為中心的真實星空（Stellarium hip_gaia3 星表，≤5.8 等）＋淡銀河。
+畫面：以北天極為中心的真實星空（Stellarium hip_gaia3 星表，≤6.5 等）＋淡銀河。
 投影：方位等距（同北盤，RA 順時針遞增＝仰望北天的樣子），
       所以 Canva 裡逆時針轉（rotation 遞減）＝時間往前走。
 中央變暗：以圖心為圓心的徑向遮罩，旋轉時不變；概念圖都在中央 1080 方框裡，
-      星點在中央只留約 35% 亮度，避免干擾圖上的細線與小字。
+      星點在中央只留約 45% 亮度，避免干擾圖上的細線與小字。
 
 Canva 擺法（每頁同一位置，只改 rotation）：
   left −660, top −240, 寬高 2400 → 圖心落在頁面中心 (540, 960)；
@@ -123,7 +123,7 @@ def main():
 
 
 RATE = 1.0          # 每秒轉幾度（逆時針＝時間往前）
-DIM_OP = 0.4        # 本身就是星圖的頁（有「星點層」）把背景星空壓暗，避免和主角星混在一起
+DIM_OP = 0.4        # 本身就有星點的頁（「星點層」「眾星層」）把背景星空壓暗，避免和主角星混在一起
 
 
 def page_plan(params):
@@ -133,7 +133,7 @@ def page_plan(params):
     mid = (pages[0]["start"] + pages[-1]["start"]) / 2
     out = []
     for p in pages:
-        star_map = any("星點層" in L["file"] for L in p["layers"])
+        star_map = any(k in L["file"] for L in p["layers"] for k in ("星點層", "眾星層"))
         out.append(dict(page=p["page"], rotation=round(RATE * (mid - p["start"]), 1),
                         opacity=DIM_OP if star_map else 1.0))
     return out
