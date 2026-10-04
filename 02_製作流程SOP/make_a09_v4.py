@@ -127,7 +127,7 @@ for h in (DENEB, VEGA, ALTAIR, ANTARES):
 for h in (ALPHERATZ, SCHEAT, MARKAB, ALGENIB, FOMALHAUT):
     COLOR[h] = "purple"
 # 星名偏移（畫布單位；東在左）。中文放在夏威夷名正下方
-OFF = {POL: (0.0, 2.6), ARC: (-6.6, 0.6), SPI: (6.0, 0.6),
+OFF = {POL: (0.0, 2.6), ARC: (-4.2, 0.6), SPI: (6.0, 0.6),
        CAPELLA: (5.2, -1.4), CASTOR: (-5.4, 1.0), POLLUX: (5.6, -1.2), PROCYON: (5.4, 0.4),
        SIRIUS: (-4.6, 0.4), MINTAKA: (4.8, 1.2),
        DENEB: (-1.0, -5.0), VEGA: (-5.0, 1.0), ALTAIR: (-4.0, -2.2), ANTARES: (-5.6, 0.6),
@@ -146,7 +146,7 @@ GROUPS = {
 }
 LINES = {   # 星線名：(錨點 ra,dec, 原文, 中譯, 顏色)
     "舀水杓": ((102.0, -30.0), "Ke Kā o Makaliʻi", "Makaliʻi 的舀水杓", "amber"),
-    "脊椎骨": ((222.0, -4.0), "Ka Iwikuamoʻo", "脊椎骨", "green"),
+    "脊椎骨": ((219.0, -4.0), "Ka Iwikuamoʻo", "脊椎骨", "green"),
     "釣線": ((262.0, -18.0), "Manaiakalani", "酋長的釣線", "blue"),
     "引航三角": ((293.0, 30.0), "引航三角", "Navigator's Triangle", "blue"),
     "風箏": ((355.0, -2.0), "Ka Lupe o Kawelo", "Kawelo 的風箏", "purple"),
@@ -240,10 +240,10 @@ def build():
                             key=k))
         ln_disc.append(dict(ra=ra, dec=dec, text=z, color=c, size=1.15, dx=0.0,
                             dy=-3.0, key=k))
-    sib = [dict(hip=ALCYONE, text="西伯利亞：鴨巢", color="white", size=1.05, dx=0.0, dy=-6.4,
-                key="鴨巢"),
-           dict(hip=ALNILAM, text="西伯利亞：打穀者", color="white", size=1.05, dx=-11.5,
-                dy=0.0, key="打穀者")]
+    sib = [dict(hip=ALCYONE, text="西伯利亞：鴨巢", color="white", size=1.05, dx=-2.0, dy=-6.4,
+                key="鴨巢"),                      # dx −2：14 起格（BAIL）右緣不切字
+           dict(hip=ALNILAM, text="西伯利亞：打穀者", color="white", size=1.05, dx=7.7,
+                dy=12.4, key="打穀者")]           # 放在獵戶雙肩上方的空天：BAIL 框內完整、不壓連線
     ra_s, de_s = centroid(uniq([SL["MAN"]]), S)
     maori = [dict(ra=ra_s, dec=de_s, text="Te Matau a Māui", color="white", size=1.15,
                   dx=-1.0, dy=32.0, key="毛利1"),
@@ -299,7 +299,7 @@ def build():
     SW = (0.0, yp, 44.0, 0.0)                     # 長圖 ⇄ 北盤 換組格
     SCO_A = (-47.0, -21.0, 34.0, 0.0)              # 10 鏡中段：夏威夷名
     SCO = (-47.0, -21.0, 32.0, 0.0)                # 10 迄＝11 起：毛利名
-    TRI = (-88.0, 12.9, 44.0, 0.0)               # 頂到 dec 52（走廊外縫合帶不變形），天津四才不會擠進上方安全區
+    TRI = (-91.0, 12.9, 44.0, 0.0)               # 頂到 dec 52（走廊外縫合帶不變形），天津四才不會擠進上方安全區；cx −91 讓 Hawaiki 標籤不出左緣
     KITE = (-151.0, 0.0, 52.0, 0.0)
     KOM = (106.0, 0.0, 54.0, 0.0)
     BAIL = (131.0, -2.0, 46.0, 0.0)

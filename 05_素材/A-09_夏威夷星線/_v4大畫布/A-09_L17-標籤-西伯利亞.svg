@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T14:59:00.810030</dc:date>
+    <dc:date>2026-10-04T15:20:20.514366</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,9 +31,9 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p388deeb908)">
+    <g clip-path="url(#p89f5b73d2e)">
      <!-- 西伯利亞：鴨巢 -->
-     <g style="fill: #ffffff" transform="translate(836.891248 693.36757) scale(0.04641 -0.04641)">
+     <g style="fill: #ffffff" transform="translate(831.691248 693.36757) scale(0.04641 -0.04641)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-9199" d="M 710 3571 
 L 710 -467 
@@ -486,9 +486,9 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p388deeb908)">
+    <g clip-path="url(#p89f5b73d2e)">
      <!-- 西伯利亞：打穀者 -->
-     <g style="fill: #ffffff" transform="translate(733.997172 742.525398) scale(0.04641 -0.04641)">
+     <g style="fill: #ffffff" transform="translate(783.917172 710.285398) scale(0.04641 -0.04641)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-48db" d="M 173 1971 
 L 403 1434 
@@ -737,7 +737,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p388deeb908">
+  <clipPath id="p89f5b73d2e">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T14:59:00.768637</dc:date>
+    <dc:date>2026-10-04T15:20:20.486059</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- Ke Kā o Makaliʻi -->
      <g style="fill: #ffc94a" transform="translate(569.040766 409.868385) scale(0.06409 -0.06409)">
       <defs>
@@ -303,7 +303,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- Makaliʻi 的舀水杓 -->
      <g style="fill: #ffc94a" transform="translate(573.307568 417.164505) scale(0.05083 -0.05083)">
       <defs>
@@ -529,7 +529,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- Ka Iwikuamoʻo -->
      <g style="fill: #7bd88f" transform="translate(411.335476 541.099307) scale(0.06409 -0.06409)">
       <defs>
@@ -669,7 +669,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- 脊椎骨 -->
      <g style="fill: #7bd88f" transform="translate(426.6582 548.395427) scale(0.05083 -0.05083)">
       <defs>
@@ -914,7 +914,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- Manaiakalani -->
      <g style="fill: #6fa8ff" transform="translate(317.814019 441.987588) scale(0.06409 -0.06409)">
       <defs>
@@ -967,7 +967,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- 酋長的釣線 -->
      <g style="fill: #6fa8ff" transform="translate(326.416945 449.283708) scale(0.05083 -0.05083)">
       <defs>
@@ -1296,7 +1296,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- Ka Lupe o Kawelo -->
      <g style="fill: #b78aff" transform="translate(348.62864 367.259049) scale(0.06409 -0.06409)">
       <defs>
@@ -1371,7 +1371,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p2aba1a6b9d)">
+    <g clip-path="url(#pf176f2ee06)">
      <!-- Kawelo 的風箏 -->
      <g style="fill: #b78aff" transform="translate(358.964084 375.003799) scale(0.05083 -0.05083)">
       <defs>
@@ -1564,7 +1564,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p2aba1a6b9d">
+  <clipPath id="pf176f2ee06">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>

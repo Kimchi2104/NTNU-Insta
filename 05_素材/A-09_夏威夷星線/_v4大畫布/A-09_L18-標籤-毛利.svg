@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-04T14:59:00.835666</dc:date>
+    <dc:date>2026-10-04T15:20:20.531484</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p60f9867aef)">
+    <g clip-path="url(#p0c83945221)">
      <!-- Te Matau a Māui -->
      <g style="fill: #ffffff" transform="translate(320.530336 742.908622) scale(0.05083 -0.05083)">
       <defs>
@@ -262,7 +262,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p60f9867aef)">
+    <g clip-path="url(#p0c83945221)">
      <!-- 毛利：Māui 的魚鉤 -->
      <g style="fill: #ffffff" transform="translate(322.594666 749.332702) scale(0.04199 -0.04199)">
       <defs>
@@ -619,7 +619,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p60f9867aef)">
+    <g clip-path="url(#p0c83945221)">
      <!-- Manaia ki te Rangi -->
      <g style="fill: #ffffff" transform="translate(317.9388 759.712812) scale(0.05083 -0.05083)">
       <defs>
@@ -778,7 +778,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p60f9867aef)">
+    <g clip-path="url(#p0c83945221)">
      <!-- 毛利：另一個季節的名字 -->
      <g style="fill: #ffffff" transform="translate(317.875056 766.492702) scale(0.04199 -0.04199)">
       <defs>
@@ -1183,7 +1183,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p60f9867aef">
+  <clipPath id="p0c83945221">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>

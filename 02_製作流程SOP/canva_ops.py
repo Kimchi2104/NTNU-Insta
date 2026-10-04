@@ -76,7 +76,42 @@ def label_items(labels):
             continue
         items.append(dict(text=lb["文字"], left=X - w / 2, top=Y - 0.6 * f, width=w,
                           size=f, color=lb["顏色"], align="center"))
+    _unstack(items)
     return items
+
+
+def _unstack(items):
+    """同一錨點上下疊的兩三行（例：盤上的「星線原文／中譯」）：原字級太小、夾到 LABEL_MIN 之後
+    行距不夠會一行壓一行。依中心 X 分組，行距撐到 1.2 倍字級，整組以原本的中點為中心上下攤開。"""
+    groups = {}
+    for it in items:
+        if it["align"] != "center":
+            continue
+        groups.setdefault(round((it["left"] + it["width"] / 2) / 4), []).append(it)
+    runs = []
+    for g in groups.values():
+        g.sort(key=lambda it: it["top"])
+        run = [g[0]]
+        for a, b in zip(g, g[1:]):          # 只攤開真的貼在一起的那幾行；同一直線上遠處的標籤不動
+            if b["top"] - a["top"] < 1.5 * max(a["size"], b["size"]):
+                run.append(b)
+            else:
+                runs.append(run)
+                run = [b]
+        runs.append(run)
+    for g in runs:
+        if len(g) < 2:
+            continue
+        need = [max(1.2 * a["size"], b["top"] - a["top"]) for a, b in zip(g, g[1:])]
+        if all(abs(n - (b["top"] - a["top"])) < 0.5 for n, a, b in zip(need, g, g[1:])):
+            continue
+        mid = (g[0]["top"] + g[-1]["top"]) / 2
+        tops = [0.0]
+        for n in need:
+            tops.append(tops[-1] + n)
+        off = mid - tops[-1] / 2
+        for it, t in zip(g, tops):
+            it["top"] = off + t
 
 
 def _stack(grp):
