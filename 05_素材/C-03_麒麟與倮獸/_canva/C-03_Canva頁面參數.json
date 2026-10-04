@@ -1,0 +1,2329 @@
+[
+ {
+  "page": 2,
+  "shot": "02",
+  "title": "鏡頭02-四象・青龍",
+  "start": 5.0,
+  "dur": 1.4,
+  "trans": "Match & Move",
+  "vo": "東青龍、南朱雀、西白虎、北玄武——四象，大家都背得出來。但四個方位排完，中間那一格，是空的。",
+  "layers": [
+   {
+    "file": "四象與五象/四象盤_題辭_四象層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "shot": "02",
+  "title": "鏡頭02-＋朱雀",
+  "start": 6.4,
+  "dur": 1.1,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "四象與五象/四象盤_題辭_四象層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "shot": "02",
+  "title": "鏡頭02-＋白虎",
+  "start": 7.5,
+  "dur": 1.1,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "四象與五象/四象盤_題辭_四象層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "shot": "02",
+  "title": "鏡頭02-＋玄武",
+  "start": 8.6,
+  "dur": 1.4,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "四象與五象/四象盤_題辭_四象層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_玄武層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "shot": "02",
+  "title": "鏡頭02-＋中央留空",
+  "start": 10.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "四象與五象/四象盤_題辭_四象層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_玄武層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_中央留空層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "shot": "03",
+  "title": "鏡頭03-五蟲說",
+  "start": 14.0,
+  "dur": 4.5,
+  "trans": "Match & Move",
+  "vo": "中間那一格，古人填過。《大戴禮記》把動物分成五類，每一類有一個「長」：羽蟲之長是鳳皇，毛蟲是麒麟，甲蟲是神龜，鱗蟲是蛟龍。",
+  "layers": [
+   {
+    "file": "五蟲說/五蟲說_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_表頭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 8,
+  "shot": "03",
+  "title": "鏡頭03-＋羽",
+  "start": 18.5,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "五蟲說/五蟲說_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_表頭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 9,
+  "shot": "03",
+  "title": "鏡頭03-＋毛",
+  "start": 20.5,
+  "dur": 1.8,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "五蟲說/五蟲說_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_表頭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 10,
+  "shot": "03",
+  "title": "鏡頭03-＋甲",
+  "start": 22.3,
+  "dur": 1.8,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "五蟲說/五蟲說_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_表頭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列3層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 11,
+  "shot": "03",
+  "title": "鏡頭03-＋鱗",
+  "start": 24.1,
+  "dur": 2.4,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "五蟲說/五蟲說_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_表頭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列3層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列4層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 12,
+  "shot": "04",
+  "title": "鏡頭04-＋倮",
+  "start": 26.5,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "第五類叫「倮之蟲」——沒有羽毛，也沒有鱗甲。牠們的長，是「聖人」，也就是人。",
+  "layers": [
+   {
+    "file": "五蟲說/五蟲說_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_表頭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列3層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列4層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列5層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 13,
+  "shot": "04",
+  "title": "鏡頭04-＋結語",
+  "start": 30.5,
+  "dur": 3.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "五蟲說/五蟲說_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_表頭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列3層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列4層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_列5層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "五蟲說/五蟲說_結語層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 14,
+  "shot": "05",
+  "title": "鏡頭05-對照",
+  "start": 34.0,
+  "dur": 2.3,
+  "trans": "Match & Move",
+  "vo": "把兩張名單並排：龍對蛟龍、鳥對鳳皇、龜對神龜，都對得上。但西方的白虎不在名單裡，毛蟲之長是麒麟；名單上還多了一個「人」。",
+  "layers": [
+   {
+    "file": "四象五蟲對照/對照_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_欄位層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_項目層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 15,
+  "shot": "05",
+  "title": "鏡頭05-＋對得上",
+  "start": 36.3,
+  "dur": 4.3,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "四象五蟲對照/對照_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_欄位層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_項目層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_對得上層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 16,
+  "shot": "05",
+  "title": "鏡頭05-＋對不上",
+  "start": 40.6,
+  "dur": 5.9,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "四象五蟲對照/對照_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_欄位層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_項目層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_對得上層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象五蟲對照/對照_對不上層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 17,
+  "shot": "06",
+  "title": "鏡頭06-漆箱",
+  "start": 46.5,
+  "dur": 4.3,
+  "trans": "Match & Move",
+  "vo": "四象是怎麼來的？看一件實物：曾侯乙墓的漆箱，約公元前四三三年。箱蓋正中一個「斗」字，繞著它寫滿二十八宿——這是目前所見最早的二十八宿全名。兩側各畫一隻神獸：青龍、白虎。",
+  "layers": [
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_箱蓋層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 18,
+  "shot": "06",
+  "title": "鏡頭06-＋斗",
+  "start": 50.8,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_箱蓋層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_斗字層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 19,
+  "shot": "06",
+  "title": "鏡頭06-＋二十八宿",
+  "start": 52.8,
+  "dur": 4.3,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_箱蓋層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_斗字層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_宿環層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 20,
+  "shot": "06",
+  "title": "鏡頭06-＋龍虎",
+  "start": 57.1,
+  "dur": 3.2,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_箱蓋層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_斗字層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_宿環層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_龍虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 21,
+  "shot": "06",
+  "title": "鏡頭06-＋結語",
+  "start": 60.3,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_箱蓋層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_斗字層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_宿環層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_龍虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "曾侯乙漆箱/漆箱蓋面_結語層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 22,
+  "shot": "07",
+  "title": "鏡頭07-側面",
+  "start": 63.3,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "那另外兩方呢？箱子側面也有畫，但讀法不一：一說北面整面塗黑，黑色主北，就是玄武；一說那一面畫著兩隻相對的獸，中間夾三顆星，社團的簡報把牠們讀作麒麟。",
+  "layers": [
+   {
+    "file": "側面判讀/側面判讀_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "側面判讀/側面判讀_外框層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 23,
+  "shot": "07",
+  "title": "鏡頭07-＋讀法一",
+  "start": 67.3,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "側面判讀/側面判讀_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "側面判讀/側面判讀_外框層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "側面判讀/側面判讀_讀法一層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 24,
+  "shot": "07",
+  "title": "鏡頭07-＋讀法二",
+  "start": 72.3,
+  "dur": 7.3,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "側面判讀/側面判讀_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "側面判讀/側面判讀_外框層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "側面判讀/側面判讀_讀法一層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "側面判讀/側面判讀_讀法二層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 25,
+  "shot": "08",
+  "title": "鏡頭08-四方族群",
+  "start": 79.6,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "如果北方原本是麒麟，四象就不是一開始就定好的。社團的考據認為，四方背後是不同族群：東夷的龍、西羌的虎、南蠻的鳥、夏越的龜——而麒麟，可能來自北方的東胡。",
+  "layers": [
+   {
+    "file": "民族來源/民族來源_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_玄武層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 26,
+  "shot": "08",
+  "title": "鏡頭08-＋族群",
+  "start": 84.6,
+  "dur": 6.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "民族來源/民族來源_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_玄武層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_族群層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 27,
+  "shot": "08",
+  "title": "鏡頭08-＋東胡",
+  "start": 90.6,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "民族來源/民族來源_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_玄武層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_族群層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "民族來源/民族來源_東胡層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 28,
+  "shot": "09",
+  "title": "鏡頭09-中央倮獸",
+  "start": 95.6,
+  "dur": 3.5,
+  "trans": "Match & Move",
+  "vo": "回到中間那一格。《禮記・月令》說：「中央土……其帝黃帝……其蟲倮。」中央，是人的位置。那人的星在哪？社團列了三個候選。",
+  "layers": [
+   {
+    "file": "四象與五象/四象盤_題辭_中央層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_玄武層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_中央倮獸層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 29,
+  "shot": "09",
+  "title": "鏡頭09-＋月令",
+  "start": 99.1,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "四象與五象/四象盤_題辭_中央層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_外圈層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_青龍層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_朱雀層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_白虎層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_玄武層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_中央倮獸層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "四象與五象/四象盤_月令層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 30,
+  "shot": "09",
+  "title": "鏡頭09-三候選",
+  "start": 104.1,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "倮獸主星候選/候選_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "倮獸主星候選/候選_方框層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 31,
+  "shot": "10",
+  "title": "鏡頭10-軒轅",
+  "start": 107.1,
+  "dur": 2.8,
+  "trans": "Match & Move",
+  "vo": "第一個：軒轅。線索在名字——黃帝就號軒轅；《史記》說「軒轅，黃龍體」。它在獅子座一帶，一條蜿蜒的星鏈，星數正好十七顆。",
+  "layers": [
+   {
+    "file": "軒轅十七星/軒轅_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_星點層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_連線層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 32,
+  "shot": "10",
+  "title": "鏡頭10-＋名稱線索",
+  "start": 109.9,
+  "dur": 4.2,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "軒轅十七星/軒轅_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_星點層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_連線層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_名稱層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_線索層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 33,
+  "shot": "10",
+  "title": "鏡頭10-＋十七顆",
+  "start": 114.1,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "軒轅十七星/軒轅_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_星點層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_連線層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_名稱層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_線索層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "軒轅十七星/軒轅_編號層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 34,
+  "shot": "11",
+  "title": "鏡頭11-牛郎織女",
+  "start": 119.1,
+  "dur": 4.5,
+  "trans": "Match & Move",
+  "vo": "第二個：牛郎織女——天上少數有「人」的故事。這兩顆星加上天津四，就是蒙古那一集的「三鹿」。",
+  "layers": [
+   {
+    "file": "牛郎織女/牛郎織女_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_星點層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_銀河層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_連線層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_名稱層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 35,
+  "shot": "11",
+  "title": "鏡頭11-＋三鹿",
+  "start": 123.6,
+  "dur": 4.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "牛郎織女/牛郎織女_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_星點層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_銀河層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_連線層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_名稱層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "牛郎織女/牛郎織女_三鹿層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 36,
+  "shot": "12",
+  "title": "鏡頭12-五旗・龍鳥",
+  "start": 128.1,
+  "dur": 2.8,
+  "trans": "Match & Move",
+  "vo": "第三個：弧矢。《考工記》寫車上的旗：龍、鳥、熊、龜蛇，各象一組星；第五面是「弧旌枉矢，以象弧也」——四面是動物，第五面，是人做的弓。而《史記》說「下有四星曰弧，直狼」：這把弓，對著天狼星。",
+  "layers": [
+   {
+    "file": "考工記五旗/五旗_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 37,
+  "shot": "12",
+  "title": "鏡頭12-＋熊・龜蛇",
+  "start": 130.9,
+  "dur": 1.6,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "考工記五旗/五旗_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗3層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗4層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 38,
+  "shot": "12",
+  "title": "鏡頭12-＋弧旌枉矢",
+  "start": 132.5,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "考工記五旗/五旗_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗3層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗4層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗5層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 39,
+  "shot": "12",
+  "title": "鏡頭12-＋結語",
+  "start": 135.5,
+  "dur": 3.2,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "考工記五旗/五旗_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗1層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗3層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗4層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_旗5層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "考工記五旗/五旗_結語層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 40,
+  "shot": "12",
+  "title": "鏡頭12-弧矢",
+  "start": 138.7,
+  "dur": 3.2,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "弧矢九星/弧矢_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_星點層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_銀河層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_連線層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_名稱層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_天狼層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 41,
+  "shot": "12",
+  "title": "鏡頭12-＋直狼",
+  "start": 141.9,
+  "dur": 4.2,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "弧矢九星/弧矢_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_星點層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_銀河層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_連線層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_名稱層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_天狼層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "弧矢九星/弧矢_直狼層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 42,
+  "shot": "13",
+  "title": "鏡頭13-三候選？",
+  "start": 146.1,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "三個候選，三個都還帶著問號。沒有任何傳世文獻明說，中央的倮獸對應哪一組星官——這一題，到今天還沒有答案。",
+  "layers": [
+   {
+    "file": "倮獸主星候選/候選_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "倮獸主星候選/候選_方框層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "倮獸主星候選/候選_問號層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 43,
+  "shot": "13",
+  "title": "鏡頭13-＋沒有答案",
+  "start": 150.1,
+  "dur": 7.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "倮獸主星候選/候選_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "倮獸主星候選/候選_方框層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "倮獸主星候選/候選_問號層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "倮獸主星候選/候選_結語層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 44,
+  "shot": "14",
+  "title": "鏡頭14-圖卡",
+  "start": 157.6,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "_圖卡/麒麟與倮獸_圖卡_黑底.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ]
+ }
+]

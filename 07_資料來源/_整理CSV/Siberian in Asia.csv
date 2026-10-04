@@ -1,7 +1,7 @@
 ﻿分類,Stellarium ID,英文名 English,原文名 Native,讀音 Pronounce,IPA,繁中譯名 zh_TW,星數,組成恆星 (HIP),對應國際星名,Stellarium 描述,社團清單,社團補充備註,參考文獻#
-星座/星官,CON siberian Elk,Elk,,Los',,麋鹿,7,67301 65378 62956 59774 58001 53910 54061,Alkaid、Mizar、Alioth、Megrez、Phecda、Merak、Dubhe,,✓,,
-星座/星官,CON siberian Kic,Threshers,,Kichigi,,打穀者,5,26241 26268 26727 26311 25930,Hatysa、Alnitak、Alnilam、Mintaka,,✓,,
-星座/星官,CON siberian DNe,Duck Nest,,Utinoe gnezdo,,鴨巢,8,17499 17489 17531 17579 17664 17851 17847 17608,Electra、Celaeno、Taygeta、Asterope、Pleione、Atlas、Merope,,✓,,
-具名恆星,HIP 11767,Golden stake,,,,金樁,,,Polaris,,,,
-具名深空天體/其他,NAME Pleiades,Duck Nest,,,,鴨巢,,,Pleiades,,,,
-具名深空天體,NAME Milky Way,Goose Road / Mamay Road,,,,鵝路 / 瑪美路,,,Milky Way,,,,
+星座/星官,CON siberian Elk,Elk,Лось,Los',,駝鹿,7,67301 65378 62956 59774 58001 53910 54061,Alkaid、Mizar、Alioth、Megrez、Phecda、Merak、Dubhe,,✓,"Лось（Los'）＝駝鹿（moose, Alces alces；Stellarium 英文 Elk 是英式用法）；「麋鹿」是中國的四不像，不同動物。Stellarium description：中西伯利亞常叫駝鹿，東西伯利亞多叫熊",
+星座/星官,CON siberian Kic,Threshers,Кичиги,Kichigi,,打穀者,5,26241 26268 26727 26311 25930,Hatysa、Alnitak、Alnilam、Mintaka,,✓,кичига＝打穀用的彎木棍；description：西伯利亞通常只用腰帶三顆（index.json 的線多連了寶劍 ι Ori、HIP 26268）；歐俄的 Кичиги 常指北斗,
+星座/星官,CON siberian DNe,Duck Nest,Утиное гнездо,Utinoe gnezdo,,鴨巢,8,17499 17489 17531 17579 17664 17851 17847 17608,Electra、Celaeno、Taygeta、Asterope、Pleione、Atlas、Merope,,✓,,
+具名恆星,HIP 11767,Golden stake,,,,金樁,,,Polaris,,,Stellarium 只給英文 Golden stake；阿爾泰語 Алтын казык（金樁）、多數突厥語「鐵樁」（哈薩克 Темірқазық）,
+具名深空天體/其他,NAME Pleiades,Duck Nest,Утиное гнездо,,,鴨巢,,,Pleiades,,,,
+具名深空天體,NAME Milky Way,Goose Road / Mamay Road,Гусиная дорога / Мамаева дорога,,,鵝之路 / 馬麥之路,,,Milky Way,,,鵝之路較古老（大雁沿著飛）；馬麥之路較晚，Мамай＝金帳汗國將領馬麥（受蒙古—韃靼入侵影響）,

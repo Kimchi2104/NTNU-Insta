@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="936pt" viewBox="0 0 936 936" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-30T21:05:00.202589</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 936 
+L 936 936 
+L 936 0 
+L 0 0 
+L 0 936 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g clip-path="url(#pcda87b984b)">
+     <!-- Лось -->
+     <g style="fill: #ffc94a" transform="translate(316.308866 422.807053) scale(0.085398 -0.085398)">
+      <defs>
+       <path id="NotoSerifCJKjp-Regular-13e" d="M 1222 4467 
+L 1882 4410 
+C 1830 3347 1702 2342 1478 1459 
+C 1306 832 1114 557 883 358 
+C 736 493 621 570 442 570 
+C 269 570 128 499 64 346 
+C 64 45 243 -96 518 -96 
+C 1011 -96 1421 326 1702 1389 
+C 1946 2304 2061 3328 2112 4435 
+L 3226 4435 
+C 3232 3802 3232 3149 3232 2502 
+L 3232 2157 
+C 3232 1510 3232 877 3226 250 
+L 2560 192 
+L 2560 0 
+L 4480 0 
+L 4480 192 
+L 3808 250 
+C 3802 877 3802 1517 3802 2157 
+L 3802 2502 
+C 3802 3149 3802 3782 3808 4416 
+L 4480 4467 
+L 4480 4659 
+L 1222 4659 
+L 1222 4467 
+z
+" transform="scale(0.015625)"/>
+       <path id="NotoSerifCJKjp-Regular-161" d="M 1901 -96 
+C 2752 -96 3501 493 3501 1651 
+C 3501 2803 2726 3398 1901 3398 
+C 1082 3398 307 2797 307 1651 
+C 307 499 1056 -96 1901 -96 
+z
+M 1901 102 
+C 1267 102 877 646 877 1645 
+C 877 2643 1267 3194 1901 3194 
+C 2534 3194 2925 2643 2925 1645 
+C 2925 646 2534 102 1901 102 
+z
+" transform="scale(0.015625)"/>
+       <path id="NotoSerifCJKjp-Regular-164" d="M 1901 -96 
+C 2509 -96 2893 160 3181 602 
+L 3078 685 
+C 2790 371 2464 224 2080 224 
+C 1363 224 864 755 864 1677 
+C 864 2611 1363 3194 2016 3194 
+C 2163 3194 2304 3168 2445 3110 
+L 2579 2643 
+C 2618 2419 2720 2330 2899 2330 
+C 3040 2330 3130 2400 3168 2554 
+C 3027 3066 2554 3398 1984 3398 
+C 1101 3398 307 2752 307 1606 
+C 307 538 960 -96 1901 -96 
+z
+" transform="scale(0.015625)"/>
+       <path id="NotoSerifCJKjp-Regular-16f" d="M 326 0 
+L 1901 0 
+C 2906 0 3302 454 3302 1043 
+C 3302 1613 2925 2042 2022 2042 
+C 1811 2042 1594 2022 1376 1990 
+C 1376 2330 1382 2765 1389 3072 
+L 1901 3130 
+L 1901 3302 
+L 326 3302 
+L 326 3130 
+L 845 3072 
+L 858 1843 
+L 858 1466 
+L 845 230 
+L 326 179 
+L 326 0 
+z
+M 1376 1798 
+C 1542 1824 1709 1837 1882 1837 
+C 2502 1837 2790 1581 2790 1024 
+C 2790 448 2464 186 1792 186 
+L 1395 186 
+C 1382 544 1376 1094 1376 1466 
+L 1376 1798 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#NotoSerifCJKjp-Regular-13e"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-161" transform="translate(73.5 0)"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-164" transform="translate(133.09375 0)"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-16f" transform="translate(186.890625 0)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcda87b984b">
+   <rect x="0" y="0" width="936" height="936"/>
+  </clipPath>
+ </defs>
+</svg>

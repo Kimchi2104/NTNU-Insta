@@ -1,0 +1,2092 @@
+[
+ {
+  "page": 2,
+  "shot": "02",
+  "title": "鏡頭02-論天三家",
+  "start": 5.0,
+  "dur": 8.0,
+  "trans": "Match & Move",
+  "vo": "從西漢落下閎造渾儀，吵到唐朝一行實地量影子，足足八百年。《晉書》說：古言天者有三家——",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "shot": "03",
+  "title": "鏡頭03-＋蓋天",
+  "start": 13.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "蓋天、渾天、宣夜。天是一把傘、一顆蛋，還是根本沒有殼？",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "shot": "03",
+  "title": "鏡頭03-＋渾天",
+  "start": 15.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "shot": "03",
+  "title": "鏡頭03-＋宣夜",
+  "start": 17.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_宣夜層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "shot": "04",
+  "title": "鏡頭04-蓋天兩版",
+  "start": 19.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "先說蓋天。它其實有兩版。早期說「天員如張蓋，地方如棋局」：天是一把撐開的傘，地是一張方棋盤。",
+  "layers": [
+   {
+    "file": "蓋天說/蓋天兩版_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "shot": "04",
+  "title": "鏡頭04-＋第一版",
+  "start": 21.0,
+  "dur": 7.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/蓋天兩版_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蓋天兩版_第一版層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 8,
+  "shot": "05",
+  "title": "鏡頭05-＋曾子四角",
+  "start": 28.0,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "可是連曾子都不信：真的天圓地方，四個角就蓋不住了。",
+  "layers": [
+   {
+    "file": "蓋天說/蓋天兩版_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蓋天兩版_第一版層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蓋天兩版_四角層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 9,
+  "shot": "06",
+  "title": "鏡頭06-＋第二版",
+  "start": 33.0,
+  "dur": 8.0,
+  "trans": "Match & Move",
+  "vo": "到了《周髀算經》，改成「天象蓋笠，地法覆槃」：天像斗笠，地像倒扣的盤子，都是中間高、四邊低。",
+  "layers": [
+   {
+    "file": "蓋天說/蓋天兩版_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蓋天兩版_第一版層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蓋天兩版_四角層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蓋天兩版_第二版層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 10,
+  "shot": "07",
+  "title": "鏡頭07-側視",
+  "start": 41.0,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "而且有數字：北極底下的地，比最外圈高六萬里；天和地，處處相隔八萬里。",
+  "layers": [
+   {
+    "file": "蓋天說/側視_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/側視_天地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 11,
+  "shot": "07",
+  "title": "鏡頭07-＋數值",
+  "start": 44.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/側視_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/側視_天地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/側視_數值層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 12,
+  "shot": "08",
+  "title": "鏡頭08-＋日行",
+  "start": 48.0,
+  "dur": 6.0,
+  "trans": "Match & Move",
+  "vo": "太陽黏在天上，水平地繞著北極轉：夏天走內圈，冬天走外圈。",
+  "layers": [
+   {
+    "file": "蓋天說/側視_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/側視_天地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/側視_數值層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/側視_日行層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 13,
+  "shot": "09",
+  "title": "鏡頭09-七衡",
+  "start": 54.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "從上往下看，一年在七個同心圓之間來回，這叫「七衡六間」。外圈直徑四十七萬六千里，剛好是內圈的兩倍。",
+  "layers": [
+   {
+    "file": "蓋天說/七衡六間_環層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/七衡六間_中心層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 14,
+  "shot": "09",
+  "title": "鏡頭09-內衡",
+  "start": 56.0,
+  "dur": 1.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/七衡六間_逐衡_1_內衡_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/七衡六間_中心層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 15,
+  "shot": "09",
+  "title": "鏡頭09-中衡",
+  "start": 57.5,
+  "dur": 1.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/七衡六間_逐衡_4_中衡_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/七衡六間_中心層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 16,
+  "shot": "09",
+  "title": "鏡頭09-外衡",
+  "start": 59.0,
+  "dur": 1.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/七衡六間_逐衡_7_外衡_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/七衡六間_中心層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 17,
+  "shot": "09",
+  "title": "鏡頭09-七衡＋標籤",
+  "start": 60.5,
+  "dur": 4.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/七衡六間_環層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/七衡六間_中心層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/七衡六間_標籤層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/七衡六間_日位層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 18,
+  "shot": "10",
+  "title": "鏡頭10-圭表",
+  "start": 65.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "這些數字哪來的？立一根八尺的桿子，量正午的影子：夏至一尺六寸，冬至一丈三尺五寸。用影子長短，反推太陽多遠。",
+  "layers": [
+   {
+    "file": "蓋天說/圭表日影_表層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 19,
+  "shot": "10",
+  "title": "鏡頭10-＋夏至",
+  "start": 69.0,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/圭表日影_表層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/圭表日影_夏至層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 20,
+  "shot": "10",
+  "title": "鏡頭10-＋冬至",
+  "start": 72.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/圭表日影_表層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/圭表日影_夏至層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/圭表日影_冬至層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 21,
+  "shot": "11",
+  "title": "鏡頭11-＋寸差千里",
+  "start": 76.0,
+  "dur": 10.0,
+  "trans": "Match & Move",
+  "vo": "但這套算法有個前提：往南走一千里，影子就短一寸。直到唐朝一行派人實地去量——兩百多里就差一寸。",
+  "layers": [
+   {
+    "file": "蓋天說/圭表日影_表層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/圭表日影_夏至層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/圭表日影_冬至層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/圭表日影_寸差千里層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 22,
+  "shot": "12",
+  "title": "鏡頭12-蟻行磨石",
+  "start": 86.0,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "那太陽明明東升西落，怎麼會是平轉？蓋天家說：像螞蟻在磨盤上爬。",
+  "layers": [
+   {
+    "file": "蓋天說/蟻行磨石_磨盤層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 23,
+  "shot": "12",
+  "title": "鏡頭12-＋螞蟻",
+  "start": 89.0,
+  "dur": 3.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/蟻行磨石_磨盤層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_蟻層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 24,
+  "shot": "13",
+  "title": "鏡頭13-＋旋向",
+  "start": 92.0,
+  "dur": 1.0,
+  "trans": "Match & Move",
+  "vo": "磨往左轉得快，螞蟻往右爬得慢，結果還是被磨帶著往左走。",
+  "layers": [
+   {
+    "file": "蓋天說/蟻行磨石_磨盤層_透明.png",
+    "rotation": 0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_蟻層_透明.png",
+    "rotation": 0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_旋向層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 25,
+  "shot": "13",
+  "title": "鏡頭13-轉1",
+  "start": 93.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/蟻行磨石_磨盤層_透明.png",
+    "rotation": -45,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_蟻層_透明.png",
+    "rotation": -30,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_旋向層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 26,
+  "shot": "13",
+  "title": "鏡頭13-轉2",
+  "start": 95.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/蟻行磨石_磨盤層_透明.png",
+    "rotation": -90,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_蟻層_透明.png",
+    "rotation": -60,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_旋向層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 27,
+  "shot": "13",
+  "title": "鏡頭13-轉3",
+  "start": 97.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "蓋天說/蟻行磨石_磨盤層_透明.png",
+    "rotation": -135,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_蟻層_透明.png",
+    "rotation": -90,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "蓋天說/蟻行磨石_旋向層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 28,
+  "shot": "14",
+  "title": "鏡頭14-天球",
+  "start": 99.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "第二家，渾天。傳為張衡所作的《渾天儀注》說：「渾天如雞子，天體圓如彈丸，地如雞子中黃。」",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 29,
+  "shot": "14",
+  "title": "鏡頭14-＋地",
+  "start": 103.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 30,
+  "shot": "15",
+  "title": "鏡頭15-＋載水而浮",
+  "start": 107.0,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "天是蛋殼，地是蛋黃；天表裡有水，大地浮在水上。",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_載水而浮層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 31,
+  "shot": "16",
+  "title": "鏡頭16-＋極軸",
+  "start": 112.0,
+  "dur": 2.5,
+  "trans": "Match & Move",
+  "vo": "北極高出地面三十六度，赤道、黃道斜斜交叉，二十八宿繞天一圈，一半在地上、一半在地下——「半見半隱」。",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_載水而浮層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_極軸層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 32,
+  "shot": "16",
+  "title": "鏡頭16-＋赤道",
+  "start": 114.5,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_載水而浮層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_極軸層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_赤道層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 33,
+  "shot": "16",
+  "title": "鏡頭16-＋黃道",
+  "start": 116.5,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_載水而浮層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_極軸層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_赤道層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_黃道層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 34,
+  "shot": "16",
+  "title": "鏡頭16-＋二十八宿",
+  "start": 118.5,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_載水而浮層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_極軸層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_赤道層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_黃道層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_二十八宿層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 35,
+  "shot": "16",
+  "title": "鏡頭16-＋半見半隱",
+  "start": 120.5,
+  "dur": 1.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "渾天說/天球_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_天球層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_載水而浮層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_地層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_極軸層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_赤道層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_黃道層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_二十八宿層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "渾天說/天球_半見半隱層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 36,
+  "shot": "17",
+  "title": "鏡頭17-蔡邕評蓋天",
+  "start": 122.0,
+  "dur": 6.0,
+  "trans": "Match & Move",
+  "vo": "這顆球能直接做成儀器、算出曆法。所以東漢蔡邕評三家：蓋天「考驗天狀，多所違失」，只有渾天「近得其情」。",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_宣夜層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_出處層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 37,
+  "shot": "17",
+  "title": "鏡頭17-＋評渾天",
+  "start": 128.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_宣夜層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_出處層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 38,
+  "shot": "18",
+  "title": "鏡頭18-宣夜",
+  "start": 132.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "第三家最大膽：宣夜。書早就失傳，只剩東漢郗萌記下的老師說法：「天了無質，仰而瞻之，高遠無極。」",
+  "layers": [
+   {
+    "file": "宣夜說/宣夜_氣_第1層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第2層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第3層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_眾星層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   }
+  ]
+ },
+ {
+  "page": 39,
+  "shot": "18",
+  "title": "鏡頭18-＋題辭",
+  "start": 136.0,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "宣夜說/宣夜_氣_第1層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -465,
+    "top": 10,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第2層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -385,
+    "top": -25,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第3層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -440,
+    "top": 18,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_眾星層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 40,
+  "shot": "19",
+  "title": "鏡頭19-青非真色",
+  "start": 141.0,
+  "dur": 2.0,
+  "trans": "Match & Move",
+  "vo": "那天為什麼是藍的？遠方的黃山看起來是青的，千仞深谷看起來是黑的——「青非真色，而黑非有體」。",
+  "layers": [
+   {
+    "file": "宣夜說/青非真色_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 41,
+  "shot": "19",
+  "title": "鏡頭19-＋山",
+  "start": 143.0,
+  "dur": 3.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "宣夜說/青非真色_山層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "宣夜說/青非真色_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 42,
+  "shot": "19",
+  "title": "鏡頭19-＋標籤",
+  "start": 146.5,
+  "dur": 3.5,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "宣夜說/青非真色_山層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "宣夜說/青非真色_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "宣夜說/青非真色_標籤層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 43,
+  "shot": "20",
+  "title": "鏡頭20-日月五星",
+  "start": 150.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "日月眾星，自然浮在虛空裡，靠氣推動，各走各的，所以行星時快時慢、忽進忽退。",
+  "layers": [
+   {
+    "file": "宣夜說/宣夜_氣_第1層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第2層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第3層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_眾星層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "宣夜說/宣夜_日月五星層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "宣夜說/宣夜_題辭2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 44,
+  "shot": "20",
+  "title": "鏡頭20-飄移",
+  "start": 154.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "宣夜說/宣夜_氣_第1層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -465,
+    "top": 10,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第2層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -385,
+    "top": -25,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_氣_第3層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -440,
+    "top": 18,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_眾星層_透明.png",
+    "rotation": 0.0,
+    "back": true,
+    "left": -420,
+    "top": 0,
+    "width": 1920,
+    "height": 1920
+   },
+   {
+    "file": "宣夜說/宣夜_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "宣夜說/宣夜_日月五星層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "宣夜說/宣夜_題辭2層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 45,
+  "shot": "21",
+  "title": "鏡頭21-三家評語",
+  "start": 158.0,
+  "dur": 6.0,
+  "trans": "Match & Move",
+  "vo": "宣夜做不成儀器，也算不出曆法，蔡邕說它「絕無師法」。它說的氣當然不是今天的物理；但它拆掉了那層硬殼——這一步，比另外兩家都更接近今天的宇宙。",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_宣夜層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_出處層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_宣夜層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 46,
+  "shot": "21",
+  "title": "鏡頭21-＋宣夜高亮",
+  "start": 164.0,
+  "dur": 5.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "_三家並置/論天三家_題辭層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_宣夜層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_出處層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_蓋天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_渾天層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_評_宣夜層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   },
+   {
+    "file": "_三家並置/論天三家_宣夜高亮層_透明.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 420,
+    "width": 1080,
+    "height": 1080
+   }
+  ]
+ },
+ {
+  "page": 47,
+  "shot": "21",
+  "title": "鏡頭21-對照表",
+  "start": 169.0,
+  "dur": 4.0,
+  "trans": "Match & Move",
+  "vo": "",
+  "layers": [
+   {
+    "file": "_三家並置/三家對照表_圖卡_黑底.png",
+    "rotation": 0.0,
+    "back": false,
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ]
+ }
+]

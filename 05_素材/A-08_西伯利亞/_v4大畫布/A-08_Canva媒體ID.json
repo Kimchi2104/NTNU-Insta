@@ -1,0 +1,29 @@
+{
+ "layers": {
+  "L1-銀河": "MAHWtWihXVA",
+  "L2-星點": "MAHWtZwTYS8",
+  "L3-經緯線": "MAHWtVmFSTU",
+  "L4-星座連線": "MAHWtU2Qpv8",
+  "L5-連線-小駝鹿": "MAHWtQ9RWFI",
+  "L6-連線-獵人": "MAHWtbeOb4Q",
+  "L7-主角星白點": "MAHWtc6Mn1Y",
+  "北盤L1-銀河": "MAHWtcIwS00",
+  "北盤L2-星點": "MAHWtXs7kMk",
+  "北盤L3-經緯線": "MAHWtVrvGHQ",
+  "北盤L4-星座連線": "MAHWtWJ-X80",
+  "北盤L6-連線-獵人": "MAHWtbWhO_k",
+  "北盤L7-主角星白點": "MAHWtVAUY3M"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A08-01_宇宙追獵_埃文基層_透明.png": "MAHWtd5WnnA",
+  "C-A08-01_宇宙追獵_米克馬克層_透明.png": "MAHWtRIDk0Y",
+  "C-A08-02_候鳥看轉軸_北極星層_透明.png": "MAHWtY4GHpk",
+  "C-A08-02_候鳥看轉軸_參宿四層_透明.png": "MAHWtdpK_-o"
+ },
+ "_design": {
+  "id": "DAHWs-SqnWM",
+  "title": "A-08 西伯利亞"
+ }
+}

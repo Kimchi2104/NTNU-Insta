@@ -1,0 +1,29 @@
+{
+ "layers": {
+  "L1-銀河": "MAHWtDnnTT8",
+  "L2-星點": "MAHWtNkig4Y",
+  "L3-經緯線": "MAHWtOnFtOw",
+  "L4-星座連線": "MAHWtMJCIb8",
+  "L5-連線-指極線": "MAHWtMBbDLQ",
+  "L6-連線-Stellarium三雄鹿": "MAHWtDJO9pY",
+  "L7-主角星白點": "MAHWtCaNzck",
+  "北盤L1-銀河": "MAHWtHeR07Y",
+  "北盤L2-星點": "MAHWtOjybBM",
+  "北盤L3-經緯線": "MAHWtEFUsig",
+  "北盤L4-星座連線": "MAHWtNMTFcw",
+  "北盤L7-主角星白點": "MAHWtGloY30"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A07-01_生肖本命星兩個版本_北斗層_透明.png": "MAHWtBQRnZk",
+  "C-A07-01_生肖本命星兩個版本_循環版層_透明.png": "MAHWtG_8f8k",
+  "C-A07-01_生肖本命星兩個版本_折返版層_透明.png": "MAHWtFtOZA8",
+  "C-A07-02_七兄弟不是一家人_距離層_透明.png": "MAHWtIcpwfs",
+  "C-A07-02_七兄弟不是一家人_結論層_透明.png": "MAHWtEQRDU4"
+ },
+ "_design": {
+  "id": "DAHWs-wm5E8",
+  "title": "A-07 蒙古"
+ }
+}
