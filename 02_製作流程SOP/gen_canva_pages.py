@@ -318,10 +318,12 @@ class Pages:
         if pg.get("labels_from") and not pg.get("shot_next"):
             return Pages.label_names(pg["labels_from"])
         sh = pg.get("shot_next") or pg["shot"]
-        if pg.get("shot_next"):
-            return sh.get("labels", [])
+        if pg.get("shot_next"):                   # 一頁兩用＝下一鏡起格；labels_start 可另訂（B-01 起）
+            return sh.get("labels_start", sh.get("labels", []))
         if pg["t"] >= 1.0 and "labels_end" in sh:
             return sh["labels_end"]
+        if pg["t"] <= 0.0 and "labels_start" in sh:
+            return sh["labels_start"]
         return sh.get("labels", [])
 
     def page_labels(self, pg):
@@ -345,7 +347,7 @@ class Pages:
                     sX, sY = self.to_screen(pg, *p)
                 else:
                     north = pg["group"] == "北盤"
-                    if (dec if north else -dec) < m.Dr:        # 同 D_labels：帶內標籤不進盤
+                    if (dec if north else -dec) < m.Dr and not it.get("disc"):   # 同 D_labels
                         continue
                     q = m.to_disc_local(m.p_disc(m.xw(ra), dec, north), north)
                     sX, sY = self.to_screen(pg, *q, local=True)

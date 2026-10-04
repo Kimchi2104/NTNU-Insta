@@ -692,8 +692,8 @@ class Master:
             else:
                 ra, dec = it["ra"], it["dec"]
             dd = dec if north else -dec
-            if dd < self.Dr:                        # 帶內標籤不進盤檔（與大畫布一致）
-                continue
+            if dd < self.Dr and not it.get("disc"):  # 帶內標籤不進盤檔（與大畫布一致）；
+                continue                             # disc=True＝盤專用標籤組（B-01：盤上導覽英仙、御夫）
             m = missing_glyphs(it["text"])
             if m:
                 skipped.append((it["text"], m))
@@ -816,22 +816,33 @@ class Master:
         json.dump(info, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         return p
 
-    def draw_mpl(self, ax, line_groups=(), maglim=None, mw_n=9000, labels=()):
+    def draw_mpl(self, ax, line_groups=(), maglim=None, mw_n=9000, labels=(), disc=None):
+        """disc=None：畫大畫布；disc=True／False：畫完整北／南盤（盤心放在大畫布盤心位置），
+        縮圖牆的 R 鏡頭用——偏離盤心的取景才看得到長圖側扇區的盤內容（B-01 起）"""
         maglim = maglim or min(self.maglim, 5.2)
         FP = find_serif()
+        if disc is None:
+            pos_all, runs_all, pos_primary = self.pos_all, self.runs_all, self.pos_primary
+        else:
+            xt, yc = self.disc_center(disc)
+            pos_all = lambda ra, dec: [(p[0] + xt, p[1] + yc)
+                                       for p in self.pos_disc(ra, dec, disc)]
+            runs_all = lambda pts: [[(x + xt, y + yc) for x, y in r]
+                                    for r in self._runs_disc(pts, disc)]
+            pos_primary = lambda ra, dec: (pos_all(ra, dec) or [(1e9, 1e9)])[0]
         random.seed(7)
         xs, ys, ss = [], [], []
         for _ in range(mw_n):
             l = random.uniform(0, 360); b = random.gauss(0, 6.2)
             ra, dec = G.gal2eq(l, b)
-            for p in self.pos_all(ra, dec):
+            for p in pos_all(ra, dec):
                 xs.append(p[0]); ys.append(p[1]); ss.append(random.uniform(.2, 1.1))
         ax.scatter(xs, ys, s=ss, c=COLORS["mw"], alpha=.26, lw=0, zorder=1)
         xs, ys, ss = [], [], []
         for hip, (ra, dec, v) in self.S.items():
             if v > maglim:
                 continue
-            for p in self.pos_all(ra, dec):
+            for p in pos_all(ra, dec):
                 xs.append(p[0]); ys.append(p[1])
                 ss.append(max(.3, (6.3 - v)) ** 1.8 * .38)
         ax.scatter(xs, ys, s=ss, c="#FFFFFF", lw=0, zorder=2)
@@ -839,12 +850,12 @@ class Master:
             for seg in segs:
                 hs = [h for h in seg if h in self.S]
                 for a, b in zip(hs, hs[1:]):
-                    for r in self.runs_all(great_circle(*self.S[a][:2], *self.S[b][:2])):
+                    for r in runs_all(great_circle(*self.S[a][:2], *self.S[b][:2])):
                         ax.plot([p[0] for p in r], [p[1] for p in r],
                                 c=COLORS.get(col, col), lw=0.9, alpha=.9, zorder=5)
         for it in labels:
             ra, dec = (self.S[it["hip"]][:2] if "hip" in it else (it["ra"], it["dec"]))
-            p = self.pos_primary(ra, dec)
+            p = pos_primary(ra, dec)
             # 預覽必須與 L_labels/D_labels 的 dx/dy 一致，否則肉眼 QA 會誤判重疊
             ax.text(p[0] + it.get("dx", 0.0), p[1] + it.get("dy", 1.4),
                     G.rtl(it["text"]), fontproperties=FP,
@@ -898,19 +909,33 @@ class Master:
             for s in ax.spines.values():
                 s.set_color("#FF6B6B" if i == 0 else "#8A5A5A"); s.set_lw(1.2)
             ax.set_xticks([]); ax.set_yticks([])
+            disc = None
             if sh["kind"] == "R":
                 self.lst = lst0 - rot          # 盤旋轉 ≡ lst 平移
-                px, py = (self.xtN, self.y_pole) if sh.get("north", True) \
-                    else (self.xtS, -self.y_pole)
-                cx2, cy2 = px, py
+                disc = sh.get("north", True)   # v4.7：畫完整盤、照 frame 的 cx,cy 取景（原本一律盤心置中）
             else:
                 self.lst = lst0
-                cx2, cy2 = cx, cy
             hw, hh = fov / 2, fov * 8 / 9
-            ax.set_xlim(cx2 - hw, cx2 + hw); ax.set_ylim(cy2 - hh, cy2 + hh)
+            ax.set_xlim(cx - hw, cx + hw); ax.set_ylim(cy - hh, cy + hh)
             ax.set_aspect("equal")
             self.draw_mpl(ax, line_groups, maglim=min(self.maglim, 5.0),
-                          mw_n=4500, labels=labels)
+                          mw_n=4500, labels=labels, disc=disc)
+            for phi in (sh.get("horizon") or []) if disc else []:
+                # 地平線固定在畫面上：盤轉 rot ≡ lst 平移後，北點在盤心正下方 kφ
+                xt, yc = self.disc_center(True)
+                pts = []
+                for ra, dec in horizon_points(phi, (self.lst - 180.0) % 360.0, n=361):
+                    q = self.pos_disc(ra, dec, True)
+                    pts.append((q[0][0] + xt, q[0][1] + yc) if q else None)
+                run = []
+                for q in pts + [None]:
+                    if q is None:
+                        if len(run) > 1:
+                            ax.plot([a for a, b in run], [b for a, b in run], c="#48E39B",
+                                    lw=1.2, alpha=.9, zorder=8)
+                        run = []
+                    else:
+                        run.append(q)
             ax.text(.03, .975, f"{sh['code']}{'起' if i == 0 else '迄'}"
                     f"　{sh['kind']}　{sh['sec'] if i == 0 else ''}"
                     + ("s" if i == 0 else ""),
