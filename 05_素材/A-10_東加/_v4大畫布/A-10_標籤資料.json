@@ -316,8 +316,8 @@
           "text": "Velitoa hihifo",
           "color": "purple",
           "size": 1.1,
-          "dx": 0.0,
-          "dy": -2.4,
+          "dx": -3.5,
+          "dy": -3.8,
           "key": "St-Velitoa hihifo"
         },
         {
@@ -681,8 +681,8 @@
           "text": "北冕座？",
           "color": "white",
           "size": 1.5,
-          "dx": 0.0,
-          "dy": -5.4,
+          "dx": 15.1,
+          "dy": 0.0,
           "key": "CrB",
           "disc": true
         }
@@ -697,7 +697,7 @@
           "text": "Kapakau ʻo Tafahi",
           "color": "green",
           "size": 2.0,
-          "dx": 20.89,
+          "dx": 24.89,
           "dy": 2.6,
           "key": "Kapakau ʻo Tafahi",
           "disc": true
@@ -718,8 +718,8 @@
           "text": "Tuʻulalupe",
           "color": "green",
           "size": 2.0,
-          "dx": -12.35,
-          "dy": 0.8,
+          "dx": -19.35,
+          "dy": 1.8,
           "key": "Tuʻulalupe",
           "disc": true
         }
@@ -734,7 +734,7 @@
           "text": "仙后座",
           "color": "white",
           "size": 1.5,
-          "dx": 8.82,
+          "dx": 12.82,
           "dy": -2.4,
           "key": "Cas-zh",
           "disc": true
@@ -745,7 +745,7 @@
           "color": "white",
           "size": 1.5,
           "dx": 0.0,
-          "dy": 1.8,
+          "dy": -4.4,
           "key": "Pleiades-zh",
           "disc": true
         },
@@ -755,8 +755,8 @@
           "text": "畢宿",
           "color": "white",
           "size": 1.5,
-          "dx": -5.55,
-          "dy": -2.6,
+          "dx": -12.55,
+          "dy": -3.2,
           "key": "Hyades-zh",
           "disc": true
         }

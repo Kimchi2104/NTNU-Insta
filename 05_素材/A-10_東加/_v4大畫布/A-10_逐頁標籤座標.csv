@@ -30,10 +30,10 @@
 23,鏡頭10-概念圖收＝鏡頭11開始,仙后-北盤,仙后座？,863,1007,56,#FFFFFF,540,1007,Cas
 24,鏡頭11結束,圓環-北盤,ʻAo ʻo ʻUvea,540,590,48,#7BD88F,540,729,ʻAo ʻo ʻUvea
 24,鏡頭11結束,圓環-北盤,ʻUvea 的圓環,540,651,37,#7BD88F,540,729,ʻAo-zh
-24,鏡頭11結束,圓環-北盤,北冕座？,540,798,33,#FFFFFF,540,729,CrB
+24,鏡頭11結束,圓環-北盤,北冕座？,734,729,33,#FFFFFF,540,729,CrB
 27,鏡頭11-概念圖收,圓環-北盤,ʻAo ʻo ʻUvea,540,590,48,#7BD88F,540,729,ʻAo ʻo ʻUvea
 27,鏡頭11-概念圖收,圓環-北盤,ʻUvea 的圓環,540,651,37,#7BD88F,540,729,ʻAo-zh
-27,鏡頭11-概念圖收,圓環-北盤,北冕座？,540,798,33,#FFFFFF,540,729,CrB
+27,鏡頭11-概念圖收,圓環-北盤,北冕座？,734,729,33,#FFFFFF,540,729,CrB
 31,鏡頭12結束＝鏡頭13開始,鴿,Tuʻulalupe,426,1063,76,#7BD88F,426,931,Tuʻulalupe
 31,鏡頭12結束＝鏡頭13開始,鴿,鴿子的棲架,426,1135,61,#7BD88F,426,931,Tuʻulalupe-zh
 31,鏡頭12結束＝鏡頭13開始,鴿,Mataliki,724,579,76,#FFC94A,724,717,Mataliki
@@ -49,20 +49,20 @@
 34,鏡頭15結束,Stellarium,Toloa 野鴨,838,951,48,#B78AFF,838,1023,St-Toloa
 34,鏡頭15結束,Stellarium,Lua tangata 兩個人,497,401,48,#B78AFF,220,401,St-Lua tangata
 34,鏡頭15結束,Stellarium,Velitoa hahake,560,840,37,#B78AFF,744,852,St-Velitoa hahake
-34,鏡頭15結束,Stellarium,Velitoa hihifo,947,1212,37,#B78AFF,947,1164,St-Velitoa hihifo
+34,鏡頭15結束,Stellarium,Velitoa hihifo,877,1240,37,#B78AFF,947,1164,St-Velitoa hihifo
 36,鏡頭15-概念圖收,Stellarium,Toloa 野鴨,838,951,48,#B78AFF,838,1023,St-Toloa
 36,鏡頭15-概念圖收,Stellarium,Lua tangata 兩個人,497,401,48,#B78AFF,220,401,St-Lua tangata
 36,鏡頭15-概念圖收,Stellarium,Velitoa hahake,560,840,37,#B78AFF,744,852,St-Velitoa hahake
-36,鏡頭15-概念圖收,Stellarium,Velitoa hihifo,947,1212,37,#B78AFF,947,1164,St-Velitoa hihifo
-40,鏡頭16結束＝鏡頭17開始,台北-北盤,Kapakau ʻo Tafahi,404,697,31,#7BD88F,213,721,Kapakau ʻo Tafahi
+36,鏡頭15-概念圖收,Stellarium,Velitoa hihifo,877,1240,37,#B78AFF,947,1164,St-Velitoa hihifo
+40,鏡頭16結束＝鏡頭17開始,台北-北盤,Kapakau ʻo Tafahi,441,697,31,#7BD88F,213,721,Kapakau ʻo Tafahi
 40,鏡頭16結束＝鏡頭17開始,台北-北盤,Mataliki,872,649,31,#FFC94A,872,689,Mataliki
-40,鏡頭16結束＝鏡頭17開始,台北-北盤,Tuʻulalupe,913,798,31,#7BD88F,1026,805,Tuʻulalupe
-40,鏡頭16結束＝鏡頭17開始,台北譯-北盤,仙后座,294,743,23,#FFFFFF,213,721,Cas-zh
-40,鏡頭16結束＝鏡頭17開始,台北譯-北盤,昴宿,872,673,23,#FFFFFF,872,689,Pleiades-zh
-40,鏡頭16結束＝鏡頭17開始,台北譯-北盤,畢宿,975,829,23,#FFFFFF,1026,805,Hyades-zh
-41,鏡頭17結束,台北-北盤,Kapakau ʻo Tafahi,373,690,31,#7BD88F,185,714,Kapakau ʻo Tafahi
+40,鏡頭16結束＝鏡頭17開始,台北-北盤,Tuʻulalupe,849,789,31,#7BD88F,1026,805,Tuʻulalupe
+40,鏡頭16結束＝鏡頭17開始,台北譯-北盤,仙后座,330,743,23,#FFFFFF,213,721,Cas-zh
+40,鏡頭16結束＝鏡頭17開始,台北譯-北盤,昴宿,872,729,23,#FFFFFF,872,689,Pleiades-zh
+40,鏡頭16結束＝鏡頭17開始,台北譯-北盤,畢宿,911,834,23,#FFFFFF,1026,805,Hyades-zh
+41,鏡頭17結束,台北-北盤,Kapakau ʻo Tafahi,409,690,31,#7BD88F,185,714,Kapakau ʻo Tafahi
 41,鏡頭17結束,台北-北盤,Mataliki,828,586,31,#FFC94A,828,626,Mataliki
-41,鏡頭17結束,台北-北盤,Tuʻulalupe,877,719,31,#7BD88F,988,726,Tuʻulalupe
-41,鏡頭17結束,台北譯-北盤,仙后座,264,735,23,#FFFFFF,185,714,Cas-zh
-41,鏡頭17結束,台北譯-北盤,昴宿,828,610,23,#FFFFFF,828,626,Pleiades-zh
-41,鏡頭17結束,台北譯-北盤,畢宿,938,750,23,#FFFFFF,988,726,Hyades-zh
+41,鏡頭17結束,台北-北盤,Tuʻulalupe,814,710,31,#7BD88F,988,726,Tuʻulalupe
+41,鏡頭17結束,台北譯-北盤,仙后座,300,735,23,#FFFFFF,185,714,Cas-zh
+41,鏡頭17結束,台北譯-北盤,昴宿,828,666,23,#FFFFFF,828,626,Pleiades-zh
+41,鏡頭17結束,台北譯-北盤,畢宿,875,755,23,#FFFFFF,988,726,Hyades-zh

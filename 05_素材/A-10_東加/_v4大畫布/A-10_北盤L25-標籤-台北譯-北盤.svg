@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T08:42:44.036973</dc:date>
+    <dc:date>2026-10-05T09:00:54.984704</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,9 +31,9 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pb99203c11b)">
+    <g clip-path="url(#paa2587a8fe)">
      <!-- 仙后座 -->
-     <g style="fill: #ffffff" transform="translate(480.780459 598.927334) scale(0.068825 -0.068825)">
+     <g style="fill: #ffffff" transform="translate(491.57661 598.927334) scale(0.068825 -0.068825)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-265b" d="M 5440 3859 
 L 5440 422 
@@ -186,9 +186,9 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pb99203c11b)">
+    <g clip-path="url(#paa2587a8fe)">
      <!-- 昴宿 -->
-     <g style="fill: #ffffff" transform="translate(282.1288 665.444695) scale(0.068825 -0.068825)">
+     <g style="fill: #ffffff" transform="translate(282.1288 682.17873) scale(0.068825 -0.068825)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-4f58" d="M 4781 4077 
 L 4781 3488 
@@ -344,9 +344,9 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pb99203c11b)">
+    <g clip-path="url(#paa2587a8fe)">
      <!-- 畢宿 -->
-     <g style="fill: #ffffff" transform="translate(212.586285 661.469533) scale(0.068825 -0.068825)">
+     <g style="fill: #ffffff" transform="translate(193.69302 663.088955) scale(0.068825 -0.068825)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-6996" d="M 1037 5005 
 L 1037 2816 
@@ -458,7 +458,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pb99203c11b">
+  <clipPath id="paa2587a8fe">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

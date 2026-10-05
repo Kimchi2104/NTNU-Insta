@@ -387,7 +387,7 @@ def build():
         item(BELT, "Toloa 野鴨", "purple", 1.4, 0.0, 3.6, "St-Toloa"),
         item(GEM, "Lua tangata 兩個人", "purple", 1.4, 2.4, 0.0, "St-Lua tangata", side=1),
         item([BETELGEUSE], "Velitoa hahake", "purple", 1.1, 2.0, 0.6, "St-Velitoa hahake", side=-1),
-        item([RIGEL], "Velitoa hihifo", "purple", 1.1, 0.0, -2.4, "St-Velitoa hihifo"),
+        item([RIGEL], "Velitoa hihifo", "purple", 1.1, -3.5, -3.8, "St-Velitoa hihifo"),   # 參宿七正下方、靠右對齊，不壓 Houmatoloa 紫線
         item([ALCYONE], "Motuliki", "purple", 1.2, 0.0, 2.6, "St-Motuliki"),
         item(HYADES, "Tuʻulalupe 畢宿", "purple", 1.2, 0.0, -4.4, "St-Tuʻulalupe"),
     ]
@@ -423,13 +423,14 @@ def build():
     CAS_Q = [item(CAS, "仙后座？", "white", 1.4, 9.0, 0.0, "Cas", disc=True, side=1)]
     RING = [item(CRB, "ʻAo ʻo ʻUvea", "green", 2.2, 0.0, 10.8, "ʻAo ʻo ʻUvea", disc=True),
             item(CRB, "ʻUvea 的圓環", "green", 1.7, 0.0, 6.0, "ʻAo-zh", disc=True),
-            item(CRB, "北冕座？", "white", 1.5, 0.0, -5.4, "CrB", disc=True)]
-    TPE = [item(CAS, "Kapakau ʻo Tafahi", "green", 2.0, 5.0, 2.6, "Kapakau ʻo Tafahi", disc=True, side=1),
+            item(CRB, "北冕座？", "white", 1.5, 10.0, 0.0, "CrB", disc=True, side=1)]   # 放圓環右側，不壓左腳
+    # 台北頁 fov 118：原生字夾到 36px 後會往兩側變寬，橫向間距要留大一點
+    TPE = [item(CAS, "Kapakau ʻo Tafahi", "green", 2.0, 9.0, 2.6, "Kapakau ʻo Tafahi", disc=True, side=1),
            item([ALCYONE], "Mataliki", "amber", 2.0, 0.0, 4.4, "Mataliki", disc=True),
-           item(HYADES, "Tuʻulalupe", "green", 2.0, 3.0, 0.8, "Tuʻulalupe", disc=True, side=-1)]
-    TPE_ZH = [item(CAS, "仙后座", "white", 1.5, 5.0, -2.4, "Cas-zh", disc=True, side=1),
-              item([ALCYONE], "昴宿", "white", 1.5, 0.0, 1.8, "Pleiades-zh", disc=True),
-              item(HYADES, "畢宿", "white", 1.5, 3.0, -2.6, "Hyades-zh", disc=True, side=-1)]
+           item(HYADES, "Tuʻulalupe", "green", 2.0, 10.0, 1.8, "Tuʻulalupe", disc=True, side=-1)]
+    TPE_ZH = [item(CAS, "仙后座", "white", 1.5, 9.0, -2.4, "Cas-zh", disc=True, side=1),
+              item([ALCYONE], "昴宿", "white", 1.5, 0.0, -4.4, "Pleiades-zh", disc=True),
+              item(HYADES, "畢宿", "white", 1.5, 10.0, -3.2, "Hyades-zh", disc=True, side=-1)]
 
     label_sets = [
         (TONGAN, "東加名"), (TONGAN_ZH, "中譯"), (PERCH, "鴿"), (BOAT, "船"), (PLEI, "昴"),
