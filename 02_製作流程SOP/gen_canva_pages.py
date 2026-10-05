@@ -367,11 +367,24 @@ class Pages:
             return []
         cx, cy, fov, rot = pg["frame"]
         out = []
-        yc = self.m.disc_center(pg["group"] == "北盤")[1]
+        north = pg["group"] == "北盤"
+        yc = self.m.disc_center(north)[1]
         for phi in hz:                        # 地平線固定在畫面上（不隨盤轉）：
-            Y = PH / 2 - (yc - self.m.k * phi - cy) * PW / fov   # 北點＝盤心正下方 kφ
+            off = self.m.k * phi if north else -self.m.k * phi
+            Y = PH / 2 - (yc - off - cy) * PW / fov   # 北盤：北點＝盤心正下方 kφ；南盤：南點＝盤心正下方 −kφ
             out.append((phi, Y))
         return out
+
+    def view_lst(self, pg):
+        """盤頁的 (lst_view, lst_obs)：盤轉 rot（Canva 正角＝順時針）≡ lst 平移。
+        北盤面向北方：逆時針＝時間前進 → lst_view＝lst−rot；盤心正下方＝下中天 → lst_obs＝lst_view−180。
+        南盤面向南方（A-10 起）：順時針＝時間前進 → lst_view＝lst＋rot；盤心正上方＝上中天 → lst_obs＝lst_view。"""
+        rot = pg["frame"][3]
+        if pg["group"] == "南盤":
+            lv = self.m.lst + rot
+            return lv, lv % 360.0
+        lv = self.m.lst - rot
+        return lv, (lv - 180.0) % 360.0
 
     def mountain_top(self, pg):
         """山的剪影上緣 Y（有地平線的鏡頭）：起格用第一個緯度、迄格用最後一個；
@@ -381,6 +394,8 @@ class Pages:
         地平線以下的星（例：A-08 台北 20:00 的斗口）不會從山谷裡露出來。"""
         if pg["group"] == "長圖":
             return None
+        if pg.get("transition") or pg["name"].startswith("長圖轉"):
+            return None     # 換組頁、歸位頁：山留在模板位置，同框硬切時才不會跳（B-01 第 26 頁的教訓）
         sh = pg.get("shot_next") or pg["shot"]
         hz = sh.get("horizon") or []
         if not hz:
@@ -389,9 +404,7 @@ class Pages:
         pts = sorted((x, y) for p in self.horizon_curve(pg, phi) if p
                      for x, y in [p] if -300 < x < PW + 300)
         if len(pts) < 2:
-            cx, cy, fov, rot = pg["frame"]
-            yc = self.m.disc_center(pg["group"] == "北盤")[1]
-            return PH / 2 - (yc - self.m.k * phi - cy) * PW / fov
+            return dict(self.horizon_rows(dict(pg, shot=dict(sh, horizon=[phi]))))[phi]
         hx, hy = [p[0] for p in pts], [p[1] for p in pts]
         need = sorted(float(np.interp(x, hx, hy)) - d for x, d in RIDGE_DIP)
         return need[len(need) // 2]
@@ -400,16 +413,15 @@ class Pages:
         """地平線在頁面上的整條曲線（固定不動；天空在它後面轉）"""
         m = self.m
         cx, cy, fov, rot = pg["frame"]
-        lst_view = m.lst - rot                  # 盤轉 rot ≡ lst 平移（sb_grid 同理）
-        lst_obs = (lst_view - 180.0) % 360.0    # 盤心正下方＝北方地平線（下中天）
+        north = pg["group"] != "南盤"
+        lst_view, lst_obs = self.view_lst(pg)   # 盤轉 rot ≡ lst 平移（sb_grid 同理）
         pts = []
         save = m.lst
         m.lst = lst_view
         for ra, dec in horizon_points(phi, lst_obs, n=361):
-            if dec < m.Dfill:
+            if (dec if north else -dec) < m.Dfill:
                 pts.append(None); continue
-            p = m.p_disc(m.xw(ra), dec, True)
-            xt, yc = m.disc_center(True)
+            p = m.p_disc(m.xw(ra), dec, north)
             X, Y = PW / 2 + (p[0] - cx) * PW / fov, PH / 2 - (p[1] - cy) * PW / fov
             pts.append((X, Y))
         m.lst = save
@@ -635,7 +647,8 @@ class Pages:
                     run.append(p)
             for ph, Y in self.horizon_rows(pg):
                 if abs(ph - phi) < 1e-9:
-                    ax.text(PW - 24, Y + 12, f"地平線（緯度 {phi:g}°）北點 Y={Y:.0f}",
+                    ax.text(PW - 24, Y + 12, f"地平線（緯度 {phi:g}°）"
+                                             f"{'北' if north else '南'}點 Y={Y:.0f}",
                             fontproperties=FP, fontsize=15, color="#48E39B",
                             ha="right", va="top", zorder=9)
         # 標籤虛影＋中心十字

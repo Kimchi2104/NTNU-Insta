@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-173.40 -173.40 346.79 346.79" width="346.79" height="346.79">
+<title>A-10 盤｜盤寬 = 大畫布寬 × 0.963306（R_fill=173.395，盤緣圈半徑 = 大畫布寬 × 0.159155）</title>
+<g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -6.22 49.19 L -6.19 48.19 L -6.15 47.18 L -6.12 46.17 L -6.08 45.16 L -6.04 44.16 L -6.00 43.15 L -5.97 42.14 L -5.93 41.14 L -5.89 40.13"/>
+<path d="M -2.45 45.64 L -3.57 45.75 L -4.68 45.85 L -5.80 45.95 L -6.92 46.05 L -8.04 46.14 L -9.16 46.22"/>
+</g>
+<g fill="none" stroke="#FF6B6B" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 18.49 39.90 L 17.61 40.35 L 16.73 40.79 L 15.84 41.23 L 14.95 41.66 L 14.06 42.10 L 13.17 42.52 L 12.28 42.95"/>
+</g>
+<g fill="none" stroke="#6FA8FF" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -125.40 -50.66 L -125.35 -50.19 L -125.29 -49.73 L -125.23 -49.26 L -125.17 -48.79 L -125.10 -48.33 L -125.04 -47.86"/>
+<path d="M -125.04 -47.86 L -125.02 -47.39 L -125.01 -46.91 L -124.99 -46.43 L -124.96 -45.95 L -124.94 -45.47 L -124.91 -45.00"/>
+</g>
+<g fill="none" stroke="#6FA8FF" stroke-width="0.240" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -119.75 -46.34 L -119.50 -46.24 L -119.25 -46.13 L -119.00 -46.03 L -118.75 -45.93 L -118.51 -45.83 L -118.26 -45.73"/>
+</g>
+<g fill="none" stroke="#7BD88F" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -129.89 -94.44 L -129.27 -95.05 L -128.65 -95.66 L -128.03 -96.26 L -127.40 -96.86 L -126.78 -97.46 L -126.15 -98.05"/>
+<path d="M -126.15 -98.05 L -125.45 -98.80 L -124.75 -99.55 L -124.05 -100.29 L -123.34 -101.03 L -122.63 -101.76 L -121.91 -102.48"/>
+<path d="M -121.91 -102.48 L -122.51 -102.51 L -123.12 -102.54 L -123.72 -102.57 L -124.32 -102.59 L -124.93 -102.61 L -125.54 -102.63"/>
+<path d="M -125.54 -102.63 L -126.28 -102.37 L -127.02 -102.11 L -127.76 -101.84 L -128.51 -101.57 L -129.25 -101.29 L -130.00 -101.00"/>
+</g>
+</svg>

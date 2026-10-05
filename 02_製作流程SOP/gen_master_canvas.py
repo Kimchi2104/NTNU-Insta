@@ -829,7 +829,7 @@ class Master:
                                        for p in self.pos_disc(ra, dec, disc)]
             runs_all = lambda pts: [[(x + xt, y + yc) for x, y in r]
                                     for r in self._runs_disc(pts, disc)]
-            pos_primary = lambda ra, dec: (pos_all(ra, dec) or [(1e9, 1e9)])[0]
+            pos_primary = lambda ra, dec: (pos_all(ra, dec) or [None])[0]
         random.seed(7)
         xs, ys, ss = [], [], []
         for _ in range(mw_n):
@@ -856,6 +856,8 @@ class Master:
         for it in labels:
             ra, dec = (self.S[it["hip"]][:2] if "hip" in it else (it["ra"], it["dec"]))
             p = pos_primary(ra, dec)
+            if p is None:                       # 不在這個盤上（A-10：南盤標籤在北盤格；放到 1e9 會 raster overflow）
+                continue
             # 預覽必須與 L_labels/D_labels 的 dx/dy 一致，否則肉眼 QA 會誤判重疊
             ax.text(p[0] + it.get("dx", 0.0), p[1] + it.get("dy", 1.4),
                     G.rtl(it["text"]), fontproperties=FP,
@@ -911,8 +913,10 @@ class Master:
             ax.set_xticks([]); ax.set_yticks([])
             disc = None
             if sh["kind"] == "R":
-                self.lst = lst0 - rot          # 盤旋轉 ≡ lst 平移
                 disc = sh.get("north", True)   # v4.7：畫完整盤、照 frame 的 cx,cy 取景（原本一律盤心置中）
+                # 盤旋轉 ≡ lst 平移（Canva 正角＝順時針）：北盤逆時針＝時間前進 → lst−rot；
+                # 南盤順時針＝時間前進 → lst＋rot（A-10 起）
+                self.lst = lst0 - rot if disc else lst0 + rot
             else:
                 self.lst = lst0
             hw, hh = fov / 2, fov * 8 / 9
@@ -920,12 +924,14 @@ class Master:
             ax.set_aspect("equal")
             self.draw_mpl(ax, line_groups, maglim=min(self.maglim, 5.0),
                           mw_n=4500, labels=labels, disc=disc)
-            for phi in (sh.get("horizon") or []) if disc else []:
-                # 地平線固定在畫面上：盤轉 rot ≡ lst 平移後，北點在盤心正下方 kφ
-                xt, yc = self.disc_center(True)
+            for phi in (sh.get("horizon") or []) if disc is not None else []:
+                # 地平線固定在畫面上：盤轉 rot ≡ lst 平移後，
+                # 北盤（面向北方）北點在盤心正下方 kφ；南盤（面向南方）南點在盤心正下方 −kφ
+                xt, yc = self.disc_center(disc)
+                lst_obs = (self.lst - 180.0) % 360.0 if disc else self.lst % 360.0
                 pts = []
-                for ra, dec in horizon_points(phi, (self.lst - 180.0) % 360.0, n=361):
-                    q = self.pos_disc(ra, dec, True)
+                for ra, dec in horizon_points(phi, lst_obs, n=361):
+                    q = self.pos_disc(ra, dec, disc)
                     pts.append((q[0][0] + xt, q[0][1] + yc) if q else None)
                 run = []
                 for q in pts + [None]:
