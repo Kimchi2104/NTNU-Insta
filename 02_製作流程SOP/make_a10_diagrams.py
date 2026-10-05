@@ -193,8 +193,8 @@ def c02_horizon(ax):
     ax.plot([x, x], [HZ, HZ + 0.70], c=AMBER, lw=1.4, ls=(0, (5, 5)), alpha=.55, zorder=6)
     ax.add_patch(C.Polygon([(x - 0.03, HZ - 0.005), (x + 0.03, HZ - 0.005), (x, HZ + 0.035)],
                            closed=True, fc=AMBER, ec="none", alpha=.9, zorder=7))
-    T(ax, x + 0.04, HZ - 0.075, f"Tafahi 在這個方向（{gc_km(P['Vavaʻu'], P['Tafahi']):.0f} 公里外，看不到）",
-      15, AMBER, ha="left")
+    T(ax, x, HZ - 0.075, f"Tafahi 在這個方向（{gc_km(P['Vavaʻu'], P['Tafahi']):.0f} 公里外，看不到）",
+      15, AMBER)                                   # 置中於三角形，右端不貼邊
     # 仰角尺
     for alt in (10, 20):
         y = HZ + alt * SD

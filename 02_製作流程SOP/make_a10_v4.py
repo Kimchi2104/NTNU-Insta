@@ -418,8 +418,8 @@ def build():
     POINT = [item(SCP, "南天極", "red", 1.6, 4.0, 0.0, "SCP", disc=True, side=1),
              item(mid, f"往下延長 {ratio - 1:.1f} 倍", "red", 1.4, 2.6, 0.0, "指南線", disc=True, side=1)]
     # ── 北盤 ──
-    WING = [item(CAS, "Kapakau ʻo Tafahi", "green", 2.0, 0.0, 7.2, "Kapakau ʻo Tafahi", disc=True),
-            item(CAS, "Tafahi 的翅膀", "green", 1.6, 0.0, 4.4, "Kapakau-zh", disc=True)]
+    WING = [item(CAS, "Kapakau ʻo Tafahi", "green", 2.0, 0.0, 11.2, "Kapakau ʻo Tafahi", disc=True),
+            item(CAS, "Tafahi 的翅膀", "green", 1.6, 0.0, 8.4, "Kapakau-zh", disc=True)]   # 避開 W 頂點王良四
     CAS_Q = [item(CAS, "仙后座？", "white", 1.4, 9.0, 0.0, "Cas", disc=True, side=1)]
     RING = [item(CRB, "ʻAo ʻo ʻUvea", "green", 2.2, 0.0, 10.8, "ʻAo ʻo ʻUvea", disc=True),
             item(CRB, "ʻUvea 的圓環", "green", 1.7, 0.0, 6.0, "ʻAo-zh", disc=True),

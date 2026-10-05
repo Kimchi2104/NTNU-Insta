@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T08:31:58.143090</dc:date>
+    <dc:date>2026-10-05T08:42:41.926956</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p3af8a53510)">
+    <g clip-path="url(#pe1cea84f70)">
      <!-- 一船三人 -->
      <g style="fill: #6fa8ff" transform="translate(296.707879 744.976763) scale(0.05304 -0.05304)">
       <defs>
@@ -181,7 +181,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p3af8a53510)">
+    <g clip-path="url(#pe1cea84f70)">
      <!-- 一串魚 -->
      <g style="fill: #6fa8ff" transform="translate(295.236807 761.257111) scale(0.04862 -0.04862)">
       <defs>
@@ -343,7 +343,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p3af8a53510)">
+    <g clip-path="url(#pe1cea84f70)">
      <!-- 鴿子的棲架 -->
      <g style="fill: #7bd88f" transform="translate(320.079596 713.225581) scale(0.05304 -0.05304)">
       <defs>
@@ -748,7 +748,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p3af8a53510)">
+    <g clip-path="url(#pe1cea84f70)">
      <!-- 昴宿星團 -->
      <g style="fill: #ffc94a" transform="translate(348.526748 673.33951) scale(0.05304 -0.05304)">
       <defs>
@@ -1092,7 +1092,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p3af8a53510)">
+    <g clip-path="url(#pe1cea84f70)">
      <!-- ʻUvea 的圓環 -->
      <g style="fill: #7bd88f" transform="translate(813.915239 684.951301) scale(0.05304 -0.05304)">
       <defs>
@@ -1417,7 +1417,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p3af8a53510">
+  <clipPath id="pe1cea84f70">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>

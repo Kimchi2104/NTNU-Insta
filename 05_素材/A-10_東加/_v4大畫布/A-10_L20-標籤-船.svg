@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T08:31:58.194392</dc:date>
+    <dc:date>2026-10-05T08:42:42.598402</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pbf11aca467)">
+    <g clip-path="url(#p5cc69c70e2)">
      <!-- ʻAlotolu -->
      <g style="fill: #6fa8ff" transform="translate(295.170446 739.700843) scale(0.0442 -0.0442)">
       <defs>
@@ -159,7 +159,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pbf11aca467)">
+    <g clip-path="url(#p5cc69c70e2)">
      <!-- 一船三人 -->
      <g style="fill: #6fa8ff" transform="translate(293.587879 743.524923) scale(0.03536 -0.03536)">
       <defs>
@@ -309,7 +309,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pbf11aca467)">
+    <g clip-path="url(#p5cc69c70e2)">
      <!-- Tuinga ika -->
      <g style="fill: #6fa8ff" transform="translate(263.672372 753.362731) scale(0.03978 -0.03978)">
       <defs>
@@ -504,7 +504,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pbf11aca467)">
+    <g clip-path="url(#p5cc69c70e2)">
      <!-- 一串魚 -->
      <g style="fill: #6fa8ff" transform="translate(274.885307 757.029251) scale(0.03315 -0.03315)">
       <defs>
@@ -668,7 +668,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pbf11aca467">
+  <clipPath id="p5cc69c70e2">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>

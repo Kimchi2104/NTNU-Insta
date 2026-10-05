@@ -617,7 +617,7 @@
           "color": "green",
           "size": 2.0,
           "dx": 0.0,
-          "dy": 7.2,
+          "dy": 11.2,
           "key": "Kapakau ʻo Tafahi",
           "disc": true
         },
@@ -628,7 +628,7 @@
           "color": "green",
           "size": 1.6,
           "dx": 0.0,
-          "dy": 4.4,
+          "dy": 8.4,
           "key": "Kapakau-zh",
           "disc": true
         }

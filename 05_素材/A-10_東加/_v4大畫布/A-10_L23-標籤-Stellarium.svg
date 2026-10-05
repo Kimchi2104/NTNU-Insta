@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T08:31:58.273571</dc:date>
+    <dc:date>2026-10-05T08:42:42.742607</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p50d3a73e7f)">
+    <g clip-path="url(#pb0b9fe79b4)">
      <!-- Toloa 野鴨 -->
      <g style="fill: #b78aff" transform="translate(273.171684 733.612683) scale(0.06188 -0.06188)">
       <defs>
@@ -348,7 +348,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p50d3a73e7f)">
+    <g clip-path="url(#pb0b9fe79b4)">
      <!-- Lua tangata 兩個人 -->
      <g style="fill: #b78aff" transform="translate(216.324423 661.667378) scale(0.06188 -0.06188)">
       <defs>
@@ -665,7 +665,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p50d3a73e7f)">
+    <g clip-path="url(#pb0b9fe79b4)">
      <!-- Velitoa hahake -->
      <g style="fill: #b78aff" transform="translate(234.741427 718.665883) scale(0.04862 -0.04862)">
       <defs>
@@ -812,7 +812,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p50d3a73e7f)">
+    <g clip-path="url(#pb0b9fe79b4)">
      <!-- Velitoa hihifo -->
      <g style="fill: #b78aff" transform="translate(286.576421 767.048634) scale(0.04862 -0.04862)">
       <defs>
@@ -862,7 +862,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p50d3a73e7f)">
+    <g clip-path="url(#pb0b9fe79b4)">
      <!-- Motuliki -->
      <g style="fill: #b78aff" transform="translate(348.091654 670.21951) scale(0.05304 -0.05304)">
       <defs>
@@ -912,7 +912,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p50d3a73e7f)">
+    <g clip-path="url(#pb0b9fe79b4)">
      <!-- Tuʻulalupe 畢宿 -->
      <g style="fill: #b78aff" transform="translate(313.687862 706.614301) scale(0.05304 -0.05304)">
       <defs>
@@ -1151,7 +1151,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p50d3a73e7f">
+  <clipPath id="pb0b9fe79b4">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>
