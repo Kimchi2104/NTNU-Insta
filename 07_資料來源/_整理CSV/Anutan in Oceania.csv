@@ -1,30 +1,23 @@
 ﻿分類,Stellarium ID,英文名 English,原文名 Native,讀音 Pronounce,IPA,繁中譯名 zh_TW,星數,組成恆星 (HIP),對應國際星名,Stellarium 描述,社團清單,社團補充備註,參考文獻#
 星座/星官,CON anutan 001,The Bamboo,Te Kope,,,竹子,5,112623 112122 110997 109111 108085,Tiaki、Aldhanab,"Bamboo is used to make fishing poles, sailing masts, yards, booms, and outrigger supports.",✓,"(also known as Te Kope) 22h17m59.2s -44˚32’19.3’’ Bamboo is used to make fishing poles, sailing masts, yards, booms, and outrigger supports.",
 星座/星官,CON anutan 002,Path of Three,Ara Toru,,,三人之路,3,25930 26311 26727,Mintaka、Alnilam、Alnitak,,✓,(also known as Ara Toru) 05h36m21.7s -01˚07’12.8’’,
-星座/星官,CON anutan 003,Bird of Flight,Manu,,,飛行之鳥,4,37279 32349 30438 32607,Procyon、Sirius、Canopus,The dominant constellation for Anutans. It can be seen in all seasons.,✓,(also known as Manu) 07h22m54.5s -28˚29’25.3’’ the dominant constellation for Anutans. It can be seen in all seasons.,
-星座/星官,CON anutan 004,The Tongs,Te Angaanga,,,鉗子,7,21421 20885 20713 20205 20455 20648 20889,Aldebaran、Hyadum III、Prima Hyadum、Secunda Hyadum、Ain,"Used for moving hot stones, coals, and food in an oven.",✓,"(also known as Te Angaanga) 04h25m53.0s +16˚45’21.2’’ Used to moving hot stones, coals, and food in an oven.",
+星座/星官,CON anutan 003,Bird of Flight,Manu,,,飛翔的鳥,4,37279 32349 30438 32607,Procyon、Sirius、Canopus,The dominant constellation for Anutans. It can be seen in all seasons.,✓,(also known as Manu) 07h22m54.5s -28˚29’25.3’’ the dominant constellation for Anutans. It can be seen in all seasons.,
+星座/星官,CON anutan 004,The Tongs,Te Angaanga,,,火鉗,7,21421 20885 20713 20205 20455 20648 20889,Aldebaran、Hyadum III、Prima Hyadum、Secunda Hyadum、Ain,"Used for moving hot stones, coals, and food in an oven.",✓,"(also known as Te Angaanga) 04h25m53.0s +16˚45’21.2’’ Used to moving hot stones, coals, and food in an oven.",
 星座/星官,CON anutan 005,Octopus Tentacle,Kaavei,,,章魚觸手,3,8903 9884 13209,Sheratan、Hamal、Bharani,,✓,(also known as Kaavei) 02h21m36.5s +24˚11’16.5’’,
-星座/星官,CON anutan 006,Forward Precursor,Taki Mua,,,遠期前體,4,107354 109176 113881 113963,Scheat、Markab,,✓,(also known as Taki Mua) 22h26m05.8s +20˚42’48.1’’,
-星座/星官,CON anutan 007,Adze,Toki,,,阿澤,5,101421 101769 101958 102532 102281,Aldulfin、Rotanev、Sualocin、Al Salib、Al Ukud,Used for cutting canoes and building houses.,✓,(also known as Toki) 20h39m53.2s +13˚43’07.8’’ Used for cutting canoes and building houses.,
-星座/星官,CON anutan 008,The Carrying Stick,Te Aamonga,,,攜帶棒,3,97278 97649 98036,Tarazed、Altair、Alshain,"Used to carry taro, coconuts, or other food.",✓,"(also known as Te Aamonga) 19h50m50.0s +08˚30’37.7’ Used to carry taro, coconuts, or other food.",
-星座/星官,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,,,類似Crevalle的魚,6,88635 90496 92855 94141 95865 90185,Alnasl、Kaus Borealis、Nunki、Albaldah、Kaus Australis,Marked as uncertain.,✓,(also known as Te Paka Poi Ika Tapu) 18h48m33.7s -29˚06’55.0’’ Marked as uncertain.,
-星座/星官,CON anutan 010,Taro Plant,Taro,,,芋頭廠,9,81266 80763 80112 78401 78820 80473 78265 78104 79881,Paikauhale、Antares、Alniyat、Dschubba、Acrab、Fang、Iklil,,✓,(also known as Taro) 16h12m22.8s -25˚20’53.4’’,
-星座/星官,CON anutan 011,The Net,Te Kupenga,,,互聯網,6,71683 68702 62434 61084 59747 60718,Alpha Centauri、Hadar、Mimosa、Gacrux、Imai、Acrux,,✓,(also known as Te Kupenga) 13h24m56.3s -61˚01’54.2’’,
+星座/星官,CON anutan 006,Forward Precursor,Taki Mua,,,前面的領路星,4,107354 109176 113881 113963,Scheat、Markab,,✓,(also known as Taki Mua) 22h26m05.8s +20˚42’48.1’’,
+星座/星官,CON anutan 007,Adze,Toki,,,石錛,5,101421 101769 101958 102532 102281,Aldulfin、Rotanev、Sualocin、Al Salib、Al Ukud,Used for cutting canoes and building houses.,✓,(also known as Toki) 20h39m53.2s +13˚43’07.8’’ Used for cutting canoes and building houses.,
+星座/星官,CON anutan 008,The Carrying Stick,Te Aamonga,,,扁擔,3,97278 97649 98036,Tarazed、Altair、Alshain,"Used to carry taro, coconuts, or other food.",✓,"(also known as Te Aamonga) 19h50m50.0s +08˚30’37.7’ Used to carry taro, coconuts, or other food.",
+星座/星官,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,,,像鰺魚的魚（不確定）,6,88635 90496 92855 94141 95865 90185,Alnasl、Kaus Borealis、Nunki、Albaldah、Kaus Australis,Marked as uncertain.,✓,(also known as Te Paka Poi Ika Tapu) 18h48m33.7s -29˚06’55.0’’ Marked as uncertain.,
+星座/星官,CON anutan 010,Taro Plant,Taro,,,芋頭（整株）,9,81266 80763 80112 78401 78820 80473 78265 78104 79881,Paikauhale、Antares、Alniyat、Dschubba、Acrab、Fang、Iklil,,✓,(also known as Taro) 16h12m22.8s -25˚20’53.4’’,
+星座/星官,CON anutan 011,The Net,Te Kupenga,,,漁網,6,71683 68702 62434 61084 59747 60718,Alpha Centauri、Hadar、Mimosa、Gacrux、Imai、Acrux,,✓,(also known as Te Kupenga) 13h24m56.3s -61˚01’54.2’’,
 具名深空天體/其他,NAME Sirius,The Bird's Body,Te Tino A Manu,,,鳥的身體,,,Sirius,,,,
 具名深空天體/其他,NAME Canopus,The East Wing,Te Kapakau Tonga,,,東翼,,,Canopus,,,,
 具名深空天體/其他,NAME Procyon,The North Wing,Te Kapakau Pakatokerau,,,北翼,,,Procyon,,,,
-具名深空天體/其他,NAME Antares,Its Stem,Na Kau,,,它的莖,,,Antares,,,,
-具名恆星,HIP 32607,The East Wing's Precursor,Te Taki O Te Kapakau Tonga,,,東翼的先驅,,,HIP 32607,,,,
-具名恆星,HIP 677,Middle Precursor,Taki Roto,,,中間前體,,,Alpheratz,It is uncertain whether this star name is attached to this or a neighbouring star in the Square of Pegasus.,,,
-具名深空天體/其他,NAME Pleiades,Small Face,Matariki,,,小臉,,,Pleiades,,✓（社團原文「Small face - pleiades」）,pleiades,
-具名深空天體,NAME Milky Way,,Te Tukaniva,,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: 
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Milky Way,,,,
+具名深空天體/其他,NAME Antares,Its Stem,Na Kau,,,它的莖（芋頭的莖）,,,Antares,,,,
+具名恆星,HIP 32607,The East Wing's Precursor,Te Taki O Te Kapakau Tonga,,,東翼的領路星,,,HIP 32607,,,,
+具名恆星,HIP 677,Middle Precursor,Taki Roto,,,中間的領路星,,,Alpheratz,It is uncertain whether this star name is attached to this or a neighbouring star in the Square of Pegasus.,,,
+具名深空天體/其他,NAME Pleiades,Small Face,Matariki,,,小臉（小眼睛）,,,Pleiades,,✓（社團原文「Small face - pleiades」）,pleiades,
+具名深空天體,NAME Milky Way,,Te Tukaniva,,,銀河（原文無譯義）,,,Milky Way,,,,
 具名深空天體/其他,NAME Large Magellanic Cloud,The Running Cloud,Te Ao Rere,,,奔跑的雲,,,Large Magellanic Cloud,,✓（社團原文「The running cloud - Large Magellanic Cloud」）,Large Magellanic Cloud,
-具名深空天體/其他,NAME Small Magellanic Cloud,The Restrained Cloud,Te Ao Toka,,,克制的雲,,,Small Magellanic Cloud,The English gloss is marked uncertain.,✓（社團原文「The restrained Cloud - Small Magellanic Cloud」）,Small Magellanic Cloud,
+具名深空天體/其他,NAME Small Magellanic Cloud,The Restrained Cloud,Te Ao Toka,,,靜止的雲（英譯 Restrained，不確定）,,,Small Magellanic Cloud,The English gloss is marked uncertain.,✓（社團原文「The restrained Cloud - Small Magellanic Cloud」）,Small Magellanic Cloud,
 具名深空天體/其他,NAME Venus,The Morning Star / The Evening Star,Te Petuu Ao / Tiuriuri,,,晨星 / 晚星,,,Venus,,✓（社團原文「The morning Star - venus」）,venus,

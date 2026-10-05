@@ -1,18 +1,18 @@
 ﻿文化,Stellarium ID,星座英文名,星座原文名,星座繁中名,筆畫,筆畫星數,HIP 順序,國際星名順序,文化內星名順序
 阿努塔,CON anutan 001,The Bamboo,Te Kope,竹子,筆畫1,5,112623→112122→110997→109111→108085,HIP112623→Tiaki→HIP110997→HIP109111→Aldhanab,
 阿努塔,CON anutan 002,Path of Three,Ara Toru,三人之路,筆畫1,3,25930→26311→26727,Mintaka→Alnilam→Alnitak,
-阿努塔,CON anutan 003,Bird of Flight,Manu,飛行之鳥,筆畫1,4,37279→32349→30438→32607,Procyon→Sirius→Canopus→HIP32607,—→—→—→Te Taki O Te Kapakau Tonga
-阿努塔,CON anutan 004,The Tongs,Te Angaanga,鉗子,筆畫1,7,21421→20885→20713→20205→20455→20648→20889,Aldebaran→Hyadum III→HIP20713→Prima Hyadum→Secunda Hyadum→HIP20648→Ain,
+阿努塔,CON anutan 003,Bird of Flight,Manu,飛翔的鳥,筆畫1,4,37279→32349→30438→32607,Procyon→Sirius→Canopus→HIP32607,—→—→—→Te Taki O Te Kapakau Tonga
+阿努塔,CON anutan 004,The Tongs,Te Angaanga,火鉗,筆畫1,7,21421→20885→20713→20205→20455→20648→20889,Aldebaran→Hyadum III→HIP20713→Prima Hyadum→Secunda Hyadum→HIP20648→Ain,
 阿努塔,CON anutan 005,Octopus Tentacle,Kaavei,章魚觸手,筆畫1,3,8903→9884→13209,Sheratan→Hamal→Bharani,
-阿努塔,CON anutan 006,Forward Precursor,Taki Mua,遠期前體,筆畫1,4,107354→109176→113881→113963,HIP107354→HIP109176→Scheat→Markab,
-阿努塔,CON anutan 007,Adze,Toki,阿澤,筆畫1,6,101421→101769→101958→102532→102281→101958,Aldulfin→Rotanev→Sualocin→Al Salib→Al Ukud→Sualocin,
-阿努塔,CON anutan 008,The Carrying Stick,Te Aamonga,攜帶棒,筆畫1,3,97278→97649→98036,Tarazed→Altair→Alshain,
-阿努塔,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,類似Crevalle的魚,筆畫1,4,88635→90496→92855→94141,Alnasl→Kaus Borealis→Nunki→Albaldah,
-阿努塔,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,類似Crevalle的魚,筆畫2,2,92855→95865,Nunki→HIP95865,
-阿努塔,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,類似Crevalle的魚,筆畫3,3,92855→90185→88635,Nunki→Kaus Australis→Alnasl,
-阿努塔,CON anutan 010,Taro Plant,Taro,芋頭廠,筆畫1,7,81266→80763→80112→78401→78820→80473→78401,Paikauhale→Antares→Alniyat→Dschubba→Acrab→HIP80473→Dschubba,
-阿努塔,CON anutan 010,Taro Plant,Taro,芋頭廠,筆畫2,5,80112→78265→78104→79881→78265,Alniyat→Fang→Iklil→HIP79881→Fang,
-阿努塔,CON anutan 011,The Net,Te Kupenga,互聯網,筆畫1,7,71683→68702→62434→61084→59747→60718→62434,Alpha Centauri→Hadar→Mimosa→Gacrux→Imai→Acrux→Mimosa,
+阿努塔,CON anutan 006,Forward Precursor,Taki Mua,前面的領路星,筆畫1,4,107354→109176→113881→113963,HIP107354→HIP109176→Scheat→Markab,
+阿努塔,CON anutan 007,Adze,Toki,石錛,筆畫1,6,101421→101769→101958→102532→102281→101958,Aldulfin→Rotanev→Sualocin→Al Salib→Al Ukud→Sualocin,
+阿努塔,CON anutan 008,The Carrying Stick,Te Aamonga,扁擔,筆畫1,3,97278→97649→98036,Tarazed→Altair→Alshain,
+阿努塔,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,像鰺魚的魚（不確定）,筆畫1,4,88635→90496→92855→94141,Alnasl→Kaus Borealis→Nunki→Albaldah,
+阿努塔,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,像鰺魚的魚（不確定）,筆畫2,2,92855→95865,Nunki→HIP95865,
+阿努塔,CON anutan 009,Crevalle-like Fish,Te Paka Poi Ika Tapu,像鰺魚的魚（不確定）,筆畫3,3,92855→90185→88635,Nunki→Kaus Australis→Alnasl,
+阿努塔,CON anutan 010,Taro Plant,Taro,芋頭（整株）,筆畫1,7,81266→80763→80112→78401→78820→80473→78401,Paikauhale→Antares→Alniyat→Dschubba→Acrab→HIP80473→Dschubba,
+阿努塔,CON anutan 010,Taro Plant,Taro,芋頭（整株）,筆畫2,5,80112→78265→78104→79881→78265,Alniyat→Fang→Iklil→HIP79881→Fang,
+阿努塔,CON anutan 011,The Net,Te Kupenga,漁網,筆畫1,7,71683→68702→62434→61084→59747→60718→62434,Alpha Centauri→Hadar→Mimosa→Gacrux→Imai→Acrux→Mimosa,
 阿拉伯・蘇菲,CON arabic_al-sufi UMi,Ursa Minor,الدب الأصغر,小熊座,筆畫1,9,11767→85822→82080→77055→79822→75097→75097→72607→77055,Polaris→Yildun→Circitores→Akfa Farkadain→HIP79822→Pherkad→Pherkad→Kochab→Akfa Farkadain,الجدي→—→—→—→—→أخفى الفرقدين→أخفى الفرقدين→أنور الفرقدين→—
 阿拉伯・蘇菲,CON arabic_al-sufi UMa,Ursa Major,الدب الأكبر,大熊座,筆畫1,5,67301→65378→62956→59774→54061,Alkaid→Mizar→Alioth→Megrez→Dubhe,القائد→العناق→الجون→—→—
 阿拉伯・蘇菲,CON arabic_al-sufi UMa,Ursa Major,الدب الأكبر,大熊座,筆畫2,3,53910→58001→59774,Merak→Phecda→Megrez,
