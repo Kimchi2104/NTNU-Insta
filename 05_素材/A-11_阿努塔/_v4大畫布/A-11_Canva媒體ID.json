@@ -1,0 +1,28 @@
+{
+ "design_id": "DAHWtGR7GK0",
+ "design_title": "A-10 阿努塔（Canva 檔名；repo／節目表編號 A-11）",
+ "commit": "f6056ffd438cc15a5cc7ab07e5dcc65a1e3a99f7",
+ "layers": {
+  "L1-銀河": "MAHXJw-6kbc",
+  "L2-星點": "MAHXJzFlc3Y",
+  "L3-經緯線": "MAHXJw3hDNs",
+  "L5-連線-Manu": "MAHXJ7p8ZuU",
+  "L6-連線-漁網": "MAHXJ1_qQG4",
+  "L7-連線-芋頭": "MAHXJ01dsbo",
+  "L8-連線-生活": "MAHXJ96SZn4",
+  "L9-深空天體": "MAHXJ-wF1Zs",
+  "L10-主角星白點": "MAHXJ1TYAu0",
+  "L11-領路星白圈": "MAHXJ8MnB1k",
+  "南盤L1-銀河": "MAHXJwvbfJg",
+  "南盤L2-星點": "MAHXJ0NKi40",
+  "南盤L3-經緯線": "MAHXJzQPK7Q",
+  "南盤L5-連線-Manu": "MAHXJ9xJ18Q",
+  "南盤L6-連線-漁網": "MAHXJ6_hFqc",
+  "南盤L9-主角星白點": "MAHXJyNUHSM",
+  "南盤L10-領路星白圈": "MAHXJzLVPjk",
+  "南盤L18-深空天體": "MAHXJxz1bVo"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {}
+}
