@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T15:14:36.708593</dc:date>
+    <dc:date>2026-10-05T15:28:11.273160</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p182b7f24ba)">
+    <g clip-path="url(#pd1eeb91b9a)">
      <!-- Te Aamonga -->
      <g style="fill: #7bd88f" transform="translate(857.127724 754.940493) scale(0.0663 -0.0663)">
       <defs>
@@ -271,7 +271,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p182b7f24ba)">
+    <g clip-path="url(#pd1eeb91b9a)">
      <!-- Te Kope -->
      <g style="fill: #6fa8ff" transform="translate(798.054405 878.051894) scale(0.0663 -0.0663)">
       <defs>
@@ -351,7 +351,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p182b7f24ba)">
+    <g clip-path="url(#pd1eeb91b9a)">
      <!-- Toki -->
      <g style="fill: #6fa8ff" transform="translate(851.858745 716.140718) scale(0.05746 -0.05746)">
       <defs>
@@ -420,7 +420,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p182b7f24ba)">
+    <g clip-path="url(#pd1eeb91b9a)">
      <!-- Kaavei -->
      <g style="fill: #b78aff" transform="translate(628.097204 695.568734) scale(0.0663 -0.0663)">
       <defs>
@@ -453,7 +453,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p182b7f24ba)">
+    <g clip-path="url(#pd1eeb91b9a)">
      <!-- Matariki -->
      <g style="fill: #ffc94a" transform="translate(567.250655 697.319995) scale(0.06188 -0.06188)">
       <defs>
@@ -548,7 +548,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p182b7f24ba)">
+    <g clip-path="url(#pd1eeb91b9a)">
      <!-- Te Angaanga -->
      <g style="fill: #ff6b6b" transform="translate(534.052987 733.411923) scale(0.0663 -0.0663)">
       <use xlink:href="#NotoSerifCJKjp-Regular-35"/>
@@ -566,7 +566,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p182b7f24ba)">
+    <g clip-path="url(#pd1eeb91b9a)">
      <!-- Ara Toru -->
      <g style="fill: #ffffff" transform="translate(516.529559 768.697248) scale(0.06188 -0.06188)">
       <defs>
@@ -610,7 +610,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p182b7f24ba">
+  <clipPath id="pd1eeb91b9a">
    <rect x="0" y="0" width="936" height="1531.922769"/>
   </clipPath>
  </defs>

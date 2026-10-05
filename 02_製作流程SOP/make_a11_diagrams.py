@@ -136,7 +136,7 @@ def c01_ancestors(ax):
                                   fc="#1B2240", ec=GREEN, lw=1.4, zorder=4))
     T(ax, 0.48, 0.60, "島上的口傳：", 16, GREEN)
     T(ax, 0.48, 0.535, "大約十五代以前，", 16, WHITE, w="normal")
-    T(ax, 0.48, 0.47, "祖先從東加和 ʻUvea 划船過來", 16, WHITE, w="normal")
+    T(ax, 0.48, 0.47, "祖先從東加和 ʻUvea 駕船過來", 16, WHITE, w="normal")
 
 
 # ══════════════════════ C-A11-02 Manu 的翅膀 ══════════════════════
@@ -269,26 +269,26 @@ def c03_path(ax):
     T(ax, cx, top + 0.085, "星路上的一條魚（可能是人馬座）", 16, PURPLE, w="normal")
     ax.add_patch(C.FancyBboxPatch((-0.88, -0.93), 1.76, 0.36, boxstyle="round,pad=0.01,rounding_size=0.03",
                                   fc="#1B2240", ec=PURPLE, lw=1.4, zorder=4))
-    T(ax, 0.0, -0.635, "星路 kaavenga（「載著船走的」）", 18, WHITE)
+    T(ax, 0.0, -0.635, "星路：一顆接一顆的領路星", 18, WHITE)
     T(ax, 0.0, -0.71, "船頭對準貼著海面的星；它升高（或沉下）了，就換下一顆", 14.5, WHITE, w="normal")
-    T(ax, 0.0, -0.78, "Firth 1954：Tikopia 往阿努塔的星路，共九顆星", 14.5, WHITE, w="normal")
-    T(ax, 0.0, -0.85, "Feinberg 1988：往 Tikopia 的星路上有 Te Paka Poi Ika Tapu", 13, GREY, w="normal")
+    T(ax, 0.0, -0.78, "Firth 1954：Tikopia 往阿努塔的星路（Kavenga）共九顆星", 14.5, WHITE, w="normal")
+    T(ax, 0.0, -0.85, "阿努塔叫主要的領路星 kaavenga（載著船走的）；Feinberg 1988：往 Tikopia 的星路上有這條魚", 12, GREY, w="normal")
     T(ax, 0.0, -0.90, "（星的位置：PyEphem 自算）", 11.5, GREY, w="normal")
 
 
 # ══════════════════════ C-A11-04 阿努塔的生活星空（9:16 圖卡） ══════════════════════
 ROWS4 = [  # (原文, 意思, 第二行：星｜用途, 顏色)
     ("Manu", "飛翔的鳥", "天狼＝身體、老人星＝東翼、南河三＝北翼｜天上最大；北翼被打斷", AMBER),
-    ("Te Aamonga", "扁擔", "河鼓三星（台灣民間也叫扁擔星）｜挑芋頭、椰子", GREEN),
+    ("Te Aamonga", "扁擔", "河鼓三星（華人民間也叫扁擔星）｜挑芋頭、椰子", GREEN),
     ("Taro", "芋頭", "天蠍座頭部｜心宿二＝它的莖 Na Kau", GREEN),
     ("Te Angaanga", "火鉗", "畢宿｜在地爐裡夾熱石、炭和食物", RED),
     ("Te Kope", "竹子", "天鶴座｜做釣竿、桅杆、帆桁、舷外浮桿", BLUE),
     ("Toki", "石錛", "海豚座（另說大角星）｜削獨木舟、蓋房子", BLUE),
-    ("Te Kupenga", "漁網", "南十字＋網柄（南門二、馬腹一）\n1916 年後改叫 Te Rakau Tapu，神聖的木頭", BLUE),
+    ("Te Kupenga", "漁網", "南十字＋網柄（南門二、馬腹一）\n其中的十字 1916 年後改叫 Te Rakau Tapu，神聖的木頭", BLUE),
     ("Te Rua Tangata", "兩個人", "南門二、馬腹一｜網柄的另一個名字", RED),
     ("Kaavei", "章魚腳", "白羊座三顆", PURPLE),
     ("Te Paka Poi Ika Tapu", "像鰺魚的魚", "人馬座（不確定）｜往 Tikopia 的星路上", PURPLE),
-    ("Ara Toru", "三人之路", "獵戶腰帶", WHITE),
+    ("Ara Toru", "三星之路", "獵戶腰帶", WHITE),
     ("Taki Mua／Taki Roto", "前面／中間的領路星", "飛馬座／壁宿二一帶", WHITE),
     ("Matariki", "小臉（小眼睛）", "昴宿", AMBER),
     ("Te Ao Rere／Te Ao Toka", "奔跑的雲／靜止的雲", "大／小麥哲倫雲", WHITE),
@@ -324,7 +324,7 @@ def c04_card(ax):
 # ══════════════════════ C-A11-05 同一個字（9:16 圖卡） ══════════════════════
 ROWS5 = [  # (星, 阿努塔, 東加（上集）, 說明)
     ("昴宿", "Matariki", "Mataliki", "毛利 Matariki、夏威夷 Makaliʻi"),
-    ("獵戶腰帶", "Ara Toru\n三人之路", "ʻAlotolu\n一船三人", "toru＝tolu＝三"),
+    ("獵戶腰帶", "Ara Toru\n三星之路", "ʻAlotolu\n一船三人", "toru＝tolu＝三"),
     ("南門二＋馬腹一", "Te Rua Tangata\n兩個人", "Ongo Tangata\n兩個人", "同一對星、同一個意思"),
     ("翅膀", "Kapakau\n（Manu 的翅膀）", "Kapakau ʻo Tafahi\n（Tafahi 的翅膀）", "kapakau＝翅膀"),
     ("麥哲倫雲", "Te Ao Rere／Te Ao Toka\n奔跑的雲／靜止的雲", "Maʻafulele／Maʻafutoka\n跑動的火／躺著的火",
@@ -340,7 +340,7 @@ def c05_card(ax):
     # 上半：Manu 樹
     boxes = [(0.5, 0.835, "南島語祖語  *manuk", "雞；鳥", AMBER),
              (0.20, 0.715, "巴賽語（北台灣）", "manuk", WHITE),
-             (0.50, 0.715, "布吉斯語（蘇拉威西）", "manuk 雞", WHITE),
+             (0.50, 0.715, "布吉斯語（蘇拉威西）", "manuʼ 雞", WHITE),
              (0.80, 0.715, "玻里尼西亞語", "manu 鳥", WHITE)]
     for x, y, t1, t2, col in boxes:
         ax.add_patch(C.FancyBboxPatch((x - 0.14, y - 0.035), 0.28, 0.07,
@@ -360,7 +360,7 @@ def c05_card(ax):
             color=GREY, ha="center", va="center")
     # 下半：阿努塔 vs 東加
     ax.plot([0.03, 0.97], [0.555, 0.555], c=WHITE, lw=1.0, alpha=.4)
-    ax.text(0.5, 0.530, "阿努塔的祖先從東加和 ʻUvea 來（口傳）：星名也一樣", fontproperties=C.FP,
+    ax.text(0.5, 0.530, "阿努塔的祖先從東加和 ʻUvea 來（口傳）：星名裡很多字相通", fontproperties=C.FP,
             fontsize=14, color=GREEN, ha="center", va="center", weight="bold")
     X0, X1, X2 = 0.035, 0.26, 0.625
     y = 0.495

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T15:14:37.451095</dc:date>
+    <dc:date>2026-10-05T15:28:12.023797</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p2edbdf99a8)">
+    <g clip-path="url(#p3f768074ef)">
      <!-- Te Rakau Tapu -->
      <g style="fill: #ffc94a" transform="translate(-243.301541 474.837125) scale(0.088977 -0.088977)">
       <defs>
@@ -241,7 +241,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p2edbdf99a8)">
+    <g clip-path="url(#p3f768074ef)">
      <!-- 神聖的木頭（1916 年後） -->
      <g style="fill: #ffc94a" transform="translate(-246.640133 483.866743) scale(0.062284 -0.062284)">
       <defs>
@@ -807,7 +807,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p2edbdf99a8">
+  <clipPath id="p3f768074ef">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

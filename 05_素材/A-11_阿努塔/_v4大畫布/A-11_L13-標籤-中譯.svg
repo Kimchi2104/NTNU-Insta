@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T15:14:36.747085</dc:date>
+    <dc:date>2026-10-05T15:28:11.311316</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pb1e9883a43)">
+    <g clip-path="url(#pade52245b4)">
      <!-- 扁擔 -->
      <g style="fill: #7bd88f" transform="translate(871.241163 762.868673) scale(0.05746 -0.05746)">
       <defs>
@@ -254,7 +254,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pb1e9883a43)">
+    <g clip-path="url(#pade52245b4)">
      <!-- 竹子 -->
      <g style="fill: #6fa8ff" transform="translate(798.124188 885.980074) scale(0.05746 -0.05746)">
       <defs>
@@ -338,7 +338,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pb1e9883a43)">
+    <g clip-path="url(#pade52245b4)">
      <!-- 石錛 -->
      <g style="fill: #6fa8ff" transform="translate(853.070447 722.564798) scale(0.04862 -0.04862)">
       <defs>
@@ -499,7 +499,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pb1e9883a43)">
+    <g clip-path="url(#pade52245b4)">
      <!-- 章魚腳 -->
      <g style="fill: #b78aff" transform="translate(630.172187 703.552814) scale(0.05746 -0.05746)">
       <defs>
@@ -764,7 +764,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pb1e9883a43)">
+    <g clip-path="url(#pade52245b4)">
      <!-- 小臉（昴宿） -->
      <g style="fill: #ffc94a" transform="translate(565.548748 703.576115) scale(0.04862 -0.04862)">
       <defs>
@@ -1088,7 +1088,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pb1e9883a43)">
+    <g clip-path="url(#pade52245b4)">
      <!-- 火鉗（畢宿） -->
      <g style="fill: #ff6b6b" transform="translate(537.333801 741.340103) scale(0.05746 -0.05746)">
       <defs>
@@ -1317,8 +1317,8 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pb1e9883a43)">
-     <!-- 三人之路 -->
+    <g clip-path="url(#pade52245b4)">
+     <!-- 三星之路 -->
      <g style="fill: #ffffff" transform="translate(516.147879 775.641328) scale(0.05304 -0.05304)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-2532" d="M 5229 5030 
@@ -1346,16 +1346,72 @@ C 6112 26 6176 58 6195 128
 C 5946 358 5542 666 5542 666 
 z
 " transform="scale(0.015625)"/>
-       <path id="NotoSerifCJKjp-Regular-2633" d="M 3251 4979 
-C 3411 4998 3462 5062 3475 5158 
-L 2797 5229 
-C 2790 3270 2810 1197 262 -384 
-L 352 -493 
-C 2630 691 3091 2310 3206 3859 
-C 3405 1952 3981 461 5702 -493 
-C 5773 -250 5933 -160 6163 -134 
-L 6176 -64 
-C 3962 960 3392 2624 3251 4979 
+       <path id="NotoSerifCJKjp-Regular-4f3a" d="M 4723 3904 
+L 4723 3181 
+L 1766 3181 
+L 1766 3904 
+L 4723 3904 
+z
+M 4723 4090 
+L 1766 4090 
+L 1766 4794 
+L 4723 4794 
+L 4723 4090 
+z
+M 1338 4973 
+L 1338 2662 
+L 1408 2662 
+C 1574 2662 1766 2765 1766 2803 
+L 1766 2995 
+L 4723 2995 
+L 4723 2720 
+L 4787 2720 
+C 4922 2720 5146 2816 5152 2854 
+L 5152 4710 
+C 5280 4736 5376 4787 5421 4838 
+L 4890 5242 
+L 4659 4973 
+L 1798 4973 
+L 1338 5190 
+L 1338 4973 
+z
+M 1786 2829 
+C 1498 2067 1030 1363 576 954 
+L 653 877 
+C 1037 1101 1402 1421 1722 1824 
+L 3053 1824 
+L 3053 1005 
+L 1184 1005 
+L 1235 819 
+L 3053 819 
+L 3053 -147 
+L 275 -147 
+L 333 -333 
+L 5958 -333 
+C 6048 -333 6112 -301 6131 -230 
+C 5914 -26 5562 256 5562 256 
+L 5248 -147 
+L 3482 -147 
+L 3482 819 
+L 5376 819 
+C 5466 819 5530 851 5549 922 
+C 5344 1114 5005 1382 5005 1382 
+L 4717 1005 
+L 3482 1005 
+L 3482 1824 
+L 5517 1824 
+C 5613 1824 5670 1856 5690 1920 
+C 5478 2125 5146 2387 5146 2387 
+L 4845 2010 
+L 3482 2010 
+L 3482 2560 
+C 3635 2586 3699 2650 3712 2739 
+L 3053 2810 
+L 3053 2010 
+L 1862 2010 
+C 1965 2157 2061 2310 2150 2470 
+C 2285 2445 2368 2496 2400 2560 
+L 1786 2829 
 z
 " transform="scale(0.015625)"/>
        <path id="NotoSerifCJKjp-Regular-258d" d="M 2970 5254 
@@ -1482,7 +1538,7 @@ z
 " transform="scale(0.015625)"/>
       </defs>
       <use xlink:href="#NotoSerifCJKjp-Regular-2532"/>
-      <use xlink:href="#NotoSerifCJKjp-Regular-2633" transform="translate(100 0)"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-4f3a" transform="translate(100 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-258d" transform="translate(200 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-9971" transform="translate(300 0)"/>
      </g>
@@ -1491,7 +1547,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pb1e9883a43">
+  <clipPath id="pade52245b4">
    <rect x="0" y="0" width="936" height="1531.922769"/>
   </clipPath>
  </defs>

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T15:14:37.824025</dc:date>
+    <dc:date>2026-10-05T15:28:12.413193</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p5f9be0585d)">
+    <g clip-path="url(#pcacfbe7f6e)">
      <!-- Te Kupenga -->
      <g style="fill: #6fa8ff" transform="translate(302.434523 439.991838) scale(0.097875 -0.097875)">
       <defs>
@@ -277,7 +277,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p5f9be0585d)">
+    <g clip-path="url(#pcacfbe7f6e)">
      <!-- 漁網 -->
      <g style="fill: #6fa8ff" transform="translate(322.721469 449.746058) scale(0.075631 -0.075631)">
       <defs>
@@ -496,7 +496,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p5f9be0585d)">
+    <g clip-path="url(#pcacfbe7f6e)">
      <!-- 網柄 -->
      <g style="fill: #6fa8ff" transform="translate(355.201704 523.668195) scale(0.066733 -0.066733)">
       <defs>
@@ -572,7 +572,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p5f9be0585d)">
+    <g clip-path="url(#pcacfbe7f6e)">
      <!-- Te Rua Tangata 兩個人 -->
      <g style="fill: #ff6b6b" transform="translate(356.876105 530.776167) scale(0.057835 -0.057835)">
       <defs>
@@ -813,7 +813,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p5f9be0585d">
+  <clipPath id="pcacfbe7f6e">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

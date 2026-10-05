@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T15:14:36.932692</dc:date>
+    <dc:date>2026-10-05T15:28:11.492693</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pcbc523518a)">
+    <g clip-path="url(#pf1f247838f)">
      <!-- Te Taki o te Kapakau Tonga -->
      <g style="fill: #ffffff" transform="translate(473.936243 938.923703) scale(0.07072 -0.07072)">
       <defs>
@@ -382,7 +382,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pcbc523518a)">
+    <g clip-path="url(#pf1f247838f)">
      <!-- 東翼的領路星 -->
      <g style="fill: #ffffff" transform="translate(470.23537 946.879922) scale(0.06188 -0.06188)">
       <defs>
@@ -924,7 +924,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pcbc523518a)">
+    <g clip-path="url(#pf1f247838f)">
      <!-- 東翼（老人星） -->
      <g style="fill: #ffc94a" transform="translate(455.22593 897.686128) scale(0.0663 -0.0663)">
       <defs>
@@ -1030,7 +1030,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pcbc523518a">
+  <clipPath id="pf1f247838f">
    <rect x="0" y="0" width="936" height="1531.922769"/>
   </clipPath>
  </defs>

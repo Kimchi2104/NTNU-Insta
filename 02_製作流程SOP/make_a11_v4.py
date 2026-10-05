@@ -2,21 +2,21 @@
 """A-11 阿努塔：半平方公里小島的星空智慧｜大畫布 v4.6
 
 論點：阿努塔（所羅門群島東端，0.37 km²、約三百人）把整座島的生活掛到天上——
-扁擔 Te Aamonga（河鼓三星，和台灣民間的「扁擔星」同一組）、火鉗 Te Angaanga（畢宿）、
+扁擔 Te Aamonga（河鼓三星，和華人民間的「扁擔星」同一組）、火鉗 Te Angaanga（畢宿）、
 竹子 Te Kope（天鶴）、章魚腳 Kaavei（白羊）、芋頭 Taro（天蠍）、漁網 Te Kupenga（南十字＋南門二、馬腹一）；
 天上最大的是一隻鳥 Manu（天狼＝身體、老人星＝東翼、南河三＝北翼）。北翼較短（25.7° 對 36.2°），
 傳說是跟 Motikitiki 爭 Taro（心宿二）時被打斷的。老人星旁的 α Pic 叫「東翼的領路星」：
-在阿努塔的緯度，它確實比老人星早約六分鐘升起（赤道上反過來）。
+照幾何計算，南緯 10° 以南它比老人星早幾分鐘碰到海面（以北相反）；名字是不是這樣來的，文獻沒說。
 來源：Feinberg 1988《Polynesian Seafaring and Navigation》（Stellarium anutan＝Bucur 2021 依此書數位化）、
 Feinberg 1995 JPS〈Christian Polynesians and Pagan Spirits〉（Manu 的斷翼）、Firth 1954 JPS（Tikopia→阿努塔星路九顆星）。
 
-鏡頭路線：長圖（十一月阿努塔晚空）→ 西天：扁擔、竹子 → 東天：章魚腳、火鉗、三人之路（生活星空圖卡）
+鏡頭路線：長圖（十一月阿努塔晚空）→ 西天：扁擔、竹子 → 東天：章魚腳、火鉗、三星之路（生活星空圖卡）
 → Manu（斷翼概念圖）→ 往東到 Taro → 回走廊：領路星 → 沿鳥身往南 → 南盤（阿努塔地平線）：
 領路星與東翼升起 → 奔跑的雲／靜止的雲 → 轉到清晨：漁網升起、改名「神聖的木頭」
 → 回長圖：星路 kaavenga（概念圖）、Manu＝布吉斯的 Manu'＝*manuk（圖卡）→ 南盤：今晚台灣 → 端卡。
 
 輸出：L1銀河 L2星點 L3經緯線 L4星座連線（阿努塔 11 組全開）
-      連線-Manu／漁網／芋頭／生活（扁擔、竹子、石錛、章魚腳、火鉗、三人之路、領路星、魚）
+      連線-Manu／漁網／芋頭／生活（扁擔、竹子、石錛、章魚腳、火鉗、三星之路、領路星、魚）
       深空天體（大小麥哲倫雲、昴宿、獵戶座大星雲）、主角星白點、領路星白圈
       標籤（長圖）：阿努塔名／中譯／Manu／Manu譯／芋頭／領路／布吉斯／星名
       標籤（南盤）：領路-南盤／雲-南盤／網-南盤／十字-南盤／星名-南盤／台灣-南盤
@@ -121,7 +121,7 @@ LG_LIFE = [(A["008"], "green", 1.0),                    # Te Aamonga 扁擔
            (A["001"], "blue", 1.0),                     # Te Kope 竹子
            (A["007"], "blue", 0.9),                     # Toki 石錛
            (A["005"], "purple", 1.0),                   # Kaavei 章魚腳
-           (A["002"], "white", 1.0),                    # Ara Toru 三人之路
+           (A["002"], "white", 1.0),                    # Ara Toru 三星之路
            (A["006"], "white", 0.8)]                    # Taki Mua 前面的領路星
 LG_ALL = LG_MANU + LG_NET + LG_TARO + LG_LIFE
 LINE_SETS = [(LG_MANU, "連線-Manu"), (LG_NET, "連線-漁網"), (LG_TARO, "連線-芋頭"),
@@ -308,7 +308,7 @@ def build():
         item(OCTO, "章魚腳", "purple", 1.3, 0.0, 1.0, "Kaavei-zh"),
         item([ALCYONE], "小臉（昴宿）", "amber", 1.1, 0.0, 0.6, "Matariki-zh"),
         item(TONGS, "火鉗（畢宿）", "red", 1.3, 0.0, -6.6, "Te Angaanga-zh"),
-        item(BELT, "三人之路", "white", 1.2, 2.6, -1.8, "Ara Toru-zh", side=1),
+        item(BELT, "三星之路", "white", 1.2, 2.6, -1.8, "Ara Toru-zh", side=1),
     ]
     MANU_L = [item(MANU, "Manu", "amber", 2.4, 6.0, -5.0, "Manu", side=-1),        # 鳥身左下的空天區
               item(MANU, "飛翔的鳥", "amber", 1.6, 6.0, -8.8, "Manu-zh", side=-1)]
@@ -401,7 +401,7 @@ def build():
     OPEN1 = (46.0, 6.0, 50.0, 0.0)
     ISL = (46.0, 6.0, 46.0, 0.0)
     LIFE_W = (141.0, -12.9, 56.0, 0.0)               # 扁擔＋石錛＋竹子；底邊 −62.7：帶緣 −57 落在山後（1810 px）、天鶴 ε 在 1700 px
-    LIFE_E = (42.0, 0.0, 62.0, 0.0)                  # 章魚腳、昴宿、火鉗、三人之路（上下緣 ±55，不出帶）
+    LIFE_E = (42.0, 0.0, 62.0, 0.0)                  # 章魚腳、昴宿、火鉗、三星之路（上下緣 ±55，不出帶）
     MANU_F = (-6.0, -29.0, 50.0, 0.0)                # 整隻鳥（走廊上）
     WING = (-6.0, -27.0, 44.0, 0.0)
     TARO_F = (-145.0, -24.0, 34.0, 0.0)
@@ -438,15 +438,15 @@ def build():
         dict(code="02", kind="Z", sec=21, north=True,
              frames=[OPEN1, ISL], layers=["深空"], labels=[],
              overlay="C-A11-01_阿努塔地圖", overlay_layers=["島嶼層", "祖先層"],
-             vo="阿努塔不到零點四平方公里，住了大約三百人，是太平洋有人長住的島裡，最小的之一。"
+             vo="阿努塔不到零點四平方公里，住了大約三百人，是玻里尼西亞有人長住的島裡，最小的之一。"
                 "人在所羅門群島，說的卻是玻里尼西亞語。島上的傳說，祖先大約十五代以前，"
-                "從東加和 ʻUvea 划船過來——就是上集那個要等「圓環」戴上頭的 ʻUvea。",
+                "從東加和 ʻUvea 駕船過來——就是上集那個要等「圓環」戴上頭的 ʻUvea。",
              note="輕推近；結束後疊概念圖 阿努塔地圖（島嶼層→祖先層）"),
         dict(code="03", kind="Z", sec=19, north=True,
              frames=[ISL, LIFE_W], layers=["活", "深空"], labels_start=[],
              labels=ls("阿努塔名", "中譯"),
              vo="先看西邊。阿努塔人的星座，很多是每天手上的東西：牛郎星和兩旁的兩顆，是一根扁擔 Te Aamonga，"
-                "挑芋頭、挑椰子——跟台灣民間的「扁擔星」是同一根。下面彎彎的五顆是 Te Kope，竹子，"
+                "挑芋頭、挑椰子——跟華人民間的「扁擔星」是同一根。下面彎彎的五顆是 Te Kope，竹子，"
                 "做釣竿、桅杆的那種竹子。",
              note="往西（右）滑到天鷹、海豚、天鶴；迄格開阿努塔名＋中譯（扁擔、石錛、竹子）"),
         dict(code="04", kind="Z", sec=20, north=True,
@@ -454,7 +454,7 @@ def build():
              labels=ls("阿努塔名", "中譯"),
              overlay="C-A11-04_阿努塔的生活星空",
              vo="往東：白羊座三顆彎成一隻章魚腳 Kaavei；畢宿的 V 是火鉗 Te Angaanga，"
-                "在地爐裡夾燒紅的石頭。獵戶腰帶是 Ara Toru，三人之路。整片天，就是一座小島的一天：挑芋頭、"
+                "在地爐裡夾燒紅的石頭。獵戶腰帶是 Ara Toru，三星之路。整片天，就是一座小島的一天：挑芋頭、"
                 "烤地爐、削獨木舟、出海撒網。",
              note="往東（左）滑過飛馬、白羊、昴宿到畢宿、獵戶腰帶；結束後疊 9:16 生活星空圖卡（可存圖）"),
         dict(code="05", kind="Z", sec=16, north=True,
@@ -485,13 +485,13 @@ def build():
              note="滑回走廊（老人星、領路星）；領路星白圈＝α Pic"),
         dict(code="09", kind="T", sec=10, north=False,
              frames=[LEAD_F, SW_S], layers=["鳥", "領", "深空"], labels_start=ls("領路"), labels=[],
-             vo="沿著鳥身往南飛，越過大小麥哲倫雲，就是南天極。阿努塔在南緯十一度半，南天極只比海面高十一度半。",
+             vo="沿著鳥身往南飛，越過大麥哲倫雲，就是南天極。阿努塔在南緯十一度半，南天極只比海面高十一度半。",
              note="沿走廊往南：天狼 → 老人星 → α Pic → 大麥哲倫雲 →（迄格＝10 起格：長圖轉南盤）"),
         dict(code="10", kind="R", sec=16, north=False,
              frames=[SW_S, E0, E1], layers=["鳥", "領", "深空"], labels_start=[],
              labels=[], labels_end=ls("領路-南盤"), horizon=[PHI_A],
-             vo="十一月下旬、傍晚七點前：領路星先從東南的海面冒出頭；六分鐘後，東翼老人星才跟上。"
-                "往北到赤道，順序就反過來——這個名字，是在這個緯度取的。",
+             vo="十一月下旬、傍晚七點前：照計算，領路星比東翼老人星早幾分鐘碰到東南的海面；"
+                "往北過了南緯十度，順序就反過來。名字是不是這樣來的，沒人知道。",
              note=f"長圖轉南盤 → 南盤轉到 {ROT_E0:+.1f}°（18:45，兩顆都在海面下）→ {ROT_E1:+.1f}°（21:00，"
                   "兩顆都升到 14–17°，在山的剪影上方）；山升到阿努塔地平線（南緯 11.6°）；迄格開領路標籤"),
         dict(code="11", kind="R", sec=16, north=False,
@@ -511,13 +511,13 @@ def build():
         dict(code="13", kind="R", sec=15, north=False,
              frames=[NET_F, CROSS_F], layers=["網", "深空"], labels_start=ls("網-南盤"),
              labels=ls("十字-南盤"), horizon=[PHI_A],
-             vo="一九一六年，聖公會的傳教士到了阿努塔，全島改信基督教。這張網後來改了名：Te Rakau Tapu，"
+             vo="一九一六年，聖公會的傳教士到了阿努塔，全島改信基督教。網裡的十字後來改了名：Te Rakau Tapu，"
                 "神聖的木頭——十字架。Stellarium 的中文版，還把漁網翻成「互聯網」。",
              note="同角度推近南十字；迄格開十字標籤"),
         dict(code="14", kind="Z", sec=22, north=True,
              frames=[LEAD_F, PATH_F], layers=["鳥", "深空"], labels_start=[], labels=ls("Manu"),
              overlay="C-A11-03_星路", overlay_layers=["海面層", "星路層"],
-             vo="阿努塔人航海，靠一串星，叫 kaavenga——「載著船走的」。Tikopia 的酋長告訴人類學家 Firth："
+             vo="阿努塔人航海，靠幾顆領路的大星，叫 kaavenga——「載著船走的」。Tikopia 的酋長告訴人類學家 Firth："
                 "往阿努塔的星路有九顆星，一顆貼著海面時對準船頭，升高了就換下一顆。"
                 "反過來往 Tikopia，西南方快落下的那條魚 Te Paka Poi Ika Tapu，可能就是人馬座。",
              note="南盤轉長圖（歸位、換組、沿走廊上移回出發點）；結束後疊概念圖 星路（海面層→星路層）"),
@@ -525,21 +525,21 @@ def build():
              frames=[PATH_F, BUG_F], layers=["鳥", "深空"], labels_start=ls("Manu"),
              labels=ls("Manu", "布吉斯"),
              overlay="C-A11-05_同一個字",
-             vo="難怪天上最大的是鳥：阿努塔人說，船就是鳥，船上的人是「海上的鳥」。更妙的是，往西五千六百公里，"
+             vo="難怪天上最大的是鳥：阿努塔人把船比作鳥，歌裡出海的人也是鳥。更妙的是，往西五千六百公里，"
                 "印尼蘇拉威西的布吉斯人，也把老人星、天狼星、南河三連成一隻 Manu'——雞。這個字，語言學家一路"
                 "追回台灣：南島語的祖先說 manuk，北台灣的巴賽語也說 manuk。",
              note="推近 Manu；迄格開 Manu＋布吉斯；結束後疊 9:16 圖卡 同一個字"),
         dict(code="16", kind="R", sec=21, north=False,
              frames=[SW_S2, TPE_F], layers=["鳥", "深空"], labels_start=[],
              labels=ls("台灣-南盤"), horizon=[PHI_TPE],
-             vo="今晚在台灣也看得到 Manu：九點多，天狼星和南河三從東方升起；十點四十五，老人星才貼著東南的海面"
+             vo="今晚在台灣也看得到 Manu：九點多，天狼星和南河三從東方升起；十點四十五，老人星才貼著東南的地平線"
                 "出來。凌晨兩點朝正南看：天狼星高掛，東翼老人星只抬到十二度，要找南方沒有遮蔽的海邊；北翼南河三在更高的地方。",
              note=f"長圖轉南盤 → 南盤轉到 {ROT_TPE:+.1f}°（＝11/21 02:00 台北面向南方）；"
                   "山移到台北地平線（北緯 25.0°）——南天極在地平線下 25°"),
         dict(code="17", kind="R", sec=9, north=False,
              frames=[TPE_F, END_F], layers=["鳥", "深空"], labels_start=ls("台灣-南盤"),
              labels=ls("台灣-南盤"), horizon=[PHI_TPE],
-             vo="下週五，同一條三人之路回到中國：獵戶的腰帶，是白虎的三顆星。",
+             vo="下週五，同一條三星之路回到中國：獵戶的腰帶，是白虎的三顆星。",
              card="下集見｜白虎：參宿與西羌的冬夜",
              note="盤再轉 20 分鐘；端卡＋追蹤 CTA"),
     ]
@@ -604,9 +604,9 @@ def build():
         "Te Taki o te Kapakau Tonga": dict(hips=[APIC], 原文="Te Taki o te Kapakau Tonga", 拼音="",
                                            英文翻譯="the east wing's precursor", 中文="東翼的領路星（繪架座 α）",
                                            顏色="white",
-                                           來源備註="Feinberg 1988；在 11.6°S 比老人星早約 6 分鐘升起（PyEphem 自算）"),
+                                           來源備註="Feinberg 1988；幾何上在南緯 10° 以南比老人星早幾分鐘升起（阿努塔約 4–6 分鐘，PyEphem 自算），以北順序相反；名字由來文獻沒說"),
         "Te Aamonga": dict(hips=STICK, 原文="Te Aamonga", 拼音="", 英文翻譯="the carrying stick", 中文="扁擔（河鼓三星）",
-                           顏色="green", 來源備註="Feinberg 1988：挑芋頭、椰子等食物；中國民間也稱河鼓三星為扁擔星"),
+                           顏色="green", 來源備註="Feinberg 1988：挑芋頭、椰子等食物；華人民間也稱河鼓三星為扁擔星"),
         "Te Angaanga": dict(hips=TONGS, 原文="Te Angaanga", 拼音="", 英文翻譯="the tongs", 中文="火鉗（畢宿）",
                             顏色="red", 來源備註="Feinberg 1988：在地爐裡夾熱石、炭和食物"),
         "Te Kope": dict(hips=BAMBOO, 原文="Te Kope", 拼音="", 英文翻譯="the bamboo", 中文="竹子（天鶴座）",
@@ -618,7 +618,7 @@ def build():
         "Te Paka Poi Ika Tapu": dict(hips=uniq([A["009"]]), 原文="Te Paka Poi Ika Tapu", 拼音="",
                                      英文翻譯="crevalle-like fish", 中文="像鰺魚的魚（人馬座，不確定）",
                                      顏色="purple", 來源備註="Feinberg 1988：往 Tikopia 星路上的星座之一；指認不確定"),
-        "Ara Toru": dict(hips=BELT, 原文="Ara Toru", 拼音="", 英文翻譯="path of three", 中文="三人之路（獵戶腰帶）",
+        "Ara Toru": dict(hips=BELT, 原文="Ara Toru", 拼音="", 英文翻譯="path of three", 中文="三星之路（獵戶腰帶）",
                          顏色="white", 來源備註="Feinberg 1988"),
         "Taki Mua": dict(hips=TAKIMUA, 原文="Taki Mua", 拼音="", 英文翻譯="forward precursor",
                          中文="前面的領路星（飛馬座）", 顏色="white", 來源備註="Feinberg 1988"),
@@ -636,7 +636,7 @@ def build():
                                來源備註="Feinberg 1988；東加 Ongo Tangata（Collocott 1922）同一組星、同一個意思"),
         "Te Rakau Tapu": dict(hips=CRUX, 原文="Te Rakau Tapu", 拼音="", 英文翻譯="sacred wood / timber",
                               中文="神聖的木頭（南十字，1916 年改信基督教後）", 顏色="amber",
-                              來源備註="Feinberg 1988"),
+                              來源備註="Feinberg 1988：只有十字改名，網柄不在內"),
         "Matariki": dict(hips=[ALCYONE], 原文="Matariki", 拼音="", 英文翻譯="small face / small eyes",
                          中文="小臉（昴宿）", 顏色="amber", 來源備註="Feinberg 1988；東加 Mataliki、毛利 Matariki"),
         "Te Ao Rere": dict(hips=[], 原文="Te Ao Rere", 拼音="", 英文翻譯="the running cloud", 中文="奔跑的雲（大麥哲倫雲）",
@@ -660,7 +660,7 @@ def build():
                               顏色="red"),
                          dict(原文="Maʻafulele／Maʻafutoka", 中譯="跑動的火／躺著不動的火（東加：麥哲倫雲）",
                               英文="Running fire / lying fire", 顏色="white"),
-                         dict(原文="扁擔星", 中譯="河鼓三星（台灣、中國民間）", 英文="Carrying pole",
+                         dict(原文="扁擔星", 中譯="河鼓三星（華人民間）", 英文="Carrying pole",
                               顏色="green")],
                "mains": MAINS, "lines": LINES_KEY, "line_groups": LINE_GROUPS,
                "lst_at": LST_AT,
