@@ -365,7 +365,7 @@
           "color": "white",
           "size": 2.0,
           "dx": 0.0,
-          "dy": 8.6,
+          "dy": 9.6,
           "key": "LMC",
           "disc": true
         },
@@ -376,7 +376,7 @@
           "color": "white",
           "size": 2.0,
           "dx": 0.0,
-          "dy": 6.4,
+          "dy": 7.6,
           "key": "SMC",
           "disc": true
         }
@@ -392,7 +392,7 @@
           "color": "white",
           "size": 1.6,
           "dx": 0.0,
-          "dy": 5.6,
+          "dy": 5.4,
           "key": "LMC",
           "disc": true
         },
@@ -403,7 +403,7 @@
           "color": "white",
           "size": 1.6,
           "dx": 0.0,
-          "dy": 3.6,
+          "dy": 3.4,
           "key": "SMC",
           "disc": true
         }
@@ -660,7 +660,7 @@
           "color": "green",
           "size": 2.2,
           "dx": 0.0,
-          "dy": 9.6,
+          "dy": 10.8,
           "key": "ʻAo ʻo ʻUvea",
           "disc": true
         },
@@ -671,7 +671,7 @@
           "color": "green",
           "size": 1.7,
           "dx": 0.0,
-          "dy": 6.2,
+          "dy": 6.0,
           "key": "ʻAo-zh",
           "disc": true
         },
@@ -697,8 +697,8 @@
           "text": "Kapakau ʻo Tafahi",
           "color": "green",
           "size": 2.0,
-          "dx": 0.0,
-          "dy": 6.6,
+          "dx": 20.89,
+          "dy": 2.6,
           "key": "Kapakau ʻo Tafahi",
           "disc": true
         },
@@ -734,8 +734,8 @@
           "text": "仙后座",
           "color": "white",
           "size": 1.5,
-          "dx": 0.0,
-          "dy": -5.0,
+          "dx": 8.82,
+          "dy": -2.4,
           "key": "Cas-zh",
           "disc": true
         },

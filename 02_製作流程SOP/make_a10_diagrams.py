@@ -109,7 +109,7 @@ def c01_islands(ax):
     L = 200 / 111.2 * SC * 1.0                 # 緯度 1° ≈ 111.2 km（南北向比例尺）
     ax.plot([sx0, sx0 + L], [sy, sy], c=WHITE, lw=2.0, alpha=.7)
     T(ax, sx0 + L / 2, sy + 0.035, "200 km", 12, GREY, w="normal")
-    T(ax, 0.0, -0.92, "星名出處：Tukuʻaho 的航海指南（1890 年代）→ Collocott 1922", 15, GREY,
+    T(ax, 0.0, -0.92, "星名出處：Tukuʻaho 的航海指南（十九世紀末）→ Collocott 1922", 15, GREY,
       w="normal")
 
 
@@ -134,7 +134,7 @@ def c01_routes(ax):
         p0, p1 = mp(*P[a]), mp(*P[b])
         C.arrow(ax, p1, p0, c=col, lw=3.0, alpha=.95, style="-|>")
         km, br = gc_km(P[a], P[b]), bearing(P[a], P[b])
-        dirn = "正北" if abs(((br + 180) % 360) - 180) < 6 else \
+        dirn = "正北" if abs(((br + 180) % 360) - 180) < 1 else \
             (f"北偏西 {360 - br:.0f}°" if br > 180 else f"北偏東 {br:.0f}°")
         mx, my = (p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2
         T(ax, mx + dx, my + dy, txt, 17, col, ha=ha)
@@ -246,7 +246,7 @@ ROWS = [  # 國際名, Collocott 1922, Stellarium, 是否對不上
     ("假十字", "—", "Toloalahi 大野鴨", True),
     ("腰帶→假十字→南十字", "—", "Houmatoloa\n野鴨的岬角", True),
     ("昴宿星團", "Mataliki", "Motuliki", True),
-    ("大／小麥哲倫雲", "Maʻafutoka 躺著的火＝大\nMaʻafulele 跑動的火＝小", "對調；兩個名字\n另給老人星、天狼星", True),
+    ("大／小麥哲倫雲", "Maʻafutoka 躺著的火＝大\nMaʻafulele 跑動的火＝小\n（大小對應是 Baker 說）", "對調；兩個名字\n另給老人星、天狼星", True),
     ("（北方五顆星）", "Tuʻulalupe 鴿子的棲架\n直立才能用", "畢宿", False),
     ("（圓形星群）", "ʻAo ʻo ʻUvea ʻUvea 的圓環\n戴在 ʻUvea 上空才用", "北冕座（推測）", False),
     ("（八顆星）", "Kapakau ʻo Tafahi\n孵在 Tafahi 上的翅膀", "仙后座（推測）", False),

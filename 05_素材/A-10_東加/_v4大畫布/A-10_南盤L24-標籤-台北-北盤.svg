@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T08:17:15.670843</dc:date>
+    <dc:date>2026-10-05T08:31:59.482457</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,9 +31,9 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p1ce1ec4fdd)">
+    <g clip-path="url(#p083e1476ef)">
      <!-- Kapakau ʻo Tafahi -->
-     <g style="fill: #7bd88f" transform="translate(424.745631 -157.644195) scale(0.091767 -0.091767)">
+     <g style="fill: #7bd88f" transform="translate(481.128532 -146.848044) scale(0.091767 -0.091767)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-2c" d="M 3667 0 
 L 4685 0 
@@ -337,7 +337,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p1ce1ec4fdd)">
+    <g clip-path="url(#p083e1476ef)">
      <!-- Mataliki -->
      <g style="fill: #ffc94a" transform="translate(139.522 113.829201) scale(0.091767 -0.091767)">
       <defs>
@@ -425,7 +425,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p1ce1ec4fdd)">
+    <g clip-path="url(#p083e1476ef)">
      <!-- Tuʻulalupe -->
      <g style="fill: #7bd88f" transform="translate(68.971293 199.448909) scale(0.091767 -0.091767)">
       <defs>
@@ -464,7 +464,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p1ce1ec4fdd">
+  <clipPath id="p083e1476ef">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

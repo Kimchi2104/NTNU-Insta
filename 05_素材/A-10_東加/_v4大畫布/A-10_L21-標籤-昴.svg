@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T08:17:14.310379</dc:date>
+    <dc:date>2026-10-05T08:31:58.224842</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p5fc0db63d8)">
+    <g clip-path="url(#pa917066327)">
      <!-- Mataliki -->
      <g style="fill: #ffc94a" transform="translate(349.312748 668.23155) scale(0.04862 -0.04862)">
       <defs>
@@ -203,7 +203,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p5fc0db63d8)">
+    <g clip-path="url(#pa917066327)">
      <!-- 昴宿星團 -->
      <g style="fill: #ffc94a" transform="translate(351.620748 671.45165) scale(0.03757 -0.03757)">
       <defs>
@@ -547,7 +547,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p5fc0db63d8)">
+    <g clip-path="url(#pa917066327)">
      <!-- Makaliʻi（夏威夷） -->
      <g style="fill: #ffffff" transform="translate(343.406178 681.50767) scale(0.03536 -0.03536)">
       <defs>
@@ -821,7 +821,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p5fc0db63d8)">
+    <g clip-path="url(#pa917066327)">
      <!-- Matariki（毛利） -->
      <g style="fill: #ffffff" transform="translate(344.700409 684.62767) scale(0.03536 -0.03536)">
       <defs>
@@ -961,7 +961,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p5fc0db63d8">
+  <clipPath id="pa917066327">
    <rect x="0" y="0" width="936" height="1475.273639"/>
   </clipPath>
  </defs>

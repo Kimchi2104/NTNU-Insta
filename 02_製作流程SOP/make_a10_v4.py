@@ -394,10 +394,10 @@ def build():
     POLE = [item([POLARIS], "北極星", "white", 1.2, 0.0, -2.6, "HIP 11767")]
 
     # ── 南盤（原生文字不跟著盤轉：dx/dy＝畫面方向）──
-    FIRE = [item(LMC, "Maʻafulele？", "white", 2.0, 0.0, 8.6, "LMC", disc=True),
-            item(SMC, "Maʻafutoka？", "white", 2.0, 0.0, 6.4, "SMC", disc=True)]
-    FIRE_ZH = [item(LMC, "跑動的火？", "white", 1.6, 0.0, 5.6, "LMC", disc=True),
-               item(SMC, "躺著不動的火？", "white", 1.6, 0.0, 3.6, "SMC", disc=True)]
+    FIRE = [item(LMC, "Maʻafulele？", "white", 2.0, 0.0, 9.6, "LMC", disc=True),
+            item(SMC, "Maʻafutoka？", "white", 2.0, 0.0, 7.6, "SMC", disc=True)]
+    FIRE_ZH = [item(LMC, "跑動的火？", "white", 1.6, 0.0, 5.4, "LMC", disc=True),
+               item(SMC, "躺著不動的火？", "white", 1.6, 0.0, 3.4, "SMC", disc=True)]
     NAMES_S = [item(LMC, "大麥哲倫雲", "white", 1.5, 0.0, -7.6, "LMC-zh", disc=True),
                item(SMC, "小麥哲倫雲", "white", 1.5, 0.0, -4.4, "SMC-zh", disc=True),
                item([CANOPUS], "老人星", "white", 1.5, 0.0, -3.0, "HIP 30438", disc=True),
@@ -421,13 +421,13 @@ def build():
     WING = [item(CAS, "Kapakau ʻo Tafahi", "green", 2.0, 0.0, 7.2, "Kapakau ʻo Tafahi", disc=True),
             item(CAS, "Tafahi 的翅膀", "green", 1.6, 0.0, 4.4, "Kapakau-zh", disc=True)]
     CAS_Q = [item(CAS, "仙后座？", "white", 1.4, 9.0, 0.0, "Cas", disc=True, side=1)]
-    RING = [item(CRB, "ʻAo ʻo ʻUvea", "green", 2.2, 0.0, 9.6, "ʻAo ʻo ʻUvea", disc=True),
-            item(CRB, "ʻUvea 的圓環", "green", 1.7, 0.0, 6.2, "ʻAo-zh", disc=True),
+    RING = [item(CRB, "ʻAo ʻo ʻUvea", "green", 2.2, 0.0, 10.8, "ʻAo ʻo ʻUvea", disc=True),
+            item(CRB, "ʻUvea 的圓環", "green", 1.7, 0.0, 6.0, "ʻAo-zh", disc=True),
             item(CRB, "北冕座？", "white", 1.5, 0.0, -5.4, "CrB", disc=True)]
-    TPE = [item(CAS, "Kapakau ʻo Tafahi", "green", 2.0, 0.0, 6.6, "Kapakau ʻo Tafahi", disc=True),
+    TPE = [item(CAS, "Kapakau ʻo Tafahi", "green", 2.0, 5.0, 2.6, "Kapakau ʻo Tafahi", disc=True, side=1),
            item([ALCYONE], "Mataliki", "amber", 2.0, 0.0, 4.4, "Mataliki", disc=True),
            item(HYADES, "Tuʻulalupe", "green", 2.0, 3.0, 0.8, "Tuʻulalupe", disc=True, side=-1)]
-    TPE_ZH = [item(CAS, "仙后座", "white", 1.5, 0.0, -5.0, "Cas-zh", disc=True),
+    TPE_ZH = [item(CAS, "仙后座", "white", 1.5, 5.0, -2.4, "Cas-zh", disc=True, side=1),
               item([ALCYONE], "昴宿", "white", 1.5, 0.0, 1.8, "Pleiades-zh", disc=True),
               item(HYADES, "畢宿", "white", 1.5, 3.0, -2.6, "Hyades-zh", disc=True, side=-1)]
 
@@ -509,24 +509,24 @@ def build():
              vo="上週，我們跟著夏威夷的四條星線回家。今晚再往南五千公里，到東加。"
                 "同一片星空，東加人看見——一條條航線。",
              card="同一片星空，東加人看見——一條條航線。",
-             note="開場字卡；十一月東加晚空（RA 15 在子午線＝11/13 22:10）往東緩慢平移，先不開連線"),
+             note="開場字卡；十一月東加晚空（RA 15°（1h）在子午線＝11/13 22:10）往東緩慢平移，先不開連線"),
         dict(code="02", kind="Z", sec=22, north=True,
              frames=[OPEN1, COR0], layers=["深空"], labels=[],
              overlay="C-A10-01_東加地圖", overlay_layers=["島嶼層"],
              vo="東加有一百七十座左右的島，東加人把天文當成航海的一部分。他們的星空，幾乎只留在一份航海指南裡："
                 "一八九〇年代的首相、大酋長 Tukuʻaho 寫下，一九二二年傳教士 Collocott 整理出版。"
-                "所以東加的星座，大多是一句航海指令。",
+                "所以有些東加星名，本身就是一句航海指令。",
              note="滑回走廊；結束後疊概念圖 東加地圖（島嶼層）"),
         dict(code="03", kind="T", sec=10, north=False,
              frames=[COR0, COR_S, SW_S], layers=["深空"], labels=[],
-             vo="先往南看。東加在南緯二十一度，南方天空的軸心是南天極——"
+             vo="先往南看。東加本島在南緯二十一度，南方天空的軸心是南天極——"
                 "那裡沒有亮星，只有兩團淡淡的光。",
              note="沿走廊往南：鯨魚 → 水委一 →（迄格＝04 起格：長圖轉南盤）"),
         dict(code="04", kind="R", sec=16, north=False,
              frames=[SW_S, MAF], layers=["深空"], labels_start=[],
              labels=ls("火-南盤", "火譯-南盤"), horizon=[PHI_T],
              vo="東加人叫它們 Maʻafu，火：一團是 Maʻafulele，跑動的火；一團是 Maʻafutoka，"
-                "躺著不動的火。哪一團是哪一團，紀錄互相矛盾。這兩團光是麥哲倫雲，在台灣永遠看不到。",
+                "躺著不動的火。哪團是哪團，紀錄互相矛盾。Baker 的辭典說，這兩團光就是麥哲倫雲，在台灣永遠看不到。",
              note=f"長圖轉南盤（同框換組）→ 南盤轉到 {ROT_S22:+.1f}°（＝11/13 22:00 東加面向南方）、拉遠；"
                   "山升到東加地平線（南緯 21.1°）。名字後面的「？」＝兩種紀錄對應相反"),
         dict(code="05", kind="R", sec=12, north=False,
@@ -552,14 +552,14 @@ def build():
         dict(code="08", kind="T", sec=13, north=True,
              frames=[COR0, COR_N, SW_N], layers=["深空"], labels=[], labels_end=ls("北極星"),
              vo="那往北呢？Stellarium 的東加資料寫著：奇怪，東加人沒有幫北極星取名。"
-                "其實一點也不奇怪——從東加看，北極星永遠在地平線下二十度。",
+                "其實一點也不奇怪——從東加本島看，北極星永遠在地平線下二十度以上。",
              note="南盤轉長圖（盤轉回 0°、換組、沿走廊上移回出發點）→ 沿走廊往北經過仙后 W 到北極星"
                   "（迄格＝09 起格：長圖轉北盤）"),
         dict(code="09", kind="R", sec=11, north=True,
              frames=[SW_N, VAV], layers=["翼"], labels_start=ls("北極星"),
              labels=ls("翅膀-北盤"), horizon=[PHI_V],
              vo="往北的路，要看別的星。十一月中、晚上十點，站在北邊的 Vavaʻu 島往北看："
-                "海面上方十幾度，蹲著一個 W。",
+                "海面上方十度上下，蹲著一個 W。",
              note=f"長圖轉北盤 → 北盤逆時針轉到 {ROT_VAV:+.1f}°（＝11/13 21:48 Vavaʻu 面向北方）；"
                   "山升到 Vavaʻu 地平線（南緯 18.7°）——地平線在北極星「上方」，北極星藏在山後"),
         dict(code="10", kind="R", sec=23, north=True,
@@ -567,7 +567,7 @@ def build():
              labels=ls("翅膀-北盤", "仙后-北盤"), horizon=[PHI_V],
              overlay="C-A10-02_Tafahi的翅膀", overlay_layers=["地平層", "母雞層"],
              vo="東加人叫它 Kapakau ʻo Tafahi，Tafahi 的翅膀。指南說，它像一隻母雞，"
-                "張開翅膀孵在 Tafahi 島上；Tafahi 就在 Vavaʻu 正北三百多公里，從 Vavaʻu 往北到 Niua 群島，走的就是這條星路。"
+                "張開翅膀孵在 Tafahi 島上；Tafahi 在 Vavaʻu 幾乎正北、三百多公里外，遠到看不見島，只看得見星。"
                 "是哪八顆星，各家說法不同，Stellarium 猜是仙后座。",
              note="推近；結束後疊概念圖 Tafahi 的翅膀（地平層→母雞層）"),
         dict(code="11", kind="R", sec=20, north=True,
@@ -590,13 +590,13 @@ def build():
              labels=ls("船"),
              vo="旁邊的獵戶腰帶叫 ʻAlotolu，一條船上三個人。傳說女孩 Hina 養的小鯊魚游走了，"
                 "她和爸爸媽媽划船出海找；最後 Hina 留在海上，變成一座礁，那條船到了天上。"
-                "船底下那串小星，叫 Tuinga ika，一串魚。",
+                "船旁邊那串小星，叫 Tuinga ika，一串魚。",
              note="往下移到獵戶腰帶與獵戶之劍（一串魚）；獵戶座大星雲在劍上"),
         dict(code="14", kind="Z", sec=23, north=True,
              frames=[ORI_Z, PLE], layers=["深空"], labels_start=ls("船"),
              labels=ls("昴"),
              vo="上面那一小團是昴宿 Mataliki，跟夏威夷的 Makaliʻi、毛利的 Matariki 是同一個字。"
-                "東加的一年大約跟西曆同時開始，Collocott 猜，也許是看昴宿黃昏東升。閏月更妙：新月那天去看山藥，"
+                "東加的一年大約跟西曆同時開始，Collocott 拿 Mangaia 島比，猜可能跟昴宿黃昏東升這類天象有關。閏月更妙：新月那天去看山藥，"
                 "還沒長成第一個月該有的樣子，就多插一個月。",
              note="往上滑到昴宿並推近"),
         dict(code="15", kind="Z", sec=21, north=True,
@@ -610,8 +610,8 @@ def build():
         dict(code="16", kind="R", sec=21, north=True,
              frames=[SW_N2, TPE_F], layers=["翼", "鴿", "深空"], labels_start=[],
              labels=ls("台北-北盤", "台北譯-北盤"), horizon=[PHI_TPE],
-             vo="今晚八點在台北抬頭：北方高高掛著 Tafahi 的翅膀，比在東加高了四十多度；"
-                "東方，Mataliki 和 Tuʻulalupe 已經升起。台灣看不到 Maʻafu 的兩團火；野鴨和兩個人，"
+             vo="今晚八點在台北抬頭：北方高高掛著仙后座——Stellarium 版的 Tafahi 翅膀，比在東加高了四十多度；"
+                "東方，昴宿和畢宿已經升起。台灣看不到 Maʻafu 的兩團火；野鴨和兩個人，"
                 "要等春天到南部海邊，才貼著地平線露臉。",
              note=f"長圖回中心、上移、轉北盤 → 逆時針轉到 {ROT_TPE:+.1f}°（＝11/13 20:00 台北面向北方）；"
                   "山升到台北地平線"),
@@ -620,7 +620,7 @@ def build():
              labels_start=ls("台北-北盤", "台北譯-北盤"), labels=ls("台北-北盤", "台北譯-北盤"),
              horizon=[PHI_TPE],
              vo="下週五，去一座不到半平方公里的小島，阿努塔：南十字和這兩個人，在那裡變成一張漁網。",
-             card="下集見｜阿努塔：全世界最小島嶼的星空智慧",
+             card="下集見｜阿努塔：半平方公里小島的星空智慧",
              note="盤再轉 20 分鐘；端卡＋追蹤 CTA"),
     ]
     print("\n── 旁白字數 ──")
