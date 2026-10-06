@@ -1,6 +1,6 @@
 ﻿文化,Stellarium ID,星座英文名,星座原文名,星座繁中名,筆畫,筆畫星數,HIP 順序,國際星名順序,文化內星名順序
 阿努塔,CON anutan 001,The Bamboo,Te Kope,竹子,筆畫1,5,112623→112122→110997→109111→108085,HIP112623→Tiaki→HIP110997→HIP109111→Aldhanab,
-阿努塔,CON anutan 002,Path of Three,Ara Toru,三人之路,筆畫1,3,25930→26311→26727,Mintaka→Alnilam→Alnitak,
+阿努塔,CON anutan 002,Path of Three,Ara Toru,三星之路,筆畫1,3,25930→26311→26727,Mintaka→Alnilam→Alnitak,
 阿努塔,CON anutan 003,Bird of Flight,Manu,飛翔的鳥,筆畫1,4,37279→32349→30438→32607,Procyon→Sirius→Canopus→HIP32607,—→—→—→Te Taki O Te Kapakau Tonga
 阿努塔,CON anutan 004,The Tongs,Te Angaanga,火鉗,筆畫1,7,21421→20885→20713→20205→20455→20648→20889,Aldebaran→Hyadum III→HIP20713→Prima Hyadum→Secunda Hyadum→HIP20648→Ain,
 阿努塔,CON anutan 005,Octopus Tentacle,Kaavei,章魚觸手,筆畫1,3,8903→9884→13209,Sheratan→Hamal→Bharani,
@@ -360,7 +360,7 @@
 阿拉伯・古代,CON arabic_ancient 4199,The ringed rope,الربق,帶環的繩索,筆畫2,2,116771→118268,HIP116771→HIP118268,
 阿拉伯・古代,CON arabic_ancient 4201,The circular mark,الهقعة,圓形標記,筆畫1,4,26207→26176→26366→26207,Meissa→Heka→HIP26366→Meissa,—→—→الهقعة→—
 阿拉伯・古代,CON arabic_ancient 4201,The circular mark,الهقعة,圓形標記,筆畫2,2,26444→26444,HIP26444→HIP26444,
-阿拉伯・古代,CON arabic_ancient 4202,The string,النظم,字符串,筆畫1,3,25930→26311→26727,Mintaka→Alnilam→Alnitak,
+阿拉伯・古代,CON arabic_ancient 4202,The string,النظم,一串（珠子）,筆畫1,3,25930→26311→26727,Mintaka→Alnilam→Alnitak,
 阿拉伯・古代,CON arabic_ancient 4203,The facial line tattoo,اللعط,面部線條紋身,筆畫1,3,26237→26235→26241,Mizan Batil I→Mizan Batil II→Hatysa,
 阿拉伯・古代,CON arabic_ancient 4204,Hair braids of al-Jawza,ذوائب الجوزاء,al-Jawza 的髮辮,筆畫1,8,24010→23607→22957→22509→22449→22549→22797→23123,HIP24010→HIP23607→Al Kumm II→Al Taj I→Tabit→Al Taj II→Al Taj III→Al Taj V,
 阿拉伯・古代,CON arabic_ancient 4205,Bow of al-Jawza,قوس الجوزاء,al-Jawza 之弓,筆畫1,8,30419→31216→31978→32362→31681→30883→30343→29655,HIP30419→HIP31216→HIP31978→Alzirr→Alhena→Nucatai→Tejat→Propus,—→—→—→الميسان→الزر→التحايي 3→التحايي 2→التحايي 1
@@ -513,7 +513,7 @@
 阿拉伯・月站,CON arabic_lunar_stations 4099,The lucky star of Matar,سعد مطر,馬塔爾的幸運星,筆畫1,2,112158→112051,Matar→Sadalmatar,
 阿拉伯・月站,CON arabic_lunar_stations 4201,The circular mark,الهقعة,圓形標記,筆畫1,4,26207→26176→26366→26207,Meissa→Heka→HIP26366→Meissa,—→—→الهقعة→—
 阿拉伯・月站,CON arabic_lunar_stations 4201,The circular mark,الهقعة,圓形標記,筆畫2,2,26444→26444,HIP26444→HIP26444,
-阿拉伯・月站,CON arabic_lunar_stations 4202,The string,النظم,字符串,筆畫1,3,25930→26311→26727,Mintaka→Alnilam→Alnitak,
+阿拉伯・月站,CON arabic_lunar_stations 4202,The string,النظم,一串（珠子）,筆畫1,3,25930→26311→26727,Mintaka→Alnilam→Alnitak,
 阿拉伯・月站,CON arabic_lunar_stations 4206,Stoopness [of the camel neck],الهنعة,[駱駝脖子的] 駝背,筆畫1,2,31681→32362,Alhena→Alzirr,الزر→الميسان
 阿拉伯・月站,CON arabic_lunar_stations 4299,Al-Jawza,الجوزاء,賈瓦扎,筆畫1,2,26207→26487,Meissa→HIP26487,
 阿拉伯・月站,CON arabic_lunar_stations 4299,Al-Jawza,الجوزاء,賈瓦扎,筆畫2,3,25336→26487→27989,Bellatrix→HIP26487→Betelgeuse,الناجذ→—→منكب الجوزاء
@@ -538,7 +538,7 @@
 白俄羅斯,CON belarusian 007,The Grass Snakes,Вужы,草蛇,筆畫1,4,20205→20455→20648→20889,Prima Hyadum→Secunda Hyadum→HIP20648→Ain,
 白俄羅斯,CON belarusian 007,The Grass Snakes,Вужы,草蛇,筆畫2,3,20205→20894→21421,Prima Hyadum→Chamukuy→Aldebaran,
 白俄羅斯,CON belarusian 008,Poland and Lithuania,,波蘭和立陶宛,筆畫1,2,37826→36850,Pollux→Castor,
-白俄羅斯,CON belarusian 009,The Mowers,Касцы,割草機,筆畫1,3,26727→26311→25930,Alnitak→Alnilam→Mintaka,
+白俄羅斯,CON belarusian 009,The Mowers,Касцы,割草的人,筆畫1,3,26727→26311→25930,Alnitak→Alnilam→Mintaka,
 白俄羅斯,CON belarusian 010,The Nail,Гвоздзь,釘子,筆畫1,2,11767→11767,Polaris→Polaris,The Nail→The Nail
 白俄羅斯,CON belarusian 011,The Ploughman,Ратай,農夫,筆畫1,6,74666→73555→71075→71053→69673→67927,Thiba→Nekkar→Seginus→HIP71053→Arcturus→Muphrid,
 白俄羅斯,CON belarusian 011,The Ploughman,Ратай,農夫,筆畫2,3,69673→72105→74666,Arcturus→Izar→Thiba,
@@ -1539,8 +1539,8 @@
 曼達爾,CON mandar 004,Fishing Net,Bittoéng Panjala,捕魚網,筆畫2,2,58001→59774,Phecda→Megrez,
 曼達爾,CON mandar 004,Fishing Net,Bittoéng Panjala,捕魚網,筆畫3,2,62956→62956,Alioth→Alioth,
 曼達爾,CON mandar 004,Fishing Net,Bittoéng Panjala,捕魚網,筆畫4,2,65378→67301,Mizar→Alkaid,
-曼達爾,CON mandar 005,Group of Three Stars,Bittoéng Tallu-tallu,三星級組,筆畫1,3,26727→26311→25930,Alnitak→Alnilam→Mintaka,
-曼達爾,CON mandar 005,Group of Three Stars,Bittoéng Tallu-tallu,三星級組,筆畫2,3,22449→22549→22797,Tabit→Al Taj II→Al Taj III,
+曼達爾,CON mandar 005,Group of Three Stars,Bittoéng Tallu-tallu,三星一組,筆畫1,3,26727→26311→25930,Alnitak→Alnilam→Mintaka,
+曼達爾,CON mandar 005,Group of Three Stars,Bittoéng Tallu-tallu,三星一組,筆畫2,3,22449→22549→22797,Tabit→Al Taj II→Al Taj III,
 曼達爾,CON mandar 006,Widow,Bittoéng Tuwallu,寡婦,筆畫1,2,68702→71683,Hadar→Alpha Centauri,
 毛利,CON maori 001,Taki-o-Autahi,,Taki-o-Autahi,筆畫1,2,61084→60718,Gacrux→Acrux,
 毛利,CON maori 001,Taki-o-Autahi,,Taki-o-Autahi,筆畫2,2,62434→59747,Mimosa→Imai,
@@ -1907,7 +1907,7 @@
 薩丁尼亞,CON sardinian 009,The Cross of St. Constantine,Sa Rughe de Santu Antinu,聖康斯坦丁 (St. Constantine) 的十字架,筆畫1,4,102098→100453→98110→95947,Deneb→Sadr→HIP98110→Albireo,
 薩丁尼亞,CON sardinian 009,The Cross of St. Constantine,Sa Rughe de Santu Antinu,聖康斯坦丁 (St. Constantine) 的十字架,筆畫2,3,102488→100453→97165,Aljanah→Sadr→Fawaris,
 薩丁尼亞,CON sardinian 010,The Throne,Sa Tona,王座,筆畫1,5,8886→6686→4427→3179→746,Segin→Ruchbah→Navi→Shedar→Caph,
-薩丁尼亞,CON sardinian 011,Three Marias,Sas Tres Marias,三 Marias,筆畫1,3,26727→26311→25930,Alnitak→Alnilam→Mintaka,
+薩丁尼亞,CON sardinian 011,Three Marias,Sas Tres Marias,三個瑪利亞,筆畫1,3,26727→26311→25930,Alnitak→Alnilam→Mintaka,
 西伯利亞,CON siberian Elk,Elk,,駝鹿,筆畫1,8,67301→65378→62956→59774→58001→53910→54061→59774,Alkaid→Mizar→Alioth→Megrez→Phecda→Merak→Dubhe→Megrez,
 西伯利亞,CON siberian Kic,Threshers,,打穀者,筆畫1,5,26241→26268→26727→26311→25930,Hatysa→HIP26268→Alnitak→Alnilam→Mintaka,
 西伯利亞,CON siberian DNe,Duck Nest,,鴨巢,筆畫1,9,17499→17489→17531→17579→17664→17851→17847→17608→17499,Electra→Celaeno→Taygeta→Asterope→HIP17664→Pleione→Atlas→Merope→Electra,
