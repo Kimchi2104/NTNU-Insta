@@ -9,9 +9,9 @@
   C-A12-07_今晚往東看    → 逐字稿 13 鏡（9:16 圖卡：台北 2026/12/4 20:00，PyEphem 自算）
 輸出：05_素材/A-12_白虎/_概念圖/
 
-來源：《史記．天官書》（唐張守節《正義》）、《晉書．天文志》、《左傳．昭公元年》、杜甫〈贈衛八處士〉、
+來源：《史記．天官書》（唐張守節《正義》）、《晉書》《隋書》《宋史》天文志、《左傳．昭公元年》、杜甫〈贈衛八處士〉、
       《禮記．月令》、《宋會要》、《宋史》、《後漢書．南蠻西南夷列傳》；濮陽西水坡 M45（1987 年發掘，
-      距今約 6,400 年）；Stellarium chinese／bugis／anutan／romanian／belarusian／inuit／arabic／sardinian；
+      距今約 6,400 年）；Stellarium chinese／bugis／anutan／romanian／belarusian／inuit／arabic_ancient／sardinian；
       師大天文社〈中國星座〉簡報 p.16–17（白虎＝西羌）。
       字形、墓葬、星雲都是自繪示意圖，不臨摹任何已出版的摹本、復原圖或照片。
 """
@@ -140,7 +140,7 @@ def pan_xy(alt, az):
 
 def c02_horizon(ax):
     T(ax, 0.0, 0.92, "參商：一個升起，另一個落下", 31, WHITE)
-    T(ax, 0.0, 0.845, "台北：參宿三星和心宿二同時在地平線上，一天大約 14 分鐘，而且都不到 2.5°", 15.5, GREY,
+    T(ax, 0.0, 0.845, "台北：參宿三星和心宿二同時在地平線上，一天大約 13 分鐘，兩邊都只離地平線兩三度", 15.5, GREY,
       w="normal")
     T(ax, 0.0, 0.775, "例：2027 年 4 月 20 日 21:29（PyEphem 自算，含大氣折射）", 13.5, GREY, w="normal")
     for a0, a1, x0 in (PAN_L, PAN_R):
@@ -157,7 +157,7 @@ def c02_horizon(ax):
         q = pan_xy(0, az)
         T(ax, q[0], HZ2 - 0.06, lab, 14, WHITE, w="normal")
     T(ax, 0.0, HZ2 - 0.06, "⋯", 16, GREY, w="normal")
-    T(ax, 0.0, HZ2 - 0.13, "（中間隔著南方天空，約 120°）", 12, GREY, w="normal")
+    T(ax, 0.0, HZ2 - 0.13, "（中間省略 135°–255° 的南方天空）", 12, GREY, w="normal")
     T(ax, -0.49, 0.62, "東邊升起", 17, RED)
     T(ax, 0.49, 0.62, "西邊落下", 17, AMBER)
 
@@ -222,8 +222,8 @@ def c03_tomb(ax):
     T(ax, 0.30, 0.60, "距今約 6,400 年（仰韶文化）", 13.5, WHITE, w="normal")
     T(ax, 0.30, 0.52, "墓主頭南腳北；身旁用蚌殼擺出", 13.5, WHITE, w="normal")
     T(ax, 0.30, 0.46, "東邊一條龍、西邊一隻虎", 15, AMBER)
-    T(ax, 0.30, 0.37, "四象「左青龍、右白虎」的方位，", 12.5, GREY, w="normal")
-    T(ax, 0.30, 0.32, "這時已經擺好了", 12.5, GREY, w="normal")
+    T(ax, 0.30, 0.37, "龍東虎西——有學者認為，", 12.5, GREY, w="normal")
+    T(ax, 0.30, 0.32, "這就是四象的雛形", 12.5, GREY, w="normal")
     # 平面示意（北在上、東在右）
     cx, cy = -0.52, 0.55
     ax.add_patch(CB.FancyBboxPatch((cx - 0.30, cy - 0.23), 0.60, 0.46,
@@ -282,8 +282,8 @@ def c03_glyph(ax):
         T(ax, -0.80, y, a, 34, WHITE)
         T(ax, -0.63, y + 0.02, b, 16, GREEN, ha="left")
         T(ax, -0.63, y - 0.035, c, 12.5, WHITE, w="normal", ha="left")
-    T(ax, -0.475, -0.21, "周王室姬姓，世世代代娶姜姓", 13, WHITE, w="normal")
-    T(ax, -0.475, -0.27, "（李學勤等：羌、姜同源）", 11.5, GREY, w="normal")
+    T(ax, -0.475, -0.21, "周王室姬姓，常與姜姓通婚（太姜、邑姜）", 13, WHITE, w="normal")
+    T(ax, -0.475, -0.27, "（章太炎、傅斯年等：羌、姜同源）", 11.5, GREY, w="normal")
 
 
 def c03_yi(ax):
@@ -291,7 +291,7 @@ def c03_yi(ax):
     T(ax, 0.475, 0.14, "線索三：虎的族人", 17, PURPLE)
     T(ax, 0.475, 0.05, "彝族：不少學者認為源自古羌", 13.5, WHITE, w="normal")
     T(ax, 0.475, -0.03, "有的支系自稱「羅羅」", 15, PURPLE)
-    T(ax, 0.475, -0.10, "＝虎族", 15, PURPLE)
+    T(ax, 0.475, -0.10, "劉堯漢等解釋為「虎族」", 13.5, PURPLE)
     T(ax, 0.475, -0.19, "劉堯漢提出彝族的「虎宇宙觀」", 12.5, WHITE, w="normal")
     T(ax, 0.475, -0.25, "（田野與民族志，非天文文獻）", 11.5, GREY, w="normal")
 
@@ -349,15 +349,19 @@ def c04_chart(ax):
 
 def c04_guest(ax):
     x, y = p4(*A12.M1)
+    gx, gy = p4(*S[A12.ZETA_TAU][:2])
+    a_g = math.atan2(gy - y, gx - x)
     for i in range(8):
         a = math.radians(22.5 + 45 * i)
-        r1 = 0.085 if i % 2 == 0 else 0.055
+        if abs(math.remainder(a - a_g, 2 * math.pi)) < math.radians(40):
+            continue  # 不讓光芒蓋住天關的圈
+        r1 = 0.070 if i % 2 == 0 else 0.045
         ax.plot([x + 0.02 * math.cos(a), x + r1 * math.cos(a)], [y + 0.02 * math.sin(a), y + r1 * math.sin(a)],
                 c=AMBER, lw=2.4, alpha=.95, zorder=8, solid_capstyle="round")
-    ax.scatter([x], [y], s=260, c=AMBER, zorder=9, lw=0)
-    ax.scatter([x], [y], s=1400, c=AMBER, zorder=7, lw=0, alpha=.18)
-    T(ax, x + 0.10, y + 0.03, "客星", 20, AMBER, ha="left")
-    T(ax, x + 0.10, y - 0.025, "（今天的蟹狀星雲 M1）", 12.5, AMBER, w="normal", ha="left")
+    ax.scatter([x], [y], s=200, c=AMBER, zorder=9, lw=0)
+    ax.scatter([x], [y], s=700, c=AMBER, zorder=7, lw=0, alpha=.18)
+    T(ax, x + 0.10, y - 0.043, "客星", 20, AMBER, ha="left")
+    T(ax, x + 0.10, y - 0.092, "（今天的蟹狀星雲 M1）", 12.5, AMBER, w="normal", ha="left")
 
 
 def c04_quote(ax):
@@ -366,7 +370,7 @@ def c04_quote(ax):
     T(ax, 0.0, -0.665, "晨出東方，守天關，晝見如太白，芒角四出，色赤白，凡見二十三日。", 15, WHITE, w="normal")
     T(ax, 0.0, -0.745, "《宋史》", 14, AMBER)
     T(ax, 0.0, -0.81, "至和元年五月己丑，出天關東南可數寸，歲餘稍沒。", 15, WHITE, w="normal")
-    T(ax, 0.0, -0.88, "白天看得見 23 天；夜裡看得見一年多", 12, GREY, w="normal")
+    T(ax, 0.0, -0.88, "白天看得見 23 天；夜裡看得見將近兩年", 12, GREY, w="normal")
 
 
 def c04_today(ax):
@@ -403,7 +407,7 @@ ROWS5 = [  # (文化, 原文, 中譯, 顏色)
     ("薩丁尼亞", "Sas Tres Marias", "三個瑪利亞", AMBER),
     ("白俄羅斯", "Касцы", "割草的人（一個接一個割草）", GREEN),
     ("因紐特", "Ullaktut", "三個獵北極熊時迷路的獵人", GREEN),
-    ("阿拉伯（古）", "an-Niẓām", "一串（珠子）", BLUE),
+    ("阿拉伯（古）", "an-Naẓm", "一串（珠子）", BLUE),
 ]
 
 
@@ -448,7 +452,7 @@ def c05_card(ax):
         ax.plot([0.03, 0.97], [y + 0.008, y + 0.008], c=WHITE, lw=0.6, alpha=.18)
     ax.text(0.5, 0.085, "Stellarium skycultures：chinese／bugis／anutan／romanian／sardinian／",
             fontproperties=CB.FP, fontsize=10, color=GREY, ha="center", va="center")
-    ax.text(0.5, 0.065, "belarusian／inuit／arabic；《史記．天官書》", fontproperties=CB.FP, fontsize=10,
+    ax.text(0.5, 0.065, "belarusian／inuit／arabic_ancient；《史記．天官書》", fontproperties=CB.FP, fontsize=10,
             color=GREY, ha="center", va="center")
     ax.text(0.5, 0.030, "#萬國星空　#師大天文社", fontproperties=CB.FP, fontsize=13, color=WHITE,
             ha="center", va="center")
@@ -458,7 +462,7 @@ def c05_card(ax):
 SEC6 = [
     ("往南：糧倉與牧場", GREEN, [("天倉", "方的糧倉"), ("天囷", "圓的糧倉"), ("天廩", "存祭祀用的黍稷"),
                                 ("天庾", "露天的穀堆"), ("芻藁", "草料堆"), ("天苑", "天子養禽獸的園囿")]),
-    ("往北：墳墓與刑罰", RED, [("大陵", "墳墓（大陵五＝Algol，西方說是梅杜莎的頭）"), ("積尸", "大陵裡的屍堆"),
+    ("往北：墳墓與肅殺", RED, [("大陵", "墳墓（大陵五＝Algol，西方說是梅杜莎的頭）"), ("積尸", "大陵裡的屍堆"),
                                 ("卷舌", "管口舌、讒言"), ("礪石", "磨刀石")]),
     ("腳下", PURPLE, [("廁", "茅廁"), ("屎", "廁的南邊一顆")]),
     ("昴畢之間", BLUE, [("天街", "街南華夏、街北夷狄（《史記正義》）")]),
@@ -491,7 +495,7 @@ def c06_card(ax):
             color=WHITE, ha="center", va="center", weight="bold")
     ax.text(0.5, y - 0.068, "同一個月：收成，也處決", fontproperties=CB.FP, fontsize=12, color=GREY,
             ha="center", va="center")
-    ax.text(0.5, 0.065, "星官釋義：《晉書．天文志》；連線：Stellarium chinese", fontproperties=CB.FP,
+    ax.text(0.5, 0.065, "星官釋義：《史記》《晉書》《隋書》《宋史》天文志；連線：Stellarium chinese", fontproperties=CB.FP,
             fontsize=10, color=GREY, ha="center", va="center")
     ax.text(0.5, 0.030, "#萬國星空　#師大天文社", fontproperties=CB.FP, fontsize=13, color=WHITE,
             ha="center", va="center")
@@ -572,6 +576,13 @@ def c07_card(ax):
         if not hs:
             continue
         x = sum(pos[h][0] for h in hs) / len(hs); y = sum(pos[h][1] for h in hs) / len(hs)
+        if nm == "參宿":  # 找一個不壓星的位置（參宿七、參宿五都很亮）
+            def hits(o):
+                cx, cy = x + o[0], y + o[1]
+                return sum(1 for q in pos.values() if abs(q[0] - cx) < 0.045 and abs(q[1] - cy) < 0.014)
+            cands = [(i * 0.01, j * 0.005) for i in range(6, 20) for j in range(-6, 13)]
+            dx, dy = min(cands, key=lambda o: (hits(o), math.hypot(o[0], o[1] * 1.78)))
+            print("    參宿標籤位移", (dx, dy), "壓到", hits((dx, dy)), "顆")
         ax.text(x + dx, y + dy, nm, fontproperties=CB.FP, fontsize=15, color=AMBER, ha="center", va="center",
                 weight="bold", zorder=8)
     for h, lab, dx, dy in ((A12.ALDEBARAN, "畢宿五（紅）", 0.0, -0.016), (A12.BETELGEUSE, "參宿四（紅）", 0.0, -0.016)):
@@ -579,8 +590,8 @@ def c07_card(ax):
             ax.text(pos[h][0] + dx, pos[h][1] + dy, lab, fontproperties=CB.FP, fontsize=11, color=WHITE,
                     ha="center", va="center", zorder=8)
     # 說明
-    lines = [("獵戶（參宿）18:29–18:43 從正東升起，8 點高約 17–19°", WHITE),
-             ("昴宿 8 點高 52°；10:49 幾乎從頭頂正上方經過（高 89°）", WHITE),
+    lines = [("參宿四、參宿七和腰帶三星 18:29–18:44 從東方升起", WHITE),
+             ("8 點腰帶高 17–19°；昴宿高 52°，22:49 幾乎從頭頂經過", WHITE),
              ("月亮 12/5 凌晨 2:51 才升起（殘月 17%）——前半夜沒有月光", AMBER),
              ("方位、高度：PyEphem 自算（含大氣折射）", GREY)]
     for i, (s, col) in enumerate(lines):

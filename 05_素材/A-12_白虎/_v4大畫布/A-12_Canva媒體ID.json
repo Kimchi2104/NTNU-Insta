@@ -1,0 +1,24 @@
+{
+ "design_id": "DAHWtFlSqqs",
+ "design_title": "A-12 白虎",
+ "commit": "cb88ec1a3fff01e4cba32d44e7aeeec7003359dd",
+ "layers": {
+  "L1-銀河": "MAHXQitWh4Y",
+  "L2-星點": "MAHXQiwr0og",
+  "L3-經緯線": "MAHXQkp7Few",
+  "L5-連線-七宿": "MAHXQqPyRNE",
+  "L6-連線-倉": "MAHXQtQLGDU",
+  "L7-連線-刑": "MAHXQomLa4I",
+  "L8-連線-廁": "MAHXQofptqY",
+  "L9-連線-天街天關": "MAHXQjUtmoA",
+  "L11-深空天體": "MAHXQg4vOks",
+  "L12-客星": "MAHXQvPOLj0",
+  "L13-主角星白點": "MAHXQsfdR3c",
+  "北盤L1-銀河": "MAHXQuRDJh4",
+  "北盤L2-星點": "MAHXQq6ejcE",
+  "北盤L3-經緯線": "MAHXQgT-hXM"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {}
+}

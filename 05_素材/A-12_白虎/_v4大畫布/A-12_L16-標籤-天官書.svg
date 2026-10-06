@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-06T18:23:30.416570</dc:date>
+    <dc:date>2026-10-06T18:51:36.980016</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 衡石 -->
      <g style="fill: #ffc94a" transform="translate(385.627879 695.289591) scale(0.05746 -0.05746)">
       <defs>
@@ -200,7 +200,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 罰 -->
      <g style="fill: #ffc94a" transform="translate(376.984669 717.893218) scale(0.05746 -0.05746)">
       <defs>
@@ -321,7 +321,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 左肩 -->
      <g style="fill: #ffc94a" transform="translate(352.006038 675.38667) scale(0.05746 -0.05746)">
       <defs>
@@ -432,7 +432,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 右肩 -->
      <g style="fill: #ffc94a" transform="translate(390.304909 678.136088) scale(0.05746 -0.05746)">
       <defs>
@@ -482,7 +482,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 左股 -->
      <g style="fill: #ffc94a" transform="translate(356.826266 719.786146) scale(0.05746 -0.05746)">
       <defs>
@@ -577,7 +577,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 右股 -->
      <g style="fill: #ffc94a" transform="translate(397.19037 715.969421) scale(0.05746 -0.05746)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e8e"/>
@@ -586,7 +586,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 觜觿（虎首） -->
      <g style="fill: #ffc94a" transform="translate(362.607503 664.040532) scale(0.05746 -0.05746)">
       <defs>
@@ -1069,7 +1069,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p000423bf4a)">
+    <g clip-path="url(#p24aabf2c5a)">
      <!-- 參為白虎 -->
      <g style="fill: #ffc94a" transform="translate(361.92 733.780887) scale(0.0884 -0.0884)">
       <defs>
@@ -1270,7 +1270,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p000423bf4a">
+  <clipPath id="p24aabf2c5a">
    <rect x="0" y="0" width="936" height="1384.923375"/>
   </clipPath>
  </defs>
