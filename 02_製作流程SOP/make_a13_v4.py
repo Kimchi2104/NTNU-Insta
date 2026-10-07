@@ -483,6 +483,7 @@ def build():
              note="沿走廊往南：天狼（al-Mirzam）、兩隻小狗 → 老人星（Suhail）；星名標籤"),
         dict(code="07", kind="Z", sec=21, north=True,
              frames=[SUH, CORR, LION, WASM], layers=["站", "深空"], labels=ST,
+             labels_start=NMS,                 # 起格＝06 迄格（老人星）：留著 Suhail／兩隻小狗的星名
              vo="獅子的眼睛、額頭、鬃毛，一顆接一顆升上來。十月中，輪到獅子身後的四組星，"
                 "雨季開始了：al-Wasm，意思是「烙印」——第一場雨，在乾地上烙下一片綠。"
                 "傳說這時的雨落進海裡，會變成珍珠；落在沙地上，會長出松露。",
@@ -527,6 +528,7 @@ def build():
              note="輕推；月亮與昴宿同框"),
         dict(code="14", kind="T", sec=5, north=True, cut=True,
              frames=[NCOR, POLE], layers=["北", "深空"], labels=[],
+             labels_end=ls("北天原文", "北天中譯"),   # 旁白唸到 al-Jady 時就淡入（不必等到換北盤）
              vo="夜裡趕路，就看北邊。北極星叫 al-Jady，小山羊。",
              note="【硬切】回北走廊，往上到北極星；迄格＝15 起格（長圖轉北盤）"),
         dict(code="15", kind="R", sec=19, north=True,
