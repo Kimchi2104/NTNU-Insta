@@ -481,7 +481,7 @@ class Pages:
         api = [{"page": r["頁"], "title": r["頁名"], "group": r["圖層組"],
                 "left": round(pl["X"], 2), "top": round(pl["Y"], 2),
                 "width": round(pl["W"], 2), "height": round(pl["H"], 2),
-                "rotation": round(pl["rot"], 2), "layers": r["留下的圖層"].split("、"),
+                "rotation": round(pl["rot"], 2), "layers": self.layers_for(pg),   # 圖層名本身可能含「、」，不要從字串切
                 "notes": r["旁白（本頁起播）"], "trans": r["與上一頁"],
                 "mountain_top": (round(self.mountain_top(pg), 1)
                                  if self.mountain_top(pg) is not None else None),
@@ -608,7 +608,7 @@ class Pages:
         lg = self.lab.get("line_groups", {})
         sh = pg["shot"]
         for key in sh.get("layers", ["L4"]):
-            for segs, col, _ in lg.get(key, []):
+            for segs, col, lws in lg.get(key, []):
                 for seg in segs:
                     hs = [h for h in seg if h in S]
                     for a, b in zip(hs, hs[1:]):
@@ -617,7 +617,7 @@ class Pages:
                         for r in runs:
                             P = [put(*p, local=disc) for p in r]
                             ax.plot([p[0] for p in P], [p[1] for p in P],
-                                    c=HEX.get(col, col), lw=max(1.0, m.lw * u * 0.9),
+                                    c=HEX.get(col, col), lw=max(1.0, m.lw * (lws or 1.0) * u * 0.9),
                                     alpha=.85, zorder=4, solid_capstyle="round")
         # 主角星白圈（指認用）
         for h in self.lab.get("mains", []):

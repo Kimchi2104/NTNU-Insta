@@ -539,8 +539,8 @@ def build():
         dict(code="17", kind="R", sec=9, north=False,
              frames=[TPE_F, END_F], layers=["鳥", "深空"], labels_start=ls("台灣-南盤"),
              labels=ls("台灣-南盤"), horizon=[PHI_TPE],
-             vo="下週五，同一條三星之路回到中國：獵戶的腰帶，是白虎的三顆星。",
-             card="下集見｜白虎：參宿與西羌的冬夜",
+             vo="下週五，跟著阿努塔人的 Matariki——昴宿，繞地球一圈：七姊妹的一百個名字。",
+             card="下集見｜昴宿環球之旅：七姊妹的一百個名字",
              note="盤再轉 20 分鐘；端卡＋追蹤 CTA"),
     ]
     print("\n── 旁白字數 ──")

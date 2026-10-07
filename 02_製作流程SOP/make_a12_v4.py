@@ -370,7 +370,7 @@ def build():
     shots = [
         dict(code="01", kind="Z", sec=10, north=True,
              frames=[BELT0, ORI_W], layers=["深空"], labels=[],
-             vo="上週在阿努塔，獵戶的腰帶是三星之路。今晚回到中國：同一片星空，古代中國人看見——一隻白虎。",
+             vo="上週我們跟著昴宿繞了地球一圈。今晚回到中國：同一片星空，古代中國人看見——一隻白虎。",
              card="同一片星空，古代中國人看見——一隻白虎。",
              note="開場字卡；從腰帶拉遠到整個獵戶（先不開連線）"),
         dict(code="02", kind="S", sec=24, north=True,
