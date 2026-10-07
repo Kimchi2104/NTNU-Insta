@@ -21,5 +21,20 @@
  },
  "mountain": "MAD4KTwSGtw",
  "background": "MAHWs5D_MpY",
- "concept": {}
+ "concept": {
+  "C-X01-01_七還是六_星點層_透明.png": "MAHXVg-OUSc",
+  "C-X01-01_七還是六_星等層_透明.png": "MAHXVrN5nY4",
+  "C-X01-01_七還是六_傳說層_透明.png": "MAHXVtzHAV0",
+  "C-X01-02_太平洋的同一個字_圖卡.png": "MAHXVuY0TZs",
+  "C-X01-06_七姊妹的一百個名字_圖卡.png": "MAHXVuI6bJ0",
+  "C-X01-03_黎明重現_年輪層_透明.png": "MAHXVi_UXXA",
+  "C-X01-03_黎明重現_黎明層_透明.png": "MAHXVjRp0no",
+  "C-X01-04_黃昏升起_年輪層_透明.png": "MAHXVgTnOkc",
+  "C-X01-04_黃昏升起_黃昏層_透明.png": "MAHXVlednnM",
+  "C-X01-05_昴宿的真身_數字層_透明.png": "MAHXVtNpdpA",
+  "C-X01-05_昴宿的真身_距離層_透明.png": "MAHXVrM8ovk",
+  "C-X01-05_昴宿的真身_年齡層_透明.png": "MAHXVpimgpw",
+  "C-X01-07_週末往東看_圖卡.png": "MAHXViPq_sw"
+ },
+ "concept_commit": "edf9c96157e3271b7eb3119107d037b996365256"
 }
