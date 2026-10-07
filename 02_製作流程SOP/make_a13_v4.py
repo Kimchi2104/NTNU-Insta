@@ -11,7 +11,7 @@
 清晨金星＝al-Hawdān 之星（每晚說明早出發、每早都留下的部落）。
 
 來源：Stellarium arabic_arabian_peninsula（Khalid al-Ajaji，新舊兩版 index.json／description／
-names_dictionary；al-Ajaji 2013《al-Qāḍī 星雨詩注》、2018《al-Ḫalāwī 天文詩注》與口傳）；
+names_dictionary；al-Ajaji 2013《al-Qāḍī anwāʾ 與星辰詩注》、2018《al-Ḫalāwī 天文詩注》與口傳）；
 古典諺語（Ibn Qutayba《Kitāb al-Anwāʾ》、Quṭrub 升星曆，經 D. Adams 英譯）；
 qirān 諺語（A. Al-Misnad，卡西姆大學）；納季德星曆日期（沙烏地／阿聯媒體）；PyEphem 自算。
 
@@ -269,7 +269,7 @@ def custom_layers(m, S):
             s.circle(p[0], p[1], rad, fill="#FFF6DA", opacity=0.98)
 
     def venus(s, pos, runs):
-        """12/12 06:00 台北的金星（−4.4 等；四芒光）"""
+        """12/12 06:00 台北的金星（約 −4.8 等；四芒光）"""
         ra, dec, _ = VENUS_1212
         for p in pos(ra, dec):
             x0, y0 = p[0], p[1]
@@ -468,7 +468,7 @@ def build():
              note="定格疊概念圖 C-A13-01 星星年曆（月站層 → 季節層 → 今天層）"),
         dict(code="04", kind="Z", sec=17, north=True,
              frames=[(52.0, 16.0, 24.0, 0.0), THUR], layers=["站", "深空"], labels=ST,
-             vo="一年從昴宿開始。六月七號前後，al-Thurayya 在黎明前第一次露臉，夏天就到了。"
+             vo="一年從昴宿開始。六月七號前後，al-Thurayyā 在黎明前第一次露臉，夏天就到了。"
                 "一千兩百年前的書上記著：它一升起，熱氣逼人，草乾得一碰就碎，成群的野驢互相啃咬。",
              note="推近昴宿；月站標籤（الثريا 昴宿 6/7）"),
         dict(code="05", kind="S", sec=16, north=True,
@@ -479,11 +479,11 @@ def build():
         dict(code="06", kind="T", sec=14, north=True,
              frames=[CORR, SUH], layers=["站", "他", "深空"], labels=NMS,
              vo="八月底，獅子的眼睛升起時，南方低空也冒出一顆亮星：Suhail，老人星。"
-                "諺語說：Suhail 一出來，夜就好過了——可是別以為不會淹水。",
+                "有兩句諺語：Suhail 一出來，夜就好過了；可是看到它，別以為不會淹水。",
              note="沿走廊往南：天狼（al-Mirzam）、兩隻小狗 → 老人星（Suhail）；星名標籤"),
         dict(code="07", kind="Z", sec=21, north=True,
              frames=[SUH, CORR, LION, WASM], layers=["站", "深空"], labels=ST,
-             vo="獅子的眼睛、額頭、鬃毛，一顆接一顆升上來。十月中，輪到獅子身後的四顆星，"
+             vo="獅子的眼睛、額頭、鬃毛，一顆接一顆升上來。十月中，輪到獅子身後的四組星，"
                 "雨季開始了：al-Wasm，意思是「烙印」——第一場雨，在乾地上烙下一片綠。"
                 "傳說這時的雨落進海裡，會變成珍珠；落在沙地上，會長出松露。",
              note="回到走廊（＝06 倒放）→ 往東（左）滑過獅子 → 雨季四星（彎弧、高舉者、遮蓋、蠍螯）"),
@@ -492,19 +492,19 @@ def build():
              overlay="C-A13-02_守望者", overlay_layers=["地平層", "升起層", "落下層", "引文層"],
              vo="十二月七號，天蠍的頭——al-Iklīl，「冠冕」——在黎明前升起；"
                 "同一個黎明，西邊的昴宿正好落下。阿拉伯人說，這一對互為「守望者」："
-                "一個升起，另一個就落下。上週的參商，阿拉伯人也看見了，只是拿它來算雨。",
+                "一個升起，另一個就落下。上週參商那種「你升我落」，阿拉伯人也看見了——只是他們拿來算雨。",
              note="往東推近天蠍的頭（al-ʿAqrab 紅線淡開）；結束後疊概念圖 C-A13-02 守望者"),
         dict(code="09", kind="Z", sec=18, north=True,
              frames=[IKL, (-128.0, -10.0, 34.0, 0.0)], layers=["站", "形", "深空"], labels=ST,
-             vo="古人相信，星星在黎明落下的那幾天會帶來雨，而昴宿落下的時候，雨最多。"
-                "這段日子，就是沙漠最冷的四十天：al-Murabbaʿāniyya。今年，它跟我們的「大雪」同一天開始。",
+             vo="伊斯蘭以前的人相信，星星在黎明落下的那幾天會帶來雨，而昴宿落下的那幾天，被認為雨最多。"
+                "從這天起，就是沙漠最冷的四十天：al-Murabbaʿāniyya。今年，它跟我們的「大雪」同一天開始。",
              note="緩推冠冕"),
         dict(code="10", kind="Z", sec=21, north=True,
              frames=[(-128.0, -10.0, 34.0, 0.0), DAWN], layers=["站", "金", "深空"],
              labels=ls("月站原文", "月站中譯", "星名原文", "星名中譯"),
              overlay="C-A13-04_沙漠星名小辭典",
-             vo="這個月的清晨，冠冕上方最亮的那顆是金星，它還叫「al-Hawdān 之星」。al-Hawdān 是一個部落："
-                "他們每晚都說，明天一早看到它就出發；結果每天早上——都決定再待一天。"
+             vo="這個月的清晨，冠冕上方最亮的那顆是金星，它還叫「al-Hawdān 之星」。民間故事說，al-Hawdān 部落"
+                "每晚都約好：明天一早看到它就出發；結果每天早上——都決定再待一天。"
                 "沙漠的星名，常常就是這麼有生活味。",
              note="往西（右）上移到金星（12/12 06:00 位置，在 al-Ghafr 一帶）；金星標籤；結束後疊 9:16 圖卡 沙漠星名小辭典（可存圖）"),
         dict(code="11", kind="Z", sec=18, north=True, cut=True,
@@ -518,11 +518,11 @@ def build():
              overlay="C-A13-03_月亮會昴宿", overlay_layers=["月相層", "諺語層", "今年層"],
              vo="還有一招更聰明：看月亮哪一晚碰到昴宿。月亮每個月經過昴宿一次，但每個月提早兩晚——"
                 "所以「第幾晚相會」，就是季節。十二月第十三晚，冬天開始；一月第十一晚，「冷，露臉了」；"
-                "二月第九晚，「冷得像被蠍子螫」；三月第七晚，「有的吃飽、有的還餓」——草開始長了。",
+                "二月初第九晚，「冷得螫人」；二月底第七晚，「有的吃飽、有的還餓」——草開始長了。",
              note="推近昴宿，月亮（12/21 20:00）入鏡；結束後疊概念圖 C-A13-03 月亮會昴宿"),
         dict(code="13", kind="Z", sec=12, north=True,
              frames=[QIR, QIR2], layers=["月", "深空"], labels=NMS,
-             vo="今年的「第十三晚」，在十二月二十二號清晨，剛好冬至。前一晚抬頭，"
+             vo="今年的「第十三晚」就是十二月二十一號這一夜，剛好碰上冬至。那晚抬頭，"
                 "快滿的月亮就在昴宿旁邊，不到一個拳頭。",
              note="輕推；月亮與昴宿同框"),
         dict(code="14", kind="T", sec=5, north=True, cut=True,
@@ -539,9 +539,9 @@ def build():
              frames=[GUIDE], layers=["形", "深空"], labels=NMS,
              overlay="C-A13-05_這週末往東看",
              vo="這週末來看：天黑以後，昴宿在東方三四十度，紅色的畢宿五在它下面；"
-                "八點，獵戶整個爬上來。早起的人，清晨五點四十五分往東南看：最亮的金星左下方，"
-                "天蠍的頭剛探出地平線——沙漠最冷的四十天，已經開始了。",
-             note="北盤轉回長圖後回到黃昏東方；定格疊 9:16 圖卡 這週末往東看（台北 12/12）"),
+                "八點，獵戶整個爬上來。早起的人，清晨五點四十五分往東南看：最亮的金星正下方、"
+                "貼著地平線，天蠍的頭正要升起——沙漠最冷的四十天，已經開始了。",
+             note="北盤轉回長圖後回到黃昏東方；定格疊 9:16 圖卡 這週末往東看（台北 12/12；天蠍頭 12/12 只高 4–6°，12/20 前後同時刻約 12°）"),
         dict(code="17", kind="Z", sec=7, north=True,
              frames=[GUIDE, END], layers=["深空"], labels=[],
              vo="下週五往北極圈：冬天太陽不出來的地方，因紐特人用星星讀時間。",
@@ -601,7 +601,7 @@ def build():
         terms[pr] = T(ST_HIPS.get(k, []), nat, pr, eng.get(k, ""), zh + (f"（{gloss}）" if gloss else ""),
                       "amber", f"第 {STATIONS.index((k, nat, pr, zh, gloss)) + 1} 站；納季德星曆起始 {d.month}/{d.day}"
                                "（昴宿晨升 6/7 起算，每站 13 天，al-Jabhah 14 天）")
-    extra = [([CANOPUS], "سهيل", "Suhail", "Suhayl", "老人星", "8/24 前後晨升＝熱退；諺語「Suhail 一出，夜就好過，別以為不會淹水」"),
+    extra = [([CANOPUS], "سهيل", "Suhail", "Suhayl", "老人星", "8/24 前後晨升＝熱退；兩句諺語「Suhail 一出，夜就好過」「看到 Suhail，別以為不會淹水」"),
              ([SIRIUS], "المرزم", "al-Mirzam", "Al-Mirzam", "天狼星", "用來對第 5 站（al-Dhirāʿ）的時"),
              ([ADHARA, WEZEN], "الكليبين", "al-Klaibain", "The Two Little Dogs", "兩隻小狗（大犬 δ、ε）", "晨升＝第 6 站時節"),
              ([BETELGEUSE, RIGEL, BELLATRIX, SAIPH, MINTAKA, ALNILAM, ALNITAK], "الجوزاء", "al-Jawzā", "Al-Jawza", "一位女子（獵戶）", "與古阿拉伯同"),
@@ -612,7 +612,7 @@ def build():
              (DIPPER, "بنات نعش", "Banāt Naʿsh", "Daughters of Naʿsh", "Naʿsh 的女兒們（北斗）", "抬著父親的棺架繞北極星，發誓報仇"),
              ([CAPH, SCHEDAR, NAVI, RUCHBAH, SEGIN], "الشداد", "al-Shdād", "Saddle of the Camel", "駱駝鞍（仙后）", "紅海沿岸西部用名"),
              ([ACHERNAR], "محلف", "Miḥlif", "The Oath Star", "發誓之星（水委一）", "常被誤認成 Suhail，吵到發誓"),
-             ([], "نجمة الهودان", "Najmat al-Hawdān", "The Star of Al-Hawdan", "al-Hawdān 之星（金星）", "每晚說明早看到它就出發、每早都決定留下的部落"),
+             ([], "نجمة الهودان", "Najmat al-Hawdān", "The Star of Al-Hawdan", "al-Hawdān 之星（金星）", "民間故事：部落每晚約好明早看到它就出發、每早又決定留下（al-Hawdān 是真實部落，故事屬口傳）"),
              ([], "الجغمة", "al-Jughmah", "The Sip", "一口（金星）", "孩子討奶時，大人說等『一口』落下"),
              ([], "قران الثريا", "qirān al-Thurayyā", "Moon–Pleiades conjunction", "月亮會昴宿", "第幾晚相會＝季節（13 冬始、11 冷露臉、9 冷螫人、7 半飽、5 春草滿、3 春將盡）")]
     for hips, nat, pr, en, zh, note in extra:

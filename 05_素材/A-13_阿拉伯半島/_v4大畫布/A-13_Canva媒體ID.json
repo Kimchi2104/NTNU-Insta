@@ -1,0 +1,26 @@
+{
+ "design_id": "DAHWtAtSdto",
+ "design_title": "A-13 阿拉伯半島",
+ "commit": "ce8e5864356081eefae7283d2f3c1914beab0163",
+ "layers": {
+  "L1-銀河": "MAHXWufkND0",
+  "L2-星點": "MAHXWmAPIrc",
+  "L3-經緯線": "MAHXWkgsen0",
+  "L5-連線-月站": "MAHXWr13IRM",
+  "L6-連線-北天": "MAHXWn84pQU",
+  "L7-連線-女子與蠍子": "MAHXWpGcCws",
+  "L8-連線-清真寺與小狗": "MAHXWpPqWdI",
+  "L9-深空天體": "MAHXWkfSxLI",
+  "L10-月亮-1221": "MAHXWhCi6z4",
+  "L11-金星-1212": "MAHXWoVxE5s",
+  "L12-主角星白點": "MAHXWnuMCiY",
+  "北盤L1-銀河": "MAHXWr3XL-k",
+  "北盤L2-星點": "MAHXWuhhNS4",
+  "北盤L3-經緯線": "MAHXWs6tDak",
+  "北盤L6-連線-北天": "MAHXWmOX7oc",
+  "北盤L9-主角星白點": "MAHXWoK_PsM"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {}
+}
