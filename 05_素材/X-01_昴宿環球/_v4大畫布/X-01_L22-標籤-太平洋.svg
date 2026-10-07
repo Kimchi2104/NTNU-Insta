@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-07T14:14:37.827082</dc:date>
+    <dc:date>2026-10-07T14:42:20.027389</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- Matariki -->
      <g style="fill: #6fa8ff" transform="translate(464.955891 631.013687) scale(0.01 -0.01)">
       <defs>
@@ -210,7 +210,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- 毛利、阿努塔 -->
      <g style="fill: #6fa8ff" transform="translate(467.08 631.013687) scale(0.01 -0.01)">
       <defs>
@@ -560,7 +560,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- Matariʻi -->
      <g style="fill: #6fa8ff" transform="translate(465.147922 631.351687) scale(0.01 -0.01)">
       <defs>
@@ -588,7 +588,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- 大溪地 -->
      <g style="fill: #6fa8ff" transform="translate(468.58 631.351687) scale(0.01 -0.01)">
       <defs>
@@ -781,7 +781,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- Matāliʻi -->
      <g style="fill: #6fa8ff" transform="translate(465.209875 631.689687) scale(0.01 -0.01)">
       <defs>
@@ -850,7 +850,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- 薩摩亞 -->
      <g style="fill: #6fa8ff" transform="translate(468.58 631.689687) scale(0.01 -0.01)">
       <defs>
@@ -1156,7 +1156,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- Mataliki -->
      <g style="fill: #6fa8ff" transform="translate(465.017844 632.027687) scale(0.01 -0.01)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e"/>
@@ -1171,7 +1171,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- 東加 -->
      <g style="fill: #6fa8ff" transform="translate(469.08 632.027687) scale(0.01 -0.01)">
       <defs>
@@ -1300,7 +1300,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- Makaliʻi -->
      <g style="fill: #6fa8ff" transform="translate(465.089875 632.365687) scale(0.01 -0.01)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2e"/>
@@ -1315,7 +1315,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pb21ebcb4e0)">
+    <g clip-path="url(#pc587dbd0d9)">
      <!-- 夏威夷 -->
      <g style="fill: #6fa8ff" transform="translate(468.58 632.365687) scale(0.01 -0.01)">
       <defs>
@@ -1552,7 +1552,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pb21ebcb4e0">
+  <clipPath id="pc587dbd0d9">
    <rect x="0" y="0" width="936" height="1384.923375"/>
   </clipPath>
  </defs>

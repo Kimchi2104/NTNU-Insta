@@ -7,15 +7,15 @@
   ② 太平洋的同一個字 *mata-liki：Matariki／Matariʻi／Matāliʻi／Mataliki／Makaliʻi（小眼睛？首領的眼睛？）；
   ③ 母雞與窩：羅馬尼亞、馬其頓、白俄羅斯的母雞，中國二十八禽的昴日雞；西伯利亞鴨巢、圖皮黃蜂窩、提庫納烏龜群；
   ④ 一束／一群：日本すばる（統ばる）、薩丁尼亞「一串」、阿茲特克「市集」；
-  ⑤ 一撮頭髮：昴曰髦頭（《史記》）、巴比倫 zappu（鬃毛）、布吉斯 Worong-mpolong（一撮毛）。
-  它也是全世界的日曆：六月初黎明重現（紐西蘭 Matariki 新年、洛科諾新年、南非播種），
-  十一月中黃昏升起（夏威夷 Makahiki、大溪地豐收季、薩摩亞新年）；赫西俄德：昴升起收割、昴落下犁田。
+  ⑤ 一撮毛髮：昴曰髦頭（《史記》）、巴比倫 zappu（鬃毛）、布吉斯 Worong-mpolong（一撮毛）。
+  它也是全世界的日曆：六月初黎明重現（紐西蘭 Matariki 新年、洛科諾新年、祖魯人翻土），
+  十一月中黃昏升起（夏威夷 Makahiki、大溪地豐收季、薩摩亞新年）；赫西俄德：昴清晨升起收割、清晨西沉犁田。
 來源：Stellarium skycultures（舊版 stellarium-skycultures-master 與新版 stellarium-master/skycultures 兩套 index.json
       與 description）；《史記．天官書》；Hesiod《工作與時日》383–384；其餘見逐字稿考據備忘。
 
-鏡頭路線：獵戶→畢→昴開場 → 找到昴宿 → 推近：七還是六（概念圖）→ 拉遠：三段追逐（澳洲／南非／阿拉伯）
-→ 推近：太平洋的同一個字（圖卡）→ 母雞 → 窩 → 一束 → 一撮頭髮（圖卡：一百個名字）
-→ 拉遠：黎明重現（概念圖）→ 黃昏升起（概念圖）→ 真身（概念圖）→ すばる望遠鏡 → 今晚往東看（圖卡）→ 下集白虎。
+鏡頭路線：獵戶→畢→昴開場 → 找到昴宿 → 推近：七還是六（概念圖）→ 拉遠：三段追逐（澳洲／南部非洲／阿拉伯）
+→ 推近：太平洋的同一個字（圖卡）→ 母雞 → 窩 → 一束 → 一撮毛髮（圖卡：一百個名字）
+→ 拉遠：黎明重現（概念圖）→ 黃昏升起（概念圖）→ 真身（概念圖）→ すばる望遠鏡 → 週末往東看（圖卡）→ 下集白虎。
 
 參數
   lst = 57 → 走廊（x=0）＝RA 57°：昴宿星團 x ≈ +0.3（Alcyone +0.13）；畢宿五 x −12、腰帶 x −26…−28、參宿四 x −32。
@@ -247,12 +247,13 @@ def build():
     NEAR = [item(M45, "昴宿星團", "amber", 0.7, 0.0, 1.05, "M45-near")]   # fov 12
 
     # ── 星等（特寫 fov ≈ 4.6；標在星的旁邊）──
-    MAG = [(ALCYONE, "2.9", 0, -0.10), (ATLAS, "3.6", -1, -0.045), (ELECTRA, "3.7", 1, 0.0),
-           (MAIA, "3.9", 0, -0.09), (MEROPE, "4.2", 0, -0.09), (TAYGETA, "4.3", 1, 0.03),
-           (PLEIONE, "5.1", -1, 0.055), (CELAENO, "5.5", 1, 0.0), (ASTEROPE, "5.8", 0, 0.08)]
-    XD = [item([h], t, "white" if float(t) < 4.5 else "blue", 0.06, 0.05, dy, f"mag-{h}", side=sd)
-          if sd else item([h], t, "white" if float(t) < 4.5 else "blue", 0.06, 0.0, dy, f"mag-{h}")
-          for h, t, sd, dy in MAG]
+    # 特寫 fov 3 時星點半徑 ≈ (6.5−V)^1.7×0.016 單位（Alcyone 0.14 ≈ 51 px），
+    # 標籤要讓開整顆星盤，不然白字壓白盤看不見：(星, 字, 左右, 橫移, 縱移)
+    MAG = [(ALCYONE, "2.9", 0, 0.0, -0.217), (ATLAS, "3.6", -1, 0.125, 0.0), (ELECTRA, "3.7", 1, 0.12, 0.0),
+           (MAIA, "3.9", -1, 0.11, 0.0), (MEROPE, "4.2", 0, 0.0, -0.15), (TAYGETA, "4.3", 1, 0.09, 0.0),
+           (PLEIONE, "5.1", 0, 0.0, 0.111), (CELAENO, "5.5", 1, 0.04, 0.0), (ASTEROPE, "5.8", 0, 0.0, 0.095)]
+    XD = [item([h], t, "white" if float(t) < 4.5 else "blue", 0.06, dx, dy, f"mag-{h}", side=sd)
+          for h, t, sd, dx, dy in MAG]
 
     # ── 三段追逐（大框 fov 40–46）──
     TITLE = (ra_of(-14.0), 33.0)          # 標題放上方（下方是 Reels 字幕區）
@@ -265,7 +266,7 @@ def build():
           item(BELT, "三匹斑馬", "green", 1.4, 1.6, 0.8, "Khoi-zebras", side=1),
           item(SWORD, "射偏的箭", "green", 1.3, 1.2, -0.3, "Khoi-arrow", side=1),
           item([BETELGEUSE], "獅子", "green", 1.3, 1.4, 0.0, "Khoi-lion", side=1),
-          item(TITLE, "南非・那馬人", "green", 1.8, 0.0, 0.0, "NA-title")]
+          item(TITLE, "南部非洲・那馬人", "green", 1.8, 0.0, 0.0, "NA-title")]
     AR = [item(PLE, "al-Thurayya　一位女子", "amber", 1.4, -4.5, 2.8, "Thurayya"),
           item(PLE, G.rtl("الثريا"), "amber", 1.4, -4.5, 5.0, "Thurayya-ar"),
           item([ALDEBARAN], "al-Dabaran　跟在後面的人", "amber", 1.3, 0.0, -2.6, "Dabaran"),
@@ -369,7 +370,7 @@ def build():
              note="從星團拉遠到參宿四～昴宿；迄格開澳洲標籤"),
         dict(code="05", kind="Z", sec=13, north=True,
              frames=[F_CHASE, F_CHASE_B], layers=["定位", "深空"], labels_start=ls("澳洲"), labels=ls("南非"),
-             vo="南非的那馬人說：她們是天神的女兒，嫁給了獵人畢宿五；獵人朝腰帶的三匹斑馬射了一箭，"
+             vo="南部非洲的那馬人說：她們是天神的女兒，嫁給了獵人畢宿五；獵人朝腰帶的三匹斑馬射了一箭，"
                 "沒射中，箭還插在那裡——就是獵戶的劍。",
              note="緩推；澳洲標籤換南非標籤"),
         dict(code="06", kind="Z", sec=11, north=True,
@@ -383,8 +384,8 @@ def build():
              labels=ls("太平洋"),
              overlay="C-X01-02_太平洋的同一個字",
              vo="到了太平洋，它幾乎是同一個字：毛利和阿努塔叫 Matariki，大溪地叫 Matariʻi，薩摩亞叫 Matāliʻi，"
-                "東加叫 Mataliki，夏威夷叫 Makaliʻi。語言學家把它們還原成同一個古字 mata-liki——"
-                "一說是「小小的眼睛」，一說是「首領的眼睛」，到現在還沒吵完。",
+                "東加叫 Mataliki，夏威夷叫 Makaliʻi。語言學家把它們還原成同一個古字 mata-liki，「小小的眼睛」；"
+                "毛利的老傳說則說，那是天神的眼睛。",
              note="推回星團；大溪地 Matariʻi 連線；迄格開太平洋堆疊；結束後疊 9:16 圖卡 太平洋的同一個字"),
         dict(code="08", kind="Z", sec=14, north=True,
              frames=[F_Z, F_Z2], layers=["母雞", "深空"], labels_start=ls("太平洋"), labels=ls("母雞"),
@@ -406,27 +407,27 @@ def build():
              labels=ls("一撮毛"),
              overlay="C-X01-06_七姊妹的一百個名字",
              vo="最遠的巧合在這裡：司馬遷說「昴曰髦頭」，髦，是長長的頭髮；三、四千年前的巴比倫人叫它 zappu，"
-                "意思是鬃毛；印尼的布吉斯人叫它 Worong-mpolong，一撮毛。三個地方，都看見一撮頭髮。",
+                "意思是鬃毛；印尼的布吉斯人叫它 Worong-mpolong，一撮毛。三個地方，都看見一撮毛髮。",
              note="輕拉；中國昴宿＋巴比倫 MUL.MUL 連線；一撮毛堆疊；結束後疊 9:16 圖卡 七姊妹的一百個名字（可存圖）"),
         dict(code="12", kind="Z", sec=24, north=True,
              frames=[F_Z, F_WIDE], layers=["定位", "深空"], labels_start=ls("一撮毛"), labels=[],
              overlay="C-X01-03_黎明重現", overlay_layers=["年輪層", "黎明層"],
              vo="為什麼全世界都盯著它？因為它是日曆。每年六月，它在黎明前重新出現：紐西蘭把這叫 Matariki 新年，"
                 "二〇二二年起還放國定假日；南美的洛科諾人從這一天開始新的一年；南非的祖魯人叫它 isiLimela——"
-                "挖土的星，清晨看見它，就該播種了。",
+                "挖土的星，清晨看見它，就該下田翻土了。",
              note="拉遠；結束後疊概念圖 黎明重現（年輪層→黎明層）"),
         dict(code="13", kind="Z", sec=20, north=True,
              frames=[F_WIDE, F_TONIGHT], layers=["定位", "深空"], labels_start=[], labels=ls("定位"),
              overlay="C-X01-04_黃昏升起", overlay_layers=["年輪層", "黃昏層"],
              vo="十一月中，它換成在黃昏升起：夏威夷的 Makahiki 新年、大溪地的豐收季，都從這時候開始。"
-                "兩千七百年前，希臘的赫西俄德寫：昴升起就收割，昴落下就犁田。"
-                "而這個星期，台北日落的時候，它正好掛在東方地平線上。",
+                "兩千七百年前，希臘的赫西俄德寫：昴清晨升起就收割，清晨西沉就犁田。"
+                "這個星期，台北日落時，它已經掛在東方低空。",
              note="輕推；結束後疊概念圖 黃昏升起（年輪層→黃昏層）"),
         dict(code="14", kind="Z", sec=20, north=True,
              frames=[F_TONIGHT, F_Z], layers=["深空"], labels_start=ls("定位"), labels=[],
              overlay="C-X01-05_昴宿的真身", overlay_layers=["數字層", "距離層", "年齡層"],
              vo="它真正的樣子：一千多顆星，一億歲左右——恐龍還在的時候才誕生。距離吵了十幾年："
-                "依巴谷衛星量到三百九十光年，其他方法都說更遠；最後電波望遠鏡和蓋亞衛星一起量到約四百四十光年，"
+                "依巴谷衛星量到三百九十光年，其他方法都說更遠；後來電波望遠鏡和蓋亞衛星先後量到約四百四十光年，"
                 "才算定案。",
              note="推回星團（不開連線）；結束後疊概念圖 昴宿的真身（數字層→距離層→年齡層）"),
         dict(code="15", kind="Z", sec=14, north=True,
@@ -436,11 +437,11 @@ def build():
              note="緩推；迄格開 すばる／Makaliʻi 兩個大字"),
         dict(code="16", kind="Z", sec=21, north=True,
              frames=[F_Z2, F_TONIGHT], layers=["定位", "深空"], labels_start=ls("すばる"), labels=ls("定位"),
-             overlay="C-X01-07_今晚往東看",
-             vo="今晚就去看：天黑以後朝東北東，七點左右它大約三十度高。月亮快滿了，七點四十幾分才升起，"
+             overlay="C-X01-07_週末往東看",
+             vo="這個週末就去看：天黑以後朝東北東，八點它已經四十幾度高。月亮週六九點、週日十點才升起，"
                 "趁它出來之前看最清楚；半夜十一點多，它會經過頭頂。對了，三天前的滿月，才剛從七姊妹面前走過，"
                 "擋住了其中好幾顆。",
-             note="拉遠；結束後疊 9:16 圖卡 今晚往東看（台北 11/27 19:00）"),
+             note="拉遠；結束後疊 9:16 圖卡 週末往東看（台北 11/28 20:00）"),
         dict(code="17", kind="Z", sec=8, north=True,
              frames=[F_TONIGHT, F_TIGER], layers=["定位", "深空"], labels_start=ls("定位"), labels=[],
              vo="下週五回到中國：昴，就長在白虎的身上。",
@@ -511,7 +512,7 @@ def build():
         "Tianquiztli": T(PLEIADS[:7], "市集（阿茲特克）", "Market", "amber", "aztec 002；新火祭看它過天頂"),
         "zappu": T(PLEIADS[:5], "鬃毛（巴比倫 MUL.MUL）", "Bristle", "red", "babylonian_mulapin 034"),
         "Worong-mpolong": T(PLEIADS, "一撮毛（布吉斯）", "Tuft", "red", "bugis NAME Pleiades"),
-        "isiLimela": T([ELECTRA, MAIA], "挖土的星（祖魯、科薩）", "Digging Stars", "white", "zulu／xhosa 001；清晨首見＝播種"),
+        "isiLimela": T([ELECTRA, MAIA], "挖土的星（祖魯、科薩）", "Digging Stars", "white", "zulu／xhosa 001；清晨重現＝翻土"),
         "Yôkoro wiwa": T(PLEIADS[:6], "一大群星（洛科諾）", "Scores of stars", "white", "lokono 003；六月東方首見＝新年"),
         "Sakiattiak": T(PLEIADS[:6], "胸骨（因紐特）", "Breastbone", "white", "inuit 008"),
         "Lost Children": T(PLEIADS[:6], "迷途的孩子（黑腳族）", "Lost Children", "white", "blackfoot NAME Pleiades；六顆"),

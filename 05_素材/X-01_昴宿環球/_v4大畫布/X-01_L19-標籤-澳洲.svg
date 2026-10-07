@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-07T14:14:37.714559</dc:date>
+    <dc:date>2026-10-07T14:42:19.920167</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pb50e5d16e6)">
+    <g clip-path="url(#pa8a0f35a09)">
      <!-- Miyay Miyay　七姊妹 -->
      <g style="fill: #b78aff" transform="translate(425.967247 624.078498) scale(0.06188 -0.06188)">
       <defs>
@@ -334,7 +334,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pb50e5d16e6)">
+    <g clip-path="url(#pa8a0f35a09)">
      <!-- Birray Birray　三個男孩 -->
      <g style="fill: #b78aff" transform="translate(404.419021 695.250551) scale(0.06188 -0.06188)">
       <defs>
@@ -654,7 +654,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pb50e5d16e6)">
+    <g clip-path="url(#pa8a0f35a09)">
      <!-- Old Dthillar　守著她們的老人 -->
      <g style="fill: #b78aff" transform="translate(397.222715 658.483164) scale(0.05746 -0.05746)">
       <defs>
@@ -1242,7 +1242,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pb50e5d16e6)">
+    <g clip-path="url(#pa8a0f35a09)">
      <!-- 澳洲・卡米拉羅伊 -->
      <g style="fill: #b78aff" transform="translate(399.776 609.684967) scale(0.07956 -0.07956)">
       <defs>
@@ -1766,7 +1766,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pb50e5d16e6">
+  <clipPath id="pa8a0f35a09">
    <rect x="0" y="0" width="936" height="1384.923375"/>
   </clipPath>
  </defs>

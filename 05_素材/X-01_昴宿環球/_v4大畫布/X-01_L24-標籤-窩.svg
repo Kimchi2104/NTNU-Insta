@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-07T14:14:37.898242</dc:date>
+    <dc:date>2026-10-07T14:42:20.094100</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pa994c7f28f)">
+    <g clip-path="url(#pbc17cf7570)">
      <!-- Утиное гнездо -->
      <g style="fill: #7bd88f" transform="translate(463.318625 630.991187) scale(0.01 -0.01)">
       <defs>
@@ -279,7 +279,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pa994c7f28f)">
+    <g clip-path="url(#pbc17cf7570)">
      <!-- 鴨巢（西伯利亞） -->
      <g style="fill: #7bd88f" transform="translate(466.08 631.013687) scale(0.01 -0.01)">
       <defs>
@@ -740,7 +740,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pa994c7f28f)">
+    <g clip-path="url(#pbc17cf7570)">
      <!-- Eixu -->
      <g style="fill: #7bd88f" transform="translate(465.937453 631.351687) scale(0.01 -0.01)">
       <defs>
@@ -865,7 +865,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pa994c7f28f)">
+    <g clip-path="url(#pbc17cf7570)">
      <!-- 黃蜂窩（巴西圖皮） -->
      <g style="fill: #7bd88f" transform="translate(465.58 631.351687) scale(0.01 -0.01)">
       <defs>
@@ -1387,7 +1387,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pa994c7f28f)">
+    <g clip-path="url(#pbc17cf7570)">
      <!-- Baweta -->
      <g style="fill: #7bd88f" transform="translate(465.289016 631.689687) scale(0.01 -0.01)">
       <defs>
@@ -1526,7 +1526,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pa994c7f28f)">
+    <g clip-path="url(#pbc17cf7570)">
      <!-- 一群烏龜（亞馬遜提庫納） -->
      <g style="fill: #7bd88f" transform="translate(464.08 631.689687) scale(0.01 -0.01)">
       <defs>
@@ -2331,7 +2331,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pa994c7f28f">
+  <clipPath id="pbc17cf7570">
    <rect x="0" y="0" width="936" height="1384.923375"/>
   </clipPath>
  </defs>

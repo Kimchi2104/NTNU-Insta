@@ -1,0 +1,25 @@
+{
+ "design_id": "DAHWtH0K1CM",
+ "design_title": "X-01 七姊妹的一百個名字",
+ "commit": "2a1ddf33f43e0e88656daeb8c9dccebf0ded8eca",
+ "layers": {
+  "L1-銀河": "MAHXVuz11Ww",
+  "L2-星點": "MAHXVksNbgE",
+  "L3-經緯線": "MAHXVhmYL_4",
+  "L5-連線-定位（獵戶、金牛）": "MAHXVmI3y7s",
+  "L14-深空天體": "MAHXVmwgENI",
+  "L15-主角星白點": "MAHXVu5PSV4",
+  "L9-連線-Matariʻi（大溪地）": "MAHXVo4P_j0",
+  "L10-連線-母雞（羅馬尼亞）": "MAHXVuG1EE4",
+  "L11-連線-鴨巢（西伯利亞）": "MAHXVqJ25dM",
+  "L13-連線-すばる（日本）": "MAHXVvB3wDU",
+  "L6-連線-昴宿（中國）": "MAHXVvyuJ6E",
+  "L7-連線-MUL.MUL（巴比倫）": "MAHXVt4puC8",
+  "北盤L1-銀河": "MAHXVrr99FU",
+  "北盤L2-星點": "MAHXVjHt08Y",
+  "北盤L3-經緯線": "MAHXVnek-Kw"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {}
+}

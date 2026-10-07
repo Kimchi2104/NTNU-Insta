@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-07T14:14:37.862950</dc:date>
+    <dc:date>2026-10-07T14:42:20.061169</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- Cloșca cu pui -->
      <g style="fill: #7bd88f" transform="translate(463.764094 630.943687) scale(0.01 -0.01)">
       <defs>
@@ -266,7 +266,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- 母雞帶小雞（羅馬尼亞） -->
      <g style="fill: #7bd88f" transform="translate(464.58 631.013687) scale(0.01 -0.01)">
       <defs>
@@ -948,7 +948,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- Квачка -->
      <g style="fill: #7bd88f" transform="translate(465.263469 631.351687) scale(0.01 -0.01)">
       <defs>
@@ -1123,7 +1123,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- 母雞（馬其頓） -->
      <g style="fill: #7bd88f" transform="translate(466.58 631.349656) scale(0.01 -0.01)">
       <defs>
@@ -1302,7 +1302,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- Куркі -->
      <g style="fill: #7bd88f" transform="translate(465.645578 631.614219) scale(0.01 -0.01)">
       <defs>
@@ -1393,7 +1393,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- 母雞（白俄羅斯） -->
      <g style="fill: #7bd88f" transform="translate(466.08 631.689687) scale(0.01 -0.01)">
       <defs>
@@ -1603,7 +1603,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- 昴日雞 -->
      <g style="fill: #7bd88f" transform="translate(465.538 632.027687) scale(0.01 -0.01)">
       <defs>
@@ -1718,7 +1718,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pf2796623c2)">
+    <g clip-path="url(#pe1da425288)">
      <!-- 中國二十八禽 -->
      <g style="fill: #7bd88f" transform="translate(467.08 632.027687) scale(0.01 -0.01)">
       <defs>
@@ -2011,7 +2011,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pf2796623c2">
+  <clipPath id="pe1da425288">
    <rect x="0" y="0" width="936" height="1384.923375"/>
   </clipPath>
  </defs>

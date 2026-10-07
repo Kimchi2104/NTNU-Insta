@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-07T14:14:37.685791</dc:date>
+    <dc:date>2026-10-07T14:42:19.895429</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,9 +31,9 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 2.9 -->
-     <g style="fill: #ffffff" transform="translate(467.611232 630.428858) scale(0.01 -0.01)">
+     <g style="fill: #ffffff" transform="translate(467.611232 630.733058) scale(0.01 -0.01)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-13" d="M 410 0 
 L 3270 0 
@@ -85,9 +85,9 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 3.6 -->
-     <g style="fill: #ffffff" transform="translate(466.174793 630.420337) scale(0.01 -0.01)">
+     <g style="fill: #ffffff" transform="translate(465.979793 630.303337) scale(0.01 -0.01)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-14" d="M 1638 -96 
 C 2534 -96 3155 416 3155 1203 
@@ -138,9 +138,9 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 3.7 -->
-     <g style="fill: #ffffff" transform="translate(469.662426 630.147541) scale(0.01 -0.01)">
+     <g style="fill: #ffffff" transform="translate(469.844426 630.147541) scale(0.01 -0.01)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-18" d="M 986 0 
 L 1453 0 
@@ -161,9 +161,9 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 3.9 -->
-     <g style="fill: #ffffff" transform="translate(468.689284 629.72008) scale(0.01 -0.01)">
+     <g style="fill: #ffffff" transform="translate(468.184884 629.48608) scale(0.01 -0.01)">
       <use xlink:href="#NotoSerifCJKjp-Regular-14"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-f" transform="translate(55.703125 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-1a" transform="translate(88.40625 0)"/>
@@ -171,9 +171,9 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 4.2 -->
-     <g style="fill: #ffffff" transform="translate(468.367654 630.810513) scale(0.01 -0.01)">
+     <g style="fill: #ffffff" transform="translate(468.367654 630.966513) scale(0.01 -0.01)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-15" d="M 2170 -115 
 L 2650 -115 
@@ -203,9 +203,9 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 4.3 -->
-     <g style="fill: #ffffff" transform="translate(469.443245 629.149321) scale(0.01 -0.01)">
+     <g style="fill: #ffffff" transform="translate(469.547245 629.227321) scale(0.01 -0.01)">
       <use xlink:href="#NotoSerifCJKjp-Regular-15"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-f" transform="translate(55.5 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-14" transform="translate(88.203125 0)"/>
@@ -213,9 +213,9 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 5.1 -->
-     <g style="fill: #6fa8ff" transform="translate(466.201871 629.943791) scale(0.01 -0.01)">
+     <g style="fill: #6fa8ff" transform="translate(466.550271 629.798191) scale(0.01 -0.01)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-16" d="M 1574 -96 
 C 2573 -96 3213 499 3213 1408 
@@ -262,9 +262,9 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 5.5 -->
-     <g style="fill: #6fa8ff" transform="translate(469.704335 629.689591) scale(0.01 -0.01)">
+     <g style="fill: #6fa8ff" transform="translate(469.678335 629.689591) scale(0.01 -0.01)">
       <use xlink:href="#NotoSerifCJKjp-Regular-16"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-f" transform="translate(55.796875 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-16" transform="translate(88.5 0)"/>
@@ -272,9 +272,9 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pcbb498c4d3)">
+    <g clip-path="url(#pc5589ee49c)">
      <!-- 5.8 -->
-     <g style="fill: #6fa8ff" transform="translate(468.638096 628.792493) scale(0.01 -0.01)">
+     <g style="fill: #6fa8ff" transform="translate(468.638096 628.753493) scale(0.01 -0.01)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-19" d="M 1754 -96 
 C 2637 -96 3219 384 3219 1126 
@@ -309,7 +309,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pcbb498c4d3">
+  <clipPath id="pc5589ee49c">
    <rect x="0" y="0" width="936" height="1384.923375"/>
   </clipPath>
  </defs>

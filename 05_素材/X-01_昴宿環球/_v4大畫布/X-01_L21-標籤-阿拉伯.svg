@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-07T14:14:37.790640</dc:date>
+    <dc:date>2026-10-07T14:42:19.992534</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pd66cb36aa2)">
+    <g clip-path="url(#p7c1175a169)">
      <!-- al-Thurayya　一位女子 -->
      <g style="fill: #ffc94a" transform="translate(423.792745 624.078498) scale(0.06188 -0.06188)">
       <defs>
@@ -358,7 +358,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pd66cb36aa2)">
+    <g clip-path="url(#p7c1175a169)">
      <!-- ﺎﻳﺮﺜﻟﺍ -->
      <g style="fill: #ffc94a" transform="translate(451.007859 618.441166) scale(0.06188 -0.06188)">
       <defs>
@@ -485,7 +485,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pd66cb36aa2)">
+    <g clip-path="url(#p7c1175a169)">
      <!-- al-Dabaran　跟在後面的人 -->
      <g style="fill: #ffc94a" transform="translate(401.179824 658.483164) scale(0.05746 -0.05746)">
       <defs>
@@ -929,7 +929,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pd66cb36aa2)">
+    <g clip-path="url(#p7c1175a169)">
      <!-- ﻥﺍﺮﺑﺪﻟﺍ -->
      <g style="fill: #ffc94a" transform="translate(428.376809 663.326284) scale(0.05746 -0.05746)">
       <defs>
@@ -1011,7 +1011,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pd66cb36aa2)">
+    <g clip-path="url(#p7c1175a169)">
      <!-- 阿拉伯 -->
      <g style="fill: #ffc94a" transform="translate(419.666 609.684967) scale(0.07956 -0.07956)">
       <defs>
@@ -1200,7 +1200,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pd66cb36aa2">
+  <clipPath id="p7c1175a169">
    <rect x="0" y="0" width="936" height="1384.923375"/>
   </clipPath>
  </defs>

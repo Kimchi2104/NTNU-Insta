@@ -7,7 +7,7 @@ C-X01-03 黎明重現（年輪層、黎明層）
 C-X01-04 黃昏升起（年輪層、黃昏層）
 C-X01-05 昴宿的真身（數字層、距離層、年齡層）
 C-X01-06 七姊妹的一百個名字（9:16 圖卡）
-C-X01-07 今晚往東看（9:16 圖卡；台北 2026/11/27 19:00）
+C-X01-07 週末往東看（9:16 圖卡；台北 2026/11/28 20:00）
 
 天象（黎明重現／黃昏升起日期、台北方位高度、月掩昴）全部用 PyEphem 自算（氣壓 1010 hPa，含折射）。
 來源：Stellarium skycultures（新舊兩版 index.json／description）；Hesiod《工作與時日》383–384；
@@ -181,7 +181,7 @@ def c02_card(ax):
             ("大溪地", "Matariʻi", "小眼睛；11–5 月是 Matariʻi i niʻa 豐收季"),
             ("薩摩亞", "Matāliʻi", "Liʻi 的臉；黃昏升起＝新年"),
             ("東加", "Mataliki", "Stellarium 名稱表寫 Motuliki，說明文寫 Mataliki"),
-            ("夏威夷", "Makaliʻi", "Stellarium：酋長之眼；黃昏升起＝Makahiki 新年")]
+            ("夏威夷", "Makaliʻi", "Stellarium：酋長之眼（字典：細小）；黃昏升起＝新年")]
     y = 0.885
     for isl, word, note in rows:
         ax.plot([0.04, 0.96], [y, y], c=WHITE, lw=0.6, alpha=.2)
@@ -194,11 +194,11 @@ def c02_card(ax):
     ctext(ax, 0.5, 0.320, "mata  ＋  liki", 32, AMBER)
     box(ax, 0.06, 0.160, 0.42, 0.105, ec=BLUE)
     box(ax, 0.52, 0.160, 0.42, 0.105, ec=PURPLE)
-    ctext(ax, 0.27, 0.238, "一說：liki＝小", 13, BLUE)
+    ctext(ax, 0.27, 0.238, "語言學：liki＝小", 13, BLUE)
     ctext(ax, 0.27, 0.188, "「小小的眼睛」", 15, WHITE)
-    ctext(ax, 0.73, 0.238, "一說：ariki＝首領", 13, PURPLE)
-    ctext(ax, 0.73, 0.188, "「首領（神）的眼睛」", 15, WHITE)
-    ctext(ax, 0.5, 0.128, "語言學界還沒定論", 12.5, GREY, w="normal")
+    ctext(ax, 0.73, 0.238, "毛利傳說：ariki＝首領、神", 13, PURPLE)
+    ctext(ax, 0.73, 0.188, "「天神的眼睛」", 15, WHITE)
+    ctext(ax, 0.5, 0.128, "語言學的重建多支持「小」；毛利傳統另有「天神之眼」的說法", 11.5, GREY, w="normal")
     ctext(ax, 0.5, 0.093, "毛利、大溪地念 r；薩摩亞、東加、夏威夷念 l；夏威夷再把 t 念成 k", 11, WHITE, w="normal")
     ctext(ax, 0.5, 0.058, "Stellarium：maori／anutan／ruanui（大溪地）／samoan／tongan／hawaiian_starlines；POLLEX *mata-liki",
           8.5, GREY, w="normal")
@@ -258,7 +258,7 @@ DATES = None
 
 
 def c03_ring(ax):
-    ring(ax, "每年六月：黎明前重新出現", "昴宿躲在太陽旁邊約一個多月，再出現時是在天亮前的東方", DATES)
+    ring(ax, "每年六月：黎明前重新出現", "昴宿躲在太陽旁邊約一個月，再出現時是在天亮前的東方", DATES)
 
 
 def c03_dawn(ax):
@@ -267,9 +267,9 @@ def c03_dawn(ax):
     box(ax, -0.94, -0.94, 1.88, 0.40, ec=AMBER)
     rows = [("紐西蘭・毛利", "Matariki 新年（六、七月；2022 年起國定假日，2026 年是 7/10）"),
             ("南美・洛科諾", "六月第一次在東方出現＝新的一年開始"),
-            ("南非・祖魯、科薩", "isiLimela「挖土的星」：清晨看見它，就該播種"),
+            ("南非・祖魯、科薩", "isiLimela「挖土的星」：清晨看見它，就該翻土、準備耕種"),
             ("阿拉伯", "al-Thurayya 六月初在黎明升起（月站第三宿）"),
-            ("希臘・赫西俄德", "昴升起（當時在五月）→ 開始收割")]
+            ("希臘・赫西俄德", "昴清晨升起（當時在五月）→ 開始收割")]
     for i, (a, b) in enumerate(rows):
         y = -0.59 - i * 0.066
         ctext(ax, -0.89, y, a, 12.5, AMBER, ha="left")
@@ -329,7 +329,7 @@ def c05_distance(ax):
     ctext(ax, X(0), y0 + 0.05, "地球", 12, AMBER)
     ax.scatter([X(392)], [y0], s=180, c=RED, zorder=6, lw=0)
     ax.plot([X(392), X(392)], [y0 - 0.02, y0 - 0.10], c=RED, lw=1.2, alpha=.7)
-    ctext(ax, X(392) - 0.02, y0 - 0.125, "依巴谷衛星（1997）：約 392 光年", 12, RED, ha="right")
+    ctext(ax, X(392) - 0.02, y0 - 0.125, "依巴谷衛星：約 390 光年", 12, RED, ha="right")
     ax.scatter([X(444)], [y0], s=180, c=BLUE, zorder=6, lw=0)
     ax.plot([X(444), X(444)], [y0 + 0.02, y0 + 0.10], c=BLUE, lw=1.2, alpha=.7)
     ctext(ax, X(444) + 0.03, y0 + 0.13, "電波望遠鏡 VLBI（2014）、蓋亞衛星：約 444 光年", 12, BLUE, ha="right")
@@ -354,31 +354,31 @@ def c05_age(ax):
     box(ax, -0.92, -0.93, 1.84, 0.30, ec=GREY)
     ctext(ax, 0.0, -0.70, "最亮的幾顆是又熱又藍的 B 型星；四周的藍色雲氣（梅洛普星雲）", 12.5, WHITE, w="normal")
     ctext(ax, 0.0, -0.765, "不是生它的雲，是它正好穿過的一片塵埃", 12.5, WHITE, w="normal")
-    ctext(ax, 0.0, -0.86, "數字：Melis et al. 2014（VLBI 136.2 pc）；Hipparcos 1997；年齡約 1–1.25 億年", 9.5, GREY,
+    ctext(ax, 0.0, -0.86, "數字：Melis et al. 2014（VLBI 136.2 pc）；Hipparcos 1997／2007 重新歸算；年齡約 1–1.25 億年", 9.5, GREY,
           w="normal")
 
 
 # ══════════════════════ C-X01-06 七姊妹的一百個名字（9:16） ══════════════════════
 FAM = [
     ("女孩・姊妹・孩子", PURPLE, [("Pleiades", "七姊妹（希臘）"), ("Miyay Miyay", "七姊妹（卡米拉羅伊）"),
-                           ("Lamankurrk", "女孩們（澳洲布朗）"), ("Nadan Narhū", "七少女（滿族）"),
+                           ("Larnankurrk", "少女們（澳洲布朗）"), ("Nadan Narhū", "七少女（滿族）"),
                            ("al-Thurayya", "一位女子（阿拉伯）"), ("Kṛttikā", "戰神的乳母（印度）"),
-                           ("天神的女兒", "南非那馬人"), ("Lost Children", "迷途的孩子（黑腳族）"),
-                           ("Lapnuman", "男孩、女孩（萬那杜）")]),
+                           ("天神的女兒", "南部非洲那馬人"), ("Lost Children", "迷途的孩子（黑腳族）"),
+                           ("Nowaswas Lapnuman", "少年們（萬那杜）")]),
     ("小小的眼睛", BLUE, [("Matariki", "毛利、阿努塔"), ("Matariʻi", "大溪地"), ("Matāliʻi", "薩摩亞"),
                      ("Mataliki", "東加"), ("Makaliʻi", "夏威夷")]),
     ("雞、窩、一群動物", GREEN, [("昴日雞", "中國二十八禽"), ("Cloșca cu pui", "母雞帶小雞（羅馬尼亞）"),
                           ("Квачка", "母雞（馬其頓）"), ("Куркі", "母雞（白俄羅斯）"),
                           ("Утиное гнездо", "鴨巢（西伯利亞）"), ("Eixu", "黃蜂窩（巴西圖皮）"),
                           ("Baweta", "一群烏龜（提庫納）"), ("Rougot", "狗群（薩米）"),
-                          ("Flock", "一群（古埃及）")]),
+                          ("（英譯）Flock", "一群（古埃及）")]),
     ("一束・一群", AMBER, [("すばる", "束成一把（日本）"), ("S'Udrone", "一串（薩丁尼亞）"),
                       ("Tianquiztli", "市集（阿茲特克）"), ("Yôkoro wiwa", "成群的星（洛科諾）"),
                       ("Nhorkoatero", "星群（圖卡諾）"), ("Worong-porongngé", "一團（布吉斯）")]),
-    ("一撮頭髮", RED, [("昴＝髦頭", "《史記．天官書》"), ("zappu", "鬃毛（巴比倫）"),
+    ("一撮毛髮", RED, [("昴＝髦頭", "《史記．天官書》"), ("zappu", "鬃毛（巴比倫）"),
                    ("Worong-mpolong", "一撮毛（布吉斯）")]),
     ("其他", WHITE, [("Sakiattiak", "胸骨（因紐特）"), ("isiLimela", "挖土的星（祖魯）"),
-                   ("Dilyéhé", "（北美納瓦荷）"), ("Bittoéng Malunus", "飛魚季記號（曼達）")]),
+                   ("Dilyéhé", "昴宿（納瓦荷，無直譯）"), ("Bittoéng Malunus", "飛魚季記號（曼達）")]),
 ]
 
 
@@ -387,27 +387,44 @@ def c06_card(ax):
     ctext(ax, 0.5, 0.958, "七姊妹的一百個名字", 28, WHITE)
     ctext(ax, 0.5, 0.925, f"這裡先收 {n} 個（Stellarium skycultures）", 13, GREY, w="normal")
     cols = {0: [0, 1, 4], 1: [2, 3, 5]}
+    rend = ax.figure.canvas.get_renderer()
+
+    def tw(s, size, w):              # 實測字寬（畫布寬＝1）
+        t = ax.text(0, 0, s, fontproperties=CB.FP, fontsize=size, weight=w)
+        wd = t.get_window_extent(rend).width / ax.figure.bbox.width
+        t.remove()
+        return wd
     for c, idx in cols.items():
-        x0 = 0.03 + 0.49 * c
+        x0 = 0.025 + 0.49 * c
+        rows_all = [r for i in idx for r in FAM[i][2]]
+        fn, fz = 9.5, 10.0           # 原文欄、中譯欄字級；欄寬放不下就一起縮
+        while True:
+            wn = max(tw(a, fn, "bold") for a, _ in rows_all)
+            wz = max(tw(b, fz, "normal") for _, b in rows_all)
+            if 0.015 + wn + 0.02 + wz <= 0.465 or fn < 7.5:
+                break
+            fn -= 0.25; fz -= 0.25
+        xz = x0 + 0.015 + wn + 0.02
         y = 0.895
         for i in idx:
             title, col, rows = FAM[i]
-            ax.plot([x0, x0 + 0.455], [y, y], c=WHITE, lw=0.8, alpha=.35)
+            ax.plot([x0, x0 + 0.465], [y, y], c=WHITE, lw=0.8, alpha=.35)
             ctext(ax, x0 + 0.01, y - 0.017, title, 12.5, col, ha="left")
             y -= 0.038
             for nat, zh in rows:
-                ctext(ax, x0 + 0.015, y, nat, 9.5, col, ha="left")
-                ctext(ax, x0 + 0.225, y, zh, 10, WHITE, w="normal", ha="left")
+                ctext(ax, x0 + 0.015, y, nat, fn, col, ha="left")
+                ctext(ax, xz, y, zh, fz, WHITE, w="normal", ha="left")
                 y -= 0.0245
             y -= 0.012
+        print(f"  C-X01-06 第 {c + 1} 欄：原文 {fn} pt、中譯 {fz} pt、中譯欄起點 {xz:.3f}、右緣 {xz + wz:.3f}")
     ctext(ax, 0.5, 0.062, "「一百」是個大概——光 Stellarium 新舊兩版，就有四十多個文化替它取了名字", 9.5, GREY,
           w="normal")
     ctext(ax, 0.5, 0.027, "#萬國星空　#師大天文社", 13, WHITE, w="normal")
 
 
-# ══════════════════════ C-X01-07 今晚往東看（9:16） ══════════════════════
-WHEN7 = "2026/11/27 19:00"
-AZ7, ALT7, K7, XC7, YC7 = 72.0, 34.0, 0.47 / (2 * math.tan(math.radians(25))), 0.5, 0.47
+# ══════════════════════ C-X01-07 週末往東看（9:16） ══════════════════════
+WHEN7 = "2026/11/28 20:00"
+AZ7, ALT7, K7, XC7, YC7 = 72.0, 38.0, 0.47 / (2 * math.tan(math.radians(25))), 0.5, 0.47
 ASP = 1215 / 2160
 
 
@@ -439,8 +456,8 @@ def altaz_at(when_local, tz=8):
 
 def c07_card(ax):
     f = altaz_at(WHEN7)
-    ctext(ax, 0.5, 0.955, "今晚往東看", 30, WHITE)
-    ctext(ax, 0.5, 0.918, "台北　2026/11/27（五）晚上 7:00", 14, GREY, w="normal")
+    ctext(ax, 0.5, 0.955, "這個週末往東看", 30, WHITE)
+    ctext(ax, 0.5, 0.918, "台北　2026/11/28（六）晚上 8:00（週日幾乎一樣）", 14, GREY, w="normal")
     ok = lambda q: q and 0.02 < q[0] < 0.98 and 0.235 < q[1] < 0.89
     hz = [q for q in (proj7(0, az) for az in range(0, 151, 2)) if q]
     ax.plot([q[0] for q in hz], [q[1] for q in hz], c=WHITE, lw=2.0, alpha=.8, zorder=5)
@@ -484,10 +501,10 @@ def c07_card(ax):
             ctext(ax, pos[h][0] + dx, pos[h][1] + dy, lab, 11.5, WHITE, w="normal")
     qb = proj7(0, 90)
     ctext(ax, qb[0] + 0.02, qb[1] + 0.03, "獵戶正在升起 ↑", 11.5, GREY, w="normal", ha="left")
-    lines = [("日落 17:04，昴宿已在東北東、高 7°", WHITE),
-             ("19:00 高 32°；23:17 幾乎從頭頂經過（高 89°）", WHITE),
-             ("月亮 19:46 才升起（88%）——之前看最清楚", AMBER),
-             ("11/24 傍晚滿月掩昴；下次台灣看得到：2027/11/15 凌晨", BLUE),
+    lines = [("日落 17:03；20:00 昴宿在東北東、高 46°", WHITE),
+             ("23:12 幾乎從頭頂經過（高 89°）", WHITE),
+             ("月出：週六 20:55、週日 22:02——之前看最清楚", AMBER),
+             ("11/24 傍晚月掩昴；下次台灣看得到：2027/11/15 凌晨", BLUE),
              ("方位、高度、掩星：PyEphem 自算（含大氣折射）", GREY)]
     for i, (s, col) in enumerate(lines):
         ctext(ax, 0.5, 0.185 - i * 0.031, s, 11.5 if col != GREY else 10, col, w="normal")
@@ -505,7 +522,7 @@ def main():
     CB.emit("", [("年輪", c04_ring), ("黃昏", c04_dusk)], title="C-X01-04_黃昏升起")
     CB.emit("", [("數字", c05_numbers), ("距離", c05_distance), ("年齡", c05_age)], title="C-X01-05_昴宿的真身")
     for fn, name in ((c02_card, "C-X01-02_太平洋的同一個字"), (c06_card, "C-X01-06_七姊妹的一百個名字"),
-                     (c07_card, "C-X01-07_今晚往東看")):
+                     (c07_card, "C-X01-07_週末往東看")):
         fig, ax = CB.newcard(dark=True)
         fn(ax)
         CB.save(fig, "", f"{name}_圖卡.png", transparent=False)
