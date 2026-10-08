@@ -1,0 +1,24 @@
+{
+  "design_id": "DAHWtDlrVcE",
+  "design_title": "A-15 北歐",
+  "commit": "66d13878180e06ec5546af3cbb4811fd4c5e0f25",
+  "layers": {
+    "L1-銀河": "MAHXZ1HSFyk",
+    "L2-星點": "MAHXZ7P7ed4",
+    "L3-經緯線": "MAHXZwkQwH4",
+    "L5-連線-狼嘴": "MAHXZz-bzK4",
+    "L6-連線-日月之路": "MAHXZzitOvM",
+    "L7-連線-漁夫": "MAHXZ9hixBo",
+    "L8-連線-巨人之眼": "MAHXZ2etNQA",
+    "L9-連線-兩輛車": "MAHXZ1Vlh6w",
+    "L10-主角星白點": "MAHXZ3aE_hg",
+    "北盤L1-銀河": "MAHXZyCncdg",
+    "北盤L2-星點": "MAHXZ6ADORI",
+    "北盤L3-經緯線": "MAHXZzym928",
+    "北盤L9-連線-兩輛車": "MAHXZ_bNAyw",
+    "北盤L10-主角星白點": "MAHXZ5PFUjQ"
+  },
+  "mountain": "MAD4KTwSGtw",
+  "background": "MAHWs5D_MpY",
+  "concept": {}
+}
