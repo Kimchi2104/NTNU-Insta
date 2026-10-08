@@ -20,5 +20,21 @@
   },
   "mountain": "MAD4KTwSGtw",
   "background": "MAHWs5D_MpY",
-  "concept": {}
+  "concept": {
+    "C-A15-01_Yule變聖誕_仲冬層_透明.png": "MAHXZ3uFgTE",
+    "C-A15-01_Yule變聖誕_立法層_透明.png": "MAHXZ3GncVg",
+    "C-A15-01_Yule變聖誕_今天層_透明.png": "MAHXZ0NryFo",
+    "C-A15-02_八隻馴鹿_神駒層_透明.png": "MAHXZyGSnqg",
+    "C-A15-02_八隻馴鹿_一頭層_透明.png": "MAHXZw3987g",
+    "C-A15-02_八隻馴鹿_八隻層_透明.png": "MAHXZ78tUWM",
+    "C-A15-03_天上的追逐_太陽層_透明.png": "MAHXZ5cvmKY",
+    "C-A15-03_天上的追逐_月亮層_透明.png": "MAHXZ3N3CcQ",
+    "C-A15-03_天上的追逐_神駒層_透明.png": "MAHXZ7PQQo8",
+    "C-A15-04_引路星一千年_今天層_透明.png": "MAHXZyU1U1I",
+    "C-A15-04_引路星一千年_一千年前層_透明.png": "MAHXZ3uT_Fk",
+    "C-A15-05_同一個V字_圖卡.png": "MAHXZzxb0ug",
+    "C-A15-06_北歐星名小辭典_圖卡.png": "MAHXZx-T7MM",
+    "C-A15-07_這週末抬頭看_圖卡.png": "MAHXZ7xEwUM"
+  },
+  "concept_commit": "b4e99d2027ff83c08dd8da543d2180b76f07cbe5"
 }
