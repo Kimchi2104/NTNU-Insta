@@ -1,0 +1,1289 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 159.31,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "上週在沙漠，星星是日曆。今晚往北，進北極圈，到加拿大的 Igloolik：同一片星空，因紐特人拿它——在極夜裡讀時間。",
+  "trans": "（第一頁）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 129.23,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "Igloolik 在北緯六十九度。十一月底，太陽一沉下去就不再升起，要等一個半月、到一月中才回來。冬至中午，台北的太陽有四十一度高；在這裡，它還躲在地平線下快三度。這段日子叫 Tauvikjuaq：大黑暗。",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02-概念圖1",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 129.23,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-01_極夜_地平層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.6491228070176,
+   "width": 1032,
+   "height": 1060.7017543859647,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02-概念圖2",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 129.23,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-01_極夜_地平層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-01_極夜_台北層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.6491228070176,
+   "width": 1032,
+   "height": 1060.7017543859647,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 5,
+  "title": "鏡頭02-概念圖3",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 129.23,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-01_極夜_地平層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-01_極夜_台北層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-01_極夜_Igloolik層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.6491228070176,
+   "width": 1032,
+   "height": 1060.7017543859647,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 6,
+  "title": "鏡頭02-概念圖4",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 129.23,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 4 層淡入）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-01_極夜_地平層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-01_極夜_台北層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-01_極夜_Igloolik層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-01_極夜_極夜層_透明.png",
+    "left": 24,
+    "top": 453.56,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.6491228070176,
+   "width": 1032,
+   "height": 1060.7017543859647,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 7,
+  "title": "鏡頭02-概念圖收＝鏡頭03開始",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 129.23,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "沒有太陽，也沒有時鐘，什麼時候該起床、出門打獵？獵人會在冰屋上留個小洞，從裡面看星星。這些報時的星，叫 qausiut——「天亮的指標」。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 8,
+  "title": "鏡頭03結束＝鏡頭04開始",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 99.15,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點",
+   "北盤L12-標籤-北極星"
+  ],
+  "notes": "先看北極星：Nuutuittuq，「從來不動的那顆」。在這裡它快七十度高，幾乎在頭頂，太高了，反而不好拿來認方向。有位長老回憶：他第一次聽說這顆星很好奇，晚上就把一支魚叉對準它，架在擋風的雪牆邊。",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 9,
+  "title": "鏡頭04結束＝鏡頭05開始",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 99.15,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點",
+   "北盤L12-標籤-北極星",
+   "北盤L13-標籤-馴鹿-上"
+  ],
+  "notes": "天空開始轉。北斗七星叫 Tukturjuit，馴鹿，是時鐘的指針。老獵人說：「快到半夜，馴鹿會用後腳站起來，頭愈抬愈高。」在更西邊的 Pelly Bay，牠後面還追著三匹狼。",
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 10,
+  "title": "鏡頭05-中1",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 69.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L6-連線-狼群",
+   "北盤L11-主角星白點",
+   "北盤L14-標籤-馴鹿-左"
+  ],
+  "notes": "",
+  "trans": "Match & Move（7.5 秒）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 11,
+  "title": "鏡頭05結束＝鏡頭06開始",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": 38.98,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L6-連線-狼群",
+   "北盤L11-主角星白點",
+   "北盤L14-標籤-馴鹿-左",
+   "北盤L16-標籤-狼群",
+   "北盤L17-標籤-鎖骨"
+  ],
+  "notes": "再看御夫和雙子的兩對亮星：Quturjuuk，一對鎖骨。傍晚它斜向一邊，後半夜擺平，天快亮時，又斜向另一邊。早上他去看：馴鹿整個換了位置——魚叉，還指著那顆星。",
+  "trans": "Match & Move（7.5 秒）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 12,
+  "title": "鏡頭06-中1",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": -6.14,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點",
+   "北盤L17-標籤-鎖骨"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.5 秒）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 13,
+  "title": "鏡頭06結束",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": -51.26,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點",
+   "北盤L15-標籤-馴鹿-下"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.5 秒）",
+  "mountain_top": 1298.7
+ },
+ {
+  "page": 14,
+  "title": "鏡頭06-概念圖1",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": -51.26,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-02_星鐘_傍晚層_透明.png",
+    "left": 24,
+    "top": 484.74,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 459.3216374269006,
+   "width": 1032,
+   "height": 1001.3567251461986,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 15,
+  "title": "鏡頭06-概念圖2",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": -51.26,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-02_星鐘_傍晚層_透明.png",
+    "left": 24,
+    "top": 484.74,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-02_星鐘_後半夜層_透明.png",
+    "left": 24,
+    "top": 484.74,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 459.3216374269006,
+   "width": 1032,
+   "height": 1001.3567251461986,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 16,
+  "title": "鏡頭06-概念圖3",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": -51.26,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": 1298.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-02_星鐘_傍晚層_透明.png",
+    "left": 24,
+    "top": 484.74,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-02_星鐘_後半夜層_透明.png",
+    "left": 24,
+    "top": 484.74,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-02_星鐘_清晨層_透明.png",
+    "left": 24,
+    "top": 484.74,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 459.3216374269006,
+   "width": 1032,
+   "height": 1001.3567251461986,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 17,
+  "title": "鏡頭06-概念圖收＝鏡頭07開始",
+  "group": "北盤",
+  "left": -699.74,
+  "top": -387.75,
+  "width": 2479.49,
+  "height": 2479.49,
+  "rotation": -51.26,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-馴鹿與鎖骨",
+   "北盤L11-主角星白點",
+   "北盤L18-標籤-家當"
+  ],
+  "notes": "北極星的另一邊是仙后座：有人說三顆亮星是油燈的燈架 Pituaq，也有人說整個 W 是裝海豹油的皮袋。天上掛的，都是冰屋裡的家當。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 18,
+  "title": "鏡頭07-中1",
+  "group": "北盤",
+  "left": -2832.6,
+  "top": -3710.02,
+  "width": 7546.27,
+  "height": 7546.27,
+  "rotation": -51.26,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-燈架與油袋",
+   "北盤L11-主角星白點",
+   "北盤L18-標籤-家當"
+  ],
+  "notes": "",
+  "trans": "Match & Move（6.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 19,
+  "title": "鏡頭07結束",
+  "group": "北盤",
+  "left": -3075.92,
+  "top": -2655.92,
+  "width": 7231.85,
+  "height": 7231.85,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-燈架與油袋",
+   "北盤L11-主角星白點",
+   "北盤L18-標籤-家當"
+  ],
+  "notes": "",
+  "trans": "Match & Move（6.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 20,
+  "title": "鏡頭08開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -2660.46,
+  "width": 8100.0,
+  "height": 12060.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點"
+  ],
+  "notes": "天亮前最重要的報時星，在東北方的地平線上：牛郎星和旁邊的河鼓三，叫 Aagjuuk。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 21,
+  "title": "鏡頭08結束＝鏡頭09開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -4710.0,
+  "width": 8100.0,
+  "height": 12060.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點",
+   "L19-標籤-Aagjuuk"
+  ],
+  "notes": "奇怪的是，秋天傍晚它就掛在西南天，大家卻當作沒看見。一定要等十二月第二週的某個清晨，它第一次從東北方冒出來，Aagjuuk 才算「出來了」。",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 22,
+  "title": "鏡頭09結束",
+  "group": "長圖",
+  "left": -4920.0,
+  "top": -6720.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點",
+   "L19-標籤-Aagjuuk"
+  ],
+  "notes": "",
+  "trans": "Match & Move（15.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 23,
+  "title": "鏡頭09-概念圖1",
+  "group": "長圖",
+  "left": -4920.0,
+  "top": -6720.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-03_Aagjuuk初見_地平層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 462.0877192982456,
+   "width": 1032,
+   "height": 995.8245614035087,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 24,
+  "title": "鏡頭09-概念圖2",
+  "group": "長圖",
+  "left": -4920.0,
+  "top": -6720.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-03_Aagjuuk初見_地平層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-03_Aagjuuk初見_十二月初層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 462.0877192982456,
+   "width": 1032,
+   "height": 995.8245614035087,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 25,
+  "title": "鏡頭09-概念圖3",
+  "group": "長圖",
+  "left": -4920.0,
+  "top": -6720.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-03_Aagjuuk初見_地平層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-03_Aagjuuk初見_十二月初層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-03_Aagjuuk初見_第二週層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 462.0877192982456,
+   "width": 1032,
+   "height": 995.8245614035087,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 26,
+  "title": "鏡頭09-概念圖4",
+  "group": "長圖",
+  "left": -4920.0,
+  "top": -6720.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 4 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-03_Aagjuuk初見_地平層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-03_Aagjuuk初見_十二月初層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-03_Aagjuuk初見_第二週層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-03_Aagjuuk初見_冬至層_透明.png",
+    "left": 24,
+    "top": 482.98,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 462.0877192982456,
+   "width": 1032,
+   "height": 995.8245614035087,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 27,
+  "title": "鏡頭09-概念圖收＝鏡頭10開始",
+  "group": "長圖",
+  "left": -4920.0,
+  "top": -6720.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點",
+   "L19-標籤-Aagjuuk"
+  ],
+  "notes": "從那天起，孩子們天沒亮就被叫出門看：Aagjuuk 出來了沒？只要大人說一聲 aagjuliqtuq——Aagjuuk 出來了——一天的活就開始了。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 28,
+  "title": "鏡頭10結束＝鏡頭11開始",
+  "group": "長圖",
+  "left": -6030.0,
+  "top": -8292.0,
+  "width": 12960.0,
+  "height": 19296.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點",
+   "L19-標籤-Aagjuuk"
+  ],
+  "notes": "它也是日曆：Aagjuuk 第一次在清晨露臉，就是一年最短的那幾天。一九九〇年十二月十九號，一位老人家在 Igloolik 的社區廣播宣布：冬至到了——因為他看見了 Aagjuuk。",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 29,
+  "title": "鏡頭11結束＝鏡頭12開始",
+  "group": "長圖",
+  "left": -6760.0,
+  "top": -9340.0,
+  "width": 14400.0,
+  "height": 21440.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L11-主角星白點",
+   "L19-標籤-Aagjuuk"
+  ],
+  "notes": "在阿拉斯加，這兩顆星是「兩道陽光」：太陽回來時射出的頭兩道光。往南走，同一排星卻常常是一根扁擔：中國的牛郎挑著兩個孩子；阿努塔島民、羅馬尼亞人，也都看見有人挑著擔子。",
+  "trans": "Match & Move（16.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 30,
+  "title": "鏡頭12結束",
+  "group": "長圖",
+  "left": -4123.64,
+  "top": -5397.27,
+  "width": 8836.36,
+  "height": 13156.36,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Aagjuuk",
+   "L9-連線-扁擔",
+   "L11-主角星白點",
+   "L19-標籤-Aagjuuk",
+   "L21-標籤-跨文化-扁擔"
+  ],
+  "notes": "",
+  "trans": "Match & Move（19.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 31,
+  "title": "鏡頭13開始",
+  "group": "長圖",
+  "left": -668.57,
+  "top": -5738.57,
+  "width": 9257.14,
+  "height": 13782.86,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點",
+   "L22-標籤-追熊"
+  ],
+  "notes": "漫長的夜裡，天上也有故事。獵戶的腰帶叫 Ullaktut，「奔跑的人」：他們在夜裡追一頭北極熊——紅色的畢宿五是熊 Nanurjuk，旁邊那群 V 字是狗 Qimmiit。追著追著，人、狗和熊，一起跑上了天。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭13結束＝鏡頭14開始",
+  "group": "長圖",
+  "left": -857.65,
+  "top": -7425.88,
+  "width": 11435.29,
+  "height": 17025.88,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點",
+   "L22-標籤-追熊"
+  ],
+  "notes": "跑到一半，有人的手套掉了。哥哥說：「月亮正圓，沒什麼好怕的，回去撿吧！」他一回頭就落後了——有人說，他成了腰帶下面的參宿七；也有人說，他就這樣回到地上，把故事帶回了營地。",
+  "trans": "Match & Move（17.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 33,
+  "title": "鏡頭14結束＝鏡頭15開始",
+  "group": "長圖",
+  "left": -810.0,
+  "top": -8085.0,
+  "width": 12150.0,
+  "height": 18090.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點",
+   "L24-標籤-天狼星"
+  ],
+  "notes": "再往下是天狼星。在 Igloolik，它最高只爬到四度，貼著地平線閃個不停，所以叫 Singuuriq。老人說，有人困在漂走的海冰上：一個跟著天狼星走，再也沒回來；其他人跟著北邊的織女星，回到了岸邊。",
+  "trans": "Match & Move（17.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 34,
+  "title": "鏡頭15結束",
+  "group": "長圖",
+  "left": -300.0,
+  "top": -7320.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點",
+   "L24-標籤-天狼星"
+  ],
+  "notes": "",
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭15-概念圖",
+  "group": "長圖",
+  "left": -300.0,
+  "top": -7320.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-05_因紐特星名小辭典_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 36,
+  "title": "鏡頭15-概念圖收＝鏡頭16開始",
+  "group": "長圖",
+  "left": -300.0,
+  "top": -7320.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "一月中，太陽終於回來。孩子們挨家挨戶，把每一盞海豹油燈吹熄，換上新燈芯，再從同一把新火點亮。第一個看見太陽的人，只能用半邊臉笑：一邊歡迎溫暖，另一邊知道——冷，還沒過完。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 37,
+  "title": "鏡頭16-概念圖1",
+  "group": "長圖",
+  "left": -300.0,
+  "top": -7320.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-04_太陽回來_油燈層_透明.png",
+    "left": 24,
+    "top": 480.96,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 457.56140350877195,
+   "width": 1032,
+   "height": 1004.8771929824561,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 38,
+  "title": "鏡頭16-概念圖2",
+  "group": "長圖",
+  "left": -300.0,
+  "top": -7320.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-04_太陽回來_油燈層_透明.png",
+    "left": 24,
+    "top": 480.96,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A14-04_太陽回來_半邊笑層_透明.png",
+    "left": 24,
+    "top": 480.96,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 457.56140350877195,
+   "width": 1032,
+   "height": 1004.8771929824561,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 39,
+  "title": "鏡頭16-概念圖收＝鏡頭17開始",
+  "group": "長圖",
+  "left": -300.0,
+  "top": -7320.0,
+  "width": 10800.0,
+  "height": 16080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點",
+   "L22-標籤-追熊",
+   "L24-標籤-天狼星"
+  ],
+  "notes": "在很多因紐特方言裡，「明天」叫 qauppat，字面上是「如果天亮的話」。在極夜裡，天亮從來不是理所當然——所以他們抬頭，讀星星。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 40,
+  "title": "鏡頭17結束＝鏡頭18開始",
+  "group": "長圖",
+  "left": -360.0,
+  "top": -5070.0,
+  "width": 8100.0,
+  "height": 12060.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "這週末在台灣：天黑後往西看，牛郎和河鼓三還有二十幾度高，八點多才落下；回頭往東，奔跑的獵人正追著畢宿五爬上來，東北方的一對鎖骨也斜斜地升起。下週二冬至，抬頭讀讀看。",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 41,
+  "title": "鏡頭18-概念圖",
+  "group": "長圖",
+  "left": -360.0,
+  "top": -5070.0,
+  "width": 8100.0,
+  "height": 12060.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A14-06_這週末抬頭看_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭18-概念圖收＝鏡頭19開始",
+  "group": "長圖",
+  "left": -360.0,
+  "top": -5070.0,
+  "width": 8100.0,
+  "height": 12060.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "下週五是聖誕節，我們去北歐：Yule 之夜的狼與神駒。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 43,
+  "title": "鏡頭19結束",
+  "group": "長圖",
+  "left": -792.0,
+  "top": -8724.0,
+  "width": 12960.0,
+  "height": 19296.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-追熊",
+   "L11-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（7.0 秒）",
+  "mountain_top": null
+ }
+]
