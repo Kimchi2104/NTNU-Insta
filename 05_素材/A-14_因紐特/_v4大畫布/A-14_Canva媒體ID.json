@@ -20,5 +20,23 @@
   },
   "mountain": "MAD4KTwSGtw",
   "background": "MAHWs5D_MpY",
-  "concept": {}
+  "concept": {
+    "C-A14-01_極夜_地平層_透明.png": "MAHXY8hEyIw",
+    "C-A14-01_極夜_台北層_透明.png": "MAHXY5-Ysy4",
+    "C-A14-01_極夜_Igloolik層_透明.png": "MAHXY9nVQhI",
+    "C-A14-01_極夜_極夜層_透明.png": "MAHXYxqJC1E",
+    "C-A14-02_星鐘_傍晚層_透明.png": "MAHXY6mnDRE",
+    "C-A14-02_星鐘_後半夜層_透明.png": "MAHXY2jXn1I",
+    "C-A14-02_星鐘_清晨層_透明.png": "MAHXYzYmC7w",
+    "C-A14-03_Aagjuuk初見_地平層_透明.png": "MAHXY8REW1g",
+    "C-A14-03_Aagjuuk初見_十二月初層_透明.png": "MAHXYwh0Kfg",
+    "C-A14-03_Aagjuuk初見_第二週層_透明.png": "MAHXY09iUu0",
+    "C-A14-03_Aagjuuk初見_冬至層_透明.png": "MAHXY1599g4",
+    "C-A14-04_太陽回來_油燈層_透明.png": "MAHXY7-llXU",
+    "C-A14-04_太陽回來_半邊笑層_透明.png": "MAHXY5ny21c",
+    "C-A14-05_因紐特星名小辭典_圖卡.png": "MAHXY0a6P0A",
+    "C-A14-06_這週末抬頭看_圖卡.png": "MAHXY9sMi9c",
+    "C-A14-魚叉_透明.png": "MAHXYxASjTk"
+  },
+  "concept_commit": "776f86fc344e45d236ea0cb6025cdd1993a9af3d"
 }
