@@ -1,10 +1,10 @@
 ﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
 Nuutuittuq,Nuutuittuq,,Never Moves,從來不動的（北極星）,#FFC94A,Stellarium 拼法 Nuuttuittuq；MacDonald p.59–62：在 Igloolik 快 70° 高、幾乎在頭頂，太高不好定方向；Ulayuruluk 的魚叉實驗（IE-211）
 Tukturjuit,Tukturjuit,,Caribou,馴鹿（北斗）,#FFC94A,MacDonald p.80–82、200：時鐘；Iqqaqsaq「快到半夜，馴鹿用後腳站起來，頭愈抬愈高」（IE-257）
-Amaruqjuit,Amaruqjuit,,Wolves,狼群（Pelly Bay）,#FF6B6B,MacDonald p.82：Pelly Bay 的 Quttiutuqu 夫婦：追馴鹿的三匹狼；Paatsi Qaggutaq 指認為牧夫座（可能是 γ、β、δ）
+Amaruqjuit,Amaruqjuit,,Wolves,狼群（Pelly Bay）,#FF6B6B,MacDonald p.82：Pelly Bay 的 Quttiutuqu 夫婦：追馴鹿的三匹狼；Paatsi Qagutaaq 指認為牧夫座（可能是 γ、β、δ）
 Quturjuuk,Quturjuuk,,Collarbones,鎖骨（御夫＋雙子）,#7BD88F,MacDonald p.65–67、200：兩對各兩顆；Amaaq「傍晚斜向左、後來擺平、天快亮斜向右」（IE-073）
 Pituaq,Pituaq,,Lamp Stand,燈架（仙后三顆亮星）,#B78AFF,MacDonald p.62–63：放海豹油燈 qulliq 的三根立柱
-Ursuutaattiaq,Ursuutaattiaq,,Seal-skin Oil Container,海豹油袋（仙后 W）,#6FA8FF,Stellarium 拼法 Uqsuutaattiaq；MacDonald p.88–89：另一派長老把整個 W 叫這個名字（和 Pituaq 是兩種分法）
+Ursuutaattiaq,Ursuutaattiaq,,Seal-skin Oil Container,海豹油袋（仙后 W）,#6FA8FF,Stellarium 拼法 Uqsuutaattiaq；MacDonald p.88–89：另一派長老把整個 W 叫這個名字（和 Pituaq 是兩種分法）；書上第六顆是 κ Cas，本集連線照 Stellarium（η Cas）
 Aagjuuk,Aagjuuk,,(Two Sunbeams),牛郎星＋河鼓三,#FFC94A,MacDonald p.44–51：最重要的星座；十二月第二週首次在東北方黎明出現；aagjuliqtuq＝一天開始；1990/12/19 Jacobie Avingnaq 社區廣播宣布冬至；Stellarium 英文名取自阿拉斯加 Noatak 傳說
 Kingullialuk,Kingullialuk,,The (Big) One Behind,後面那顆大的（織女星）,#FFFFFF,Stellarium 拼法 Kingulliq；MacDonald p.55、75：漂流海冰的故事，跟著它的人回到岸冰
 Ullaktut,Ullaktut,,Runners,奔跑的人（腰帶）,#6FA8FF,MacDonald p.226–228：追北極熊上了天；掉手套的第四人
@@ -12,8 +12,8 @@ Nanurjuk,Nanurjuk,,Spirit of a Polar Bear,北極熊（畢宿五）,#FF6B6B,MacDo
 Qimmiit,Qimmiit,,Dogs,狗群（畢宿）,#FF6B6B,Stellarium 拼法 Qimmiitt；MacDonald p.58：熊是畢宿五時，狗群＝畢宿星團
 Kingulliq,Kingulliq,,The One Behind,落在後面的（參宿七）,#FFFFFF,MacDonald p.56、226：回頭撿手套、落在三兄弟後面的獵人（Aqatsiaq 版）
 Singuuriq,Singuuriq,,Flickering,閃個不停的（天狼星）,#FFFFFF,MacDonald p.73–75：Igloolik 最高約 4°、只出來 5 個多小時；跟著它走的人沒回來
-跨文化,Two Sunbeams,,,兩道陽光（阿拉斯加 Noatak 傳說）,#7BD88F,Stellarium
-跨文化,Peggittyn,,,帶來新年的光（楚科奇）,#7BD88F,Stellarium
-跨文化,河鼓,,,牛郎挑著兩個孩子（中國）,#7BD88F,Stellarium
-跨文化,Te Aamonga,,,扁擔（阿努塔）,#7BD88F,Stellarium
-跨文化,Fata de împărat,,,挑擔的公主（羅馬尼亞）,#7BD88F,Stellarium
+跨文化,Two Sunbeams,,,兩道陽光（阿拉斯加 Noatak 傳說）,#7BD88F,MacDonald p.46、283（Hall 1975）；Stellarium inuit 英文名
+跨文化,Peggittyn,,,帶來新年的光（楚科奇）,#7BD88F,MacDonald p.45–46（Anisimov 1963）
+跨文化,河鼓,,,牛郎挑著兩個孩子（中國）,#7BD88F,中國民間七夕傳說；Stellarium chinese 河鼓一／二／三
+跨文化,Te Aamonga,,,扁擔（阿努塔）,#7BD88F,Stellarium anutan：The Carrying Stick（挑芋頭、椰子）
+跨文化,Fata de împărat,,,挑擔的公主（羅馬尼亞）,#7BD88F,Stellarium romanian：The Emperor's Daughter with a Yoke

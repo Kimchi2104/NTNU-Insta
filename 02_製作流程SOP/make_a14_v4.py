@@ -4,7 +4,7 @@
 論點：北緯 69° 的 Igloolik，太陽 11 月底沉下去、一個半月後才回來（Tauvikjuaq 大黑暗）。
 沒有太陽、沒有時鐘，獵人從冰屋的小洞看星星報時（qausiut「天亮的指標」）：
 北極星 Nuutuittuq 高得幾乎在頭頂、魚叉對準它一整夜不動；北斗＝馴鹿 Tukturjuit，
-半夜用後腳站起來；御夫＋雙子兩對亮星＝鎖骨 Quturjuuk，傍晚斜一邊、後半夜擺平、天快亮斜另一邊；
+半夜用後腳站起來；御夫＋雙子兩對亮星＝鎖骨 Quturjuuk，傍晚斜一邊、後半夜轉平、天快亮斜另一邊；
 仙后座＝燈架／海豹油袋。最重要的是 Aagjuuk（牛郎星＋河鼓三）：十二月第二週第一次在東北方
 黎明露臉＝報曉的鬧鐘，也＝冬至的日曆（1990/12/19 社區廣播）。阿拉斯加叫它「兩道陽光」，
 往南走卻常常是扁擔（中國牛郎、阿努塔、羅馬尼亞）。長夜裡的故事：腰帶＝奔跑的人 Ullaktut
@@ -182,14 +182,15 @@ TERMS = [
     (DIPPER, "Tukturjuit", "Tukturjuit", "Caribou", "馴鹿（北斗）", "amber",
      "MacDonald p.80–82、200：時鐘；Iqqaqsaq「快到半夜，馴鹿用後腳站起來，頭愈抬愈高」（IE-257）"),
     ([SEGINUS, NEKKAR, DEL_BOO], "Amaruqjuit", "—", "Wolves", "狼群（Pelly Bay）", "red",
-     "MacDonald p.82：Pelly Bay 的 Quttiutuqu 夫婦：追馴鹿的三匹狼；Paatsi Qaggutaq 指認為牧夫座（可能是 γ、β、δ）"),
+     "MacDonald p.82：Pelly Bay 的 Quttiutuqu 夫婦：追馴鹿的三匹狼；Paatsi Qagutaaq 指認為牧夫座（可能是 γ、β、δ）"),
     ([CAPELLA, MENKALINAN, CASTOR, POLLUX], "Quturjuuk", "Quturjuuk", "Collarbones", "鎖骨（御夫＋雙子）", "green",
-     "MacDonald p.65–67、200：兩對各兩顆；Amaaq「傍晚斜向左、後來擺平、天快亮斜向右」（IE-073）"),
+     "MacDonald p.65–67、200：兩對各兩顆；Amaaq「傍晚斜向左、後來轉平、天快亮斜向右」（IE-073）"),
     ([SCHEDAR, CAPH, NAVI], "Pituaq", "Pituaq", "Lamp Stand", "燈架（仙后三顆亮星）", "purple",
      "MacDonald p.62–63：放海豹油燈 qulliq 的三根立柱"),
     ([CAPH, SCHEDAR, NAVI, RUCHBAH, SEGIN, ETA_CAS], "Ursuutaattiaq", "Uqsuutaattiaq",
      "Seal-skin Oil Container", "海豹油袋（仙后 W）", "blue",
-     "MacDonald p.88–89：另一派長老把整個 W 叫這個名字（和 Pituaq 是兩種分法）"),
+     "MacDonald p.88–89：另一派長老把整個 W 叫這個名字（和 Pituaq 是兩種分法）；書上第六顆是 κ Cas，"
+     "本集連線照 Stellarium（η Cas）"),
     ([ALTAIR, TARAZED], "Aagjuuk", "Aagjuuk", "(Two Sunbeams)", "牛郎星＋河鼓三", "amber",
      "MacDonald p.44–51：最重要的星座；十二月第二週首次在東北方黎明出現；aagjuliqtuq＝一天開始；"
      "1990/12/19 Jacobie Avingnaq 社區廣播宣布冬至；Stellarium 英文名取自阿拉斯加 Noatak 傳說"),
@@ -206,11 +207,11 @@ TERMS = [
     ([SIRIUS], "Singuuriq", "—", "Flickering", "閃個不停的（天狼星）", "white",
      "MacDonald p.73–75：Igloolik 最高約 4°、只出來 5 個多小時；跟著它走的人沒回來"),
 ]
-CROSS = [("Two Sunbeams", "兩道陽光（阿拉斯加 Noatak 傳說）"),
-         ("Peggittyn", "帶來新年的光（楚科奇）"),
-         ("河鼓", "牛郎挑著兩個孩子（中國）"),
-         ("Te Aamonga", "扁擔（阿努塔）"),
-         ("Fata de împărat", "挑擔的公主（羅馬尼亞）")]
+CROSS = [("Two Sunbeams", "兩道陽光（阿拉斯加 Noatak 傳說）", "MacDonald p.46、283（Hall 1975）；Stellarium inuit 英文名"),
+         ("Peggittyn", "帶來新年的光（楚科奇）", "MacDonald p.45–46（Anisimov 1963）"),
+         ("河鼓", "牛郎挑著兩個孩子（中國）", "中國民間七夕傳說；Stellarium chinese 河鼓一／二／三"),
+         ("Te Aamonga", "扁擔（阿努塔）", "Stellarium anutan：The Carrying Stick（挑芋頭、椰子）"),
+         ("Fata de împărat", "挑擔的公主（羅馬尼亞）", "Stellarium romanian：The Emperor's Daughter with a Yoke")]
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -264,7 +265,7 @@ def build():
     LB_AAG = term("Aagjuuk", 0.0, -4.8, s1=1.6, s2=1.15)        # 放在牛郎星下方：12 迄格（fov 44）左邊不夠放
     LB_VEGA = term("Kingullialuk", 0.0, -3.4, s1=1.4, s2=1.0)
     LB_CROSS = []
-    for i, (orig, zh) in enumerate(CROSS):
+    for i, (orig, zh, _src) in enumerate(CROSS):
         y0 = 10.0 - 4.4 * i
         LB_CROSS.append(item([ALTAIR], orig, "green", 1.2, 15.0, y0 + 1.0, f"跨-{i}"))
         LB_CROSS.append(item([ALTAIR], zh, "white", 0.95, 15.0, y0 - 1.2, f"跨-{i}-zh"))
@@ -324,7 +325,7 @@ def build():
     ORI3 = (-140.0, 0.0, 32.0, 0.0)              # 參宿七入鏡
     SIR = (-152.0, -8.0, 36.0, 0.0)
     WIDE = (-140.0, 0.0, 48.0, 0.0)
-    END = (-143.0, -1.0, 30.0, 0.0)
+    END = (-128.0, 12.0, 30.0, 0.0)              # 畢宿（下集：北歐的狼嘴）
 
     def ls(*names):
         return list(names)
@@ -352,7 +353,7 @@ def build():
         dict(code="04", kind="R", sec=18, north=True, horizon=HZ,
              frames=[FN("20:00"), FN("20:00")], layers=["北"], labels=ls("北極星"),
              vo="先看北極星：Nuutuittuq，「從來不動的那顆」。在這裡它快七十度高，幾乎在頭頂，"
-                "太高了，反而不好拿來認方向。有位長老回憶：他第一次聽說這顆星很好奇，"
+                "太高了，反而不好拿來定航向。有位長老回憶：他第一次聽說這顆星很好奇，"
                 "晚上就把一支魚叉對準它，架在擋風的雪牆邊。",
              note="盤不動；迄格（唸到「魚叉」）疊上魚叉（C-A14-魚叉_透明.png，滿版，對準盤心＝北極星），一直留到 06 迄格"),
         dict(code="05", kind="R", sec=15, north=True, horizon=HZ,
@@ -366,7 +367,7 @@ def build():
              labels_start=ls("馴鹿-左", "狼群", "鎖骨"),   # 起格＝05 迄格（00:00）：旁白剛唸到狼群，狼群這時才離開山稜
              labels_end=ls("馴鹿-下"),                   # 06:00：唸到「馴鹿整個換了位置」；鎖骨這時貼著左緣
              overlay="C-A14-02_星鐘", overlay_layers=["傍晚層", "後半夜層", "清晨層"],
-             vo="再看御夫和雙子的兩對亮星：Quturjuuk，一對鎖骨。傍晚它斜向一邊，後半夜擺平，"
+             vo="再看御夫和雙子的兩對亮星：Quturjuuk，一對鎖骨。傍晚它斜向一邊，後半夜轉平，"
                 "天快亮時，又斜向另一邊。早上他去看：馴鹿整個換了位置——魚叉，還指著那顆星。",
              note=f"盤逆時針 00:00→03:00→06:00（{ROT['03:00']:+.1f}°、{ROT['06:00']:+.1f}°）；"
                   "迄格魚叉還指著北極星；之後定格疊概念圖 C-A14-02 星鐘（三層，鎖骨在地平線上的傾斜）"),
@@ -383,7 +384,7 @@ def build():
         dict(code="09", kind="Z", sec=15, north=True,
              frames=[AAG0, AAG1], layers=["晨"], labels=ls("Aagjuuk"),
              overlay="C-A14-03_Aagjuuk初見", overlay_layers=["地平層", "十二月初層", "第二週層", "冬至層"],
-             vo="奇怪的是，秋天傍晚它就掛在西南天，大家卻當作沒看見。一定要等十二月第二週的某個清晨，"
+             vo="奇怪的是，秋天的晚上它就掛在西南天，大家卻視而不見。通常要等到十二月第二週的某個清晨，"
                 "它第一次從東北方冒出來，Aagjuuk 才算「出來了」。",
              note="推近 Aagjuuk；之後定格疊概念圖 C-A14-03（同一個黎明時刻，牛郎星一天比一天高）"),
         dict(code="10", kind="Z", sec=12, north=True,
@@ -393,14 +394,14 @@ def build():
              note="緩推"),
         dict(code="11", kind="Z", sec=16, north=True,
              frames=[AAG2, AAG3], layers=["晨"], labels=ls("Aagjuuk"),
-             vo="它也是日曆：Aagjuuk 第一次在清晨露臉，就是一年最短的那幾天。一九九〇年十二月十九號，"
+             vo="它也是日曆：在老一輩眼裡，Aagjuuk 第一次在清晨露臉，就是一年最短的那幾天。一九九〇年十二月十九號，"
                 "一位老人家在 Igloolik 的社區廣播宣布：冬至到了——因為他看見了 Aagjuuk。",
              note="緩推"),
         dict(code="12", kind="Z", sec=19, north=True,
              frames=[AAG3, AAGX], layers=["晨", "擔"], labels=ls("Aagjuuk", "跨文化-扁擔"),
              labels_start=ls("Aagjuuk"),          # 起格＝11 迄格（fov 27）：名稱表會被右緣切掉，迄格才開
-             vo="在阿拉斯加，這兩顆星是「兩道陽光」：太陽回來時射出的頭兩道光。往南走，同一排星卻常常是一根扁擔："
-                "中國的牛郎挑著兩個孩子；阿努塔島民、羅馬尼亞人，也都看見有人挑著擔子。",
+             vo="在阿拉斯加，這兩顆星是「兩道陽光」：太陽回來時射出的兩道光。往南走，同一排星卻常常是一根扁擔："
+                "中國的牛郎挑著兩個孩子；阿努塔有一根挑芋頭的扁擔，羅馬尼亞有挑著扁擔的公主。",
              note="拉遠；扁擔線（綠：河鼓三—牛郎—河鼓一）淡入；跨文化名稱表在右邊（西）"),
         dict(code="13", kind="Z", sec=17, north=True, cut=True,
              frames=[ORI1, ORI2], layers=["獵"], labels=ls("追熊"),
@@ -423,7 +424,7 @@ def build():
              frames=[SIR], layers=["獵"], labels=[],
              overlay="C-A14-04_太陽回來", overlay_layers=["油燈層", "半邊笑層"],
              vo="一月中，太陽終於回來。孩子們挨家挨戶，把每一盞海豹油燈吹熄，換上新燈芯，再從同一把新火點亮。"
-                "第一個看見太陽的人，只能用半邊臉笑：一邊歡迎溫暖，另一邊知道——冷，還沒過完。",
+                "那天看見太陽的人，只能用半邊臉笑：一邊歡迎溫暖，另一邊知道——冷，還沒過完。",
              note="畫面不動；定格疊概念圖 C-A14-04 太陽回來（油燈 → 半邊笑）"),
         dict(code="17", kind="Z", sec=12, north=True,
              frames=[SIR, WIDE], layers=["獵"], labels=ls("追熊", "天狼星"),
@@ -438,9 +439,9 @@ def build():
              note="定格疊 9:16 圖卡 這週末抬頭看（台北 12/19；可存圖）"),
         dict(code="19", kind="Z", sec=7, north=True,
              frames=[WIDE, END], layers=["獵"], labels=[],
-             vo="下週五是聖誕節，我們去北歐：Yule 之夜的狼與神駒。",
+             vo="下週五聖誕節，我們去北歐：這群狗，在維京人眼裡是一張狼嘴。",
              card="下集見｜北歐：Yule 之夜的狼與神駒",
-             note="推近腰帶；端卡＋追蹤 CTA"),
+             note="推近畢宿（狗群 Qimmiit＝北歐的狼嘴 Ulf's Keptr，Stellarium norse 用同一組五顆星）；端卡＋追蹤 CTA"),
     ]
     print("\n── 旁白字數 ──")
     tot_u = 0
@@ -492,7 +493,7 @@ def build():
         terms[orig] = dict(hips=hips, 原文=orig, 拼音="", 英文翻譯=en, 中文=zh, 顏色=col,
                            來源備註=(f"Stellarium 拼法 {sc}；" if sc not in ("—", orig) else "") + note)
     json.dump({"ep": EP, "label_sets": [{"name": n, "items": it} for it, n in label_sets],
-               "terms": terms, "cross": [dict(原文=o, 中譯=z, 顏色="green") for o, z in CROSS],
+               "terms": terms, "cross": [dict(原文=o, 中譯=z, 顏色="green", 來源=src) for o, z, src in CROSS],
                "mains": MAINS, "lines": LINES_KEY, "line_groups": LINE_GROUPS,
                "rot_igloolik": ROT, "lst0": LST0, "phi": PHI},
               open(os.path.join(OUT, f"{EP}_標籤資料.json"), "w", encoding="utf-8"),

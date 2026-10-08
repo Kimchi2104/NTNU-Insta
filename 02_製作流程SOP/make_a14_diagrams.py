@@ -3,7 +3,7 @@
 
 C-A14-01 極夜（地平層、台北層、Igloolik層、極夜層）：冬至正午太陽高度 台北 +41.5° vs Igloolik −2.8°；
          2026–27 Igloolik 太陽 11/29 最後一次露臉 → 1 月中回來
-C-A14-02 星鐘（傍晚層、後半夜層、清晨層）：鎖骨 Quturjuuk 在 Igloolik 傍晚斜、後半夜擺平、清晨斜向另一邊
+C-A14-02 星鐘（傍晚層、後半夜層、清晨層）：鎖骨 Quturjuuk 在 Igloolik 傍晚斜、後半夜轉平、清晨斜向另一邊
 C-A14-03 Aagjuuk初見（地平層、十二月初層、第二週層、冬至層）：太陽在地平線下 12° 的同一個黎明時刻，
          牛郎星一天比一天高——十二月第二週第一次清楚露臉
 C-A14-04 太陽回來（油燈層、半邊笑層）：吹熄油燈、換燈芯、從同一把新火點亮；半邊臉笑
@@ -20,6 +20,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import c_series_base as CB
 from c_series_base import AMBER, BLUE, WHITE, GREEN, PURPLE, MW, T
 import gen_ep_assets as G
+import matplotlib.patheffects as PE
 
 BASE = G.find_base(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, "05_素材/A-14_因紐特/_概念圖")
@@ -109,7 +110,7 @@ def c01_horizon(ax):
     ax.plot([0.0, 0.0], [HZ1 - 0.20, 0.66], c=GREY, lw=1.0, alpha=.4, zorder=2)
 
 
-def _sight(ax, x0, alt, length, col, label, dashed=False):
+def _sight(ax, x0, alt, length, col, label, dashed=False, r_sun=0.045):
     a = math.radians(alt)
     xs, ys = x0 + 0.10, HZ1
     xe, ye = xs + length * math.cos(a), ys + length * math.sin(a)
@@ -117,7 +118,7 @@ def _sight(ax, x0, alt, length, col, label, dashed=False):
     r = 0.16
     th = [math.radians(alt * i / 30) for i in range(31)]
     ax.plot([xs + r * math.cos(t) for t in th], [ys + r * math.sin(t) for t in th], c=col, lw=1.4, zorder=5)
-    sun_icon(ax, xe, ye, 0.045, alpha=(0.55 if dashed else 1.0), dashed=dashed)
+    sun_icon(ax, xe, ye, r_sun, alpha=(0.55 if dashed else 1.0), dashed=dashed)
     return xe, ye
 
 
@@ -138,7 +139,7 @@ def c01_igloolik(ax):
         e = CB.Ellipse((x0 + 0.62, HZ1), 1.60 - 0.18 * k, 0.30 - 0.035 * k, fc=AMBER, ec="none", alpha=0.05,
                        zorder=2)
         ax.add_patch(e); e.set_clip_path(clip)
-    xe, ye = _sight(ax, x0, alt, 0.62, AMBER, "", dashed=True)
+    xe, ye = _sight(ax, x0, alt, 0.62, AMBER, "", dashed=True, r_sun=0.024)   # 整顆都在地平線下
     ctext(ax, x0 + 0.44, HZ1 - 0.13, f"{alt:.1f}°（在地平線下）".replace("-", "−"), 13, AMBER, z=10)
     ctext(ax, (x0 + x1) / 2, 0.60, "太陽躲在地平線下", 14, AMBER)
     ctext(ax, (x0 + x1) / 2, 0.53, "中午前後，南邊天空只透出微光", 11.5, WHITE, w="normal")
@@ -160,13 +161,14 @@ def c01_night(ax):
     ctext(ax, (X(datetime.date(2026, 12, 22)) + b) / 2, y, "太陽不升起：約一個半月", 12, BLUE, z=10)
     for d, lab, col, dy in [(datetime.date(2026, 11, 29), "11/29\n最後一次露臉", WHITE, -0.085),
                             (datetime.date(2026, 12, 18), "12/18\n今天", RED, 0.08),
-                            (datetime.date(2026, 12, 22), "12/22\n冬至", AMBER, -0.085),
+                            (datetime.date(2026, 12, 22), "12/21–22\n冬至", AMBER, -0.085),
                             (datetime.date(2027, 1, 12), "1/12–14\n回來", WHITE, -0.085)]:
         x = X(d)
         ax.plot([x, x], [y - 0.035, y + 0.035], c=col, lw=2.0, zorder=10)
         ax.text(x, y + dy, lab, fontproperties=CB.FP, fontsize=10.5, color=col, ha="center",
                 va="center", weight="bold", zorder=10, linespacing=1.15)
-    ctext(ax, 0.0, -0.81, "回來的日子看氣溫：愈冷，大氣折射愈強，太陽愈早露臉（1/12–14）", 10, GREY, w="normal", z=10)
+    ctext(ax, 0.0, -0.81, "回來的日子看氣溫：−30°C 約 1/12、+10°C 約 1/13（MacDonald 引 USNO 1990 是 1/14）", 10, GREY,
+          w="normal", z=10)
     ctext(ax, 0.0, -0.865, "PyEphem 自算（Igloolik 69.37°N，−30°C）；MacDonald《The Arctic Sky》p.101、107", 9,
           GREY, w="normal", z=10)
 
@@ -174,7 +176,7 @@ def c01_night(ax):
 # ══════════════════════ C-A14-02 星鐘（鎖骨） ══════════════════════
 QUT = ["Capella", "Menkalinan", "Castor", "Pollux"]
 CLOCK = [("2026/12/18 18:00", "傍晚 6 點", "斜向一邊", -0.62),
-         ("2026/12/19 01:00", "凌晨 1 點", "擺平了", 0.0),
+         ("2026/12/19 01:00", "凌晨 1 點", "轉平了", 0.0),
          ("2026/12/19 06:00", "清晨 6 點", "斜向另一邊", 0.62)]
 DIRS = [(0, "北"), (45, "東北"), (90, "東"), (135, "東南"), (180, "南"), (225, "西南"), (270, "西"),
         (315, "西北"), (360, "北")]
@@ -220,20 +222,28 @@ def _clock(ax, i):
     pts = {n: (xc + (p[0] - mx) * sc, yc + (p[1] - my) * sc) for n, p in P.items()}
     box(ax, xc - 0.29, -0.50, 0.58, 1.18, ec=GREY, fc="#0E1428", lw=1.0, z=1, alpha=0.9)
     ctext(ax, xc, 0.59, tlab, 16, WHITE)
-    ctext(ax, xc, 0.53, f"五車二在{dir_name(caz)}方，{calt:.0f}° 高", 11.5, GREY, w="normal")
+    calt_, caz_ = altaz(o, "Capella")
+    ctext(ax, xc, 0.53, f"五車二在{dir_name(caz_)}，{calt_:.0f}° 高", 11.5, GREY, w="normal")
     # 水平參考線（穿過五車二那一對的中點）
     hy = (pts["Capella"][1] + pts["Menkalinan"][1]) / 2
     ax.plot([xc - 0.25, xc + 0.25], [hy, hy], c=WHITE, lw=1.0, alpha=.35, ls=(0, (4, 4)), zorder=3)
     ctext(ax, xc - 0.255, hy + 0.022, "水平", 8.5, GREY, w="normal", ha="left")
+    # 北河那一對離切點約 30°，切平面會把它的傾角扭曲：改用它自己中點的切平面算「當地」傾角，
+    # 位置照五車二切平面、方向照自己的切平面（查核第 8 項）
+    Q, _, _ = gnomonic(o, ["Castor", "Pollux"], ("Castor", "Pollux"))
+    mxg = (pts["Castor"][0] + pts["Pollux"][0]) / 2; myg = (pts["Castor"][1] + pts["Pollux"][1]) / 2
+    dxg = (Q["Pollux"][0] - Q["Castor"][0]) * sc; dyg = (Q["Pollux"][1] - Q["Castor"][1]) * sc
+    pts["Castor"] = (mxg - dxg / 2, myg - dyg / 2); pts["Pollux"] = (mxg + dxg / 2, myg + dyg / 2)
+    ax.plot([mxg - 0.07, mxg + 0.07], [myg, myg], c=WHITE, lw=0.8, alpha=.25, ls=(0, (3, 4)), zorder=3)
     for a, b, lw, al in [("Capella", "Menkalinan", 4.5, 0.95), ("Castor", "Pollux", 2.0, 0.55)]:
         ax.plot([pts[a][0], pts[b][0]], [pts[a][1], pts[b][1]], c=GREEN, lw=lw, alpha=al, zorder=5,
                 solid_capstyle="round")
     for n, (x, y) in pts.items():
         v = S[HIP[n]][2]
         ax.scatter([x], [y], s=max(14, (5.6 - v) ** 2.2 * 5.5), c=WHITE, zorder=6, lw=0)
-    for n, lab, dy in [("Capella", "五車二", -0.045), ("Castor", "北河二", -0.045)]:
+    for n, lab, dx, dy in [("Capella", "五車二", 0.0, -0.045), ("Castor", "北河二", -0.075, 0.0)]:
         x, y = pts[n]
-        ctext(ax, x, y + dy, lab, 9, WHITE, w="normal", z=7)
+        ctext(ax, x + dx, y + dy, lab, 9, WHITE, w="normal", z=7)
     ax.annotate("", xy=(xc - 0.24, 0.47), xytext=(xc - 0.24, 0.39),
                 arrowprops=dict(arrowstyle="->", color=GREY, lw=1.2))
     ctext(ax, xc - 0.215, 0.43, "天頂", 8.5, GREY, w="normal", ha="left")
@@ -244,7 +254,7 @@ def c02_dusk(ax):
     T(ax, 0.0, 0.93, "鎖骨時鐘：Quturjuuk", 30, WHITE)
     T(ax, 0.0, 0.855, "Igloolik，12/18 傍晚 → 12/19 清晨；看最亮的五車二那一對", 14, GREY, w="normal")
     _clock(ax, 0)
-    ctext(ax, 0.0, -0.66, "Amaaq（Igloolik 長老）：傍晚斜一邊，後來像擺直了；天快亮時，又斜向另一邊", 12.5,
+    ctext(ax, 0.0, -0.66, "Amaaq（Igloolik 長老）：傍晚斜一邊，後來轉平，像伸直了；天快亮時，又斜向另一邊", 12.5,
           WHITE, w="normal")
     ctext(ax, 0.0, -0.73, "北河二、北河三那一對（細線）一整夜都斜著；指針是五車二那一對", 11, GREY, w="normal")
     ctext(ax, 0.0, -0.80, "MacDonald《The Arctic Sky》p.200；位置與傾角 PyEphem 自算", 9.5, GREY, w="normal")
@@ -321,7 +331,7 @@ def c03_solstice(ax):
     _first(ax, 2)
     ctext(ax, 0.0, -0.61, "1990/12/19：長老 Jacobie Avingnaq 在社區廣播宣布「冬至到了」——因為他看見了 Aagjuuk", 11,
           GREEN, w="normal", z=10)
-    ctext(ax, 0.0, -0.68, "也是辦冬至慶典 tivajuut、髭海豹靠岸的時候", 11, WHITE, w="normal", z=10)
+    ctext(ax, 0.0, -0.68, "也是辦冬至慶典 tivajuut、髭海豹游近岸冰的時候", 11, WHITE, w="normal", z=10)
     ctext(ax, 0.0, -0.75, "MacDonald《The Arctic Sky》p.44–51；位置 PyEphem 自算（Igloolik，−30°C）", 9.5, GREY,
           w="normal", z=10)
 
@@ -385,50 +395,52 @@ def c04_smile(ax):
     ctext(ax, cx + 0.34, cy - 0.04, "歡迎溫暖回來", 12, AMBER, w="normal", ha="left")
     ctext(ax, cx - 0.34, cy + 0.02, "這半邊不笑", 15, WHITE, ha="right")
     ctext(ax, cx - 0.34, cy - 0.04, "冷，還沒過完", 12, WHITE, w="normal", ha="right")
-    ctext(ax, 0.0, -0.67, "第一個看見太陽的人，只能用半邊臉笑（Piugaattuk：用左半邊）", 12.5, WHITE, w="normal")
+    ctext(ax, 0.0, -0.67, "太陽回來那天，看見它的人只能用半邊臉笑（Piugaattuk：用左半邊）", 12.5, WHITE, w="normal")
     ctext(ax, 0.0, -0.74, "Ijjangiaq：一邊歡迎溫暖，板著的那一邊承認——還會冷上好一陣子", 11, GREY, w="normal")
     ctext(ax, 0.0, -0.81, "MacDonald《The Arctic Sky》p.109–112", 9.5, GREY, w="normal")
 
 
 # ══════════════════════ C-A14-05 因紐特星名小辭典（9:16） ══════════════════════
 GLOSS = [("報時的星 qausiut「天亮的指標」", None, None, AMBER),
-         ("Aagjuuk", "牛郎星＋河鼓三", "十二月第二週第一次在黎明出現＝冬至；天天報曉", WHITE),
+         ("Aagjuuk", "牛郎星＋河鼓三", "十二月第二週首次在黎明出現＝冬至快到；天天報曉", WHITE),
          ("Akuttujuuk", "參宿四＋參宿五", "「相隔很遠的兩顆」：天黑前就看得到＝白天變長", WHITE),
          ("Quturjuuk", "五車二＋五車三、北河二＋北河三", "鎖骨：傍晚斜、後半夜平、清晨斜向另一邊", WHITE),
          ("Tukturjuit", "北斗七星", "馴鹿：快到半夜，用後腳站起來", WHITE),
          ("Amaruqjuit", "牧夫座三顆（Pelly Bay）", "追著馴鹿的狼群", WHITE),
          ("Nuutuittuq", "北極星", "從來不動的：在 Igloolik 快七十度高", WHITE),
-         ("Sivulliik", "大角＋牧夫 η", "在前面的兩顆：「倒過來掛了，該起床」", WHITE),
          ("長夜的故事", None, None, AMBER),
+         ("Sivulliik", "大角＋牧夫 η", "在前面的兩顆：老人追孤兒（大角＝老人）", WHITE),
          ("Ullaktut", "獵戶腰帶", "奔跑的人：追北極熊上了天", WHITE),
          ("Nanurjuk", "畢宿五", "北極熊（像北極熊的）", WHITE),
          ("Qimmiit", "畢宿 V 字", "狗群", WHITE),
-         ("Kingulliq", "參宿七／織女星", "落在後面的（掉手套的獵人／老奶奶）", WHITE),
-         ("Singuuriq", "天狼星", "閃個不停的：最高只有 4°", WHITE),
+         ("Kingulliq", "參宿七／織女星（Kingullialuk）", "落在後面的（掉手套的獵人／老奶奶）", WHITE),
+         ("Singuuriq", "天狼星", "閃個不停的：在 Igloolik 最高只有 4°", WHITE),
          ("Sikuliarsiujuittuq", "南河三", "不敢走上新冰的人（被殺害的大個子）", WHITE),
-         ("Qangiamariik", "獵戶座大星雲", "姪兒們：替獵人送衣服的孩子", WHITE),
+         ("Qangiamariik", "獵戶座大星雲", "姪甥們（Pelly Bay：給追熊獵人送衣服的孩子）", WHITE),
          ("冰屋裡的家當", None, None, AMBER),
          ("Pituaq", "仙后三顆亮星", "油燈的燈架", WHITE),
          ("Ursuutaattiaq", "仙后 W", "裝海豹油的皮袋", WHITE),
-         ("Sakiattiak", "昴宿", "胸骨", WHITE),
+         ("身體與天河", None, None, AMBER),
+         ("Sakiattiak", "昴宿", "胸骨（鎖骨見上）", WHITE),
          ("Aviguti", "銀河", "分隔線", WHITE)]
 
 
 def c05_card(ax):
     ctext(ax, 0.5, 0.962, "因紐特星名小辭典", 28, WHITE)
-    ctext(ax, 0.5, 0.930, "Igloolik 長老口述（拼法照 MacDonald《The Arctic Sky》）", 11.5, GREY, w="normal")
-    y = 0.893
+    ctext(ax, 0.5, 0.930, "Igloolik 長老口述為主（狼群、姪甥們是 Pelly Bay）；拼法照 MacDonald《The Arctic Sky》", 10.5, GREY,
+          w="normal")
+    y = 0.897
     for nat, west, zh, col in GLOSS:
         if west is None:
-            y -= 0.006
+            y -= 0.004
             ctext(ax, 0.06, y, nat, 13.5, col, ha="left")
             ax.plot([0.06, 0.94], [y - 0.014, y - 0.014], c=col, lw=1.0, alpha=.5)
-            y -= 0.036
+            y -= 0.033
             continue
         ctext(ax, 0.06, y + 0.008, nat, 12.5, AMBER, w="bold", ha="left")
         ctext(ax, 0.06, y - 0.011, west, 9, GREY, w="normal", ha="left")
         ctext(ax, 0.40, y - 0.002, zh, 10.5, col, w="normal", ha="left")
-        y -= 0.0385
+        y -= 0.0352
     ctext(ax, 0.5, 0.072, "Tauvikjuaq 大黑暗（極夜）　｜　qauppat 明天＝「如果天亮的話」", 11, GREEN, w="normal")
     ctext(ax, 0.5, 0.045, "Stellarium inuit 依同一本書改編；部分拼法不同（Akkuttujuuk、Qimmiitt…）", 8.5, GREY, w="normal")
     ctext(ax, 0.5, 0.018, "#萬國星空　#師大天文社", 11.5, WHITE, w="normal")
@@ -474,7 +486,9 @@ def sky_panel(ax, y0, y1, az0, az1, alt1, when, title, marks, lines=()):
         if h not in pos:
             continue
         x, y = pos[h]
-        ctext(ax, x + dx, y + dy, lab, 11, col, ha="left" if dx > 0 else ("right" if dx < 0 else "center"), z=12)
+        ax.text(x + dx, y + dy, lab, fontproperties=CB.FP, fontsize=11, color=col, weight="bold", va="center",
+                ha="left" if dx > 0 else ("right" if dx < 0 else "center"), zorder=12,
+                path_effects=[PE.withStroke(linewidth=4, foreground="#0E1428")])
 
 
 def c06_card(ax):
@@ -497,7 +511,7 @@ def c06_card(ax):
     lines = [("12/22（二）04:50 冬至：一年白天最短", AMBER),
              ("北斗（馴鹿）晚上 7 點才從北方地平線冒出頭，後半夜才爬高", WHITE),
              ("月亮（七成多亮）掛在頭頂附近，凌晨 2 點落下——往東西兩邊低空找星", WHITE),
-             ("同一時刻的 Igloolik：太陽 11/29 下山，要到 1 月中才回來", GREY),
+             ("這時候的 Igloolik：太陽 11/29 下山，要到 1 月中才回來", GREY),
              ("方位、高度、時刻：PyEphem 自算（含大氣折射）", GREY)]
     for i, (s, col) in enumerate(lines):
         ctext(ax, 0.5, 0.165 - i * 0.0255, s, 11 if col != GREY else 9.5, col, w="normal")

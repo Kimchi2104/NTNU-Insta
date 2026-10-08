@@ -25,18 +25,18 @@
 18,鏡頭07-中1,家當,燈架（仙后三顆亮星）,631,1218,56,#FFFFFF,631,1039,Pituaq-zh
 18,鏡頭07-中1,家當,Ursuutaattiaq,778,783,76,#6FA8FF,543,975,Ursuutaattiaq
 18,鏡頭07-中1,家當,海豹油袋（仙后 W）,778,837,56,#FFFFFF,543,975,Ursuutaattiaq-zh
-21,鏡頭08結束＝鏡頭09開始,Aagjuuk,Aagjuuk,402,1019,61,#FFC94A,605,1101,Aagjuuk
-21,鏡頭08結束＝鏡頭09開始,Aagjuuk,牛郎星＋河鼓三,402,1070,44,#FFFFFF,605,1101,Aagjuuk-zh
-22,鏡頭09結束,Aagjuuk,Aagjuuk,296,918,82,#FFC94A,566,1028,Aagjuuk
-22,鏡頭09結束,Aagjuuk,牛郎星＋河鼓三,296,987,59,#FFFFFF,566,1028,Aagjuuk-zh
-27,鏡頭09-概念圖收＝鏡頭10開始,Aagjuuk,Aagjuuk,296,918,82,#FFC94A,566,1028,Aagjuuk
-27,鏡頭09-概念圖收＝鏡頭10開始,Aagjuuk,牛郎星＋河鼓三,296,987,59,#FFFFFF,566,1028,Aagjuuk-zh
-28,鏡頭10結束＝鏡頭11開始,Aagjuuk,Aagjuuk,229,874,98,#FFC94A,553,1005,Aagjuuk
-28,鏡頭10結束＝鏡頭11開始,Aagjuuk,牛郎星＋河鼓三,229,957,70,#FFFFFF,553,1005,Aagjuuk-zh
-29,鏡頭11結束＝鏡頭12開始,Aagjuuk,Aagjuuk,195,844,109,#FFC94A,555,990,Aagjuuk
-29,鏡頭11結束＝鏡頭12開始,Aagjuuk,牛郎星＋河鼓三,195,936,78,#FFFFFF,555,990,Aagjuuk-zh
-30,鏡頭12結束,Aagjuuk,Aagjuuk,144,852,67,#FFC94A,365,942,Aagjuuk
-30,鏡頭12結束,Aagjuuk,牛郎星＋河鼓三,144,909,48,#FFFFFF,365,942,Aagjuuk-zh
+21,鏡頭08結束＝鏡頭09開始,Aagjuuk,Aagjuuk,605,1183,61,#FFC94A,605,1101,Aagjuuk
+21,鏡頭08結束＝鏡頭09開始,Aagjuuk,牛郎星＋河鼓三,605,1235,44,#FFFFFF,605,1101,Aagjuuk-zh
+22,鏡頭09結束,Aagjuuk,Aagjuuk,566,1137,82,#FFC94A,566,1028,Aagjuuk
+22,鏡頭09結束,Aagjuuk,牛郎星＋河鼓三,566,1206,59,#FFFFFF,566,1028,Aagjuuk-zh
+27,鏡頭09-概念圖收＝鏡頭10開始,Aagjuuk,Aagjuuk,566,1137,82,#FFC94A,566,1028,Aagjuuk
+27,鏡頭09-概念圖收＝鏡頭10開始,Aagjuuk,牛郎星＋河鼓三,566,1206,59,#FFFFFF,566,1028,Aagjuuk-zh
+28,鏡頭10結束＝鏡頭11開始,Aagjuuk,Aagjuuk,553,1137,98,#FFC94A,553,1005,Aagjuuk
+28,鏡頭10結束＝鏡頭11開始,Aagjuuk,牛郎星＋河鼓三,553,1220,70,#FFFFFF,553,1005,Aagjuuk-zh
+29,鏡頭11結束＝鏡頭12開始,Aagjuuk,Aagjuuk,555,1136,109,#FFC94A,555,990,Aagjuuk
+29,鏡頭11結束＝鏡頭12開始,Aagjuuk,牛郎星＋河鼓三,555,1228,78,#FFFFFF,555,990,Aagjuuk-zh
+30,鏡頭12結束,Aagjuuk,Aagjuuk,365,1031,67,#FFC94A,365,942,Aagjuuk
+30,鏡頭12結束,Aagjuuk,牛郎星＋河鼓三,365,1088,48,#FFFFFF,365,942,Aagjuuk-zh
 30,鏡頭12結束,跨文化-扁擔,Two Sunbeams,719,693,50,#7BD88F,351,963,跨-0
 30,鏡頭12結束,跨文化-扁擔,兩道陽光（阿拉斯加 Noatak 傳說）,719,747,40,#FFFFFF,351,963,跨-0-zh
 30,鏡頭12結束,跨文化-扁擔,Peggittyn,719,801,50,#7BD88F,351,963,跨-1
@@ -59,6 +59,14 @@
 32,鏡頭13結束＝鏡頭14開始,追熊,北極熊（畢宿五）,763,466,59,#FFFFFF,763,563,Nanurjuk-zh
 32,鏡頭13結束＝鏡頭14開始,追熊,Qimmiit,850,683,70,#FF6B6B,850,545,Qimmiit
 32,鏡頭13結束＝鏡頭14開始,追熊,狗群（畢宿）,850,757,54,#FFFFFF,850,545,Qimmiit-zh
+33,鏡頭14結束＝鏡頭15開始,追熊,Ullaktut,402,1095,86,#6FA8FF,402,999,Ullaktut
+33,鏡頭14結束＝鏡頭15開始,追熊,奔跑的人（腰帶）,402,1173,63,#FFFFFF,402,999,Ullaktut-zh
+33,鏡頭14結束＝鏡頭15開始,追熊,Nanurjuk,912,222,86,#FF6B6B,912,403,Nanurjuk
+33,鏡頭14結束＝鏡頭15開始,追熊,北極熊（畢宿五）,912,300,63,#FFFFFF,912,403,Nanurjuk-zh
+33,鏡頭14結束＝鏡頭15開始,追熊,Qimmiit,1004,531,75,#FF6B6B,1004,384,Qimmiit
+33,鏡頭14結束＝鏡頭15開始,追熊,狗群（畢宿）,1004,609,57,#FFFFFF,1004,384,Qimmiit-zh
+33,鏡頭14結束＝鏡頭15開始,參宿七,Kingulliq,586,1319,80,#FFFFFF,586,1237,Kingulliq
+33,鏡頭14結束＝鏡頭15開始,參宿七,落在後面的（參宿七）,586,1397,60,#FFFFFF,586,1237,Kingulliq-zh
 34,鏡頭15結束,天狼星,Singuuriq,336,1301,82,#FFFFFF,261,1222,Singuuriq
 34,鏡頭15結束,天狼星,閃個不停的（天狼星）,336,1370,59,#FFFFFF,261,1222,Singuuriq-zh
 39,鏡頭16-概念圖收＝鏡頭17開始,追熊,Ullaktut,778,840,76,#6FA8FF,778,754,Ullaktut

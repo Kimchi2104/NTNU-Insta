@@ -530,7 +530,7 @@ class Pages:
         for c in self.lab.get("cross", []):
             rows.append({"項目": "跨文化", "原文": c["原文"], "拼音": "",
                          "英文翻譯": c.get("英文", ""), "中文": c["中譯"],
-                         "顏色": HEX.get(c["顏色"], c["顏色"]), "來源／備註": "Stellarium"})
+                         "顏色": HEX.get(c["顏色"], c["顏色"]), "來源／備註": c.get("來源", "Stellarium")})
         seen = set()
         for ls in self.lab.get("label_sets", []):
             for it in ls["items"]:

@@ -207,8 +207,8 @@
           "text": "Aagjuuk",
           "color": "amber",
           "size": 1.6,
-          "dx": -9.0,
-          "dy": 3.65,
+          "dx": 0.0,
+          "dy": -3.65,
           "key": "Aagjuuk"
         },
         {
@@ -217,8 +217,8 @@
           "text": "牛郎星＋河鼓三",
           "color": "white",
           "size": 1.15,
-          "dx": -9.0,
-          "dy": 1.35,
+          "dx": 0.0,
+          "dy": -5.95,
           "key": "Aagjuuk-zh"
         }
       ]
@@ -491,7 +491,7 @@
       "英文翻譯": "Wolves",
       "中文": "狼群（Pelly Bay）",
       "顏色": "red",
-      "來源備註": "MacDonald p.82：Pelly Bay 的 Quttiutuqu 夫婦：追馴鹿的三匹狼；Paatsi Qaggutaq 指認為牧夫座（可能是 γ、β、δ）"
+      "來源備註": "MacDonald p.82：Pelly Bay 的 Quttiutuqu 夫婦：追馴鹿的三匹狼；Paatsi Qagutaaq 指認為牧夫座（可能是 γ、β、δ）"
     },
     "Quturjuuk": {
       "hips": [
@@ -534,7 +534,7 @@
       "英文翻譯": "Seal-skin Oil Container",
       "中文": "海豹油袋（仙后 W）",
       "顏色": "blue",
-      "來源備註": "Stellarium 拼法 Uqsuutaattiaq；MacDonald p.88–89：另一派長老把整個 W 叫這個名字（和 Pituaq 是兩種分法）"
+      "來源備註": "Stellarium 拼法 Uqsuutaattiaq；MacDonald p.88–89：另一派長老把整個 W 叫這個名字（和 Pituaq 是兩種分法）；書上第六顆是 κ Cas，本集連線照 Stellarium（η Cas）"
     },
     "Aagjuuk": {
       "hips": [
@@ -624,27 +624,32 @@
     {
       "原文": "Two Sunbeams",
       "中譯": "兩道陽光（阿拉斯加 Noatak 傳說）",
-      "顏色": "green"
+      "顏色": "green",
+      "來源": "MacDonald p.46、283（Hall 1975）；Stellarium inuit 英文名"
     },
     {
       "原文": "Peggittyn",
       "中譯": "帶來新年的光（楚科奇）",
-      "顏色": "green"
+      "顏色": "green",
+      "來源": "MacDonald p.45–46（Anisimov 1963）"
     },
     {
       "原文": "河鼓",
       "中譯": "牛郎挑著兩個孩子（中國）",
-      "顏色": "green"
+      "顏色": "green",
+      "來源": "中國民間七夕傳說；Stellarium chinese 河鼓一／二／三"
     },
     {
       "原文": "Te Aamonga",
       "中譯": "扁擔（阿努塔）",
-      "顏色": "green"
+      "顏色": "green",
+      "來源": "Stellarium anutan：The Carrying Stick（挑芋頭、椰子）"
     },
     {
       "原文": "Fata de împărat",
       "中譯": "挑擔的公主（羅馬尼亞）",
-      "顏色": "green"
+      "顏色": "green",
+      "來源": "Stellarium romanian：The Emperor's Daughter with a Yoke"
     }
   ],
   "mains": [
