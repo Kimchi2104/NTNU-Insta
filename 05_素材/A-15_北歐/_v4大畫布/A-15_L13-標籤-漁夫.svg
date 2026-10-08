@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T07:02:11.108834</dc:date>
+    <dc:date>2026-10-08T07:31:44.453108</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p3d35549184)">
+    <g clip-path="url(#p75dc157129)">
      <!-- Fiskikarlar -->
      <g style="fill: #6fa8ff" transform="translate(438.364057 734.461971) scale(0.06188 -0.06188)">
       <defs>
@@ -228,7 +228,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p3d35549184)">
+    <g clip-path="url(#p75dc157129)">
      <!-- 漁夫（獵戶腰帶） -->
      <g style="fill: #ffffff" transform="translate(436.223879 739.835619) scale(0.04641 -0.04641)">
       <defs>
@@ -794,7 +794,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p3d35549184)">
+    <g clip-path="url(#p75dc157129)">
      <!-- Friggerock -->
      <g style="fill: #b78aff" transform="translate(440.880625 713.474771) scale(0.05304 -0.05304)">
       <defs>
@@ -895,7 +895,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p3d35549184)">
+    <g clip-path="url(#p75dc157129)">
      <!-- Frigg 的紡紗桿（瑞典民間） -->
      <g style="fill: #ffffff" transform="translate(427.952004 719.112221) scale(0.04199 -0.04199)">
       <defs>
@@ -1514,7 +1514,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p3d35549184">
+  <clipPath id="p75dc157129">
    <rect x="0" y="0" width="936" height="1446.552214"/>
   </clipPath>
  </defs>

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T07:02:11.066247</dc:date>
+    <dc:date>2026-10-08T07:31:44.410336</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- Is lê -->
      <g style="fill: #ff6b6b" transform="translate(541.019634 678.716293) scale(0.05525 -0.05525)">
       <defs>
@@ -133,7 +133,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- 公牛的下顎（巴比倫） -->
      <g style="fill: #ffffff" transform="translate(525.533232 684.045683) scale(0.04199 -0.04199)">
       <defs>
@@ -609,7 +609,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- Coyatchicüra -->
      <g style="fill: #ff6b6b" transform="translate(528.679892 689.739328) scale(0.05525 -0.05525)">
       <defs>
@@ -867,7 +867,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- 鱷魚的嘴（Tikuna） -->
      <g style="fill: #ffffff" transform="translate(526.647935 695.502413) scale(0.04199 -0.04199)">
       <defs>
@@ -1410,7 +1410,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- Tapi'i rainhyka -->
      <g style="fill: #ff6b6b" transform="translate(526.549745 701.179328) scale(0.05525 -0.05525)">
       <defs>
@@ -1473,7 +1473,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- 貘的下巴（圖皮） -->
      <g style="fill: #ffffff" transform="translate(529.732232 706.942413) scale(0.04199 -0.04199)">
       <defs>
@@ -1757,7 +1757,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- Kama tâla -->
      <g style="fill: #ff6b6b" transform="translate(533.074425 713.036293) scale(0.05525 -0.05525)">
       <defs>
@@ -1893,7 +1893,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- 貘的下巴（洛科諾） -->
      <g style="fill: #ffffff" transform="translate(527.632732 718.382413) scale(0.04199 -0.04199)">
       <defs>
@@ -2163,7 +2163,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- Qimmiit -->
      <g style="fill: #ff6b6b" transform="translate(535.26198 724.197453) scale(0.05525 -0.05525)">
       <defs>
@@ -2197,7 +2197,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#p2ff05bd6b3)">
+    <g clip-path="url(#p4bb5696c92)">
      <!-- 狗群（因紐特） -->
      <g style="fill: #ffffff" transform="translate(531.831732 729.822413) scale(0.04199 -0.04199)">
       <defs>
@@ -2601,7 +2601,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p2ff05bd6b3">
+  <clipPath id="p4bb5696c92">
    <rect x="0" y="0" width="936" height="1446.552214"/>
   </clipPath>
  </defs>

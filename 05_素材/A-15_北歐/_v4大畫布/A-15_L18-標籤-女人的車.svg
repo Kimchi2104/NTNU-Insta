@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T07:02:11.252518</dc:date>
+    <dc:date>2026-10-08T07:31:44.614347</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pbbf9825701)">
+    <g clip-path="url(#p5857abf413)">
      <!-- Kvennavagn -->
      <g style="fill: #7bd88f" transform="translate(307.532092 392.222066) scale(0.19448 -0.19448)">
       <defs>
@@ -217,7 +217,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pbbf9825701)">
+    <g clip-path="url(#p5857abf413)">
      <!-- 女人的車（小熊） -->
      <g style="fill: #ffffff" transform="translate(301.416746 404.199746) scale(0.15912 -0.15912)">
       <defs>
@@ -569,7 +569,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pbbf9825701">
+  <clipPath id="p5857abf413">
    <rect x="0" y="0" width="936" height="1446.552214"/>
   </clipPath>
  </defs>

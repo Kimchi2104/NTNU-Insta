@@ -2,7 +2,7 @@
 """A-15 北歐：Yule 之夜的狼與神駒｜大畫布 v4.6
 
 論點：維京人沒有留下星圖。今天知道的北歐星名少得可憐——一本十二世紀冰島手抄本（GKS 1812 4to，
-Beckman & Kålund《Alfræði íslenzk II: Rímtöl》）在拉丁文天文學旁邊註的幾個名字，加上 Edda 裡
+Beckman & Kålund《Alfræði íslenzk II: Rímtöl》）最古老部分（約 1190–1200 年）一份拉丁文—冰島文詞彙表裡註的幾個名字，加上 Edda 裡
 明說被丟上天的兩樣東西（巨人 Þjazi 的眼睛、Aurvandil 的腳趾）。其中最有畫面的是畢宿的 V 字：
 Úlfs kjaptr「狼嘴」。北歐神話的天空一直在逃命：太陽被狼 Sköll 追、月亮被 Hati 追，太陽車由
 Árvakr、Alsviðr 兩匹神駒拉，黑夜騎 Hrímfaxi「霜鬃」；而狼嘴正好張在日月走的路（黃道）旁邊。
@@ -10,7 +10,7 @@ Beckman & Kålund《Alfræði íslenzk II: Rímtöl》）在拉丁文天文學�
 聖誕節在北歐叫 jul（Yule）：十世紀挪威國王 Hákon 立法把 Yule 挪到跟聖誕節同一天。
 奧丁有個名字叫 Jólnir；聖誕老人的八隻馴鹿＝Sleipnir 是近代的說法（八隻馴鹿最早見於 1823 年的詩）。
 
-來源：Stellarium norse（Jonas Persson；Rímtöl 註解的五個星座＋三個星名）、norse_edda（Eyermann／
+來源：Stellarium norse（Jonas Persson；Rímtöl 的五個星座＋三個星名）、norse_edda（Eyermann／
 Hoffmann：Úlfs Keptr 在月亮的路上、Þjazi 的眼睛＝北河二三的推測）；跨文化：babylonian_mulapin、
 tikuna、tupi、lokono、egyptian、chinese、inuit；Snorri《Gylfaginning》10–12、51、《Skáldskaparmál》
 （Þjazi、Aurvandil）、《Vafþrúðnismál》14、《Heimskringla・Hákonar saga góða》；PyEphem 自算。
@@ -96,7 +96,7 @@ def x_of(ra):
 
 
 # ══════════════════════════════════════════════════════════════════
-# 二、連線（Stellarium norse：Rímtöl 註解的星座；巨人之眼取 norse_edda）
+# 二、連線（Stellarium norse：Rímtöl 詞彙表的星座；巨人之眼取 norse_edda）
 # ══════════════════════════════════════════════════════════════════
 SC_NEW = os.path.join(BASE, "07_資料來源/Stellarium/stellarium-master/skycultures")
 NO = {}
@@ -178,26 +178,27 @@ def vo_units(t):
 # ══════════════════════════════════════════════════════════════════
 TERMS = [
     (HYADES, "Úlfs kjaptr", "Ulf's Keptr", "Wolf's Mouth", "狼嘴（畢宿）", "red",
-     "Rímtöl 註解（Beckman & Kålund 1914–16《Alfræði íslenzk II》p.72）；GKS 1812 4to 的星座表另寫 Vlfs kiopt"
-     "（Etheridge）；kjaptr＝嘴、顎（現代冰島語 kjaftur）"),
+     "GKS 1812 4to 最古老部分（約 1190–1200 年）的拉丁文—冰島文詞彙表寫 Ulfs keptr（Beckman & Kålund "
+     "1914–16《Alfræði íslenzk II: Rímtöl》p.72）；同一本手抄本十四世紀的星座篇另寫 Vlfs kiopt（Etheridge）；"
+     "kjaptr＝嘴、顎（現代冰島語 kjaftur）"),
     (BELT, "Fiskikarlar", "Fiskikarlar", "Fishermen", "漁夫（獵戶腰帶）", "blue",
-     "Rímtöl 註解；三顆＝三個漁夫"),
+     "GKS 1812 4to 詞彙表（Rímtöl p.72）；三顆＝三個漁夫"),
     (BELT, "Friggerock", "—", "Frigg's Distaff", "Frigg 的紡紗桿（瑞典民間）", "purple",
      "瑞典民間名（Grimm《Teutonic Mythology》；Schön 2004《Asa-Tors hammare》p.228 另記 Frejerock）"),
     ([CASTOR, POLLUX], "Þjaza augu", "Þjázis augu", "Thiazi's Eyes", "巨人 Þjazi 的眼睛（推測）", "amber",
      "《Skáldskaparmál》：奧丁把 Þjazi 的眼睛丟上天成兩顆星（《Hárbarðsljóð》19 說是 Thor）；"
      "哪兩顆不知道，北河二三是 norse_edda 的推測"),
     (DIPPER, "Karlvagn", "Karlvagn", "Man's Cart", "男人的車（北斗）", "amber",
-     "Rímtöl 註解；今天瑞典語 Karlavagnen"),
+     "GKS 1812 4to 詞彙表（Rímtöl p.72）；今天瑞典語 Karlavagnen"),
     ([POLARIS, KOCHAB, PHERKAD], "Kvennavagn", "Kvennavagn", "Woman's Cart", "女人的車（小熊）", "green",
-     "Rímtöl 註解"),
+     "GKS 1812 4to 詞彙表（Rímtöl p.72）"),
     ([POLARIS], "Leiðarstjarna", "Leidarstjarna", "Guide Star", "引路的星（北極星）", "amber",
-     "Stellarium norse：Leidarstjarna＝Polaris；1000 年時離北天極 6.2°（PyEphem）"),
+     "Stellarium norse：Leidarstjarna＝Polaris（引 Rímtöl pp.48–53，不確定在 12 世紀的詞彙表裡）；1000 年時離北天極 6.2°（PyEphem）"),
     ([CAPELLA, MENKALINAN, ELNATH], "Asar bardagi", "Asar Bardagi", "The Asar Battlefield", "眾神之戰（御夫）",
-     "purple", "Rímtöl 註解；字義有爭議，片中不唸"),
+     "purple", "Rímtöl p.72；Asar bardagi 是 Stellarium／Persson 的寫法（正規化應作 Ása bardagi？），字義有爭議，片中不唸"),
 ]
 # 跨文化：同一個 V 字（畢宿）＝嘴
-CROSS = [("Is lê", "公牛的下顎（巴比倫）", "Stellarium babylonian_mulapin 036 Jaw of the Bull；MUL.APIN I ii 1"),
+CROSS = [("Is lê", "公牛的下顎（巴比倫）", "Stellarium babylonian_mulapin 036 Jaw of the Bull；MUL.APIN I（Anu 之路）"),
          ("Coyatchicüra", "鱷魚的嘴（Tikuna）", "Stellarium tikuna 003 Cayman’s Jaw"),
          ("Tapi'i rainhyka", "貘的下巴（圖皮）", "Stellarium tupi 007 Tapir's Jawbone"),
          ("Kama tâla", "貘的下巴（洛科諾）", "Stellarium lokono 005 Jaw of the tapir（Rybka 2018）"),
@@ -328,8 +329,8 @@ def build():
              note="畫面不動；定格疊概念圖 C-A15-02（Sleipnir 八條腿 → 1821 一頭馴鹿 → 1823 八隻）"),
         dict(code="04", kind="Z", sec=23, north=True,
              frames=[WOLF1, WIDE0], layers=["狼"], labels=[],
-             vo="那維京人的天上，有哪些星座？說實話，留下來的很少。一本十二世紀的冰島手抄本，"
-                "在拉丁文天文學旁邊，順手註了幾個北歐名字；神話集 Edda 說，天空是巨人的頭蓋骨，"
+             vo="那維京人的天上，有哪些星座？說實話，留下來的很少。一本十二世紀末的冰島手抄本，"
+                "在一份拉丁文詞彙表裡，替幾個星座註上北歐名字；神話集 Edda 說，天空是巨人的頭蓋骨，"
                 "星星是火之國飛出來的火花——但明說被丟上天、變成某顆星的，只有兩樣。",
              note="拉遠到整片冬季星空"),
         dict(code="05", kind="Z", sec=10, north=True,
@@ -347,7 +348,7 @@ def build():
         dict(code="07", kind="Z", sec=13, north=True,
              frames=[WOLF2, ECL], layers=["狼", "路"], labels=ls("狼嘴"),
              vo="再看這條線：太陽和月亮走的路。狼嘴就張在路邊：月亮每個月、太陽每年初夏，"
-                "都要從它嘴邊經過。所以有人猜，它等著咬的，就是日月。",
+                "都要從它附近經過。所以有人猜，它等著咬的，就是日月。",
              note="拉遠；黃道（日月之路，淡藍灰）淡入，從昴宿和畢宿之間穿過"),
         dict(code="08", kind="Z", sec=19, north=True,
              frames=[ECL, CROSSF], layers=["狼"], labels=ls("狼嘴", "跨文化-同一個V字"),
@@ -363,7 +364,7 @@ def build():
         dict(code="10", kind="S", sec=22, north=True,
              frames=[FISH, GEM], layers=["眼"], labels=ls("巨人之眼"), labels_start=ls("漁夫"),
              vo="Edda 明說的那兩樣呢？巨人 Þjazi 被眾神殺死，奧丁把他的兩隻眼睛丟上天，成了兩顆星；"
-                "雷神 Thor 背著 Aurvandil 渡過冰河，凍僵的一根腳趾被他折下來，也丟上了天。是哪幾顆？沒人知道；"
+                "雷神 Thor 背著 Aurvandil 渡過結冰的河，凍僵的一根腳趾被他折下來，也丟上了天。是哪幾顆？沒人知道；"
                 "有人猜，那雙眼睛就是雙子座並排的這兩顆。",
              note="往左上（東北）滑到雙子；北河二—北河三（琥珀）＝巨人之眼（推測）"),
         dict(code="11", kind="R", sec=12, north=True, horizon=HZ,
@@ -395,7 +396,7 @@ def build():
              frames=[WEEKA, WEEKB], layers=["狼", "漁", "眼"], labels=ls("狼嘴", "漁夫", "巨人之眼"),
              overlay="C-A15-07_這週末抬頭看",
              vo="這週末在台灣：天黑後往東看，八點左右，畢宿五和狼嘴已經爬到半天高，腰帶在它右下方；"
-                "東北方雙子座的兩顆亮星旁邊，就是聖誕節的月亮——今晚去找找那雙巨人的眼睛。",
+                "東北東，雙子座的兩顆亮星旁邊，就是聖誕節的月亮——今晚去找找那雙巨人的眼睛。",
              note="【自動換組】北盤→長圖；畢宿＋腰帶 → 往東北滑到雙子；之後疊 9:16 圖卡 這週末抬頭看（台北 12/25；可存圖）"),
         dict(code="16", kind="S", sec=8, north=True,
              frames=[WEEKB, END], layers=["漁"], labels=ls("漁夫"), labels_start=ls("巨人之眼"),

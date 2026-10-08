@@ -314,7 +314,7 @@
       "英文翻譯": "Wolf's Mouth",
       "中文": "狼嘴（畢宿）",
       "顏色": "red",
-      "來源備註": "Stellarium 拼法 Ulf's Keptr；Rímtöl 註解（Beckman & Kålund 1914–16《Alfræði íslenzk II》p.72）；GKS 1812 4to 的星座表另寫 Vlfs kiopt（Etheridge）；kjaptr＝嘴、顎（現代冰島語 kjaftur）"
+      "來源備註": "Stellarium 拼法 Ulf's Keptr；GKS 1812 4to 最古老部分（約 1190–1200 年）的拉丁文—冰島文詞彙表寫 Ulfs keptr（Beckman & Kålund 1914–16《Alfræði íslenzk II: Rímtöl》p.72）；同一本手抄本十四世紀的星座篇另寫 Vlfs kiopt（Etheridge）；kjaptr＝嘴、顎（現代冰島語 kjaftur）"
     },
     "Fiskikarlar": {
       "hips": [
@@ -327,7 +327,7 @@
       "英文翻譯": "Fishermen",
       "中文": "漁夫（獵戶腰帶）",
       "顏色": "blue",
-      "來源備註": "Rímtöl 註解；三顆＝三個漁夫"
+      "來源備註": "GKS 1812 4to 詞彙表（Rímtöl p.72）；三顆＝三個漁夫"
     },
     "Friggerock": {
       "hips": [
@@ -369,7 +369,7 @@
       "英文翻譯": "Man's Cart",
       "中文": "男人的車（北斗）",
       "顏色": "amber",
-      "來源備註": "Rímtöl 註解；今天瑞典語 Karlavagnen"
+      "來源備註": "GKS 1812 4to 詞彙表（Rímtöl p.72）；今天瑞典語 Karlavagnen"
     },
     "Kvennavagn": {
       "hips": [
@@ -382,7 +382,7 @@
       "英文翻譯": "Woman's Cart",
       "中文": "女人的車（小熊）",
       "顏色": "green",
-      "來源備註": "Rímtöl 註解"
+      "來源備註": "GKS 1812 4to 詞彙表（Rímtöl p.72）"
     },
     "Leiðarstjarna": {
       "hips": [
@@ -393,7 +393,7 @@
       "英文翻譯": "Guide Star",
       "中文": "引路的星（北極星）",
       "顏色": "amber",
-      "來源備註": "Stellarium 拼法 Leidarstjarna；Stellarium norse：Leidarstjarna＝Polaris；1000 年時離北天極 6.2°（PyEphem）"
+      "來源備註": "Stellarium 拼法 Leidarstjarna；Stellarium norse：Leidarstjarna＝Polaris（引 Rímtöl pp.48–53，不確定在 12 世紀的詞彙表裡）；1000 年時離北天極 6.2°（PyEphem）"
     },
     "Asar bardagi": {
       "hips": [
@@ -406,7 +406,7 @@
       "英文翻譯": "The Asar Battlefield",
       "中文": "眾神之戰（御夫）",
       "顏色": "purple",
-      "來源備註": "Stellarium 拼法 Asar Bardagi；Rímtöl 註解；字義有爭議，片中不唸"
+      "來源備註": "Stellarium 拼法 Asar Bardagi；Rímtöl p.72；Asar bardagi 是 Stellarium／Persson 的寫法（正規化應作 Ása bardagi？），字義有爭議，片中不唸"
     }
   },
   "cross": [
@@ -414,7 +414,7 @@
       "原文": "Is lê",
       "中譯": "公牛的下顎（巴比倫）",
       "顏色": "red",
-      "來源": "Stellarium babylonian_mulapin 036 Jaw of the Bull；MUL.APIN I ii 1"
+      "來源": "Stellarium babylonian_mulapin 036 Jaw of the Bull；MUL.APIN I（Anu 之路）"
     },
     {
       "原文": "Coyatchicüra",

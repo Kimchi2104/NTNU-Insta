@@ -235,7 +235,7 @@ def c03_moon(ax):
     ctext(ax, -0.60, -0.22, "狼 Hati", 14, WHITE)
     CB.arrow(ax, (-0.10, -0.03), (-0.42, -0.03), c=RED, lw=2.4, alpha=.85)
     ctext(ax, -0.26, 0.035, "追", 14, RED)
-    ctext(ax, 0.62, -0.03, "到了諸神的黃昏，\n狼會把太陽吞下去", 12, RED, w="normal")
+    ctext(ax, 0.62, -0.03, "到了諸神的黃昏，\n狼會吞下太陽、抓走月亮", 12, RED, w="normal")
 
 
 def c03_horses(ax):
@@ -355,14 +355,14 @@ def c05_card(ax):
     ctext(ax, 0.5, 0.930, "金牛座的畢宿（Hyades），在世界各地被看成什麼？", 12, GREY, w="normal")
     hyades_drawing(ax, 0.5, 0.83, 0.060)
     rows = [("一張嘴、一副下巴", None, RED),
-            ("北歐", "Úlfs kjaptr　狼嘴（冰島手抄本，12 世紀）", RED),
+            ("北歐", "Úlfs kjaptr　狼嘴（冰島手抄本，約 1200 年）", RED),
             ("古巴比倫", "Is lê　公牛的下顎（MUL.APIN）", RED),
             ("亞馬遜 Tikuna", "Coyatchicüra　鱷魚的嘴", RED),
             ("巴西 圖皮", "Tapi'i rainhyka　貘的下巴", RED),
             ("蘇利南、蓋亞那 洛科諾", "Kama tâla　貘的下巴", RED),
             ("古埃及（重建）", "「下巴」", RED),
             ("一把夾子", None, AMBER),
-            ("阿努塔", "Te Angaanga　火鉗", AMBER),
+            ("阿努塔", "Te Angaanga　夾子", AMBER),
             ("萬那杜 Netwar", "Kou　夾熱石頭的鉗子", AMBER),
             ("其他", None, BLUE),
             ("中國", "畢　捕鳥兔的長柄網", BLUE),
@@ -388,20 +388,20 @@ def c05_card(ax):
     ctext(ax, 0.5, 0.020, "#萬國星空　#師大天文社", 11.5, WHITE, w="normal")
 
 
-GLOSS = [("冰島手抄本（12 世紀，拉丁文天文學旁的註解）", None, None, AMBER),
+GLOSS = [("冰島手抄本（約 1200 年，拉丁文—冰島文詞彙表）", None, None, AMBER),
          ("Úlfs kjaptr", "Ulf's Keptr", "狼嘴＝畢宿", RED),
          ("Fiskikarlar", "", "漁夫＝獵戶腰帶", BLUE),
          ("Karlvagn", "", "男人的車＝北斗", AMBER),
          ("Kvennavagn", "", "女人的車＝小熊", GREEN),
-         ("Leiðarstjarna", "Leidarstjarna", "引路的星＝北極星", AMBER),
-         ("Asar bardagi", "", "眾神之戰＝御夫（字義有爭議）", PURPLE),
+         ("Asar bardagi", "Stellarium 寫法", "眾神之戰＝御夫（字義有爭議）", PURPLE),
          ("Edda 神話（13 世紀，Snorri）", None, None, PURPLE),
          ("Þjaza augu", "", "巨人 Þjazi 的眼睛（哪兩顆不知道，常猜北河二、三）", WHITE),
          ("Aurvandils tá", "", "Aurvandil 的腳趾（哪顆不知道；Stellarium 放北冕座）", WHITE),
          ("Sköll／Hati", "", "追太陽、追月亮的兩匹狼", RED),
          ("Árvakr、Alsviðr", "", "拉太陽車的「早起」「飛快」", AMBER),
          ("Hrímfaxi／Skinfaxi", "", "黑夜的「霜鬃」、白天的「亮鬃」", BLUE),
-         ("民間與今天", None, None, GREEN),
+         ("其他星名與今天", None, None, GREEN),
+         ("Leiðarstjarna", "Leidarstjarna", "引路的星＝北極星（Stellarium 收錄）", AMBER),
          ("Friggerock", "", "Frigg 的紡紗桿＝獵戶腰帶（瑞典民間）", PURPLE),
          ("Karlavagnen", "", "北斗（今天的瑞典語）", AMBER),
          ("jul／jól", "", "聖誕節（＝Yule）", GREEN)]
@@ -409,7 +409,7 @@ GLOSS = [("冰島手抄本（12 世紀，拉丁文天文學旁的註解）", Non
 
 def c06_card(ax):
     ctext(ax, 0.5, 0.962, "北歐星名小辭典", 28, WHITE)
-    ctext(ax, 0.5, 0.930, "古北歐語（拼法照正規化寫法；Stellarium 另有寫法）", 10.5, GREY, w="normal")
+    ctext(ax, 0.5, 0.930, "古北歐語（多數照正規化寫法；Stellarium 另有寫法）", 10.5, GREY, w="normal")
     y = 0.893
     for nat, west, zh, col in GLOSS:
         if west is None:
@@ -423,7 +423,7 @@ def c06_card(ax):
             ctext(ax, 0.06, y - 0.012, west, 8.5, GREY, w="normal", ha="left")
         ctext(ax, 0.37, y, zh, 10.5, col, w="normal", ha="left")
         y -= 0.040
-    ctext(ax, 0.5, 0.060, "維京人沒有留下星圖：這些就是留下來的全部線索", 11, GREEN, w="normal")
+    ctext(ax, 0.5, 0.060, "維京人沒有留下星圖：這些是留下來的主要線索", 11, GREEN, w="normal")
     ctext(ax, 0.5, 0.036, "Beckman & Kålund《Alfræði íslenzk II》；Snorri《Edda》；Stellarium norse、norse_edda", 8.5,
           GREY, w="normal")
     ctext(ax, 0.5, 0.012, "#萬國星空　#師大天文社", 11.5, WHITE, w="normal")
@@ -504,7 +504,7 @@ def c07_card(ax):
                ("Sirius", "天狼星", WHITE, 0.03, 0.0)],
               lines=[([26727, 26311, 25930], BLUE), (["Aldebaran", 20894, 20205, 20455, 20889], RED),
                      (["Castor", "Pollux"], AMBER)], moon=True)
-    lines = [("月亮 18:33 從東北東升起，整晚就在北河三旁邊（相距約 4.5°）", WHITE),
+    lines = [("月亮 18:33 從東北東升起；傍晚到午夜，離北河三約 5°", WHITE),
              ("巨人 Þjazi 的眼睛＝北河二、三？Edda 沒說是哪兩顆，這是後人的猜測", GREY),
              ("晚上 10 點，畢宿五幾乎爬到頭頂（高度 81°）", WHITE),
              ("北斗的斗口晚上 8 點左右才在北北東低空露臉（後半夜才爬高）", WHITE),

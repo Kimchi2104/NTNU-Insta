@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T07:02:11.145941</dc:date>
+    <dc:date>2026-10-08T07:31:44.495009</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p80dcac4763)">
+    <g clip-path="url(#p645e33a3fb)">
      <!-- Þjaza augu -->
      <g style="fill: #ffc94a" transform="translate(360.4976 655.453619) scale(0.05304 -0.05304)">
       <defs>
@@ -213,7 +213,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p80dcac4763)">
+    <g clip-path="url(#p645e33a3fb)">
      <!-- 巨人 Þjazi 的眼睛（推測） -->
      <g style="fill: #ffffff" transform="translate(350.830231 659.98981) scale(0.03978 -0.03978)">
       <defs>
@@ -754,7 +754,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p80dcac4763">
+  <clipPath id="p645e33a3fb">
    <rect x="0" y="0" width="936" height="1446.552214"/>
   </clipPath>
  </defs>
