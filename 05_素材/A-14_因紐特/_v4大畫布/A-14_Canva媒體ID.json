@@ -1,0 +1,24 @@
+{
+  "design_id": "DAHWtNu0E_8",
+  "design_title": "A-14 因紐特",
+  "commit": "4b4b10ef7f77492a7e96f6b7aa5ac7a1107573d7",
+  "layers": {
+    "北盤L1-銀河": "MAHXYr8Ielc",
+    "北盤L2-星點": "MAHXYtRABeg",
+    "北盤L3-經緯線": "MAHXYsohznM",
+    "北盤L5-連線-馴鹿與鎖骨": "MAHXYo9Uihc",
+    "北盤L6-連線-狼群": "MAHXYtpQTV4",
+    "北盤L7-連線-燈架與油袋": "MAHXYvDWjSI",
+    "北盤L11-主角星白點": "MAHXYlaol5g",
+    "L1-銀河": "MAHXYuQfEz8",
+    "L2-星點": "MAHXYg0OhVA",
+    "L3-經緯線": "MAHXYgTkzhc",
+    "L8-連線-Aagjuuk": "MAHXYkqN3hs",
+    "L9-連線-扁擔": "MAHXYhgNL7c",
+    "L10-連線-追熊": "MAHXYoKDIuo",
+    "L11-主角星白點": "MAHXYmBIouQ"
+  },
+  "mountain": "MAD4KTwSGtw",
+  "background": "MAHWs5D_MpY",
+  "concept": {}
+}

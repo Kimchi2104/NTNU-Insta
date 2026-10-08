@@ -261,7 +261,7 @@ def build():
     LB_QUT = term("Quturjuuk", 0.0, 0.0, True, s1=4.4, s2=3.6, gap=4.6)
     LB_CAS = term("Pituaq", 0.0, -6.5, s1=1.9, s2=1.4) + term("Ursuutaattiaq", 10.0, 7.0, s1=1.9, s2=1.4)
     # ── 長圖 ──
-    LB_AAG = term("Aagjuuk", -9.0, 2.5, s1=1.6, s2=1.15)
+    LB_AAG = term("Aagjuuk", 0.0, -4.8, s1=1.6, s2=1.15)        # 放在牛郎星下方：12 迄格（fov 44）左邊不夠放
     LB_VEGA = term("Kingullialuk", 0.0, -3.4, s1=1.4, s2=1.0)
     LB_CROSS = []
     for i, (orig, zh) in enumerate(CROSS):
@@ -414,6 +414,7 @@ def build():
              note="往下推到參宿七；迄格加「Kingulliq 落在後面的」"),
         dict(code="15", kind="S", sec=18, north=True,
              frames=[ORI3, SIR], layers=["獵"], labels=ls("天狼星"),
+             labels_start=ls("追熊", "參宿七"),       # 起格＝14 迄格：旁白剛唸到參宿七
              overlay="C-A14-05_因紐特星名小辭典",
              vo="再往下是天狼星。在 Igloolik，它最高只爬到四度，貼著地平線閃個不停，所以叫 Singuuriq。"
                 "老人說，有人困在漂走的海冰上：一個跟著天狼星走，再也沒回來；其他人跟著北邊的織女星，回到了岸邊。",
