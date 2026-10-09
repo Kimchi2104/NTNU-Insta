@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-09T11:39:22.742353</dc:date>
+    <dc:date>2026-10-09T11:47:00.173427</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p13774b2905)">
+    <g clip-path="url(#p9da6ff8b42)">
      <!-- Mabukuli -->
      <g style="fill: #6fa8ff" transform="translate(457.337453 623.684813) scale(0.0663 -0.0663)">
       <defs>
@@ -234,7 +234,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p13774b2905)">
+    <g clip-path="url(#p9da6ff8b42)">
      <!-- 沒有大腿的人（洛科諾） -->
      <g style="fill: #ffffff" transform="translate(451.108879 628.397053) scale(0.03978 -0.03978)">
       <defs>
@@ -844,7 +844,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p13774b2905)">
+    <g clip-path="url(#p9da6ff8b42)">
      <!-- Kama tâla -->
      <g style="fill: #6fa8ff" transform="translate(491.171332 575.12567) scale(0.06188 -0.06188)">
       <defs>
@@ -1001,7 +1001,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p13774b2905)">
+    <g clip-path="url(#p9da6ff8b42)">
      <!-- 貘的下巴（畢宿） -->
      <g style="fill: #ffffff" transform="translate(488.559596 580.17383) scale(0.0442 -0.0442)">
       <defs>
@@ -1366,7 +1366,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p13774b2905">
+  <clipPath id="p9da6ff8b42">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>

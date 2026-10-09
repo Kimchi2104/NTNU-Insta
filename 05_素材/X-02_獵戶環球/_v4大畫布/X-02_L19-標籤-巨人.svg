@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-09T11:39:22.692713</dc:date>
+    <dc:date>2026-10-09T11:47:00.117868</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p2bcc0135ec)">
+    <g clip-path="url(#p4e154d7c13)">
      <!-- SIPA.ZI.AN.NA -->
      <g style="fill: #b78aff" transform="translate(443.28318 636.708993) scale(0.04641 -0.04641)">
       <defs>
@@ -194,7 +194,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p2bcc0135ec)">
+    <g clip-path="url(#p4e154d7c13)">
      <!-- 安努的忠實牧人（巴比倫） -->
      <g style="fill: #ffffff" transform="translate(440.097879 640.365113) scale(0.03315 -0.03315)">
       <defs>
@@ -846,7 +846,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p2bcc0135ec)">
+    <g clip-path="url(#p4e154d7c13)">
      <!-- Ὠρίων -->
      <g style="fill: #ffffff" transform="translate(452.822247 645.609575) scale(0.04641 -0.04641)">
       <defs>
@@ -985,7 +985,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p2bcc0135ec)">
+    <g clip-path="url(#p4e154d7c13)">
      <!-- 獵人俄里翁（希臘） -->
      <g style="fill: #ffffff" transform="translate(445.070379 649.465113) scale(0.03315 -0.03315)">
       <defs>
@@ -1580,7 +1580,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p2bcc0135ec)">
+    <g clip-path="url(#p4e154d7c13)">
      <!-- al-Jawzā -->
      <g style="fill: #6fa8ff" transform="translate(450.661644 654.85787) scale(0.04641 -0.04641)">
       <defs>
@@ -1747,7 +1747,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p2bcc0135ec)">
+    <g clip-path="url(#p4e154d7c13)">
      <!-- 一位女子（阿拉伯） -->
      <g style="fill: #ffffff" transform="translate(445.070379 658.565113) scale(0.03315 -0.03315)">
       <defs>
@@ -2060,7 +2060,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p2bcc0135ec">
+  <clipPath id="p4e154d7c13">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>

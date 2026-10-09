@@ -1,0 +1,26 @@
+{
+ "design_id": "DAHWtE3JZlQ",
+ "design_title": "X-02 全世界都認得的三顆星",
+ "commit": "75125c7cbbe9ef85f8a971b4faf3b3abc9cd04b8",
+ "layers": {
+  "L1-銀河": "MAHXgyp2ALo",
+  "L2-星點": "MAHXg9NKd8M",
+  "L3-經緯線": "MAHXg4NXDu8",
+  "L5-連線-獵戶（定位）": "MAHXg8CGNrY",
+  "L6-連線-腰帶": "MAHXg3djWdc",
+  "L16-主角星白點": "MAHXg4XmXE4",
+  "L7-連線-Sah（埃及）": "MAHXg2L0vHo",
+  "L8-連線-安努的牧人（巴比倫）": "MAHXg76hDXE",
+  "L9-連線-老人（圖皮）": "MAHXg8B5P6Y",
+  "L10-連線-沒有大腿的人（洛科諾）": "MAHXg4EShTo",
+  "L11-連線-Wücütcha的腿（Tikuna）": "MAHXg5SSD_8",
+  "L12-連線-三塊爐石（馬雅）": "MAHXg3s-EUs",
+  "L15-深空天體": "MAHXg8vDTF0",
+  "L13-連線-鑽火棍（阿茲特克）": "MAHXgzNyTLo",
+  "L14-連線-第一個瘦長的人（納瓦荷）": "MAHXg7MJGgM"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {},
+ "concept_commit": null
+}

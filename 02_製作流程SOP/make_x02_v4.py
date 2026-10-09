@@ -326,34 +326,34 @@ def build():
              card="同一片星空，全世界都認得——這三顆星。",
              note="開場字卡；整片冬季星空推近獵戶，腰帶（琥珀）；迄格開三個名字"),
         dict(code="02", kind="Z", sec=23, north=True,
-             frames=[ORI], layers=["定位", "腰帶"], labels=[],
+             frames=[ORI], layers=["定位", "腰帶"], labels=[], labels_start=ls("開場"),
              overlay="C-X02-01_正東升起", overlay_layers=["北方層", "台北層", "南方層"],
              vo="為什麼全世界都認得？三顆差不多亮的星，排成一直線，前後不到三度——滿天很難再找到第二組這麼整齊的。"
                 "它們又差不多就躺在天赤道上：不管你在北極圈、台灣，還是紐西蘭，都看到它們從正東方升起、正西方落下。"
                 "只是到了南半球，整個獵戶是倒過來的。",
              note="畫面不動；定格疊概念圖 C-X02-01（北緯 65°→台北→南緯 41°，三地都從正東升起）"),
         dict(code="03", kind="Z", sec=20, north=True,
-             frames=[ORI, SAHF], layers=["Sah"], labels=ls("埃及"),
+             frames=[ORI, SAHF], layers=["Sah"], labels=ls("埃及"), labels_start=[],
              vo="最古老的紀錄之一在埃及：整個獵戶是星神 Sah，後來跟冥神歐西里斯合為一體。"
                 "四千多年前刻在金字塔裡的經文，對死去的法老說：你是那顆大星，是 Sah 的同伴，跟 Sah 一起走過天空。",
              note="拉遠往南；埃及 Sah（琥珀，往南延伸到天兔、天鴿）"),
         dict(code="04", kind="Z", sec=19, north=True,
-             frames=[SAHF, GIANT], layers=["牧人"], labels=ls("巨人"), labels_start=[],
+             frames=[SAHF, GIANT], layers=["牧人"], labels=ls("巨人"), labels_start=ls("埃及"),
              vo="兩河流域叫它「天神安努的忠實牧人」；希臘人說，他是獵人俄里翁，被一隻蠍子螫死——"
                 "所以蠍子一從東方升起，他就往西邊落下。同一個巨人，到了阿拉伯，卻是一位女子，叫 al-Jawzā。",
              note="推回獵戶；巴比倫的牧人（紫）；左邊三個名字"),
         dict(code="05", kind="S", sec=20, north=True,
-             frames=[GIANT, TUPI], layers=["老人"], labels=ls("圖皮"), labels_start=[],
+             frames=[GIANT, TUPI], layers=["老人"], labels=ls("圖皮"), labels_start=ls("巨人"),
              vo="到了南美洲，它變成一條腿。巴西的圖皮人說：一位老人的妻子愛上了他的弟弟，"
                 "砍斷了他膝蓋以下的腿；眾神可憐他，把他放上天——腰帶是他還在的那條腿，紅色的參宿四，標出斷掉的地方。",
              note="往右上（西北）滑；圖皮老人（綠，獵戶＋金牛＋昴宿）"),
         dict(code="06", kind="S", sec=19, north=True,
-             frames=[TUPI, LOKO], layers=["洛科諾"], labels=ls("洛科諾"), labels_start=[],
+             frames=[TUPI, LOKO], layers=["洛科諾"], labels=ls("洛科諾"), labels_start=ls("圖皮"),
              vo="南美北岸的洛科諾人說：一個打不到獵物的獵人，切下自己的腿，騙家人說是貘肉，後來上了天——"
                 "他的身體變成畢宿，就是上週說的「貘的下巴」；腰帶，叫「沒有大腿的人」。",
              note="推近；洛科諾（藍）：腰帶＋畢宿的 V"),
         dict(code="07", kind="S", sec=15, north=True,
-             frames=[LOKO, TIKU], layers=["腿"], labels=ls("Tikuna"), labels_start=[],
+             frames=[LOKO, TIKU], layers=["腿"], labels=ls("Tikuna"), labels_start=ls("洛科諾"),
              overlay="C-X02-02_一條腿", overlay_layers=["圖皮層", "洛科諾層", "提庫納層"],
              vo="亞馬遜的 Tikuna 人也說，這裡是一條腿——天上神獸 Wücütcha 的腿，腰帶是牠的腳趾。"
                 "三個民族，隔著上千公里，都在這三顆星上看見一條腿。",
@@ -364,18 +364,18 @@ def build():
                 "他們的營火是參宿七，下面那把劍，是撥火的棍子。",
              note="推近；腰帶（琥珀）；營火＝參宿七、撥火棍＝劍"),
         dict(code="09", kind="Z", sec=14, north=True,
-             frames=[FIRE, MAYA], layers=["爐石", "深空"], labels=ls("馬雅"), labels_start=[],
+             frames=[FIRE, MAYA], layers=["爐石", "深空"], labels=ls("馬雅"), labels_start=ls("澳洲的火"),
              vo="中美洲的馬雅人，看見的是創世的那一把火：參宿一、參宿六、參宿七，是火爐的三塊石頭，"
                 "中間那團獵戶座大星雲，是火冒出來的煙。",
              note="推近三角；馬雅三塊爐石（紅）＋M42 淡光"),
         dict(code="10", kind="Z", sec=15, north=True,
-             frames=[MAYA, AZT], layers=["鑽火", "深空"], labels=ls("阿茲特克"), labels_start=[],
+             frames=[MAYA, AZT], layers=["鑽火", "深空"], labels=ls("阿茲特克"), labels_start=ls("馬雅"),
              overlay="C-X02-03_三地的火", overlay_layers=["澳洲層", "馬雅層", "阿茲特克層"],
              vo="阿茲特克人說，這裡是鑽火的木棍。每五十二年，曆法走完一輪，所有的火都要熄掉，"
                 "祭司在山頂鑽出新的火；鑽不出來，太陽就不會再升起。",
              note="推近腰帶＋劍；阿茲特克鑽火棍（琥珀）；之後定格疊概念圖 C-X02-03（澳洲 → 馬雅 → 阿茲特克）"),
         dict(code="11", kind="Z", sec=20, north=True,
-             frames=[AZT, ORI], layers=["腰帶"], labels=[],
+             frames=[AZT, ORI], layers=["腰帶"], labels=[], labels_start=[],
              overlay="C-X02-05_腰帶的名字",
              vo="這幾個月，我們在這三顆星上看過：日本的犁、蒙古的三頭母鹿、西伯利亞打穀的人、那馬人的三匹斑馬、"
                 "因紐特奔跑的人、北歐的三個漁夫。全世界的名字，我們整理成一張圖卡，可以存起來。",
