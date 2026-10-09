@@ -1,0 +1,34 @@
+{
+ "design_id": "DAHWtFEggSE",
+ "design_title": "H - 冬至",
+ "commit": "6a03109bd907cca10c8ba60c3e529d687355895d",
+ "layers": {
+  "L1-銀河": "MAHXiHXfk24",
+  "L2-星點": "MAHXiNaVa30",
+  "L3-經緯線": "MAHXiE-XW1U",
+  "L5-連線-大四邊形（定位）": "MAHXiM_m7hE",
+  "L6-連線-室宿壁宿": "MAHXiH6eeZM",
+  "L7-連線-昴宿": "MAHXiNt1XTE",
+  "L8-連線-畢宿": "MAHXiG97Ct8",
+  "L9-連線-狼嘴（北歐）": "MAHXiN9MoPQ",
+  "L10-月亮（12-22 21-38）": "MAHXiOT0PyM",
+  "L11-主角星白點": "MAHXiOxRElw"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-HDZ-01_圭表_表與圭層_透明.png": "MAHXiBCTc48",
+  "C-HDZ-01_圭表_夏至層_透明.png": "MAHXiFmH1M8",
+  "C-HDZ-01_圭表_冬至層_透明.png": "MAHXiDYR7iA",
+  "C-HDZ-02_一年的影子_影長層_透明.png": "MAHXiEjtWKo",
+  "C-HDZ-02_一年的影子_一年層_透明.png": "MAHXiJlp5aQ",
+  "C-HDZ-02_一年的影子_一度層_透明.png": "MAHXiNyx33o",
+  "C-HDZ-03_折取其中_平頂層_透明.png": "MAHXiGKKgVI",
+  "C-HDZ-03_折取其中_兩天層_透明.png": "MAHXiE3zOTY",
+  "C-HDZ-03_折取其中_取中層_透明.png": "MAHXiCJCPFA",
+  "C-HDZ-04_四丈高表_八尺層_透明.png": "MAHXiILXpAc",
+  "C-HDZ-04_四丈高表_四丈層_透明.png": "MAHXiE_zOvY",
+  "C-HDZ-04_四丈高表_景符層_透明.png": "MAHXiCcrc20"
+ },
+ "concept_commit": "6a03109bd907cca10c8ba60c3e529d687355895d"
+}
