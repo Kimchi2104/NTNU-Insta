@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-09T11:57:29.893942</dc:date>
+    <dc:date>2026-10-09T12:03:15.193061</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pa67a0d6513)">
+    <g clip-path="url(#pfd57ee18e9)">
      <!-- ʼAtséʼetsʼózí -->
      <g style="fill: #6fa8ff" transform="translate(451.640052 639.200833) scale(0.06409 -0.06409)">
       <defs>
@@ -239,7 +239,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pa67a0d6513)">
+    <g clip-path="url(#pfd57ee18e9)">
      <!-- 第一個瘦長的人（納瓦荷） -->
      <g style="fill: #ffffff" transform="translate(447.845879 643.913073) scale(0.03757 -0.03757)">
       <defs>
@@ -874,7 +874,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pa67a0d6513">
+  <clipPath id="pfd57ee18e9">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>

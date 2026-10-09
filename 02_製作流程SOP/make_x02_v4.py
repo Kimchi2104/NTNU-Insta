@@ -243,9 +243,9 @@ def build():
     # ── 巨人 ──
     LB_SAH = pair(BELT, "Sah", -10.5, -17.0, 2.0, 1.25, 2.9, key="埃-Sah")
     # 三對疊在人形正下方（左側被巴比倫牧人的長線佔滿）
-    LB_GIANT = (pair(BELT, "SIPA.ZI.AN.NA", -3.0, -11.0, 1.05, 0.75, 1.6) +
-                pair(BELT, "Ὠρίων", -3.0, -14.5, 1.05, 0.75, 1.6) +
-                pair(BELT, "al-Jawzā", -3.0, -18.0, 1.05, 0.75, 1.6))
+    LB_GIANT = (pair(BELT, "SIPA.ZI.AN.NA", -3.0, -10.3, 0.95, 0.7, 1.45) +   # 最下一行要在山（Canva 模板 Y 1620）之上
+                pair(BELT, "Ὠρίων", -3.0, -13.4, 0.95, 0.7, 1.45) +
+                pair(BELT, "al-Jawzā", -3.0, -16.5, 0.95, 0.7, 1.45))
     # ── 一條腿 ──
     LB_TUPI = pair(BELT, "Tuivaé", 2.0, -12.5, 1.9, 1.3, 2.8)
     LB_LOKO = (pair(BELT, "Mabukuli", 2.0, -6.0, 1.5, 0.9, 2.2) +

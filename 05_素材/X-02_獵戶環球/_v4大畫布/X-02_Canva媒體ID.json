@@ -21,6 +21,20 @@
  },
  "mountain": "MAD4KTwSGtw",
  "background": "MAHWs5D_MpY",
- "concept": {},
- "concept_commit": null
+ "concept": {
+  "C-X02-01_正東升起_北方層_透明.png": "MAHXg8rPUmA",
+  "C-X02-01_正東升起_台北層_透明.png": "MAHXg9PJdy0",
+  "C-X02-01_正東升起_南方層_透明.png": "MAHXg9AKpq4",
+  "C-X02-02_一條腿_圖皮層_透明.png": "MAHXg6V_7QY",
+  "C-X02-02_一條腿_洛科諾層_透明.png": "MAHXg0G4c98",
+  "C-X02-02_一條腿_提庫納層_透明.png": "MAHXg_usFms",
+  "C-X02-03_三地的火_澳洲層_透明.png": "MAHXg5vzuWM",
+  "C-X02-03_三地的火_馬雅層_透明.png": "MAHXg9b-Ldw",
+  "C-X02-03_三地的火_阿茲特克層_透明.png": "MAHXg4bTQG0",
+  "C-X02-05_腰帶的名字_圖卡.png": "MAHXg9yJGg0",
+  "C-X02-04_年輕的巨星_亮度層_透明.png": "MAHXg6LVE9E",
+  "C-X02-04_年輕的巨星_年齡層_透明.png": "MAHXg00XbV0",
+  "C-X02-06_今晚往東南東看_圖卡.png": "MAHXhA7q7bM"
+ },
+ "concept_commit": "f10c67186c3c9010d15dc078bb3b69671b823494"
 }

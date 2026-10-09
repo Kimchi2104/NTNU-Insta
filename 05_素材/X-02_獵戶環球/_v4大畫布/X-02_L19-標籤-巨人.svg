@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-09T11:57:29.642230</dc:date>
+    <dc:date>2026-10-09T12:03:14.922835</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,9 +31,9 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pdef9fc38c3)">
+    <g clip-path="url(#pf55c6fdaf5)">
      <!-- SIPA.ZI.AN.NA -->
-     <g style="fill: #b78aff" transform="translate(443.28318 636.708993) scale(0.04641 -0.04641)">
+     <g style="fill: #b78aff" transform="translate(444.874103 634.929033) scale(0.04199 -0.04199)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-34" d="M 1690 -102 
 C 2669 -102 3315 397 3315 1197 
@@ -194,9 +194,9 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pdef9fc38c3)">
+    <g clip-path="url(#pf55c6fdaf5)">
      <!-- 安努的忠實牧人（巴比倫） -->
-     <g style="fill: #ffffff" transform="translate(440.097879 640.365113) scale(0.03315 -0.03315)">
+     <g style="fill: #ffffff" transform="translate(441.423879 638.279133) scale(0.03094 -0.03094)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-3c4e" d="M 4211 2688 
 C 4070 2010 3834 1466 3456 1037 
@@ -846,9 +846,9 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pdef9fc38c3)">
+    <g clip-path="url(#pf55c6fdaf5)">
      <!-- Ὠρίων -->
-     <g style="fill: #ffffff" transform="translate(452.822247 645.609575) scale(0.04641 -0.04641)">
+     <g style="fill: #ffffff" transform="translate(453.504689 642.808607) scale(0.04199 -0.04199)">
       <defs>
        <path id="DejaVuSerif-6e1" d="M 3500 513 
 L 4550 513 
@@ -985,9 +985,9 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pdef9fc38c3)">
+    <g clip-path="url(#pf55c6fdaf5)">
      <!-- 獵人俄里翁（希臘） -->
-     <g style="fill: #ffffff" transform="translate(445.070379 649.465113) scale(0.03315 -0.03315)">
+     <g style="fill: #ffffff" transform="translate(446.064879 646.313133) scale(0.03094 -0.03094)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-663c" d="M 2989 1760 
 L 2925 1696 
@@ -1580,9 +1580,9 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pdef9fc38c3)">
+    <g clip-path="url(#pf55c6fdaf5)">
      <!-- al-Jawzā -->
-     <g style="fill: #6fa8ff" transform="translate(450.661644 654.85787) scale(0.04641 -0.04641)">
+     <g style="fill: #6fa8ff" transform="translate(451.549857 651.002778) scale(0.04199 -0.04199)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-42" d="M 2925 -90 
 C 3174 -90 3366 13 3501 237 
@@ -1747,9 +1747,9 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pdef9fc38c3)">
+    <g clip-path="url(#pf55c6fdaf5)">
      <!-- 一位女子（阿拉伯） -->
-     <g style="fill: #ffffff" transform="translate(445.070379 658.565113) scale(0.03315 -0.03315)">
+     <g style="fill: #ffffff" transform="translate(446.064879 654.399133) scale(0.03094 -0.03094)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-2527" d="M 5382 3290 
 L 4979 2758 
@@ -2060,7 +2060,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pdef9fc38c3">
+  <clipPath id="pf55c6fdaf5">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>
