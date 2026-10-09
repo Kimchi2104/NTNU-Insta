@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-09T16:38:47.917481</dc:date>
+    <dc:date>2026-10-09T16:52:38.243460</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p7ab8e802b4)">
+    <g clip-path="url(#p03f5aa22f5)">
      <!-- 昴宿 -->
      <g style="fill: #ffc94a" transform="translate(319.120748 529.24348) scale(0.07514 -0.07514)">
       <defs>
@@ -189,7 +189,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p7ab8e802b4)">
+    <g clip-path="url(#p03f5aa22f5)">
      <!-- 日短星昴（《堯典》） -->
      <g style="fill: #ffffff" transform="translate(304.534748 534.81671) scale(0.0442 -0.0442)">
       <defs>
@@ -613,7 +613,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p7ab8e802b4">
+  <clipPath id="p03f5aa22f5">
    <rect x="0" y="0" width="936" height="1210.881978"/>
   </clipPath>
  </defs>

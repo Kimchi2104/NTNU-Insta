@@ -5,10 +5,10 @@ C-HDZ-01 圭表（表與圭層、夏至層、冬至層）：《周髀算經》�
          正午太陽在南、影子朝北
 C-HDZ-02 一年的影子（影長層、一年層、一度層）：登封（北緯 34.4°）八尺表的正午影長（計算值），
          兩次最長之間＝365¼ 日；周天 365¼ 度＝太陽一天走一度
-C-HDZ-03 折取其中（平頂層、兩天層、取中層）：祖沖之大明五年（461）建康實測三次（《宋書．律曆志》），
+C-HDZ-03 折取其中（平頂層、兩天層、取中層）：祖沖之大明五年（461）實測三次（《宋書・律曆志》；原文未載地點），
          影長相同的兩天取中＝十一月三日夜半後三十一刻
 C-HDZ-04 四丈高表（八尺層、四丈層、景符層）：郭守敬把表加高到四丈（橫梁離圭面四十尺），影長五倍；
-         景符＝有小孔的銅片，讓太陽的小亮影與橫梁的細影同時落在圭上（《元史．天文志》）
+         景符＝有小孔的銅片，讓太陽的小亮影與橫梁的細影同時落在圭上（《元史・天文志》）
 C-HDZ-05 一年有多長（9:16 圖卡；可存圖）
 C-HDZ-06 今天怎麼看（9:16 圖卡；台北 2026/12/22，PyEphem 自算）
 
@@ -175,7 +175,7 @@ def c02_degree(ax):
 
 
 # ══════════════════════ C-HDZ-03 折取其中 ══════════════════════
-# 祖沖之大明五年三次實測（《宋書．律曆志》）；日數以十一月三日 0 時為原點（十月小月 29 日）
+# 祖沖之大明五年三次實測（《宋書・律曆志》）；日數以十一月三日 0 時為原點（十月小月 29 日）
 ZU = [(-22, 10.775, "十月十日", "一丈七寸七分半"),
       (22, 10.8175, "十一月二十五日", "一丈八寸一分太"),
       (23, 10.75083, "十一月二十六日", "一丈七寸五分強")]
@@ -199,7 +199,7 @@ def py(L):
 
 def c03_flat(ax):
     T(ax, 0.0, 0.92, "折取其中：祖沖之怎麼找冬至", 28, WHITE)
-    T(ax, 0.0, 0.85, "南朝宋．大明五年（461）建康實測　《宋書．律曆志》", 13, GREY, w="normal")
+    T(ax, 0.0, 0.85, "南朝宋大明五年（461）實測　《宋書・律曆志》", 13, GREY, w="normal")
     ax.plot([PZ["x0"], PZ["x1"]], [PZ["y0"], PZ["y0"]], c=WHITE, lw=1.2, alpha=.5)
     ax.plot([PZ["x0"], PZ["x0"]], [PZ["y0"], PZ["y1"]], c=WHITE, lw=1.2, alpha=.5)
     for L in (10.0, 10.5, 11.0, 11.5):
@@ -222,7 +222,7 @@ def c03_flat(ax):
 def c03_two(ax):
     for t, L, d, v in ZU:
         ax.scatter([px(t)], [py(L)], s=120, c=BLUE, zorder=8, lw=0)
-    ctext(ax, px(-22), py(ZU[0][1]) - 0.08, f"{ZU[0][2]}\n{ZU[0][3]}", 12.5, BLUE, halo=True)
+    ctext(ax, px(-22) - 0.03, py(ZU[0][1]) - 0.02, f"{ZU[0][2]}\n{ZU[0][3]}", 12.5, BLUE, ha="right", halo=True)
     ctext(ax, px(22) - 0.02, py(ZU[1][1]) + 0.10, f"{ZU[1][2]}\n{ZU[1][3]}", 12, BLUE, ha="right", halo=True)
     ctext(ax, px(23) + 0.02, py(ZU[2][1]) - 0.09, f"{ZU[2][2]}\n{ZU[2][3]}", 12, BLUE, ha="left", halo=True)
 
@@ -249,14 +249,14 @@ B0X, B0Y, S4 = -0.84, -0.55, 0.0262
 
 def c04_eight(ax):
     T(ax, 0.0, 0.92, "四丈高表：把影子拉長五倍", 28, WHITE)
-    T(ax, 0.0, 0.85, f"元．郭守敬　登封冬至正午（太陽高約 {ALT_DF:.0f}°）", 13, GREY, w="normal")
+    T(ax, 0.0, 0.85, f"元代 郭守敬　以登封觀星台為例：冬至正午太陽高約 {ALT_DF:.0f}°", 13, GREY, w="normal")
     ax.plot([-0.95, 0.95], [B0Y, B0Y], c=WHITE, lw=1.2, alpha=.45, zorder=2)
     ax.add_patch(CB.Rectangle((B0X, B0Y - 0.03), 66 * S4, 0.03, fc=STONE, ec="none", alpha=.5, zorder=3))
     L8 = 8 / math.tan(math.radians(ALT_DF))
     ax.add_patch(CB.Rectangle((B0X + 0.03, B0Y), 0.02, 8 * S4, fc=WHITE, ec="none", zorder=7))
     ax.plot([B0X + 0.04, B0X + 0.04 + L8 * S4], [B0Y + 0.008, B0Y + 0.008], c=BLUE, lw=8, zorder=6,
             solid_capstyle="butt")
-    ctext(ax, B0X + 0.04 + L8 * S4 + 0.02, B0Y + 0.07, f"八尺表：影長約{chi(L8)}", 14, BLUE, ha="left")
+    ctext(ax, B0X + 0.04 + L8 * S4 + 0.02, B0Y + 0.07, "八尺表：影長約一丈三尺", 14, BLUE, ha="left")
 
 
 def c04_forty(ax):
@@ -268,7 +268,7 @@ def c04_forty(ax):
     tip = (xb + L40 * S4, B0Y)
     ax.plot([xb, tip[0]], [B0Y + 40 * S4, tip[1]], c=AMBER, lw=1.4, alpha=.5, ls=(0, (6, 4)), zorder=4)
     ax.plot([xb, tip[0]], [B0Y - 0.012, B0Y - 0.012], c=AMBER, lw=8, alpha=.85, zorder=6, solid_capstyle="butt")
-    ctext(ax, tip[0], B0Y - 0.07, f"四丈高表：影長約{chi(L40)}（五倍）", 14, AMBER, ha="right")
+    ctext(ax, tip[0], B0Y - 0.07, "四丈高表：影長約六丈四尺（五倍）", 14, AMBER, ha="right")
     ctext(ax, 0.0, -0.72, "影子越長，量得越細；可是影子的邊緣也越模糊", 15, WHITE, w="normal")
 
 
@@ -288,13 +288,13 @@ def c04_fu(ax):
     ax.plot([ix - 0.004, ix + 0.004], [gy - 0.004, gy + 0.03], c=CB.BG, lw=2.2, zorder=8)
     ctext(ax, ix + 0.07, gy + 0.075, "太陽的小亮影", 11.5, AMBER, ha="left", w="normal")
     ctext(ax, ix + 0.07, gy + 0.040, "＋橫梁的細影", 11.5, WHITE, ha="left", w="normal")
-    ctext(ax, 0.49, 0.215, "細影切過亮影正中央時讀數（《元史．天文志》）", 10.5, GREY, w="normal", z=10)
+    ctext(ax, 0.49, 0.215, "細影切過亮影正中央時讀數（《元史・天文志》）", 10.5, GREY, w="normal", z=10)
 
 
 # ══════════════════════ 9:16 圖卡 ══════════════════════
-YEARS = [("《尚書．堯典》", "366 日", "「期三百有六旬有六日」", 366.0, RED),
-         ("四分曆（戰國～東漢）", "365¼ 日", "四年 1461 日", 365.25, AMBER),
-         ("祖沖之《大明曆》（462）", "365.2428 日", "南朝宋", 365.2428148, AMBER),
+YEARS = [("《尚書・堯典》", "366 日", "「期三百有六旬有六日」", 366.0, RED),
+         ("古六曆（戰國）、四分曆（東漢）", "365¼ 日", "四年 1461 日", 365.25, AMBER),
+         ("祖沖之《大明曆》（462）", "365.2428 日", "南朝宋 462 年上表；510 年（梁）起施行", 365.2428148, AMBER),
          ("郭守敬等《授時曆》（1281）", "365.2425 日", "元；此值沿用南宋《統天曆》（1199）", 365.2425, GREEN),
          ("格里曆（1582）", "365.2425 日", "今天用的公曆", 365.2425, GREEN)]
 
@@ -310,7 +310,7 @@ def fmt_diff(d):
 
 def c05_card(ax):
     ctext(ax, 0.5, 0.955, "一年有多長？", 30, WHITE)
-    ctext(ax, 0.5, 0.920, "從冬至量到下一個冬至", 13, GREY, w="normal")
+    ctext(ax, 0.5, 0.920, "曆法裡的一年（回歸年）", 13, GREY, w="normal")
     x_line = 0.10
     y_top, step = 0.84, 0.122
     ax.plot([x_line, x_line], [y_top + 0.02, y_top - step * (len(YEARS) - 1) - 0.02], c=WHITE, lw=1.4, alpha=.35)
@@ -324,7 +324,8 @@ def c05_card(ax):
     y = y_top - len(YEARS) * step - 0.03
     box(ax, 0.06, y - 0.075, 0.88, 0.11, ec=WHITE, fc=PANEL, z=1, alpha=0.95)
     ctext(ax, 0.5, y - 0.005, "今天量到的一年：365.24219 日", 16, WHITE)
-    ctext(ax, 0.5, y - 0.048, "（平均回歸年，2000 年；右欄＝跟它比，一年多出多少）", 10, GREY, w="normal")
+    ctext(ax, 0.5, y - 0.040, "（平均回歸年，2000 年；右欄＝跟它比，一年多出多少）", 10, GREY, w="normal")
+    ctext(ax, 0.5, y - 0.064, "只量冬至到冬至，現在約 365.2427 日（地球軌道是橢圓）", 9.5, GREY, w="normal")
     ctext(ax, 0.5, 0.075, "授時曆和公曆用的是同一個數字，時間相差三百年", 12, GREEN, w="normal")
     ctext(ax, 0.5, 0.045, "《堯典》的 366 日是約數；曆法另用閏月讓月份對上季節", 9.5, GREY, w="normal")
     ctext(ax, 0.5, 0.016, "#萬國星空　#師大天文社", 11.5, WHITE, w="normal")
@@ -350,11 +351,12 @@ def compute_today():
     mo = ephem.Moon(); mo.compute(o)
     gp = ephem.FixedBody(); gp._ra = math.radians(3.309); gp._dec = math.radians(15.18); gp._epoch = ephem.J2000
     o.date = ephem.Date("2026/12/22 18:00") - 8 * ephem.hour; gp.compute(o)
+    a18 = ephem.star("Alcyone"); a18.compute(o)
     loc = lambda d: ephem.Date(d + 8 * ephem.hour).tuple()
     TODAY.update(sol=ephem.Date(sol).tuple(), noon=loc(tr), alt=alt, shadow=1 / math.tan(math.radians(alt)),
                  rise=loc(r), set=loc(s), daylen=(s - r) * 24, alc_t=loc(ta), alc_alt=math.degrees(alc.alt),
                  moon_ph=mo.phase, moon_sep=math.degrees(ephem.separation(mo, alc)),
-                 gp_alt=math.degrees(gp.alt), gp_az=math.degrees(gp.az))
+                 gp_alt=math.degrees(gp.alt), gp_az=math.degrees(gp.az), alc18_alt=math.degrees(a18.alt), alc18_az=math.degrees(a18.az))
     print(f"  · 今天：冬至 {TODAY['sol']}、正午 {TODAY['noon']} 高 {alt:.2f}° 影 {TODAY['shadow']:.3f} m、"
           f"晝長 {TODAY['daylen']:.3f} h、昴宿中天 {TODAY['alc_t']} 高 {TODAY['alc_alt']:.1f}°、"
           f"月 {TODAY['moon_ph']:.0f}% 距 {TODAY['moon_sep']:.1f}°、18:00 壁宿一 {TODAY['gp_alt']:.1f}°/{TODAY['gp_az']:.0f}°")
@@ -392,8 +394,8 @@ def c06_card(ax):
     rows = [(f"{hm(TODAY['sol'])}", "冬至交節", WHITE),
             (f"{hm(TODAY['rise'])}–{hm(TODAY['set'])}",
              f"白天 {int(TODAY['daylen'])} 小時 {round((TODAY['daylen'] % 1) * 60)} 分，一年最短", WHITE),
-            ("18:00", f"正南方高處（仰角約 {TODAY['gp_alt']:.0f}°）：東壁", BLUE),
-            ("", "飛馬座大四邊形東邊的兩顆星", GREY),
+            ("18:00", "頭頂附近：飛馬座大四邊形（室宿、壁宿）", BLUE),
+            ("", f"昴宿這時在東方，仰角約 {TODAY['alc18_alt']:.0f}°", GREY),
             (hm(TODAY["alc_t"]), f"昴宿到頭頂正上方（仰角 {TODAY['alc_alt']:.0f}°）", AMBER),
             ("", f"月亮 {TODAY['moon_ph']:.0f}%，就在昴宿東邊約 {TODAY['moon_sep']:.0f}°（12/24 滿月）", GREY)]
     y = 0.495
@@ -405,8 +407,8 @@ def c06_card(ax):
         y -= 0.055 if col != GREY else 0.06
     box(ax, 0.06, 0.085, 0.88, 0.085, ec=GREEN, fc=PANEL, z=1, alpha=0.95)
     ctext(ax, 0.5, 0.140, "《堯典》：日短星昴，以正仲冬", 14, GREEN)
-    ctext(ax, 0.5, 0.106, "古人在冬至黃昏看到昴宿；今天要等到晚上九點半過後", 11, WHITE, w="normal")
-    ctext(ax, 0.5, 0.050, "時刻、仰角：PyEphem 自算（台北，不含大氣折射）", 9.5, GREY, w="normal")
+    ctext(ax, 0.5, 0.106, "古人在冬至黃昏看到昴宿在正南方；今天它要到九點半過後才到正南（頭頂）", 10.5, WHITE, w="normal")
+    ctext(ax, 0.5, 0.050, "時刻、仰角：PyEphem 自算（台北；日出日落含標準折射，其餘不含）", 9.5, GREY, w="normal")
     ctext(ax, 0.5, 0.016, "#萬國星空　#師大天文社", 11.5, WHITE, w="normal")
 
 
