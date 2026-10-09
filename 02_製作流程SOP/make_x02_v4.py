@@ -7,7 +7,7 @@
 三條沒講過的線：
   ① 巨人：埃及的星神 Sah（金字塔經文：「你是那顆大星，Sah 的同伴」）、巴比倫「安努的忠實牧人」、
      希臘獵人俄里翁（被蠍子螫死，蠍子升起他就落下）、阿拉伯的女子 al-Jawzā。
-  ② 一條腿（南美）：圖皮的老人（妻子砍斷他膝下的腿；腰帶是他還在的那條腿，參宿四標出斷處）、
+  ② 一條腿（南美）：圖皮的老人（妻子砍斷他膝下的腿；腰帶是他好腿的膝蓋，參宿四標出斷處）、
      洛科諾的 Mabukuli「沒有大腿的人」（打不到獵物的獵人切下自己的腿騙家人是貘肉；身體＝畢宿
      「貘的下巴」，上週 A-15 講過）、Tikuna「Wücütcha 的腿」（腰帶是腳趾）。
   ③ 火：卡米拉羅伊的三個男孩 Birray Birray（參宿七是營火、劍是撥火棍）、馬雅的三塊爐石（參宿一、
@@ -22,7 +22,7 @@ PyEphem 自算。
 參數
   lst = 84 → 走廊（x=0）＝RA 84：腰帶中間的參宿二 x≈0；參宿四 −4.8、參宿七 +5.4、天狼 −17.3、
              畢宿五 +15、昴宿 +27。
-  D_s = 45、D_r = 49、D_fill = 0（與 A-05 相同；盤寬 ÷ 畫布寬 ＝ 0.698728）：埃及 Sah 最南到
+  D_s = 45、D_r = 49、D_fill = 0（與 A-05 相同；盤寬 ÷ 畫布寬 ＝ 0.698729）：埃及 Sah 最南到
              dec −35.5，圖皮老人最北到昴宿 +24.1，都在帶內。本集不用盤（照規定生成）。
 """
 import os, sys, json, math, csv, re
@@ -187,15 +187,15 @@ def write_custom(m, S, layers, discs=False):
 # ══════════════════════════════════════════════════════════════════
 TERMS = [
     ("參", "中國", "amber", "《史記．天官書》「參為白虎。三星直者，是為衡石」；A-12"),
-    ("Sah", "埃及", "amber", "Stellarium egyptian 005 Sah；Pyramid Texts §882（Faulkner Utt. 466）"),
+    ("Sah", "埃及", "amber", "Stellarium egyptian 005 Sah（Belmonte 重建）；Pyramid Texts §882（Faulkner Utt. 466，Pepi II 金字塔）"),
     ("Birray Birray", "澳洲（卡米拉羅伊）", "amber", "Stellarium kamilaroi：三個男孩；參宿七是營火、劍是撥火棍"),
     ("SIPA.ZI.AN.NA", "安努的忠實牧人（巴比倫）", "purple", "MUL.APIN I；Stellarium babylonian_mulapin"),
     ("Ὠρίων", "獵人俄里翁（希臘）", "white", "Aratus《Phaenomena》634–646：蠍子升起，他就落下"),
-    ("al-Jawzā", "一位女子（阿拉伯）", "blue", "Kunitzsch；Stellarium arabic；A-13"),
-    ("Tuivaé", "老人（圖皮）", "green", "Afonso：妻子砍斷他膝下的腿；腰帶＝還在的那條腿、參宿四＝斷處"),
+    ("al-Jawzā", "一位女子（阿拉伯）", "blue", "Kunitzsch；Stellarium arabic_arabian_peninsula（女子的名字）；A-13"),
+    ("Tuivaé", "老人（圖皮）", "green", "Afonso 2006：妻子砍斷他膝下的腿；腰帶＝好腿的膝蓋、參宿六＝腳、參宿四＝斷處"),
     ("Mabukuli", "沒有大腿的人（洛科諾）", "blue", "Stellarium lokono 004（Rybka 2018；Penard、de Goeje）"),
     ("Kama tâla", "貘的下巴（畢宿）", "blue", "Stellarium lokono 005；同一個故事裡獵人的身體；A-15"),
-    ("Wücütcha", "神獸的腿（Tikuna）", "purple", "Stellarium tikuna：Wücütcha's Leg，腰帶是腳趾"),
+    ("Wücütcha", "神獸的腿（Tikuna）", "purple", "Stellarium tikuna（Faulhaber、Vieira）：Wücütcha's Leg，腰帶是腳趾"),
     ("Oxib' Xk'ub'", "三塊爐石（馬雅）", "red", "Stellarium maya：Alnitak、Saiph、Rigel；M42＝創世之火的煙"),
     ("Mamalhuaztli", "鑽火棍（阿茲特克）", "amber", "Stellarium aztec：每 52 年的新火 toxiuh molpilia"),
     ("ʼAtséʼetsʼózí", "第一個瘦長的人（納瓦荷）", "blue", "Childrey《Star Trails Navajo》pp.58–60"),
@@ -331,7 +331,7 @@ def build():
              vo="為什麼全世界都認得？三顆差不多亮的星，排成一直線，前後不到三度——滿天很難再找到第二組這麼整齊的。"
                 "它們又差不多就躺在天赤道上：不管你在北極圈、台灣，還是紐西蘭，都看到它們從正東方升起、正西方落下。"
                 "只是到了南半球，整個獵戶是倒過來的。",
-             note="畫面不動；定格疊概念圖 C-X02-01（北緯 65°→台北→南緯 41°，三地都從正東升起）"),
+             note="畫面不動；定格疊概念圖 C-X02-01（北緯 69.6°→台北→南緯 41.3°，三地都從正東升起）"),
         dict(code="03", kind="Z", sec=20, north=True,
              frames=[ORI, SAHF], layers=["Sah"], labels=ls("埃及"), labels_start=[],
              vo="最古老的紀錄之一在埃及：整個獵戶是星神 Sah，後來跟冥神歐西里斯合為一體。"
@@ -345,7 +345,7 @@ def build():
         dict(code="05", kind="S", sec=20, north=True,
              frames=[GIANT, TUPI], layers=["老人"], labels=ls("圖皮"), labels_start=ls("巨人"),
              vo="到了南美洲，它變成一條腿。巴西的圖皮人說：一位老人的妻子愛上了他的弟弟，"
-                "砍斷了他膝蓋以下的腿；眾神可憐他，把他放上天——腰帶是他還在的那條腿，紅色的參宿四，標出斷掉的地方。",
+                "砍斷了他膝蓋以下的腿；眾神可憐他，把他放上天——腰帶是他那條好腿的膝蓋，紅色的參宿四，標出斷掉的地方。",
              note="往右上（西北）滑；圖皮老人（綠，獵戶＋金牛＋昴宿）"),
         dict(code="06", kind="S", sec=19, north=True,
              frames=[TUPI, LOKO], layers=["洛科諾"], labels=ls("洛科諾"), labels_start=ls("圖皮"),
@@ -383,7 +383,7 @@ def build():
         dict(code="12", kind="Z", sec=20, north=True,
              frames=[ORI, BELTC], layers=["深空"], labels=ls("星名"), labels_start=[],
              overlay="C-X02-04_年輕的巨星", overlay_layers=["亮度層", "年齡層"],
-             vo="它們其實是一群年輕的藍色巨星，每一顆都比太陽亮十幾萬倍以上，離我們大約一千到兩千光年。"
+             vo="它們其實是一群年輕的藍色巨星，每一顆都比太陽亮十幾萬倍以上，離我們大約一千兩百多光年。"
                 "它們才幾百萬歲——恐龍滅絕的時候，它們還沒出生；底下那團星雲，現在還在生出新的星星。",
              note="推近腰帶＋M42（不開連線）；之後定格疊概念圖 C-X02-04（亮度 → 年齡）"),
         dict(code="13", kind="Z", sec=22, north=True,

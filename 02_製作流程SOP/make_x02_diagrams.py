@@ -260,16 +260,16 @@ def c02_tupi(ax):
     T(ax, 0.0, 0.85, "隔著上千公里，都在獵戶的腰帶上看見一條腿", 13.5, GREY, w="normal")
     F = leg_panel(ax, 0, "圖皮（巴西）", "Tuivaé　老人", GREEN, LEG["tupi"],
                   [(HIP["Betelgeuse"], "斷掉的地方", RED, 0.02, 0.055),
-                   (HIP["Alnilam"], "還在的腿", GREEN, 0.095, -0.03)])
+                   (HIP["Alnilam"], "好腿的膝蓋", GREEN, 0.105, -0.03)])
     F.ring(ax, HIP["Betelgeuse"], 0.022, RED)
-    ctext(ax, COLS[0], -0.56, "妻子愛上他的弟弟，\n砍斷他膝蓋以下的腿；\n眾神可憐他，把他放上天", 11, WHITE,
+    ctext(ax, COLS[0], -0.56, "妻子愛上他的弟弟，\n砍斷他膝蓋以下的腿；\n腰帶是他好腿的膝蓋", 11, WHITE,
           w="normal", va="top")
 
 
 def c02_lokono(ax):
     F = leg_panel(ax, 1, "洛科諾（蘇利南、蓋亞那）", "Mabukuli　沒有大腿的人", BLUE, LEG["lokono"],
                   [(HIP["Aldebaran"], "身體＝畢宿", BLUE, 0.0, -0.06),
-                   (HIP["Alnilam"], "切下的腿", BLUE, 0.085, -0.035)])
+                   (HIP["Alnilam"], "沒有大腿的人", BLUE, 0.11, -0.035)])
     ctext(ax, COLS[1], -0.56, "打不到獵物的獵人\n切下自己的腿，騙家人是貘肉；\n身體變成畢宿（貘的下巴）", 11, WHITE,
           w="normal", va="top")
 
@@ -278,7 +278,7 @@ def c02_tikuna(ax):
     F = leg_panel(ax, 2, "Tikuna（亞馬遜）", "Wücütcha　神獸的腿", PURPLE, LEG["tikuna"],
                   [(HIP["Alnilam"], "腳趾", PURPLE, 0.075, 0.02)])
     ctext(ax, COLS[2], -0.56, "天上神獸 Wücütcha 的腿，\n腰帶是牠的腳趾", 11, WHITE, w="normal", va="top")
-    ctext(ax, 0.0, -0.93, "連線：Stellarium tupi、lokono、tikuna；圖皮的故事見 Afonso（巴西原住民天文）", 9, GREY,
+    ctext(ax, 0.0, -0.93, "連線：Stellarium tupi、lokono、tikuna；圖皮的故事見 Afonso 2006（圖皮—瓜拉尼天文）", 9, GREY,
           w="normal")
 
 
@@ -363,7 +363,7 @@ def c04_bright(ax):
                 arrowprops=dict(arrowstyle="-|>", color=BLUE, lw=7, alpha=.75, mutation_scale=28), zorder=5)
     ax.scatter([X(1.2e5)], [y], s=150, c="#CFE0FF", zorder=6, lw=0)
     ctext(ax, X(1.2e5) + 0.04, y + 0.075, "腰帶三星：每顆十幾萬倍以上", 13, BLUE, ha="right")
-    ctext(ax, -0.90, 0.20, "離我們大約 1,000～2,000 光年（這幾顆的距離本身就量不太準，各研究不同）", 11, GREY,
+    ctext(ax, -0.90, 0.20, "離我們大約 1,200～1,400 光年（這幾顆的距離本身就量不太準，各研究略有不同）", 11, GREY,
           w="normal", ha="left")
 
 
@@ -409,10 +409,10 @@ NAMES = [("數字「三」", None, None, AMBER),
          ("薩丁尼亞", "Sas Tres Marias", "三個瑪利亞", BLUE),
          ("南非 科薩", "amaKroza", "排成一列的人", BLUE),
          ("器物", None, None, GREEN),
-         ("日本", "からすきぼし", "唐犁星（犁）＊", GREEN),
+         ("日本", "からすきぼし", "唐鋤星（犁）＊", GREEN),
          ("羅馬尼亞", "Sfredelul mare", "大螺旋鑽＊", GREEN),
          ("亞馬遜 圖卡諾", "Sioyahpu", "錛的柄＊", GREEN),
-         ("萬那杜 Netwar", "Kasulia apam", "長的牛軛", GREEN),
+         ("萬那杜 Netwar", "Kasulia apam", "長軛", GREEN),
          ("動物", None, None, PURPLE),
          ("蒙古", "Гурван марал", "三頭母鹿", PURPLE),
          ("南部非洲 那馬", "—", "三匹斑馬", PURPLE)]
