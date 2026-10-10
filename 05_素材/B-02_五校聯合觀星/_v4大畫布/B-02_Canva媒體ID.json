@@ -1,0 +1,26 @@
+{
+ "design_id": "DAHXiIMk-Vs",
+ "design_title": "B-02 五校聯合觀測",
+ "layers": {
+  "L1-銀河": "MAHXkV-5hpo",
+  "L2-星點": "MAHXkYrBPHw",
+  "L3-經緯線": "MAHXkboxzEc",
+  "L4-星座連線": "MAHXkSWX_LI",
+  "L5-連線-夏季大三角": "MAHXkaGeyjQ",
+  "L6-連線-人馬": "MAHXkWnVvR0",
+  "L7-連線-飛馬仙女": "MAHXkRPpK3k",
+  "L8-連線-雙魚鯨魚玉夫": "MAHXkSXFrKU",
+  "L9-連線-金牛英仙御夫": "MAHXkUfZnDk",
+  "L10-連線-獵戶大犬雙子": "MAHXkXI1k48",
+  "L11-連線-獅子巨蟹": "MAHXkfyVclU",
+  "L12-連線-室女": "MAHXkc4PVyQ",
+  "L13-深空天體": "MAHXkRyYF_c",
+  "L14-行星標記": "MAHXkZJMWrw",
+  "L15-流星雨輻射點": "MAHXkUEJqHQ",
+  "L16-月亮（11-14 18-30）": "MAHXkZFAG9g",
+  "L17-主角星白點": "MAHXkebANn4"
+ },
+ "layers_commit": "3797dcc",
+ "mountain": "MAD4KTwSGtw",
+ "concept": {}
+}
