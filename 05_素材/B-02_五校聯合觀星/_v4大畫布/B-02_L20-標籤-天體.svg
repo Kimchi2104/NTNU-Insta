@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-10T01:36:45.578458</dc:date>
+    <dc:date>2026-10-10T01:55:44.643036</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 仙女座大星系 -->
      <g style="fill: #ffffff" transform="translate(595.959 641.450854) scale(0.0442 -0.0442)">
       <defs>
@@ -317,7 +317,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 三角座星系 -->
      <g style="fill: #ffffff" transform="translate(564.9488 667.474254) scale(0.0442 -0.0442)">
       <defs>
@@ -419,7 +419,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 玉夫座星系 -->
      <g style="fill: #ffffff" transform="translate(595.0412 812.939054) scale(0.0442 -0.0442)">
       <defs>
@@ -500,7 +500,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 昴宿星團 -->
      <g style="fill: #ffffff" transform="translate(480.61 670.958254) scale(0.0442 -0.0442)">
       <defs>
@@ -776,7 +776,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 獵戶座大星雲 -->
      <g style="fill: #ffffff" transform="translate(422.968 757.564254) scale(0.0442 -0.0442)">
       <defs>
@@ -1053,7 +1053,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 蜂巢星團 -->
      <g style="fill: #ffffff" transform="translate(289.9 696.048254) scale(0.0442 -0.0442)">
       <defs>
@@ -1264,7 +1264,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 北美星雲 -->
      <g style="fill: #ffffff" transform="translate(745.81 632.452254) scale(0.0442 -0.0442)">
       <defs>
@@ -1378,7 +1378,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 玫瑰星雲 -->
      <g style="fill: #ffffff" transform="translate(373.412 734.060254) scale(0.0442 -0.0442)">
       <defs>
@@ -1553,8 +1553,8 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pddff3bd769)">
-     <!-- 金牛座北流星雨輻射點 -->
+    <g clip-path="url(#p5c0bf01fcf)">
+     <!-- 北金牛座流星雨輻射點 -->
      <g style="fill: #ffffff" transform="translate(464.1 692.590254) scale(0.0442 -0.0442)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-a134" d="M 1459 1568 
@@ -2122,10 +2122,10 @@ L 915 3219
 z
 " transform="scale(0.015625)"/>
       </defs>
-      <use xlink:href="#NotoSerifCJKjp-Regular-a134"/>
-      <use xlink:href="#NotoSerifCJKjp-Regular-6481" transform="translate(100 0)"/>
-      <use xlink:href="#NotoSerifCJKjp-Regular-4249" transform="translate(200 0)"/>
-      <use xlink:href="#NotoSerifCJKjp-Regular-2d33" transform="translate(300 0)"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-2d33"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-a134" transform="translate(100 0)"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-6481" transform="translate(200 0)"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-4249" transform="translate(300 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-5b10" transform="translate(400 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-4f3a" transform="translate(500 0)"/>
       <use xlink:href="#NotoSerifCJKjp-Regular-a907" transform="translate(600 0)"/>
@@ -2136,9 +2136,9 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pddff3bd769)">
+    <g clip-path="url(#p5c0bf01fcf)">
      <!-- 獅子座流星雨輻射點 -->
-     <g style="fill: #ffffff" transform="translate(221.91 692.590254) scale(0.0442 -0.0442)">
+     <g style="fill: #ffffff" transform="translate(227.11 689.990254) scale(0.0442 -0.0442)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-65ea" d="M 1549 5318 
 C 1446 5056 1293 4755 1101 4448 
@@ -2293,7 +2293,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pddff3bd769">
+  <clipPath id="p5c0bf01fcf">
    <rect x="0" y="0" width="936" height="1478.541309"/>
   </clipPath>
  </defs>

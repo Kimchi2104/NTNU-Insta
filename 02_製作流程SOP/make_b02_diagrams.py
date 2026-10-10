@@ -5,7 +5,7 @@
   C-B02-03_方位_2100南方   → 05 鏡  21:00 南方：土星、玉夫座星系
   C-B02-04_攝影時間窗      → 07 鏡  9:16 圖卡：各目標仰角 30° 以上的時段（可存圖）
   C-B02-05_方位_0400東方   → 08 鏡  04:00 東方：火星、木星、軒轅十四、獅子座流星雨輻射點
-  C-B02-06_火木相合        → 09 鏡  雙筒望遠鏡放大圖（04:00 抬頭看到的方向）＋ 11/12–11/18 火星的位置
+  C-B02-06_火木相合        → 09 鏡  雙筒望遠鏡放大圖（04:00 抬頭看到的方向）＋ 11/13–11/18 火星的位置
   C-B02-07_方位_0500東南東 → 11 鏡  05:00 東南東低空：金星、角宿一
   C-B02-08_今晚時間表      → 13 鏡  9:16 圖卡（可存圖）
 輸出：05_素材/B-02_五校聯合觀星/_概念圖/
@@ -268,7 +268,7 @@ class Card:
                        s=[p[2] for p in self.pts], c=WHITE, lw=0, zorder=4)
             hz = sorted(p for p in (v.xy(0.0, az / 2) for az in range(0, 720)) if p
                         and -1.05 <= p[0] <= 1.05)
-            if hz:
+            if hz and any(p[1] > BOX[2] for p in hz):           # 地平線在畫面外就不畫（不要畫出假的地平線）
                 poly = [(-1.0, BOX[2])] + [(max(-1.0, min(1.0, x)), max(BOX[2], y)) for x, y in hz] \
                     + [(1.0, BOX[2])]
                 ax.add_patch(C.Polygon(poly, closed=True, fc=GROUND, ec="none", zorder=5))
@@ -394,8 +394,8 @@ def cards():
          [(B.REGULUS, "軒轅十四", "red", 0.0, -0.05), (B.ALGIEBA, "軒轅十二", "red", 0.0, -0.05),
           (B.DENEBOLA, "五帝座一", "red", 0.0, -0.05)],
          [("Leo", "獅子座", "red", 0.0, -0.06)],
-         [(B.MARS, "火星", "red", (-0.11, 0.10), dict(alt=ephem_alt(ephem.Mars, W04), r=0.026)),
-          (B.JUPITER, "木星", "white", (0.13, 0.03), dict(alt=ephem_alt(ephem.Jupiter, W04), r=0.032)),
+         [(B.MARS, "火星", "red", (-0.11, 0.10), dict(alt=ephem_alt(ephem.Mars, W04), r=0.016)),
+          (B.JUPITER, "木星", "white", (0.13, 0.03), dict(alt=ephem_alt(ephem.Jupiter, W04), r=0.02)),
           (B.LEO_R, "獅子座流星雨輻射點", "white", (-0.10, -0.13), dict(r=0.04))],
          f"火星 {hm(ev['火星升'])}、木星 {hm(ev['木星升'])} 東升（被山擋住會更晚）；兩顆相距 1.3°，11/16 最近\n"
          "獅子座流星雨極大：11/17 深夜到 11/18 清晨",
@@ -405,7 +405,7 @@ def cards():
          ["室女"],
          [(B.SPICA, "角宿一", "green", 0.0, -0.05)],
          [("Vir", "室女座", "green", 0.0, 0.0)],
-         [(B.VENUS, "金星（−4.4 等）", "amber", (0.15, 0.05), dict(alt=ephem_alt(ephem.Venus, W05), r=0.04))],
+         [(B.VENUS, "金星（−4.8 等）", "amber", (0.15, 0.05), dict(alt=ephem_alt(ephem.Venus, W05), r=0.02))],
          f"金星 {hm(ev['金星升'])} 東升（被山擋住會更晚）；角宿一在旁 1.5°\n"
          f"{hm(ev['天亮'])} 天開始亮、{hm(ev['日出'])} 日出")
 
@@ -478,7 +478,7 @@ def lp_dark(ax):
     x, y = pxy(165, RMAX * 0.55, cy)
     T(ax, x, y + 0.03, "最暗：東、東南、南", 24, GREEN)
     T(ax, x, y - 0.035, "背對城市、往山裡（雪山山脈方向）", 16, WHITE, w="normal")
-    T(ax, 0.0, -0.84, "拍低空目標，盡量挑東到南；西、北方仰角 25° 以下會被光害洗白", 17, GREEN)
+    T(ax, 0.0, -0.84, "拍低空目標盡量挑東到南；西、北方的低空受光害影響最大", 17, GREEN)
     T(ax, 0.0, -0.90, "計算點：北緯 24.72°、東經 121.19°（尖石煤源一帶）；距離＝直線距離", 13, GREY, w="normal")
 
 
@@ -526,9 +526,11 @@ def mj_field(ax):
         xs.append(x); ys.append(y); ss.append(max(3.0, (9.2 - mg) ** 2.2 * 3.4))
     ax.scatter(xs, ys, s=ss, c=WHITE, lw=0, zorder=3)
     o = obs(datetime(2026, 11, 15, 4, 0))
-    for body, col, nm, sz, dx in ((ephem.Jupiter(o), WHITE, "木星 −2.0 等", 0.030, 0.07),
-                                  (ephem.Mars(o), RED, "火星 0.7 等", 0.020, -0.07)):
-        x, y = mj_xy(v, k, math.degrees(body.alt), math.degrees(body.az))
+    for body, col, nm, sz, dx in ((ephem.Jupiter(), WHITE, "木星 −2.1 等", 0.030, 0.07),
+                                  (ephem.Mars(), RED, "火星 0.7 等", 0.020, -0.07)):
+        body.compute(o.date, epoch=ephem.J2000)          # 和恆星同一套座標（J2000＋同一個恆星時）
+        al_, az_ = altaz(math.degrees(body.a_ra), math.degrees(body.a_dec), lst)
+        x, y = mj_xy(v, k, al_, az_)
         ax.add_patch(C.Circle((x, y), sz * 2.2, fc=col, ec="none", alpha=.12, zorder=4))
         ax.add_patch(C.Circle((x, y), sz, fc=col, ec="none", zorder=5))
         T(ax, x + dx, y + 0.005, nm, 19, col, ha="left" if dx > 0 else "right")
@@ -624,14 +626,14 @@ def windows(ax):
             fontsize=15, color=GREY, ha="center", va="center")
     # 圖例（單一色系：深＝無月的暗夜、淺＝月亮還在天上；白點＝過中天）
     ly = 0.872
-    ax.add_patch(C.FancyBboxPatch((0.14, ly - 0.006), 0.05, 0.012, boxstyle="round,pad=0,rounding_size=0.006",
+    ax.add_patch(C.FancyBboxPatch((0.08, ly - 0.006), 0.05, 0.012, boxstyle="round,pad=0,rounding_size=0.006",
                                   fc=BLUE, ec="none"))
-    ax.text(0.20, ly, "無月暗夜", fontproperties=C.FP, fontsize=12.5, color=WHITE, va="center")
-    ax.add_patch(C.FancyBboxPatch((0.37, ly - 0.006), 0.05, 0.012, boxstyle="round,pad=0,rounding_size=0.006",
+    ax.text(0.14, ly, "無月暗夜", fontproperties=C.FP, fontsize=12.5, color=WHITE, va="center")
+    ax.add_patch(C.FancyBboxPatch((0.33, ly - 0.006), 0.05, 0.012, boxstyle="round,pad=0,rounding_size=0.006",
                                   fc=BLUE, ec="none", alpha=.35))
-    ax.text(0.43, ly, "月亮還在（23%）", fontproperties=C.FP, fontsize=12.5, color=WHITE, va="center")
-    ax.scatter([0.66], [ly], s=60, c=WHITE, zorder=5)
-    ax.text(0.68, ly, "過中天（最高）", fontproperties=C.FP, fontsize=12.5, color=WHITE, va="center")
+    ax.text(0.39, ly, "月亮還在（23%）", fontproperties=C.FP, fontsize=12.5, color=WHITE, va="center")
+    ax.scatter([0.69], [ly], s=60, c=WHITE, zorder=5)
+    ax.text(0.71, ly, "過中天（最高）", fontproperties=C.FP, fontsize=12.5, color=WHITE, va="center")
     top, rowh = 0.81, 0.052
     n = len(TARGETS)
     y_end = top - rowh * (n - 1)
@@ -694,11 +696,11 @@ def timetable(ax):
         ("21:10", "玉夫座星系：正南仰角 40°", WHITE),
         ("22:07", "北美星雲降到仰角 30° 以下（先拍）", BLUE),
         (f"{hm(ev['火星升'])}／{hm(ev['木星升'])[3:]}", "火星、木星從東方升起", RED),
-        ("00:09", "昴宿星團過頭頂（仰角 89°）", AMBER),
+        ("00:09", "昴宿星團過頭頂（仰角將近 90°）", AMBER),
         ("01:56", "獵戶座大星雲過中天：正南仰角 60°", AMBER),
         ("02:44", "老人星：正南仰角 13°（要南方山稜夠低）", WHITE),
         ("04:00", "火星＋木星：東方仰角 57°，相距 1.3°", RED),
-        ("04:00", "獅子座流星雨輻射點升到仰角 56°", WHITE),
+        ("04:00", "獅子座流星雨輻射點升到仰角約 58°", WHITE),
         (hm(ev["天亮"]), "天開始變亮", WHITE),
         ("05:00", "金星：東南東仰角 13°，旁邊 1.5° 是角宿一", AMBER),
         (hm(ev["日出"]), "日出", WHITE),

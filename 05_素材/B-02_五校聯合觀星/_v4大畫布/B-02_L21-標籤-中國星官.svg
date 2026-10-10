@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-10T01:36:45.607368</dc:date>
+    <dc:date>2026-10-10T01:55:44.670501</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p0b9233025a)">
+    <g clip-path="url(#p0afc0e6e75)">
      <!-- 南斗 -->
      <g style="fill: #ffc94a" transform="translate(836.420831 822.894536) scale(0.05083 -0.05083)">
       <defs>
@@ -140,7 +140,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p0b9233025a)">
+    <g clip-path="url(#p0afc0e6e75)">
      <!-- 昴宿 -->
      <g style="fill: #ffc94a" transform="translate(484.051748 685.809365) scale(0.05083 -0.05083)">
       <defs>
@@ -298,7 +298,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p0b9233025a)">
+    <g clip-path="url(#p0afc0e6e75)">
      <!-- 軒轅 -->
      <g style="fill: #ff6b6b" transform="translate(254.159528 685.835677) scale(0.05083 -0.05083)">
       <defs>
@@ -541,7 +541,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p0b9233025a)">
+    <g clip-path="url(#p0afc0e6e75)">
      <!-- 角宿 -->
      <g style="fill: #7bd88f" transform="translate(115.855841 763.246391) scale(0.05083 -0.05083)">
       <defs>
@@ -617,7 +617,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p0b9233025a">
+  <clipPath id="p0afc0e6e75">
    <rect x="0" y="0" width="936" height="1478.541309"/>
   </clipPath>
  </defs>

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-10T01:36:45.532804</dc:date>
+    <dc:date>2026-10-10T01:55:44.598434</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 織女星 -->
      <g style="fill: #6fa8ff" transform="translate(825.107711 637.677316) scale(0.04862 -0.04862)">
       <defs>
@@ -272,7 +272,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 牛郎星 -->
      <g style="fill: #6fa8ff" transform="translate(806.771577 720.656127) scale(0.04862 -0.04862)">
       <defs>
@@ -384,7 +384,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 天津四 -->
      <g style="fill: #6fa8ff" transform="translate(773.36222 620.789312) scale(0.04862 -0.04862)">
       <defs>
@@ -559,7 +559,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 斗宿四 -->
      <g style="fill: #ffc94a" transform="translate(827.784268 802.730315) scale(0.04862 -0.04862)">
       <defs>
@@ -674,7 +674,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 北落師門 -->
      <g style="fill: #6fa8ff" transform="translate(685.322626 818.137934) scale(0.04862 -0.04862)">
       <defs>
@@ -973,7 +973,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 土司空 -->
      <g style="fill: #6fa8ff" transform="translate(615.95699 788.923021) scale(0.04862 -0.04862)">
       <defs>
@@ -1115,7 +1115,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 室宿一 -->
      <g style="fill: #b78aff" transform="translate(680.197682 704.184999) scale(0.04862 -0.04862)">
       <defs>
@@ -1200,7 +1200,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 壁宿二 -->
      <g style="fill: #b78aff" transform="translate(609.6672 662.364982) scale(0.04862 -0.04862)">
       <defs>
@@ -1343,7 +1343,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 畢宿五 -->
      <g style="fill: #ffc94a" transform="translate(465.437812 699.756212) scale(0.04862 -0.04862)">
       <defs>
@@ -1490,7 +1490,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 五車二 -->
      <g style="fill: #ffc94a" transform="translate(409.271696 619.448369) scale(0.04862 -0.04862)">
       <defs>
@@ -1574,7 +1574,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 參宿四 -->
      <g style="fill: #ffc94a" transform="translate(383.765038 720.299717) scale(0.04862 -0.04862)">
       <defs>
@@ -1663,7 +1663,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 參宿七 -->
      <g style="fill: #ffc94a" transform="translate(439.84337 764.002468) scale(0.04862 -0.04862)">
       <defs>
@@ -1703,7 +1703,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 天狼星 -->
      <g style="fill: #6fa8ff" transform="translate(366.366984 790.834249) scale(0.04862 -0.04862)">
       <defs>
@@ -1789,7 +1789,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 南河三 -->
      <g style="fill: #ffffff" transform="translate(316.582998 727.545228) scale(0.04862 -0.04862)">
       <defs>
@@ -1960,7 +1960,7 @@ z
     </g>
    </g>
    <g id="text_15">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 北河三 -->
      <g style="fill: #7bd88f" transform="translate(312.673912 666.690627) scale(0.04862 -0.04862)">
       <use xlink:href="#NotoSerifCJKjp-Regular-2d33"/>
@@ -1970,7 +1970,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 軒轅十四 -->
      <g style="fill: #ff6b6b" transform="translate(249.361236 711.563407) scale(0.04862 -0.04862)">
       <defs>
@@ -2234,7 +2234,7 @@ z
     </g>
    </g>
    <g id="text_17">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 角宿一 -->
      <g style="fill: #7bd88f" transform="translate(120.918056 773.258) scale(0.04862 -0.04862)">
       <defs>
@@ -2309,7 +2309,7 @@ z
     </g>
    </g>
    <g id="text_18">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 土星 -->
      <g style="fill: #ffc94a" transform="translate(620.00587 740.332151) scale(0.055692 -0.055692)">
       <use xlink:href="#NotoSerifCJKjp-Regular-33b2"/>
@@ -2318,7 +2318,7 @@ z
     </g>
    </g>
    <g id="text_19">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 火星 -->
      <g style="fill: #ff6b6b" transform="translate(236.84459 700.757419) scale(0.055692 -0.055692)">
       <defs>
@@ -2354,7 +2354,7 @@ z
     </g>
    </g>
    <g id="text_20">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 木星 -->
      <g style="fill: #ffffff" transform="translate(257.120644 705.11118) scale(0.055692 -0.055692)">
       <defs>
@@ -2391,7 +2391,7 @@ z
     </g>
    </g>
    <g id="text_21">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 金星 -->
      <g style="fill: #ffc94a" transform="translate(99.958503 766.641632) scale(0.055692 -0.055692)">
       <defs>
@@ -2454,7 +2454,7 @@ z
     </g>
    </g>
    <g id="text_22">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 天王星 -->
      <g style="fill: #7bd88f" transform="translate(459.086699 688.536332) scale(0.043758 -0.043758)">
       <defs>
@@ -2495,9 +2495,9 @@ z
     </g>
    </g>
    <g id="text_23">
-    <g clip-path="url(#pfc8257a061)">
+    <g clip-path="url(#p670a80fb7b)">
      <!-- 月亮（23%） -->
-     <g style="fill: #ffffff" transform="translate(801.328672 814.03095) scale(0.055692 -0.055692)">
+     <g style="fill: #ffffff" transform="translate(801.822672 815.48695) scale(0.055692 -0.055692)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-50b1" d="M 4531 4678 
 L 4531 3430 
@@ -2716,7 +2716,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pfc8257a061">
+  <clipPath id="p670a80fb7b">
    <rect x="0" y="0" width="936" height="1478.541309"/>
   </clipPath>
  </defs>
