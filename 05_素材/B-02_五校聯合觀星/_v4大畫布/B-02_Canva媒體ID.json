@@ -16,11 +16,23 @@
   "L12-連線-室女": "MAHXkc4PVyQ",
   "L13-深空天體": "MAHXkRyYF_c",
   "L14-行星標記": "MAHXkZJMWrw",
-  "L15-流星雨輻射點": "MAHXkUEJqHQ",
-  "L16-月亮（11-14 18-30）": "MAHXkZFAG9g",
+  "L15-流星雨輻射點": "MAHXkRClRo4",
+  "L16-月亮（11-14 18-30）": "MAHXkVh2vOU",
   "L17-主角星白點": "MAHXkebANn4"
  },
- "layers_commit": "3797dcc",
+ "layers_commit": "3797dcc（L15、L16 為 82e15a3）",
  "mountain": "MAD4KTwSGtw",
- "concept": {}
+ "concept": {
+  "C-B02-01_方位_1830西南_合成層_透明.png": "MAHXkRPx6dQ",
+  "C-B02-02_光害方位_城鎮層_透明.png": "MAHXkTERsIM",
+  "C-B02-02_光害方位_暗區層_透明.png": "MAHXkVu0PeI",
+  "C-B02-03_方位_2100南方_合成層_透明.png": "MAHXkTEzHW8",
+  "C-B02-04_攝影時間窗_圖卡.png": "MAHXkSByydY",
+  "C-B02-05_方位_0400東方_合成層_透明.png": "MAHXkR_tTZ4",
+  "C-B02-06_火木相合_視野層_透明.png": "MAHXkS_HZJo",
+  "C-B02-06_火木相合_軌跡層_透明.png": "MAHXkYgWvxU",
+  "C-B02-07_方位_0500東南東_合成層_透明.png": "MAHXkScXf4o",
+  "C-B02-08_今晚時間表_圖卡.png": "MAHXkRW-Kc0"
+ },
+ "concept_commit": "82e15a3"
 }
