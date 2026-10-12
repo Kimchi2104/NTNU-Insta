@@ -1,0 +1,37 @@
+{
+ "design_id": "DAHXiM-sYvg",
+ "design_title": "B-03 星空嘉年華",
+ "layers": {
+  "L1-銀河": "MAHX0-hwTx8",
+  "L2-星點": "MAHX0zSBJfg",
+  "L3-經緯線": "MAHX0zfRUWo",
+  "L4-星座連線": "MAHX0ww4mKU",
+  "L5-連線-飛馬仙女": "MAHX04xZFBI",
+  "L6-連線-雙魚鯨魚": "MAHX04YWzKc",
+  "L7-連線-金牛英仙御夫": "MAHX02ry6WE",
+  "L8-連線-獵戶大犬": "MAHX04Q4vbM",
+  "L9-連線-雙子麒麟小犬": "MAHX0080JzA",
+  "L10-連線-獅子巨蟹": "MAHX0wI2bhQ",
+  "L11-連線-室女": "MAHX08I7SV0",
+  "L12-深空天體": "MAHX0zQVVSY",
+  "L13-行星標記": "MAHX0zNleVY",
+  "L14-流星雨輻射點": "MAHX09_swX8",
+  "L15-月亮（12-06 04-30）": "MAHX0wDnLKg",
+  "L16-主角星白點": "MAHX00RMiXE"
+ },
+ "layers_commit": "183d4b8",
+ "mountain": "MAD4KTwSGtw",
+ "concept": {
+  "C-B03-01_方位_1930南方_合成層_透明.png": "MAHX050FTeY",
+  "C-B03-02_縱谷光害_城鎮層_透明.png": "MAHX01os7P8",
+  "C-B03-02_縱谷光害_山脈層_透明.png": "MAHX0yHxh8Y",
+  "C-B03-03_方位_0040南方_合成層_透明.png": "MAHX068WSmY",
+  "C-B03-04_攝影時間窗_圖卡.png": "MAHX07u0DgM",
+  "C-B03-05_方位_0400東南_合成層_透明.png": "MAHX078uXfU",
+  "C-B03-06_方位_0430東南東_天空層_透明.png": "MAHX0xZT42c",
+  "C-B03-06_方位_0430東南東_目標層_透明.png": "MAHX06_qJuQ",
+  "C-B03-06_方位_0430東南東_鏡頭層_透明.png": "MAHX0wYQ3nw",
+  "C-B03-07_今晚時間表_圖卡.png": "MAHX04fbLko"
+ },
+ "concept_commit": "183d4b8"
+}
