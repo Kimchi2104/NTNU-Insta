@@ -4,7 +4,7 @@
   C-B03-02_縱谷光害        → 03 鏡  城鎮的方位與距離 → 兩側的山（示意圖，不是地圖）
   C-B03-03_方位_0040南方   → 06 鏡  00:40 南方：獵戶座大星雲、馬頭／火焰、玫瑰、老人星
   C-B03-04_攝影時間窗      → 07 鏡  9:16 圖卡：各目標仰角 30° 以上的時段（可存圖）
-  C-B03-05_方位_0400東南東 → 09 鏡  04:00 東南東高空：木星、軒轅十四、火星
+  C-B03-05_方位_0400東南   → 09 鏡  04:00 東南方高空：木星、軒轅十四、火星
   C-B03-06_方位_0430東南東 → 11 鏡  04:30 東南東低空：殘月（地照）、金星、角宿一＋鏡頭框（全片幅 50／85／135／300 mm）
   C-B03-07_今晚時間表      → 13 鏡  9:16 圖卡（可存圖）
 輸出：05_素材/B-03_星空嘉年華/_概念圖/
@@ -31,6 +31,7 @@ for _k, _h in B.PL_HIP.items():
     S[_h] = B.PLANETS[_k]
 LAT = math.radians(B.LAT)
 SUB = "12/5（六）星空嘉年華・台東鹿野（北緯 22.9°）"
+SUB_DAWN = "12/6（日）清晨・星空嘉年華・台東鹿野（北緯 22.9°）"
 CANOPUS = 30438
 
 
@@ -306,11 +307,11 @@ class Card:
         return draw
 
 
-def card(code, name, when, title, az0, alt0, scale, lines, stars, cons, targets, note, extra=(), more=None):
+def card(code, name, when, title, az0, alt0, scale, lines, stars, cons, targets, note, extra=(), more=None, sub=SUB):
     lst = lst_at(when)
     v = View(az0, alt0, scale)
     cd = Card(lst, v, lines, stars, cons, targets, extra)
-    C.emit("", [("天空", cd.sky(title, SUB)), ("目標", cd.target(note))] + (more(lst, v) if more else []),
+    C.emit("", [("天空", cd.sky(title, sub)), ("目標", cd.target(note))] + (more(lst, v) if more else []),
            title=f"C-B03-{code}_方位_{name}")
     return lst, v
 
@@ -364,12 +365,24 @@ def ephem_alt(body, when):
 
 
 def transit(ra, dec, day=5):
-    """過中天時刻（台灣時間）與仰角"""
+    """過中天時刻（台灣時間）與仰角（歲差到當天、不含大氣折射）"""
     import ephem
     b = ephem.FixedBody(); b._ra, b._dec = math.radians(ra), math.radians(dec); b._epoch = ephem.J2000
     o = obs(datetime(2026, 12, day, 12, 0))
     t = o.next_transit(b)
-    return t, 90.0 - abs(B.LAT - dec)
+    o.date = t; o.pressure = 0
+    b.compute(o)
+    return t, math.degrees(b.alt)
+
+
+def half_up(x):
+    """先取到 0.1°，再四捨五入到整數度（71.49→71.5→72）"""
+    return int(math.floor(round(x, 1) + 0.5))
+
+
+def moon_phase(when):
+    import ephem
+    return ephem.Moon(obs(when)).phase
 
 
 def cards():
@@ -386,10 +399,11 @@ def cards():
          [(B.SATURN, "土星", "amber", (-0.17, 0.03), dict(alt=ephem_alt(ephem.Saturn, W1930))),
           (B.NEPTUNE, "海王星（7.9 等）", "blue", (0.15, -0.07), dict(alt=ephem_alt(ephem.Neptune, W1930), r=0.03))],
          f"土星 {hm(ev['土星中天'])} 過中天（最高）；海王星在土星西邊 6°，要望遠鏡\n"
-         f"仙女座大星系 {hm(t31)} 在頭頂偏北（仰角 {a31:.0f}°）")
+         f"仙女座大星系 {hm(t31)} 在頭頂偏北（仰角 {half_up(a31)}°）")
     W0040 = datetime(2026, 12, 6, 0, 40)
     t42, a42 = transit(*B.M42)
     tca, aca = transit(*S[CANOPUS][:2])
+    tF, aF = transit(*B.NGC2024)
     card("03", "0040南方", W0040, "00:40　面向南方", 180.0, 38.0, 0.58,
          ["獵戶", "金牛"],
          [(B.BETELGEUSE, "參宿四", "amber", 0.0, -0.05), (B.RIGEL, "參宿七", "amber", 0.0, -0.05),
@@ -398,10 +412,10 @@ def cards():
          [(B.M42, "獵戶座大星雲", "white", (0.17, -0.04), dict(r=0.022)),
           (B.NGC2024, "馬頭／火焰星雲", "white", (-0.19, -0.07), dict(r=0.022)),
           (B.NGC2237, "玫瑰星雲", "white", (-0.15, 0.09), dict(r=0.03)), (CANOPUS, "老人星", "white", (0.15, 0.03), dict(r=0.04))],
-         f"獵戶座大星雲 {hm(t42)}、馬頭／火焰 00:40 過中天（仰角 62–65°）\n"
-         f"老人星 {hm(tca)} 過中天：正南仰角 {aca:.0f}°，正好在台東市光害的方向")
+         f"獵戶座大星雲 {hm(t42)}、馬頭／火焰 {hm(tF)} 過中天（仰角 {half_up(a42)}–{half_up(aF)}°）\n"
+         f"老人星 {hm(tca)} 過中天：正南仰角 {half_up(aca)}°，正好在台東市光害的方向")
     W04 = datetime(2026, 12, 6, 4, 0)
-    card("05", "0400東南東", W04, "04:00　面向東南東（抬頭 60° 以上）", 119.0, 68.0, 1.5,
+    card("05", "0400東南", W04, "04:00　面向東南（抬頭 60° 以上）", 119.0, 68.0, 1.5,
          ["獅子"],
          [(B.REGULUS, "軒轅十四", "red", 0.0, -0.05), (B.ALGIEBA, "軒轅十二", "red", 0.0, -0.05),
           (B.DENEBOLA, "五帝座一", "red", 0.0, -0.05)],
@@ -409,7 +423,7 @@ def cards():
          [(B.JUPITER, "木星（−2.2 等）", "white", (0.13, 0.04), dict(alt=ephem_alt(ephem.Jupiter, W04), r=0.02)),
           (B.MARS, "火星（0.4 等）", "red", (-0.12, 0.07), dict(alt=ephem_alt(ephem.Mars, W04), r=0.016))],
          f"木星 {hm(ev['木星升'])}、火星 {hm(ev['火星升'])} 東升（被山擋住會更晚）\n"
-         "軒轅十四夾在中間：離木星 3.3°、離火星 4.0°；木星和火星相距 6.9°")
+         "軒轅十四夾在中間：離木星 3.3°、離火星 4.0°；木星和火星相距 6.9°", sub=SUB_DAWN)
     W0430 = datetime(2026, 12, 6, 4, 30)
     lst6, v6 = lst_at(W0430), View(113.0, 17.0, 1.6)
     card("06", "0430東南東", W0430, "04:30　面向東南東", 113.0, 17.0, 1.6,
@@ -421,7 +435,7 @@ def cards():
            dict(alt=ephem_alt(ephem.Moon, W0430)))],
          f"金星 {hm(ev['金星升'])}、月亮 {hm(ev['月出'])} 東升（被海岸山脈擋住會更晚）\n"
          f"兩顆相距 11°；月亮的暗面有地照（地球反射的光）；{hm(ev['天亮'])} 天開始亮",
-         extra=[crescent(W0430, lst6, v6)], more=lenses)
+         extra=[crescent(W0430, lst6, v6)], more=lenses, sub=SUB_DAWN)
 
 
 # ══════════════════════ C-B03-06 鏡頭框（全片幅相機的視野，直線鏡頭） ══════════════════════
@@ -469,8 +483,8 @@ def lenses(lst, v):
                 T(ax, (x0 + x1) / 2, (y0 + y1) / 2 + 0.01, nm, 15, col)
             else:
                 T(ax, x0 - 0.015, (y0 + y1) / 2, nm, 17, col, ha="right")
-        T(ax, 0.0, -0.94, "框＝全片幅相機的視野：50、85 mm 輕鬆框住兩顆；135 mm 要直幅才塞得下；300 mm 只拍得到一顆",
-          14, WHITE, w="normal")
+        T(ax, 0.0, -0.94, "框＝全片幅相機的視野：50、85 mm 輕鬆框住兩顆；135 mm 橫幅很勉強、直幅比較從容；300 mm 只拍得到一顆",
+          13.5, WHITE, w="normal")
     return [("鏡頭", draw)]
 
 
@@ -513,8 +527,8 @@ def lp_towns(ax):
     for dkm in (10, 25, 50):
         ax.add_patch(C.Circle((0, cy), RC * dkm / RMAX, fill=False, ec=WHITE, lw=1.0, alpha=.25,
                               ls=(0, (4, 4)), zorder=2))
-        x, y = pxy(118, dkm, cy)
-        T(ax, x + 0.012, y + 0.02, f"{dkm} km", 13, GREY, w="normal", ha="left")
+        x, y = pxy(300, dkm, cy)
+        T(ax, x - 0.012, y + 0.02, f"{dkm} km", 13, GREY, w="normal", ha="right")
     for az, nm in DIR8.items():
         x, y = pxy(az, RMAX * (1.12 if az % 90 == 0 else 1.20), cy)
         T(ax, x, y, nm, 22 if az % 90 == 0 else 17, AMBER if az % 90 == 0 else GREY,
@@ -596,7 +610,7 @@ TARGETS = [   # 名稱, 編號, (ra, dec) 或行星 key, 門檻仰角
     ("金牛座暗星雲", "B7／B10／B22", B.TAUDARK, 30), ("焰星／蝌蚪星雲", "IC 405／IC 410", B.IC405, 30),
     ("獵戶座大星雲", "M42＋奔跑者 NGC 1977", B.M42, 30), ("馬頭／火焰星雲", "B33／NGC 2024", B.NGC2024, 30),
     ("巴納德環", "Sh2-276", (86.0, -1.0), 30), ("玫瑰星雲", "NGC 2237", B.NGC2237, 30),
-    ("錐狀星雲／聖誕樹", "NGC 2264", B.NGC2264, 30), ("木星＋火星", "", "木星", 30),
+    ("錐狀星雲／聖誕樹", "NGC 2264", B.NGC2264, 30), ("木星＋火星", "兩顆都在 30° 以上", "木火", 30),
     ("殘月＋金星", "兩顆都在 10° 以上", "月金", 10),
 ]
 T0, T1 = datetime(2026, 12, 5, 18, 0), datetime(2026, 12, 6, 6, 0)
@@ -611,6 +625,8 @@ def target_track(key):
         o = obs(t)
         if key == "月金":
             al = min(math.degrees(ephem.Moon(o).alt), math.degrees(ephem.Venus(o).alt))
+        elif key == "木火":
+            al = min(math.degrees(ephem.Jupiter(o).alt), math.degrees(ephem.Mars(o).alt))
         elif isinstance(key, str):
             b = {"土星": ephem.Saturn, "木星": ephem.Jupiter}[key](); b.compute(o)
             al = math.degrees(b.alt)
@@ -659,7 +675,7 @@ def windows(ax):
                                  fc="#3A4A6B", ec="none", alpha=.35, zorder=0))
     xm = X0 + (X1 - X0) * tx_of(mrise)
     ax.plot([xm, xm], [y_end - 0.03, top + 0.025], c=AMBER, lw=1.2, alpha=.6, ls=(0, (3, 3)), zorder=2)
-    ax.text(xm, y_end - 0.078, f"月出 {hm(ev['月出'])}（亮面 {B.MOON[2]}%）", fontproperties=C.FP, fontsize=12,
+    ax.text(xm, y_end - 0.078, f"月出 {hm(ev['月出'])}（亮面 {half_up(moon_phase(mrise))}%）", fontproperties=C.FP, fontsize=12,
             color=AMBER, ha="center", va="center")
     for i, (nm, cat, key, thr) in enumerate(TARGETS):
         y = top - i * rowh
@@ -680,10 +696,10 @@ def windows(ax):
                         boxstyle="round,pad=0,rounding_size=0.008", fc=BLUE, ec="none", alpha=alpha,
                         zorder=3))
         best = max(tr, key=lambda p: p[1])
-        if dark0 <= best[0] <= dark1 and key != "月金":
+        if dark0 <= best[0] <= dark1 and key not in ("月金", "木火"):
             ax.scatter([X0 + (X1 - X0) * tx_of(best[0])], [y], s=48, c=WHITE, zorder=5,
                        edgecolors=C.BG, linewidths=1.5)
-    ax.text(0.5, 0.115, "仙女座、三角座天一黑就最高：先拍；獵戶座一帶午夜前後最高", fontproperties=C.FP,
+    ax.text(0.5, 0.115, "仙女座、三角座八點前後最高：先拍；獵戶座一帶午夜過後最高", fontproperties=C.FP,
             fontsize=13, color=WHITE, ha="center", va="center")
     ax.text(0.5, 0.085, f"灰底＝天還沒全黑（{hm(ev['天全黑'])} 前）／開始變亮（{hm(ev['天亮'])} 後）", fontproperties=C.FP,
             fontsize=12, color=GREY, ha="center", va="center")
@@ -711,19 +727,20 @@ def timetable(ax):
         (hm(ev["日落"]), "日落", WHITE),
         (hm(ev["天全黑"]), f"天全黑；整晚無月，到清晨 {hm(ev['月出'])} 月出", WHITE),
         (hm(ev["土星中天"]), f"土星最高：正南仰角 {sa:.0f}°（海王星在旁 6°）", AMBER),
-        (hm(tM31), f"仙女座大星系：頭頂偏北，仰角 {aM31:.0f}°", WHITE),
-        (hm(tM33), f"三角座星系：頭頂偏北，仰角 {aM33:.0f}°", WHITE),
-        (f"{hm(ev['木星升'])}／{hm(ev['火星升'])}", "木星、火星從東方升起", RED),
-        (hm(tM45), f"昴宿星團過頭頂（仰角 {aM45:.0f}°）；天王星在旁 5°", AMBER),
-        (hm(tCal), f"加州星雲：頭頂偏北，仰角 {aCal:.0f}°", WHITE),
-        (f"{hm(tIC)}／{hm(tIC2)}", f"焰星／蝌蚪星雲：頭頂偏北，仰角 {aIC:.0f}°", WHITE),
-        (f"{hm(tM42)}–{hm(tF)}", f"獵戶座大星雲、馬頭、火焰：正南 {aM42:.0f}–{aF:.0f}°", AMBER),
-        (hm(tCa), f"老人星：正南仰角 {aCa:.0f}°（台東市光害方向）", WHITE),
-        (hm(tRo), f"玫瑰星雲：正南仰角 {aRo:.0f}°", WHITE),
-        (hm(tGe), f"雙子座流星雨輻射點最高（仰角 {aGe:.0f}°）", WHITE),
+        (hm(tM31), f"仙女座大星系：頭頂偏北，仰角 {half_up(aM31)}°", WHITE),
+        (hm(tM33), f"三角座星系：頭頂偏北，仰角 {half_up(aM33)}°", WHITE),
+        (hm(ev["木星升"]), "木星從東方升起", RED),
+        (hm(tM45), f"昴宿星團過頭頂（仰角 {half_up(aM45)}°）；天王星在旁 5°", AMBER),
+        (hm(ev["火星升"]), "火星從東方升起", RED),
+        (hm(tCal), f"加州星雲：頭頂偏北，仰角 {half_up(aCal)}°", WHITE),
+        (f"{hm(tIC)}／{hm(tIC2)}", f"焰星／蝌蚪星雲：頭頂偏北，仰角 {half_up(aIC)}°", WHITE),
+        (f"{hm(tM42)}–{hm(tF)}", f"獵戶座大星雲、馬頭、火焰：正南 {half_up(aM42)}–{half_up(aF)}°", AMBER),
+        (hm(tCa), f"老人星：正南仰角 {half_up(aCa)}°（台東市光害方向）", WHITE),
+        (hm(tRo), f"玫瑰星雲：正南仰角 {half_up(aRo)}°", WHITE),
+        (hm(tGe), f"雙子座流星雨輻射點最高（仰角 {half_up(aGe)}°）", WHITE),
         (hm(ev["金星升"]), "金星東升（−4.8 等）", AMBER),
-        (hm(ev["月出"]), f"殘月東升（亮面 {B.MOON[2]}%；被山擋住會更晚）", WHITE),
-        ("04:00", "木星、火星：東南東 68–74°，軒轅十四在中間", RED),
+        (hm(ev["月出"]), f"殘月東升（亮面 {half_up(moon_phase(lt(ev['月出'])))}%；被山擋住會更晚）", WHITE),
+        ("04:00", "木星、火星：東南方 68–74°，軒轅十四在中間", RED),
         (hm(ev["天亮"]), "天開始變亮", WHITE),
         (hm(ev["日出"]), "日出", WHITE),
     ]
@@ -733,7 +750,7 @@ def timetable(ax):
             ha="center", va="center", weight="bold")
     ax.text(0.5, 0.851, "台東鹿野（北緯 22.9°）・時刻不含山稜遮擋", fontproperties=C.FP,
             fontsize=13, color=GREY, ha="center", va="center")
-    y0, dy = 0.805, 0.0355
+    y0, dy = 0.805, 0.034
     ax.plot([0.27, 0.27], [y0 + 0.012, y0 - dy * (len(rows) - 1) - 0.012], c=WHITE, lw=1.2, alpha=.35)
     for i, (t, txt, col) in enumerate(rows):
         y = y0 - i * dy
@@ -741,9 +758,11 @@ def timetable(ax):
         ax.text(0.235, y, t, fontproperties=C.FP, fontsize=15 if len(t) <= 5 else 11, color=col,
                 ha="right", va="center", weight="bold")
         ax.text(0.30, y, txt, fontproperties=C.FP, fontsize=13.5, color=WHITE, ha="left", va="center")
-    ax.text(0.5, 0.15, "下一場：12/14（一）21:50 雙子座流星雨極大，月亮 21:37 下山", fontproperties=C.FP,
+    ax.text(0.5, 0.163, "下一場：12/14（一）晚上 10 點前後雙子座流星雨極大", fontproperties=C.FP,
             fontsize=14, color=AMBER, ha="center", va="center", weight="bold")
-    ax.text(0.5, 0.11, "外套・紅光手電筒・雙筒望遠鏡・鏡頭加熱帶＋行動電源", fontproperties=C.FP,
+    ax.text(0.5, 0.139, "（IMO：14h UT）月亮 21:37 就下山", fontproperties=C.FP,
+            fontsize=12, color=AMBER, ha="center", va="center")
+    ax.text(0.5, 0.108, "外套・紅光手電筒・雙筒望遠鏡・鏡頭加熱帶＋行動電源", fontproperties=C.FP,
             fontsize=16, color=WHITE, ha="center", va="center", weight="bold")
     ax.text(0.5, 0.076, "縱谷夜裡濕氣重；望遠鏡先放到外面降溫，看行星才穩", fontproperties=C.FP,
             fontsize=13, color=GREY, ha="center", va="center")
@@ -764,7 +783,7 @@ def composite(title, layers):
 def main():
     cards()
     C.emit("", [("城鎮", lp_towns), ("山脈", lp_mountains)], title="C-B03-02_縱谷光害")
-    for t in ("C-B03-01_方位_1930南方", "C-B03-03_方位_0040南方", "C-B03-05_方位_0400東南東"):
+    for t in ("C-B03-01_方位_1930南方", "C-B03-03_方位_0040南方", "C-B03-05_方位_0400東南"):
         composite(t, ["天空", "目標"])
     f, ax = C.newcard(dark=True)
     windows(ax)

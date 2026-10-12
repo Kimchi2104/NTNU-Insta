@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-12T19:14:42.706156</dc:date>
+    <dc:date>2026-10-12T19:22:56.753251</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 仙女座大星系 -->
      <g style="fill: #ffffff" transform="translate(621.959 641.450854) scale(0.0442 -0.0442)">
       <defs>
@@ -317,7 +317,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 三角座星系 -->
      <g style="fill: #ffffff" transform="translate(590.9488 667.474254) scale(0.0442 -0.0442)">
       <defs>
@@ -419,7 +419,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 加州星雲 -->
      <g style="fill: #ffffff" transform="translate(492.934 641.188254) scale(0.0442 -0.0442)">
       <defs>
@@ -616,7 +616,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 昴宿星團 -->
      <g style="fill: #ffffff" transform="translate(506.61 670.958254) scale(0.0442 -0.0442)">
       <defs>
@@ -892,7 +892,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 金牛座暗星雲 -->
      <g style="fill: #ffffff" transform="translate(476.84 669.450254) scale(0.0442 -0.0442)">
       <defs>
@@ -1083,7 +1083,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 焰星星雲 -->
      <g style="fill: #ffffff" transform="translate(448.578 647.688254) scale(0.0442 -0.0442)">
       <defs>
@@ -1175,7 +1175,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 蝌蚪星雲 -->
      <g style="fill: #ffffff" transform="translate(444.392 658.218254) scale(0.0442 -0.0442)">
       <defs>
@@ -1366,7 +1366,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 獵戶座大星雲 -->
      <g style="fill: #ffffff" transform="translate(456.768 756.004254) scale(0.0442 -0.0442)">
       <defs>
@@ -1551,7 +1551,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 馬頭／火焰星雲 -->
      <g style="fill: #ffffff" transform="translate(410.878 745.760254) scale(0.0442 -0.0442)">
       <defs>
@@ -1785,7 +1785,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 玫瑰星雲 -->
      <g style="fill: #ffffff" transform="translate(402.532 735.360254) scale(0.0442 -0.0442)">
       <defs>
@@ -1960,7 +1960,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 聖誕樹星團 -->
      <g style="fill: #ffffff" transform="translate(391.326 719.370254) scale(0.0442 -0.0442)">
       <defs>
@@ -2291,7 +2291,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#p2a0022c654)">
+    <g clip-path="url(#pfb3f1fabd1)">
      <!-- 雙子座流星雨輻射點 -->
      <g style="fill: #ffffff" transform="translate(375.31 649.950254) scale(0.0442 -0.0442)">
       <defs>
@@ -2962,7 +2962,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p2a0022c654">
+  <clipPath id="pfb3f1fabd1">
    <rect x="0" y="0" width="936" height="1478.541309"/>
   </clipPath>
  </defs>
