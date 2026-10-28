@@ -6,13 +6,13 @@
 | 時長 | **215 秒**（14 鏡頭；節目表原訂 180 秒） |
 | 格式 | Reels 9:16；**長圖帶狀**（昴宿特寫＋九星標籤層、獵戶參宿七、天蠍心宿二）＋概念圖 6 組（假日、挑日子、兩個季節、黎明重現、hautapu、北島示意）＋9:16 圖卡 2 張；不用盤（昴宿 dec +24°，在長圖帶內） |
 | 來源 | Stellarium **maori**（新版 `stellarium-master/skycultures`；Dan Smale；CC BY-SA 4.0；引 Best 1955、1959、Leather & Hall 2004、Orbell 1996 等）；Rangi Mātāmua《Matariki: The Star of the Year》（2017；據 Te Kōkau Himiona Te Pikikōtuku 與 Rāwiri Te Kōkau 1933 年完成的手稿）；紐西蘭政府 MBIE／employment.govt.nz（Matariki 假日）、Matariki Advisory Group《Matariki dates 2022 to 2052》；Te Papa（Puanga 與 Matariki；假日日期與 Tangaroa 期）；Te Ara（Matariki 預測年景、各地以 Puanga 為新年）；RNZ 2025（Che Wilson 談 Puanga）；天象全部 PyEphem 4.2.1 自算 |
-| 配音 | 逐字稿 **794 字**（中文字＋外文音節；毛利語按母音計音節），平均 **3.69 字/秒**；最快一格 08 鏡 **4.07**（上限 4.5） |
+| 配音 | 逐字稿 **793 字**（中文字＋外文音節；毛利語按母音計音節），平均 **3.69 字/秒**；最快一格 08 鏡 **4.07**（上限 4.5） |
 | 統一開頭 | 「同一片星空，毛利人看見——新的一年。」 |
 | 承接 | EP42（A-32）阿拉伯月站（結尾「下週五，我們去紐西蘭：這一小串昴宿，在冬天的黎明重新升起，就是毛利人的新年——Matariki」）→ **EP43 毛利 Matariki：星星升起就是新年** → EP44（A-34）蘇菲之書（2027/06/11） |
 
 > ⚠️ **節目表的鉤子要改**：原「紐西蘭唯一的原住民國定假日，由星星決定日期」。①「唯一的原住民國定假日」講不清楚——政府的說法是「**第一個**承認毛利世界觀（Te Ao Māori）的國定假日」（employment.govt.nz；2022 年阿爾登總理）；②日期不是只看星星：Matariki Advisory Group 是在毛利月曆 Pipiri 這個月裡，取月相 **Tangaroa** 那幾晚（下弦前後）**最近的星期五**，2022–2052 的日期已寫進《Te Kāhui o Matariki Public Holiday Act 2022》。建議改成：「**紐西蘭第一個為毛利世界觀放的假：日期看星星，也看月亮**」。
 > ⚠️ **節目表的備註要補日期**：「對齊當年 Matariki 公告週（6 月中下旬晨空）」——2027 年的假日是 **6/25（五）**，Te Papa 列的 Tangaroa 期是 6/27–30；昴宿在紐西蘭黎明重現約 **6/11–13**（PyEphem，見星空對時）。本集 6/4 播出，比假日早三週，片中當「預告」寫。**可選**：若想在假日當週播，可跟 A-35（6/25）對調，但 A-32 的結尾句與 A-34 的開場要跟著改。
-> ⚠️ **節目表的星圖需求要改**：原「北盤＋Matariki(昴宿)/Te Waka 大舟連線層」。①昴宿 dec +24°，在長圖帶內，不需要北盤；紐西蘭的黎明地平線用概念圖畫比較清楚。②**Te Waka-o-Tamarereti 的指認各家不一**：Stellarium maori 把它連在天蠍尾巴；Martinborough Star（Phoenix Astronomical Society 系統）說是貼著地平線的整條銀河，船尾是獵戶腰帶 Tautoru、船頭是天蠍 Te Matau-a-Māui；Museums Wellington 說「Tamarereti 的船頭」是天蠍的名字之一。這條建議留給 **X-07 銀河環球（瓦卡的航跡）** 處理，本集不畫。
+> ⚠️ **節目表的星圖需求要改**：原「北盤＋Matariki(昴宿)/Te Waka 大舟連線層」。①昴宿 dec +24°，在長圖帶內，不需要北盤；紐西蘭的黎明地平線用概念圖畫比較清楚。②**Te Waka-o-Tamarereti 的指認各家不一**：Stellarium maori 把它連在天蠍尾巴；Martinborough Star（Phoenix Astronomical Society 系統）說是貼著地平線的整條銀河，船尾是獵戶腰帶 Tautoru、船頭是天蠍 Te Matau-a-Māui；Museums Wellington 說「Tamarereti 的船頭」是天蠍的名字之一。這條留給 X-07 處理（X-07 v0 已改用毛利的銀河名 Te Ikaroa／Te ika o te rangi，並註明 Te Waka 在 Stellarium 是天蠍尾巴），本集不畫。
 > ⚠️ **節目表的素材來源要注意**：`_整理CSV/Maori in Oceania.csv` 的繁中欄被 po 檔表頭（「Project-Id-Version: 1.0…」）污染；九顆星的名字沒有長音符號（Waiti、Waita、Tupuarangi、Tupuanuku、Pohutukawa、Waipunarangi）；Stellarium 舊版 references 還寫著「stars in Matariki also randomly labelled」——但新版 index.json 的 HIP 對應跟 Mātāmua／Te Papa 的對法一致（見星名表），片中照後者、加上長音符號。
 
 > **資料來源挖掘重點（第〇節檢查表）**
@@ -42,7 +42,7 @@
 | **11** — | 153–167s（14） | 所以 Matariki 的儀式，有點像我們的除夕：天亮前生火煮食物，讓熱氣升上天，獻給這群星；念出離開的人的名字，也說出新年的願望。 | 天亮前的 hautapu | 定格疊概念圖 C-A33-06「hautapu」：地爐的熱氣升向昴宿的示意（不畫人物、不仿任何既有插畫）；若要用儀式照片，美宣另尋授權並確認可公開 | 53 字／3.79 |
 | **12** S | 167–185s（18） | 但不是每個部族都看昴宿。北島西岸的 Taranaki、Whanganui 等部族，新年看的是 Puanga——參宿七。有的地方被山擋住看不清昴宿；也有長老說，Puanga 更能預告西岸的天氣。 | 西岸看 Puanga | 長圖往左下（東南）捲到獵戶：參宿七 Puanga 標籤；右下小框：北島示意地圖（自繪，標 Taranaki、Whanganui、Rangitīkei） | 68 字／3.78 |
 | **13** Z | 185–203s（18） | 今晚八點，台灣看不到這兩位主角，它們都躲在太陽附近。往東南方低空看，紅色的心宿二剛升起，毛利人叫它 Rehua。想看 Matariki，就等六月中的清晨，跟紐西蘭一起迎新年。 | 6 月中・清晨・東北東 | 【硬切】長圖 天蠍：心宿二 Rehua 標籤；結束疊 9:16 圖卡 C-A33-07「這週抬頭看」（台北 6/4 20:00；6/7、6/14、6/25 清晨昴宿高度，可存圖） | 70 字／3.89 |
-| **14** — | 203–215s（12） | 下週五，我們翻開一本一千多年前的星圖書：波斯天文學家蘇菲，把希臘星座和阿拉伯星名，畫在了同一本書裡。 | 下集｜蘇菲之書 | 端卡（背景：長圖仙女座＋大魚連線；手稿書影等 A-34 授權確認後再放）＋追蹤 CTA | 45 字／3.75 |
+| **14** — | 203–215s（12） | 下週五，我們翻開一本一千多年前的星圖書：波斯天文學家蘇菲，把希臘星座和阿拉伯星名，寫進了同一本書。 | 下集｜蘇菲之書 | 端卡（背景：長圖仙女座＋大魚連線；手稿書影等 A-34 授權確認後再放）＋追蹤 CTA | 44 字／3.67 |
 
 > **全片在大畫布（長圖）上**，01–11 都在金牛—獵戶一帶（昴宿特寫 fov 2.6–3），12 往東南捲到參宿七，13 硬切到天蠍；02、04、05、06、11 是定格疊概念圖。
 > **九星標籤層**：毛利原名（含長音符號）＋中文領域兩行；特寫時九顆星的白點照 V 星等畫大小，讓「最暗的兩顆」看得出來。
@@ -162,7 +162,7 @@
 8. **Puanga 的部族名單**：Te Ara 列 Taranaki、Whanganui、Rangitīkei；片中只唸前兩個＋「等部族」。也請確認 Puanga 在這些部族的拼法（有的寫 Puaka，南島 Kāi Tahu 用 Puaka）。
 9. **hautapu 的程序**：請核 Mātāmua 書中的儀式步驟（天亮前、地爐、念名、許願）；片中說「有點像我們的除夕」，請審這個比喻是否得體。
 10. **台灣 6/7 重現**：用「太陽 −12°、星高 3°」的簡化條件；肉眼實際要看大氣與光害，請審片中「大約六月七號起……就會冒出來」是否要改成「六月上旬末」。
-11. **Te Waka-o-Tamarereti**：留給 X-07；請 X-07 的作者決定用哪一家的指認（Stellarium／Martinborough Star／Museums Wellington）。
+11. **Te Waka-o-Tamarereti**：X-07 v0 已處理（片名改「一條河、一條路、一道縫」）；本集不畫，星名表照 Stellarium 列出並標「他說不一」。
 12. **節目表「唯一的原住民國定假日」**：若節目表要保留「唯一」，需要查 Waitangi Day 是否被視為原住民相關的國定假日（多數說法把 Matariki 稱為「第一個」）。
 13. **毛利語讀音**：請熟悉毛利語的人聽配音（長音、wh＝f、r 是輕彈舌）。
 
