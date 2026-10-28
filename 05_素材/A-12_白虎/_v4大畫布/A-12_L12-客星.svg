@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-180.00 -266.33 360.00 532.66" width="360.00" height="532.66">
+<title>A-12 大畫布</title>
+<g fill="none" stroke="#FFC94A" stroke-width="0.160" stroke-opacity="0.950" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -33.12 -22.23 L -32.02 -22.68"/>
+<path d="M -33.42 -22.52 L -33.19 -23.08"/>
+<path d="M -33.84 -22.52 L -34.30 -23.63"/>
+<path d="M -34.14 -22.23 L -34.70 -22.46"/>
+<path d="M -34.14 -21.80 L -35.25 -21.35"/>
+<path d="M -33.84 -21.51 L -34.07 -20.95"/>
+<path d="M -33.42 -21.51 L -32.96 -20.40"/>
+<path d="M -33.12 -21.80 L -32.57 -21.57"/>
+</g>
+<circle cx="-33.63" cy="-22.02" r="0.320" fill="#FFC94A" opacity="0.900"/>
+<circle cx="-33.63" cy="-22.02" r="2.300" fill="none" opacity="0.800" stroke="#FFC94A" stroke-width="0.120" stroke-dasharray="0.5 0.35"/>
+</svg>

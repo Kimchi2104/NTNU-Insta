@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-151.67 -151.67 303.33 303.33" width="303.33" height="303.33">
+<title>A-12 盤｜盤寬 = 大畫布寬 × 0.842585（R_fill=151.665，盤緣圈半徑 = 大畫布寬 × 0.159155）</title>
+<g fill="none" stroke="#FFC94A" stroke-width="0.160" stroke-opacity="0.950" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -62.95 95.18 L -61.84 94.72"/>
+<path d="M -63.24 94.88 L -63.01 94.33"/>
+<path d="M -63.67 94.88 L -64.12 93.77"/>
+<path d="M -63.96 95.18 L -64.52 94.95"/>
+<path d="M -63.96 95.60 L -65.07 96.06"/>
+<path d="M -63.67 95.90 L -63.90 96.45"/>
+<path d="M -63.24 95.90 L -62.79 97.00"/>
+<path d="M -62.95 95.60 L -62.39 95.83"/>
+</g>
+<circle cx="-63.45" cy="95.39" r="0.320" fill="#FFC94A" opacity="0.900"/>
+<circle cx="-63.45" cy="95.39" r="2.300" fill="none" opacity="0.800" stroke="#FFC94A" stroke-width="0.120" stroke-dasharray="0.5 0.35"/>
+</svg>
