@@ -543,7 +543,7 @@ def build():
                                                  來源備註="台灣通行星名"))
     json.dump({"ep": EP, "label_sets": [{"name": n, "items": it} for it, n in label_sets],
                "terms": terms,
-               "cross": [dict(原文="Tanra Tèlluè", 中譯="三的記號（布吉斯：獵戶腰帶）", 英文="Sign of Three",
+               "cross": [dict(原文="Tanra Tellué", 中譯="三的記號（布吉斯：獵戶腰帶）", 英文="Sign of Three",
                               顏色="white"),
                          dict(原文="Ara Toru", 中譯="三星之路（阿努塔）", 英文="Path of Three", 顏色="white"),
                          dict(原文="Trisfetitele", 中譯="三聖人（羅馬尼亞）", 英文="The Three Saints",
