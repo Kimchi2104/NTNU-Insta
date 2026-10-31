@@ -27,251 +27,34 @@
 星座/星官,CON indian N26,The second of the blessed feet,,Uttara bhādrapada,,郁多羅跋陀羅缽柁（壁宿）,2,1067 667,Algenib,,✓,,
 星座/星官,CON indian N27,The prosperous one,,Revatī,,離婆底（奎宿）,1,5737,Revati,,✓,,
 星座/星官,CON indian N28,The invincible one,,Abhijit,,Abhijit（牛宿?）,3,91926 91262 91971,Double Double II、Vega、Nasr Alwaki I,,✓,（牛宿）,
-具名恆星,HIP 11767,,,Dhruva,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Polaris,,,,
-具名恆星,HIP 21421,,,Rohiṇī,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Aldebaran,,,,
-具名恆星,HIP 27989,,,Ārdrā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Betelgeuse,,,,
-具名恆星,HIP 49669,,,Maghā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Regulus,,,,
-具名恆星,HIP 65474,,,Chitrā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Spica,,,,
-具名恆星,HIP 69673,,,Svātī,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Arcturus,,,,
-具名恆星,HIP 97649,,,Śravaṇa,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Altair,,,,
-具名恆星,HIP 24608,,,Bramha Hṛdaya,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Capella,,,,
-具名恆星,HIP 32349,,,Lubdhaka,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Sirius,,,,
-具名恆星,HIP 24436,,,Vānrājā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Rigel,,,,
-具名恆星,HIP 54061,,,Kratu,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Dubhe,,,,
-具名恆星,HIP 53910,,,Pulaha,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Merak,,,,
-具名恆星,HIP 58001,,,Pulasta,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Phecda,,,,
-具名恆星,HIP 59774,,,Atri,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Megrez,,,,
-具名恆星,HIP 62956,,,Angirā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Alioth,,,,
-具名恆星,HIP 65378,,,Vaśisṭha,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Mizar,,,,
-具名恆星,HIP 67301,,,Mārīchi,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Alkaid,,,,
-具名恆星,HIP 65477,,,Arundhati,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Alcor,,,,
-具名恆星,HIP 91262,,,Abhijit,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Vega,,,,
-具名恆星,HIP 80763,,,jyeṣṭhā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Antares,,,,
-具名恆星,HIP 30438,,,Augastya,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Canopus,,,,
-具名恆星,HIP 25428,,,Agni,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Elnath,,,,
-具名恆星,HIP 26727,,,Uṣā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Alnitak,,,,
-具名恆星,HIP 26311,,,Aniruddha,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Alnilam,,,,
-具名恆星,HIP 25930,,,Chitralekhā,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Mintaka,,,,
-具名恆星,HIP 31681,,,Anala,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Alhena,,,,
-具名恆星,HIP 37826,,,Diti,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Pollux,,,,
-具名恆星,HIP 36850,,,Aditi,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Castor,,,,
-具名恆星,HIP 746,,,Yamadagni,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Caph,,,,
-具名恆星,HIP 25336,,,Kārtikeya,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Bellatrix,,,,
-具名恆星,HIP 27366,,,Kārtyabīrya,,"Project-Id-Version: 1.0
-Last-Translator: Stellarium's developers
-Language-Team: Chinese (Taiwan) (https://www.transifex.com/stellarium/teams/80998/zh_TW/)
-Language: zh_TW
-MIME-Version: 1.0
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: 8bit
-",,,Saiph,,,,
+具名恆星,HIP 11767,,,Dhruva,,北極星（勾陳一）,,,Polaris,,,,
+具名恆星,HIP 21421,,,Rohiṇī,,畢宿五,,,Aldebaran,,,,
+具名恆星,HIP 27989,,,Ārdrā,,參宿四,,,Betelgeuse,,,,
+具名恆星,HIP 49669,,,Maghā,,軒轅十四,,,Regulus,,,,
+具名恆星,HIP 65474,,,Chitrā,,角宿一,,,Spica,,,,
+具名恆星,HIP 69673,,,Svātī,,大角星,,,Arcturus,,,,
+具名恆星,HIP 97649,,,Śravaṇa,,河鼓二（牛郎星）,,,Altair,,,,
+具名恆星,HIP 24608,,,Bramha Hṛdaya,,五車二,,,Capella,,,,
+具名恆星,HIP 32349,,,Lubdhaka,,天狼星,,,Sirius,,,,
+具名恆星,HIP 24436,,,Vānrājā,,參宿七,,,Rigel,,,,
+具名恆星,HIP 54061,,,Kratu,,天樞,,,Dubhe,,,,
+具名恆星,HIP 53910,,,Pulaha,,天璇,,,Merak,,,,
+具名恆星,HIP 58001,,,Pulasta,,天璣,,,Phecda,,,,
+具名恆星,HIP 59774,,,Atri,,天權,,,Megrez,,,,
+具名恆星,HIP 62956,,,Angirā,,玉衡,,,Alioth,,,,
+具名恆星,HIP 65378,,,Vaśisṭha,,開陽,,,Mizar,,,,
+具名恆星,HIP 67301,,,Mārīchi,,搖光,,,Alkaid,,,,
+具名恆星,HIP 65477,,,Arundhati,,輔,,,Alcor,,,,
+具名恆星,HIP 91262,,,Abhijit,,織女一,,,Vega,,,,
+具名恆星,HIP 80763,,,jyeṣṭhā,,心宿二,,,Antares,,,,
+具名恆星,HIP 30438,,,Augastya,,老人星,,,Canopus,,,,
+具名恆星,HIP 25428,,,Agni,,五車五,,,Elnath,,,,
+具名恆星,HIP 26727,,,Uṣā,,參宿一,,,Alnitak,,,,
+具名恆星,HIP 26311,,,Aniruddha,,參宿二,,,Alnilam,,,,
+具名恆星,HIP 25930,,,Chitralekhā,,參宿三,,,Mintaka,,,,
+具名恆星,HIP 31681,,,Anala,,井宿三,,,Alhena,,,,
+具名恆星,HIP 37826,,,Diti,,北河三,,,Pollux,,,,
+具名恆星,HIP 36850,,,Aditi,,北河二,,,Castor,,,,
+具名恆星,HIP 746,,,Yamadagni,,王良一,,,Caph,,,,
+具名恆星,HIP 25336,,,Kārtikeya,,參宿五,,,Bellatrix,,,,
+具名恆星,HIP 27366,,,Kārtyabīrya,,參宿六,,,Saiph,,,,
