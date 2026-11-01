@@ -4,12 +4,13 @@
 用法：
   python3 02_製作流程SOP/gen_en_pages.py 04_腳本庫/_英文版/EN01-A-11-Anuta-v0.md
 輸出（到 05_素材/{集}/_英文版/，集名從英文稿檔名的中文集號找 05_素材/{集號}_*）：
-  EN{nn}_Canva逐頁文字.csv   一列＝一頁：頁號、頁名、停留秒、英文字卡、英文字幕（斷好行）、位置、處理
+  EN{nn}_Canva逐頁文字.csv   一列＝一頁：頁號（原中文設計的頁號）、現在頁（移頁後；表裡沒有 Now 欄就留空）、
+                             頁名、停留秒、英文字卡、英文字幕（斷好行）、位置、處理
   EN{nn}_字幕.srt            每則文字依它第一頁到最後一頁的時間
 
 英文稿的表格格式：
   Beats:    | # | Sec | On pages | Pos | Headline | Text | w/s |
-  Sequence: | Canva page | Chinese page name | Sec to next | Note |
+  Sequence: | Canva page | Now | Chinese page name | Sec to next | Note |   （Now 欄可省略）
 斷行：每行 ≤ 40 個字母、不在單字中間斷；≤ 3 行塞不下就標「拆成 2 頁」。
 """
 import csv, glob, os, re, sys
@@ -81,8 +82,8 @@ def main(path):
         t += float(r["Sec to next"]) if re.match(r"^\d", r["Sec to next"] or "") else 0.0
     total = t
     # 每則文字 → 頁
-    per_page = {p: {"頁名": r["Chinese page name"], "停留秒": r["Sec to next"], "字卡": [], "字幕": [],
-                    "位置": [], "處理": r.get("Note", "")} for p, r in zip(pages, seq)}
+    per_page = {p: {"現在頁": r.get("Now", ""), "頁名": r["Chinese page name"], "停留秒": r["Sec to next"],
+                    "字卡": [], "字幕": [], "位置": [], "處理": r.get("Note", "")} for p, r in zip(pages, seq)}
     srt = []
     for b in beats:
         ps = [int(x) for x in re.findall(r"\d+", b.get("On", ""))]
@@ -107,7 +108,7 @@ def main(path):
     rows = []
     for p in pages:
         d = per_page[p]
-        rows.append({"Canva頁": p, "頁名": d["頁名"], "停留秒": d["停留秒"],
+        rows.append({"Canva頁": p, "現在頁": d["現在頁"], "頁名": d["頁名"], "停留秒": d["停留秒"],
                      "英文字卡": " ｜ ".join(d["字卡"]), "英文字幕": "\n\n".join(d["字幕"]),
                      "位置": "、".join(d["位置"]), "處理": d["處理"]})
     fcsv = os.path.join(out, f"{enid}_Canva逐頁文字.csv")

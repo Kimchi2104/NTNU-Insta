@@ -6,62 +6,62 @@
 | Publish | **2026-11-25 (Wed) 21:00 Taiwan time** — EN01 in `06_發布月曆/節目表_萬國星空_英文版.csv` |
 | Length | **90 s**, 15 beats, ~156 words on screen (no voice-over; text over light music) |
 | Story | One story only: **Manu, the great bird** — plus the surprise that the same three stars are a chicken 5,600 km away, and the same word |
-| Canva | `EN01 A-11 阿努塔` (DAHZrYpIF-M), a copy of the Chinese design. 24 pages kept, the rest moved to the end for deletion. Canva page = Chinese 製作表 page + 1. |
+| Canva | `EN01 A-11 阿努塔` (DAHZrYpIF-M), a copy of the Chinese design. **Placed 2026-11-01**: English text, English diagrams and translated labels on the 24 kept pages, which now sit in order as Canva pages 1–24 (the "Now" column below); pages 25–83 are unused — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold (84 wraps at W 860), body 44 px; narrow side boxes where labels sit (see `Canva逐頁文字放置規格.md` §4). |
 | Opening line | *One sky. The people of Anuta saw — a great bird.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4) |
 
 ## Beats (text on screen)
 
-`Pos`: **cover** = cover text block; **top** = headline/body box at the top (template EN-A top box); **bottom** = lower-third box (EN-B); **endcard** = replace the existing end-card text. `On pages` = every Canva page that carries this text (both ends of a Match & Move, so the text stays put while the sky moves).
+`Pos`: **cover** = cover text block; **top** = headline/body box at the top (template EN-A top box); **bottom** = lower-third box (EN-B); **top-left / bottom-left / bottom-right** = a narrow box (W 520–600) on that side, used where the full-width box would sit on star labels; **endcard** = replace the existing end-card text. `On pages` = every Canva page that carries this text (both ends of a Match & Move, so the text stays put while the sky moves).
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The people of Anuta saw — a great bird. | — |
 | E02 | 6 | 2, 3 | bottom | | Anuta: 0.4 km², about 300 people — one of Polynesia's smallest inhabited islands. | 2.2 |
-| E03 | 11 | 3, 4, 5, 6 | top | Fifteen generations ago | Their ancestors sailed here from Tonga and ʻUvea, by island tradition. | 1.0 |
-| E04 | 6 | 7, 8 | bottom | A sky of everyday things | Altair and its two neighbours: a carrying pole. Five stars of Grus: bamboo. | 2.2 |
-| E05 | 6 | 8, 9 | top | | Aries: an octopus arm. The Hyades: fire tongs. Orion's Belt: the Path of Three. | 2.3 |
+| E03 | 11 | 3, 4, 5, 6 | top | Fifteen generations ago | Their ancestors sailed here from Tonga and ʻUvea, by island tradition. *(pages 5–6: headline only; the body would sit on the diagram)* | 1.0 |
+| E04 | 6 | 7, 8 | top-left | A sky of everyday things | Altair and its two neighbours: a carrying pole. Five stars of Grus: bamboo. | 2.2 |
+| E05 | 6 | 8, 9 | bottom-right | | Aries: an octopus arm. The Hyades: fire tongs. Orion's Belt: the Path of Three. | 2.3 |
 | E06 | 2 | — | — | | *(move only; page 10 removed)* | — |
-| E07 | 8 | 11, 12 | bottom | Manu, the bird | But the biggest shape is a bird: Manu. Sirius is its body, Canopus and Procyon its wings. | 2.1 |
+| E07 | 8 | 11, 12 | bottom-left | Manu, the bird | But the biggest shape is a bird: Manu. Sirius is its body, Canopus and Procyon its wings. | 2.1 |
 | E08 | 6 | 12, 13 | top | | Look closely: the wings are not the same. North wing 26°, east wing 36°. | 2.3 |
 | E09 | 10 | 14, 15, 16 | top | | The legend: Manu fought the demigod Motikitiki over Taro — the star Antares. *(the diagram's own caption adds: the north wing was broken, so it is shorter)* | 1.3 |
 | E10 | 4 | — | — | | *(diagram fades out on 17, then the sky moves to 33)* | — |
 | E11 | 8 | 33, 34 | bottom | Same stars, same word | 5,600 km west, the Bugis of Sulawesi see a chicken: Manu'. Linguists trace the word to Taiwan: *manuk. | 2.4 |
 | E12 | 4 | — | — | | *(transition pages 37, 38; hard cut to 39)* | — |
-| E13 | 8 | 39, 40 | bottom | Look south after midnight | From Taiwan, 25° N, in late November: Sirius and Procyon high in the south, Canopus only 12° up. | 2.4 |
+| E13 | 8 | 39, 40 | bottom-left | Look south after midnight | From Taiwan, 25° N, in late November: Sirius and Procyon high in the south, Canopus only 12° up. *(in Canva: four short lines in the narrow left box, clear of the Canopus label)* | 2.4 |
 | E14 | 3 | 42 | endcard | Next Wednesday | The Pleiades: one cluster, a hundred names. | 2.3 |
 | E15 | 3 | 43 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
 
-Pages not listed are unused: Claude moves them after page 43; delete them in grid view. Transitions are Match & Move unless marked.
+`Canva page` = the original page number (Chinese design); `Now` = where the page sits after Claude moved the unused pages to the back (2026-11-01). Pages 25–83 are unused: delete them in grid view. Transitions are Match & Move unless marked.
 
-| Canva page | Chinese page name | Sec to next | Note |
-|---|---|---|---|
-| 1 | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP01 tag |
-| 2 | 鏡頭01開始 | 6 | E02 |
-| 3 | 鏡頭01結束＝鏡頭02開始 | 3 | E02 + E03 |
-| 4 | 鏡頭02結束 | 2 | E03 |
-| 5 | 鏡頭02-概念圖1 | 3 | map, English version (`_概念圖/en/C-A11-01…島嶼層`) |
-| 6 | 鏡頭02-概念圖2 | 3 | map + ancestors layer (English) |
-| 7 | 鏡頭02-概念圖收＝鏡頭03開始 | 6 | diagram fades; E04 |
-| 8 | 鏡頭03結束＝鏡頭04開始 | 6 | E04 + E05; labels 扁擔／竹子／石錛 → carrying pole／bamboo／adze |
-| 9 | 鏡頭04結束 | 2 | E05; labels 章魚腳／小臉／火鉗／三星之路 → octopus arm／little face (Pleiades)／fire tongs (Hyades)／Path of Three |
-| 11 | 鏡頭04-概念圖收＝鏡頭05開始 | 8 | E07 (page 10, the Chinese 圖卡, is removed) |
-| 12 | 鏡頭05結束＝鏡頭06開始 | 6 | E07 + E08; labels 飛翔的鳥／身體／東翼／北翼 → the flying bird／body／east wing／north wing |
-| 13 | 鏡頭06結束 | 2 | E08; labels 天狼星／老人星／南河三 → Sirius／Canopus／Procyon |
-| 14 | 鏡頭06-概念圖1 | 3 | wings diagram, English (`_概念圖/en/C-A11-02…`); E09 |
-| 15 | 鏡頭06-概念圖2 | 3 | E09 |
-| 16 | 鏡頭06-概念圖3 | 4 | E09 |
-| 17 | 鏡頭06-概念圖收＝鏡頭07開始 | 4 | diagram fades; no text; then the sky moves to page 33 |
-| 33 | 鏡頭14-概念圖收＝鏡頭15開始 | 8 | E11 |
-| 34 | 鏡頭15結束 | 2 | E11; label （布吉斯：雞） → (Bugis: chicken) |
-| 37 | 長圖轉南盤2-回中心 | 2 | transition |
-| 38 | 長圖轉南盤2-上移 | 0 | transition → **hard cut (no transition)** to 39 |
-| 39 | 長圖轉南盤2＝鏡頭16開始 | 8 | E13 |
-| 40 | 鏡頭16結束＝鏡頭17開始 | 3 | E13; labels 天狼星／老人星 → Sirius／Canopus |
-| 42 | 端卡（下集見） | 3 | E14 |
-| 43 | 追蹤頁 | — | E15 |
+| Canva page | Now | Chinese page name | Sec to next | Note |
+|---|---|---|---|---|
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP01 tag |
+| 2 | 2 | 鏡頭01開始 | 6 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 3 | E02 + E03 |
+| 4 | 4 | 鏡頭02結束 | 2 | E03 |
+| 5 | 5 | 鏡頭02-概念圖1 | 3 | map, English version (`_概念圖/en/C-A11-01…島嶼層`); E03 headline only |
+| 6 | 6 | 鏡頭02-概念圖2 | 3 | map + ancestors layer (English); E03 headline only |
+| 7 | 7 | 鏡頭02-概念圖收＝鏡頭03開始 | 6 | diagram fades; E04 |
+| 8 | 8 | 鏡頭03結束＝鏡頭04開始 | 6 | E04 + E05; labels 扁擔／竹子／石錛 → carrying pole／bamboo／adze |
+| 9 | 9 | 鏡頭04結束 | 2 | E05; labels 章魚腳／小臉／火鉗／三星之路 → octopus arm／little face (Pleiades)／fire tongs (Hyades)／Path of Three |
+| 11 | 10 | 鏡頭04-概念圖收＝鏡頭05開始 | 8 | E07 (page 10, the Chinese 圖卡, is removed) |
+| 12 | 11 | 鏡頭05結束＝鏡頭06開始 | 6 | E07 + E08; labels 飛翔的鳥／身體／東翼／北翼 → the flying bird／body／east wing／north wing |
+| 13 | 12 | 鏡頭06結束 | 2 | E08; labels 天狼星／老人星／南河三 → Sirius／Canopus／Procyon |
+| 14 | 13 | 鏡頭06-概念圖1 | 3 | wings diagram, English (`_概念圖/en/C-A11-02…`); E09 |
+| 15 | 14 | 鏡頭06-概念圖2 | 3 | E09 |
+| 16 | 15 | 鏡頭06-概念圖3 | 4 | E09 |
+| 17 | 16 | 鏡頭06-概念圖收＝鏡頭07開始 | 4 | diagram fades; no caption; labels as page 13; then the sky moves to page 33 |
+| 33 | 17 | 鏡頭14-概念圖收＝鏡頭15開始 | 8 | E11; label 飛翔的鳥 → the flying bird |
+| 34 | 18 | 鏡頭15結束 | 2 | E11; labels 飛翔的鳥／（布吉斯：雞） → the flying bird／(Bugis: chicken) |
+| 37 | 19 | 長圖轉南盤2-回中心 | 2 | transition |
+| 38 | 20 | 長圖轉南盤2-上移 | 0 | transition → **hard cut (no transition)** to 39 |
+| 39 | 21 | 長圖轉南盤2＝鏡頭16開始 | 8 | E13 |
+| 40 | 22 | 鏡頭16結束＝鏡頭17開始 | 3 | E13; labels 天狼星／老人星 → Sirius／Canopus |
+| 42 | 23 | 端卡（下集見） | 3 | E14 |
+| 43 | 24 | 追蹤頁 | — | E15 |
 
 Total 90 s.
 
@@ -112,3 +112,4 @@ Wording to check:
 6. E11 "5,600 km" = 5,586 km computed; "Linguists trace the word to Taiwan: *manuk" compresses 「南島語的祖先說 manuk，北台灣的巴賽語也說 manuk」.
 7. E13 "Canopus only 12° up" = Taipei upper culmination 12.3°; "after midnight" = Chinese 「凌晨兩點朝正南看」. Time given in Taiwan terms on purpose (this is our sky); international viewers get the general idea.
 8. The cover's second line is the schedule's hook, not a translation of the Chinese cover's second line.
+9. E13 is set as four short lines in Canva ("From Taiwan, 25° N, in late / November: Sirius and Procyon / high in the south, / Canopus only 12° up.") so it stays clear of the Canopus label; same words as the table.

@@ -1,64 +1,64 @@
-﻿Canva頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,開場字卡,3,World Sky Cultures,"One sky. The people of Anuta saw — a
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,1,開場字卡,3,World Sky Cultures,"One sky. The people of Anuta saw — a
 great bird.",cover,Cover: text block replaced with English; EN · EP01 tag
-2,鏡頭01開始,6,,"Anuta: 0.4 km², about 300 people — one
+2,2,鏡頭01開始,6,,"Anuta: 0.4 km², about 300 people — one
 of Polynesia's smallest inhabited
 islands.",bottom,E02
-3,鏡頭01結束＝鏡頭02開始,3,Fifteen generations ago,"Anuta: 0.4 km², about 300 people — one
+3,3,鏡頭01結束＝鏡頭02開始,3,Fifteen generations ago,"Anuta: 0.4 km², about 300 people — one
 of Polynesia's smallest inhabited
 islands.
 
 Their ancestors sailed here from Tonga
 and ʻUvea, by island tradition.",bottom、top,E02 + E03
-4,鏡頭02結束,2,Fifteen generations ago,"Their ancestors sailed here from Tonga
+4,4,鏡頭02結束,2,Fifteen generations ago,"Their ancestors sailed here from Tonga
 and ʻUvea, by island tradition.",top,E03
-5,鏡頭02-概念圖1,3,Fifteen generations ago,"Their ancestors sailed here from Tonga
-and ʻUvea, by island tradition.",top,"map, English version (`_概念圖/en/C-A11-01…島嶼層`)"
-6,鏡頭02-概念圖2,3,Fifteen generations ago,"Their ancestors sailed here from Tonga
-and ʻUvea, by island tradition.",top,map + ancestors layer (English)
-7,鏡頭02-概念圖收＝鏡頭03開始,6,A sky of everyday things,"Altair and its two neighbours: a
+5,5,鏡頭02-概念圖1,3,Fifteen generations ago,"Their ancestors sailed here from Tonga
+and ʻUvea, by island tradition.",top,"map, English version (`_概念圖/en/C-A11-01…島嶼層`); E03 headline only"
+6,6,鏡頭02-概念圖2,3,Fifteen generations ago,"Their ancestors sailed here from Tonga
+and ʻUvea, by island tradition.",top,map + ancestors layer (English); E03 headline only
+7,7,鏡頭02-概念圖收＝鏡頭03開始,6,A sky of everyday things,"Altair and its two neighbours: a
 carrying pole. Five stars of Grus:
-bamboo.",bottom,diagram fades; E04
-8,鏡頭03結束＝鏡頭04開始,6,A sky of everyday things,"Altair and its two neighbours: a
+bamboo.",top-left,diagram fades; E04
+8,8,鏡頭03結束＝鏡頭04開始,6,A sky of everyday things,"Altair and its two neighbours: a
 carrying pole. Five stars of Grus:
 bamboo.
 
 Aries: an octopus arm. The Hyades: fire
-tongs. Orion's Belt: the Path of Three.",bottom、top,E04 + E05; labels 扁擔／竹子／石錛 → carrying pole／bamboo／adze
-9,鏡頭04結束,2,,"Aries: an octopus arm. The Hyades: fire
-tongs. Orion's Belt: the Path of Three.",top,E05; labels 章魚腳／小臉／火鉗／三星之路 → octopus arm／little face (Pleiades)／fire tongs (Hyades)／Path of Three
-11,鏡頭04-概念圖收＝鏡頭05開始,8,"Manu, the bird","But the biggest shape is a bird: Manu.
+tongs. Orion's Belt: the Path of Three.",top-left、bottom-right,E04 + E05; labels 扁擔／竹子／石錛 → carrying pole／bamboo／adze
+9,9,鏡頭04結束,2,,"Aries: an octopus arm. The Hyades: fire
+tongs. Orion's Belt: the Path of Three.",bottom-right,E05; labels 章魚腳／小臉／火鉗／三星之路 → octopus arm／little face (Pleiades)／fire tongs (Hyades)／Path of Three
+11,10,鏡頭04-概念圖收＝鏡頭05開始,8,"Manu, the bird","But the biggest shape is a bird: Manu.
 Sirius is its body, Canopus and Procyon
-its wings.",bottom,"E07 (page 10, the Chinese 圖卡, is removed)"
-12,鏡頭05結束＝鏡頭06開始,6,"Manu, the bird","But the biggest shape is a bird: Manu.
+its wings.",bottom-left,"E07 (page 10, the Chinese 圖卡, is removed)"
+12,11,鏡頭05結束＝鏡頭06開始,6,"Manu, the bird","But the biggest shape is a bird: Manu.
 Sirius is its body, Canopus and Procyon
 its wings.
 
 Look closely: the wings are not the
-same. North wing 26°, east wing 36°.",bottom、top,E07 + E08; labels 飛翔的鳥／身體／東翼／北翼 → the flying bird／body／east wing／north wing
-13,鏡頭06結束,2,,"Look closely: the wings are not the
+same. North wing 26°, east wing 36°.",bottom-left、top,E07 + E08; labels 飛翔的鳥／身體／東翼／北翼 → the flying bird／body／east wing／north wing
+13,12,鏡頭06結束,2,,"Look closely: the wings are not the
 same. North wing 26°, east wing 36°.",top,E08; labels 天狼星／老人星／南河三 → Sirius／Canopus／Procyon
-14,鏡頭06-概念圖1,3,,"The legend: Manu fought the demigod
+14,13,鏡頭06-概念圖1,3,,"The legend: Manu fought the demigod
 Motikitiki over Taro — the star Antares.",top,"wings diagram, English (`_概念圖/en/C-A11-02…`); E09"
-15,鏡頭06-概念圖2,3,,"The legend: Manu fought the demigod
+15,14,鏡頭06-概念圖2,3,,"The legend: Manu fought the demigod
 Motikitiki over Taro — the star Antares.",top,E09
-16,鏡頭06-概念圖3,4,,"The legend: Manu fought the demigod
+16,15,鏡頭06-概念圖3,4,,"The legend: Manu fought the demigod
 Motikitiki over Taro — the star Antares.",top,E09
-17,鏡頭06-概念圖收＝鏡頭07開始,4,,,,diagram fades; no text; then the sky moves to page 33
-33,鏡頭14-概念圖收＝鏡頭15開始,8,"Same stars, same word","5,600 km west, the Bugis of Sulawesi see
+17,16,鏡頭06-概念圖收＝鏡頭07開始,4,,,,diagram fades; no caption; labels as page 13; then the sky moves to page 33
+33,17,鏡頭14-概念圖收＝鏡頭15開始,8,"Same stars, same word","5,600 km west, the Bugis of Sulawesi see
 a chicken: Manu'. Linguists trace the
-word to Taiwan: *manuk.",bottom,E11
-34,鏡頭15結束,2,"Same stars, same word","5,600 km west, the Bugis of Sulawesi see
+word to Taiwan: *manuk.",bottom,E11; label 飛翔的鳥 → the flying bird
+34,18,鏡頭15結束,2,"Same stars, same word","5,600 km west, the Bugis of Sulawesi see
 a chicken: Manu'. Linguists trace the
-word to Taiwan: *manuk.",bottom,E11; label （布吉斯：雞） → (Bugis: chicken)
-37,長圖轉南盤2-回中心,2,,,,transition
-38,長圖轉南盤2-上移,0,,,,transition → **hard cut (no transition)** to 39
-39,長圖轉南盤2＝鏡頭16開始,8,Look south after midnight,"From Taiwan, 25° N, in late November:
+word to Taiwan: *manuk.",bottom,E11; labels 飛翔的鳥／（布吉斯：雞） → the flying bird／(Bugis: chicken)
+37,19,長圖轉南盤2-回中心,2,,,,transition
+38,20,長圖轉南盤2-上移,0,,,,transition → **hard cut (no transition)** to 39
+39,21,長圖轉南盤2＝鏡頭16開始,8,Look south after midnight,"From Taiwan, 25° N, in late November:
 Sirius and Procyon high in the south,
-Canopus only 12° up.",bottom,E13
-40,鏡頭16結束＝鏡頭17開始,3,Look south after midnight,"From Taiwan, 25° N, in late November:
+Canopus only 12° up.",bottom-left,E13
+40,22,鏡頭16結束＝鏡頭17開始,3,Look south after midnight,"From Taiwan, 25° N, in late November:
 Sirius and Procyon high in the south,
-Canopus only 12° up.",bottom,E13; labels 天狼星／老人星 → Sirius／Canopus
-42,端卡（下集見）,3,Next Wednesday,"The Pleiades: one cluster, a hundred
+Canopus only 12° up.",bottom-left,E13; labels 天狼星／老人星 → Sirius／Canopus
+42,23,端卡（下集見）,3,Next Wednesday,"The Pleiades: one cluster, a hundred
 names.",endcard,E14
-43,追蹤頁,—,,Follow for a new sky every week.,endcard,E15
+43,24,追蹤頁,—,,Follow for a new sky every week.,endcard,E15
