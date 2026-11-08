@@ -1,0 +1,15 @@
+# macOS 與 Google Drive 同步產生的檔案（不需要進版本控制）
+.DS_Store
+._*
+.tmp.driveupload/
+.tmp.drivedownload/
+# 資料夾圖示檔，檔名是 Icon 加上一個換行字元
+Icon
+
+# Python 暫存
+__pycache__/
+*.pyc
+
+# Office／LibreOffice 開檔時的暫存
+~$*
+.~lock.*#

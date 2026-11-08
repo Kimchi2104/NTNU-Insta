@@ -27,6 +27,44 @@ OUT = os.path.join(BASE, "05_素材/A-11_阿努塔/_概念圖")
 C.set_base(OUT)
 RED, GREY, SEA = "#FF6B6B", "#7C8BA8", "#2A4A7A"
 S = None
+LANG = "zh"          # python3 make_a11_diagrams.py --lang en → 只出 C-A11-01、02 的英文版到 _概念圖/en/
+TXT = {
+    "zh": {
+        "c01_title": "阿努塔：所羅門群島東端", "c01_sub": "島的位置依實際經緯度；島形示意",
+        "Anuta": "阿努塔", "Nendo": "聖克魯斯群島", "Honiara": "所羅門群島（Honiara）",
+        "Espiritu Santo": "萬那杜", "Viti Levu": "斐濟", "Tongatapu": "東加", "Savaiʻi": "薩摩亞",
+        "zoom": "放大", "anuta_small": "阿努塔 0.37 km²・約 300 人",
+        "patutaka": "Patutaka（無人島）", "patutaka2": "一年划去一兩趟抓海鳥",
+        "foot": "人在美拉尼西亞的所羅門群島，說的是玻里尼西亞語",
+        "oral1": "島上的口傳：", "oral2": "大約十五代以前，", "oral3": "祖先從東加和 ʻUvea 駕船過來",
+        "c02_title": "Manu：天上最大的鳥", "c02_sub": "Feinberg 1988；東在左、北在上",
+        "天狼星": "天狼星", "老人星": "老人星", "南河三": "南河三", "α Pic": "α Pic",
+        "body": "身體", "nwing": "北翼 {:.1f}°", "ewing": "東翼 {:.1f}°", "apic": "東翼的領路星",
+        "leg1": "為了女神 Taro（心宿二），Manu 和 Motikitiki 打了一架，",
+        "leg2": "北翼被打斷——所以比東翼短",
+        "leg3": "Feinberg 1995；Motikitiki＝把阿努塔從海底拉上來的半神",
+    },
+    "en": {
+        "c01_title": "Anuta: the eastern edge of the Solomons", "c01_sub": "True positions; island shapes schematic",
+        "Anuta": "Anuta", "Nendo": "Santa Cruz Islands", "Honiara": "Solomon Islands (Honiara)",
+        "Espiritu Santo": "Vanuatu", "Viti Levu": "Fiji", "Tongatapu": "Tonga", "Savaiʻi": "Samoa",
+        "zoom": "Zoom", "anuta_small": "Anuta: 0.37 km² · about 300 people",
+        "patutaka": "Patutaka (uninhabited)", "patutaka2": "a trip or two a year, for seabirds",
+        "foot": "In Melanesia's Solomon Islands — but Polynesian speakers",
+        "oral1": "Island tradition:", "oral2": "about fifteen generations ago,",
+        "oral3": "the ancestors sailed from Tonga and ʻUvea",
+        "c02_title": "Manu: the biggest bird in the sky", "c02_sub": "Feinberg 1988; east left, north up",
+        "天狼星": "Sirius", "老人星": "Canopus", "南河三": "Procyon", "α Pic": "α Pic",
+        "body": "body", "nwing": "north wing {:.1f}°", "ewing": "east wing {:.1f}°", "apic": "lead star of the east wing",
+        "leg1": "Manu fought Motikitiki over the goddess Taro (Antares);",
+        "leg2": "the north wing was broken — so it is shorter",
+        "leg3": "Feinberg 1995; Motikitiki = the demigod who pulled Anuta up from the sea floor",
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 
 
 def gc_km(a, b):
@@ -60,8 +98,8 @@ def mp(lat, lon):
 
 
 def c01_islands(ax):
-    T(ax, 0.0, 0.92, "阿努塔：所羅門群島東端", 31, WHITE)
-    T(ax, 0.0, 0.845, "島的位置依實際經緯度；島形示意", 17, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c01_title"), 31, WHITE)
+    T(ax, 0.0, 0.845, tx("c01_sub"), 17, GREY, w="normal")
     for lat in (-8, -12, -16, -20):
         a, b = mp(lat, 160.0), mp(lat, 189.0)
         ax.plot([a[0], b[0]], [a[1], a[1]], c=WHITE, lw=0.8, alpha=.18, ls=(0, (4, 5)), zorder=2)
@@ -74,15 +112,15 @@ def c01_islands(ax):
         col = AMBER if nm == "Anuta" else GREY
         ax.scatter([x], [y], s=big[nm], c=col, alpha=1 if nm == "Anuta" else .7, zorder=8, lw=0)
     lab = {  # 名稱, dx, dy, 字級, 顏色, ha
-        "Anuta": ("阿努塔", 0.025, 0.04, 22, AMBER, "left"),
+        "Anuta": (tx("Anuta"), 0.025, 0.04, 22, AMBER, "left"),
         "Tikopia": ("", 0, 0, 1, GREY, "left"),
-        "Nendo": ("聖克魯斯群島", 0.0, 0.06, 14, GREY, "center"),
-        "Honiara": ("所羅門群島（Honiara）", 0.0, 0.055, 14, GREY, "center"),
-        "Espiritu Santo": ("萬那杜", 0.0, -0.07, 15, GREY, "center"),
-        "Viti Levu": ("斐濟", 0.0, -0.07, 15, GREY, "center"),
+        "Nendo": (tx("Nendo"), 0.0, 0.06, 14, GREY, "center"),
+        "Honiara": (tx("Honiara"), 0.0, 0.055, 14, GREY, "center"),
+        "Espiritu Santo": (tx("Espiritu Santo"), 0.0, -0.07, 15, GREY, "center"),
+        "Viti Levu": (tx("Viti Levu"), 0.0, -0.07, 15, GREY, "center"),
         "ʻUvea": ("ʻUvea", 0.035, 0.0, 15, WHITE, "left"),
-        "Tongatapu": ("東加", 0.035, -0.02, 16, WHITE, "left"),
-        "Savaiʻi": ("薩摩亞", 0.0, 0.06, 14, GREY, "center"),
+        "Tongatapu": (tx("Tongatapu"), 0.035, -0.02, 16, WHITE, "left"),
+        "Savaiʻi": (tx("Savaiʻi"), 0.0, 0.06, 14, GREY, "center"),
     }
     for nm, (txt, dx, dy, fs, col, ha) in lab.items():
         if not txt:
@@ -93,7 +131,7 @@ def c01_islands(ax):
     bx, by, bw, bh = -0.92, -0.86, 0.80, 0.62
     ax.add_patch(C.FancyBboxPatch((bx, by), bw, bh, boxstyle="round,pad=0.0,rounding_size=0.03",
                                   fc="#10172E", ec=GREY, lw=1.2, alpha=1.0, zorder=10))
-    T(ax, bx + 0.03, by + bh - 0.045, "放大", 13, GREY, w="normal", ha="left")
+    T(ax, bx + 0.03, by + bh - 0.045, tx("zoom"), 13, GREY, w="normal", ha="left")
     ic, kx = (-11.95, 169.70), 0.0035                  # 放大框中心經緯度、每公里
     cx0, cy0 = bx + bw / 2, by + bh / 2 - 0.02
 
@@ -107,12 +145,12 @@ def c01_islands(ax):
     ax_, ay_ = mi(*P["Anuta"]); tx_, ty_ = mi(*P["Tikopia"]); px_, py_ = mi(*P["Patutaka"])
     ax.plot([ax_, tx_], [ay_, ty_], c=WHITE, lw=1.2, alpha=.5, ls=(0, (3, 3)), zorder=11)
     ax.plot([ax_, px_], [ay_, py_], c=WHITE, lw=1.2, alpha=.5, ls=(0, (3, 3)), zorder=11)
-    T(ax, ax_ - 0.02, ay_ + 0.045, "阿努塔 0.37 km²・約 300 人", 13.5, AMBER, ha="center")
+    T(ax, ax_ - 0.02, ay_ + 0.045, tx("anuta_small"), 13.5, AMBER, ha="center")
     T(ax, tx_, ty_ - 0.05, "Tikopia", 13, WHITE)
     T(ax, (ax_ + tx_) / 2 - 0.02, (ay_ + ty_) / 2 + 0.03,
       f"{gc_km(P['Anuta'], P['Tikopia']):.0f} km", 12, WHITE, w="normal", ha="right")
-    T(ax, px_, py_ - 0.045, "Patutaka（無人島）", 12, GREY, w="normal", ha="center")
-    T(ax, px_, py_ - 0.085, "一年划去一兩趟抓海鳥", 11, GREY, w="normal", ha="center")
+    T(ax, px_, py_ - 0.045, tx("patutaka"), 12, GREY, w="normal", ha="center")
+    T(ax, px_, py_ - 0.085, tx("patutaka2"), 11, GREY, w="normal", ha="center")
     T(ax, (ax_ + px_) / 2 + 0.035, (ay_ + py_) / 2 + 0.02,
       f"{gc_km(P['Anuta'], P['Patutaka']):.0f} km", 12, WHITE, w="normal", ha="left")
     # 比例尺（主圖）
@@ -120,7 +158,7 @@ def c01_islands(ax):
     L = 1000 / 111.2 * SC
     ax.plot([sx0, sx0 + L], [sy, sy], c=WHITE, lw=2.0, alpha=.7)
     T(ax, sx0 + L / 2, sy + 0.035, "1000 km", 12, GREY, w="normal")
-    T(ax, 0.0, -0.93, "人在美拉尼西亞的所羅門群島，說的是玻里尼西亞語", 15, GREY, w="normal")
+    T(ax, 0.0, -0.93, tx("foot"), 15, GREY, w="normal")
 
 
 def c01_ancestors(ax):
@@ -134,9 +172,9 @@ def c01_ancestors(ax):
         T(ax, mx + dx, my + dy, f"{km:,.0f} km", 15, col)
     ax.add_patch(C.FancyBboxPatch((0.05, 0.40), 0.86, 0.27, boxstyle="round,pad=0.01,rounding_size=0.03",
                                   fc="#1B2240", ec=GREEN, lw=1.4, zorder=4))
-    T(ax, 0.48, 0.60, "島上的口傳：", 16, GREEN)
-    T(ax, 0.48, 0.535, "大約十五代以前，", 16, WHITE, w="normal")
-    T(ax, 0.48, 0.47, "祖先從東加和 ʻUvea 駕船過來", 16, WHITE, w="normal")
+    T(ax, 0.48, 0.60, tx("oral1"), 16, GREEN)
+    T(ax, 0.48, 0.535, tx("oral2"), 16, WHITE, w="normal")
+    T(ax, 0.48, 0.47, tx("oral3"), 16, WHITE, w="normal")
 
 
 # ══════════════════════ C-A11-02 Manu 的翅膀 ══════════════════════
@@ -163,8 +201,8 @@ def proj(h, c0=(104.0, -28.3), k=0.0172):
 
 
 def c02_stars(ax):
-    T(ax, 0.0, 0.92, "Manu：天上最大的鳥", 31, AMBER)
-    T(ax, 0.0, 0.845, "Feinberg 1988；東在左、北在上", 17, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c02_title"), 31, AMBER)
+    T(ax, 0.0, 0.845, tx("c02_sub"), 17, GREY, w="normal")
     for nm, h in MANU.items():
         x, y = proj(h)
         v = S[h][2]
@@ -174,7 +212,7 @@ def c02_stars(ax):
            "α Pic": (-0.05, -0.01, "right")}
     for nm, (dx, dy, ha) in lab.items():
         x, y = proj(MANU[nm])
-        T(ax, x + dx, y + dy, nm, 16, WHITE, ha=ha, w="normal")
+        T(ax, x + dx, y + dy, tx(nm), 16, WHITE, ha=ha, w="normal")
 
 
 def c02_wings(ax):
@@ -182,22 +220,22 @@ def c02_wings(ax):
     ax.plot([p_[0], s_[0], c_[0], a_[0]], [p_[1], s_[1], c_[1], a_[1]], c=AMBER, lw=3.4, alpha=.95,
             zorder=7)
     wn, we = sep(MANU["天狼星"], MANU["南河三"]), sep(MANU["天狼星"], MANU["老人星"])
-    for (a, b), txt in (((s_, p_), f"北翼 {wn:.1f}°"), ((s_, c_), f"東翼 {we:.1f}°")):
+    for (a, b), txt in (((s_, p_), tx("nwing").format(wn)), ((s_, c_), tx("ewing").format(we))):
         mx, my = (a[0] + b[0]) / 2, (a[1] + b[1]) / 2
         T(ax, mx + 0.06, my, txt, 20, AMBER, ha="left")
-    T(ax, s_[0] + 0.07, s_[1] + 0.07, "身體", 18, AMBER, ha="left")
+    T(ax, s_[0] + 0.07, s_[1] + 0.07, tx("body"), 18, AMBER, ha="left")
     T(ax, c_[0] + 0.07, c_[1] - 0.055, "Te Kapakau Tonga", 14, AMBER, ha="left", w="normal")
     T(ax, p_[0] - 0.07, p_[1] - 0.055, "Te Kapakau Pakatokerau", 14, AMBER, ha="right", w="normal")
-    T(ax, a_[0] - 0.05, a_[1] - 0.06, "東翼的領路星", 14, WHITE, ha="right", w="normal")
+    T(ax, a_[0] - 0.05, a_[1] - 0.06, tx("apic"), 14, WHITE, ha="right", w="normal")
 
 
 def c02_legend(ax):
     ax.add_patch(C.FancyBboxPatch((-0.88, -0.93), 1.76, 0.25,
                                   boxstyle="round,pad=0.01,rounding_size=0.03",
                                   fc="#1B2240", ec=AMBER, lw=1.4, zorder=4))
-    T(ax, 0.0, -0.75, "為了女神 Taro（心宿二），Manu 和 Motikitiki 打了一架，", 17, WHITE)
-    T(ax, 0.0, -0.82, "北翼被打斷——所以比東翼短", 17, WHITE)
-    T(ax, 0.0, -0.89, "Feinberg 1995；Motikitiki＝把阿努塔從海底拉上來的半神", 12.5, GREY, w="normal")
+    T(ax, 0.0, -0.75, tx("leg1"), 17, WHITE)
+    T(ax, 0.0, -0.82, tx("leg2"), 17, WHITE)
+    T(ax, 0.0, -0.89, tx("leg3"), 12.5, GREY, w="normal")
 
 
 # ══════════════════════ C-A11-03 星路 ══════════════════════
@@ -390,10 +428,16 @@ def c05_card(ax):
 
 
 def main():
-    global S
-    os.makedirs(OUT, exist_ok=True)
+    global S, LANG
     S = G.load_stars(BASE)
     S = dict(S)
+    if "--lang" in sys.argv:                      # 英文版：只出 EN01 會用到的兩組，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        C.set_base(os.path.join(OUT, LANG))
+        C.emit("", [("島嶼", c01_islands), ("祖先", c01_ancestors)], title="C-A11-01_阿努塔地圖")
+        C.emit("", [("星點", c02_stars), ("翅膀", c02_wings), ("傳說", c02_legend)], title="C-A11-02_Manu的翅膀")
+        return
+    os.makedirs(OUT, exist_ok=True)
     print(f"  阿努塔→Tikopia {gc_km(P['Anuta'], P['Tikopia']):.0f} km、{bearing(P['Anuta'], P['Tikopia']):.1f}°；"
           f"→Patutaka {gc_km(P['Anuta'], P['Patutaka']):.0f} km；→東加 {gc_km(P['Anuta'], P['Tongatapu']):.0f} km；"
           f"→ʻUvea {gc_km(P['Anuta'], P['ʻUvea']):.0f} km")
