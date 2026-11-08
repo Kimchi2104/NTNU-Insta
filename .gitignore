@@ -13,3 +13,6 @@ __pycache__/
 # Office／LibreOffice 開檔時的暫存
 ~$*
 .~lock.*#
+
+# 天文曆表（skyfield 會自動下載，16 MB，不進版本控制）
+*.bsp
