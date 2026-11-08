@@ -13,6 +13,7 @@ C-X01-07 週末往東看（9:16 圖卡；台北 2026/11/28 20:00）
 來源：Stellarium skycultures（新舊兩版 index.json／description）；Hesiod《工作與時日》383–384；
       Melis et al. 2014（VLBI 136.2 pc）；Hipparcos 1997（約 120 pc）；POLLEX *mata-liki。
 執行：python3 make_x01_diagrams.py
+      python3 make_x01_diagrams.py --lang en → 只出 EN02 會用到的兩張圖卡（C-X01-02、06）到 _概念圖/en/
 """
 import os, sys, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -27,6 +28,51 @@ CB.set_base(OUT)
 RED, GREY, PANEL = "#FF6B6B", "#7C8BA8", "#1B2240"
 S = None
 TPE = ("25.0330", "121.5654")
+LANG = "zh"
+TXT = {
+    "zh": {
+        "c02_title": "太平洋的同一個字", "c02_sub": "玻里尼西亞各島叫昴宿的名字",
+        "c02_rows": [("毛利（紐西蘭）", "Matariki", "六、七月黎明重現＝新年（2022 年起國定假日）"),
+                     ("阿努塔（所羅門群島）", "Matariki", "Stellarium：小臉、小眼睛"),
+                     ("大溪地", "Matariʻi", "小眼睛；11–5 月是 Matariʻi i niʻa 豐收季"),
+                     ("薩摩亞", "Matāliʻi", "Liʻi 的臉；黃昏升起＝新年"),
+                     ("東加", "Mataliki", "Stellarium 名稱表寫 Motuliki，說明文寫 Mataliki"),
+                     ("夏威夷", "Makaliʻi", "Stellarium：酋長之眼（字典：細小）；黃昏升起＝新年")],
+        "c02_root": "還原成同一個古字（mata＝眼睛、臉）",
+        "c02_lingh": "語言學：liki＝小", "c02_ling": "「小小的眼睛」",
+        "c02_maorih": "毛利傳說：ariki＝首領、神", "c02_maori": "「天神的眼睛」",
+        "c02_n1": "語言學的重建多支持「小」；毛利傳統另有「天神之眼」的說法",
+        "c02_n2": "毛利、大溪地念 r；薩摩亞、東加、夏威夷念 l；夏威夷再把 t 念成 k",
+        "c02_src": "Stellarium：maori／anutan／ruanui（大溪地）／samoan／tongan／hawaiian_starlines；POLLEX *mata-liki",
+        "tag": "#萬國星空　#師大天文社",
+        "c06_title": "七姊妹的一百個名字", "c06_sub": "這裡先收 {n} 個（Stellarium skycultures）",
+        "c06_foot": "「一百」是個大概——光 Stellarium 新舊兩版，就有四十多個文化替它取了名字",
+    },
+    "en": {
+        "c02_title": "One word across the Pacific", "c02_sub": "What Polynesian islands call the Pleiades",
+        "c02_rows": [("Māori (New Zealand)", "Matariki", "Returns at dawn in June–July = New Year (holiday since 2022)"),
+                     ("Anuta (Solomon Islands)", "Matariki", "Stellarium: small face, small eyes"),
+                     ("Tahiti", "Matariʻi", "Small eyes; Nov–May is Matariʻi i niʻa, the season of plenty"),
+                     ("Samoa", "Matāliʻi", "Face of Liʻi; rising at dusk = New Year"),
+                     ("Tonga", "Mataliki", "Stellarium name list: Motuliki; its description: Mataliki"),
+                     ("Hawaiʻi", "Makaliʻi", "Stellarium: the Chief's Eyes (dictionary: tiny); dusk rising = New Year")],
+        "c02_root": "Traced back to one old word (mata = eye, face)",
+        "c02_lingh": "Linguists: liki = small", "c02_ling": "“little eyes”",
+        "c02_maorih": "Māori lore: ariki = chief, god", "c02_maori": "“eyes of a god”",
+        "c02_n1": "Most reconstructions favour “small”; Māori tradition also tells of a god's eyes",
+        "c02_n2": "Māori, Tahitian: r · Samoan, Tongan, Hawaiian: l · Hawaiian also turns t into k",
+        "c02_src": "Stellarium: maori / anutan / ruanui (Tahiti) / samoan / tongan / hawaiian_starlines; POLLEX *mata-liki",
+        "tag": "#WorldSkyCultures　NTNU Astronomy Club",
+        "c06_title": "One cluster, a hundred names", "c06_sub": "{n} of them here (Stellarium sky cultures)",
+        "c06_foot": "“A hundred” is a round number — Stellarium alone has over forty cultures that named it",
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
+
+
 NAMES = {X1.ALCYONE: ("Alcyone", "昴宿六"), X1.ATLAS: ("Atlas", "昴宿七"), X1.ELECTRA: ("Electra", "昴宿一"),
          X1.MAIA: ("Maia", "昴宿四"), X1.MEROPE: ("Merope", "昴宿五"), X1.TAYGETA: ("Taygeta", "昴宿二"),
          X1.PLEIONE: ("Pleione", "昴宿增十二"), X1.CELAENO: ("Celaeno", "昴宿增九"),
@@ -174,14 +220,9 @@ def c01_legend(ax):
 
 # ══════════════════════ C-X01-02 太平洋的同一個字（9:16） ══════════════════════
 def c02_card(ax):
-    ctext(ax, 0.5, 0.955, "太平洋的同一個字", 30, WHITE)
-    ctext(ax, 0.5, 0.918, "玻里尼西亞各島叫昴宿的名字", 14, GREY, w="normal")
-    rows = [("毛利（紐西蘭）", "Matariki", "六、七月黎明重現＝新年（2022 年起國定假日）"),
-            ("阿努塔（所羅門群島）", "Matariki", "Stellarium：小臉、小眼睛"),
-            ("大溪地", "Matariʻi", "小眼睛；11–5 月是 Matariʻi i niʻa 豐收季"),
-            ("薩摩亞", "Matāliʻi", "Liʻi 的臉；黃昏升起＝新年"),
-            ("東加", "Mataliki", "Stellarium 名稱表寫 Motuliki，說明文寫 Mataliki"),
-            ("夏威夷", "Makaliʻi", "Stellarium：酋長之眼（字典：細小）；黃昏升起＝新年")]
+    ctext(ax, 0.5, 0.955, tx("c02_title"), 30, WHITE)
+    ctext(ax, 0.5, 0.918, tx("c02_sub"), 14, GREY, w="normal")
+    rows = tx("c02_rows")
     y = 0.885
     for isl, word, note in rows:
         ax.plot([0.04, 0.96], [y, y], c=WHITE, lw=0.6, alpha=.2)
@@ -190,19 +231,18 @@ def c02_card(ax):
         ctext(ax, 0.06, y - 0.055, note, 11, WHITE, w="normal", ha="left")
         y -= 0.078
     ax.plot([0.04, 0.96], [y, y], c=WHITE, lw=0.6, alpha=.2)
-    ctext(ax, 0.5, 0.375, "還原成同一個古字（mata＝眼睛、臉）", 14, AMBER)
+    ctext(ax, 0.5, 0.375, tx("c02_root"), 14, AMBER)
     ctext(ax, 0.5, 0.320, "mata  ＋  liki", 32, AMBER)
     box(ax, 0.06, 0.160, 0.42, 0.105, ec=BLUE)
     box(ax, 0.52, 0.160, 0.42, 0.105, ec=PURPLE)
-    ctext(ax, 0.27, 0.238, "語言學：liki＝小", 13, BLUE)
-    ctext(ax, 0.27, 0.188, "「小小的眼睛」", 15, WHITE)
-    ctext(ax, 0.73, 0.238, "毛利傳說：ariki＝首領、神", 13, PURPLE)
-    ctext(ax, 0.73, 0.188, "「天神的眼睛」", 15, WHITE)
-    ctext(ax, 0.5, 0.128, "語言學的重建多支持「小」；毛利傳統另有「天神之眼」的說法", 11.5, GREY, w="normal")
-    ctext(ax, 0.5, 0.093, "毛利、大溪地念 r；薩摩亞、東加、夏威夷念 l；夏威夷再把 t 念成 k", 11, WHITE, w="normal")
-    ctext(ax, 0.5, 0.058, "Stellarium：maori／anutan／ruanui（大溪地）／samoan／tongan／hawaiian_starlines；POLLEX *mata-liki",
-          8.5, GREY, w="normal")
-    ctext(ax, 0.5, 0.025, "#萬國星空　#師大天文社", 13, WHITE, w="normal")
+    ctext(ax, 0.27, 0.238, tx("c02_lingh"), 13, BLUE)
+    ctext(ax, 0.27, 0.188, tx("c02_ling"), 15, WHITE)
+    ctext(ax, 0.73, 0.238, tx("c02_maorih"), 13, PURPLE)
+    ctext(ax, 0.73, 0.188, tx("c02_maori"), 15, WHITE)
+    ctext(ax, 0.5, 0.128, tx("c02_n1"), 11.5, GREY, w="normal")
+    ctext(ax, 0.5, 0.093, tx("c02_n2"), 11, WHITE, w="normal")
+    ctext(ax, 0.5, 0.058, tx("c02_src"), 8.5, GREY, w="normal")
+    ctext(ax, 0.5, 0.025, tx("tag"), 13, WHITE, w="normal")
 
 
 # ══════════════════════ C-X01-03／04 年輪 ══════════════════════
@@ -381,11 +421,34 @@ FAM = [
                    ("Dilyéhé", "昴宿（納瓦荷，無直譯）"), ("Bittoéng Malunus", "飛魚季記號（曼達）")]),
 ]
 
+FAM_EN = [
+    ("Girls · sisters · children", PURPLE, [("Pleiades", "Seven Sisters (Greece)"), ("Miyay Miyay", "seven sisters (Kamilaroi)"),
+                                           ("Larnankurrk", "young women (Boorong)"), ("Nadan Narhū", "seven maidens (Manchu)"),
+                                           ("al-Thurayya", "a woman (Arabia)"), ("Kṛttikā", "nurses of the war god (India)"),
+                                           ("Daughters of a god", "Nama, southern Africa"),
+                                           ("Lost Children", "Blackfoot"), ("Nowaswas Lapnuman", "youths (Vanuatu)")]),
+    ("Little eyes", BLUE, [("Matariki", "Māori, Anuta"), ("Matariʻi", "Tahiti"), ("Matāliʻi", "Samoa"),
+                           ("Mataliki", "Tonga"), ("Makaliʻi", "Hawaiʻi")]),
+    ("Hens · nests · flocks", GREEN, [("昴日雞", "a chicken (China's 28 animals)"), ("Cloșca cu pui", "hen with chicks (Romania)"),
+                                      ("Квачка", "mother hen (Macedonia)"), ("Куркі", "hens (Belarus)"),
+                                      ("Утиное гнездо", "duck's nest (Siberia)"), ("Eixu", "wasps' nest (Tupi, Brazil)"),
+                                      ("Baweta", "a group of turtles (Ticuna)"), ("Rougot", "pack of dogs (Sámi)"),
+                                      ("“Flock”", "English gloss only (Egypt)")]),
+    ("A bundle · a crowd", AMBER, [("すばる", "gathered into one (Japan)"), ("S'Udrone", "a bunch (Sardinia)"),
+                                   ("Tianquiztli", "marketplace (Aztec)"), ("Yôkoro wiwa", "a crowd of stars (Lokono)"),
+                                   ("Nhorkoatero", "star cluster (Tukano)"), ("Worong-porongngé", "a cluster (Bugis)")]),
+    ("A tuft of hair", RED, [("昴＝髦頭", "“hairy head” (Shiji, China)"), ("zappu", "mane (Babylon)"),
+                             ("Worong-mpolong", "a tuft (Bugis)")]),
+    ("Others", WHITE, [("Sakiattiak", "breastbone (Inuit)"), ("isiLimela", "digging stars (Zulu)"),
+                       ("Dilyéhé", "Pleiades (Navajo; no gloss)"), ("Bittoéng Malunus", "flying-fish season (Mandar)")]),
+]
+
 
 def c06_card(ax):
-    n = sum(len(r) for _, _, r in FAM)
-    ctext(ax, 0.5, 0.958, "七姊妹的一百個名字", 28, WHITE)
-    ctext(ax, 0.5, 0.925, f"這裡先收 {n} 個（Stellarium skycultures）", 13, GREY, w="normal")
+    fam = FAM_EN if LANG == "en" else FAM
+    n = sum(len(r) for _, _, r in fam)
+    ctext(ax, 0.5, 0.958, tx("c06_title"), 28, WHITE)
+    ctext(ax, 0.5, 0.925, tx("c06_sub").format(n=n), 13, GREY, w="normal")
     cols = {0: [0, 1, 4], 1: [2, 3, 5]}
     rend = ax.figure.canvas.get_renderer()
 
@@ -396,7 +459,7 @@ def c06_card(ax):
         return wd
     for c, idx in cols.items():
         x0 = 0.025 + 0.49 * c
-        rows_all = [r for i in idx for r in FAM[i][2]]
+        rows_all = [r for i in idx for r in fam[i][2]]
         fn, fz = 9.5, 10.0           # 原文欄、中譯欄字級；欄寬放不下就一起縮
         while True:
             wn = max(tw(a, fn, "bold") for a, _ in rows_all)
@@ -407,7 +470,7 @@ def c06_card(ax):
         xz = x0 + 0.015 + wn + 0.02
         y = 0.895
         for i in idx:
-            title, col, rows = FAM[i]
+            title, col, rows = fam[i]
             ax.plot([x0, x0 + 0.465], [y, y], c=WHITE, lw=0.8, alpha=.35)
             ctext(ax, x0 + 0.01, y - 0.017, title, 12.5, col, ha="left")
             y -= 0.038
@@ -417,9 +480,8 @@ def c06_card(ax):
                 y -= 0.0245
             y -= 0.012
         print(f"  C-X01-06 第 {c + 1} 欄：原文 {fn} pt、中譯 {fz} pt、中譯欄起點 {xz:.3f}、右緣 {xz + wz:.3f}")
-    ctext(ax, 0.5, 0.062, "「一百」是個大概——光 Stellarium 新舊兩版，就有四十多個文化替它取了名字", 9.5, GREY,
-          w="normal")
-    ctext(ax, 0.5, 0.027, "#萬國星空　#師大天文社", 13, WHITE, w="normal")
+    ctext(ax, 0.5, 0.062, tx("c06_foot"), 9.5, GREY, w="normal")
+    ctext(ax, 0.5, 0.027, tx("tag"), 13, WHITE, w="normal")
 
 
 # ══════════════════════ C-X01-07 週末往東看（9:16） ══════════════════════
@@ -512,9 +574,17 @@ def c07_card(ax):
 
 
 def main():
-    global S, DATES
-    os.makedirs(OUT, exist_ok=True)
+    global S, DATES, LANG
     S = dict(G.load_stars(BASE))
+    if "--lang" in sys.argv:                      # 英文版：只出 EN02 會用到的兩張圖卡，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        CB.set_base(os.path.join(OUT, LANG))
+        for fn, name in ((c02_card, "C-X01-02_太平洋的同一個字"), (c06_card, "C-X01-06_七姊妹的一百個名字")):
+            fig, ax = CB.newcard(dark=True)
+            fn(ax)
+            CB.save(fig, "", f"{name}_圖卡.png", transparent=False)
+        return
+    os.makedirs(OUT, exist_ok=True)
     DATES = season_dates(25.033, 121.565, 8)
     print("  台北：黎明重現", DATES[0], "黃昏升起", DATES[1], "黃昏最後一見", DATES[2])
     CB.emit("", [("星點", c01_stars), ("星等", c01_mag), ("傳說", c01_legend)], title="C-X01-01_七還是六")
