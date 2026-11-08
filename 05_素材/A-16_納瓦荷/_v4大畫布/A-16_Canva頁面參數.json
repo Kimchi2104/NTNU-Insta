@@ -1,0 +1,1768 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -8280.0,
+  "top": -11212.5,
+  "width": 16200.0,
+  "height": 24345.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點"
+  ],
+  "notes": "上週，我們跟著獵戶腰帶繞了地球一圈。今天到美國西南，納瓦荷人的家：同一片星空，納瓦荷人看見——郊狼撒了一地的星星。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點"
+  ],
+  "notes": "納瓦荷的長輩說：天上的故事，只在冬天講——從秋天第一次結霜，到春天第一聲雷。今天是一月，正好在故事的季節裡。",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02-概念圖1",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-01_冬天才說的故事_日曆環層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 488.49122807017545,
+   "width": 1032,
+   "height": 943.017543859649,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02-概念圖2",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-01_冬天才說的故事_日曆環層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-01_冬天才說的故事_今天層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 488.49122807017545,
+   "width": 1032,
+   "height": 943.017543859649,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 5,
+  "title": "鏡頭02-概念圖3",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-01_冬天才說的故事_日曆環層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-01_冬天才說的故事_今天層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-01_冬天才說的故事_睡層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 488.49122807017545,
+   "width": 1032,
+   "height": 943.017543859649,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 6,
+  "title": "鏡頭02-概念圖收＝鏡頭03開始＝鏡頭05開始",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "其中一個版本說：很久以前，神聖的人們在第一座泥土屋 hooghan 裡造世界，用彩色的沙畫出大地母親、天空父親。白天有了太陽，夜裡的天空卻一片黑。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 7,
+  "title": "鏡頭05-概念圖1",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-02_黑神的晶石_hooghan層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 504.58479532163744,
+   "width": 1032,
+   "height": 910.830409356725,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 8,
+  "title": "鏡頭05-概念圖2",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-02_黑神的晶石_hooghan層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腳踝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 504.58479532163744,
+   "width": 1032,
+   "height": 910.830409356725,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 9,
+  "title": "鏡頭05-概念圖3",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-02_黑神的晶石_hooghan層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腳踝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_膝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 504.58479532163744,
+   "width": 1032,
+   "height": 910.830409356725,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 10,
+  "title": "鏡頭05-概念圖4",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 4 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-02_黑神的晶石_hooghan層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腳踝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_膝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腰層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 504.58479532163744,
+   "width": 1032,
+   "height": 910.830409356725,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 11,
+  "title": "鏡頭05-概念圖5",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 5 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-02_黑神的晶石_hooghan層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腳踝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_膝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腰層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_肩層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 504.58479532163744,
+   "width": 1032,
+   "height": 910.830409356725,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 12,
+  "title": "鏡頭05-概念圖6",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 6 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-02_黑神的晶石_hooghan層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腳踝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_膝層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_腰層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_肩層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-02_黑神的晶石_太陽穴層_透明.png",
+    "left": 24,
+    "top": 511.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 504.58479532163744,
+   "width": 1032,
+   "height": 910.830409356725,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 13,
+  "title": "鏡頭05-概念圖收＝鏡頭06開始",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "黑神走了進來，腳踝上掛著一小團閃亮的晶石。他跺一下腳，晶石跳到膝蓋；再跺，跳到腰、跳到肩膀，最後停在他的太陽穴上。大家問：那是什麼？他說：這叫星星。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 14,
+  "title": "長圖轉北盤1-回中心",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -5126.25,
+  "width": 8100.0,
+  "height": 12172.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 15,
+  "title": "長圖轉北盤1-上移",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -2716.71,
+  "width": 8100.0,
+  "height": 12172.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 16,
+  "title": "長圖轉北盤1",
+  "group": "北盤",
+  "left": -3138.81,
+  "top": -2718.81,
+  "width": 7357.62,
+  "height": 7357.62,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 17,
+  "title": "鏡頭07開始",
+  "group": "北盤",
+  "left": -3138.81,
+  "top": -2718.82,
+  "width": 7357.62,
+  "height": 7357.62,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L8-主角星白點"
+  ],
+  "notes": "黑神打開一個鹿皮袋，先拿出一顆，放在北方：北火。「只有它不動，其他的星都要繞著它走。」它就像一盆爐火。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 18,
+  "title": "鏡頭07結束＝鏡頭08開始",
+  "group": "北盤",
+  "left": -884.05,
+  "top": -464.06,
+  "width": 2848.11,
+  "height": 2848.11,
+  "rotation": -20.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L8-主角星白點",
+   "北盤L9-標籤-北火"
+  ],
+  "notes": "他在北火旁邊擺了七顆：一個躺在火邊的男人，叫 Náhookǫs Bikąʼ，「旋轉的男人」，就是北斗；對面再擺五顆，一個女人：「旋轉的女人」，就是仙后座。",
+  "trans": "Match & Move（10.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 19,
+  "title": "鏡頭08結束＝鏡頭09開始",
+  "group": "北盤",
+  "left": -884.05,
+  "top": -464.06,
+  "width": 2848.11,
+  "height": 2848.11,
+  "rotation": -50.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點",
+   "北盤L9-標籤-北火",
+   "北盤L10-標籤-旋轉的男人",
+   "北盤L11-標籤-旋轉的女人"
+  ],
+  "notes": "兩個人繞著火爐轉，就像一家人住在圓圓的 hooghan 裡，爐火在正中央。",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 20,
+  "title": "鏡頭09結束",
+  "group": "北盤",
+  "left": -884.05,
+  "top": -464.06,
+  "width": 2848.11,
+  "height": 2848.11,
+  "rotation": -110.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點",
+   "北盤L9-標籤-北火",
+   "北盤L10-標籤-旋轉的男人",
+   "北盤L11-標籤-旋轉的女人"
+  ],
+  "notes": "",
+  "trans": "Match & Move（7.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 21,
+  "title": "鏡頭09-概念圖",
+  "group": "北盤",
+  "left": -884.05,
+  "top": -464.06,
+  "width": 2848.11,
+  "height": 2848.11,
+  "rotation": -110.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-hooghan_透明.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 22,
+  "title": "鏡頭09-概念圖收",
+  "group": "北盤",
+  "left": -884.05,
+  "top": -464.06,
+  "width": 2848.11,
+  "height": 2848.11,
+  "rotation": -110.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點",
+   "北盤L9-標籤-北火",
+   "北盤L10-標籤-旋轉的男人",
+   "北盤L11-標籤-旋轉的女人"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 23,
+  "title": "北盤轉長圖1-歸位",
+  "group": "北盤",
+  "left": -3138.81,
+  "top": -2718.81,
+  "width": 7357.62,
+  "height": 7357.62,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 24,
+  "title": "北盤轉長圖1",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -2716.71,
+  "width": 8100.0,
+  "height": 12172.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-旋轉的男女",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 25,
+  "title": "北盤轉長圖1-下移＝鏡頭10開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -5126.25,
+  "width": 8100.0,
+  "height": 12172.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點",
+   "L15-標籤-瘦長的人"
+  ],
+  "notes": "黑神又在西邊放了一個瘦長的人：ʼAtséʼetsʼózí，「第一個瘦長的人」，就是獵戶。他只在冬天的夜裡出現——那是食物少、人都變瘦的季節。",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 26,
+  "title": "鏡頭10結束＝鏡頭11開始",
+  "group": "長圖",
+  "left": -4752.0,
+  "top": -6343.5,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點",
+   "L15-標籤-瘦長的人"
+  ],
+  "notes": "五月初，黃昏時看見瘦長的人沉向西方，就該種玉米、豆子、南瓜和菸草了。",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 27,
+  "title": "鏡頭11結束",
+  "group": "長圖",
+  "left": -4482.0,
+  "top": -6397.5,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點",
+   "L15-標籤-瘦長的人"
+  ],
+  "notes": "",
+  "trans": "Match & Move（7.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 28,
+  "title": "鏡頭11-概念圖1",
+  "group": "長圖",
+  "left": -4482.0,
+  "top": -6397.5,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-06_播種_地平線層_透明.png",
+    "left": 24,
+    "top": 444.25,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 436.94152046783626,
+   "width": 1032,
+   "height": 1046.1169590643276,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 29,
+  "title": "鏡頭11-概念圖2",
+  "group": "長圖",
+  "left": -4482.0,
+  "top": -6397.5,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-06_播種_地平線層_透明.png",
+    "left": 24,
+    "top": 444.25,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-06_播種_作物層_透明.png",
+    "left": 24,
+    "top": 444.25,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 436.94152046783626,
+   "width": 1032,
+   "height": 1046.1169590643276,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 30,
+  "title": "鏡頭11-概念圖收＝鏡頭12開始",
+  "group": "長圖",
+  "left": -4482.0,
+  "top": -6397.5,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-瘦長的人",
+   "L8-主角星白點",
+   "L16-標籤-Dilyéhé"
+  ],
+  "notes": "接著，黑神照著太陽穴上那團晶石，做了七顆小的放上天：Dilyéhé，昴宿。秋天黃昏它從東方升起，冬天的儀式就開始；春雷一響就結束——正好是說故事的季節。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 31,
+  "title": "鏡頭12結束",
+  "group": "長圖",
+  "left": -6321.18,
+  "top": -7187.65,
+  "width": 11435.29,
+  "height": 17184.71,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點",
+   "L16-標籤-Dilyéhé"
+  ],
+  "notes": "",
+  "trans": "Match & Move（15.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭12-概念圖1",
+  "group": "長圖",
+  "left": -6321.18,
+  "top": -7187.65,
+  "width": 11435.29,
+  "height": 17184.71,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-01_冬天才說的故事_日曆環層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 488.49122807017545,
+   "width": 1032,
+   "height": 943.017543859649,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 33,
+  "title": "鏡頭12-概念圖2",
+  "group": "長圖",
+  "left": -6321.18,
+  "top": -7187.65,
+  "width": 11435.29,
+  "height": 17184.71,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-01_冬天才說的故事_日曆環層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-01_冬天才說的故事_昴宿層_透明.png",
+    "left": 24,
+    "top": 496.3,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 488.49122807017545,
+   "width": 1032,
+   "height": 943.017543859649,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 34,
+  "title": "鏡頭12-概念圖收＝鏡頭14開始",
+  "group": "長圖",
+  "left": -6321.18,
+  "top": -7187.65,
+  "width": 11435.29,
+  "height": 17184.71,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點"
+  ],
+  "notes": "黑神正要休息，郊狼 Máʼii 晃了過來：「你們在做什麼？怎麼沒問我！」他一把搶過鹿皮袋，呼——把剩下的晶石，全吹上了天。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭14結束",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 36,
+  "title": "鏡頭14-概念圖1",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-03_郊狼吹散星星_郊狼層_透明.png",
+    "left": 24,
+    "top": 516.67,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 509.36257309941516,
+   "width": 1032,
+   "height": 901.2748538011695,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 37,
+  "title": "鏡頭14-概念圖2",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-03_郊狼吹散星星_郊狼層_透明.png",
+    "left": 24,
+    "top": 516.67,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-03_郊狼吹散星星_吹散層_透明.png",
+    "left": 24,
+    "top": 516.67,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 509.36257309941516,
+   "width": 1032,
+   "height": 901.2748538011695,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 38,
+  "title": "鏡頭14-概念圖收＝鏡頭15開始",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點",
+   "L19-標籤-七個星座"
+  ],
+  "notes": "所以天上大部分的星，都沒有名字，亂成一片。黑神罵他：這樣人們更難找到我們放的規矩了。郊狼笑著說：「可是，天空變漂亮了啊！」",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 39,
+  "title": "鏡頭15-概念圖1",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-04_規矩與混亂_混亂層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 452.0292397660819,
+   "width": 1032,
+   "height": 1015.9415204678362,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 40,
+  "title": "鏡頭15-概念圖2",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-04_規矩與混亂_混亂層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-04_規矩與混亂_規矩層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 452.0292397660819,
+   "width": 1032,
+   "height": 1015.9415204678362,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 41,
+  "title": "鏡頭15-概念圖收",
+  "group": "長圖",
+  "left": -3780.0,
+  "top": -4882.8,
+  "width": 7776.0,
+  "height": 11685.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L8-主角星白點",
+   "L19-標籤-七個星座"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭16開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -5216.25,
+  "width": 8100.0,
+  "height": 12172.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點",
+   "L17-標籤-郊狼的星"
+  ],
+  "notes": "袋子裡還剩一顆。郊狼把它放到很南的地方：「這是我的星。」很多人認為，就是老人星。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 43,
+  "title": "鏡頭16結束",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7614.93,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點",
+   "L17-標籤-郊狼的星"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 44,
+  "title": "鏡頭16-概念圖1",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7614.93,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-07_郊狼的星_地平線層_透明.png",
+    "left": 24,
+    "top": 454.31,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 447.00000000000006,
+   "width": 1032,
+   "height": 1026.0,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 45,
+  "title": "鏡頭16-概念圖2",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7614.93,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-07_郊狼的星_地平線層_透明.png",
+    "left": 24,
+    "top": 454.31,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-07_郊狼的星_WindowRock層_透明.png",
+    "left": 24,
+    "top": 454.31,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 447.00000000000006,
+   "width": 1032,
+   "height": 1026.0,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 46,
+  "title": "鏡頭16-概念圖3",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7614.93,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-07_郊狼的星_地平線層_透明.png",
+    "left": 24,
+    "top": 454.31,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-07_郊狼的星_WindowRock層_透明.png",
+    "left": 24,
+    "top": 454.31,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A16-07_郊狼的星_台北層_透明.png",
+    "left": 24,
+    "top": 454.31,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 447.00000000000006,
+   "width": 1032,
+   "height": 1026.0,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 47,
+  "title": "鏡頭16-概念圖收",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7614.93,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點",
+   "L17-標籤-郊狼的星"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 48,
+  "title": "長圖轉北盤2-回中心",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -6343.5,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 49,
+  "title": "長圖轉北盤2-上移",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -3452.05,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 50,
+  "title": "長圖轉北盤2",
+  "group": "北盤",
+  "left": -3874.57,
+  "top": -3454.57,
+  "width": 8829.14,
+  "height": 8829.14,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 51,
+  "title": "鏡頭18開始",
+  "group": "北盤",
+  "left": -884.05,
+  "top": -127.87,
+  "width": 2848.11,
+  "height": 2848.11,
+  "rotation": -144.42,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點",
+   "北盤L12-標籤-北火-台北",
+   "北盤L13-標籤-旋轉的男人-台北",
+   "北盤L14-標籤-旋轉的女人-台北"
+  ],
+  "notes": "今晚剛好新月。十一點往北看：北斗剛從東北爬上來、仙后座在西北，中間是北極星——旋轉的男人和女人，正繞著北火轉。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": 1447.1
+ },
+ {
+  "page": 52,
+  "title": "鏡頭18結束",
+  "group": "北盤",
+  "left": -884.05,
+  "top": -127.87,
+  "width": 2848.11,
+  "height": 2848.11,
+  "rotation": -174.51,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點",
+   "北盤L12-標籤-北火-台北",
+   "北盤L13-標籤-旋轉的男人-台北",
+   "北盤L14-標籤-旋轉的女人-台北"
+  ],
+  "notes": "",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": 1447.1
+ },
+ {
+  "page": 53,
+  "title": "北盤轉長圖2-歸位",
+  "group": "北盤",
+  "left": -3874.57,
+  "top": -3454.57,
+  "width": 8829.14,
+  "height": 8829.14,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-旋轉的男女",
+   "北盤L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 54,
+  "title": "北盤轉長圖2",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -3452.05,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-旋轉的男女",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 55,
+  "title": "北盤轉長圖2-下移",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -6343.5,
+  "width": 9720.0,
+  "height": 14607.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-旋轉的男女",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 56,
+  "title": "鏡頭19開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -5934.0,
+  "width": 8100.0,
+  "height": 12172.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點",
+   "L18-標籤-天狼星",
+   "L17-標籤-郊狼的星"
+  ],
+  "notes": "回頭往正南，天狼星下面低低的那顆，就是郊狼的星；在台北，它有十二度高。下週五，到北方大平原的黑腳族：他們把北斗和昴宿，畫在帳篷頂上。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 57,
+  "title": "鏡頭19-概念圖",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -5934.0,
+  "width": 8100.0,
+  "height": 12172.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A16-05_今晚十一點_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 58,
+  "title": "鏡頭19結束",
+  "group": "長圖",
+  "left": -6321.18,
+  "top": -7187.65,
+  "width": 11435.29,
+  "height": 17184.71,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Dilyéhé",
+   "L8-主角星白點",
+   "L16-標籤-Dilyéhé"
+  ],
+  "notes": "",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ }
+]
