@@ -1,0 +1,498 @@
+{
+  "ep": "A-17",
+  "label_sets": [
+    {
+      "name": "七兄弟和小妹",
+      "items": [
+        {
+          "ra": 185.00846843726424,
+          "dec": 55.57987916164313,
+          "text": "Seven Brothers",
+          "color": "amber",
+          "size": 3.4,
+          "dx": 0.0,
+          "dy": 23.9,
+          "key": "Seven Brothers"
+        },
+        {
+          "ra": 185.00846843726424,
+          "dec": 55.57987916164313,
+          "text": "七兄弟和小妹（北斗）",
+          "color": "white",
+          "size": 2.8,
+          "dx": 0.0,
+          "dy": 20.1,
+          "key": "Seven Brothers-zh"
+        }
+      ]
+    },
+    {
+      "name": "七兄弟和小妹-近",
+      "items": [
+        {
+          "ra": 185.00846843726424,
+          "dec": 55.57987916164313,
+          "text": "Seven Brothers",
+          "color": "amber",
+          "size": 1.7,
+          "dx": 10.0,
+          "dy": -6.75,
+          "key": "Seven Brothers"
+        },
+        {
+          "ra": 185.00846843726424,
+          "dec": 55.57987916164313,
+          "text": "七兄弟和小妹（北斗）",
+          "color": "white",
+          "size": 1.35,
+          "dx": 10.0,
+          "dy": -9.25,
+          "key": "Seven Brothers-zh"
+        },
+        {
+          "hip": 65477,
+          "text": "Sinopa",
+          "color": "amber",
+          "size": 1.7,
+          "dx": 15.0,
+          "dy": -10.75,
+          "key": "Sinopa"
+        },
+        {
+          "hip": 65477,
+          "text": "小妹「小狐狸」（輔星）",
+          "color": "white",
+          "size": 1.35,
+          "dx": 15.0,
+          "dy": -13.25,
+          "key": "Sinopa-zh"
+        }
+      ]
+    },
+    {
+      "name": "最後一個弟弟-18點",
+      "items": [
+        {
+          "hip": 67301,
+          "text": "Last Brother",
+          "color": "amber",
+          "size": 2.8,
+          "dx": -4.0,
+          "dy": 18.6,
+          "key": "Last Brother"
+        },
+        {
+          "hip": 67301,
+          "text": "最後一個弟弟（搖光）",
+          "color": "white",
+          "size": 2.4,
+          "dx": -4.0,
+          "dy": 15.4,
+          "key": "Last Brother-zh"
+        }
+      ]
+    },
+    {
+      "name": "最後一個弟弟-0點",
+      "items": [
+        {
+          "hip": 67301,
+          "text": "Last Brother",
+          "color": "amber",
+          "size": 2.8,
+          "dx": -20.0,
+          "dy": -7.4,
+          "key": "Last Brother"
+        },
+        {
+          "hip": 67301,
+          "text": "最後一個弟弟（搖光）",
+          "color": "white",
+          "size": 2.4,
+          "dx": -20.0,
+          "dy": -10.6,
+          "key": "Last Brother-zh"
+        }
+      ]
+    },
+    {
+      "name": "站著不動的星",
+      "items": [
+        {
+          "hip": 11767,
+          "text": "Star that Stands Still",
+          "color": "white",
+          "size": 1.7,
+          "dx": 0.0,
+          "dy": -2.75,
+          "key": "Star that Stands Still"
+        },
+        {
+          "hip": 11767,
+          "text": "站著不動的星（北極星）",
+          "color": "white",
+          "size": 1.35,
+          "dx": 0.0,
+          "dy": -5.25,
+          "key": "Star that Stands Still-zh"
+        }
+      ]
+    },
+    {
+      "name": "疤臉",
+      "items": [
+        {
+          "ra": 147.55,
+          "dec": 14.14,
+          "text": "●",
+          "color": "amber",
+          "size": 1.2,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "Poïa-點"
+        },
+        {
+          "ra": 147.55,
+          "dec": 14.14,
+          "text": "Poïa",
+          "color": "amber",
+          "size": 1.6,
+          "dx": 0.0,
+          "dy": -2.2,
+          "key": "Poïa"
+        },
+        {
+          "ra": 147.55,
+          "dec": 14.14,
+          "text": "疤臉＝木星",
+          "color": "white",
+          "size": 1.2,
+          "dx": 0.0,
+          "dy": -4.6,
+          "key": "Poïa-zh"
+        }
+      ]
+    },
+    {
+      "name": "走失的孩子",
+      "items": [
+        {
+          "ra": 56.76026786187236,
+          "dec": 24.137164257583905,
+          "text": "Lost Children",
+          "color": "amber",
+          "size": 1.6,
+          "dx": 0.0,
+          "dy": -3.0,
+          "key": "Lost Children"
+        },
+        {
+          "ra": 56.76026786187236,
+          "dec": 24.137164257583905,
+          "text": "走失的孩子（昴宿）",
+          "color": "white",
+          "size": 1.2,
+          "dx": 0.0,
+          "dy": -5.4,
+          "key": "Lost Children-zh"
+        }
+      ]
+    },
+    {
+      "name": "狼的路",
+      "items": [
+        {
+          "ra": 85.0,
+          "dec": 28.0,
+          "text": "Wolf Trail",
+          "color": "blue",
+          "size": 2.0,
+          "dx": 0.0,
+          "dy": 1.45,
+          "key": "Wolf Trail"
+        },
+        {
+          "ra": 85.0,
+          "dec": 28.0,
+          "text": "狼的路（銀河）",
+          "color": "white",
+          "size": 1.5,
+          "dx": 0.0,
+          "dy": -1.45,
+          "key": "Wolf Trail-zh"
+        }
+      ]
+    },
+    {
+      "name": "牛的前腿",
+      "items": [
+        {
+          "ra": 185.00846843726424,
+          "dec": 55.57987916164313,
+          "text": "Bull's Foreleg",
+          "color": "red",
+          "size": 2.4,
+          "dx": 0.0,
+          "dy": -10.5,
+          "key": "Bull's Foreleg"
+        },
+        {
+          "ra": 185.00846843726424,
+          "dec": 55.57987916164313,
+          "text": "牛的前腿（古埃及）",
+          "color": "white",
+          "size": 2.0,
+          "dx": 0.0,
+          "dy": -13.5,
+          "key": "Bull's Foreleg-zh"
+        }
+      ]
+    }
+  ],
+  "terms": {
+    "Seven Brothers": {
+      "hips": [
+        54061,
+        53910,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Seven Brothers",
+      "拼音": "",
+      "英文翻譯": "Seven Brothers and Their Sister",
+      "中文": "七兄弟和小妹（北斗）",
+      "顏色": "amber",
+      "來源備註": "McClintock 1910 pp.488–489；Stellarium blackfoot 001。黑腳語 Ihkitsikammiksi（「七個人」，Rothney Observatory 引 Glenbow；拼法待查，畫面不放）"
+    },
+    "Sinopa": {
+      "hips": [
+        65477
+      ],
+      "原文": "Sinopa",
+      "拼音": "",
+      "英文翻譯": "Kit-Fox (Little Sister)",
+      "中文": "小妹「小狐狸」（輔星）",
+      "顏色": "amber",
+      "來源備註": "McClintock p.488"
+    },
+    "Last Brother": {
+      "hips": [
+        67301
+      ],
+      "原文": "Last Brother",
+      "拼音": "",
+      "英文翻譯": "Last Brother",
+      "中文": "最後一個弟弟（搖光）",
+      "顏色": "amber",
+      "來源備註": "McClintock p.488、附錄 p.521"
+    },
+    "Star that Stands Still": {
+      "hips": [
+        11767
+      ],
+      "原文": "Star that Stands Still",
+      "拼音": "",
+      "英文翻譯": "Star that Stands Still",
+      "中文": "站著不動的星（北極星）",
+      "顏色": "white",
+      "來源備註": "McClintock pp.499–500：天上的一個洞，太陽家裡的光從洞裡透出來"
+    },
+    "Poïa": {
+      "hips": [],
+      "原文": "Poïa",
+      "拼音": "",
+      "英文翻譯": "Scarface",
+      "中文": "疤臉＝木星",
+      "顏色": "amber",
+      "來源備註": "McClintock pp.491–499；年輕的晨星。位置＝2027/1/15 木星（PyEphem），星點層沒有行星，標籤附「●」"
+    },
+    "Lost Children": {
+      "hips": [
+        17702,
+        17847,
+        17851,
+        17608,
+        17499,
+        17531
+      ],
+      "原文": "Lost Children",
+      "拼音": "",
+      "英文翻譯": "Lost Children／Bunched Stars",
+      "中文": "走失的孩子（昴宿）",
+      "顏色": "amber",
+      "來源備註": "McClintock p.490；Wissler & Duvall pp.71–72。黑腳語 Miohpoisiks 等拼法不一，畫面不放"
+    },
+    "Wolf Trail": {
+      "hips": [],
+      "原文": "Wolf Trail",
+      "拼音": "",
+      "英文翻譯": "Wolf Trail",
+      "中文": "狼的路（銀河）",
+      "顏色": "blue",
+      "來源備註": "McClintock p.498；錨點＝御夫座一帶的銀河（示意位置）"
+    },
+    "Bull's Foreleg": {
+      "hips": [
+        54061,
+        53910,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Bull's Foreleg",
+      "拼音": "",
+      "英文翻譯": "Bull's Foreleg (Meskhetyu)",
+      "中文": "牛的前腿（古埃及）",
+      "顏色": "red",
+      "來源備註": "Stellarium egyptian 001；下集 A-18 預告"
+    }
+  },
+  "cross": [],
+  "mains": [
+    11767,
+    54061,
+    53910,
+    58001,
+    59774,
+    62956,
+    65378,
+    67301,
+    65477,
+    17702
+  ],
+  "lines": {
+    "L4": "星座連線",
+    "七": "連線-七兄弟和小妹",
+    "埃": "連線-牛的前腿"
+  },
+  "line_groups": {
+    "L4": [
+      [
+        [
+          [
+            67301,
+            65378,
+            62956,
+            59774,
+            58001,
+            53910,
+            54061
+          ]
+        ],
+        "amber",
+        1.0
+      ],
+      [
+        [
+          [
+            36850,
+            37826
+          ]
+        ],
+        "green",
+        0.9
+      ],
+      [
+        [
+          [
+            76127,
+            75695,
+            76267,
+            76952,
+            77512,
+            78159
+          ]
+        ],
+        "purple",
+        0.9
+      ],
+      [
+        [
+          [
+            84345,
+            80170
+          ],
+          [
+            86414,
+            84380,
+            83207,
+            80816,
+            80170
+          ],
+          [
+            79101,
+            79992,
+            81126,
+            81833,
+            81693,
+            80816
+          ],
+          [
+            87933,
+            86974,
+            85693,
+            84379,
+            80170
+          ],
+          [
+            92161,
+            92043,
+            90139,
+            88267,
+            80170
+          ]
+        ],
+        "blue",
+        0.8
+      ]
+    ],
+    "七": [
+      [
+        [
+          [
+            67301,
+            65378,
+            62956,
+            59774,
+            58001,
+            53910,
+            54061
+          ]
+        ],
+        "amber",
+        1.0
+      ]
+    ],
+    "埃": [
+      [
+        [
+          [
+            67301,
+            65378,
+            62956,
+            59774,
+            54061,
+            53910,
+            58001,
+            59774
+          ]
+        ],
+        "red",
+        1.0
+      ]
+    ]
+  },
+  "rot_browning": {
+    "18:00": 169.76,
+    "20:00": 139.68,
+    "00:00": 79.52,
+    "06:00": -10.73
+  },
+  "lst0": 7.0,
+  "phi": 48.56
+}

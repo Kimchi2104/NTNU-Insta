@@ -1,0 +1,36 @@
+﻿頁,頁名,標籤層,文字,中心X px,中心Y px,字級px,顏色,對應星X,對應星Y,key
+2,鏡頭01結束＝鏡頭02開始,走失的孩子,Lost Children,545,996,113,#FFC94A,545,871,Lost Children
+2,鏡頭01結束＝鏡頭02開始,走失的孩子,走失的孩子（昴宿）,545,1096,85,#FFFFFF,545,871,Lost Children-zh
+6,鏡頭02-概念圖收＝鏡頭03開始＝鏡頭04開始,走失的孩子,Lost Children,545,996,113,#FFC94A,545,871,Lost Children
+6,鏡頭02-概念圖收＝鏡頭03開始＝鏡頭04開始,走失的孩子,走失的孩子（昴宿）,545,1096,85,#FFFFFF,545,871,Lost Children-zh
+11,鏡頭05結束,七兄弟和小妹,Seven Brothers,841,1060,54,#FFC94A,841,1283,Seven Brothers
+11,鏡頭05結束,七兄弟和小妹,七兄弟和小妹（北斗）,841,1096,44,#FFFFFF,841,1283,Seven Brothers-zh
+17,鏡頭05-概念圖收＝鏡頭06開始＝鏡頭07開始,七兄弟和小妹,Seven Brothers,841,1060,54,#FFC94A,841,1283,Seven Brothers
+17,鏡頭05-概念圖收＝鏡頭06開始＝鏡頭07開始,七兄弟和小妹,七兄弟和小妹（北斗）,841,1096,44,#FFFFFF,841,1283,Seven Brothers-zh
+18,鏡頭07結束＝鏡頭08開始,七兄弟和小妹-近,Seven Brothers,756,1106,62,#FFC94A,540,960,Seven Brothers
+18,鏡頭07結束＝鏡頭08開始,七兄弟和小妹-近,七兄弟和小妹（北斗）,756,1160,50,#FFFFFF,540,960,Seven Brothers-zh
+18,鏡頭07結束＝鏡頭08開始,七兄弟和小妹-近,Sinopa,628,1374,62,#FFC94A,304,1141,Sinopa
+18,鏡頭07結束＝鏡頭08開始,七兄弟和小妹-近,小妹「小狐狸」（輔星）,628,1428,50,#FFFFFF,304,1141,Sinopa-zh
+19,鏡頭08-中1,最後一個弟弟-18點,Last Brother,414,1300,44,#FFC94A,451,1474,Last Brother
+19,鏡頭08-中1,最後一個弟弟-18點,最後一個弟弟（搖光）,414,1330,38,#FFFFFF,451,1474,Last Brother-zh
+20,鏡頭08結束＝鏡頭09開始,最後一個弟弟-0點,Last Brother,876,1107,44,#FFC94A,1062,1038,Last Brother
+20,鏡頭08結束＝鏡頭09開始,最後一個弟弟-0點,最後一個弟弟（搖光）,876,1137,38,#FFFFFF,1062,1038,Last Brother-zh
+21,鏡頭09-中1,站著不動的星,Star that Stands Still,537,986,27,#FFFFFF,537,961,Star that Stands Still
+21,鏡頭09-中1,站著不動的星,站著不動的星（北極星）,537,1009,21,#FFFFFF,537,961,Star that Stands Still-zh
+22,鏡頭09結束,站著不動的星,Star that Stands Still,530,1060,78,#FFFFFF,530,986,Star that Stands Still
+22,鏡頭09結束,站著不動的星,站著不動的星（北極星）,530,1128,62,#FFFFFF,530,986,Star that Stands Still-zh
+24,鏡頭09-概念圖收,站著不動的星,Star that Stands Still,530,1060,78,#FFFFFF,530,986,Star that Stands Still
+24,鏡頭09-概念圖收,站著不動的星,站著不動的星（北極星）,530,1128,62,#FFFFFF,530,986,Star that Stands Still-zh
+31,鏡頭10-概念圖收＝鏡頭12開始,疤臉,●,270,687,46,#FFC94A,270,687,Poïa-點
+31,鏡頭10-概念圖收＝鏡頭12開始,疤臉,Poïa,270,736,61,#FFC94A,270,687,Poïa
+31,鏡頭10-概念圖收＝鏡頭12開始,疤臉,疤臉＝木星,270,790,46,#FFFFFF,270,687,Poïa-zh
+33,鏡頭14結束＝鏡頭15開始,走失的孩子,Lost Children,544,847,98,#FFC94A,544,739,Lost Children
+33,鏡頭14結束＝鏡頭15開始,走失的孩子,走失的孩子（昴宿）,544,933,73,#FFFFFF,544,739,Lost Children-zh
+34,鏡頭15結束,走失的孩子,Lost Children,760,847,98,#FFC94A,760,739,Lost Children
+34,鏡頭15結束,走失的孩子,走失的孩子（昴宿）,760,933,73,#FFFFFF,760,739,Lost Children-zh
+38,鏡頭17結束＝鏡頭18開始,狼的路,Wolf Trail,410,324,73,#6FA8FF,410,355,Wolf Trail
+38,鏡頭17結束＝鏡頭18開始,狼的路,狼的路（銀河）,410,387,55,#FFFFFF,410,355,Wolf Trail-zh
+40,鏡頭18-概念圖收,狼的路,Wolf Trail,410,324,73,#6FA8FF,410,355,Wolf Trail
+40,鏡頭18-概念圖收,狼的路,狼的路（銀河）,410,387,55,#FFFFFF,410,355,Wolf Trail-zh
+45,鏡頭19結束,牛的前腿,Bull's Foreleg,540,1149,73,#FF6B6B,540,960,Bull's Foreleg
+45,鏡頭19結束,牛的前腿,牛的前腿（古埃及）,540,1203,61,#FFFFFF,540,960,Bull's Foreleg-zh
