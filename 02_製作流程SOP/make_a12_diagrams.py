@@ -8,6 +8,7 @@
   C-A12-06_白虎的鄰居    → 逐字稿 09 鏡（9:16 圖卡，可存圖）
   C-A12-07_今晚往東看    → 逐字稿 13 鏡（9:16 圖卡：台北 2026/12/4 20:00，PyEphem 自算）
 輸出：05_素材/A-12_白虎/_概念圖/
+      python3 make_a12_diagrams.py --lang en → 只出 EN03 會用到的 C-A12-01、05 到 _概念圖/en/
 
 來源：《史記．天官書》（唐張守節《正義》）、《晉書》《隋書》《宋史》天文志、《左傳．昭公元年》、杜甫〈贈衛八處士〉、
       《禮記．月令》、《宋會要》、《宋史》、《後漢書．南蠻西南夷列傳》；濮陽西水坡 M45（1987 年發掘，
@@ -30,6 +31,40 @@ RED, GREY, PANEL = "#FF6B6B", "#7C8BA8", "#1B2240"
 S = None
 C = A12.C
 TPE = ("25.0330", "121.5654")
+LANG = "zh"
+TXT = {
+    "zh": {
+        "c01_title": "「參」：三顆星，加一個人", "c01_sub": "左：天上的參宿　右：金文字形（自繪示意，非摹本）",
+        "c01_belt": "參宿三星", "c01_belt2": "（獵戶腰帶）", "c01_bronze": "金文「參」（示意）", "c01_today": "今天的字",
+        "c01_t1": "上面三顆星、底下一個人——很多學者認為，畫的就是參宿這三顆",
+        "c01_t2": "後來「參」被借去寫數字三。台灣的支票大寫：", "c01_t3": "例：新臺幣參仟元整",
+        "c01_t4": "字形為自繪示意；金文「參」寫法不一，有的另加「彡」",
+        "c05_title": "同一條腰帶", "c05_sub": "獵戶腰帶三顆星，全世界都數得出「三」",
+        "c05_stars": ("參宿一", "參宿二", "參宿三"), "east": "← 東", "west": "西 →",
+        "c05_geo": "間距 1.39°、1.36°；亮度 1.7–2.4 等——差不多亮、差不多等距",
+        "c05_h1": "用「三」取名", "c05_h2": "看成人", "c05_h3": "看成東西",
+        "c05_src1": "Stellarium skycultures：chinese／bugis／anutan／romanian／sardinian／",
+        "c05_src2": "belarusian／inuit／arabic_ancient；《史記．天官書》", "tag": "#萬國星空　#師大天文社",
+    },
+    "en": {
+        "c01_title": "Shen 參: three stars and a person", "c01_sub": "Left: Shen in the sky. Right: bronze-script form (our sketch, not a copy)",
+        "c01_belt": "Orion's Belt", "c01_belt2": "= Shen", "c01_bronze": "Bronze script 參 (sketch)",
+        "c01_today": "today",
+        "c01_t1": "Three stars above a person — many scholars think it shows these three",
+        "c01_t2": "Later 參 was borrowed to write “three”. Taiwan's cheque numerals:", "c01_t3": "e.g. 新臺幣參仟元整 = TWD 3,000",
+        "c01_t4": "Glyph is our own sketch; bronze forms vary, some add 彡",
+        "c05_title": "One belt, one number", "c05_sub": "Orion's Belt: three stars almost everyone counted as “three”",
+        "c05_stars": ("ζ Ori", "ε Ori", "δ Ori"), "east": "← E", "west": "W →",
+        "c05_geo": "1.39° and 1.36° apart, magnitude 1.7–2.4: nearly even",
+        "c05_h1": "Named for three", "c05_h2": "Seen as people", "c05_h3": "Seen as things",
+        "c05_src1": "Stellarium sky cultures: chinese / bugis / anutan / romanian / sardinian /",
+        "c05_src2": "belarusian / inuit / arabic_ancient; Shiji, “Tianguan shu”", "tag": "#WorldSkyCultures　NTNU Astronomy Club",
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 
 
 def ssize(v, k=22.0, lo=10.0):
@@ -67,8 +102,8 @@ def altaz_at(when_local, tz=8):
 
 # ══════════════════════ C-A12-01 參字 ══════════════════════
 def c01_stars(ax):
-    T(ax, 0.0, 0.92, "「參」：三顆星，加一個人", 31, WHITE)
-    T(ax, 0.0, 0.845, "左：天上的參宿　右：金文字形（自繪示意，非摹本）", 16, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c01_title"), 31, WHITE)
+    T(ax, 0.0, 0.845, tx("c01_sub"), 16, GREY, w="normal")
     ra0, dec0, s, cx, cy = 83.9, 0.0, 0.031, -0.47, 0.16
 
     def p(h):
@@ -84,8 +119,8 @@ def c01_stars(ax):
         x, y = p(h)
         ax.add_patch(CB.Circle((x, y), 0.032, fc="none", ec=AMBER, lw=2.4, zorder=7))
     xb, yb = p(A12.ALNILAM)
-    T(ax, xb - 0.25, yb + 0.015, "參宿三星", 17, AMBER, ha="right")
-    T(ax, xb - 0.25, yb - 0.045, "（獵戶腰帶）", 13, GREY, w="normal", ha="right")
+    T(ax, xb - 0.25, yb + 0.015, tx("c01_belt"), 17, AMBER, ha="right")
+    T(ax, xb - 0.25, yb - 0.045, tx("c01_belt2"), 13, GREY, w="normal", ha="right")
 
 
 def c01_glyph(ax):
@@ -106,22 +141,22 @@ def c01_glyph(ax):
     for pts in (body, arm):
         ax.plot([q[0] for q in pts], [q[1] for q in pts], c=AMBER, lw=11, solid_capstyle="round",
                 zorder=6)
-    T(ax, 0.44, -0.27, "金文「參」（示意）", 15, AMBER, w="normal")
+    T(ax, 0.44, -0.27, tx("c01_bronze"), 15, AMBER, w="normal")
     CB.arrow(ax, (0.76, 0.17), (0.64, 0.17), c=WHITE, lw=2.2, alpha=.8, style="-|>")
     T(ax, 0.85, 0.17, "參", 64, WHITE)
-    T(ax, 0.85, -0.03, "今天的字", 13, GREY, w="normal")
+    T(ax, 0.85, -0.03, tx("c01_today"), 13, GREY, w="normal")
 
 
 def c01_text(ax):
     box(ax, -0.92, -0.93, 1.84, 0.53, ec=AMBER)
-    T(ax, 0.0, -0.48, "上面三顆星、底下一個人——很多學者認為，畫的就是參宿這三顆", 15.5, WHITE, w="normal")
-    T(ax, 0.0, -0.565, "後來「參」被借去寫數字三。台灣的支票大寫：", 15.5, WHITE, w="normal")
+    T(ax, 0.0, -0.48, tx("c01_t1"), 15.5, WHITE, w="normal")
+    T(ax, 0.0, -0.565, tx("c01_t2"), 15.5, WHITE, w="normal")
     nums = "壹貳參肆伍陸柒捌玖拾"
     for i, ch in enumerate(nums):
         x = -0.72 + i * 0.16
         T(ax, x, -0.68, ch, 27, AMBER if ch == "參" else WHITE)
-    T(ax, 0.0, -0.80, "例：新臺幣參仟元整", 16, GREY, w="normal")
-    T(ax, 0.0, -0.875, "字形為自繪示意；金文「參」寫法不一，有的另加「彡」", 11.5, GREY, w="normal")
+    T(ax, 0.0, -0.80, tx("c01_t3"), 16, GREY, w="normal")
+    T(ax, 0.0, -0.875, tx("c01_t4"), 11.5, GREY, w="normal")
 
 
 # ══════════════════════ C-A12-02 參商 ══════════════════════
@@ -409,38 +444,48 @@ ROWS5 = [  # (文化, 原文, 中譯, 顏色)
     ("因紐特", "Ullaktut", "三個獵北極熊時迷路的獵人", GREEN),
     ("阿拉伯（古）", "an-Naẓm", "一串（珠子）", BLUE),
 ]
+ROWS5_EN = [
+    ("China", "參 Shen／衡石", "three (three stars) / a balance beam", AMBER),
+    ("Bugis (Indonesia)", "Tanra Tellué", "the Sign of Three", AMBER),
+    ("Anuta (Solomon Islands)", "Ara Toru", "the Path of Three", AMBER),
+    ("Romania", "Trisfetitele", "the Three Saints", AMBER),
+    ("Sardinia", "Sas Tres Marias", "the Three Marys", AMBER),
+    ("Belarus", "Касцы", "mowers (cutting hay one after another)", GREEN),
+    ("Inuit", "Ullaktut", "the Running Hunters, lost chasing a bear", GREEN),
+    ("Arabia (ancient)", "an-Naẓm", "a string (of beads)", BLUE),
+]
 
 
 def c05_card(ax):
-    ax.text(0.5, 0.947, "同一條腰帶", fontproperties=CB.FP, fontsize=30, color=WHITE, ha="center",
+    ax.text(0.5, 0.947, tx("c05_title"), fontproperties=CB.FP, fontsize=30, color=WHITE, ha="center",
             va="center", weight="bold")
-    ax.text(0.5, 0.905, "獵戶腰帶三顆星，全世界都數得出「三」", fontproperties=CB.FP, fontsize=14,
+    ax.text(0.5, 0.905, tx("c05_sub"), fontproperties=CB.FP, fontsize=14,
             color=GREY, ha="center", va="center")
     # 三顆星
     ys = 0.835
-    for i, (x, v, nm) in enumerate(((0.32, 1.77, "參宿一"), (0.5, 1.69, "參宿二"), (0.68, 2.41, "參宿三"))):
+    for i, (x, v, nm) in enumerate(zip((0.32, 0.5, 0.68), (1.77, 1.69, 2.41), tx("c05_stars"))):
         ax.scatter([x], [ys - 0.010 + 0.010 * i], s=(6.5 - v) ** 2.4 * 14, c=WHITE, lw=0, zorder=5)
         ax.text(x, ys - 0.046 + 0.010 * i, nm, fontproperties=CB.FP, fontsize=10.5, color=GREY, ha="center",
                 va="center")
-    ax.text(0.10, ys - 0.010, "← 東", fontproperties=CB.FP, fontsize=10, color=GREY, ha="center", va="center")
-    ax.text(0.90, ys + 0.010, "西 →", fontproperties=CB.FP, fontsize=10, color=GREY, ha="center", va="center")
-    ax.text(0.5, 0.770, "間距 1.39°、1.36°；亮度 1.7–2.4 等——差不多亮、差不多等距", fontproperties=CB.FP,
+    ax.text(0.10, ys - 0.010, tx("east"), fontproperties=CB.FP, fontsize=10, color=GREY, ha="center", va="center")
+    ax.text(0.90, ys + 0.010, tx("west"), fontproperties=CB.FP, fontsize=10, color=GREY, ha="center", va="center")
+    ax.text(0.5, 0.770, tx("c05_geo"), fontproperties=CB.FP,
             fontsize=11.5, color=WHITE, ha="center", va="center")
     ax.plot([0.03, 0.97], [0.745, 0.745], c=WHITE, lw=1.0, alpha=.4)
-    ax.text(0.5, 0.722, "用「三」取名", fontproperties=CB.FP, fontsize=15, color=AMBER, ha="center",
+    ax.text(0.5, 0.722, tx("c05_h1"), fontproperties=CB.FP, fontsize=15, color=AMBER, ha="center",
             va="center", weight="bold")
     y = 0.695
-    for i, (cul, nat, zh, col) in enumerate(ROWS5):
+    for i, (cul, nat, zh, col) in enumerate(ROWS5_EN if LANG == "en" else ROWS5):
         if i == 5:
             y -= 0.012
             ax.plot([0.03, 0.97], [y + 0.010, y + 0.010], c=WHITE, lw=1.0, alpha=.4)
-            ax.text(0.5, y - 0.012, "看成人", fontproperties=CB.FP, fontsize=15, color=GREEN, ha="center",
+            ax.text(0.5, y - 0.012, tx("c05_h2"), fontproperties=CB.FP, fontsize=15, color=GREEN, ha="center",
                     va="center", weight="bold")
             y -= 0.040
         if i == 7:
             y -= 0.012
             ax.plot([0.03, 0.97], [y + 0.010, y + 0.010], c=WHITE, lw=1.0, alpha=.4)
-            ax.text(0.5, y - 0.012, "看成東西", fontproperties=CB.FP, fontsize=15, color=BLUE, ha="center",
+            ax.text(0.5, y - 0.012, tx("c05_h3"), fontproperties=CB.FP, fontsize=15, color=BLUE, ha="center",
                     va="center", weight="bold")
             y -= 0.040
         ax.text(0.05, y - 0.012, cul, fontproperties=CB.FP, fontsize=12, color=GREY, ha="left", va="center")
@@ -450,11 +495,11 @@ def c05_card(ax):
                 weight="bold")
         y -= 0.062
         ax.plot([0.03, 0.97], [y + 0.008, y + 0.008], c=WHITE, lw=0.6, alpha=.18)
-    ax.text(0.5, 0.085, "Stellarium skycultures：chinese／bugis／anutan／romanian／sardinian／",
+    ax.text(0.5, 0.085, tx("c05_src1"),
             fontproperties=CB.FP, fontsize=10, color=GREY, ha="center", va="center")
-    ax.text(0.5, 0.065, "belarusian／inuit／arabic_ancient；《史記．天官書》", fontproperties=CB.FP, fontsize=10,
+    ax.text(0.5, 0.065, tx("c05_src2"), fontproperties=CB.FP, fontsize=10,
             color=GREY, ha="center", va="center")
-    ax.text(0.5, 0.030, "#萬國星空　#師大天文社", fontproperties=CB.FP, fontsize=13, color=WHITE,
+    ax.text(0.5, 0.030, tx("tag"), fontproperties=CB.FP, fontsize=13, color=WHITE,
             ha="center", va="center")
 
 
@@ -602,9 +647,17 @@ def c07_card(ax):
 
 
 def main():
-    global S
-    os.makedirs(OUT, exist_ok=True)
+    global S, LANG
     S = dict(G.load_stars(BASE))
+    if "--lang" in sys.argv:                      # 英文版：只出 EN03 會用到的 C-A12-01、05，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        CB.set_base(os.path.join(OUT, LANG))
+        CB.emit("", [("三星", c01_stars), ("字形", c01_glyph), ("說明", c01_text)], title="C-A12-01_參字")
+        fig, ax = CB.newcard(dark=True)
+        c05_card(ax)
+        CB.save(fig, "", "C-A12-05_同一條腰帶_圖卡.png", transparent=False)
+        return
+    os.makedirs(OUT, exist_ok=True)
     f = altaz_at(WHEN2)
     for h, nm in ((A12.MINTAKA, "參宿三"), (A12.ALNILAM, "參宿二"), (A12.ALNITAK, "參宿一"),
                   (A12.BETELGEUSE, "參宿四"), (A12.RIGEL, "參宿七"), (80763, "心宿二")):
