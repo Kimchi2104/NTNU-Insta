@@ -18,7 +18,7 @@
 1. 02_製作流程SOP/開工指令/README.md 第三節「共同規則」
 2. 02_製作流程SOP/英文版製作流程.md 第二節 4–5；02_製作流程SOP/Canva逐頁文字放置規格.md 第四節（字級與 EN01 實際座標）；01_視覺與品牌/字幕字卡版型.md 第四節（英文封面）
 3. 04_腳本庫/_英文版/EN{nn}-…-v1.md（沒有 v1 就用 v0）的 Page sequence 表；05_素材/{集}_…/_英文版/EN{nn}_Canva逐頁文字.csv
-4. 05_素材/{集}_…/_v4大畫布/{EP}_Canva媒體ID.json；EN01 的做法見 04_腳本庫/_英文版/EN01-A-11-Anuta-v0.md 表頭的 Canva 列
+4. 05_素材/{集}_…/_v4大畫布/{EP}_Canva媒體ID.json；EN01 的做法見 04_腳本庫/_英文版/EN01-A-11-Anuta-v1.md 表頭的 Canva 列
 
 要做：
 - read-design 開 transaction（大型輸出會存成檔案，用 python 解析）；對照 Page sequence 表決定每頁去留
