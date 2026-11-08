@@ -23,8 +23,8 @@
 | 寫英文稿 v0（60–90 秒改寫） | Opus 5.5 | medium | 創作為主，事實都在中文稿裡 | 半段／集（可兩集一起） |
 | 合併英文審稿 → v1 | Sonnet 5.5 | medium | 文字修改，照 Gemini 的表做 | 很小 |
 | 生成星圖素材（make_*_v4.py）、概念圖 | Opus 5.5 | medium | 程式為主，但預覽圖要看、參數要判斷 | 1 段／集 |
-| **Canva 排頁（中文版，40 頁）** | Sonnet 5.5 | **low／medium** | 幾乎全是工具呼叫，ops 由 canva_ops.py 算好 | 1–2 段／集（連接器一次 100 頁上限） |
-| **Canva 英文版（換字、移頁，24 頁）** | Sonnet 5.5 | low | 同上，更少 | 半段／集 |
+| **Canva 排頁（中文版，40 頁）** | Sonnet 5.5 | **medium**（純照表的頁 low） | 幾乎全是工具呼叫，ops 由 canva_ops.py 算好 | 1–2 段／集（連接器一次 100 頁上限） |
+| **Canva 英文版（換字、移頁，24 頁）** | Sonnet 5.5 | medium | EN01 實測：每頁縮圖都要看、要判斷窄框與標籤位置，low 不夠 | 半到 1 段／集 |
 | 看鏡頭牆、預覽圖做 QA | Sonnet 5.5 | medium | 要看圖，但判斷簡單 | 併入素材那段 |
 | 節目表、CSV、文件整理 | Sonnet 5.5 | low | 純文字處理 | 很小 |
 | 回答「這樣對不對」、SOP 討論 | 當時開著的模型 | medium | — | — |
@@ -37,16 +37,16 @@
 
 ## 三、一集怎麼切（等 Usage 回復就做一段）
 
-| 段 | 內容 | 模型／effort | 產出 |
-|---|---|---|---|
-| ① 稿 | 中文逐字稿 v0（含對時、星名表、待查核清單）→ commit | Opus 5.5／high | `04_腳本庫/{集}-…-v0.md` |
-| ② 審 | 你交給 Gemini／Antigravity（不吃 Claude 用量）→ 他們交件 → Claude 合併成 v1 | Opus 5.5／high | v1＋審稿整合紀錄 |
-| ③ 素材 | make 腳本、概念圖、逐頁表、QA → commit | Opus 5.5／medium | `05_素材/{集}/` |
-| ④ Canva 中文 | 排頁、標籤、備註 → 預覽 → 存檔 | Sonnet 5.5／low | Canva 設計 |
-| ⑤ 英文稿 | EN v0 → Gemini 審 → v1 → 每頁文字表 | Opus 5.5／medium → Sonnet／medium | `_英文版/EN…-v1.md`、`_英文版/EN…_Canva逐頁文字.csv` |
-| ⑥ Canva 英文 | 換字、換概念圖、移頁 → 存檔 | Sonnet 5.5／low | Canva 設計 |
+| 段 | 開工卡（`開工指令/`） | 內容 | 模型／effort | 產出 |
+|---|---|---|---|---|
+| ① 稿 | 01 | 中文逐字稿 v0（含對時、星名表、待查核清單）→ commit | Opus 5.5／high | `04_腳本庫/{集}-…-v0.md` |
+| ② 審 | 02 | 你交給 Gemini／Antigravity（不吃 Claude 用量）→ 他們交件 → Claude 合併成 v1 | Opus 5.5／high | v1＋審稿整合紀錄 |
+| ③ 素材 | 03 | make 腳本、概念圖、逐頁表、QA → commit | Opus 5.5／medium | `05_素材/{集}/` |
+| ④ Canva 中文 | 04 | 排頁、標籤、字卡字幕、備註 → 存檔 | Sonnet 5.5／medium | Canva 設計 |
+| ⑤ 英文稿 | 05 → 06 | EN v0＋每頁文字表＋英文概念圖 → Gemini 審 → v1 | Opus 5.5／medium → Sonnet 5.5／medium | `_英文版/EN…-v1.md`、`_英文版/EN…_Canva逐頁文字.csv` |
+| ⑥ Canva 英文 | 07 | 換字、換概念圖、移頁 → 存檔 | Sonnet 5.5／medium | Canva 設計 |
 
-每段開新對話，開頭只給：集號、要做哪一段、`README.md` 裡「從哪裡開始」那一行。其餘讓 Claude 自己讀檔，不要把整份逐字稿貼進對話。
+**每段開新對話，開頭貼 `開工指令/` 對應那張卡**（卡上已寫模型、effort、要讀的檔；集號留空 Claude 會自己照節目表找）。**同一個對話中途不要換模型**：換了之後整段對話會被新模型從頭重讀（快取作廢），比直接開新對話還貴，而且兩種 effort 混在同一段對話裡沒有意義。其餘讓 Claude 自己讀檔，不要把整份逐字稿貼進對話。
 
 ## 四、開工前的三個問題
 
