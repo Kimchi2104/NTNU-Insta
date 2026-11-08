@@ -42,7 +42,7 @@
 3. **省用量**：只讀需要的段落；逐字稿不要整份貼進對話；Canva 大型讀取存成檔案後用 python 解析；該看的圖一次看完，不反覆看。python 用 `/usr/bin/python3`；跑超過一分鐘的腳本用 `setsid nohup … > log 2>&1 < /dev/null & disown` 背景跑。  
 4. **Canva**：卡片上寫「直接存檔」，就在縮圖檢查過後自己 commit transaction；寫「先預覽」才等 Kim 在對話裡說「存檔」。用量不夠做完一個 transaction 就不要開（做一半存不了，下次要重讀整份設計）。連接器的脾氣見 `../每集製作SOP.md` 第五節。  
 5. **節目表**：每張卡結束時更新該集的狀態欄。中文：`06_發布月曆/節目表_萬國星空_全年.csv`「狀態」；英文：`節目表_萬國星空_英文版.csv`「英文稿」「英文 Canva」。兩份都是 BOM＋LF，用 python 改。  
-6. **外部交件**：Gemini／Antigravity 的檔在 `04_腳本庫/_審稿/`，Kim 會先 Commit→Push，Claude 從 repo 讀。repo 裡沒看到就提醒 Kim Push；真的急可以用 Google Drive 連接器讀同一個路徑，合併後仍以 repo 為準。  
+6. **外部交件**：Gemini／Antigravity 的檔在 `04_腳本庫/_審稿/`，由 Antigravity 或 Kim 推上 GitHub（`../外包任務書/README.md`「交件後的同步」），Claude 從 repo 讀。repo 裡沒看到就提醒 Kim Push；真的急可以用 Google Drive 連接器讀同一個路徑，合併後仍以 repo 為準。  
 7. **回報格式**（對話最後一則訊息，Kim 只看這則）：  
    - 做了什麼（3 行內）  
    - 改了哪些檔／哪個 Canva 設計（附 PR 連結）  
