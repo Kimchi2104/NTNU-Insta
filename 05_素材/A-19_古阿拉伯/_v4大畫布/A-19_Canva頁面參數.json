@@ -1,0 +1,1109 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -11161.8,
+  "top": -13161.0,
+  "width": 19440.0,
+  "height": 26730.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點",
+   "L11-標籤-天狼星"
+  ],
+  "notes": "上一集在古埃及，天狼星叫醒了尼羅河。往東渡過紅海：同一片星空，古阿拉伯人看見——一座沙漠動物園。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "長圖",
+  "left": -4410.0,
+  "top": -4698.75,
+  "width": 8100.0,
+  "height": 11137.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "這次往回推一千多年：貝都因人的星名藏在古詩裡，八到十世紀的學者，一句一句抄下來。",
+  "trans": "Match & Move（10.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02-概念圖1",
+  "group": "長圖",
+  "left": -4410.0,
+  "top": -4698.75,
+  "width": 8100.0,
+  "height": 11137.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-01_兩層阿拉伯星空_今日層_透明.png",
+    "left": 24,
+    "top": 541.06,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 552.8654970760233,
+   "width": 1032,
+   "height": 814.2690058479532,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02-概念圖2",
+  "group": "長圖",
+  "left": -4410.0,
+  "top": -4698.75,
+  "width": 8100.0,
+  "height": 11137.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-01_兩層阿拉伯星空_今日層_透明.png",
+    "left": 24,
+    "top": 541.06,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A19-01_兩層阿拉伯星空_古詩層_透明.png",
+    "left": 24,
+    "top": 541.06,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 552.8654970760233,
+   "width": 1032,
+   "height": 814.2690058479532,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 5,
+  "title": "鏡頭02-概念圖收",
+  "group": "長圖",
+  "left": -4410.0,
+  "top": -4698.75,
+  "width": 8100.0,
+  "height": 11137.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 6,
+  "title": "鏡頭03開始",
+  "group": "長圖",
+  "left": -5431.76,
+  "top": -6901.76,
+  "width": 11435.29,
+  "height": 15723.53,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-動物園",
+   "L10-主角星白點"
+  ],
+  "notes": "這一百多組星座，很多是動物：羚羊、狼、鬣狗、駱駝、野驢、老鷹、烏鴉……加起來二十多種。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 7,
+  "title": "鏡頭03結束",
+  "group": "長圖",
+  "left": -3220.0,
+  "top": -3990.0,
+  "width": 7200.0,
+  "height": 9900.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-動物園",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 8,
+  "title": "鏡頭04A開始",
+  "group": "長圖",
+  "left": -4074.55,
+  "top": -4918.64,
+  "width": 8836.36,
+  "height": 12150.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-獅子",
+   "L10-主角星白點",
+   "L12-標籤-獅子"
+  ],
+  "notes": "最大的是一頭獅子，從雙子座一路躺到室女座。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 9,
+  "title": "鏡頭04A結束",
+  "group": "長圖",
+  "left": -3436.36,
+  "top": -4918.64,
+  "width": 8836.36,
+  "height": 12150.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-獅子",
+   "L10-主角星白點",
+   "L12-標籤-獅子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（6.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 10,
+  "title": "鏡頭04B開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -4820.45,
+  "width": 8836.36,
+  "height": 12150.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-獅子",
+   "L7-連線-三跳",
+   "L10-主角星白點",
+   "L12-標籤-獅子"
+  ],
+  "notes": "傳說牠尾巴往地上一甩，羚羊嚇得跳起來——大熊座腳下這三對星，就是三個蹄印。今天的星名 Alula、Tania、Talitha，意思就是第一跳、第二跳、第三跳。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 11,
+  "title": "鏡頭04B結束",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -4231.36,
+  "width": 8836.36,
+  "height": 12150.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-獅子",
+   "L7-連線-三跳",
+   "L10-主角星白點",
+   "L13-標籤-三跳"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 12,
+  "title": "鏡頭05開始",
+  "group": "長圖",
+  "left": -7314.55,
+  "top": -5323.64,
+  "width": 8836.36,
+  "height": 12150.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-鴕鳥一家",
+   "L10-主角星白點",
+   "L14-標籤-公鴕鳥",
+   "L15-標籤-小鴕鳥"
+  ],
+  "notes": "鴕鳥更是一整家。北落師門和土司空，是兩隻公鴕鳥，叫 al-Ẓalīmān；牠們中間一片暗暗的小星，是一群小鴕鳥；鯨魚座還有幾隻鴕鳥媽媽。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 13,
+  "title": "鏡頭05結束＝鏡頭06開始",
+  "group": "長圖",
+  "left": -7506.0,
+  "top": -6046.5,
+  "width": 9720.0,
+  "height": 13365.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-鴕鳥一家",
+   "L10-主角星白點",
+   "L16-標籤-鴕鳥媽媽"
+  ],
+  "notes": "往旁邊的波江座，有一個鴕鳥窩，連蛋和蛋殼都有。其中一顆星，今天的正式名字叫 Azha——就是阿拉伯文的「鴕鳥窩」，中世紀抄書的人抄錯了一個字母。",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 14,
+  "title": "鏡頭06-中1",
+  "group": "長圖",
+  "left": -6750.0,
+  "top": -6046.5,
+  "width": 9720.0,
+  "height": 13365.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-鴕鳥一家",
+   "L10-主角星白點",
+   "L18-標籤-Azha"
+  ],
+  "notes": "",
+  "trans": "Match & Move（7.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 15,
+  "title": "鏡頭06結束",
+  "group": "長圖",
+  "left": -14250.6,
+  "top": -12939.6,
+  "width": 19440.0,
+  "height": 26730.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-鴕鳥一家",
+   "L10-主角星白點",
+   "L18-標籤-Azha"
+  ],
+  "notes": "",
+  "trans": "Match & Move（7.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 16,
+  "title": "鏡頭06-概念圖1",
+  "group": "長圖",
+  "left": -14250.6,
+  "top": -12939.6,
+  "width": 19440.0,
+  "height": 26730.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-鴕鳥一家",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-02_抄錯一個字母_原字層_透明.png",
+    "left": 24,
+    "top": 431.68,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 464.60233918128654,
+   "width": 1032,
+   "height": 990.795321637427,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 17,
+  "title": "鏡頭06-概念圖2",
+  "group": "長圖",
+  "left": -14250.6,
+  "top": -12939.6,
+  "width": 19440.0,
+  "height": 26730.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-鴕鳥一家",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-02_抄錯一個字母_原字層_透明.png",
+    "left": 24,
+    "top": 431.68,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A19-02_抄錯一個字母_抄錯層_透明.png",
+    "left": 24,
+    "top": 431.68,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 464.60233918128654,
+   "width": 1032,
+   "height": 990.795321637427,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 18,
+  "title": "鏡頭06-概念圖收",
+  "group": "長圖",
+  "left": -14250.6,
+  "top": -12939.6,
+  "width": 19440.0,
+  "height": 26730.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-鴕鳥一家",
+   "L10-主角星白點",
+   "L18-標籤-Azha"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 19,
+  "title": "鏡頭07開始",
+  "group": "長圖",
+  "left": -690.0,
+  "top": -6945.0,
+  "width": 10800.0,
+  "height": 14850.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-夏天的鴕鳥",
+   "L10-主角星白點",
+   "L19-標籤-夏天的鴕鳥"
+  ],
+  "notes": "到了夏天，人馬座還有兩群鴕鳥：四隻走下銀河這條大河喝水，四隻喝飽了往回走。地上的阿拉伯鴕鳥，二十世紀就滅絕了；天上的，還在。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 20,
+  "title": "鏡頭07結束",
+  "group": "長圖",
+  "left": -660.0,
+  "top": -6945.0,
+  "width": 10800.0,
+  "height": 14850.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-夏天的鴕鳥",
+   "L10-主角星白點",
+   "L19-標籤-夏天的鴕鳥"
+  ],
+  "notes": "",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 21,
+  "title": "鏡頭08開始",
+  "group": "長圖",
+  "left": -6952.5,
+  "top": -8881.5,
+  "width": 12150.0,
+  "height": 16706.25,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點",
+   "L20-標籤-Suhail"
+  ],
+  "notes": "再往南，地平線上這顆亮星，是 Suhail，老人星；在阿拉伯，這是一個男人的名字。大約北緯三十七度以北，它根本升不起來——所以詩人說，Suhail 是南方也門的星。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 22,
+  "title": "鏡頭08-概念圖1",
+  "group": "長圖",
+  "left": -6952.5,
+  "top": -8881.5,
+  "width": 12150.0,
+  "height": 16706.25,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-03_看得到Suhail的地方_緯度層_透明.png",
+    "left": 24,
+    "top": 463.11,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 476.42105263157896,
+   "width": 1032,
+   "height": 967.1578947368421,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 23,
+  "title": "鏡頭08-概念圖2",
+  "group": "長圖",
+  "left": -6952.5,
+  "top": -8881.5,
+  "width": 12150.0,
+  "height": 16706.25,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-03_看得到Suhail的地方_緯度層_透明.png",
+    "left": 24,
+    "top": 463.11,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A19-03_看得到Suhail的地方_城市層_透明.png",
+    "left": 24,
+    "top": 463.11,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 476.42105263157896,
+   "width": 1032,
+   "height": 967.1578947368421,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 24,
+  "title": "鏡頭08-概念圖收＝鏡頭09開始",
+  "group": "長圖",
+  "left": -6952.5,
+  "top": -8881.5,
+  "width": 12150.0,
+  "height": 16706.25,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點",
+   "L20-標籤-Suhail"
+  ],
+  "notes": "古書記著一個故事：天狼星和南河三，是 Suhail 的兩個姊妹。Suhail 往南走了，一個姊妹追上去，渡過了銀河，所以叫 al-ʿAbūr，「渡河的」；另一個留在北岸，哭到眼睛都花了，叫 al-Ghumayṣāʾ，「淚眼模糊的」。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 25,
+  "title": "鏡頭09結束＝鏡頭10開始",
+  "group": "長圖",
+  "left": -4455.0,
+  "top": -5148.75,
+  "width": 8100.0,
+  "height": 11137.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點",
+   "L21-標籤-三兄妹"
+  ],
+  "notes": "天上真的對得上：銀河從天狼星和南河三中間穿過；哭花了眼的南河三，也真的暗了一大截。",
+  "trans": "Match & Move（19.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 26,
+  "title": "鏡頭10結束＝鏡頭11開始",
+  "group": "長圖",
+  "left": -4255.2,
+  "top": -4915.2,
+  "width": 7776.0,
+  "height": 10692.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點",
+   "L21-標籤-三兄妹"
+  ],
+  "notes": "那「擋路」呢？伊斯蘭時代的書裡另有一說：Suhail 原本是在也門攔路收稅的惡霸，被變成了星星——不過學者認為，這段傳述並不可靠。",
+  "trans": "Match & Move（9.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 27,
+  "title": "鏡頭11-概念圖1",
+  "group": "長圖",
+  "left": -4255.2,
+  "top": -4915.2,
+  "width": 7776.0,
+  "height": 10692.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-04_擋路的Suhail_商道層_透明.png",
+    "left": 24,
+    "top": 458.84,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 472.1461988304094,
+   "width": 1032,
+   "height": 975.7076023391813,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 28,
+  "title": "鏡頭11-概念圖2",
+  "group": "長圖",
+  "left": -4255.2,
+  "top": -4915.2,
+  "width": 7776.0,
+  "height": 10692.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-04_擋路的Suhail_商道層_透明.png",
+    "left": 24,
+    "top": 458.84,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A19-04_擋路的Suhail_星星層_透明.png",
+    "left": 24,
+    "top": 458.84,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 472.1461988304094,
+   "width": 1032,
+   "height": 975.7076023391813,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 29,
+  "title": "鏡頭11-概念圖收",
+  "group": "長圖",
+  "left": -4255.2,
+  "top": -4915.2,
+  "width": 7776.0,
+  "height": 10692.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點",
+   "L21-標籤-三兄妹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 30,
+  "title": "鏡頭12開始",
+  "group": "長圖",
+  "left": -9450.0,
+  "top": -12522.0,
+  "width": 16200.0,
+  "height": 22275.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點",
+   "L22-標籤-南極老人"
+  ],
+  "notes": "老人星其實離我們三百一十光年，看起來卻只比天狼星暗一點——它本身比天狼星亮好幾百倍。在中國，它叫「南極老人」：「老人見，治安；不見，兵起。」",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 31,
+  "title": "鏡頭12-概念圖1",
+  "group": "長圖",
+  "left": -9450.0,
+  "top": -12522.0,
+  "width": 16200.0,
+  "height": 22275.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-05_310光年_距離層_透明.png",
+    "left": 24,
+    "top": 475.94,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 489.2456140350878,
+   "width": 1032,
+   "height": 941.5087719298244,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 32,
+  "title": "鏡頭12-概念圖2",
+  "group": "長圖",
+  "left": -9450.0,
+  "top": -12522.0,
+  "width": 16200.0,
+  "height": 22275.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-05_310光年_距離層_透明.png",
+    "left": 24,
+    "top": 475.94,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A19-05_310光年_南極老人層_透明.png",
+    "left": 24,
+    "top": 475.94,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 489.2456140350878,
+   "width": 1032,
+   "height": 941.5087719298244,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 33,
+  "title": "鏡頭12結束",
+  "group": "長圖",
+  "left": -5454.0,
+  "top": -8700.91,
+  "width": 9720.0,
+  "height": 13365.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 34,
+  "title": "長圖轉南盤1",
+  "group": "南盤",
+  "left": -3164.62,
+  "top": -2744.62,
+  "width": 7409.25,
+  "height": 7409.25,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成南盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭13開始",
+  "group": "南盤",
+  "left": -1929.75,
+  "top": -141.73,
+  "width": 4939.5,
+  "height": 4939.5,
+  "rotation": -25.92,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L10-主角星白點",
+   "南盤L14-標籤-台北面南-20時"
+  ],
+  "notes": "這週末在台灣：晚上九點四十分，老人星升到正南方最高，只有十二度，要找南方完全沒有遮擋的地方；墾丁可以到十五度。月亮半夜才升起。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": 1512.2
+ },
+ {
+  "page": 36,
+  "title": "鏡頭13結束",
+  "group": "南盤",
+  "left": -1929.75,
+  "top": -141.73,
+  "width": 4939.5,
+  "height": 4939.5,
+  "rotation": -0.1,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L10-主角星白點",
+   "南盤L15-標籤-台北面南"
+  ],
+  "notes": "",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": 1512.2
+ },
+ {
+  "page": 37,
+  "title": "鏡頭13-概念圖",
+  "group": "南盤",
+  "left": -1929.75,
+  "top": -141.73,
+  "width": 4939.5,
+  "height": 4939.5,
+  "rotation": -0.1,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": 1512.2,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A19-06_這週末抬頭看_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 38,
+  "title": "鏡頭13-概念圖收",
+  "group": "南盤",
+  "left": -1929.75,
+  "top": -141.73,
+  "width": 4939.5,
+  "height": 4939.5,
+  "rotation": -0.1,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L10-主角星白點",
+   "南盤L15-標籤-台北面南"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": 1512.2,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 39,
+  "title": "南盤轉長圖1-歸位",
+  "group": "南盤",
+  "left": -3164.62,
+  "top": -2744.62,
+  "width": 7409.25,
+  "height": 7409.25,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 40,
+  "title": "南盤轉長圖1",
+  "group": "長圖",
+  "left": -5454.0,
+  "top": -8700.91,
+  "width": 9720.0,
+  "height": 13365.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把南盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 41,
+  "title": "南盤轉長圖1-下移",
+  "group": "長圖",
+  "left": -9450.0,
+  "top": -12522.0,
+  "width": 16200.0,
+  "height": 22275.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉南盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭15開始",
+  "group": "長圖",
+  "left": -4614.55,
+  "top": -5311.36,
+  "width": 8836.36,
+  "height": 12150.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "下週五除夕，我們回到中國，看四象的最後一隻：朱雀。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 43,
+  "title": "鏡頭15結束",
+  "group": "長圖",
+  "left": -4536.0,
+  "top": -5560.5,
+  "width": 9720.0,
+  "height": 13365.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（6.0 秒）",
+  "mountain_top": null
+ }
+]
