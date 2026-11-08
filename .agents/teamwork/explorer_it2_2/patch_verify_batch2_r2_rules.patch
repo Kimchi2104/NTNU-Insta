@@ -1,0 +1,164 @@
+--- .agents/teamwork/explorer_crosscut_sync/verify_batch2_r2_rules.py	2026-11-01 05:10:03
++++ .agents/teamwork/explorer_it2_2/verify_batch2_r2_rules_patched.py	2026-11-01 05:53:18
+@@ -1,20 +1,16 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+-"""verify_batch2_r2_rules.py - Comprehensive Verification Script for Batch 2 R2 Remediation.
++"""verify_batch2_r2_rules_patched.py - Enhanced Rules Verifier for Batch 2 R2.
+ 
+-Checks:
+-1. A-16 v0 script copied to worktree with identical SHA-256 to Downloads.
+-2. Git immutability on original scripts (zero modifications).
+-3. Section 2 of all 4 考據 files contains ONLY ✗, ⚠, ？ (zero ✓ rows).
+-4. No hallucinated citations (Barre Toelken 'The Anguish of Arrival' strictly removed).
+-5. External non-local books have guessed pages removed and marked '（未核頁碼）'.
+-6. Local books in 07_資料來源/ (Childrey 2004, Wissler & Duvall 1908, McClintock 1910) retain verified pages.
+-7. Episode-specific remediation rules:
+-   - A-16: Canopus color (yellowish-white, horizon extinction); 01 opening intact; 05 hooghan kept.
+-   - A-17: Shot 18 Jupiter kept; Four-Tail Lodge p. 42 noted.
+-   - A-18: 2027/01/25 Sirius timing (16:52 rise, 21:00 alt 43.7°, 22:21 culm, 03:51 set) in Sec 2 ⚠ & 天文 critic; 01 opening intact.
+-   - A-19: Canopus refraction timing is ⚪可選; 01 opening retains "人".
+-8. Dual-workspace synchronization: all 20 files in 04_腳本庫/_審稿/ match SHA-256 byte-for-byte.
++Patched & Enhanced Check 5:
++- Covers ALL external authors across A-16, A-17, A-18, A-19 (including Chassinat,
++  Belmonte, Umar ibn Abi Rabi'a, Wissler 1911/1912, etc.).
++- Correctly parses Roman numeral volumes (e.g. 'Vol. II, p. 31', 'Tome II', 'Band I').
++- Detects lingering guessed pages without '未核頁碼' (Error Mode A).
++- Detects contradictory patterns where page numbers appear with/before '未核頁碼' (Error Mode B).
++- Gracefully handles valid peer-reviewed journal article page ranges (JHA, BIFAO, JEA, MIOB, A&A).
++- Accurately respects verified local sources (Childrey 2004, Wissler & Duvall 1908, McClintock 1910).
++- Splits citations by semicolon to prevent inter-citation bleeding within table cells.
+ """
+ 
+ import os
+@@ -109,15 +105,39 @@
+     return findings
+ 
+ def check_external_pages():
++    """Check 5 (Enhanced): Exhaustive check for external non-local book page citations."""
+     findings = []
++    
++    # Comprehensive catalog of external authors across A-16, A-17, A-18, A-19
+     external_authors = [
+-        "Toelken", "Haile", "Griffin-Pierce", "Kluckhohn", "Young &", "Young and", "Jayne",
++        # A-18 Egyptian external sources
++        "Chassinat", "Belmonte", "Censorinus", "Parker", "Neugebauer", "Hurst", "Ball", "Petrie",
++        "Buchwald", "Josefowicz", "Sethe", "Allen", "Otto", "Assmann", "Gardiner", "Gantenbrink",
++        "Bauval", "Gilbert", "Edwards", "Lehner", "Dorner", "Erman", "Grapow",
++        # A-19 Arabic external sources
++        "Ibn Qutayba", "al-Sufi", "al-Ṣūfī", "Ibn Durayd", "Ibn Manzur", "Ibn Manẓūr", "Ibn al-Jawzi",
++        "Ibn al-Jawzī", "Ibn Hibban", "Ibn Ḥibbān", "Kunitzsch", "Smart", "Lane",
++        "Umar ibn Abi Rabi", "Rabīʿa", "Rabia",
++        # A-16 Navajo external sources
++        "Toelken", "Haile", "Griffin-Pierce", "Kluckhohn", "Leighton", "Young &", "Young and", "Jayne",
+         "Newcomb", "Witherspoon", "Matthews", "Chamberlain", "Schaafsma", "IEI",
+-        "Frantz", "Russell", "Censorinus", "Parker", "Neugebauer", "Hurst", "Ball", "Petrie",
+-        "Buchwald", "Josefowicz", "Sethe", "Allen", "Otto", "Ibn Qutayba", "al-Sufi", "al-Ṣūfī",
+-        "Ibn Durayd", "Ibn Manzur", "Ibn Manẓūr", "Ibn al-Jawzi", "Ibn al-Jawzī", "Ibn Hibban",
+-        "Ibn Ḥibbān", "Kunitzsch", "Smart", "Lane"
++        "Indigenous Education Institute", "Radin",
++        # A-17 Blackfoot external sources
++        "Frantz", "Russell", "Miller", "Dorsey",
+     ]
++
++    # Verified academic journal patterns (peer-reviewed articles with legitimate pagination)
++    journal_pattern = re.compile(r"\b(JHA|BIFAO|JEA|MIOB|A&A|Journal for the History of Astronomy)\b", re.I)
++    
++    # Local verified books in 07_資料來源/ (permitted and expected to retain real pages)
++    local_source_pattern = re.compile(r"\b(Childrey|Wissler\s*&\s*Duvall|Wissler\s+and\s+Duvall|McClintock)\b", re.I)
++    
++    # Page citation pattern: p. 12, pp. 12-14, vol. 1, p. 12, Vol. II, p. 31, Tome II, p. 31
++    page_number_pattern = re.compile(
++        r"(?:(?:vol\.|volume|tome|band)\s*([0-9ivxlcdm]+)[,\s]+)?\bpp?\.?\s*(\d+)",
++        re.I
++    )
++
+     for ep in EPISODES:
+         for suffix in ["_考據_gemini.md"] + [f"_審稿-{r}_antigravity.md" for r in ROLES]:
+             fname = f"{ep}{suffix}"
+@@ -125,12 +145,61 @@
+             if not os.path.exists(path):
+                 continue
+             with open(path, "r", encoding="utf-8") as f:
+-                c = f.read()
+-            for author in external_authors:
+-                matches = re.findall(rf"({author}[^|\n]*?(?:pp?\.?\s*\d+|vol\.\s*\d+[^|\n]*?p\.?\s*\d+))", c, re.IGNORECASE)
+-                for m in matches:
+-                    # Ignore if it contains '未核頁碼' and no guessed page numbers
+-                    findings.append(f"[{fname}] Guessed page number for external author '{author}': {m.strip()}")
++                lines = f.readlines()
++            
++            for line_no, line in enumerate(lines, 1):
++                # Segment lines into discrete cells/lines
++                segments = [line]
++                if line.strip().startswith("|"):
++                    segments = [c.strip() for c in line.split("|")[1:-1]]
++                
++                for seg in segments:
++                    # Segment by semicolon (both Western ';' and Chinese '；') to prevent cross-citation bleed
++                    citations = re.split(r"[;；]", seg)
++                    for cit in citations:
++                        cit_clean = cit.strip()
++                        if not cit_clean:
++                            continue
++                        
++                        # Match external authors
++                        matched_authors = []
++                        for author in external_authors:
++                            if re.search(r"\b" + re.escape(author) + r"\b", cit_clean, re.I):
++                                matched_authors.append(author)
++                        
++                        # Check Clark Wissler external monographs (1911/1912) vs 1908 local work
++                        if "wissler" in cit_clean.lower() and not local_source_pattern.search(cit_clean):
++                            if any(y in cit_clean for y in ["1911", "1912"]):
++                                matched_authors.append("Wissler (1911/1912)")
++                        
++                        if not matched_authors:
++                            continue
++                        
++                        # Skip if this citation clause primarily refers to a verified local source
++                        if local_source_pattern.search(cit_clean):
++                            continue
++                        
++                        # Skip legitimate peer-reviewed journal articles
++                        if journal_pattern.search(cit_clean):
++                            continue
++                        
++                        page_match = page_number_pattern.search(cit_clean)
++                        has_unverified = "未核頁碼" in cit_clean
++                        
++                        for auth in matched_authors:
++                            if page_match and has_unverified:
++                                # Contradictory pattern: page number stated AND marked '未核頁碼'
++                                findings.append(
++                                    f"[{fname}:{line_no}] CONTRADICTION: Guessed page numbers '{page_match.group(0)}' "
++                                    f"appear before/with '未核頁碼' for author '{auth}' in: {cit_clean}"
++                                )
++                            elif page_match and not has_unverified:
++                                # Lingering guessed page number without '未核頁碼'
++                                findings.append(
++                                    f"[{fname}:{line_no}] GUESSED PAGE: External author '{auth}' has guessed "
++                                    f"page numbers '{page_match.group(0)}' without '未核頁碼': {cit_clean}"
++                                )
++
+     return findings
+ 
+ def check_episode_specifics():
+@@ -227,7 +296,7 @@
+ 
+ def main():
+     print("=" * 78)
+-    print(" Batch 2 Round 2 Remediation - Automated Rules Verifier")
++    print(" Batch 2 Round 2 Remediation - Automated Rules Verifier (Patched)")
+     print("=" * 78)
+     
+     checks = [
+@@ -235,7 +304,7 @@
+         ("2. Git Immutability on Original Scripts", check_git_immutability),
+         ("3. Research Section 2 (Only ✗, ⚠, ？ - zero ✓)", check_research_section2),
+         ("4. Hallucinated Book Title Check ('Anguish of Arrival')", check_toelken_hallucination),
+-        ("5. External Books Guessed Pages Check (must be '未核頁碼')", check_external_pages),
++        ("5. External Books Guessed Pages Check (must be '未核頁碼' & no contradiction)", check_external_pages),
+         ("6. Episode-Specific Astronomical & Narrative Rules", check_episode_specifics),
+         ("7. Dual-Workspace 20 Files SHA-256 Synchronization", check_dual_workspace_sync),
+     ]
