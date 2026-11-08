@@ -1,0 +1,1508 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -4536.0,
+  "top": -6816.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "上週在大平原，北斗是七兄妹。今天往東，到非洲的尼羅河邊：同一片星空，古埃及人看見——一顆叫醒尼羅河的星。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "埃及幾乎不下雨，活命全靠尼羅河。每年夏天河水上漲，退去時留下一層黑色的沃土——埃及人就叫自己的國家「黑土地」。",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02-概念圖1",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-01_尼羅河的一年_漲水層_透明.png",
+    "left": 24,
+    "top": 490.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 501.8187134502924,
+   "width": 1032,
+   "height": 916.3625730994153,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02-概念圖2",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-01_尼羅河的一年_漲水層_透明.png",
+    "left": 24,
+    "top": 490.02,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-01_尼羅河的一年_淹沒層_透明.png",
+    "left": 24,
+    "top": 490.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 501.8187134502924,
+   "width": 1032,
+   "height": 916.3625730994153,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 5,
+  "title": "鏡頭02-概念圖3",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-01_尼羅河的一年_漲水層_透明.png",
+    "left": 24,
+    "top": 490.02,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-01_尼羅河的一年_淹沒層_透明.png",
+    "left": 24,
+    "top": 490.02,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-01_尼羅河的一年_黑土層_透明.png",
+    "left": 24,
+    "top": 490.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 501.8187134502924,
+   "width": 1032,
+   "height": 916.3625730994153,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 6,
+  "title": "鏡頭02-概念圖收＝鏡頭03開始",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "天狼星，埃及人叫 Sopdet。每年春天，它沉進夕陽的光裡，消失大約七十天。然後某個夏天的清晨，日出之前，它第一次在東方地平線上閃一下。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 7,
+  "title": "鏡頭03結束",
+  "group": "長圖",
+  "left": -10260.0,
+  "top": -16842.0,
+  "width": 21600.0,
+  "height": 33840.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 8,
+  "title": "鏡頭03-概念圖1",
+  "group": "長圖",
+  "left": -10260.0,
+  "top": -16842.0,
+  "width": 21600.0,
+  "height": 33840.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-02_消失與晨出_西沉層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 465.10526315789474,
+   "width": 1032,
+   "height": 989.7894736842104,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 9,
+  "title": "鏡頭03-概念圖2",
+  "group": "長圖",
+  "left": -10260.0,
+  "top": -16842.0,
+  "width": 21600.0,
+  "height": 33840.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-02_消失與晨出_西沉層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-02_消失與晨出_消失層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 465.10526315789474,
+   "width": 1032,
+   "height": 989.7894736842104,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 10,
+  "title": "鏡頭03-概念圖3",
+  "group": "長圖",
+  "left": -10260.0,
+  "top": -16842.0,
+  "width": 21600.0,
+  "height": 33840.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-02_消失與晨出_西沉層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-02_消失與晨出_消失層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-02_消失與晨出_晨出層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 465.10526315789474,
+   "width": 1032,
+   "height": 989.7894736842104,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 11,
+  "title": "鏡頭03-概念圖4",
+  "group": "長圖",
+  "left": -10260.0,
+  "top": -16842.0,
+  "width": 21600.0,
+  "height": 33840.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 4 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-02_消失與晨出_西沉層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-02_消失與晨出_消失層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-02_消失與晨出_晨出層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-02_消失與晨出_漲水層_透明.png",
+    "left": 24,
+    "top": 463.87,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 465.10526315789474,
+   "width": 1032,
+   "height": 989.7894736842104,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 12,
+  "title": "鏡頭03-概念圖收＝鏡頭04開始＝鏡頭05開始",
+  "group": "長圖",
+  "left": -10260.0,
+  "top": -16842.0,
+  "width": 21600.0,
+  "height": 33840.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "埃及的曆法，一年三百六十五天：十二個月、每月三十天，再加五天；分成漲水、生長、收成三季。可是沒有閏年，每四年就跟天狼星差一天。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 13,
+  "title": "鏡頭05結束",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 14,
+  "title": "鏡頭05-概念圖1",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-03_曆法的漂移_三季層_透明.png",
+    "left": 24,
+    "top": 437.71,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 439.45614035087726,
+   "width": 1032,
+   "height": 1041.0877192982457,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 15,
+  "title": "鏡頭05-概念圖2",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-03_曆法的漂移_三季層_透明.png",
+    "left": 24,
+    "top": 437.71,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-03_曆法的漂移_五天層_透明.png",
+    "left": 24,
+    "top": 437.71,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 439.45614035087726,
+   "width": 1032,
+   "height": 1041.0877192982457,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 16,
+  "title": "鏡頭05-概念圖3",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-03_曆法的漂移_三季層_透明.png",
+    "left": 24,
+    "top": 437.71,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-03_曆法的漂移_五天層_透明.png",
+    "left": 24,
+    "top": 437.71,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-03_曆法的漂移_漂移層_透明.png",
+    "left": 24,
+    "top": 437.71,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 439.45614035087726,
+   "width": 1032,
+   "height": 1041.0877192982457,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 17,
+  "title": "鏡頭05-概念圖收＝鏡頭07開始",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "那今天呢？我們算了一下：金字塔時代，天狼星在孟斐斯重新出現，大約在夏至後幾天，正好趕上漲水；今天在開羅，要等到八月五日前後——晚了一個多月。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 18,
+  "title": "鏡頭07-概念圖1",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-04_晚了一個多月_古代層_透明.png",
+    "left": 24,
+    "top": 464.62,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 477.9298245614035,
+   "width": 1032,
+   "height": 964.1403508771929,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 19,
+  "title": "鏡頭07-概念圖2",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-04_晚了一個多月_古代層_透明.png",
+    "left": 24,
+    "top": 464.62,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-04_晚了一個多月_今天層_透明.png",
+    "left": 24,
+    "top": 464.62,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 477.9298245614035,
+   "width": 1032,
+   "height": 964.1403508771929,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 20,
+  "title": "鏡頭07-概念圖收＝鏡頭08開始",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "而且尼羅河也不漲了：一九七〇年亞斯文高壩完工，每年的大水就被攔進水庫。等天狼星的河，已經不等了。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 21,
+  "title": "鏡頭08-概念圖",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-05_河已經不等了_高壩層_透明.png",
+    "left": 24,
+    "top": 514.41,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 527.719298245614,
+   "width": 1032,
+   "height": 864.561403508772,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 22,
+  "title": "鏡頭08-概念圖收",
+  "group": "長圖",
+  "left": -6936.92,
+  "top": -11293.85,
+  "width": 14953.85,
+  "height": 23427.69,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 23,
+  "title": "鏡頭10開始",
+  "group": "長圖",
+  "left": -4752.0,
+  "top": -6816.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet",
+   "L11-標籤-Sah"
+  ],
+  "notes": "埃及人還把天狼星和其他三十五組星，排成夜裡的時鐘：一組一組輪流升起，一夜數十二組——夜晚分成十二個小時，就是這樣來的。四千年前的棺材蓋上，就畫著這張星星時刻表。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 24,
+  "title": "鏡頭10結束",
+  "group": "長圖",
+  "left": -3996.0,
+  "top": -6870.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet",
+   "L11-標籤-Sah"
+  ],
+  "notes": "",
+  "trans": "Match & Move（17.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 25,
+  "title": "鏡頭10-概念圖1",
+  "group": "長圖",
+  "left": -3996.0,
+  "top": -6870.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-06_星星時刻表_格子層_透明.png",
+    "left": 24,
+    "top": 443.25,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 456.0526315789474,
+   "width": 1032,
+   "height": 1007.8947368421051,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 26,
+  "title": "鏡頭10-概念圖2",
+  "group": "長圖",
+  "left": -3996.0,
+  "top": -6870.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-06_星星時刻表_格子層_透明.png",
+    "left": 24,
+    "top": 443.25,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-06_星星時刻表_十二小時層_透明.png",
+    "left": 24,
+    "top": 443.25,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 456.0526315789474,
+   "width": 1032,
+   "height": 1007.8947368421051,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 27,
+  "title": "鏡頭10-概念圖收",
+  "group": "長圖",
+  "left": -3996.0,
+  "top": -6870.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet",
+   "L11-標籤-Sah"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 28,
+  "title": "長圖轉北盤1-回中心",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -6654.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 29,
+  "title": "長圖轉北盤1-上移",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -3762.55,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 30,
+  "title": "長圖轉北盤1＝鏡頭11開始",
+  "group": "北盤",
+  "left": -4176.42,
+  "top": -3756.42,
+  "width": 9432.84,
+  "height": 9432.84,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L6-連線-繫船柱",
+   "北盤L7-連線-河馬",
+   "北盤L9-主角星白點"
+  ],
+  "notes": "北方的北斗，在埃及是一條牛的前腿，叫 Meskhetyu。神話說，那是惡神賽特的腿，被金鍊拴在北天的繫船柱上，由化身河馬的女神看守。",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 31,
+  "title": "鏡頭11結束＝鏡頭12開始",
+  "group": "北盤",
+  "left": -498.98,
+  "top": -348.98,
+  "width": 2695.1,
+  "height": 2695.1,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L6-連線-繫船柱",
+   "北盤L7-連線-河馬",
+   "北盤L9-主角星白點",
+   "北盤L10-標籤-北天-起"
+  ],
+  "notes": "那時北斗和北極附近的星都不會落下，埃及人叫它們「不知毀滅的星」。法老死後，希望到那裡去；大金字塔的入口，也開在北面。",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭12結束",
+  "group": "北盤",
+  "left": -498.98,
+  "top": -348.98,
+  "width": 2695.1,
+  "height": 2695.1,
+  "rotation": -60.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L6-連線-繫船柱",
+   "北盤L7-連線-河馬",
+   "北盤L9-主角星白點",
+   "北盤L11-標籤-北天-轉後",
+   "北盤L12-標籤-不知毀滅的星"
+  ],
+  "notes": "",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 33,
+  "title": "鏡頭12-概念圖",
+  "group": "北盤",
+  "left": -498.98,
+  "top": -348.98,
+  "width": 2695.1,
+  "height": 2695.1,
+  "rotation": -60.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L6-連線-繫船柱",
+   "北盤L7-連線-河馬",
+   "北盤L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-07_北面的入口_剖面層_透明.png",
+    "left": 24,
+    "top": 510.13,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 523.4444444444445,
+   "width": 1032,
+   "height": 873.111111111111,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 34,
+  "title": "鏡頭12-概念圖收＝鏡頭14開始",
+  "group": "北盤",
+  "left": -498.98,
+  "top": -348.98,
+  "width": 2695.1,
+  "height": 2695.1,
+  "rotation": -60.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L6-連線-繫船柱",
+   "北盤L7-連線-河馬",
+   "北盤L9-主角星白點",
+   "北盤L11-標籤-北天-轉後"
+  ],
+  "notes": "後來的神廟牆上就寫著：國王跟女神拉起繩子定位，眼睛看著那條牛腿，立下神廟的四個角。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭14-概念圖1",
+  "group": "北盤",
+  "left": -498.98,
+  "top": -348.98,
+  "width": 2695.1,
+  "height": 2695.1,
+  "rotation": -60.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-08_拉繩定位_木樁層_透明.png",
+    "left": 24,
+    "top": 444.0,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 456.8070175438596,
+   "width": 1032,
+   "height": 1006.3859649122807,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 36,
+  "title": "鏡頭14-概念圖2",
+  "group": "北盤",
+  "left": -498.98,
+  "top": -348.98,
+  "width": 2695.1,
+  "height": 2695.1,
+  "rotation": -60.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-08_拉繩定位_木樁層_透明.png",
+    "left": 24,
+    "top": 444.0,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A18-08_拉繩定位_牛腿層_透明.png",
+    "left": 24,
+    "top": 444.0,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 456.8070175438596,
+   "width": 1032,
+   "height": 1006.3859649122807,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 37,
+  "title": "鏡頭14-概念圖收",
+  "group": "北盤",
+  "left": -498.98,
+  "top": -348.98,
+  "width": 2695.1,
+  "height": 2695.1,
+  "rotation": -60.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L9-主角星白點",
+   "北盤L11-標籤-北天-轉後"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 38,
+  "title": "北盤轉長圖1-歸位",
+  "group": "北盤",
+  "left": -4176.42,
+  "top": -3756.42,
+  "width": 9432.84,
+  "height": 9432.84,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-牛的前腿",
+   "北盤L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 39,
+  "title": "北盤轉長圖1",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -3762.55,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-牛的前腿",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 40,
+  "title": "北盤轉長圖1-下移",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -6654.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-牛的前腿",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 41,
+  "title": "鏡頭15開始＝鏡頭17開始",
+  "group": "長圖",
+  "left": -4536.0,
+  "top": -6816.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet",
+   "L11-標籤-Sah"
+  ],
+  "notes": "今天的研究推算，它設計在西元前五十年左右，跟埃及豔后同一個時代——比大金字塔晚了兩千五百年。原件在羅浮宮，神廟裡的是複製品。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭17-概念圖",
+  "group": "長圖",
+  "left": -4536.0,
+  "top": -6816.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-09_兩千五百年_年表層_透明.png",
+    "left": 24,
+    "top": 453.3,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 487.233918128655,
+   "width": 1032,
+   "height": 945.53216374269,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 43,
+  "title": "鏡頭17-概念圖收",
+  "group": "長圖",
+  "left": -4536.0,
+  "top": -6816.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet",
+   "L11-標籤-Sah"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 44,
+  "title": "鏡頭18開始",
+  "group": "長圖",
+  "left": -4590.0,
+  "top": -6762.0,
+  "width": 9720.0,
+  "height": 15228.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet",
+   "L11-標籤-Sah"
+  ],
+  "notes": "今晚是滿月，月亮高掛東方。十點半往正南看：天狼星爬到最高，四十八度；獵戶在它右上方。回頭往東北，那條牛腿，已經爬出地平線了。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 45,
+  "title": "鏡頭18結束",
+  "group": "長圖",
+  "left": -4860.0,
+  "top": -7740.0,
+  "width": 10800.0,
+  "height": 16920.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet",
+   "L11-標籤-Sah"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 46,
+  "title": "鏡頭18-概念圖",
+  "group": "長圖",
+  "left": -4860.0,
+  "top": -7740.0,
+  "width": 10800.0,
+  "height": 16920.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A18-10_今晚十點半_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 47,
+  "title": "鏡頭18-概念圖收＝鏡頭19開始",
+  "group": "長圖",
+  "left": -4860.0,
+  "top": -7740.0,
+  "width": 10800.0,
+  "height": 16920.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L10-標籤-Sopdet"
+  ],
+  "notes": "下週五，我們去古阿拉伯的沙漠：今晚天狼星正下方，那顆低低的老人星，在那裡有自己的故事；天上還有兩群鴕鳥。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 48,
+  "title": "鏡頭19結束",
+  "group": "長圖",
+  "left": -5940.0,
+  "top": -11035.2,
+  "width": 12960.0,
+  "height": 20304.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Sah",
+   "L9-主角星白點",
+   "L12-標籤-老人星"
+  ],
+  "notes": "",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ }
+]
