@@ -378,13 +378,15 @@ class Pages:
     def view_lst(self, pg):
         """盤頁的 (lst_view, lst_obs)：盤轉 rot（Canva 正角＝順時針）≡ lst 平移。
         北盤面向北方：逆時針＝時間前進 → lst_view＝lst−rot；盤心正下方＝下中天 → lst_obs＝lst_view−180。
-        南盤面向南方（A-10 起）：順時針＝時間前進 → lst_view＝lst＋rot；盤心正上方＝上中天 → lst_obs＝lst_view。"""
+        南盤面向南方（A-10 起）：順時針＝時間前進 → lst_view＝lst＋rot；盤心正上方＝上中天 → lst_obs＝lst_view。
+        走廊不在 x=0（x_t≠0，A-19 起）：盤心正上／下方對應時角 x_t 而不是 0 → lst_obs 再減 x_t，
+        地平線的南／北點才會在盤心正上／下方（x_t＝0 的集數結果不變）。"""
         rot = pg["frame"][3]
         if pg["group"] == "南盤":
             lv = self.m.lst + rot
-            return lv, lv % 360.0
+            return lv, (lv - self.m.xtS) % 360.0
         lv = self.m.lst - rot
-        return lv, (lv - 180.0) % 360.0
+        return lv, (lv - self.m.xtN - 180.0) % 360.0
 
     def mountain_top(self, pg):
         """山的剪影上緣 Y（有地平線的鏡頭）：起格用第一個緯度、迄格用最後一個；

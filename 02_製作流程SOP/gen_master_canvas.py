@@ -928,7 +928,7 @@ class Master:
                 # 地平線固定在畫面上：盤轉 rot ≡ lst 平移後，
                 # 北盤（面向北方）北點在盤心正下方 kφ；南盤（面向南方）南點在盤心正下方 −kφ
                 xt, yc = self.disc_center(disc)
-                lst_obs = (self.lst - 180.0) % 360.0 if disc else self.lst % 360.0
+                lst_obs = ((self.lst - xt - 180.0) % 360.0 if disc else (self.lst - xt) % 360.0)   # x_t≠0：減走廊時角
                 pts = []
                 for ra, dec in horizon_points(phi, lst_obs, n=361):
                     q = self.pos_disc(ra, dec, disc)
