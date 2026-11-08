@@ -318,10 +318,12 @@ class Pages:
         if pg.get("labels_from") and not pg.get("shot_next"):
             return Pages.label_names(pg["labels_from"])
         sh = pg.get("shot_next") or pg["shot"]
-        if pg.get("shot_next"):
-            return sh.get("labels", [])
+        if pg.get("shot_next"):                   # 一頁兩用＝下一鏡起格；labels_start 可另訂（B-01 起）
+            return sh.get("labels_start", sh.get("labels", []))
         if pg["t"] >= 1.0 and "labels_end" in sh:
             return sh["labels_end"]
+        if pg["t"] <= 0.0 and "labels_start" in sh:
+            return sh["labels_start"]
         return sh.get("labels", [])
 
     def page_labels(self, pg):
@@ -345,7 +347,7 @@ class Pages:
                     sX, sY = self.to_screen(pg, *p)
                 else:
                     north = pg["group"] == "北盤"
-                    if (dec if north else -dec) < m.Dr:        # 同 D_labels：帶內標籤不進盤
+                    if (dec if north else -dec) < m.Dr and not it.get("disc"):   # 同 D_labels
                         continue
                     q = m.to_disc_local(m.p_disc(m.xw(ra), dec, north), north)
                     sX, sY = self.to_screen(pg, *q, local=True)
@@ -365,11 +367,24 @@ class Pages:
             return []
         cx, cy, fov, rot = pg["frame"]
         out = []
-        yc = self.m.disc_center(pg["group"] == "北盤")[1]
+        north = pg["group"] == "北盤"
+        yc = self.m.disc_center(north)[1]
         for phi in hz:                        # 地平線固定在畫面上（不隨盤轉）：
-            Y = PH / 2 - (yc - self.m.k * phi - cy) * PW / fov   # 北點＝盤心正下方 kφ
+            off = self.m.k * phi if north else -self.m.k * phi
+            Y = PH / 2 - (yc - off - cy) * PW / fov   # 北盤：北點＝盤心正下方 kφ；南盤：南點＝盤心正下方 −kφ
             out.append((phi, Y))
         return out
+
+    def view_lst(self, pg):
+        """盤頁的 (lst_view, lst_obs)：盤轉 rot（Canva 正角＝順時針）≡ lst 平移。
+        北盤面向北方：逆時針＝時間前進 → lst_view＝lst−rot；盤心正下方＝下中天 → lst_obs＝lst_view−180。
+        南盤面向南方（A-10 起）：順時針＝時間前進 → lst_view＝lst＋rot；盤心正上方＝上中天 → lst_obs＝lst_view。"""
+        rot = pg["frame"][3]
+        if pg["group"] == "南盤":
+            lv = self.m.lst + rot
+            return lv, lv % 360.0
+        lv = self.m.lst - rot
+        return lv, (lv - 180.0) % 360.0
 
     def mountain_top(self, pg):
         """山的剪影上緣 Y（有地平線的鏡頭）：起格用第一個緯度、迄格用最後一個；
@@ -379,6 +394,8 @@ class Pages:
         地平線以下的星（例：A-08 台北 20:00 的斗口）不會從山谷裡露出來。"""
         if pg["group"] == "長圖":
             return None
+        if pg.get("transition") or pg["name"].startswith("長圖轉"):
+            return None     # 換組頁、歸位頁：山留在模板位置，同框硬切時才不會跳（B-01 第 26 頁的教訓）
         sh = pg.get("shot_next") or pg["shot"]
         hz = sh.get("horizon") or []
         if not hz:
@@ -387,9 +404,7 @@ class Pages:
         pts = sorted((x, y) for p in self.horizon_curve(pg, phi) if p
                      for x, y in [p] if -300 < x < PW + 300)
         if len(pts) < 2:
-            cx, cy, fov, rot = pg["frame"]
-            yc = self.m.disc_center(pg["group"] == "北盤")[1]
-            return PH / 2 - (yc - self.m.k * phi - cy) * PW / fov
+            return dict(self.horizon_rows(dict(pg, shot=dict(sh, horizon=[phi]))))[phi]
         hx, hy = [p[0] for p in pts], [p[1] for p in pts]
         need = sorted(float(np.interp(x, hx, hy)) - d for x, d in RIDGE_DIP)
         return need[len(need) // 2]
@@ -398,16 +413,15 @@ class Pages:
         """地平線在頁面上的整條曲線（固定不動；天空在它後面轉）"""
         m = self.m
         cx, cy, fov, rot = pg["frame"]
-        lst_view = m.lst - rot                  # 盤轉 rot ≡ lst 平移（sb_grid 同理）
-        lst_obs = (lst_view - 180.0) % 360.0    # 盤心正下方＝北方地平線（下中天）
+        north = pg["group"] != "南盤"
+        lst_view, lst_obs = self.view_lst(pg)   # 盤轉 rot ≡ lst 平移（sb_grid 同理）
         pts = []
         save = m.lst
         m.lst = lst_view
         for ra, dec in horizon_points(phi, lst_obs, n=361):
-            if dec < m.Dfill:
+            if (dec if north else -dec) < m.Dfill:
                 pts.append(None); continue
-            p = m.p_disc(m.xw(ra), dec, True)
-            xt, yc = m.disc_center(True)
+            p = m.p_disc(m.xw(ra), dec, north)
             X, Y = PW / 2 + (p[0] - cx) * PW / fov, PH / 2 - (p[1] - cy) * PW / fov
             pts.append((X, Y))
         m.lst = save
@@ -467,7 +481,7 @@ class Pages:
         api = [{"page": r["頁"], "title": r["頁名"], "group": r["圖層組"],
                 "left": round(pl["X"], 2), "top": round(pl["Y"], 2),
                 "width": round(pl["W"], 2), "height": round(pl["H"], 2),
-                "rotation": round(pl["rot"], 2), "layers": r["留下的圖層"].split("、"),
+                "rotation": round(pl["rot"], 2), "layers": self.layers_for(pg),   # 圖層名本身可能含「、」，不要從字串切
                 "notes": r["旁白（本頁起播）"], "trans": r["與上一頁"],
                 "mountain_top": (round(self.mountain_top(pg), 1)
                                  if self.mountain_top(pg) is not None else None),
@@ -516,7 +530,7 @@ class Pages:
         for c in self.lab.get("cross", []):
             rows.append({"項目": "跨文化", "原文": c["原文"], "拼音": "",
                          "英文翻譯": c.get("英文", ""), "中文": c["中譯"],
-                         "顏色": HEX.get(c["顏色"], c["顏色"]), "來源／備註": "Stellarium"})
+                         "顏色": HEX.get(c["顏色"], c["顏色"]), "來源／備註": c.get("來源", "Stellarium")})
         seen = set()
         for ls in self.lab.get("label_sets", []):
             for it in ls["items"]:
@@ -594,7 +608,7 @@ class Pages:
         lg = self.lab.get("line_groups", {})
         sh = pg["shot"]
         for key in sh.get("layers", ["L4"]):
-            for segs, col, _ in lg.get(key, []):
+            for segs, col, lws in lg.get(key, []):
                 for seg in segs:
                     hs = [h for h in seg if h in S]
                     for a, b in zip(hs, hs[1:]):
@@ -603,7 +617,7 @@ class Pages:
                         for r in runs:
                             P = [put(*p, local=disc) for p in r]
                             ax.plot([p[0] for p in P], [p[1] for p in P],
-                                    c=HEX.get(col, col), lw=max(1.0, m.lw * u * 0.9),
+                                    c=HEX.get(col, col), lw=max(1.0, m.lw * (lws or 1.0) * u * 0.9),
                                     alpha=.85, zorder=4, solid_capstyle="round")
         # 主角星白圈（指認用）
         for h in self.lab.get("mains", []):
@@ -633,7 +647,8 @@ class Pages:
                     run.append(p)
             for ph, Y in self.horizon_rows(pg):
                 if abs(ph - phi) < 1e-9:
-                    ax.text(PW - 24, Y + 12, f"地平線（緯度 {phi:g}°）北點 Y={Y:.0f}",
+                    ax.text(PW - 24, Y + 12, f"地平線（緯度 {phi:g}°）"
+                                             f"{'北' if north else '南'}點 Y={Y:.0f}",
                             fontproperties=FP, fontsize=15, color="#48E39B",
                             ha="right", va="top", zorder=9)
         # 標籤虛影＋中心十字

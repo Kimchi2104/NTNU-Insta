@@ -1,0 +1,34 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,1,開場字卡,3,World Sky Cultures,"One sky. The whole world saw — one tiny
+cluster.",cover,Cover: text block replaced with English; EN · EP02 tag
+2,2,鏡頭01開始,5,,"Follow Orion's Belt past red Aldebaran
+to a tiny knot of stars.",bottom,E02
+3,3,鏡頭01結束＝鏡頭02開始,4,,"Follow Orion's Belt past red Aldebaran
+to a tiny knot of stars.",bottom,E02
+4,4,鏡頭02結束＝鏡頭03開始,6,The Seven Sisters,"The West calls it the Pleiades: the
+Seven Sisters.",bottom,E03; label 昴宿星團 → the Pleiades
+5,5,鏡頭03結束,6,,"Most people count only six; the seventh
+is hard to see from cities.",top,E04; magnitude labels stay (numbers only); then the sky moves straight to 13 (same framing; pages 6–12 removed)
+13,6,鏡頭07結束,7,"Across the Pacific, one word","From New Zealand to Hawaiʻi, its name is
+almost the same word.",top,"E05; Pacific label stack: 毛利、阿努塔／大溪地／薩摩亞／東加／夏威夷 → Māori, Anuta／Tahiti／Samoa／Tonga／Hawaiʻi"
+14,7,鏡頭07-概念圖,3,,,,card → English version (`_概念圖/en/C-X01-02_太平洋的同一個字_圖卡.png`)
+15,8,鏡頭07-概念圖收＝鏡頭08開始,7,,"Linguists trace it to one old word,
+mata-liki: ""little eyes."" Māori lore
+says: a god's eyes.",top,E07; labels as page 13
+16,9,鏡頭08結束＝鏡頭09開始,7,"A hen, a nest, a bundle",Romania sees a hen with her chicks.,top,E08; hen stack: 母雞帶小雞（羅馬尼亞）／母雞（馬其頓）／母雞（白俄羅斯）／中國二十八禽 → hen with chicks (Romania)／mother hen (Macedonia)／hens (Belarus)／China's 28 animals; 昴日雞 stays
+17,10,鏡頭09結束＝鏡頭10開始,4,,"Siberia: a duck's nest. Brazil's Tupi: a
+wasps' nest.",top,"E09; nest stack: 鴨巢（西伯利亞）／黃蜂窩（巴西圖皮）／一群烏龜（亞馬遜提庫納） → duck's nest (Siberia)／wasps' nest (Tupi, Brazil)／a group of turtles (Ticuna)"
+18,11,鏡頭10結束＝鏡頭11開始,5,,"Japan: Subaru, from a word for gathering
+things into one bundle.",top,E10; bundle stack: 統ばる：束成一把（日本）／一串（薩丁尼亞）／市集（阿茲特克） → gathered into one (Japan)／a bunch (Sardinia)／marketplace (Aztec)
+19,12,鏡頭11結束,7,"Three lands, one tuft of hair","China's Sima Qian: Mao is the ""hairy
+head."" Babylon: zappu, a mane.
+Indonesia's Bugis: a tuft.",top,"E11; tuft stack: 昴曰髦頭／《史記．天官書》／鬃毛（巴比倫）／一撮毛（印尼布吉斯） → ""hairy head"" (Shiji, China)／mane (Babylon)／a tuft (Bugis, Indonesia); 昴曰髦頭 may stay as the original"
+20,13,鏡頭11-概念圖,4,,,,card → English version (`_概念圖/en/C-X01-06_七姊妹的一百個名字_圖卡.png`)
+21,14,鏡頭11-概念圖收＝鏡頭12開始,2,,,,card fades; no text
+22,15,鏡頭12結束,7,A calendar in the sky,"Each June it returns before dawn. In New
+Zealand, that's Matariki, the Māori New
+Year.",bottom,E13 (wide; the dawn-return diagram pages 23–25 are removed)
+26,16,鏡頭13結束,7,Look east after dark,"This month it's up all night. By
+midnight it rides high in the south.",bottom,E14; labels 昴宿星團／畢宿五 → the Pleiades／Aldebaran
+40,17,端卡（下集見）,4,Next Wednesday,The White Tiger: Orion in a Chinese sky.,endcard,E15
+41,18,追蹤頁,—,,Follow for a new sky every week.,endcard,E16

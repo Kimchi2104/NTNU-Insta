@@ -703,8 +703,8 @@ def nn_deer(e, ax, ax2):
     ax2.plot([p[0] for p in pts], [p[1] for p in pts], c=GREEN, lw=2.6, ls=(0, (7, 5)), zorder=6)
     x, y = P(e, DENEB); T(ax2, x - 0.02, y + 0.10, "天津四", 28, GREEN)
     cx = np.mean([p[0] for p in pts[:3]]); cy = np.mean([p[1] for p in pts[:3]])
-    T(ax2, cx, cy + 0.02, "蒙古：三鹿", 28, GREEN)
-    T(ax2, cx, cy - 0.07, "（A-07 蒙古篇）", 22, WHITE, alpha=.7)
+    T(ax2, cx, cy + 0.02, "夏季大三角", 28, GREEN)
+    T(ax2, cx, cy - 0.07, "（三顆一等星）", 22, WHITE, alpha=.7)
 
 
 # —— 弧矢 ——
@@ -734,7 +734,7 @@ def hs_aim(e, ax, ax2):
 # 9. 倮獸主星：三個候選並列（明說未解）
 # ══════════════════════════════════════════════════════════════
 CAND = [("軒轅", PURPLE, "軒轅", ["黃帝號軒轅", "十七顆星"]),
-        ("牛郎織女", AMBER, "牛女", ["天上的「人」", "蒙古三鹿之二"]),
+        ("牛郎織女", AMBER, "牛女", ["天上的「人」", "夏季大三角之二"]),
         ("弧矢", BLUE, "弧矢", ["第五面旗：弓", "直指天狼"])]
 CBX, CBW, CBY0, CBY1 = [-0.60, 0.0, 0.60], 0.54, -0.46, 0.50
 

@@ -72,8 +72,10 @@ def find_font():
 FP = find_font()
 
 # ── RTL 文字整形（阿拉伯文／希伯來文）────────────────────────────────
-# matplotlib 不做 Arabic shaping 與 bidi：字母會是分離形態且由左寫到右。
-# arabic_reshaper 轉成連寫的 presentation form，python-bidi 反轉為 RTL 視覺順序。
+# 舊版 matplotlib 不做 Arabic shaping 與 bidi：字母會是分離形態且由左寫到右，
+# 所以先用 arabic_reshaper 轉成連寫的 presentation form，python-bidi 反轉為 RTL 視覺順序。
+# matplotlib 3.11 起內建 libraqm（ft2font.__libraqm_version__），自己就會整形＋RTL；
+# 這時再先整形一次＝反轉兩次（字序顛倒、連寫錯形），所以偵測到 libraqm 就原樣交給它。
 try:
     import arabic_reshaper as _ar
     from bidi.algorithm import get_display as _bidi
@@ -81,10 +83,22 @@ try:
 except ImportError:
     _RTL_OK = False
 
+
+def _mpl_shapes_text():
+    try:
+        import matplotlib.ft2font as _ft
+        return bool(getattr(_ft, "__libraqm_version__", ""))
+    except Exception:
+        return False
+
+
+MPL_SHAPES = _mpl_shapes_text()
+
 _RTL_RANGES = ((0x0590,0x05FF), (0x0600,0x06FF), (0x0750,0x077F), (0x08A0,0x08FF))
 def rtl(s):
-    """含阿拉伯／希伯來字元時做連寫整形＋RTL 排序；其餘原樣返回。"""
-    if not s or not _RTL_OK: return s
+    """含阿拉伯／希伯來字元時做連寫整形＋RTL 排序；其餘原樣返回。
+    matplotlib 有 libraqm（3.11 起）時原樣返回：讓 matplotlib 自己整形，才不會反轉兩次。"""
+    if not s or not _RTL_OK or MPL_SHAPES: return s
     if not any(any(a <= ord(c) <= b for a,b in _RTL_RANGES) for c in s): return s
     try: return _bidi(_ar.reshape(s))
     except Exception: return s
