@@ -36,5 +36,14 @@
   "C-X01-05_昴宿的真身_年齡層_透明.png": "MAHXVpimgpw",
   "C-X01-07_週末往東看_圖卡.png": "MAHXViPq_sw"
  },
- "concept_commit": "edf9c96157e3271b7eb3119107d037b996365256"
+ "concept_commit": "edf9c96157e3271b7eb3119107d037b996365256",
+ "en": {
+  "design_id": "DAHaVx2CW_g",
+  "design_title": "EN02 X-01 七姊妹的一百個名字",
+  "commit": "6f2703c56891ce86b95ec832dfcfc0d6167b5cc3",
+  "concept": {
+   "C-X01-02_太平洋的同一個字_圖卡.png (en)": "MAHaV4AeNDg",
+   "C-X01-06_七姊妹的一百個名字_圖卡.png (en)": "MAHaV-vymPs"
+  }
+ }
 }

@@ -6,7 +6,7 @@
 | Publish | **2026-12-02 (Wed) 21:00 Taiwan time**: EN02 in `06_發布月曆/節目表_萬國星空_英文版.csv` |
 | Length | **88 s**, 14 beats, ~159 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the names**. The same little cluster is sisters, "little eyes", a hen, a nest, a bundle and a tuft of hair, plus one beat on why everyone watched it (it is a calendar) |
-| Canva | Not made yet. Copy of the Chinese design `X-01 七姊妹的一百個名字` (DAHWtH0K1CM), to be named `EN02 X-01 七姊妹的一百個名字` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 40 = next-episode card, 41 = follow page). |
+| Canva | `EN02 X-01 七姊妹的一百個名字` (DAHaVx2CW_g), a copy of the Chinese design `X-01 七姊妹的一百個名字`. **Placed 2026-11-08 with the v0 text**: English text, the two English cards (C-X01-02, C-X01-06) and translated labels on the 18 kept pages, which now sit in order as Canva pages 1–18 (the "Now" column below); pages 19–83 are unused: delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold, body 44 px (see `Canva逐頁文字放置規格.md` §4). |
 | Opening line | *One sky. The whole world saw — one tiny cluster.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.3) |
 
@@ -39,24 +39,24 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP02 tag |
-| 2 | | 鏡頭01開始 | 5 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 4 | E02 |
-| 4 | | 鏡頭02結束＝鏡頭03開始 | 6 | E03; label 昴宿星團 → the Pleiades |
-| 5 | | 鏡頭03結束 | 6 | E04; magnitude labels stay (numbers only); then the sky moves straight to 13 (same framing; pages 6–12 removed) |
-| 13 | | 鏡頭07結束 | 7 | E05; Pacific label stack: 毛利、阿努塔／大溪地／薩摩亞／東加／夏威夷 → Māori, Anuta／Tahiti／Samoa／Tonga／Hawaiʻi |
-| 14 | | 鏡頭07-概念圖 | 3 | card → English version (`_概念圖/en/C-X01-02_太平洋的同一個字_圖卡.png`) |
-| 15 | | 鏡頭07-概念圖收＝鏡頭08開始 | 7 | E07; labels as page 13 |
-| 16 | | 鏡頭08結束＝鏡頭09開始 | 7 | E08; hen stack: 母雞帶小雞（羅馬尼亞）／母雞（馬其頓）／母雞（白俄羅斯）／中國二十八禽 → hen with chicks (Romania)／mother hen (Macedonia)／hens (Belarus)／China's 28 animals; 昴日雞 stays |
-| 17 | | 鏡頭09結束＝鏡頭10開始 | 4 | E09; nest stack: 鴨巢（西伯利亞）／黃蜂窩（巴西圖皮）／一群烏龜（亞馬遜提庫納） → duck's nest (Siberia)／wasps' nest (Tupi, Brazil)／a group of turtles (Ticuna) |
-| 18 | | 鏡頭10結束＝鏡頭11開始 | 5 | E10; bundle stack: 統ばる：束成一把（日本）／一串（薩丁尼亞）／市集（阿茲特克） → gathered into one (Japan)／a bunch (Sardinia)／marketplace (Aztec) |
-| 19 | | 鏡頭11結束 | 7 | E11; tuft stack: 昴曰髦頭／《史記．天官書》／鬃毛（巴比倫）／一撮毛（印尼布吉斯） → "hairy head" (Shiji, China)／mane (Babylon)／a tuft (Bugis, Indonesia); 昴曰髦頭 may stay as the original |
-| 20 | | 鏡頭11-概念圖 | 4 | card → English version (`_概念圖/en/C-X01-06_七姊妹的一百個名字_圖卡.png`) |
-| 21 | | 鏡頭11-概念圖收＝鏡頭12開始 | 2 | card fades; no text |
-| 22 | | 鏡頭12結束 | 7 | E13 (wide; the dawn-return diagram pages 23–25 are removed) |
-| 26 | | 鏡頭13結束 | 7 | E14; labels 昴宿星團／畢宿五 → the Pleiades／Aldebaran |
-| 40 | | 端卡（下集見） | 4 | E15 |
-| 41 | | 追蹤頁 | — | E16 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP02 tag |
+| 2 | 2 | 鏡頭01開始 | 5 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 4 | E02 |
+| 4 | 4 | 鏡頭02結束＝鏡頭03開始 | 6 | E03; label 昴宿星團 → the Pleiades |
+| 5 | 5 | 鏡頭03結束 | 6 | E04; magnitude labels stay (numbers only); then the sky moves straight to 13 (same framing; pages 6–12 removed) |
+| 13 | 6 | 鏡頭07結束 | 7 | E05; Pacific label stack: 毛利、阿努塔／大溪地／薩摩亞／東加／夏威夷 → Māori, Anuta／Tahiti／Samoa／Tonga／Hawaiʻi |
+| 14 | 7 | 鏡頭07-概念圖 | 3 | card → English version (`_概念圖/en/C-X01-02_太平洋的同一個字_圖卡.png`) |
+| 15 | 8 | 鏡頭07-概念圖收＝鏡頭08開始 | 7 | E07; labels as page 13 |
+| 16 | 9 | 鏡頭08結束＝鏡頭09開始 | 7 | E08; hen stack: 母雞帶小雞（羅馬尼亞）／母雞（馬其頓）／母雞（白俄羅斯）／中國二十八禽 → hen with chicks (Romania)／mother hen (Macedonia)／hens (Belarus)／China's 28 animals; 昴日雞 stays |
+| 17 | 10 | 鏡頭09結束＝鏡頭10開始 | 4 | E09; nest stack: 鴨巢（西伯利亞）／黃蜂窩（巴西圖皮）／一群烏龜（亞馬遜提庫納） → duck's nest (Siberia)／wasps' nest (Tupi, Brazil)／a group of turtles (Ticuna) |
+| 18 | 11 | 鏡頭10結束＝鏡頭11開始 | 5 | E10; bundle stack: 統ばる：束成一把（日本）／一串（薩丁尼亞）／市集（阿茲特克） → gathered into one (Japan)／a bunch (Sardinia)／marketplace (Aztec) |
+| 19 | 12 | 鏡頭11結束 | 7 | E11; tuft stack: 昴曰髦頭／《史記．天官書》／鬃毛（巴比倫）／一撮毛（印尼布吉斯） → "hairy head" (Shiji, China)／mane (Babylon)／a tuft (Bugis, Indonesia); 昴曰髦頭 may stay as the original |
+| 20 | 13 | 鏡頭11-概念圖 | 4 | card → English version (`_概念圖/en/C-X01-06_七姊妹的一百個名字_圖卡.png`) |
+| 21 | 14 | 鏡頭11-概念圖收＝鏡頭12開始 | 2 | card fades; no text |
+| 22 | 15 | 鏡頭12結束 | 7 | E13 (wide; the dawn-return diagram pages 23–25 are removed) |
+| 26 | 16 | 鏡頭13結束 | 7 | E14; labels 昴宿星團／畢宿五 → the Pleiades／Aldebaran |
+| 40 | 17 | 端卡（下集見） | 4 | E15 |
+| 41 | 18 | 追蹤頁 | — | E16 |
 
 Total 88 s (the follow page is not counted, as in EN01).
 
