@@ -1,6 +1,6 @@
 # 卡 04｜Canva 中文版排頁
 
-- 模型：**Sonnet 5.5／effort medium**（純照表的頁 low 也行）　預估：40 頁以內 1 個對話；超過就拆前半、後半兩個
+- 模型：**Sonnet 5.5／effort medium**（純照表的頁 low 也行）　預估：**一個對話一口氣做完整集**（A-16 五十多頁：Sonnet 1M 視窗做到第 27 頁用掉 54 萬 token，上下文滿了會自動壓縮接著做，不拆對話、不分段開 PR）
 - 前提：素材已 push；你已在學校帳號複製好設計並分享
 
 ## 你先做
@@ -27,7 +27,7 @@
 - 素材 upload-asset-from-url：commit SHA 的 raw 連結（中文路徑要 percent-encode），媒體 ID 寫進 05_素材/{集}_…/_v4大畫布/{EP}_Canva媒體ID.json
 - 每頁 ops 照 canva_ops.py：背景 → 天空層 → 山 → 標籤 → 概念圖框 → 概念圖 → 備註；字卡與字幕照放置規格用 add_text＋format_text 放素字（位置照版型 A／B，不做美編）
 - 連接器脾氣：山 insert_fill 後 crop_media 回 0/0/1939.08×300.56；update_fill 後 crop_media 寬高都給；add_text 後用回傳的 locator 送 format_text
-- 用量不夠做完就先做到一個鏡頭結束處 commit transaction，回報做到第幾頁，下一個對話接著做
+- 一口氣做完整張卡（README 第三節規則 9）：中途不停下來回報、不分段開 PR、不把對話名改成「待續」。Canva transaction 每 15–20 頁 commit 一次保住進度就好；git 可以隨時 commit、push 到工作分支，PR 只在全部做完時開一次。只有工具真的回傳用量上限才停：commit、push 做到哪，回報做到第幾頁，等 Kim 在同一個對話說「繼續」
 - reorder 完用 design_content 讀回頁序比對（presenter_notes 在 transaction 裡可能是舊的）
 - 縮圖檢查：換組前後兩頁一模一樣、概念圖不疊字、每頁都有山且位置一致
 - 節目表「狀態」欄加「＋Canva 完成（待手工收尾）」
