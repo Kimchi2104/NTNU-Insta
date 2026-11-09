@@ -1,0 +1,519 @@
+=== PAGE 1 ===
+Exploring the 
+History of Southeast 
+Asian Astronomy
+A Review of Current Projects and Future 
+Prospects and Possibilities
+Wayne Orchiston
+Mayank N. Vahia   Editors
+Historical & Cultural Astronomy
+Series Editors: W. Orchiston · M. Rothenberg · C. Cunningham
+
+=== PAGE 2 ===
+549© Springer Nature Switzerland AG 2021
+W. Orchiston, M. N. Vahia (eds.), Exploring the History of Southeast Asian 
+Astronomy, Historical & Cultural Astronomy, 
+https://doi.org/10.1007/978-3-030-62777-5_18
+Chapter 18
+Star Patterns in/uni00A0Mandar Navigation
+Adli/uni00A0A./uni00A0Rasyid, Tau/f_iq/uni00A0Hidayat, and/uni00A0Wayne/uni00A0Orchiston
+18.1  Introduction
+18.1.1  Trade and/uni00A0a/uni00A0Seafaring Tradition
+Indonesia is a country that consists of thousands islands. In ancient times, the main 
+link between islands was waterborne transport. In addition, Indonesia’s coastline is 
+very long, at around 81,000/uni00A0km. Therefore, maritime activities were quite important 
+in Indonesian society/uni00A0(e.g. see Lapain, 1996; Lampe, 2016).
+In the course of Indonesian history, maritime civilizations in/f_luenced govern -
+ments, defense and security, sea transportation and trading, the management of 
+ports, and the law of the sea. These characterized the main maritime kingdoms of 
+the archipelago, such as Srivijaya, Tarumanegara, Majapahit, Banten, Samudera 
+Pasai Aceh, Gowa, Makassar, and the two sultanates of Buton and Ternate. This 
+maritime tradition was mostly carried out by ethnic groups such as the Bugis 
+Makassar, Mandar, Bajo, Buton and Madura, and some Javanese communities. As a 
+matter of fact, this seafaring tradition was associated with Indonesia’s important 
+location in Southeast Asia, as it lay on three important international trade routes: the 
+‘silk route’ that connected China and Constantinople; the ‘ceramic route’ to China; 
+and the ‘spice route’ that/uni00A0connected Indonesia to Europe and the Mediterranean Sea 
+(Tan, 2010).
+A. A. Rasyid · T. Hidayat 
+Department of Astronomy & Bosscha Observatory, Institut Teknologi Bandung,  
+Bandung, Indonesia
+e-mail: adli.anshari94@gmail.com; tau/f_iq@as.itb.ac.id 
+W. Orchiston () 
+National Astronomical Research Institute of Thailand, Chiang Mai, Thailand 
+Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD, Australia
+e-mail: wayne.orchiston@gmail.com
+
+=== PAGE 3 ===
+550
+18.1.2  The Ethnic Groups of/uni00A0Sulawesi
+Ethnic groups are related social groups based on ancestry and place of origin. Ethnic 
+identity was ascribed at birth, and members of an ethnic group customarily acquired 
+their characteristics during childhood. Later on, these characteristics/uni00A0 became the 
+main supports during life, because they re/f_lected identity and honor. As mentioned 
+previously, some ethnic groups in Sulawesi that were (and still are) famous for their 
+distinctive cultural characteristics are the Bugis Makassar, the Mandar and the Bajo. 
+They are famous as traders and as seafarers/uni00A0(Lampe, 2016). Their places of origin 
+are shown in Figure/uni00A018.1.
+18.1.3  Navigation Using Star Patterns
+The sailing tradition that has developed since ancient times makes the sea the life -
+blood of those ethnic groups, especially those inhabiting the coast. They continu -
+ously migrate to or trade with other islands, and capture and utilize marine resources, 
+not just for their own consumption but also to be traded. Navigating the seas of the 
+archipelago often required /f_ishermen/uni00A0 or traders to spend weeks, or even months, 
+away from home. In order not to get lost during these long voyagers, the sailors had 
+to know how to navigate.
+For these voyages around the Archipelago, and even as far a/f_ield as the northern 
+coasts of Australia, the seafarers used/uni00A0wooden ships equipped with sails (e.g. see 
+Fig./uni00A018.2). Until recently, they did not have access to modern navigation equipment 
+such as magnetic compasses, binoculars, or sextants, and of course the GPS./uni00A0Instead, 
+out in the open ocean with no land in sight, the sailors had to use celestial bodies for 
+navigation. During the day, undoubtedly they used the Sun as a benchmark, and also 
+the Moon if it happened to be visible during the day. But at night they recognized 
+certain stars and groups of stars (asterisms) that allowed them to pinpoint the cardi-
+nal directions. And so they developed a body of knowledge involving key stars and 
+star patterns, that traditional navigators passed down from generation to generation.
+18.2  The Mandar Ethnic Group
+18.2.1  Short History of/uni00A0the/uni00A0Mandar Ethnic Group
+The Mandar ethnic group is centred on the West Sulawesi area (see Fig./uni00A0 18.1). 
+Presently, West Sulawesi has/uni00A0the/uni00A0status of a/uni00A0new province in Indonesia, created in 
+2006, after being split from the province of South Sulawesi. The location of the 
+Mandar region stretches from South to North, namely from Binanga Karaeng in the 
+South to/uni00A0Suromana in the North, with the following limits:
+A. A. Rasyid et al.
+
+=== PAGE 4 ===
+551
+• In the south it is bordered by Pinrang Regency and Tanah Toraja Regency
+• In the north it is bordered by Tanah Toraja and Luwu Regencies
+• In the north bordering Central Sulawesi Province
+• In the west it is bordered by the Makassar Strait.
+The history of the Mandar ethnic group was /f_irst recorded in the the sixteenth 
+century (Mandra, 1986). The Mandar area used to consist of several different king-
+doms. Originally there were seven kingdoms, and they united/uni00A0 into one constitu -
+tional organization to form a federation called ‘Pitu Babana Binanga’ . The seven 
+original kingdoms were:
+Fig. 18.1 Places of origin of Bugis, Mandar, and Bajo ethnic groups in Sulawesi (map: A./uni00A0Rasyid).
+18 Star Patterns in/uni00A0Mandar Navigation
+
+=== PAGE 5 ===
+552
+• The Kingdom of Balanipa
+• The Tjenrana Kingdom
+• The Kingdom of Banggae
+• The Kingdom of Pambaoeang
+• The Tappalang Kingdom
+• The Mamuju Kingdom, and
+• The Kingdom of Binuang.
+The literal meaning of ‘Pitu Babana Binanga’  is the ‘Seven Estuaries of the 
+River’. This naming is based on the geographical location of the kingdoms and their 
+proximity to the/uni00A0coast.
+In addition, for the sake of strategy, both for war and trade, ‘Pitu Babana 
+Binanga’ re-established alliances with seven other kingdoms located inland,/uni00A0in the 
+mountains:
+• The Kingdom of Rattebulahan
+• The Kingdom of Aralle
+• The Mambi Kingdom
+• The Bambang’s Kingdom
+• The Kingdom of Messawa
+Fig. 18.2 For hundreds of years /f_leets of prahu like these, drawn in 1839, made the long and 
+navigationally-challenging trip from Sulawesi to the northern coast of Australia in order to collect 
+the sea cucumber, a Chinese delicacy ( https://www.abc.net.au/news/2018- 01- 16/
+aboriginal- people- asians- trade- before- european- settlement- darwin/9320452).
+A. A. Rasyid et al.
+
+=== PAGE 6 ===
+553
+• The Tabulahan Kingdom, and
+• The Matangnga Kingdom.
+The name of these seven kingdoms federation is ‘ Pitu Ulunna Salo’ , which 
+means ‘Seven Upper Section of the River’. The name is in accordance with the loca-
+tion of the seven kingdoms, which are located in an inland mountainous area where 
+there is a tributary of the river.
+18.2.2  The Character of/uni00A0the/uni00A0Mandar Ethnic Group
+Given the geographical location of the Mandar ethnic group, it is no surprise that in 
+the past many Mandar people were /f_ishermen or merchants. While /f_ishing was 
+mainly carried out in the oceans around Sulawesi, as we have seen from Fig./uni00A0 18.2 
+Mandar /f_isherman-merchants sometimes ventured as far a/f_ield as the northern 
+coasts of Australia for sea cucumbers (trepang).
+Like their Bugis neighbours/uni00A0 (see/uni00A0 Ammarell, 1999), the Mandar acquired an 
+international reputation as merchants, throughout Indonesia. Apart from selling 
+their marine catches they traded spices and/uni00A0 merchandise. In the West Sulawesi 
+region, and especially the Majene District, the Mandar produced woven fabrics, silk 
+sarongs, copra, rattan, wood, coconut oil and gold powder. These were/uni00A0processed 
+into materials used by the Mandar community, especially during the west monsoon 
+season when /f_ishermen could not go to sea due to unfavorable weather./uni00A0Meanwhile, 
+the weaving was performed by women, especially the wives of sailors who were 
+away on lengthy voyages, and they used their spare time while awaiting the return 
+of their husbands.
+18.2.3  Trade and/uni00A0Agriculture
+Traditional Mandar voyages are widely known, and went in all four cardinal 
+directions:
+• Eastern voyages went to Maluku, Ternate, Kei Island, Aru, Tanimbar, Papua and 
+North Australia. The main aim of these voyages was to buy spices and copra, and 
+catch sea cucumbers.
+• Western voyages went to Sumatra, Kalimantan (Borneo), Java, Singapore, 
+Malacca, Cambodia and Siam (Thailand). The main purpose of these voyages 
+was to sell proceeds from the east and bring goods obtained during the voyage 
+back to Sulawesi to be resold.
+• Northern voyages went to ports in North Sulawesi and the Philippines.
+• Southern voyages went to Java, and even further a/f_ield to the islands of West 
+Nusa Tenggara and East Nusa Tenggara, including East Timor.
+18 Star Patterns in/uni00A0Mandar Navigation
+
+=== PAGE 7 ===
+554
+To facilitate these voyages, the Mandar took advantage of the monsoons: during 
+June–September/uni00A0they went in a westerly direction with the southeast monsoon, and 
+returned to Sulawesi between December and March/uni00A0with the northwest monsoon.
+With all of this voyaging, some Mandar people chose to settle in areas that they 
+visited. In his dissertation, Lopa (1982) mentions that apart from the western coast 
+of Sulawesi, Mandar people are also found in
+• Almost all of the islands in the Makassar Strait and the Flores Sea;
+• Almost all of islands to the south, such as Pulau Marabatua, Pulau Denawang, 
+Pulau Payongpayongan, and those in the Pulau Sembilan District;
+• Balikpapan, Samarinda; and
+• Java, Nusa Tenggara, Sumatra and in Sandakan, East Malaysia.
+18.3  Mandar Navigation
+18.3.1  Research Methodology
+The research methodology used in this study was through interviews with retired 
+/f_ishermen, and the /f_irst two authors followed up with /f_ield observations for veri/f_ica-
+tion. All of the /f_ishermen were more than 70 years old, and were known to have 
+knowledge about Mandar star patterns. Unfortunately, we did not have an opportu-
+nity to go sailing with them. We noted, however, that the younger /f_ishermen did not 
+use star patterns for their navigation.
+Next, we conducted an astronomical analysis by identifying the stars that formed 
+the asterisms in question and determining when they would appear. We used 
+Stellarium astronomical software to simulate the star maps and to identify the star 
+patterns. The date of the simulation was set at around the beginning of the twentieth 
+century (January 1900) and the location of the observer was set at the city of Majene 
+in West Sulawesi.
+18.3.2  Mandar Star Patterns
+Star constellations are formed from several stars. Mandar ethnic groups used these 
+star constellations to navigate during night-time sailing. We note, however, that not 
+all direction-indicators were stars or star patterns because celestial objects also 
+included Venus and a star cluster.
+Star patterns or asterisms that we identi/f_ied during this study were Bittoéng Sapo 
+Kepang, Bittoéng Tuwallu, Bittoéng Mangiwang, Bittoéng Lambaru, Bittoéng 
+Panjala, Bittoéng Malunus, Bittoéng Tallu-tallu, Bittoéng Pambawa Allo, Bittoéng 
+Bawi, and Bittoéng Naga. In astronomical terms, they comprise seven star patterns, 
+the Milky Way, the Pleiades star cluster, and the planet Venus, all of which were 
+A. A. Rasyid et al.
+
+=== PAGE 8 ===
+555
+used for navigation. This shows that the practice of astronomical navigation has 
+long been used by Mandar seafarers.
+Bittoéng, above, means ‘star’, or Bintang in the Indonesian language and 
+Bintoéng in the Bugis language. The following is an explanation for each star or star 
+pattern.
+(1) Bittoéng Sapo Kepang: This means a slanted house. This star pattern is used 
+as an indicator for the south (see Fig. /uni00A018.3). Usually one can begin to observe this 
+star pattern in the evening sky in May. We can see /f_ive stars that form a house with 
+uneven ‘foundations’. The part that forms Bittoéng Sapo Kepang is the roof and two 
+supporting pillars, as shown in Fig./uni00A018.3. Comparison with star maps shows that the 
+roof consists of stars /uni03B4 Cen,   Cru and /uni03B4 Cru, where /uni03B4 Cen is the roof top. The two 
+pillars are formed by /uni03B2 Cru and   Cru (the short pillar), and /uni03B1 Cru and /uni03B4 Cru (the 
+long pillar). The stars that form this asterism are listed in Table/uni00A018.1.
+(2) Bittoéng Tuwallu: This means the widow star. This ‘star’ is actually a pair of 
+stars just below the Bittoéng Sapo Kepang, so it is also a sign for the south direction. 
+Usually one can begin to observe these stars in the evening of May. We see two stars 
+that are bright and close together and have colors that look a little different: one red, 
+the other green. We know that the ‘red widow’ is /uni03B1 Centauri and the ‘green widow’ 
+is /uni03B2 Centauri. These two stars are also listed in Table/uni00A018.1/uni00A0and shown in Fig./uni00A018.3.
+(3) Bittoéng Mangiwang : This means the shark stars. This asterism marks the 
+entry of the northwest monsoon season. It usually rises in the morning at the end 
+of December. You will see a triangular shark /f_in shape in the middle and a tail 
+at/uni00A0the back. The parts that make up the shape of this shark are the /f_ins, head, stom -
+ach and tail, as shown in Fig./uni00A018.4. Our identi/f_ication shows that the /f_in is formed by 
+Fig. 18.3 The shape of Bittoéng Sapo Kepang and its constituent stars seen from the location of 
+the city of Majene (simulated using Stellarium). Bittoéng Tuwallu, identi/f_ied as /uni03B1 Cen and /uni03B2 Cen, 
+is also shown.
+18 Star Patterns in/uni00A0Mandar Navigation
+
+=== PAGE 9 ===
+556
+stars /uni03C2 Sco, /uni03BB Sco, /uni03C5 Sco, /uni03BA Sco and /uni03B91 Sco, where /uni03C5 Sco is the upper end of the /f_in. 
+The head part consists of /uni03B1 Ara, /uni03B2 Ara and /uni03B8 Ara, where /uni03B2 Ara is the tip of the head. 
+The/uni00A0abdomen consists of /uni03B1 Tel and /uni03B5 Sgr. The tail part of the shark is formed from 
+stars /uni03B4 S g r ,  /uni03BC S g r ,  /uni03BB S g r ,  /uni03C6 S g r  a n d  /uni03C3 S g r ,  w h e r e  /uni03B4 Sgr connects the/uni00A0 tail and 
+the/uni00A0body of the/uni00A0shark. The stars that form this asterism are listed in Table/uni00A0 18.2.
+(4) Bittoéng Lambaru: This means stingray stars. This asterism is an early clue 
+to/uni00A0the arrival/uni00A0of the northwest season and usually rises in the morning at the end of 
+November. There are two eyes in the shape of a stingray’s head that are above 
+Bittoéng Mangiwang. The parts that make up the stingray’s shape are the head and 
+tail, as shown in Fig./uni00A018.5. The head of the stingray is formed by the stars /uni03B21 Sco, /uni03B4 
+Sco, /uni03B7 Sco, /uni03C1 Sco and /uni03C3 Sco, where /uni03B4 Sco and /uni03B7 Sco are the stingray’s eyes and /uni03C3 
+Sco is/uni00A0a connector between the tail and the head. In addition, the stingray’s tail con-
+sists of the stars /uni03B1 Sco, /uni03C4 Sco, /uni03B5 Sco, /uni03BC1 Sco and /uni03B62 Sco. The stars that form this 
+asterism are also listed in Table/uni00A018.3.
+Table 18.1 List of the stars forming Bittoeng Sapo Kepang and Bittoeng Tuwallu.
+Star Pattern Star RA DEC
+Bittoéng Sapo Kepang /uni03B1 Cru 12h 26m 36.28s –63° 06′ 00.4′′
+/uni03B2 Cru 12h 47m 43.99s –59° 41′ 20.1′′
+  Cru 12h 31m 11.59s –57° 06′ 21.3′′
+/uni03B4 Cru 12h 15m 09.26s –58° 44′ 56.9′′
+/uni03B4 Cen 12h 08m 21.88s –50° 43′ 19.5′′
+Bittoéng tuwallu /uni03B1 Cen 14h 40m 09.60s –60° 55′ 19.1′′
+/uni03B2 Cen 14h 03m 49.99s –60° 22′ 24.5′′
+Fig. 18.4 The shape of Bittoéng Mangiwang and its constituent stars seen from the location of the 
+city of Majene (simulated using Stellarium).
+A. A. Rasyid et al.
+
+=== PAGE 10 ===
+557
+(6) Bittoéng Malunus. This term/uni00A0has no special/uni00A0meaning, but marks the Pleiades 
+star cluster. This asterism (Fig./uni00A0 18.6) is used as a clue to the increasing number of 
+/f_lying /f_ish (or /f_ish tipping-tuing)/uni00A0in the Makassar Strait/uni00A0during the southeast mon -
+soon. It usually rises in the east/uni00A0at 5 o’clock in the morning at the end of June. 
+(7) Bittoéng Bawi. This means a pig star. This star is usually used by mountain 
+people as a cautious sign because pigs will come out looking for food. This is actu-
+ally the planet Venus.
+(8) Bittoéng Pambosei. This means the star of /f_ishermen. This star is a marker 
+towards the north. This star usually appears in February, part way through the north-
+west monsoon.
+(9) Bittoéng Naga. This means the ‘dragon star’. This ‘star’ is used by /f_ishermen 
+for a good /f_ishing location. It usually rises in the southeast. When this ‘star’ disap -
+pears, /f_ishermen will be afraid because strong wind will show up. This is actually 
+not a ‘star’ at all, but is/uni00A0the Milk Way.
+(10) Bittoéng Panjala. This means the /f_ishing net stars. This asterism/uni00A0is used as 
+an indicator of the entry of the cool season (between the two monsoons)/uni00A0and the 
+emergence of the bambang /f_ish. This asterism/uni00A0 usually rises around midnight in 
+April. The parts that make up Bittoéng Panjala are the /f_ishermen and the boat, as 
+shown in Fig./uni00A018.7. The identi/f_ication shows that the boat is formed from the stars /uni03B1 
+UMa, /uni03B2 UMa, /uni03BB Dra, /uni03BA Dra, /uni03B1 Dra and /uni03B8 Boo. In addition, /f_ishermen are formed by 
+stars   UMa, /uni03B4 UMa, /uni03B5 UMa, /uni03B6 UMa and /uni03B7 UMa, where /uni03B4 UMa, /uni03B5 UMa and /uni03B6 UMa 
+are the /f_ishermen and   UMa and /uni03B7 UMa are /f_ishing/uni00A0equipment. The stars that form 
+this asterism are also listed in Table/uni00A018.4.
+Table 18.2 List of stars forming Bittoéng Mangiwang.
+Star Pattern Star RA DEC
+Bittoéng Mangiwang /uni03B1 Ara 17h 31m 50.89s –49° 52′ 27.6′′
+/uni03B2 Ara 17h 25m 18.31s –55° 31′ 45.2′′
+/uni03B8 Ara 18h 06m 37.94s –50° 05′ 28′′
+/uni03B1 Tel 18h 19m 46.38s –45° 58′ 00.3′′
+  Sgr 18h 05m 49.23s –30° 25′ 06.0′′
+/uni03B4 Sgr 18h 20m 59.44s –29° 49′ 38.2′′
+/uni03B5 Sgr 18h 24m 11.07s –34° 22′ 55.2′′
+/uni03BB Sgr 18h 27m 58.74s –25° 24′ 58.1′′
+/uni03BC Sgr 18h 13m 58.81s –21° 03′ 31.7′′
+/uni03C3 Sgr 18h 55m 15.84s –26° 17′ 42.4′′
+/uni03C6 Sgr 18h 45m 39.02s –26° 59′ 26.9′′
+/uni03B8 Sco 17h 37m 19.08s –42° 59′ 52.0′′
+/uni03B91 Sco 17h 40m 35.09s –40° 07′ 36.5′′
+/uni03BA Sco 17h 42m 29.34s –39° 01′ 45.1′′
+/uni03BB Sco 17h 33m 36.49s –37° 06′ 10.7′′
+/uni03C2 Sco 17h 49m 51.11s –37° 02′ 39.0′′
+/uni03C5 Sco 17h 30m 45.00s –37° 17′ 42.1′′
+18 Star Patterns in/uni00A0Mandar Navigation
+
+=== PAGE 11 ===
+558
+(11) Bittoéng Tallu-tallu. This means a group of three stars. These stars are a sign 
+towards the east after Bittoéng Malunus. One may observe three stars in a line which 
+are quite bright at dawn. The parts that make up Bittoéng Tallu-tallu are two groups 
+of stars that each have three stars in line, as shown in Fig./uni00A018.8. Obviously these are 
+in the modern constellation of Orion. The /f_irst part consists of stars /uni03B4 Ori, /uni03B5 Ori and 
+/uni03B6 Ori. The other part consists of /uni03C03 Ori, /uni03C04 Ori, and /uni03C05 Ori. The stars that form this 
+asterism are listed in Table/uni00A018.5.
+(12) Bittoéng Pambawa Allo. This means a star carrying the Sun. This star is a 
+sign that the Sun will rise about an hour later. It is usually seen around 4 o'clock in 
+the/uni00A0east. Actually this is the planet Venus.
+Fig. 18.5 The shape of Bittoéng Lambaru and its constituent stars seen from the location of the 
+city of Majene (simulated using Stellarium).
+Table 18.3 List of stars forming Bittoéng Lambaru.
+Bittoéng Lambaru /uni03B1 Sco 16h 29m 24.53s -26° 25′ 52.7′′
+/uni03B21 Sco 16h 00m 26.27s -19° 48′ 16.8′′
+/uni03B4 Sco 16h 00m 20.06s -22° 37′ 13.8′′
+/uni03B5 Sco 16h 50m 14.27s -34° 16′ 54.5′′
+/uni03B7 Sco 15h 58m 51.9s -26° 06′ 47.8′′
+/uni03BC1 Sco 16h 51m 52.28s -38° 02′ 48.0′′
+/uni03B62 Sco 16h 54m 35.43s -42° 21′ 16.0′′
+/uni03C1 Sco 15h 56m 53.18s -29° 12′ 48.0′′
+/uni03C3 Sco 16h 21m 11.38s -25° 35′ 32.1′′
+/uni03C4 Sco 16h 35m 53.00s -28° 12′ 55.4′′
+A. A. Rasyid et al.
+
+=== PAGE 12 ===
+559
+18.4  Concluding Remarks
+We have identi/f_ied eleven celestial patterns in Mandar navigation, but only six of 
+them related to star patterns useful for navigation. The Mandar view of star pat -
+terns is obviously related to the livelihoods of the /f_ishermen, such as the patterns 
+Fig. 18.6 The form of Bittoéng Malunus seen from the location of the city of Majene (simulated 
+using Stellarium).
+Fig. 18.7 The shape of Bittoéng Panjala and its constituent stars seen from the location of the city 
+of Majene (simulated using Stellarium).
+18 Star Patterns in/uni00A0Mandar Navigation
+
+=== PAGE 13 ===
+560
+of /f_ish, a boat and a /f_ishing net. Other celestial patterns are used as a sign of the 
+presence of /f_ish in signi/f_icant numbers or particular environmental features. 
+Presently, many young Mandar sailors and /f_ishermen have little knowledge of stars 
+and other environmental features and rely exclusively on the magnetic compass 
+and charts to guide their ships. So it is very important to retain the old navigational 
+methods that use celestial bodies, as this is part of the rich traditional culture of the 
+Mandar people.
+In Table/uni00A018.6, we compare the star names of the Mandar and Bugis, two ethnic 
+groups that have a strong seafaring tradition. We see that the asterisms are similar, 
+both in name and in form, which shows the close cultural links between these two 
+neighbouring ethnic groups.
+We should not be surprised by these similarities, for the Bugis and the Mandar 
+both owe their oceanic maritime prowess and their astronomical systems to the 
+Austronesians, who migrated from Taiwan to the Philippines about 4000/uni00A0years ago. 
+One branch of the population then moved eastwards, and eventually out into the 
+Paci/f_ic (Carson et/uni00A0 al., 2013), while the other branch moved southwards into 
+Sulawesi, bringing with them (amongst other things) rice cultivation, domesticated 
+pigs and a distinctive red-slipped pottery (Bellwood, 2017). Evidence of these early 
+Austronesian settlers has been excavated at a number of archaeological sites in the 
+Karama Valley, where radio carbon dates indicates their arrival around 3,500 years 
+ago (e.g. see Anggraeni et/uni00A0al., 2014). There also is strong genetic evidence that sup-
+ports this Austronesian settlement of Sulawesi (see Lipson et/uni00A0al., 2014). Non-coastal 
+groups and some coastal people were committed to agriculture, but other coastal 
+groups decided to focus instead on /f_ishing and maritime commerce, honing the 
+highly advanced navigational skills and oceanic technology introduced by their 
+Austronesian forefathers.
+Elsewhere in this book, Khairuddin and Jaafar (2021) have proposed that among 
+Austronesian speakers in Southeast Asia there is a correlation between asterisms 
+that an ethnic group recognizes in the sky and their ecological links to the local 
+Table 18.4 List of star-forming stars in Bittoéng Panjala.
+Star Pattern Star RA DEC
+Bittoéng Panjala /uni03B1 UMa 11h 03m 44.98s 61° 44′ 50.4′′
+/uni03B2 UMa 11h 01m 49.31s 56° 22′ 56.2′′
+/uni03BB Dra 11h 31m24.80s 69° 19′ 47.9′′
+/uni03BA Dra 12h 33m 29.57s 69° 47′ 23.4′′
+/uni03B1 Dra 14h 04m 24.20s 64° 22′ 36.8′′
+/uni03B8 Boo 14h 25m 13.79s 51° 51′ 45.7′′
+  UMa 11h 53m 48.69s 53° 41′ 39.8′′
+/uni03B4 UMa 12h 15m 24.26s 57° 01′ 51.9′′
+/uni03B5 UMa 12h 54m 0.38s 56° 30′ 08.6′′
+/uni03B6 UMa 13h 23m 54.05s 54° 55′ 30.4′′
+/uni03B7 UMa 13h 47m 33.65s 49° 18′ 51.6′′
+A. A. Rasyid et al.
+
+=== PAGE 14 ===
+561
+environment. We have noted that more than half of the Mandar asterisms mentioned 
+in this chapter relate in some way to /f_ishing or maritime activities. It will now be 
+interesting to survey the astronomical knowledge-base of inland Mandar groups 
+engaged in rice cultivation and see if they also recognize the marine asterisms of 
+their ancestors, or whether they have already developed their own suite of 
+agriculturally- inspired asterisms. Or will we /f_ind an interesting mix of both 
+traditions?
+Fig. 18.8 The shape of Bittoéng Tallu-tallu and its constituent stars seen from the location of the 
+city of Majene (simulated using Stellarium).
+Table 18.5 List of stars forming Bittoéng Tallu-tallu.
+Star Pattern Star RA DEC
+Bittoéng Tallu-tallu /uni03B4 Ori 5h 31m 0.39s –1° 17′ 56.7′′
+/uni03B5 Ori 5h 36m 12.81s –1° 12′ 06.8′′
+/uni03B6 Ori 5h 40m 45.51s –1° 56′ 33.5′′
+/uni03C03 Ori 4h 49m 47.66s 6° 57′ 39.6′′
+/uni03C04 Ori 4h 51m 12.38s 5° 36′ 18.3′′
+/uni03C05 Ori 4h 54m 15.10s 2° 26′ 26.4′′
+18 Star Patterns in/uni00A0Mandar Navigation
+
+=== PAGE 15 ===
+562
+Table 18.6 A comparison of Bugis (Ammarell, 1999)/uni00A0and Mandar star names.
+Bugis Name Star Mandar Name Star
+Bintoѐng Balѐ Mangiwѐng Bittoéng Mangiwang /uni03B1 Ara
+/uni03B2 Ara
+/uni03B8 Ara
+/uni03B1 Tel
+  Sgr
+/uni03B4 Sgr
+/uni03B5 Sgr
+/uni03BB Sgr
+/uni03BC Sgr
+/uni03C3 Sgr
+/uni03C6 Sgr
+/uni03C0 Scorpio /uni03B8 Sco
+/uni03B8 Scorpio /uni03B91 Sco
+/uni03B9 Scorpio /uni03BA Sco
+/uni03BA Scorpio /uni03BB Sco
+/uni03BB Scorpio /uni03C2 Sco
+/uni03C5 Scorpio /uni03C5 Sco
+Bintoѐng Lambaruѐ /uni03B1 Scorpio Bittoéng Lambaru /uni03B1 Sco
+/uni03B4 Scorpio /uni03B21 Sco
+/uni03C4 Scorpio /uni03B4 Sco
+/uni03B2 Scorpio /uni03B5 Sco
+/uni03B5 Scorpio /uni03B7 Sco
+/uni03BC Scorpio /uni03BC1 Sco
+/uni03B6 Scorpio /uni03B62 Sco
+/uni03B7 Scorpio /uni03C1 Sco
+/uni03C3 Sco
+/uni03C4 Sco
+Bintoѐng Bola Kѐppang /uni03B1 Crux Bittoéng Sapo Kepang /uni03B1 Cru
+/uni03B2 Crux /uni03B2 Cru
+/uni03B4 Crux   Cru
+  Crux /uni03B4 Cru
+/uni03BC Cen /uni03B4 Cen
+Bintoѐng Baluѐ /uni03B1 Centauri Bittoéng tuwallu /uni03B1 Cen
+/uni03B2 Centauri /uni03B2 Cen
+Bѐmbѐ'ѐ Coal Sack Nebula
+Worong porongngѐ Pleiades Bittoéng Malunus Pleiades
+Bintoѐng Pitu
+(continued)
+A. A. Rasyid et al.
+
+=== PAGE 16 ===
+563
+References
+Ammarell, G., 1999. Bugis Navigation. New Haven, Yale Southeast Asia Studies (Monograph 48).
+Anggraeni, Simanjuntak, T., Bellwood, P., and Piper, P., 2014. Neolithic foundations in the Karama 
+Valley, West Sulawesi, Indonesia. Antiquity, 88, 740–756.
+Bellwood, P., 2017. First Islanders: Prehistory and Human Migration in Island Southeast Asia . 
+New Jersey, John Wiley & Sons.
+Carson, M., Hung, H.C., Summerhayes, G., and Bellwood, P., 2013. The pottery trail from 
+Southeast Asian to Remote Oceania. Journal of Coastal and Island Archaeology, 8, 17–36.
+Khairuddin, A.H., and Jaafar, N.F., 2021. The linkage between asterisms and local ecological 
+systems among the Austronesian speakers of Southeast Asia. In Orchiston, W., and Vahia, 
+M.N. (eds.), Exploring the History of Southeast Asian Astronomy: A Review of Current Projects 
+and Future Prospects and Possibilities. Cham (Switzerland), Springer. Pp. 517–528.
+Lopa, B., 1982. Hukum Laut, Pelayaran dan Perniagaan: Penggalian dari Bumi Indonesia Sendiri. 
+Ph.D Dissertation. Faculty of Law, Diponegoro University, Semarang, Indonesia (in Bahasa 
+Indonesia).
+Lapain, A.B., 1996. Peta Pelayaran Nusantara dari Masa ke Masa. Jati/uni00A0 – Journal of Southeast 
+Asian Studies, 2, 35–52 (in Bahasa Indonesia).
+Lampe, M., 2016. Peranan Pelaut Dalam Reproduksi Wawasan Kesatuan Geo-Bio-Sosial-Budaya 
+Maritim Nusantara: Belajar dari Nelayan Pengembara Bugis-Makassar di Sulawesi Selatan. 
+Jurnal Masyarakat dan Budaya, 18(2), 238–246 (in Bahasa Indonesia).
+Table 18.6 (continued)
+Bugis Name Star Mandar Name Star
+Bintoѐng balu Mandara' /uni03B1 Ursa Mayor Bittoéng Panjala /uni03B1 UMa
+/uni03B2 Ursa Mayor /uni03B2 UMa
+Bintoѐng Kappala'ѐ /uni03BB Dra
+/uni03BA Dra
+/uni03B1 Dra
+/uni03B8 Boo
+/uni03B4 Ursa Mayor   UMa
+/uni03B5 Ursa Mayor /uni03B4 UMa
+/uni03B7 Ursa Mayor /uni03B5 UMa
+  Ursa Mayor /uni03B6 UMa
+/uni03B6 Ursa Mayor /uni03B7 UMa
+Tanra Tѐlluѐ /uni03B4 Orion Bittoéng Tallu-tallu /uni03B4 Ori
+/uni03B5 Orion /uni03B5 Ori
+/uni03B6 Orion /uni03B6 Ori
+/uni03C03 Ori
+/uni03C04 Ori
+/uni03C05 Ori
+Wari wariѐ Venus Bittoéng Pambawa Allo Venus
+Bintoѐng Bawi Bittoéng Bawi
+Bintoѐng Nagaѐ Milky Way Bittoéng Naga Milky/uni00A0Way
+Tanra Bajoѐ Awan Magellan
+Bintoѐng Timoro' Altair
+Pajjѐkoѐ /uni03B2 Orion
+18 Star Patterns in/uni00A0Mandar Navigation
+
+=== PAGE 17 ===
+564
+Lipson, M., Loh, P.-R., Patterson, N., Moorjani, P., Ko, Y .-C., Stoneking, M., Berger, B., and 
+Reich, D., 2014. Reconstructing Austronesian population history in island Southeast Asia. 
+Nature, 5: 4689 DOI: 10.1038/ncomms5689
+Mandra, A.M, 1986. Lontara Mandar Balanipa. Jakarta, Inventarisasi, Transliterasi, Terjemahan 
+dan Pengungkapan Latar Belakang Nilai Isi Serta Naskah Kuno/Lontar Mandar Daerah 
+Sulawesi Selatan Depdikbud (in Bahasa Indonesia).
+Tan, T.S., 2010. Cheng Ho: Penyebar Islam dari China ke Nusantara. (terj. Abdul Kadr). Jakarta, 
+Kompas (in Bahasa Indonesia).
+A. A. Rasyid et al.
+
