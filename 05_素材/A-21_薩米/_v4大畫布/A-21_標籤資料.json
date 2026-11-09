@@ -1,0 +1,1152 @@
+{
+  "ep": "A-21",
+  "label_sets": [
+    {
+      "name": "Sarvvis",
+      "items": [
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "Sarvvis",
+          "color": "amber",
+          "size": 3.6,
+          "dx": 14.0,
+          "dy": 5.2,
+          "key": "Sarvvis",
+          "disc": true
+        },
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "公馴鹿（一說駝鹿）",
+          "color": "white",
+          "size": 2.9,
+          "dx": 14.0,
+          "dy": 0.8,
+          "key": "Sarvvis-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "弓",
+      "items": [
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Fauna davgge",
+          "color": "green",
+          "size": 3.6,
+          "dx": -24.0,
+          "dy": 8.2,
+          "key": "Fauna davgge",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Fávdna 的弓（北斗）",
+          "color": "white",
+          "size": 2.9,
+          "dx": -24.0,
+          "dy": 3.8,
+          "key": "Fauna davgge-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "Fávdna",
+      "items": [
+        {
+          "hip": 69673,
+          "text": "Fávdna",
+          "color": "red",
+          "size": 3.6,
+          "dx": 19.0,
+          "dy": 2.2,
+          "key": "Fávdna",
+          "disc": true
+        },
+        {
+          "hip": 69673,
+          "text": "獵人（大角星）",
+          "color": "white",
+          "size": 2.9,
+          "dx": 19.0,
+          "dy": -2.2,
+          "key": "Fávdna-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "Fávdna-左",
+      "items": [
+        {
+          "hip": 69673,
+          "text": "Fávdna",
+          "color": "red",
+          "size": 3.6,
+          "dx": -22.0,
+          "dy": -11.8,
+          "key": "Fávdna",
+          "disc": true
+        },
+        {
+          "hip": 69673,
+          "text": "獵人（大角星）",
+          "color": "white",
+          "size": 2.9,
+          "dx": -22.0,
+          "dy": -16.2,
+          "key": "Fávdna-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "Boahjenásti",
+      "items": [
+        {
+          "hip": 11767,
+          "text": "Boahjenásti",
+          "color": "white",
+          "size": 3.6,
+          "dx": 31.0,
+          "dy": -2.8,
+          "key": "Boahjenásti",
+          "disc": true
+        },
+        {
+          "hip": 11767,
+          "text": "撐住天空的星（北極星）",
+          "color": "white",
+          "size": 2.9,
+          "dx": 31.0,
+          "dy": -7.2,
+          "key": "Boahjenásti-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "Sarvvis-下",
+      "items": [
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "Sarvvis",
+          "color": "amber",
+          "size": 3.6,
+          "dx": 4.0,
+          "dy": -14.8,
+          "key": "Sarvvis",
+          "disc": true
+        },
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "公馴鹿（一說駝鹿）",
+          "color": "white",
+          "size": 2.9,
+          "dx": 4.0,
+          "dy": -19.2,
+          "key": "Sarvvis-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "Sarvvis-近",
+      "items": [
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "Sarvvis",
+          "color": "amber",
+          "size": 2.6,
+          "dx": 0.0,
+          "dy": -25.4,
+          "key": "Sarvvis",
+          "disc": true
+        },
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "公馴鹿（一說駝鹿）",
+          "color": "white",
+          "size": 2.1,
+          "dx": 0.0,
+          "dy": -28.6,
+          "key": "Sarvvis-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "IAU2025",
+      "items": [
+        {
+          "hip": 17358,
+          "text": "Sarvvis",
+          "color": "amber",
+          "size": 1.5,
+          "dx": -6.0,
+          "dy": 5.45,
+          "key": "Sarvvis ",
+          "disc": true
+        },
+        {
+          "hip": 17358,
+          "text": "公馴鹿（英仙 δ）",
+          "color": "white",
+          "size": 1.2,
+          "dx": -6.0,
+          "dy": 3.55,
+          "key": "Sarvvis -zh",
+          "disc": true
+        },
+        {
+          "hip": 18532,
+          "text": "Áldu",
+          "color": "amber",
+          "size": 1.5,
+          "dx": 11.0,
+          "dy": -1.55,
+          "key": "Áldu",
+          "disc": true
+        },
+        {
+          "hip": 18532,
+          "text": "母馴鹿（英仙 ε）",
+          "color": "white",
+          "size": 1.2,
+          "dx": 11.0,
+          "dy": -3.45,
+          "key": "Áldu-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "Gállá的兒子們",
+      "items": [
+        {
+          "ra": 84.08137964197395,
+          "dec": -1.147996746326035,
+          "text": "Gallabarneck",
+          "color": "blue",
+          "size": 1.6,
+          "dx": 0.0,
+          "dy": -3.8,
+          "key": "Gallabarneck"
+        },
+        {
+          "ra": 84.08137964197395,
+          "dec": -1.147996746326035,
+          "text": "Gállá 的兒子們（獵戶腰帶）",
+          "color": "white",
+          "size": 1.2,
+          "dx": 0.0,
+          "dy": -6.2,
+          "key": "Gallabarneck-zh"
+        }
+      ]
+    },
+    {
+      "name": "滑雪的人",
+      "items": [
+        {
+          "ra": 115.01315103883502,
+          "dec": 29.963580366002052,
+          "text": "Cuoigahægjek",
+          "color": "purple",
+          "size": 1.6,
+          "dx": 0.0,
+          "dy": 6.2,
+          "key": "Cuoigahægjek"
+        },
+        {
+          "ra": 115.01315103883502,
+          "dec": 29.963580366002052,
+          "text": "滑雪的人（北河二、三）",
+          "color": "white",
+          "size": 1.2,
+          "dx": 0.0,
+          "dy": 3.8,
+          "key": "Cuoigahægjek-zh"
+        }
+      ]
+    },
+    {
+      "name": "獵犬群",
+      "items": [
+        {
+          "ra": 56.76046840855269,
+          "dec": 24.137769759674974,
+          "text": "獵犬群（昴宿）",
+          "color": "amber",
+          "size": 1.5,
+          "dx": 0.0,
+          "dy": -4.5,
+          "key": "獵犬群"
+        }
+      ]
+    },
+    {
+      "name": "Gállá是誰",
+      "items": [
+        {
+          "hip": 37279,
+          "text": "Gállá？",
+          "color": "white",
+          "size": 1.6,
+          "dx": 0.0,
+          "dy": 4.9,
+          "key": "Gállá？"
+        },
+        {
+          "hip": 37279,
+          "text": "南河三",
+          "color": "white",
+          "size": 1.3,
+          "dx": 0.0,
+          "dy": 2.3,
+          "key": "Gállá？-zh"
+        },
+        {
+          "hip": 24436,
+          "text": "Gállá？",
+          "color": "white",
+          "size": 1.6,
+          "dx": 0.0,
+          "dy": -2.3,
+          "key": "Gállá？ "
+        },
+        {
+          "hip": 24436,
+          "text": "參宿七",
+          "color": "white",
+          "size": 1.3,
+          "dx": 0.0,
+          "dy": -4.9,
+          "key": "Gállá？ -zh"
+        },
+        {
+          "hip": 32349,
+          "text": "Gállá？",
+          "color": "white",
+          "size": 1.6,
+          "dx": 0.0,
+          "dy": -2.5,
+          "key": "Gállá？  "
+        },
+        {
+          "hip": 32349,
+          "text": "天狼星",
+          "color": "white",
+          "size": 1.3,
+          "dx": 0.0,
+          "dy": -5.1,
+          "key": "Gállá？  -zh"
+        }
+      ]
+    },
+    {
+      "name": "銀河-鳥的路",
+      "items": [
+        {
+          "ra": 95.0,
+          "dec": 24.0,
+          "text": "Lodde-raiddaras",
+          "color": "white",
+          "size": 3.6,
+          "dx": -17.0,
+          "dy": -3.8,
+          "key": "Lodde-raiddaras",
+          "disc": true
+        },
+        {
+          "ra": 95.0,
+          "dec": 24.0,
+          "text": "鳥的路（銀河）",
+          "color": "white",
+          "size": 2.9,
+          "dx": -17.0,
+          "dy": -8.2,
+          "key": "Lodde-raiddaras-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "銀河-年的記號",
+      "items": [
+        {
+          "ra": 95.0,
+          "dec": 24.0,
+          "text": "Jakke-mærka",
+          "color": "white",
+          "size": 3.6,
+          "dx": -17.0,
+          "dy": -3.8,
+          "key": "Jakke-mærka",
+          "disc": true
+        },
+        {
+          "ra": 95.0,
+          "dec": 24.0,
+          "text": "年的記號（銀河）",
+          "color": "white",
+          "size": 2.9,
+          "dx": -17.0,
+          "dy": -8.2,
+          "key": "Jakke-mærka-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "跨文化-北斗",
+      "items": [
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Лось",
+          "color": "blue",
+          "size": 2.7,
+          "dx": 0.0,
+          "dy": -14.35,
+          "key": "Лось",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "駝鹿（西伯利亞）",
+          "color": "white",
+          "size": 2.2,
+          "dx": 0.0,
+          "dy": -17.65,
+          "key": "Лось-zh",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Tukturjuit",
+          "color": "blue",
+          "size": 2.7,
+          "dx": 0.0,
+          "dy": -22.85,
+          "key": "Tukturjuit",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "馴鹿（因紐特）",
+          "color": "white",
+          "size": 2.2,
+          "dx": 0.0,
+          "dy": -26.15,
+          "key": "Tukturjuit-zh",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Fávdna 的弓",
+          "color": "green",
+          "size": 2.7,
+          "dx": 0.0,
+          "dy": -31.35,
+          "key": "Fávdna 的弓",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "弓（薩米）",
+          "color": "white",
+          "size": 2.2,
+          "dx": 0.0,
+          "dy": -34.65,
+          "key": "Fávdna 的弓-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "跨文化-大角星",
+      "items": [
+        {
+          "hip": 69673,
+          "text": "al-Simāk al-Rāmiḥ",
+          "color": "red",
+          "size": 2.7,
+          "dx": 12.0,
+          "dy": 9.65,
+          "key": "al-Simāk al-Rāmiḥ",
+          "disc": true
+        },
+        {
+          "hip": 69673,
+          "text": "拿長矛的人（古阿拉伯）",
+          "color": "white",
+          "size": 2.2,
+          "dx": 12.0,
+          "dy": 6.35,
+          "key": "al-Simāk al-Rāmiḥ-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "台北面北",
+      "items": [
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "Sarvvis",
+          "color": "amber",
+          "size": 3.0,
+          "dx": 26.0,
+          "dy": 11.8,
+          "key": "Sarvvis",
+          "disc": true
+        },
+        {
+          "ra": 51.98389323284603,
+          "dec": 50.170581064403116,
+          "text": "公馴鹿（一說駝鹿）",
+          "color": "white",
+          "size": 2.5,
+          "dx": 26.0,
+          "dy": 8.2,
+          "key": "Sarvvis-zh",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Fauna davgge",
+          "color": "green",
+          "size": 3.0,
+          "dx": 6.0,
+          "dy": 15.8,
+          "key": "Fauna davgge",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Fávdna 的弓（北斗）",
+          "color": "white",
+          "size": 2.5,
+          "dx": 6.0,
+          "dy": 12.2,
+          "key": "Fauna davgge-zh",
+          "disc": true
+        },
+        {
+          "hip": 11767,
+          "text": "Boahjenásti",
+          "color": "white",
+          "size": 3.0,
+          "dx": 0.0,
+          "dy": -6.2,
+          "key": "Boahjenásti",
+          "disc": true
+        },
+        {
+          "hip": 11767,
+          "text": "撐住天空的星（北極星）",
+          "color": "white",
+          "size": 2.5,
+          "dx": 0.0,
+          "dy": -9.8,
+          "key": "Boahjenásti-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "台北-Fávdna",
+      "items": [
+        {
+          "hip": 69673,
+          "text": "Fávdna",
+          "color": "red",
+          "size": 3.0,
+          "dx": -24.0,
+          "dy": 10.8,
+          "key": "Fávdna",
+          "disc": true
+        },
+        {
+          "hip": 69673,
+          "text": "獵人（大角星）",
+          "color": "white",
+          "size": 2.5,
+          "dx": -24.0,
+          "dy": 7.2,
+          "key": "Fávdna-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "以利亞的車",
+      "items": [
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "Іллёў воз",
+          "color": "amber",
+          "size": 2.6,
+          "dx": -9.0,
+          "dy": -11.4,
+          "key": "Іллёў воз",
+          "disc": true
+        },
+        {
+          "ra": 185.99077543495898,
+          "dec": 56.514243081400735,
+          "text": "以利亞的車（白俄羅斯）",
+          "color": "white",
+          "size": 2.1,
+          "dx": -9.0,
+          "dy": -14.6,
+          "key": "Іллёў воз-zh",
+          "disc": true
+        }
+      ]
+    }
+  ],
+  "terms": {
+    "Sarvvis": {
+      "hips": [
+        8886,
+        6686,
+        4427,
+        3179,
+        746,
+        14328,
+        15863,
+        14576,
+        17358,
+        18532,
+        18246,
+        24608,
+        25428,
+        23767,
+        23015
+      ],
+      "原文": "Sarvvis",
+      "拼音": "",
+      "英文翻譯": "Sarva the Elk (bull reindeer)",
+      "中文": "公馴鹿（一說駝鹿）",
+      "顏色": "amber",
+      "來源備註": "Stellarium 轉寫 Sarva／Sarvvis；Stellarium sami 001：elk、另名 Sarvvis『bull elk』；北薩米語 sarvvis＝公馴鹿（sarvva＝駝鹿）；仙后＋英仙＋御夫 15 顆"
+    },
+    "Sarvvis（公馴鹿（英仙 δ））": {
+      "hips": [
+        17358
+      ],
+      "原文": "Sarvvis",
+      "拼音": "",
+      "英文翻譯": "Sarvvis (IAU 2025, δ Per A)",
+      "中文": "公馴鹿（英仙 δ）",
+      "顏色": "amber",
+      "來源備註": "IAU WGSN 2025/12/25；字尾空白只為與星座名區分 key"
+    },
+    "Áldu": {
+      "hips": [
+        18532
+      ],
+      "原文": "Áldu",
+      "拼音": "",
+      "英文翻譯": "Áldu (IAU 2025, ε Per A)",
+      "中文": "母馴鹿（英仙 ε）",
+      "顏色": "amber",
+      "來源備註": "IAU WGSN 2025/12/25（reindeer cow）"
+    },
+    "Fávdna": {
+      "hips": [
+        69673
+      ],
+      "原文": "Fávdna",
+      "拼音": "",
+      "英文翻譯": "Favdna, the Hunter",
+      "中文": "獵人（大角星）",
+      "顏色": "red",
+      "來源備註": "Stellarium 轉寫 Favdna（Favtna）；Stellarium sami 005；Turi 作 Fávtna"
+    },
+    "Fauna davgge": {
+      "hips": [
+        54061,
+        53910,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Fauna davgge",
+      "拼音": "",
+      "英文翻譯": "Favdna's Bow and Arrow",
+      "中文": "Fávdna 的弓（北斗）",
+      "顏色": "green",
+      "來源備註": "Stellarium sami 002：搖光→開陽→玉衡→天權→天璇＝弓弧，天樞—天璣＝箭；審稿建議拼法 Fávnna dávgi（未核）"
+    },
+    "Boahjenásti": {
+      "hips": [
+        11767
+      ],
+      "原文": "Boahjenásti",
+      "拼音": "",
+      "英文翻譯": "Sky Support",
+      "中文": "撐住天空的星（北極星）",
+      "顏色": "white",
+      "來源備註": "Stellarium 轉寫 Boahjenaste；Stellarium sami 004；箭射中它世界就結束（Stellarium；Turi 1910 星圖說明，DuBois 2011 p.167，未親核）"
+    },
+    "Gallabarneck": {
+      "hips": [
+        26727,
+        26311,
+        25930
+      ],
+      "原文": "Gallabarneck",
+      "拼音": "",
+      "英文翻譯": "Galla's Sons",
+      "中文": "Gállá 的兒子們（獵戶腰帶）",
+      "顏色": "blue",
+      "來源備註": "Stellarium sami 003；審稿建議拼法 Gállábártnit（未核）"
+    },
+    "Cuoigahægjek": {
+      "hips": [
+        36850,
+        37826
+      ],
+      "原文": "Cuoigahægjek",
+      "拼音": "",
+      "英文翻譯": "The Ski Runners",
+      "中文": "滑雪的人（北河二、三）",
+      "顏色": "purple",
+      "來源備註": "Stellarium sami 010；審稿建議拼法 Čuoiggaheaddjit（未核）"
+    },
+    "獵犬群": {
+      "hips": [
+        17702,
+        17847,
+        17851,
+        17608,
+        17499,
+        17531
+      ],
+      "原文": "獵犬群",
+      "拼音": "",
+      "英文翻譯": "Pack of Dogs",
+      "中文": "獵犬群（昴宿）",
+      "顏色": "amber",
+      "來源備註": "Stellarium 轉寫 Rougot；Stellarium 把 dog pack 配給 Rougot，但這個字不是『狗群』（審稿）：片中只寫中文"
+    },
+    "Gállá？": {
+      "hips": [
+        37279
+      ],
+      "原文": "Gállá？",
+      "拼音": "",
+      "英文翻譯": "Galla",
+      "中文": "南河三",
+      "顏色": "white",
+      "來源備註": "Stellarium 轉寫 Galla；Stellarium sami 009 選南河三；一說參宿七、天狼星"
+    },
+    "Gállá？（參宿七）": {
+      "hips": [
+        24436
+      ],
+      "原文": "Gállá？",
+      "拼音": "",
+      "英文翻譯": "Galla?",
+      "中文": "參宿七",
+      "顏色": "white",
+      "來源備註": "候選（字尾空白只為區分 key）"
+    },
+    "Gállá？（天狼星）": {
+      "hips": [
+        32349
+      ],
+      "原文": "Gállá？",
+      "拼音": "",
+      "英文翻譯": "Galla?",
+      "中文": "天狼星",
+      "顏色": "white",
+      "來源備註": "候選；Kautokeino 最高 4.3°（自算）"
+    },
+    "Lodde-raiddaras": {
+      "hips": [],
+      "原文": "Lodde-raiddaras",
+      "拼音": "",
+      "英文翻譯": "Bird Path (Milky Way)",
+      "中文": "鳥的路（銀河）",
+      "顏色": "white",
+      "來源備註": "Stellarium description；錨點＝御夫—雙子之間的銀河（RA 95、Dec +24），09 迄格畫面內、避開 Sarvvis 連線"
+    },
+    "Jakke-mærka": {
+      "hips": [],
+      "原文": "Jakke-mærka",
+      "拼音": "",
+      "英文翻譯": "Year Mark (Milky Way)",
+      "中文": "年的記號（銀河）",
+      "顏色": "white",
+      "來源備註": "Stellarium description：名字跟著季節換"
+    },
+    "Лось": {
+      "hips": [
+        54061,
+        53910,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Лось",
+      "拼音": "",
+      "英文翻譯": "Elk (Siberian)",
+      "中文": "駝鹿（西伯利亞）",
+      "顏色": "blue",
+      "來源備註": "Stellarium 轉寫 Los'；Stellarium russian_siberian（A-08）"
+    },
+    "Tukturjuit": {
+      "hips": [
+        54061,
+        53910,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Tukturjuit",
+      "拼音": "",
+      "英文翻譯": "Caribou (Inuit)",
+      "中文": "馴鹿（因紐特）",
+      "顏色": "blue",
+      "來源備註": "Stellarium inuit 006（A-14）"
+    },
+    "Fávdna 的弓": {
+      "hips": [
+        54061,
+        53910,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Fávdna 的弓",
+      "拼音": "",
+      "英文翻譯": "Favdna's Bow (Sami)",
+      "中文": "弓（薩米）",
+      "顏色": "green",
+      "來源備註": "Stellarium 轉寫 Fauna davgge；10 鏡跨文化疊"
+    },
+    "al-Simāk al-Rāmiḥ": {
+      "hips": [
+        69673
+      ],
+      "原文": "al-Simāk al-Rāmiḥ",
+      "拼音": "",
+      "英文翻譯": "The High One with the Spear",
+      "中文": "拿長矛的人（古阿拉伯）",
+      "顏色": "red",
+      "來源備註": "Stellarium 轉寫 ذو السلاح；arabic_ancient 1199『The armed one』；al-Simāk al-Rāmiḥ「拿長矛的高個子」（A-19）"
+    },
+    "Іллёў воз": {
+      "hips": [
+        54061,
+        53910,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Іллёў воз",
+      "拼音": "",
+      "英文翻譯": "Elias's Cart (Belarusian)",
+      "中文": "以利亞的車（白俄羅斯）",
+      "顏色": "amber",
+      "來源備註": "Stellarium 轉寫 Illyouo voz；Stellarium belarusian 001；下集 A-22"
+    }
+  },
+  "cross": [],
+  "mains": [
+    11767,
+    69673,
+    54061,
+    53910,
+    58001,
+    59774,
+    62956,
+    65378,
+    67301,
+    8886,
+    6686,
+    4427,
+    3179,
+    746,
+    14328,
+    15863,
+    14576,
+    17358,
+    18532,
+    18246,
+    24608,
+    25428,
+    23767,
+    23015,
+    26727,
+    26311,
+    25930,
+    36850,
+    37826,
+    17702,
+    37279,
+    24436,
+    32349,
+    91262,
+    97649
+  ],
+  "lines": {
+    "L4": "星座連線",
+    "鹿": "連線-Sarvvis",
+    "弓": "連線-弓與箭",
+    "箭": "連線-箭頭",
+    "幫": "連線-幫手",
+    "勺": "連線-勺形（西伯利亞・因紐特）",
+    "車": "連線-以利亞的車（白俄羅斯）"
+  },
+  "line_groups": {
+    "L4": [
+      [
+        [
+          [
+            8886,
+            6686,
+            4427,
+            3179,
+            746
+          ],
+          [
+            6686,
+            14328,
+            15863,
+            14576
+          ],
+          [
+            15863,
+            17358,
+            18532,
+            18246
+          ],
+          [
+            17358,
+            24608,
+            25428
+          ],
+          [
+            24608,
+            23767,
+            23015
+          ]
+        ],
+        "amber",
+        1.0
+      ],
+      [
+        [
+          [
+            67301,
+            65378,
+            62956,
+            59774,
+            53910
+          ],
+          [
+            54061,
+            58001
+          ]
+        ],
+        "green",
+        1.1
+      ],
+      [
+        [
+          [
+            26727,
+            26311,
+            25930
+          ]
+        ],
+        "blue",
+        1.0
+      ],
+      [
+        [
+          [
+            36850,
+            37826
+          ]
+        ],
+        "purple",
+        1.0
+      ]
+    ],
+    "鹿": [
+      [
+        [
+          [
+            8886,
+            6686,
+            4427,
+            3179,
+            746
+          ],
+          [
+            6686,
+            14328,
+            15863,
+            14576
+          ],
+          [
+            15863,
+            17358,
+            18532,
+            18246
+          ],
+          [
+            17358,
+            24608,
+            25428
+          ],
+          [
+            24608,
+            23767,
+            23015
+          ]
+        ],
+        "amber",
+        1.0
+      ]
+    ],
+    "弓": [
+      [
+        [
+          [
+            67301,
+            65378,
+            62956,
+            59774,
+            53910
+          ],
+          [
+            54061,
+            58001
+          ]
+        ],
+        "green",
+        1.1
+      ]
+    ],
+    "箭": [
+      [
+        [
+          [
+            53910,
+            54061,
+            11767,
+            9000001
+          ],
+          [
+            9000002,
+            9000001,
+            9000003
+          ]
+        ],
+        "red",
+        1.0
+      ]
+    ],
+    "幫": [
+      [
+        [
+          [
+            26727,
+            26311,
+            25930
+          ]
+        ],
+        "blue",
+        1.0
+      ],
+      [
+        [
+          [
+            36850,
+            37826
+          ]
+        ],
+        "purple",
+        1.0
+      ]
+    ],
+    "勺": [
+      [
+        [
+          [
+            67301,
+            65378,
+            62956,
+            59774,
+            58001,
+            53910,
+            54061,
+            59774
+          ]
+        ],
+        "blue",
+        0.9
+      ]
+    ],
+    "車": [
+      [
+        [
+          [
+            67301,
+            65378,
+            62956,
+            59774,
+            58001,
+            53910,
+            54061,
+            59774
+          ]
+        ],
+        "amber",
+        1.0
+      ]
+    ]
+  },
+  "rot_taipei": {
+    "20:00": -128.88,
+    "22:00": -158.96,
+    "23:00": -174.0
+  },
+  "lst0": 135.0,
+  "phi": 25.03
+}

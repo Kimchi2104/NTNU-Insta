@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-179.85 -179.85 359.71 359.71" width="359.71" height="359.71">
+<title>A-21 盤｜盤寬 = 大畫布寬 × 0.999182（R_fill=179.853，盤緣圈半徑 = 大畫布寬 × 0.159155）</title>
+<g fill="none" stroke="#6FA8FF" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 98.15 82.91 L 98.29 82.48 L 98.43 82.04 L 98.57 81.61 L 98.71 81.17 L 98.84 80.74 L 98.97 80.30"/>
+<path d="M 98.97 80.30 L 99.05 79.86 L 99.13 79.43 L 99.21 78.99 L 99.29 78.56 L 99.36 78.13 L 99.44 77.69"/>
+</g>
+<g fill="none" stroke="#B78AFF" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 29.57 75.64 L 29.32 76.55 L 29.07 77.47 L 28.81 78.39 L 28.55 79.30 L 28.28 80.22 L 28.01 81.13 L 27.73 82.05"/>
+</g>
+</svg>
