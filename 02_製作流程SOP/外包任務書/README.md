@@ -26,7 +26,7 @@ Claude 合併考據與審稿意見 → 逐字稿 v1（已查核）→ 星圖素�
 - **不要直接改逐字稿本身**。意見寫在交件檔裡，由 Claude 合併，才能保留修改紀錄。
 - 每條意見都要有：位置（鏡號或段落）、原文、問題、建議改法、出處（網址或書目＋頁碼）。沒有出處的意見請標「（推論）」。
 - **整份丟，不用改字**：每份任務書都寫成可以直接連同逐字稿丟給代理的樣子；`{編號}`、`EN??` 代理自己從檔名帶入。
-- 交件後要推上 GitHub，Claude 才讀得到（見下一節）；然後開對應的開工卡對話（`../開工指令/02_合併審稿.md` 或 `06_合併英文審稿.md`）。
+- Antigravity 交件後會自己 push 到 main，不用另外交代（不是在 Antigravity 做的才要你推，見下一節）；然後開對應的開工卡對話（`../開工指令/02_合併審稿.md` 或 `06_合併英文審稿.md`）。
 
 ## 自動送審（Antigravity `/schedule`，用 Credit、不吃 Claude Usage）
 
@@ -45,22 +45,13 @@ Claude 合併考據與審稿意見 → 逐字稿 v1（已查核）→ 星圖素�
 
 四個角色由同一個代理依序做，獨立性比開四個 agent 差一點；想保留完全獨立就只排第 3 步，四角色自己手動開四個對話。對話第一行寫「【A-22 考據】」這類標題，側欄才看得出來。
 
-## 交件後的同步（擇一）
+## 交件後的同步
 
-**A. 讓 Antigravity 自己做（建議）**：交件寫好後，叫它在終端機跑：
+**Antigravity 交件後會自己 push 到 main，不用另外交代。** Claude 從 repo 讀。它只該加 `04_腳本庫/_審稿/`；它自己產生的工作檔（`.agents/`、曆表）已在 `.gitignore`。
 
-```bash
-git pull --ff-only origin main
-git add 04_腳本庫/_審稿/
-git commit -m "A-20 考據＋審稿交件"      # 寫實際的集號與任務
-git push origin main
-```
+只有**不是在 Antigravity 裡做**的交件（例如 Gemini 網頁版的深度研究）才要你自己推：GitHub Desktop 先 Fetch→Pull，再勾選**只有** `04_腳本庫/_審稿/` 裡的新檔 Commit→Push。不要用「全部勾選」：11/08 就是這樣把 Antigravity 的 `.agents/` 工作檔、測試文件、16 MB 的曆表、以及它重建出來的舊版逐字稿一起推上去了。
 
-只加 `04_腳本庫/_審稿/`，其他它自己產生的工作檔（`.agents/`、測試腳本、曆表）不要進 repo。
-
-**B. GitHub Desktop**：先 Fetch→Pull，再勾選**只有** `04_腳本庫/_審稿/` 裡的新檔 Commit→Push。不要用「全部勾選」：11/08 就是這樣把 Antigravity 的 `.agents/` 工作檔、測試文件、16 MB 的曆表、以及它重建出來的舊版逐字稿一起推上去了。
-
-兩種都做不到時，跟 Claude 說「交件在 Drive，還沒 Push」，Claude 會用 Google Drive 連接器讀。
+推不上去時，跟 Claude 說「交件在 Drive，還沒 Push」，Claude 會用 Google Drive 連接器讀。
 
 ## 建議的分工
 
