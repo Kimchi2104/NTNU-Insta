@@ -8,11 +8,11 @@
 
 | 段 | 卡 | 模型／effort | 你先做 | Claude 產出 | 你之後做 |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| ① 中文稿 v0 | `01_中文稿v0.md` | Opus 5.5／**high** | 節目表有這集 | `04_腳本庫/{集}-…-v0.md` | 送審：`外包任務書/01_網路考據.md`＋v0 丟給 Gemini，`02_審稿Critic.md`＋v0 丟給 Antigravity；交件後 Commit→Push |
+| ① 中文稿 v0 | `01_中文稿v0.md` | Opus 5.5／**high** | 節目表有這集 | `04_腳本庫/{集}-…-v0.md` | 送審：`外包任務書/01_網路考據.md`＋v0 丟給 Gemini，`02_審稿Critic.md`＋v0 丟給 Antigravity；Antigravity 交件後會自己 push |
 | ② 合併審稿 → v1 | `02_合併審稿.md` | Opus 5.5／**high** | 審稿交件已 Push | v1、審稿整合紀錄 | — |
 | ③ 素材 | `03_素材.md` | Opus 5.5／medium | — | `05_素材/{集}_…/`、逐頁製作表 | Pull（Canva 從 GitHub 讀素材） |
 | ④ Canva 中文 | `04_Canva中文.md` | Sonnet 5.5／medium | 學校帳號 Make a copy **上一集** → 改名「{集} {集名}」→ 分享給 kimjoo2104 | 排好頁、`{EP}_Canva媒體ID.json` | 手工收尾（`每集製作SOP.md` 第六節） |
-| ⑤ 英文稿 v0 | `05_英文稿v0.md` | Opus 5.5／medium | 中文定稿（v1／v2）在 | `_英文版/EN{nn}-…-v0.md`、每頁文字表、英文概念圖 | `外包任務書/04_英文審稿.md`＋v0＋中文定稿丟給 Gemini；交件後 Push |
+| ⑤ 英文稿 v0 | `05_英文稿v0.md` | Opus 5.5／medium | 中文定稿（v1／v2）在 | `_英文版/EN{nn}-…-v0.md`、每頁文字表、英文概念圖 | `外包任務書/04_英文審稿.md`＋v0＋中文定稿丟給 Gemini；在 Antigravity 做會自己 push |
 | ⑥ 合併英文審稿 → v1 | `06_合併英文審稿.md` | Sonnet 5.5／medium | Gemini 交件已 Push | v1、CSV 重出；Canva 已有字就順手換字 | — |
 | ⑦ Canva 英文 | `07_Canva英文.md` | Sonnet 5.5／medium | **中文 Canva 收尾完成後**，學校帳號複製**同一集**中文設計 → 原名前加 `EN{nn}` （例 `EN01 A-11 阿努塔`）→ 放「萬國星空 EN」資料夾 → 分享 | 英文字放好、概念圖換好、舊頁移到最後 | 刪尾頁、每頁秒數、轉場、音樂、美編 |
 | 雜務 | `08_雜務.md` | Sonnet 5.5／low | 寫清楚要改什麼 | 節目表、CSV、文件 | — |
@@ -46,7 +46,7 @@
 3. **省用量**：只讀需要的段落；逐字稿不要整份貼進對話；Canva 大型讀取存成檔案後用 python 解析；該看的圖一次看完，不反覆看。python 用 `/usr/bin/python3`；跑超過一分鐘的腳本用 `setsid nohup … > log 2>&1 < /dev/null & disown` 背景跑。  
 4. **Canva**：卡片上寫「直接存檔」，就在縮圖檢查過後自己 commit transaction；寫「先預覽」才等 Kim 在對話裡說「存檔」。用量不夠做完一個 transaction 就不要開（做一半存不了，下次要重讀整份設計）。連接器的脾氣見 `../每集製作SOP.md` 第五節。  
 5. **節目表與進度板**：每張卡結束時更新該集的狀態欄。中文：`06_發布月曆/節目表_萬國星空_全年.csv`「狀態」；英文：`節目表_萬國星空_英文版.csv`「英文稿」「英文 Canva」。兩份都是 BOM＋LF，用 python 改。然後跑 `/usr/bin/python3 02_製作流程SOP/進度.py`，把 `06_發布月曆/進度板.md` 一起 commit。  
-6. **外部交件**：Gemini／Antigravity 的檔在 `04_腳本庫/_審稿/`，由 Antigravity 或 Kim 推上 GitHub（`../外包任務書/README.md`「交件後的同步」），Claude 從 repo 讀。repo 裡沒看到就提醒 Kim Push；真的急可以用 Google Drive 連接器讀同一個路徑，合併後仍以 repo 為準。  
+6. **外部交件**：Gemini／Antigravity 的檔在 `04_腳本庫/_審稿/`。Antigravity 交件後會自己 push 到 main，不用交代；Claude 先 `git pull` 再從 repo 讀。還是沒有才提醒 Kim（Gemini 網頁版做的交件要 Kim 自己推，見 `../外包任務書/README.md`「交件後的同步」）；真的急可以用 Google Drive 連接器讀同一個路徑，合併後仍以 repo 為準。  
 7. **回報格式**（對話最後一則訊息，Kim 只看這則；裡面不出現「請確認」）：  
    - 做了什麼（3 行內）  
    - 改了哪些檔／哪個 Canva 設計（附 PR 連結）  
@@ -63,7 +63,7 @@
 | `../外包任務書/02_審稿Critic.md` | Antigravity，4 個 agent | 整份＋v0，每個 agent 指定一個角色 | `_審稿/{集}_審稿-{角色}_antigravity.md` ×4 |
 | `../外包任務書/04_英文審稿.md` | Gemini | 整份＋英文稿 v0＋中文定稿 | `_審稿/EN{nn}_審稿_gemini.md` |
 
-交件進資料夾後推上 GitHub，再開卡 02 或 06。一次一集。送審可以整個交給 Antigravity 的 `/schedule` 每天自動做（用 Credit，不吃 Claude Usage）：見 `../外包任務書/README.md`「自動送審」。Antigravity 的對話第一行寫「【A-22 考據】」「【A-22 審稿-天文】」「【EN03 英文審稿】」，側欄才分得出來。
+Antigravity 交件後會自己 push，再開卡 02 或 06。一次一集。送審可以整個交給 Antigravity 的 `/schedule` 每天自動做（用 Credit，不吃 Claude Usage）：見 `../外包任務書/README.md`「自動送審」。Antigravity 的對話第一行寫「【A-22 考據】」「【A-22 審稿-天文】」「【EN03 英文審稿】」，側欄才分得出來。
 
 ## 五、推進協定（Kim 看 Usage，「調度」對話開卡）
 
