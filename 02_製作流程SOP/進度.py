@@ -98,8 +98,12 @@ def zh_row(ep, title, date_s, status):
         need = []
         if not kao:
             need.append("考據：`01_網路考據.md`＋v0 → Gemini")
-        if n == 0:
+        missing = [r for r in ("天文", "文化", "敘事", "語言")
+                   if not glob.glob(P("04_腳本庫", "_審稿", f"{ep}_審稿-{r}_*.md"))]
+        if len(missing) == 4:
             need.append("四角色：`02_審稿Critic.md`＋v0 → Antigravity ×4")
+        elif missing:
+            need.append("還差審稿角色 " + "、".join(missing) + "（`02_審稿Critic.md`，只貼那個角色）")
         if need:
             step, nxt = "②③", "送審：" + "；".join(need) + "；Antigravity 交件後自動 push"
         else:
