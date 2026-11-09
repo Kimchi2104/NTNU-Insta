@@ -58,6 +58,15 @@ git checkout main && git pull --ff-only origin main
 
 GitHub Desktop 的「Current Branch」也要是 main。推到別的分支的交件，要開 PR 併進 main 才算交件。
 
+如果 Antigravity 回說「這是 secondary worktree，main 已在主工作目錄被 checkout」，表示它開的是 `/teamwork-preview` 留下的副工作目錄，不是主資料夾。修法：在 Antigravity 用 Open Folder 改開主資料夾 `NTNU Insta`（分支就是 main），然後叫它跑：
+
+```bash
+git worktree list                                   # 看副工作目錄的路徑
+git worktree remove --force <副工作目錄路徑>
+git branch -D browser_teamwork_preview_boost
+git push origin --delete browser_teamwork_preview_boost
+```
+
 只有**不是在 Antigravity 裡做**的交件（例如 Gemini 網頁版的深度研究）才要你自己推：GitHub Desktop 先 Fetch→Pull，再勾選**只有** `04_腳本庫/_審稿/` 裡的新檔 Commit→Push。不要用「全部勾選」：11/08 就是這樣把 Antigravity 的 `.agents/` 工作檔、測試文件、16 MB 的曆表、以及它重建出來的舊版逐字稿一起推上去了。
 
 推不上去時，跟 Claude 說「交件在 Drive，還沒 Push」，Claude 會用 Google Drive 連接器讀。
