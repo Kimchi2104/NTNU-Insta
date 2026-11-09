@@ -24,7 +24,7 @@
 要做：
 - read-design 開 transaction（大型輸出會存成檔案，用 python 解析）；對照 Page sequence 表決定每頁去留
 - 英文概念圖 upload-asset-from-url（commit SHA 的 raw 連結）→ 該頁 update_fill＋crop_media 0/0/1032/1032
-- 封面照版型第四節；內容頁 add_text＋format_text（字卡 72 px 粗體、字幕 44 px、窄框 38–40 px，座標照放置規格第四節）；中譯標籤 replace_text 成英文（＋resize_element、position_element 對回星點）；下集見、追蹤我們改英文；每頁備註改英文（EN{nn} p{原頁號} 頁名 — 到下一頁幾秒 — 這頁的文字）
+- 封面照版型第四節，文字＝英文節目表該列的「英文標題」＋「英文鉤子」；內容頁 add_text＋format_text（字卡 72 px 粗體、字幕 44 px、窄框 38–40 px，座標照放置規格第四節）；中譯標籤 replace_text 成英文（＋resize_element、position_element 對回星點）；「下集見」＝英文節目表**下一列**（EN{nn+1}）的英文標題＋鉤子，追蹤我們改英文，參考文獻保留——這三頁不用問，直接改，改了什麼寫進回報；每頁備註改英文（EN{nn} p{原頁號} 頁名 — 到下一頁幾秒 — 這頁的文字）
 - 不用的頁全部 reorder_page 到最後一張保留頁之後；再用 design_content 讀回頁序（presenter_notes 在 transaction 裡可能是舊的，不能拿來比）
 - 每頁縮圖看一次：字沒出框、沒壓到標籤與主角星；會壓到就改窄框或移位置，不改字
 - 媒體ID.json 加 en 區塊（design_id、design_title、commit、concept 的媒體 ID）；英文稿 Page sequence 表加 Now 欄（移頁後的頁號）並重跑 gen_en_pages.py
