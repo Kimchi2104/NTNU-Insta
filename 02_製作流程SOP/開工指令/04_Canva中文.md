@@ -22,7 +22,8 @@
 4. 上一集的 {EP}_Canva媒體ID.json（格式）；02_製作流程SOP/Canva逐頁文字放置規格.md（字卡、字幕怎麼放）
 
 要做：
-- read-design 開 transaction，讀 page_metadata＋presenter_notes；保留「下集見」「追蹤我們」「參考文獻」，其餘舊頁最後集中移到最後
+- read-design 開 transaction，讀 page_metadata＋presenter_notes；保留「下集見」「追蹤我們」「參考文獻」三頁（內容照下一條改），其餘舊頁最後集中移到最後
+- 封面與「下集見」不用問，直接改：開場字卡（封面）＝本集統一開頭句（逐字稿第一鏡「同一片星空，…」）＋全年節目表該列的「標題（工作名）」；「下集見」＝全年節目表**發布日的下一列**的標題＋鉤子（例 A-16 的下集見寫 A-17「黑腳族：留在天上的六個孩子」），北天星盤三層照 每集製作SOP 第二節 5 最後一條；追蹤我們、參考文獻原樣保留。改了什麼寫進回報就好
 - 素材 upload-asset-from-url：commit SHA 的 raw 連結（中文路徑要 percent-encode），媒體 ID 寫進 05_素材/{集}_…/_v4大畫布/{EP}_Canva媒體ID.json
 - 每頁 ops 照 canva_ops.py：背景 → 天空層 → 山 → 標籤 → 概念圖框 → 概念圖 → 備註；字卡與字幕照放置規格用 add_text＋format_text 放素字（位置照版型 A／B，不做美編）
 - 連接器脾氣：山 insert_fill 後 crop_media 回 0/0/1939.08×300.56；update_fill 後 crop_media 寬高都給；add_text 後用回傳的 locator 送 format_text
