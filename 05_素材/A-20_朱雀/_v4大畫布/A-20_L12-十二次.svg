@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-180.00 -281.77 360.00 563.55" width="360.00" height="563.55">
+<title>A-20 大畫布</title>
+<g fill="#FF6B6B" fill-opacity="0.100" stroke="none">
+<path d="M 5.64 44.00 L -20.07 44.00 L -20.07 -44.00 L 5.64 -44.00 Z"/>
+</g>
+<g fill="none" stroke="#FF6B6B" stroke-width="0.140" stroke-opacity="0.550" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6">
+<path d="M 5.64 44.00 L 5.64 -44.00"/>
+</g>
+<g fill="none" stroke="#FF6B6B" stroke-width="0.140" stroke-opacity="0.550" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6">
+<path d="M -20.07 44.00 L -20.07 -44.00"/>
+</g>
+<g fill="#FF6B6B" fill-opacity="0.240" stroke="none">
+<path d="M -20.07 44.00 L -47.04 44.00 L -47.04 -44.00 L -20.07 -44.00 Z"/>
+</g>
+<g fill="none" stroke="#FF6B6B" stroke-width="0.140" stroke-opacity="0.550" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6">
+<path d="M -20.07 44.00 L -20.07 -44.00"/>
+</g>
+<g fill="none" stroke="#FF6B6B" stroke-width="0.140" stroke-opacity="0.550" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6">
+<path d="M -47.04 44.00 L -47.04 -44.00"/>
+</g>
+<g fill="#FF6B6B" fill-opacity="0.100" stroke="none">
+<path d="M -47.04 44.00 L -79.18 44.00 L -79.18 -44.00 L -47.04 -44.00 Z"/>
+</g>
+<g fill="none" stroke="#FF6B6B" stroke-width="0.140" stroke-opacity="0.550" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6">
+<path d="M -47.04 44.00 L -47.04 -44.00"/>
+</g>
+<g fill="none" stroke="#FF6B6B" stroke-width="0.140" stroke-opacity="0.550" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.8 0.6">
+<path d="M -79.18 44.00 L -79.18 -44.00"/>
+</g>
+</svg>
