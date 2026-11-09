@@ -101,7 +101,7 @@ def zh_row(ep, title, date_s, status):
         if n == 0:
             need.append("四角色：`02_審稿Critic.md`＋v0 → Antigravity ×4")
         if need:
-            step, nxt = "②③", "送審：" + "；".join(need) + "；交回後 push"
+            step, nxt = "②③", "送審：" + "；".join(need) + "；Antigravity 交件後自動 push"
         else:
             step, nxt = "⑤", f"卡 02｜Opus high｜`集號：{ep}`"
     elif not ad:
@@ -133,7 +133,7 @@ def en_row(en, zh, date_s, note, zh_rows):
     else:
         todo = []
         if not rev:
-            todo.append("Ⓑ 送 Gemini：`04_英文審稿.md`＋EN v0＋中文定稿 → push")
+            todo.append("Ⓑ 送 Gemini：`04_英文審稿.md`＋EN v0＋中文定稿（Antigravity 做會自動 push）")
         elif v == 0:
             todo.append(f"Ⓕ 卡 06｜Sonnet medium｜`英文集號：{en}`")
         if not encanva:
@@ -178,7 +178,7 @@ def md(zh, en):
     for r in claude[:2]:
         out.append(f"- **下一個 Claude 對話**：{r['ep']} {r['short']}（{r['date_s']}）→ {r['nxt']}")
     if send:
-        out.append("- **送審**：" + "、".join(f"{r['ep']}（{r['step']}）" for r in send[:4]) + " → 照 `外包任務書/README.md`，交回後 push")
+        out.append("- **送審**：" + "、".join(f"{r['ep']}（{r['step']}）" for r in send[:4]) + " → 照 `外包任務書/README.md`，Antigravity 交件後自動 push")
     if human:
         out.append("- **你收尾／發布**：" + "、".join(f"{r['ep']}（{r['date_s']}）" for r in human[:6]))
     en_now = [r for r in en if r["started"] and r["step"] not in ("Ⓖ",)]
