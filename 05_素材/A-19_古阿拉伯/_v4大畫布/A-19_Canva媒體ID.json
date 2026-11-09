@@ -1,0 +1,36 @@
+{
+  "design_id": "DAHWtAeRIgo",
+  "design_title": "A-19 古阿拉伯",
+  "commit": "0636c3869f13623f0c9fafa082b2b92f4b7333df",
+  "layers": {
+    "L1-銀河": "MAHacjZ9zHQ",
+    "L10-主角星白點": "MAHacj9kaTw",
+    "L2-星點": "MAHactuHHIc",
+    "L3-經緯線": "MAHact4vJgQ",
+    "L5-連線-動物園": "MAHacgQHROA",
+    "L6-連線-獅子": "MAHacofVYJ8",
+    "L7-連線-三跳": "MAHacnHc02I",
+    "L8-連線-鴕鳥一家": "MAHacsvN4d0",
+    "L9-連線-夏天的鴕鳥": "MAHach-ofU4",
+    "南盤L1-銀河": "MAHacvyIxTM",
+    "南盤L10-主角星白點": "MAHacihiwpo",
+    "南盤L2-星點": "MAHachic-eI",
+    "南盤L3-經緯線": "MAHacmt1Pb8"
+  },
+  "mountain": "MAD4KTwSGtw",
+  "background": "MAHWs5D_MpY",
+  "concept": {
+    "C-A19-01_兩層阿拉伯星空_今日層_透明.png": "MAHacpescLI",
+    "C-A19-01_兩層阿拉伯星空_古詩層_透明.png": "MAHaciGf7Pg",
+    "C-A19-02_抄錯一個字母_原字層_透明.png": "MAHacridzD4",
+    "C-A19-02_抄錯一個字母_抄錯層_透明.png": "MAHacqOiOHc",
+    "C-A19-03_看得到Suhail的地方_城市層_透明.png": "MAHaclRlHk8",
+    "C-A19-03_看得到Suhail的地方_緯度層_透明.png": "MAHacuc3hus",
+    "C-A19-04_擋路的Suhail_商道層_透明.png": "MAHacrgxCIc",
+    "C-A19-04_擋路的Suhail_星星層_透明.png": "MAHacklhnNw",
+    "C-A19-05_310光年_南極老人層_透明.png": "MAHacutkKFA",
+    "C-A19-05_310光年_距離層_透明.png": "MAHacsXgNmk",
+    "C-A19-06_這週末抬頭看_圖卡.png": "MAHacrgV7C4"
+  },
+  "concept_commit": "0636c3869f13623f0c9fafa082b2b92f4b7333df"
+}
