@@ -34,7 +34,7 @@ Claude 合併考據與審稿意見 → 逐字稿 v1（已查核）→ 星圖素�
 
 ```
 【自動送審】每天一次，一次只做一集。
-1. 終端機：git pull --ff-only origin main
+1. 終端機：git checkout main && git pull --ff-only origin main
 2. 讀 06_發布月曆/進度板.md「現在先做」裡的「送審」那一行，取第一個集號（例 A-22）。沒有就跳到第 5 步。
 3. 照 02_製作流程SOP/外包任務書/01_網路考據.md 做那一集的考據，寫到 04_腳本庫/_審稿/{集號}_考據_gemini.md。
 4. 照 02_審稿Critic.md 做四個角色，各寫一個檔；每個角色從頭讀逐字稿、不要看自己前一個角色寫的東西。
@@ -47,7 +47,16 @@ Claude 合併考據與審稿意見 → 逐字稿 v1（已查核）→ 星圖素�
 
 ## 交件後的同步
 
-**Antigravity 交件後會自己 push 到 main，不用另外交代。** Claude 從 repo 讀。它只該加 `04_腳本庫/_審稿/`；它自己產生的工作檔（`.agents/`、曆表）已在 `.gitignore`。
+**Antigravity 交件後會自己 push，不用另外交代。** Claude 從 repo 讀。它只該加 `04_腳本庫/_審稿/`；它自己產生的工作檔（`.agents/`、曆表）已在 `.gitignore`。
+
+**但它的工作目錄必須停在 `main` 分支。** 11/10 發現它一直推到 `browser_teamwork_preview_boost`（以前 `/teamwork-preview` 留下的分支），A-22～A-24 的交件在那裡躺了一天，main 上的 Claude 與進度板都看不到。檢查與修正，在 Antigravity 終端機跑一次：
+
+```bash
+git branch --show-current          # 要是 main
+git checkout main && git pull --ff-only origin main
+```
+
+GitHub Desktop 的「Current Branch」也要是 main。推到別的分支的交件，要開 PR 併進 main 才算交件。
 
 只有**不是在 Antigravity 裡做**的交件（例如 Gemini 網頁版的深度研究）才要你自己推：GitHub Desktop 先 Fetch→Pull，再勾選**只有** `04_腳本庫/_審稿/` 裡的新檔 Commit→Push。不要用「全部勾選」：11/08 就是這樣把 Antigravity 的 `.agents/` 工作檔、測試文件、16 MB 的曆表、以及它重建出來的舊版逐字稿一起推上去了。
 
