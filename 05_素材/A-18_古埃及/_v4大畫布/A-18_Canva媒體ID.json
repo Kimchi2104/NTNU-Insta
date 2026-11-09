@@ -41,5 +41,203 @@
     "C-A18-09_兩千五百年_年表層_透明.png": "MAHacv_98ic",
     "C-A18-10_今晚十點半_圖卡.png": "MAHacnFqHFc"
   },
-  "concept_commit": "86e4397d5c755d547bebc35ddb76cb3585d3bfbc"
+  "concept_commit": "86e4397d5c755d547bebc35ddb76cb3585d3bfbc",
+  "pages": {
+    "1": {
+      "title": "鏡頭01開始",
+      "page_id": "PBH3c9r1g9QqVs1t"
+    },
+    "2": {
+      "title": "鏡頭01結束＝鏡頭02開始",
+      "page_id": "PBhx6KhKV0ZmcKgb"
+    },
+    "3": {
+      "title": "鏡頭02-概念圖1",
+      "page_id": "PBYMHy1sKlGsRm8d"
+    },
+    "4": {
+      "title": "鏡頭02-概念圖2",
+      "page_id": "PBT62h5ghsvVNl4V"
+    },
+    "5": {
+      "title": "鏡頭02-概念圖3",
+      "page_id": "PBg0RcWGLb0KtPCv"
+    },
+    "6": {
+      "title": "鏡頭02-概念圖收＝鏡頭03開始",
+      "page_id": "PBR8bZ84NvcbqPpT"
+    },
+    "7": {
+      "title": "鏡頭03結束",
+      "page_id": "PBvNcC5XyJN3ZMsB"
+    },
+    "8": {
+      "title": "鏡頭03-概念圖1",
+      "page_id": "PBlNKBvp6nRXSQ66"
+    },
+    "9": {
+      "title": "鏡頭03-概念圖2",
+      "page_id": "PBqNg4fq12NLFDfj"
+    },
+    "10": {
+      "title": "鏡頭03-概念圖3",
+      "page_id": "PBzgsSpSY6t75DnY"
+    },
+    "11": {
+      "title": "鏡頭03-概念圖4",
+      "page_id": "PBww55LlZ6qw9pd6"
+    },
+    "12": {
+      "title": "鏡頭03-概念圖收＝鏡頭04開始＝鏡頭05開始",
+      "page_id": "PBStVlFdL5fdg92g"
+    },
+    "13": {
+      "title": "鏡頭05結束",
+      "page_id": "PBmyGGCVHp3wBG8V"
+    },
+    "14": {
+      "title": "鏡頭05-概念圖1",
+      "page_id": "PBMjqdHG5CpL8yWG"
+    },
+    "15": {
+      "title": "鏡頭05-概念圖2",
+      "page_id": "PBcX19w8NqCfYlzj"
+    },
+    "16": {
+      "title": "鏡頭05-概念圖3",
+      "page_id": "PBQNVGQ5tq1q2Hj4"
+    },
+    "17": {
+      "title": "鏡頭05-概念圖收＝鏡頭07開始",
+      "page_id": "PB4Bvp4rY48mYtnc"
+    },
+    "18": {
+      "title": "鏡頭07-概念圖1",
+      "page_id": "PBfzY281Wr4pJD4q"
+    },
+    "19": {
+      "title": "鏡頭07-概念圖2",
+      "page_id": "PBshBcX54jQbRw05"
+    },
+    "20": {
+      "title": "鏡頭07-概念圖收＝鏡頭08開始",
+      "page_id": "PB1N2ZmDPp4XGczk"
+    },
+    "21": {
+      "title": "鏡頭08-概念圖",
+      "page_id": "PBNB65gmByFTQyr6"
+    },
+    "22": {
+      "title": "鏡頭08-概念圖收",
+      "page_id": "PBZzThv4txj29v3r"
+    },
+    "23": {
+      "title": "鏡頭10開始",
+      "page_id": "PB8ZdhRsgHWlrTkc"
+    },
+    "24": {
+      "title": "鏡頭10結束",
+      "page_id": "PBTzYqKhN3vv0ZC4"
+    },
+    "25": {
+      "title": "鏡頭10-概念圖1",
+      "page_id": "PB81FY9f4vMBJjX8"
+    },
+    "26": {
+      "title": "鏡頭10-概念圖2",
+      "page_id": "PBYTsxhcCDyTS0YL"
+    },
+    "27": {
+      "title": "鏡頭10-概念圖收",
+      "page_id": "PBznGWCkWNjmqT8v"
+    },
+    "28": {
+      "title": "長圖轉北盤1-回中心",
+      "page_id": "PBFP8rF8PL31G9W8"
+    },
+    "29": {
+      "title": "長圖轉北盤1-上移",
+      "page_id": "PBTrx9TXvLpwndnH"
+    },
+    "30": {
+      "title": "長圖轉北盤1＝鏡頭11開始",
+      "page_id": "PBpLShTxz9Hws4hj"
+    },
+    "31": {
+      "title": "鏡頭11結束＝鏡頭12開始",
+      "page_id": "PB5SWRz2XCtTCxKm"
+    },
+    "32": {
+      "title": "鏡頭12結束",
+      "page_id": "PBPDMxsSD31fV37G"
+    },
+    "33": {
+      "title": "鏡頭12-概念圖",
+      "page_id": "PBYR5nzmg8tQMzFT"
+    },
+    "34": {
+      "title": "鏡頭12-概念圖收＝鏡頭14開始",
+      "page_id": "PBPM3ZYmtQZbVfn4"
+    },
+    "35": {
+      "title": "鏡頭14-概念圖1",
+      "page_id": "PB1Z2YgxVVV1Bk1l"
+    },
+    "36": {
+      "title": "鏡頭14-概念圖2",
+      "page_id": "PBqV362gdzpyGHBJ"
+    },
+    "37": {
+      "title": "鏡頭14-概念圖收",
+      "page_id": "PBsspMkF94JXslf4"
+    },
+    "38": {
+      "title": "北盤轉長圖1-歸位",
+      "page_id": "PB7mSRYKCNcHhvKY"
+    },
+    "39": {
+      "title": "北盤轉長圖1",
+      "page_id": "PB6m2mx1NkBdJLrp"
+    },
+    "40": {
+      "title": "北盤轉長圖1-下移",
+      "page_id": "PB3CngLtlKJj0pm6"
+    },
+    "41": {
+      "title": "鏡頭15開始＝鏡頭17開始",
+      "page_id": "PBwWZDgY8Lqyh62p"
+    },
+    "42": {
+      "title": "鏡頭17-概念圖",
+      "page_id": "PBLzTMNBQjsg6l6z"
+    },
+    "43": {
+      "title": "鏡頭17-概念圖收",
+      "page_id": "PBSHzGddcP2swcHB"
+    },
+    "44": {
+      "title": "鏡頭18開始",
+      "page_id": "PBP7vlNJ11l6zqlJ"
+    },
+    "45": {
+      "title": "鏡頭18結束",
+      "page_id": "PB3FVCpBGkhlbQjd"
+    },
+    "46": {
+      "title": "鏡頭18-概念圖",
+      "page_id": "PBHkc4tFzdY77YGV"
+    },
+    "47": {
+      "title": "鏡頭18-概念圖收＝鏡頭19開始",
+      "page_id": "PBj6sGwX71xFfDRB"
+    },
+    "48": {
+      "title": "鏡頭19結束",
+      "page_id": "PBgDrcyGGsdZjj88"
+    }
+  },
+  "progress": {
+    "done_pages": 5,
+    "note": "設計 DAHWtB5e4ic 共 88 頁（舊 40＋新 48，新頁先加在最後）；新頁 1–5 已排。transaction 未 commit 前進度不算存檔。概念圖頁的山 crop_media 回 0/0/1939.08×300.56 暫未補（1px 誤差）。"
+  }
 }
