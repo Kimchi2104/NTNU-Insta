@@ -118,6 +118,11 @@ def zh_row(ep, title, date_s, status):
     hold = re.search(r"【暫緩[^】]*】", status)          # 節目表狀態欄寫【暫緩…】＝先不要照進度板開卡
     if hold:
         step, nxt = "暫緩", hold.group(0)
+    elif "【加回刪減】" in status:                       # 為了 180 秒刪過內容的集：先開卡 11
+        step, nxt = "加回", f"卡 11｜Opus high｜`集號：{ep}`"
+    elif "【Canva 待補頁】" in status:                   # 卡 11 做完、Canva 已排過：卡 04 補頁模式
+        name = f"{ep} {short}".strip()
+        step, nxt = "補頁", f"卡 04｜Sonnet medium｜`集號：{ep}　Canva 設計名：{name}　模式：補頁`"
     published = d is not None and d < TODAY          # 過了發布日就當作已播，不管節目表狀態欄有沒有更新
     return dict(ep=ep, title=title, date=d, date_s=d.strftime("%Y/%m/%d") if d else date_s[:12], v=v, kao=kao, n=n,
                 assets=bool(ad), canva=canva, step=step, nxt=nxt, short=short, published=published, status=status,
@@ -206,7 +211,7 @@ def md(zh, en):
     # 現在先做
     out.append("## 現在先做")
     out.append("")
-    claude = [r for r in active if r["step"] in ("①", "⑤", "⑥", "⑦⑧")]
+    claude = [r for r in active if r["step"] in ("①", "⑤", "⑥", "⑦⑧", "加回", "補頁")]
     send = [r for r in active if r["step"] == "②③"]
     human = [r for r in active if r["step"] == "⑨"]
     for r in claude[:2]:
