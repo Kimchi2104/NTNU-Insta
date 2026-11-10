@@ -34,7 +34,7 @@
    "L7-主角星白點",
    "L15-標籤-走失的孩子"
   ],
-  "notes": "黑腳族自稱 Niitsitapi，「真正的人」，以前住在大平原的圓錐帳篷 tipi 裡。",
+  "notes": "黑腳族自稱 Niitsitapi，「真正的人」，今天分住在加拿大的亞伯達和美國的蒙大拿。以前，他們住在大平原的圓錐帳篷 tipi 裡。",
   "trans": "Match & Move（12.0 秒）",
   "mountain_top": null
  },
@@ -189,7 +189,7 @@
    "L7-主角星白點",
    "L15-標籤-走失的孩子"
   ],
-  "notes": "最下面一圈是大地，畫著一排圓點，叫「塵土星」：據說是掉下來的流星。",
+  "notes": "最下面一圈是大地，畫著一排圓點，叫「塵土星」：草原上一夜冒出來的馬勃菇，據說是掉下來的流星。這些圖案屬於主人，是夢裡得來的，別人不能照著畫。",
   "trans": "Match & Move（畫面不動；概念圖淡出）",
   "mountain_top": null,
   "hold": true,
@@ -908,7 +908,164 @@
  },
  {
   "page": 31,
-  "title": "鏡頭10-概念圖收＝鏡頭12開始",
+  "title": "鏡頭10-概念圖收＝鏡頭11開始",
+  "group": "長圖",
+  "left": -617.62,
+  "top": -4237.5,
+  "width": 8100.0,
+  "height": 10485.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "她想家，被送回人間：是蜘蛛人吐絲，把她和兒子垂降下來。北冕座那半圈星，就是蜘蛛人的帳篷；武仙座的五顆亮星，是他吐絲的手指。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭11-概念圖1",
+  "group": "長圖",
+  "left": -617.62,
+  "top": -4237.5,
+  "width": 8100.0,
+  "height": 10485.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-06_蜘蛛人的帳篷_帳篷層_透明.png",
+    "left": 24,
+    "top": 478.95,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 471.140350877193,
+   "width": 1032,
+   "height": 977.719298245614,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 33,
+  "title": "鏡頭11-概念圖2",
+  "group": "長圖",
+  "left": -617.62,
+  "top": -4237.5,
+  "width": 8100.0,
+  "height": 10485.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-06_蜘蛛人的帳篷_帳篷層_透明.png",
+    "left": 24,
+    "top": 478.95,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-06_蜘蛛人的帳篷_手指層_透明.png",
+    "left": 24,
+    "top": 478.95,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 471.140350877193,
+   "width": 1032,
+   "height": 977.719298245614,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 34,
+  "title": "鏡頭11-概念圖3",
+  "group": "長圖",
+  "left": -617.62,
+  "top": -4237.5,
+  "width": 8100.0,
+  "height": 10485.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-06_蜘蛛人的帳篷_帳篷層_透明.png",
+    "left": 24,
+    "top": 478.95,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-06_蜘蛛人的帳篷_手指層_透明.png",
+    "left": 24,
+    "top": 478.95,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-06_蜘蛛人的帳篷_垂降層_透明.png",
+    "left": 24,
+    "top": 478.95,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 471.140350877193,
+   "width": 1032,
+   "height": 977.719298245614,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 35,
+  "title": "鏡頭11-概念圖收＝鏡頭12開始",
   "group": "長圖",
   "left": -617.62,
   "top": -4237.5,
@@ -930,8 +1087,163 @@
   "panel": null
  },
  {
-  "page": 32,
-  "title": "鏡頭12結束＝鏡頭14開始",
+  "page": 36,
+  "title": "鏡頭12結束＝鏡頭13開始",
+  "group": "長圖",
+  "left": -880.2,
+  "top": -7068.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點",
+   "L14-標籤-疤臉"
+  ],
+  "notes": "一九〇五年七月，老人家講完這些故事；天亮前，那位作者爬上山丘，看見東方兩顆亮星——晨星和他的兒子。我們算過，那個月金星和木星真的在清晨並排，木星先上來。",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 37,
+  "title": "鏡頭13-概念圖1",
+  "group": "長圖",
+  "left": -880.2,
+  "top": -7068.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-07_1905年的兩顆晨星_木星層_透明.png",
+    "left": 24,
+    "top": 491.53,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 484.2163742690059,
+   "width": 1032,
+   "height": 951.5672514619882,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 38,
+  "title": "鏡頭13-概念圖2",
+  "group": "長圖",
+  "left": -880.2,
+  "top": -7068.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-07_1905年的兩顆晨星_木星層_透明.png",
+    "left": 24,
+    "top": 491.53,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-07_1905年的兩顆晨星_金星層_透明.png",
+    "left": 24,
+    "top": 491.53,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 484.2163742690059,
+   "width": 1032,
+   "height": 951.5672514619882,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 39,
+  "title": "鏡頭13-概念圖3",
+  "group": "長圖",
+  "left": -880.2,
+  "top": -7068.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-07_1905年的兩顆晨星_木星層_透明.png",
+    "left": 24,
+    "top": 491.53,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-07_1905年的兩顆晨星_金星層_透明.png",
+    "left": 24,
+    "top": 491.53,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-07_1905年的兩顆晨星_太陽層_透明.png",
+    "left": 24,
+    "top": 491.53,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 484.2163742690059,
+   "width": 1032,
+   "height": 951.5672514619882,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 40,
+  "title": "鏡頭13-概念圖收＝鏡頭14開始",
   "group": "長圖",
   "left": -880.2,
   "top": -7068.0,
@@ -946,11 +1258,14 @@
    "L15-標籤-走失的孩子"
   ],
   "notes": "再來是昴宿：「走失的孩子」。春天獵到野牛，小牛皮是黃的，孩子們都披著黃色小牛皮玩；只有一家六個窮孩子沒有，被大家笑是「長癬的老公牛」。",
-  "trans": "Match & Move（11.0 秒）",
-  "mountain_top": null
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
  },
  {
-  "page": 33,
+  "page": 41,
   "title": "鏡頭14結束＝鏡頭15開始",
   "group": "長圖",
   "left": -4144.68,
@@ -970,7 +1285,7 @@
   "mountain_top": null
  },
  {
-  "page": 34,
+  "page": 42,
   "title": "鏡頭15結束",
   "group": "長圖",
   "left": -3928.68,
@@ -990,7 +1305,7 @@
   "mountain_top": null
  },
  {
-  "page": 35,
+  "page": 43,
   "title": "鏡頭15-概念圖1",
   "group": "長圖",
   "left": -3928.68,
@@ -1028,7 +1343,7 @@
   }
  },
  {
-  "page": 36,
+  "page": 44,
   "title": "鏡頭15-概念圖2",
   "group": "長圖",
   "left": -3928.68,
@@ -1073,8 +1388,166 @@
   }
  },
  {
-  "page": 37,
-  "title": "鏡頭15-概念圖收＝鏡頭17開始",
+  "page": 45,
+  "title": "鏡頭15-概念圖收＝鏡頭16開始",
+  "group": "長圖",
+  "left": -3928.68,
+  "top": -6780.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點",
+   "L15-標籤-走失的孩子"
+  ],
+  "notes": "另一個版本裡，孩子們求太陽和月亮拿走地上的水。是狗挖出了泉水，又對著天空嚎叫求情，第八天才下雨——所以狗會對著月亮叫，族人也特別敬重狗。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 46,
+  "title": "鏡頭16-概念圖1",
+  "group": "長圖",
+  "left": -3928.68,
+  "top": -6780.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-08_是狗求來了雨_泉水層_透明.png",
+    "left": 24,
+    "top": 483.98,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 476.67251461988303,
+   "width": 1032,
+   "height": 966.6549707602339,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 47,
+  "title": "鏡頭16-概念圖2",
+  "group": "長圖",
+  "left": -3928.68,
+  "top": -6780.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-08_是狗求來了雨_泉水層_透明.png",
+    "left": 24,
+    "top": 483.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-08_是狗求來了雨_月亮層_透明.png",
+    "left": 24,
+    "top": 483.98,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 476.67251461988303,
+   "width": 1032,
+   "height": 966.6549707602339,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 48,
+  "title": "鏡頭16-概念圖3",
+  "group": "長圖",
+  "left": -3928.68,
+  "top": -6780.0,
+  "width": 12960.0,
+  "height": 16776.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A17-08_是狗求來了雨_泉水層_透明.png",
+    "left": 24,
+    "top": 483.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-08_是狗求來了雨_月亮層_透明.png",
+    "left": 24,
+    "top": 483.98,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A17-08_是狗求來了雨_雨層_透明.png",
+    "left": 24,
+    "top": 483.98,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 476.67251461988303,
+   "width": 1032,
+   "height": 966.6549707602339,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 49,
+  "title": "鏡頭16-概念圖收＝鏡頭17開始",
   "group": "長圖",
   "left": -3928.68,
   "top": -6780.0,
@@ -1096,7 +1569,7 @@
   "panel": null
  },
  {
-  "page": 38,
+  "page": 50,
   "title": "鏡頭17結束＝鏡頭18開始",
   "group": "長圖",
   "left": -1792.8,
@@ -1116,7 +1589,7 @@
   "mountain_top": null
  },
  {
-  "page": 39,
+  "page": 51,
   "title": "鏡頭18-概念圖",
   "group": "長圖",
   "left": -1792.8,
@@ -1146,7 +1619,7 @@
   "panel": null
  },
  {
-  "page": 40,
+  "page": 52,
   "title": "鏡頭18-概念圖收",
   "group": "長圖",
   "left": -1792.8,
@@ -1169,7 +1642,7 @@
   "panel": null
  },
  {
-  "page": 41,
+  "page": 53,
   "title": "長圖轉北盤2-回中心",
   "group": "長圖",
   "left": -3510.0,
@@ -1188,7 +1661,7 @@
   "mountain_top": null
  },
  {
-  "page": 42,
+  "page": 54,
   "title": "長圖轉北盤2-上移",
   "group": "長圖",
   "left": -3510.0,
@@ -1207,7 +1680,7 @@
   "mountain_top": null
  },
  {
-  "page": 43,
+  "page": 55,
   "title": "長圖轉北盤2",
   "group": "北盤",
   "left": -2289.85,
@@ -1227,7 +1700,7 @@
   "mountain_top": null
  },
  {
-  "page": 44,
+  "page": 56,
   "title": "鏡頭19開始",
   "group": "北盤",
   "left": -2289.85,
@@ -1247,7 +1720,7 @@
   "mountain_top": null
  },
  {
-  "page": 45,
+  "page": 57,
   "title": "鏡頭19結束",
   "group": "北盤",
   "left": -1693.82,
