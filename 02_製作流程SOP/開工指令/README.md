@@ -90,3 +90,11 @@ Kim 自己看 Usage 夠不夠。夠了就在**「調度」對話**（Sonnet 5.5�
 - 開新對話前看剩餘用量：一張卡要一口氣做完，不夠整張就不要開。卡 04 一集大約是一個 Sonnet 對話的量。  
 - 卡 01、02 是 Opus high，最貴；一天的用量大約做一張。卡 04、07 是 Sonnet medium，用量主要花在工具呼叫，不在思考。  
 - 做完一集，把實際開了幾個對話、各用哪個模型記在節目表備註欄（卡 08），兩三集後回頭修 `../Claude模型與用量指南.md` 的「大概要幾段」。
+
+## 授權 License
+
+- 程式碼（`*.py` 等腳本）：MIT License，見 `LICENSE`。
+- 逐字稿、圖卡、流程文件等原創內容：CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。
+- `07_資料來源/` 內的第三方資料（Stellarium sky cultures、原書全文等）不在上述授權範圍內，著作權屬原作者，依其原授權使用。
+
+Code is MIT licensed. Original scripts, diagrams and guides are CC BY 4.0. Third-party material in `07_資料來源/` keeps its original licence.
