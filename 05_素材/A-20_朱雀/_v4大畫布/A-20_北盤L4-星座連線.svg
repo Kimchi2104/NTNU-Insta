@@ -68,6 +68,10 @@
 <path d="M -144.36 62.68 L -144.74 63.05 L -145.11 63.43 L -145.48 63.80 L -145.85 64.18 L -146.22 64.56 L -146.59 64.95"/>
 </g>
 <g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -24.19 129.10 L -25.51 129.42 L -26.83 129.74 L -28.17 130.03 L -29.51 130.32 L -30.86 130.59 L -32.23 130.84 L -33.60 131.08 L -34.98 131.30"/>
+<path d="M -34.98 131.30 L -35.30 130.30 L -35.60 129.30 L -35.90 128.30 L -36.19 127.31 L -36.47 126.31 L -36.74 125.31"/>
+</g>
+<g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
 <path d="M -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68"/>
 </g>
 <g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
@@ -199,10 +203,6 @@
 </g>
 <g fill="none" stroke="#FFFFFF" stroke-width="0.180" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
 <path d="M -24.47 94.89 L -24.47 94.89"/>
-</g>
-<g fill="none" stroke="#FFFFFF" stroke-width="0.180" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
-<path d="M -24.19 129.10 L -25.51 129.42 L -26.83 129.74 L -28.17 130.03 L -29.51 130.32 L -30.86 130.59 L -32.23 130.84 L -33.60 131.08 L -34.98 131.30"/>
-<path d="M -34.98 131.30 L -35.30 130.30 L -35.60 129.30 L -35.90 128.30 L -36.19 127.31 L -36.47 126.31 L -36.74 125.31"/>
 </g>
 <g fill="none" stroke="#FFFFFF" stroke-width="0.180" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
 <path d="M -10.38 89.53 L -11.08 89.79 L -11.79 90.04 L -12.50 90.30 L -13.21 90.55 L -13.92 90.79 L -14.64 91.03"/>

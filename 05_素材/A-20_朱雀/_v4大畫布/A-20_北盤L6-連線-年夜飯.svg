@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-174.68 -174.68 349.36 349.36" width="349.36" height="349.36">
 <title>A-20 盤｜盤寬 = 大畫布寬 × 0.970457（R_fill=174.682，盤緣圈半徑 = 大畫布寬 × 0.159155）</title>
 <g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -24.19 129.10 L -25.51 129.42 L -26.83 129.74 L -28.17 130.03 L -29.51 130.32 L -30.86 130.59 L -32.23 130.84 L -33.60 131.08 L -34.98 131.30"/>
+<path d="M -34.98 131.30 L -35.30 130.30 L -35.60 129.30 L -35.90 128.30 L -36.19 127.31 L -36.47 126.31 L -36.74 125.31"/>
+</g>
+<g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
 <path d="M -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68 L -0.18 91.68"/>
 </g>
 <g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">

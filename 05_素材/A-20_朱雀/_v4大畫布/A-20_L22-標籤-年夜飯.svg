@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-09T18:31:23.917300</dc:date>
+    <dc:date>2026-11-10T07:57:38.352711</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p162dacfe9a)">
+    <g clip-path="url(#p7bb377555c)">
      <!-- 柳宿：廚師 -->
      <g style="fill: #ffc94a" transform="translate(406.173706 731.954588) scale(0.06188 -0.06188)">
       <defs>
@@ -389,7 +389,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p162dacfe9a)">
+    <g clip-path="url(#p7bb377555c)">
      <!-- 張宿：廚房 -->
      <g style="fill: #ffc94a" transform="translate(366.397733 787.371941) scale(0.06188 -0.06188)">
       <defs>
@@ -544,7 +544,55 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p162dacfe9a)">
+    <g clip-path="url(#p7bb377555c)">
+     <!-- 外廚 -->
+     <g style="fill: #ffc94a" transform="translate(425.522167 755.470427) scale(0.06188 -0.06188)">
+      <defs>
+       <path id="NotoSerifCJKjp-Regular-36ce" d="M 1715 5325 
+C 1453 3917 883 2675 211 1888 
+L 301 1818 
+C 672 2125 1005 2522 1293 2982 
+C 1574 2733 1869 2387 1965 2093 
+C 2406 1818 2688 2669 1376 3130 
+C 1542 3418 1696 3731 1824 4070 
+L 2931 4070 
+C 2637 2253 1875 595 243 -397 
+L 320 -486 
+C 2330 480 3040 2189 3379 4006 
+C 3526 4013 3584 4038 3635 4090 
+L 3155 4531 
+L 2899 4262 
+L 1901 4262 
+C 1984 4499 2061 4749 2131 5011 
+C 2278 5011 2355 5075 2381 5152 
+L 1715 5325 
+z
+M 3616 3853 
+L 3507 3802 
+C 3699 3213 3974 2694 4320 2266 
+L 4320 -499 
+L 4403 -499 
+C 4557 -499 4736 -403 4736 -346 
+L 4736 1824 
+C 5075 1523 5459 1280 5901 1101 
+C 5952 1299 6099 1427 6266 1459 
+L 6278 1530 
+C 5709 1690 5184 1971 4736 2349 
+L 4736 5024 
+C 4902 5050 4947 5114 4966 5203 
+L 4320 5280 
+L 4320 2752 
+C 4026 3078 3782 3450 3616 3853 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#NotoSerifCJKjp-Regular-36ce"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-42b7" transform="translate(100 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="text_4">
+    <g clip-path="url(#p7bb377555c)">
      <!-- 積薪 -->
      <g style="fill: #ffc94a" transform="translate(461.521552 664.766905) scale(0.06188 -0.06188)">
       <defs>
@@ -763,8 +811,8 @@ z
      </g>
     </g>
    </g>
-   <g id="text_4">
-    <g clip-path="url(#p162dacfe9a)">
+   <g id="text_5">
+    <g clip-path="url(#p7bb377555c)">
      <!-- 酒旗 -->
      <g style="fill: #ffc94a" transform="translate(379.45009 705.166908) scale(0.06188 -0.06188)">
       <defs>
@@ -969,8 +1017,8 @@ z
      </g>
     </g>
    </g>
-   <g id="text_5">
-    <g clip-path="url(#p162dacfe9a)">
+   <g id="text_6">
+    <g clip-path="url(#p7bb377555c)">
      <!-- 天樽 -->
      <g style="fill: #ffc94a" transform="translate(472.642319 681.01277) scale(0.06188 -0.06188)">
       <defs>
@@ -1141,8 +1189,8 @@ z
      </g>
     </g>
    </g>
-   <g id="text_6">
-    <g clip-path="url(#p162dacfe9a)">
+   <g id="text_7">
+    <g clip-path="url(#p7bb377555c)">
      <!-- 鬼宿：祭祀 -->
      <g style="fill: #ffc94a" transform="translate(436.6261 677.399222) scale(0.06188 -0.06188)">
       <defs>
@@ -1384,7 +1432,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p162dacfe9a">
+  <clipPath id="p7bb377555c">
    <rect x="0" y="0" width="936" height="1465.219341"/>
   </clipPath>
  </defs>
