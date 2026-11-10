@@ -115,6 +115,9 @@ def zh_row(ep, title, date_s, status):
         step, nxt = "⑦⑧", f"你：複製上一集中文設計 → 「{name}」；卡 04｜Sonnet medium｜`集號：{ep}　Canva 設計名：{name}`"
     else:
         step, nxt = "⑨", "收尾、發布（手工）"
+    hold = re.search(r"【暫緩[^】]*】", status)          # 節目表狀態欄寫【暫緩…】＝先不要照進度板開卡
+    if hold:
+        step, nxt = "暫緩", hold.group(0)
     published = d is not None and d < TODAY          # 過了發布日就當作已播，不管節目表狀態欄有沒有更新
     return dict(ep=ep, title=title, date=d, date_s=d.strftime("%Y/%m/%d") if d else date_s[:12], v=v, kao=kao, n=n,
                 assets=bool(ad), canva=canva, step=step, nxt=nxt, short=short, published=published, status=status,
@@ -208,6 +211,8 @@ def md(zh, en):
     human = [r for r in active if r["step"] == "⑨"]
     for r in claude[:2]:
         out.append(f"- **下一個 Claude 對話**：{r['ep']} {r['short']}（{r['date_s']}）→ {r['nxt']}")
+    for r in [r for r in active if r["step"] == "暫緩"]:
+        out.append(f"- **暫緩（不要開卡）**：{r['ep']} {r['short']} → {r['nxt']}")
     if send:
         out.append("- **送審**：" + "、".join(f"{r['ep']}（{r['step']}）" for r in send[:4]) + " → 照 `外包任務書/README.md`，Antigravity 交件後自動 push")
     if human:
