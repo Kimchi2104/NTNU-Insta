@@ -10,6 +10,10 @@
   C-A18-08_拉繩定位         → 14 鏡（木樁層→牛腿層）
   C-A18-09_兩千五百年       → 17 鏡（年表層）
   C-A18-10_今晚十點半       → 18 鏡（9:16 圖卡，可存圖）
+  ── v2（2026-11-10 加回刪減；編號接在後面，舊圖的媒體 ID 不變）──
+  C-A18-11_一千四百六十年   → 06 鏡（一圈層）
+  C-A18-12_對正北           → 13 鏡（方框層；標「推測」）
+  C-A18-13_以為有好幾千年   → 16 鏡（年表層：1799 → 1821 → 1822）
   15 鏡的丹德拉圓形黃道圖不在這裡：美宣另尋授權圖（羅浮宮原件照片或 1802 年版畫）。
 輸出：05_素材/A-18_古埃及/_概念圖/（--lang en → _概念圖/en/）
 
@@ -81,6 +85,16 @@ TXT = {
         "c10_n3": "回頭往東北：牛腿已經整條爬出地平線",
         "c10_src": "PyEphem 自算（含大氣折射）；天狼星 22:33 中天",
         "south_view": "面向正南", "ne_view": "面向東北",
+        "c11_title": "差滿一整圈", "c11_sub": "每 4 年差 1 天 × 365 ＝ 約 1,460 年",
+        "c11_139": "西元 139 年", "c11_after": "繞了 1,460 年", "c11_139b": "新年又落在天狼星晨出（7/20 前後）",
+        "c11_src": "羅馬作家 Censorinus《論生日》（西元 238 年）記下",
+        "c12_title": "大金字塔：對正東西南北", "c12_sub": "俯視示意（上＝北）",
+        "c12_err": "誤差只有約 1/20 度（3–4 角分）", "c12_pole": "北天極",
+        "c12_q": "怎麼找到正北？", "c12_guess": "推測：看繞著北極轉的星",
+        "c12_note": "定北的方法有好幾種推測，沒有定論",
+        "c13_title": "以為有好幾千年？", "c13_1799": "1799", "c13_1799b": "拿破崙遠征的學者看到它",
+        "c13_1799c": "以為比聖經的創世還早", "c13_1821": "1821", "c13_1821b": "被炸下來，運到巴黎",
+        "c13_1822": "1822", "c13_1822b": "Champollion 讀出王名框裡", "c13_1822c": "羅馬時代的頭銜 autokrator",
     },
     "en": {
         "c01_title": "A year of the Nile", "c01_sub": "Valley cross-section (schematic)",
@@ -133,6 +147,16 @@ TXT = {
         "c10_n3": "Turn northeast: the whole Foreleg has risen",
         "c10_src": "PyEphem (with refraction); Sirius transits at 22:33",
         "south_view": "Facing south", "ne_view": "Facing northeast",
+        "c11_title": "A full circle", "c11_sub": "1 day every 4 years × 365 = about 1,460 years",
+        "c11_139": "139 CE", "c11_after": "after 1,460 years", "c11_139b": "New Year again at the rising of Sirius (about 20 July)",
+        "c11_src": "recorded by the Roman writer Censorinus (De Die Natali, 238 CE)",
+        "c12_title": "The Great Pyramid: squared to the compass", "c12_sub": "Plan view (north up)",
+        "c12_err": "off by only about 1/20° (3–4 arcminutes)", "c12_pole": "North celestial pole",
+        "c12_q": "How did they find north?", "c12_guess": "One guess: the stars circling the pole",
+        "c12_note": "Several methods have been proposed; none is settled",
+        "c13_title": "Thousands of years old?", "c13_1799": "1799", "c13_1799b": "Napoleon’s scholars see it",
+        "c13_1799c": "and date it before the biblical Creation", "c13_1821": "1821", "c13_1821b": "blasted out, shipped to Paris",
+        "c13_1822": "1822", "c13_1822b": "Champollion reads the cartouche:", "c13_1822c": "a Roman title, autokrator",
     },
 }
 
@@ -512,6 +536,66 @@ def c09_line(ax):
     T(ax, 0, -0.80, tx("c09_note"), 14, GREY, w="normal")
 
 
+# ══════════════════════ v2：C-A18-11 一千四百六十年（06 鏡） ══════════════════════
+def c11_circle(ax):
+    T(ax, 0, 0.88, tx("c11_title"), 32)
+    T(ax, 0, 0.80, tx("c11_sub"), 16, GREY, w="normal")
+    for k, col in enumerate((BLUE, GREEN, AMBER)):
+        _arc(ax, 120 * k, 120 * (k + 1), col, alpha=.45)
+    _arc(ax, 360, 365, RED, alpha=.6)
+    # 天狼星晨出的標記繞完一整圈（順時針外圈箭頭）
+    r = R1 + 0.07
+    pts = [_at(d, r) for d in range(4, 357, 4)]
+    ax.plot([p[0] for p in pts], [p[1] for p in pts], c=WHITE, lw=2.2, alpha=.8, zorder=6)
+    C.arrow(ax, _at(0.5, r), pts[-1], c=WHITE, lw=2.2, alpha=.9, style="-|>")
+    x, y = _at(0, (R0 + R1) / 2)
+    ax.scatter([x], [y], s=620, c=WHITE, marker="*", lw=0, zorder=8)
+    T(ax, 0, 0.06, tx("c11_139"), 30, AMBER)
+    T(ax, 0, -0.06, tx("c11_after"), 24, WHITE)
+    T(ax, 0, -0.80, tx("c11_139b"), 18, AMBER)
+    T(ax, 0, -0.90, tx("c11_src"), 14, GREY, w="normal")
+
+
+# ══════════════════════ v2：C-A18-12 對正北（13 鏡） ══════════════════════
+def c12_square(ax):
+    T(ax, 0, 0.88, tx("c12_title"), 28)
+    T(ax, 0, 0.80, tx("c12_sub"), 16, GREY, w="normal")
+    h = 0.30
+    cy = -0.22
+    ax.add_patch(Polygon([(-h, cy - h), (h, cy - h), (h, cy + h), (-h, cy + h)], closed=True,
+                         fc="none", ec=SAND, lw=3.0, zorder=4))
+    for (a, b) in (((-h, cy - h), (h, cy + h)), ((h, cy - h), (-h, cy + h))):
+        ax.plot([a[0], b[0]], [a[1], b[1]], c=SAND, lw=1.2, alpha=.6, zorder=4)
+    # 南北線延伸到北天極
+    ax.plot([0, 0], [cy + h, 0.50], c=WHITE, lw=1.6, ls=(0, (4, 4)), alpha=.8, zorder=5)
+    ax.scatter([0], [0.55], s=260, c=WHITE, marker="+", lw=2.4, zorder=7)
+    T(ax, 0.16, 0.55, tx("c12_pole"), 15, WHITE, ha="left", w="normal")
+    for t, (x, y) in (("north", (0, cy + h + 0.07)), ("south", (0, cy - h - 0.07))):
+        T(ax, x + 0.06, y, tx(t), 18, WHITE if t == "north" else GREY)
+    T(ax, 0, cy - h - 0.17, tx("c12_err"), 18, AMBER)
+    T(ax, -0.62, 0.40, tx("c12_q"), 18, WHITE, w="normal")
+    T(ax, -0.62, 0.31, tx("c12_guess"), 16, AMBER, w="normal")
+    ax.add_patch(FancyBboxPatch((-0.95, 0.24), 0.66, 0.24, boxstyle="round,pad=0.01", fc="none",
+                                ec=AMBER, lw=1.2, ls=(0, (3, 3)), alpha=.7, zorder=3))
+    T(ax, 0, -0.90, tx("c12_note"), 14, GREY, w="normal")
+
+
+# ══════════════════════ v2：C-A18-13 以為有好幾千年（16 鏡） ══════════════════════
+def c13_line(ax):
+    T(ax, 0, 0.84, tx("c13_title"), 32)
+    xs = (-0.62, 0.0, 0.62)
+    y = 0.05
+    ax.plot([-0.85, 0.85], [y, y], c=WHITE, lw=2.4, alpha=.6)
+    rows = (("c13_1799", "c13_1799b", "c13_1799c", AMBER), ("c13_1821", "c13_1821b", None, RED),
+            ("c13_1822", "c13_1822b", "c13_1822c", BLUE))
+    for x, (k0, k1, k2, col) in zip(xs, rows):
+        ax.scatter([x], [y], s=260, c=col, lw=0, zorder=6)
+        T(ax, x, y + 0.13, tx(k0), 26, col)
+        T(ax, x, y - 0.14, tx(k1), 15, WHITE, w="normal")
+        if k2:
+            T(ax, x, y - 0.23, tx(k2), 15, WHITE, w="normal")
+
+
 # ══════════════════════ C-A18-10 今晚十點半（9:16 圖卡） ══════════════════════
 TPE = ("25.0330", "121.5654")
 
@@ -629,6 +713,9 @@ def main():
     C.emit("", [("剖面", c07_section)], title="C-A18-07_北面的入口")
     C.emit("", [("木樁", c08_stakes), ("牛腿", c08_leg)], title="C-A18-08_拉繩定位")
     C.emit("", [("年表", c09_line)], title="C-A18-09_兩千五百年")
+    C.emit("", [("一圈", c11_circle)], title="C-A18-11_一千四百六十年")
+    C.emit("", [("方框", c12_square)], title="C-A18-12_對正北")
+    C.emit("", [("年表", c13_line)], title="C-A18-13_以為有好幾千年")
     f, ax = C.newcard(dark=True)
     c10_card(ax)
     C.save(f, "", "C-A18-10_今晚十點半_圖卡.png", transparent=False)
