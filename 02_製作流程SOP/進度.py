@@ -92,18 +92,18 @@ def zh_row(ep, title, date_s, status):
     canva = bool(m and m.get("design_id")) or bool(re.search(r"Canva\s*(完成|「)", status))
     d = date_of(date_s)
     short = "" if ep.startswith("H-") else short_name(ep, title)
+    missing = []
     if v is None:
         step, nxt = "①", f"卡 01｜Opus high｜`集號：{ep}`"
     elif v == 0:
         need = []
         if not kao:
-            need.append("考據：`01_網路考據.md`＋v0 → Gemini")
-        missing = [r for r in ("天文", "文化", "敘事", "語言")
+            need.append(f"考據：對 Antigravity 說「做 {ep} 考據」")
+        missing = [r for r in ROLES
                    if not glob.glob(P("04_腳本庫", "_審稿", f"{ep}_審稿-{r}_*.md"))]
-        if len(missing) == 4:
-            need.append("四角色：`02_審稿Critic.md`＋v0 → Antigravity ×4")
-        elif missing:
-            need.append("還差審稿角色 " + "、".join(missing) + "（`02_審稿Critic.md`，只貼那個角色）")
+        if missing:
+            need.append("還差審稿角色 " + "、".join(f"{ROLES.index(r) + 1} {r}" for r in missing)
+                        + f"：各開一個對話說「做 {ep}，角色 N」")
         if need:
             step, nxt = "②③", "送審：" + "；".join(need) + "；Antigravity 交件後自動 push"
         else:
@@ -117,7 +117,34 @@ def zh_row(ep, title, date_s, status):
         step, nxt = "⑨", "收尾、發布（手工）"
     published = d is not None and d < TODAY          # 過了發布日就當作已播，不管節目表狀態欄有沒有更新
     return dict(ep=ep, title=title, date=d, date_s=d.strftime("%Y/%m/%d") if d else date_s[:12], v=v, kao=kao, n=n,
-                assets=bool(ad), canva=canva, step=step, nxt=nxt, short=short, published=published, status=status)
+                assets=bool(ad), canva=canva, step=step, nxt=nxt, short=short, published=published, status=status,
+                missing=missing, need_kao=(v == 0 and not kao))
+
+
+ROLES = ("天文", "文化", "敘事", "語言")
+
+
+def missing_md(zh):
+    """送審缺件：每一行就是要貼給 Antigravity 的一句話（一句一個對話）。"""
+    far = datetime.date(2100, 1, 1)
+    rows = sorted([r for r in zh.values() if not r["published"] and r["step"] == "②③"], key=lambda r: r["date"] or far)
+    out = ["## 送審缺件（每一行貼給 Antigravity 一個新對話；句型見根目錄 `AGENTS.md`）", ""]
+    if not rows:
+        out.append("沒有缺件。")
+        return out
+    for r in rows:
+        if r["need_kao"]:
+            out.append(f"- 做 {r['ep']} 考據")
+    out.append("")
+    for i, role in enumerate(ROLES, 1):
+        eps = [r["ep"] for r in rows if role in r["missing"]]
+        if not eps:
+            continue
+        out.append(f"**角色 {i} {role}**（缺 {len(eps)} 集；一個對話最多三集）")
+        for k in range(0, len(eps), 3):
+            out.append(f"- 做 {'、'.join(eps[k:k + 3])}，角色 {i}")
+        out.append("")
+    return out
 
 
 # ---------- 英文 ----------
@@ -189,6 +216,8 @@ def md(zh, en):
     if en_now:
         out.append("- **英文（只收尾巴）**：" + "；".join(f"{r['en']} → {r['nxt']}" for r in en_now[:3]))
     out.append("")
+    out.extend(missing_md(zh))
+    out.append("")
     # 中文表
     out.append("## 中文集（未播出的）")
     out.append("")
@@ -221,6 +250,9 @@ def md(zh, en):
 
 def main():
     zh, en = build()
+    if "--missing" in sys.argv:                      # 只印送審缺件（給 Antigravity 的「缺什麼」）
+        print("\n".join(missing_md(zh)))
+        return
     text = md(zh, en)
     print(text)
     if "--print" not in sys.argv:
