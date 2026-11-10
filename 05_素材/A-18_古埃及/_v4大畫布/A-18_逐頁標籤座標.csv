@@ -9,63 +9,75 @@
 12,鏡頭03-概念圖收＝鏡頭04開始＝鏡頭05開始,Sopdet,天狼星,541,1330,112,#FFFFFF,541,1081,Sopdet-zh
 13,鏡頭05結束,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
 13,鏡頭05結束,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
-17,鏡頭05-概念圖收＝鏡頭07開始,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
-17,鏡頭05-概念圖收＝鏡頭07開始,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
-20,鏡頭07-概念圖收＝鏡頭08開始,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
-20,鏡頭07-概念圖收＝鏡頭08開始,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
-22,鏡頭08-概念圖收,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
-22,鏡頭08-概念圖收,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
-23,鏡頭10開始,Sopdet,Sopdet,108,1299,69,#FFC94A,108,1249,Sopdet
-23,鏡頭10開始,Sopdet,天狼星,108,1362,50,#FFFFFF,108,1249,Sopdet-zh
-23,鏡頭10開始,Sah,Sah,613,625,69,#6FA8FF,573,829,Sah
-23,鏡頭10開始,Sah,獵戶,613,687,50,#FFFFFF,573,829,Sah-zh
-24,鏡頭10結束,Sopdet,Sopdet,864,1245,69,#FFC94A,864,1195,Sopdet
-24,鏡頭10結束,Sopdet,天狼星,864,1308,50,#FFFFFF,864,1195,Sopdet-zh
-27,鏡頭10-概念圖收,Sopdet,Sopdet,864,1245,69,#FFC94A,864,1195,Sopdet
-27,鏡頭10-概念圖收,Sopdet,天狼星,864,1308,50,#FFFFFF,864,1195,Sopdet-zh
-31,鏡頭11結束＝鏡頭12開始,北天-起,Meskhetyu,541,1253,58,#FFC94A,480,1039,Meskhetyu
-31,鏡頭11結束＝鏡頭12開始,北天-起,牛的前腿（北斗）,541,1288,47,#FFFFFF,480,1039,Meskhetyu-zh
-31,鏡頭11結束＝鏡頭12開始,北天-起,Mooring Post,225,942,58,#7BD88F,225,790,Mooring Post
-31,鏡頭11結束＝鏡頭12開始,北天-起,繫船柱,225,977,47,#FFFFFF,225,790,Mooring Post-zh
-31,鏡頭11結束＝鏡頭12開始,北天-起,Hippopotamus,545,273,58,#FF6B6B,561,491,Hippopotamus
-31,鏡頭11結束＝鏡頭12開始,北天-起,河馬（女神）,545,308,47,#FFFFFF,561,491,Hippopotamus-zh
-32,鏡頭12結束,北天-轉後,Meskhetyu,838,1182,58,#FFC94A,699,1338,Meskhetyu
-32,鏡頭12結束,北天-轉後,牛的前腿（北斗）,838,1217,47,#FFFFFF,699,1338,Meskhetyu-zh
-32,鏡頭12結束,北天-轉後,Mooring Post,618,1448,58,#7BD88F,356,1434,Mooring Post
-32,鏡頭12結束,北天-轉後,繫船柱,618,1483,47,#FFFFFF,356,1434,Mooring Post-zh
-32,鏡頭12結束,北天-轉後,Hippopotamus,651,668,58,#FF6B6B,265,994,Hippopotamus
-32,鏡頭12結束,北天-轉後,河馬（女神）,651,703,47,#FFFFFF,265,994,Hippopotamus-zh
-32,鏡頭12結束,不知毀滅的星,ikhemu-sek,849,904,58,#FFFFFF,849,999,ikhemu-sek
-32,鏡頭12結束,不知毀滅的星,不知毀滅的星,849,939,47,#FFFFFF,849,999,ikhemu-sek-zh
-34,鏡頭12-概念圖收＝鏡頭14開始,北天-轉後,Meskhetyu,838,1182,58,#FFC94A,699,1338,Meskhetyu
-34,鏡頭12-概念圖收＝鏡頭14開始,北天-轉後,牛的前腿（北斗）,838,1217,47,#FFFFFF,699,1338,Meskhetyu-zh
-34,鏡頭12-概念圖收＝鏡頭14開始,北天-轉後,Mooring Post,618,1448,58,#7BD88F,356,1434,Mooring Post
-34,鏡頭12-概念圖收＝鏡頭14開始,北天-轉後,繫船柱,618,1483,47,#FFFFFF,356,1434,Mooring Post-zh
-34,鏡頭12-概念圖收＝鏡頭14開始,北天-轉後,Hippopotamus,651,668,58,#FF6B6B,265,994,Hippopotamus
-34,鏡頭12-概念圖收＝鏡頭14開始,北天-轉後,河馬（女神）,651,703,47,#FFFFFF,265,994,Hippopotamus-zh
-37,鏡頭14-概念圖收,北天-轉後,Meskhetyu,838,1182,58,#FFC94A,699,1338,Meskhetyu
-37,鏡頭14-概念圖收,北天-轉後,牛的前腿（北斗）,838,1217,47,#FFFFFF,699,1338,Meskhetyu-zh
-37,鏡頭14-概念圖收,北天-轉後,Mooring Post,618,1448,58,#7BD88F,356,1434,Mooring Post
-37,鏡頭14-概念圖收,北天-轉後,繫船柱,618,1483,47,#FFFFFF,356,1434,Mooring Post-zh
-37,鏡頭14-概念圖收,北天-轉後,Hippopotamus,651,668,58,#FF6B6B,265,994,Hippopotamus
-37,鏡頭14-概念圖收,北天-轉後,河馬（女神）,651,703,47,#FFFFFF,265,994,Hippopotamus-zh
-41,鏡頭15開始＝鏡頭17開始,Sopdet,Sopdet,324,1299,69,#FFC94A,324,1249,Sopdet
-41,鏡頭15開始＝鏡頭17開始,Sopdet,天狼星,324,1362,50,#FFFFFF,324,1249,Sopdet-zh
-41,鏡頭15開始＝鏡頭17開始,Sah,Sah,829,625,69,#6FA8FF,789,829,Sah
-41,鏡頭15開始＝鏡頭17開始,Sah,獵戶,829,687,50,#FFFFFF,789,829,Sah-zh
-43,鏡頭17-概念圖收,Sopdet,Sopdet,324,1299,69,#FFC94A,324,1249,Sopdet
-43,鏡頭17-概念圖收,Sopdet,天狼星,324,1362,50,#FFFFFF,324,1249,Sopdet-zh
-43,鏡頭17-概念圖收,Sah,Sah,829,625,69,#6FA8FF,789,829,Sah
-43,鏡頭17-概念圖收,Sah,獵戶,829,687,50,#FFFFFF,789,829,Sah-zh
-44,鏡頭18開始,Sopdet,Sopdet,270,1353,69,#FFC94A,270,1303,Sopdet
-44,鏡頭18開始,Sopdet,天狼星,270,1416,50,#FFFFFF,270,1303,Sopdet-zh
-44,鏡頭18開始,Sah,Sah,775,679,69,#6FA8FF,735,883,Sah
-44,鏡頭18開始,Sah,獵戶,775,741,50,#FFFFFF,735,883,Sah-zh
-45,鏡頭18結束,Sopdet,Sopdet,540,1277,76,#FFC94A,540,1222,Sopdet
-45,鏡頭18結束,Sopdet,天狼星,540,1346,56,#FFFFFF,540,1222,Sopdet-zh
-45,鏡頭18結束,Sah,Sah,1102,528,76,#6FA8FF,1057,754,Sah
-45,鏡頭18結束,Sah,獵戶,1102,597,56,#FFFFFF,1057,754,Sah-zh
-47,鏡頭18-概念圖收＝鏡頭19開始,Sopdet,Sopdet,540,1277,76,#FFC94A,540,1222,Sopdet
-47,鏡頭18-概念圖收＝鏡頭19開始,Sopdet,天狼星,540,1346,56,#FFFFFF,540,1222,Sopdet-zh
-48,鏡頭19結束,老人星,Canopus,714,1177,86,#FFFFFF,714,1103,Canopus
-48,鏡頭19結束,老人星,老人星,714,1260,64,#FFFFFF,714,1103,Canopus-zh
+17,鏡頭05-概念圖收＝鏡頭06開始,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
+17,鏡頭05-概念圖收＝鏡頭06開始,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
+19,鏡頭06-概念圖收＝鏡頭07開始,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
+19,鏡頭06-概念圖收＝鏡頭07開始,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
+22,鏡頭07-概念圖收＝鏡頭08開始,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
+22,鏡頭07-概念圖收＝鏡頭08開始,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
+24,鏡頭08-概念圖收＝鏡頭09開始,Sopdet,Sopdet,541,1191,106,#FFC94A,541,1115,Sopdet
+24,鏡頭08-概念圖收＝鏡頭09開始,Sopdet,天狼星,541,1287,78,#FFFFFF,541,1115,Sopdet-zh
+25,鏡頭09結束＝鏡頭10開始,Sopdet,Sopdet,108,1299,69,#FFC94A,108,1249,Sopdet
+25,鏡頭09結束＝鏡頭10開始,Sopdet,天狼星,108,1362,50,#FFFFFF,108,1249,Sopdet-zh
+25,鏡頭09結束＝鏡頭10開始,Sah,Sah,613,625,69,#6FA8FF,573,829,Sah
+25,鏡頭09結束＝鏡頭10開始,Sah,獵戶,613,687,50,#FFFFFF,573,829,Sah-zh
+26,鏡頭10結束,Sopdet,Sopdet,864,1245,69,#FFC94A,864,1195,Sopdet
+26,鏡頭10結束,Sopdet,天狼星,864,1308,50,#FFFFFF,864,1195,Sopdet-zh
+29,鏡頭10-概念圖收,Sopdet,Sopdet,864,1245,69,#FFC94A,864,1195,Sopdet
+29,鏡頭10-概念圖收,Sopdet,天狼星,864,1308,50,#FFFFFF,864,1195,Sopdet-zh
+33,鏡頭11結束＝鏡頭12開始,北天-起,Meskhetyu,541,1253,58,#FFC94A,480,1039,Meskhetyu
+33,鏡頭11結束＝鏡頭12開始,北天-起,牛的前腿（北斗）,541,1288,47,#FFFFFF,480,1039,Meskhetyu-zh
+33,鏡頭11結束＝鏡頭12開始,北天-起,Mooring Post,225,942,58,#7BD88F,225,790,Mooring Post
+33,鏡頭11結束＝鏡頭12開始,北天-起,繫船柱,225,977,47,#FFFFFF,225,790,Mooring Post-zh
+33,鏡頭11結束＝鏡頭12開始,北天-起,Hippopotamus,545,273,58,#FF6B6B,561,491,Hippopotamus
+33,鏡頭11結束＝鏡頭12開始,北天-起,河馬（女神）,545,308,47,#FFFFFF,561,491,Hippopotamus-zh
+34,鏡頭12結束,北天-轉後,Meskhetyu,838,1182,58,#FFC94A,699,1338,Meskhetyu
+34,鏡頭12結束,北天-轉後,牛的前腿（北斗）,838,1217,47,#FFFFFF,699,1338,Meskhetyu-zh
+34,鏡頭12結束,北天-轉後,Mooring Post,618,1448,58,#7BD88F,356,1434,Mooring Post
+34,鏡頭12結束,北天-轉後,繫船柱,618,1483,47,#FFFFFF,356,1434,Mooring Post-zh
+34,鏡頭12結束,北天-轉後,Hippopotamus,651,668,58,#FF6B6B,265,994,Hippopotamus
+34,鏡頭12結束,北天-轉後,河馬（女神）,651,703,47,#FFFFFF,265,994,Hippopotamus-zh
+34,鏡頭12結束,不知毀滅的星,ikhemu-sek,849,904,58,#FFFFFF,849,999,ikhemu-sek
+34,鏡頭12結束,不知毀滅的星,不知毀滅的星,849,939,47,#FFFFFF,849,999,ikhemu-sek-zh
+36,鏡頭12-概念圖收＝鏡頭13開始,北天-轉後,Meskhetyu,838,1182,58,#FFC94A,699,1338,Meskhetyu
+36,鏡頭12-概念圖收＝鏡頭13開始,北天-轉後,牛的前腿（北斗）,838,1217,47,#FFFFFF,699,1338,Meskhetyu-zh
+36,鏡頭12-概念圖收＝鏡頭13開始,北天-轉後,Mooring Post,618,1448,58,#7BD88F,356,1434,Mooring Post
+36,鏡頭12-概念圖收＝鏡頭13開始,北天-轉後,繫船柱,618,1483,47,#FFFFFF,356,1434,Mooring Post-zh
+36,鏡頭12-概念圖收＝鏡頭13開始,北天-轉後,Hippopotamus,651,668,58,#FF6B6B,265,994,Hippopotamus
+36,鏡頭12-概念圖收＝鏡頭13開始,北天-轉後,河馬（女神）,651,703,47,#FFFFFF,265,994,Hippopotamus-zh
+38,鏡頭13-概念圖收＝鏡頭14開始,北天-轉後,Meskhetyu,838,1182,58,#FFC94A,699,1338,Meskhetyu
+38,鏡頭13-概念圖收＝鏡頭14開始,北天-轉後,牛的前腿（北斗）,838,1217,47,#FFFFFF,699,1338,Meskhetyu-zh
+38,鏡頭13-概念圖收＝鏡頭14開始,北天-轉後,Mooring Post,618,1448,58,#7BD88F,356,1434,Mooring Post
+38,鏡頭13-概念圖收＝鏡頭14開始,北天-轉後,繫船柱,618,1483,47,#FFFFFF,356,1434,Mooring Post-zh
+38,鏡頭13-概念圖收＝鏡頭14開始,北天-轉後,Hippopotamus,651,668,58,#FF6B6B,265,994,Hippopotamus
+38,鏡頭13-概念圖收＝鏡頭14開始,北天-轉後,河馬（女神）,651,703,47,#FFFFFF,265,994,Hippopotamus-zh
+41,鏡頭14-概念圖收,北天-轉後,Meskhetyu,838,1182,58,#FFC94A,699,1338,Meskhetyu
+41,鏡頭14-概念圖收,北天-轉後,牛的前腿（北斗）,838,1217,47,#FFFFFF,699,1338,Meskhetyu-zh
+41,鏡頭14-概念圖收,北天-轉後,Mooring Post,618,1448,58,#7BD88F,356,1434,Mooring Post
+41,鏡頭14-概念圖收,北天-轉後,繫船柱,618,1483,47,#FFFFFF,356,1434,Mooring Post-zh
+41,鏡頭14-概念圖收,北天-轉後,Hippopotamus,651,668,58,#FF6B6B,265,994,Hippopotamus
+41,鏡頭14-概念圖收,北天-轉後,河馬（女神）,651,703,47,#FFFFFF,265,994,Hippopotamus-zh
+45,鏡頭15開始＝鏡頭16開始,Sopdet,Sopdet,324,1299,69,#FFC94A,324,1249,Sopdet
+45,鏡頭15開始＝鏡頭16開始,Sopdet,天狼星,324,1362,50,#FFFFFF,324,1249,Sopdet-zh
+45,鏡頭15開始＝鏡頭16開始,Sah,Sah,829,625,69,#6FA8FF,789,829,Sah
+45,鏡頭15開始＝鏡頭16開始,Sah,獵戶,829,687,50,#FFFFFF,789,829,Sah-zh
+47,鏡頭16-概念圖收＝鏡頭17開始,Sopdet,Sopdet,324,1299,69,#FFC94A,324,1249,Sopdet
+47,鏡頭16-概念圖收＝鏡頭17開始,Sopdet,天狼星,324,1362,50,#FFFFFF,324,1249,Sopdet-zh
+47,鏡頭16-概念圖收＝鏡頭17開始,Sah,Sah,829,625,69,#6FA8FF,789,829,Sah
+47,鏡頭16-概念圖收＝鏡頭17開始,Sah,獵戶,829,687,50,#FFFFFF,789,829,Sah-zh
+49,鏡頭17-概念圖收,Sopdet,Sopdet,324,1299,69,#FFC94A,324,1249,Sopdet
+49,鏡頭17-概念圖收,Sopdet,天狼星,324,1362,50,#FFFFFF,324,1249,Sopdet-zh
+49,鏡頭17-概念圖收,Sah,Sah,829,625,69,#6FA8FF,789,829,Sah
+49,鏡頭17-概念圖收,Sah,獵戶,829,687,50,#FFFFFF,789,829,Sah-zh
+50,鏡頭18開始,Sopdet,Sopdet,270,1353,69,#FFC94A,270,1303,Sopdet
+50,鏡頭18開始,Sopdet,天狼星,270,1416,50,#FFFFFF,270,1303,Sopdet-zh
+50,鏡頭18開始,Sah,Sah,775,679,69,#6FA8FF,735,883,Sah
+50,鏡頭18開始,Sah,獵戶,775,741,50,#FFFFFF,735,883,Sah-zh
+51,鏡頭18結束,Sopdet,Sopdet,540,1277,76,#FFC94A,540,1222,Sopdet
+51,鏡頭18結束,Sopdet,天狼星,540,1346,56,#FFFFFF,540,1222,Sopdet-zh
+51,鏡頭18結束,Sah,Sah,1102,528,76,#6FA8FF,1057,754,Sah
+51,鏡頭18結束,Sah,獵戶,1102,597,56,#FFFFFF,1057,754,Sah-zh
+53,鏡頭18-概念圖收＝鏡頭19開始,Sopdet,Sopdet,540,1277,76,#FFC94A,540,1222,Sopdet
+53,鏡頭18-概念圖收＝鏡頭19開始,Sopdet,天狼星,540,1346,56,#FFFFFF,540,1222,Sopdet-zh
+54,鏡頭19結束,老人星,Canopus,714,1177,86,#FFFFFF,714,1103,Canopus
+54,鏡頭19結束,老人星,老人星,714,1260,64,#FFFFFF,714,1103,Canopus-zh
