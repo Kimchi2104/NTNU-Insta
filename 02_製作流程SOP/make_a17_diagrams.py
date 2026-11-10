@@ -6,6 +6,9 @@ C-A17-02 逃上天（熊、箭、樹叢、湖、大樹）→ 05–06 鏡
 C-A17-03 羽毛女與洞（天上、洞）→ 10 鏡
 C-A17-04 春天看不見（日曆、回來）→ 15 鏡（Browning：5/1 最後一次黃昏可見 → 6/24 清晨回來；10/10 回到黃昏天空）
 C-A17-05 今晚與明晨（9:16 圖卡，可存圖；台北 1/15 20:00、1/16 05:30）→ 18 鏡
+C-A17-06 蜘蛛人的帳篷（帳篷＝北冕、手指＝武仙〔一說〕、垂降＝蜘蛛絲＋草原上的石圈）→ 11 鏡（v2 加回）
+C-A17-07 1905 年的兩顆晨星（木星、金星、太陽；Browning 1905/7/6 清晨）→ 13 鏡（v2 加回）
+C-A17-08 是狗求來了雨（泉水、月亮、雨；Wissler & Duvall 1908 pp.71–72）→ 16 鏡（v2 加回）
 C-A17-天上的洞（1080×1920 滿版透明：09 鏡迄格疊在北盤上，暖光圈圓心＝北極星＝畫面中心）
 
 尊重文化的做法（逐字稿製作備註）：彩繪帳篷的圖案屬於帳篷主人——只畫「三層」的通用示意（大地、
@@ -23,6 +26,8 @@ from c_series_base import AMBER, BLUE, WHITE, GREEN, PURPLE, MW
 import gen_ep_assets as G
 import make_a16_diagrams as D16
 from make_a16_diagrams import star, cluster, sky_panel
+from make_a17_v4 import SEG_LODGE, SEG_FING
+from matplotlib.patches import Wedge
 
 BASE = G.find_base(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, "05_素材/A-17_黑腳族/_概念圖")
@@ -51,6 +56,15 @@ TXT = {
         "E": "東", "SE": "東南", "S": "南", "N": "北", "NE": "東北", "NW": "西北",
         "tip1": "木星 19:37 從東方升起：疤臉 Poïa", "tip2": "今晚的北斗 22:00 後才整組升起",
         "tip3": "高度、方位：PyEphem 自算（含大氣折射）", "tags": "#萬國星空　#師大天文社",
+        "c06_title": "蜘蛛人的帳篷", "c06_sub": "McClintock 1910 p.500；星的位置照 HIP 星表，連線：Miller 1997",
+        "lodge": "蜘蛛人的帳篷（北冕）", "fingers": "蜘蛛人的手指（武仙，一說）",
+        "silk": "蜘蛛絲：把羽毛女和兒子垂降回地上", "ring": "草原上壓帳篷的石圈",
+        "c07_title": "1905 年的兩顆晨星", "c07_sub": "1905/7/6 清晨，以 Browning 計算（當地 UTC−7）；PyEphem 自算；McClintock 1910 pp.499、503",
+        "c07_pos": "行星位置：03:30", "jup": "01:44　Poïa（木星）先上來", "ven": "02:01　父親晨星（金星）接著升起",
+        "sun": "04:36　然後是祖父太陽", "ENE": "東北東", "E2": "東",
+        "c08_title": "是狗求來了雨", "c08_sub": "另一個版本：Wissler & Duvall 1908 pp.71–72",
+        "spring": "地上的水被蒸乾：狗在河岸挖出泉水", "howl": "第七天，年老的白狗對天嚎叫",
+        "rain": "第八天，下雨了",
     },
     "en": {
         "c01_title": "Three bands on a lodge", "c01_sub": "McClintock 1910 pp.217–220; generic sketch, no real design",
@@ -73,6 +87,15 @@ TXT = {
         "E": "E", "SE": "SE", "S": "S", "N": "N", "NE": "NE", "NW": "NW",
         "tip1": "Jupiter rises in the east at 7:37 pm: Scarface, Poïa", "tip2": "Tonight the whole Dipper is up only after 10 pm",
         "tip3": "Altitudes and azimuths: PyEphem (with refraction)", "tags": "#WorldSkyCultures #NTNUAstro",
+        "c06_title": "The Spider Man's lodge", "c06_sub": "McClintock 1910 p.500; HIP positions, lines: Miller 1997",
+        "lodge": "Lodge of the Spider Man (Corona Borealis)", "fingers": "Spider Man's Fingers (Hercules, uncertain)",
+        "silk": "a web line lowers Feather Woman and her son", "ring": "a tipi ring of stones on the prairie",
+        "c07_title": "Two morning stars, 1905", "c07_sub": "Dawn of Jul 6, 1905, computed for Browning (UTC−7); PyEphem; McClintock 1910 pp.499, 503",
+        "c07_pos": "planets at 3:30 am", "jup": "1:44  Poïa (Jupiter) rises first", "ven": "2:01  his father, Morning Star (Venus)",
+        "sun": "4:36  then grandfather Sun", "ENE": "ENE", "E2": "E",
+        "c08_title": "The dogs brought the rain", "c08_sub": "Another version: Wissler & Duvall 1908 pp.71–72",
+        "spring": "the water dried up: dogs dug a spring", "howl": "day 7: an old white dog howled to the sky",
+        "rain": "day 8: rain",
     },
 }
 
@@ -329,6 +352,171 @@ def hole_overlay(c=(540.0, 960.0)):
     print("  ✓ C-A17-天上的洞_透明.png")
 
 
+# ══════════════════ C-A17-06 蜘蛛人的帳篷（11 鏡，v2 加回） ══════════════════
+C06_RA0, C06_DEC0, C06_SC = 256.0, 27.5, 0.025      # 視野中心（北冕與武仙之間）、每度 0.034 單位
+
+
+def c06_xy(ra, dec):
+    """切面（gnomonic）投影：東在左、北在上；回傳圖面座標（上半部天空）"""
+    a, d, a0, d0 = map(math.radians, (ra, dec, C06_RA0, C06_DEC0))
+    cc = math.sin(d0) * math.sin(d) + math.cos(d0) * math.cos(d) * math.cos(a - a0)
+    x = math.cos(d) * math.sin(a - a0) / cc
+    y = (math.cos(d0) * math.sin(d) - math.sin(d0) * math.cos(d) * math.cos(a - a0)) / cc
+    k = C06_SC * 180 / math.pi
+    return -x * k, 0.12 + y * k
+
+
+def c06_stars(ax, segs, col, maglim=4.6):
+    S = dict(G.load_stars(BASE))
+    hips = sorted({h for sg in segs for h in sg if h in S})
+    for sg in segs:
+        pts = [c06_xy(*S[h][:2]) for h in sg if h in S]
+        ax.plot([p[0] for p in pts], [p[1] for p in pts], c=col, lw=2.2, alpha=.85, zorder=5)
+    for h in hips:
+        ra, dec, v = S[h][:3]
+        x, y = c06_xy(ra, dec)
+        star(ax, x, y, max(14, 120 * 10 ** (-0.32 * (v - 1.5))), WHITE)
+    return [c06_xy(*S[h][:2]) for h in hips]
+
+
+def c06_lodge(ax):
+    head(ax, tx("c06_title"), tx("c06_sub"))
+    S = dict(G.load_stars(BASE))
+    for h, (ra, dec, v) in ((h, S[h][:3]) for h in S):      # 背景淡星
+        if v < 4.8 and abs(ra - C06_RA0) < 38 and abs(dec - C06_DEC0) < 22:
+            x, y = c06_xy(ra, dec)
+            if -0.95 < x < 0.95 and -0.15 < y < 0.70:
+                star(ax, x, y, 8, GREY, glow=False, alpha=.55, z=3)
+    pts = c06_stars(ax, SEG_LODGE, PURPLE)
+    x = sum(p[0] for p in pts) / len(pts); y = min(p[1] for p in pts)
+    T(ax, x, y - 0.09, tx("lodge"), 16, PURPLE)
+
+
+def c06_fingers(ax):
+    pts = c06_stars(ax, SEG_FING, BLUE)
+    x = sum(p[0] for p in pts) / len(pts); y = max(p[1] for p in pts)
+    T(ax, x, min(y + 0.07, 0.66), tx("fingers"), 15, BLUE)
+
+
+def c06_silk(ax):
+    S = dict(G.load_stars(BASE))
+    lx, ly = c06_xy(*S[76267][:2])                 # 貫索四（帳篷的門口那顆最亮的）
+    gx, gy = lx, -0.58                             # 地上的石圈
+    ax.plot([lx, gx], [ly - 0.03, gy + 0.11], c=WHITE, lw=1.0, alpha=.6, ls=(0, (2, 3)), zorder=4)
+    ax.fill_between([-0.95, 0.95], [-0.60, -0.60], [-0.80, -0.80], color="#3A4A2A", zorder=2)
+    ax.add_patch(CB.Ellipse((gx, gy - 0.08), 0.62, 0.13, fc="#4A5C36", ec="none", zorder=3))
+    for k in range(18):
+        a = 2 * math.pi * k / 18
+        ax.add_patch(CB.Ellipse((gx + 0.27 * math.cos(a), gy - 0.08 + 0.05 * math.sin(a)), 0.035, 0.022,
+                                fc="#B8B0A0", ec="#6E675C", lw=0.8, zorder=4))
+    T(ax, gx - 0.33, gy - 0.08, tx("ring"), 14, "#D8D0C0", ha="right", w="normal")
+    T(ax, lx - 0.04, (ly + gy) / 2 - 0.05, tx("silk"), 13, WHITE, ha="right", w="normal")
+
+
+# ══════════════════ C-A17-07 1905 年的兩顆晨星（13 鏡，v2 加回） ══════════════════
+AZ0, AZ1, ALT1 = 30.0, 110.0, 32.0                 # 面向東北東：方位 30°–110°、高度 0–32°
+
+
+def c07_xy(alt, az):
+    return -0.88 + 1.76 * (az - AZ0) / (AZ1 - AZ0), -0.40 + 0.95 * alt / ALT1
+
+
+def c07_ephem():
+    import ephem
+    o = ephem.Observer(); o.lat, o.lon = "48.556", "-113.013"; o.pressure, o.temp = 1010, 15
+    o.date = ephem.Date("1905/7/6 07:00")                  # 當地 00:00（UTC−7）
+    rise = {n: ephem.Date(o.next_rising(getattr(ephem, n)()) - 7 * ephem.hour) for n in ("Jupiter", "Venus", "Sun")}
+    o.date = ephem.Date("1905/7/6 10:30")                  # 當地 03:30
+    pos = {}
+    for n in ("Jupiter", "Venus"):
+        b = getattr(ephem, n)(); b.compute(o); pos[n] = (math.degrees(b.alt), math.degrees(b.az))
+    sun = ephem.Sun(); o.date = ephem.Date(rise["Sun"] + 7 * ephem.hour); sun.compute(o)
+    pos["Sun"] = (0.0, math.degrees(sun.az))
+    return rise, pos
+
+
+C07 = {}
+
+
+def c07_data():
+    if not C07:
+        r, p = c07_ephem(); C07.update(rise=r, pos=p)
+        print("  1905/7/6 Browning 升起：" + "、".join(f"{k} {str(v)[-8:-3]}" for k, v in r.items())
+              + f"；03:30 木星 {p['Jupiter'][0]:.1f}°/{p['Jupiter'][1]:.0f}°、金星 {p['Venus'][0]:.1f}°/{p['Venus'][1]:.0f}°")
+    return C07
+
+
+def c07_jup(ax):
+    head(ax, tx("c07_title"), tx("c07_sub"))
+    d = c07_data()
+    ax.fill_between([-0.95, 0.95], [-0.40, -0.40], [-0.75, -0.75], color="#1E2A1C", zorder=2)
+    ax.plot([-0.95, 0.95], [-0.40, -0.40], c="#D9B48A", lw=1.5, alpha=.7, zorder=3)
+    for lab, az in ((tx("NE"), 45), (tx("ENE"), 67.5), (tx("E2"), 90)):
+        x, _ = c07_xy(0, az)
+        T(ax, x, -0.47, lab, 13, GREY, w="normal")
+    T(ax, 0.88, 0.62, tx("c07_pos"), 12, GREY, ha="right", w="normal")
+    x, y = c07_xy(*d["pos"]["Jupiter"])
+    star(ax, x, y, 150, AMBER)
+    T(ax, x - 0.05, y + 0.07, tx("jup"), 15, AMBER, ha="right")
+
+
+def c07_ven(ax):
+    d = c07_data()
+    x, y = c07_xy(*d["pos"]["Venus"])
+    star(ax, x, y, 260, WHITE)
+    T(ax, x + 0.05, y - 0.07, tx("ven"), 15, WHITE, ha="left")
+
+
+def c07_sun(ax):
+    d = c07_data()
+    x, y = c07_xy(*d["pos"]["Sun"])
+    for rr, al in ((0.22, .10), (0.15, .18), (0.09, .35)):
+        ax.add_patch(Wedge((x, -0.40), rr, 0, 180, fc="#FFB347", ec="none", alpha=al, zorder=4))
+    T(ax, x, -0.58, tx("sun"), 15, "#FFB347")
+
+
+# ══════════════════ C-A17-08 是狗求來了雨（16 鏡，v2 加回） ══════════════════
+DOG = [(-0.30, 0.00), (-0.26, 0.10), (0.10, 0.12), (0.18, 0.16), (0.24, 0.30), (0.30, 0.36), (0.34, 0.33),
+       (0.31, 0.25), (0.33, 0.18), (0.28, 0.08), (0.22, 0.02), (0.20, -0.20), (0.15, -0.20), (0.13, -0.04),
+       (-0.16, -0.04), (-0.18, -0.20), (-0.23, -0.20), (-0.25, -0.02), (-0.36, 0.08), (-0.38, 0.06), (-0.30, 0.00)]
+DOG_DIG = [(-0.30, 0.06), (-0.26, 0.14), (0.08, 0.12), (0.16, 0.06), (0.26, -0.02), (0.30, -0.10), (0.24, -0.12),
+           (0.16, -0.06), (0.14, -0.20), (0.09, -0.20), (0.06, -0.06), (-0.16, -0.02), (-0.18, -0.20),
+           (-0.23, -0.20), (-0.26, 0.00), (-0.34, 0.14), (-0.36, 0.12), (-0.30, 0.06)]
+
+
+def dog(ax, x, y, s, shape, c):
+    ax.add_patch(CB.Polygon([(x + a * s, y + b * s) for a, b in shape], closed=True, fc=c, ec="none", zorder=6))
+
+
+def c08_spring(ax):
+    head(ax, tx("c08_title"), tx("c08_sub"))
+    ax.fill_between([-0.95, 0.95], [-0.45, -0.45], [-0.78, -0.78], color="#5A4630", zorder=2)
+    for k in range(9):                                       # 乾裂的地面
+        x = -0.85 + 0.2 * k
+        ax.plot([x, x + 0.06, x + 0.02], [-0.50, -0.60, -0.70], c="#3A2E22", lw=1.2, zorder=3)
+    dog(ax, -0.50, -0.28, 0.75, DOG_DIG, "#8C7A66")
+    ax.add_patch(CB.Ellipse((-0.26, -0.47), 0.20, 0.06, fc="#2E5C9A", ec=BLUE, lw=1.2, zorder=5))
+    T(ax, -0.40, -0.66, tx("spring"), 14, BLUE)
+
+
+def c08_moon(ax):
+    ax.add_patch(CB.Circle((0.55, 0.52), 0.10, fc="#F2EBD0", ec="none", zorder=4))
+    ax.add_patch(CB.Circle((0.55, 0.52), 0.16, fc="#F2EBD0", ec="none", alpha=.10, zorder=3))
+    dog(ax, 0.40, -0.28, 0.75, DOG, "#E8E4DC")
+    for k in range(3):                                       # 嚎叫的聲波
+        ax.add_patch(CB.Arc((0.67, 0.02), 0.10 + 0.08 * k, 0.10 + 0.08 * k, angle=45, theta1=-40, theta2=40,
+                            ec=WHITE, lw=1.2, alpha=.6 - 0.15 * k, zorder=5))
+    T(ax, 0.40, -0.52, tx("howl"), 14, WHITE)
+
+
+def c08_rain(ax):
+    rnd = random.Random(8)
+    for _ in range(70):
+        x = rnd.uniform(-0.9, 0.9); y = rnd.uniform(-0.40, 0.62)
+        ax.plot([x, x - 0.015], [y, y - 0.06], c=BLUE, lw=1.2, alpha=.55, zorder=7)
+    T(ax, 0.0, 0.70, tx("rain"), 18, BLUE)
+
+
 def main():
     global LANG
     if "--lang" in sys.argv:
@@ -341,6 +529,9 @@ def main():
             title="C-A17-02_逃上天")
     CB.emit("", [("天上", c03_sky), ("洞", c03_hole)], title="C-A17-03_羽毛女與洞")
     CB.emit("", [("日曆", c04_cal), ("回來", c04_back)], title="C-A17-04_春天看不見")
+    CB.emit("", [("帳篷", c06_lodge), ("手指", c06_fingers), ("垂降", c06_silk)], title="C-A17-06_蜘蛛人的帳篷")
+    CB.emit("", [("木星", c07_jup), ("金星", c07_ven), ("太陽", c07_sun)], title="C-A17-07_1905年的兩顆晨星")
+    CB.emit("", [("泉水", c08_spring), ("月亮", c08_moon), ("雨", c08_rain)], title="C-A17-08_是狗求來了雨")
     fig, ax = CB.newcard(dark=True)
     c05_card(ax)
     CB.save(fig, "", "C-A17-05_今晚與明晨_圖卡.png", transparent=False)
