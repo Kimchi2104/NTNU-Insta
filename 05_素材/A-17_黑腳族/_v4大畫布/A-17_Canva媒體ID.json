@@ -36,9 +36,257 @@
     "C-A17-03_羽毛女與洞_洞層_透明.png": "MAHacq68d2w",
     "C-A17-04_春天看不見_日曆層_透明.png": "MAHacuGHusI",
     "C-A17-04_春天看不見_回來層_透明.png": "MAHacmNbiDU",
-    "C-A17-05_今晚與明晨_圖卡.png": "MAHaciXSio8"
+    "C-A17-05_今晚與明晨_圖卡.png": "MAHaciXSio8",
+    "C-A17-06_蜘蛛人的帳篷_帳篷層_透明.png": "MAHai8Dn05M",
+    "C-A17-06_蜘蛛人的帳篷_手指層_透明.png": "MAHai5sdIfU",
+    "C-A17-06_蜘蛛人的帳篷_垂降層_透明.png": "MAHai3qjVus",
+    "C-A17-07_1905年的兩顆晨星_木星層_透明.png": "MAHaizLwvg4",
+    "C-A17-07_1905年的兩顆晨星_金星層_透明.png": "MAHai_6EUqs",
+    "C-A17-07_1905年的兩顆晨星_太陽層_透明.png": "MAHai4o-PCQ",
+    "C-A17-08_是狗求來了雨_泉水層_透明.png": "MAHaiyqrBN8",
+    "C-A17-08_是狗求來了雨_月亮層_透明.png": "MAHai1R7IZc",
+    "C-A17-08_是狗求來了雨_雨層_透明.png": "MAHai-H8QFU"
   },
   "pages": {
+    "1": {
+      "title": "鏡頭01開始",
+      "page_id": "PBmBd89XLHj0RYnp"
+    },
+    "2": {
+      "title": "鏡頭01結束＝鏡頭02開始",
+      "page_id": "PB7ZqL2zgXFsQmWp"
+    },
+    "3": {
+      "title": "鏡頭02-概念圖1",
+      "page_id": "PBg9Y8whcFZd0HhW"
+    },
+    "4": {
+      "title": "鏡頭02-概念圖2",
+      "page_id": "PBtFz8WXzJtt7Mnx"
+    },
+    "5": {
+      "title": "鏡頭02-概念圖3",
+      "page_id": "PBNbYzlx3hZPhbHx"
+    },
+    "6": {
+      "title": "鏡頭02-概念圖收＝鏡頭03開始＝鏡頭04開始",
+      "page_id": "PBhjVjx7cJ5Gv8pB"
+    },
+    "7": {
+      "title": "長圖轉北盤1-回中心",
+      "page_id": "PB059cmp2ldXxWBP"
+    },
+    "8": {
+      "title": "長圖轉北盤1-上移",
+      "page_id": "PBpP2NMs576P5j9s"
+    },
+    "9": {
+      "title": "長圖轉北盤1",
+      "page_id": "PBSPD4LDcXjCsrTR"
+    },
+    "10": {
+      "title": "鏡頭05開始",
+      "page_id": "PB9RrNXjkwzw0rW3"
+    },
+    "11": {
+      "title": "鏡頭05結束",
+      "page_id": "PBMlxSnm6SzVlg4P"
+    },
+    "12": {
+      "title": "鏡頭05-概念圖1",
+      "page_id": "PBGs15cg68XvBB7J"
+    },
+    "13": {
+      "title": "鏡頭05-概念圖2",
+      "page_id": "PBqZ5vPy77Rym1R7"
+    },
+    "14": {
+      "title": "鏡頭05-概念圖3",
+      "page_id": "PBz2vkvc7cX5YPQR"
+    },
+    "15": {
+      "title": "鏡頭05-概念圖4",
+      "page_id": "PB6wVcNv32zLJdS6"
+    },
+    "16": {
+      "title": "鏡頭05-概念圖5",
+      "page_id": "PBPbrDZsG7CwYc52"
+    },
+    "17": {
+      "title": "鏡頭05-概念圖收＝鏡頭06開始＝鏡頭07開始",
+      "page_id": "PBp0PJGmQ968nxD3"
+    },
+    "18": {
+      "title": "鏡頭07結束＝鏡頭08開始",
+      "page_id": "PBmXyX8rtqq3y6pm"
+    },
+    "19": {
+      "title": "鏡頭08-中1",
+      "page_id": "PBTYkKZ7MnWPkjrp"
+    },
+    "20": {
+      "title": "鏡頭08結束＝鏡頭09開始",
+      "page_id": "PBNvpRmXKHBqZrwd"
+    },
+    "21": {
+      "title": "鏡頭09-中1",
+      "page_id": "PBkFDgvpSrRtjSx0"
+    },
+    "22": {
+      "title": "鏡頭09結束",
+      "page_id": "PBWg16JYRhMHZcNX"
+    },
+    "23": {
+      "title": "鏡頭09-概念圖",
+      "page_id": "PBS8MJ31Svv9QtKm"
+    },
+    "24": {
+      "title": "鏡頭09-概念圖收",
+      "page_id": "PBx9sc3WM6vNCF47"
+    },
+    "25": {
+      "title": "北盤轉長圖1-歸位",
+      "page_id": "PBH6wwjSCjX0rjXM"
+    },
+    "26": {
+      "title": "北盤轉長圖1",
+      "page_id": "PBHkRQBPX8fzy25T"
+    },
+    "27": {
+      "title": "北盤轉長圖1-下移",
+      "page_id": "PBmHqPFpnhZ925Vb"
+    },
+    "28": {
+      "title": "鏡頭10開始",
+      "page_id": "PBSpbQL66NL8GB3D"
+    },
+    "29": {
+      "title": "鏡頭10-概念圖1",
+      "page_id": "PBgtcCMCBrVFYdY8"
+    },
+    "30": {
+      "title": "鏡頭10-概念圖2",
+      "page_id": "PBgW9CSLRC2X6VSs"
+    },
+    "31": {
+      "title": "鏡頭10-概念圖收＝鏡頭11開始",
+      "page_id": "PB3GPk2HyGzFxnQ8"
+    },
+    "32": {
+      "title": "鏡頭11-概念圖1",
+      "page_id": "PBjSpTLCyYNHRj3C"
+    },
+    "33": {
+      "title": "鏡頭11-概念圖2",
+      "page_id": "PBF4JBTNklfVWXh9"
+    },
+    "34": {
+      "title": "鏡頭11-概念圖3",
+      "page_id": "PB66TLn5Ql61Y26L"
+    },
+    "35": {
+      "title": "鏡頭11-概念圖收＝鏡頭12開始",
+      "page_id": "PBrGSrf7VKRG24bq"
+    },
+    "36": {
+      "title": "鏡頭12結束＝鏡頭13開始",
+      "page_id": "PBtzy84XTWNwzyP9"
+    },
+    "37": {
+      "title": "鏡頭13-概念圖1",
+      "page_id": "PBhS1T0DlcvkG8gw"
+    },
+    "38": {
+      "title": "鏡頭13-概念圖2",
+      "page_id": "PBwcRMStS9FqHTln"
+    },
+    "39": {
+      "title": "鏡頭13-概念圖3",
+      "page_id": "PBSbY0PYHnYKwvYZ"
+    },
+    "40": {
+      "title": "鏡頭13-概念圖收＝鏡頭14開始",
+      "page_id": "PBhGgV5LvfPrWk0Z"
+    },
+    "41": {
+      "title": "鏡頭14結束＝鏡頭15開始",
+      "page_id": "PB8GsFShBdZ86WTW"
+    },
+    "42": {
+      "title": "鏡頭15結束",
+      "page_id": "PBL2J81HHBYWLs86"
+    },
+    "43": {
+      "title": "鏡頭15-概念圖1",
+      "page_id": "PBGWcK7C2QbXQmPB"
+    },
+    "44": {
+      "title": "鏡頭15-概念圖2",
+      "page_id": "PBTYgLNYjN2RXhzt"
+    },
+    "45": {
+      "title": "鏡頭15-概念圖收＝鏡頭16開始",
+      "page_id": "PBGsFdrflKWbm4S1"
+    },
+    "46": {
+      "title": "鏡頭16-概念圖1",
+      "page_id": "PB6qmRtmrxdVvmnX"
+    },
+    "47": {
+      "title": "鏡頭16-概念圖2",
+      "page_id": "PB9JL287KWLGRcww"
+    },
+    "48": {
+      "title": "鏡頭16-概念圖3",
+      "page_id": "PB0hsc20tp5FQhcD"
+    },
+    "49": {
+      "title": "鏡頭16-概念圖收＝鏡頭17開始",
+      "page_id": "PBqNbY4HglhTbdz0"
+    },
+    "50": {
+      "title": "鏡頭17結束＝鏡頭18開始",
+      "page_id": "PBkY4GSlH5mlPdBr"
+    },
+    "51": {
+      "title": "鏡頭18-概念圖",
+      "page_id": "PBnqZm1YCrLqnfxB"
+    },
+    "52": {
+      "title": "鏡頭18-概念圖收",
+      "page_id": "PB909lc5dFFxxSkq"
+    },
+    "53": {
+      "title": "長圖轉北盤2-回中心",
+      "page_id": "PBD6gzFfcCWcn02x"
+    },
+    "54": {
+      "title": "長圖轉北盤2-上移",
+      "page_id": "PBDXZdztzNJCTxrR"
+    },
+    "55": {
+      "title": "長圖轉北盤2",
+      "page_id": "PBGnVh3XVSlWNK8K"
+    },
+    "56": {
+      "title": "鏡頭19開始",
+      "page_id": "PBCw6lLqdqmDMCwL"
+    },
+    "57": {
+      "title": "鏡頭19結束",
+      "page_id": "PBnQRwrNRDsZc5pZ"
+    }
+  },
+  "old_pages": {
+    "cover": "PBHN62bylQJmyC07",
+    "next_ep": "PBxysP00l2HhWXCF"
+  },
+  "done_pages": 57,
+  "last_done": "鏡頭19結束",
+  "next_page": null,
+  "note": "v2 補頁（2026-11-10 卡 04）：新增 12 頁（新頁 31–34、36–39、45–48）已排並存檔；原 Canva 第 32、33、38 頁改當新頁 35、40、49（內容不變，只改備註）；Canva 第 3、7 頁字幕改成 v2。頁名（頁面標題）連接器改不了，舊頁名請手動改。之前：第1–45頁全部排完並存檔；封面與下集見已改。",
+  "final_order": "封面→新頁1–57（第2–58頁）→下集見（59）→追蹤我們（60）→參考文獻／製作團隊／鳴謝→舊頁（最後8頁）",
+  "old_pages_v1": {
     "1": {
       "title": "鏡頭01開始",
       "page_id": "PBmBd89XLHj0RYnp"
@@ -220,13 +468,18 @@
       "page_id": "PBnQRwrNRDsZc5pZ"
     }
   },
-  "old_pages": {
-    "cover": "PBHN62bylQJmyC07",
-    "next_ep": "PBxysP00l2HhWXCF"
-  },
-  "done_pages": 45,
-  "last_done": "鏡頭19結束",
-  "next_page": null,
-  "note": "第1–45頁全部排完並存檔；封面與下集見已改（封面＝黑腳族標題＋A-17北盤L1–3；下集見＝A-18古埃及＋A-18北盤L1–3）；頁序已重排並存檔。第43頁（長圖轉北盤2）已拿掉牛前腿連線層，與上一頁畫面相同。",
-  "final_order": "封面→新頁1–45（第2–46頁）→下集見（47）→追蹤我們（48）→參考文獻／製作團隊／鳴謝→舊頁（長圖、長圖疊繁古、北盤、北盤連、南盤、概念圖1–3，最後8頁）"
+  "v2_new_pages": [
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    45,
+    46,
+    47,
+    48
+  ]
 }
