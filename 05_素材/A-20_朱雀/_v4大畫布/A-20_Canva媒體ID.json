@@ -56,10 +56,10 @@
   },
   "concept_commit": "a409f930a34a0fa88874bacd4462cc5bbe5f87e1",
   "progress": {
-    "done_pages": 14,
-    "last_done": "北盤轉長圖1-下移",
-    "next_page": 15,
-    "note": "新頁 1–14 已排好並存檔（新頁 9、12、13 的山內圖框未 crop 回 0/0/1939.08×300.56，差約 1px；新頁 14 的山待 crop）。其餘 15–57 待做。舊頁尚未改寫／移動。"
+    "done_pages": 21,
+    "last_done": "鏡頭05-概念圖3",
+    "next_page": 22,
+    "note": "新頁 1–22 已建並存檔（22 的山／文字待 crop／format）；新頁 9、12、13 的山內圖框未 crop 回（差約 1px）；字幕為整段旁白斷行、位置未避開標籤，待人工；其餘 23–57 待做；舊頁尚未改寫／移動。"
   },
   "page_ids": [
     "PB8Ty6rPWTBLTGw2",
