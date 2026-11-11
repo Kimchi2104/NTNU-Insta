@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-179.53 -179.53 359.05 359.05" width="359.05" height="359.05">
+<title>A-22 盤｜盤寬 = 大畫布寬 × 0.997371（R_fill=179.527，盤緣圈半徑 = 大畫布寬 × 0.159155）</title>
+<g fill="none" stroke="#FFC94A" stroke-width="0.300" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 174.98 -14.73 L 174.69 -15.28 L 174.41 -15.84 L 174.12 -16.39 L 173.83 -16.95 L 173.54 -17.50 L 173.25 -18.05"/>
+<path d="M 173.25 -18.05 L 172.90 -18.55 L 172.56 -19.04 L 172.22 -19.54 L 171.87 -20.03 L 171.52 -20.52 L 171.17 -21.01"/>
+</g>
+<g fill="none" stroke="#7BD88F" stroke-width="0.270" stroke-opacity="0.920" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 177.09 -18.93 L 178.33 -19.16"/>
+</g>
+</svg>

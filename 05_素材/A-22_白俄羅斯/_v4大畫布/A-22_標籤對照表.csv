@@ -1,0 +1,29 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+Voz,Voz,,The Cart,大車（北斗）,#FFC94A,Stellarium 寫法 （無）；白俄文 Воз＝運貨的大車；Stellarium 只收 Іллёў воз，Voz 見 Avilin 2008 與作者部落格「Вялікая Мядзведзіца」篇
+Maly voz,Maly voz,,The Small Cart,小車（小熊）,#7BD88F,Stellarium 寫法 Maly Vos；Stellarium belarusian 016：Малы воз
+Hvozdz,Hvozdz,,The Nail,釘子（北極星）,#FFFFFF,Stellarium 寫法 Gvozd；Stellarium belarusian 010：Гвоздзь「天空繞著它轉」；Г 讀 [ɣ]，片中寫 H（嚴格轉寫 Hvozdź）
+Altan gadas,Altan gadas,,Golden Stake (Mongolian),金樁（蒙古）,#6FA8FF,Stellarium 寫法 Altan Hadaas；蒙古 Алтан гадас（A-07）；片中只放拉丁轉寫，西里爾留在小辭典
+Boahjenásti,Boahjenásti,,Sky Support (Sami),撐住天空的星（薩米）,#FFFFFF,Stellarium 寫法 Boahjenaste；Stellarium sami 004（A-21）
+Illioŭ voz,Illioŭ voz,,Elias's Cart,以利亞的車（北斗）,#FF6B6B,Stellarium 寫法 Illyouo voz；Stellarium belarusian 001：Іллёў воз；Stellarium 拼法 Illyouo voz 不是標準轉寫
+Karlvagn,Karlvagn,,Man's Cart (Norse),男人的車（北歐）,#FFC94A,Stellarium norse（A-15）
+Carul Mare,Carul Mare,,The Great Chariot (Romanian),大車（羅馬尼亞）,#FFC94A,Stellarium romanian UMa（18 顆，比北斗大；A-23）
+斗為帝車,斗為帝車,,The Dipper is the Emperor's chariot,天帝的車（《史記》）,#FFC94A,《史記・天官書》「斗為帝車，運于中央，臨制四鄉」
+Kastsy,Kastsy,,The Mowers,割草的人（腰帶）,#FFC94A,Stellarium belarusian 009：Касцы
+Hrabli,Hrabli,,The Rake,耙子,#7BD88F,Stellarium 寫法 Grabli；Stellarium belarusian 012：Граблі；柄 HIP 26263→26173（6.4、6.7 等）、橫桿 υ Ori—26173—49 Ori；不是 M42
+Rataj,Rataj,,The Ploughman,犁田的人（牧夫）,#6FA8FF,Stellarium belarusian 011：Ратай（古詞）
+Sita,Sita,,The Sieve,篩子（后髮）,#B78AFF,Stellarium 寫法 Sito；Stellarium belarusian 015：Сіта「上帝拿它篩過 жыта 黑麥」；位置待查核（另有資料說是昴宿）
+Kurki,Kurki,,The Hens,母雞（昴宿）,#7BD88F,Stellarium belarusian 003：Куркі；主程式版譯 The Chicks，куркі 是母雞（複數）
+Vuzhy,Vuzhy,,The Grass Snakes,草蛇（畢宿）,#FF6B6B,Stellarium belarusian 007：Вужы
+Kaza,Kaza,,The She-Goat,母山羊（五車二）,#FFC94A,Stellarium belarusian 006：Каза
+Baran,Baran,,The Ram,公羊（白羊）,#6FA8FF,Stellarium belarusian 013：Баран
+Kreselca Pana Jezusa,Kreselca Pana Jezusa,,The Throne of Jesus,耶穌的椅子（獵戶）,#B78AFF,Stellarium belarusian 017：Крэсельца Пана Езуса
+Zmiej,Zmiej,,The Serpent,聖喬治殺的蛇（天龍）,#FF6B6B,Stellarium 寫法 Zmej；Stellarium belarusian 014：Змей；15 顆裡 7 顆＝紫微左右垣（自算）
+紫微左垣,紫微左垣,,Purple Forbidden Left Wall,紫微左垣,#FFC94A,Stellarium 寫法 Zǐwēi Zuǒyuán；Stellarium chinese 033
+紫微右垣,紫微右垣,,Purple Forbidden Right Wall,紫微右垣,#FFC94A,Stellarium 寫法 Zǐwēi Yòuyuán；Stellarium chinese 032
+波蘭和立陶宛,波蘭和立陶宛,,Poland and Lithuania,波蘭和立陶宛（北河二、三）,#FFC94A,Stellarium 寫法 Poland and Lithuania；Stellarium belarusian 008（無白俄文；舊版 description：立陶宛大公國與波蘭王國的象徵）；不分哪顆是哪國
+Blizniuki,Blizniuki,,The Twins,雙胞胎（雙子）,#A9C8FF,Stellarium belarusian 018：Блізнюкі
+月亮 2/19,月亮 2/19,,"Moon, Feb 19 20:00",月亮（2/19）,#FFFFFF,台北 2/19 20:00：97%、高 49.8°（PyEphem 自算）
+月亮 2/20 元宵,月亮 2/20 元宵,,"Moon, Feb 20 20:00",月亮（2/20 元宵）,#FFFFFF,台北 2/20 20:00：99.7%、高 35.7°
+木星,木星,,Jupiter,木星,#FFFFFF,2/11 上午衝日；−2.55 等
+火星（衝日）,火星（衝日）,,Mars (opposition),火星,#FF6B6B,2/19 23:51 衝日；−1.28 等
+軒轅十四,軒轅十四,,Regulus,軒轅十四,#FFFFFF,
