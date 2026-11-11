@@ -1,0 +1,2512 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "北盤",
+  "left": -2304.75,
+  "top": -2180.53,
+  "width": 4769.72,
+  "height": 4769.72,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "上週，薩米人說北極星撐著整片天空。今晚往南到白俄羅斯：同一片星空，白俄羅斯的農民看見——一本農民曆。",
+  "trans": "（第一頁）",
+  "mountain_top": 1401.6
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01-中1",
+  "group": "北盤",
+  "left": -2376.07,
+  "top": -2241.59,
+  "width": 4901.66,
+  "height": 4901.66,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1444.3
+ },
+ {
+  "page": 3,
+  "title": "鏡頭01-中2",
+  "group": "北盤",
+  "left": -2447.39,
+  "top": -2302.65,
+  "width": 5033.61,
+  "height": 5033.61,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1486.9
+ },
+ {
+  "page": 4,
+  "title": "鏡頭01-中3",
+  "group": "北盤",
+  "left": -2518.71,
+  "top": -2363.71,
+  "width": 5165.56,
+  "height": 5165.56,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1529.5
+ },
+ {
+  "page": 5,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "北盤",
+  "left": -2590.03,
+  "top": -2424.77,
+  "width": 5297.51,
+  "height": 5297.51,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "白俄羅斯在東歐內陸，沒有海，四成是森林，還有上千座湖。研究者發現，到了二十一世紀，村裡的老人還叫得出星星的名字。",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1572.1
+ },
+ {
+  "page": 6,
+  "title": "鏡頭02-概念圖1",
+  "group": "北盤",
+  "left": -2590.03,
+  "top": -2424.77,
+  "width": 5297.51,
+  "height": 5297.51,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": 1572.1,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-01_白俄羅斯在哪_地圖層_透明.png",
+    "left": 24,
+    "top": 472.42,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 465.1052631578948,
+   "width": 1032,
+   "height": 989.7894736842104,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 7,
+  "title": "鏡頭02-概念圖2",
+  "group": "北盤",
+  "left": -2590.03,
+  "top": -2424.77,
+  "width": 5297.51,
+  "height": 5297.51,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": 1572.1,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-01_白俄羅斯在哪_地圖層_透明.png",
+    "left": 24,
+    "top": 472.42,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-01_白俄羅斯在哪_森林湖泊層_透明.png",
+    "left": 24,
+    "top": 472.42,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 465.1052631578948,
+   "width": 1032,
+   "height": 989.7894736842104,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 8,
+  "title": "鏡頭02-概念圖收＝鏡頭03開始",
+  "group": "北盤",
+  "left": -2590.03,
+  "top": -2424.77,
+  "width": 5297.51,
+  "height": 5297.51,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L19-標籤-Hvozdz釘子"
+  ],
+  "notes": "先往北看。北極星叫 Hvozdz——釘子，整片天空就繞著這根釘子轉。蒙古人也說它是一根金樁。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": 1572.1,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 9,
+  "title": "鏡頭03-中1",
+  "group": "北盤",
+  "left": -3019.33,
+  "top": -2817.35,
+  "width": 6396.75,
+  "height": 6396.75,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L19-標籤-Hvozdz釘子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 2062.5
+ },
+ {
+  "page": 10,
+  "title": "鏡頭03-中2",
+  "group": "北盤",
+  "left": -3448.63,
+  "top": -3209.94,
+  "width": 7495.98,
+  "height": 7495.98,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L19-標籤-Hvozdz釘子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 2538.7
+ },
+ {
+  "page": 11,
+  "title": "鏡頭03-中3",
+  "group": "北盤",
+  "left": -3877.93,
+  "top": -3602.52,
+  "width": 8595.21,
+  "height": 8595.21,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L19-標籤-Hvozdz釘子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 3011.0
+ },
+ {
+  "page": 12,
+  "title": "鏡頭03結束＝鏡頭04開始",
+  "group": "北盤",
+  "left": -4307.22,
+  "top": -3995.1,
+  "width": 9694.45,
+  "height": 9694.45,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L19-標籤-Hvozdz釘子",
+   "北盤L20-標籤-北極星-跨文化"
+  ],
+  "notes": "繞著釘子轉的，是一輛車：北斗七星叫 Voz，大車；小熊座是 Maly voz，小車。冬天的節日 Kaliady，傳說就是坐著這輛大車來的。",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 3480.7
+ },
+ {
+  "page": 13,
+  "title": "鏡頭04-中1",
+  "group": "北盤",
+  "left": -3697.71,
+  "top": -3450.49,
+  "width": 8165.98,
+  "height": 8165.98,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": 2825.6
+ },
+ {
+  "page": 14,
+  "title": "鏡頭04-中2",
+  "group": "北盤",
+  "left": -3088.2,
+  "top": -2905.89,
+  "width": 6637.52,
+  "height": 6637.52,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": 2165.7
+ },
+ {
+  "page": 15,
+  "title": "鏡頭04-中3",
+  "group": "北盤",
+  "left": -2478.69,
+  "top": -2361.28,
+  "width": 5109.06,
+  "height": 5109.06,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": 1487.8
+ },
+ {
+  "page": 16,
+  "title": "鏡頭04-中4",
+  "group": "北盤",
+  "left": -2370.21,
+  "top": -2165.06,
+  "width": 4895.2,
+  "height": 4895.2,
+  "rotation": -82.02,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": 1515.8
+ },
+ {
+  "page": 17,
+  "title": "鏡頭04-中5",
+  "group": "北盤",
+  "left": -2261.72,
+  "top": -1968.85,
+  "width": 4681.35,
+  "height": 4681.35,
+  "rotation": -92.04,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": 1543.7
+ },
+ {
+  "page": 18,
+  "title": "鏡頭04結束＝鏡頭05開始",
+  "group": "北盤",
+  "left": -2153.24,
+  "top": -1772.63,
+  "width": 4467.49,
+  "height": 4467.49,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L16-單星光暈",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "基督教傳進來以後，這輛車有了主人：先知以利亞。聖經說他沒有死——「忽有火車火馬將二人隔開，以利亞就乘旋風升天去了」。",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": 1571.7
+ },
+ {
+  "page": 19,
+  "title": "鏡頭05-中1",
+  "group": "北盤",
+  "left": -2428.29,
+  "top": -1842.44,
+  "width": 4800.07,
+  "height": 4800.07,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": 1749.1
+ },
+ {
+  "page": 20,
+  "title": "鏡頭05-中2",
+  "group": "北盤",
+  "left": -2703.33,
+  "top": -1912.25,
+  "width": 5132.65,
+  "height": 5132.65,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": 1925.7
+ },
+ {
+  "page": 21,
+  "title": "鏡頭05-中3",
+  "group": "北盤",
+  "left": -2978.38,
+  "top": -1982.05,
+  "width": 5465.23,
+  "height": 5465.23,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": 2104.9
+ },
+ {
+  "page": 22,
+  "title": "鏡頭05-中4",
+  "group": "北盤",
+  "left": -3253.43,
+  "top": -2051.86,
+  "width": 5797.8,
+  "height": 5797.8,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": 2279.7
+ },
+ {
+  "page": 23,
+  "title": "鏡頭05-中5",
+  "group": "北盤",
+  "left": -3528.48,
+  "top": -2121.67,
+  "width": 6130.38,
+  "height": 6130.38,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": 2445.4
+ },
+ {
+  "page": 24,
+  "title": "鏡頭05結束",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點",
+   "北盤L18-標籤-Voz與Maly voz"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": 2611.7
+ },
+ {
+  "page": 25,
+  "title": "鏡頭05-概念圖",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-02_火車火馬_經文層_透明.png",
+    "left": 24,
+    "top": 446.77,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 686.8947368421052,
+   "width": 1032,
+   "height": 546.2105263157894,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 26,
+  "title": "鏡頭05-概念圖收＝鏡頭06開始",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L15-主角星白點",
+   "北盤L21-標籤-Illioŭ voz"
+  ],
+  "notes": "所以北斗又叫 Illioŭ voz，以利亞的車——一輛火焰馬車。東斯拉夫民間說，夏天打雷，就是他駕著車在天上跑，閃電是他在追打魔鬼。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 27,
+  "title": "鏡頭06-概念圖1",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-以利亞的車",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-03_雷聲車輪_車輪層_透明.png",
+    "left": 24,
+    "top": 488.01,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 583.7953216374269,
+   "width": 1032,
+   "height": 752.4093567251462,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 28,
+  "title": "鏡頭06-概念圖2",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-以利亞的車",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-03_雷聲車輪_車輪層_透明.png",
+    "left": 24,
+    "top": 488.01,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-03_雷聲車輪_閃電層_透明.png",
+    "left": 24,
+    "top": 488.01,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 583.7953216374269,
+   "width": 1032,
+   "height": 752.4093567251462,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 29,
+  "title": "鏡頭06-概念圖收＝鏡頭07開始",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-以利亞的車",
+   "北盤L15-主角星白點",
+   "北盤L21-標籤-Illioŭ voz"
+  ],
+  "notes": "他的節日在八月初，正是雷雨多、麥子收割的時候。也有人認為，更早以前駕這輛車的，是雷神 Perun。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 30,
+  "title": "鏡頭07-概念圖1",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-以利亞的車",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-04_白俄羅斯農民曆_年輪層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 452.5321637426901,
+   "width": 1032,
+   "height": 1014.9356725146199,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 31,
+  "title": "鏡頭07-概念圖2",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-以利亞的車",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-04_白俄羅斯農民曆_年輪層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-04_白俄羅斯農民曆_節日層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 452.5321637426901,
+   "width": 1032,
+   "height": 1014.9356725146199,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 32,
+  "title": "鏡頭07-概念圖3",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-以利亞的車",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": 2611.7,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-04_白俄羅斯農民曆_年輪層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-04_白俄羅斯農民曆_節日層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-04_白俄羅斯農民曆_星層_透明.png",
+    "left": 24,
+    "top": 459.84,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 452.5321637426901,
+   "width": 1032,
+   "height": 1014.9356725146199,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 33,
+  "title": "鏡頭07-概念圖收＝鏡頭08開始",
+  "group": "北盤",
+  "left": -3803.52,
+  "top": -2191.48,
+  "width": 6462.96,
+  "height": 6462.96,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L7-連線-以利亞的車",
+   "北盤L15-主角星白點",
+   "北盤L22-標籤-跨文化-北斗是車"
+  ],
+  "notes": "把北斗看成車的，不只白俄羅斯：北歐叫「男人的車」，羅馬尼亞叫「大車」；司馬遷也說「斗為帝車」——天帝的車。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 34,
+  "title": "鏡頭08-中1",
+  "group": "北盤",
+  "left": -3548.02,
+  "top": -2006.1,
+  "width": 6082.79,
+  "height": 6082.79,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L15-主角星白點",
+   "北盤L22-標籤-跨文化-北斗是車"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭08-中2",
+  "group": "北盤",
+  "left": -3292.52,
+  "top": -1820.72,
+  "width": 5702.62,
+  "height": 5702.62,
+  "rotation": -102.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L15-主角星白點",
+   "北盤L22-標籤-跨文化-北斗是車"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 36,
+  "title": "鏡頭08-中3",
+  "group": "北盤",
+  "left": -3395.94,
+  "top": -2450.04,
+  "width": 6890.66,
+  "height": 6890.66,
+  "rotation": -51.03,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L15-主角星白點",
+   "北盤L22-標籤-跨文化-北斗是車"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 37,
+  "title": "鏡頭08結束",
+  "group": "北盤",
+  "left": -3499.35,
+  "top": -3079.35,
+  "width": 8078.7,
+  "height": 8078.7,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Voz大車",
+   "北盤L6-連線-Maly voz小車",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 38,
+  "title": "鏡頭09開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -3076.15,
+  "width": 8100.0,
+  "height": 13432.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L6-連線-Maly voz小車",
+   "L19-主角星白點"
+  ],
+  "notes": "往南看獵戶座。腰帶三顆星，一顆接一顆斜斜排開，像田裡一排割草的人，叫 Kastsy。下面那串小星，是耙草的耙子 Hrabli。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 39,
+  "title": "鏡頭09-中1",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -3879.52,
+  "width": 8100.0,
+  "height": 13432.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L6-連線-Maly voz小車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 40,
+  "title": "鏡頭09-中2",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -4682.88,
+  "width": 8100.0,
+  "height": 13432.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L6-連線-Maly voz小車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 41,
+  "title": "鏡頭09-中3",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -5486.25,
+  "width": 8100.0,
+  "height": 13432.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L6-連線-Maly voz小車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭09-中4",
+  "group": "長圖",
+  "left": -5470.92,
+  "top": -6977.1,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L6-連線-Maly voz小車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 43,
+  "title": "鏡頭09-中5",
+  "group": "長圖",
+  "left": -7431.84,
+  "top": -8467.95,
+  "width": 11340.0,
+  "height": 18805.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L6-連線-Maly voz小車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 44,
+  "title": "鏡頭09結束＝鏡頭10開始",
+  "group": "長圖",
+  "left": -9392.76,
+  "top": -9958.8,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L6-連線-Maly voz小車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "我們把它們放在一起看：割草、耙草，再用北邊的大車載回家——夏天打乾草的一整套，冬天全掛在天上。",
+  "trans": "Match & Move（1.8 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 45,
+  "title": "鏡頭10-中1",
+  "group": "長圖",
+  "left": -8152.88,
+  "top": -8571.76,
+  "width": 11340.0,
+  "height": 18805.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 46,
+  "title": "鏡頭10-中2",
+  "group": "長圖",
+  "left": -6912.99,
+  "top": -7184.73,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 47,
+  "title": "鏡頭10-中3",
+  "group": "長圖",
+  "left": -5673.11,
+  "top": -5797.69,
+  "width": 8100.0,
+  "height": 13432.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 48,
+  "title": "鏡頭10結束",
+  "group": "長圖",
+  "left": -4433.22,
+  "top": -4410.66,
+  "width": 6480.0,
+  "height": 10746.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 49,
+  "title": "鏡頭10-概念圖1",
+  "group": "長圖",
+  "left": -4433.22,
+  "top": -4410.66,
+  "width": 6480.0,
+  "height": 10746.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-05_打乾草的一整套_割層_透明.png",
+    "left": 24,
+    "top": 486.5,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 659.7368421052631,
+   "width": 1032,
+   "height": 600.5263157894738,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 50,
+  "title": "鏡頭10-概念圖2",
+  "group": "長圖",
+  "left": -4433.22,
+  "top": -4410.66,
+  "width": 6480.0,
+  "height": 10746.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-05_打乾草的一整套_割層_透明.png",
+    "left": 24,
+    "top": 486.5,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-05_打乾草的一整套_耙層_透明.png",
+    "left": 24,
+    "top": 486.5,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 659.7368421052631,
+   "width": 1032,
+   "height": 600.5263157894738,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 51,
+  "title": "鏡頭10-概念圖3",
+  "group": "長圖",
+  "left": -4433.22,
+  "top": -4410.66,
+  "width": 6480.0,
+  "height": 10746.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-05_打乾草的一整套_割層_透明.png",
+    "left": 24,
+    "top": 486.5,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-05_打乾草的一整套_耙層_透明.png",
+    "left": 24,
+    "top": 486.5,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-05_打乾草的一整套_載層_透明.png",
+    "left": 24,
+    "top": 486.5,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 659.7368421052631,
+   "width": 1032,
+   "height": 600.5263157894738,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 52,
+  "title": "鏡頭10-概念圖收＝鏡頭11開始",
+  "group": "長圖",
+  "left": -4433.22,
+  "top": -4410.66,
+  "width": 6480.0,
+  "height": 10746.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L5-連線-Voz大車",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy",
+   "L28-標籤-Hrabli"
+  ],
+  "notes": "春天的天上還有更多農具：牧夫座是犁田的人 Rataj；后髮座那幾顆暗星是篩子 Sita——老人說，上帝曾經拿它篩黑麥。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 53,
+  "title": "鏡頭11-中1",
+  "group": "長圖",
+  "left": -4088.24,
+  "top": -4565.72,
+  "width": 6720.76,
+  "height": 11145.26,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-犁與篩",
+   "L19-主角星白點",
+   "L29-標籤-Rataj與Sita"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 54,
+  "title": "鏡頭11-中2",
+  "group": "長圖",
+  "left": -3743.26,
+  "top": -4720.78,
+  "width": 6961.52,
+  "height": 11544.52,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-犁與篩",
+   "L19-主角星白點",
+   "L29-標籤-Rataj與Sita"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 55,
+  "title": "鏡頭11-中3",
+  "group": "長圖",
+  "left": -3398.28,
+  "top": -4875.85,
+  "width": 7202.28,
+  "height": 11943.78,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-犁與篩",
+   "L19-主角星白點",
+   "L29-標籤-Rataj與Sita"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 56,
+  "title": "鏡頭11-中4",
+  "group": "長圖",
+  "left": -3053.3,
+  "top": -5030.91,
+  "width": 7443.04,
+  "height": 12343.03,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-犁與篩",
+   "L19-主角星白點",
+   "L29-標籤-Rataj與Sita"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 57,
+  "title": "鏡頭11結束＝鏡頭12開始",
+  "group": "長圖",
+  "left": -2708.32,
+  "top": -5185.97,
+  "width": 7683.79,
+  "height": 12742.29,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-犁與篩",
+   "L19-主角星白點",
+   "L29-標籤-Rataj與Sita"
+  ],
+  "notes": "還有一院子的動物：昴宿是一群母雞 Kurki，畢宿是幾條草蛇，五車二是母山羊 Kaza，白羊座，就是院子裡的公羊。",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 58,
+  "title": "鏡頭12-中1",
+  "group": "長圖",
+  "left": -5030.35,
+  "top": -5873.54,
+  "width": 8701.9,
+  "height": 14430.65,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-院子",
+   "L20-單星光暈",
+   "L19-主角星白點",
+   "L30-標籤-院子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 59,
+  "title": "鏡頭12-中2",
+  "group": "長圖",
+  "left": -7352.37,
+  "top": -6561.12,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-院子",
+   "L20-單星光暈",
+   "L19-主角星白點",
+   "L30-標籤-院子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 60,
+  "title": "鏡頭12-中3",
+  "group": "長圖",
+  "left": -7687.85,
+  "top": -6561.12,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-院子",
+   "L20-單星光暈",
+   "L19-主角星白點",
+   "L30-標籤-院子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 61,
+  "title": "鏡頭12結束＝鏡頭13開始",
+  "group": "長圖",
+  "left": -8023.32,
+  "top": -6561.12,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-院子",
+   "L20-單星光暈",
+   "L19-主角星白點",
+   "L30-標籤-院子"
+  ],
+  "notes": "同一片天，後來也慢慢變成一座教堂：整個獵戶座是耶穌的椅子；北冕座是荊棘冠，天鵝座是聖彼得的十字架。",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 62,
+  "title": "鏡頭13-中1",
+  "group": "長圖",
+  "left": -7802.62,
+  "top": -6668.09,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點",
+   "L31-標籤-耶穌的椅子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 63,
+  "title": "鏡頭13-中2",
+  "group": "長圖",
+  "left": -7581.92,
+  "top": -6775.07,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點",
+   "L31-標籤-耶穌的椅子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 64,
+  "title": "鏡頭13-中3",
+  "group": "長圖",
+  "left": -7361.23,
+  "top": -6882.04,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點",
+   "L31-標籤-耶穌的椅子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 65,
+  "title": "鏡頭13-中4",
+  "group": "長圖",
+  "left": -7140.53,
+  "top": -6989.02,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點",
+   "L31-標籤-耶穌的椅子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 66,
+  "title": "鏡頭13結束",
+  "group": "長圖",
+  "left": -6919.83,
+  "top": -7095.99,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點",
+   "L31-標籤-耶穌的椅子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 67,
+  "title": "鏡頭13-概念圖1",
+  "group": "長圖",
+  "left": -6919.83,
+  "top": -7095.99,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-08_荊棘冠與十字架_北冕層_透明.png",
+    "left": 24,
+    "top": 465.12,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 602.1520467836258,
+   "width": 1032,
+   "height": 715.6959064327484,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 68,
+  "title": "鏡頭13-概念圖2",
+  "group": "長圖",
+  "left": -6919.83,
+  "top": -7095.99,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-08_荊棘冠與十字架_北冕層_透明.png",
+    "left": 24,
+    "top": 465.12,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A22-08_荊棘冠與十字架_天鵝層_透明.png",
+    "left": 24,
+    "top": 465.12,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 602.1520467836258,
+   "width": 1032,
+   "height": 715.6959064327484,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 69,
+  "title": "鏡頭13-概念圖收",
+  "group": "長圖",
+  "left": -6919.83,
+  "top": -7095.99,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點",
+   "L31-標籤-耶穌的椅子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 70,
+  "title": "長圖轉北盤1-回中心",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7099.5,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 71,
+  "title": "長圖轉北盤1-上移",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -3883.38,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-耶穌的椅子",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 72,
+  "title": "長圖轉北盤1",
+  "group": "北盤",
+  "left": -4307.22,
+  "top": -3887.22,
+  "width": 9694.45,
+  "height": 9694.45,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 73,
+  "title": "鏡頭14開始",
+  "group": "北盤",
+  "left": -2013.16,
+  "top": -2047.93,
+  "width": 4939.85,
+  "height": 4939.85,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點",
+   "北盤L23-標籤-Zmiej"
+  ],
+  "notes": "天龍座，是聖喬治殺死的那條蛇，被他掛在那顆「永遠不動的星」旁邊——巧的是，這條蛇的身體，正好疊在中國紫微垣的城牆上。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 74,
+  "title": "鏡頭14-中1",
+  "group": "北盤",
+  "left": -2069.49,
+  "top": -2114.3,
+  "width": 5048.84,
+  "height": 5048.84,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點",
+   "北盤L23-標籤-Zmiej"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.4 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 75,
+  "title": "鏡頭14-中2",
+  "group": "北盤",
+  "left": -2125.83,
+  "top": -2180.68,
+  "width": 5157.84,
+  "height": 5157.84,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點",
+   "北盤L23-標籤-Zmiej"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.4 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 76,
+  "title": "鏡頭14-中3",
+  "group": "北盤",
+  "left": -2182.16,
+  "top": -2247.05,
+  "width": 5266.84,
+  "height": 5266.84,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點",
+   "北盤L23-標籤-Zmiej"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.4 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 77,
+  "title": "鏡頭14-中4",
+  "group": "北盤",
+  "left": -2238.5,
+  "top": -2313.42,
+  "width": 5375.84,
+  "height": 5375.84,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點",
+   "北盤L23-標籤-Zmiej"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.4 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 78,
+  "title": "鏡頭14結束",
+  "group": "北盤",
+  "left": -2294.84,
+  "top": -2379.79,
+  "width": 5484.84,
+  "height": 5484.84,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點",
+   "北盤L23-標籤-Zmiej",
+   "北盤L24-標籤-紫微左右垣"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.4 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 79,
+  "title": "北盤轉長圖1-歸位",
+  "group": "北盤",
+  "left": -4307.22,
+  "top": -3887.22,
+  "width": 9694.45,
+  "height": 9694.45,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-聖喬治的蛇",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L17-共用七星圈",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 80,
+  "title": "北盤轉長圖1",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -3883.38,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L13-連線-聖喬治的蛇",
+   "L15-紫微垣（虛線）",
+   "L21-共用七星圈",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 81,
+  "title": "北盤轉長圖1-下移＝鏡頭15開始",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7099.5,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-雙胞胎",
+   "L19-主角星白點"
+  ],
+  "notes": "雙子座的兩顆亮星，代表幾百年前的兩個國家：波蘭和立陶宛——白俄羅斯這塊地，就在立陶宛那一邊。",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 82,
+  "title": "鏡頭15-中1",
+  "group": "長圖",
+  "left": -5411.88,
+  "top": -7560.26,
+  "width": 10530.0,
+  "height": 17462.25,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-雙胞胎",
+   "L19-主角星白點",
+   "L35-標籤-雙胞胎"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 83,
+  "title": "鏡頭15-中2",
+  "group": "長圖",
+  "left": -6503.76,
+  "top": -8021.01,
+  "width": 11340.0,
+  "height": 18805.5,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-雙胞胎",
+   "L19-主角星白點",
+   "L35-標籤-雙胞胎"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 84,
+  "title": "鏡頭15-中3",
+  "group": "長圖",
+  "left": -7595.64,
+  "top": -8481.76,
+  "width": 12150.0,
+  "height": 20148.75,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-雙胞胎",
+   "L19-主角星白點",
+   "L35-標籤-雙胞胎"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 85,
+  "title": "鏡頭15結束＝鏡頭16開始",
+  "group": "長圖",
+  "left": -8687.52,
+  "top": -8942.52,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-雙胞胎",
+   "L19-主角星白點",
+   "L35-標籤-雙胞胎"
+  ],
+  "notes": "這集的白俄羅斯星名，整理成一張小辭典，可以存起來。",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 86,
+  "title": "鏡頭16-概念圖",
+  "group": "長圖",
+  "left": -8687.52,
+  "top": -8942.52,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-雙胞胎",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-06_白俄羅斯星名小辭典_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 87,
+  "title": "鏡頭16-概念圖收＝鏡頭17開始",
+  "group": "長圖",
+  "left": -8687.52,
+  "top": -8942.52,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-雙胞胎",
+   "L19-主角星白點",
+   "L27-標籤-Kastsy"
+  ],
+  "notes": "這幾天在台灣：天一黑，割草的人就在南方高空；九點以後，北斗從東北方爬上來。今晚東方，月亮下面是木星和衝日的火星；明晚元宵，月亮就停在它們中間。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 88,
+  "title": "鏡頭17-中1",
+  "group": "長圖",
+  "left": -8098.29,
+  "top": -8331.78,
+  "width": 11880.0,
+  "height": 19701.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點",
+   "L36-標籤-這幾天"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 89,
+  "title": "鏡頭17-中2",
+  "group": "長圖",
+  "left": -7509.06,
+  "top": -7721.04,
+  "width": 10800.0,
+  "height": 17910.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點",
+   "L36-標籤-這幾天"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 90,
+  "title": "鏡頭17-中3",
+  "group": "長圖",
+  "left": -6919.83,
+  "top": -7110.3,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點",
+   "L36-標籤-這幾天"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 91,
+  "title": "鏡頭17-中4",
+  "group": "長圖",
+  "left": -6383.07,
+  "top": -6968.73,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點",
+   "L36-標籤-這幾天"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 92,
+  "title": "鏡頭17-中5",
+  "group": "長圖",
+  "left": -5846.31,
+  "top": -6827.16,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點",
+   "L36-標籤-這幾天"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 93,
+  "title": "鏡頭17結束",
+  "group": "長圖",
+  "left": -5309.55,
+  "top": -6685.59,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點",
+   "L36-標籤-這幾天"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 94,
+  "title": "鏡頭17-概念圖",
+  "group": "長圖",
+  "left": -5309.55,
+  "top": -6685.59,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A22-07_這幾天抬頭看_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 95,
+  "title": "鏡頭17-概念圖收",
+  "group": "長圖",
+  "left": -5309.55,
+  "top": -6685.59,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點",
+   "L36-標籤-這幾天"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 96,
+  "title": "長圖轉北盤2-回中心",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -7099.5,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 97,
+  "title": "長圖轉北盤2-上移",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -3883.38,
+  "width": 9720.0,
+  "height": 16119.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-割與耙",
+   "L16-木星與火星",
+   "L17-月亮-2月19日",
+   "L19-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 98,
+  "title": "長圖轉北盤2",
+  "group": "北盤",
+  "left": -4307.22,
+  "top": -3887.22,
+  "width": 9694.45,
+  "height": 9694.45,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 99,
+  "title": "鏡頭18開始",
+  "group": "北盤",
+  "left": -2318.33,
+  "top": -1737.86,
+  "width": 5198.09,
+  "height": 5198.09,
+  "rotation": -71.99,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L26-紫微垣（虛線）",
+   "北盤L15-主角星白點",
+   "北盤L25-標籤-紫微垣"
+  ],
+  "notes": "明天元宵，我們就去看這座紫微垣，和元宵拜的天官；下週五去羅馬尼亞：天上有牧羊人、看羊的大狗，還有一口井。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ }
+]

@@ -1,0 +1,169 @@
+﻿頁,頁名,標籤層,文字,中心X px,中心Y px,字級px,顏色,對應星X,對應星Y,key
+8,鏡頭02-概念圖收＝鏡頭03開始,Hvozdz釘子,Hvozdz,143,180,33,#FFFFFF,47,207,Hvozdz
+8,鏡頭02-概念圖收＝鏡頭03開始,Hvozdz釘子,釘子,143,205,26,#FFFFFF,47,207,Hvozdz-zh
+9,鏡頭03-中1,Hvozdz釘子,Hvozdz,281,327,39,#FFFFFF,165,360,Hvozdz
+9,鏡頭03-中1,Hvozdz釘子,釘子,281,358,32,#FFFFFF,165,360,Hvozdz-zh
+10,鏡頭03-中2,Hvozdz釘子,Hvozdz,419,475,46,#FFFFFF,283,514,Hvozdz
+10,鏡頭03-中2,Hvozdz釘子,釘子,419,511,37,#FFFFFF,283,514,Hvozdz-zh
+11,鏡頭03-中3,Hvozdz釘子,Hvozdz,556,623,53,#FFFFFF,401,667,Hvozdz
+11,鏡頭03-中3,Hvozdz釘子,釘子,556,664,43,#FFFFFF,401,667,Hvozdz-zh
+12,鏡頭03結束＝鏡頭04開始,Hvozdz釘子,Hvozdz,694,771,60,#FFFFFF,519,821,Hvozdz
+12,鏡頭03結束＝鏡頭04開始,Hvozdz釘子,釘子,694,817,48,#FFFFFF,519,821,Hvozdz-zh
+12,鏡頭03結束＝鏡頭04開始,北極星-跨文化,Altan gadas,316,736,44,#6FA8FF,519,821,Altan gadas
+12,鏡頭03結束＝鏡頭04開始,北極星-跨文化,金樁,316,771,39,#FFFFFF,519,821,Altan gadas-zh
+12,鏡頭03結束＝鏡頭04開始,北極星-跨文化,Boahjenásti,316,871,44,#FFFFFF,519,821,Boahjenásti
+12,鏡頭03結束＝鏡頭04開始,北極星-跨文化,撐住天空的星,316,906,39,#FFFFFF,519,821,Boahjenásti-zh
+13,鏡頭04-中1,Voz與Maly voz,Maly voz,501,848,116,#7BD88F,501,1050,Maly voz
+13,鏡頭04-中1,Voz與Maly voz,小車,501,934,93,#FFFFFF,501,1050,Maly voz-zh
+14,鏡頭04-中2,Voz與Maly voz,Voz,1089,970,94,#FFC94A,1311,894,Voz
+14,鏡頭04-中2,Voz與Maly voz,大車,1089,1040,75,#FFFFFF,1311,894,Voz-zh
+14,鏡頭04-中2,Voz與Maly voz,Maly voz,325,588,94,#7BD88F,325,752,Maly voz
+14,鏡頭04-中2,Voz與Maly voz,小車,325,658,75,#FFFFFF,325,752,Maly voz-zh
+15,鏡頭04-中3,Voz與Maly voz,Voz,736,622,73,#FFC94A,907,563,Voz
+15,鏡頭04-中3,Voz與Maly voz,大車,736,676,58,#FFFFFF,907,563,Voz-zh
+15,鏡頭04-中3,Voz與Maly voz,Maly voz,149,328,73,#7BD88F,149,455,Maly voz
+15,鏡頭04-中3,Voz與Maly voz,小車,149,382,58,#FFFFFF,149,455,Maly voz-zh
+16,鏡頭04-中4,Voz與Maly voz,Voz,760,549,70,#FFC94A,924,493,Voz
+16,鏡頭04-中4,Voz與Maly voz,大車,760,601,56,#FFFFFF,924,493,Voz-zh
+16,鏡頭04-中4,Voz與Maly voz,Maly voz,190,396,70,#7BD88F,190,517,Maly voz
+16,鏡頭04-中4,Voz與Maly voz,小車,190,447,56,#FFFFFF,190,517,Maly voz-zh
+17,鏡頭04-中5,Voz與Maly voz,Voz,754,483,66,#FFC94A,911,429,Voz
+17,鏡頭04-中5,Voz與Maly voz,大車,754,532,53,#FFFFFF,911,429,Voz-zh
+17,鏡頭04-中5,Voz與Maly voz,Maly voz,224,458,66,#7BD88F,224,574,Maly voz
+17,鏡頭04-中5,Voz與Maly voz,小車,224,507,53,#FFFFFF,224,574,Maly voz-zh
+18,鏡頭04結束＝鏡頭05開始,Voz與Maly voz,Voz,722,428,63,#FFC94A,872,377,Voz
+18,鏡頭04結束＝鏡頭05開始,Voz與Maly voz,大車,722,475,51,#FFFFFF,872,377,Voz-zh
+18,鏡頭04結束＝鏡頭05開始,Voz與Maly voz,Maly voz,250,516,63,#7BD88F,250,627,Maly voz
+18,鏡頭04結束＝鏡頭05開始,Voz與Maly voz,小車,250,564,51,#FFFFFF,250,627,Maly voz-zh
+19,鏡頭05-中1,Voz與Maly voz,Voz,661,522,68,#FFC94A,822,467,Voz
+19,鏡頭05-中1,Voz與Maly voz,大車,661,573,55,#FFFFFF,822,467,Voz-zh
+19,鏡頭05-中1,Voz與Maly voz,Maly voz,154,617,68,#7BD88F,154,736,Maly voz
+19,鏡頭05-中1,Voz與Maly voz,小車,154,668,55,#FFFFFF,154,736,Maly voz-zh
+20,鏡頭05-中2,Voz與Maly voz,Voz,601,616,73,#FFC94A,772,557,Voz
+20,鏡頭05-中2,Voz與Maly voz,大車,601,670,58,#FFFFFF,772,557,Voz-zh
+20,鏡頭05-中2,Voz與Maly voz,Maly voz,58,717,73,#7BD88F,58,845,Maly voz
+20,鏡頭05-中2,Voz與Maly voz,小車,58,772,58,#FFFFFF,58,845,Maly voz-zh
+21,鏡頭05-中3,Voz與Maly voz,Voz,540,710,78,#FFC94A,722,647,Voz
+21,鏡頭05-中3,Voz與Maly voz,大車,540,768,62,#FFFFFF,722,647,Voz-zh
+21,鏡頭05-中3,Voz與Maly voz,Maly voz,-38,818,78,#7BD88F,-38,953,Maly voz
+21,鏡頭05-中3,Voz與Maly voz,小車,-38,876,62,#FFFFFF,-38,953,Maly voz-zh
+22,鏡頭05-中4,Voz與Maly voz,Voz,479,804,82,#FFC94A,672,738,Voz
+22,鏡頭05-中4,Voz與Maly voz,大車,479,865,66,#FFFFFF,672,738,Voz-zh
+23,鏡頭05-中5,Voz與Maly voz,Voz,418,898,87,#FFC94A,622,828,Voz
+23,鏡頭05-中5,Voz與Maly voz,大車,418,963,70,#FFFFFF,622,828,Voz-zh
+24,鏡頭05結束,Voz與Maly voz,Voz,357,992,92,#FFC94A,573,918,Voz
+24,鏡頭05結束,Voz與Maly voz,大車,357,1060,73,#FFFFFF,573,918,Voz-zh
+26,鏡頭05-概念圖收＝鏡頭06開始,Illioŭ voz,Illioŭ voz,375,931,61,#FF6B6B,573,918,Illioŭ voz
+26,鏡頭05-概念圖收＝鏡頭06開始,Illioŭ voz,以利亞的車,375,977,49,#FFFFFF,573,918,Illioŭ voz-zh
+29,鏡頭06-概念圖收＝鏡頭07開始,Illioŭ voz,Illioŭ voz,375,931,61,#FF6B6B,573,918,Illioŭ voz
+29,鏡頭06-概念圖收＝鏡頭07開始,Illioŭ voz,以利亞的車,375,977,49,#FFFFFF,573,918,Illioŭ voz-zh
+33,鏡頭07-概念圖收＝鏡頭08開始,跨文化-北斗是車,Karlvagn,267,787,61,#FFC94A,573,918,Karlvagn
+33,鏡頭07-概念圖收＝鏡頭08開始,跨文化-北斗是車,男人的車（北歐）,267,833,49,#FFFFFF,573,918,Karlvagn-zh
+33,鏡頭07-概念圖收＝鏡頭08開始,跨文化-北斗是車,Carul Mare,267,895,61,#FFC94A,573,918,Carul Mare
+33,鏡頭07-概念圖收＝鏡頭08開始,跨文化-北斗是車,大車（羅馬尼亞）,267,941,49,#FFFFFF,573,918,Carul Mare-zh
+33,鏡頭07-概念圖收＝鏡頭08開始,跨文化-北斗是車,斗為帝車,267,1003,61,#FFC94A,573,918,斗為帝車
+33,鏡頭07-概念圖收＝鏡頭08開始,跨文化-北斗是車,天帝的車（《史記》）,267,1049,49,#FFFFFF,573,918,斗為帝車-zh
+34,鏡頭08-中1,跨文化-北斗是車,Karlvagn,283,797,58,#FFC94A,571,921,Karlvagn
+34,鏡頭08-中1,跨文化-北斗是車,男人的車（北歐）,283,841,46,#FFFFFF,571,921,Karlvagn-zh
+34,鏡頭08-中1,跨文化-北斗是車,Carul Mare,283,899,58,#FFC94A,571,921,Carul Mare
+34,鏡頭08-中1,跨文化-北斗是車,大車（羅馬尼亞）,283,943,46,#FFFFFF,571,921,Carul Mare-zh
+34,鏡頭08-中1,跨文化-北斗是車,斗為帝車,283,1000,58,#FFC94A,571,921,斗為帝車
+34,鏡頭08-中1,跨文化-北斗是車,天帝的車（《史記》）,283,1044,46,#FFFFFF,571,921,斗為帝車-zh
+35,鏡頭08-中2,跨文化-北斗是車,Karlvagn,299,807,54,#FFC94A,569,923,Karlvagn
+35,鏡頭08-中2,跨文化-北斗是車,男人的車（北歐）,299,848,43,#FFFFFF,569,923,Karlvagn-zh
+35,鏡頭08-中2,跨文化-北斗是車,Carul Mare,299,902,54,#FFC94A,569,923,Carul Mare
+35,鏡頭08-中2,跨文化-北斗是車,大車（羅馬尼亞）,299,944,43,#FFFFFF,569,923,Carul Mare-zh
+35,鏡頭08-中2,跨文化-北斗是車,斗為帝車,299,998,54,#FFC94A,569,923,斗為帝車
+35,鏡頭08-中2,跨文化-北斗是車,天帝的車（《史記》）,299,1039,43,#FFFFFF,569,923,斗為帝車-zh
+36,鏡頭08-中3,跨文化-北斗是車,Karlvagn,592,1722,65,#FFC94A,918,1862,Karlvagn
+36,鏡頭08-中3,跨文化-北斗是車,男人的車（北歐）,592,1772,52,#FFFFFF,918,1862,Karlvagn-zh
+36,鏡頭08-中3,跨文化-北斗是車,Carul Mare,592,1838,65,#FFC94A,918,1862,Carul Mare
+36,鏡頭08-中3,跨文化-北斗是車,大車（羅馬尼亞）,592,1887,52,#FFFFFF,918,1862,Carul Mare-zh
+44,鏡頭09結束＝鏡頭10開始,Kastsy,Kastsy,774,742,80,#FFC94A,540,829,Kastsy
+44,鏡頭09結束＝鏡頭10開始,Kastsy,割草的人,774,807,61,#FFFFFF,540,829,Kastsy-zh
+44,鏡頭09結束＝鏡頭10開始,Hrabli,Hrabli,748,1039,67,#7BD88F,550,1012,Hrabli
+44,鏡頭09結束＝鏡頭10開始,Hrabli,耙子,748,1093,55,#FFFFFF,550,1012,Hrabli-zh
+45,鏡頭10-中1,Kastsy,Kastsy,743,792,70,#FFC94A,539,867,Kastsy
+45,鏡頭10-中1,Kastsy,割草的人,743,848,54,#FFFFFF,539,867,Kastsy-zh
+45,鏡頭10-中1,Hrabli,Hrabli,720,1051,59,#7BD88F,547,1028,Hrabli
+45,鏡頭10-中1,Hrabli,耙子,720,1099,48,#FFFFFF,547,1028,Hrabli-zh
+46,鏡頭10-中2,Kastsy,Kastsy,712,841,60,#FFC94A,537,906,Kastsy
+46,鏡頭10-中2,Kastsy,割草的人,712,890,46,#FFFFFF,537,906,Kastsy-zh
+46,鏡頭10-中2,Hrabli,Hrabli,692,1064,50,#7BD88F,544,1043,Hrabli
+46,鏡頭10-中2,Hrabli,耙子,692,1104,41,#FFFFFF,544,1043,Hrabli-zh
+47,鏡頭10-中3,Kastsy,Kastsy,681,890,50,#FFC94A,535,944,Kastsy
+47,鏡頭10-中3,Kastsy,割草的人,681,931,38,#FFFFFF,535,944,Kastsy-zh
+47,鏡頭10-中3,Hrabli,Hrabli,665,1076,42,#7BD88F,541,1059,Hrabli
+47,鏡頭10-中3,Hrabli,耙子,665,1110,34,#FFFFFF,541,1059,Hrabli-zh
+48,鏡頭10結束,Kastsy,Kastsy,650,940,40,#FFC94A,533,983,Kastsy
+48,鏡頭10結束,Kastsy,割草的人,650,972,31,#FFFFFF,533,983,Kastsy-zh
+48,鏡頭10結束,Hrabli,Hrabli,637,1088,34,#7BD88F,538,1075,Hrabli
+48,鏡頭10結束,Hrabli,耙子,637,1115,28,#FFFFFF,538,1075,Hrabli-zh
+52,鏡頭10-概念圖收＝鏡頭11開始,Kastsy,Kastsy,650,940,40,#FFC94A,533,983,Kastsy
+52,鏡頭10-概念圖收＝鏡頭11開始,Kastsy,割草的人,650,972,31,#FFFFFF,533,983,Kastsy-zh
+52,鏡頭10-概念圖收＝鏡頭11開始,Hrabli,Hrabli,637,1088,34,#7BD88F,538,1075,Hrabli
+52,鏡頭10-概念圖收＝鏡頭11開始,Hrabli,耙子,637,1115,28,#FFFFFF,538,1075,Hrabli-zh
+56,鏡頭11-中4,Rataj與Sita,Sita,375,482,56,#B78AFF,375,631,Sita
+56,鏡頭11-中4,Rataj與Sita,篩子,375,532,44,#FFFFFF,375,631,Sita-zh
+56,鏡頭11-中4,Rataj與Sita,Stellarium 標在后髮座,406,807,33,#FFFFFF,375,631,Sita-註
+57,鏡頭11結束＝鏡頭12開始,Rataj與Sita,Rataj,157,732,58,#6FA8FF,339,587,Rataj
+57,鏡頭11結束＝鏡頭12開始,Rataj與Sita,犁田的人,157,783,45,#FFFFFF,339,587,Rataj-zh
+57,鏡頭11結束＝鏡頭12開始,Rataj與Sita,Sita,831,505,58,#B78AFF,831,659,Sita
+57,鏡頭11結束＝鏡頭12開始,Rataj與Sita,篩子,831,557,45,#FFFFFF,831,659,Sita-zh
+57,鏡頭11結束＝鏡頭12開始,Rataj與Sita,Stellarium 標在后髮座,863,840,34,#FFFFFF,831,659,Sita-註
+59,鏡頭12-中2,院子,Kurki,840,729,83,#7BD88F,840,845,Kurki
+59,鏡頭12-中2,院子,母雞,840,799,64,#FFFFFF,840,845,Kurki-zh
+59,鏡頭12-中2,院子,Vuzhy,566,1163,83,#FF6B6B,566,1036,Vuzhy
+59,鏡頭12-中2,院子,草蛇,566,1233,64,#FFFFFF,566,1036,Vuzhy-zh
+59,鏡頭12-中2,院子,Kaza,230,329,83,#FFC94A,230,256,Kaza
+59,鏡頭12-中2,院子,母山羊,230,400,64,#FFFFFF,230,256,Kaza-zh
+60,鏡頭12-中3,院子,Kurki,505,729,83,#7BD88F,505,845,Kurki
+60,鏡頭12-中3,院子,母雞,505,799,64,#FFFFFF,505,845,Kurki-zh
+60,鏡頭12-中3,院子,Vuzhy,231,1163,83,#FF6B6B,231,1036,Vuzhy
+60,鏡頭12-中3,院子,草蛇,231,1233,64,#FFFFFF,231,1036,Vuzhy-zh
+61,鏡頭12結束＝鏡頭13開始,院子,Kurki,170,729,83,#7BD88F,170,845,Kurki
+61,鏡頭12結束＝鏡頭13開始,院子,母雞,170,799,64,#FFFFFF,170,845,Kurki-zh
+61,鏡頭12結束＝鏡頭13開始,院子,Baran,814,740,83,#6FA8FF,814,883,Baran
+61,鏡頭12結束＝鏡頭13開始,院子,公羊,814,810,64,#FFFFFF,814,883,Baran-zh
+64,鏡頭13-中3,耶穌的椅子,Kreselca Pana Jezusa,92,1506,78,#B78AFF,92,1164,Kreselca Pana Jezusa
+64,鏡頭13-中3,耶穌的椅子,耶穌的椅子,92,1577,64,#FFFFFF,92,1164,Kreselca Pana Jezusa-zh
+65,鏡頭13-中4,耶穌的椅子,Kreselca Pana Jezusa,313,1399,78,#B78AFF,313,1057,Kreselca Pana Jezusa
+65,鏡頭13-中4,耶穌的椅子,耶穌的椅子,313,1470,64,#FFFFFF,313,1057,Kreselca Pana Jezusa-zh
+66,鏡頭13結束,耶穌的椅子,Kreselca Pana Jezusa,534,1293,78,#B78AFF,534,950,Kreselca Pana Jezusa
+66,鏡頭13結束,耶穌的椅子,耶穌的椅子,534,1363,64,#FFFFFF,534,950,Kreselca Pana Jezusa-zh
+69,鏡頭13-概念圖收,耶穌的椅子,Kreselca Pana Jezusa,534,1293,78,#B78AFF,534,950,Kreselca Pana Jezusa
+69,鏡頭13-概念圖收,耶穌的椅子,耶穌的椅子,534,1363,64,#FFFFFF,534,950,Kreselca Pana Jezusa-zh
+73,鏡頭14開始,Zmiej,Zmiej,449,873,70,#FF6B6B,449,1037,Zmiej
+73,鏡頭14開始,Zmiej,聖喬治殺的蛇,449,926,56,#FFFFFF,449,1037,Zmiej-zh
+74,鏡頭14-中1,Zmiej,Zmiej,447,871,72,#FF6B6B,447,1039,Zmiej
+74,鏡頭14-中1,Zmiej,聖喬治殺的蛇,447,925,57,#FFFFFF,447,1039,Zmiej-zh
+75,鏡頭14-中2,Zmiej,Zmiej,445,869,73,#FF6B6B,445,1040,Zmiej
+75,鏡頭14-中2,Zmiej,聖喬治殺的蛇,445,924,59,#FFFFFF,445,1040,Zmiej-zh
+76,鏡頭14-中3,Zmiej,Zmiej,443,868,75,#FF6B6B,443,1042,Zmiej
+76,鏡頭14-中3,Zmiej,聖喬治殺的蛇,443,923,60,#FFFFFF,443,1042,Zmiej-zh
+77,鏡頭14-中4,Zmiej,Zmiej,441,866,76,#FF6B6B,441,1044,Zmiej
+77,鏡頭14-中4,Zmiej,聖喬治殺的蛇,441,923,61,#FFFFFF,441,1044,Zmiej-zh
+78,鏡頭14結束,Zmiej,Zmiej,439,864,78,#FF6B6B,439,1045,Zmiej
+78,鏡頭14結束,Zmiej,聖喬治殺的蛇,439,922,62,#FFFFFF,439,1045,Zmiej-zh
+78,鏡頭14結束,紫微左右垣,紫微左垣,579,1245,62,#FFC94A,579,1184,紫微左垣
+78,鏡頭14結束,紫微左右垣,紫微右垣,880,677,62,#FFC94A,987,677,紫微右垣
+84,鏡頭15-中3,雙胞胎,Blizniuki,1040,1088,75,#A9C8FF,1040,985,Blizniuki
+84,鏡頭15-中3,雙胞胎,雙胞胎,1040,1152,57,#FFFFFF,1040,985,Blizniuki-zh
+84,鏡頭15-中3,雙胞胎,波蘭和立陶宛,825,463,80,#FFC94A,673,581,波蘭和立陶宛
+85,鏡頭15結束＝鏡頭16開始,雙胞胎,Blizniuki,524,1265,80,#A9C8FF,524,1155,Blizniuki
+85,鏡頭15結束＝鏡頭16開始,雙胞胎,雙胞胎,524,1333,61,#FFFFFF,524,1155,Blizniuki-zh
+85,鏡頭15結束＝鏡頭16開始,雙胞胎,波蘭和立陶宛,294,599,86,#FFC94A,132,725,波蘭和立陶宛
+92,鏡頭17-中5,這幾天,月亮 2/19,295,652,87,#FFFFFF,295,728,月亮 2/19
+92,鏡頭17-中5,這幾天,木星,5,745,87,#FFFFFF,5,810,木星
+92,鏡頭17-中5,這幾天,元宵的月亮,138,911,78,#FFFFFF,-91,884,月亮 2/20 元宵
+93,鏡頭17結束,這幾天,月亮 2/19,831,793,87,#FFFFFF,831,869,月亮 2/19
+93,鏡頭17結束,這幾天,木星,542,886,87,#FFFFFF,542,951,木星
+93,鏡頭17結束,這幾天,火星,154,913,87,#FF6B6B,249,956,火星（衝日）
+93,鏡頭17結束,這幾天,軒轅十四,304,1126,69,#FFFFFF,304,1051,軒轅十四
+93,鏡頭17結束,這幾天,元宵的月亮,675,1053,78,#FFFFFF,446,1026,月亮 2/20 元宵
+95,鏡頭17-概念圖收,這幾天,月亮 2/19,831,793,87,#FFFFFF,831,869,月亮 2/19
+95,鏡頭17-概念圖收,這幾天,木星,542,886,87,#FFFFFF,542,951,木星
+95,鏡頭17-概念圖收,這幾天,火星,154,913,87,#FF6B6B,249,956,火星（衝日）
+95,鏡頭17-概念圖收,這幾天,軒轅十四,304,1126,69,#FFFFFF,304,1051,軒轅十四
+95,鏡頭17-概念圖收,這幾天,元宵的月亮,675,1053,78,#FFFFFF,446,1026,月亮 2/20 元宵
+99,鏡頭18開始,紫微垣,紫微垣,576,1438,79,#FFC94A,576,1438,紫微垣
