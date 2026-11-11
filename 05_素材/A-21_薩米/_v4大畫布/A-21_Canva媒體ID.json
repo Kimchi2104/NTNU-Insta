@@ -1,0 +1,44 @@
+{
+  "design_id": "DAHWtLPvKnY",
+  "design_title": "A-21 薩米",
+  "commit": "a409f930a34a0fa88874bacd4462cc5bbe5f87e1",
+  "layers": {
+    "L1-銀河": "MAHalY0eTDg",
+    "L11-主角星白點": "MAHalbXF5RM",
+    "L2-星點": "MAHalZuze30",
+    "L3-經緯線": "MAHalXRT8qw",
+    "L8-連線-幫手": "MAHalXxO-nU",
+    "北盤L1-銀河": "MAHalRzBJcU",
+    "北盤L10-連線-以利亞的車（白俄羅斯）": "MAHalVpD8qE",
+    "北盤L11-主角星白點": "MAHalT-WMso",
+    "北盤L2-星點": "MAHalfIj0k0",
+    "北盤L3-經緯線": "MAHalXA0SuI",
+    "北盤L5-連線-Sarvvis": "MAHalbNtUvw",
+    "北盤L6-連線-弓與箭": "MAHalUJWT6A",
+    "北盤L7-連線-箭頭": "MAHalZbDBjM",
+    "北盤L9-連線-勺形（西伯利亞・因紐特）": "MAHalW2TkQ4"
+  },
+  "mountain": "MAD4KTwSGtw",
+  "background": "MAHWs5D_MpY",
+  "concept": {
+    "C-A21-01_薩米在哪裡_地圖層_透明.png": "MAHalXMz7eE",
+    "C-A21-01_薩米在哪裡_神鼓層_透明.png": "MAHalWExZEs",
+    "C-A21-02_馴鹿回到星圖_1736層_透明.png": "MAHalXkRdq0",
+    "C-A21-02_馴鹿回到星圖_1743層_透明.png": "MAHalcm2Ogg",
+    "C-A21-02_馴鹿回到星圖_2025層_透明.png": "MAHalYqj3KA",
+    "C-A21-03_不能射的那一箭_狩獵層_透明.png": "MAHalc3ghpM",
+    "C-A21-03_不能射的那一箭_箭層_透明.png": "MAHalYkhVq0",
+    "C-A21-04_同一把北斗_圖卡.png": "MAHalaaEmaM",
+    "C-A21-05_這週末抬頭看_圖卡.png": "MAHalUrHvSg",
+    "C-A21-06_薩米星名小辭典_圖卡.png": "MAHalaK3Q7I",
+    "C-A21-07_天狼星貼地平線_Kautokeino層_透明.png": "MAHalWOtVdA",
+    "C-A21-07_天狼星貼地平線_地平線層_透明.png": "MAHalYjFz4c"
+  },
+  "concept_commit": "a409f930a34a0fa88874bacd4462cc5bbe5f87e1",
+  "progress": {
+    "done_pages": 41,
+    "last_done": 41,
+    "next_page": null,
+    "note": "Canva 完成（2026-11-11）：新頁41頁＋封面/下集見/追蹤我們/參考文獻保留，舊頁已移到最後，待手工收尾"
+  }
+}
