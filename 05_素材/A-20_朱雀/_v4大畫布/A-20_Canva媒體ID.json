@@ -55,12 +55,7 @@
     "C-A20-06_前朱鳥後玄武_朱雀層_透明.png": "MAHalUNGzsA"
   },
   "concept_commit": "a409f930a34a0fa88874bacd4462cc5bbe5f87e1",
-  "progress": {
-    "done_pages": 37,
-    "last_done": "長圖轉南盤2-上移",
-    "next_page": 38,
-    "note": "新頁 1–38 已建並存檔（38 的山待 crop）；新頁 9、12、13、31、32 的山內圖框未 crop 回（差約 1px）；字幕為整段旁白斷行、位置未避開標籤，待人工；39–57 待做；舊頁尚未改寫／移動。"
-  },
+  "progress": "新頁 1–57 完成；封面與下集見已改；舊頁已移到最後；已 commit",
   "page_ids": [
     "PB8Ty6rPWTBLTGw2",
     "PBj8MMwV2H5Z9mCj",
