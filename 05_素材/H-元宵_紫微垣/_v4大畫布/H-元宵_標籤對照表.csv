@@ -1,0 +1,10 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+紫微垣,紫微垣,Zǐ Wēi Yuán,Purple Forbidden Enclosure,紫微左垣 8 星＋右垣 7 星,#FFC94A,Stellarium chinese CON 032／033；《史記・天官書》稱紫宮，《晉書・天文志》「一曰紫微，大帝之坐也」
+北極星,北極星,Gōu Chén Yī,Polaris (α UMi),勾陳一（今天的北極星）,#FFFFFF,Stellarium chinese CON 083 勾陳；定位小字（「帝＝北極二」留給首留言）
+帝車,帝車,Dì Chē,The Emperor's Chariot (Northern Dipper),北斗,#FFC94A,《史記・天官書》「斗為帝車，運于中央，臨制四鄉」；Stellarium chinese CON 039
+Illioŭ voz,Illioŭ voz,Іллёў воз（Stellarium: Illyouo voz）,Elias's Cart (Belarusian),以利亞的車（白俄羅斯）,#FF6B6B,Stellarium belarusian 001；拼法照 A-22（昨天那集），旁白不唸
+月亮,月亮 99.7%,,Moon,月亮（台北 2/20 20:00）,#FFFFFF,PyEphem 自算：高 35.7°、方位 92.4°；望在 2/21 07:23
+木星,木星,,Jupiter,木星（−2.55 等）,#FFFFFF,PyEphem 自算：高 40.8°、方位 90.7°；Mallama & Hilton 2018
+火星,火星,,Mars,火星（−1.28 等）,#FFFFFF,PyEphem 自算：高 31.2°、方位 86.5°；2/19 23:51 衝日
+軒轅十四,軒轅十四,Xuān Yuán Shí Sì,Regulus (α Leo),軒轅十四（1.4 等，緊鄰滿月、市區難見）,#FFFFFF,Stellarium chinese；只放小字
+望,最圓（望）2/21 07:23,,Full moon 2027-02-21 07:23 (UTC+8),望,#FFFFFF,PyEphem；USNO 23:23 UT（Gemini 核過）
