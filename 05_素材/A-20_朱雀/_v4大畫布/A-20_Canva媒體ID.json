@@ -56,10 +56,10 @@
   },
   "concept_commit": "a409f930a34a0fa88874bacd4462cc5bbe5f87e1",
   "progress": {
-    "done_pages": 6,
-    "last_done": "鏡頭02開始",
-    "next_page": 7,
-    "note": "Canva 設計已有 89 頁（舊 32 頁＋新 57 頁，新頁 ID 見 page_ids，依逐頁表 1–57 排在第 33–89 頁）；新頁 1–6 已完成並存檔，新頁 7 已建但尚未 crop 山／format 文字；其餘待做。舊頁 1 封面、2 下集見、3 追蹤我們、30 參考文獻、31 製作團隊、32 鳴謝尚未改寫、舊頁 4–29 尚未移到最後。"
+    "done_pages": 14,
+    "last_done": "北盤轉長圖1-下移",
+    "next_page": 15,
+    "note": "新頁 1–14 已排好並存檔（新頁 9、12、13 的山內圖框未 crop 回 0/0/1939.08×300.56，差約 1px；新頁 14 的山待 crop）。其餘 15–57 待做。舊頁尚未改寫／移動。"
   },
   "page_ids": [
     "PB8Ty6rPWTBLTGw2",
