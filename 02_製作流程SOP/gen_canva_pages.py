@@ -229,7 +229,14 @@ class Pages:
                     out.append(self._bridge_page(f"長圖轉{grp}{n_in}", grp, sw, pg["shot"], hard))
                     pg["trans"] = self.TRANS_MM
                 state = (grp, sw, origin)
-            elif prev and prev["group"] != "長圖" and pg["group"] == "長圖" and state:
+            elif prev and prev["group"] != "長圖" and pg["group"] == "長圖":
+                if state is None:
+                    # 整集從盤開場（A-25 起）：沒有「去程」可倒放 → 自己定換組格（盤心、fov ≤ 50）
+                    # 與出發點（走廊中心 y=0），回程照常：歸位 → 換回長圖 → 沿走廊回到帶中央
+                    grp = prev["group"]
+                    xt, yc = self.m.disc_center(grp == "北盤")
+                    f_sw = min(prev["frame"][2], pg["frame"][2], 50.0)
+                    state = (grp, (xt, yc, f_sw, 0.0), (xt, 0.0, f_sw, 0.0))
                 grp, sw, origin = state
                 n_out += 1
                 sh_prev = prev["shot"]
