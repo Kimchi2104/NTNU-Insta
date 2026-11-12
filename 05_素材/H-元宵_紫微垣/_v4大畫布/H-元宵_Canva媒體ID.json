@@ -1,0 +1,23 @@
+{
+ "design_id": "DAHWtNPA5go",
+ "design_title": "H - 元宵",
+ "commit": "d42d9b3dab5d4355e0fd0c71c8b425791184d2c0",
+ "layers": {
+  "北盤L1-銀河": "MAHarsC_nCk",
+  "北盤L2-星點": "MAHarkUUPGM",
+  "北盤L3-經緯線": "MAHartrQwFk",
+  "北盤L5-連線-紫微垣": "MAHarj7ldHA",
+  "北盤L8-主角星白點": "MAHars8klD0",
+  "北盤L6-連線-北極勾陳": "MAHaroF4NFA",
+  "北盤L7-連線-北斗": "MAHarmGcfNY",
+  "北盤L12-月亮與行星（2-20 20-00）": "MAHaroecMA8"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-HYX-01_上元天官_上元層_透明.png": "MAHaruXlEh8",
+  "C-HYX-01_上元天官_三元層_透明.png": "MAHarjxSwWs",
+  "C-HYX-02_同名兩回事_天官層_透明.png": "MAHarlNP_80",
+  "C-HYX-02_同名兩回事_紫微垣層_透明.png": "MAHaroow59Y"
+ }
+}
