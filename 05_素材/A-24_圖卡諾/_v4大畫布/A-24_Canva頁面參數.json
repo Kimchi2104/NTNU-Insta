@@ -1,0 +1,2433 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -4041.0,
+  "top": -4216.08,
+  "width": 6480.0,
+  "height": 10548.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "上週我們在羅馬尼亞的牧場，今晚飛到赤道上的亞馬遜，看星座在黃昏落下：同一片星空，圖卡諾人看見——一整年的漲水。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01-中1",
+  "group": "長圖",
+  "left": -4741.62,
+  "top": -5007.72,
+  "width": 7471.06,
+  "height": 12161.22,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭01-中2",
+  "group": "長圖",
+  "left": -5442.25,
+  "top": -5799.35,
+  "width": 8462.12,
+  "height": 13774.45,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 4,
+  "title": "鏡頭01-中3",
+  "group": "長圖",
+  "left": -6142.87,
+  "top": -6590.99,
+  "width": 9453.18,
+  "height": 15387.67,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 5,
+  "title": "鏡頭01-中4",
+  "group": "長圖",
+  "left": -6843.49,
+  "top": -7382.62,
+  "width": 10444.24,
+  "height": 17000.89,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 6,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "長圖",
+  "left": -7544.12,
+  "top": -8174.26,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "巴西西北角，靠近哥倫比亞的雨林裡，有一條河叫 Tiquié。河邊住著圖卡諾人和他們的鄰居，餐桌上最重要的肉，是河裡的魚。河水什麼時候漲、什麼時候退，他們看得很重。",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 7,
+  "title": "鏡頭02-概念圖1",
+  "group": "長圖",
+  "left": -7544.12,
+  "top": -8174.26,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-01_Tiquié河在哪_南美層_透明.png",
+    "left": 24,
+    "top": 463.36,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 440.96491228070175,
+   "width": 1032,
+   "height": 1038.0701754385964,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 8,
+  "title": "鏡頭02-概念圖2",
+  "group": "長圖",
+  "left": -7544.12,
+  "top": -8174.26,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-01_Tiquié河在哪_南美層_透明.png",
+    "left": 24,
+    "top": 463.36,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-01_Tiquié河在哪_河流層_透明.png",
+    "left": 24,
+    "top": 463.36,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 440.96491228070175,
+   "width": 1032,
+   "height": 1038.0701754385964,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 9,
+  "title": "鏡頭02-概念圖收＝鏡頭03開始",
+  "group": "長圖",
+  "left": -7544.12,
+  "top": -8174.26,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "二〇〇五、二〇〇六年，巴西天文老師 Walmir Cardoso 受邀兩度來到河邊的村子。他和長老、原住民學校的學生一起看天、用手量角度，把星座一個一個畫下來。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 10,
+  "title": "鏡頭03-概念圖1",
+  "group": "長圖",
+  "left": -7544.12,
+  "top": -8174.26,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-02_用手量天_拳頭層_透明.png",
+    "left": 24,
+    "top": 462.36,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 443.9824561403509,
+   "width": 1032,
+   "height": 1032.0350877192982,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 11,
+  "title": "鏡頭03-概念圖2",
+  "group": "長圖",
+  "left": -7544.12,
+  "top": -8174.26,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-02_用手量天_拳頭層_透明.png",
+    "left": 24,
+    "top": 462.36,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-02_用手量天_手掌層_透明.png",
+    "left": 24,
+    "top": 462.36,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 443.9824561403509,
+   "width": 1032,
+   "height": 1032.0350877192982,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 12,
+  "title": "鏡頭03-概念圖收",
+  "group": "長圖",
+  "left": -7544.12,
+  "top": -8174.26,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 13,
+  "title": "鏡頭04開始",
+  "group": "長圖",
+  "left": -8369.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "他們最看重的，不是星座升起，而是它落下。太陽一下山，就往西邊看：哪個星座正要沉進地平線？",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 14,
+  "title": "鏡頭04-中1",
+  "group": "長圖",
+  "left": -8288.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 15,
+  "title": "鏡頭04-中2",
+  "group": "長圖",
+  "left": -8207.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 16,
+  "title": "鏡頭04-中3",
+  "group": "長圖",
+  "left": -8126.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 17,
+  "title": "鏡頭04結束＝鏡頭05開始",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "一個星座或星座的一段落下，常常就跟著幾天雨，河水漲一次。所以漲水直接用星座取名：犰狳落下時的那次，就叫 pamõ poero——犰狳的漲水。",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 18,
+  "title": "鏡頭05-概念圖1",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-03_poero漲水_落下層_透明.png",
+    "left": 24,
+    "top": 456.82,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 437.94736842105266,
+   "width": 1032,
+   "height": 1044.1052631578948,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 19,
+  "title": "鏡頭05-概念圖2",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-03_poero漲水_落下層_透明.png",
+    "left": 24,
+    "top": 456.82,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-03_poero漲水_雨層_透明.png",
+    "left": 24,
+    "top": 456.82,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 437.94736842105266,
+   "width": 1032,
+   "height": 1044.1052631578948,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 20,
+  "title": "鏡頭05-概念圖3",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-03_poero漲水_落下層_透明.png",
+    "left": 24,
+    "top": 456.82,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-03_poero漲水_雨層_透明.png",
+    "left": 24,
+    "top": 456.82,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-03_poero漲水_漲水層_透明.png",
+    "left": 24,
+    "top": 456.82,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 437.94736842105266,
+   "width": 1032,
+   "height": 1044.1052631578948,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 21,
+  "title": "鏡頭05-概念圖收＝鏡頭06開始",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "赤道上看星，有個好處：滿天每一顆星都會升起、落下，而且直直地往下沉。一整圈星座輪流落下，剛好排成一年。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 22,
+  "title": "鏡頭06-概念圖1",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-04_赤道與台北的星軌_赤道層_透明.png",
+    "left": 24,
+    "top": 460.09,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 441.719298245614,
+   "width": 1032,
+   "height": 1036.561403508772,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 23,
+  "title": "鏡頭06-概念圖2",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-04_赤道與台北的星軌_赤道層_透明.png",
+    "left": 24,
+    "top": 460.09,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-04_赤道與台北的星軌_台北層_透明.png",
+    "left": 24,
+    "top": 460.09,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 441.719298245614,
+   "width": 1032,
+   "height": 1036.561403508772,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 24,
+  "title": "鏡頭06-概念圖收",
+  "group": "長圖",
+  "left": -8045.73,
+  "top": -7213.17,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 25,
+  "title": "鏡頭07開始",
+  "group": "長圖",
+  "left": -9359.7,
+  "top": -8241.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-小魚與蝦",
+   "L17-主角星白點",
+   "L19-標籤-小魚與蝦"
+  ],
+  "notes": "二月落下的，是一條小魚和追著牠的蝦，都是很暗的星；三、四月換美洲豹：鬍鬚、頭、身體、尾巴，一段一段沉下去。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 26,
+  "title": "鏡頭07-概念圖1",
+  "group": "長圖",
+  "left": -9359.7,
+  "top": -8241.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-小魚與蝦",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-05_漲水年曆環_二月層_透明.png",
+    "left": 24,
+    "top": 553.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 525.9590643274854,
+   "width": 1032,
+   "height": 868.0818713450291,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 27,
+  "title": "鏡頭07-概念圖2",
+  "group": "長圖",
+  "left": -9359.7,
+  "top": -8241.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-小魚與蝦",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-05_漲水年曆環_二月層_透明.png",
+    "left": 24,
+    "top": 553.89,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-05_漲水年曆環_三四月層_透明.png",
+    "left": 24,
+    "top": 553.89,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 525.9590643274854,
+   "width": 1032,
+   "height": 868.0818713450291,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 28,
+  "title": "鏡頭07-概念圖收",
+  "group": "長圖",
+  "left": -9359.7,
+  "top": -8241.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-小魚與蝦",
+   "L17-主角星白點",
+   "L19-標籤-小魚與蝦"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 29,
+  "title": "鏡頭08開始＝鏡頭09開始",
+  "group": "長圖",
+  "left": -9189.0,
+  "top": -8787.0,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Ñohkoatero一群星",
+   "L17-主角星白點",
+   "L20-標籤-Ñohkoatero"
+  ],
+  "notes": "接著是畢宿的 V 字，一個放魚的木架；五月，獵戶的腰帶加上兩肩，是一把錛子的木柄。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 30,
+  "title": "鏡頭09-中1",
+  "group": "長圖",
+  "left": -9005.22,
+  "top": -8910.3,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 31,
+  "title": "鏡頭09-中2",
+  "group": "長圖",
+  "left": -8821.44,
+  "top": -9033.6,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭09-中3",
+  "group": "長圖",
+  "left": -7770.12,
+  "top": -8405.85,
+  "width": 11880.0,
+  "height": 19338.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 33,
+  "title": "鏡頭09結束＝鏡頭10開始",
+  "group": "長圖",
+  "left": -6718.8,
+  "top": -7778.1,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "鄰近民族的神話說：天上三個男人排成一排，中間那個人的腿被蛇咬了，又彎又乾枯，彎成一把錛的樣子。元旦那集說過，南美洲好幾個民族，都在這裡看見一條腿。",
+  "trans": "Match & Move（2.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 34,
+  "title": "鏡頭10-中1",
+  "group": "長圖",
+  "left": -7488.67,
+  "top": -8704.87,
+  "width": 11945.45,
+  "height": 19444.55,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭10-中2",
+  "group": "長圖",
+  "left": -8258.55,
+  "top": -9631.64,
+  "width": 13090.91,
+  "height": 21309.09,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 36,
+  "title": "鏡頭10-中3",
+  "group": "長圖",
+  "left": -9028.42,
+  "top": -10558.4,
+  "width": 14236.36,
+  "height": 23173.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 37,
+  "title": "鏡頭10-中4",
+  "group": "長圖",
+  "left": -9798.29,
+  "top": -11485.17,
+  "width": 15381.82,
+  "height": 25038.18,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 38,
+  "title": "鏡頭10-中5",
+  "group": "長圖",
+  "left": -10568.16,
+  "top": -12411.94,
+  "width": 16527.27,
+  "height": 26902.73,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點",
+   "L21-標籤-魚架與錛柄"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 39,
+  "title": "鏡頭10結束＝鏡頭11開始",
+  "group": "長圖",
+  "left": -11338.04,
+  "top": -13338.71,
+  "width": 17672.73,
+  "height": 28767.27,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L17-主角星白點"
+  ],
+  "notes": "八、九月落下的，是一隻白鷺，由后髮座一帶很暗的星連成。那段時間常常很乾：河水退了，魚也少了。",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 40,
+  "title": "鏡頭11-中1",
+  "group": "長圖",
+  "left": -9451.15,
+  "top": -11936.58,
+  "width": 16113.37,
+  "height": 26228.98,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Yhé白鷺",
+   "L17-主角星白點",
+   "L23-標籤-Yhé白鷺"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 41,
+  "title": "鏡頭11-中2",
+  "group": "長圖",
+  "left": -7564.26,
+  "top": -10534.45,
+  "width": 14554.01,
+  "height": 23690.7,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Yhé白鷺",
+   "L17-主角星白點",
+   "L23-標籤-Yhé白鷺"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭11-中3",
+  "group": "長圖",
+  "left": -5677.37,
+  "top": -9132.32,
+  "width": 12994.65,
+  "height": 21152.41,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Yhé白鷺",
+   "L17-主角星白點",
+   "L23-標籤-Yhé白鷺"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 43,
+  "title": "鏡頭11結束＝鏡頭12開始",
+  "group": "長圖",
+  "left": -3790.48,
+  "top": -7730.19,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Yhé白鷺",
+   "L17-主角星白點",
+   "L23-標籤-Yhé白鷺"
+  ],
+  "notes": "九月到十一月，是最長的一條：毒蛇 Aña，從天蠍連到人馬。牠的頭被砍斷，掉在烏鴉座；紅色的心宿二，是牠的毒囊。頭、身體、蛋、尾巴，每落下一段，就漲一次水。",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 44,
+  "title": "鏡頭12-中1",
+  "group": "長圖",
+  "left": -3621.84,
+  "top": -7674.04,
+  "width": 10863.53,
+  "height": 17683.41,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L13-烏鴉座蛇頭（虛線）",
+   "L11-連線-Aña毒蛇",
+   "L14-心宿二紅色光暈",
+   "L17-主角星白點",
+   "L24-標籤-Aña毒蛇"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.3 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 45,
+  "title": "鏡頭12-中2",
+  "group": "長圖",
+  "left": -3453.19,
+  "top": -7617.89,
+  "width": 10291.76,
+  "height": 16752.71,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L13-烏鴉座蛇頭（虛線）",
+   "L11-連線-Aña毒蛇",
+   "L14-心宿二紅色光暈",
+   "L17-主角星白點",
+   "L24-標籤-Aña毒蛇"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.3 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 46,
+  "title": "鏡頭12-中3",
+  "group": "長圖",
+  "left": -3284.55,
+  "top": -7561.74,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L13-烏鴉座蛇頭（虛線）",
+   "L11-連線-Aña毒蛇",
+   "L14-心宿二紅色光暈",
+   "L17-主角星白點",
+   "L24-標籤-Aña毒蛇"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.3 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 47,
+  "title": "鏡頭12-中4",
+  "group": "長圖",
+  "left": -2432.3,
+  "top": -6764.49,
+  "width": 8880.0,
+  "height": 14454.67,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L13-烏鴉座蛇頭（虛線）",
+   "L11-連線-Aña毒蛇",
+   "L14-心宿二紅色光暈",
+   "L17-主角星白點",
+   "L24-標籤-Aña毒蛇"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.3 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 48,
+  "title": "鏡頭12-中5",
+  "group": "長圖",
+  "left": -1580.05,
+  "top": -5967.25,
+  "width": 8040.0,
+  "height": 13087.33,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L13-烏鴉座蛇頭（虛線）",
+   "L11-連線-Aña毒蛇",
+   "L14-心宿二紅色光暈",
+   "L17-主角星白點",
+   "L24-標籤-Aña毒蛇"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.3 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 49,
+  "title": "鏡頭12結束＝鏡頭13開始",
+  "group": "長圖",
+  "left": -727.8,
+  "top": -5170.0,
+  "width": 7200.0,
+  "height": 11720.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L13-烏鴉座蛇頭（虛線）",
+   "L11-連線-Aña毒蛇",
+   "L14-心宿二紅色光暈",
+   "L17-主角星白點",
+   "L24-標籤-Aña毒蛇"
+  ],
+  "notes": "十二月，犰狳落下，雷聲大作，魚群往上游。犰狳也是神聖的笛子：這個星座在天上真正的樣子，只有男人才知道。Cardoso 沒有寫出來，我們也只畫公開的那幾顆星。",
+  "trans": "Match & Move（2.3 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 50,
+  "title": "鏡頭13-中1",
+  "group": "長圖",
+  "left": -653.84,
+  "top": -5850.77,
+  "width": 8160.0,
+  "height": 13282.67,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點",
+   "L25-標籤-Pamõ犰狳"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 51,
+  "title": "鏡頭13-中2",
+  "group": "長圖",
+  "left": -579.88,
+  "top": -6531.55,
+  "width": 9120.0,
+  "height": 14845.33,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點",
+   "L25-標籤-Pamõ犰狳"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 52,
+  "title": "鏡頭13-中3",
+  "group": "長圖",
+  "left": -505.92,
+  "top": -7212.32,
+  "width": 10080.0,
+  "height": 16408.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點",
+   "L25-標籤-Pamõ犰狳"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 53,
+  "title": "鏡頭13-中4",
+  "group": "長圖",
+  "left": -431.96,
+  "top": -7893.09,
+  "width": 11040.0,
+  "height": 17970.67,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點",
+   "L25-標籤-Pamõ犰狳"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 54,
+  "title": "鏡頭13-中5",
+  "group": "長圖",
+  "left": -358.0,
+  "top": -8573.87,
+  "width": 12000.0,
+  "height": 19533.33,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點",
+   "L25-標籤-Pamõ犰狳"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 55,
+  "title": "鏡頭13結束＝鏡頭14開始",
+  "group": "長圖",
+  "left": -284.04,
+  "top": -9254.64,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點",
+   "L25-標籤-Pamõ犰狳"
+  ],
+  "notes": "回頭看這一整圈：小魚、蝦、魚架、白鷺、毒蛇、美洲豹——天上寫的，幾乎就是一條河。",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 56,
+  "title": "鏡頭14-概念圖1",
+  "group": "長圖",
+  "left": -284.04,
+  "top": -9254.64,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-05_漲水年曆環_二月層_透明.png",
+    "left": 24,
+    "top": 482.73,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 454.7953216374269,
+   "width": 1032,
+   "height": 1010.4093567251462,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 57,
+  "title": "鏡頭14-概念圖2",
+  "group": "長圖",
+  "left": -284.04,
+  "top": -9254.64,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-05_漲水年曆環_二月層_透明.png",
+    "left": 24,
+    "top": 482.73,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-05_漲水年曆環_三四月層_透明.png",
+    "left": 24,
+    "top": 482.73,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 454.7953216374269,
+   "width": 1032,
+   "height": 1010.4093567251462,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 58,
+  "title": "鏡頭14-概念圖3",
+  "group": "長圖",
+  "left": -284.04,
+  "top": -9254.64,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-05_漲水年曆環_二月層_透明.png",
+    "left": 24,
+    "top": 482.73,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-05_漲水年曆環_三四月層_透明.png",
+    "left": 24,
+    "top": 482.73,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-05_漲水年曆環_全年層_透明.png",
+    "left": 24,
+    "top": 482.73,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 454.7953216374269,
+   "width": 1032,
+   "height": 1010.4093567251462,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 59,
+  "title": "鏡頭14-概念圖收",
+  "group": "長圖",
+  "left": -284.04,
+  "top": -9254.64,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-連線-Pamõ犰狳",
+   "L17-主角星白點",
+   "L25-標籤-Pamõ犰狳"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 60,
+  "title": "鏡頭15開始",
+  "group": "長圖",
+  "left": -2106.0,
+  "top": -7434.57,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點",
+   "L26-標籤-siõka"
+  ],
+  "notes": "大多數星座前面，還有一道亮光帶路，叫 siõka，通常是一顆亮星。二〇〇六年，木星剛好停在毒蛇前頭，大家就說：那是毒蛇的光。是恆星還是行星不要緊，位置才要緊。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 61,
+  "title": "鏡頭15-中1",
+  "group": "長圖",
+  "left": -2155.0,
+  "top": -7590.03,
+  "width": 9900.0,
+  "height": 16115.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點",
+   "L26-標籤-siõka"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 62,
+  "title": "鏡頭15-中2",
+  "group": "長圖",
+  "left": -2204.0,
+  "top": -7745.48,
+  "width": 10080.0,
+  "height": 16408.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點",
+   "L26-標籤-siõka"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 63,
+  "title": "鏡頭15-中3",
+  "group": "長圖",
+  "left": -2253.0,
+  "top": -7900.94,
+  "width": 10260.0,
+  "height": 16701.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點",
+   "L26-標籤-siõka"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 64,
+  "title": "鏡頭15-中4",
+  "group": "長圖",
+  "left": -2302.0,
+  "top": -8056.39,
+  "width": 10440.0,
+  "height": 16994.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點",
+   "L26-標籤-siõka"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 65,
+  "title": "鏡頭15-中5",
+  "group": "長圖",
+  "left": -2351.0,
+  "top": -8211.85,
+  "width": 10620.0,
+  "height": 17287.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點",
+   "L26-標籤-siõka"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 66,
+  "title": "鏡頭15結束＝鏡頭16開始",
+  "group": "長圖",
+  "left": -2400.0,
+  "top": -8367.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點"
+  ],
+  "notes": "流星呢？是「星星人」偷偷跑去約會，大家看到都會笑。二〇〇六年，長老替 Cardoso 辦了三天的命名儀式，給他一個圖卡諾名字：Seribhi Hó——晨星，胖胖的。",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 67,
+  "title": "鏡頭16-概念圖1",
+  "group": "長圖",
+  "left": -2400.0,
+  "top": -8367.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-06_流星與名字_流星層_透明.png",
+    "left": 24,
+    "top": 460.85,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 442.47368421052636,
+   "width": 1032,
+   "height": 1035.0526315789475,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 68,
+  "title": "鏡頭16-概念圖2",
+  "group": "長圖",
+  "left": -2400.0,
+  "top": -8367.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-06_流星與名字_流星層_透明.png",
+    "left": 24,
+    "top": 460.85,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A24-06_流星與名字_晨星層_透明.png",
+    "left": 24,
+    "top": 460.85,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 442.47368421052636,
+   "width": 1032,
+   "height": 1035.0526315789475,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 69,
+  "title": "鏡頭16-概念圖收",
+  "group": "長圖",
+  "left": -2400.0,
+  "top": -8367.3,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 70,
+  "title": "長圖轉北盤1-回中心",
+  "group": "長圖",
+  "left": -4860.0,
+  "top": -7830.0,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 71,
+  "title": "長圖轉北盤1-上移",
+  "group": "長圖",
+  "left": -4860.0,
+  "top": -4047.89,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-Aña毒蛇",
+   "L18-siõka候選",
+   "L15-木星2006年8月",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 72,
+  "title": "長圖轉北盤1",
+  "group": "北盤",
+  "left": -4473.38,
+  "top": -4053.38,
+  "width": 10026.76,
+  "height": 10026.76,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 73,
+  "title": "鏡頭17開始",
+  "group": "北盤",
+  "left": -451.33,
+  "top": -998.8,
+  "width": 3525.03,
+  "height": 3525.03,
+  "rotation": -122.54,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "這週末天黑後到八點半，在台灣往西北低空看：仙后座 W 的西半邊，就是美洲豹的頭。這幾天在 Tiquié，牠正碰到地平線；照圖卡諾的日曆，這正是美洲豹的漲水。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": 1185.8
+ },
+ {
+  "page": 74,
+  "title": "鏡頭17-中1",
+  "group": "北盤",
+  "left": -461.61,
+  "top": -1033.42,
+  "width": 3561.6,
+  "height": 3561.6,
+  "rotation": -125.05,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1175.7
+ },
+ {
+  "page": 75,
+  "title": "鏡頭17-中2",
+  "group": "北盤",
+  "left": -471.9,
+  "top": -1068.04,
+  "width": 3598.17,
+  "height": 3598.17,
+  "rotation": -127.55,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1165.5
+ },
+ {
+  "page": 76,
+  "title": "鏡頭17-中3",
+  "group": "北盤",
+  "left": -482.18,
+  "top": -1102.67,
+  "width": 3634.73,
+  "height": 3634.73,
+  "rotation": -130.06,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1155.4
+ },
+ {
+  "page": 77,
+  "title": "鏡頭17-中4",
+  "group": "北盤",
+  "left": -492.46,
+  "top": -1137.29,
+  "width": 3671.3,
+  "height": 3671.3,
+  "rotation": -132.57,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1145.2
+ },
+ {
+  "page": 78,
+  "title": "鏡頭17-中5",
+  "group": "北盤",
+  "left": -502.75,
+  "top": -1171.91,
+  "width": 3707.87,
+  "height": 3707.87,
+  "rotation": -135.07,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1135.0
+ },
+ {
+  "page": 79,
+  "title": "鏡頭17結束",
+  "group": "北盤",
+  "left": -513.03,
+  "top": -1206.53,
+  "width": 3744.43,
+  "height": 3744.43,
+  "rotation": -137.58,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.5 秒）",
+  "mountain_top": 1124.8
+ },
+ {
+  "page": 80,
+  "title": "鏡頭17-概念圖",
+  "group": "北盤",
+  "left": -513.03,
+  "top": -1206.53,
+  "width": 3744.43,
+  "height": 3744.43,
+  "rotation": -137.58,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": 1124.8,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A24-08_這週末抬頭看_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 81,
+  "title": "鏡頭17-概念圖收",
+  "group": "北盤",
+  "left": -513.03,
+  "top": -1206.53,
+  "width": 3744.43,
+  "height": 3744.43,
+  "rotation": -137.58,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點",
+   "北盤L14-標籤-Yai美洲豹"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": 1124.8,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 82,
+  "title": "北盤轉長圖1-歸位",
+  "group": "北盤",
+  "left": -4473.38,
+  "top": -4053.38,
+  "width": 10026.76,
+  "height": 10026.76,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L5-連線-Yai美洲豹",
+   "北盤L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 83,
+  "title": "北盤轉長圖1",
+  "group": "長圖",
+  "left": -4860.0,
+  "top": -4047.89,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Yai美洲豹",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 84,
+  "title": "北盤轉長圖1-下移",
+  "group": "長圖",
+  "left": -4860.0,
+  "top": -7830.0,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Yai美洲豹",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 85,
+  "title": "鏡頭18開始",
+  "group": "長圖",
+  "left": -4745.77,
+  "top": -4970.86,
+  "width": 7476.92,
+  "height": 12170.77,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Ñohkoatero一群星",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L16-木星與火星2027",
+   "L17-主角星白點",
+   "L28-標籤-這週末"
+  ],
+  "notes": "往西，昴宿、畢宿、獵戶排成一列，就是圖卡諾人接下來三個月的日曆。東方兩顆不閃的亮點，是木星和火星。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 86,
+  "title": "鏡頭18-中1",
+  "group": "長圖",
+  "left": -4402.74,
+  "top": -4938.3,
+  "width": 7476.92,
+  "height": 12170.77,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Ñohkoatero一群星",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L16-木星與火星2027",
+   "L17-主角星白點",
+   "L28-標籤-這週末"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 87,
+  "title": "鏡頭18-中2",
+  "group": "長圖",
+  "left": -4059.72,
+  "top": -4905.73,
+  "width": 7476.92,
+  "height": 12170.77,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Ñohkoatero一群星",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L16-木星與火星2027",
+   "L17-主角星白點",
+   "L28-標籤-這週末"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 88,
+  "title": "鏡頭18-中3",
+  "group": "長圖",
+  "left": -3716.7,
+  "top": -4873.16,
+  "width": 7476.92,
+  "height": 12170.77,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Ñohkoatero一群星",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L16-木星與火星2027",
+   "L17-主角星白點",
+   "L28-標籤-這週末"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 89,
+  "title": "鏡頭18-中4",
+  "group": "長圖",
+  "left": -3373.67,
+  "top": -4840.6,
+  "width": 7476.92,
+  "height": 12170.77,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Ñohkoatero一群星",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L16-木星與火星2027",
+   "L17-主角星白點",
+   "L28-標籤-這週末"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 90,
+  "title": "鏡頭18結束",
+  "group": "長圖",
+  "left": -3030.65,
+  "top": -4808.03,
+  "width": 7476.92,
+  "height": 12170.77,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Ñohkoatero一群星",
+   "L8-連線-Waikhasa魚架",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L16-木星與火星2027",
+   "L17-主角星白點",
+   "L28-標籤-這週末"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 91,
+  "title": "鏡頭19開始",
+  "group": "長圖",
+  "left": -7341.14,
+  "top": -8238.42,
+  "width": 11435.29,
+  "height": 18614.12,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L8-連線-Waikhasa魚架",
+   "L7-連線-Ñohkoatero一群星",
+   "L17-主角星白點"
+  ],
+  "notes": "下週五，往東到巴西海岸。一六一二年，一位法國傳教士在那裡抄下二十八個星名，兩年後寫進書裡：「其他的，我就不寫了。」",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 92,
+  "title": "鏡頭19-中1",
+  "group": "長圖",
+  "left": -7997.9,
+  "top": -9004.96,
+  "width": 12388.24,
+  "height": 20165.29,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L8-連線-Waikhasa魚架",
+   "L7-連線-Ñohkoatero一群星",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 93,
+  "title": "鏡頭19-中2",
+  "group": "長圖",
+  "left": -8654.66,
+  "top": -9771.49,
+  "width": 13341.18,
+  "height": 21716.47,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L8-連線-Waikhasa魚架",
+   "L7-連線-Ñohkoatero一群星",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 94,
+  "title": "鏡頭19-中3",
+  "group": "長圖",
+  "left": -9311.43,
+  "top": -10538.03,
+  "width": 14294.12,
+  "height": 23267.65,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L8-連線-Waikhasa魚架",
+   "L7-連線-Ñohkoatero一群星",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 95,
+  "title": "鏡頭19-中4",
+  "group": "長圖",
+  "left": -9968.19,
+  "top": -11304.56,
+  "width": 15247.06,
+  "height": 24818.82,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L8-連線-Waikhasa魚架",
+   "L7-連線-Ñohkoatero一群星",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 96,
+  "title": "鏡頭19結束",
+  "group": "長圖",
+  "left": -10624.95,
+  "top": -12071.1,
+  "width": 16200.0,
+  "height": 26370.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sioyahpʉ錛柄",
+   "L8-連線-Waikhasa魚架",
+   "L7-連線-Ñohkoatero一群星",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（2.2 秒）",
+  "mountain_top": null
+ }
+]
