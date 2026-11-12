@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-12T14:09:52.877696</dc:date>
+    <dc:date>2026-11-12T14:21:46.156619</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- Yandoutin -->
      <g style="fill: #ffffff" transform="translate(42.532042 770.8817) scale(0.127296 -0.127296)">
       <defs>
@@ -241,7 +241,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 白色的鴕鳥（美洲鴕） -->
      <g style="fill: #ffffff" transform="translate(23.830359 781.399532) scale(0.10166 -0.10166)">
       <defs>
@@ -745,7 +745,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 頭（煤袋） -->
      <g style="fill: #ffffff" transform="translate(336.966519 1018.163989) scale(0.10166 -0.10166)">
       <defs>
@@ -1030,7 +1030,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 嘴（蒼蠅座 α、β） -->
      <g style="fill: #ffffff" transform="translate(312.879085 1026.642152) scale(0.10166 -0.10166)">
       <defs>
@@ -1535,7 +1535,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 脖子 -->
      <g style="fill: #ffffff" transform="translate(383.562401 1085.334993) scale(0.10166 -0.10166)">
       <defs>
@@ -1673,7 +1673,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 身體 -->
      <g style="fill: #ffffff" transform="translate(62.861606 853.129676) scale(0.10166 -0.10166)">
       <defs>
@@ -1919,7 +1919,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 尾巴（天蠍的螯） -->
      <g style="fill: #ffffff" transform="translate(69.723552 788.568959) scale(0.10166 -0.10166)">
       <defs>
@@ -2335,7 +2335,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 腿（天蠍的尾巴） -->
      <g style="fill: #ffffff" transform="translate(-13.528272 824.68614) scale(0.10166 -0.10166)">
       <defs>
@@ -2461,7 +2461,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 腿 -->
      <g style="fill: #ffffff" transform="translate(26.787384 836.971954) scale(0.10166 -0.10166)">
       <use xlink:href="#NotoSerifCJKjp-Regular-8086"/>
@@ -2469,7 +2469,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#p2585a3b68f)">
+    <g clip-path="url(#p5b35ee66c5)">
      <!-- 辨認：Afonso -->
      <g style="fill: #ffffff" transform="translate(50.135084 792.89616) scale(0.076466 -0.076466)">
       <defs>
@@ -2801,7 +2801,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p2585a3b68f">
+  <clipPath id="p5b35ee66c5">
    <rect x="0" y="0" width="936" height="1436.071264"/>
   </clipPath>
  </defs>

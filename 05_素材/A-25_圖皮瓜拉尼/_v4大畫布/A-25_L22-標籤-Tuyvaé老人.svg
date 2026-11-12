@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-12T14:09:53.006530</dc:date>
+    <dc:date>2026-11-12T14:21:46.320235</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p67d3f5ec16)">
+    <g clip-path="url(#p3fe92b6893)">
      <!-- Tuyvaé -->
      <g style="fill: #7bd88f" transform="translate(530.471626 727.265752) scale(0.055692 -0.055692)">
       <defs>
@@ -191,7 +191,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p67d3f5ec16)">
+    <g clip-path="url(#p3fe92b6893)">
      <!-- 拿著棍子的老人 -->
      <g style="fill: #ffffff" transform="translate(524.484687 732.258153) scale(0.044642 -0.044642)">
       <defs>
@@ -633,7 +633,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p67d3f5ec16)">
+    <g clip-path="url(#p3fe92b6893)">
      <!-- 斷腿處（參宿四） -->
      <g style="fill: #7bd88f" transform="translate(481.881238 693.973531) scale(0.044642 -0.044642)">
       <defs>
@@ -1221,7 +1221,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p67d3f5ec16)">
+    <g clip-path="url(#p3fe92b6893)">
      <!-- 棍子 -->
      <g style="fill: #7bd88f" transform="translate(511.950299 729.145201) scale(0.044642 -0.044642)">
       <use xlink:href="#NotoSerifCJKjp-Regular-5369"/>
@@ -1230,7 +1230,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p67d3f5ec16)">
+    <g clip-path="url(#p3fe92b6893)">
      <!-- 辨認與斷腿神話：Afonso -->
      <g style="fill: #ffffff" transform="translate(520.937278 741.028869) scale(0.033592 -0.033592)">
       <defs>
@@ -1868,7 +1868,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p67d3f5ec16">
+  <clipPath id="p3fe92b6893">
    <rect x="0" y="0" width="936" height="1436.071264"/>
   </clipPath>
  </defs>

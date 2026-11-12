@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-12T14:09:54.053641</dc:date>
+    <dc:date>2026-11-12T14:21:47.468691</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#padfd7e9580)">
+    <g clip-path="url(#pdaaab20b06)">
      <!-- Crussa -->
      <g style="fill: #ffffff" transform="translate(306.656216 470.586749) scale(0.043172 -0.043172)">
       <defs>
@@ -164,7 +164,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#padfd7e9580)">
+    <g clip-path="url(#pdaaab20b06)">
      <!-- 十字 -->
      <g style="fill: #ffffff" transform="translate(310.34509 474.152614) scale(0.034538 -0.034538)">
       <defs>
@@ -247,7 +247,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#padfd7e9580)">
+    <g clip-path="url(#pdaaab20b06)">
      <!-- 葡萄牙文 cruz？ -->
      <g style="fill: #ffffff" transform="translate(303.139807 459.28914) scale(0.028782 -0.028782)">
       <defs>
@@ -599,7 +599,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="padfd7e9580">
+  <clipPath id="pdaaab20b06">
    <rect x="0" y="0" width="936" height="936"/>
   </clipPath>
  </defs>

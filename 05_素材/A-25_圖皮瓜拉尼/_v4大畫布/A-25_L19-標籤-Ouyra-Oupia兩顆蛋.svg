@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-12T14:09:52.921627</dc:date>
+    <dc:date>2026-11-12T14:21:46.222668</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,9 +31,9 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pe3be88946b)">
+    <g clip-path="url(#p6953db8040)">
      <!-- Ouyra-Oupia -->
-     <g style="fill: #ffc94a" transform="translate(380.913627 1012.605829) scale(0.05304 -0.05304)">
+     <g style="fill: #ffc94a" transform="translate(375.713627 1024.305829) scale(0.05304 -0.05304)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-30" d="M 2451 -102 
 C 3590 -102 4544 806 4544 2330 
@@ -228,9 +228,9 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pe3be88946b)">
+    <g clip-path="url(#p6953db8040)">
      <!-- 兩顆蛋 -->
-     <g style="fill: #ffffff" transform="translate(391.103108 1017.387011) scale(0.042432 -0.042432)">
+     <g style="fill: #ffffff" transform="translate(385.903108 1029.087011) scale(0.042432 -0.042432)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-2a99" d="M 4115 2918 
 L 3693 2918 
@@ -510,7 +510,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pe3be88946b)">
+    <g clip-path="url(#p6953db8040)">
      <!-- 已經吞下的兩顆蛋 -->
      <g style="fill: #ffc94a" transform="translate(362.257352 1064.594327) scale(0.042432 -0.042432)">
       <defs>
@@ -779,9 +779,9 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pe3be88946b)">
+    <g clip-path="url(#p6953db8040)">
      <!-- 嘴（蒼蠅座 α、β） -->
-     <g style="fill: #ffffff" transform="translate(353.594533 1027.245983) scale(0.042432 -0.042432)">
+     <g style="fill: #ffffff" transform="translate(343.194533 1007.745983) scale(0.042432 -0.042432)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-3212" d="M 2387 4902 
 L 2387 3462 
@@ -1304,7 +1304,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe3be88946b">
+  <clipPath id="p6953db8040">
    <rect x="0" y="0" width="936" height="1436.071264"/>
   </clipPath>
  </defs>

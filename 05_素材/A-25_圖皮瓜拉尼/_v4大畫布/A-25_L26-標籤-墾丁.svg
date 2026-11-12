@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-12T14:09:53.169429</dc:date>
+    <dc:date>2026-11-12T14:21:46.468229</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#pfc5876e232)">
+    <g clip-path="url(#pcf09cffc5d)">
      <!-- 南十字＝鴕鳥的頭 -->
      <g style="fill: #ffffff" transform="translate(303.347484 998.877944) scale(0.11492 -0.11492)">
       <defs>
@@ -561,7 +561,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pfc5876e232)">
+    <g clip-path="url(#pcf09cffc5d)">
      <!-- 心宿二 -->
      <g style="fill: #ffffff" transform="translate(66.373176 781.690148) scale(0.10608 -0.10608)">
       <defs>
@@ -699,9 +699,9 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pfc5876e232)">
+    <g clip-path="url(#pcf09cffc5d)">
      <!-- 嘴和兩顆蛋：台灣看不到 -->
-     <g style="fill: #ffffff" transform="translate(327.145183 998.597557) scale(0.09724 -0.09724)">
+     <g style="fill: #ffffff" transform="translate(321.945183 938.797557) scale(0.09724 -0.09724)">
       <defs>
        <path id="NotoSerifCJKjp-Regular-3212" d="M 2387 4902 
 L 2387 3462 
@@ -1567,7 +1567,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pfc5876e232">
+  <clipPath id="pcf09cffc5d">
    <rect x="0" y="0" width="936" height="1436.071264"/>
   </clipPath>
  </defs>

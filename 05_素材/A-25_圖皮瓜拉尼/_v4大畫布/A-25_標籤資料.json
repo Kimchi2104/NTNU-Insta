@@ -125,8 +125,8 @@
           "text": "Ouyra-Oupia",
           "color": "amber",
           "size": 1.2,
-          "dx": 0.0,
-          "dy": 0.92,
+          "dx": -2.0,
+          "dy": -3.58,
           "key": "Ouyra-Oupia",
           "disc": true
         },
@@ -136,8 +136,8 @@
           "text": "兩顆蛋",
           "color": "white",
           "size": 0.96,
-          "dx": 0.0,
-          "dy": -0.92,
+          "dx": -2.0,
+          "dy": -5.42,
           "key": "Ouyra-Oupia-zh",
           "disc": true
         },
@@ -158,8 +158,8 @@
           "text": "嘴（蒼蠅座 α、β）",
           "color": "white",
           "size": 0.96,
-          "dx": -5.0,
-          "dy": -5.0,
+          "dx": -9.0,
+          "dy": 2.5,
           "key": "嘴",
           "disc": true
         }
@@ -428,8 +428,8 @@
           "text": "嘴和兩顆蛋：台灣看不到",
           "color": "white",
           "size": 2.2,
-          "dx": -4.0,
-          "dy": 7.0,
+          "dx": -6.0,
+          "dy": 30.0,
           "key": "看不到",
           "disc": true
         }

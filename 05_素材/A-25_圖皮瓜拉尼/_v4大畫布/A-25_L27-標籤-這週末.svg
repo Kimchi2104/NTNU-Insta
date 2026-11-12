@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-12T14:09:53.212266</dc:date>
+    <dc:date>2026-11-12T14:21:46.511117</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,7 +31,7 @@ z
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <g clip-path="url(#p0c587f4f8c)">
+    <g clip-path="url(#p59ed98487a)">
      <!-- 拿棍子的老人 -->
      <g style="fill: #7bd88f" transform="translate(515.549787 725.317973) scale(0.064532 -0.064532)">
       <defs>
@@ -377,7 +377,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p0c587f4f8c)">
+    <g clip-path="url(#p59ed98487a)">
      <!-- 羽毛（昴宿） -->
      <g style="fill: #6fa8ff" transform="translate(549.938812 649.504715) scale(0.05967 -0.05967)">
       <defs>
@@ -657,7 +657,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p0c587f4f8c)">
+    <g clip-path="url(#p59ed98487a)">
      <!-- 月牙 3/12 -->
      <g style="fill: #ffffff" transform="translate(599.801354 660.651465) scale(0.05967 -0.05967)">
       <defs>
@@ -811,7 +811,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p0c587f4f8c)">
+    <g clip-path="url(#p59ed98487a)">
      <!-- 3/13 -->
      <g style="fill: #ffffff" transform="translate(579.012793 664.59145) scale(0.050388 -0.050388)">
       <use xlink:href="#NotoSerifCJKjp-Regular-14"/>
@@ -822,7 +822,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p0c587f4f8c)">
+    <g clip-path="url(#p59ed98487a)">
      <!-- 3/14 -->
      <g style="fill: #ffffff" transform="translate(540.35897 650.894762) scale(0.050388 -0.050388)">
       <defs>
@@ -857,7 +857,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p0c587f4f8c">
+  <clipPath id="p59ed98487a">
    <rect x="0" y="0" width="936" height="1436.071264"/>
   </clipPath>
  </defs>

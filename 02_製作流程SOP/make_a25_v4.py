@@ -46,7 +46,10 @@ Afonso〈As Constelações Indígenas Brasileiras〉（同資料夾 indigenas.pd
          （剛好就是牠在東方升起的姿勢）；
          墾丁 3/13 01:00／01:20＝+90.9／+95.9。每段 M&M 旋轉 < 180° ✓（最大一段＝歸位 +96→0°）。
 
-check_shots 的 ⚠（判斷後接受；跑完逐條看過，見檔尾註記）
+check_shots 的 ⚠（判斷後接受；跑完逐條看過）
+  01–11、16、18 R「畫面含長圖側扇區／切點」：這些鏡頭全程在南盤圖層組上；與長圖互切一律由 gen_canva_pages
+  插「歸位（盤轉回 0°、盤心、fov ≤ 50）／南盤轉長圖／下移」或「回中心／上移／長圖轉南盤」，換組那一格在盤緣圈內
+  逐點重合（check_disc_align：對不上 0）。整集第一頁就在南盤上（gen_canva_pages 已支援「從盤開場」）。
 """
 import os, sys, json, math, csv, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -461,7 +464,7 @@ def build():
     shift(LB_OST, "身體", 0.0, -4.0); shift(LB_OST, "尾巴（天蠍的螯）", 9.0, -5.0)
     shift(LB_OST, "嘴", -11.0, -4.0); shift(LB_OST, "脖子", 9.0, -12.0)
     shift(LB_OST, "腿", 8.0, 0.0); shift(LB_OST, "頭（煤袋）", 0.0, 2.0)
-    shift(LB_EGG, "嘴", -5.0, -5.0); shift(LB_EGG, "吞下的蛋", 4.0, 0.0)
+    shift(LB_EGG, "嘴", -9.0, 2.5); shift(LB_EGG, "Ouyra-Oupia", -2.0, -4.5); shift(LB_EGG, "吞下的蛋", 4.0, 0.0)
     shift(LB_GRIP, "南十字", -9.0, 1.0)
     shift(LB_OLD, "Tuyvaé", 8.0, -12.0); shift(LB_OLD, "Tuyvaé-註", 8.0, -16.5)
     shift(LB_OLD, "斷腿處（參宿四）", 6.0, 2.5)
@@ -469,7 +472,7 @@ def build():
     shift(LB_DOG, "Iaouare", -4.0, 6.0); shift(LB_DOG, "畢宿五？", 0.0, -2.2)
     shift(LB_DOG, "心宿二？", 0.0, -2.2); shift(LB_DOG, "火星？", 0.0, -2.0)
     shift(LB_CRU, "Crussa", -9.0, 1.0); shift(LB_CRU, "Crussa-註", -9.0, 5.5)
-    shift(LB_KT, "南十字", 0.0, 6.0); shift(LB_KT, "心宿二", 4.0, 3.5); shift(LB_KT, "看不到", -4.0, 7.0)
+    shift(LB_KT, "南十字", 0.0, 6.0); shift(LB_KT, "心宿二", 4.0, 3.5); shift(LB_KT, "看不到", -6.0, 30.0)
     shift(LB_WEEK, "Seichou", 0.0, 3.0); shift(LB_WEEK, "3/13", 0.0, -2.6)
     shift(LB_WEEK, "月牙 3/12", -3.0, 3.0); shift(LB_WEEK, "Tuyvaé", 6.0, -10.0)
 
