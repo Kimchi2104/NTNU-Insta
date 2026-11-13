@@ -86,7 +86,7 @@ class Pages:
                 grp = "北盤" if sh.get("north", True) else "南盤"
             frs = [tuple(f) for f in sh["frames"]]
             # 預設不插中間頁：同一張畫布上兩個構圖之間，Canva 的 Match & Move 自己走同一條路徑。
-            # 只有 (1) 單段旋轉 ≥ 180°（Canva 會走反方向）自動拆；(2) 這一鏡在 shots 寫了 seg
+            # 只有 (1) 單段旋轉 ≥ 170°（到 180° Canva 會走反方向）自動拆；(2) 這一鏡在 shots 寫了 seg
             # （要一段移動慢慢走超過 2.5 秒）；(3) 命令列 --seg（整集都拆，頁數會翻倍，不建議）。
             keys = self._split(frs, sh["sec"], float(sh.get("seg") or self.seg)) if len(frs) > 1 \
                 else [(0.0, frs[0])]
@@ -262,7 +262,7 @@ class Pages:
 
     def _split(self, frs, sec, seg=0.0):
         """關鍵格之間要不要插中間頁（Canva 元素空間線性內插＝M&M 本身的內插，畫面路徑不變）。
-        seg>0：每段 ≤ seg 秒；另外單段旋轉 ≥ 180° 一定拆（否則 Canva 走反方向）。"""
+        seg>0：每段 ≤ seg 秒；另外單段旋轉 ≥ 170° 一定拆（到 180° Canva 會走反方向）。"""
         out = [(0.0, frs[0])]
         nseg = len(frs) - 1
         for k in range(nseg):
@@ -270,8 +270,8 @@ class Pages:
             a, b = frs[k], frs[k + 1]
             n = max(1, math.ceil(dur / seg - 1e-9)) if seg > 0 else 1
             drot = abs(b[3] - a[3])
-            if drot >= 180 - 1e-6:
-                n = max(n, int(drot // 180) + 1)
+            if drot >= 170:                              # 接近 180° 就拆，留餘裕
+                n = max(n, int(drot // 170) + 1)
             if n == 1:                                   # 不拆：關鍵格原樣
                 out.append(((k + 1) / nseg, b))
                 continue
