@@ -226,7 +226,7 @@ class Pages:
                     pg["name"] = f"長圖轉{grp}{n_in}＝{pg['name']}"
                     pg["trans"] = hard
                 else:
-                    out.append(self._bridge_page(f"長圖轉{grp}{n_in}", grp, sw, pg["shot"], hard))
+                    out.append(self._bridge_page(f"長圖轉{grp}{n_in}", grp, sw, sh_prev, hard))
                     pg["trans"] = self.TRANS_MM
                 state = (grp, sw, origin)
             elif prev and prev["group"] != "長圖" and pg["group"] == "長圖":
