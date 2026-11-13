@@ -30,7 +30,11 @@
   "北盤L3-經緯線": "MAHaruIaWaw",
   "北盤L5-連線-Voz大車": "MAHarsJwLN0",
   "北盤L6-連線-Maly voz小車": "MAHarmmagxQ",
-  "北盤L7-連線-以利亞的車": "MAHarmqdlC8"
+  "北盤L7-連線-以利亞的車": "MAHarmqdlC8",
+  "北盤L11-連線-耶穌的椅子": "MAHay5RhLtU",
+  "北盤L8-連線-割與耙": "MAHayxTwu70",
+  "北盤L27-木星與火星": "MAHay5Dej9Y",
+  "北盤L28-月亮-2月19日": "MAHay9ekod0"
  },
  "mountain": "MAD4KTwSGtw",
  "background": "MAHWs5D_MpY",
@@ -454,5 +458,10 @@
   "下集見": "PBxysP00l2HhWXCF",
   "追蹤我們": "PBQssKFW4z60wZ0y",
   "參考文獻": "PBZjlzXD8ZzpjsVk"
+ },
+ "pending_fix": {
+  "說明": "換盤頁「長圖轉北盤」應沿用前一頁（長圖）的內容；Canva 連接器無法編輯 103 頁的設計，需手工改",
+  "第72頁(PBQVqNhcX7Hp7vcN)": "北盤 L1,L2,L3,L11耶穌的椅子,L15 主角星",
+  "第98頁(PBCnlCRywMzzzZSJ)": "北盤 L1,L2,L3,L8割與耙,L27木星與火星,L28月亮2/19,L15 主角星"
  }
 }
