@@ -27,6 +27,7 @@
       "mcp__Canva__get-assets",
       "mcp__Canva__upload-asset-from-url",
       "mcp__Canva__export-design",
+      "mcp__Canva__copy-design",
       "mcp__github__create_pull_request",
       "mcp__github__merge_pull_request",
       "mcp__github__pull_request_read",
