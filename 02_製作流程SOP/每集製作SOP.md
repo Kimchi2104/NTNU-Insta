@@ -117,7 +117,7 @@ python3 canva_ops.py A-05 --list  # 看頁序與每頁要放什麼
 | 情況 | 做法 |
 |---|---|
 | 不能刪頁 | 舊頁移到最後，請你刪 |
-| 一份設計最多 100 頁 | 複製來的檔案本來就有 80 多頁時 `add_page` 會卡住：先請你把上一集的舊頁刪掉；來不及就把舊頁清空重用（頁名會留舊的，請你改） |
+| 存檔後 ≥ 100 頁的設計開不了 transaction | Canva 本身可以超過 100 頁，是連接器不行：一旦 commit 成 100 頁以上，就再也不能用連接器編輯（A-23：32＋104＝136 頁）。A-22 起每集要排 93–104 頁（`--seg 2.5` 的中間頁佔一半），加上範本 32 頁一定超過 → 卡 04 用**工作稿模式**：新頁排在 `copy-design` 做出的工作稿（每份 ≤ 95 頁），全部做完才用 `merge-designs` 的 insert_pages 併回原設計。`merge-designs` 也能 delete_pages、move_pages，但刪頁是永久的，要你在對話裡明講才用 |
 | SVG 不能 update_fill（只收點陣圖） | 刪元素再 insert_fill；PNG 可以 update_fill，但要再 crop_media |
 | recolor_element 只能單色 | 雙色的山交給你用「全部變更」 |
 | 分支 raw 連結有快取 | 用 commit SHA 連結 |
