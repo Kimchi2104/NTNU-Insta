@@ -69,7 +69,7 @@
 西方/現代,AST modern HSr,星群 Asterism,Head of Serpent,巨蛇座頭*,筆畫2,2,78072→77450,Nasak Shamiya II→Gudja,
 西方/現代,AST modern HHy,星群 Asterism,Head of Hydra,長蛇座頭*,筆畫1,6,43813→43109→42313→42402→42799→43813,Minazal V→Ashlesha→Minazal I→Minchir→Minazal II→Minazal V,
 西方/現代,AST modern Tea,星群 Asterism,Teapot,茶壺,筆畫1,12,93506→92041→89931→90185→93506→93864→92855→92041→90496→89931→88635→90185,Ascella→Namalsadirah I→Kaus Media→Kaus Australis→Ascella→Namalsadirah II→Nunki→Namalsadirah I→Kaus Borealis→Kaus Media→Alnasl→Kaus Australis,
-西方/現代,AST modern Mlk,星群 Asterism,Milk Dipper,南斗六星（奶勺）,筆畫1,6,92041→92855→93864→93506→92041→90496,Namalsadirah I→Nunki→Namalsadirah II→Ascella→Namalsadirah I→Kaus Borealis,
+西方/現代,AST modern Mlk,星群 Asterism,Milk Dipper,奶勺（南斗六星少了斗宿三 μ）,筆畫1,6,92041→92855→93864→93506→92041→90496,Namalsadirah I→Nunki→Namalsadirah II→Ascella→Namalsadirah I→Kaus Borealis,
 西方/現代,AST modern Ter,星群 Asterism,Auger,,筆畫1,2,98066→98688,Terebellum→Terebellum IV,原文: Terebellum
 西方/現代,AST modern Ter,星群 Asterism,Auger,,筆畫2,2,98353→98162,Terebellum III→Terebellum II,原文: Terebellum
 西方/現代,AST modern ECr,星群 Asterism,Egyptian Cross,埃及十字*,筆畫1,2,32349→37279,Sirius→Procyon,
@@ -157,7 +157,7 @@
 印度,AST indian Dhani,星群 Asterism,Wealthiest,,筆畫1,2,102281→101958,Al Ukud→Sualocin,原文: धनिष्ठा
 印度,AST indian Śata,星群 Asterism,A Hundred Physicians,,筆畫1,2,110395→110395,Sadachbia→Sadachbia,原文: शतभिषक्
 印度,AST indian PBhā,星群 Asterism,Former Blessed Feet,,筆畫1,2,113881→113963,Scheat→Markab,原文: पूर्वभाद्रपदाः
-印度,AST indian UBhā,星群 Asterism,Latter Blessed Feet,,筆畫1,2,1067→667,Algenib→HIP667,原文: उत्तरभाद्रपदाः
+印度,AST indian UBhā,星群 Asterism,Latter Blessed Feet,,筆畫1,2,1067→677,Algenib→Alpheratz,原文: उत्तरभाद्रपदाः
 印度,AST indian Rev,星群 Asterism,Prosperous,,筆畫1,2,5737→5737,Revati→Revati,原文: रेवती
 阿拉伯・蘇菲,AST arabic_al-sufi Frqd,星群 Asterism,The two oryx calves,,筆畫1,2,72607→75097,Kochab→Pherkad,原文: الفرقدان
 阿拉伯・蘇菲,AST arabic_al-sufi Raha,星群 Asterism,The axe of the grindstone,,筆畫1,9,11767→85822→82080→77055→72607→70692→69112→62572→11767,Polaris→Yildun→Circitores→Akfa Farkadain→Kochab→HIP70692→HIP69112→HIP62572→Polaris,原文: فأس الرحى
