@@ -1,0 +1,458 @@
+{
+ "design_id": "DAHWtHGx6gg",
+ "design_title": "A-22 白俄羅斯",
+ "commit": "d42d9b3dab5d4355e0fd0c71c8b425791184d2c0",
+ "layers": {
+  "L1-銀河": "MAHarve4tGE",
+  "L10-連線-院子": "MAHarsyc2fQ",
+  "L11-連線-耶穌的椅子": "MAHarl5AMsQ",
+  "L13-連線-聖喬治的蛇": "MAHargIFd_Q",
+  "L14-連線-雙胞胎": "MAHarpZYgDU",
+  "L15-紫微垣（虛線）": "MAHarmZUUVs",
+  "L16-木星與火星": "MAHarorArpo",
+  "L17-月亮-2月19日": "MAHarhux9-8",
+  "L19-主角星白點": "MAHaror_fCE",
+  "L2-星點": "MAHaruxPfnw",
+  "L20-單星光暈": "MAHarvDhWaA",
+  "L21-共用七星圈": "MAHarmqiayU",
+  "L3-經緯線": "MAHartQunyQ",
+  "L5-連線-Voz大車": "MAHarucML9c",
+  "L6-連線-Maly voz小車": "MAHarqpNARs",
+  "L8-連線-割與耙": "MAHartSUR2M",
+  "L9-連線-犁與篩": "MAHarozMP5g",
+  "北盤L1-銀河": "MAHariAb9Mo",
+  "北盤L13-連線-聖喬治的蛇": "MAHariyQuJo",
+  "北盤L15-主角星白點": "MAHarnJeteo",
+  "北盤L16-單星光暈": "MAHartFvSro",
+  "北盤L17-共用七星圈": "MAHarjF9e4k",
+  "北盤L2-星點": "MAHarsw5zxw",
+  "北盤L26-紫微垣（虛線）": "MAHarjAaDJE",
+  "北盤L3-經緯線": "MAHaruIaWaw",
+  "北盤L5-連線-Voz大車": "MAHarsJwLN0",
+  "北盤L6-連線-Maly voz小車": "MAHarmmagxQ",
+  "北盤L7-連線-以利亞的車": "MAHarmqdlC8"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A22-01_白俄羅斯在哪_地圖層_透明.png": "MAHarscOMI8",
+  "C-A22-01_白俄羅斯在哪_森林湖泊層_透明.png": "MAHarkqaDoQ",
+  "C-A22-02_火車火馬_經文層_透明.png": "MAHarklO56k",
+  "C-A22-03_雷聲車輪_車輪層_透明.png": "MAHarmXpNH8",
+  "C-A22-03_雷聲車輪_閃電層_透明.png": "MAHarvlbXeA",
+  "C-A22-04_白俄羅斯農民曆_年輪層_透明.png": "MAHarvMK57c",
+  "C-A22-04_白俄羅斯農民曆_星層_透明.png": "MAHaruS9GNw",
+  "C-A22-04_白俄羅斯農民曆_節日層_透明.png": "MAHarrPGH2I",
+  "C-A22-05_打乾草的一整套_割層_透明.png": "MAHaruq63ow",
+  "C-A22-05_打乾草的一整套_耙層_透明.png": "MAHarstR0Jw",
+  "C-A22-05_打乾草的一整套_載層_透明.png": "MAHarn_6p1c",
+  "C-A22-06_白俄羅斯星名小辭典_圖卡.png": "MAHari-vrmA",
+  "C-A22-07_這幾天抬頭看_圖卡.png": "MAHarsRLAq0",
+  "C-A22-08_荊棘冠與十字架_北冕層_透明.png": "MAHarnapHF4",
+  "C-A22-08_荊棘冠與十字架_天鵝層_透明.png": "MAHarjJ01Kc"
+ },
+ "pages": {
+  "1": {
+   "title": "上週，薩米人說北極星撐著整片天空。今晚往南到白俄羅斯：同一片星空，白俄羅斯的農民看見——一本農民曆。",
+   "page_id": "PBnSbkjn2BFG0Rsr"
+  },
+  "2": {
+   "title": "",
+   "page_id": "PB2J3FfQSbfrt3PR"
+  },
+  "3": {
+   "title": "",
+   "page_id": "PBQCpWy7KPvVNTmw"
+  },
+  "4": {
+   "title": "",
+   "page_id": "PBrg8b3WXJQtXRSq"
+  },
+  "5": {
+   "title": "白俄羅斯在東歐內陸，沒有海，四成是森林，還有上千座湖。研究者發現，到了二十一世紀，村裡的老人還叫得出星星的名字。",
+   "page_id": "PBGcPHpfvZcLsll3"
+  },
+  "6": {
+   "title": "",
+   "page_id": "PBPHn0t9r01yYX81"
+  },
+  "7": {
+   "title": "",
+   "page_id": "PB941DJvWVFcspq3"
+  },
+  "8": {
+   "title": "先往北看。北極星叫 Hvozdz——釘子，整片天空就繞著這根釘子轉。蒙古人也說它是一根金樁。",
+   "page_id": "PBJr4ZN5vd9540PY"
+  },
+  "9": {
+   "title": "",
+   "page_id": "PBQmb7B2cv5PLlzr"
+  },
+  "10": {
+   "title": "",
+   "page_id": "PB7SF30FrVpj2l59"
+  },
+  "11": {
+   "title": "",
+   "page_id": "PB39KCGhlvZG5VZk"
+  },
+  "12": {
+   "title": "繞著釘子轉的，是一輛車：北斗七星叫 Voz，大車；小熊座是 Maly voz，小車。冬天的節日 Kaliady，傳說就是坐著這輛大車來的。",
+   "page_id": "PB5Pkx5FH66dFMWd"
+  },
+  "13": {
+   "title": "",
+   "page_id": "PB4kCRkZPDb36zb1"
+  },
+  "14": {
+   "title": "",
+   "page_id": "PBN2mN93n5YwT63r"
+  },
+  "15": {
+   "title": "",
+   "page_id": "PBvJCyYYZkxczfBx"
+  },
+  "16": {
+   "title": "",
+   "page_id": "PBTQnwDxZ5f4hvGb"
+  },
+  "17": {
+   "title": "",
+   "page_id": "PBlQ8vntVBSYkP0v"
+  },
+  "18": {
+   "title": "基督教傳進來以後，這輛車有了主人：先知以利亞。聖經說他沒有死——「忽有火車火馬將二人隔開，以利亞就乘旋風升天去了」。",
+   "page_id": "PBwjDhd6NHc7wcQp"
+  },
+  "19": {
+   "title": "",
+   "page_id": "PB16my5m6xwNFZF5"
+  },
+  "20": {
+   "title": "",
+   "page_id": "PB4148kftxdVTjf0"
+  },
+  "21": {
+   "title": "",
+   "page_id": "PBV8lb6xCWDtWYGq"
+  },
+  "22": {
+   "title": "",
+   "page_id": "PB3sTF3xW8g8xXVn"
+  },
+  "23": {
+   "title": "",
+   "page_id": "PBLP9D9gRJ76nZjB"
+  },
+  "24": {
+   "title": "",
+   "page_id": "PByT6GkDqgvk6dF2"
+  },
+  "25": {
+   "title": "",
+   "page_id": "PB4834d0QQd7X8D8"
+  },
+  "26": {
+   "title": "所以北斗又叫 Illioŭ voz，以利亞的車——一輛火焰馬車。東斯拉夫民間說，夏天打雷，就是他駕著車在天上跑，閃電是他在追打魔鬼。",
+   "page_id": "PBw3pMfrK99ylf6g"
+  },
+  "27": {
+   "title": "",
+   "page_id": "PB6BvZR9chldykqZ"
+  },
+  "28": {
+   "title": "",
+   "page_id": "PBM2YMQHWCR7qbR6"
+  },
+  "29": {
+   "title": "他的節日在八月初，正是雷雨多、麥子收割的時候。也有人認為，更早以前駕這輛車的，是雷神 Perun。",
+   "page_id": "PB4Zk5xF10LLgP3q"
+  },
+  "30": {
+   "title": "",
+   "page_id": "PBX5vjfGp9j3bGr1"
+  },
+  "31": {
+   "title": "",
+   "page_id": "PBcpNw6HDfBpjXG9"
+  },
+  "32": {
+   "title": "",
+   "page_id": "PBgWD2xtdGvkbJGm"
+  },
+  "33": {
+   "title": "把北斗看成車的，不只白俄羅斯：北歐叫「男人的車」，羅馬尼亞叫「大車」；司馬遷也說「斗為帝車」——天帝的車。",
+   "page_id": "PB6fTBRdqkSrhdF3"
+  },
+  "34": {
+   "title": "",
+   "page_id": "PBVKYqRbGKKBd4Bt"
+  },
+  "35": {
+   "title": "",
+   "page_id": "PBBQ9tJgjqzYnGBy"
+  },
+  "36": {
+   "title": "",
+   "page_id": "PBgGjs89yBlmwyXw"
+  },
+  "37": {
+   "title": "",
+   "page_id": "PBVMfsQYRK7h00bW"
+  },
+  "38": {
+   "title": "往南看獵戶座。腰帶三顆星，一顆接一顆斜斜排開，像田裡一排割草的人，叫 Kastsy。下面那串小星，是耙草的耙子 Hrabli。",
+   "page_id": "PBRXmfzd71RN63pL"
+  },
+  "39": {
+   "title": "",
+   "page_id": "PBS750th6RB1q4kn"
+  },
+  "40": {
+   "title": "",
+   "page_id": "PBfX17Xyt9FB4FSr"
+  },
+  "41": {
+   "title": "",
+   "page_id": "PBpn8dl8qFkkLrqN"
+  },
+  "42": {
+   "title": "",
+   "page_id": "PBcSzbD5dc1ZRlXt"
+  },
+  "43": {
+   "title": "",
+   "page_id": "PBbNHspQ3H92DlHg"
+  },
+  "44": {
+   "title": "我們把它們放在一起看：割草、耙草，再用北邊的大車載回家——夏天打乾草的一整套，冬天全掛在天上。",
+   "page_id": "PBqg038SgkTftCy0"
+  },
+  "45": {
+   "title": "",
+   "page_id": "PBZSTJG7B2bs6Lyt"
+  },
+  "46": {
+   "title": "",
+   "page_id": "PBS8R2kbNlzmL5nT"
+  },
+  "47": {
+   "title": "",
+   "page_id": "PB9bjNQdMxQRRFL7"
+  },
+  "48": {
+   "title": "",
+   "page_id": "PBw6W2p7jxXNhNgt"
+  },
+  "49": {
+   "title": "",
+   "page_id": "PBmKnjfLMlh87zHz"
+  },
+  "50": {
+   "title": "",
+   "page_id": "PBrdt61QXw5DMs5z"
+  },
+  "51": {
+   "title": "",
+   "page_id": "PBjblgdNR401VFPV"
+  },
+  "52": {
+   "title": "春天的天上還有更多農具：牧夫座是犁田的人 Rataj；后髮座那幾顆暗星是篩子 Sita——老人說，上帝曾經拿它篩黑麥。",
+   "page_id": "PBkSWrj32n1kjxXz"
+  },
+  "53": {
+   "title": "",
+   "page_id": "PBcpGsNZhYrFJ8N2"
+  },
+  "54": {
+   "title": "",
+   "page_id": "PB9t88k70t5fRqWF"
+  },
+  "55": {
+   "title": "",
+   "page_id": "PB1H2W2txtt8sW3M"
+  },
+  "56": {
+   "title": "",
+   "page_id": "PB20mH5fVTjtJNSp"
+  },
+  "57": {
+   "title": "還有一院子的動物：昴宿是一群母雞 Kurki，畢宿是幾條草蛇，五車二是母山羊 Kaza，白羊座，就是院子裡的公羊。",
+   "page_id": "PBBNKk6QMsWdNrhh"
+  },
+  "58": {
+   "title": "",
+   "page_id": "PByj9lyVjqtpQ6h4"
+  },
+  "59": {
+   "title": "",
+   "page_id": "PBjw6191z4ZNtsqT"
+  },
+  "60": {
+   "title": "",
+   "page_id": "PBRFKZqC2WbwTYHq"
+  },
+  "61": {
+   "title": "同一片天，後來也慢慢變成一座教堂：整個獵戶座是耶穌的椅子；北冕座是荊棘冠，天鵝座是聖彼得的十字架。",
+   "page_id": "PBFz9qs9lD16RR73"
+  },
+  "62": {
+   "title": "",
+   "page_id": "PBzZCQZfb7wQCGxX"
+  },
+  "63": {
+   "title": "",
+   "page_id": "PBv89kKHJhqpt2Q0"
+  },
+  "64": {
+   "title": "",
+   "page_id": "PBG7m8KK2BfpPGTl"
+  },
+  "65": {
+   "title": "",
+   "page_id": "PBfBfC15mJ360Zjc"
+  },
+  "66": {
+   "title": "",
+   "page_id": "PBfjcmmzyzfWpKRY"
+  },
+  "67": {
+   "title": "",
+   "page_id": "PBj1rSCDFKv7G8Qw"
+  },
+  "68": {
+   "title": "",
+   "page_id": "PBBxYl3t2rMcTJq8"
+  },
+  "69": {
+   "title": "",
+   "page_id": "PBZPRkwBFQxnVh3z"
+  },
+  "70": {
+   "title": "",
+   "page_id": "PBSY18fbgkpN7l6y"
+  },
+  "71": {
+   "title": "",
+   "page_id": "PBznv9p3V8qHqtqq"
+  },
+  "72": {
+   "title": "",
+   "page_id": "PBQVqNhcX7Hp7vcN"
+  },
+  "73": {
+   "title": "天龍座，是聖喬治殺死的那條蛇，被他掛在那顆「永遠不動的星」旁邊——巧的是，這條蛇的身體，正好疊在中國紫微垣的城牆上。",
+   "page_id": "PB35WyD48R9LX8jn"
+  },
+  "74": {
+   "title": "",
+   "page_id": "PBx54M5T0405FGCy"
+  },
+  "75": {
+   "title": "",
+   "page_id": "PBfX44NyCGrzvrw9"
+  },
+  "76": {
+   "title": "",
+   "page_id": "PBRXzw1vdNCtZ5Th"
+  },
+  "77": {
+   "title": "",
+   "page_id": "PBjgXyXJlQLW6bBY"
+  },
+  "78": {
+   "title": "",
+   "page_id": "PB0DcpJchymYY7gp"
+  },
+  "79": {
+   "title": "",
+   "page_id": "PBws5JPXps266dTX"
+  },
+  "80": {
+   "title": "",
+   "page_id": "PBSdzszDXGP8HLqH"
+  },
+  "81": {
+   "title": "雙子座的兩顆亮星，代表幾百年前的兩個國家：波蘭和立陶宛——白俄羅斯這塊地，就在立陶宛那一邊。",
+   "page_id": "PBwcRcWVM3T7wDPJ"
+  },
+  "82": {
+   "title": "",
+   "page_id": "PB3tsvNgdCjCK9PN"
+  },
+  "83": {
+   "title": "",
+   "page_id": "PBxsm98F75zYB8Vj"
+  },
+  "84": {
+   "title": "",
+   "page_id": "PBqQ7ms8T2LGDVTb"
+  },
+  "85": {
+   "title": "這集的白俄羅斯星名，整理成一張小辭典，可以存起來。",
+   "page_id": "PBgqZfyJph4k4h8S"
+  },
+  "86": {
+   "title": "",
+   "page_id": "PBDVR1ldFjBR4y2H"
+  },
+  "87": {
+   "title": "這幾天在台灣：天一黑，割草的人就在南方高空；九點以後，北斗從東北方爬上來。今晚東方，月亮下面是木星和衝日的火星；明晚元宵，月亮就停在它們中間。",
+   "page_id": "PBk0fm9hFRt9D6FX"
+  },
+  "88": {
+   "title": "",
+   "page_id": "PBM3nWhQ1hXvMw47"
+  },
+  "89": {
+   "title": "",
+   "page_id": "PBZhD2KsbKzsVJvN"
+  },
+  "90": {
+   "title": "",
+   "page_id": "PBl4Hkw2jKDvCXwH"
+  },
+  "91": {
+   "title": "",
+   "page_id": "PBHVhfgfthlctnj9"
+  },
+  "92": {
+   "title": "",
+   "page_id": "PBby52fzrSh24XSQ"
+  },
+  "93": {
+   "title": "",
+   "page_id": "PBvZG7XGdLgCg3VD"
+  },
+  "94": {
+   "title": "",
+   "page_id": "PB1C4ZBQmfGTLD3Q"
+  },
+  "95": {
+   "title": "",
+   "page_id": "PBg0tzr7KrD2rqyf"
+  },
+  "96": {
+   "title": "",
+   "page_id": "PBZlyr1H0F10lBdw"
+  },
+  "97": {
+   "title": "",
+   "page_id": "PB1kwgj1DQN66CRn"
+  },
+  "98": {
+   "title": "",
+   "page_id": "PBCnlCRywMzzzZSJ"
+  },
+  "99": {
+   "title": "明天元宵，我們就去看這座紫微垣，和元宵拜的天官；下週五去羅馬尼亞：天上有牧羊人、看羊的大狗，還有一口井。",
+   "page_id": "PBnSKx8kdcdyCMzV"
+  }
+ },
+ "cover": "PBHN62bylQJmyC07",
+ "tail": {
+  "下集見": "PBxysP00l2HhWXCF",
+  "追蹤我們": "PBQssKFW4z60wZ0y",
+  "參考文獻": "PBZjlzXD8ZzpjsVk"
+ }
+}
