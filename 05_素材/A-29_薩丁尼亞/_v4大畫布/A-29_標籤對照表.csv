@@ -1,0 +1,21 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+Su Pinnetu,Su Pinnetu,,The Hut,牧人石屋（畢宿 V＋畢宿五）,#FFC94A,Stellarium 寫法 Su Pinnetu (sardinian 001)；石砌圓牆、木枝尖頂的牧人屋；Bussu 書介用複數 Pinnetos
+S'Udrone,S'Udrone,,The Bunch,一串葡萄（昴宿）,#B78AFF,Stellarium 寫法 S'Udrone (sardinian 002)；Barbagia 叫 Su Gurdone（Bussu）
+Su Gurdone,Su Gurdone,,The Bunch (Barbagia),也是一串（Barbagia）,#B78AFF,Bussu 2013；書介
+Cloșca cu pui,Cloșca cu pui,,The Hatching Hen with Her Chicks,母雞帶小雞（羅馬尼亞）,#7BD88F,Stellarium 寫法 Closca cu pui (romanian Ccp)；A-23
+Sos Bacheddos,Sos Bacheddos,,The Sticks,牧杖（獵戶）,#6FA8FF,Stellarium 寫法 Sos Bacheddos (sardinian 004)；Stellarium、ASE 都譯 The Sticks；連線跳過參宿二；「小牛」一說未親核，不用
+Sas Tres Marias,Sas Tres Marias,,Three Marias,三個瑪利亞（腰帶）,#FFC94A,Stellarium 寫法 Sas Tres Marias (sardinian 011)；西班牙、葡萄牙、拉丁美洲同名
+Su Trubadore de sos Bacheddos,Su Trubadore de sos Bacheddos,,The Driver of the Sticks,趕牧杖的人（大犬）,#FF6B6B,Bussu、ASE；Stellarium 沒有這個星座 → 只標星點與標籤、不畫連線
+S'Isteddu de Atzarzu,S'Isteddu de Atzarzu,,Steel Star,鋼鐵之星（天狼星）,#FFFFFF,Stellarium 寫法 Steel Star（po/sc.po）；sc.po；ASE 另記 s'isteddu mannu（大星）
+Sa Mandra,Sa Mandra,,The Fence for Sheep,羊圈（御夫）,#7BD88F,Stellarium 寫法 Sa Mandra (sardinian 005)；sc.po：Sa Mandra / Su Achile；6 星閉合，五車五今屬金牛座 β
+Capella,Capella,,Little she-goat (Latin),小母山羊（拉丁）,#6FA8FF,希臘—羅馬：抱著母山羊的御夫
+Sa Frache,Sa Frache,,The Sickle,鐮刀（獅子座）,#7BD88F,Stellarium 寫法 Sa Frache (sardinian 007)；Bussu 書寫 Sa Farche；書介：代表農人
+Sos Sette Frades,Sos Sette Frades,,The Seven Brothers,七兄弟（北斗）,#FFC94A,Stellarium 寫法 Sos Sette Frades (sardinian 003)；sarabu 另記 Bòes「牛」
+Sa Rughe de Santu Antinu,Sa Rughe de Santu Antinu,,The Cross of St. Constantine,聖君士坦丁的十字（天鵝）,#FF6B6B,Stellarium 寫法 Sa Rughe de Santu Antinu (sardinian 009)；Santu Antinu＝Sedilo 守護聖人；S'Ardia 7/6 傍晚、7/7 清晨
+Su Ballu de sas Fiudas,Su Ballu de sas Fiudas,,The Dance of Widows,寡婦之舞（北冕）,#B78AFF,Stellarium 寫法 Su Ballu de sas Fiuda (sardinian 006；sc.po 作 Fiudas)；index.json 漏 s，照 sc.po
+Hora,Hora,,The Ring Dance (Romanian),圍圈舞（羅馬尼亞）,#7BD88F,Stellarium 寫法 Hora (romanian)；A-23
+Su Corru 'e Chervu,Su Corru 'e Chervu,,The Deer Horn,鹿角（英仙）,#FFC94A,Stellarium 寫法 Su Corru 'e Chervu (sardinian 008)；薩丁尼亞紅鹿 Cervus elaphus corsicanus 只並列，不說星名由來
+Sa Via de sa Paza,Sa Via de sa Paza,,The Straw Road (Milky Way),麥稈之路（銀河）,#FFFFFF,Stellarium 寫法 —（Bussu 書介；ASE：s'andaina 'e paza）；Stellarium 沒有；paza＝麥稈（待親核辭典）
+跨文化,Cloșca cu pui,,The Hatching Hen,母雞帶小雞（羅馬尼亞，A-23）,#7BD88F,Stellarium
+跨文化,Hora,,The Ring Dance,圍圈舞（羅馬尼亞，A-23）,#7BD88F,Stellarium
+跨文化,Capella,,Little she-goat,小母山羊（拉丁）,#6FA8FF,Stellarium
