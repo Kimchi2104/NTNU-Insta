@@ -1,0 +1,1222 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -6294.51,
+  "top": -6714.48,
+  "width": 9720.0,
+  "height": 15714.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L17-主角星白點"
+  ],
+  "notes": "上週在印度，畢宿五是月亮最愛的妻子。往西到地中海的薩丁尼亞：同一片星空，牧人看見——一間石頭小屋。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "長圖",
+  "left": -11296.8,
+  "top": -11419.5,
+  "width": 16200.0,
+  "height": 26190.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L17-主角星白點",
+   "L19-標籤-小屋-開場"
+  ],
+  "notes": "薩丁尼亞在義大利西邊，是地中海第二大島；到今天，島上的羊大約是人的兩倍。這套星座，用的是島中部小鎮 Sedilo 的方言。",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02-概念圖1",
+  "group": "長圖",
+  "left": -11296.8,
+  "top": -11419.5,
+  "width": 16200.0,
+  "height": 26190.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-01_薩丁尼亞_地圖層_透明.png",
+    "left": 24,
+    "top": 446.26,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.39766081871346,
+   "width": 1032,
+   "height": 1061.2046783625728,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02-概念圖2",
+  "group": "長圖",
+  "left": -11296.8,
+  "top": -11419.5,
+  "width": 16200.0,
+  "height": 26190.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-01_薩丁尼亞_地圖層_透明.png",
+    "left": 24,
+    "top": 446.26,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A29-01_薩丁尼亞_數字層_透明.png",
+    "left": 24,
+    "top": 446.26,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.39766081871346,
+   "width": 1032,
+   "height": 1061.2046783625728,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 5,
+  "title": "鏡頭02-概念圖收＝鏡頭03開始",
+  "group": "長圖",
+  "left": -11296.8,
+  "top": -11419.5,
+  "width": 16200.0,
+  "height": 26190.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L17-主角星白點",
+   "L19-標籤-小屋-開場"
+  ],
+  "notes": "這些星名，由 Tonino Bussu 與 Marco Puddu 整理自民間；二〇一七年，Sedilo 的業餘天文家 Giuseppe Putzolu，把它們放進 Stellarium。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 6,
+  "title": "鏡頭03結束＝鏡頭04開始",
+  "group": "長圖",
+  "left": -12372.87,
+  "top": -12544.91,
+  "width": 17672.73,
+  "height": 28570.91,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L17-主角星白點"
+  ],
+  "notes": "Bussu 的書，把這些星名讀成島上的生活：牧人的小屋、葡萄農的一串葡萄、農夫的鐮刀；三種營生，都寫在天上。",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 7,
+  "title": "鏡頭04-中1",
+  "group": "長圖",
+  "left": -5738.09,
+  "top": -5529.16,
+  "width": 8452.17,
+  "height": 13664.35,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L6-連線-S'Udrone葡萄",
+   "L10-連線-Sa Frache鐮刀",
+   "L17-主角星白點",
+   "L20-標籤-小屋-遠景",
+   "L21-標籤-葡萄-遠景"
+  ],
+  "notes": "",
+  "trans": "Match & Move（6.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 8,
+  "title": "鏡頭04結束＝鏡頭05開始",
+  "group": "長圖",
+  "left": -3668.95,
+  "top": -5529.16,
+  "width": 8452.17,
+  "height": 13664.35,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L6-連線-S'Udrone葡萄",
+   "L10-連線-Sa Frache鐮刀",
+   "L17-主角星白點",
+   "L22-標籤-鐮刀-遠景"
+  ],
+  "notes": "先看小屋：金牛座的 V 字，連上畢宿五，叫 Su Pinnetu：牧人用石頭疊起圓牆、再搭上木枝尖頂的小屋。",
+  "trans": "Match & Move（6.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 9,
+  "title": "鏡頭05結束＝鏡頭06開始",
+  "group": "長圖",
+  "left": -12372.87,
+  "top": -12594.0,
+  "width": 17672.73,
+  "height": 28570.91,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-Su Pinnetu石屋",
+   "L17-主角星白點",
+   "L23-標籤-小屋"
+  ],
+  "notes": "旁邊的昴宿，叫 S'Udrone：一大串葡萄；島中東部的山區 Barbagia，叫它 Su Gurdone，也是一串。羅馬尼亞人在這裡看見母雞帶小雞，薩丁尼亞結的是葡萄。",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 10,
+  "title": "鏡頭06結束＝鏡頭07開始",
+  "group": "長圖",
+  "left": -17903.7,
+  "top": -17183.33,
+  "width": 24300.0,
+  "height": 39285.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-S'Udrone葡萄",
+   "L17-主角星白點",
+   "L26-標籤-牧杖與三個瑪利亞"
+  ],
+  "notes": "再往下，獵戶座叫 Sos Bacheddos：一根根牧杖；腰帶三顆另有名字：Sas Tres Marias，三個瑪利亞，跟西班牙和拉丁美洲一樣。",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 11,
+  "title": "鏡頭07結束＝鏡頭08開始",
+  "group": "長圖",
+  "left": -8326.44,
+  "top": -9547.32,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Sos Bacheddos牧杖",
+   "L8-連線-Sas Tres Marias",
+   "L17-主角星白點",
+   "L26-標籤-牧杖與三個瑪利亞"
+  ],
+  "notes": "這幾根牧杖，是牧人的夜間時鐘。夏天，羊群在夜裡吃草；後半夜，先看到那串葡萄爬上來，接著 Sos Bacheddos 露臉，就該把羊趕回圈了。",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 12,
+  "title": "鏡頭08-概念圖1",
+  "group": "長圖",
+  "left": -8326.44,
+  "top": -9547.32,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Sos Bacheddos牧杖",
+   "L8-連線-Sas Tres Marias",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-02_夏夜牧羊鐘_葡萄層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.14619883040933,
+   "width": 1032,
+   "height": 1061.7076023391812,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 13,
+  "title": "鏡頭08-概念圖2",
+  "group": "長圖",
+  "left": -8326.44,
+  "top": -9547.32,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Sos Bacheddos牧杖",
+   "L8-連線-Sas Tres Marias",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-02_夏夜牧羊鐘_葡萄層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A29-02_夏夜牧羊鐘_牧杖層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.14619883040933,
+   "width": 1032,
+   "height": 1061.7076023391812,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 14,
+  "title": "鏡頭08-概念圖3",
+  "group": "長圖",
+  "left": -8326.44,
+  "top": -9547.32,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Sos Bacheddos牧杖",
+   "L8-連線-Sas Tres Marias",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-02_夏夜牧羊鐘_葡萄層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A29-02_夏夜牧羊鐘_牧杖層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A29-02_夏夜牧羊鐘_晨光層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 429.14619883040933,
+   "width": 1032,
+   "height": 1061.7076023391812,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 15,
+  "title": "鏡頭08-概念圖收＝鏡頭09開始",
+  "group": "長圖",
+  "left": -8326.44,
+  "top": -9547.32,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-連線-Sos Bacheddos牧杖",
+   "L8-連線-Sas Tres Marias",
+   "L17-主角星白點",
+   "L27-標籤-趕牧杖的人與鋼鐵之星"
+  ],
+  "notes": "跟在後頭的大犬座，叫 Su Trubadore de sos Bacheddos：趕牧杖的人；最亮的天狼星，叫「鋼鐵之星」。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 16,
+  "title": "鏡頭09結束＝鏡頭10開始",
+  "group": "長圖",
+  "left": -7630.2,
+  "top": -10374.6,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L18-單星光暈",
+   "L17-主角星白點",
+   "L27-標籤-趕牧杖的人與鋼鐵之星"
+  ],
+  "notes": "金星也是時鐘：傍晚的金星叫 Isteddu Chenadorzu，字面是「吃晚飯的星」；清晨的那顆，叫 S'Isteddu 'e Impuddile，就是晨星。",
+  "trans": "Match & Move（10.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 17,
+  "title": "鏡頭10-概念圖1",
+  "group": "長圖",
+  "left": -7630.2,
+  "top": -10374.6,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L18-單星光暈",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-07_吃晚飯的星_傍晚層_透明.png",
+    "left": 24,
+    "top": 465.37,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 468.1228070175439,
+   "width": 1032,
+   "height": 983.7543859649122,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 18,
+  "title": "鏡頭10-概念圖2",
+  "group": "長圖",
+  "left": -7630.2,
+  "top": -10374.6,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L18-單星光暈",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-07_吃晚飯的星_傍晚層_透明.png",
+    "left": 24,
+    "top": 465.37,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A29-07_吃晚飯的星_清晨層_透明.png",
+    "left": 24,
+    "top": 465.37,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 468.1228070175439,
+   "width": 1032,
+   "height": 983.7543859649122,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 19,
+  "title": "鏡頭10-概念圖收＝鏡頭11開始",
+  "group": "長圖",
+  "left": -7630.2,
+  "top": -10374.6,
+  "width": 12960.0,
+  "height": 20952.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L18-單星光暈",
+   "L17-主角星白點",
+   "L27-標籤-趕牧杖的人與鋼鐵之星"
+  ],
+  "notes": "往北，御夫座叫 Sa Mandra，羊圈。希臘人在這裡看見抱著母山羊和小羊的御夫；薩丁尼亞人看見的，是圈羊的柵欄。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 20,
+  "title": "鏡頭11結束",
+  "group": "長圖",
+  "left": -7334.79,
+  "top": -7480.52,
+  "width": 11435.29,
+  "height": 18487.06,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-Sa Mandra羊圈",
+   "L18-單星光暈",
+   "L17-主角星白點",
+   "L28-標籤-羊圈"
+  ],
+  "notes": "",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 21,
+  "title": "鏡頭12開始",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -6424.77,
+  "width": 9720.0,
+  "height": 15714.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Sa Frache鐮刀",
+   "L17-主角星白點",
+   "L29-標籤-鐮刀"
+  ],
+  "notes": "春夜頭頂上的獅子座，那把反寫問號的鐮刀，叫 Sa Frache，就是農人的記號。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 22,
+  "title": "鏡頭12結束",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -2752.71,
+  "width": 7776.0,
+  "height": 12571.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Sa Frache鐮刀",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（7.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 23,
+  "title": "長圖轉北盤1＝鏡頭12b開始",
+  "group": "北盤",
+  "left": -3172.77,
+  "top": -2752.77,
+  "width": 7425.53,
+  "height": 7425.53,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L10-連線-Sa Frache鐮刀",
+   "北盤L11-連線-Sos Sette Frades七兄弟",
+   "北盤L16-主角星白點"
+  ],
+  "notes": "再往北，北斗七星叫 Sos Sette Frades：七個兄弟。",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成北盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 24,
+  "title": "鏡頭12b結束＝鏡頭13開始",
+  "group": "北盤",
+  "left": -1747.2,
+  "top": -2921.64,
+  "width": 5959.5,
+  "height": 5959.5,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L10-連線-Sa Frache鐮刀",
+   "北盤L11-連線-Sos Sette Frades七兄弟",
+   "北盤L16-主角星白點",
+   "北盤L18-標籤-七兄弟"
+  ],
+  "notes": "天鵝座的大十字，叫 Sa Rughe de Santu Antinu：聖君士坦丁的十字。他是 Sedilo 的守護聖人，每年七月六日傍晚、七日清晨，鎮上都為他辦賽馬，叫 S'Ardia。",
+  "trans": "Match & Move（5.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 25,
+  "title": "鏡頭13結束＝鏡頭14開始",
+  "group": "北盤",
+  "left": -3982.63,
+  "top": -1005.65,
+  "width": 6187.94,
+  "height": 6187.94,
+  "rotation": 81.46,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L17-單星光暈",
+   "北盤L16-主角星白點",
+   "北盤L19-標籤-聖君士坦丁的十字"
+  ],
+  "notes": "傳說君士坦丁打仗前，大白天在太陽上方，看見一個光的十字。七月的深夜，天鵝座這座十字，正好高掛在賽馬小鎮的頭頂。",
+  "trans": "Match & Move（16.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 26,
+  "title": "鏡頭14結束",
+  "group": "北盤",
+  "left": -2831.71,
+  "top": -331.55,
+  "width": 6187.94,
+  "height": 6187.94,
+  "rotation": 36.34,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L17-單星光暈",
+   "北盤L16-主角星白點",
+   "北盤L19-標籤-聖君士坦丁的十字"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 27,
+  "title": "鏡頭14-概念圖1",
+  "group": "北盤",
+  "left": -2831.71,
+  "top": -331.55,
+  "width": 6187.94,
+  "height": 6187.94,
+  "rotation": 36.34,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L17-單星光暈",
+   "北盤L16-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-03_賽馬之夜_地平層_透明.png",
+    "left": 24,
+    "top": 449.53,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 426.63157894736844,
+   "width": 1032,
+   "height": 1066.7368421052633,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 28,
+  "title": "鏡頭14-概念圖2",
+  "group": "北盤",
+  "left": -2831.71,
+  "top": -331.55,
+  "width": 6187.94,
+  "height": 6187.94,
+  "rotation": 36.34,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L17-單星光暈",
+   "北盤L16-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-03_賽馬之夜_地平層_透明.png",
+    "left": 24,
+    "top": 449.53,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A29-03_賽馬之夜_爬升層_透明.png",
+    "left": 24,
+    "top": 449.53,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 426.63157894736844,
+   "width": 1032,
+   "height": 1066.7368421052633,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 29,
+  "title": "鏡頭14-概念圖收＝鏡頭15開始",
+  "group": "北盤",
+  "left": -2831.71,
+  "top": -331.55,
+  "width": 6187.94,
+  "height": 6187.94,
+  "rotation": 36.34,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L17-單星光暈",
+   "北盤L16-主角星白點",
+   "北盤L20-標籤-寡婦之舞"
+  ],
+  "notes": "北冕座那半圈小星，叫 Su Ballu de sas Fiudas：寡婦們在跳舞；羅馬尼亞人也說，那是一場圍成圈的 Hora 舞。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 30,
+  "title": "鏡頭15結束＝鏡頭16開始",
+  "group": "北盤",
+  "left": -5657.66,
+  "top": -1089.22,
+  "width": 12375.89,
+  "height": 12375.89,
+  "rotation": 94.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L13-連線-Su Ballu寡婦之舞",
+   "北盤L16-主角星白點",
+   "北盤L20-標籤-寡婦之舞"
+  ],
+  "notes": "英仙座叫 Su Corru 'e Chervu：一支鹿角。到今天，山裡還住著體型偏小的薩丁尼亞紅鹿。",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 31,
+  "title": "鏡頭16-中1",
+  "group": "北盤",
+  "left": -5272.13,
+  "top": -1408.46,
+  "width": 11647.89,
+  "height": 11647.89,
+  "rotation": 6.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L14-連線-Su Corru鹿角",
+   "北盤L16-主角星白點",
+   "北盤L21-標籤-鹿角"
+  ],
+  "notes": "",
+  "trans": "Match & Move（5.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭16結束＝鏡頭17開始",
+  "group": "北盤",
+  "left": -4886.6,
+  "top": -1727.7,
+  "width": 10919.9,
+  "height": 10919.9,
+  "rotation": -82.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L14-連線-Su Corru鹿角",
+   "北盤L16-主角星白點",
+   "北盤L21-標籤-鹿角"
+  ],
+  "notes": "銀河呢？叫 Sa Via de sa Paza：麥稈之路。從土耳其、波斯到亞美尼亞，好多地方都說銀河是一路灑落的麥稈；薩丁尼亞，也是其中之一。",
+  "trans": "Match & Move（5.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 33,
+  "title": "鏡頭17結束",
+  "group": "北盤",
+  "left": -1006.99,
+  "top": -514.95,
+  "width": 3093.97,
+  "height": 3093.97,
+  "rotation": -82.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L14-連線-Su Corru鹿角",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L23-銀河加亮",
+   "北盤L16-主角星白點",
+   "北盤L22-標籤-麥稈之路"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 34,
+  "title": "鏡頭17-概念圖",
+  "group": "北盤",
+  "left": -1006.99,
+  "top": -514.95,
+  "width": 3093.97,
+  "height": 3093.97,
+  "rotation": -82.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L14-連線-Su Corru鹿角",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L23-銀河加亮",
+   "北盤L16-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-04_麥稈之路_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭17-概念圖收",
+  "group": "北盤",
+  "left": -1006.99,
+  "top": -514.95,
+  "width": 3093.97,
+  "height": 3093.97,
+  "rotation": -82.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L14-連線-Su Corru鹿角",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L23-銀河加亮",
+   "北盤L16-主角星白點",
+   "北盤L22-標籤-麥稈之路"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 36,
+  "title": "北盤轉長圖1-歸位",
+  "group": "北盤",
+  "left": -3172.77,
+  "top": -2752.77,
+  "width": 7425.53,
+  "height": 7425.53,
+  "rotation": 0.0,
+  "layers": [
+   "北盤L1-銀河",
+   "北盤L2-星點",
+   "北盤L3-經緯線",
+   "北盤L14-連線-Su Corru鹿角",
+   "北盤L12-連線-Sa Rughe十字",
+   "北盤L23-銀河加亮",
+   "北盤L16-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 37,
+  "title": "北盤轉長圖1",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -2752.71,
+  "width": 7776.0,
+  "height": 12571.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-Su Corru鹿角",
+   "L12-連線-Sa Rughe十字",
+   "L16-銀河加亮",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把北盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 38,
+  "title": "北盤轉長圖1-下移",
+  "group": "長圖",
+  "left": -4320.0,
+  "top": -6424.77,
+  "width": 9720.0,
+  "height": 15714.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L14-連線-Su Corru鹿角",
+   "L12-連線-Sa Rughe十字",
+   "L16-銀河加亮",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉北盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 39,
+  "title": "鏡頭18開始",
+  "group": "長圖",
+  "left": -3780.18,
+  "top": -4238.94,
+  "width": 6480.0,
+  "height": 10476.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L17-主角星白點",
+   "L35-標籤-星名-遠景"
+  ],
+  "notes": "這些星名，每個村子的說法都不一樣，很多只剩老人家記得。二〇二六年，有位薩丁尼亞天文學家，還公開請島民幫忙，把快被忘掉的星座找回來。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 40,
+  "title": "鏡頭18-概念圖",
+  "group": "長圖",
+  "left": -3780.18,
+  "top": -4238.94,
+  "width": 6480.0,
+  "height": 10476.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-05_薩丁尼亞星名小辭典_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 41,
+  "title": "鏡頭18-概念圖收",
+  "group": "長圖",
+  "left": -3780.18,
+  "top": -4238.94,
+  "width": 6480.0,
+  "height": 10476.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L17-主角星白點",
+   "L35-標籤-星名-遠景"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭19開始",
+  "group": "長圖",
+  "left": -2486.52,
+  "top": -4238.94,
+  "width": 6480.0,
+  "height": 10476.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Sa Frache鐮刀",
+   "L17-主角星白點"
+  ],
+  "notes": "這週末在台灣：天黑後抬頭，鐮刀 Sa Frache 就在頭頂，北方高掛七兄弟；西邊的小屋和牧杖，天一黑就很低了，要趁早看；東邊，寡婦之舞已經升起，趁月亮出來前看。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 43,
+  "title": "鏡頭19-概念圖",
+  "group": "長圖",
+  "left": -2486.52,
+  "top": -4238.94,
+  "width": 6480.0,
+  "height": 10476.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Sa Frache鐮刀",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A29-06_這週末抬頭看_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 44,
+  "title": "鏡頭19-概念圖收＝鏡頭20開始",
+  "group": "長圖",
+  "left": -2486.52,
+  "top": -4238.94,
+  "width": 6480.0,
+  "height": 10476.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-Sa Frache鐮刀",
+   "L17-主角星白點"
+  ],
+  "notes": "下週五，我們去一七八六年的巴黎：一位年輕天文學家，把星座的圖畫全拿掉，只留下線。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 45,
+  "title": "鏡頭20結束",
+  "group": "長圖",
+  "left": -3652.12,
+  "top": -5780.43,
+  "width": 8836.36,
+  "height": 14285.45,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L15-連線-Ruelle獅子（下集）",
+   "L17-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（9.0 秒）",
+  "mountain_top": null
+ }
+]
