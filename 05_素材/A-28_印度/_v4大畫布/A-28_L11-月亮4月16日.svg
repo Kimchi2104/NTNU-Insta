@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-180.00 -293.18 360.00 586.37" width="360.00" height="586.37">
+<title>A-28 大畫布</title>
+<circle cx="-16.09" cy="-10.55" r="1.500" fill="#FFFFFF" opacity="0.120"/>
+<circle cx="-16.09" cy="-10.55" r="0.550" fill="#F4F1E6" opacity="0.980"/>
+<g fill="none" stroke="#F4F1E6" stroke-width="0.150" stroke-opacity="0.700" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.9 0.7">
+<path d="M -17.39 -9.94 L -17.71 -9.79 L -18.03 -9.63 L -18.36 -9.48 L -18.68 -9.33 L -19.01 -9.17 L -19.33 -9.01 L -19.66 -8.86 L -19.98 -8.70 L -20.31 -8.54 L -20.63 -8.39 L -20.95 -8.23 L -21.28 -8.07 L -21.60 -7.91 L -21.93 -7.76 L -22.25 -7.60 L -22.57 -7.44 L -22.90 -7.28 L -23.22 -7.12 L -23.54 -6.96 L -23.86 -6.80 L -24.19 -6.64 L -24.51 -6.48 L -24.83 -6.32 L -25.15 -6.16 L -25.47 -6.00 L -25.79 -5.84 L -26.11 -5.68 L -26.43 -5.52 L -26.75 -5.36 L -27.07 -5.19 L -27.39 -5.03 L -27.70 -4.87"/>
+</g>
+<g fill="none" stroke="#F4F1E6" stroke-width="0.150" stroke-opacity="0.800" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -27.70 -4.87 L -26.54 -4.79"/>
+</g>
+<g fill="none" stroke="#F4F1E6" stroke-width="0.150" stroke-opacity="0.800" stroke-linecap="round" stroke-linejoin="round">
+<path d="M -27.70 -4.87 L -27.08 -5.86"/>
+</g>
+<circle cx="-28.97" cy="-4.23" r="0.550" fill="none" opacity="0.600" stroke="#F4F1E6" stroke-width="0.080" stroke-dasharray="0.3 0.25"/>
+</svg>
