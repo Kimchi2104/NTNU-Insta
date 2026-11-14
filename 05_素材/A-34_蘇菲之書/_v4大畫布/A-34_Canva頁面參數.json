@@ -59,13 +59,21 @@
   "overlay": [
    {
     "file": "C-A34-01_蘇菲是誰_生平層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 454.06,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 496.0350877192982,
+   "width": 1032,
+   "height": 927.9298245614036,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 4,
@@ -89,20 +97,28 @@
   "overlay": [
    {
     "file": "C-A34-01_蘇菲是誰_生平層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 454.06,
+    "width": 1032.0,
+    "height": 1032.0
    },
    {
     "file": "C-A34-01_蘇菲是誰_書名層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 454.06,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 496.0350877192982,
+   "width": 1032,
+   "height": 927.9298245614036,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 5,
@@ -148,13 +164,21 @@
   "overlay": [
    {
     "file": "C-A34-02_托勒密到蘇菲_星表層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 480.21,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 492.51461988304095,
+   "width": 1032,
+   "height": 934.9707602339181,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 7,
@@ -178,20 +202,28 @@
   "overlay": [
    {
     "file": "C-A34-02_托勒密到蘇菲_星表層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 480.21,
+    "width": 1032.0,
+    "height": 1032.0
    },
    {
     "file": "C-A34-02_托勒密到蘇菲_核對層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 480.21,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 492.51461988304095,
+   "width": 1032,
+   "height": 934.9707602339181,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 8,
@@ -237,13 +269,21 @@
   "overlay": [
    {
     "file": "C-A34-03_歲差_黃道層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 576.27,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 623.2748538011696,
+   "width": 1032,
+   "height": 673.4502923976607,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 10,
@@ -267,20 +307,28 @@
   "overlay": [
    {
     "file": "C-A34-03_歲差_黃道層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 576.27,
+    "width": 1032.0,
+    "height": 1032.0
    },
    {
     "file": "C-A34-03_歲差_平移層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 576.27,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 623.2748538011696,
+   "width": 1032,
+   "height": 673.4502923976607,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 11,
@@ -326,13 +374,21 @@
   "overlay": [
    {
     "file": "C-A34-03b_蘇菲的尺_單位層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 430.67,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 442.9766081871345,
+   "width": 1032,
+   "height": 1034.0467836257308,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 13,
@@ -356,20 +412,28 @@
   "overlay": [
    {
     "file": "C-A34-03b_蘇菲的尺_單位層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 430.67,
+    "width": 1032.0,
+    "height": 1032.0
    },
    {
     "file": "C-A34-03b_蘇菲的尺_銀河層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 430.67,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 442.9766081871345,
+   "width": 1032,
+   "height": 1034.0467836257308,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 14,
@@ -509,13 +573,21 @@
   "overlay": [
    {
     "file": "C-A34-04_天空與天球儀_天空層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 460.6,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 472.9005847953216,
+   "width": 1032,
+   "height": 974.1988304093567,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 20,
@@ -542,20 +614,28 @@
   "overlay": [
    {
     "file": "C-A34-04_天空與天球儀_天空層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 460.6,
+    "width": 1032.0,
+    "height": 1032.0
    },
    {
     "file": "C-A34-04_天空與天球儀_天球儀層_透明.png",
-    "left": 0,
-    "top": 0,
-    "width": 1080,
-    "height": 1920
+    "left": 24,
+    "top": 460.6,
+    "width": 1032.0,
+    "height": 1032.0
    }
   ],
-  "panel": null
+  "panel": {
+   "left": 24,
+   "top": 472.9005847953216,
+   "width": 1032,
+   "height": 974.1988304093567,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
  },
  {
   "page": 21,
@@ -693,7 +773,7 @@
   "hold": true,
   "overlay": [
    {
-    "file": "C-A34-05_用蘇菲的眼睛看天_透明.png",
+    "file": "C-A34-05_用蘇菲的眼睛看天_圖卡.png",
     "left": 0,
     "top": 0,
     "width": 1080,
