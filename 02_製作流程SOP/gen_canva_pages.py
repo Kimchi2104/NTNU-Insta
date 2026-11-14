@@ -85,8 +85,11 @@ class Pages:
             if sh["kind"] == "R":
                 grp = "北盤" if sh.get("north", True) else "南盤"
             frs = [tuple(f) for f in sh["frames"]]
-            keys = self._split(frs, sh["sec"]) if self.seg > 0 else \
-                [(i / (len(frs) - 1) if len(frs) > 1 else 0.0, f) for i, f in enumerate(frs)]
+            # 預設不插中間頁：同一張畫布上兩個構圖之間，Canva 的 Match & Move 自己走同一條路徑。
+            # 只有 (1) 單段旋轉 ≥ 170°（到 180° Canva 會走反方向）自動拆；(2) 這一鏡在 shots 寫了 seg
+            # （要一段移動慢慢走超過 2.5 秒）；(3) 命令列 --seg（整集都拆，頁數會翻倍，不建議）。
+            keys = self._split(frs, sh["sec"], float(sh.get("seg") or self.seg)) if len(frs) > 1 \
+                else [(0.0, frs[0])]
             first = None                         # 這一鏡的起格頁（可能是與上一鏡共用的那頁）
             for j, (t, fr) in enumerate(keys):
                 last = j == len(keys) - 1
@@ -257,14 +260,21 @@ class Pages:
             out.append(pg)
         return out
 
-    def _split(self, frs, sec):
-        """每段 ≤ seg 秒：在關鍵格之間插中間頁（Canva 元素空間線性內插＝M&M 本身的內插）"""
+    def _split(self, frs, sec, seg=0.0):
+        """關鍵格之間要不要插中間頁（Canva 元素空間線性內插＝M&M 本身的內插，畫面路徑不變）。
+        seg>0：每段 ≤ seg 秒；另外單段旋轉 ≥ 170° 一定拆（到 180° Canva 會走反方向）。"""
         out = [(0.0, frs[0])]
         nseg = len(frs) - 1
         for k in range(nseg):
             dur = sec / nseg
-            n = max(1, math.ceil(dur / self.seg - 1e-9))
             a, b = frs[k], frs[k + 1]
+            n = max(1, math.ceil(dur / seg - 1e-9)) if seg > 0 else 1
+            drot = abs(b[3] - a[3])
+            if drot >= 170:                              # 接近 180° 就拆，留餘裕
+                n = max(n, int(drot // 170) + 1)
+            if n == 1:                                   # 不拆：關鍵格原樣
+                out.append(((k + 1) / nseg, b))
+                continue
             wa, wb = 1.0 / a[2], 1.0 / b[2]              # 元素寬 ∝ 1/fov → 線性內插寬
             for i in range(1, n + 1):
                 s = i / n
@@ -510,7 +520,11 @@ class Pages:
             for pg in pages:
                 self.render(pg, d)
             print(f"  ✓ {self.ep}_對位參考/（{len(pages)} 張 1080×1920）")
-        print(f"  ✓ 共 {len(pages)} 頁；標籤座標 {len(lab_rows)} 筆")
+        mid = sum(1 for pg in pages if "-中" in pg["name"])
+        print(f"  ✓ 共 {len(pages)} 頁（其中中間頁 {mid} 頁）；標籤座標 {len(lab_rows)} 筆")
+        if self.seg > 0:
+            print(f"  ⚠ 用了整集 --seg {self.seg:g}：中間頁不會讓畫面更順，只是讓移動慢慢走；"
+                  "頁數會翻倍、Canva 設計容易超過連接器的 100 頁上限。只想拆某一鏡就在 shots 那一鏡寫 seg")
 
     def _overlay_api(self, pg):
         if not pg.get("hold"):
@@ -711,7 +725,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("ep")
     ap.add_argument("--seg", type=float, default=0.0,
-                    help="每段移動最長秒數；>0 時自動插中間頁（Canva 轉場時間不夠長時用）")
+                    help="整集每段移動最長秒數；>0 時每一鏡都插中間頁（頁數會翻倍，不建議；"
+                         "只想讓某一鏡慢慢走，在 shots 那一鏡寫 seg=2.5）")
     ap.add_argument("--no-png", action="store_true")
     a = ap.parse_args()
     Pages(a.ep, seg=a.seg).write(png=not a.no_png)

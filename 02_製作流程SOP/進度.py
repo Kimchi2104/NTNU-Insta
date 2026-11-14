@@ -112,7 +112,7 @@ def zh_row(ep, title, date_s, status):
         step, nxt = "⑥", f"卡 03｜Opus medium｜`集號：{ep}`"
     elif not canva:
         name = f"{ep} {short}".strip()
-        step, nxt = "⑦⑧", f"你：複製上一集中文設計 → 「{name}」；卡 04｜Sonnet medium｜`集號：{ep}　Canva 設計名：{name}`"
+        step, nxt = "⑦⑧", f"你：Canva 要有設計「{name}」；卡 04｜Sonnet medium｜`集號：{ep}　Canva 設計名：{name}`（要排 {pages_needed(ep)} 頁）"
     else:
         step, nxt = "⑨", "收尾、發布（手工）"
     hold = re.search(r"【暫緩[^】]*】", status)          # 節目表狀態欄寫【暫緩…】＝先不要照進度板開卡
@@ -127,6 +127,16 @@ def zh_row(ep, title, date_s, status):
     return dict(ep=ep, title=title, date=d, date_s=d.strftime("%Y/%m/%d") if d else date_s[:12], v=v, kao=kao, n=n,
                 assets=bool(ad), canva=canva, step=step, nxt=nxt, short=short, published=published, status=status,
                 missing=missing, need_kao=(v == 0 and not kao))
+
+
+def pages_needed(ep):
+    """卡 04 要新增幾頁＝逐頁製作表的資料列數（連接器上限：存檔後總頁數 ≤ 99）。"""
+    d = asset_dir(ep)
+    fs = glob.glob(os.path.join(d, "_v4大畫布", f"{ep}_Canva逐頁製作表.csv")) if d else []
+    if not fs:
+        return "?"
+    with open(fs[0], encoding="utf-8-sig", newline="") as f:
+        return max(0, sum(1 for _ in csv.reader(f)) - 1)
 
 
 ROLES = ("天文", "文化", "敘事", "語言")
