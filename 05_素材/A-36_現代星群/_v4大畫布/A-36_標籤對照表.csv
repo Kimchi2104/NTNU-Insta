@@ -1,0 +1,34 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+北斗,Big Dipper,,Big Dipper (Plough),北斗七星,#FFC94A,02_星群Asterisms.csv AST modern BDr（星群）
+大熊座,Ursa Major,,Ursa Major,大熊座,#FFFFFF,Stellarium modern_iau UMa（19 星；01_星座連線筆畫.csv 的 western UMa 18 星不用）
+星群,asterism,,asterism,星群,#FFC94A,逐字稿 02 鏡字卡
+北斗星官,北斗,,Northern Dipper,北斗（星官）,#3D8B7D,Stellarium chinese 039 北斗；《史記・天官書》「北斗七星」
+北極星,Polaris,,Polaris,北極星,#FFFFFF,
+織女,Vega,,Vega (α Lyr),織女・天琴座,#6FA8FF,距離 25.0 光年（Hipparcos 新歸算 130.23 mas）
+牛郎,Altair,,Altair (α Aql),牛郎・天鷹座,#6FA8FF,16.7 光年（194.95 mas）
+天津四,Deneb,,Deneb (α Cyg),天津四・天鵝座,#6FA8FF,"Hipparcos 2.31 mas（約 1,400 光年）；大氣模型 802 pc（約 2,600 光年）"
+夏三角,Summer Triangle,,Summer Triangle,夏季大三角,#6FA8FF,AST modern STr
+Wāqiʿ,النسر الواقع,,al-nasr al-wāqiʿ → Vega,俯衝的鷹 → Vega,#7BD88F,arabic_al-sufi NasW（織女一＋ε¹、ζ¹ Lyr）
+Ṭāʾir,النسر الطائر,,al-nasr al-ṭāʾir → Altair,飛翔的鷹 → Altair,#7BD88F,arabic_al-sufi NasT（河鼓二＋β、γ Aql）
+Dajāja,ذنب الدجاجة,,dhanab al-dajāja → Deneb,母雞的尾巴 → Deneb,#7BD88F,阿拉伯文譯托勒密「鳥」座；本土名 al-Ridf「後騎」（arabic_indigenous）
+四邊形,Great Square of Pegasus,,Great Square of Pegasus,飛馬大四邊形,#FFC94A,AST modern GSP
+壁宿二,Alpheratz,,"Alpheratz (α And, 舊稱 δ Peg)",壁宿二・仙女座,#FFFFFF,1930 Delporte 邊界只劃進仙女座
+飛馬座,Pegasus,,Pegasus,飛馬座,#FFFFFF,IAU
+仙女座,Andromeda,,Andromeda,仙女座,#FFFFFF,IAU
+室宿,室宿,,Encampment,室宿（營室）,#3D8B7D,chinese 018
+壁宿,壁宿,,Wall,壁宿（東壁）,#3D8B7D,chinese 002
+茶壺,Teapot,,Teapot,茶壺,#FFC94A,AST modern Tea（人馬 8 星）
+蒸氣,銀河中心,,Galactic Centre,蒸氣＝銀河中心,#FFFFFF,Sgr A*
+鴕鳥,النعام الوارد,,al-Naʿām al-wārid,下河喝水的鴕鳥（A-19）,#7BD88F,arabic_indigenous NaaW（γ、δ、ε、η Sgr＝中國箕宿）
+南斗,南斗,,Dipper (Dou),南斗六星（斗宿）,#3D8B7D,chinese 005
+斗宿三,μ Sgr,,μ Sgr,斗宿三（壺外）,#3D8B7D,λ 西北 5.5°
+衣架,Coathanger,,"Coathanger (Brocchi's Cluster, Cr 399)",衣架,#B78AFF,AST modern CoH（10 星）
+雙筒,雙筒望遠鏡,,binoculars,要用雙筒望遠鏡,#FFFFFF,
+象限儀,Quadrans Muralis,,Mural Quadrant,牆上的象限儀,#FF6B6B,AST modern QuM；Lalande 1795，象限儀座流星雨的名字由來
+Formosa,Formosa,,Formosa (HD 100655),Formosa,#FFC94A,NameExoWorlds 2019；HIP 56508，獅子座，V 6.45
+Sazum,Sazum,,HD 100655 b,行星 Sazum：邵族語的「水」,#FFFFFF,NameExoWorlds 2019
+獅子座,Leo,,Leo,獅子座,#FFFFFF,IAU
+大角,Arcturus,,Arcturus,大角,#7BD88F,
+角宿一,Spica,,Spica,角宿一,#7BD88F,
+大曲線,Arc to Arcturus,,Arc to Arcturus,春季大曲線,#7BD88F,AST modern RH1
+滿月,滿月,,Moon (99.7%),月亮（明早滿月）,#FFFFFF,PyEphem：6/18 22:00 高 32.6° 方位 155°，99.7%
