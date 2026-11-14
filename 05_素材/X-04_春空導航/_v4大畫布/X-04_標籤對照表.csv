@@ -1,0 +1,34 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+北斗,北斗,,Big Dipper,北斗七星,#FFFFFF,chinese 039；modern UMa 的一部分
+開陽,開陽,,Mizar (ζ UMa),開陽,#FFFFFF,離弧線所在的圓 0.16°
+搖光,搖光,,Alkaid (η UMa),搖光（斗柄末端）,#FFFFFF,RH1 起點
+大角,大角,,Arcturus (α Boo),大角,#FFC94A,chinese 060；北半天球最亮的恆星
+角宿一,角宿一,,Spica (α Vir),角宿一,#6FA8FF,chinese 009
+北斗-中,北斗,,Northern Dipper,北斗（斗杓＝斗柄）,#FFC94A,chinese 039；《史記》杓攜龍角
+左攝提,左攝提,,Left Conductor,大角東側三星（牧夫 ο π ζ）,#7BD88F,chinese 317；《史記》
+右攝提,右攝提,,Right Conductor,大角西側三星（牧夫 η τ υ）,#7BD88F,chinese 288；《史記》
+角宿,角宿,,Horn,青龍的角（角宿一、角宿二）,#6FA8FF,chinese 009
+天北極,天北極,,North Celestial Pole,天北極（鐘心）,#FFFFFF,07 鏡漢代那一格不標北極星（當時勾陳一離天北極 12°）
+北極星,北極星,,Polaris,北極星（勾陳一）,#FFFFFF,今天的鐘心
+Arktouros,Ἀρκτοῦρος,,"Arktouros, Bear-guard",守熊的人,#B78AFF,greek_almagest；Hesiod WD 566
+牧夫座,Βοώτης,,"Boötes, the Ploughman",牧夫座,#B78AFF,greek_almagest Boo
+Fávdna,Fávdna,,"Fávdna, the Hunter",獵人（大角）,#7BD88F,sami 005；A-21
+弓,Fávdna 的弓,,Favdna's Bow,弓（北斗）,#7BD88F,sami 002
+Sipé Phairó,Sipé Phairó,,Snake Large Anus,大蛇（北斗）,#7BD88F,tukano 011；Cardoso 2007 p.195
+siõka,siõka,,light (illuminates the snake),照亮大蛇的亮光（大角）,#FFC94A,Cardoso 2007 p.154、p.195
+Rāmiḥ,السماك الرامح,,al-Simāk al-Rāmiḥ,拿長矛的 Simāk（大角）,#FF6B6B,arabic_indigenous ThSl『The Armed One』
+Aʿzal,السماك الأعزل,,al-Simāk al-Aʿzal,沒帶武器的 Simāk（角宿一）,#6FA8FF,arabic_indigenous SmkA『The Unarmed One』
+Hōkūleʻa,Hōkūleʻa,,Star of Gladness,喜悅之星（大角）,#FFC94A,hawaiian_starlines；A-09
+Hikianalia,Hikianalia,,Hikianalia,角宿一,#6FA8FF,hawaiian_starlines
+大角-距離,大角,,Arcturus · 36.7 ly,大角・37 光年,#FFC94A,Hipparcos 2007 視差 88.83 mas
+角宿一-距離,角宿一,,Spica · ~250 ly,角宿一・約 250 光年,#6FA8FF,視差 13.06 mas
+五帝座一,五帝座一,,Denebola (β Leo),五帝座一（獅子尾巴）,#FFFFFF,chinese
+常陳一,常陳一,,Cor Caroli (α² CVn),常陳一,#FFFFFF,chinese
+軒轅十四,軒轅十四,,Regulus (α Leo),軒轅十四,#B78AFF,Stellarium modern SpT 用它
+春季大三角,春季大三角,,Spring Triangle,春季大三角,#FFC94A,台灣、日本課本版（五帝座一）
+春季大鑽石,春季大鑽石,,Great Diamond,春季大鑽石,#6FA8FF,modern GDi
+月牙,月牙,,crescent Moon (7%),月牙（19:30，13°）,#FFFFFF,PyEphem；4/9 19:30 台北
+木星,木星,,Jupiter,木星（行星）,#FFC94A,PyEphem；20:00
+火星,火星,,Mars,火星（行星）,#FF6B6B,PyEphem；20:00
+Svātī,Svātī,,"Svati, the self-mover",第十五月站（大角）,#FFC94A,indian／indian_nakshatras Naks15；梵文一律 IAST
+Citrā,Citrā,,"Chitra, the bright one",第十四月站（角宿一）,#6FA8FF,indian Naks14
