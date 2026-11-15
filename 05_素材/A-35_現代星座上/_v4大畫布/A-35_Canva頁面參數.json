@@ -1,0 +1,1627 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -4191.87,
+  "top": -5861.43,
+  "width": 8836.36,
+  "height": 14653.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L12-IAU邊界",
+   "L28-主角星白點"
+  ],
+  "notes": "上週，蘇菲把希臘星座畫進一本書；今天，回到課本上那一套。同一片星空，天文學家把它——切成八十八塊。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "長圖",
+  "left": -2383.31,
+  "top": -3887.82,
+  "width": 5846.62,
+  "height": 9695.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L12-IAU邊界",
+   "L28-主角星白點",
+   "L29-標籤-托勒密"
+  ],
+  "notes": "這套星座的老底子，是將近一千九百年前，亞歷山卓的托勒密，在《天文學大成》裡列的四十八個星座、一千多顆星。上週的蘇菲，用的也是這四十八個。",
+  "trans": "Match & Move（10.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02結束",
+  "group": "長圖",
+  "left": -2513.23,
+  "top": -3887.82,
+  "width": 5846.62,
+  "height": 9695.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-托勒密48",
+   "L28-主角星白點",
+   "L29-標籤-托勒密"
+  ],
+  "notes": "",
+  "trans": "Match & Move（15.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02-概念圖",
+  "group": "長圖",
+  "left": -2513.23,
+  "top": -3887.82,
+  "width": 5846.62,
+  "height": 9695.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-托勒密48",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-01_88個星座從哪來_到150年層_透明.png",
+    "left": 24,
+    "top": 521.45,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 512.6315789473684,
+   "width": 1032,
+   "height": 894.7368421052632,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 5,
+  "title": "鏡頭02-概念圖收",
+  "group": "長圖",
+  "left": -2513.23,
+  "top": -3887.82,
+  "width": 5846.62,
+  "height": 9695.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-托勒密48",
+   "L28-主角星白點",
+   "L29-標籤-托勒密"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 6,
+  "title": "長圖轉南盤1-回中心",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -5487.6,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-托勒密48",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 7,
+  "title": "長圖轉南盤1-上移",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -8060.49,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-托勒密48",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 8,
+  "title": "長圖轉南盤1",
+  "group": "南盤",
+  "left": -3337.78,
+  "top": -2917.78,
+  "width": 7755.56,
+  "height": 7755.56,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L5-連線-托勒密48",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成南盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 9,
+  "title": "鏡頭03開始",
+  "group": "南盤",
+  "left": -3337.78,
+  "top": -2917.88,
+  "width": 7755.56,
+  "height": 7755.56,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L5-連線-托勒密48",
+   "南盤L32-遮罩-亞歷山卓150年",
+   "南盤L12-主角星白點",
+   "南盤L13-標籤-亞歷山卓看不到"
+  ],
+  "notes": "可是托勒密看不到南天最南的那一塊；在希臘這套星圖裡，星座和星座之間，也留著不少沒畫進圖形的暗星。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 10,
+  "title": "鏡頭03結束",
+  "group": "南盤",
+  "left": -752.59,
+  "top": -275.03,
+  "width": 2585.19,
+  "height": 2585.19,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L5-連線-托勒密48",
+   "南盤L32-遮罩-亞歷山卓150年",
+   "南盤L12-主角星白點",
+   "南盤L13-標籤-亞歷山卓看不到"
+  ],
+  "notes": "",
+  "trans": "Match & Move（11.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 11,
+  "title": "鏡頭04開始",
+  "group": "南盤",
+  "left": -600.52,
+  "top": -180.55,
+  "width": 2281.05,
+  "height": 2281.05,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L6-連線-南天12（Keyser＆de Houtman）",
+   "南盤L32-遮罩-亞歷山卓150年",
+   "南盤L12-主角星白點",
+   "南盤L14-標籤-南天12"
+  ],
+  "notes": "十六世紀末，荷蘭船隊開到南半球，領航員 Keyser 和 de Houtman 記下南天的星，Plancius 把它們做成十二個新星座：孔雀、杜鵑、天燕、蝘蜓、飛魚……一六〇三年，Bayer 的星圖把它們印了出來。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 12,
+  "title": "鏡頭04結束",
+  "group": "南盤",
+  "left": -600.52,
+  "top": -180.55,
+  "width": 2281.05,
+  "height": 2281.05,
+  "rotation": 40.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L6-連線-南天12（Keyser＆de Houtman）",
+   "南盤L32-遮罩-亞歷山卓150年",
+   "南盤L12-主角星白點",
+   "南盤L14-標籤-南天12"
+  ],
+  "notes": "",
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 13,
+  "title": "鏡頭04-概念圖",
+  "group": "南盤",
+  "left": -600.52,
+  "top": -180.55,
+  "width": 2281.05,
+  "height": 2281.05,
+  "rotation": 40.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L6-連線-南天12（Keyser＆de Houtman）",
+   "南盤L32-遮罩-亞歷山卓150年",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-01_88個星座從哪來_到1597年層_透明.png",
+    "left": 24,
+    "top": 504.1,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 495.280701754386,
+   "width": 1032,
+   "height": 929.438596491228,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 14,
+  "title": "鏡頭04-概念圖收",
+  "group": "南盤",
+  "left": -600.52,
+  "top": -180.55,
+  "width": 2281.05,
+  "height": 2281.05,
+  "rotation": 40.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L6-連線-南天12（Keyser＆de Houtman）",
+   "南盤L32-遮罩-亞歷山卓150年",
+   "南盤L12-主角星白點",
+   "南盤L14-標籤-南天12"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 15,
+  "title": "南盤轉長圖1-歸位",
+  "group": "南盤",
+  "left": -3337.78,
+  "top": -2917.78,
+  "width": 7755.56,
+  "height": 7755.56,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L6-連線-南天12（Keyser＆de Houtman）",
+   "南盤L32-遮罩-亞歷山卓150年",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 16,
+  "title": "南盤轉長圖1",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -8060.49,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-南天12（Keyser＆de Houtman）",
+   "L23-遮罩-亞歷山卓150年",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把南盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 17,
+  "title": "南盤轉長圖1-下移",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -5487.6,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-南天12（Keyser＆de Houtman）",
+   "L23-遮罩-亞歷山卓150年",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉南盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 18,
+  "title": "鏡頭05開始＝鏡頭05b開始",
+  "group": "長圖",
+  "left": -8079.12,
+  "top": -8596.92,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L7-連線-Hevelius7",
+   "L28-主角星白點",
+   "L32-標籤-天貓"
+  ],
+  "notes": "還有一面盾牌，是獻給波蘭國王的。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 19,
+  "title": "鏡頭05b結束",
+  "group": "長圖",
+  "left": -2356.2,
+  "top": -10061.76,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L7-連線-Hevelius7",
+   "L28-主角星白點",
+   "L33-標籤-盾牌"
+  ],
+  "notes": "",
+  "trans": "Match & Move（4.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 20,
+  "title": "鏡頭05b-概念圖",
+  "group": "長圖",
+  "left": -2356.2,
+  "top": -10061.76,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L7-連線-Hevelius7",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-01_88個星座從哪來_到1690年層_透明.png",
+    "left": 24,
+    "top": 471.41,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 462.5906432748538,
+   "width": 1032,
+   "height": 994.8187134502923,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 21,
+  "title": "鏡頭05b-概念圖收",
+  "group": "長圖",
+  "left": -2356.2,
+  "top": -10061.76,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L7-連線-Hevelius7",
+   "L28-主角星白點",
+   "L33-標籤-盾牌"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 22,
+  "title": "長圖轉南盤2-回中心",
+  "group": "長圖",
+  "left": -5940.0,
+  "top": -9786.0,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L7-連線-Hevelius7",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 23,
+  "title": "長圖轉南盤2-上移",
+  "group": "長圖",
+  "left": -5940.0,
+  "top": -14074.16,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L7-連線-Hevelius7",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 24,
+  "title": "長圖轉南盤2",
+  "group": "南盤",
+  "left": -5922.96,
+  "top": -5502.96,
+  "width": 12925.93,
+  "height": 12925.93,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L4-星座連線",
+   "南盤L7-連線-Hevelius7",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成南盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 25,
+  "title": "鏡頭06開始",
+  "group": "南盤",
+  "left": -5162.62,
+  "top": -4742.76,
+  "width": 11405.23,
+  "height": 11405.23,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L8-連線-Lacaille14",
+   "南盤L34-麥哲倫雲",
+   "南盤L12-主角星白點",
+   "南盤L15-標籤-Lacaille14"
+  ],
+  "notes": "最後一批留到今天的，來自法國的 Lacaille。一七五〇年代，他在南非好望角量了將近一萬顆南天星，把空地填成十四個星座，幾乎全是儀器：望遠鏡、顯微鏡、時鐘、抽氣機……",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 26,
+  "title": "鏡頭06-中1",
+  "group": "南盤",
+  "left": -600.52,
+  "top": -180.55,
+  "width": 2281.05,
+  "height": 2281.05,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L8-連線-Lacaille14",
+   "南盤L34-麥哲倫雲",
+   "南盤L12-主角星白點",
+   "南盤L15-標籤-Lacaille14"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 27,
+  "title": "鏡頭06結束",
+  "group": "南盤",
+  "left": -600.52,
+  "top": -180.55,
+  "width": 2281.05,
+  "height": 2281.05,
+  "rotation": 90.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L8-連線-Lacaille14",
+   "南盤L34-麥哲倫雲",
+   "南盤L12-主角星白點",
+   "南盤L15-標籤-Lacaille14"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 28,
+  "title": "鏡頭06b開始",
+  "group": "南盤",
+  "left": -4205.7,
+  "top": -4795.08,
+  "width": 9694.45,
+  "height": 9694.45,
+  "rotation": 90.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L8-連線-Lacaille14",
+   "南盤L34-麥哲倫雲",
+   "南盤L12-主角星白點",
+   "南盤L16-標籤-山案"
+  ],
+  "notes": "還有一座山：開普敦的桌山，就是山案座。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 29,
+  "title": "鏡頭06b-概念圖",
+  "group": "南盤",
+  "left": -4205.7,
+  "top": -4795.08,
+  "width": 9694.45,
+  "height": 9694.45,
+  "rotation": 90.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L8-連線-Lacaille14",
+   "南盤L34-麥哲倫雲",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-01_88個星座從哪來_到1756年層_透明.png",
+    "left": 24,
+    "top": 454.81,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 445.99415204678365,
+   "width": 1032,
+   "height": 1028.0116959064326,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 30,
+  "title": "鏡頭06b-概念圖收",
+  "group": "南盤",
+  "left": -4205.7,
+  "top": -4795.08,
+  "width": 9694.45,
+  "height": 9694.45,
+  "rotation": 90.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L8-連線-Lacaille14",
+   "南盤L34-麥哲倫雲",
+   "南盤L12-主角星白點",
+   "南盤L16-標籤-山案"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 31,
+  "title": "南盤轉長圖2-歸位",
+  "group": "南盤",
+  "left": -5922.96,
+  "top": -5502.96,
+  "width": 12925.93,
+  "height": 12925.93,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L8-連線-Lacaille14",
+   "南盤L34-麥哲倫雲",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 32,
+  "title": "南盤轉長圖2",
+  "group": "長圖",
+  "left": -5940.0,
+  "top": -14074.16,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Lacaille14",
+   "L25-麥哲倫雲",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把南盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 33,
+  "title": "南盤轉長圖2-下移",
+  "group": "長圖",
+  "left": -5940.0,
+  "top": -9786.0,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L8-連線-Lacaille14",
+   "L25-麥哲倫雲",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉南盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 34,
+  "title": "鏡頭07開始",
+  "group": "長圖",
+  "left": -3031.74,
+  "top": -5331.9,
+  "width": 6480.0,
+  "height": 10746.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L24-已淘汰星座",
+   "L28-主角星白點",
+   "L36-標籤-已淘汰"
+  ],
+  "notes": "從十七世紀到十九世紀初，各家星圖還加過不少：一棵橡樹、一具牆上的象限儀、一隻貓——後來都被淘汰了。同一顆星，換一張星圖，就換了一個星座。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭07結束",
+  "group": "長圖",
+  "left": -4799.77,
+  "top": -9919.34,
+  "width": 14953.85,
+  "height": 24798.46,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L24-已淘汰星座",
+   "L28-主角星白點",
+   "L37-標籤-牆象限儀"
+  ],
+  "notes": "",
+  "trans": "Match & Move（15.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 36,
+  "title": "鏡頭08開始",
+  "group": "長圖",
+  "left": -2812.44,
+  "top": -3802.99,
+  "width": 6942.86,
+  "height": 11513.57,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L28-主角星白點",
+   "L38-標籤-IAU縮寫"
+  ],
+  "notes": "一九二二年，剛成立三年的國際天文學聯合會在羅馬開大會，定下八十八個星座的名單，每個配三個字母的縮寫：UMa 是大熊，Ori 是獵戶。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 37,
+  "title": "鏡頭08結束",
+  "group": "長圖",
+  "left": -5449.25,
+  "top": -5373.12,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L28-主角星白點",
+   "L38-標籤-IAU縮寫"
+  ],
+  "notes": "",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 38,
+  "title": "鏡頭08-概念圖",
+  "group": "長圖",
+  "left": -5449.25,
+  "top": -5373.12,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-04_88星座出身表_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 39,
+  "title": "鏡頭08-概念圖收",
+  "group": "長圖",
+  "left": -5449.25,
+  "top": -5373.12,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L28-主角星白點",
+   "L38-標籤-IAU縮寫"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 40,
+  "title": "鏡頭09開始",
+  "group": "長圖",
+  "left": -2383.31,
+  "top": -3887.82,
+  "width": 5846.62,
+  "height": 9695.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L16-經緯線-加亮",
+   "L13-IAU邊界-北段",
+   "L28-主角星白點"
+  ],
+  "notes": "可是名單只有名字，沒有邊界。比利時天文學家 Delporte 接下這份工作：",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 41,
+  "title": "鏡頭09b開始",
+  "group": "長圖",
+  "left": -2473.95,
+  "top": -4038.14,
+  "width": 6027.91,
+  "height": 9996.28,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L16-經緯線-加亮",
+   "L14-IAU邊界-中段",
+   "L28-主角星白點"
+  ],
+  "notes": "邊界全部沿著赤經、赤緯畫成直線，南天參考阿根廷的星圖。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 42,
+  "title": "鏡頭09c開始",
+  "group": "長圖",
+  "left": -2570.4,
+  "top": -4198.08,
+  "width": 6220.8,
+  "height": 10316.16,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L16-經緯線-加亮",
+   "L12-IAU邊界",
+   "L28-主角星白點"
+  ],
+  "notes": "一九二八年大會通過，一九三〇年出版——整片天空，一點空隙都不留。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 43,
+  "title": "鏡頭10開始",
+  "group": "長圖",
+  "left": -2829.11,
+  "top": -3897.4,
+  "width": 5846.62,
+  "height": 9695.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-IAU邊界",
+   "L17-填色-長蛇座",
+   "L18-填色-南十字座",
+   "L28-主角星白點",
+   "L39-標籤-長蛇"
+  ],
+  "notes": "從此，星座不只是一幅圖，而是一塊地：天上每一點，都屬於、也只屬於一個星座。最大的長蛇座，面積是最小的南十字座的十九倍。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 44,
+  "title": "鏡頭10結束",
+  "group": "長圖",
+  "left": -5657.04,
+  "top": -11913.96,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-IAU邊界",
+   "L17-填色-長蛇座",
+   "L18-填色-南十字座",
+   "L28-主角星白點",
+   "L40-標籤-南十字"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 45,
+  "title": "鏡頭10-概念圖1",
+  "group": "長圖",
+  "left": -5657.04,
+  "top": -11913.96,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-IAU邊界",
+   "L17-填色-長蛇座",
+   "L18-填色-南十字座",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-02_邊界是一塊地_長蛇層_透明.png",
+    "left": 24,
+    "top": 458.08,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 449.2631578947368,
+   "width": 1032,
+   "height": 1021.4736842105262,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 46,
+  "title": "鏡頭10-概念圖2",
+  "group": "長圖",
+  "left": -5657.04,
+  "top": -11913.96,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-IAU邊界",
+   "L17-填色-長蛇座",
+   "L18-填色-南十字座",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-02_邊界是一塊地_長蛇層_透明.png",
+    "left": 24,
+    "top": 458.08,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A35-02_邊界是一塊地_南十字層_透明.png",
+    "left": 24,
+    "top": 458.08,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 449.2631578947368,
+   "width": 1032,
+   "height": 1021.4736842105262,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 47,
+  "title": "鏡頭10-概念圖收",
+  "group": "長圖",
+  "left": -5657.04,
+  "top": -11913.96,
+  "width": 12960.0,
+  "height": 21492.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L12-IAU邊界",
+   "L17-填色-長蛇座",
+   "L18-填色-南十字座",
+   "L28-主角星白點",
+   "L40-標籤-南十字"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 48,
+  "title": "鏡頭11開始",
+  "group": "長圖",
+  "left": -1166.4,
+  "top": -4124.61,
+  "width": 6075.0,
+  "height": 10074.38,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L19-填色-巨蛇與蛇夫",
+   "L12-IAU邊界",
+   "L28-主角星白點",
+   "L41-標籤-巨蛇"
+  ],
+  "notes": "也有怪地方：巨蛇座被蛇夫座從中間切開，蛇頭蛇尾分在兩邊——八十八個星座，其實是八十九塊。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 49,
+  "title": "鏡頭11-概念圖1",
+  "group": "長圖",
+  "left": -1166.4,
+  "top": -4124.61,
+  "width": 6075.0,
+  "height": 10074.38,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L19-填色-巨蛇與蛇夫",
+   "L12-IAU邊界",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-03_巨蛇被切成兩塊_三塊層_透明.png",
+    "left": 24,
+    "top": 450.79,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 441.97076023391816,
+   "width": 1032,
+   "height": 1036.0584795321638,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 50,
+  "title": "鏡頭11-概念圖2",
+  "group": "長圖",
+  "left": -1166.4,
+  "top": -4124.61,
+  "width": 6075.0,
+  "height": 10074.38,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L19-填色-巨蛇與蛇夫",
+   "L12-IAU邊界",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-03_巨蛇被切成兩塊_三塊層_透明.png",
+    "left": 24,
+    "top": 450.79,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A35-03_巨蛇被切成兩塊_89塊層_透明.png",
+    "left": 24,
+    "top": 450.79,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 441.97076023391816,
+   "width": 1032,
+   "height": 1036.0584795321638,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 51,
+  "title": "鏡頭11b開始",
+  "group": "長圖",
+  "left": -13059.9,
+  "top": -41111.4,
+  "width": 48600.0,
+  "height": 80595.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L27-IAU邊界-放大框",
+   "L26-經緯線-2027（放大框）",
+   "L28-主角星白點",
+   "L42-標籤-放大框"
+  ],
+  "notes": "邊界照一八七五年的座標畫，地軸一直在晃，今天的線已經歪了一點。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 52,
+  "title": "鏡頭11c開始",
+  "group": "長圖",
+  "left": -1166.4,
+  "top": -4124.61,
+  "width": 6075.0,
+  "height": 10074.38,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L19-填色-巨蛇與蛇夫",
+   "L12-IAU邊界",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 53,
+  "title": "長圖轉南盤3-回中心",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -5487.6,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L19-填色-巨蛇與蛇夫",
+   "L12-IAU邊界",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 54,
+  "title": "長圖轉南盤3-上移",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -8060.49,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L19-填色-巨蛇與蛇夫",
+   "L12-IAU邊界",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 55,
+  "title": "長圖轉南盤3",
+  "group": "南盤",
+  "left": -3337.78,
+  "top": -2917.78,
+  "width": 7755.56,
+  "height": 7755.56,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L9-連線-巨蛇蛇夫盾牌",
+   "南盤L28-填色-巨蛇與蛇夫",
+   "南盤L21-IAU邊界",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把長圖換成南盤）",
+  "mountain_top": null
+ },
+ {
+  "page": 56,
+  "title": "鏡頭12開始",
+  "group": "南盤",
+  "left": -1324.32,
+  "top": -904.36,
+  "width": 3728.63,
+  "height": 3728.63,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L29-填色-台北看不到的4個",
+   "南盤L30-圈-台北永不升起",
+   "南盤L12-主角星白點",
+   "南盤L19-標籤-台北看不到"
+  ],
+  "notes": "這八十八個，台灣看得到幾個？在台北，有四個永遠不會升起：蝘蜓座、南極座、山案座、天燕座；",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 57,
+  "title": "鏡頭12b開始",
+  "group": "南盤",
+  "left": -1438.46,
+  "top": -1018.51,
+  "width": 3956.92,
+  "height": 3956.92,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L29-填色-台北看不到的4個",
+   "南盤L31-圈-鵝鑾鼻永不升起",
+   "南盤L12-主角星白點",
+   "南盤L20-標籤-鵝鑾鼻"
+  ],
+  "notes": "跑到最南端的鵝鑾鼻，天燕座的邊界才露出一角。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 58,
+  "title": "南盤轉長圖3-歸位",
+  "group": "南盤",
+  "left": -3337.78,
+  "top": -2917.78,
+  "width": 7755.56,
+  "height": 7755.56,
+  "rotation": 0.0,
+  "layers": [
+   "南盤L1-銀河",
+   "南盤L2-星點",
+   "南盤L3-經緯線",
+   "南盤L29-填色-台北看不到的4個",
+   "南盤L31-圈-鵝鑾鼻永不升起",
+   "南盤L12-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；盤轉回 0°",
+  "mountain_top": null
+ },
+ {
+  "page": 59,
+  "title": "南盤轉長圖3",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -8060.49,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L20-填色-台北看不到的4個",
+   "L22-圈-鵝鑾鼻永不升起",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "無（同框硬切：畫面完全相同，只把南盤換回長圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 60,
+  "title": "南盤轉長圖3-下移",
+  "group": "長圖",
+  "left": -3348.0,
+  "top": -5487.6,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L20-填色-台北看不到的4個",
+   "L22-圈-鵝鑾鼻永不升起",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（轉場，≤2.5 秒）；＝長圖轉南盤的倒放",
+  "mountain_top": null
+ },
+ {
+  "page": 61,
+  "title": "鏡頭13開始",
+  "group": "長圖",
+  "left": -3253.82,
+  "top": -5157.98,
+  "width": 7776.0,
+  "height": 12895.2,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-中國星官312",
+   "L12-IAU邊界",
+   "L28-主角星白點",
+   "L45-標籤-中國星官"
+  ],
+  "notes": "其實，人類有好多種切天空的方法——像中國古代的星圖，就有二百八十三個星官。IAU 的八十八個，只是其中一種；它的好處是，全世界的天文學家約好了，一起用它。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 62,
+  "title": "鏡頭13結束",
+  "group": "長圖",
+  "left": -2519.54,
+  "top": -4159.72,
+  "width": 6270.97,
+  "height": 10399.35,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-連線-中國星官312",
+   "L12-IAU邊界",
+   "L28-主角星白點",
+   "L45-標籤-中國星官"
+  ],
+  "notes": "",
+  "trans": "Match & Move（17.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 63,
+  "title": "鏡頭14開始",
+  "group": "長圖",
+  "left": -1186.61,
+  "top": -4319.63,
+  "width": 6270.97,
+  "height": 10399.35,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L28-主角星白點",
+   "L46-標籤-今晚"
+  ],
+  "notes": "今晚九點往東南看：高處那顆亮星，是巨蛇的頭；正東是蛇夫，東南方低一點是蛇尾——同一個星座，分在兩邊。蛇尾下方那面小盾牌，就是獻給波蘭國王的盾牌座；蛇尾和盾牌都暗，要到郊外才看得到。西邊的半個月亮，午夜才下山。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 64,
+  "title": "鏡頭14-概念圖",
+  "group": "長圖",
+  "left": -1186.61,
+  "top": -4319.63,
+  "width": 6270.97,
+  "height": 10399.35,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L28-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A35-05_今晚的巨蛇與盾牌_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 65,
+  "title": "鏡頭14-概念圖收",
+  "group": "長圖",
+  "left": -1186.61,
+  "top": -4319.63,
+  "width": 6270.97,
+  "height": 10399.35,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L9-連線-巨蛇蛇夫盾牌",
+   "L28-主角星白點",
+   "L46-標籤-今晚"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 66,
+  "title": "鏡頭15開始",
+  "group": "長圖",
+  "left": -3070.32,
+  "top": -4169.38,
+  "width": 7476.92,
+  "height": 12399.23,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L11-連線-北斗七星",
+   "L15-IAU邊界-大熊座",
+   "L28-主角星白點",
+   "L47-標籤-下集"
+  ],
+  "notes": "下週五，下集：北斗七星其實不是星座？課本沒教的星群。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ }
+]

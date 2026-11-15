@@ -1,0 +1,1500 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -1783.08,
+  "top": -4917.79,
+  "width": 7776.0,
+  "height": 12657.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-斗柄弧線",
+   "L6-黃道",
+   "L15-主角星白點",
+   "L16-標籤-Svātī與Citrā"
+  ],
+  "notes": "上週沿著斗柄找到的大角和角宿一，在印度叫 Svātī 和 Citrā，是同一位丈夫的兩位妻子。同一片星空，印度人看見——月亮的二十七位妻子。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束",
+  "group": "長圖",
+  "left": -2682.0,
+  "top": -7754.7,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-斗柄弧線",
+   "L6-黃道",
+   "L15-主角星白點",
+   "L16-標籤-Svātī與Citrā"
+  ],
+  "notes": "",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02開始",
+  "group": "長圖",
+  "left": -1960.2,
+  "top": -6555.08,
+  "width": 8836.36,
+  "height": 14383.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點",
+   "L17-標籤-27宿門牌"
+  ],
+  "notes": "月亮繞天一圈要二十七天多，印度把它走的路切成二十七段月站，叫 Nakṣatra。每一段住著一位妻子，月亮每晚換一家住。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02結束",
+  "group": "長圖",
+  "left": -91.06,
+  "top": -6774.76,
+  "width": 8836.36,
+  "height": 14383.64,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點",
+   "L17-標籤-27宿門牌"
+  ],
+  "notes": "",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 5,
+  "title": "鏡頭03開始",
+  "group": "長圖",
+  "left": -6840.6,
+  "top": -7334.7,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L18-標籤-Rohiṇī-近"
+  ],
+  "notes": "故事是這樣的：始祖神 Dakṣa 有一群女兒，其中二十七個，全嫁給月神 Soma。可是 Soma 只愛一個——Rohiṇī，「紅色的那位」，就是金牛座的畢宿五。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 6,
+  "title": "鏡頭03結束",
+  "group": "長圖",
+  "left": -12745.08,
+  "top": -14013.66,
+  "width": 19440.0,
+  "height": 31644.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L18-標籤-Rohiṇī-近"
+  ],
+  "notes": "",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 7,
+  "title": "鏡頭03-概念圖",
+  "group": "長圖",
+  "left": -12745.08,
+  "top": -14013.66,
+  "width": 19440.0,
+  "height": 31644.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-02_二十七位妻子_妻子層_透明.png",
+    "left": 24,
+    "top": 521.95,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 511.1228070175439,
+   "width": 1032,
+   "height": 897.7543859649122,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 8,
+  "title": "鏡頭03-概念圖收＝鏡頭04開始",
+  "group": "長圖",
+  "left": -12745.08,
+  "top": -14013.66,
+  "width": 19440.0,
+  "height": 31644.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L18-標籤-Rohiṇī-近"
+  ],
+  "notes": "他天天住在 Rohiṇī 家，其他二十六位獨守空閨，回娘家告狀。Dakṣa 要女婿一視同仁，Soma 嘴上答應，照樣偏心——岳父一怒，詛咒他染上消瘦病。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 9,
+  "title": "鏡頭04-概念圖",
+  "group": "長圖",
+  "left": -12745.08,
+  "top": -14013.66,
+  "width": 19440.0,
+  "height": 31644.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-02_二十七位妻子_回娘家層_透明.png",
+    "left": 24,
+    "top": 471.41,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 460.57894736842104,
+   "width": 1032,
+   "height": 998.8421052631579,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 10,
+  "title": "鏡頭04-概念圖收＝鏡頭05開始",
+  "group": "長圖",
+  "left": -12745.08,
+  "top": -14013.66,
+  "width": 19440.0,
+  "height": 31644.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L18-標籤-Rohiṇī-近"
+  ],
+  "notes": "月亮一天比一天瘦，地上的草藥也跟著枯萎。眾神出面求情，Dakṣa 才鬆口：要他平等對待每一位妻子，再去海邊的聖地 Prabhāsa 沐浴。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 11,
+  "title": "鏡頭05結束",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L19-標籤-Rohiṇī"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 12,
+  "title": "鏡頭05-概念圖",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-03_盈虧_消瘦層_透明.png",
+    "left": 24,
+    "top": 770.4,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 759.5672514619883,
+   "width": 1032,
+   "height": 400.8654970760234,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 13,
+  "title": "鏡頭05-概念圖收＝鏡頭06開始",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L19-標籤-Rohiṇī"
+  ],
+  "notes": "命是保住了，但詛咒收不回：從此月亮半個月消瘦、半個月復原——這就是月亮的盈虧。後來的《濕婆往世書》改說，是濕婆救了他。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 14,
+  "title": "鏡頭06-概念圖1",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-03_盈虧_消瘦層_透明.png",
+    "left": 24,
+    "top": 456.57,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 445.7426900584795,
+   "width": 1032,
+   "height": 1028.5146198830407,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 15,
+  "title": "鏡頭06-概念圖2",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-03_盈虧_消瘦層_透明.png",
+    "left": 24,
+    "top": 456.57,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A28-03_盈虧_盈虧層_透明.png",
+    "left": 24,
+    "top": 456.57,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 445.7426900584795,
+   "width": 1032,
+   "height": 1028.5146198830407,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 16,
+  "title": "鏡頭06-概念圖收＝鏡頭07開始",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L19-標籤-Rohiṇī"
+  ],
+  "notes": "那片海邊，今天還有一座濕婆神廟，叫 Somnāth——「月神之主」，就在印度西岸的古吉拉特。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 17,
+  "title": "鏡頭07-概念圖1",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-04_Somnāth在哪_印度層_透明.png",
+    "left": 24,
+    "top": 462.61,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 451.2748538011696,
+   "width": 1032,
+   "height": 1017.4502923976606,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 18,
+  "title": "鏡頭07-概念圖2",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-04_Somnāth在哪_印度層_透明.png",
+    "left": 24,
+    "top": 462.61,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A28-04_Somnāth在哪_古吉拉特層_透明.png",
+    "left": 24,
+    "top": 462.61,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 451.2748538011696,
+   "width": 1032,
+   "height": 1017.4502923976606,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 19,
+  "title": "鏡頭07-概念圖收＝鏡頭08開始",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L19-標籤-Rohiṇī"
+  ],
+  "notes": "這個故事最早的版本，寫在吠陀祭祀經《泰帝利耶本集》裡：嫁女兒的是生主 Prajāpati，女兒不是二十七個，是三十三個。Soma 在這裡是一位王，他違背誓言，病就找上門，所以叫 rājayakṣma，「國王的消瘦病」。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 20,
+  "title": "鏡頭08-概念圖",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-05_33到27_三十三層_透明.png",
+    "left": 24,
+    "top": 505.11,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 493.7719298245614,
+   "width": 1032,
+   "height": 932.456140350877,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 21,
+  "title": "鏡頭08-概念圖收＝鏡頭09開始",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L19-標籤-Rohiṇī"
+  ],
+  "notes": "到了後來的史詩，才變成 Dakṣa 的二十七個女兒，剛好跟天上的月站一樣多。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 22,
+  "title": "鏡頭09-概念圖",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-05_33到27_二十七層_透明.png",
+    "left": 24,
+    "top": 477.19,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 465.85964912280707,
+   "width": 1032,
+   "height": 988.280701754386,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 23,
+  "title": "鏡頭09-概念圖收",
+  "group": "長圖",
+  "left": -6048.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L19-標籤-Rohiṇī"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 24,
+  "title": "鏡頭10開始",
+  "group": "長圖",
+  "left": -6102.54,
+  "top": -6505.23,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L9-四顆一等星琥珀圈",
+   "L15-主角星白點",
+   "L20-標籤-四位妻子"
+  ],
+  "notes": "天文上，月亮真的一家一家拜訪。全天的一等星裡，只有畢宿五、軒轅十四、角宿一、心宿二貼著月亮的路，會被月亮整個擋住，剛好是 Rohiṇī、Maghā、Citrā、Jyeṣṭhā 四位妻子的主星。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 25,
+  "title": "鏡頭10-中1",
+  "group": "長圖",
+  "left": -3858.57,
+  "top": -6627.81,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L9-四顆一等星琥珀圈",
+   "L15-主角星白點",
+   "L20-標籤-四位妻子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（5.7 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 26,
+  "title": "鏡頭10-中2",
+  "group": "長圖",
+  "left": -2529.9,
+  "top": -7198.32,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L9-四顆一等星琥珀圈",
+   "L15-主角星白點",
+   "L20-標籤-四位妻子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（5.7 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 27,
+  "title": "鏡頭10結束",
+  "group": "長圖",
+  "left": -1286.55,
+  "top": -7610.61,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L9-四顆一等星琥珀圈",
+   "L15-主角星白點",
+   "L20-標籤-四位妻子"
+  ],
+  "notes": "",
+  "trans": "Match & Move（5.7 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 28,
+  "title": "鏡頭11開始",
+  "group": "長圖",
+  "left": -2504.25,
+  "top": -13436.85,
+  "width": 16200.0,
+  "height": 26370.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L9-四顆一等星琥珀圈",
+   "L15-主角星白點",
+   "L21-標籤-Jyeṣṭhā-近"
+  ],
+  "notes": "這幾年，反而是名字叫「最年長的」那位 Jyeṣṭhā，每個月都被月亮擋住；",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 29,
+  "title": "鏡頭11b開始",
+  "group": "長圖",
+  "left": -10530.9,
+  "top": -11504.55,
+  "width": 16200.0,
+  "height": 26370.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L22-標籤-Rohiṇī-最受寵"
+  ],
+  "notes": "最受寵的 Rohiṇī，月亮經過都隔著將近十度。月亮的路十八年多擺一輪：上次擋住她是二〇一八年，下次要等到二〇三三年。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 30,
+  "title": "鏡頭11b-概念圖",
+  "group": "長圖",
+  "left": -10530.9,
+  "top": -11504.55,
+  "width": 16200.0,
+  "height": 26370.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-06_月亮與Rohiṇī的距離_透明.png",
+    "left": 24,
+    "top": 491.53,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 481.70175438596493,
+   "width": 1032,
+   "height": 956.5964912280701,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 31,
+  "title": "鏡頭11b-概念圖收",
+  "group": "長圖",
+  "left": -10530.9,
+  "top": -11504.55,
+  "width": 16200.0,
+  "height": 26370.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-黃道",
+   "L8-月亮軌道帶",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L22-標籤-Rohiṇī-最受寵"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭12開始",
+  "group": "長圖",
+  "left": -3464.64,
+  "top": -6539.25,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L15-主角星白點",
+   "L23-標籤-婚禮詩"
+  ],
+  "notes": "月站在《梨俱吠陀》裡就出現了，而且是在一首婚禮詩裡：在 Aghā，也就是 Maghā，牛被趕上路，也有人譯作宰殺；在兩個 Arjunī，也就是 Phalgunī，新娘被迎進門。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 33,
+  "title": "鏡頭13開始",
+  "group": "長圖",
+  "left": -3764.07,
+  "top": -6646.98,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L11-月亮4月16日",
+   "L15-主角星白點"
+  ],
+  "notes": "說到 Maghā：今晚月亮正好住在她家，就在獅子座軒轅十四旁邊，不到兩度。明天晚上，就搬進 Phalgunī。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 34,
+  "title": "鏡頭13結束",
+  "group": "長圖",
+  "left": -9174.6,
+  "top": -15944.4,
+  "width": 21600.0,
+  "height": 35160.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L11-月亮4月16日",
+   "L15-主角星白點",
+   "L24-標籤-今晚Maghā"
+  ],
+  "notes": "",
+  "trans": "Match & Move（10.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 35,
+  "title": "鏡頭14開始",
+  "group": "長圖",
+  "left": -3696.57,
+  "top": -6627.81,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L12-月亮4月20日",
+   "L15-主角星白點",
+   "L25-標籤-滿月Citrā"
+  ],
+  "notes": "印度曆的月份，也用妻子命名：滿月住哪一家，就用她的名字當月名。下週二晚上的滿月在 Citrā 旁邊，所以現在這個月叫 Caitra。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 36,
+  "title": "鏡頭14結束",
+  "group": "長圖",
+  "left": -2526.39,
+  "top": -7294.44,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L12-月亮4月20日",
+   "L15-主角星白點",
+   "L25-標籤-滿月Citrā"
+  ],
+  "notes": "",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 37,
+  "title": "鏡頭14-概念圖",
+  "group": "長圖",
+  "left": -2526.39,
+  "top": -7294.44,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L12-月亮4月20日",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-07_十二個月名_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 38,
+  "title": "鏡頭14-概念圖收＝鏡頭15開始",
+  "group": "長圖",
+  "left": -2526.39,
+  "top": -7294.44,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L12-月亮4月20日",
+   "L15-主角星白點",
+   "L26-標籤-第一位"
+  ],
+  "notes": "名單的第一位也換過人：最早從昴宿星團 Kṛttikā 排起，後來改從白羊座的 Aśvinī 開始。有一種說法是：起點跟著春分點走，而春分點在星空裡慢慢往西挪，這就是歲差。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 39,
+  "title": "鏡頭15-中1",
+  "group": "長圖",
+  "left": -6274.8,
+  "top": -6396.69,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點",
+   "L26-標籤-第一位"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 40,
+  "title": "鏡頭15結束",
+  "group": "長圖",
+  "left": -7275.15,
+  "top": -6567.87,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點",
+   "L26-標籤-第一位"
+  ],
+  "notes": "",
+  "trans": "Match & Move（8.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 41,
+  "title": "鏡頭15-概念圖1",
+  "group": "長圖",
+  "left": -7275.15,
+  "top": -6567.87,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-08_起點搬家_春分點層_透明.png",
+    "left": 24,
+    "top": 507.37,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 496.0350877192983,
+   "width": 1032,
+   "height": 927.9298245614035,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 42,
+  "title": "鏡頭15-概念圖2",
+  "group": "長圖",
+  "left": -7275.15,
+  "top": -6567.87,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-08_起點搬家_春分點層_透明.png",
+    "left": 24,
+    "top": 507.37,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A28-08_起點搬家_起點層_透明.png",
+    "left": 24,
+    "top": 507.37,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 496.0350877192983,
+   "width": 1032,
+   "height": 927.9298245614035,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 43,
+  "title": "鏡頭15-概念圖收",
+  "group": "長圖",
+  "left": -7275.15,
+  "top": -6567.87,
+  "width": 9720.0,
+  "height": 15822.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點",
+   "L26-標籤-第一位"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 44,
+  "title": "鏡頭16開始",
+  "group": "長圖",
+  "left": -1506.6,
+  "top": -4442.88,
+  "width": 6480.0,
+  "height": 10548.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點",
+   "L27-標籤-Citrā180°"
+  ],
+  "notes": "今天印度的占星和宗教曆，還把黃道固定在星星上。一九五〇年代，天體物理學家 Meghnad Saha 主持改曆，替宗教曆統一了起點：讓 Citrā 落在一百八十度。所以印度的星座，常比西洋退後一格；差的二十四度，就是歲差。兩套都是約定，不是誰算錯。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 45,
+  "title": "鏡頭16-概念圖1",
+  "group": "長圖",
+  "left": -1506.6,
+  "top": -4442.88,
+  "width": 6480.0,
+  "height": 10548.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-09_兩條黃道_兩尺層_透明.png",
+    "left": 24,
+    "top": 461.85,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 451.0233918128655,
+   "width": 1032,
+   "height": 1017.9532163742689,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 46,
+  "title": "鏡頭16-概念圖2",
+  "group": "長圖",
+  "left": -1506.6,
+  "top": -4442.88,
+  "width": 6480.0,
+  "height": 10548.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-09_兩條黃道_兩尺層_透明.png",
+    "left": 24,
+    "top": 461.85,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A28-09_兩條黃道_十二宮層_透明.png",
+    "left": 24,
+    "top": 461.85,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 451.0233918128655,
+   "width": 1032,
+   "height": 1017.9532163742689,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 47,
+  "title": "鏡頭16-概念圖收",
+  "group": "長圖",
+  "left": -1506.6,
+  "top": -4442.88,
+  "width": 6480.0,
+  "height": 10548.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L7-恆星黃道27格",
+   "L15-主角星白點",
+   "L27-標籤-Citrā180°"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 48,
+  "title": "鏡頭17開始",
+  "group": "長圖",
+  "left": -3115.8,
+  "top": -5073.1,
+  "width": 7776.0,
+  "height": 12657.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L11-月亮4月16日",
+   "L13-火星與木星4月16日",
+   "L15-主角星白點",
+   "L28-標籤-今晚頭頂"
+  ],
+  "notes": "今晚八點在台灣：月亮高掛頭頂，軒轅十四就在旁邊，附近最亮的是木星，偏紅的是火星；西邊低空，紅色的 Rohiṇī 畢宿五，要趁八點半前看；東邊，大角和角宿一正往上爬。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 49,
+  "title": "鏡頭17-概念圖",
+  "group": "長圖",
+  "left": -3115.8,
+  "top": -5073.1,
+  "width": 7776.0,
+  "height": 12657.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L11-月亮4月16日",
+   "L13-火星與木星4月16日",
+   "L15-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A28-10_今晚抬頭看_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 50,
+  "title": "鏡頭17-概念圖收",
+  "group": "長圖",
+  "left": -3115.8,
+  "top": -5073.1,
+  "width": 7776.0,
+  "height": 12657.6,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L6-黃道",
+   "L11-月亮4月16日",
+   "L13-火星與木星4月16日",
+   "L15-主角星白點",
+   "L28-標籤-今晚頭頂"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 51,
+  "title": "鏡頭18開始",
+  "group": "長圖",
+  "left": -6901.2,
+  "top": -7308.0,
+  "width": 10800.0,
+  "height": 17580.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L14-SuPinnetu預覽（A-29）",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L29-標籤-下集"
+  ],
+  "notes": "下週五，我們往西到地中海的薩丁尼亞：連著 Rohiṇī 這顆紅星，牧人看見了一間石頭小屋。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 52,
+  "title": "鏡頭18結束",
+  "group": "長圖",
+  "left": -8389.44,
+  "top": -8961.6,
+  "width": 12960.0,
+  "height": 21096.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L4-星座連線",
+   "L14-SuPinnetu預覽（A-29）",
+   "L10-畢宿五紅色光暈",
+   "L15-主角星白點",
+   "L29-標籤-下集"
+  ],
+  "notes": "",
+  "trans": "Match & Move（9.0 秒）",
+  "mountain_top": null
+ }
+]

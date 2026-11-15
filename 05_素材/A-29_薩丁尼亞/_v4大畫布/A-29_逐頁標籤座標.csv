@@ -1,0 +1,58 @@
+﻿頁,頁名,標籤層,文字,中心X px,中心Y px,字級px,顏色,對應星X,對應星Y,key
+2,鏡頭01結束＝鏡頭02開始,小屋-開場,Su Pinnetu,551,1106,60,#FFC94A,551,905,Su Pinnetu
+2,鏡頭01結束＝鏡頭02開始,小屋-開場,牧人石屋,551,1172,46,#FFFFFF,551,905,Su Pinnetu-zh
+5,鏡頭02-概念圖收＝鏡頭03開始,小屋-開場,Su Pinnetu,551,1106,60,#FFC94A,551,905,Su Pinnetu
+5,鏡頭02-概念圖收＝鏡頭03開始,小屋-開場,牧人石屋,551,1172,46,#FFFFFF,551,905,Su Pinnetu-zh
+7,鏡頭04-中1,小屋-遠景,Su Pinnetu,443,1035,54,#FFC94A,443,901,Su Pinnetu
+7,鏡頭04-中1,小屋-遠景,牧人的小屋,443,1095,42,#FFFFFF,443,901,Su Pinnetu-zh
+7,鏡頭04-中1,葡萄-遠景,S'Udrone,678,553,54,#B78AFF,678,736,S'Udrone
+7,鏡頭04-中1,葡萄-遠景,一串葡萄,678,613,42,#FFFFFF,678,736,S'Udrone-zh
+8,鏡頭04結束＝鏡頭05開始,鐮刀-遠景,Sa Frache,690,1007,54,#7BD88F,526,826,Sa Frache
+8,鏡頭04結束＝鏡頭05開始,鐮刀-遠景,農夫的鐮刀,690,1067,42,#FFFFFF,526,826,Sa Frache-zh
+9,鏡頭05結束＝鏡頭06開始,小屋,Su Pinnetu,552,1061,64,#FFC94A,552,851,Su Pinnetu
+9,鏡頭05結束＝鏡頭06開始,小屋,牧人石屋,552,1131,48,#FFFFFF,552,851,Su Pinnetu-zh
+9,鏡頭05結束＝鏡頭06開始,小屋,石牆＋木枝尖頂,552,1184,38,#FFFFFF,552,851,Su Pinnetu-sub
+11,鏡頭07結束＝鏡頭08開始,牧杖與三個瑪利亞,Sos Bacheddos,532,444,64,#6FA8FF,532,910,Sos Bacheddos
+11,鏡頭07結束＝鏡頭08開始,牧杖與三個瑪利亞,牧杖,532,513,48,#FFFFFF,532,910,Sos Bacheddos-zh
+11,鏡頭07結束＝鏡頭08開始,牧杖與三個瑪利亞,Sas Tres Marias,221,1067,52,#FFC94A,527,970,Sas Tres Marias
+11,鏡頭07結束＝鏡頭08開始,牧杖與三個瑪利亞,三個瑪利亞,221,1125,42,#FFFFFF,527,970,Sas Tres Marias-zh
+16,鏡頭09結束＝鏡頭10開始,趕牧杖的人與鋼鐵之星,Su Trubadore de sos Bacheddos,534,1379,52,#FF6B6B,534,996,Su Trubadore de sos Bacheddos
+16,鏡頭09結束＝鏡頭10開始,趕牧杖的人與鋼鐵之星,趕牧杖的人,534,1440,46,#FFFFFF,534,996,Su Trubadore de sos Bacheddos-zh
+16,鏡頭09結束＝鏡頭10開始,趕牧杖的人與鋼鐵之星,依 Bussu，非 Stellarium,534,1494,38,#FFFFFF,534,996,Su Trubadore de sos Bacheddos-sub
+16,鏡頭09結束＝鏡頭10開始,趕牧杖的人與鋼鐵之星,S'Isteddu de Atzarzu,604,561,48,#FFFFFF,604,703,S'Isteddu de Atzarzu
+16,鏡頭09結束＝鏡頭10開始,趕牧杖的人與鋼鐵之星,鋼鐵之星,604,616,40,#FFFFFF,604,703,S'Isteddu de Atzarzu-zh
+19,鏡頭10-概念圖收＝鏡頭11開始,趕牧杖的人與鋼鐵之星,Su Trubadore de sos Bacheddos,534,1379,52,#FF6B6B,534,996,Su Trubadore de sos Bacheddos
+19,鏡頭10-概念圖收＝鏡頭11開始,趕牧杖的人與鋼鐵之星,趕牧杖的人,534,1440,46,#FFFFFF,534,996,Su Trubadore de sos Bacheddos-zh
+19,鏡頭10-概念圖收＝鏡頭11開始,趕牧杖的人與鋼鐵之星,依 Bussu，非 Stellarium,534,1494,38,#FFFFFF,534,996,Su Trubadore de sos Bacheddos-sub
+19,鏡頭10-概念圖收＝鏡頭11開始,趕牧杖的人與鋼鐵之星,S'Isteddu de Atzarzu,604,561,48,#FFFFFF,604,703,S'Isteddu de Atzarzu
+19,鏡頭10-概念圖收＝鏡頭11開始,趕牧杖的人與鋼鐵之星,鋼鐵之星,604,616,40,#FFFFFF,604,703,S'Isteddu de Atzarzu-zh
+20,鏡頭11結束,羊圈,Sa Mandra,555,992,64,#7BD88F,555,535,Sa Mandra
+20,鏡頭11結束,羊圈,羊圈,555,1062,48,#FFFFFF,555,535,Sa Mandra-zh
+20,鏡頭11結束,羊圈,Capella,871,341,44,#6FA8FF,633,302,Capella
+20,鏡頭11結束,羊圈,小母山羊（拉丁）,871,390,36,#FFFFFF,633,302,Capella-zh
+21,鏡頭12開始,鐮刀,Sa Frache,761,1038,64,#7BD88F,504,883,Sa Frache
+21,鏡頭12開始,鐮刀,鐮刀・農人的記號,761,1107,48,#FFFFFF,504,883,Sa Frache-zh
+24,鏡頭12b結束＝鏡頭13開始,七兄弟,Sos Sette Frades,581,1198,64,#FFC94A,581,955,Sos Sette Frades
+24,鏡頭12b結束＝鏡頭13開始,七兄弟,七兄弟,581,1267,48,#FFFFFF,581,955,Sos Sette Frades-zh
+25,鏡頭13結束＝鏡頭14開始,聖君士坦丁的十字,Sa Rughe de Santu Antinu,550,1455,56,#FF6B6B,550,1037,Sa Rughe de Santu Antinu
+25,鏡頭13結束＝鏡頭14開始,聖君士坦丁的十字,聖君士坦丁的十字,550,1519,48,#FFFFFF,550,1037,Sa Rughe de Santu Antinu-zh
+26,鏡頭14結束,聖君士坦丁的十字,Sa Rughe de Santu Antinu,533,1419,56,#FF6B6B,533,1001,Sa Rughe de Santu Antinu
+26,鏡頭14結束,聖君士坦丁的十字,聖君士坦丁的十字,533,1483,48,#FFFFFF,533,1001,Sa Rughe de Santu Antinu-zh
+30,鏡頭15結束＝鏡頭16開始,寡婦之舞,Su Ballu de sas Fiudas,528,563,60,#B78AFF,528,841,Su Ballu de sas Fiudas
+30,鏡頭15結束＝鏡頭16開始,寡婦之舞,寡婦們在跳舞,528,629,46,#FFFFFF,528,841,Su Ballu de sas Fiudas-zh
+30,鏡頭15結束＝鏡頭16開始,寡婦之舞,Hora,528,1039,44,#7BD88F,528,841,Hora
+30,鏡頭15結束＝鏡頭16開始,寡婦之舞,羅馬尼亞：圍圈舞,528,1089,36,#FFFFFF,528,841,Hora-zh
+32,鏡頭16結束＝鏡頭17開始,鹿角,Su Corru 'e Chervu,819,1512,64,#FFC94A,565,848,Su Corru 'e Chervu
+32,鏡頭16結束＝鏡頭17開始,鹿角,一支鹿角,819,1581,48,#FFFFFF,565,848,Su Corru 'e Chervu-zh
+33,鏡頭17結束,麥稈之路,Sa Via de sa Paza,370,659,64,#FFFFFF,244,694,Sa Via de sa Paza
+33,鏡頭17結束,麥稈之路,麥稈之路,370,729,48,#FFFFFF,244,694,Sa Via de sa Paza-zh
+35,鏡頭17-概念圖收,麥稈之路,Sa Via de sa Paza,370,659,64,#FFFFFF,244,694,Sa Via de sa Paza
+35,鏡頭17-概念圖收,麥稈之路,麥稈之路,370,729,48,#FFFFFF,244,694,Sa Via de sa Paza-zh
+39,鏡頭18開始,星名-遠景,牧人石屋,905,781,46,#FFC94A,959,691,Su Pinnetu
+39,鏡頭18開始,星名-遠景,牧杖,820,990,46,#6FA8FF,649,990,Sos Bacheddos
+39,鏡頭18開始,星名-遠景,羊圈,691,474,46,#7BD88F,691,303,Sa Mandra
+39,鏡頭18開始,星名-遠景,趕牧杖的人,356,1365,46,#FF6B6B,302,1446,Su Trubadore
+41,鏡頭18-概念圖收,星名-遠景,牧人石屋,905,781,46,#FFC94A,959,691,Su Pinnetu
+41,鏡頭18-概念圖收,星名-遠景,牧杖,820,990,46,#6FA8FF,649,990,Sos Bacheddos
+41,鏡頭18-概念圖收,星名-遠景,羊圈,691,474,46,#7BD88F,691,303,Sa Mandra
+41,鏡頭18-概念圖收,星名-遠景,趕牧杖的人,356,1365,46,#FF6B6B,302,1446,Su Trubadore

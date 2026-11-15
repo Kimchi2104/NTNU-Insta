@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="936pt" viewBox="0 0 936 936" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T04:38:04.829441</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 936 
+L 936 936 
+L 936 0 
+L 0 0 
+L 0 936 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g clip-path="url(#p8474553f43)">
+     <!-- 月牙 -->
+     <g style="fill: #ffffff" transform="translate(569.608694 258.783784) scale(0.108353 -0.108353)">
+      <defs>
+       <path id="NotoSerifCJKjp-Regular-50b1" d="M 4531 4678 
+L 4531 3430 
+L 2022 3430 
+L 2022 4678 
+L 4531 4678 
+z
+M 1606 4870 
+L 1606 2861 
+C 1606 1568 1408 448 301 -422 
+L 390 -499 
+C 1408 90 1805 909 1946 1773 
+L 4531 1773 
+L 4531 192 
+C 4531 83 4493 38 4358 38 
+C 4205 38 3424 96 3424 96 
+L 3424 -6 
+C 3757 -51 3949 -102 4058 -179 
+C 4154 -250 4198 -358 4224 -499 
+C 4883 -435 4954 -205 4954 141 
+L 4954 4595 
+C 5088 4614 5190 4672 5235 4723 
+L 4691 5139 
+L 4467 4870 
+L 2106 4870 
+L 1606 5082 
+L 1606 4870 
+z
+M 4531 3245 
+L 4531 1958 
+L 1971 1958 
+C 2010 2259 2022 2566 2022 2867 
+L 2022 3245 
+L 4531 3245 
+z
+" transform="scale(0.015625)"/>
+       <path id="NotoSerifCJKjp-Regular-6479" d="M 1402 4352 
+C 1331 3878 1056 2790 864 2330 
+C 1050 2266 1235 2272 1325 2342 
+L 1446 2733 
+L 3379 2733 
+C 2688 1779 1523 800 256 186 
+L 320 83 
+C 1734 634 2982 1504 3782 2509 
+L 3782 192 
+C 3782 77 3738 38 3590 38 
+C 3424 38 2560 96 2560 96 
+L 2560 0 
+C 2931 -45 3130 -96 3264 -179 
+C 3366 -250 3424 -365 3437 -499 
+C 4115 -435 4205 -166 4205 166 
+L 4205 2733 
+L 5965 2733 
+C 6054 2733 6118 2765 6138 2829 
+C 5901 3046 5536 3328 5536 3328 
+L 5210 2918 
+L 4205 2918 
+L 4205 4653 
+L 5568 4653 
+C 5658 4653 5722 4685 5741 4755 
+C 5504 4960 5146 5242 5146 5242 
+L 4819 4838 
+L 794 4838 
+L 851 4653 
+L 3782 4653 
+L 3782 2918 
+L 1498 2918 
+C 1619 3354 1747 3834 1805 4102 
+C 1965 4109 2022 4173 2042 4262 
+L 1402 4352 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#NotoSerifCJKjp-Regular-50b1"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-6479" transform="translate(100 0)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8474553f43">
+   <rect x="0" y="0" width="936" height="936"/>
+  </clipPath>
+ </defs>
+</svg>
