@@ -30,7 +30,13 @@ def sub_lines(t, n=16):
         s = s.rstrip("，。；：、")
         if len(s) > n:
             k = math.ceil(len(s) / n); sz = math.ceil(len(s) / k)
-            out += [s[i:i + sz] for i in range(0, len(s), sz)]
+            i = 0
+            while i < len(s):            # 不在外文單字中間斷行（放置規格）
+                j = min(i + sz, len(s))
+                while 0 < j < len(s) and j > i + 1 and s[j - 1].isascii() and s[j - 1].isalnum() and s[j].isascii() and s[j].isalnum():
+                    j -= 1
+                if j <= i + 1: j = min(i + sz, len(s))
+                out.append(s[i:j].strip()); i = j
         elif s: out.append(s)
     return "\n".join(out)
 

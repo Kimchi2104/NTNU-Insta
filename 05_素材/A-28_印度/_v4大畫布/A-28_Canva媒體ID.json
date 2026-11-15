@@ -1,0 +1,41 @@
+{
+ "design_id": "DAHWtWYQNj8",
+ "design_title": "A-28 印度吠陀",
+ "commit": "582e3f541d0cfc78dfbbffe2ebe4cc11ada275d6",
+ "layers": {
+  "L1-銀河": "MAHbBhppCn4",
+  "L2-星點": "MAHbBryV5Tk",
+  "L3-經緯線": "MAHbBp8z1q0",
+  "L4-星座連線": "MAHbBvDTNeU",
+  "L5-連線-斗柄弧線": "MAHbBrojWaU",
+  "L6-黃道": "MAHbBg9pXoQ",
+  "L7-恆星黃道27格": "MAHbBrRnDmA",
+  "L8-月亮軌道帶": "MAHbBp9cGwo",
+  "L9-四顆一等星琥珀圈": "MAHbBm-wvrE",
+  "L10-畢宿五紅色光暈": "MAHbBr5HDPE",
+  "L11-月亮4月16日": "MAHbBtLHuV8",
+  "L12-月亮4月20日": "MAHbBq7-gcE",
+  "L13-火星與木星4月16日": "MAHbBjaszpE",
+  "L14-SuPinnetu預覽（A-29）": "MAHbBrhb0eA",
+  "L15-主角星白點": "MAHbBpOQsvY"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A28-02_二十七位妻子_回娘家層_透明.png": "MAHbBqM-kLk",
+  "C-A28-02_二十七位妻子_妻子層_透明.png": "MAHbBpcL8ew",
+  "C-A28-03_盈虧_消瘦層_透明.png": "MAHbBlugIAM",
+  "C-A28-03_盈虧_盈虧層_透明.png": "MAHbBqeideQ",
+  "C-A28-04_Somnāth在哪_印度層_透明.png": "MAHbBlONwJo",
+  "C-A28-04_Somnāth在哪_古吉拉特層_透明.png": "MAHbBhBBcwo",
+  "C-A28-05_33到27_三十三層_透明.png": "MAHbBu-qgXM",
+  "C-A28-05_33到27_二十七層_透明.png": "MAHbBnmWZ9Y",
+  "C-A28-06_月亮與Rohiṇī的距離_透明.png": "MAHbBvMT190",
+  "C-A28-07_十二個月名_圖卡.png": "MAHbBmtW90g",
+  "C-A28-08_起點搬家_春分點層_透明.png": "MAHbBnYx7BE",
+  "C-A28-08_起點搬家_起點層_透明.png": "MAHbBtSwtdw",
+  "C-A28-09_兩條黃道_兩尺層_透明.png": "MAHbBl2nQYo",
+  "C-A28-09_兩條黃道_十二宮層_透明.png": "MAHbBtmUNtE",
+  "C-A28-10_今晚抬頭看_圖卡.png": "MAHbBshHVBk"
+ }
+}
