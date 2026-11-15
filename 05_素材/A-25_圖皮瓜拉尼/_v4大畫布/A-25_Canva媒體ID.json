@@ -51,13 +51,13 @@
    "leftover": "原設計第 4–29 頁是舊參考文獻頁、第 43–98 頁是空白頁，都要在併完後由 Kim 刪；第 30 頁參考文獻、31 製作團隊、32 鳴謝原樣保留"
   },
   "merge_plan": "全部排完後 merge-designs(modify_existing_design, 原設計) insert_pages：工作稿 DAHa0vPY91U 頁 2–27（內容 1–26）插在封面後；頁 28–84（內容 37–93）插在內容 36 之後，再 move_pages 調序；原設計超過 99 頁後不能再開 transaction",
-  "remaining_content_pages": "2–26 與 37–93（共 82 頁）；每頁約 1 次 edit-design，約 10k tokens",
+  "remaining_content_pages": "內容頁 4–26 與 37–93（共 80 頁）",
   "tool_note": "edit-design 的 ops 可跨頁（page_id／locator 帶頁前綴），上一頁的 crop/format_text 可併進下一頁的呼叫"
  },
  "work_designs": [
   {
    "design_id": "DAHa0vPY91U",
-   "note": "工作稿 1：第 1 頁=封面（底頁，併回時不含）；第 2–83 頁=空白頁，依序對應內容頁 1–26、37–92；內容頁 93 還要再 add_page 一張。已排完：內容頁 1（第 2 頁）",
+   "note": "工作稿 1：第 1 頁=封面底頁（併回不含）；第 2–83 頁=對應內容頁 1–26、37–92（內容 93 還要加一張）。已排完並格式化：內容頁 1、2、3（第 2–4 頁）。",
    "page_ids_for_content": {
     "1": "PBBnny8Q9zDfNKJt",
     "2": "PBSQY4X9MkL0k0d9",
