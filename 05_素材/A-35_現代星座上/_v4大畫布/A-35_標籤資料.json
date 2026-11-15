@@ -1,0 +1,8958 @@
+{
+  "ep": "A-35",
+  "label_sets": [
+    {
+      "name": "托勒密",
+      "items": [
+        {
+          "ra": 160.527,
+          "dec": 15.074,
+          "text": "獅子座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": -3,
+          "key": "托-Leo"
+        },
+        {
+          "ra": 199.326,
+          "dec": -2.679,
+          "text": "室女座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": -4,
+          "key": "托-Vir"
+        },
+        {
+          "ra": 156.547,
+          "dec": -18.958,
+          "text": "長蛇座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 10,
+          "dy": 2,
+          "key": "托-Hya"
+        },
+        {
+          "ra": 186.368,
+          "dec": -18.141,
+          "text": "烏鴉座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": -3,
+          "key": "托-Crv"
+        },
+        {
+          "ra": 171.108,
+          "dec": -15.695,
+          "text": "巨爵座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": -4,
+          "key": "托-Crt"
+        },
+        {
+          "ra": 218.913,
+          "dec": 29.308,
+          "text": "牧夫座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": 0,
+          "key": "托-Boo"
+        },
+        {
+          "ra": 165.569,
+          "dec": 54.389,
+          "text": "大熊座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": -6,
+          "key": "托-UMa"
+        },
+        {
+          "ra": 130.232,
+          "dec": 19.285,
+          "text": "巨蟹座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": 0,
+          "key": "托-Cnc"
+        },
+        {
+          "ra": 196.483,
+          "dec": -46.097,
+          "text": "半人馬座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": 6,
+          "key": "托-Cen"
+        },
+        {
+          "ra": 228.373,
+          "dec": -15.251,
+          "text": "天秤座",
+          "color": "amber",
+          "size": 1.449,
+          "dx": 0,
+          "dy": 0,
+          "key": "托-Lib"
+        }
+      ]
+    },
+    {
+      "name": "亞歷山卓看不到",
+      "items": [
+        {
+          "ra": 11.75,
+          "dec": -79.7,
+          "disc": true,
+          "text": "亞歷山卓看不到的天",
+          "color": "red",
+          "size": 3.758,
+          "dx": 0.0,
+          "dy": -14.47,
+          "key": "亞歷山卓看不到的天"
+        },
+        {
+          "ra": 11.75,
+          "dec": -79.7,
+          "disc": true,
+          "text": "西元 150 年・北緯 31°",
+          "color": "white",
+          "size": 2.941,
+          "dx": 0.0,
+          "dy": -21.53,
+          "key": "亞歷山卓看不到的天-sub"
+        },
+        {
+          "hip": 7588,
+          "disc": true,
+          "text": "水委一",
+          "color": "white",
+          "size": 3.105,
+          "dx": 0,
+          "dy": -1.81,
+          "key": "水委一"
+        },
+        {
+          "hip": 7588,
+          "disc": true,
+          "text": "當年看不到",
+          "color": "white",
+          "size": 2.941,
+          "dx": 0,
+          "dy": -8.19,
+          "key": "水委一-sub"
+        },
+        {
+          "hip": 60718,
+          "disc": true,
+          "text": "南十字",
+          "color": "amber",
+          "size": 3.105,
+          "dx": 0.0,
+          "dy": 10.19,
+          "key": "南十字"
+        },
+        {
+          "hip": 60718,
+          "disc": true,
+          "text": "托勒密看得到",
+          "color": "white",
+          "size": 2.941,
+          "dx": 0.0,
+          "dy": 3.81,
+          "key": "南十字-sub"
+        },
+        {
+          "hip": 30438,
+          "disc": true,
+          "text": "老人星",
+          "color": "amber",
+          "size": 3.105,
+          "dx": 0.0,
+          "dy": -5.0,
+          "key": "老人星"
+        }
+      ]
+    },
+    {
+      "name": "南天12",
+      "items": [
+        {
+          "ra": 243.944,
+          "dec": -76.195,
+          "disc": true,
+          "text": "天燕座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -4,
+          "key": "南-Aps"
+        },
+        {
+          "ra": 160.253,
+          "dec": -80.372,
+          "disc": true,
+          "text": "蝘蜓座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -1.49,
+          "key": "南-Cha"
+        },
+        {
+          "ra": 160.253,
+          "dec": -80.372,
+          "disc": true,
+          "text": "變色龍",
+          "color": "white",
+          "size": 2.963,
+          "dx": 0,
+          "dy": -8.51,
+          "key": "南-Cha-sub"
+        },
+        {
+          "ra": 75.433,
+          "dec": -61.338,
+          "disc": true,
+          "text": "劍魚座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": 4,
+          "key": "南-Dor"
+        },
+        {
+          "ra": 337.857,
+          "dec": -45.239,
+          "disc": true,
+          "text": "天鶴座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -5,
+          "key": "南-Gru"
+        },
+        {
+          "ra": 35.691,
+          "dec": -71.705,
+          "disc": true,
+          "text": "水蛇座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -5,
+          "key": "南-Hyi"
+        },
+        {
+          "ra": 322.22,
+          "dec": -58.519,
+          "disc": true,
+          "text": "印第安座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -5,
+          "key": "南-Ind"
+        },
+        {
+          "ra": 188.568,
+          "dec": -70.121,
+          "disc": true,
+          "text": "蒼蠅座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": 4,
+          "key": "南-Mus"
+        },
+        {
+          "ra": 293.545,
+          "dec": -65.64,
+          "disc": true,
+          "text": "孔雀座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -5,
+          "key": "南-Pav"
+        },
+        {
+          "ra": 11.743,
+          "dec": -47.831,
+          "disc": true,
+          "text": "鳳凰座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -5,
+          "key": "南-Phe"
+        },
+        {
+          "ra": 240.956,
+          "dec": -65.863,
+          "disc": true,
+          "text": "南三角座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -5,
+          "key": "南-TrA"
+        },
+        {
+          "ra": 357.63,
+          "dec": -64.631,
+          "disc": true,
+          "text": "杜鵑座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": -5,
+          "key": "南-Tuc"
+        },
+        {
+          "ra": 117.062,
+          "dec": -69.728,
+          "disc": true,
+          "text": "飛魚座",
+          "color": "green",
+          "size": 3.704,
+          "dx": 0,
+          "dy": 4,
+          "key": "南-Vol"
+        }
+      ]
+    },
+    {
+      "name": "天貓",
+      "items": [
+        {
+          "ra": 121.308,
+          "dec": 46.784,
+          "text": "天貓座",
+          "color": "blue",
+          "size": 0.817,
+          "dx": -7.0,
+          "dy": 0.76,
+          "key": "天貓座"
+        },
+        {
+          "ra": 121.308,
+          "dec": 46.784,
+          "text": "要有山貓的眼睛",
+          "color": "white",
+          "size": 0.621,
+          "dx": -7.0,
+          "dy": -0.76,
+          "key": "天貓座-sub"
+        },
+        {
+          "ra": 155.421,
+          "dec": 33.512,
+          "text": "小獅座",
+          "color": "blue",
+          "size": 0.588,
+          "dx": 0,
+          "dy": -3.0,
+          "key": "小獅座"
+        },
+        {
+          "ra": 165.569,
+          "dec": 54.389,
+          "text": "大熊座",
+          "color": "white",
+          "size": 0.588,
+          "dx": -4,
+          "dy": -10.0,
+          "key": "大熊座"
+        },
+        {
+          "ra": 107.291,
+          "dec": 23.435,
+          "text": "雙子座",
+          "color": "white",
+          "size": 0.588,
+          "dx": 6,
+          "dy": -6.0,
+          "key": "雙子座"
+        }
+      ]
+    },
+    {
+      "name": "盾牌",
+      "items": [
+        {
+          "ra": 280.096,
+          "dec": -9.862,
+          "text": "盾牌座",
+          "color": "blue",
+          "size": 0.817,
+          "dx": 5.0,
+          "dy": -2.24,
+          "key": "盾牌座"
+        },
+        {
+          "ra": 280.096,
+          "dec": -9.862,
+          "text": "獻給波蘭國王",
+          "color": "white",
+          "size": 0.621,
+          "dx": 5.0,
+          "dy": -3.76,
+          "key": "盾牌座-sub"
+        },
+        {
+          "hip": 97649,
+          "text": "牛郎星",
+          "color": "white",
+          "size": 0.588,
+          "dx": 0.0,
+          "dy": -2.4,
+          "key": "牛郎星"
+        }
+      ]
+    },
+    {
+      "name": "Lacaille14",
+      "items": [
+        {
+          "ra": 151.992,
+          "dec": -34.016,
+          "disc": true,
+          "text": "唧筒座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Ant"
+        },
+        {
+          "ra": 71.298,
+          "dec": -38.06,
+          "disc": true,
+          "text": "雕具座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Cae"
+        },
+        {
+          "ra": 222.259,
+          "dec": -63.232,
+          "disc": true,
+          "text": "圓規座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Cir"
+        },
+        {
+          "ra": 41.518,
+          "dec": -31.523,
+          "disc": true,
+          "text": "天爐座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-For"
+        },
+        {
+          "ra": 49.524,
+          "dec": -53.3,
+          "disc": true,
+          "text": "時鐘座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Hor"
+        },
+        {
+          "ra": 82.168,
+          "dec": -77.709,
+          "disc": true,
+          "text": "山案座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 3.51,
+          "key": "拉-Men"
+        },
+        {
+          "ra": 82.168,
+          "dec": -77.709,
+          "disc": true,
+          "text": "桌山",
+          "color": "white",
+          "size": 2.963,
+          "dx": 0.0,
+          "dy": -3.51,
+          "key": "拉-Men-sub"
+        },
+        {
+          "ra": 314.471,
+          "dec": -36.018,
+          "disc": true,
+          "text": "顯微鏡座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Mic"
+        },
+        {
+          "ra": 241.194,
+          "dec": -51.619,
+          "disc": true,
+          "text": "矩尺座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Nor"
+        },
+        {
+          "ra": 318.857,
+          "dec": -84.632,
+          "disc": true,
+          "text": "南極座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Oct"
+        },
+        {
+          "ra": 83.641,
+          "dec": -52.506,
+          "disc": true,
+          "text": "繪架座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Pic"
+        },
+        {
+          "ra": 133.641,
+          "dec": -28.451,
+          "disc": true,
+          "text": "羅盤座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Pyx"
+        },
+        {
+          "ra": 58.372,
+          "dec": -60.823,
+          "disc": true,
+          "text": "網罟座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Ret"
+        },
+        {
+          "ra": 6.957,
+          "dec": -32.227,
+          "disc": true,
+          "text": "玉夫座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Scl"
+        },
+        {
+          "ra": 289.925,
+          "dec": -51.223,
+          "disc": true,
+          "text": "望遠鏡座",
+          "color": "purple",
+          "size": 3.704,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "拉-Tel"
+        }
+      ]
+    },
+    {
+      "name": "山案",
+      "items": [
+        {
+          "ra": 82.168,
+          "dec": -77.709,
+          "disc": true,
+          "text": "山案座",
+          "color": "purple",
+          "size": 1.133,
+          "dx": 0,
+          "dy": 7.06,
+          "key": "山案座"
+        },
+        {
+          "ra": 82.168,
+          "dec": -77.709,
+          "disc": true,
+          "text": "開普敦的桌山",
+          "color": "white",
+          "size": 0.871,
+          "dx": 0,
+          "dy": 4.94,
+          "key": "山案座-sub"
+        },
+        {
+          "ra": 80.89,
+          "dec": -69.76,
+          "disc": true,
+          "text": "大麥哲倫雲",
+          "color": "white",
+          "size": 0.828,
+          "dx": -4.0,
+          "dy": -2.5,
+          "key": "大麥哲倫雲"
+        }
+      ]
+    },
+    {
+      "name": "已淘汰",
+      "items": [
+        {
+          "ra": 163.319,
+          "dec": -55.146,
+          "text": "查理的橡樹",
+          "color": "red",
+          "size": 1.503,
+          "dx": 0.0,
+          "dy": -4.62,
+          "key": "查理的橡樹"
+        },
+        {
+          "ra": 163.319,
+          "dec": -55.146,
+          "text": "Robur Carolinum・1679",
+          "color": "white",
+          "size": 1.111,
+          "dx": 0.0,
+          "dy": -7.38,
+          "key": "查理的橡樹-sub"
+        },
+        {
+          "ra": 147.0,
+          "dec": -27.0,
+          "text": "貓座（示意）",
+          "color": "red",
+          "size": 1.438,
+          "dx": 0.0,
+          "dy": -6.66,
+          "key": "貓座（示意）"
+        },
+        {
+          "ra": 147.0,
+          "dec": -27.0,
+          "text": "Felis・1799",
+          "color": "white",
+          "size": 1.111,
+          "dx": 0.0,
+          "dy": -9.34,
+          "key": "貓座（示意）-sub"
+        },
+        {
+          "ra": 232.536,
+          "dec": 53.251,
+          "text": "牆象限儀",
+          "color": "red",
+          "size": 1.438,
+          "dx": 0.0,
+          "dy": -6.0,
+          "key": "象限儀-遠"
+        }
+      ]
+    },
+    {
+      "name": "牆象限儀",
+      "items": [
+        {
+          "ra": 232.536,
+          "dec": 53.251,
+          "text": "牆象限儀",
+          "color": "red",
+          "size": 0.68,
+          "dx": 0.0,
+          "dy": -5.37,
+          "key": "牆象限儀"
+        },
+        {
+          "ra": 232.536,
+          "dec": 53.251,
+          "text": "Quadrans Muralis・1795",
+          "color": "white",
+          "size": 0.51,
+          "dx": 0.0,
+          "dy": -6.63,
+          "key": "牆象限儀-sub"
+        }
+      ]
+    },
+    {
+      "name": "IAU縮寫",
+      "items": [
+        {
+          "ra": 10.093,
+          "dec": 40.483,
+          "text": "And",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-And"
+        },
+        {
+          "ra": 151.992,
+          "dec": -34.016,
+          "text": "Ant",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Ant"
+        },
+        {
+          "ra": 243.944,
+          "dec": -76.195,
+          "text": "Aps",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Aps"
+        },
+        {
+          "ra": 294.722,
+          "dec": 2.108,
+          "text": "Aql",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Aql"
+        },
+        {
+          "ra": 335.993,
+          "dec": -10.46,
+          "text": "Aqr",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Aqr"
+        },
+        {
+          "ra": 260.051,
+          "dec": -54.253,
+          "text": "Ara",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Ara"
+        },
+        {
+          "ra": 39.885,
+          "dec": 20.095,
+          "text": "Ari",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Ari"
+        },
+        {
+          "ra": 89.115,
+          "dec": 41.093,
+          "text": "Aur",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Aur"
+        },
+        {
+          "ra": 218.913,
+          "dec": 29.308,
+          "text": "Boo",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Boo"
+        },
+        {
+          "ra": 102.452,
+          "dec": -21.944,
+          "text": "CMa",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-CMa"
+        },
+        {
+          "ra": 114.445,
+          "dec": 5.915,
+          "text": "CMi",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-CMi"
+        },
+        {
+          "ra": 197.396,
+          "dec": 40.354,
+          "text": "CVn",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-CVn"
+        },
+        {
+          "ra": 71.298,
+          "dec": -38.06,
+          "text": "Cae",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cae"
+        },
+        {
+          "ra": 85.297,
+          "dec": 70.814,
+          "text": "Cam",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cam"
+        },
+        {
+          "ra": 315.361,
+          "dec": -18.749,
+          "text": "Cap",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cap"
+        },
+        {
+          "ra": 131.625,
+          "dec": -63.075,
+          "text": "Car",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Car"
+        },
+        {
+          "ra": 15.334,
+          "dec": 62.565,
+          "text": "Cas",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cas"
+        },
+        {
+          "ra": 196.483,
+          "dec": -46.097,
+          "text": "Cen",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cen"
+        },
+        {
+          "ra": 334.806,
+          "dec": 72.125,
+          "text": "Cep",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cep"
+        },
+        {
+          "ra": 24.41,
+          "dec": -8.988,
+          "text": "Cet",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cet"
+        },
+        {
+          "ra": 160.253,
+          "dec": -80.372,
+          "text": "Cha",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cha"
+        },
+        {
+          "ra": 222.259,
+          "dec": -63.232,
+          "text": "Cir",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cir"
+        },
+        {
+          "ra": 130.232,
+          "dec": 19.285,
+          "text": "Cnc",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cnc"
+        },
+        {
+          "ra": 86.826,
+          "dec": -35.616,
+          "text": "Col",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Col"
+        },
+        {
+          "ra": 191.306,
+          "dec": 22.368,
+          "text": "Com",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Com"
+        },
+        {
+          "ra": 279.705,
+          "dec": -41.201,
+          "text": "CrA",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-CrA"
+        },
+        {
+          "ra": 238.266,
+          "dec": 32.178,
+          "text": "CrB",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-CrB"
+        },
+        {
+          "ra": 171.108,
+          "dec": -15.695,
+          "text": "Crt",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Crt"
+        },
+        {
+          "ra": 186.723,
+          "dec": -60.068,
+          "text": "Cru",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cru"
+        },
+        {
+          "ra": 186.368,
+          "dec": -18.141,
+          "text": "Crv",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Crv"
+        },
+        {
+          "ra": 309.265,
+          "dec": 43.093,
+          "text": "Cyg",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Cyg"
+        },
+        {
+          "ra": 310.197,
+          "dec": 12.176,
+          "text": "Del",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Del"
+        },
+        {
+          "ra": 75.433,
+          "dec": -61.338,
+          "text": "Dor",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Dor"
+        },
+        {
+          "ra": 254.327,
+          "dec": 68.151,
+          "text": "Dra",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Dra"
+        },
+        {
+          "ra": 318.025,
+          "dec": 7.47,
+          "text": "Equ",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Equ"
+        },
+        {
+          "ra": 57.01,
+          "dec": -21.018,
+          "text": "Eri",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Eri"
+        },
+        {
+          "ra": 41.518,
+          "dec": -31.523,
+          "text": "For",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-For"
+        },
+        {
+          "ra": 107.291,
+          "dec": 23.435,
+          "text": "Gem",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Gem"
+        },
+        {
+          "ra": 337.857,
+          "dec": -45.239,
+          "text": "Gru",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Gru"
+        },
+        {
+          "ra": 259.466,
+          "dec": 28.6,
+          "text": "Her",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Her"
+        },
+        {
+          "ra": 49.524,
+          "dec": -53.3,
+          "text": "Hor",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Hor"
+        },
+        {
+          "ra": 156.547,
+          "dec": -18.958,
+          "text": "Hya",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Hya"
+        },
+        {
+          "ra": 35.691,
+          "dec": -71.705,
+          "text": "Hyi",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Hyi"
+        },
+        {
+          "ra": 322.22,
+          "dec": -58.519,
+          "text": "Ind",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Ind"
+        },
+        {
+          "ra": 155.421,
+          "dec": 33.512,
+          "text": "LMi",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-LMi"
+        },
+        {
+          "ra": 337.408,
+          "dec": 45.106,
+          "text": "Lac",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Lac"
+        },
+        {
+          "ra": 160.527,
+          "dec": 15.074,
+          "text": "Leo",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Leo"
+        },
+        {
+          "ra": 83.623,
+          "dec": -19.079,
+          "text": "Lep",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Lep"
+        },
+        {
+          "ra": 228.373,
+          "dec": -15.251,
+          "text": "Lib",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Lib"
+        },
+        {
+          "ra": 229.716,
+          "dec": -42.415,
+          "text": "Lup",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Lup"
+        },
+        {
+          "ra": 121.308,
+          "dec": 46.784,
+          "text": "Lyn",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Lyn"
+        },
+        {
+          "ra": 282.687,
+          "dec": 36.627,
+          "text": "Lyr",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Lyr"
+        },
+        {
+          "ra": 82.168,
+          "dec": -77.709,
+          "text": "Men",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Men"
+        },
+        {
+          "ra": 314.471,
+          "dec": -36.018,
+          "text": "Mic",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Mic"
+        },
+        {
+          "ra": 105.28,
+          "dec": -2.702,
+          "text": "Mon",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Mon"
+        },
+        {
+          "ra": 188.568,
+          "dec": -70.121,
+          "text": "Mus",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Mus"
+        },
+        {
+          "ra": 241.194,
+          "dec": -51.619,
+          "text": "Nor",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Nor"
+        },
+        {
+          "ra": 318.857,
+          "dec": -84.632,
+          "text": "Oct",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Oct"
+        },
+        {
+          "ra": 259.561,
+          "dec": -5.248,
+          "text": "Oph",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Oph"
+        },
+        {
+          "ra": 83.9,
+          "dec": 5.174,
+          "text": "Ori",
+          "color": "amber",
+          "size": 1.952,
+          "dx": 0.0,
+          "dy": 1.74,
+          "key": "縮-Ori"
+        },
+        {
+          "ra": 83.9,
+          "dec": 5.174,
+          "text": "獵戶座",
+          "color": "white",
+          "size": 1.342,
+          "dx": 0.0,
+          "dy": -1.74,
+          "key": "縮-Ori-sub"
+        },
+        {
+          "ra": 293.545,
+          "dec": -65.64,
+          "text": "Pav",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Pav"
+        },
+        {
+          "ra": 340.425,
+          "dec": 19.484,
+          "text": "Peg",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Peg"
+        },
+        {
+          "ra": 53.115,
+          "dec": 44.453,
+          "text": "Per",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Per"
+        },
+        {
+          "ra": 11.743,
+          "dec": -47.831,
+          "text": "Phe",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Phe"
+        },
+        {
+          "ra": 83.641,
+          "dec": -52.506,
+          "text": "Pic",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Pic"
+        },
+        {
+          "ra": 334.289,
+          "dec": -30.71,
+          "text": "PsA",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-PsA"
+        },
+        {
+          "ra": 9.557,
+          "dec": 10.981,
+          "text": "Psc",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Psc"
+        },
+        {
+          "ra": 114.911,
+          "dec": -33.255,
+          "text": "Pup",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Pup"
+        },
+        {
+          "ra": 133.641,
+          "dec": -28.451,
+          "text": "Pyx",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Pyx"
+        },
+        {
+          "ra": 58.372,
+          "dec": -60.823,
+          "text": "Ret",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Ret"
+        },
+        {
+          "ra": 6.957,
+          "dec": -32.227,
+          "text": "Scl",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Scl"
+        },
+        {
+          "ra": 251.358,
+          "dec": -32.16,
+          "text": "Sco",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Sco"
+        },
+        {
+          "ra": 280.096,
+          "dec": -9.862,
+          "text": "Sct",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Sct"
+        },
+        {
+          "ra": 235.429,
+          "dec": 9.905,
+          "text": "Ser",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-SerCaput"
+        },
+        {
+          "ra": 272.45,
+          "dec": -6.36,
+          "text": "Ser",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-SerCauda"
+        },
+        {
+          "ra": 154.088,
+          "dec": -2.613,
+          "text": "Sex",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Sex"
+        },
+        {
+          "ra": 295.657,
+          "dec": 18.729,
+          "text": "Sge",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Sge"
+        },
+        {
+          "ra": 287.547,
+          "dec": -27.514,
+          "text": "Sgr",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Sgr"
+        },
+        {
+          "ra": 66.171,
+          "dec": 17.095,
+          "text": "Tau",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Tau"
+        },
+        {
+          "ra": 289.925,
+          "dec": -51.223,
+          "text": "Tel",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Tel"
+        },
+        {
+          "ra": 240.956,
+          "dec": -65.863,
+          "text": "TrA",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-TrA"
+        },
+        {
+          "ra": 32.053,
+          "dec": 32.156,
+          "text": "Tri",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Tri"
+        },
+        {
+          "ra": 357.63,
+          "dec": -64.631,
+          "text": "Tuc",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Tuc"
+        },
+        {
+          "ra": 165.569,
+          "dec": 54.389,
+          "text": "UMa",
+          "color": "amber",
+          "size": 1.952,
+          "dx": 0.0,
+          "dy": 1.74,
+          "key": "縮-UMa"
+        },
+        {
+          "ra": 165.569,
+          "dec": 54.389,
+          "text": "大熊座",
+          "color": "white",
+          "size": 1.342,
+          "dx": 0.0,
+          "dy": -1.74,
+          "key": "縮-UMa-sub"
+        },
+        {
+          "ra": 225.607,
+          "dec": 76.725,
+          "text": "UMi",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-UMi"
+        },
+        {
+          "ra": 144.164,
+          "dec": -48.066,
+          "text": "Vel",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Vel"
+        },
+        {
+          "ra": 199.326,
+          "dec": -2.679,
+          "text": "Vir",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Vir"
+        },
+        {
+          "ra": 117.062,
+          "dec": -69.728,
+          "text": "Vol",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Vol"
+        },
+        {
+          "ra": 304.267,
+          "dec": 24.863,
+          "text": "Vul",
+          "color": "white",
+          "size": 1.098,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "縮-Vul"
+        }
+      ]
+    },
+    {
+      "name": "長蛇",
+      "items": [
+        {
+          "ra": 156.547,
+          "dec": -18.958,
+          "text": "長蛇座",
+          "color": "blue",
+          "size": 1.883,
+          "dx": 0,
+          "dy": -2.28,
+          "key": "長蛇座"
+        },
+        {
+          "ra": 156.547,
+          "dec": -18.958,
+          "text": "1,303 平方度・最大",
+          "color": "white",
+          "size": 1.376,
+          "dx": 0,
+          "dy": -5.72,
+          "key": "長蛇座-sub"
+        }
+      ]
+    },
+    {
+      "name": "南十字",
+      "items": [
+        {
+          "ra": 186.723,
+          "dec": -60.068,
+          "text": "南十字座",
+          "color": "amber",
+          "size": 0.784,
+          "dx": 0,
+          "dy": -5.76,
+          "key": "南十字座"
+        },
+        {
+          "ra": 186.723,
+          "dec": -60.068,
+          "text": "68 平方度・最小",
+          "color": "white",
+          "size": 0.621,
+          "dx": 0,
+          "dy": -7.24,
+          "key": "南十字座-sub"
+        },
+        {
+          "hip": 71683,
+          "text": "南門二",
+          "color": "white",
+          "size": 0.556,
+          "dx": 0.0,
+          "dy": -2.4,
+          "key": "南門二"
+        },
+        {
+          "ra": 156.547,
+          "dec": -18.958,
+          "text": "長蛇座",
+          "color": "blue",
+          "size": 0.654,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "長蛇-遠"
+        }
+      ]
+    },
+    {
+      "name": "巨蛇",
+      "items": [
+        {
+          "ra": 235.429,
+          "dec": 9.905,
+          "text": "蛇頭",
+          "color": "green",
+          "size": 1.743,
+          "dx": -2.0,
+          "dy": 3.54,
+          "key": "蛇頭"
+        },
+        {
+          "ra": 235.429,
+          "dec": 9.905,
+          "text": "Serpens Caput",
+          "color": "white",
+          "size": 1.185,
+          "dx": -2.0,
+          "dy": 0.46,
+          "key": "蛇頭-sub"
+        },
+        {
+          "ra": 272.45,
+          "dec": -6.36,
+          "text": "蛇尾",
+          "color": "green",
+          "size": 1.743,
+          "dx": 1.0,
+          "dy": -1.46,
+          "key": "蛇尾"
+        },
+        {
+          "ra": 272.45,
+          "dec": -6.36,
+          "text": "Serpens Cauda",
+          "color": "white",
+          "size": 1.185,
+          "dx": 1.0,
+          "dy": -4.54,
+          "key": "蛇尾-sub"
+        },
+        {
+          "ra": 259.561,
+          "dec": -5.248,
+          "text": "蛇夫座",
+          "color": "amber",
+          "size": 1.603,
+          "dx": 0,
+          "dy": -8.0,
+          "key": "蛇夫座"
+        }
+      ]
+    },
+    {
+      "name": "放大框",
+      "items": [
+        {
+          "ra": 260.459,
+          "dec": -10.54,
+          "text": "1875 年的邊界",
+          "color": "white",
+          "size": 0.174,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "1875"
+        },
+        {
+          "ra": 257.659,
+          "dec": -16.04,
+          "text": "2027 年的赤經線",
+          "color": "blue",
+          "size": 0.174,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "2027"
+        },
+        {
+          "ra": 259.259,
+          "dec": -18.34,
+          "text": "夾角約 0.85°",
+          "color": "amber",
+          "size": 0.192,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "夾角"
+        }
+      ]
+    },
+    {
+      "name": "台北看不到",
+      "items": [
+        {
+          "ra": 160.253,
+          "dec": -80.372,
+          "disc": true,
+          "text": "蝘蜓座",
+          "color": "red",
+          "size": 2.492,
+          "dx": 0,
+          "dy": 0,
+          "key": "看-Cha"
+        },
+        {
+          "ra": 318.857,
+          "dec": -84.632,
+          "disc": true,
+          "text": "南極座",
+          "color": "red",
+          "size": 2.492,
+          "dx": 0,
+          "dy": 0,
+          "key": "看-Oct"
+        },
+        {
+          "ra": 82.168,
+          "dec": -77.709,
+          "disc": true,
+          "text": "山案座",
+          "color": "red",
+          "size": 2.492,
+          "dx": 0,
+          "dy": 0,
+          "key": "看-Men"
+        },
+        {
+          "ra": 243.944,
+          "dec": -76.195,
+          "disc": true,
+          "text": "天燕座",
+          "color": "red",
+          "size": 2.492,
+          "dx": 0,
+          "dy": 0,
+          "key": "看-Aps"
+        },
+        {
+          "ra": 180.0,
+          "dec": -64.737,
+          "disc": true,
+          "text": "台北：這圈以南永不升起",
+          "color": "#48E39B",
+          "size": 2.039,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "台北圈"
+        }
+      ]
+    },
+    {
+      "name": "鵝鑾鼻",
+      "items": [
+        {
+          "ra": 240.0,
+          "dec": -67.87,
+          "disc": true,
+          "text": "鵝鑾鼻：退到這圈",
+          "color": "#48E39B",
+          "size": 1.922,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "鵝圈"
+        },
+        {
+          "ra": 243.944,
+          "dec": -76.195,
+          "disc": true,
+          "text": "天燕座",
+          "color": "red",
+          "size": 2.349,
+          "dx": 0.0,
+          "dy": 2.19,
+          "key": "鵝-Aps"
+        },
+        {
+          "ra": 243.944,
+          "dec": -76.195,
+          "disc": true,
+          "text": "邊界露出一角",
+          "color": "white",
+          "size": 1.815,
+          "dx": 0.0,
+          "dy": -2.19,
+          "key": "鵝-Aps-sub"
+        }
+      ]
+    },
+    {
+      "name": "中國星官",
+      "items": [
+        {
+          "ra": 185.991,
+          "dec": 56.514,
+          "text": "北斗",
+          "color": "#3D8B7D",
+          "size": 1.486,
+          "dx": 0.0,
+          "dy": -5.5,
+          "key": "北斗"
+        },
+        {
+          "ra": 176.0,
+          "dec": 14.0,
+          "text": "太微垣",
+          "color": "#3D8B7D",
+          "size": 1.486,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "太微"
+        },
+        {
+          "ra": 166.0,
+          "dec": -18.0,
+          "text": "翼宿",
+          "color": "#3D8B7D",
+          "size": 1.283,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "翼"
+        },
+        {
+          "ra": 187.0,
+          "dec": -19.5,
+          "text": "軫宿",
+          "color": "#3D8B7D",
+          "size": 1.283,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "軫"
+        },
+        {
+          "ra": 201.3,
+          "dec": -14.0,
+          "text": "角宿",
+          "color": "#3D8B7D",
+          "size": 1.283,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "角"
+        }
+      ]
+    },
+    {
+      "name": "今晚",
+      "items": [
+        {
+          "hip": 77070,
+          "text": "蛇頭",
+          "color": "green",
+          "size": 1.553,
+          "dx": -5.0,
+          "dy": 5.62,
+          "key": "蛇頭"
+        },
+        {
+          "hip": 77070,
+          "text": "東南高處 63°",
+          "color": "white",
+          "size": 1.148,
+          "dx": -5.0,
+          "dy": 2.78,
+          "key": "蛇頭-sub"
+        },
+        {
+          "hip": 86032,
+          "text": "蛇夫",
+          "color": "amber",
+          "size": 1.553,
+          "dx": 0.0,
+          "dy": 4.82,
+          "key": "蛇夫"
+        },
+        {
+          "hip": 86032,
+          "text": "正東 43°",
+          "color": "white",
+          "size": 1.148,
+          "dx": 0.0,
+          "dy": 1.98,
+          "key": "蛇夫-sub"
+        },
+        {
+          "hip": 89962,
+          "text": "蛇尾",
+          "color": "green",
+          "size": 1.553,
+          "dx": -1.0,
+          "dy": 4.82,
+          "key": "蛇尾"
+        },
+        {
+          "hip": 89962,
+          "text": "東南 26°",
+          "color": "white",
+          "size": 1.148,
+          "dx": -1.0,
+          "dy": 1.98,
+          "key": "蛇尾-sub"
+        },
+        {
+          "hip": 91117,
+          "text": "盾牌座",
+          "color": "blue",
+          "size": 1.486,
+          "dx": 1.0,
+          "dy": -5.65,
+          "key": "盾牌座"
+        },
+        {
+          "hip": 91117,
+          "text": "蛇尾下方・要暗處",
+          "color": "white",
+          "size": 1.081,
+          "dx": 1.0,
+          "dy": -8.35,
+          "key": "盾牌座-sub"
+        },
+        {
+          "ra": 238.88,
+          "dec": -44.59,
+          "text": "西邊：上弦月 →",
+          "color": "white",
+          "size": 1.216,
+          "dx": 0.0,
+          "dy": 1.17,
+          "key": "月"
+        },
+        {
+          "ra": 238.88,
+          "dec": -44.59,
+          "text": "午夜才下山",
+          "color": "white",
+          "size": 1.013,
+          "dx": 0.0,
+          "dy": -1.17,
+          "key": "月-sub"
+        }
+      ]
+    },
+    {
+      "name": "下集",
+      "items": [
+        {
+          "ra": 185.991,
+          "dec": 56.514,
+          "text": "北斗七星",
+          "color": "white",
+          "size": 1.359,
+          "dx": 0.0,
+          "dy": -6.0,
+          "key": "北斗七星"
+        },
+        {
+          "ra": 165.569,
+          "dec": 54.389,
+          "text": "大熊座 UMa",
+          "color": "white",
+          "size": 1.133,
+          "dx": 0,
+          "dy": -12.0,
+          "key": "UMa下集"
+        }
+      ]
+    }
+  ],
+  "terms": {
+    "And": {
+      "hips": [
+        677,
+        2912,
+        3031,
+        3092,
+        3693,
+        3881,
+        4436,
+        4463,
+        5434,
+        5447,
+        7607,
+        9640,
+        113726,
+        116584,
+        116631,
+        116805
+      ],
+      "原文": "Andromeda",
+      "拼音": "And",
+      "英文翻譯": "Andromeda",
+      "中文": "仙女座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 722.28 平方度"
+    },
+    "Ant": {
+      "hips": [
+        46515,
+        51172,
+        53502
+      ],
+      "原文": "Antlia",
+      "拼音": "Ant",
+      "英文翻譯": "Air Pump",
+      "中文": "唧筒座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 238.90 平方度"
+    },
+    "Aps": {
+      "hips": [
+        72370,
+        80047,
+        81065,
+        81852
+      ],
+      "原文": "Apus",
+      "拼音": "Aps",
+      "英文翻譯": "Bird of Paradise",
+      "中文": "天燕座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 206.33 平方度"
+    },
+    "Aql": {
+      "hips": [
+        93244,
+        93429,
+        93747,
+        93805,
+        95501,
+        96468,
+        97278,
+        97649,
+        97804,
+        98036,
+        99473
+      ],
+      "原文": "Aquila",
+      "拼音": "Aql",
+      "英文翻譯": "Eagle",
+      "中文": "天鷹座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 652.47 平方度"
+    },
+    "Aqr": {
+      "hips": [
+        102618,
+        106278,
+        109074,
+        109139,
+        110003,
+        110395,
+        110672,
+        110960,
+        111497,
+        112716,
+        112961,
+        113136,
+        114341,
+        114724,
+        115033,
+        115438
+      ],
+      "原文": "Aquarius",
+      "拼音": "Aqr",
+      "英文翻譯": "Water Bearer",
+      "中文": "寶瓶座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 979.85 平方度"
+    },
+    "Ara": {
+      "hips": [
+        82363,
+        83081,
+        83153,
+        85258,
+        85267,
+        85727,
+        85792,
+        88714
+      ],
+      "原文": "Ara",
+      "拼音": "Ara",
+      "英文翻譯": "Altar",
+      "中文": "天壇座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 237.06 平方度"
+    },
+    "Ari": {
+      "hips": [
+        8832,
+        8903,
+        9884,
+        13209
+      ],
+      "原文": "Aries",
+      "拼音": "Ari",
+      "英文翻譯": "Ram",
+      "中文": "白羊座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 441.39 平方度"
+    },
+    "Aur": {
+      "hips": [
+        23015,
+        23416,
+        23453,
+        23767,
+        24608,
+        25428,
+        28358,
+        28360,
+        28380
+      ],
+      "原文": "Auriga",
+      "拼音": "Aur",
+      "英文翻譯": "Charioteer",
+      "中文": "御夫座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 657.44 平方度"
+    },
+    "Boo": {
+      "hips": [
+        67275,
+        67927,
+        69483,
+        69673,
+        69732,
+        70497,
+        71053,
+        71075,
+        71795,
+        72105,
+        73555,
+        74666
+      ],
+      "原文": "Boötes",
+      "拼音": "Boo",
+      "英文翻譯": "Herdsman",
+      "中文": "牧夫座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 906.83 平方度"
+    },
+    "CMa": {
+      "hips": [
+        30324,
+        31592,
+        32349,
+        33152,
+        33160,
+        33347,
+        33579,
+        34045,
+        34444,
+        35904
+      ],
+      "原文": "Canis Major",
+      "拼音": "CMa",
+      "英文翻譯": "Greater Dog",
+      "中文": "大犬座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 380.12 平方度"
+    },
+    "CMi": {
+      "hips": [
+        36188,
+        37279
+      ],
+      "原文": "Canis Minor",
+      "拼音": "CMi",
+      "英文翻譯": "Lesser Dog",
+      "中文": "小犬座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 183.37 平方度"
+    },
+    "CVn": {
+      "hips": [
+        61317,
+        63125
+      ],
+      "原文": "Canes Venatici",
+      "拼音": "CVn",
+      "英文翻譯": "Hunting Dogs",
+      "中文": "獵犬座",
+      "顏色": "white",
+      "來源備註": "Hevelius 7；IAU 面積 465.19 平方度"
+    },
+    "Cae": {
+      "hips": [
+        21060,
+        21770,
+        21861,
+        23595
+      ],
+      "原文": "Caelum",
+      "拼音": "Cae",
+      "英文翻譯": "Engraving Tool",
+      "中文": "雕具座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 124.86 平方度"
+    },
+    "Cam": {
+      "hips": [
+        16228,
+        17884,
+        17959,
+        22783,
+        23040,
+        23522,
+        29997,
+        33694
+      ],
+      "原文": "Camelopardalis",
+      "拼音": "Cam",
+      "英文翻譯": "Giraffe",
+      "中文": "鹿豹座",
+      "顏色": "white",
+      "來源備註": "Plancius 3・南十字・后髮；IAU 面積 756.83 平方度"
+    },
+    "Cap": {
+      "hips": [
+        100064,
+        100345,
+        102485,
+        102978,
+        104139,
+        105881,
+        106723,
+        106985,
+        107556
+      ],
+      "原文": "Capricornus",
+      "拼音": "Cap",
+      "英文翻譯": "Capricornus",
+      "中文": "摩羯座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 413.95 平方度"
+    },
+    "Car": {
+      "hips": [
+        30438,
+        38827,
+        39953,
+        41037,
+        42913,
+        45238,
+        45556,
+        50099,
+        50371,
+        51576,
+        52419,
+        53253,
+        54301,
+        54463,
+        54751
+      ],
+      "原文": "Carina",
+      "拼音": "Car",
+      "英文翻譯": "Keel",
+      "中文": "船底座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 494.18 平方度"
+    },
+    "Cas": {
+      "hips": [
+        746,
+        3179,
+        4427,
+        6686,
+        8886
+      ],
+      "原文": "Cassiopeia",
+      "拼音": "Cas",
+      "英文翻譯": "Cassiopeia",
+      "中文": "仙后座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 598.41 平方度"
+    },
+    "Cen": {
+      "hips": [
+        55425,
+        56243,
+        59196,
+        59449,
+        60823,
+        61789,
+        61932,
+        65109,
+        65936,
+        66657,
+        67464,
+        68002,
+        68245,
+        68282,
+        68702,
+        68862,
+        68933,
+        70090,
+        71352,
+        71683,
+        73334
+      ],
+      "原文": "Centaurus",
+      "拼音": "Cen",
+      "英文翻譯": "Centaur",
+      "中文": "半人馬座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1060.42 平方度"
+    },
+    "Cep": {
+      "hips": [
+        101093,
+        102422,
+        105199,
+        106032,
+        107259,
+        109492,
+        109857,
+        110991,
+        112724,
+        116727
+      ],
+      "原文": "Cepheus",
+      "拼音": "Cep",
+      "英文翻譯": "Cepheus",
+      "中文": "仙王座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 587.79 平方度"
+    },
+    "Cet": {
+      "hips": [
+        1562,
+        3419,
+        5364,
+        6537,
+        8102,
+        8645,
+        10826,
+        11484,
+        12387,
+        12706,
+        12828,
+        13954,
+        14135
+      ],
+      "原文": "Cetus",
+      "拼音": "Cet",
+      "英文翻譯": "Sea Monster",
+      "中文": "鯨魚座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1231.41 平方度"
+    },
+    "Cha": {
+      "hips": [
+        40702,
+        51839,
+        52633,
+        58484,
+        60000
+      ],
+      "原文": "Chamaeleon",
+      "拼音": "Cha",
+      "英文翻譯": "Chameleon",
+      "中文": "蝘蜓座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 131.59 平方度"
+    },
+    "Cir": {
+      "hips": [
+        71908,
+        74824,
+        75323
+      ],
+      "原文": "Circinus",
+      "拼音": "Cir",
+      "英文翻譯": "Drawing Compass",
+      "中文": "圓規座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 93.35 平方度"
+    },
+    "Cnc": {
+      "hips": [
+        40526,
+        42806,
+        42911,
+        43103,
+        44066
+      ],
+      "原文": "Cancer",
+      "拼音": "Cnc",
+      "英文翻譯": "Crab",
+      "中文": "巨蟹座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 505.87 平方度"
+    },
+    "Col": {
+      "hips": [
+        25859,
+        26634,
+        27628,
+        28199,
+        28328,
+        30277
+      ],
+      "原文": "Columba",
+      "拼音": "Col",
+      "英文翻譯": "Dove",
+      "中文": "天鴿座",
+      "顏色": "white",
+      "來源備註": "Plancius 3・南十字・后髮；IAU 面積 270.18 平方度"
+    },
+    "Com": {
+      "hips": [
+        60742,
+        64241,
+        64394
+      ],
+      "原文": "Coma Berenices",
+      "拼音": "Com",
+      "英文翻譯": "Bernice's Hair",
+      "中文": "后髮座",
+      "顏色": "white",
+      "來源備註": "Plancius 3・南十字・后髮；IAU 面積 386.47 平方度"
+    },
+    "CrA": {
+      "hips": [
+        90982,
+        93825,
+        94005,
+        94114,
+        94160
+      ],
+      "原文": "Corona Australis",
+      "拼音": "CrA",
+      "英文翻譯": "Southern Crown",
+      "中文": "南冕座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 127.70 平方度"
+    },
+    "CrB": {
+      "hips": [
+        75695,
+        76127,
+        76267,
+        76952,
+        77512,
+        78159,
+        78493
+      ],
+      "原文": "Corona Borealis",
+      "拼音": "CrB",
+      "英文翻譯": "Northern Crown",
+      "中文": "北冕座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 178.71 平方度"
+    },
+    "Crt": {
+      "hips": [
+        53740,
+        54682,
+        55282,
+        55687,
+        55705,
+        56633,
+        57283,
+        58188
+      ],
+      "原文": "Crater",
+      "拼音": "Crt",
+      "英文翻譯": "Cup",
+      "中文": "巨爵座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 282.40 平方度"
+    },
+    "Cru": {
+      "hips": [
+        59747,
+        60718,
+        61084,
+        62434
+      ],
+      "原文": "Crux",
+      "拼音": "Cru",
+      "英文翻譯": "Southern Cross",
+      "中文": "南十字座",
+      "顏色": "white",
+      "來源備註": "Plancius 3・南十字・后髮；IAU 面積 68.45 平方度"
+    },
+    "Crv": {
+      "hips": [
+        59199,
+        59316,
+        59803,
+        60965,
+        61359
+      ],
+      "原文": "Corvus",
+      "拼音": "Crv",
+      "英文翻譯": "Crow",
+      "中文": "烏鴉座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 183.80 平方度"
+    },
+    "Cyg": {
+      "hips": [
+        94779,
+        95853,
+        95947,
+        97165,
+        99848,
+        100453,
+        102098,
+        102488,
+        103413,
+        104732
+      ],
+      "原文": "Cygnus",
+      "拼音": "Cyg",
+      "英文翻譯": "Swan",
+      "中文": "天鵝座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 803.98 平方度"
+    },
+    "Del": {
+      "hips": [
+        101421,
+        101769,
+        101958,
+        102281,
+        102532
+      ],
+      "原文": "Delphinus",
+      "拼音": "Del",
+      "英文翻譯": "Dolphin",
+      "中文": "海豚座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 188.55 平方度"
+    },
+    "Dor": {
+      "hips": [
+        19893,
+        21281,
+        23693,
+        26069,
+        27100,
+        27890
+      ],
+      "原文": "Dorado",
+      "拼音": "Dor",
+      "英文翻譯": "Swordfish",
+      "中文": "劍魚座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 179.17 平方度"
+    },
+    "Dra": {
+      "hips": [
+        56211,
+        61281,
+        68756,
+        75458,
+        78527,
+        80331,
+        83895,
+        85670,
+        85829,
+        87585,
+        87833,
+        89908,
+        89937,
+        94376,
+        97433
+      ],
+      "原文": "Draco",
+      "拼音": "Dra",
+      "英文翻譯": "Dragon",
+      "中文": "天龍座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1082.95 平方度"
+    },
+    "Equ": {
+      "hips": [
+        104521,
+        104858,
+        104987
+      ],
+      "原文": "Equuleus",
+      "拼音": "Equ",
+      "英文翻譯": "Little Horse",
+      "中文": "小馬座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 71.64 平方度"
+    },
+    "Eri": {
+      "hips": [
+        7588,
+        9007,
+        11407,
+        12413,
+        12486,
+        12770,
+        12843,
+        13701,
+        13847,
+        14146,
+        15474,
+        15510,
+        16537,
+        16611,
+        16870,
+        17378,
+        17593,
+        17651,
+        17874,
+        18216,
+        18543,
+        18673,
+        19587,
+        20042,
+        20535,
+        21248,
+        21393,
+        21444,
+        22109,
+        23875
+      ],
+      "原文": "Eridanus",
+      "拼音": "Eri",
+      "英文翻譯": "Eridanus",
+      "中文": "波江座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1137.92 平方度"
+    },
+    "For": {
+      "hips": [
+        9677,
+        13147,
+        14879
+      ],
+      "原文": "Fornax",
+      "拼音": "For",
+      "英文翻譯": "Furnace",
+      "中文": "天爐座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 397.50 平方度"
+    },
+    "Gem": {
+      "hips": [
+        28734,
+        29655,
+        30343,
+        30883,
+        31681,
+        32246,
+        32362,
+        33018,
+        34088,
+        34693,
+        35350,
+        35550,
+        36046,
+        36850,
+        36962,
+        37740,
+        37826
+      ],
+      "原文": "Gemini",
+      "拼音": "Gem",
+      "英文翻譯": "Twins",
+      "中文": "雙子座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 513.76 平方度"
+    },
+    "Gru": {
+      "hips": [
+        108085,
+        109111,
+        109268,
+        110997,
+        112122,
+        112623,
+        113638
+      ],
+      "原文": "Grus",
+      "拼音": "Gru",
+      "英文翻譯": "Crane",
+      "中文": "天鶴座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 365.51 平方度"
+    },
+    "Her": {
+      "hips": [
+        77760,
+        79101,
+        79992,
+        80170,
+        80463,
+        80816,
+        81008,
+        81126,
+        81693,
+        81833,
+        83207,
+        84345,
+        84379,
+        84380,
+        85112,
+        85693,
+        86414,
+        86974,
+        87808,
+        87933,
+        88794
+      ],
+      "原文": "Hercules",
+      "拼音": "Her",
+      "英文翻譯": "Hercules",
+      "中文": "武仙座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1225.15 平方度"
+    },
+    "Hor": {
+      "hips": [
+        12225,
+        12484,
+        12653,
+        13884,
+        14240,
+        19747
+      ],
+      "原文": "Horologium",
+      "拼音": "Hor",
+      "英文翻譯": "Clock",
+      "中文": "時鐘座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 248.88 平方度"
+    },
+    "Hya": {
+      "hips": [
+        42313,
+        42402,
+        42799,
+        43109,
+        43234,
+        43813,
+        45336,
+        46390,
+        47431,
+        48356,
+        49402,
+        49841,
+        51069,
+        52943,
+        53740,
+        54682,
+        56343,
+        57936,
+        64962,
+        68895,
+        72571
+      ],
+      "原文": "Hydra",
+      "拼音": "Hya",
+      "英文翻譯": "Female Water Snake",
+      "中文": "長蛇座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1302.84 平方度"
+    },
+    "Hyi": {
+      "hips": [
+        2021,
+        9236,
+        11001,
+        17678
+      ],
+      "原文": "Hydrus",
+      "拼音": "Hyi",
+      "英文翻譯": "Male Water Snake",
+      "中文": "水蛇座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 243.04 平方度"
+    },
+    "Ind": {
+      "hips": [
+        101772,
+        102333,
+        103227,
+        105319,
+        108431
+      ],
+      "原文": "Indus",
+      "拼音": "Ind",
+      "英文翻譯": "Indian",
+      "中文": "印第安座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 294.01 平方度"
+    },
+    "LMi": {
+      "hips": [
+        46952,
+        49593,
+        51056,
+        51233,
+        53229
+      ],
+      "原文": "Leo Minor",
+      "拼音": "LMi",
+      "英文翻譯": "Lesser Lion",
+      "中文": "小獅座",
+      "顏色": "white",
+      "來源備註": "Hevelius 7；IAU 面積 231.96 平方度"
+    },
+    "Lac": {
+      "hips": [
+        109754,
+        109937,
+        110351,
+        110538,
+        110609,
+        111022,
+        111104,
+        111169,
+        111944
+      ],
+      "原文": "Lacerta",
+      "拼音": "Lac",
+      "英文翻譯": "Lizard",
+      "中文": "蝎虎座",
+      "顏色": "white",
+      "來源備註": "Hevelius 7；IAU 面積 200.69 平方度"
+    },
+    "Leo": {
+      "hips": [
+        46146,
+        46750,
+        47908,
+        48455,
+        49583,
+        49669,
+        50335,
+        50583,
+        54872,
+        54879,
+        55434,
+        55642,
+        57632
+      ],
+      "原文": "Leo",
+      "拼音": "Leo",
+      "英文翻譯": "Lion",
+      "中文": "獅子座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 946.96 平方度"
+    },
+    "Lep": {
+      "hips": [
+        23685,
+        24305,
+        24327,
+        24845,
+        25606,
+        25985,
+        27072,
+        27288,
+        27654,
+        28103,
+        28910
+      ],
+      "原文": "Lepus",
+      "拼音": "Lep",
+      "英文翻譯": "Hare",
+      "中文": "天兔座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 290.29 平方度"
+    },
+    "Lib": {
+      "hips": [
+        72622,
+        73714,
+        74785,
+        76333,
+        76470,
+        76600
+      ],
+      "原文": "Libra",
+      "拼音": "Lib",
+      "英文翻譯": "Scales",
+      "中文": "天秤座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 538.05 平方度"
+    },
+    "Lup": {
+      "hips": [
+        71860,
+        73273,
+        74395,
+        75141,
+        75177,
+        75264,
+        76297,
+        77634,
+        78384
+      ],
+      "原文": "Lupus",
+      "拼音": "Lup",
+      "英文翻譯": "Wolf",
+      "中文": "豺狼座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 333.68 平方度"
+    },
+    "Lyn": {
+      "hips": [
+        30060,
+        33449,
+        36145,
+        41075,
+        44248,
+        44700,
+        45688,
+        45860
+      ],
+      "原文": "Lynx",
+      "拼音": "Lyn",
+      "英文翻譯": "Lynx",
+      "中文": "天貓座",
+      "顏色": "white",
+      "來源備註": "Hevelius 7；IAU 面積 545.39 平方度"
+    },
+    "Lyr": {
+      "hips": [
+        91262,
+        91919,
+        91971,
+        92420,
+        92791,
+        93194
+      ],
+      "原文": "Lyra",
+      "拼音": "Lyr",
+      "英文翻譯": "Lyre",
+      "中文": "天琴座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 286.48 平方度"
+    },
+    "Men": {
+      "hips": [
+        23467,
+        29271
+      ],
+      "原文": "Mensa",
+      "拼音": "Men",
+      "英文翻譯": "Table Mountain",
+      "中文": "山案座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 153.48 平方度"
+    },
+    "Mic": {
+      "hips": [
+        102831,
+        102989
+      ],
+      "原文": "Microscopium",
+      "拼音": "Mic",
+      "英文翻譯": "Microscope",
+      "中文": "顯微鏡座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 209.51 平方度"
+    },
+    "Mon": {
+      "hips": [
+        29651,
+        30419,
+        30867,
+        31216,
+        31978,
+        32578,
+        34769,
+        37447,
+        39863
+      ],
+      "原文": "Monoceros",
+      "拼音": "Mon",
+      "英文翻譯": "Unicorn",
+      "中文": "麒麟座",
+      "顏色": "white",
+      "來源備註": "Plancius 3・南十字・后髮；IAU 面積 481.57 平方度"
+    },
+    "Mus": {
+      "hips": [
+        57363,
+        59929,
+        61199,
+        61585,
+        62322,
+        63613
+      ],
+      "原文": "Musca",
+      "拼音": "Mus",
+      "英文翻譯": "Fly",
+      "中文": "蒼蠅座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 138.35 平方度"
+    },
+    "Nor": {
+      "hips": [
+        78639,
+        78914,
+        80000,
+        80582
+      ],
+      "原文": "Norma",
+      "拼音": "Nor",
+      "英文翻譯": "Carpenter's Square",
+      "中文": "矩尺座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 165.29 平方度"
+    },
+    "Oct": {
+      "hips": [
+        70638,
+        107089,
+        112405
+      ],
+      "原文": "Octans",
+      "拼音": "Oct",
+      "英文翻譯": "Octant",
+      "中文": "南極座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 291.05 平方度"
+    },
+    "Oph": {
+      "hips": [
+        79593,
+        79882,
+        80343,
+        80473,
+        80569,
+        80628,
+        80883,
+        80894,
+        81377,
+        83000,
+        84012,
+        84970,
+        85423,
+        86032,
+        86742,
+        87108,
+        88048
+      ],
+      "原文": "Ophiuchus",
+      "拼音": "Oph",
+      "英文翻譯": "Serpent Bearer",
+      "中文": "蛇夫座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 948.34 平方度"
+    },
+    "Ori": {
+      "hips": [
+        22449,
+        22509,
+        22549,
+        22797,
+        22845,
+        22957,
+        23123,
+        23607,
+        24436,
+        25281,
+        25336,
+        25930,
+        26207,
+        26311,
+        26727,
+        27366,
+        27913,
+        27989,
+        28614,
+        28716,
+        29038,
+        29426
+      ],
+      "原文": "Orion",
+      "拼音": "Ori",
+      "英文翻譯": "Hunter",
+      "中文": "獵戶座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 594.12 平方度"
+    },
+    "Pav": {
+      "hips": [
+        86929,
+        88866,
+        90098,
+        91792,
+        92609,
+        93015,
+        98495,
+        99240,
+        100751,
+        102395,
+        105858
+      ],
+      "原文": "Pavo",
+      "拼音": "Pav",
+      "英文翻譯": "Peacock",
+      "中文": "孔雀座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 377.67 平方度"
+    },
+    "Peg": {
+      "hips": [
+        677,
+        1067,
+        107315,
+        107354,
+        109176,
+        109410,
+        109427,
+        112029,
+        112158,
+        112440,
+        112748,
+        113881,
+        113963
+      ],
+      "原文": "Pegasus",
+      "拼音": "Peg",
+      "英文翻譯": "Winged Horse",
+      "中文": "飛馬座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1120.79 平方度"
+    },
+    "Per": {
+      "hips": [
+        8068,
+        12777,
+        13268,
+        13531,
+        14328,
+        14354,
+        14576,
+        14632,
+        14668,
+        15863,
+        17358,
+        17448,
+        18246,
+        18532,
+        18614,
+        19167,
+        19343,
+        19812,
+        20070
+      ],
+      "原文": "Perseus",
+      "拼音": "Per",
+      "英文翻譯": "Hero",
+      "中文": "英仙座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 615.00 平方度"
+    },
+    "Phe": {
+      "hips": [
+        765,
+        2081,
+        5165,
+        5348,
+        6867,
+        7083
+      ],
+      "原文": "Phoenix",
+      "拼音": "Phe",
+      "英文翻譯": "Phoenix",
+      "中文": "鳳凰座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 469.32 平方度"
+    },
+    "Pic": {
+      "hips": [
+        27321,
+        27530,
+        32607
+      ],
+      "原文": "Pictor",
+      "拼音": "Pic",
+      "英文翻譯": "Painter's Easel",
+      "中文": "繪架座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 246.74 平方度"
+    },
+    "PsA": {
+      "hips": [
+        107380,
+        107608,
+        109285,
+        111188,
+        111954,
+        112948,
+        113246,
+        113368
+      ],
+      "原文": "Piscis Austrinus",
+      "拼音": "PsA",
+      "英文翻譯": "Southern Fish",
+      "中文": "南魚座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 245.37 平方度"
+    },
+    "Psc": {
+      "hips": [
+        3786,
+        4906,
+        5586,
+        5742,
+        6193,
+        7097,
+        7884,
+        8198,
+        9487,
+        114971,
+        115738,
+        115830,
+        116771,
+        116928,
+        118268
+      ],
+      "原文": "Pisces",
+      "拼音": "Psc",
+      "英文翻譯": "Fishes",
+      "中文": "雙魚座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 889.42 平方度"
+    },
+    "Pup": {
+      "hips": [
+        30438,
+        31685,
+        35264,
+        36917,
+        37229,
+        37677,
+        38070,
+        38170,
+        39429,
+        39757,
+        39953
+      ],
+      "原文": "Puppis",
+      "拼音": "Pup",
+      "英文翻譯": "Stern",
+      "中文": "船尾座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 673.43 平方度"
+    },
+    "Pyx": {
+      "hips": [
+        39429,
+        42515,
+        42828,
+        43409
+      ],
+      "原文": "Pyxis",
+      "拼音": "Pyx",
+      "英文翻譯": "Mariner Compass",
+      "中文": "羅盤座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 220.83 平方度"
+    },
+    "Ret": {
+      "hips": [
+        17440,
+        18597,
+        19780,
+        19921
+      ],
+      "原文": "Reticulum",
+      "拼音": "Ret",
+      "英文翻譯": "Reticle",
+      "中文": "網罟座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 113.94 平方度"
+    },
+    "Scl": {
+      "hips": [
+        4577,
+        115102,
+        116231,
+        117452
+      ],
+      "原文": "Sculptor",
+      "拼音": "Scl",
+      "英文翻譯": "Sculptor",
+      "中文": "玉夫座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 474.76 平方度"
+    },
+    "Sco": {
+      "hips": [
+        78104,
+        78265,
+        78401,
+        78820,
+        79374,
+        80112,
+        80763,
+        81266,
+        82396,
+        82514,
+        82729,
+        84143,
+        85696,
+        85927,
+        86228,
+        86670,
+        87073,
+        87261
+      ],
+      "原文": "Scorpius",
+      "拼音": "Sco",
+      "英文翻譯": "Scorpion",
+      "中文": "天蠍座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 496.78 平方度"
+    },
+    "Sct": {
+      "hips": [
+        90595,
+        91117,
+        91726,
+        92175
+      ],
+      "原文": "Scutum",
+      "拼音": "Sct",
+      "英文翻譯": "Shield",
+      "中文": "盾牌座",
+      "顏色": "white",
+      "來源備註": "Hevelius 7；IAU 面積 109.11 平方度"
+    },
+    "Ser": {
+      "hips": [
+        76276,
+        76852,
+        77070,
+        77233,
+        77450,
+        77516,
+        77622,
+        78072,
+        79593,
+        84012,
+        86263,
+        88048,
+        89962,
+        92946
+      ],
+      "原文": "Serpens",
+      "拼音": "Ser",
+      "英文翻譯": "Serpent",
+      "中文": "巨蛇座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 636.93（蛇頭 428.48＋蛇尾 208.44） 平方度"
+    },
+    "Sex": {
+      "hips": [
+        48437,
+        49641,
+        51362,
+        51437
+      ],
+      "原文": "Sextans",
+      "拼音": "Sex",
+      "英文翻譯": "Sextant",
+      "中文": "六分儀座",
+      "顏色": "white",
+      "來源備註": "Hevelius 7；IAU 面積 313.52 平方度"
+    },
+    "Sge": {
+      "hips": [
+        96757,
+        96837,
+        97365,
+        98337
+      ],
+      "原文": "Sagitta",
+      "拼音": "Sge",
+      "英文翻譯": "Arrow",
+      "中文": "天箭座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 79.92 平方度"
+    },
+    "Sgr": {
+      "hips": [
+        88635,
+        89341,
+        89642,
+        89931,
+        90185,
+        90496,
+        92041,
+        92855,
+        93085,
+        93506,
+        93683,
+        93864,
+        94141,
+        95168
+      ],
+      "原文": "Sagittarius",
+      "拼音": "Sgr",
+      "英文翻譯": "Archer",
+      "中文": "人馬座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 867.43 平方度"
+    },
+    "Tau": {
+      "hips": [
+        15900,
+        16083,
+        16852,
+        18724,
+        18907,
+        20205,
+        20455,
+        20889,
+        20894,
+        21421,
+        25428,
+        26451
+      ],
+      "原文": "Taurus",
+      "拼音": "Tau",
+      "英文翻譯": "Bull",
+      "中文": "金牛座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 797.25 平方度"
+    },
+    "Tel": {
+      "hips": [
+        89112,
+        90422,
+        90568
+      ],
+      "原文": "Telescopium",
+      "拼音": "Tel",
+      "英文翻譯": "Telescope",
+      "中文": "望遠鏡座",
+      "顏色": "white",
+      "來源備註": "Lacaille 14；IAU 面積 251.51 平方度"
+    },
+    "TrA": {
+      "hips": [
+        74946,
+        76440,
+        77952,
+        82273
+      ],
+      "原文": "Triangulum Australe",
+      "拼音": "TrA",
+      "英文翻譯": "Southern Triangle",
+      "中文": "南三角座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 109.98 平方度"
+    },
+    "Tri": {
+      "hips": [
+        8796,
+        10064,
+        10670
+      ],
+      "原文": "Triangulum",
+      "拼音": "Tri",
+      "英文翻譯": "Triangle",
+      "中文": "三角座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 131.85 平方度"
+    },
+    "Tuc": {
+      "hips": [
+        1599,
+        2484,
+        110130,
+        110838,
+        114996,
+        118322
+      ],
+      "原文": "Tucana",
+      "拼音": "Tuc",
+      "英文翻譯": "Toucan",
+      "中文": "杜鵑座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 294.56 平方度"
+    },
+    "UMa": {
+      "hips": [
+        41704,
+        44127,
+        44471,
+        46733,
+        46853,
+        48319,
+        50372,
+        50801,
+        53910,
+        54061,
+        54539,
+        55203,
+        55219,
+        57399,
+        58001,
+        59774,
+        62956,
+        65378,
+        67301
+      ],
+      "原文": "Ursa Major",
+      "拼音": "UMa",
+      "英文翻譯": "Great Bear",
+      "中文": "大熊座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1279.66 平方度"
+    },
+    "UMi": {
+      "hips": [
+        11767,
+        72607,
+        75097,
+        77055,
+        79822,
+        82080,
+        85822
+      ],
+      "原文": "Ursa Minor",
+      "拼音": "UMi",
+      "英文翻譯": "Lesser Bear",
+      "中文": "小熊座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 255.86 平方度"
+    },
+    "Vel": {
+      "hips": [
+        39953,
+        42913,
+        44816,
+        45941,
+        46651,
+        48774,
+        50191,
+        52727
+      ],
+      "原文": "Vela",
+      "拼音": "Vel",
+      "英文翻譯": "Sails",
+      "中文": "船帆座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 499.65 平方度"
+    },
+    "Vir": {
+      "hips": [
+        57380,
+        57757,
+        58948,
+        60129,
+        61941,
+        63090,
+        63608,
+        64238,
+        65474,
+        66249,
+        68520,
+        69701,
+        71957,
+        72220
+      ],
+      "原文": "Virgo",
+      "拼音": "Vir",
+      "英文翻譯": "Maiden",
+      "中文": "室女座",
+      "顏色": "white",
+      "來源備註": "托勒密 48（今 50）；IAU 面積 1294.43 平方度"
+    },
+    "Vol": {
+      "hips": [
+        34481,
+        35228,
+        39794,
+        41312,
+        44382
+      ],
+      "原文": "Volans",
+      "拼音": "Vol",
+      "英文翻譯": "Flying Fish",
+      "中文": "飛魚座",
+      "顏色": "white",
+      "來源備註": "Keyser＆de Houtman・Plancius 12；IAU 面積 141.35 平方度"
+    },
+    "Vul": {
+      "hips": [
+        95771,
+        97886
+      ],
+      "原文": "Vulpecula",
+      "拼音": "Vul",
+      "英文翻譯": "Fox",
+      "中文": "狐狸座",
+      "顏色": "white",
+      "來源備註": "Hevelius 7；IAU 面積 268.17 平方度"
+    },
+    "RoC": {
+      "hips": [],
+      "原文": "Robur Carolinum",
+      "拼音": "",
+      "英文翻譯": "Charles' Oak",
+      "中文": "查理的橡樹（已廢）",
+      "顏色": "red",
+      "來源備註": "Halley 1679；modern 星群 RoC"
+    },
+    "QuM": {
+      "hips": [],
+      "原文": "Quadrans Muralis",
+      "拼音": "",
+      "英文翻譯": "Mural Quadrant",
+      "中文": "牆象限儀（已廢）",
+      "顏色": "red",
+      "來源備註": "Lalande 1795；modern 星群 QuM"
+    },
+    "Fel": {
+      "hips": [],
+      "原文": "Felis",
+      "拼音": "",
+      "英文翻譯": "The Cat",
+      "中文": "貓座（已廢）",
+      "顏色": "red",
+      "來源備註": "Lalande 1799；示意位置"
+    }
+  },
+  "cross": [],
+  "mains": [
+    54061,
+    53910,
+    67301,
+    27989,
+    24436,
+    60718,
+    61084,
+    7588,
+    77070,
+    86032,
+    89962,
+    91117,
+    46390
+  ],
+  "lines": {
+    "L4": "星座連線",
+    "托": "連線-托勒密48",
+    "南12": "連線-南天12（Keyser＆de Houtman）",
+    "赫": "連線-Hevelius7",
+    "拉": "連線-Lacaille14",
+    "蛇": "連線-巨蛇蛇夫盾牌",
+    "中": "連線-中國星官312",
+    "斗": "連線-北斗七星",
+    "界": "IAU邊界",
+    "界北": "IAU邊界-北段",
+    "界中": "IAU邊界-中段",
+    "界熊": "IAU邊界-大熊座",
+    "格亮": "經緯線-加亮",
+    "填蛇": "填色-長蛇座",
+    "填十": "填色-南十字座",
+    "填巨": "填色-巨蛇與蛇夫",
+    "填四": "填色-台北看不到的4個",
+    "圈北": "圈-台北永不升起",
+    "圈鵝": "圈-鵝鑾鼻永不升起",
+    "罩": "遮罩-亞歷山卓150年",
+    "廢": "已淘汰星座",
+    "格27": "經緯線-2027（放大框）",
+    "界放": "IAU邊界-放大框",
+    "雲": "麥哲倫雲"
+  },
+  "line_groups": {
+    "L4": [
+      [
+        [
+          [
+            677,
+            3092,
+            5447,
+            9640
+          ],
+          [
+            113726,
+            116631,
+            116805,
+            116584
+          ],
+          [
+            116631,
+            2912,
+            3092
+          ],
+          [
+            2912,
+            5447,
+            4436,
+            3881,
+            5434,
+            7607
+          ],
+          [
+            3092,
+            3031,
+            3693,
+            4463
+          ],
+          [
+            53502,
+            51172,
+            46515
+          ],
+          [
+            72370,
+            81065
+          ],
+          [
+            80047,
+            81852,
+            81065
+          ],
+          [
+            98036,
+            97649,
+            97278,
+            95501,
+            93805,
+            95501,
+            93747,
+            95501,
+            97804,
+            99473
+          ],
+          [
+            93244,
+            93747
+          ],
+          [
+            93805,
+            93429
+          ],
+          [
+            99473,
+            96468,
+            93805,
+            93747
+          ],
+          [
+            102618,
+            106278,
+            109074,
+            110395,
+            110960,
+            111497,
+            110960,
+            110672,
+            109074
+          ],
+          [
+            109139,
+            106278,
+            109074,
+            110003,
+            112961,
+            114724,
+            115033,
+            115438,
+            115033,
+            114341,
+            115033,
+            113136,
+            112716,
+            112961
+          ],
+          [
+            85267,
+            85727,
+            82363,
+            83081,
+            83153,
+            85792,
+            88714,
+            85792,
+            85258
+          ],
+          [
+            8832,
+            8903,
+            9884,
+            13209
+          ],
+          [
+            25428,
+            23015,
+            23767,
+            24608,
+            28360,
+            28380,
+            25428
+          ],
+          [
+            23767,
+            23453,
+            23416,
+            24608,
+            28358,
+            28360
+          ],
+          [
+            69673,
+            72105,
+            74666,
+            73555,
+            71075,
+            71053,
+            69673,
+            67927,
+            67275
+          ],
+          [
+            69673,
+            71795
+          ],
+          [
+            71075,
+            69732,
+            70497,
+            69483,
+            69732
+          ],
+          [
+            30324,
+            32349,
+            34444,
+            33579,
+            34444,
+            35904
+          ],
+          [
+            30324,
+            31592,
+            33152,
+            33579
+          ],
+          [
+            32349,
+            33347,
+            34045,
+            33160,
+            33347
+          ],
+          [
+            37279,
+            36188
+          ],
+          [
+            63125,
+            61317
+          ],
+          [
+            23595,
+            21861,
+            21770,
+            21060
+          ],
+          [
+            23040,
+            23522,
+            22783,
+            29997,
+            33694,
+            29997,
+            22783,
+            17959,
+            17884,
+            16228
+          ],
+          [
+            100064,
+            100345,
+            102485,
+            102978,
+            105881,
+            106723,
+            107556,
+            106985,
+            104139,
+            100064
+          ],
+          [
+            30438,
+            45238,
+            50099,
+            52419,
+            51576,
+            50371,
+            45556,
+            42913
+          ],
+          [
+            51576,
+            53253
+          ],
+          [
+            52419,
+            54301,
+            54751,
+            54463,
+            53253
+          ],
+          [
+            45556,
+            41037,
+            38827,
+            39953
+          ],
+          [
+            746,
+            3179,
+            4427,
+            6686,
+            8886
+          ],
+          [
+            61932,
+            66657,
+            68702,
+            71683,
+            68702,
+            66657,
+            68002,
+            61932,
+            68002,
+            68282,
+            68245,
+            71352,
+            68245,
+            68862,
+            70090,
+            68933,
+            67464,
+            68002
+          ],
+          [
+            55425,
+            59196,
+            60823,
+            61932,
+            60823,
+            59449,
+            56243
+          ],
+          [
+            67464,
+            65936,
+            65109,
+            61789
+          ],
+          [
+            71352,
+            73334
+          ],
+          [
+            102422,
+            105199,
+            106032,
+            112724,
+            106032,
+            116727,
+            112724,
+            110991,
+            109492,
+            109857,
+            107259,
+            105199
+          ],
+          [
+            101093,
+            102422
+          ],
+          [
+            12706,
+            14135,
+            13954,
+            12828,
+            11484,
+            12706,
+            12387,
+            10826,
+            8645,
+            8102,
+            3419,
+            1562,
+            5364,
+            6537,
+            8645
+          ],
+          [
+            40702,
+            51839,
+            52633,
+            60000,
+            58484,
+            51839
+          ],
+          [
+            74824,
+            71908,
+            75323
+          ],
+          [
+            44066,
+            42911,
+            40526,
+            42911,
+            42806,
+            43103
+          ],
+          [
+            26634,
+            27628
+          ],
+          [
+            25859,
+            26634
+          ],
+          [
+            28328,
+            27628,
+            28199,
+            30277
+          ],
+          [
+            64241,
+            64394,
+            60742
+          ],
+          [
+            93825,
+            94114,
+            94160,
+            94005,
+            90982
+          ],
+          [
+            76127,
+            75695,
+            76267,
+            76952,
+            77512,
+            78159,
+            78493
+          ],
+          [
+            53740,
+            54682,
+            55705,
+            57283,
+            58188,
+            57283,
+            55705,
+            55282,
+            55687,
+            56633,
+            55687,
+            55282,
+            53740
+          ],
+          [
+            60718,
+            61084
+          ],
+          [
+            62434,
+            59747
+          ],
+          [
+            62434,
+            59747
+          ],
+          [
+            60965,
+            59803,
+            59316,
+            61359,
+            60965
+          ],
+          [
+            59316,
+            59199
+          ],
+          [
+            102098,
+            100453,
+            102488,
+            100453,
+            95947,
+            100453,
+            97165,
+            95853,
+            94779,
+            95853,
+            99848,
+            102098,
+            103413,
+            104732,
+            102488
+          ],
+          [
+            101421,
+            101769,
+            101958,
+            102532,
+            102281,
+            101769
+          ],
+          [
+            19893,
+            21281,
+            23693,
+            26069,
+            21281,
+            26069,
+            27100,
+            27890,
+            26069
+          ],
+          [
+            56211,
+            61281,
+            68756,
+            75458,
+            78527,
+            80331,
+            83895,
+            89908,
+            89937,
+            89908,
+            94376,
+            97433,
+            94376,
+            87585,
+            85829,
+            85670,
+            87833,
+            87585,
+            94376
+          ],
+          [
+            104987,
+            104858,
+            104521
+          ],
+          [
+            23875,
+            22109,
+            21444,
+            19587,
+            18543,
+            17593,
+            17378,
+            16537,
+            13701,
+            12770,
+            12770,
+            12843,
+            14146,
+            15474,
+            16611,
+            17651,
+            18216,
+            18673,
+            21248,
+            21393,
+            20535,
+            20042,
+            17874,
+            17874,
+            16870,
+            15510,
+            13847,
+            12486,
+            12413,
+            11407,
+            9007,
+            7588
+          ],
+          [
+            14879,
+            13147,
+            9677
+          ],
+          [
+            32362,
+            35350,
+            35550,
+            34088,
+            31681,
+            34088,
+            35550,
+            36962,
+            37740,
+            36962,
+            37826,
+            36962,
+            36046,
+            34693,
+            36850,
+            34693,
+            33018,
+            34693,
+            32246,
+            30883,
+            32246,
+            30343,
+            29655,
+            28734
+          ],
+          [
+            108085,
+            109111,
+            110997,
+            109268,
+            112122,
+            110997,
+            112122,
+            112623,
+            113638
+          ],
+          [
+            84379,
+            84345,
+            80816,
+            80170,
+            80816,
+            81693,
+            83207,
+            81693,
+            81833,
+            81126,
+            79992,
+            81126,
+            81833,
+            84380,
+            85112,
+            87808,
+            86414,
+            87808,
+            85112,
+            84380,
+            83207,
+            84379,
+            85693,
+            86974,
+            87933,
+            88794
+          ],
+          [
+            77760,
+            79101,
+            79992
+          ],
+          [
+            80170,
+            80463,
+            81008
+          ],
+          [
+            19747,
+            12653,
+            12225,
+            12484,
+            14240,
+            13884
+          ],
+          [
+            43234,
+            42799,
+            42402,
+            42313,
+            43109,
+            43813,
+            45336,
+            47431,
+            46390,
+            48356,
+            49402,
+            49841,
+            51069,
+            52943,
+            53740
+          ],
+          [
+            54682,
+            56343,
+            57936,
+            64962,
+            68895,
+            72571
+          ],
+          [
+            2021,
+            17678,
+            11001,
+            9236,
+            2021
+          ],
+          [
+            103227,
+            102333,
+            101772,
+            105319,
+            108431,
+            103227
+          ],
+          [
+            46952,
+            49593,
+            51233,
+            53229,
+            51056,
+            49593
+          ],
+          [
+            111022,
+            111169,
+            110538,
+            110609,
+            111022,
+            110351,
+            111104,
+            111944,
+            111104,
+            111944,
+            111022,
+            111944,
+            111104,
+            109754,
+            109937
+          ],
+          [
+            49669,
+            49583,
+            50583,
+            50335,
+            48455,
+            47908
+          ],
+          [
+            50583,
+            54872,
+            57632,
+            54879,
+            54872,
+            54879,
+            49583
+          ],
+          [
+            48455,
+            46146,
+            46750,
+            47908,
+            49583
+          ],
+          [
+            54879,
+            55642,
+            55434
+          ],
+          [
+            23685,
+            24305,
+            25985,
+            25606,
+            23685
+          ],
+          [
+            24845,
+            24305,
+            24327
+          ],
+          [
+            25606,
+            27072,
+            27654,
+            28910,
+            28103,
+            27288,
+            25985
+          ],
+          [
+            72622,
+            74785
+          ],
+          [
+            72622,
+            73714
+          ],
+          [
+            74785,
+            76333,
+            72622,
+            76333,
+            76470,
+            76600
+          ],
+          [
+            71860,
+            74395,
+            75264,
+            76297,
+            75141,
+            73273,
+            75141,
+            76297,
+            78384,
+            75177,
+            77634,
+            78384,
+            74395
+          ],
+          [
+            45860,
+            45688,
+            44700,
+            44248,
+            41075,
+            36145,
+            33449,
+            30060
+          ],
+          [
+            91262,
+            91919,
+            91971,
+            91262,
+            91971,
+            92791,
+            93194,
+            92420,
+            91971
+          ],
+          [
+            29271,
+            23467
+          ],
+          [
+            102831,
+            102989
+          ],
+          [
+            31978,
+            31216,
+            30419,
+            30419,
+            32578,
+            31216,
+            32578,
+            34769,
+            30867,
+            29651,
+            30867,
+            34769,
+            39863,
+            37447
+          ],
+          [
+            57363,
+            59929,
+            61585,
+            62322,
+            63613,
+            61199,
+            61585
+          ],
+          [
+            78639,
+            80000,
+            80582,
+            78914,
+            78639
+          ],
+          [
+            70638,
+            107089,
+            112405,
+            70638
+          ],
+          [
+            86032,
+            83000,
+            80883,
+            79593,
+            79882,
+            80628,
+            81377,
+            80628,
+            79882,
+            79593,
+            80883,
+            83000,
+            81377,
+            84012,
+            86742,
+            87108,
+            88048,
+            87108,
+            86742,
+            86032
+          ],
+          [
+            84012,
+            84970,
+            85423
+          ],
+          [
+            81377,
+            80894,
+            80569,
+            80343,
+            80473
+          ],
+          [
+            27989,
+            26727,
+            27366,
+            26727,
+            26311,
+            25930,
+            25336,
+            25930,
+            25281,
+            24436
+          ],
+          [
+            27989,
+            25336,
+            26207,
+            26207,
+            27989
+          ],
+          [
+            23607,
+            22957,
+            22845,
+            22509,
+            22449,
+            25336,
+            22449,
+            22549,
+            22797,
+            23123
+          ],
+          [
+            27989,
+            28614,
+            29038
+          ],
+          [
+            29426,
+            28716,
+            27913,
+            29038
+          ],
+          [
+            100751,
+            99240,
+            102395
+          ],
+          [
+            100751,
+            105858,
+            102395
+          ],
+          [
+            91792,
+            99240,
+            98495,
+            99240,
+            93015,
+            88866,
+            86929,
+            88866,
+            90098,
+            92609,
+            99240
+          ],
+          [
+            109410,
+            112158,
+            113881,
+            112748,
+            112440,
+            109176,
+            107354
+          ],
+          [
+            677,
+            113881,
+            113963,
+            1067,
+            677
+          ],
+          [
+            107315,
+            109427,
+            112029,
+            113963
+          ],
+          [
+            17448,
+            18246,
+            18614,
+            18532,
+            17358,
+            15863,
+            14328,
+            13268,
+            13531,
+            14328,
+            13531,
+            14632,
+            15863,
+            14632,
+            14668,
+            14576,
+            18532,
+            14576,
+            14354
+          ],
+          [
+            17358,
+            19343,
+            19812,
+            20070,
+            19167
+          ],
+          [
+            14632,
+            12777,
+            8068
+          ],
+          [
+            2081,
+            5165,
+            6867
+          ],
+          [
+            2081,
+            765,
+            5165,
+            5348,
+            7083,
+            6867
+          ],
+          [
+            32607,
+            27530,
+            27321
+          ],
+          [
+            113368,
+            113246,
+            112948,
+            111188,
+            109285,
+            107380,
+            107608,
+            109285,
+            111954,
+            113368
+          ],
+          [
+            5742,
+            6193,
+            5586,
+            5742,
+            7097,
+            8198,
+            9487,
+            7884,
+            4906,
+            3786,
+            118268,
+            116771,
+            115830,
+            114971,
+            115738,
+            116928,
+            116771
+          ],
+          [
+            39953,
+            39429,
+            39757,
+            38170,
+            37229,
+            36917,
+            35264,
+            31685,
+            30438
+          ],
+          [
+            36917,
+            37677,
+            38070,
+            38170
+          ],
+          [
+            39429,
+            42515,
+            42828,
+            43409
+          ],
+          [
+            19780,
+            17440,
+            18597,
+            19921,
+            19780
+          ],
+          [
+            4577,
+            117452,
+            115102,
+            116231
+          ],
+          [
+            78820,
+            78401,
+            78265,
+            78401,
+            80112,
+            80763,
+            81266,
+            82396,
+            82514,
+            82729,
+            84143,
+            86228,
+            87073,
+            86670,
+            85696,
+            85927,
+            87261
+          ],
+          [
+            78820,
+            79374
+          ],
+          [
+            78265,
+            78104
+          ],
+          [
+            92175,
+            91117,
+            90595,
+            91726,
+            92175
+          ],
+          [
+            77233,
+            78072,
+            77450,
+            76852,
+            77233,
+            76276,
+            77070,
+            77622,
+            77516,
+            79593
+          ],
+          [
+            84012,
+            86263,
+            88048,
+            89962,
+            92946
+          ],
+          [
+            48437,
+            49641,
+            51437,
+            51362
+          ],
+          [
+            98337,
+            97365,
+            96757,
+            97365,
+            96837
+          ],
+          [
+            90185,
+            88635,
+            89931,
+            90185,
+            89931,
+            90496,
+            92041,
+            89931,
+            92041,
+            92855,
+            93864,
+            93506,
+            92041,
+            93506,
+            90185,
+            89642
+          ],
+          [
+            90496,
+            89341
+          ],
+          [
+            95168,
+            94141,
+            93683,
+            93085,
+            94141
+          ],
+          [
+            26451,
+            21421,
+            20894,
+            20205,
+            20455,
+            20889,
+            25428
+          ],
+          [
+            16083,
+            18907
+          ],
+          [
+            15900,
+            16852
+          ],
+          [
+            20205,
+            18724,
+            16083
+          ],
+          [
+            89112,
+            90422,
+            90568
+          ],
+          [
+            82273,
+            77952,
+            76440,
+            74946,
+            82273
+          ],
+          [
+            8796,
+            10064,
+            10670,
+            8796
+          ],
+          [
+            2484,
+            1599,
+            118322,
+            110838,
+            110130,
+            114996,
+            2484
+          ],
+          [
+            58001,
+            57399,
+            54539,
+            50801,
+            50372,
+            50801,
+            54539,
+            57399,
+            55219,
+            55203
+          ],
+          [
+            59774,
+            54061,
+            53910,
+            58001,
+            59774,
+            62956,
+            65378,
+            67301
+          ],
+          [
+            54061,
+            46733,
+            48319,
+            46733,
+            41704,
+            48319,
+            53910,
+            48319,
+            46853,
+            44471,
+            44127
+          ],
+          [
+            11767,
+            85822,
+            82080,
+            77055,
+            79822,
+            75097,
+            72607,
+            77055
+          ],
+          [
+            42913,
+            39953,
+            44816,
+            46651,
+            50191,
+            52727,
+            48774,
+            45941,
+            42913
+          ],
+          [
+            60129,
+            58948,
+            57380,
+            57757,
+            60129,
+            61941,
+            63090,
+            63608,
+            63090,
+            61941,
+            64238,
+            65474,
+            64238,
+            61941,
+            66249,
+            68520,
+            72220,
+            68520,
+            66249,
+            69701,
+            71957
+          ],
+          [
+            44382,
+            41312,
+            39794,
+            35228,
+            34481,
+            39794,
+            44382
+          ],
+          [
+            95771,
+            97886
+          ]
+        ],
+        "white",
+        0.7
+      ]
+    ],
+    "托": [
+      [
+        [
+          [
+            677,
+            3092,
+            5447,
+            9640
+          ],
+          [
+            113726,
+            116631,
+            116805,
+            116584
+          ],
+          [
+            116631,
+            2912,
+            3092
+          ],
+          [
+            2912,
+            5447,
+            4436,
+            3881,
+            5434,
+            7607
+          ],
+          [
+            3092,
+            3031,
+            3693,
+            4463
+          ],
+          [
+            102618,
+            106278,
+            109074,
+            110395,
+            110960,
+            111497,
+            110960,
+            110672,
+            109074
+          ],
+          [
+            109139,
+            106278,
+            109074,
+            110003,
+            112961,
+            114724,
+            115033,
+            115438,
+            115033,
+            114341,
+            115033,
+            113136,
+            112716,
+            112961
+          ],
+          [
+            98036,
+            97649,
+            97278,
+            95501,
+            93805,
+            95501,
+            93747,
+            95501,
+            97804,
+            99473
+          ],
+          [
+            93244,
+            93747
+          ],
+          [
+            93805,
+            93429
+          ],
+          [
+            99473,
+            96468,
+            93805,
+            93747
+          ],
+          [
+            85267,
+            85727,
+            82363,
+            83081,
+            83153,
+            85792,
+            88714,
+            85792,
+            85258
+          ],
+          [
+            8832,
+            8903,
+            9884,
+            13209
+          ],
+          [
+            25428,
+            23015,
+            23767,
+            24608,
+            28360,
+            28380,
+            25428
+          ],
+          [
+            23767,
+            23453,
+            23416,
+            24608,
+            28358,
+            28360
+          ],
+          [
+            69673,
+            72105,
+            74666,
+            73555,
+            71075,
+            71053,
+            69673,
+            67927,
+            67275
+          ],
+          [
+            69673,
+            71795
+          ],
+          [
+            71075,
+            69732,
+            70497,
+            69483,
+            69732
+          ],
+          [
+            30324,
+            32349,
+            34444,
+            33579,
+            34444,
+            35904
+          ],
+          [
+            30324,
+            31592,
+            33152,
+            33579
+          ],
+          [
+            32349,
+            33347,
+            34045,
+            33160,
+            33347
+          ],
+          [
+            37279,
+            36188
+          ],
+          [
+            44066,
+            42911,
+            40526,
+            42911,
+            42806,
+            43103
+          ],
+          [
+            100064,
+            100345,
+            102485,
+            102978,
+            105881,
+            106723,
+            107556,
+            106985,
+            104139,
+            100064
+          ],
+          [
+            746,
+            3179,
+            4427,
+            6686,
+            8886
+          ],
+          [
+            61932,
+            66657,
+            68702,
+            71683,
+            68702,
+            66657,
+            68002,
+            61932,
+            68002,
+            68282,
+            68245,
+            71352,
+            68245,
+            68862,
+            70090,
+            68933,
+            67464,
+            68002
+          ],
+          [
+            55425,
+            59196,
+            60823,
+            61932,
+            60823,
+            59449,
+            56243
+          ],
+          [
+            67464,
+            65936,
+            65109,
+            61789
+          ],
+          [
+            71352,
+            73334
+          ],
+          [
+            102422,
+            105199,
+            106032,
+            112724,
+            106032,
+            116727,
+            112724,
+            110991,
+            109492,
+            109857,
+            107259,
+            105199
+          ],
+          [
+            101093,
+            102422
+          ],
+          [
+            12706,
+            14135,
+            13954,
+            12828,
+            11484,
+            12706,
+            12387,
+            10826,
+            8645,
+            8102,
+            3419,
+            1562,
+            5364,
+            6537,
+            8645
+          ],
+          [
+            93825,
+            94114,
+            94160,
+            94005,
+            90982
+          ],
+          [
+            76127,
+            75695,
+            76267,
+            76952,
+            77512,
+            78159,
+            78493
+          ],
+          [
+            60965,
+            59803,
+            59316,
+            61359,
+            60965
+          ],
+          [
+            59316,
+            59199
+          ],
+          [
+            53740,
+            54682,
+            55705,
+            57283,
+            58188,
+            57283,
+            55705,
+            55282,
+            55687,
+            56633,
+            55687,
+            55282,
+            53740
+          ],
+          [
+            102098,
+            100453,
+            102488,
+            100453,
+            95947,
+            100453,
+            97165,
+            95853,
+            94779,
+            95853,
+            99848,
+            102098,
+            103413,
+            104732,
+            102488
+          ],
+          [
+            101421,
+            101769,
+            101958,
+            102532,
+            102281,
+            101769
+          ],
+          [
+            56211,
+            61281,
+            68756,
+            75458,
+            78527,
+            80331,
+            83895,
+            89908,
+            89937,
+            89908,
+            94376,
+            97433,
+            94376,
+            87585,
+            85829,
+            85670,
+            87833,
+            87585,
+            94376
+          ],
+          [
+            104987,
+            104858,
+            104521
+          ],
+          [
+            23875,
+            22109,
+            21444,
+            19587,
+            18543,
+            17593,
+            17378,
+            16537,
+            13701,
+            12770,
+            12770,
+            12843,
+            14146,
+            15474,
+            16611,
+            17651,
+            18216,
+            18673,
+            21248,
+            21393,
+            20535,
+            20042,
+            17874,
+            17874,
+            16870,
+            15510,
+            13847,
+            12486,
+            12413,
+            11407,
+            9007,
+            7588
+          ],
+          [
+            32362,
+            35350,
+            35550,
+            34088,
+            31681,
+            34088,
+            35550,
+            36962,
+            37740,
+            36962,
+            37826,
+            36962,
+            36046,
+            34693,
+            36850,
+            34693,
+            33018,
+            34693,
+            32246,
+            30883,
+            32246,
+            30343,
+            29655,
+            28734
+          ],
+          [
+            84379,
+            84345,
+            80816,
+            80170,
+            80816,
+            81693,
+            83207,
+            81693,
+            81833,
+            81126,
+            79992,
+            81126,
+            81833,
+            84380,
+            85112,
+            87808,
+            86414,
+            87808,
+            85112,
+            84380,
+            83207,
+            84379,
+            85693,
+            86974,
+            87933,
+            88794
+          ],
+          [
+            77760,
+            79101,
+            79992
+          ],
+          [
+            80170,
+            80463,
+            81008
+          ],
+          [
+            43234,
+            42799,
+            42402,
+            42313,
+            43109,
+            43813,
+            45336,
+            47431,
+            46390,
+            48356,
+            49402,
+            49841,
+            51069,
+            52943,
+            53740
+          ],
+          [
+            54682,
+            56343,
+            57936,
+            64962,
+            68895,
+            72571
+          ],
+          [
+            49669,
+            49583,
+            50583,
+            50335,
+            48455,
+            47908
+          ],
+          [
+            50583,
+            54872,
+            57632,
+            54879,
+            54872,
+            54879,
+            49583
+          ],
+          [
+            48455,
+            46146,
+            46750,
+            47908,
+            49583
+          ],
+          [
+            54879,
+            55642,
+            55434
+          ],
+          [
+            23685,
+            24305,
+            25985,
+            25606,
+            23685
+          ],
+          [
+            24845,
+            24305,
+            24327
+          ],
+          [
+            25606,
+            27072,
+            27654,
+            28910,
+            28103,
+            27288,
+            25985
+          ],
+          [
+            72622,
+            74785
+          ],
+          [
+            72622,
+            73714
+          ],
+          [
+            74785,
+            76333,
+            72622,
+            76333,
+            76470,
+            76600
+          ],
+          [
+            71860,
+            74395,
+            75264,
+            76297,
+            75141,
+            73273,
+            75141,
+            76297,
+            78384,
+            75177,
+            77634,
+            78384,
+            74395
+          ],
+          [
+            91262,
+            91919,
+            91971,
+            91262,
+            91971,
+            92791,
+            93194,
+            92420,
+            91971
+          ],
+          [
+            86032,
+            83000,
+            80883,
+            79593,
+            79882,
+            80628,
+            81377,
+            80628,
+            79882,
+            79593,
+            80883,
+            83000,
+            81377,
+            84012,
+            86742,
+            87108,
+            88048,
+            87108,
+            86742,
+            86032
+          ],
+          [
+            84012,
+            84970,
+            85423
+          ],
+          [
+            81377,
+            80894,
+            80569,
+            80343,
+            80473
+          ],
+          [
+            27989,
+            26727,
+            27366,
+            26727,
+            26311,
+            25930,
+            25336,
+            25930,
+            25281,
+            24436
+          ],
+          [
+            27989,
+            25336,
+            26207,
+            26207,
+            27989
+          ],
+          [
+            23607,
+            22957,
+            22845,
+            22509,
+            22449,
+            25336,
+            22449,
+            22549,
+            22797,
+            23123
+          ],
+          [
+            27989,
+            28614,
+            29038
+          ],
+          [
+            29426,
+            28716,
+            27913,
+            29038
+          ],
+          [
+            109410,
+            112158,
+            113881,
+            112748,
+            112440,
+            109176,
+            107354
+          ],
+          [
+            677,
+            113881,
+            113963,
+            1067,
+            677
+          ],
+          [
+            107315,
+            109427,
+            112029,
+            113963
+          ],
+          [
+            17448,
+            18246,
+            18614,
+            18532,
+            17358,
+            15863,
+            14328,
+            13268,
+            13531,
+            14328,
+            13531,
+            14632,
+            15863,
+            14632,
+            14668,
+            14576,
+            18532,
+            14576,
+            14354
+          ],
+          [
+            17358,
+            19343,
+            19812,
+            20070,
+            19167
+          ],
+          [
+            14632,
+            12777,
+            8068
+          ],
+          [
+            5742,
+            6193,
+            5586,
+            5742,
+            7097,
+            8198,
+            9487,
+            7884,
+            4906,
+            3786,
+            118268,
+            116771,
+            115830,
+            114971,
+            115738,
+            116928,
+            116771
+          ],
+          [
+            113368,
+            113246,
+            112948,
+            111188,
+            109285,
+            107380,
+            107608,
+            109285,
+            111954,
+            113368
+          ],
+          [
+            98337,
+            97365,
+            96757,
+            97365,
+            96837
+          ],
+          [
+            90185,
+            88635,
+            89931,
+            90185,
+            89931,
+            90496,
+            92041,
+            89931,
+            92041,
+            92855,
+            93864,
+            93506,
+            92041,
+            93506,
+            90185,
+            89642
+          ],
+          [
+            90496,
+            89341
+          ],
+          [
+            95168,
+            94141,
+            93683,
+            93085,
+            94141
+          ],
+          [
+            78820,
+            78401,
+            78265,
+            78401,
+            80112,
+            80763,
+            81266,
+            82396,
+            82514,
+            82729,
+            84143,
+            86228,
+            87073,
+            86670,
+            85696,
+            85927,
+            87261
+          ],
+          [
+            78820,
+            79374
+          ],
+          [
+            78265,
+            78104
+          ],
+          [
+            77233,
+            78072,
+            77450,
+            76852,
+            77233,
+            76276,
+            77070,
+            77622,
+            77516,
+            79593
+          ],
+          [
+            84012,
+            86263,
+            88048,
+            89962,
+            92946
+          ],
+          [
+            26451,
+            21421,
+            20894,
+            20205,
+            20455,
+            20889,
+            25428
+          ],
+          [
+            16083,
+            18907
+          ],
+          [
+            15900,
+            16852
+          ],
+          [
+            20205,
+            18724,
+            16083
+          ],
+          [
+            8796,
+            10064,
+            10670,
+            8796
+          ],
+          [
+            58001,
+            57399,
+            54539,
+            50801,
+            50372,
+            50801,
+            54539,
+            57399,
+            55219,
+            55203
+          ],
+          [
+            59774,
+            54061,
+            53910,
+            58001,
+            59774,
+            62956,
+            65378,
+            67301
+          ],
+          [
+            54061,
+            46733,
+            48319,
+            46733,
+            41704,
+            48319,
+            53910,
+            48319,
+            46853,
+            44471,
+            44127
+          ],
+          [
+            11767,
+            85822,
+            82080,
+            77055,
+            79822,
+            75097,
+            72607,
+            77055
+          ],
+          [
+            60129,
+            58948,
+            57380,
+            57757,
+            60129,
+            61941,
+            63090,
+            63608,
+            63090,
+            61941,
+            64238,
+            65474,
+            64238,
+            61941,
+            66249,
+            68520,
+            72220,
+            68520,
+            66249,
+            69701,
+            71957
+          ],
+          [
+            30438,
+            45238,
+            50099,
+            52419,
+            51576,
+            50371,
+            45556,
+            42913
+          ],
+          [
+            51576,
+            53253
+          ],
+          [
+            52419,
+            54301,
+            54751,
+            54463,
+            53253
+          ],
+          [
+            45556,
+            41037,
+            38827,
+            39953
+          ],
+          [
+            39953,
+            39429,
+            39757,
+            38170,
+            37229,
+            36917,
+            35264,
+            31685,
+            30438
+          ],
+          [
+            36917,
+            37677,
+            38070,
+            38170
+          ],
+          [
+            42913,
+            39953,
+            44816,
+            46651,
+            50191,
+            52727,
+            48774,
+            45941,
+            42913
+          ]
+        ],
+        "amber",
+        0.9
+      ]
+    ],
+    "南12": [
+      [
+        [
+          [
+            72370,
+            81065
+          ],
+          [
+            80047,
+            81852,
+            81065
+          ],
+          [
+            40702,
+            51839,
+            52633,
+            60000,
+            58484,
+            51839
+          ],
+          [
+            19893,
+            21281,
+            23693,
+            26069,
+            21281,
+            26069,
+            27100,
+            27890,
+            26069
+          ],
+          [
+            108085,
+            109111,
+            110997,
+            109268,
+            112122,
+            110997,
+            112122,
+            112623,
+            113638
+          ],
+          [
+            2021,
+            17678,
+            11001,
+            9236,
+            2021
+          ],
+          [
+            103227,
+            102333,
+            101772,
+            105319,
+            108431,
+            103227
+          ],
+          [
+            57363,
+            59929,
+            61585,
+            62322,
+            63613,
+            61199,
+            61585
+          ],
+          [
+            100751,
+            99240,
+            102395
+          ],
+          [
+            100751,
+            105858,
+            102395
+          ],
+          [
+            91792,
+            99240,
+            98495,
+            99240,
+            93015,
+            88866,
+            86929,
+            88866,
+            90098,
+            92609,
+            99240
+          ],
+          [
+            2081,
+            5165,
+            6867
+          ],
+          [
+            2081,
+            765,
+            5165,
+            5348,
+            7083,
+            6867
+          ],
+          [
+            82273,
+            77952,
+            76440,
+            74946,
+            82273
+          ],
+          [
+            2484,
+            1599,
+            118322,
+            110838,
+            110130,
+            114996,
+            2484
+          ],
+          [
+            44382,
+            41312,
+            39794,
+            35228,
+            34481,
+            39794,
+            44382
+          ]
+        ],
+        "green",
+        1.1
+      ]
+    ],
+    "赫": [
+      [
+        [
+          [
+            63125,
+            61317
+          ],
+          [
+            111022,
+            111169,
+            110538,
+            110609,
+            111022,
+            110351,
+            111104,
+            111944,
+            111104,
+            111944,
+            111022,
+            111944,
+            111104,
+            109754,
+            109937
+          ],
+          [
+            46952,
+            49593,
+            51233,
+            53229,
+            51056,
+            49593
+          ],
+          [
+            45860,
+            45688,
+            44700,
+            44248,
+            41075,
+            36145,
+            33449,
+            30060
+          ],
+          [
+            92175,
+            91117,
+            90595,
+            91726,
+            92175
+          ],
+          [
+            48437,
+            49641,
+            51437,
+            51362
+          ],
+          [
+            95771,
+            97886
+          ]
+        ],
+        "blue",
+        1.1
+      ]
+    ],
+    "拉": [
+      [
+        [
+          [
+            53502,
+            51172,
+            46515
+          ],
+          [
+            23595,
+            21861,
+            21770,
+            21060
+          ],
+          [
+            74824,
+            71908,
+            75323
+          ],
+          [
+            14879,
+            13147,
+            9677
+          ],
+          [
+            19747,
+            12653,
+            12225,
+            12484,
+            14240,
+            13884
+          ],
+          [
+            29271,
+            23467
+          ],
+          [
+            102831,
+            102989
+          ],
+          [
+            78639,
+            80000,
+            80582,
+            78914,
+            78639
+          ],
+          [
+            70638,
+            107089,
+            112405,
+            70638
+          ],
+          [
+            32607,
+            27530,
+            27321
+          ],
+          [
+            39429,
+            42515,
+            42828,
+            43409
+          ],
+          [
+            19780,
+            17440,
+            18597,
+            19921,
+            19780
+          ],
+          [
+            4577,
+            117452,
+            115102,
+            116231
+          ],
+          [
+            89112,
+            90422,
+            90568
+          ]
+        ],
+        "purple",
+        1.1
+      ]
+    ],
+    "蛇": [
+      [
+        [
+          [
+            77233,
+            78072,
+            77450,
+            76852,
+            77233,
+            76276,
+            77070,
+            77622,
+            77516,
+            79593
+          ],
+          [
+            84012,
+            86263,
+            88048,
+            89962,
+            92946
+          ]
+        ],
+        "green",
+        1.1
+      ],
+      [
+        [
+          [
+            86032,
+            83000,
+            80883,
+            79593,
+            79882,
+            80628,
+            81377,
+            80628,
+            79882,
+            79593,
+            80883,
+            83000,
+            81377,
+            84012,
+            86742,
+            87108,
+            88048,
+            87108,
+            86742,
+            86032
+          ],
+          [
+            84012,
+            84970,
+            85423
+          ],
+          [
+            81377,
+            80894,
+            80569,
+            80343,
+            80473
+          ]
+        ],
+        "amber",
+        1.0
+      ],
+      [
+        [
+          [
+            92175,
+            91117,
+            90595,
+            91726,
+            92175
+          ]
+        ],
+        "blue",
+        1.1
+      ]
+    ],
+    "中": [
+      [
+        [
+          [
+            20889,
+            20648,
+            20455,
+            20205
+          ],
+          [
+            21421,
+            20885,
+            20713,
+            20205,
+            18724
+          ],
+          [
+            21421,
+            21683
+          ],
+          [
+            1067,
+            677
+          ],
+          [
+            27989,
+            26727,
+            26311,
+            25930,
+            24436
+          ],
+          [
+            25930,
+            25336
+          ],
+          [
+            26727,
+            27366
+          ],
+          [
+            72622,
+            74392,
+            76333,
+            74785
+          ],
+          [
+            89341,
+            90496,
+            92041,
+            92855,
+            93864,
+            93506
+          ],
+          [
+            78820,
+            78401,
+            78265,
+            78104
+          ],
+          [
+            41822,
+            41909,
+            42806,
+            42911
+          ],
+          [
+            88635,
+            89931,
+            90185,
+            89642
+          ],
+          [
+            65474,
+            66249
+          ],
+          [
+            35350,
+            34088,
+            32921,
+            32246
+          ],
+          [
+            32921,
+            30883,
+            30343
+          ],
+          [
+            30883,
+            31681,
+            34088
+          ],
+          [
+            31681,
+            32362
+          ],
+          [
+            30343,
+            29655
+          ],
+          [
+            69427,
+            69701,
+            70755
+          ],
+          [
+            69427,
+            69974
+          ],
+          [
+            4463,
+            3693,
+            3885,
+            3031,
+            3092,
+            2912,
+            3881,
+            4436,
+            5447,
+            5175,
+            5586,
+            6315,
+            6193,
+            5742,
+            5571,
+            5131,
+            4463
+          ],
+          [
+            43234,
+            42799,
+            42402,
+            42313,
+            43109,
+            43813,
+            44659,
+            45336
+          ],
+          [
+            9884,
+            8903,
+            8832
+          ],
+          [
+            17499,
+            17531,
+            17579,
+            17573
+          ],
+          [
+            17499,
+            17608,
+            17702,
+            17847
+          ],
+          [
+            100064,
+            100345,
+            99572
+          ],
+          [
+            100345,
+            100881,
+            101123,
+            101027
+          ],
+          [
+            100345,
+            101027
+          ],
+          [
+            102618,
+            103045,
+            102945,
+            102624
+          ],
+          [
+            113963,
+            113881
+          ],
+          [
+            57757,
+            55434,
+            55642,
+            54879,
+            54872
+          ],
+          [
+            60129,
+            61941,
+            63090,
+            63608,
+            64241
+          ],
+          [
+            80816,
+            80170,
+            79043,
+            78072,
+            77233,
+            76276,
+            77070,
+            77622,
+            79593,
+            79882,
+            81377
+          ],
+          [
+            84379,
+            85693,
+            86974,
+            88794,
+            92614,
+            93747,
+            92946,
+            89962,
+            88048,
+            86263,
+            84012
+          ],
+          [
+            109074,
+            109427,
+            107315
+          ],
+          [
+            82396,
+            82514,
+            82671,
+            84143,
+            86228,
+            87073,
+            86670,
+            85927
+          ],
+          [
+            86670,
+            85696
+          ],
+          [
+            12719,
+            13061,
+            13209
+          ],
+          [
+            80112,
+            80763,
+            81266
+          ],
+          [
+            46390,
+            46509,
+            46776,
+            47431
+          ],
+          [
+            46390,
+            45811,
+            45751,
+            46744
+          ],
+          [
+            46390,
+            46744
+          ],
+          [
+            106278,
+            104987
+          ],
+          [
+            53740,
+            55705
+          ],
+          [
+            53740,
+            55598
+          ],
+          [
+            53740,
+            52943
+          ],
+          [
+            55705,
+            57283,
+            55598
+          ],
+          [
+            57283,
+            58188
+          ],
+          [
+            55705,
+            55282,
+            56802,
+            55874,
+            55687,
+            54214,
+            53975
+          ],
+          [
+            55687,
+            56633,
+            57587
+          ],
+          [
+            55598,
+            54682,
+            56245,
+            54204,
+            56830
+          ],
+          [
+            48356,
+            49841,
+            51069,
+            49321
+          ],
+          [
+            48356,
+            49321
+          ],
+          [
+            48356,
+            47452
+          ],
+          [
+            51069,
+            52085
+          ],
+          [
+            61359,
+            60965,
+            59803,
+            59316
+          ],
+          [
+            59803,
+            60189
+          ],
+          [
+            60965,
+            61174
+          ],
+          [
+            59316,
+            59199
+          ],
+          [
+            68756,
+            61281,
+            56211,
+            46977,
+            33104,
+            22783,
+            15520
+          ],
+          [
+            75458,
+            78527,
+            80331,
+            83895,
+            92782,
+            101260,
+            114222,
+            3721
+          ],
+          [
+            26207,
+            26176
+          ],
+          [
+            26207,
+            26366
+          ],
+          [
+            28358,
+            27949,
+            27249,
+            24348
+          ],
+          [
+            27249,
+            23040
+          ],
+          [
+            23783,
+            23734,
+            27971
+          ],
+          [
+            910,
+            301,
+            118178
+          ],
+          [
+            910,
+            355
+          ],
+          [
+            910,
+            1803
+          ],
+          [
+            910,
+            1170
+          ],
+          [
+            101421,
+            101483,
+            101882,
+            101800,
+            101916
+          ],
+          [
+            108085,
+            109111,
+            112948,
+            112102
+          ],
+          [
+            54061,
+            53910,
+            58001,
+            59774,
+            62956,
+            65378,
+            67301
+          ],
+          [
+            37826,
+            36850,
+            36366
+          ],
+          [
+            75097,
+            72607,
+            70692,
+            69112,
+            62572
+          ],
+          [
+            113368,
+            113368
+          ],
+          [
+            90422,
+            92308,
+            93542,
+            94005,
+            94160,
+            94114,
+            93825,
+            93174,
+            92989,
+            90968,
+            90982,
+            90422
+          ],
+          [
+            97816,
+            101772,
+            106065,
+            108431,
+            108626,
+            102333,
+            102950
+          ],
+          [
+            88267,
+            88886
+          ],
+          [
+            22667,
+            22957,
+            22833,
+            22845,
+            22509,
+            22449,
+            22549,
+            22797,
+            23123
+          ],
+          [
+            25985,
+            25606,
+            27072,
+            27654
+          ],
+          [
+            4427,
+            4427
+          ],
+          [
+            63125,
+            62207,
+            61692,
+            61317,
+            60646,
+            59831,
+            58684
+          ],
+          [
+            112917,
+            111944,
+            110351,
+            106481,
+            103632,
+            104060,
+            106711
+          ],
+          [
+            74395,
+            71536,
+            71121
+          ],
+          [
+            80628,
+            82369
+          ],
+          [
+            11345,
+            12002,
+            10642
+          ],
+          [
+            11261,
+            11029,
+            12390
+          ],
+          [
+            86092,
+            85792,
+            85258
+          ],
+          [
+            109937,
+            109410,
+            109056
+          ],
+          [
+            60189,
+            60189
+          ],
+          [
+            117371,
+            2707,
+            4714,
+            5589,
+            10438,
+            13665,
+            16228,
+            16281,
+            16292
+          ],
+          [
+            77634,
+            76945
+          ],
+          [
+            56975,
+            56975
+          ],
+          [
+            69673,
+            69673
+          ],
+          [
+            59504,
+            59504
+          ],
+          [
+            11060,
+            13531,
+            14632,
+            14668,
+            14576,
+            14354,
+            13254,
+            12623
+          ],
+          [
+            69226,
+            68478,
+            68103
+          ],
+          [
+            84345,
+            84345
+          ],
+          [
+            80894,
+            80569,
+            80343,
+            80975
+          ],
+          [
+            80463,
+            79492,
+            79634,
+            81008,
+            81354
+          ],
+          [
+            74604,
+            75177
+          ],
+          [
+            26237,
+            26235,
+            26241
+          ],
+          [
+            26237,
+            26311
+          ],
+          [
+            79672,
+            79005,
+            78400
+          ],
+          [
+            44382,
+            34481
+          ],
+          [
+            44382,
+            41312
+          ],
+          [
+            44382,
+            40817
+          ],
+          [
+            44382,
+            35228
+          ],
+          [
+            44382,
+            37504
+          ],
+          [
+            110960,
+            110395
+          ],
+          [
+            110960,
+            111497
+          ],
+          [
+            110960,
+            110672,
+            109427
+          ],
+          [
+            116889,
+            117089,
+            117629
+          ],
+          [
+            6960,
+            7679,
+            9347,
+            9061
+          ],
+          [
+            91755,
+            90905,
+            90156,
+            92512,
+            92997,
+            93340,
+            93713
+          ],
+          [
+            17678,
+            13244
+          ],
+          [
+            2920,
+            2920
+          ],
+          [
+            87261,
+            87261
+          ],
+          [
+            108874,
+            108991
+          ],
+          [
+            17959,
+            14862,
+            9763,
+            9802,
+            9598,
+            10031,
+            9480,
+            8016,
+            7078
+          ],
+          [
+            11569,
+            8886,
+            6686,
+            5542,
+            3801,
+            3504
+          ],
+          [
+            72105,
+            71284,
+            71053
+          ],
+          [
+            113116,
+            5372,
+            11767,
+            85822,
+            82080,
+            77055
+          ],
+          [
+            78933,
+            78990
+          ],
+          [
+            78933,
+            78820
+          ],
+          [
+            96465,
+            95477
+          ],
+          [
+            98066,
+            98353,
+            98688,
+            98162,
+            98066
+          ],
+          [
+            77048,
+            76127,
+            75695,
+            76267,
+            76952,
+            77512,
+            78159,
+            78493,
+            78459
+          ],
+          [
+            40023,
+            40881,
+            41377,
+            40240
+          ],
+          [
+            83153,
+            85267,
+            85727,
+            82363,
+            83081
+          ],
+          [
+            56606,
+            56561,
+            57363
+          ],
+          [
+            41037,
+            45556,
+            46974,
+            47854,
+            48002
+          ],
+          [
+            98036,
+            97649,
+            97278
+          ],
+          [
+            109268,
+            112122,
+            112623,
+            112374,
+            114996,
+            113638,
+            112122,
+            114421
+          ],
+          [
+            112122,
+            114131
+          ],
+          [
+            112122,
+            112203,
+            110936
+          ],
+          [
+            112122,
+            111043,
+            109908
+          ],
+          [
+            67464,
+            67472,
+            68245,
+            68862
+          ],
+          [
+            86032,
+            86032
+          ],
+          [
+            34444,
+            35904,
+            37819,
+            38901,
+            38070,
+            37229,
+            35904,
+            33579,
+            32759,
+            35264,
+            37819
+          ],
+          [
+            82673,
+            83000,
+            82402,
+            82073
+          ],
+          [
+            54951,
+            54951
+          ],
+          [
+            102532,
+            101958,
+            101769,
+            102281,
+            102532
+          ],
+          [
+            101769,
+            101589
+          ],
+          [
+            7078,
+            7650
+          ],
+          [
+            7078,
+            5926
+          ],
+          [
+            7078,
+            5518
+          ],
+          [
+            7078,
+            6692
+          ],
+          [
+            7078,
+            7965
+          ],
+          [
+            7078,
+            9009
+          ],
+          [
+            83430,
+            83478,
+            83613,
+            84177
+          ],
+          [
+            116231,
+            116389,
+            116602,
+            765,
+            2072,
+            2081,
+            3245,
+            2472,
+            5165,
+            6867
+          ],
+          [
+            13879,
+            13879
+          ],
+          [
+            19167,
+            19167
+          ],
+          [
+            37740,
+            37740
+          ],
+          [
+            78918,
+            78384
+          ],
+          [
+            24372,
+            19780
+          ],
+          [
+            93085,
+            93683,
+            94141,
+            94820,
+            95168,
+            95176
+          ],
+          [
+            92791,
+            92420,
+            93194,
+            93903
+          ],
+          [
+            79374,
+            79374
+          ],
+          [
+            19893,
+            21281,
+            26069,
+            27100,
+            29134
+          ],
+          [
+            63414,
+            63414
+          ],
+          [
+            35710,
+            35710
+          ],
+          [
+            104680,
+            104680
+          ],
+          [
+            61960,
+            62267,
+            61579
+          ],
+          [
+            21515,
+            22109,
+            22701,
+            23221,
+            23231,
+            22479,
+            22263,
+            21763,
+            23474
+          ],
+          [
+            19777,
+            19587,
+            20507,
+            21444,
+            22024,
+            21986
+          ],
+          [
+            47723,
+            46771,
+            46454
+          ],
+          [
+            110371,
+            109176,
+            107354,
+            107310
+          ],
+          [
+            17529,
+            18532,
+            18614,
+            18246,
+            17448,
+            17313
+          ],
+          [
+            24244,
+            24327,
+            24845,
+            24873
+          ],
+          [
+            5434,
+            5434
+          ],
+          [
+            30324,
+            31700,
+            33092,
+            33248,
+            33152,
+            31125,
+            30324
+          ],
+          [
+            85423,
+            85423
+          ],
+          [
+            70027,
+            69260,
+            69536,
+            69989
+          ],
+          [
+            86929,
+            88866,
+            90797,
+            92609,
+            93015,
+            99240,
+            102395,
+            91792,
+            98495,
+            105858,
+            100751
+          ],
+          [
+            108036,
+            109472
+          ],
+          [
+            68002,
+            71352,
+            68933,
+            67457,
+            65936,
+            63945,
+            61932,
+            61622,
+            60517,
+            60823
+          ],
+          [
+            62763,
+            62763
+          ],
+          [
+            60742,
+            60697,
+            60746,
+            60904,
+            60514,
+            60351,
+            61071,
+            60941,
+            59847,
+            61394,
+            61724,
+            60957,
+            59501,
+            58858
+          ],
+          [
+            30438,
+            30438
+          ],
+          [
+            115919,
+            115444,
+            114144,
+            112935,
+            112447,
+            112029
+          ],
+          [
+            145,
+            118209,
+            154,
+            443,
+            145
+          ],
+          [
+            118209,
+            114724,
+            112961,
+            111123,
+            109139,
+            107556,
+            106985,
+            106723,
+            107188,
+            107556
+          ],
+          [
+            112440,
+            112748
+          ],
+          [
+            112051,
+            112158
+          ],
+          [
+            115250,
+            115623
+          ],
+          [
+            113881,
+            112748
+          ],
+          [
+            113881,
+            112158
+          ],
+          [
+            113881,
+            115250
+          ],
+          [
+            105140,
+            106067
+          ],
+          [
+            101936,
+            101847,
+            101692,
+            101101
+          ],
+          [
+            19205,
+            19513,
+            20430,
+            20250
+          ],
+          [
+            80179,
+            80883
+          ],
+          [
+            54182,
+            53824,
+            53807
+          ],
+          [
+            32439,
+            33694,
+            39538,
+            36547,
+            23265,
+            25110
+          ],
+          [
+            101923,
+            101984,
+            102487
+          ],
+          [
+            68702,
+            65129
+          ],
+          [
+            60710,
+            59449,
+            59196
+          ],
+          [
+            62322,
+            61585
+          ],
+          [
+            62322,
+            61199
+          ],
+          [
+            62322,
+            63613
+          ],
+          [
+            55945,
+            56647,
+            56127
+          ],
+          [
+            50371,
+            51576,
+            52419,
+            50099,
+            45238
+          ],
+          [
+            36041,
+            36188,
+            37279
+          ],
+          [
+            66657,
+            71683
+          ],
+          [
+            62423,
+            63076
+          ],
+          [
+            41704,
+            45333,
+            43903
+          ],
+          [
+            46733,
+            43644,
+            45455
+          ],
+          [
+            50218,
+            49593,
+            47631,
+            48742
+          ],
+          [
+            57328,
+            57380,
+            58590,
+            58948
+          ],
+          [
+            92862,
+            94481,
+            94713,
+            95556,
+            97295
+          ],
+          [
+            110130,
+            110838,
+            118092,
+            2484,
+            3330,
+            1599,
+            118322
+          ],
+          [
+            91918,
+            91918
+          ],
+          [
+            84380,
+            84606,
+            85112
+          ],
+          [
+            87728,
+            87728
+          ],
+          [
+            113889,
+            114971,
+            115830,
+            116771,
+            118268
+          ],
+          [
+            64962,
+            68895
+          ],
+          [
+            64238,
+            66803
+          ],
+          [
+            24305,
+            23685
+          ],
+          [
+            81497,
+            79992,
+            79101,
+            77760,
+            75973,
+            75411,
+            74666
+          ],
+          [
+            76297,
+            75141,
+            73334,
+            73273,
+            74117,
+            75264,
+            74911,
+            73807,
+            72683,
+            71860
+          ],
+          [
+            74376,
+            74376
+          ],
+          [
+            110273,
+            110003
+          ],
+          [
+            57936,
+            58158,
+            56280,
+            56332,
+            56343,
+            56452,
+            56922
+          ],
+          [
+            34724,
+            32578
+          ],
+          [
+            106140,
+            105502,
+            107348,
+            107472
+          ],
+          [
+            76880,
+            76880
+          ],
+          [
+            61968,
+            62443
+          ],
+          [
+            66234,
+            64906
+          ],
+          [
+            74946,
+            77952,
+            82273,
+            74946
+          ],
+          [
+            44390,
+            44857
+          ],
+          [
+            44127,
+            44471,
+            50372,
+            50801,
+            55219,
+            55203
+          ],
+          [
+            85805,
+            80650
+          ],
+          [
+            85805,
+            81660
+          ],
+          [
+            85805,
+            80161
+          ],
+          [
+            85805,
+            82860
+          ],
+          [
+            54347,
+            53417,
+            52457,
+            52686
+          ],
+          [
+            12876,
+            12394,
+            11001,
+            8928
+          ],
+          [
+            9236,
+            17440
+          ],
+          [
+            2021,
+            110078,
+            107089,
+            104043
+          ],
+          [
+            104019,
+            103703
+          ],
+          [
+            104139,
+            105143
+          ],
+          [
+            105515,
+            106568
+          ],
+          [
+            104429,
+            104452
+          ],
+          [
+            61084,
+            60718
+          ],
+          [
+            62434,
+            59747
+          ],
+          [
+            27204,
+            27204
+          ],
+          [
+            86284,
+            86565
+          ],
+          [
+            88404,
+            84880
+          ],
+          [
+            85397,
+            86768
+          ],
+          [
+            51685,
+            51556,
+            52638,
+            53229
+          ],
+          [
+            29038,
+            29426,
+            29704,
+            29434
+          ],
+          [
+            7588,
+            5348,
+            3405
+          ],
+          [
+            36425,
+            37921,
+            39567,
+            40167
+          ],
+          [
+            104521,
+            104858
+          ],
+          [
+            28237,
+            28734,
+            28716,
+            27913
+          ],
+          [
+            107575,
+            106944
+          ],
+          [
+            106942,
+            107144
+          ],
+          [
+            105570,
+            105413
+          ],
+          [
+            34033,
+            32533,
+            31216,
+            30419
+          ],
+          [
+            58874,
+            51502,
+            51384
+          ],
+          [
+            29807,
+            29034
+          ],
+          [
+            57399,
+            57399
+          ],
+          [
+            66798,
+            66798
+          ],
+          [
+            57565,
+            57565
+          ],
+          [
+            54539,
+            54539
+          ],
+          [
+            111169,
+            110609,
+            107533,
+            107136,
+            105064,
+            106886,
+            108165,
+            109857,
+            110538,
+            118243,
+            117863,
+            117301,
+            115990,
+            111674,
+            113919,
+            114570,
+            115022,
+            116584,
+            117221,
+            116805,
+            116631
+          ],
+          [
+            15696,
+            15696
+          ],
+          [
+            87585,
+            85829,
+            85670,
+            87833,
+            86414
+          ],
+          [
+            91117,
+            91726,
+            91845,
+            92175,
+            93026,
+            93429,
+            93805,
+            93717,
+            93526
+          ],
+          [
+            1562,
+            5364,
+            6537,
+            8645,
+            8102,
+            9326
+          ],
+          [
+            17886,
+            17886
+          ],
+          [
+            94376,
+            96100,
+            97433,
+            98702,
+            98583,
+            95081
+          ],
+          [
+            13268,
+            14328,
+            15863,
+            16826,
+            17358,
+            19343,
+            19812,
+            20156,
+            19949
+          ],
+          [
+            69373,
+            74605,
+            77277
+          ],
+          [
+            79414,
+            73199,
+            72181
+          ],
+          [
+            9640,
+            8068,
+            7607,
+            6999,
+            7719,
+            7513,
+            7818,
+            9021,
+            10064,
+            10670,
+            10644,
+            9640
+          ],
+          [
+            99473,
+            98844,
+            97980,
+            97804
+          ],
+          [
+            76470,
+            76600
+          ],
+          [
+            113246,
+            113246
+          ],
+          [
+            23497,
+            22565,
+            23949,
+            24822,
+            23497
+          ],
+          [
+            102253,
+            99731,
+            101093,
+            102422,
+            105199,
+            108917,
+            110817,
+            112724,
+            115088
+          ],
+          [
+            42312,
+            42884,
+            43603,
+            42515,
+            42828,
+            43409,
+            43825
+          ],
+          [
+            26451,
+            26451
+          ],
+          [
+            109693,
+            109693
+          ],
+          [
+            24879,
+            25541
+          ],
+          [
+            24879,
+            25292
+          ],
+          [
+            24879,
+            24340
+          ],
+          [
+            24879,
+            24504
+          ],
+          [
+            4257,
+            4371,
+            3559,
+            3455
+          ],
+          [
+            96950,
+            97290
+          ],
+          [
+            44816,
+            44816
+          ],
+          [
+            80181,
+            81693,
+            83207,
+            83313,
+            83462,
+            84573,
+            86178,
+            87808
+          ],
+          [
+            84314,
+            84405,
+            84970,
+            85340
+          ],
+          [
+            20641,
+            19990
+          ],
+          [
+            20732,
+            21273
+          ],
+          [
+            20732,
+            20219,
+            20901,
+            21589,
+            21735,
+            21402,
+            20522
+          ],
+          [
+            104732,
+            105138,
+            104887,
+            103413,
+            102098,
+            99639,
+            97165,
+            100453,
+            102488,
+            104732
+          ],
+          [
+            1366,
+            1686,
+            1473
+          ],
+          [
+            32349,
+            32349
+          ],
+          [
+            53295,
+            56034
+          ],
+          [
+            53721,
+            56148
+          ],
+          [
+            53838,
+            55560
+          ],
+          [
+            106786,
+            107382,
+            107487,
+            107517,
+            107527,
+            105668,
+            104974,
+            103728,
+            103640,
+            104459,
+            105019,
+            105574,
+            105761
+          ],
+          [
+            55060,
+            55797,
+            58181,
+            58259,
+            55060
+          ],
+          [
+            16369,
+            16322,
+            16083,
+            15900
+          ],
+          [
+            64407,
+            65639
+          ],
+          [
+            108952,
+            107608,
+            107380,
+            109285,
+            109422,
+            108952
+          ],
+          [
+            69481,
+            69713,
+            70497
+          ],
+          [
+            14135,
+            15619,
+            13954,
+            12828,
+            10324,
+            11484,
+            12093,
+            12706,
+            12387,
+            11791,
+            11046,
+            10234,
+            10305
+          ],
+          [
+            77516,
+            77516
+          ],
+          [
+            39953,
+            42570,
+            42913,
+            45941,
+            46701
+          ],
+          [
+            68520,
+            66200
+          ],
+          [
+            104750,
+            102978
+          ],
+          [
+            104750,
+            104234
+          ],
+          [
+            102978,
+            102485
+          ],
+          [
+            49812,
+            50414
+          ],
+          [
+            67627,
+            67627
+          ],
+          [
+            15737,
+            15110,
+            14838
+          ],
+          [
+            15110,
+            16181
+          ],
+          [
+            9677,
+            11918,
+            13147
+          ],
+          [
+            95294,
+            95241,
+            95347
+          ],
+          [
+            7083,
+            9007,
+            10602,
+            11407,
+            12413,
+            13847,
+            17351,
+            17797,
+            17874,
+            20042,
+            20535,
+            21393,
+            21248
+          ],
+          [
+            18543,
+            17593,
+            17378,
+            16537,
+            15197,
+            13701,
+            12770,
+            12843,
+            13288,
+            14146,
+            15474,
+            16611,
+            17651,
+            17717,
+            18216,
+            18673
+          ],
+          [
+            87706,
+            87099,
+            86736,
+            86352,
+            86060,
+            85755,
+            85783,
+            87072
+          ],
+          [
+            102208,
+            104105,
+            98401,
+            94083,
+            88127
+          ],
+          [
+            35846,
+            35550,
+            33927
+          ],
+          [
+            90139,
+            88657
+          ],
+          [
+            194,
+            2025
+          ],
+          [
+            110386,
+            110986
+          ],
+          [
+            3419,
+            3419
+          ],
+          [
+            41375,
+            42835,
+            43305,
+            43142
+          ],
+          [
+            9487,
+            8833,
+            7884,
+            7007,
+            5737,
+            4906,
+            3786
+          ],
+          [
+            746,
+            2599,
+            3821,
+            3179,
+            2505
+          ],
+          [
+            48319,
+            48402,
+            46853,
+            44901,
+            45493
+          ],
+          [
+            23015,
+            24608,
+            28360,
+            28380,
+            25428
+          ],
+          [
+            14417,
+            9727
+          ],
+          [
+            14417,
+            13055
+          ],
+          [
+            14417,
+            15547
+          ],
+          [
+            14417,
+            19461
+          ],
+          [
+            57632,
+            57646
+          ],
+          [
+            57632,
+            57320
+          ],
+          [
+            57632,
+            58159
+          ],
+          [
+            57632,
+            57779
+          ],
+          [
+            33018,
+            34693,
+            36046,
+            36962,
+            38538
+          ],
+          [
+            63948,
+            63355,
+            62356,
+            59819
+          ],
+          [
+            78727,
+            78207,
+            77853,
+            77060
+          ],
+          [
+            94779,
+            95853,
+            96441,
+            96895
+          ],
+          [
+            25048,
+            25810,
+            24813
+          ],
+          [
+            60485,
+            60485
+          ],
+          [
+            60000,
+            58484,
+            51839,
+            52633,
+            46928,
+            46107,
+            43012,
+            40888,
+            36982
+          ],
+          [
+            58519,
+            58519
+          ],
+          [
+            110023,
+            110578,
+            111710,
+            113345
+          ],
+          [
+            44248,
+            44700,
+            45688,
+            45860,
+            47617,
+            47701,
+            46146,
+            46750,
+            47908,
+            48455,
+            50335,
+            50583,
+            49583,
+            49669,
+            47508
+          ],
+          [
+            49669,
+            51624
+          ],
+          [
+            49669,
+            49637
+          ],
+          [
+            69732,
+            69732
+          ],
+          [
+            29655,
+            29655
+          ],
+          [
+            71865,
+            72010
+          ],
+          [
+            31592,
+            31592
+          ],
+          [
+            60172,
+            60172
+          ],
+          [
+            84969,
+            84979,
+            81852,
+            81065,
+            70638
+          ],
+          [
+            81852,
+            80047,
+            69896
+          ],
+          [
+            81852,
+            72370,
+            70248
+          ],
+          [
+            51734,
+            51808
+          ],
+          [
+            6706,
+            7097,
+            7535,
+            8198,
+            7710
+          ],
+          [
+            96229,
+            96665,
+            95501,
+            95585,
+            96468,
+            96392,
+            96556,
+            96483,
+            97928
+          ],
+          [
+            67927,
+            67275,
+            67459
+          ],
+          [
+            108797,
+            109332,
+            109786
+          ],
+          [
+            110391,
+            110529,
+            109789
+          ],
+          [
+            110641,
+            111954,
+            112862
+          ],
+          [
+            112362,
+            111449,
+            112529
+          ],
+          [
+            112211,
+            111539,
+            110778
+          ],
+          [
+            111086,
+            110602,
+            110179
+          ],
+          [
+            111200,
+            111843,
+            112161
+          ],
+          [
+            112615,
+            113031,
+            112716
+          ],
+          [
+            112542,
+            113136,
+            113148
+          ],
+          [
+            114341,
+            114375,
+            114119
+          ],
+          [
+            116247,
+            116118,
+            115669
+          ],
+          [
+            115438,
+            115404,
+            115125
+          ],
+          [
+            115115,
+            115033,
+            114855
+          ],
+          [
+            114164,
+            114054,
+            113996
+          ],
+          [
+            114939,
+            116758,
+            116971
+          ],
+          [
+            23972,
+            23364,
+            23875,
+            24674
+          ],
+          [
+            94648,
+            92112,
+            85852
+          ],
+          [
+            94648,
+            89937
+          ],
+          [
+            19038,
+            19038
+          ],
+          [
+            21683,
+            21683
+          ],
+          [
+            115738,
+            115951,
+            117491,
+            116928
+          ],
+          [
+            110991,
+            109492,
+            109556,
+            107259,
+            107418
+          ],
+          [
+            51585,
+            52689,
+            52911,
+            51775
+          ],
+          [
+            26634,
+            25859
+          ],
+          [
+            71075,
+            71075
+          ],
+          [
+            65477,
+            65477
+          ],
+          [
+            69415,
+            71652,
+            71974,
+            72929,
+            73714
+          ],
+          [
+            72571,
+            73566,
+            74857
+          ],
+          [
+            59199,
+            59199
+          ],
+          [
+            91919,
+            91262,
+            91971
+          ],
+          [
+            61174,
+            61174
+          ],
+          [
+            64394,
+            63462,
+            64022
+          ],
+          [
+            27830,
+            26640,
+            25695,
+            23900,
+            23068,
+            21881
+          ],
+          [
+            23416,
+            23453,
+            23767,
+            23416
+          ],
+          [
+            27639,
+            27673,
+            27483,
+            27639
+          ],
+          [
+            25984,
+            26536
+          ],
+          [
+            70300,
+            70090
+          ],
+          [
+            68523,
+            68282
+          ],
+          [
+            69996,
+            70574
+          ],
+          [
+            67786,
+            67669,
+            67153
+          ],
+          [
+            65109,
+            65109
+          ],
+          [
+            89908,
+            89908
+          ],
+          [
+            27810,
+            27628
+          ],
+          [
+            92043,
+            92161
+          ],
+          [
+            88149,
+            88192,
+            88290,
+            88601
+          ],
+          [
+            86742,
+            87108
+          ],
+          [
+            12332,
+            12640,
+            12803,
+            13327,
+            13165
+          ],
+          [
+            96757,
+            96837,
+            97365,
+            97496,
+            98337,
+            98438,
+            98234,
+            98754,
+            99742
+          ],
+          [
+            72125,
+            71762,
+            71795
+          ],
+          [
+            32562,
+            33485,
+            32173,
+            32480,
+            31832,
+            32844,
+            31789,
+            31771,
+            33041
+          ]
+        ],
+        "#3D8B7D",
+        0.9
+      ]
+    ],
+    "斗": [
+      [
+        [
+          [
+            54061,
+            53910,
+            58001,
+            59774,
+            54061
+          ],
+          [
+            59774,
+            62956,
+            65378,
+            67301
+          ]
+        ],
+        "white",
+        1.3
+      ]
+    ],
+    "界": [],
+    "界北": [],
+    "界中": [],
+    "界熊": [],
+    "格亮": [],
+    "填蛇": [],
+    "填十": [],
+    "填巨": [],
+    "填四": [],
+    "圈北": [],
+    "圈鵝": [],
+    "罩": [],
+    "廢": [],
+    "格27": [],
+    "界放": [],
+    "雲": []
+  },
+  "lst0": 180.0,
+  "area": {
+    "OCT": 291.05,
+    "MEN": 153.48,
+    "HYI": 243.04,
+    "CHA": 131.59,
+    "APS": 206.33,
+    "TUC": 294.56,
+    "VOL": 141.35,
+    "CAR": 494.18,
+    "MUS": 138.35,
+    "PAV": 377.67,
+    "IND": 294.01,
+    "DOR": 179.17,
+    "CIR": 93.35,
+    "TRA": 109.98,
+    "HOR": 248.88,
+    "RET": 113.94,
+    "ARA": 237.06,
+    "PIC": 246.74,
+    "CEN": 1060.42,
+    "CRU": 68.45,
+    "NOR": 165.29,
+    "PHE": 469.32,
+    "ERI": 1137.92,
+    "TEL": 251.51,
+    "GRU": 365.51,
+    "VEL": 499.65,
+    "LUP": 333.68,
+    "PUP": 673.43,
+    "CAE": 124.86,
+    "SCO": 496.78,
+    "CRA": 127.7,
+    "SGR": 867.43,
+    "MIC": 209.51,
+    "COL": 270.18,
+    "SCL": 474.76,
+    "FOR": 397.5,
+    "ANT": 238.9,
+    "PSA": 245.37,
+    "PYX": 220.83,
+    "HYA": 1302.84,
+    "CMA": 380.12,
+    "OPH": 948.34,
+    "LIB": 538.05,
+    "CAP": 413.95,
+    "LEP": 290.29,
+    "CET": 1231.41,
+    "AQR": 979.85,
+    "CRT": 282.4,
+    "CRV": 183.8,
+    "VIR": 1294.43,
+    "SerCauda": 208.44,
+    "SCT": 109.11,
+    "AQL": 652.47,
+    "ORI": 594.12,
+    "MON": 481.57,
+    "SEX": 313.52,
+    "PSC": 889.42,
+    "LEO": 946.96,
+    "SerCaput": 428.48,
+    "TAU": 797.25,
+    "CMI": 183.37,
+    "PEG": 1120.79,
+    "DEL": 188.55,
+    "EQU": 71.64,
+    "HER": 1225.15,
+    "CNC": 505.87,
+    "BOO": 906.83,
+    "ARI": 441.39,
+    "GEM": 513.76,
+    "COM": 386.47,
+    "SGE": 79.92,
+    "VUL": 268.17,
+    "AND": 722.28,
+    "LMI": 231.96,
+    "TRI": 131.85,
+    "LYR": 286.48,
+    "CRB": 178.71,
+    "CYG": 803.98,
+    "AUR": 657.44,
+    "CVN": 465.19,
+    "UMA": 1279.66,
+    "PER": 615.0,
+    "LYN": 545.39,
+    "LAC": 200.69,
+    "CAS": 598.41,
+    "DRA": 1082.95,
+    "CAM": 756.83,
+    "CEP": 587.79,
+    "UMI": 255.86
+  },
+  "moon_2100": {
+    "ra": 169.9495057240545,
+    "dec": 0.16389648023892214,
+    "alt": 39.1,
+    "az": 247.7,
+    "phase": 51.0
+  }
+}
