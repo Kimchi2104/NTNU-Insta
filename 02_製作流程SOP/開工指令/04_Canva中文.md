@@ -30,6 +30,12 @@
   - 相加 ≥ 100 → **工作稿模式**，原設計在最後一步之前不加任何頁：① 原設計只開一次 transaction，把封面、下集見改好就 commit；② copy-design（原設計，page_numbers＝[1]）做出工作稿，新頁全部 add_page 在工作稿裡。每份工作稿連底頁最多 95 頁，新頁超過 94 就再做第二份。工作稿永遠在 99 頁以內，可以照常分次 commit；③ 全部排完、format_text 完、縮圖檢查完，才用 merge-designs（type＝modify_existing_design，design_id＝原設計）insert_pages：source 是工作稿、page_numbers 不含底頁，after_page_number＝封面那一頁，兩份工作稿依序接上；④ 併完用 search-designs 看原設計頁數對不對。併完之後原設計超過 99 頁、不能再開 transaction，所以所有編輯都要在併之前做完。
   - merge-designs 併不進原設計 → 改用 create_new_design 組一份「{設計名}（合併）」（封面 → 新頁 → 下集見、追蹤我們 → 片尾），回報設計 ID，請 Kim 在學校帳號另存。
   - 工作稿的 design_id 寫進 媒體ID.json 的 work_designs，不要刪，回報請 Kim 確認成品後自己刪。merge-designs 的 delete_pages 不要用，除非 Kim 在這個對話裡明寫要刪哪幾頁
+- **先看逐頁製作表是不是舊的「整集插中間頁」版本**：頁名有一長串「-中1…-中7」、每段都 ≤ 2.5 秒就是。是的話先重跑 /usr/bin/python3 02_製作流程SOP/gen_canva_pages.py {EP}（不要加 --seg），頁數會少一半（A-25：93 → 51），再開始排
+- **省用量：內容頁分批交給子代理排**（每一集都這樣做）。連接器每次 edit-design 都回傳整頁內容，一頁約 1 萬 tokens、壓不掉；全堆在同一個對話裡，之後每一次工具呼叫都要把前面累積的幾十萬 tokens 重讀一遍。A-22 一集因此讀了 5,400 萬 tokens，A-25 排到一半排不下去。子代理的上下文用完就丟，主對話保持很小：
+  1. 主對話只做準備與驗收：算頁數、上傳素材並把媒體 ID 寫進 媒體ID.json、改封面與下集見、把要用的新頁一次 add_page 好，page id 依頁序寫進 05_素材/{集}_…/_v4大畫布/_卡04進度/page_ids.txt；再寫 _卡04進度/子代理說明.md（設計 ID、怎麼用 canva_ops.py 產生某幾頁的 ops、連接器脾氣、字卡字幕的位置與格式、縮圖要檢查什麼、回報格式）。寫完 commit、push，讓子代理讀得到
+  2. 之後每 6–8 頁用 Agent 工具（general-purpose）開一個子代理，**一次一個，不要平行**（同一份設計不能同時開兩個 transaction）。prompt 只寫：先讀哪個說明檔、這一批是內容頁第幾頁到第幾頁。子代理自己開 transaction（read-design 只取這幾頁）、放素材與字、format_text、看這幾頁的縮圖、commit transaction，最後只回一張短表「頁號｜OK／哪裡有問題」，不要把頁面內容貼回來
+  3. 主對話不要自己用 edit-design 排內容頁。每批回來就把「做到第幾頁」記進 _卡04進度/進度.md；有問題的頁交給下一個子代理先修。全部排完，主對話抽看縮圖（換組前後兩頁、概念圖頁、第一頁與最後一頁），再做頁序、節目表、PR
+  4. 設計存檔後 ≥ 100 頁的集數（工作稿模式）一樣分批：子代理排的是工作稿，併回原設計由主對話最後做
 - 封面與「下集見」不用問，直接改：開場字卡（封面）＝本集統一開頭句（逐字稿第一鏡「同一片星空，…」）＋全年節目表該列的「標題（工作名）」；「下集見」＝全年節目表**發布日的下一列**的標題＋鉤子（例 A-16 的下集見寫 A-17「黑腳族：留在天上的六個孩子」），北天星盤三層照 每集製作SOP 第二節 5 最後一條；追蹤我們、參考文獻原樣保留。改了什麼寫進回報就好
 - 素材 upload-asset-from-url：commit SHA 的 raw 連結（中文路徑要 percent-encode），媒體 ID 寫進 05_素材/{集}_…/_v4大畫布/{EP}_Canva媒體ID.json
 - 每頁 ops 照 canva_ops.py：背景 → 天空層 → 山 → 標籤 → 概念圖框 → 概念圖 → 備註；字卡與字幕照放置規格用 add_text＋format_text 放素字（位置照版型 A／B，不做美編）
