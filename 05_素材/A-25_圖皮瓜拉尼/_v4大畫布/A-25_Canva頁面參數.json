@@ -22,90 +22,6 @@
  },
  {
   "page": 2,
-  "title": "鏡頭01-中1",
-  "group": "南盤",
-  "left": -438.65,
-  "top": -527.1,
-  "width": 3041.72,
-  "height": 3041.72,
-  "rotation": 49.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 3,
-  "title": "鏡頭01-中2",
-  "group": "南盤",
-  "left": -461.55,
-  "top": -561.89,
-  "width": 3112.88,
-  "height": 3112.88,
-  "rotation": 53.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 4,
-  "title": "鏡頭01-中3",
-  "group": "南盤",
-  "left": -484.44,
-  "top": -596.68,
-  "width": 3184.04,
-  "height": 3184.04,
-  "rotation": 57.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 5,
-  "title": "鏡頭01-中4",
-  "group": "南盤",
-  "left": -507.34,
-  "top": -631.48,
-  "width": 3255.2,
-  "height": 3255.2,
-  "rotation": 61.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 6,
   "title": "鏡頭01結束＝鏡頭02開始",
   "group": "南盤",
   "left": -530.23,
@@ -122,11 +38,11 @@
    "南盤L10-主角星白點"
   ],
   "notes": "一六一二年，法國人在巴西北岸的馬拉尼昂島上建了一座堡壘，後來成了今天的聖路易斯。跟著船來的，有四位嘉布遣會士。",
-  "trans": "Match & Move（2.2 秒）",
+  "trans": "Match & Move（11.0 秒）",
   "mountain_top": null
  },
  {
-  "page": 7,
+  "page": 3,
   "title": "鏡頭02-概念圖1",
   "group": "南盤",
   "left": -530.23,
@@ -166,7 +82,7 @@
   }
  },
  {
-  "page": 8,
+  "page": 4,
   "title": "鏡頭02-概念圖2",
   "group": "南盤",
   "left": -530.23,
@@ -213,7 +129,7 @@
   }
  },
  {
-  "page": 9,
+  "page": 5,
   "title": "鏡頭02-概念圖收＝鏡頭03開始",
   "group": "南盤",
   "left": -530.23,
@@ -237,7 +153,7 @@
   "panel": null
  },
  {
-  "page": 10,
+  "page": 6,
   "title": "鏡頭03-概念圖",
   "group": "南盤",
   "left": -530.23,
@@ -277,7 +193,7 @@
   }
  },
  {
-  "page": 11,
+  "page": 7,
   "title": "鏡頭03-概念圖收＝鏡頭04開始",
   "group": "南盤",
   "left": -530.23,
@@ -301,7 +217,7 @@
   "panel": null
  },
  {
-  "page": 12,
+  "page": 8,
   "title": "鏡頭04-概念圖",
   "group": "南盤",
   "left": -530.23,
@@ -341,7 +257,7 @@
   }
  },
  {
-  "page": 13,
+  "page": 9,
   "title": "鏡頭04-概念圖收＝鏡頭05開始",
   "group": "南盤",
   "left": -530.23,
@@ -365,7 +281,7 @@
   "panel": null
  },
  {
-  "page": 14,
+  "page": 10,
   "title": "鏡頭05-概念圖1",
   "group": "南盤",
   "left": -530.23,
@@ -405,7 +321,7 @@
   }
  },
  {
-  "page": 15,
+  "page": 11,
   "title": "鏡頭05-概念圖2",
   "group": "南盤",
   "left": -530.23,
@@ -452,7 +368,7 @@
   }
  },
  {
-  "page": 16,
+  "page": 12,
   "title": "鏡頭05-概念圖收＝鏡頭06開始",
   "group": "南盤",
   "left": -530.23,
@@ -476,7 +392,7 @@
   "panel": null
  },
  {
-  "page": 17,
+  "page": 13,
   "title": "鏡頭06-概念圖1",
   "group": "南盤",
   "left": -530.23,
@@ -516,7 +432,7 @@
   }
  },
  {
-  "page": 18,
+  "page": 14,
   "title": "鏡頭06-概念圖2",
   "group": "南盤",
   "left": -530.23,
@@ -563,7 +479,7 @@
   }
  },
  {
-  "page": 19,
+  "page": 15,
   "title": "鏡頭06-概念圖收＝鏡頭07開始",
   "group": "南盤",
   "left": -530.23,
@@ -587,7 +503,7 @@
   "panel": null
  },
  {
-  "page": 20,
+  "page": 16,
   "title": "鏡頭07-概念圖1",
   "group": "南盤",
   "left": -530.23,
@@ -627,7 +543,7 @@
   }
  },
  {
-  "page": 21,
+  "page": 17,
   "title": "鏡頭07-概念圖2",
   "group": "南盤",
   "left": -530.23,
@@ -674,7 +590,7 @@
   }
  },
  {
-  "page": 22,
+  "page": 18,
   "title": "鏡頭07-概念圖收＝鏡頭08開始＝鏡頭09開始",
   "group": "南盤",
   "left": -530.23,
@@ -699,99 +615,7 @@
   "panel": null
  },
  {
-  "page": 23,
-  "title": "鏡頭09-中1",
-  "group": "南盤",
-  "left": -1159.11,
-  "top": -1161.18,
-  "width": 4651.37,
-  "height": 4651.37,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L20-吞下的蛋（橘圈）",
-   "南盤L10-主角星白點",
-   "南盤L12-標籤-Ouyra-Oupia兩顆蛋"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 24,
-  "title": "鏡頭09-中2",
-  "group": "南盤",
-  "left": -1787.98,
-  "top": -1656.1,
-  "width": 5976.37,
-  "height": 5976.37,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L20-吞下的蛋（橘圈）",
-   "南盤L10-主角星白點",
-   "南盤L12-標籤-Ouyra-Oupia兩顆蛋"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 25,
-  "title": "鏡頭09-中3",
-  "group": "南盤",
-  "left": -2416.85,
-  "top": -2151.01,
-  "width": 7301.37,
-  "height": 7301.37,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L20-吞下的蛋（橘圈）",
-   "南盤L10-主角星白點",
-   "南盤L12-標籤-Ouyra-Oupia兩顆蛋"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 26,
-  "title": "鏡頭09-中4",
-  "group": "南盤",
-  "left": -3045.72,
-  "top": -2645.93,
-  "width": 8626.37,
-  "height": 8626.37,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L19-蛋（黃圈）",
-   "南盤L20-吞下的蛋（橘圈）",
-   "南盤L10-主角星白點",
-   "南盤L12-標籤-Ouyra-Oupia兩顆蛋"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 27,
+  "page": 19,
   "title": "鏡頭09結束＝鏡頭10開始",
   "group": "南盤",
   "left": -3674.59,
@@ -810,80 +634,11 @@
    "南盤L12-標籤-Ouyra-Oupia兩顆蛋"
   ],
   "notes": "瓜拉尼人還說：南十字緊緊抓著鴕鳥的頭；要是放開，牠會把地上的水全部喝光，大家都會渴死。",
-  "trans": "Match & Move（2.2 秒）",
+  "trans": "Match & Move（11.0 秒）",
   "mountain_top": null
  },
  {
-  "page": 28,
-  "title": "鏡頭10-中1",
-  "group": "南盤",
-  "left": -3935.63,
-  "top": -3287.48,
-  "width": 10448.94,
-  "height": 10448.94,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L8-連線-南十字紅",
-   "南盤L18-煤袋淡框",
-   "南盤L10-主角星白點",
-   "南盤L13-標籤-南十字抓頭"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 29,
-  "title": "鏡頭10-中2",
-  "group": "南盤",
-  "left": -4196.66,
-  "top": -3434.11,
-  "width": 10946.51,
-  "height": 10946.51,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L8-連線-南十字紅",
-   "南盤L18-煤袋淡框",
-   "南盤L10-主角星白點",
-   "南盤L13-標籤-南十字抓頭"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 30,
-  "title": "鏡頭10-中3",
-  "group": "南盤",
-  "left": -4457.7,
-  "top": -3580.74,
-  "width": 11444.08,
-  "height": 11444.08,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L8-連線-南十字紅",
-   "南盤L18-煤袋淡框",
-   "南盤L10-主角星白點",
-   "南盤L13-標籤-南十字抓頭"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 31,
+  "page": 20,
   "title": "鏡頭10結束",
   "group": "南盤",
   "left": -4718.74,
@@ -902,11 +657,11 @@
    "南盤L13-標籤-南十字抓頭"
   ],
   "notes": "",
-  "trans": "Match & Move（2.2 秒）",
+  "trans": "Match & Move（9.0 秒）",
   "mountain_top": null
  },
  {
-  "page": 32,
+  "page": 21,
   "title": "鏡頭11開始",
   "group": "南盤",
   "left": -567.28,
@@ -927,70 +682,7 @@
   "mountain_top": 1085.7
  },
  {
-  "page": 33,
-  "title": "鏡頭11-中1",
-  "group": "南盤",
-  "left": -567.28,
-  "top": -418.79,
-  "width": 3247.95,
-  "height": 3247.95,
-  "rotation": 71.79,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L10-主角星白點",
-   "南盤L14-標籤-六月黃昏"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.0 秒）",
-  "mountain_top": 1085.7
- },
- {
-  "page": 34,
-  "title": "鏡頭11-中2",
-  "group": "南盤",
-  "left": -567.28,
-  "top": -418.79,
-  "width": 3247.95,
-  "height": 3247.95,
-  "rotation": 78.58,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L10-主角星白點",
-   "南盤L14-標籤-六月黃昏"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.0 秒）",
-  "mountain_top": 1085.7
- },
- {
-  "page": 35,
-  "title": "鏡頭11-中3",
-  "group": "南盤",
-  "left": -567.28,
-  "top": -418.79,
-  "width": 3247.95,
-  "height": 3247.95,
-  "rotation": 85.36,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L10-主角星白點",
-   "南盤L14-標籤-六月黃昏"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.0 秒）",
-  "mountain_top": 1085.7
- },
- {
-  "page": 36,
+  "page": 22,
   "title": "鏡頭11結束",
   "group": "南盤",
   "left": -567.28,
@@ -1007,11 +699,11 @@
    "南盤L14-標籤-六月黃昏"
   ],
   "notes": "",
-  "trans": "Match & Move（2.0 秒）",
+  "trans": "Match & Move（8.0 秒）",
   "mountain_top": 1085.7
  },
  {
-  "page": 37,
+  "page": 23,
   "title": "南盤轉長圖1-歸位",
   "group": "南盤",
   "left": -3354.02,
@@ -1031,7 +723,7 @@
   "mountain_top": null
  },
  {
-  "page": 38,
+  "page": 24,
   "title": "南盤轉長圖1",
   "group": "長圖",
   "left": -3686.09,
@@ -1051,7 +743,7 @@
   "mountain_top": null
  },
  {
-  "page": 39,
+  "page": 25,
   "title": "南盤轉長圖1-下移",
   "group": "長圖",
   "left": -3686.09,
@@ -1071,7 +763,7 @@
   "mountain_top": null
  },
  {
-  "page": 40,
+  "page": 26,
   "title": "鏡頭12開始",
   "group": "長圖",
   "left": -4201.67,
@@ -1092,112 +784,7 @@
   "mountain_top": null
  },
  {
-  "page": 41,
-  "title": "鏡頭12-中1",
-  "group": "長圖",
-  "left": -4320.21,
-  "top": -5520.32,
-  "width": 8663.48,
-  "height": 13284.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L17-主角星白點",
-   "L22-標籤-Tuyvaé老人"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 42,
-  "title": "鏡頭12-中2",
-  "group": "長圖",
-  "left": -4438.75,
-  "top": -5675.83,
-  "width": 8874.78,
-  "height": 13608.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L17-主角星白點",
-   "L22-標籤-Tuyvaé老人"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 43,
-  "title": "鏡頭12-中3",
-  "group": "長圖",
-  "left": -4557.29,
-  "top": -5831.34,
-  "width": 9086.09,
-  "height": 13932.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L17-主角星白點",
-   "L22-標籤-Tuyvaé老人"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 44,
-  "title": "鏡頭12-中4",
-  "group": "長圖",
-  "left": -4675.84,
-  "top": -5986.85,
-  "width": 9297.39,
-  "height": 14256.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L17-主角星白點",
-   "L22-標籤-Tuyvaé老人"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 45,
-  "title": "鏡頭12-中5",
-  "group": "長圖",
-  "left": -4794.38,
-  "top": -6142.36,
-  "width": 9508.7,
-  "height": 14580.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L17-主角星白點",
-   "L22-標籤-Tuyvaé老人"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 46,
+  "page": 27,
   "title": "鏡頭12結束＝鏡頭13開始",
   "group": "長圖",
   "left": -4912.92,
@@ -1214,121 +801,11 @@
    "L22-標籤-Tuyvaé老人"
   ],
   "notes": "Afonso 說，老人頭上那撮羽毛是昴宿；傳教士記成 Seichou。他寫：昴宿一出現，雨就來；雨季結束，它就不見；等它再出現，又是下一年的雨——所以他們很清楚一年有多長。",
-  "trans": "Match & Move（2.3 秒）",
+  "trans": "Match & Move（14.0 秒）",
   "mountain_top": null
  },
  {
-  "page": 47,
-  "title": "鏡頭13-中1",
-  "group": "長圖",
-  "left": -5640.98,
-  "top": -6991.35,
-  "width": 10800.0,
-  "height": 16560.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L17-主角星白點",
-   "L23-標籤-Seichou羽毛"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": null
- },
- {
-  "page": 48,
-  "title": "鏡頭13-中2",
-  "group": "長圖",
-  "left": -6369.03,
-  "top": -7684.83,
-  "width": 11880.0,
-  "height": 18216.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L17-主角星白點",
-   "L23-標籤-Seichou羽毛"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": null
- },
- {
-  "page": 49,
-  "title": "鏡頭13-中3",
-  "group": "長圖",
-  "left": -7097.09,
-  "top": -8378.31,
-  "width": 12960.0,
-  "height": 19872.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L17-主角星白點",
-   "L23-標籤-Seichou羽毛"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": null
- },
- {
-  "page": 50,
-  "title": "鏡頭13-中4",
-  "group": "長圖",
-  "left": -7825.14,
-  "top": -9071.79,
-  "width": 14040.0,
-  "height": 21528.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L17-主角星白點",
-   "L23-標籤-Seichou羽毛"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": null
- },
- {
-  "page": 51,
-  "title": "鏡頭13-中5",
-  "group": "長圖",
-  "left": -8553.19,
-  "top": -9765.27,
-  "width": 15120.0,
-  "height": 23184.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L17-主角星白點",
-   "L23-標籤-Seichou羽毛"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": null
- },
- {
-  "page": 52,
+  "page": 28,
   "title": "鏡頭13結束",
   "group": "長圖",
   "left": -9281.25,
@@ -1346,11 +823,11 @@
    "L23-標籤-Seichou羽毛"
   ],
   "notes": "",
-  "trans": "Match & Move（2.5 秒）",
+  "trans": "Match & Move（15.0 秒）",
   "mountain_top": null
  },
  {
-  "page": 53,
+  "page": 29,
   "title": "鏡頭13-概念圖1",
   "group": "長圖",
   "left": -9281.25,
@@ -1390,7 +867,7 @@
   }
  },
  {
-  "page": 54,
+  "page": 30,
   "title": "鏡頭13-概念圖2",
   "group": "長圖",
   "left": -9281.25,
@@ -1437,7 +914,7 @@
   }
  },
  {
-  "page": 55,
+  "page": 31,
   "title": "鏡頭13-概念圖收",
   "group": "長圖",
   "left": -9281.25,
@@ -1462,7 +939,7 @@
   "panel": null
  },
  {
-  "page": 56,
+  "page": 32,
   "title": "鏡頭14開始",
   "group": "長圖",
   "left": -5185.89,
@@ -1486,127 +963,7 @@
   "mountain_top": null
  },
  {
-  "page": 57,
-  "title": "鏡頭14-中1",
-  "group": "長圖",
-  "left": -4356.0,
-  "top": -6277.08,
-  "width": 9720.0,
-  "height": 14904.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L13-狗的候選（紅圈）",
-   "L14-黃道（虛線）",
-   "L17-主角星白點",
-   "L24-標籤-Iaouare狗"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 58,
-  "title": "鏡頭14-中2",
-  "group": "長圖",
-  "left": -3526.11,
-  "top": -6384.54,
-  "width": 9720.0,
-  "height": 14904.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L13-狗的候選（紅圈）",
-   "L14-黃道（虛線）",
-   "L17-主角星白點",
-   "L24-標籤-Iaouare狗"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 59,
-  "title": "鏡頭14-中3",
-  "group": "長圖",
-  "left": -2696.22,
-  "top": -6492.0,
-  "width": 9720.0,
-  "height": 14904.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L13-狗的候選（紅圈）",
-   "L14-黃道（虛線）",
-   "L17-主角星白點",
-   "L24-標籤-Iaouare狗"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 60,
-  "title": "鏡頭14-中4",
-  "group": "長圖",
-  "left": -1866.33,
-  "top": -6599.46,
-  "width": 9720.0,
-  "height": 14904.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L13-狗的候選（紅圈）",
-   "L14-黃道（虛線）",
-   "L17-主角星白點",
-   "L24-標籤-Iaouare狗"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 61,
-  "title": "鏡頭14-中5",
-  "group": "長圖",
-  "left": -1036.44,
-  "top": -6706.92,
-  "width": 9720.0,
-  "height": 14904.0,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L13-狗的候選（紅圈）",
-   "L14-黃道（虛線）",
-   "L17-主角星白點",
-   "L24-標籤-Iaouare狗"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.3 秒）",
-  "mountain_top": null
- },
- {
-  "page": 62,
+  "page": 33,
   "title": "鏡頭14結束",
   "group": "長圖",
   "left": -206.55,
@@ -1626,11 +983,11 @@
    "L24-標籤-Iaouare狗"
   ],
   "notes": "",
-  "trans": "Match & Move（2.3 秒）",
+  "trans": "Match & Move（14.0 秒）",
   "mountain_top": null
  },
  {
-  "page": 63,
+  "page": 34,
   "title": "長圖轉南盤1-回中心",
   "group": "長圖",
   "left": -5940.0,
@@ -1653,7 +1010,7 @@
   "mountain_top": null
  },
  {
-  "page": 64,
+  "page": 35,
   "title": "長圖轉南盤1-上移",
   "group": "長圖",
   "left": -5940.0,
@@ -1676,7 +1033,7 @@
   "mountain_top": null
  },
  {
-  "page": 65,
+  "page": 36,
   "title": "長圖轉南盤1",
   "group": "南盤",
   "left": -5430.82,
@@ -1688,8 +1045,10 @@
    "南盤L1-銀河",
    "南盤L2-星點",
    "南盤L3-經緯線",
-   "南盤L9-連線-Crussa南十字白",
-   "南盤L5-連線-Yandoutin美洲鴕",
+   "南盤L6-連線-Tuyvaé老人",
+   "南盤L7-連線-Seichou昴宿",
+   "南盤L21-狗的候選（紅圈）",
+   "南盤L22-黃道（虛線）",
    "南盤L10-主角星白點"
   ],
   "notes": "",
@@ -1697,7 +1056,7 @@
   "mountain_top": null
  },
  {
-  "page": 66,
+  "page": 37,
   "title": "鏡頭15開始",
   "group": "南盤",
   "left": -5376.1,
@@ -1719,7 +1078,7 @@
   "mountain_top": null
  },
  {
-  "page": 67,
+  "page": 38,
   "title": "鏡頭16開始",
   "group": "南盤",
   "left": -1395.34,
@@ -1741,117 +1100,7 @@
   "mountain_top": 1369.8
  },
  {
-  "page": 68,
-  "title": "鏡頭16-中1",
-  "group": "南盤",
-  "left": -1395.34,
-  "top": -135.07,
-  "width": 4080.29,
-  "height": 4080.29,
-  "rotation": 91.75,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L24-台灣看不到（虛線圈）",
-   "南盤L10-主角星白點",
-   "南盤L16-標籤-墾丁"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": 1369.8
- },
- {
-  "page": 69,
-  "title": "鏡頭16-中2",
-  "group": "南盤",
-  "left": -1395.34,
-  "top": -135.07,
-  "width": 4080.29,
-  "height": 4080.29,
-  "rotation": 92.59,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L24-台灣看不到（虛線圈）",
-   "南盤L10-主角星白點",
-   "南盤L16-標籤-墾丁"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": 1369.8
- },
- {
-  "page": 70,
-  "title": "鏡頭16-中3",
-  "group": "南盤",
-  "left": -1395.34,
-  "top": -135.07,
-  "width": 4080.29,
-  "height": 4080.29,
-  "rotation": 93.43,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L24-台灣看不到（虛線圈）",
-   "南盤L10-主角星白點",
-   "南盤L16-標籤-墾丁"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": 1369.8
- },
- {
-  "page": 71,
-  "title": "鏡頭16-中4",
-  "group": "南盤",
-  "left": -1395.34,
-  "top": -135.07,
-  "width": 4080.29,
-  "height": 4080.29,
-  "rotation": 94.26,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L24-台灣看不到（虛線圈）",
-   "南盤L10-主角星白點",
-   "南盤L16-標籤-墾丁"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": 1369.8
- },
- {
-  "page": 72,
-  "title": "鏡頭16-中5",
-  "group": "南盤",
-  "left": -1395.34,
-  "top": -135.07,
-  "width": 4080.29,
-  "height": 4080.29,
-  "rotation": 95.09,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L24-台灣看不到（虛線圈）",
-   "南盤L10-主角星白點",
-   "南盤L16-標籤-墾丁"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.5 秒）",
-  "mountain_top": 1369.8
- },
- {
-  "page": 73,
+  "page": 39,
   "title": "鏡頭16結束",
   "group": "南盤",
   "left": -1395.34,
@@ -1869,11 +1118,11 @@
    "南盤L16-標籤-墾丁"
   ],
   "notes": "",
-  "trans": "Match & Move（2.5 秒）",
+  "trans": "Match & Move（15.0 秒）",
   "mountain_top": 1369.8
  },
  {
-  "page": 74,
+  "page": 40,
   "title": "南盤轉長圖2-歸位",
   "group": "南盤",
   "left": -5430.82,
@@ -1894,7 +1143,7 @@
   "mountain_top": null
  },
  {
-  "page": 75,
+  "page": 41,
   "title": "南盤轉長圖2",
   "group": "長圖",
   "left": -5940.0,
@@ -1915,7 +1164,7 @@
   "mountain_top": null
  },
  {
-  "page": 76,
+  "page": 42,
   "title": "南盤轉長圖2-下移",
   "group": "長圖",
   "left": -5940.0,
@@ -1936,7 +1185,7 @@
   "mountain_top": null
  },
  {
-  "page": 77,
+  "page": 43,
   "title": "鏡頭17開始",
   "group": "長圖",
   "left": -3624.02,
@@ -1959,99 +1208,7 @@
   "mountain_top": null
  },
  {
-  "page": 78,
-  "title": "鏡頭17-中1",
-  "group": "長圖",
-  "left": -3682.26,
-  "top": -4745.72,
-  "width": 7476.92,
-  "height": 11464.62,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L15-月牙3月12–14日",
-   "L17-主角星白點",
-   "L27-標籤-這週末"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 79,
-  "title": "鏡頭17-中2",
-  "group": "長圖",
-  "left": -3740.5,
-  "top": -4745.72,
-  "width": 7476.92,
-  "height": 11464.62,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L15-月牙3月12–14日",
-   "L17-主角星白點",
-   "L27-標籤-這週末"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 80,
-  "title": "鏡頭17-中3",
-  "group": "長圖",
-  "left": -3798.73,
-  "top": -4745.72,
-  "width": 7476.92,
-  "height": 11464.62,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L15-月牙3月12–14日",
-   "L17-主角星白點",
-   "L27-標籤-這週末"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 81,
-  "title": "鏡頭17-中4",
-  "group": "長圖",
-  "left": -3856.97,
-  "top": -4745.72,
-  "width": 7476.92,
-  "height": 11464.62,
-  "rotation": 0.0,
-  "layers": [
-   "L1-銀河",
-   "L2-星點",
-   "L3-經緯線",
-   "L6-連線-Tuyvaé老人",
-   "L7-連線-Seichou昴宿",
-   "L15-月牙3月12–14日",
-   "L17-主角星白點",
-   "L27-標籤-這週末"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 82,
+  "page": 44,
   "title": "鏡頭17結束",
   "group": "長圖",
   "left": -3915.21,
@@ -2070,11 +1227,11 @@
    "L27-標籤-這週末"
   ],
   "notes": "",
-  "trans": "Match & Move（2.2 秒）",
+  "trans": "Match & Move（11.0 秒）",
   "mountain_top": null
  },
  {
-  "page": 83,
+  "page": 45,
   "title": "鏡頭17-概念圖",
   "group": "長圖",
   "left": -3915.21,
@@ -2107,7 +1264,7 @@
   "panel": null
  },
  {
-  "page": 84,
+  "page": 46,
   "title": "鏡頭17-概念圖收",
   "group": "長圖",
   "left": -3915.21,
@@ -2133,7 +1290,7 @@
   "panel": null
  },
  {
-  "page": 85,
+  "page": 47,
   "title": "長圖轉南盤2-回中心",
   "group": "長圖",
   "left": -3348.0,
@@ -2155,7 +1312,7 @@
   "mountain_top": null
  },
  {
-  "page": 86,
+  "page": 48,
   "title": "長圖轉南盤2-上移",
   "group": "長圖",
   "left": -3348.0,
@@ -2177,7 +1334,7 @@
   "mountain_top": null
  },
  {
-  "page": 87,
+  "page": 49,
   "title": "長圖轉南盤2",
   "group": "南盤",
   "left": -3042.49,
@@ -2189,7 +1346,9 @@
    "南盤L1-銀河",
    "南盤L2-星點",
    "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
+   "南盤L6-連線-Tuyvaé老人",
+   "南盤L7-連線-Seichou昴宿",
+   "南盤L23-月牙3月12–14日",
    "南盤L10-主角星白點"
   ],
   "notes": "",
@@ -2197,7 +1356,7 @@
   "mountain_top": null
  },
  {
-  "page": 88,
+  "page": 50,
   "title": "鏡頭18開始",
   "group": "南盤",
   "left": -819.84,
@@ -2218,87 +1377,7 @@
   "mountain_top": null
  },
  {
-  "page": 89,
-  "title": "鏡頭18-中1",
-  "group": "南盤",
-  "left": -879.78,
-  "top": -1580.38,
-  "width": 5040.98,
-  "height": 5040.98,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 90,
-  "title": "鏡頭18-中2",
-  "group": "南盤",
-  "left": -939.72,
-  "top": -1687.63,
-  "width": 5253.8,
-  "height": 5253.8,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 91,
-  "title": "鏡頭18-中3",
-  "group": "南盤",
-  "left": -999.66,
-  "top": -1794.88,
-  "width": 5466.62,
-  "height": 5466.62,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 92,
-  "title": "鏡頭18-中4",
-  "group": "南盤",
-  "left": -1059.6,
-  "top": -1902.13,
-  "width": 5679.44,
-  "height": 5679.44,
-  "rotation": 65.0,
-  "layers": [
-   "南盤L1-銀河",
-   "南盤L2-星點",
-   "南盤L3-經緯線",
-   "南盤L5-連線-Yandoutin美洲鴕",
-   "南盤L10-主角星白點"
-  ],
-  "notes": "",
-  "trans": "Match & Move（2.2 秒）",
-  "mountain_top": null
- },
- {
-  "page": 93,
+  "page": 51,
   "title": "鏡頭18結束",
   "group": "南盤",
   "left": -1119.54,
@@ -2314,7 +1393,7 @@
    "南盤L10-主角星白點"
   ],
   "notes": "",
-  "trans": "Match & Move（2.2 秒）",
+  "trans": "Match & Move（11.0 秒）",
   "mountain_top": null
  }
 ]
