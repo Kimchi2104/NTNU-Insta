@@ -1,0 +1,1038 @@
+[
+ {
+  "page": 1,
+  "title": "鏡頭01開始",
+  "group": "長圖",
+  "left": -3510.0,
+  "top": -6627.0,
+  "width": 9720.0,
+  "height": 15606.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "上週，我們數了課本沒教的星群。今天，紐西蘭放 Matariki 假：同一片星空，毛利人看見——新的一年。",
+  "trans": "（第一頁）",
+  "mountain_top": null
+ },
+ {
+  "page": 2,
+  "title": "鏡頭01結束＝鏡頭02開始",
+  "group": "長圖",
+  "left": -14152.5,
+  "top": -22962.0,
+  "width": 32400.0,
+  "height": 52020.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L14-標籤-Matariki"
+  ],
+  "notes": "二〇二二年起，紐西蘭多了一個國定假日，叫 Matariki。政府說，這是第一個承認毛利世界觀的國定假日。它每年日期都不一樣：二〇二七年，是六月二十五號，星期五。",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 3,
+  "title": "鏡頭02-概念圖1",
+  "group": "長圖",
+  "left": -14152.5,
+  "top": -22962.0,
+  "width": 32400.0,
+  "height": 52020.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-01_Matariki假日_年份層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 488.9941520467836,
+   "width": 1032,
+   "height": 942.0116959064327,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 4,
+  "title": "鏡頭02-概念圖2",
+  "group": "長圖",
+  "left": -14152.5,
+  "top": -22962.0,
+  "width": 32400.0,
+  "height": 52020.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-01_Matariki假日_年份層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A33-01_Matariki假日_今年層_透明.png",
+    "left": 24,
+    "top": 447.02,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 488.9941520467836,
+   "width": 1032,
+   "height": 942.0116959064327,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 5,
+  "title": "鏡頭02-概念圖收",
+  "group": "長圖",
+  "left": -14152.5,
+  "top": -22962.0,
+  "width": 32400.0,
+  "height": 52020.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L14-標籤-Matariki"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 6,
+  "title": "鏡頭03開始",
+  "group": "長圖",
+  "left": -11926.29,
+  "top": -19590.86,
+  "width": 27771.43,
+  "height": 44588.57,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L15-標籤-太陽近"
+  ],
+  "notes": "日期由天上決定。Matariki 就是昴宿：每年四、五月，它在黃昏沉進西方，躲進太陽的光裡；六月，再從冬天的黎明裡冒出來。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 7,
+  "title": "鏡頭03結束＝鏡頭04開始",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L16-標籤-太陽遠"
+  ],
+  "notes": "假日還要對上官方採用的毛利月曆：在昴宿重現的 Pipiri 月，月亮走到叫 Tangaroa 的那幾晚，大約下弦月前後，再挑最近的星期五。今年的 Tangaroa，是六月二十七到三十號。",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 8,
+  "title": "鏡頭04-概念圖1",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-02_怎麼挑日子_月曆層_透明.png",
+    "left": 24,
+    "top": 469.9,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 479.6900584795321,
+   "width": 1032,
+   "height": 960.6198830409357,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 9,
+  "title": "鏡頭04-概念圖2",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-02_怎麼挑日子_月曆層_透明.png",
+    "left": 24,
+    "top": 469.9,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A33-02_怎麼挑日子_放假層_透明.png",
+    "left": 24,
+    "top": 469.9,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 479.6900584795321,
+   "width": 1032,
+   "height": 960.6198830409357,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 10,
+  "title": "鏡頭04-概念圖收＝鏡頭05開始",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L16-標籤-太陽遠"
+  ],
+  "notes": "為什麼新年在六月？南半球的六月是冬天：冬至那天，威靈頓的白天只有九個多小時。最冷、最暗的時候，昴宿回來了——舊的一年結束，新的一年開始。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 11,
+  "title": "鏡頭05-概念圖",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-03_兩個季節_透明.png",
+    "left": 24,
+    "top": 489.77,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 582.5380116959064,
+   "width": 1032,
+   "height": 754.9239766081872,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 12,
+  "title": "鏡頭05-概念圖收＝鏡頭06開始",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L16-標籤-太陽遠"
+  ],
+  "notes": "台灣其實比紐西蘭早：同樣在天亮前，昴宿六月八號前後就在台灣東北東的地平線露臉，紐西蘭要再晚四五天；到了六月下旬，兩邊都好找了。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 13,
+  "title": "鏡頭06-概念圖1",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-04_黎明重現_地平線層_透明.png",
+    "left": 24,
+    "top": 504.35,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 546.8304093567251,
+   "width": 1032,
+   "height": 826.3391812865495,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 14,
+  "title": "鏡頭06-概念圖2",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-04_黎明重現_地平線層_透明.png",
+    "left": 24,
+    "top": 504.35,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A33-04_黎明重現_三地層_透明.png",
+    "left": 24,
+    "top": 504.35,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 546.8304093567251,
+   "width": 1032,
+   "height": 826.3391812865495,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 15,
+  "title": "鏡頭06-概念圖收＝鏡頭07開始",
+  "group": "長圖",
+  "left": -2722.5,
+  "top": -5227.5,
+  "width": 8100.0,
+  "height": 13005.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L16-標籤-太陽遠"
+  ],
+  "notes": "看到還不夠，還要看清楚。天亮前，懂星的人仔細看這群星：清楚又明亮，來年溫暖豐收；朦朧、擠成一團，就要準備過一個冷冬。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 16,
+  "title": "鏡頭07結束＝鏡頭08開始",
+  "group": "長圖",
+  "left": -58230.0,
+  "top": -94350.0,
+  "width": 129600.0,
+  "height": 208080.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L8-太陽",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "很多說法只數七顆；",
+  "trans": "Match & Move（13.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 17,
+  "title": "鏡頭08結束＝鏡頭08b開始",
+  "group": "長圖",
+  "left": -36191.25,
+  "top": -58608.75,
+  "width": 81000.0,
+  "height": 130050.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L9-引線-七顆",
+   "L13-主角星白點",
+   "L17-標籤-七顆"
+  ],
+  "notes": "近年最受注目的，是九顆星的說法。毛利天文學者 Rangi Mātāmua 整理祖先在一九三三年完成的手稿，介紹這九顆星和它們各自照看的領域。",
+  "trans": "Match & Move（3.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 18,
+  "title": "鏡頭08b結束＝鏡頭09開始",
+  "group": "長圖",
+  "left": -34722.0,
+  "top": -56226.0,
+  "width": 77760.0,
+  "height": 124848.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L10-引線-九顆",
+   "L13-主角星白點",
+   "L18-標籤-九顆"
+  ],
+  "notes": "Tupuānuku 管土裡長的食物，Tupuārangi 管樹上的果實和鳥；Waitī 管淡水和河裡的食物，Waitā 管大海和海裡的食物；Waipuna-ā-rangi 管雨，Ururangi 管風。",
+  "trans": "Match & Move（14.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 19,
+  "title": "鏡頭09結束＝鏡頭10開始",
+  "group": "長圖",
+  "left": -33365.77,
+  "top": -54026.54,
+  "width": 74769.23,
+  "height": 120046.15,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L10-引線-九顆",
+   "L11-圈-六顆",
+   "L13-主角星白點",
+   "L18-標籤-九顆",
+   "L19-標籤-六顆領域"
+  ],
+  "notes": "Matariki 是母親，照看人們的健康；Hiwa-i-te-rangi 收下新年的願望；Pōhutukawa 代表過去一年離開的人。而後面這兩顆，正好是九顆裡最暗的，要在很黑的地方才看得到。",
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 20,
+  "title": "鏡頭10結束",
+  "group": "長圖",
+  "left": -32110.0,
+  "top": -51990.0,
+  "width": 72000.0,
+  "height": 115600.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L10-引線-九顆",
+   "L12-圈-最暗兩顆",
+   "L13-主角星白點",
+   "L18-標籤-九顆",
+   "L20-標籤-三顆領域"
+  ],
+  "notes": "",
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 21,
+  "title": "鏡頭10-概念圖",
+  "group": "長圖",
+  "left": -32110.0,
+  "top": -51990.0,
+  "width": 72000.0,
+  "height": 115600.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L10-引線-九顆",
+   "L12-圈-最暗兩顆",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-05_Matariki九星小辭典_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 22,
+  "title": "鏡頭10-概念圖收",
+  "group": "長圖",
+  "left": -32110.0,
+  "top": -51990.0,
+  "width": 72000.0,
+  "height": 115600.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L10-引線-九顆",
+   "L12-圈-最暗兩顆",
+   "L13-主角星白點",
+   "L18-標籤-九顆",
+   "L20-標籤-三顆領域"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 23,
+  "title": "鏡頭11開始",
+  "group": "長圖",
+  "left": -24647.14,
+  "top": -39948.86,
+  "width": 55542.86,
+  "height": 89177.14,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "天亮前的這場儀式叫 hautapu：生火煮食物，讓熱氣升上天，獻給這群星；念出離開的人的名字，也說出新年的願望。有點像我們過年：送走舊的一年，想念親人，許下新願。",
+  "trans": "Match & Move（轉場，≤2.5 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 24,
+  "title": "鏡頭11-概念圖1",
+  "group": "長圖",
+  "left": -24647.14,
+  "top": -39948.86,
+  "width": 55542.86,
+  "height": 89177.14,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 1 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-06_hautapu_爐火層_透明.png",
+    "left": 24,
+    "top": 434.7,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 434.4269005847953,
+   "width": 1032,
+   "height": 1051.1461988304093,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 25,
+  "title": "鏡頭11-概念圖2",
+  "group": "長圖",
+  "left": -24647.14,
+  "top": -39948.86,
+  "width": 55542.86,
+  "height": 89177.14,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 2 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-06_hautapu_爐火層_透明.png",
+    "left": 24,
+    "top": 434.7,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A33-06_hautapu_熱氣層_透明.png",
+    "left": 24,
+    "top": 434.7,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 434.4269005847953,
+   "width": 1032,
+   "height": 1051.1461988304093,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 26,
+  "title": "鏡頭11-概念圖3",
+  "group": "長圖",
+  "left": -24647.14,
+  "top": -39948.86,
+  "width": 55542.86,
+  "height": 89177.14,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖第 3 層淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-06_hautapu_爐火層_透明.png",
+    "left": 24,
+    "top": 434.7,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A33-06_hautapu_熱氣層_透明.png",
+    "left": 24,
+    "top": 434.7,
+    "width": 1032.0,
+    "height": 1032.0
+   },
+   {
+    "file": "C-A33-06_hautapu_名字層_透明.png",
+    "left": 24,
+    "top": 434.7,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 434.4269005847953,
+   "width": 1032,
+   "height": 1051.1461988304093,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 27,
+  "title": "鏡頭11-概念圖收＝鏡頭12開始",
+  "group": "長圖",
+  "left": -24647.14,
+  "top": -39948.86,
+  "width": 55542.86,
+  "height": 89177.14,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "但不是每個部族都看昴宿。北島西岸的 Taranaki、Whanganui 等部族，新年看的是 Puanga——參宿七。有的地方被山擋住，看不清昴宿；也有部族的專家說，Puanga 更能預告西岸的天氣。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 28,
+  "title": "鏡頭12結束",
+  "group": "長圖",
+  "left": -4224.71,
+  "top": -8092.94,
+  "width": 11435.29,
+  "height": 18360.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L21-標籤-Puanga"
+  ],
+  "notes": "",
+  "trans": "Match & Move（18.0 秒）",
+  "mountain_top": null
+ },
+ {
+  "page": 29,
+  "title": "鏡頭12-概念圖",
+  "group": "長圖",
+  "left": -4224.71,
+  "top": -8092.94,
+  "width": 11435.29,
+  "height": 18360.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-08_北島示意_透明.png",
+    "left": 24,
+    "top": 445.01,
+    "width": 1032.0,
+    "height": 1032.0
+   }
+  ],
+  "panel": {
+   "left": 24,
+   "top": 433.6725146198831,
+   "width": 1032,
+   "height": 1052.654970760234,
+   "color": "#000000",
+   "opacity": 0.75,
+   "radius": 48
+  }
+ },
+ {
+  "page": 30,
+  "title": "鏡頭12-概念圖收",
+  "group": "長圖",
+  "left": -4224.71,
+  "top": -8092.94,
+  "width": 11435.29,
+  "height": 18360.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L5-連線-定位（獵戶、金牛）",
+   "L7-深空天體",
+   "L13-主角星白點",
+   "L21-標籤-Puanga"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 31,
+  "title": "鏡頭13開始",
+  "group": "長圖",
+  "left": -11340.0,
+  "top": -10452.0,
+  "width": 12960.0,
+  "height": 20808.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-天蠍",
+   "L13-主角星白點",
+   "L22-標籤-Rehua"
+  ],
+  "notes": "今晚八點，這兩位主角下午就已經西沉，台灣看不到。往南偏東看，紅色的心宿二已經升到半空，毛利人叫它 Rehua。想看 Matariki，明天清晨三點半到四點，往東北東低空找，跟紐西蘭一起迎新年。",
+  "trans": "無（硬切，新構圖）",
+  "mountain_top": null
+ },
+ {
+  "page": 32,
+  "title": "鏡頭13-概念圖",
+  "group": "長圖",
+  "left": -11340.0,
+  "top": -10452.0,
+  "width": 12960.0,
+  "height": 20808.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-天蠍",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（畫面不動；概念圖淡入）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [
+   {
+    "file": "C-A33-07_這週抬頭看_圖卡.png",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 1920
+   }
+  ],
+  "panel": null
+ },
+ {
+  "page": 33,
+  "title": "鏡頭13-概念圖收＝鏡頭14開始",
+  "group": "長圖",
+  "left": -11340.0,
+  "top": -10452.0,
+  "width": 12960.0,
+  "height": 20808.0,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-天蠍",
+   "L13-主角星白點",
+   "L22-標籤-Rehua"
+  ],
+  "notes": "下週五，我們沿著銀河繞地球一圈：有人看見一條河，有人看見一條路，也有人看見一道縫。",
+  "trans": "Match & Move（畫面不動；概念圖淡出）",
+  "mountain_top": null,
+  "hold": true,
+  "overlay": [],
+  "panel": null
+ },
+ {
+  "page": 34,
+  "title": "鏡頭14結束",
+  "group": "長圖",
+  "left": -7020.0,
+  "top": -6624.55,
+  "width": 8836.36,
+  "height": 14187.27,
+  "rotation": 0.0,
+  "layers": [
+   "L1-銀河",
+   "L2-星點",
+   "L3-經緯線",
+   "L6-連線-天蠍",
+   "L13-主角星白點"
+  ],
+  "notes": "",
+  "trans": "Match & Move（12.0 秒）",
+  "mountain_top": null
+ }
+]
