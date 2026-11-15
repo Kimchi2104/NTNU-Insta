@@ -1,0 +1,43 @@
+{
+  "design_id": "DAHWtYH9YqI",
+  "design_title": "X-03 一個勺子的十種人生",
+  "commit": "79da78b5edfa9c773a0121a602cd40a4217027ec",
+  "layers": {
+    "北盤L1-銀河": "MAHbBmbvwnE",
+    "北盤L10-連線-北斗帝車（中國）": "MAHbBmRiiEo",
+    "北盤L11-連線-車（巴比倫）": "MAHbBtgp2VE",
+    "北盤L12-連線-空馬車（峇里）": "MAHbBuP1b0I",
+    "北盤L13-連線-熊（荷馬）": "MAHbBivJ6Dk",
+    "北盤L14-連線-七仙人（印度）": "MAHbBq6sWs4",
+    "北盤L15-連線-棺架（阿拉伯）": "MAHbBnbeytU",
+    "北盤L16-連線-女兒（阿拉伯）": "MAHbBkRYny4",
+    "北盤L17-連線-強盜（馬其頓）": "MAHbBu55f-A",
+    "北盤L18-連線-大蛇（圖卡諾）": "MAHbBjmYCZ8",
+    "北盤L19-連線-船（布吉斯）": "MAHbBrRVB3E",
+    "北盤L2-星點": "MAHbBica1-g",
+    "北盤L20-連線-駝鹿的腳（埃文基）": "MAHbBgLqq7g",
+    "北盤L21-連線-獵人（埃文基）": "MAHbBvXHmXw",
+    "北盤L22-連線-馴鹿（因紐特）": "MAHbBvEOHg8",
+    "北盤L23-主角星白點": "MAHbBr1AItE",
+    "北盤L3-經緯線": "MAHbBqkO72A",
+    "北盤L49-漁夫與漁具": "MAHbBvSE85w",
+    "北盤L5-連線-北斗（定位）": "MAHbBjqW678",
+    "北盤L50-大熊全形（托勒密）": "MAHbBpyemGY",
+    "北盤L51-斗柄弧線（下集）": "MAHbBsv4rIc",
+    "北盤L6-連線-漁網星船身（曼達爾）": "MAHbBndCCU4",
+    "北盤L7-連線-牛的前腿（埃及）": "MAHbBvnTIFA",
+    "北盤L8-連線-男人的車（北歐）": "MAHbBlN9csE"
+  },
+  "mountain": "MAD4KTwSGtw",
+  "background": "MAHWs5D_MpY",
+  "concept": {
+    "C-X03-01_三千年前不落下_孟斐斯層_透明.png": "MAHbBk4L0ac",
+    "C-X03-01_三千年前不落下_長安層_透明.png": "MAHbBiW1-jw",
+    "C-X03-02_熊不下海洗澡_2027年層_透明.png": "MAHbBq1KAxE",
+    "C-X03-02_熊不下海洗澡_前750年層_透明.png": "MAHbBv7oTlo",
+    "C-X03-03_赤道邊的北斗_地平線層_透明.png": "MAHbBriEyHQ",
+    "C-X03-03_赤道邊的北斗_大蛇層_透明.png": "MAHbBoyGlik",
+    "C-X03-04_十種人生_圖卡.png": "MAHbBo3App4",
+    "C-X03-05_今晚抬頭看_圖卡.png": "MAHbBhkcd18"
+  }
+}
