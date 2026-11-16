@@ -1,0 +1,48 @@
+{
+ "design_id": "DAHXDgC_BG4",
+ "design_title": "A-31 卡米拉羅伊",
+ "commit": "f8968995f79a7561a48ff48cbf9c52d97c0e58f9",
+ "layers": {
+  "南盤L1-銀河": "MAHbD1kauMU",
+  "南盤L10-標籤-Yarran與Muraay": "MAHbDxrMUkQ",
+  "南盤L11-標籤-同一塊黑": "MAHbD6V3BBA",
+  "南盤L12-標籤-GuiráNhandu美洲鴕": "MAHbD2tctvk",
+  "南盤L13-標籤-墾丁23時": "MAHbD46q1rE",
+  "南盤L14-標籤-凌晨兩點半": "MAHbD71tACw",
+  "南盤L15-標籤-南十字": "MAHbD4SLHAI",
+  "南盤L16-銀河暗帶版": "MAHbD2J7x5M",
+  "南盤L17-暗帶-頭": "MAHbD1Pzz-o",
+  "南盤L18-暗帶-脖子": "MAHbD0Wka7o",
+  "南盤L19-暗帶-身體": "MAHbD6YUE_A",
+  "南盤L2-星點": "MAHbD-fmvJU",
+  "南盤L20-暗帶-腳": "MAHbD07ait4",
+  "南盤L21-暗帶外框": "MAHbD94ghM4",
+  "南盤L3-經緯線": "MAHbD63pkdI",
+  "南盤L5-連線-GuiráNhandu美洲鴕": "MAHbD4DBFVE",
+  "南盤L6-連線-Yarran樹根": "MAHbD-66DeE",
+  "南盤L7-連線-南十字": "MAHbD5VA00k",
+  "南盤L8-主角星白點": "MAHbD0lxjXI",
+  "南盤L9-標籤-Gawarrgay鴯鶓": "MAHbD6vgjuo"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A31-01_地圖_澳洲層_透明.png": "MAHbD6f--F8",
+  "C-A31-01_地圖_標點層_透明.png": "MAHbD6dN4dU",
+  "C-A31-02_亮星與暗帶_亮星層_透明.png": "MAHbD6phIGk",
+  "C-A31-02_亮星與暗帶_暗帶層_透明.png": "MAHbDzSfd5Y",
+  "C-A31-03_鴯鶓曆_四五月層_透明.png": "MAHbD_jhv3o",
+  "C-A31-03_鴯鶓曆_六到八月層_透明.png": "MAHbD5KH1V4",
+  "C-A31-03_鴯鶓曆_八月底層_透明.png": "MAHbD_vV1oE",
+  "C-A31-03_鴯鶓曆_十一十二月層_透明.png": "MAHbD-I9c5M",
+  "C-A31-04_bora場地_場地層_透明.png": "MAHbD60qxwo",
+  "C-A31-04_bora場地_天空層_透明.png": "MAHbD4QkvKw",
+  "C-A31-05_同一塊黑_圖卡.png": "MAHbD8GTx_U",
+  "C-A31-06_這週抬頭看_圖卡.png": "MAHbD8t36yc"
+ },
+ "progress": {
+  "狀態": "完成（待手工收尾）",
+  "頁序": "1 封面｜2–31 內容頁 1–30｜32 下集見｜33 追蹤我們｜34 參考文獻｜35 製作團隊｜36 鳴謝｜37–62 舊頁（26 頁，待刪）"
+ },
+ "design_pages_final": 62
+}
