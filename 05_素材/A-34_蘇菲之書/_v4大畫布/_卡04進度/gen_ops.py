@@ -1,12 +1,12 @@
 import sys,json,csv,re,glob
-import os; sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..','02_製作流程SOP'))
+import os; sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..','..','02_製作流程SOP'))
 import canva_ops as co, gen_subtitles as gs
 d=co.folder('A-34')
 pages={p['page']:p for p in json.load(open(d+'/A-34_Canva頁面參數.json',encoding='utf-8'))}
 media=json.load(open(d+'/A-34_Canva媒體ID.json',encoding='utf-8'))
 labs=list(csv.DictReader(open(d+'/A-34_逐頁標籤座標.csv',encoding='utf-8-sig')))
 ids={int(a):b for a,b in (l.split() for l in open(d+'/_卡04進度/page_ids.txt',encoding='utf-8') if l[0].isdigit())}
-md=open(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","..","..","04_腳本庫","A-34-*v1.md"))[0],encoding='utf-8').read()
+md=open(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","..","..","..","04_腳本庫","A-34-*v1.md"))[0],encoding='utf-8').read()
 cards={}
 for l in md.splitlines():
     m=re.match(r'\| \*\*(\d\d)\*\* \w \|[^|]*\|[^|]*\|([^|]*)\|',l)
