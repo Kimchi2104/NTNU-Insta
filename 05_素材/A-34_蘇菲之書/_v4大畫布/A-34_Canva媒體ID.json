@@ -1,0 +1,42 @@
+{
+ "design_id": "DAHXDk9OlKA",
+ "design_title": "A-34 蘇菲之書",
+ "commit": "f8968995f79a7561a48ff48cbf9c52d97c0e58f9",
+ "layers": {
+  "北盤L1-銀河": "MAHbD_owojs",
+  "北盤L2-星點": "MAHbD7r1F2o",
+  "北盤L3-經緯線": "MAHbD5vq90w",
+  "北盤L5-連線-牧夫座＋室女座（蘇菲）": "MAHbD8TJXxQ",
+  "北盤L6-連線-仙女座（蘇菲）": "MAHbD3wSv38",
+  "北盤L7-連線-大魚（阿拉伯）": "MAHbD1qzGf0",
+  "北盤L8-連線-英仙座（蘇菲）": "MAHbD2mb2cw",
+  "北盤L9-連線-天琴座＋天鷹座（蘇菲）": "MAHbDwxSYoA",
+  "北盤L10-連線-兩隻老鷹（阿拉伯）": "MAHbDxrLjI0",
+  "北盤L11-主角星白點": "MAHbD_r50mQ",
+  "北盤L12-大角光環": "MAHbD-_cOdo",
+  "北盤L13-仙女座大星系": "MAHbD6CN_jE",
+  "北盤L16-標籤-大魚": "MAHbD2aqu-4",
+  "北盤L17-標籤-魚嘴": "MAHbD4wDUyM",
+  "北盤L18-標籤-英仙": "MAHbD9O9oJU",
+  "北盤L19-標籤-今晚八點": "MAHbDxaCl-g",
+  "北盤L20-標籤-織女": "MAHbD15b9jc",
+  "北盤L21-標籤-兩隻老鷹": "MAHbD0EdApw",
+  "北盤L14-天頂": "MAHbD7Msxis",
+  "北盤L15-標籤-高舉者": "MAHbDznhJeI"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A34-01_蘇菲是誰_書名層_透明.png": "MAHbDz88NXU",
+  "C-A34-01_蘇菲是誰_生平層_透明.png": "MAHbD1CNbcQ",
+  "C-A34-02_托勒密到蘇菲_星表層_透明.png": "MAHbD7B2AVo",
+  "C-A34-02_托勒密到蘇菲_核對層_透明.png": "MAHbDyqytNw",
+  "C-A34-03_歲差_平移層_透明.png": "MAHbD2s8_bs",
+  "C-A34-03_歲差_黃道層_透明.png": "MAHbD06hud0",
+  "C-A34-03b_蘇菲的尺_單位層_透明.png": "MAHbD-Bh8-s",
+  "C-A34-03b_蘇菲的尺_銀河層_透明.png": "MAHbD7A-bxw",
+  "C-A34-04_天空與天球儀_天球儀層_透明.png": "MAHbD1VhQSY",
+  "C-A34-04_天空與天球儀_天空層_透明.png": "MAHbDwZJFz8",
+  "C-A34-05_用蘇菲的眼睛看天_圖卡.png": "MAHbDy-W7mA"
+ }
+}
