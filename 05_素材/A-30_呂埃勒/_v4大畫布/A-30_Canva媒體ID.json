@@ -1,0 +1,34 @@
+{
+ "design_id": "DAHXDtnqe_A",
+ "design_title": "A-30 呂埃勒",
+ "commit": "f8968995f79a7561a48ff48cbf9c52d97c0e58f9",
+ "layers": {
+  "L1-銀河": "MAHbDypR5yM",
+  "L2-星點": "MAHbD8ixra4",
+  "L3-經緯線": "MAHbD7YLyDw",
+  "L4-星座連線": "MAHbD_0Qovc",
+  "L5-連線-Stellarium預設": "MAHbD2bLGJ0",
+  "L6-連線-Rey": "MAHbDxwcd_M",
+  "L7-連線-SaFrache（A-29）": "MAHbD2-DSmo",
+  "L10-IAU邊界-小獅座": "MAHbD3koVUY",
+  "L11-小獅座五星紅圈": "MAHbD9wY9dk",
+  "L12-火星與木星4月30日": "MAHbD6p80fk",
+  "L13-主角星白點": "MAHbD83mayM",
+  "北盤L1-銀河": "MAHbDxAPfmI",
+  "北盤L2-星點": "MAHbD0qKDlQ",
+  "北盤L3-經緯線": "MAHbD28itjo",
+  "L8-連線-Bharaṇī（A-28）": "MAHbDwBc1kw",
+  "L9-IAU邊界": "MAHbD8lBJcA"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-A30-01_連線簡史_透明.png": "MAHbD05rjpw",
+  "C-A30-02_1802個連線_口音層_透明.png": "MAHbD5LYsGc",
+  "C-A30-02_1802個連線_點陣層_透明.png": "MAHbD8aJyec",
+  "C-A30-03_這週末抬頭看_圖卡.png": "MAHbD8ebwe0"
+ },
+ "progress": {
+  "狀態": "進行中"
+ }
+}
