@@ -26,7 +26,13 @@ def subtitle_lines(t, n=16):
         while len(s) > n:
             out.append(s[:n]); s = s[n:]
         if s: out.append(s)
-    out = [re.sub(r"[，。、；：]$", "", l) for l in out]
+    packed = []
+    for l in out:                       # 短句貼在一起排成一行（不超過 n 字）
+        if packed and len(packed[-1]) + len(l) <= n:
+            packed[-1] += l
+        else:
+            packed.append(l)
+    out = [re.sub(r"[，。、；：]$", "", l) for l in packed]
     return out
 
 
