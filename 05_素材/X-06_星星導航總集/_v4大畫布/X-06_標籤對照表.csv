@@ -1,0 +1,18 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+夏威夷,夏威夷,,Hawaiʻi,夏威夷：魚鉤、脊椎骨,#7BD88F,hawaiian_starlines MAN、IWI；A-09
+東加,東加,,Tonga,東加：野鴨、ʻUvea 的圓環,#FFC94A,tongan 001、010；Collocott 1922；A-10
+阿努塔,阿努塔,,Anuta,阿努塔：星路上的魚,#6FA8FF,anutan 009；A-11
+布吉斯曼達爾,布吉斯・曼達爾,,Bugis & Mandar,斜屋、魟魚、鯊魚,#FF6B6B,mandar 001–003；Rasyid et al. 2021；A-26、A-27
+阿拉伯,阿拉伯,,Arab navigators,北極星＝正北（al-Jāh）,#B78AFF,Tibbetts 1971（未親核）
+大熊,Ἄρκτος,,the Bear (Ursa Major),大熊（又叫車）,#FFFFFF,Odyssey 5.273；greek_almagest UMa
+北極星,北極星,,Polaris,北極星,#FFFFFF,
+Hōkūleʻa,Hōkūleʻa,,Star of Gladness,大角星,#7BD88F,hawaiian_starlines；A-09
+ʻUvea,ʻAo ʻo ʻUvea,,Cloud/Ring of ʻUvea,ʻUvea 的圓環,#FFC94A,tongan 010；拼法照 A-10（待查核 17）；Stellarium 推測北冕座
+Toloa,Toloa,,wild duck,野鴨（南十字）,#FFC94A,Collocott 1922；tongan 001
+南天極,南天極,,South Celestial Pole,南天極,#FF6B6B,
+Sapo Kepang,Sapo Kepang,,Slanted House,斜屋,#FFC94A,mandar 001；布吉斯 bola képpang（瘸腿的房子）
+Lambaru,Lambaru,,Stingray,魟魚,#B78AFF,mandar 003；11 月底清晨升起
+Mangiwang,Mangiwang,,Shark,鯊魚,#FF6B6B,mandar 002；12 月底清晨升起
+心宿二,心宿二,,Antares,心宿二,#FF6B6B,
+月亮,月亮,,Moon,月亮,#FFFFFF,PyEphem 台北 5/21 21:30 站心；圖示放大約 3 倍
+跨文化,bola képpang,,Incomplete house,瘸腿的房子（布吉斯，A-26）,#FFC94A,Stellarium
