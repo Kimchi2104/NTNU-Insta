@@ -45,10 +45,12 @@ def build(n):
         ops.append({"type": "add_text", "page_id": pid, "text": card, "left": 60, "top": 300, "width": 960})
         texts.append({"text": card, "formatting": {"font_size": 72, "color": "#ffffff", "text_align": "center", "line_height": 1.2}})
     if vo and not ov:
-        lines = subtitle_lines(vo)
-        top = round(1600 - len(lines) * 44 * 1.3, 1)
+        big = len(vo) <= 48                      # 長旁白縮小字級（32px、每行 22 字），避免十幾行壓到標籤與山
+        fs = 44 if big else 32
+        lines = subtitle_lines(vo, 16 if big else 22)
+        top = round(1600 - len(lines) * fs * 1.3, 1)
         ops.append({"type": "add_text", "page_id": pid, "text": "\n".join(lines), "left": 60, "top": top, "width": 960})
-        texts.append({"text": "\n".join(lines), "formatting": {"font_size": 44, "color": "#ffffff", "text_align": "center", "line_height": 1.3}})
+        texts.append({"text": "\n".join(lines), "formatting": {"font_size": fs, "color": "#ffffff", "text_align": "center", "line_height": 1.3}})
     ops.append(notes_op)
     return {"page_index": n + OFFSET, "page_id": pid, "ops1": ops,
             "after": {"mountain_crop": {"type": "crop_media", "locator_id": "<山的 locator>", "left": 0, "top": 0,
