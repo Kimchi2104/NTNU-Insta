@@ -1,0 +1,1421 @@
+{
+  "ep": "X-05",
+  "label_sets": [
+    {
+      "name": "三個十字",
+      "items": [
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "南十字",
+          "color": "amber",
+          "size": 1.95,
+          "dx": 1.21,
+          "dy": 6.04,
+          "key": "南十字",
+          "disc": true
+        },
+        {
+          "ra": 134.26044161725412,
+          "dec": -57.270413620496754,
+          "text": "假十字",
+          "color": "red",
+          "size": 1.95,
+          "dx": 0.0,
+          "dy": 9.06,
+          "key": "假十字",
+          "disc": true
+        },
+        {
+          "ra": 150.26128542354172,
+          "dec": -67.51775441483527,
+          "text": "鑽石十字",
+          "color": "blue",
+          "size": 1.95,
+          "dx": -10.27,
+          "dy": -1.21,
+          "key": "鑽石十字",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "南十字",
+      "items": [
+        {
+          "hip": 61084,
+          "text": "十字架一",
+          "color": "amber",
+          "size": 0.64,
+          "dx": 0.0,
+          "dy": 1.44,
+          "key": "十字架一",
+          "disc": true
+        },
+        {
+          "hip": 60718,
+          "text": "十字架二",
+          "color": "amber",
+          "size": 0.64,
+          "dx": 0.0,
+          "dy": -1.44,
+          "key": "十字架二",
+          "disc": true
+        },
+        {
+          "hip": 62434,
+          "text": "十字架三",
+          "color": "amber",
+          "size": 0.64,
+          "dx": -3.6,
+          "dy": 0.0,
+          "key": "十字架三",
+          "disc": true
+        },
+        {
+          "hip": 59747,
+          "text": "十字架四",
+          "color": "amber",
+          "size": 0.64,
+          "dx": 3.6,
+          "dy": 0.0,
+          "key": "十字架四",
+          "disc": true
+        },
+        {
+          "hip": 60260,
+          "text": "第五顆星",
+          "color": "white",
+          "size": 0.56,
+          "dx": 2.88,
+          "dy": -1.44,
+          "key": "第五顆星",
+          "disc": true
+        },
+        {
+          "ra": 192.9,
+          "dec": -62.8,
+          "text": "煤袋",
+          "color": "white",
+          "size": 0.71,
+          "dx": 0.0,
+          "dy": 0.0,
+          "key": "煤袋",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "指南",
+      "items": [
+        {
+          "ra": 0.0,
+          "dec": -90.0,
+          "text": "南天極",
+          "color": "white",
+          "size": 1.17,
+          "dx": 0.0,
+          "dy": -2.65,
+          "key": "南天極",
+          "disc": true
+        },
+        {
+          "ra": 126.42232512381686,
+          "dec": -87.05489987352647,
+          "text": "差不到 3°",
+          "color": "white",
+          "size": 1.09,
+          "dx": 0.0,
+          "dy": 5.75,
+          "key": "差",
+          "disc": true
+        },
+        {
+          "ra": 215.38029905499346,
+          "dec": -60.67664205887168,
+          "text": "指針",
+          "color": "white",
+          "size": 1.3,
+          "dx": 0.88,
+          "dy": 4.42,
+          "key": "指針",
+          "disc": true
+        },
+        {
+          "hip": 71683,
+          "text": "南門二",
+          "color": "white",
+          "size": 1.04,
+          "dx": 0.0,
+          "dy": -2.21,
+          "key": "南門二",
+          "disc": true
+        },
+        {
+          "hip": 68702,
+          "text": "馬腹一",
+          "color": "white",
+          "size": 1.04,
+          "dx": 0.0,
+          "dy": -2.21,
+          "key": "馬腹一",
+          "disc": true
+        },
+        {
+          "ra": 178.10009375980437,
+          "dec": -78.92841473980478,
+          "text": "延長 4.5 倍",
+          "color": "white",
+          "size": 1.09,
+          "dx": -5.75,
+          "dy": 0.0,
+          "key": "延",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "南十字的名字",
+      "items": [
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "Toloa",
+          "color": "amber",
+          "size": 1.48,
+          "dx": 0.0,
+          "dy": 49.91,
+          "key": "Toloa",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "野鴨（東加）",
+          "color": "white",
+          "size": 1.19,
+          "dx": 0.0,
+          "dy": 47.53,
+          "key": "Toloa-zh",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "Hānaiakamalama",
+          "color": "amber",
+          "size": 1.48,
+          "dx": 0.0,
+          "dy": 42.63,
+          "key": "Hānaiakamalama",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "月亮照看的孩子（夏威夷）",
+          "color": "white",
+          "size": 1.19,
+          "dx": 0.0,
+          "dy": 40.25,
+          "key": "Hānaiakamalama-zh",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "Te Kupenga",
+          "color": "green",
+          "size": 1.48,
+          "dx": 0.0,
+          "dy": 35.35,
+          "key": "Te Kupenga",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "漁網（阿努塔）",
+          "color": "white",
+          "size": 1.19,
+          "dx": 0.0,
+          "dy": 32.97,
+          "key": "Te Kupenga-zh",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "Sapo Kepang",
+          "color": "blue",
+          "size": 1.48,
+          "dx": 0.0,
+          "dy": 28.07,
+          "key": "Sapo Kepang",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "歪房子（曼達爾）",
+          "color": "white",
+          "size": 1.19,
+          "dx": 0.0,
+          "dy": 25.69,
+          "key": "Sapo Kepang-zh",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "Bola Képpang",
+          "color": "purple",
+          "size": 1.48,
+          "dx": 0.0,
+          "dy": 20.79,
+          "key": "Bola Képpang",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "瘸腿的房子（布吉斯）",
+          "color": "white",
+          "size": 1.19,
+          "dx": 0.0,
+          "dy": 18.41,
+          "key": "Bola Képpang-zh",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "假十字",
+      "items": [
+        {
+          "hip": 42913,
+          "text": "天社三",
+          "color": "red",
+          "size": 0.64,
+          "dx": 0.0,
+          "dy": 1.44,
+          "key": "天社三",
+          "disc": true
+        },
+        {
+          "hip": 45941,
+          "text": "天社五",
+          "color": "red",
+          "size": 0.64,
+          "dx": 0.0,
+          "dy": 1.44,
+          "key": "天社五",
+          "disc": true
+        },
+        {
+          "hip": 41037,
+          "text": "海石一",
+          "color": "red",
+          "size": 0.64,
+          "dx": 0.0,
+          "dy": -1.44,
+          "key": "海石一",
+          "disc": true
+        },
+        {
+          "hip": 45556,
+          "text": "海石二",
+          "color": "red",
+          "size": 0.64,
+          "dx": 0.0,
+          "dy": -1.44,
+          "key": "海石二",
+          "disc": true
+        },
+        {
+          "ra": 134.26044161725412,
+          "dec": -57.270413620496754,
+          "text": "假十字",
+          "color": "red",
+          "size": 0.85,
+          "dx": 0.0,
+          "dy": 8.64,
+          "key": "假十字",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "假十字延長",
+      "items": [
+        {
+          "ra": 0.0,
+          "dec": -90.0,
+          "text": "南天極",
+          "color": "white",
+          "size": 1.76,
+          "dx": 0.0,
+          "dy": -3.56,
+          "key": "南天極",
+          "disc": true
+        },
+        {
+          "ra": 186.13891431432066,
+          "dec": -67.88553039453652,
+          "text": "差 22°",
+          "color": "red",
+          "size": 1.89,
+          "dx": 7.13,
+          "dy": 2.85,
+          "key": "f1",
+          "disc": true
+        },
+        {
+          "ra": 99.68169432309502,
+          "dec": -62.10001738497057,
+          "text": "差 28°",
+          "color": "red",
+          "size": 1.89,
+          "dx": -7.13,
+          "dy": 2.85,
+          "key": "f2",
+          "disc": true
+        },
+        {
+          "ra": 134.26044161725412,
+          "dec": -57.270413620496754,
+          "text": "假十字",
+          "color": "red",
+          "size": 2.1,
+          "dx": 0.0,
+          "dy": 8.56,
+          "key": "假十字",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "鑽石十字",
+      "items": [
+        {
+          "hip": 45238,
+          "text": "Miaplacidus",
+          "color": "blue",
+          "size": 1.76,
+          "dx": 11.24,
+          "dy": -0.51,
+          "key": "南船五",
+          "disc": true
+        },
+        {
+          "hip": 45238,
+          "text": "南船五",
+          "color": "white",
+          "size": 1.59,
+          "dx": 11.24,
+          "dy": -2.49,
+          "key": "南船五-zh",
+          "disc": true
+        },
+        {
+          "hip": 50099,
+          "text": "南船四",
+          "color": "blue",
+          "size": 1.67,
+          "dx": -9.74,
+          "dy": -1.5,
+          "key": "南船四",
+          "disc": true
+        },
+        {
+          "ra": 0.0,
+          "dec": -90.0,
+          "text": "圈內：墾丁永遠看不到",
+          "color": "green",
+          "size": 1.85,
+          "dx": 0,
+          "dy": 3.75,
+          "key": "never",
+          "disc": true
+        },
+        {
+          "ra": 150.26128542354172,
+          "dec": -67.51775441483527,
+          "text": "鑽石十字",
+          "color": "blue",
+          "size": 2.2,
+          "dx": 0.0,
+          "dy": 9.74,
+          "key": "鑽石十字",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "墾丁3月底",
+      "items": [
+        {
+          "ra": 134.26044161725412,
+          "dec": -57.270413620496754,
+          "text": "假十字（正南）",
+          "color": "red",
+          "size": 2.69,
+          "dx": 0.0,
+          "dy": 11.44,
+          "key": "假",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "南十字（剛升起）",
+          "color": "amber",
+          "size": 2.35,
+          "dx": 16.2,
+          "dy": 6.67,
+          "key": "真",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "墾丁4月中",
+      "items": [
+        {
+          "ra": 134.26044161725412,
+          "dec": -57.270413620496754,
+          "text": "右：假十字",
+          "color": "red",
+          "size": 2.69,
+          "dx": 0.0,
+          "dy": 17.15,
+          "key": "假",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "左：南十字",
+          "color": "amber",
+          "size": 2.69,
+          "dx": 0.0,
+          "dy": 9.53,
+          "key": "真",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "中國星官",
+      "items": [
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "十字架",
+          "color": "amber",
+          "size": 2.15,
+          "dx": 0.0,
+          "dy": 7.3,
+          "key": "十字架",
+          "disc": true
+        },
+        {
+          "ra": 135.8347354431171,
+          "dec": -54.94980732700067,
+          "text": "天社",
+          "color": "red",
+          "size": 2.15,
+          "dx": 0.0,
+          "dy": 7.3,
+          "key": "天社",
+          "disc": true
+        },
+        {
+          "ra": 136.66884142822144,
+          "dec": -61.561529738829584,
+          "text": "海石",
+          "color": "green",
+          "size": 2.15,
+          "dx": 0.0,
+          "dy": -7.3,
+          "key": "海石",
+          "disc": true
+        },
+        {
+          "ra": 151.58989148811884,
+          "dec": -68.31608127701553,
+          "text": "南船",
+          "color": "blue",
+          "size": 2.15,
+          "dx": 0.0,
+          "dy": -7.3,
+          "key": "南船",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "東加兩隻野鴨",
+      "items": [
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "Toloatonga",
+          "color": "amber",
+          "size": 1.9,
+          "dx": 6.45,
+          "dy": 10.71,
+          "key": "Toloatonga",
+          "disc": true
+        },
+        {
+          "ra": 187.5404599895655,
+          "dec": -59.69538810481432,
+          "text": "南方的野鴨",
+          "color": "white",
+          "size": 1.59,
+          "dx": 6.45,
+          "dy": 8.63,
+          "key": "Toloatonga-zh",
+          "disc": true
+        },
+        {
+          "ra": 134.26044161725412,
+          "dec": -57.270413620496754,
+          "text": "Toloalahi",
+          "color": "red",
+          "size": 1.9,
+          "dx": 0.0,
+          "dy": 10.71,
+          "key": "Toloalahi",
+          "disc": true
+        },
+        {
+          "ra": 134.26044161725412,
+          "dec": -57.270413620496754,
+          "text": "大野鴨",
+          "color": "white",
+          "size": 1.59,
+          "dx": 0.0,
+          "dy": 8.63,
+          "key": "Toloalahi-zh",
+          "disc": true
+        },
+        {
+          "hip": 61084,
+          "text": "Stellarium 版（據 1990 年資料）",
+          "color": "white",
+          "size": 1.37,
+          "dx": 21.29,
+          "dy": -32.25,
+          "key": "註1",
+          "disc": true
+        },
+        {
+          "hip": 61084,
+          "text": "Collocott 1922 只有 Toloa＝南十字",
+          "color": "white",
+          "size": 1.37,
+          "dx": 21.29,
+          "dy": -36.12,
+          "key": "註2",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "今晚台北",
+      "items": [
+        {
+          "hip": 61084,
+          "text": "十字架一 7.8°",
+          "color": "amber",
+          "size": 1.61,
+          "dx": 13.0,
+          "dy": 0,
+          "key": "γ",
+          "disc": true
+        },
+        {
+          "hip": 60718,
+          "text": "十字架二 2.0°",
+          "color": "amber",
+          "size": 1.61,
+          "dx": 13.0,
+          "dy": 0,
+          "key": "α",
+          "disc": true
+        },
+        {
+          "hip": 71683,
+          "text": "南門二",
+          "color": "white",
+          "size": 1.45,
+          "dx": 0.0,
+          "dy": -3.25,
+          "key": "南門二",
+          "disc": true
+        },
+        {
+          "hip": 68702,
+          "text": "馬腹一",
+          "color": "white",
+          "size": 1.45,
+          "dx": 0.0,
+          "dy": 3.25,
+          "key": "馬腹一",
+          "disc": true
+        },
+        {
+          "hip": 61084,
+          "text": "台北・今晚 21:00",
+          "color": "white",
+          "size": 1.91,
+          "dx": 0,
+          "dy": 23.4,
+          "key": "地",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "今晚墾丁",
+      "items": [
+        {
+          "hip": 61084,
+          "text": "十字架一 10.9°",
+          "color": "amber",
+          "size": 1.61,
+          "dx": 13.0,
+          "dy": 0,
+          "key": "γ",
+          "disc": true
+        },
+        {
+          "hip": 60718,
+          "text": "十字架二 5.0°",
+          "color": "amber",
+          "size": 1.61,
+          "dx": 13.0,
+          "dy": 0,
+          "key": "α",
+          "disc": true
+        },
+        {
+          "hip": 71683,
+          "text": "南門二",
+          "color": "white",
+          "size": 1.45,
+          "dx": 0.0,
+          "dy": -3.25,
+          "key": "南門二",
+          "disc": true
+        },
+        {
+          "hip": 68702,
+          "text": "馬腹一",
+          "color": "white",
+          "size": 1.45,
+          "dx": 0.0,
+          "dy": 3.25,
+          "key": "馬腹一",
+          "disc": true
+        },
+        {
+          "hip": 61084,
+          "text": "墾丁、蘭嶼・今晚 21:00",
+          "color": "white",
+          "size": 1.91,
+          "dx": 0,
+          "dy": 23.4,
+          "key": "地",
+          "disc": true
+        }
+      ]
+    },
+    {
+      "name": "月光",
+      "items": [
+        {
+          "hip": 61084,
+          "text": "月光從右上方來",
+          "color": "white",
+          "size": 1.72,
+          "dx": 6.5,
+          "dy": 18.2,
+          "key": "月",
+          "disc": true
+        },
+        {
+          "hip": 61084,
+          "text": "（西南方、高 57°）",
+          "color": "white",
+          "size": 1.45,
+          "dx": 6.5,
+          "dy": 14.95,
+          "key": "月2",
+          "disc": true
+        }
+      ]
+    }
+  ],
+  "terms": {
+    "南十字": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747
+      ],
+      "原文": "南十字",
+      "拼音": "",
+      "英文翻譯": "Southern Cross (Crux)",
+      "中文": "南十字",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Crux；IAU"
+    },
+    "假十字": {
+      "hips": [
+        42913,
+        45941,
+        41037,
+        45556
+      ],
+      "原文": "假十字",
+      "拼音": "",
+      "英文翻譯": "False Cross",
+      "中文": "假十字",
+      "顏色": "red",
+      "來源備註": "Stellarium 寫法 False Cross；Stellarium modern（AST modern FCr）"
+    },
+    "鑽石十字": {
+      "hips": [
+        45238,
+        52419,
+        48002,
+        50099
+      ],
+      "原文": "鑽石十字",
+      "拼音": "",
+      "英文翻譯": "Diamond Cross",
+      "中文": "鑽石十字",
+      "顏色": "blue",
+      "來源備註": "Stellarium 寫法 Diamond Cross；Stellarium modern（AST modern DCr）；現代業餘天文圈的星群名"
+    },
+    "十字架一": {
+      "hips": [
+        61084
+      ],
+      "原文": "十字架一",
+      "拼音": "",
+      "英文翻譯": "γ Cru (Gacrux)",
+      "中文": "十字架一",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Cross I；Stellarium chinese"
+    },
+    "十字架二": {
+      "hips": [
+        60718
+      ],
+      "原文": "十字架二",
+      "拼音": "",
+      "英文翻譯": "α Cru (Acrux)",
+      "中文": "十字架二",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Cross II；Stellarium chinese"
+    },
+    "十字架三": {
+      "hips": [
+        62434
+      ],
+      "原文": "十字架三",
+      "拼音": "",
+      "英文翻譯": "β Cru (Mimosa)",
+      "中文": "十字架三",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Cross III；Stellarium chinese"
+    },
+    "十字架四": {
+      "hips": [
+        59747
+      ],
+      "原文": "十字架四",
+      "拼音": "",
+      "英文翻譯": "δ Cru",
+      "中文": "十字架四",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Cross IV；Stellarium chinese"
+    },
+    "第五顆星": {
+      "hips": [
+        60260
+      ],
+      "原文": "第五顆星",
+      "拼音": "",
+      "英文翻譯": "ε Cru",
+      "中文": "第五顆星（ε Cru，3.6 等）",
+      "顏色": "white",
+      "來源備註": "—"
+    },
+    "煤袋": {
+      "hips": [],
+      "原文": "煤袋",
+      "拼音": "",
+      "英文翻譯": "Coalsack",
+      "中文": "煤袋",
+      "顏色": "white",
+      "來源備註": "暗星雲（A-31 鴯鶓的頭）"
+    },
+    "南門二": {
+      "hips": [
+        71683
+      ],
+      "原文": "南門二",
+      "拼音": "",
+      "英文翻譯": "α Cen",
+      "中文": "南門二",
+      "顏色": "white",
+      "來源備註": "Stellarium 寫法 Southern Gate II；Stellarium chinese"
+    },
+    "馬腹一": {
+      "hips": [
+        68702
+      ],
+      "原文": "馬腹一",
+      "拼音": "",
+      "英文翻譯": "β Cen",
+      "中文": "馬腹一",
+      "顏色": "white",
+      "來源備註": "Stellarium 寫法 Horse's Abdomen I；Stellarium chinese"
+    },
+    "指針": {
+      "hips": [
+        71683,
+        68702
+      ],
+      "原文": "指針",
+      "拼音": "",
+      "英文翻譯": "the Pointers",
+      "中文": "指針",
+      "顏色": "white",
+      "來源備註": "—"
+    },
+    "南天極": {
+      "hips": [],
+      "原文": "南天極",
+      "拼音": "",
+      "英文翻譯": "South Celestial Pole",
+      "中文": "南天極",
+      "顏色": "white",
+      "來源備註": "—"
+    },
+    "天社三": {
+      "hips": [
+        42913
+      ],
+      "原文": "天社三",
+      "拼音": "",
+      "英文翻譯": "δ Vel",
+      "中文": "天社三",
+      "顏色": "red",
+      "來源備註": "Stellarium 寫法 Celestial Earth God's Temple III；Stellarium chinese"
+    },
+    "天社五": {
+      "hips": [
+        45941
+      ],
+      "原文": "天社五",
+      "拼音": "",
+      "英文翻譯": "κ Vel",
+      "中文": "天社五",
+      "顏色": "red",
+      "來源備註": "Stellarium 寫法 Celestial Earth God's Temple V；Stellarium chinese"
+    },
+    "海石一": {
+      "hips": [
+        41037
+      ],
+      "原文": "海石一",
+      "拼音": "",
+      "英文翻譯": "ε Car (Avior)",
+      "中文": "海石一",
+      "顏色": "red",
+      "來源備註": "Stellarium 寫法 Sea Rock I；Stellarium chinese"
+    },
+    "海石二": {
+      "hips": [
+        45556
+      ],
+      "原文": "海石二",
+      "拼音": "",
+      "英文翻譯": "ι Car (Aspidiske)",
+      "中文": "海石二",
+      "顏色": "red",
+      "來源備註": "Stellarium 寫法 Sea Rock II；Stellarium chinese"
+    },
+    "南船五": {
+      "hips": [
+        45238
+      ],
+      "原文": "南船五",
+      "拼音": "",
+      "英文翻譯": "β Car (Miaplacidus)",
+      "中文": "南船五",
+      "顏色": "blue",
+      "來源備註": "Stellarium 寫法 Southern Boat V；Stellarium chinese；IAU 星名"
+    },
+    "南船三": {
+      "hips": [
+        52419
+      ],
+      "原文": "南船三",
+      "拼音": "",
+      "英文翻譯": "θ Car",
+      "中文": "南船三",
+      "顏色": "blue",
+      "來源備註": "Stellarium 寫法 Southern Boat III；Stellarium chinese"
+    },
+    "海石五": {
+      "hips": [
+        48002
+      ],
+      "原文": "海石五",
+      "拼音": "",
+      "英文翻譯": "υ Car",
+      "中文": "海石五",
+      "顏色": "blue",
+      "來源備註": "Stellarium 寫法 Sea Rock V；Stellarium chinese"
+    },
+    "南船四": {
+      "hips": [
+        50099
+      ],
+      "原文": "南船四",
+      "拼音": "",
+      "英文翻譯": "ω Car",
+      "中文": "南船四",
+      "顏色": "blue",
+      "來源備註": "Stellarium 寫法 Southern Boat IV；Stellarium chinese"
+    },
+    "Toloa": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747
+      ],
+      "原文": "Toloa",
+      "拼音": "",
+      "英文翻譯": "wild duck (Tonga)",
+      "中文": "野鴨（東加）",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Toloatonga；Collocott 1922（Toloa）；Stellarium tongan 作 Toloatonga「南方的野鴨」"
+    },
+    "Hānaiakamalama": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747
+      ],
+      "原文": "Hānaiakamalama",
+      "拼音": "",
+      "英文翻譯": "cared for by the Moon (Hawaiʻi)",
+      "中文": "月亮照看的孩子（夏威夷）",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Hanaiakamalama；PVS；Stellarium hawaiian_starlines"
+    },
+    "Te Kupenga": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747,
+        71683,
+        68702
+      ],
+      "原文": "Te Kupenga",
+      "拼音": "",
+      "英文翻譯": "the Net (Anuta)",
+      "中文": "漁網（阿努塔）",
+      "顏色": "green",
+      "來源備註": "Feinberg 1988；Stellarium anutan 011（含網柄南門二、馬腹一）"
+    },
+    "Sapo Kepang": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747,
+        59196
+      ],
+      "原文": "Sapo Kepang",
+      "拼音": "",
+      "英文翻譯": "Slanted House (Mandar)",
+      "中文": "歪房子（曼達爾）",
+      "顏色": "blue",
+      "來源備註": "Stellarium 寫法 Bittoéng Sapo Kepang；Rasyid, Hidayat & Orchiston 2021；Stellarium mandar 001（含 δ Cen 屋頂）"
+    },
+    "Bola Képpang": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747,
+        63003
+      ],
+      "原文": "Bola Képpang",
+      "拼音": "",
+      "英文翻譯": "Lame / Incomplete House (Bugis)",
+      "中文": "瘸腿的房子（布吉斯）",
+      "顏色": "purple",
+      "來源備註": "Stellarium 寫法 Bintoѐng Bola Kѐppang；Ôhashi & Orchiston 2021 p. 706（引 Ammarell 1999、Pelras 1987）；Stellarium bugis 001（含 μ Cru；Stellarium 用西里爾字母 ѐ，本片照 A-26 寫 é）"
+    },
+    "十字架": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747
+      ],
+      "原文": "十字架",
+      "拼音": "",
+      "英文翻譯": "Cross",
+      "中文": "十字架",
+      "顏色": "amber",
+      "來源備註": "Stellarium 寫法 Shízìjià；明末近南極 23 星官；Stellarium chinese 187"
+    },
+    "天社": {
+      "hips": [
+        42913,
+        45941
+      ],
+      "原文": "天社",
+      "拼音": "",
+      "英文翻譯": "Celestial Earth God's Temple",
+      "中文": "天社",
+      "顏色": "red",
+      "來源備註": "Stellarium 寫法 Tiānshè；Stellarium chinese 244（今天的星表）；陳卓體系的天社不含 δ、κ Vel"
+    },
+    "海石": {
+      "hips": [
+        41037,
+        45556,
+        48002
+      ],
+      "原文": "海石",
+      "拼音": "",
+      "英文翻譯": "Sea Rock",
+      "中文": "海石",
+      "顏色": "green",
+      "來源備註": "Stellarium 寫法 Hǎishí；明末；Stellarium chinese 091"
+    },
+    "南船": {
+      "hips": [
+        45238,
+        52419,
+        50099
+      ],
+      "原文": "南船",
+      "拼音": "",
+      "英文翻譯": "Southern Boat",
+      "中文": "南船",
+      "顏色": "blue",
+      "來源備註": "Stellarium 寫法 Nánchuán；明末；Stellarium chinese 148"
+    },
+    "Toloatonga": {
+      "hips": [
+        61084,
+        60718,
+        62434,
+        59747
+      ],
+      "原文": "Toloatonga",
+      "拼音": "",
+      "英文翻譯": "Southern Wild Duck (Tonga)",
+      "中文": "南方的野鴨",
+      "顏色": "amber",
+      "來源備註": "Stellarium tongan 001（Dan Smale；據 Velt 1990、Fale 1990）"
+    },
+    "Toloalahi": {
+      "hips": [
+        42913,
+        45941,
+        41037,
+        45556
+      ],
+      "原文": "Toloalahi",
+      "拼音": "",
+      "英文翻譯": "Big Wild Duck (Tonga)",
+      "中文": "大野鴨",
+      "顏色": "red",
+      "來源備註": "Stellarium tongan 005（據 Velt 1990、Fale 1990；Collocott 1922 沒有這一條）"
+    }
+  },
+  "cross": [
+    {
+      "原文": "Toloa",
+      "中譯": "野鴨（東加）",
+      "英文": "wild duck",
+      "顏色": "amber"
+    },
+    {
+      "原文": "Hānaiakamalama",
+      "中譯": "月亮照看的孩子（夏威夷）",
+      "英文": "cared for by the Moon",
+      "顏色": "amber"
+    },
+    {
+      "原文": "Te Kupenga",
+      "中譯": "漁網（阿努塔）",
+      "英文": "the Net",
+      "顏色": "green"
+    },
+    {
+      "原文": "Sapo Kepang",
+      "中譯": "歪房子（曼達爾）",
+      "英文": "Slanted House",
+      "顏色": "blue"
+    },
+    {
+      "原文": "Bola Képpang",
+      "中譯": "瘸腿的房子（布吉斯）",
+      "英文": "Lame House",
+      "顏色": "purple"
+    }
+  ],
+  "mains": [
+    41037,
+    42913,
+    45238,
+    45556,
+    45941,
+    48002,
+    50099,
+    52419,
+    59747,
+    60718,
+    61084,
+    62434,
+    68702,
+    71683
+  ],
+  "lines": {
+    "L4": "星座連線",
+    "十": "連線-南十字",
+    "網": "連線-漁網",
+    "歪": "連線-歪房子",
+    "瘸": "連線-瘸腿的房子",
+    "中": "連線-中國星官",
+    "圈": "第五顆星圈",
+    "指": "指南線",
+    "延": "假十字延長線",
+    "煤": "煤袋",
+    "墾": "墾丁永不升起圈"
+  },
+  "line_groups": {
+    "L4": [
+      [
+        [
+          [
+            61084,
+            60718
+          ],
+          [
+            62434,
+            59747
+          ]
+        ],
+        "amber",
+        1.0
+      ],
+      [
+        [
+          [
+            42913,
+            45556
+          ],
+          [
+            45941,
+            41037
+          ]
+        ],
+        "red",
+        1.0
+      ],
+      [
+        [
+          [
+            45238,
+            52419
+          ],
+          [
+            48002,
+            50099
+          ]
+        ],
+        "blue",
+        1.0
+      ]
+    ],
+    "十": [
+      [
+        [
+          [
+            61084,
+            60718
+          ],
+          [
+            62434,
+            59747
+          ]
+        ],
+        "amber",
+        1.0
+      ]
+    ],
+    "網": [
+      [
+        [
+          [
+            71683,
+            68702,
+            62434,
+            61084,
+            59747,
+            60718,
+            62434
+          ]
+        ],
+        "green",
+        1.0
+      ]
+    ],
+    "歪": [
+      [
+        [
+          [
+            59196,
+            61084,
+            59747,
+            59196
+          ],
+          [
+            60718,
+            59747
+          ],
+          [
+            62434,
+            61084
+          ]
+        ],
+        "blue",
+        1.0
+      ]
+    ],
+    "瘸": [
+      [
+        [
+          [
+            60718,
+            62434,
+            61084,
+            59747
+          ],
+          [
+            62434,
+            63003,
+            61084
+          ]
+        ],
+        "purple",
+        1.0
+      ]
+    ],
+    "中": [
+      [
+        [
+          [
+            61084,
+            60718
+          ],
+          [
+            62434,
+            59747
+          ]
+        ],
+        "amber",
+        1.0
+      ],
+      [
+        [
+          [
+            39953,
+            42570,
+            42913,
+            45941,
+            46701
+          ]
+        ],
+        "red",
+        1.0
+      ],
+      [
+        [
+          [
+            41037,
+            45556,
+            46974,
+            47854,
+            48002
+          ]
+        ],
+        "green",
+        1.0
+      ],
+      [
+        [
+          [
+            50371,
+            51576,
+            52419,
+            50099,
+            45238
+          ]
+        ],
+        "blue",
+        1.0
+      ]
+    ],
+    "圈": [],
+    "指": [],
+    "延": [],
+    "煤": [],
+    "墾": []
+  },
+  "lst_at": {
+    "墾丁 3/26 21:00": 139.5532160476649,
+    "墾丁 4/15 21:30": 166.78667784366868,
+    "台北 5/14 21:00": 188.61530903127863,
+    "墾丁 5/14 21:00": 187.84990903127866
+  },
+  "rot": {
+    "F": -48.45,
+    "A": -21.21,
+    "T": 0.62,
+    "K": -0.15,
+    "D": -38.15
+  },
+  "lst0": 188.0,
+  "geometry": {
+    "crux_min": 2.6808062237786743,
+    "bis_min": 2.937208943530109,
+    "X": [
+      126.42232512381686,
+      -87.05489987352647
+    ],
+    "X_pole": 2.9451001264735384,
+    "f1_min": 22.114469605463498,
+    "f2_min": 27.89998261502943
+  }
+}
