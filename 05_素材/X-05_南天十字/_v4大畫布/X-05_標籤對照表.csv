@@ -1,0 +1,38 @@
+﻿項目,原文,拼音,英文翻譯,中文,顏色,來源／備註
+南十字,南十字,,Southern Cross (Crux),南十字,#FFC94A,Stellarium 寫法 Crux；IAU
+假十字,假十字,,False Cross,假十字,#FF6B6B,Stellarium 寫法 False Cross；Stellarium modern（AST modern FCr）
+鑽石十字,鑽石十字,,Diamond Cross,鑽石十字,#6FA8FF,Stellarium 寫法 Diamond Cross；Stellarium modern（AST modern DCr）；現代業餘天文圈的星群名
+十字架一,十字架一,,γ Cru (Gacrux),十字架一,#FFC94A,Stellarium 寫法 Cross I；Stellarium chinese
+十字架二,十字架二,,α Cru (Acrux),十字架二,#FFC94A,Stellarium 寫法 Cross II；Stellarium chinese
+十字架三,十字架三,,β Cru (Mimosa),十字架三,#FFC94A,Stellarium 寫法 Cross III；Stellarium chinese
+十字架四,十字架四,,δ Cru,十字架四,#FFC94A,Stellarium 寫法 Cross IV；Stellarium chinese
+第五顆星,第五顆星,,ε Cru,第五顆星（ε Cru，3.6 等）,#FFFFFF,—
+煤袋,煤袋,,Coalsack,煤袋,#FFFFFF,暗星雲（A-31 鴯鶓的頭）
+南門二,南門二,,α Cen,南門二,#FFFFFF,Stellarium 寫法 Southern Gate II；Stellarium chinese
+馬腹一,馬腹一,,β Cen,馬腹一,#FFFFFF,Stellarium 寫法 Horse's Abdomen I；Stellarium chinese
+指針,指針,,the Pointers,指針,#FFFFFF,—
+南天極,南天極,,South Celestial Pole,南天極,#FFFFFF,—
+天社三,天社三,,δ Vel,天社三,#FF6B6B,Stellarium 寫法 Celestial Earth God's Temple III；Stellarium chinese
+天社五,天社五,,κ Vel,天社五,#FF6B6B,Stellarium 寫法 Celestial Earth God's Temple V；Stellarium chinese
+海石一,海石一,,ε Car (Avior),海石一,#FF6B6B,Stellarium 寫法 Sea Rock I；Stellarium chinese
+海石二,海石二,,ι Car (Aspidiske),海石二,#FF6B6B,Stellarium 寫法 Sea Rock II；Stellarium chinese
+南船五,南船五,,β Car (Miaplacidus),南船五,#6FA8FF,Stellarium 寫法 Southern Boat V；Stellarium chinese；IAU 星名
+南船三,南船三,,θ Car,南船三,#6FA8FF,Stellarium 寫法 Southern Boat III；Stellarium chinese
+海石五,海石五,,υ Car,海石五,#6FA8FF,Stellarium 寫法 Sea Rock V；Stellarium chinese
+南船四,南船四,,ω Car,南船四,#6FA8FF,Stellarium 寫法 Southern Boat IV；Stellarium chinese
+Toloa,Toloa,,wild duck (Tonga),野鴨（東加）,#FFC94A,Stellarium 寫法 Toloatonga；Collocott 1922（Toloa）；Stellarium tongan 作 Toloatonga「南方的野鴨」
+Hānaiakamalama,Hānaiakamalama,,cared for by the Moon (Hawaiʻi),月亮照看的孩子（夏威夷）,#FFC94A,Stellarium 寫法 Hanaiakamalama；PVS；Stellarium hawaiian_starlines
+Te Kupenga,Te Kupenga,,the Net (Anuta),漁網（阿努塔）,#7BD88F,Feinberg 1988；Stellarium anutan 011（含網柄南門二、馬腹一）
+Sapo Kepang,Sapo Kepang,,Slanted House (Mandar),歪房子（曼達爾）,#6FA8FF,"Stellarium 寫法 Bittoéng Sapo Kepang；Rasyid, Hidayat & Orchiston 2021；Stellarium mandar 001（含 δ Cen 屋頂）"
+Bola Képpang,Bola Képpang,,Lame / Incomplete House (Bugis),瘸腿的房子（布吉斯）,#B78AFF,Stellarium 寫法 Bintoѐng Bola Kѐppang；Ôhashi & Orchiston 2021 p. 706（引 Ammarell 1999、Pelras 1987）；Stellarium bugis 001（含 μ Cru；Stellarium 用西里爾字母 ѐ，本片照 A-26 寫 é）
+十字架,十字架,,Cross,十字架,#FFC94A,Stellarium 寫法 Shízìjià；明末近南極 23 星官；Stellarium chinese 187
+天社,天社,,Celestial Earth God's Temple,天社,#FF6B6B,Stellarium 寫法 Tiānshè；Stellarium chinese 244（今天的星表）；陳卓體系的天社不含 δ、κ Vel
+海石,海石,,Sea Rock,海石,#7BD88F,Stellarium 寫法 Hǎishí；明末；Stellarium chinese 091
+南船,南船,,Southern Boat,南船,#6FA8FF,Stellarium 寫法 Nánchuán；明末；Stellarium chinese 148
+Toloatonga,Toloatonga,,Southern Wild Duck (Tonga),南方的野鴨,#FFC94A,Stellarium tongan 001（Dan Smale；據 Velt 1990、Fale 1990）
+Toloalahi,Toloalahi,,Big Wild Duck (Tonga),大野鴨,#FF6B6B,Stellarium tongan 005（據 Velt 1990、Fale 1990；Collocott 1922 沒有這一條）
+跨文化,Toloa,,wild duck,野鴨（東加）,#FFC94A,Stellarium
+跨文化,Hānaiakamalama,,cared for by the Moon,月亮照看的孩子（夏威夷）,#FFC94A,Stellarium
+跨文化,Te Kupenga,,the Net,漁網（阿努塔）,#7BD88F,Stellarium
+跨文化,Sapo Kepang,,Slanted House,歪房子（曼達爾）,#6FA8FF,Stellarium
+跨文化,Bola Képpang,,Lame House,瘸腿的房子（布吉斯）,#B78AFF,Stellarium
