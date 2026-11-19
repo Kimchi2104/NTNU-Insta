@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="1502.693058pt" viewBox="0 0 936 1502.693058" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-19T01:59:28.425569</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1502.693058 
+L 936 1502.693058 
+L 936 0 
+L 0 0 
+L 0 1502.693058 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g clip-path="url(#p93af398afb)">
+     <!-- 天船 -->
+     <g style="fill: #6fa8ff" transform="translate(289.74166 637.051366) scale(0.057769 -0.057769)">
+      <defs>
+       <path id="NotoSerifCJKjp-Regular-36e9" d="M 570 2880 
+L 627 2694 
+L 2752 2694 
+C 2573 1440 2016 429 250 -371 
+L 333 -486 
+C 2368 275 2995 1325 3206 2694 
+L 3283 2694 
+C 3475 1581 3994 288 5734 -518 
+C 5786 -282 5933 -198 6157 -173 
+L 6176 -102 
+C 4326 595 3648 1664 3411 2694 
+L 5696 2694 
+C 5779 2694 5843 2726 5862 2790 
+C 5638 2995 5267 3277 5267 3277 
+L 4941 2880 
+L 3232 2880 
+C 3296 3392 3309 3949 3315 4544 
+L 5901 4544 
+C 5990 4544 6061 4576 6080 4646 
+C 5843 4858 5472 5139 5472 5139 
+L 5139 4736 
+L 352 4736 
+L 410 4544 
+L 2848 4544 
+C 2842 3949 2835 3392 2778 2880 
+L 570 2880 
+z
+" transform="scale(0.015625)"/>
+       <path id="NotoSerifCJKjp-Regular-8223" d="M 4890 5248 
+L 4787 5203 
+C 4979 4019 5325 3078 5850 2490 
+C 5920 2701 6061 2835 6227 2861 
+L 6240 2918 
+C 5664 3354 5139 4262 4890 5248 
+z
+M 3731 5222 
+C 3635 4109 3341 3078 2925 2349 
+L 3021 2291 
+C 3597 2899 3968 3834 4166 4922 
+C 4307 4928 4378 4986 4397 5069 
+L 3731 5222 
+z
+M 1491 2157 
+L 1491 512 
+L 1562 512 
+C 1683 512 1824 589 1824 634 
+L 1824 1958 
+C 1939 1978 1984 2029 1990 2099 
+L 1491 2157 
+z
+M 1459 4045 
+L 1370 3994 
+C 1549 3686 1606 3245 1619 3002 
+C 1862 2662 2368 3366 1459 4045 
+z
+M 3322 2310 
+L 3322 -480 
+L 3386 -480 
+C 3597 -480 3725 -384 3725 -352 
+L 3725 58 
+L 5248 58 
+L 5248 -429 
+L 5312 -429 
+C 5504 -429 5658 -339 5658 -307 
+L 5658 2093 
+C 5792 2112 5862 2144 5901 2195 
+L 5434 2554 
+L 5222 2310 
+L 3795 2310 
+L 3322 2509 
+L 3322 2310 
+z
+M 3725 243 
+L 3725 2118 
+L 5248 2118 
+L 5248 243 
+L 3725 243 
+z
+M 1133 4307 
+L 2278 4307 
+L 2278 2726 
+L 1133 2579 
+L 1133 4307 
+z
+M 1523 5363 
+L 1370 4493 
+L 1210 4493 
+L 755 4698 
+L 755 4493 
+L 755 2534 
+L 243 2490 
+L 307 1978 
+C 371 1990 442 2042 474 2118 
+L 755 2176 
+C 742 1242 672 307 243 -435 
+L 339 -506 
+C 1037 250 1120 1325 1133 2266 
+L 2278 2534 
+L 2278 128 
+C 2278 38 2246 0 2150 0 
+C 2035 0 1504 38 1504 38 
+L 1504 -64 
+C 1747 -96 1882 -141 1958 -211 
+C 2029 -275 2061 -384 2080 -506 
+C 2598 -448 2662 -243 2662 83 
+L 2662 2630 
+L 3014 2714 
+L 2995 2822 
+L 2662 2778 
+L 2662 4237 
+C 2790 4256 2893 4307 2931 4365 
+L 2413 4749 
+L 2214 4493 
+L 1574 4493 
+C 1702 4678 1850 4909 1952 5088 
+C 2086 5094 2163 5146 2189 5235 
+L 1523 5363 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#NotoSerifCJKjp-Regular-36e9"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-8223" transform="translate(100 0)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p93af398afb">
+   <rect x="0" y="0" width="936" height="1502.693058"/>
+  </clipPath>
+ </defs>
+</svg>
