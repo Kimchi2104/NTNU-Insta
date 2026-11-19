@@ -1,0 +1,38 @@
+{
+ "design_id": "DAHXDge-fmA",
+ "design_title": "X-05 南天的十字路口",
+ "commit": "8d61d22b7b6f886f4dbe73efc31e79080531e163",
+ "layers": {
+  "南盤L1-銀河": "MAHbURIub14",
+  "南盤L2-星點": "MAHbURcgRNI",
+  "南盤L3-經緯線": "MAHbUdi-PWc",
+  "南盤L4-星座連線": "MAHbUZ7mjZw",
+  "南盤L5-連線-南十字": "MAHbUfg4Cgo",
+  "南盤L6-連線-漁網": "MAHbUTr6sCM",
+  "南盤L7-連線-歪房子": "MAHbUcPHHv4",
+  "南盤L8-連線-瘸腿的房子": "MAHbUUlzvpE",
+  "南盤L9-連線-中國星官": "MAHbUdiixI8",
+  "南盤L10-主角星白點": "MAHbUcPECQA",
+  "南盤L11-第五顆星圈": "MAHbUTwI6X8",
+  "南盤L26-指南線": "MAHbUZVQnMY",
+  "南盤L27-假十字延長線": "MAHbUZPM6FQ",
+  "南盤L28-煤袋": "MAHbUV6AoQk",
+  "南盤L29-墾丁永不升起圈": "MAHbUQnNzME"
+ },
+ "mountain": "MAD4KTwSGtw",
+ "background": "MAHWs5D_MpY",
+ "concept": {
+  "C-X05-01_找南方的兩條線_中垂線層_透明.png": "MAHbUVu9tS8",
+  "C-X05-01_找南方的兩條線_地平線層_透明.png": "MAHbUa3z2P8",
+  "C-X05-01_找南方的兩條線_延長層_透明.png": "MAHbUe5_aQQ",
+  "C-X05-02_南十字的名字_圖卡.png": "MAHbUWQsPCQ",
+  "C-X05-03_認錯十字_假十字層_透明.png": "MAHbUZ2aixk",
+  "C-X05-03_認錯十字_真南層_透明.png": "MAHbUYeVqqg",
+  "C-X05-04_台灣怎麼分_圖卡.png": "MAHbURXi-cM",
+  "C-X05-05_歲差_軌跡層_透明.png": "MAHbUbN10Uo",
+  "C-X05-05_歲差_高度層_透明.png": "MAHbUYg1rfU",
+  "C-X05-06_今晚看南十字_圖卡.png": "MAHbUbFHscw"
+ },
+ "design_pages_final": 65,
+ "progress": "內容頁 1–33 排入設計頁序 2–34；下集見、追蹤我們、參考文獻／片尾維持在後"
+}

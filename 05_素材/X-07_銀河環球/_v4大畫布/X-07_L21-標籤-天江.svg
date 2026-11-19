@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="1502.693058pt" viewBox="0 0 936 1502.693058" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-19T01:59:28.467096</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1502.693058 
+L 936 1502.693058 
+L 936 0 
+L 0 0 
+L 0 1502.693058 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g clip-path="url(#pba60da5b40)">
+     <!-- 天江 -->
+     <g style="fill: #6fa8ff" transform="translate(695.94564 808.873994) scale(0.06356 -0.06356)">
+      <defs>
+       <path id="NotoSerifCJKjp-Regular-36e9" d="M 570 2880 
+L 627 2694 
+L 2752 2694 
+C 2573 1440 2016 429 250 -371 
+L 333 -486 
+C 2368 275 2995 1325 3206 2694 
+L 3283 2694 
+C 3475 1581 3994 288 5734 -518 
+C 5786 -282 5933 -198 6157 -173 
+L 6176 -102 
+C 4326 595 3648 1664 3411 2694 
+L 5696 2694 
+C 5779 2694 5843 2726 5862 2790 
+C 5638 2995 5267 3277 5267 3277 
+L 4941 2880 
+L 3232 2880 
+C 3296 3392 3309 3949 3315 4544 
+L 5901 4544 
+C 5990 4544 6061 4576 6080 4646 
+C 5843 4858 5472 5139 5472 5139 
+L 5139 4736 
+L 352 4736 
+L 410 4544 
+L 2848 4544 
+C 2842 3949 2835 3392 2778 2880 
+L 570 2880 
+z
+" transform="scale(0.015625)"/>
+       <path id="NotoSerifCJKjp-Regular-59ca" d="M 762 5261 
+L 704 5197 
+C 1011 5005 1382 4646 1498 4339 
+C 1978 4077 2221 5043 762 5261 
+z
+M 250 3872 
+L 192 3814 
+C 474 3635 813 3315 922 3034 
+C 1389 2784 1632 3725 250 3872 
+z
+M 653 1318 
+C 582 1318 352 1318 352 1318 
+L 352 1178 
+C 493 1165 589 1146 678 1088 
+C 819 998 864 506 774 -160 
+C 787 -365 864 -480 986 -480 
+C 1203 -480 1338 -307 1350 -32 
+C 1370 480 1184 768 1184 1056 
+C 1184 1216 1222 1414 1293 1600 
+C 1395 1907 2016 3366 2336 4147 
+L 2221 4186 
+C 947 1677 947 1677 819 1446 
+C 749 1318 723 1318 653 1318 
+z
+M 1722 186 
+L 1773 -6 
+L 6106 -6 
+C 6189 -6 6253 26 6272 96 
+C 6054 294 5696 582 5696 582 
+L 5395 186 
+L 4147 186 
+L 4147 4486 
+L 5856 4486 
+C 5946 4486 6010 4518 6029 4589 
+C 5811 4794 5466 5062 5466 5062 
+L 5165 4672 
+L 2080 4672 
+L 2131 4486 
+L 3699 4486 
+L 3699 186 
+L 1722 186 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#NotoSerifCJKjp-Regular-36e9"/>
+      <use xlink:href="#NotoSerifCJKjp-Regular-59ca" transform="translate(100 0)"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pba60da5b40">
+   <rect x="0" y="0" width="936" height="1502.693058"/>
+  </clipPath>
+ </defs>
+</svg>
