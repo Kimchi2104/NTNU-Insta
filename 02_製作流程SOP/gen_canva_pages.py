@@ -233,7 +233,9 @@ class Pages:
                     pg["trans"] = self.TRANS_MM
                 state = (grp, sw, origin)
             elif prev and prev["group"] != "長圖" and pg["group"] == "長圖":
-                if state is None:
+                if state is None or state[0] != prev["group"]:
+                    # 去程換的是另一個盤（X-07：長圖→北盤→【硬切】南盤→長圖）：用離開的這個盤重定換組格，
+                    # 不能拿北盤的換組格回長圖。
                     # 整集從盤開場（A-25 起）：沒有「去程」可倒放 → 自己定換組格（盤心、fov ≤ 50）
                     # 與出發點（走廊中心 y=0），回程照常：歸位 → 換回長圖 → 沿走廊回到帶中央
                     grp = prev["group"]

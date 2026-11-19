@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-180.00 -288.98 360.00 577.96" width="360.00" height="577.96">
+<title>X-07 大畫布</title>
+<circle cx="83.58" cy="29.01" r="1.600" fill="none" opacity="0.950" stroke="#FFFFFF" stroke-width="0.140"/>
+<circle cx="83.58" cy="29.01" r="2.600" fill="none" opacity="0.450" stroke="#FFFFFF" stroke-width="0.080"/>
+<g fill="none" stroke="#FFFFFF" stroke-width="0.080" stroke-opacity="0.900" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 82.88 29.01 L 84.28 29.01"/>
+<path d="M 83.58 29.71 L 83.58 28.31"/>
+</g>
+<circle cx="133.57" cy="108.68" r="1.600" fill="none" opacity="0.950" stroke="#FFFFFF" stroke-width="0.140"/>
+<circle cx="133.57" cy="108.68" r="2.600" fill="none" opacity="0.450" stroke="#FFFFFF" stroke-width="0.080"/>
+<g fill="none" stroke="#FFFFFF" stroke-width="0.080" stroke-opacity="0.900" stroke-linecap="round" stroke-linejoin="round">
+<path d="M 132.87 108.68 L 134.27 108.68"/>
+<path d="M 133.57 109.38 L 133.57 107.98"/>
+</g>
+</svg>
