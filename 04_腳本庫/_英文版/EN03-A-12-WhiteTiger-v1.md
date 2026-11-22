@@ -1,4 +1,4 @@
-# EN03 ｜ The White Tiger: Orion in a Chinese Sky ・ v0 (draft, awaiting review)
+# EN03 ｜ The White Tiger: Orion in a Chinese Sky ・ v1 (Gemini review merged 2026-11-22)
 
 | Item | Content |
 |---|---|
@@ -8,7 +8,7 @@
 | Story | One story only: **Orion is a Chinese tiger**. The west's white tiger, Sima Qian's description (the Belt as a balance beam, shoulders, legs, head), the character 參 drawn as these three stars, other peoples who also named the Belt for "three", and the 6,000-year-old shell tiger |
 | Canva | Not made yet. Copy of the Chinese design `A-12 白虎` (DAHWtFlSqqs), to be named `EN03 A-12 白虎` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 43 = next-episode card, 44 = follow page). |
 | Opening line | *One sky. Ancient China saw — a white tiger.* |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.2) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.3; cover excluded, see review merge E01) |
 
 ## Beats (text on screen)
 
@@ -17,15 +17,15 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Ancient China saw — a white tiger. | — |
-| E02 | 10 | 2, 3 | bottom | | Ancient China split the sky into four animals, seven mansions each. | 1.1 |
+| E02 | 10 | 2, 3 | bottom | | Ancient China divided the sky among four animals, seven mansions each. | 1.1 |
 | E03 | 7 | 33 | bottom | The west: a white tiger | The west meant the colour white and autumn — so its animal is a white tiger. | 2.1 |
-| E04 | 7 | 6 | top | Orion is the tiger | Sima Qian wrote: "Shen is the White Tiger." Its Belt is a balance beam. | 1.9 |
-| E05 | 7 | 7 | top | | The four outer stars: shoulders and legs. The small triangle on top: its head. | 2.0 |
+| E04 | 7 | 6 | top | Orion is the tiger | Sima Qian wrote: “Shen (Orion) is the White Tiger.” Orion’s Belt is a balance beam. | 2.1 |
+| E05 | 7 | 7 | top | | The four outer stars: its shoulders and legs. The small triangle on top: its head. | 2.1 |
 | E06 | 9 | — | — | | *(pages 8–10: English diagram "Shen 參: three stars and a person", 3 layers, 3 s each, no text on top)* | — |
-| E07 | 9 | 11 | top | | Many scholars think the old character 參 drew these stars over a person. Later it was borrowed for "three." | 2.1 |
+| E07 | 9 | 11 | top | | Many scholars think the old character 參 drew these stars over a person. Later it was borrowed for “three.” | 2.1 |
 | E08 | 8 | 12 | top | Others counted three too | The Bugis call it the Sign of Three; Anuta, the Path of Three; Romania, the Three Saints. | 2.1 |
 | E09 | 4 | — | — | | *(page 13: English card "One belt, one number", no text on top)* | — |
-| E10 | 9 | 38 | bottom | A tiger made of shells | A grave in Henan, over 6,000 years old: a dragon of shells on the east, a tiger on the west. | 2.1 |
+| E10 | 9 | 38 | bottom | A tiger made of shells | A grave in Henan, over 6,000 years old: a dragon of shells to the east, a tiger to the west. | 2.2 |
 | E11 | 8 | 39 | bottom | Look east this month | In December, Orion rises in the east during the evening and stands highest after midnight. | 1.9 |
 | E12 | 4 | 43 | endcard | Next Wednesday | Arabia: the stars that brought the rain. | 1.8 |
 | E13 | 3 | 44 | endcard | | Follow for a new sky every week. | 2.3 |
@@ -63,7 +63,7 @@ Total 85 s (the follow page is not counted, as in EN01).
 | 四方、二十八宿 | four animals, seven mansions each | = Four Symbols, Twenty-Eight Mansions (glossary A-01) |
 | 西方屬金，顏色是白，季節是秋 | the west meant the colour white and autumn | "metal" dropped |
 | 司馬遷《史記．天官書》 | Sima Qian | Shiji "Tianguan shu" in the sources |
-| 參宿 | Shen | Orion; "Shen is the White Tiger" = 參為白虎 |
+| 參宿 | Shen (Orion) | "Shen is the White Tiger" = 參為白虎 |
 | 衡石 | a balance beam | the Belt (三星直者，是為衡石) |
 | 左右肩、左右股 | shoulders and legs | |
 | 觜觿 | its head (Zuixi on the label) | |
@@ -83,9 +83,9 @@ Total 85 s (the follow page is not counted, as in EN01).
 
 ## Caption (Instagram / Facebook / Threads)
 
-Orion's Belt is three stars of a Chinese tiger. 🐅
-Ancient China split the sky into four animals; the west is a white tiger. Sima Qian wrote: "Shen is the White Tiger." The Belt is its balance beam, the outer stars its shoulders and legs, the little triangle on top its head.
-Many scholars think the old character 參 drew these three stars over a person. Later it was borrowed to write "three". Taiwan's cheques still use it.
+Orion’s Belt is three stars of a Chinese tiger. 🐅
+Ancient China divided the sky among four animals; the west is a white tiger. Sima Qian wrote: “Shen is the White Tiger.” The Belt is its balance beam, the outer stars its shoulders and legs, the little triangle on top its head.
+Many scholars think the old character 參 drew these three stars over a person. Later it was borrowed to write “three”. Taiwan's cheques still use it.
 This month Orion rises in the east during the evening.
 Next Wednesday: Arabia, the stars that brought the rain.
 #WorldSkyCultures #astronomy #Orion #WhiteTiger #ChineseAstronomy #stars #skylore
@@ -96,11 +96,38 @@ Next Wednesday: Arabia, the stars that brought the rain.
 Dropped from the Chinese version (all still in the Chinese episode): the "last week we followed the Pleiades" bridge; the Five Phases ("metal"); the seven mansions by name (left to the labels); the 28 animals, Journey to the West's Kui Wolf and the Rooster of Mao; the stars of Punishment (罰) in the text (label only); the cheque numerals in the text (kept on the diagram and in the caption); Belarus' mowers and the Inuit hunters (card only); Shen and Shang, the brothers who never meet, and Du Fu; the autumn farm and granaries, the toilet star; the tomb and execution stars of the north and the Book of Rites; the Heavenly Street and the moon at Bi; the 1054 guest star and the Crab Nebula; the Western Qiang hypothesis and the Yi (the tomb is kept without it); the Taipei "tonight look east" guide and moonrise; the Friday Chinese teaser (replaced by next Wednesday's English episode).
 
 Wording to check:
-1. Cover: "Ancient China saw — a white tiger" = 「同一片星空，古代中國人看見——一隻白虎」. The cover's second line is the schedule's hook (*Orion's Belt is three stars of a Chinese tiger.*), not a translation.
+1. Cover: "Ancient China saw — a white tiger" = 「同一片星空，古代中國人看見——一隻白虎」. The cover's second line is the schedule's hook (*Orion’s Belt is three stars of a Chinese tiger.*), not a translation.
 2. E03 "The west meant the colour white and autumn" compresses 「照五行，西方屬金，顏色是白，季節是秋；秋天主肅殺」.
-3. E04 "Its Belt is a balance beam" = 「三星直者，是為衡石」 (a steelyard / balance beam; 衡石 is literally beam and weight).
+3. E04 "Orion’s Belt is a balance beam" = 「三星直者，是為衡石」 (a steelyard / balance beam; 衡石 is literally beam and weight).
 4. E07 keeps the hedge 「很多學者認為」 = "Many scholars think"; "borrowed for 'three'" = 「被借去寫數字三」.
 5. E08 Anuta's "Path of Three" follows EN01 (the Chinese 三星之路 adds 星; Stellarium's Ara Toru = Path of Three).
 6. E10 "over 6,000 years old" = 「六千多年前」 (c. 6,400 years, M45, excavated 1987). The Chinese then gives the Western Qiang reading as 「推論，不是定論」; the English drops that reading entirely rather than shortening the hedge.
 7. E11 is the one rewritten line (Northern-Hemisphere mid-latitudes, not Taipei): the Chinese 星空對時 has Orion rising 18:29–18:43 and the Belt and Betelgeuse crossing the meridian 00:15–00:56 on 4 December in Taipei; at 35–50° N the rising is about the same time or a little later and the meridian crossing is still just after midnight in early December. Please check this is acceptable.
 8. On the card (C-A12-05) the Inuit Ullaktut uses the shared glossary's "the Running Hunters" (A-14), plus "lost chasing a bear" from the Chinese card.
+
+## 審稿合併（Gemini EN03，2026-11-22）
+
+來源：`_審稿/EN03_審稿_gemini.md`。每條都對回中文定稿 A-12 v2（逐字稿第 01–05、06、12、13 鏡）。w/s 沿用 EN01 算法（Text 字數 ÷ 該文字在畫面上的秒數，不含 headline）；斷行由 `gen_en_pages.py` 依 ≤ 40 個字母自動斷，所以 Gemini 提的「單行超標」不需要手動排行（檔內沒有硬斷行）。`媒體ID.json` 沒有 `en` 區塊 ＝ Canva 英文版還沒做，這次不動 Canva；卡 07 會直接用 v1。
+
+**採用（6 條）**
+
+| Beat | 改了什麼 | 依據 |
+|---|---|---|
+| E02 | `split the sky into four animals` → `divided the sky among four animals`（Gemini 的 `under four animals` 不採，`among` 才是「分給」的意思） | 02 鏡「古人把天分成四方……每方七宿」 |
+| E04 | 直引號 → 彎引號；`Shen is` → `Shen (Orion) is`（規則 2：星官第一次出現要附意譯；本頁 headline 已說 Orion＝tiger，所以只補 Orion）；`Its Belt` → `Orion’s Belt`（原來 Its 指回白虎，白虎沒有腰帶）；w/s 1.9 → 2.1 | 04 鏡「參為白虎。三星直者，是為衡石」 |
+| E05 | 補 `its shoulders and legs`（與後句 `its head` 對稱）；w/s 2.0 → 2.1 | 04 鏡「老虎的左右肩、左右腿」 |
+| E07 | `"three."` → `“three.”`（規則 4 彎引號） | 05 鏡「被借去寫數字三」 |
+| E10 | `on the east / on the west` → `to the east / to the west`；w/s 重算 20 字 ÷ 9 秒 ＝ 2.2（v0 的 2.1 算少了） | 12 鏡「東邊……西邊」 |
+| 其他 | Caption 的 Sima Qian 引文改彎引號、`split` → `divided … among`、`"three"` 改彎引號；詞彙表 參宿 → `Shen (Orion)`；wording-check 3 同步 | 與 E02、E04、E07 一致 |
+
+**不採用**
+
+| Beat | Gemini 建議 | 不採用理由 |
+|---|---|---|
+| E01 | 改成 `To ancient China, Orion was a tiger.`（或 `Ancient China saw a white tiger.`） | 英文版規格定了開場句型 `One sky. The [people] saw — [X].`（EN01、EN02 同；EN01 審稿合併已用同一理由駁回），對應中文 01 鏡「同一片星空，古代中國人看見——一隻白虎」。封面 headline `World Sky Cultures` 加第二行 hook（*Orion’s Belt is three stars of a Chinese tiger.*）已經點出 Orion；`To ancient China, Orion was a tiger` 也把「白虎」換成「tiger」，丟了 white。封面 3 秒沿用 EN01 的做法不計 w/s（8 字 ÷ 3 秒 ＝ 2.7，已知例外） |
+| E04 | `Shen—Three Stars—is the White Tiger.` | 中文 04 鏡沒有說參＝三星；「參」字為什麼是三星要到 E07（「很多學者認為」）才講，放在 E04 等於把有保留語氣的說法提前當成定論，還把 E07 劇透掉。改用 Orion（headline 已有）。另外 E04 不拆三行：斷行交給腳本 |
+| E03 | `colour` → `color`；`the colour white` → `white` | 系列沿用英式拼寫（EN01 已定，Caption 的 `cheques` 同），統一比換哪一種重要；`meant white` 把「顏色是白」的 colour 拿掉，讀起來像「西方的意思是白」，原句字數 2.1 w/s 沒超標 |
+| E08 | 三行斷行、或改 `To the Bugis: … on Anuta: … in Romania: …` | 斷行由腳本自動做；`Anuta, the Path of Three` 照 EN01 用語；改成介系詞結構會把「布吉斯人／阿努塔島／羅馬尼亞」的對稱換成地點，中文原句三者都是「叫做」 |
+| E11 | `during the evening` → `in the evening` | 照改會變成 `rises in the east in the evening`，連兩個 in，反而難讀；`during the evening` 沒超字數（1.9 w/s） |
+| E11（沒把握 3） | 泛化成北半球中緯度說法 | 維持 v0：Gemini 也認為對得上中文星空對時表（獵戶 18:29–18:43 升起、00:15–00:56 上中天），不是新事實 |
+| E06／剪裁 | 西羌剔除 | 維持 v0：v0 的 Cuts and changes 6 已說明；墓葬保留、西羌推論（中文自己標「推論，不是定論」）不收 |
