@@ -199,8 +199,9 @@ def en_row(en, zh, date_s, note, zh_rows):
 
 
 def pair_card05(en):
-    """卡 05 兩集一組，照 EN 編號順序；同一組的兩集共用一行（中文集號寫兩個）。"""
-    todo = [r for r in en if r["step"] == "Ⓐ"]
+    """卡 05 兩集一組，照發布日先後（先播的先做）；同一組的兩集共用一行（中文集號寫兩個）。"""
+    far = datetime.date(2100, 1, 1)
+    todo = sorted([r for r in en if r["step"] == "Ⓐ"], key=lambda r: r["date"] or far)
     for i in range(0, len(todo), 2):
         grp = todo[i:i + 2]
         line = f"卡 05｜Opus medium｜`中文集號：{'、'.join(r['zh'] for r in grp)}`"
@@ -286,11 +287,11 @@ def md(zh, en):
     out.append("")
     out.append("| EN | 中文 | 發布 | 英文稿 | Gemini | EN Canva | 步 | 下一步 |")
     out.append("|---|---|---|---|---|---|---|---|")
-    out.append("> 2026-11-22 恢復英文線：每週一集（週三 21:00），不早於對應中文集；節慶集釘在節日當週，所以少數幾集的發布日不照 EN 編號先後。卡 05 兩集一組，照 EN 編號做。")
+    out.append("> 2026-11-22 恢復英文線。發布日的原則：內容對得上當時的星空或天象最優先；可以早於中文版；不往後延。季一各集照原訂週三 21:00；中文已播的舊集提前到星空對得上的日子（多半是週日加映），所以發布日不照 EN 編號先後。卡 05 兩集一組，照發布日先後做。")
     out.append("")
     hdr = [out.pop(-4), out.pop(-3)]            # 表頭兩行移到說明之後
     out.extend(hdr)
-    for r in [r for r in en if not r["published"]]:
+    for r in sorted([r for r in en if not r["published"]], key=lambda r: r["date"] or far):
         v = "—" if r["v"] is None else f"v{r['v']}"
         out.append(f"| {r['en']} | {r['zh']} | {r['date_s']} | {v} | {'✓' if r['rev'] else '—'} | {'✓' if r['encanva'] else '—'} | {r['step']} | {r['nxt']} |")
     en_done = [r["en"] for r in en if r["published"]]
