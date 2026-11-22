@@ -13,6 +13,7 @@ C-HDZ-05 一年有多長（9:16 圖卡；可存圖）
 C-HDZ-06 今天怎麼看（9:16 圖卡；台北 2026/12/22，PyEphem 自算）
 
 執行：python3 make_hdz_diagrams.py
+      python3 make_hdz_diagrams.py --lang en → 只出 EN05 會用到的 C-HDZ-01、02 到 _概念圖/en/
 """
 import os, sys, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -27,6 +28,44 @@ CB.set_base(OUT)
 RED, GREY, PANEL, STONE = "#FF6B6B", "#7C8BA8", "#1B2240", "#9AA6BF"
 TROPICAL = 365.24219          # 今天的平均回歸年（J2000）
 TPE = (25.0330, 121.5654)
+LANG = "zh"
+TXT = {
+    "zh": {
+        "c01_title": "圭表：一根竿子量影子", "c01_sub": "《周髀算經》：表高八尺　每天正午量影子",
+        "unit": lambda i: f"{i} 尺", "pole": "表\n八尺", "ruler": "圭：平放在地上、量影子的尺",
+        "S": "南", "N": "北", "nh": "北半球：正午太陽在南方，影子朝北",
+        "sum1": "夏至　一尺六寸", "sum2": "太陽高約 79°（依影長換算）",
+        "win1": "冬至　一丈三尺五寸", "win2": "最長的一天；太陽高約 31°（依影長換算）",
+        "win3": "一年裡影子最長的那天，就是冬至", "c01_src": "影長：《周髀算經》；示意圖（太陽方向依影長換算）",
+        "c02_title": "一年的影子", "c02_sub": "登封（北緯 34.4°）八尺表的正午影長（計算值）",
+        "marks": ["冬至", "春分", "夏至", "秋分", "冬至"], "mark_size": 12,
+        "len": lambda x: f"約{chi(x)}", "sum_lab": "夏至 ", "sum_dy": 0.07, "win_lab": "冬至\n",
+        "year": "最長 → 最長＝一年：365¼ 天", "circle": "周天",
+        "deg1": "所以天空也分成 365¼ 度", "deg2": "太陽每天沿著它，走一度",
+        "deg3": "（古度：1 度約等於今天的 0.986°）", "deg4": "影長曲線為示意計算，未計地球軌道偏心", "deg_size": 18,
+    },
+    "en": {
+        "c01_title": "Gnomon: one pole, one shadow", "c01_sub": "Zhoubi Suanjing: a pole 8 chi tall; measure its shadow every noon",
+        "unit": lambda i: f"{i} chi", "pole": "pole\n8 chi", "ruler": "gui: a ruler lying flat to measure the shadow",
+        "S": "S", "N": "N", "nh": "Northern Hemisphere: the noon Sun is in the south; shadows point north",
+        "sum1": "Summer solstice: 1.6 chi", "sum2": "Sun about 79° up (from the shadow length)",
+        "win1": "Winter solstice: 13.5 chi", "win2": "the longest; Sun about 31° up",
+        "win3": "The day of the longest shadow is the winter solstice",
+        "c01_src": "Lengths: Zhoubi Suanjing; diagram (Sun direction worked out from the shadow length)",
+        "c02_title": "A year of shadows", "c02_sub": "Noon shadow of an 8-chi pole at Dengfeng (34.4° N), calculated",
+        "marks": ["winter solstice", "spring equinox", "summer solstice", "autumn equinox", "winter solstice"],
+        "mark_size": 10.5,
+        "len": lambda x: f"about {x:.1f} chi", "sum_lab": "Summer solstice\n", "sum_dy": 0.16, "win_lab": "Winter solstice\n",
+        "year": "Longest → longest = one year: 365¼ days", "circle": "the sky",
+        "deg1": "So the sky got 365¼ degrees", "deg2": "The Sun moves one degree a day",
+        "deg3": "(old degree: 1 ≈ 0.986° today)", "deg4": "Simplified calculation; Earth's orbital eccentricity ignored",
+        "deg_size": 17,
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 
 
 def box(ax, x0, y0, w, h, ec=WHITE, fc=PANEL, lw=1.4, z=3, alpha=1.0):
@@ -73,8 +112,8 @@ def shadow_case(ax, L, col, label, alt_note, lab_xy, ha, k):
 
 
 def c01_base(ax):
-    T(ax, 0.0, 0.92, "圭表：一根竿子量影子", 30, WHITE)
-    T(ax, 0.0, 0.85, "《周髀算經》：表高八尺　每天正午量影子", 13.5, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c01_title"), 30, WHITE)
+    T(ax, 0.0, 0.85, tx("c01_sub"), 13.5, GREY, w="normal")
     ax.plot([-0.95, 0.95], [G0Y, G0Y], c=WHITE, lw=1.2, alpha=.45, zorder=2)
     # 圭：平放的石尺（往北）
     ax.add_patch(CB.Rectangle((G0X, G0Y - 0.045), 14.6 * SC, 0.045, fc=STONE, ec="none", alpha=.55, zorder=3))
@@ -83,27 +122,27 @@ def c01_base(ax):
         h = 0.03 if i % 5 == 0 else 0.016
         ax.plot([x, x], [G0Y - 0.045, G0Y - 0.045 + h], c=CB.BG, lw=1.4, zorder=4)
         if i % 5 == 0:
-            ctext(ax, x, G0Y - 0.085, f"{i} 尺", 11, GREY, w="normal")
+            ctext(ax, x, G0Y - 0.085, tx("unit")(i), 11, GREY, w="normal")
     # 表：八尺的竿子
     ax.add_patch(CB.Rectangle((G0X - 0.018, G0Y), 0.036, 8 * SC, fc=WHITE, ec="none", zorder=7))
-    ctext(ax, G0X - 0.06, G0Y + 4 * SC, "表\n八尺", 16, WHITE, ha="right")
-    ctext(ax, G0X + 7.3 * SC, G0Y - 0.14, "圭：平放在地上、量影子的尺", 14, STONE)
-    ctext(ax, -0.92, -0.52, "南", 15, WHITE, ha="left")
-    ctext(ax, 0.92, -0.52, "北", 15, WHITE, ha="right")
+    ctext(ax, G0X - 0.06, G0Y + 4 * SC, tx("pole"), 16, WHITE, ha="right")
+    ctext(ax, G0X + 7.3 * SC, G0Y - 0.14, tx("ruler"), 14, STONE)
+    ctext(ax, -0.92, -0.52, tx("S"), 15, WHITE, ha="left")
+    ctext(ax, 0.92, -0.52, tx("N"), 15, WHITE, ha="right")
     ax.annotate("", xy=(0.86, -0.52), xytext=(-0.84, -0.52),
                 arrowprops=dict(arrowstyle="<->", color=GREY, lw=1.2, alpha=.6))
-    ctext(ax, 0.0, -0.66, "北半球：正午太陽在南方，影子朝北", 14, WHITE, w="normal")
+    ctext(ax, 0.0, -0.66, tx("nh"), 14, WHITE, w="normal")
 
 
 def c01_summer(ax):
-    shadow_case(ax, 1.6, BLUE, "夏至　一尺六寸", "太陽高約 79°（依影長換算）", (-0.33, -0.05), "left", 0.28)
+    shadow_case(ax, 1.6, BLUE, tx("sum1"), tx("sum2"), (-0.33, -0.05), "left", 0.28)
 
 
 def c01_winter(ax):
-    shadow_case(ax, 13.5, AMBER, "冬至　一丈三尺五寸", "最長的一天；太陽高約 31°（依影長換算）",
+    shadow_case(ax, 13.5, AMBER, tx("win1"), tx("win2"),
                 (0.88, 0.06), "right", 0.20)
-    ctext(ax, 0.0, -0.76, "一年裡影子最長的那天，就是冬至", 17, AMBER)
-    ctext(ax, 0.0, -0.88, "影長：《周髀算經》；示意圖（太陽方向依影長換算）", 10.5, GREY, w="normal")
+    ctext(ax, 0.0, -0.76, tx("win3"), 17, AMBER)
+    ctext(ax, 0.0, -0.88, tx("c01_src"), 10.5, GREY, w="normal")
 
 
 # ══════════════════════ C-HDZ-02 一年的影子 ══════════════════════
@@ -127,20 +166,20 @@ def cy(L):
 
 
 def c02_curve(ax):
-    T(ax, 0.0, 0.92, "一年的影子", 30, WHITE)
-    T(ax, 0.0, 0.85, "登封（北緯 34.4°）八尺表的正午影長（計算值）", 13.5, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c02_title"), 30, WHITE)
+    T(ax, 0.0, 0.85, tx("c02_sub"), 13.5, GREY, w="normal")
     ax.plot([CH["x0"], CH["x1"]], [CH["y0"], CH["y0"]], c=WHITE, lw=1.2, alpha=.5, zorder=3)
     ax.plot([CH["x0"], CH["x0"]], [CH["y0"], CH["y1"]], c=WHITE, lw=1.2, alpha=.5, zorder=3)
     for L in (0, 5, 10):
         ax.plot([CH["x0"] - 0.012, CH["x0"]], [cy(L), cy(L)], c=WHITE, lw=1.2, alpha=.5)
-        ctext(ax, CH["x0"] - 0.025, cy(L), f"{L} 尺", 11, GREY, w="normal", ha="right")
-    marks = [(0, "冬至"), (91.3, "春分"), (182.6, "夏至"), (273.9, "秋分"), (365.24, "冬至")]
+        ctext(ax, CH["x0"] - 0.025, cy(L), tx("unit")(L), 11, GREY, w="normal", ha="right")
+    marks = list(zip((0, 91.3, 182.6, 273.9, 365.24), tx("marks")))
     for t, s in marks:
         ax.plot([cx(t), cx(t)], [CH["y0"], CH["y0"] - 0.015], c=WHITE, lw=1.2, alpha=.5)
-        ctext(ax, cx(t), CH["y0"] - 0.05, s, 12, GREY, w="normal")
+        ctext(ax, cx(t), CH["y0"] - 0.05, s, tx("mark_size"), GREY, w="normal")
     ts = [CH["t0"] + i * (CH["t1"] - CH["t0"]) / 600 for i in range(601)]
     ax.plot([cx(t) for t in ts], [cy(noon_shadow(t)) for t in ts], c=AMBER, lw=3.2, zorder=6)
-    ctext(ax, cx(182.6), cy(noon_shadow(182.6)) + 0.07, f"夏至 約{chi(noon_shadow(182.6))}", 13, BLUE)
+    ctext(ax, cx(182.6), cy(noon_shadow(182.6)) + tx("sum_dy"), tx("sum_lab") + tx("len")(noon_shadow(182.6)), 13, BLUE)
 
 
 def c02_year(ax):
@@ -151,8 +190,8 @@ def c02_year(ax):
     y = cy(Lm) + 0.09
     ax.annotate("", xy=(cx(365.24), y), xytext=(cx(0), y),
                 arrowprops=dict(arrowstyle="<->", color=AMBER, lw=2.2), zorder=7)
-    ctext(ax, (cx(0) + cx(365.24)) / 2, y + 0.06, "最長 → 最長＝一年：365¼ 天", 19, AMBER, halo=True)
-    ctext(ax, cx(0), cy(Lm) - 0.17, f"冬至\n約{chi(Lm)}", 12, AMBER, halo=True)
+    ctext(ax, (cx(0) + cx(365.24)) / 2, y + 0.06, tx("year"), 19, AMBER, halo=True)
+    ctext(ax, cx(0), cy(Lm) - 0.17, tx("win_lab") + tx("len")(Lm), 12, AMBER, halo=True)
 
 
 def c02_degree(ax):
@@ -167,11 +206,11 @@ def c02_degree(ax):
     for j, op in ((0, 1.0), (1, .55), (2, .3)):
         a = math.pi / 2 - 2 * math.pi * (40 - 6 * j) / 365.25
         ax.scatter([x0 + r * math.cos(a)], [y0 + r * math.sin(a)], s=90 - 20 * j, c=AMBER, alpha=op, zorder=6, lw=0)
-    ctext(ax, x0, y0, "周天", 14, WHITE)
-    ctext(ax, -0.30, -0.47, "所以天空也分成 365¼ 度", 18, GREEN, ha="left")
-    ctext(ax, -0.30, -0.58, "太陽每天沿著它，走一度", 16, WHITE, ha="left", w="normal")
-    ctext(ax, -0.30, -0.70, "（古度：1 度約等於今天的 0.986°）", 12, GREY, ha="left", w="normal")
-    ctext(ax, -0.30, -0.82, "影長曲線為示意計算，未計地球軌道偏心", 10.5, GREY, ha="left", w="normal")
+    ctext(ax, x0, y0, tx("circle"), 14, WHITE)
+    ctext(ax, -0.30, -0.47, tx("deg1"), tx("deg_size"), GREEN, ha="left")
+    ctext(ax, -0.30, -0.58, tx("deg2"), 16, WHITE, ha="left", w="normal")
+    ctext(ax, -0.30, -0.70, tx("deg3"), 12, GREY, ha="left", w="normal")
+    ctext(ax, -0.30, -0.82, tx("deg4"), 10.5, GREY, ha="left", w="normal")
 
 
 # ══════════════════════ C-HDZ-03 折取其中 ══════════════════════
@@ -413,7 +452,14 @@ def c06_card(ax):
 
 
 def main():
-    global T0, L_MAX, C_Q
+    global T0, L_MAX, C_Q, LANG
+    if "--lang" in sys.argv:                      # 英文版：只出 EN05 會用到的 C-HDZ-01、02，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        CB.set_base(os.path.join(OUT, LANG))
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
+        CB.emit("", [("表與圭", c01_base), ("夏至", c01_summer), ("冬至", c01_winter)], title="C-HDZ-01_圭表")
+        CB.emit("", [("影長", c02_curve), ("一年", c02_year), ("一度", c02_degree)], title="C-HDZ-02_一年的影子")
+        return
     # 祖沖之的算法：十月十日的影長落在二十五、二十六日之間 → 內插出對稱日 → 取中；
     # 再用對稱拋物線（以冬至為軸）穿過三次實測，畫示意曲線
     frac = (ZU[1][1] - ZU[0][1]) / (ZU[1][1] - ZU[2][1])
