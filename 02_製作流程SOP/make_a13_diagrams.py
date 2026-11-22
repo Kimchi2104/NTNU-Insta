@@ -11,6 +11,7 @@ C-A13-05 這週末往東看（9:16 圖卡；台北 2026/12/12–13）
 al-Jabhah 14 天（Stellarium arabic_arabian_peninsula description）；雨季 al-Wasm 10/16 起 52 天、
 最冷四十天 al-Murabbaʿāniyya 12/7 起（沙烏地／阿聯媒體與 al-Misnad）；qirān 諺語（A. Al-Misnad）。
 執行：python3 make_a13_diagrams.py
+      python3 make_a13_diagrams.py --lang en → 只出 EN04 會用到的 C-A13-01、02 到 _概念圖/en/
 """
 import os, sys, math, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -28,6 +29,63 @@ TPE = (25.0330, 121.5654)
 RUH = (24.7136, 46.6753)
 AR = G.rtl
 Y0 = datetime.date(2026, 6, 7)
+LANG = "zh"
+TXT = {
+    "zh": {
+        "c01_title": "沙漠的星星年曆", "c01_sub": "天亮前，東方第一次露臉的星：一站管 13 天，28 站排一圈",
+        "short": ["昴宿", "小跟班", "圓斑", "低彎", "前臂", "鼻尖", "眼睛", "額頭", "鬃毛", "變天", "彎弧", "高舉者",
+                  "遮蓋", "蠍螯", "冠冕", "心臟", "蠍尾", "鴕鳥", "空地", "屠夫", "吞嚥", "吉中吉", "帳篷", "前口",
+                  "後口", "桶繩", "記號", "小肚"],
+        "st_size": 11, "st_r": 0.43, "month": lambda m: f"{m}月",
+        "c01_eq1": "13 × 28 ＋ 1", "c01_eq2": "＝ 365 天", "c01_eq3": "（額頭那站多 1 天）",
+        "c01_src": "體系：Stellarium arabic_arabian_peninsula／al-Ajaji；日期：沙烏地／阿聯常用曆",
+        "wasm1": "雨季 al-Wasm", "wasm2": "10/16 起 52 天：「烙印」",
+        "cold1": "最冷四十天", "cold2": "al-Murabbaʿāniyya：12/7 起（大雪）",
+        "mk": [("6/7 昴宿晨升：夏天開始", "（芒種 6/5）"), ("8/24 Suhail 晨升：熱退", "（處暑 8/23）")],
+        "today_d": (2026, 12, 11), "today1": "今天 12/11：冠冕 al-Iklīl（第 15 站）",
+        "today2": "冠冕升起、昴宿落下＝最冷四十天開始；12/21 夜月亮會昴宿（冬至）",
+        "c02_title": "黎明的兩端：守望者", "c02_sub": "12 月初，利雅德，天亮前（太陽在地平線下約 12°）",
+        "east": "東", "west": "西", "sun": "太陽快出來了", "apart": "相隔半個天空：第 15 站 ↔ 第 1 站",
+        "rise": "升起", "set": "落下", "ikl": "al-Iklīl 冠冕（天蠍的頭）", "thu": "al-Thurayyā 昴宿",
+        "raqib": "raqīb＝守望者：一個升起，另一個就落下",
+        "q": [("伊斯蘭以前的人相信：星星在黎明落下的那幾天會帶來雨（nawʾ）", 12, WHITE),
+              ("昴宿落下的那幾天，被認為雨最多（Ibn Qutayba，意譯）", 12, AMBER),
+              ("伊斯蘭興起後，「星星帶雨」被視為迷信；星曆只當季節的時間表", 11, GREY),
+              ("六月反過來：昴宿在黎明升起、冠冕落下＝夏天開始", 12, WHITE),
+              ("上週參商那種「你升我落」：中國寫成離別，阿拉伯拿來算雨", 12, GREEN)],
+        "q_src": "利雅德 2026：冠冕 12/8 前後黎明初見、昴宿 12/3–6 黎明落下（PyEphem 自算）",
+    },
+    "en": {
+        "c01_title": "The desert's star calendar",
+        "c01_sub": "Before dawn, the first star to appear in the east: 13 days each, 28 in a ring",
+        "short": ["Pleiades", "Follower", "Spot", "Bend", "Forearm", "Nose", "Eye", "Forehead", "Mane", "Turn",
+                  "Arc", "Raised", "Cover", "Claws", "Crown", "Heart", "Tail", "Ostriches", "Open land",
+                  "Butcher", "Swallower", "Luckiest", "Tents", "Spout 1", "Spout 2", "Rope", "Signs", "Belly"],
+        "st_size": 9, "st_r": 0.435,
+        "month": lambda m: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][m - 1],
+        "c01_eq1": "13 × 28 + 1", "c01_eq2": "= 365 days", "c01_eq3": "(the Forehead gets 1 extra day)",
+        "c01_src": "System: Stellarium arabic_arabian_peninsula / al-Ajaji; dates: Saudi and UAE almanacs",
+        "wasm1": "Rains: al-Wasm", "wasm2": "from Oct 16, 52 days: “the brand”",
+        "cold1": "Forty coldest days", "cold2": "al-Murabbaʿāniyya: from Dec 7",
+        "mk": [("Jun 7: Pleiades rise at dawn", "summer begins"), ("Aug 24: Suhail rises", "the heat breaks")],
+        "today_d": (2026, 12, 11), "today1": "Mid-December: the Crown, al-Iklīl (station 15)",
+        "today2": "The Crown rises, the Pleiades set: the forty coldest days begin",
+        "c02_title": "Two ends of dawn: the watchers",
+        "c02_sub": "Early December, Riyadh, before sunrise (Sun about 12° below the horizon)",
+        "east": "E", "west": "W", "sun": "sunrise coming", "apart": "Half a sky apart: station 15 ↔ station 1",
+        "rise": "rises", "set": "sets", "ikl": "al-Iklīl, the Crown", "thu": "al-Thurayyā, the Pleiades",
+        "raqib": "raqīb = the watcher: as one rises, the other sets",
+        "q": [("Before Islam, people believed stars setting at dawn brought rain (nawʾ)", 12, WHITE),
+              ("The Pleiades' setting was thought to bring the most rain (Ibn Qutayba, paraphrased)", 11.5, AMBER),
+              ("Islam rejected “stars bring rain” as superstition; the calendar stayed a timetable", 11, GREY),
+              ("In June it flips: the Pleiades rise at dawn, the Crown sets: summer begins", 12, WHITE)],
+        "q_src": "Riyadh 2026: Crown first seen at dawn around Dec 8; Pleiades set at dawn Dec 3–6 (PyEphem)",
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 
 
 def box(ax, x0, y0, w, h, ec=WHITE, fc=PANEL, lw=1.4, z=3, alpha=1.0):
@@ -57,9 +115,6 @@ CX, CY = 0.0, -0.04
 R0, R1 = 0.26, 0.52            # 月站環
 RM = 0.565                     # 月份
 RA_ = 0.625                    # 季節弧
-SHORT = ["昴宿", "小跟班", "圓斑", "低彎", "前臂", "鼻尖", "眼睛", "額頭", "鬃毛", "變天", "彎弧", "高舉者",
-         "遮蓋", "蠍螯", "冠冕", "心臟", "蠍尾", "鴕鳥", "空地", "屠夫", "吞嚥", "吉中吉", "帳篷", "前口",
-         "後口", "桶繩", "記號", "小肚"]
 
 
 def frac(d):
@@ -93,8 +148,8 @@ def radial_text(ax, r, f, s, size, col, w="bold"):
 
 
 def c01_stations(ax):
-    T(ax, 0.0, 0.93, "沙漠的星星年曆", 30, WHITE)
-    T(ax, 0.0, 0.855, "天亮前，東方第一次露臉的星：一站管 13 天，28 站排一圈", 15, GREY, w="normal")
+    T(ax, 0.0, 0.93, tx("c01_title"), 30, WHITE)
+    T(ax, 0.0, 0.855, tx("c01_sub"), 15 if LANG == "zh" else 13, GREY, w="normal")
     ds = A13.DATES
     for i, d in enumerate(ds):
         f0 = frac(d); f1 = frac(ds[(i + 1) % 28])
@@ -103,19 +158,18 @@ def c01_stations(ax):
         ax.add_patch(CB.Polygon(poly, closed=True, fc=(AMBER if hot else PANEL), ec=WHITE, lw=0.8,
                                 alpha=(0.35 if hot else 0.6), zorder=3))
         fm = (f0 + ((f1 - f0) % 1.0) / 2) % 1.0
-        radial_text(ax, 0.43, fm, SHORT[i], 11, AMBER if hot else WHITE)
+        radial_text(ax, tx("st_r"), fm, tx("short")[i], tx("st_size"), AMBER if hot else WHITE)
         radial_text(ax, 0.295, fm, f"{d.month}/{d.day}", 7.5, GREY, w="normal")
     for m in range(1, 13):
         f = frac(datetime.date(2026 if m >= 6 else 2027, m, 1))
         x0, y0 = pol(R1 + 0.005, f); x1, y1 = pol(R1 + 0.03, f)
         ax.plot([x0, x1], [y0, y1], c=WHITE, lw=1.1, alpha=.6, zorder=4)
         fm = frac(datetime.date(2026 if m >= 6 else 2027, m, 16))
-        radial_text(ax, RM, fm, f"{m}月", 9.5, GREY, w="normal")
-    ctext(ax, CX, CY + 0.05, "13 × 28 ＋ 1", 19, WHITE)
-    ctext(ax, CX, CY - 0.03, "＝ 365 天", 16, WHITE)
-    ctext(ax, CX, CY - 0.10, "（額頭那站多 1 天）", 9, GREY, w="normal")
-    ctext(ax, 0.0, -0.955, "體系：Stellarium arabic_arabian_peninsula／al-Ajaji；日期：沙烏地／阿聯常用曆",
-          9.5, GREY, w="normal")
+        radial_text(ax, RM, fm, tx("month")(m), 9.5, GREY, w="normal")
+    ctext(ax, CX, CY + 0.05, tx("c01_eq1"), 19, WHITE)
+    ctext(ax, CX, CY - 0.03, tx("c01_eq2"), 16, WHITE)
+    ctext(ax, CX, CY - 0.10, tx("c01_eq3"), 9, GREY, w="normal")
+    ctext(ax, 0.0, -0.955, tx("c01_src"), 9.5, GREY, w="normal")
 
 
 def c01_seasons(ax):
@@ -124,16 +178,16 @@ def c01_seasons(ax):
         ax.plot([p[0] for p in pts], [p[1] for p in pts], c=col, lw=8, alpha=.9, solid_capstyle="butt", zorder=5)
     # 弧的說明：右下（雨季）、左下（最冷四十天）
     x, y = pol(RA_ + 0.02, frac((2026, 11, 11)))
-    ctext(ax, 0.86, -0.56, "雨季 al-Wasm", 14, GREEN, ha="right")
-    ctext(ax, 0.86, -0.615, "10/16 起 52 天：「烙印」", 10.5, GREEN, w="normal", ha="right")
+    ctext(ax, 0.86, -0.56, tx("wasm1"), 14, GREEN, ha="right")
+    ctext(ax, 0.86, -0.615, tx("wasm2"), 10.5, GREEN, w="normal", ha="right")
     ax.plot([x, 0.40], [y, -0.60], c=GREEN, lw=1.0, alpha=.6, zorder=4)
     x, y = pol(RA_ + 0.02, frac((2026, 12, 30)))
-    ctext(ax, -0.86, -0.56, "最冷四十天", 14, BLUE, ha="left")
-    ctext(ax, -0.86, -0.615, "al-Murabbaʿāniyya：12/7 起（大雪）", 10.5, BLUE, w="normal", ha="left")
+    ctext(ax, -0.86, -0.56, tx("cold1"), 14, BLUE, ha="left")
+    ctext(ax, -0.86, -0.615, tx("cold2"), 10.5, BLUE, w="normal", ha="left")
     ax.plot([x, -0.40], [y, -0.60], c=BLUE, lw=1.0, alpha=.6, zorder=4)
     # 兩個晨升標記：昴宿（芒種）、Suhail（處暑）
-    for d, (lx, ly, ha), t1, t2 in [((2026, 6, 7), (0.0, 0.715, "center"), "6/7 昴宿晨升：夏天開始", "（芒種 6/5）"),
-                                    ((2026, 8, 24), (0.93, 0.30, "right"), "8/24 Suhail 晨升：熱退", "（處暑 8/23）")]:
+    for (d, (lx, ly, ha)), (t1, t2) in zip([((2026, 6, 7), (0.0, 0.715, "center")),
+                                           ((2026, 8, 24), (0.93, 0.30, "right"))], tx("mk")):
         x0, y0 = pol(R1 + 0.035, frac(d)); x1, y1 = pol(RA_ + 0.03, frac(d))
         ax.plot([x0, x1], [y0, y1], c=AMBER, lw=3.0, zorder=6)
         ax.scatter([x1], [y1], s=55, c=AMBER, zorder=7)
@@ -142,14 +196,14 @@ def c01_seasons(ax):
 
 
 def c01_today(ax):
-    d = (2026, 12, 11)
+    d = tx("today_d")
     x1, y1 = pol(R1 + 0.02, frac(d))
     ax.scatter([x1], [y1], s=150, c=RED, zorder=9, marker="v")
     pts = arc_pts(R1 + 0.004, frac((2026, 12, 7)), frac((2026, 12, 20)), 30) + \
         arc_pts(R0 - 0.004, frac((2026, 12, 7)), frac((2026, 12, 20)), 30)[::-1]
     ax.add_patch(CB.Polygon(pts, closed=True, fc="none", ec=RED, lw=3.0, zorder=8))
-    ctext(ax, 0.0, -0.80, "今天 12/11：冠冕 al-Iklīl（第 15 站）", 14, RED)
-    ctext(ax, 0.0, -0.86, "冠冕升起、昴宿落下＝最冷四十天開始；12/21 夜月亮會昴宿（冬至）", 11, WHITE, w="normal")
+    ctext(ax, 0.0, -0.80, tx("today1"), 14, RED)
+    ctext(ax, 0.0, -0.86, tx("today2"), 11, WHITE, w="normal")
 
 
 # ══════════════════════ C-A13-02 守望者 ══════════════════════
@@ -157,21 +211,21 @@ HZ = -0.30
 
 
 def c02_horizon(ax):
-    T(ax, 0.0, 0.93, "黎明的兩端：守望者", 30, WHITE)
-    T(ax, 0.0, 0.85, "12 月初，利雅德，天亮前（太陽在地平線下約 12°）", 15, GREY, w="normal")
+    T(ax, 0.0, 0.93, tx("c02_title"), 30, WHITE)
+    T(ax, 0.0, 0.85, tx("c02_sub"), 15 if LANG == "zh" else 13, GREY, w="normal")
     ax.plot([-0.95, 0.95], [HZ, HZ], c=WHITE, lw=2.4, alpha=.85, zorder=4)
     ax.add_patch(CB.Rectangle((-0.95, -0.40), 1.9, HZ + 0.40, fc="#141A2E", ec="none", zorder=3))
-    ctext(ax, -0.86, HZ - 0.06, "東", 18, WHITE)
-    ctext(ax, 0.86, HZ - 0.06, "西", 18, WHITE)
+    ctext(ax, -0.86, HZ - 0.06, tx("east"), 18, WHITE)
+    ctext(ax, 0.86, HZ - 0.06, tx("west"), 18, WHITE)
     for k in range(6):
         r = 0.06 + 0.06 * k
         pts = [(-0.95 + r * math.cos(t * math.pi / 60), HZ + 0.6 * r * math.sin(t * math.pi / 60)) for t in range(61)]
         pts = [(max(-0.95, x), y) for x, y in pts]
         ax.add_patch(CB.Polygon(pts, closed=True, fc=AMBER, ec="none", alpha=0.06, zorder=2))
-    ctext(ax, -0.82, HZ + 0.035, "太陽快出來了", 10.5, AMBER, w="normal", ha="left")
+    ctext(ax, -0.82, HZ + 0.035, tx("sun"), 10.5, AMBER, w="normal", ha="left")
     pts = [(-0.62 + 1.24 * i / 80, HZ + 0.06 + 0.78 * math.sin(math.pi * i / 80)) for i in range(81)]
     ax.plot([p[0] for p in pts], [p[1] for p in pts], c=WHITE, lw=1.4, alpha=.35, ls=(0, (4, 5)), zorder=3)
-    ctext(ax, 0.0, HZ + 0.90, "相隔半個天空：第 15 站 ↔ 第 1 站", 12, GREY, w="normal")
+    ctext(ax, 0.0, HZ + 0.90, tx("apart"), 12, GREY, w="normal")
 
 
 def c02_rise(ax):
@@ -180,9 +234,9 @@ def c02_rise(ax):
         ax.scatter([p[0]], [p[1]], s=s, c=WHITE, zorder=7)
     ax.plot([p[0] for p in pts], [p[1] for p in pts], c=AMBER, lw=2.0, alpha=.9, zorder=6)
     CB.arrow(ax, (-0.47, HZ + 0.30), (-0.47, HZ + 0.10), c=AMBER, lw=2.6, alpha=.95, style="->")
-    ctext(ax, -0.43, HZ + 0.20, "升起", 14, AMBER, ha="left")
+    ctext(ax, -0.43, HZ + 0.20, tx("rise"), 14, AMBER, ha="left")
     ctext(ax, -0.62, HZ + 0.50, AR("الإكليل"), 24, AMBER, w="normal")
-    ctext(ax, -0.62, HZ + 0.41, "al-Iklīl 冠冕（天蠍的頭）", 12.5, WHITE)
+    ctext(ax, -0.62, HZ + 0.41, tx("ikl"), 12.5, WHITE)
 
 
 def c02_set(ax):
@@ -194,22 +248,20 @@ def c02_set(ax):
                    s=rnd.uniform(40, 110), c=WHITE, zorder=7)
     ax.add_patch(CB.Circle((cx, cy), 0.07, fc=MW, ec="none", alpha=0.10, zorder=6))
     CB.arrow(ax, (0.47, HZ + 0.10), (0.47, HZ + 0.30), c=BLUE, lw=2.6, alpha=.95, style="->")
-    ctext(ax, 0.43, HZ + 0.20, "落下", 14, BLUE, ha="right")
+    ctext(ax, 0.43, HZ + 0.20, tx("set"), 14, BLUE, ha="right")
     ctext(ax, 0.62, HZ + 0.50, AR("الثريا"), 24, BLUE, w="normal")
-    ctext(ax, 0.62, HZ + 0.41, "al-Thurayyā 昴宿", 12.5, WHITE)
+    ctext(ax, 0.62, HZ + 0.41, tx("thu"), 12.5, WHITE)
 
 
 def c02_quote(ax):
     box(ax, -0.88, -0.93, 1.76, 0.50, ec=GREY, fc=PANEL, lw=1.2, alpha=0.92, z=8)
     ctext(ax, -0.50, -0.49, AR("رقيب"), 18, AMBER, w="normal", z=10)
-    ctext(ax, -0.40, -0.49, "raqīb＝守望者：一個升起，另一個就落下", 14, WHITE, ha="left", z=10)
-    ctext(ax, 0.0, -0.565, "伊斯蘭以前的人相信：星星在黎明落下的那幾天會帶來雨（nawʾ）", 12, WHITE, w="normal", z=10)
-    ctext(ax, 0.0, -0.630, "昴宿落下的那幾天，被認為雨最多（Ibn Qutayba，意譯）", 12, AMBER, w="normal", z=10)
-    ctext(ax, 0.0, -0.695, "伊斯蘭興起後，「星星帶雨」被視為迷信；星曆只當季節的時間表", 11, GREY, w="normal", z=10)
-    ctext(ax, 0.0, -0.760, "六月反過來：昴宿在黎明升起、冠冕落下＝夏天開始", 12, WHITE, w="normal", z=10)
-    ctext(ax, 0.0, -0.825, "上週參商那種「你升我落」：中國寫成離別，阿拉伯拿來算雨", 12, GREEN, w="normal", z=10)
-    ctext(ax, 0.0, -0.895, "利雅德 2026：冠冕 12/8 前後黎明初見、昴宿 12/3–6 黎明落下（PyEphem 自算）", 9.5, GREY,
-          w="normal", z=10)
+    ctext(ax, -0.40, -0.49, tx("raqib"), 14, WHITE, ha="left", z=10)
+    q = tx("q")
+    step = 0.065 if LANG == "zh" else 0.08
+    for i, (line, size, col) in enumerate(q):
+        ctext(ax, 0.0, -0.565 - i * step, line, size, col, w="normal", z=10)
+    ctext(ax, 0.0, -0.895, tx("q_src"), 9.5, GREY, w="normal", z=10)
 
 
 # ══════════════════════ C-A13-03 月亮會昴宿 ══════════════════════
@@ -412,8 +464,16 @@ def c05_card(ax):
 
 
 def main():
-    global S
+    global S, LANG
     S = dict(G.load_stars(BASE))
+    if "--lang" in sys.argv:                      # 英文版：只出 EN04 會用到的 C-A13-01、02，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        CB.set_base(os.path.join(OUT, LANG))
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
+        CB.emit("", [("月站", c01_stations), ("季節", c01_seasons), ("今天", c01_today)], title="C-A13-01_星星年曆")
+        CB.emit("", [("地平", c02_horizon), ("升起", c02_rise), ("落下", c02_set), ("引文", c02_quote)],
+                title="C-A13-02_守望者")
+        return
     os.makedirs(OUT, exist_ok=True)
     print("── C-A13 概念圖 ──")
     CB.emit("", [("月站", c01_stations), ("季節", c01_seasons), ("今天", c01_today)], title="C-A13-01_星星年曆")
