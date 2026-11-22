@@ -173,27 +173,42 @@ def en_row(en, zh, date_s, note, zh_rows):
     encanva = bool(m and m.get("en", {}).get("design_id"))
     z = zh_rows.get(zh)
     zhname = f"{zh} {z['short']}".strip() if z else zh
-    paused = "暫緩" in (note or "")
+    d = date_of(date_s)
+    todos = []                    # (種類, 文字)；claude＝開 Claude 對話、send＝送審、you＝Kim 先動手、wait＝等
     if v is None:
         if z and (z["v"] or 0) >= 1 and z["assets"]:
-            step, nxt = "Ⓐ", f"卡 05｜Opus medium｜`中文集號：{zh}`"
+            step = "Ⓐ"            # 卡 05 兩集一組，文字由 pair_card05 填
+            todos.append(("claude", f"卡 05｜Opus medium｜`中文集號：{zh}`"))
         else:
-            step, nxt = "等中文", "等中文到 ⑤⑥"
+            step = "等中文"
+            todos.append(("wait", "等中文到 ⑤⑥（要有 v1 與素材）"))
     else:
-        todo = []
         if not rev:
-            todo.append("Ⓑ 送 Gemini：`04_英文審稿.md`＋EN v0＋中文定稿（Antigravity 做會自動 push）")
+            todos.append(("send", f"Ⓑ 對 Antigravity 說「做 {en} 英文審稿」（`04_英文審稿.md`，交件自動 push）"))
         elif v == 0:
-            todo.append(f"Ⓕ 卡 06｜Sonnet medium｜`英文集號：{en}`")
+            todos.append(("claude", f"Ⓕ 卡 06｜Sonnet medium｜`英文集號：{en}`"))
         if not encanva:
-            todo.append(f"ⒹⒺ 你：中文 ⑨ 後複製 → 「{en} {zhname}」；卡 07｜Sonnet medium｜`英文集號：{en}　Canva 設計名：{en} {zhname}`")
-        if todo:
-            step, nxt = "進行中", "；".join(todo)
-        else:
-            step, nxt = "Ⓖ", "收尾、發布（手工）"
-    return dict(en=en, zh=zh, date_s=date_s[:10], date=date_of(date_s), v=v, rev=rev, encanva=encanva,
-                step=step, nxt=nxt, paused=paused, started=v is not None or encanva)
+            todos.append(("you", f"ⒹⒺ 你：中文 ⑨ 後複製 → 「{en} {zhname}」；卡 07｜Sonnet medium｜`英文集號：{en}　Canva 設計名：{en} {zhname}`"))
+        step = "進行中" if todos else "Ⓖ"
+        if not todos:
+            todos.append(("you", "收尾、發布（手工）"))
+    return dict(en=en, zh=zh, date_s=date_s[:10], date=d, v=v, rev=rev, encanva=encanva,
+                step=step, todos=todos, nxt="；".join(t for _, t in todos), pair="",
+                started=v is not None or encanva,
+                published=step == "Ⓖ" and d is not None and d < TODAY)
 
+
+def pair_card05(en):
+    """卡 05 兩集一組，照 EN 編號順序；同一組的兩集共用一行（中文集號寫兩個）。"""
+    todo = [r for r in en if r["step"] == "Ⓐ"]
+    for i in range(0, len(todo), 2):
+        grp = todo[i:i + 2]
+        line = f"卡 05｜Opus medium｜`中文集號：{'、'.join(r['zh'] for r in grp)}`"
+        label = "＋".join(r["en"] for r in grp)
+        for r in grp:
+            r["todos"] = [("claude", line)]
+            r["pair"] = label
+            r["nxt"] = line + (f"（{label} 一組）" if len(grp) > 1 else "")
 
 def build():
     h, rows = read_csv(P("06_發布月曆", "節目表_萬國星空_全年.csv"))
@@ -207,6 +222,7 @@ def build():
     h2, rows2 = read_csv(P("06_發布月曆", "節目表_萬國星空_英文版.csv"))
     i_zh, i_date, i_note = col(h2, "對應中文集"), col(h2, "發布日"), col(h2, "備註")
     en = [en_row(r[0].strip(), r[i_zh].strip(), r[i_date], r[i_note], zh) for r in rows2 if r[0].startswith("EN")]
+    pair_card05(en)
     return zh, en
 
 
@@ -232,9 +248,23 @@ def md(zh, en):
         out.append("- **送審**：" + "、".join(f"{r['ep']}（{r['step']}）" for r in send[:4]) + " → 照 `外包任務書/README.md`，Antigravity 交件後自動 push")
     if human:
         out.append("- **你收尾／發布**：" + "、".join(f"{r['ep']}（{r['date_s']}）" for r in human[:6]))
-    en_now = [r for r in en if r["started"] and r["step"] not in ("Ⓖ",)]
-    if en_now:
-        out.append("- **英文（只收尾巴）**：" + "；".join(f"{r['en']} → {r['nxt']}" for r in en_now[:3]))
+    # 英文線（2026-11-22 恢復）：照發布日先後，列最近三個要開的 Claude 對話
+    en_live = sorted([r for r in en if not r["published"]], key=lambda r: r["date"] or far)
+    seen = []
+    for r in en_live:
+        for kind, text in r["todos"]:
+            if kind == "claude" and text not in seen and len(seen) < 3:
+                seen.append(text)
+                out.append(f"- **下一個 Claude 對話**：{r['pair'] or r['en']}（英文；{r['date_s']} 起）→ {text}")
+    en_send = [f"{r['en']} → {t}" for r in en_live for k, t in r["todos"] if k == "send"]
+    if en_send:
+        out.append("- **英文送審**：" + "；".join(en_send[:4]))
+    en_you = [f"{r['en']} → {t}" for r in en_live for k, t in r["todos"] if k == "you" and r["step"] != "Ⓖ"]
+    if en_you:
+        out.append("- **英文 Canva（你先複製設計）**：" + "；".join(en_you[:3]))
+    en_fin = [r for r in en_live if r["step"] == "Ⓖ"]
+    if en_fin:
+        out.append("- **英文收尾／發布**：" + "、".join(f"{r['en']}（{r['date_s']}）" for r in en_fin[:6]))
     out.append("")
     out.extend(missing_md(zh))
     out.append("")
@@ -256,14 +286,17 @@ def md(zh, en):
     out.append("")
     out.append("| EN | 中文 | 發布 | 英文稿 | Gemini | EN Canva | 步 | 下一步 |")
     out.append("|---|---|---|---|---|---|---|---|")
-    shown = [r for r in en if r["started"] or not r["paused"]]
-    for r in shown:
+    out.append("> 2026-11-22 恢復英文線：每週一集（週三 21:00），不早於對應中文集；節慶集釘在節日當週，所以少數幾集的發布日不照 EN 編號先後。卡 05 兩集一組，照 EN 編號做。")
+    out.append("")
+    hdr = [out.pop(-4), out.pop(-3)]            # 表頭兩行移到說明之後
+    out.extend(hdr)
+    for r in [r for r in en if not r["published"]]:
         v = "—" if r["v"] is None else f"v{r['v']}"
         out.append(f"| {r['en']} | {r['zh']} | {r['date_s']} | {v} | {'✓' if r['rev'] else '—'} | {'✓' if r['encanva'] else '—'} | {r['step']} | {r['nxt']} |")
-    paused = [r for r in en if r["paused"] and not r["started"]]
-    if paused:
+    en_done = [r["en"] for r in en if r["published"]]
+    if en_done:
         out.append("")
-        out.append(f"暫緩（中文優先）：{paused[0]['en']}～{paused[-1]['en']} 共 {len(paused)} 集，中文做到 A-22 後重排。")
+        out.append(f"已發布（不列）：{'、'.join(en_done)}。")
     out.append("")
     return "\n".join(out)
 
