@@ -6,7 +6,7 @@
 | Publish | **2027-01-10 (Sun) 21:00 Taiwan time**: EN48 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Makahiki season; the Pleiades high at 8 p.m.) |
 | Length | **89 s**, 17 beats, ~157 words on screen (no voice-over; text over light music) |
 | Story | One story only: **how Hōkūleʻa found its way with no instruments**. The 1976 voyage to Tahiti; Nainoa Thompson's four star lines (a modern memory aid); the backbone line through Hōkūleʻa = Arcturus; Hōkūleʻa overhead = home latitude; and the winter line, Makaliʻi's bailer, whose Pleiades start the Makahiki new year |
-| Canva | Copy of the Chinese design `A-09 夏威夷` (already published; card 07), to be named `EN48 A-09 夏威夷`. Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 40 = next-episode card, 41 = follow page). |
+| Canva | Copy of the Chinese design `A-09 夏威夷星線` (already published), to be named `EN48 A-09 夏威夷星線` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 40 = next-episode card, 41 = follow page). |
 | Opening line | *One sky. The Hawaiians saw — four star lines home.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4, E07; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
