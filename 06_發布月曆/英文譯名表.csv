@@ -110,25 +110,25 @@ al-Farqadān,al-Farqadān (The Two Guards),Star Name,A-13,Beta and Gamma Ursae M
 al-Hawdān,Star of al-Hawdān (Venus),Star Name,A-13,Bedouin oral designation for morning Venus appearing before dawn
 nawʾ,nawʾ (Star Weather / Setting Rains),Cultural Concept,A-13,Pre-Islamic belief attributing rainfall to a station's dawn setting
 Kitāb al-Anwāʾ,Kitāb al-Anwāʾ (Book of Rain Stars),Literature,A-13,Classic meteorological and star-lore treatise by Ibn Qutayba (d. 889 CE)
-伊格盧利克,Igloolik,Place,A-14,"Inuit community in Foxe Basin, Nunavut (69.37°N, 81.80°W)"
-Tauvikjuaq,Tauvikjuaq (The Great Darkness),Cultural Concept,A-14,Six-week midwinter polar night when the sun does not rise
+伊格盧利克,Igloolik,Place,"A-14, EN07","Inuit community in Foxe Basin, Nunavut (69.37°N, 81.80°W)"
+Tauvikjuaq,Tauvikjuaq (The Great Darkness),Cultural Concept,"A-14, EN07",Six-week midwinter polar night when the sun does not rise
 qausiut,qausiut (Indicators of Dawn),Cultural Concept,A-14,Inuit category of stars and asterisms used to gauge dawn and time
-Nuutuittuq,"Nuutuittuq (""The One That Never Moves"") / Polaris",Star Name,A-14,North Star at nearly 70° elevation in Arctic skies
-Tukturjuit,Tukturjuit (The Caribou),Asterism,A-14,Inuit constellation of the Big Dipper (Ursa Major)
+Nuutuittuq,"Nuutuittuq (""The One That Never Moves"") / Polaris",Star Name,"A-14, EN07",North Star at nearly 70° elevation in Arctic skies
+Tukturjuit,Tukturjuit (The Caribou),Asterism,"A-14, EN07",Inuit constellation of the Big Dipper (Ursa Major)
 Quturjuuk,Quturjuuk (The Collarbones),Asterism,A-14,Two pairs of bright stars in Auriga and Gemini (Capella/Menkalinan & Castor/Pollux)
 Pituaq,Pituaq (The Lamp Stand),Asterism,A-14,Triangular stone hearth stand represented by stars in Cassiopeia
 Ursuutaattiaq,Ursuutaattiaq (The Seal-Oil Skin Bag),Asterism,A-14,Skin bladder for seal fat represented by the W of Cassiopeia
-Aagjuuk,Aagjuuk (Dawn Rising Pair),Asterism,A-14,Altair and Tarazed in Aquila; primary winter clock and solstice indicator
-aagjuliqtuq,"aagjuliqtuq (""Aagjuuk Has Risen!"")",Cultural Concept,A-14,Traditional morning announcement that the working day has begun
+Aagjuuk,Aagjuuk (Altair and Tarazed),Asterism,"A-14, EN07","Altair and Tarazed in Aquila; Inuit dawn clock and solstice marker; etymology unclear (A-14 v2), so no literal gloss"
+aagjuliqtuq,"aagjuliqtuq (""Aagjuuk Has Risen!"")",Cultural Concept,"A-14, EN07",Traditional morning announcement that the working day has begun
 Ullaktut,Ullaktut (The Running Hunters),Asterism,A-14,Three belt stars of Orion chasing the polar bear
 Nanurjuk,Nanurjuk (The Polar Bear),Star Name,A-14,Aldebaran (Alpha Tauri); quarry of the celestial hunt
 Qimmiit,Qimmiit (The Dogs),Asterism,A-14,The Hyades star cluster barking at the polar bear Nanurjuk
 Kingulliq,Kingulliq (The One Left Behind),Star Name,A-14,Rigel (Beta Orionis); the hunter who dropped his mitten
 Singuuriq,Singuuriq (Flickering Sirius),Star Name,A-14,Sirius (Alpha CMa); shimmering beacon skimming southern ice horizon
-qauppat,"qauppat (""If It Becomes Day"" / Tomorrow)",Cultural Concept,A-14,Philosophical Inuktitut word for tomorrow reflecting polar reality
+qauppat,"qauppat (""If It Becomes Day"" / Tomorrow)",Cultural Concept,"A-14, EN07",Philosophical Inuktitut word for tomorrow reflecting polar reality
 John MacDonald,John MacDonald (The Arctic Sky),Literature,A-14,Authoritative 1998 ethnographic compilation of Inuit star knowledge
 Yule,Yule (Old Norse Jól),Cultural Concept,A-15,Pre-Christian Germanic winter solstice feast lasting three nights
-Úlfs kjaptr,Úlfs kjaptr (Jaws of the Wolf),Asterism,A-15,Old Norse name for the V-shaped Hyades cluster in Taurus
+Úlfs kjaptr,Úlfs kjaptr (the Wolf’s Jaw),Asterism,"A-15, EN06",Old Norse name for the V-shaped Hyades cluster in Taurus
 Fiskikarlar,Fiskikarlar (The Fishermen),Asterism,A-15,Old Norse name for the three stars of Orion's belt
 Karlvagn,Karlvagn / Karlavagnen (The Man's Chariot),Asterism,A-15,Old Norse designation for Ursa Major (Big Dipper)
 Kvennavagn,Kvennavagn (The Woman's Chariot),Asterism,A-15,Old Norse designation for Ursa Minor (Little Dipper)
@@ -145,3 +145,16 @@ Hrímfaxi,Hrímfaxi (Frost Mane),Person / Deity,A-15,Mythical stallion that draw
 Rímtöl,Rímtöl (GKS 1812 4to),Literature,A-15,c. 1192 CE Icelandic calendar and astronomical manuscript
 散文埃達,Prose Edda (Snorri Sturluson),Literature,A-15,13th-century Icelandic mythographical work in Old Norse
 好人哈康,King Hákon the Good (Hákon góði),Person / Deity,A-15,10th-century king of Norway who legally aligned Yule with Christmas
+jul,jul (Scandinavian for Christmas),Cultural Concept,"A-15, EN06",Swedish/Norwegian/Danish name for Christmas; Icelandic jól; old English word Yule
+日月之路,the road of the Sun and Moon,Cultural Concept,"A-15, EN06","The ecliptic, as drawn in A-15; the wolf's jaw opens beside it"
+公牛的下顎,a bull’s jaw (is lê),Asterism,"A-15, EN06",Babylonian MUL.APIN name for the Hyades
+Coyatchicüra,Coyatchicüra (a crocodile’s mouth),Asterism,"A-15, EN06",Tikuna (Amazon) name for the Hyades V
+Tapi'i rainhyka,Tapi'i rainhyka (a tapir’s jaw),Asterism,"A-15, EN06",Tupi (Brazil) name for the Hyades V
+Kama tâla,Kama tâla (a tapir’s jaw),Asterism,"A-15, EN06",Lokono name for the Hyades V (Rybka 2018)
+Friggerock,Friggerock (Frigg’s distaff),Asterism,"A-15, EN06",Swedish folk name for Orion's Belt
+Skinfaxi,Skinfaxi (Shining Mane),Person / Deity,"A-15, EN06",Horse ridden by Day; its mane lights sky and earth
+Amaruqjuit,Amaruqjuit (the Wolves),Asterism,"A-14, EN07","Pelly Bay: three stars in Boötes trailing the caribou (probably γ, β, δ Boo)"
+兩道陽光,Two Sunbeams,Asterism,"A-14, EN07",Noatak (Alaska) legend for Altair and Tarazed: two rays of the returning sun
+Peggittyn,Peggittyn (light that brings the new year),Asterism,"A-14, EN07",Chukchi name for Altair and Tarazed
+Te Aamonga,Te Aamonga (the carrying pole),Asterism,"A-11, A-14",Anutan name for Altair and its neighbours
+Fata de împărat,Fata de împărat (the princess with a carrying pole),Asterism,"A-14, EN07",Romanian name for the Altair line
