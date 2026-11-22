@@ -1,0 +1,33 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,3,World Sky Cultures,One sky. The Vikings saw — a wolf’s jaw.,cover,Cover: text block replaced with English; second line = the schedule's hook; EN · EP06 tag
+2,,鏡頭01開始,6,,"Scandinavians still call Christmas jul.
+The old English word is Yule.",bottom,E02
+3,,鏡頭01結束＝鏡頭02開始,5,,"The feast reached the North before
+Christianity: three nights from
+midwinter.",bottom,E03; label Úlfs kjaptr／狼嘴（畢宿） → Úlfs kjaptr／the wolf’s jaw (Hyades)
+4,,鏡頭02-概念圖1,3,,,,diagram → English (`_概念圖/en/C-A15-01_Yule變聖誕_仲冬層_透明.png`)
+5,,鏡頭02-概念圖2,5,,,,+ `C-A15-01_Yule變聖誕_立法層_透明.png` (English)
+6,,鏡頭02-概念圖3,4,,,,+ `C-A15-01_Yule變聖誕_今天層_透明.png` (English)
+7,,鏡頭02-概念圖收＝鏡頭03開始,2,,,,"diagram fades; then straight to 13 (pages 8–12, the eight reindeer and the ""few names survive"" zoom-out, removed; same framing, so nothing moves)"
+13,,鏡頭05結束＝鏡頭06開始,7,The wolf’s jaw,"A late-1100s Icelandic manuscript names
+this V of stars Úlfs kjaptr: the wolf’s
+jaw.",bottom,E05; label as page 3
+14,,鏡頭06結束,7,,"Which wolf? The manuscript doesn’t say.
+But in Norse myth, the sky is always on
+the run.",bottom,E06; label as page 3
+15,,鏡頭06-概念圖1,4,,,,diagram → English (`_概念圖/en/C-A15-03_天上的追逐_太陽層_透明.png`)
+16,,鏡頭06-概念圖2,4,,,,+ `C-A15-03_天上的追逐_月亮層_透明.png` (English)
+17,,鏡頭06-概念圖3,5,,,,+ `C-A15-03_天上的追逐_神駒層_透明.png` (English)
+18,,鏡頭06-概念圖收＝鏡頭07開始,2,A jaw by the Sun’s road,"The jaw opens beside the road of the Sun
+and Moon. So some guess it waits to bite
+them.",bottom,diagram fades; E08
+19,,鏡頭07結束＝鏡頭08開始,8,A jaw by the Sun’s road,"The jaw opens beside the road of the Sun
+and Moon. So some guess it waits to bite
+them.",bottom,E08; the Sun-and-Moon road (ecliptic) fades in; label as page 3
+20,,鏡頭08結束,9,Others saw a jaw too,"Babylon: a bull’s jaw. The Tikuna: a
+crocodile’s mouth. The Tupi: a tapir’s
+jaw. The Inuit saw dogs.",bottom,"E09; cross-culture labels: 公牛的下顎（巴比倫）／鱷魚的嘴（Tikuna）／貘的下巴（圖皮）／貘的下巴（洛科諾）／狗群（因紐特） → bull’s jaw (Babylon)／crocodile’s mouth (Tikuna)／tapir’s jaw (Tupi)／tapir’s jaw (Lokono)／the Dogs (Inuit); then the sky moves to 40 (page 21, the Chinese ""same V"" card, removed)"
+40,,鏡頭15開始,8,Look east after dark,"Late December: the wolf’s jaw climbs in
+the east, with Orion’s Belt below it.",top,E10; labels: wolf’s jaw as page 3; Friggerock／Frigg 的紡紗桿（瑞典民間） → Friggerock／Frigg’s distaff (Swedish folk name); Fiskikarlar／漁夫（獵戶腰帶） → Fiskikarlar／the Fishermen (Orion’s Belt)
+45,,端卡（下集見）,3,Next Wednesday,Inuit: telling time in the polar night.,endcard,E11
+46,,追蹤頁,—,,Follow for a new sky every week.,endcard,E12

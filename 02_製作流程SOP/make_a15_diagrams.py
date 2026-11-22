@@ -27,6 +27,15 @@ OUT = os.path.join(BASE, "05_素材/A-15_北歐/_概念圖")
 CB.set_base(OUT)
 RED, GREY, PANEL = "#FF6B6B", "#7C8BA8", "#1B2240"
 S = None
+LANG = "zh"          # python3 make_a15_diagrams.py --lang en → 只出 C-A15-01、03 的英文版到 _概念圖/en/（EN06 用）
+TXT = {
+    "zh": {'c01_t': 'Yule 怎麼變成聖誕節？', 'c01_s': '北歐的 jól（英文古字 Yule）', 'c01_oh': '改信基督教以前', 'c01_ob': '從「仲冬夜」（hǫkunótt）開始，連過三晚', 'c01_n': '第 {} 晚', 'c01_lh': '十世紀\u3000挪威國王 Hákon（善王）立法', 'c01_mid': '仲冬', 'c01_x': '12/25 聖誕節', 'c01_same': '同一天過', 'c01_b1': '每個人都得備好一份啤酒，不然就罰錢', 'c01_b2': '——酒喝多久，節就過多久', 'c01_src': 'Snorri《Heimskringla・Hákonar saga góða》（約 1230 年寫成）', 'c01_th': '今天：聖誕節還叫這個名字', 'c01_gj': 'God jul！＝聖誕快樂（瑞典、挪威、丹麥）', 'c03_t': '天上的追逐', 'c03_s': 'Snorri《Edda・Gylfaginning》', 'c03_sun': '太陽 Sól', 'c03_sk': '狼 Sköll', 'c03_ch': '追', 'c03_sn': '太陽跑得急，因為後面有狼', 'c03_moon': '月亮 Máni', 'c03_ha': '狼 Hati', 'c03_rag': '到了諸神的黃昏，\n狼會吞下太陽、抓走月亮', 'c03_ar': 'Árvakr「早起」', 'c03_al': 'Alsviðr「飛快」', 'c03_pull': '拉太陽車的兩匹馬', 'c03_dn': '白天和黑夜，也各騎一匹馬', 'c03_sf': 'Skinfaxi「亮鬃」', 'c03_sfb': '白天騎牠，鬃毛照亮天空和大地', 'c03_hf': 'Hrímfaxi「霜鬃」', 'c03_hb1': '黑夜騎牠；每天早上，嚼子上滴下的白沫', 'c03_hb2': '就是山谷裡的露水', 'c03_src': '《Gylfaginning》10–12、51；《Vafþrúðnismál》14', 'c01_words': [('jul', '瑞典・挪威・丹麥'), ('jól', '冰島'), ('joulu', '芬蘭（借字）'), ('Yule', '英文古字')]},
+    "en": {'c01_t': 'How did Yule become Christmas?', 'c01_s': 'Norse jól (the old English word: Yule)', 'c01_oh': 'Before Christianity', 'c01_ob': 'From Midwinter Night (hǫkunótt): three nights', 'c01_n': 'Night {}', 'c01_lh': '10th c.: King Hákon the Good’s law', 'c01_mid': 'Midwinter', 'c01_x': 'Christmas, 25 Dec', 'c01_same': 'same day', 'c01_b1': 'Everyone must have a share of beer, or pay a fine', 'c01_b2': '— the feast lasts as long as the beer', 'c01_src': 'Snorri, Heimskringla: Hákonar saga góða (written c. 1230)', 'c01_th': 'Today: Christmas still has this name', 'c01_gj': 'God jul! = Merry Christmas (Sweden, Norway, Denmark)', 'c03_t': 'The chase across the sky', 'c03_s': 'Snorri, Edda: Gylfaginning', 'c03_sun': 'the Sun, Sól', 'c03_sk': 'the wolf Sköll', 'c03_ch': 'chases', 'c03_sn': 'The Sun runs fast: a wolf is behind it', 'c03_moon': 'the Moon, Máni', 'c03_ha': 'the wolf Hati', 'c03_rag': 'At Ragnarök, the wolves will\nswallow the Sun, seize the Moon', 'c03_ar': 'Árvakr “Early Riser”', 'c03_al': 'Alsviðr “Very Swift”', 'c03_pull': 'they pull the Sun', 'c03_dn': 'Day and Night each ride a horse too', 'c03_sf': 'Skinfaxi, “Shining Mane”', 'c03_sfb': 'Day’s horse: its mane lights up sky and earth', 'c03_hf': 'Hrímfaxi, “Frost Mane”', 'c03_hb1': 'Night’s horse: each morning, the foam from its bit', 'c03_hb2': 'falls as dew in the valleys', 'c03_src': 'Gylfaginning 10–12, 51; Vafþrúðnismál 14', 'c01_words': [('jul', 'Sweden · Norway · Denmark'), ('jól', 'Iceland'), ('joulu', 'Finland (loanword)'), ('Yule', 'old English word')]},
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 TPE = (25.0330, 121.5654, 0, 8, 15)
 HIP = dict(Aldebaran=21421, Alnilam=26311, Alnitak=26727, Mintaka=25930, Betelgeuse=27989, Rigel=24436,
            Capella=24608, Menkalinan=28360, Castor=36850, Pollux=37826, Polaris=11767, Kochab=72607,
@@ -119,28 +128,28 @@ def moon_icon(ax, x, y, r, z=7):
 
 # ══════════════════════ C-A15-01 Yule 變聖誕 ══════════════════════
 def c01_old(ax):
-    T(ax, 0.0, 0.92, "Yule 怎麼變成聖誕節？", 30, WHITE)
-    T(ax, 0.0, 0.845, "北歐的 jól（英文古字 Yule）", 15, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c01_t"), 30, WHITE)
+    T(ax, 0.0, 0.845, tx("c01_s"), 15, GREY, w="normal")
     box(ax, -0.95, 0.30, 1.90, 0.45, ec=BLUE, fc=PANEL, z=2, alpha=0.95)
-    ctext(ax, -0.90, 0.69, "改信基督教以前", 16, BLUE, ha="left")
-    ctext(ax, -0.90, 0.625, "從「仲冬夜」（hǫkunótt）開始，連過三晚", 14, WHITE, w="normal", ha="left")
+    ctext(ax, -0.90, 0.69, tx("c01_oh"), 16, BLUE, ha="left")
+    ctext(ax, -0.90, 0.625, tx("c01_ob"), 14, WHITE, w="normal", ha="left")
     for i in range(3):                          # 三個夜晚
         cx = -0.55 + 0.55 * i
         ax.add_patch(CB.Circle((cx, 0.445), 0.085, fc="#05070F", ec=BLUE, lw=1.6, zorder=4))
         moon_icon(ax, cx - 0.02, 0.46, 0.035, z=5)
         for dx, dy in ((0.04, -0.03), (0.035, 0.035), (-0.045, -0.035)):
             ax.scatter([cx + dx], [0.445 + dy], s=6, c=WHITE, zorder=6, lw=0)
-        ctext(ax, cx, 0.335, f"第 {i + 1} 晚", 12, WHITE, w="normal")
+        ctext(ax, cx, 0.335, tx("c01_n").format(i + 1), 12, WHITE, w="normal")
 
 
 def c01_law(ax):
     box(ax, -0.95, -0.30, 1.90, 0.52, ec=AMBER, fc=PANEL, z=2, alpha=0.95)
-    ctext(ax, -0.90, 0.16, "十世紀　挪威國王 Hákon（善王）立法", 16, AMBER, ha="left")
+    ctext(ax, -0.90, 0.16, tx("c01_lh"), 16, AMBER, ha="left")
     CB.arrow(ax, (-0.10, 0.06), (-0.55, 0.06), c=AMBER, lw=2.4, alpha=.9)
-    ctext(ax, -0.72, 0.06, "仲冬", 15, BLUE)
+    ctext(ax, -0.72, 0.06, tx("c01_mid"), 15, BLUE)
     box(ax, -0.02, -0.01, 0.40, 0.14, ec=AMBER, fc="#2A2410", lw=1.6, z=4)
-    ctext(ax, 0.18, 0.06, "12/25 聖誕節", 15, AMBER)
-    ctext(ax, 0.62, 0.06, "同一天過", 13, WHITE, w="normal")
+    ctext(ax, 0.18, 0.06, tx("c01_x"), 15, AMBER)
+    ctext(ax, 0.62, 0.06, tx("c01_same"), 13, WHITE, w="normal")
     # 啤酒杯（牛角杯）
     # 牛角杯：上緣是開口、往下彎成尖角
     up = [(0.60 + 0.26 * t, -0.04 + 0.02 * t - 0.20 * (1 - t) ** 2) for t in [i / 20 for i in range(21)]]
@@ -152,20 +161,20 @@ def c01_law(ax):
         x = 0.62 + 0.26 * k
         ax.plot([x, x + 0.01], [-0.25 + 0.17 * k + 0.02, -0.04 + 0.02 * k - 0.20 * (1 - k) ** 2 - 0.02],
                 c="#8C6A45", lw=2.0, zorder=6)
-    ctext(ax, -0.90, -0.12, "每個人都得備好一份啤酒，不然就罰錢", 14, WHITE, w="normal", ha="left")
-    ctext(ax, -0.90, -0.20, "——酒喝多久，節就過多久", 14, WHITE, w="normal", ha="left")
-    ctext(ax, -0.90, -0.265, "Snorri《Heimskringla・Hákonar saga góða》（約 1230 年寫成）", 10, GREY, w="normal", ha="left")
+    ctext(ax, -0.90, -0.12, tx("c01_b1"), 14, WHITE, w="normal", ha="left")
+    ctext(ax, -0.90, -0.20, tx("c01_b2"), 14, WHITE, w="normal", ha="left")
+    ctext(ax, -0.90, -0.265, tx("c01_src"), 10, GREY, w="normal", ha="left")
 
 
 def c01_today(ax):
     box(ax, -0.95, -0.80, 1.90, 0.42, ec=GREEN, fc=PANEL, z=2, alpha=0.95)
-    ctext(ax, -0.90, -0.43, "今天：聖誕節還叫這個名字", 16, GREEN, ha="left")
-    words = [("jul", "瑞典・挪威・丹麥"), ("jól", "冰島"), ("joulu", "芬蘭（借字）"), ("Yule", "英文古字")]
+    ctext(ax, -0.90, -0.43, tx("c01_th"), 16, GREEN, ha="left")
+    words = tx("c01_words")
     for i, (w, where) in enumerate(words):
         x = -0.70 + 0.47 * i
         ctext(ax, x, -0.56, w, 24, WHITE)
         ctext(ax, x, -0.645, where, 11, GREY, w="normal")
-    ctext(ax, 0.0, -0.735, "God jul！＝聖誕快樂（瑞典、挪威、丹麥）", 13, GREEN, w="normal")
+    ctext(ax, 0.0, -0.735, tx("c01_gj"), 13, GREEN, w="normal")
 
 
 # ══════════════════════ C-A15-02 八隻馴鹿 ══════════════════════
@@ -215,27 +224,27 @@ def c02_eight(ax):
 
 # ══════════════════════ C-A15-03 天上的追逐 ══════════════════════
 def c03_sun(ax):
-    T(ax, 0.0, 0.92, "天上的追逐", 30, WHITE)
-    T(ax, 0.0, 0.845, "Snorri《Edda・Gylfaginning》", 14, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c03_t"), 30, WHITE)
+    T(ax, 0.0, 0.845, tx("c03_s"), 14, GREY, w="normal")
     box(ax, -0.95, 0.28, 1.90, 0.48, ec=AMBER, fc=PANEL, z=2, alpha=0.95)
     sun_icon(ax, 0.10, 0.52, 0.075)
-    ctext(ax, 0.10, 0.36, "太陽 Sól", 15, AMBER)
+    ctext(ax, 0.10, 0.36, tx("c03_sun"), 15, AMBER)
     wolf_head(ax, -0.72, 0.42, 0.24, col="#9AA6BE")
-    ctext(ax, -0.60, 0.33, "狼 Sköll", 14, WHITE)
+    ctext(ax, -0.60, 0.33, tx("c03_sk"), 14, WHITE)
     CB.arrow(ax, (-0.10, 0.52), (-0.42, 0.52), c=RED, lw=2.4, alpha=.85)
-    ctext(ax, -0.26, 0.585, "追", 14, RED)
-    ctext(ax, -0.26, 0.69, "太陽跑得急，因為後面有狼", 11.5, WHITE, w="normal")
+    ctext(ax, -0.26, 0.585, tx("c03_ch"), 14, RED)
+    ctext(ax, -0.26, 0.69, tx("c03_sn"), 11.5, WHITE, w="normal")
 
 
 def c03_moon(ax):
     box(ax, -0.95, -0.27, 1.90, 0.48, ec=BLUE, fc=PANEL, z=2, alpha=0.95)
     moon_icon(ax, 0.10, -0.03, 0.065)
-    ctext(ax, 0.10, -0.18, "月亮 Máni", 15, BLUE)
+    ctext(ax, 0.10, -0.18, tx("c03_moon"), 15, BLUE)
     wolf_head(ax, -0.72, -0.13, 0.24, col="#9AA6BE")
-    ctext(ax, -0.60, -0.22, "狼 Hati", 14, WHITE)
+    ctext(ax, -0.60, -0.22, tx("c03_ha"), 14, WHITE)
     CB.arrow(ax, (-0.10, -0.03), (-0.42, -0.03), c=RED, lw=2.4, alpha=.85)
-    ctext(ax, -0.26, 0.035, "追", 14, RED)
-    ctext(ax, 0.62, -0.03, "到了諸神的黃昏，\n狼會吞下太陽、抓走月亮", 12, RED, w="normal")
+    ctext(ax, -0.26, 0.035, tx("c03_ch"), 14, RED)
+    ctext(ax, 0.62, -0.03, tx("c03_rag"), 12, RED, w="normal")
 
 
 def c03_horses(ax):
@@ -244,22 +253,22 @@ def c03_horses(ax):
     ax.plot([0.20, 0.48], [0.50, 0.42], c=AMBER, lw=1.6, alpha=.7, zorder=5)
     horse_head(ax, 0.38, 0.48, 0.13, col="#F2D27A", mane=AMBER)
     horse_head(ax, 0.47, 0.37, 0.13, col="#E9C46A", mane=AMBER)
-    ctext(ax, 0.80, 0.55, "Árvakr「早起」", 12.5, AMBER, w="normal")
-    ctext(ax, 0.80, 0.47, "Alsviðr「飛快」", 12.5, AMBER, w="normal")
-    ctext(ax, 0.80, 0.39, "拉太陽車的兩匹馬", 10.5, WHITE, w="normal")
+    ctext(ax, 0.80, 0.55, tx("c03_ar"), 12.5, AMBER, w="normal")
+    ctext(ax, 0.80, 0.47, tx("c03_al"), 12.5, AMBER, w="normal")
+    ctext(ax, 0.80, 0.39, tx("c03_pull"), 10.5, WHITE, w="normal")
     box(ax, -0.95, -0.94, 1.90, 0.58, ec=WHITE, fc=PANEL, z=2, alpha=0.95)
-    ctext(ax, 0.0, -0.42, "白天和黑夜，也各騎一匹馬", 15, WHITE)
+    ctext(ax, 0.0, -0.42, tx("c03_dn"), 15, WHITE)
     horse_head(ax, -0.88, -0.64, 0.15, col="#F2D27A", mane="#FFF4C8")
-    ctext(ax, -0.62, -0.53, "Skinfaxi「亮鬃」", 14, AMBER, ha="left")
-    ctext(ax, -0.62, -0.60, "白天騎牠，鬃毛照亮天空和大地", 11, WHITE, w="normal", ha="left")
+    ctext(ax, -0.62, -0.53, tx("c03_sf"), 14, AMBER, ha="left")
+    ctext(ax, -0.62, -0.60, tx("c03_sfb"), 11, WHITE, w="normal", ha="left")
     horse_head(ax, -0.88, -0.85, 0.15, col="#7F93B8", mane="#E8F1FF")
-    ctext(ax, -0.62, -0.72, "Hrímfaxi「霜鬃」", 14, BLUE, ha="left")
-    ctext(ax, -0.62, -0.79, "黑夜騎牠；每天早上，嚼子上滴下的白沫", 11, WHITE, w="normal", ha="left")
-    ctext(ax, -0.62, -0.85, "就是山谷裡的露水", 11, WHITE, w="normal", ha="left")
+    ctext(ax, -0.62, -0.72, tx("c03_hf"), 14, BLUE, ha="left")
+    ctext(ax, -0.62, -0.79, tx("c03_hb1"), 11, WHITE, w="normal", ha="left")
+    ctext(ax, -0.62, -0.85, tx("c03_hb2"), 11, WHITE, w="normal", ha="left")
     for dx, dy in ((0.0, 0.0), (0.012, -0.045), (-0.010, -0.085)):    # 嚼子滴下的露水
         ax.add_patch(CB.Ellipse((-0.725 + dx, -0.83 + dy), 0.018, 0.028, fc="#BFD8FF", ec="none", alpha=.9,
                                 zorder=8))
-    ctext(ax, 0.55, -0.905, "《Gylfaginning》10–12、51；《Vafþrúðnismál》14", 9, GREY, w="normal")
+    ctext(ax, 0.55, -0.905, tx("c03_src"), 9, GREY, w="normal")
 
 
 # ══════════════════════ C-A15-04 引路星一千年 ══════════════════════
@@ -515,9 +524,15 @@ def c07_card(ax):
 
 
 def main():
-    global S, C04_CEN
+    global S, C04_CEN, LANG
     S = dict(G.load_stars(BASE))
     C04_CEN = pole_j2000(1000)
+    if "--lang" in sys.argv:                      # 英文版：只出 EN06 會用到的兩組，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        CB.set_base(os.path.join(OUT, LANG))
+        CB.emit("", [("仲冬", c01_old), ("立法", c01_law), ("今天", c01_today)], title="C-A15-01_Yule變聖誕")
+        CB.emit("", [("太陽", c03_sun), ("月亮", c03_moon), ("神駒", c03_horses)], title="C-A15-03_天上的追逐")
+        return
     os.makedirs(OUT, exist_ok=True)
     print("── C-A15 概念圖 ──")
     CB.emit("", [("仲冬", c01_old), ("立法", c01_law), ("今天", c01_today)], title="C-A15-01_Yule變聖誕")

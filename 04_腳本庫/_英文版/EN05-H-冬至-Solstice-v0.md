@@ -65,7 +65,7 @@ Total 60 s (the follow page is not counted, as in EN03).
 | 授時曆 | China’s Shoushi calendar | |
 | 公曆（格里曆） | Europe’s Gregorian calendar | |
 | 昴宿 | the Pleiades | |
-| Yule、Úlfs kjaptr（狼嘴） | Norse Yule, a wolf’s jaw | end card = EN06 title |
+| Yule、Úlfs kjaptr（狼嘴） | Norse Yule, a wolf’s jaw | end card = EN06 title; 英文譯名表 has Úlfs kjaptr (the Wolf’s Jaw) |
 
 ## YouTube
 
