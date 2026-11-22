@@ -31,6 +31,86 @@ BASE = Gx.find_base(os.path.dirname(os.path.abspath(__file__)))
 C.set_base(os.path.join(BASE, "05_素材/C-03_麒麟與倮獸"))
 TIGER = "#E8ECF5"          # 白虎（近白，與 WHITE 區隔）
 
+# ── 英文版（EN44）：python3 make_c03_diagrams.py --lang en → 只出英文版用到的 8 組到 _概念圖/en/ ──
+# 圖上所有字都經過 T()；英文模式下照 TXT["en"] 換字（值可以是 "字" 或 ("字", 字級)），
+# 找不到譯文、又含中文的字串會印警告，不會默默留中文。
+LANG = "zh"
+TXT = {"en": {
+    # 四象盤
+    "四象": ("The Four Symbols", 36), "東青龍・南朱雀・西白虎・北玄武": "Dragon E · Bird S · Tiger W · Tortoise N",
+    "方位依地圖慣例：上北、右東": "Map convention: north up, east right",
+    "青龍": ("Azure\nDragon", 24), "朱雀": ("Vermilion Bird", 24), "白虎": ("White\nTiger", 24),
+    "玄武": ("Black Tortoise", 24),
+    "東": "E", "西": "W", "南": "S", "北": "N", "？": "?", "中央": "centre", "倮・人": "human",
+    "中央，是誰的位置？": ("The centre: whose place?", 36),
+        # 五蟲說
+    "五蟲說": ("Five Kinds of Creatures", 36),
+    "《大戴禮記・易本命》：動物分五類，每類有一個「長」": "Da Dai Liji: animals in five kinds, each with a chief",
+    "原文每一類都是「三百六十」": "In the text, each kind numbers 360",
+    "類": "kind", "之長": "chief", "長": "",
+    "有羽之蟲": "Feathered", "有毛之蟲": "Furred", "有甲之蟲": "Shelled", "有鱗之蟲": "Scaled", "倮之蟲": "Naked",
+    "鳳皇": ("Phoenix", 26), "麒麟": ("Qilin", 26), "神龜": ("Tortoise", 26), "蛟龍": ("Jiaolong", 26),
+    "聖人": ("Sage", 26),
+    "倮＝沒有羽毛，也沒有鱗甲": "Naked = no feathers, no scales",
+    "「倮之蟲三百六十，而聖人為之長」": "“Of the 360 naked creatures, the sage is chief”",
+    "——倮蟲之長，就是人": "— the chief of the naked ones is a human",
+    # 對照
+    "兩張名單，對不上兩格": ("Two lists, two mismatches", 36), "四象 × 五蟲之長": "Four Symbols × five chiefs",
+    "※ 四象與五蟲是不同來源的分類，此圖為對照示意": "※ Two different systems; this pairing is only illustrative",
+    "五蟲之長": "Five chiefs", "無": "",
+    "對得上": "match", "毛蟲之長是麒麟，不是虎": "Furred chief: qilin", "四象沒有這一格": "No Symbol here",
+    "白虎不在名單裡，多出來的是「人」": ("No White Tiger on the list —\nand one extra: a human", 26),
+    # 五旗
+    "車上的五面旗": ("Five Chariot Flags", 36), "《周禮・考工記・輈人》": "Rites of Zhou, Kaogongji",
+    "原文照引；方位與星宿為後世對應": "Quoted from the text; directions and mansions are later matches",
+    "龍旂九斿": ("Dragon flag", 28), "鳥旟七斿": ("Bird flag", 28), "熊旗六斿": ("Bear flag", 28),
+    "龜蛇四斿": ("Turtle-snake", 28), "弧旌枉矢": ("Bow & arrow", 28),
+    "以象大火也": ("= Great Fire", 26), "以象鶉火也": ("= Quail Fire", 26), "以象伐也": ("= Fa", 26),
+    "以象營室也": ("= Yingshi", 26), "以象弧也": ("= the Bow", 26),
+    "東・心宿": "E · Xin", "南・柳星張": "S · Liu–Zhang", "西・參宿": "W · Shen", "北・室宿": "N · Shi", "弧矢": "Hushi",
+    "四面是動物，第五面是人做的弓": "Four animals — and a bow made by humans",
+    # 軒轅
+    "候選一：軒轅": "Candidate 1: Xuanyuan", "「軒轅，黃龍體」《史記・天官書》": "“Xuanyuan: body of a yellow dragon” — Shiji",
+    "軒轅": "Xuanyuan", "十七顆星": "17 stars", "軒轅十四": "Regulus", "（獅子座 α）": "(α Leonis)",
+    "線索：黃帝號軒轅；《月令》的中央之帝，正是黃帝": ("Clue: Xuanyuan is the Yellow Emperor — the centre's emperor", 20),
+    # 牛郎織女
+    "候選二：牛郎織女": "Candidate 2: Cowherd & Weaver", "天上少數有「人」的故事": "One of the few sky stories about people",
+    "織女星": ("Vega (Weaver)", 26), "牛郎星": ("Altair", 30), "（河鼓二）": "(Cowherd)",
+    "天津四": "Deneb", "夏季大三角": "Summer Triangle", "（三顆一等星）": "(three 1st-mag. stars)",
+    # 弧矢
+    "候選三：弧矢": "Candidate 3: Hushi, the Bow",
+    "「弧旌枉矢，以象弧也」《考工記》": "“The bow-and-arrow flag stands for the Bow” — Kaogongji",
+    "後世星表：九星": "Later star lists: 9 stars", 
+    "「下有四星曰弧，直狼」": ("“Below, four stars called the Bow, facing the Wolf”", 24),
+    "《史記・天官書》：這把弓，對著天狼": "Shiji: this bow aims at Sirius",
+    # 候選
+    "倮獸的星，是哪一組？": ("Which stars belong to the centre?", 34), "社團列出的三個候選": "Three candidates from our club",
+    "※ 候選與線索為社團考據與本集整理，非古籍明文": "※ Candidates and clues: our club's research, not ancient texts",
+    "牛郎織女": ("Vega & Altair", 24),
+    "黃帝號軒轅": ("= Yellow Emperor", 20),
+    "天上的「人」": ("A story of people", 20), "夏季大三角之二": ("Summer Triangle", 20),
+    "第五面旗：弓": ("Fifth flag: a bow", 20), "直指天狼": ("Aims at Sirius", 20),
+    "這一題，還沒有答案": "Still no answer",
+    "沒有傳世文獻明說：中央倮獸對應哪一組星官": "No surviving text says which asterism is the centre's",
+}}
+
+
+def tx(s, size):
+    if LANG == "zh" or not s:
+        return s, size
+    v = TXT[LANG].get(s)
+    if v is None:
+        if any("　" <= ch <= "鿿" or "＀" <= ch <= "￯" for ch in s):
+            print(f"  ⚠ 沒有英文：{s}")
+        return s, size
+    return (v, size) if isinstance(v, str) else v
+
+
+def T(ax, x, y, s, size=20, *a, **k):
+    s, size = tx(s, size)
+    if s:
+        C.T(ax, x, y, s, size, *a, **k)
+
 
 def footer(ax, s="示意圖・非等比例", y=-0.92):
     T(ax, 0, y, s, 22, WHITE, alpha=.55)
@@ -313,6 +393,11 @@ def center_title(ax):
 
 
 def yueling(ax):
+    if LANG == "en":                       # 英文引文兩行，整段往下、讓開「S」
+        C.T(ax, 0, -0.775, "“Centre: earth … its emperor, the Yellow Emperor …", 24, AMBER)
+        C.T(ax, 0, -0.845, "its creatures, the naked”", 24, AMBER)
+        C.T(ax, 0, -0.925, "Book of Rites, “Monthly Ordinances”", 20, WHITE, alpha=.7)
+        return
     T(ax, 0, -0.80, "「中央土……其帝黃帝……其蟲倮」", 28, AMBER)
     T(ax, 0, -0.89, "《禮記・月令》（倮，亦作裸）", 22, WHITE, alpha=.7)
 
@@ -381,11 +466,32 @@ def cmp_title(ax):
 
 
 def cmp_head(ax):
+    if LANG == "en":
+        C.T(ax, CXL, 0.64, "Four Symbols", 28, WHITE)
+        C.T(ax, CXR, 0.64, "Five chiefs", 28, WHITE)
+        return
     T(ax, CXL, 0.64, "四象", 28, WHITE)
     T(ax, CXR, 0.64, "五蟲之長", 28, WHITE)
 
 
+CMP_EN = {"青龍": "Dragon", "朱雀": "Bird", "玄武": "Tortoise", "白虎": "Tiger",
+          "蛟龍": "Jiaolong", "鳳皇": "Phoenix", "神龜": "Tortoise", "麒麟": "Qilin", "聖人": "Sage"}
+
+
 def cmp_items(ax):
+    if LANG == "en":                     # 英文名放不進圓圈：圓圈留色，名字放在外側
+        for (l, cl, r, cr, ok, _), y in zip(CMP, CY):
+            if l:
+                ax.add_patch(Circle((CXL, y), CR, fc=cl, ec=cl, lw=2.4, alpha=.22))
+                ax.add_patch(Circle((CXL, y), CR, fill=False, ec=cl, lw=2.4))
+                C.T(ax, CXL - CR - 0.03, y, CMP_EN[l], 26, cl, ha="right")
+            else:
+                ax.add_patch(Circle((CXL, y), CR, fill=False, ec=WHITE, lw=2.2, ls=(0, (5, 4)), alpha=.6))
+                C.T(ax, CXL - CR - 0.03, y, "none", 24, WHITE, ha="right", alpha=.55)
+            ax.add_patch(Circle((CXR, y), CR, fc=cr, ec=cr, lw=2.4, alpha=.22))
+            ax.add_patch(Circle((CXR, y), CR, fill=False, ec=cr, lw=2.4))
+            C.T(ax, CXR + CR + 0.03, y, CMP_EN[r], 26, cr, ha="left")
+        return
     for (l, cl, r, cr, ok, _), y in zip(CMP, CY):
         if l:
             ax.add_patch(Circle((CXL, y), CR, fc=cl, ec=cl, lw=2.4, alpha=.22))
@@ -719,6 +825,10 @@ def hs_name(e, ax, ax2):
 
 def hs_sirius(e, ax, ax2):
     x, y = P(e, SIRIUS)
+    if LANG == "en":
+        C.T(ax2, x + 0.07, y + 0.05, "Sirius", 30, WHITE, ha="left")
+        C.T(ax2, x + 0.07, y - 0.035, "(the Wolf)", 22, WHITE, ha="left", alpha=.8)
+        return
     T(ax2, x + 0.15, y + 0.04, "天狼", 30, WHITE)
 
 
@@ -835,6 +945,9 @@ def preview(sub, name, fns):
 
 
 if __name__ == "__main__":
+    if "--lang" in sys.argv:                  # 英文版：只出 EN44 用到的 8 組，寫到 _概念圖/en/（子資料夾、檔名同中文版）
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        C.set_base(os.path.join(BASE, "05_素材/C-03_麒麟與倮獸/_概念圖", LANG))
     print("── 四象盤 ──")
     ring = [("題辭_四象", four_title), ("外圈", wheel_ring)] + \
            [(f"{SECT[k][1]}", wheel_sector(k)) for k in ("東", "南", "西", "北")] + \
@@ -854,18 +967,19 @@ if __name__ == "__main__":
     emit("四象五蟲對照", [("題辭", cmp_title), ("欄位", cmp_head), ("項目", cmp_items),
                           ("對得上", cmp_links_ok), ("對不上", cmp_links_bad)], title="對照")
 
-    print("── 曾侯乙漆箱 ──")
-    emit("曾侯乙漆箱", [("題辭", lid_title), ("箱蓋", lid_box), ("宿環", lid_ring), ("斗字", lid_dou),
-                        ("龍虎", lid_beasts), ("結語", lid_end)], title="漆箱蓋面")
+    if LANG == "zh":                          # 英文版沒用到：漆箱、側面、民族來源、圖卡
+        print("── 曾侯乙漆箱 ──")
+        emit("曾侯乙漆箱", [("題辭", lid_title), ("箱蓋", lid_box), ("宿環", lid_ring), ("斗字", lid_dou),
+                            ("龍虎", lid_beasts), ("結語", lid_end)], title="漆箱蓋面")
 
-    print("── 側面判讀 ──")
-    emit("側面判讀", [("題辭", side_title), ("外框", side_frames), ("讀法一", side_read1),
-                      ("讀法二", side_read2)], title="側面判讀")
+        print("── 側面判讀 ──")
+        emit("側面判讀", [("題辭", side_title), ("外框", side_frames), ("讀法一", side_read1),
+                          ("讀法二", side_read2)], title="側面判讀")
 
-    print("── 民族來源 ──")
-    emit("民族來源", [("題辭", eth_title), ("外圈", wheel_ring)] +
-         [(f"{SECT[k][1]}", wheel_sector(k, glyph=False, direction=False)) for k in ("東", "南", "西", "北")] +
-         [("族群", eth_labels), ("東胡", eth_donghu)], title="民族來源")
+        print("── 民族來源 ──")
+        emit("民族來源", [("題辭", eth_title), ("外圈", wheel_ring)] +
+             [(f"{SECT[k][1]}", wheel_sector(k, glyph=False, direction=False)) for k in ("東", "南", "西", "北")] +
+             [("族群", eth_labels), ("東胡", eth_donghu)], title="民族來源")
 
     print("── 考工記五旗 ──")
     emit("考工記五旗", [("題辭", qi_title)] + [(f"旗{i+1}", qi_row(i)) for i in range(5)] + [("結語", qi_end)],
@@ -901,6 +1015,7 @@ if __name__ == "__main__":
     emit("倮獸主星候選", [("題辭", cand_title), ("方框", cand_boxes), ("問號", cand_q), ("結語", cand_end)],
          title="候選")
 
-    print("── 圖卡 ──")
-    card()
+    if LANG == "zh":
+        print("── 圖卡 ──")
+        card()
     print("all done")
