@@ -72,7 +72,7 @@ TXT = {
         "sleep1": "In winter, snakes and spiders sleep", "sleep2": "the stories won't disturb them (one telling)",
         "ple1": "Mid-Oct: Pleiades rise at dusk", "ple2": "winter ceremonies begin", "ple3": "First thunder: they end",
         "c02_title": "Black God's crystals", "c02_sub": "Childrey 2004 (Nightway tradition); no figures, no sandpainting",
-        "hooghan": "hooghan (the first earth lodge)", "door": "door faces east", "earth": "Mother Earth",
+        "hooghan": "hooghan (the first earth lodge)", "door": "east door", "earth": "Mother Earth",
         "sky": "Father Sky", "abstract": "abstract blocks only",
         "steps": ["ankle", "knee", "hip", "shoulder", "temple"], "stars": "“They are called stars”",
         "c03_title": "Coyote grabs the fawnskin pouch", "c03_sub": "Childrey 2004 pp.37–39", "bag": "pouch",

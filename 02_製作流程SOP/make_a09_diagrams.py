@@ -22,6 +22,42 @@ BASE = G.find_base(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, "05_素材/A-09_夏威夷星線/_概念圖")
 C.set_base(OUT)
 RED, GREY, SEA = "#FF6B6B", "#7C8BA8", "#2A4A7A"
+LANG = "zh"          # python3 make_a09_diagrams.py --lang en → 只出 EN48 會用到的 C-A09-02、C-A09-03（島嶼＋航線）到 _概念圖/en/
+TXT = {
+    "zh": {
+        "z_title": "到了沒？看頭頂，也看南方", "z_star": "Hōkūleʻa（大角星）＝夏威夷的天頂星",
+        "zenith": "天頂", "S": "南", "N": "北",
+        "lat9": "北緯 9°：差 10°", "lat14": "北緯 14°：差 5°", "lat19": "北緯 19°：正頭頂",
+        "z1": "船往北開，它一晚比一晚高", "z2": "正好掛在頭頂＝到了夏威夷大島的緯度",
+        "z3": "（大角星赤緯 +19°；示意圖角度放大 3 倍）",
+        "c_star": "Hānaiakamalama（南十字）", "foot": "十字底", "top": "十字頂",
+        "c1": "南十字直立時：", "c2": "海面→十字底 ＝ 十字的長度", "c3": "只發生在北緯約 21°（檀香山）",
+        "c_box1": "沒有六分儀，也量得出緯度", "c_box2": "方向靠星羅盤，到了沒靠頭頂和南方這兩把尺",
+        "m_title": "太平洋的正中間", "m_sub": "島嶼位置依實際經緯度（等距圓柱投影）", "eq": "赤道",
+        "夏威夷 Hawaiʻi": "夏威夷 Hawaiʻi", "大溪地 Tahiti": "大溪地 Tahiti", "復活節島 Rapa Nui": "復活節島 Rapa Nui",
+        "紐西蘭 Aotearoa": "紐西蘭 Aotearoa", "Satawal": "Satawal", "mau": "Mau Piailug 的家鄉",
+        "r1": "1976｜Hōkūleʻa", "r2": "茂宜 → 大溪地，34 天", "r3": "四千多公里（直線 {:,.0f} km）", "r4": "沒有羅盤、六分儀、地圖",
+    },
+    "en": {
+        "z_title": "Are we there? Look up — and south", "z_star": "Hōkūleʻa (Arcturus)",
+        "zenith": "zenith", "S": "S", "N": "N",
+        "lat9": "9° N: 10° off", "lat14": "14° N: 5° off", "lat19": "19° N: straight overhead",
+        "z1": "Sailing north, it climbs higher each night", "z2": "Overhead = the latitude of Hawaiʻi Island",
+        "z3": "(Arcturus: dec. +19°; angles drawn 3× larger)",
+        "c_star": "Southern Cross", "foot": "foot", "top": "top",
+        "c1": "When the Cross stands upright:", "c2": "sea → foot = the Cross’s own length",
+        "c3": "true only near 21° N (Honolulu)",
+        "c_box1": "Latitude without a sextant", "c_box2": "Direction: the star compass. Arrival: overhead and south",
+        "m_title": "The middle of the Pacific", "m_sub": "True positions (equirectangular map)", "eq": "Equator",
+        "夏威夷 Hawaiʻi": "Hawaiʻi", "大溪地 Tahiti": "Tahiti", "復活節島 Rapa Nui": "Rapa Nui",
+        "紐西蘭 Aotearoa": "Aotearoa", "Satawal": "Satawal", "mau": "home of Mau Piailug",
+        "r1": "1976 · Hōkūleʻa", "r2": "Maui → Tahiti, 34 days", "r3": "over 4,000 km ({:,.0f} km direct)", "r4": "no compass, sextant or map",
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 
 # ══════════════════════ C-A09-01 星羅盤 ══════════════════════
 CX, CY, R = 0.0, -0.03, 0.55
@@ -98,8 +134,8 @@ DEC_ARC, DEC_ACR, DEC_GAC = 19.05, -63.25, -57.26
 
 
 def c02_zenith(ax):
-    T(ax, 0.0, 0.93, "到了沒？看頭頂，也看南方", 32, WHITE)
-    T(ax, -0.46, 0.80, "Hōkūleʻa（大角星）＝夏威夷的天頂星", 19, GREEN)
+    T(ax, 0.0, 0.93, tx("z_title"), 32, WHITE)
+    T(ax, -0.46, 0.80, tx("z_star"), 19, GREEN)
     # 半圓天穹（側視；南在左、北在右）。角度放大 3 倍示意，否則 5°、10° 的差在畫面上看不出來
     ox, oy, r = -0.44, 0.08, 0.48
     ax.plot([ox - r - 0.04, ox + r + 0.04], [oy, oy], c=SEA, lw=3.0, zorder=3)
@@ -107,12 +143,12 @@ def c02_zenith(ax):
     ax.plot([ox + r * math.cos(t) for t in th], [oy + r * math.sin(t) for t in th],
             c=WHITE, lw=1.4, alpha=.45, zorder=3)
     ax.plot([ox, ox], [oy, oy + r], c=WHITE, lw=1.0, alpha=.5, ls=(0, (4, 4)), zorder=3)
-    T(ax, ox - 0.07, oy + r - 0.06, "天頂", 15, WHITE, w="normal")
-    T(ax, ox - r, oy - 0.05, "南", 16, GREY, w="normal")
-    T(ax, ox + r, oy - 0.05, "北", 16, GREY, w="normal")
+    T(ax, ox - 0.07, oy + r - 0.06, tx("zenith"), 15, WHITE, w="normal")
+    T(ax, ox - r, oy - 0.05, tx("S"), 16, GREY, w="normal")
+    T(ax, ox + r, oy - 0.05, tx("N"), 16, GREY, w="normal")
     canoe(ax, ox, oy + 0.035, 0.45)
-    for lat, a, txt in ((9, .45, "北緯 9°：差 10°"), (14, .7, "北緯 14°：差 5°"),
-                        (19, 1.0, "北緯 19°：正頭頂")):
+    for lat, a, txt in ((9, .45, tx("lat9")), (14, .7, tx("lat14")),
+                        (19, 1.0, tx("lat19"))):
         zd = (DEC_ARC - lat) * 3.0             # 偏北幾度（×3 示意）
         t = math.radians(90.0 - zd)
         x, y = ox + r * math.cos(t), oy + r * math.sin(t)
@@ -120,13 +156,13 @@ def c02_zenith(ax):
         lx, ly = ox + (r + 0.07) * math.cos(t), oy + (r + 0.07) * math.sin(t)
         T(ax, lx + (0.14 if lat != 19 else 0.0), ly + (0.0 if lat != 19 else 0.02), txt,
           15 if lat != 19 else 17, GREEN, w="normal" if lat != 19 else "bold", alpha=max(a, .75))
-    T(ax, ox, oy - 0.12, "船往北開，它一晚比一晚高", 17, WHITE, w="normal")
-    T(ax, ox, oy - 0.19, "正好掛在頭頂＝到了夏威夷大島的緯度", 17, WHITE, w="normal")
-    T(ax, ox, oy - 0.27, "（大角星赤緯 +19°；示意圖角度放大 3 倍）", 14, GREY, w="normal")
+    T(ax, ox, oy - 0.12, tx("z1"), 17, WHITE, w="normal")
+    T(ax, ox, oy - 0.19, tx("z2"), 17, WHITE, w="normal")
+    T(ax, ox, oy - 0.27, tx("z3"), 14, GREY, w="normal")
 
 
 def c02_crux(ax):
-    T(ax, 0.46, 0.80, "Hānaiakamalama（南十字）", 19, GREEN)
+    T(ax, 0.46, 0.80, tx("c_star"), 19, GREEN)
     ox, oy, k = 0.46, -0.10, 0.042             # 1° = 0.042 單位
     ax.plot([ox - 0.40, ox + 0.40], [oy, oy], c=SEA, lw=3.0, zorder=3)
     for i in range(3):
@@ -150,16 +186,16 @@ def c02_crux(ax):
         for yy in (y0 + 0.005, y1 - 0.005):
             ax.plot([bx - 0.02, bx + 0.02], [yy, yy], c=c, lw=2.4, zorder=7)
         T(ax, bx + 0.10, (y0 + y1) / 2, "≈ 6°", 19, AMBER)
-    T(ax, ox - 0.13, acr[1], "十字底", 15, WHITE, w="normal")
-    T(ax, ox - 0.13, gac[1], "十字頂", 15, WHITE, w="normal")
-    T(ax, ox, oy - 0.12, "南十字直立時：", 17, WHITE, w="normal")
-    T(ax, ox, oy - 0.19, "海面→十字底 ＝ 十字的長度", 17, WHITE, w="normal")
-    T(ax, ox, oy - 0.27, "只發生在北緯約 21°（檀香山）", 17, AMBER)
+    T(ax, ox - 0.13, acr[1], tx("foot"), 15, WHITE, w="normal")
+    T(ax, ox - 0.13, gac[1], tx("top"), 15, WHITE, w="normal")
+    T(ax, ox, oy - 0.12, tx("c1"), 17, WHITE, w="normal")
+    T(ax, ox, oy - 0.19, tx("c2"), 17, WHITE, w="normal")
+    T(ax, ox, oy - 0.27, tx("c3"), 17, AMBER)
     ax.add_patch(C.FancyBboxPatch((-0.88, -0.90), 1.76, 0.20,
                                   boxstyle="round,pad=0.01,rounding_size=0.03",
                                   fc="#1B2240", ec=GREEN, lw=1.4, zorder=2))
-    T(ax, 0.0, -0.75, "沒有六分儀，也量得出緯度", 21, WHITE)
-    T(ax, 0.0, -0.84, "方向靠星羅盤，到了沒靠頭頂和南方這兩把尺", 17, GREY, w="normal")
+    T(ax, 0.0, -0.75, tx("c_box1"), 21, WHITE)
+    T(ax, 0.0, -0.84, tx("c_box2"), 17, GREY, w="normal")
 
 
 # ══════════════════════ C-A09-03 航線與三角 ══════════════════════
@@ -199,8 +235,8 @@ def gc_km(a, b):
 
 
 def c03_islands(ax):
-    T(ax, 0.0, 0.92, "太平洋的正中間", 34, WHITE)
-    T(ax, 0.0, 0.845, "島嶼位置依實際經緯度（等距圓柱投影）", 17, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("m_title"), 34, WHITE)
+    T(ax, 0.0, 0.845, tx("m_sub"), 17, GREY, w="normal")
     x0, y0 = mp(-45, 138); x1, y1 = mp(28, 256)
     ax.add_patch(C.Rectangle((x0, y0), x1 - x0, y1 - y0, fill=False, ec=WHITE, lw=1.2,
                              alpha=.35, zorder=2))
@@ -208,7 +244,7 @@ def c03_islands(ax):
         a, b = mp(lat, 138), mp(lat, 256)
         ax.plot([a[0], b[0]], [a[1], a[1]], c=WHITE, lw=1.6 if lat == 0 else 0.8,
                 alpha=.45 if lat == 0 else .2, ls="-" if lat == 0 else (0, (4, 5)), zorder=2)
-        T(ax, b[0] - 0.06, a[1] + 0.025, "赤道" if lat == 0 else f"{abs(lat)}°{'N' if lat > 0 else 'S'}",
+        T(ax, b[0] - 0.06, a[1] + 0.025, tx("eq") if lat == 0 else f"{abs(lat)}°{'N' if lat > 0 else 'S'}",
           12, GREY, w="normal")
     for lon in (150, 180, 210, 240):
         a, b = mp(-45, lon), mp(28, lon)
@@ -219,10 +255,10 @@ def c03_islands(ax):
     for nm, (lat, lon) in PLACES.items():
         x, y = mp(lat, lon)
         ax.scatter([x], [y], s=200, c=WHITE, zorder=8)
-        T(ax, x + off[nm][0], y + off[nm][1], nm, 17 if nm != "Satawal" else 14,
+        T(ax, x + off[nm][0], y + off[nm][1], tx(nm), 17 if nm != "Satawal" else 14,
           WHITE, w="bold" if nm != "Satawal" else "normal")
     xs, ys = mp(*PLACES["Satawal"])
-    T(ax, xs, ys - 0.06, "Mau Piailug 的家鄉", 13, GREY, w="normal")
+    T(ax, xs, ys - 0.06, tx("mau"), 13, GREY, w="normal")
 
 
 def c03_route(ax):
@@ -231,10 +267,10 @@ def c03_route(ax):
     C.arrow(ax, pts[-1], pts[-6], c=AMBER, lw=3.2, alpha=1, style="-|>")
     km = gc_km(MAUI, PLACES["大溪地 Tahiti"])
     rx = -0.20                                  # 文字放在航線左側（三角層不會同時出現）
-    T(ax, rx, 0.05, "1976｜Hōkūleʻa", 19, AMBER, ha="right")
-    T(ax, rx, -0.02, "茂宜 → 大溪地，34 天", 16, AMBER, w="normal", ha="right")
-    T(ax, rx, -0.09, f"四千多公里（直線 {km:,.0f} km）", 16, AMBER, w="normal", ha="right")
-    T(ax, rx, -0.16, "沒有羅盤、六分儀、地圖", 16, WHITE, w="normal", ha="right")
+    T(ax, rx, 0.05, tx("r1"), 19, AMBER, ha="right")
+    T(ax, rx, -0.02, tx("r2"), 16, AMBER, w="normal", ha="right")
+    T(ax, rx, -0.09, tx("r3").format(km), 16, AMBER, w="normal", ha="right")
+    T(ax, rx, -0.16, tx("r4"), 16, WHITE, w="normal", ha="right")
 
 
 def c03_triangle(ax):
@@ -257,6 +293,13 @@ def c03_triangle(ax):
 
 
 if __name__ == "__main__":
+    if "--lang" in sys.argv:                      # 英文版：只出 EN48 用到的兩組，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        C.set_base(os.path.join(OUT, LANG))
+        C.emit("", [("天頂星", c02_zenith), ("南十字", c02_crux)], title="C-A09-02_緯度尺")
+        C.emit("", [("島嶼", c03_islands), ("航線", c03_route)], preview_name="預覽-航線",
+               title="C-A09-03_航線與三角")
+        sys.exit(0)
     os.makedirs(OUT, exist_ok=True)
     C.emit("", [("羅盤", c01_compass), ("參宿三", c01_mintaka)], title="C-A09-01_星羅盤")
     C.emit("", [("天頂星", c02_zenith), ("南十字", c02_crux)], title="C-A09-02_緯度尺")
