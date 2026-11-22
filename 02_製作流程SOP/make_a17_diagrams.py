@@ -38,7 +38,7 @@ LANG = "zh"
 TXT = {
     "zh": {
         "c01_title": "帳篷上的三層", "c01_sub": "McClintock 1910 pp.217–220；通用示意，不重現任何一頂帳篷",
-        "sky": "最上面一圈：夜空", "dipper": "北斗", "pleiades": "昴宿", "morning": "晨星（十字）",
+        "sky": "最上面一圈：夜空", "dipper": "北斗", "pleiades": "昴宿", "sep": "・", "morning": "晨星（十字）",
         "middle": "中間：屬於主人的圖案（這裡不畫）",
         "earth": "最下面一圈：大地", "dusty": "塵土星＝掉下來的流星",
         "c02_title": "七兄妹逃上天", "c02_sub": "McClintock 1910 pp.488–489",
@@ -68,8 +68,8 @@ TXT = {
     },
     "en": {
         "c01_title": "Three bands on a lodge", "c01_sub": "McClintock 1910 pp.217–220; generic sketch, no real design",
-        "sky": "Top band: the night sky", "dipper": "Big Dipper", "pleiades": "Pleiades", "morning": "Morning Star (cross)",
-        "middle": "Middle: the owner's design (not shown)",
+        "sky": "Top band: the night sky", "dipper": "Big Dipper", "pleiades": "Pleiades", "sep": " · ", "morning": "Morning Star (cross)",
+        "middle": "Middle: owner's design, not shown",
         "earth": "Bottom band: the earth", "dusty": "dusty stars = fallen meteors",
         "c02_title": "Seven siblings escape to the sky", "c02_sub": "McClintock 1910 pp.488–489",
         "bear": "the bear", "arrow": "an arrow: they fly where it lands", "bush": "a feather: bushes grow",
@@ -154,7 +154,7 @@ def c01_sky(ax):
     ax.plot([-0.215, -0.185], [0.375, 0.375], c=AMBER, lw=3, zorder=6)
     ax.plot([-0.20, -0.20], [0.36, 0.39], c=AMBER, lw=3, zorder=6)
     T(ax, 0.30, 0.47, tx("sky"), 17, WHITE, ha="left")
-    T(ax, 0.30, 0.40, tx("dipper") + "・" + tx("pleiades"), 14, WHITE, ha="left", w="normal")
+    T(ax, 0.30, 0.40, tx("dipper") + tx("sep") + tx("pleiades"), 14, WHITE, ha="left", w="normal")
     T(ax, 0.30, 0.34, tx("morning"), 14, AMBER, ha="left", w="normal")
     T(ax, 0.30, 0.02, tx("middle"), 13, GREY, ha="left", w="normal")
 
@@ -525,6 +525,9 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     print("── C-A17 概念圖 ──")
     CB.emit("", [("帳篷", c01_tipi), ("夜空", c01_sky), ("大地", c01_earth)], title="C-A17-01_三層的帳篷")
+    if LANG != "zh":                       # 英文版：只出 EN10 會用到的兩組（帳篷、春天看不見），寫到 _概念圖/en/
+        CB.emit("", [("日曆", c04_cal), ("回來", c04_back)], title="C-A17-04_春天看不見")
+        return
     CB.emit("", [("熊", c02_bear), ("箭", c02_arrow), ("樹叢", c02_bush), ("湖", c02_lake), ("大樹", c02_tree)],
             title="C-A17-02_逃上天")
     CB.emit("", [("天上", c03_sky), ("洞", c03_hole)], title="C-A17-03_羽毛女與洞")
