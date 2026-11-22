@@ -15,7 +15,7 @@ C-X02-06 今晚往東南東看（9:16 圖卡；台北 2027/1/1 20:00）
 import os, sys, math, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import c_series_base as CB
-from c_series_base import AMBER, BLUE, WHITE, GREEN, PURPLE, MW, T
+from c_series_base import AMBER, BLUE, WHITE, GREEN, PURPLE, MW
 import gen_ep_assets as G
 import matplotlib.patheffects as PE
 
@@ -36,6 +36,48 @@ SWORD = [26241, 26221, 26237]
 M42 = (83.82, -5.39)
 
 
+# ── 英文版（EN08）：python3 make_x02_diagrams.py --lang en → 只出 C-X02-01、03 的英文版到 _概念圖/en/ ──
+LANG = "zh"
+TXT = {"en": {
+    "為什麼全世界都看得到？": "Why does the whole world see it?",
+    "參宿三差不多就在天赤道上（赤緯 −0.3°）：在哪裡都從正東升起":
+        "Mintaka sits almost on the celestial equator (dec −0.3°): it rises due east everywhere",
+    "虛線：腰帶升起後 3 小時走的路；星圖：升起後 2 小時（2027/1/1）":
+        "Dotted: the Belt’s path for 3 h after rising; stars: 2 h after rising (2027-01-01)",
+    "東北": "NE", "正東": "due east", "東南": "SE",
+    "特羅姆瑟（挪威）": "Tromsø (Norway)", "北緯 69.6°・北極圈內": "69.6° N · inside the Arctic Circle",
+    "台北": "Taipei", "北緯 25.0°": "25.0° N", "威靈頓（紐西蘭）": "Wellington (New Zealand)", "南緯 41.3°": "41.3° S",
+    "參宿四": "Betelgeuse", "參宿七": "Rigel", "參宿一": "Alnitak", "參宿六": "Saiph", "升起方位": "rises at azimuth",
+    "南半球也從正東升起——只是整個獵戶倒過來（參宿七在上）":
+        "The south sees it rise due east too — just upside down (Rigel on top)",
+    "三地的火": "Fire in three lands", "同一塊星空：腰帶、獵戶的劍、參宿七": "The same patch of sky: the Belt, Orion’s Sword, Rigel",
+    "卡米拉羅伊（澳洲）": "Kamilaroi (Australia)", "Birray Birray　三個男孩": "Birray Birray · three boys",
+    "營火＝參宿七": "campfire = Rigel", "撥火棍\n＝劍": "fire stick\n= Sword", "三個男孩": "three boys",
+    "三個還沒成年的男孩，\n圍著營火": "Three young boys\naround their campfire",
+    "馬雅（中美洲）": "Maya (Mesoamerica)", "Oxib' Xk'ub'　三塊爐石": "Oxib' Xk'ub' · three hearthstones", "煙": "smoke",
+    "創世時的第一把火：\n三顆星是火爐的三塊石頭，\n獵戶座大星雲是火冒出的煙":
+        "The first fire of creation:\nthree stars are the hearthstones,\nthe Orion Nebula is its smoke",
+    "阿茲特克（墨西哥）": "Aztec (Mexico)", "Mamalhuaztli　鑽火棍": "Mamalhuaztli · fire drill",
+    "曆法每 52 年走完一輪，\n熄掉所有的火，\n在山頂鑽出新的火":
+        "Every 52 years the calendar\ncompletes a round: all fires out,\na new fire drilled on a hilltop",
+    "連線：Stellarium kamilaroi（說明）、maya、aztec；火的圖示為示意":
+        "Lines: Stellarium kamilaroi (text), maya, aztec; flame icon schematic",
+}}
+
+
+def tx(s):
+    if LANG == "zh":
+        return s
+    v = TXT[LANG].get(s)
+    if v is None and any("\u3000" <= ch <= "\u9fff" or "\uff00" <= ch <= "\uffef" for ch in s):
+        print(f"  ⚠ 沒有英文：{s}")
+    return s if v is None else v
+
+
+def T(ax, x, y, s, *a, **k):
+    CB.T(ax, x, y, tx(s), *a, **k)
+
+
 def sc(culture, english):
     d = json.load(open(os.path.join(SC_NEW, culture, "index.json"), encoding="utf-8"))
     for c in d["constellations"]:
@@ -51,7 +93,7 @@ def box(ax, x0, y0, w, h, ec=WHITE, fc=PANEL, lw=1.4, z=3, alpha=1.0):
 
 
 def ctext(ax, x, y, s, size, col, w="bold", ha="center", z=9, rot=0, va="center", alpha=1.0, halo=False):
-    ax.text(x, y, s, fontproperties=CB.FP, fontsize=size, color=col, ha=ha, va=va, weight=w,
+    ax.text(x, y, tx(s), fontproperties=CB.FP, fontsize=size, color=col, ha=ha, va=va, weight=w,
             zorder=z, rotation=rot, rotation_mode="anchor", alpha=alpha, linespacing=1.25,
             path_effects=[PE.withStroke(linewidth=4, foreground=CB.BG)] if halo else None)
 
@@ -216,7 +258,7 @@ def site_panel(ax, idx):
             ctext(ax, pos[h][0] + 0.035, pos[h][1], lab, 11, c2, ha="left", z=12, halo=True)
     x, _ = q(0, raz)
     ax.scatter([x], [y0], s=60, c=AMBER, zorder=8, lw=0)
-    ctext(ax, 0.92, y0 + h_ - 0.005, f"升起方位 {raz:.1f}°", 13, AMBER, ha="right", va="top", z=12, halo=True)
+    ctext(ax, 0.92, y0 + h_ - 0.005, f"{tx('升起方位')} {raz:.1f}°", 13, AMBER, ha="right", va="top", z=12, halo=True)
     if idx == 2:
         ctext(ax, 0.0, -0.962, "南半球也從正東升起——只是整個獵戶倒過來（參宿七在上）", 13.5, GREEN)
 
@@ -523,6 +565,13 @@ def main():
                lokono=sc("lokono", "Man without a thigh") + sc("lokono", "Jaw of the tapir"),
                tikuna=sc("tikuna", "Wücütcha's leg"))
     FIRE = dict(maya=sc("maya", "Primordial Fire"), aztec=sc("aztec", "The New fire"))
+    if "--lang" in sys.argv:                  # 英文版：EN08 只用 C-X02-01、03
+        global LANG
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        CB.set_base(os.path.join(OUT, LANG))
+        CB.emit("", [("北方", c01_north), ("台北", c01_tpe), ("南方", c01_south)], title="C-X02-01_正東升起")
+        CB.emit("", [("澳洲", c03_kami), ("馬雅", c03_maya), ("阿茲特克", c03_aztec)], title="C-X02-03_三地的火")
+        return
     os.makedirs(OUT, exist_ok=True)
     print("── C-X02 概念圖 ──")
     CB.emit("", [("北方", c01_north), ("台北", c01_tpe), ("南方", c01_south)], title="C-X02-01_正東升起")
