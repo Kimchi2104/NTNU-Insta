@@ -23,7 +23,7 @@
 | E05 | 7 | 13 | bottom | The wolf’s jaw | A late-1100s Icelandic manuscript names this V of stars Úlfs kjaptr: the wolf’s jaw. | 2.0 |
 | E06 | 7 | 14 | bottom | | Which wolf? The manuscript doesn’t say. But in Norse myth, the sky is always on the run. | 2.4 |
 | E07 | 13 | — | — | | *(pages 15–17: English diagram "The chase across the sky", 3 layers: Sköll chases the Sun → Hati chases the Moon → the horses of Sun, Day and Night)* | — |
-| E08 | 10 | 18, 19 | bottom | A jaw by the Sun’s road | The jaw opens beside the road of the Sun and Moon. So some guess it waits to bite them. | 1.8 |
+| E08 | 10 | 18, 19 | bottom | A jaw by the Sun’s road | The jaw opens beside the road of the Sun and Moon. So some guess it waits to bite them. | 1.9 |
 | E09 | 9 | 20 | bottom | Others saw a jaw too | Babylon: a bull’s jaw. The Tikuna: a crocodile’s mouth. The Tupi: a tapir’s jaw. The Inuit saw dogs. | 2.0 |
 | E10 | 8 | 40 | top | Look east after dark | Late December: the wolf’s jaw climbs in the east, with Orion’s Belt below it. | 1.8 |
 | E11 | 3 | 45 | endcard | Next Wednesday | Inuit: telling time in the polar night. | 2.3 |
