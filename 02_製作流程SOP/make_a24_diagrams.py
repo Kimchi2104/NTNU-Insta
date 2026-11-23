@@ -104,9 +104,9 @@ TXT = {
         "eq1": "they sink straight down", "eq2": "every star rises and sets", "tp1": "they set at a slant", "tp2": "circumpolar stars in the north,",
         "tp3": "a southern cap never rises", "c04_foot": "angle of star trails to the horizon = 90° − latitude",
         "c05_title": "The Tukano flood calendar", "c05_center1": "month of setting at dusk", "c05_center2": "Cardoso 2007, Table 3.01",
-        "c05_center3": "The sky reads", "c05_center4": "almost like a river",
-        "newyear": "New Year", "fish": "fish & shrimp", "yai": "jaguar", "noh": "group of stars (Pleiades)", "wai": "fish rack (Hyades)",
-        "sio": "adze handle (Orion)", "yhe": "egret (Coma)", "ana": "fer-de-lance (Sco + Sgr)", "pamo2": "armadillo (Aql + Del)",
+        "c05_center3": "The sky reads ", "c05_center4": "almost like a river",
+        "newyear": "New Year", "fish": "fish & shrimp", "yai": "jaguar", "noh": "star group (Pleiades)", "wai": "fish rack (Hyades)",
+        "sio": "adze handle (Orion)", "yhe": "egret (Coma)", "ana": "snake (Sco + Sgr)", "pamo2": "armadillo (Aql + Del)",
         "dry": "dry, few fish", "c06_title": "Meteors and a name",
         "meteor1": "Meteors = ñhorkoá mahsã, 'star people'", "meteor2": "sneaking off on a date — everyone laughs",
         "east": "Dawn · east", "venus": "Venus", "seribhi": "Seribhi = morning star", "ho": "Hó = chubby",
@@ -415,12 +415,12 @@ def _cal_layer(key):
             T(ax, 0.0, -0.025, tx("c05_center2"), 11.5, GREY, w="normal")
         for m0, m1, r, col, nat, k, lx, ly, ha in CAL[key]:
             _arc(ax, m0, m1, r, col)
-            T(ax, lx, ly + 0.025, nat, 16, col, ha=ha)
+            T(ax, lx, ly + 0.025, nat if LANG == "zh" else nat.replace("・", " · "), 16, col, ha=ha)   # 英文字型沒有「・」
             T(ax, lx, ly - 0.025, tx(k), 13, WHITE, ha=ha, w="normal")
         if key == "全年":
             a = mang(4.6)
             x, y = 0.30 * math.cos(a), 0.30 * math.sin(a)
-            T(ax, x - 0.02, y - 0.06, "★ " + tx("newyear"), 13, AMBER, ha="right")
+            T(ax, x - (0.02 if LANG == "zh" else 0.10), y - 0.06, "★ " + tx("newyear"), 13, AMBER, ha="right")
             T(ax, -0.60, -0.475, tx("dry"), 12, GREY, w="normal", ha="right")
             T(ax, 0.0, -0.80, tx("c05_center3") + tx("c05_center4"), 20, BLUE)
     return f
@@ -527,7 +527,12 @@ def main():
     global LANG
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
         CB.set_base(os.path.join(OUT, LANG))
+        # EN18 只用 C-A24-03（05 鏡）與 C-A24-05（07、14 鏡）；其他幾張要用時再加進來
+        CB.emit("", [("落下", c03_set), ("雨", c03_rain), ("漲水", c03_flood)], title="C-A24-03_poero漲水")
+        CB.emit("", [(k, _cal_layer(k)) for k in ("二月", "三四月", "全年")], title="C-A24-05_漲水年曆環")
+        return
     os.makedirs(OUT, exist_ok=True)
     CB.emit("", [("南美", c01_sa), ("河流", c01_river)], title="C-A24-01_Tiquié河在哪")
     CB.emit("", [("拳頭", c02_fist), ("手掌", c02_palm)], title="C-A24-02_用手量天")
