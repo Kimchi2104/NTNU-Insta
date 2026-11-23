@@ -1,42 +1,43 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡,3,World Sky Cultures,"One sky. The Hawaiians saw — four star
-lines home.",cover,Cover: text block replaced with English; second line = the schedule's hook; EN · EP48 tag
+1,,開場字卡,3,World Sky Cultures,"One sky. Hawaiians see four star lines
+home.",cover,"Cover: text block replaced with English (E01 only; the schedule's hook `1976: no compass, no map — 34 days to Tahiti.` is for the caption and the schedule, not the cover); EN · EP48 tag"
 2,,鏡頭01開始,4,,"1976: a double canoe left Hawaiʻi with
 no compass, no sextant, no map.",bottom,E02
 3,,鏡頭01結束＝鏡頭02開始,4,,"1976: a double canoe left Hawaiʻi with
 no compass, no sextant, no map.",bottom,E02
-4,,鏡頭02結束,4,,"Its name, Hōkūleʻa, means “star of
-gladness”: Arcturus.",bottom,"E03; labels 大角星／角宿一 → Arcturus／Spica (Hōkūleʻa, Hikianalia stay)"
+4,,鏡頭02結束,4,,"Its name, Hōkūleʻa, is Arcturus — “star
+of gladness.”",bottom,"E03; labels 大角星／角宿一 → Arcturus／Spica (Hōkūleʻa, Hikianalia stay)"
 5,,鏡頭02-概念圖1,3,34 days to Tahiti,,top,"map, English (`_概念圖/en/C-A09-03_航線與三角_島嶼層_透明.png`); E04 headline only"
 6,,鏡頭02-概念圖2,3,34 days to Tahiti,,top,"map + route layer, English (`…_航線層_透明.png`); E04 headline only"
-7,,鏡頭02-概念圖收＝鏡頭03開始,5,The guide: Mau Piailug,"From Satawal, Micronesia. Hawaiʻi’s own
-deep-sea wayfinding was long lost.",bottom,"diagram fades; E05; labels as page 4; then straight to 11 (pages 8–10, the Chinese star-compass diagram, removed)"
+7,,鏡頭02-概念圖收＝鏡頭03開始,5,The navigator: Mau Piailug,"From Satawal, Micronesia. By then,
+Hawaiʻi’s deep-sea wayfinding was long
+lost.",bottom,"diagram fades; E05; labels as page 4; then straight to 11 (pages 8–10, the Chinese star-compass diagram, removed)"
 11,,鏡頭04-概念圖收＝鏡頭05開始,6,Four star lines,"His student Nainoa Thompson split the
-sky into four north–south star lines.",bottom,E06; label 脊椎骨 → the backbone (Ka Iwikuamoʻo stays)
-12,,鏡頭05結束＝鏡頭06開始,5,,"Not an ancient star map — a modern
+sky into four north-south star lines.",bottom,E06; label 脊椎骨 → the backbone (Ka Iwikuamoʻo stays)
+12,,鏡頭05結束＝鏡頭06開始,5,,"Not an ancient chart — a modern
 navigator’s notes for memorising the
 sky.",bottom,E07; label 南十字 → Southern Cross (Hānaiakamalama stays)
 13,,鏡頭06結束,6,Ka Iwikuamoʻo: the backbone,"From the Southern Cross, past Hōkūleʻa,
-up to Hōkūpaʻa: the North Star.",bottom,E08; label 北極星 → North Star (Hōkūpaʻa stays)
-14,,長圖轉北盤1＝鏡頭07開始,2,"Four spokes, four seasons","Winter: Makaliʻi’s bailer. Spring: the
-backbone. Summer: the chief’s fishing
-line. Autumn: Kawelo’s kite.",bottom,"**hard cut (no transition)** from 13: same frame, wide chart → north disc; E09; label as page 13"
-15,,鏡頭07結束＝鏡頭08開始,6,"Four spokes, four seasons","Winter: Makaliʻi’s bailer. Spring: the
-backbone. Summer: the chief’s fishing
-line. Autumn: Kawelo’s kite.",bottom,"E09; disc labels Makaliʻi 的舀水杓／脊椎骨／酋長的釣線／Kawelo 的風箏 → Makaliʻi’s bailer／the backbone／the chief’s fishing line／Kawelo’s kite; then straight to 17 (page 16, the pointer stars, removed)"
+up to Hōkūpaʻa, the North Star.",bottom,E08; label 北極星 → North Star (Hōkūpaʻa stays)
+14,,長圖轉北盤1＝鏡頭07開始,2,"Four spokes, four seasons","Winter: Makaliʻi’s bailer. Spring:
+backbone. Summer: chief’s fishing line.
+Autumn: Kawelo’s kite.",bottom,"**hard cut (no transition)** from 13: same frame, wide chart → north disc; E09; label as page 13"
+15,,鏡頭07結束＝鏡頭08開始,6,"Four spokes, four seasons","Winter: Makaliʻi’s bailer. Spring:
+backbone. Summer: chief’s fishing line.
+Autumn: Kawelo’s kite.",bottom,"E09; disc labels Makaliʻi 的舀水杓／脊椎骨／酋長的釣線／Kawelo 的風箏 → Makaliʻi’s bailer／the backbone／the chief’s fishing line／Kawelo’s kite (labels keep the full names); then straight to 17 (page 16, the pointer stars, removed)"
 17,,北盤轉長圖1-歸位,2,,,,"transition: the disc turns back to 0°; **hide the red pointer layer (北盤L9)**, since page 16 is gone"
 18,,北盤轉長圖1,2,,,,**hard cut (no transition)** from 17: disc → wide chart; hide the pointer layer (L9) here too
-19,,北盤轉長圖1-下移＝鏡頭09開始,4,Are we there yet?,"Sail north, and Hōkūleʻa climbs higher
-every night.",bottom,E11; label 南十字 → Southern Cross
-20,,鏡頭09-概念圖1,4,Overhead: Hawaiʻi’s latitude,,top,"latitude diagram, English (`_概念圖/en/C-A09-02_緯度尺_天頂星層_透明.png`); E12 headline only"
-21,,鏡頭09-概念圖2,4,Overhead: Hawaiʻi’s latitude,,top,"+ Southern Cross layer, English (`…_南十字層_透明.png`); E12 headline only; then **hard cut (no transition)** to 30 (pages 22–29, the fishing line, the navigator's triangle and the kite, removed)"
+19,,北盤轉長圖1-下移＝鏡頭09開始,4,Are we there yet?,"Sail north for home — Hōkūleʻa climbs
+higher each night.",bottom,E11; label 南十字 → Southern Cross
+20,,鏡頭09-概念圖1,4,Measuring Hawaiʻi’s latitude,,top,"latitude diagram, English (`_概念圖/en/C-A09-02_緯度尺_天頂星層_透明.png`); E12 headline only"
+21,,鏡頭09-概念圖2,4,Measuring Hawaiʻi’s latitude,,top,"+ Southern Cross layer, English (`…_南十字層_透明.png`); E12 headline only; then **hard cut (no transition)** to 30 (pages 22–29, the fishing line, the navigator's triangle and the kite, removed)"
 30,,鏡頭13開始,7,Winter’s line: Makaliʻi’s bailer,"From Capella to Sirius, it scoops up
 Orion and the Pleiades as it rises.",bottom,E13; labels 五車二／北河二／北河三／南河三／天狼星／參宿三／獵戶座 → Capella／Castor／Pollux／Procyon／Sirius／Mintaka／Orion (Hawaiian names stay)
-31,,鏡頭13結束＝鏡頭14開始,7,Makahiki: the new-year clock,"Each November, Makaliʻi — the Pleiades —
-rises at sunset. Four months for the
-harvest god Lono begin.",bottom,E14; **delete the two Siberian labels** (西伯利亞：鴨巢／打穀者; that episode is not in the English story); 昴宿星團／參宿三／獵戶座 → the Pleiades／Mintaka／Orion
-32,,鏡頭14結束,5,Look up in January,"Around 8 p.m., the Pleiades stand high
-in the south.",bottom,"E15; labels 五車二／昴宿星團 → Capella／the Pleiades; then straight to 40 (pages 33–39, the turning disc and the Taipei-tonight horizon, removed)"
+31,,鏡頭13結束＝鏡頭14開始,7,Makahiki: the new-year season,"Each November, Makaliʻi (the Pleiades)
+rises at sunset — four months for the
+harvest god Lono.",bottom,E14; **delete the two Siberian labels** (西伯利亞：鴨巢／打穀者; that episode is not in the English story); 昴宿星團／參宿三／獵戶座 → the Pleiades／Mintaka／Orion
+32,,鏡頭14結束,5,Look up in January,"Around 20:00 (Northern Hemisphere), the
+Pleiades stand high in the south.",bottom,"E15; labels 五車二／昴宿星團 → Capella／the Pleiades; then straight to 40 (pages 33–39, the turning disc and the Taipei-tonight horizon, removed)"
 40,,端卡（下集見）,3,Next Wednesday,"Navajo: star stories told only in
 winter.",endcard,E16
 41,,追蹤頁,—,,Follow for a new sky every week.,endcard,E17
