@@ -59,8 +59,12 @@ def box(ax, x0, y0, w, h, ec, lw=2.4, fc="#10172E", alpha=1.0, z=3):
 def c01_shang(ax):
     T(ax, 0.0, 0.50, tx("san"), 34, GREY, w="normal")
     box(ax, -0.80, -0.30, 1.60, 0.68, AMBER, lw=3.2)
-    T(ax, 0.0, 0.215, tx("shang") + "　" + tx("shang_d"), 46, AMBER)
-    T(ax, 0.0, -0.075, tx("shang_g"), 84 if LANG == "zh" else 40, WHITE)
+    if LANG == "zh":
+        T(ax, 0.0, 0.215, tx("shang") + "　" + tx("shang_d"), 46, AMBER)
+    else:  # 英文太長：上元／日期分兩行
+        T(ax, 0.0, 0.25, tx("shang"), 40, AMBER)
+        T(ax, 0.0, 0.13, tx("shang_d"), 28, AMBER, w="normal")
+    T(ax, 0.0, -0.075, tx("shang_g"), 84 if LANG == "zh" else 31, WHITE)
 
 
 def c01_rest(ax):
@@ -85,8 +89,9 @@ def c02_left(ax):
 def c02_right(ax):
     c02_col(ax, 0.48, PURPLE, tx("r_head"), tx("r_name"), tx("r_sub1"), tx("r_sub2"), tx("r_foot"))
     # 兩欄底下一個括號：只連「同名」——兩邊都帶「紫微」，其他各是各的
-    ax.plot([-0.48, -0.48, -0.25], [-0.55, -0.66, -0.66], c=WHITE, lw=1.8, alpha=.7, zorder=6)
-    ax.plot([0.25, 0.48, 0.48], [-0.66, -0.66, -0.55], c=WHITE, lw=1.8, alpha=.7, zorder=6)
+    g = 0.25 if LANG == "zh" else 0.31   # 英文字較寬，括號橫線讓開
+    ax.plot([-0.48, -0.48, -g], [-0.55, -0.66, -0.66], c=WHITE, lw=1.8, alpha=.7, zorder=6)
+    ax.plot([g, 0.48, 0.48], [-0.66, -0.66, -0.55], c=WHITE, lw=1.8, alpha=.7, zorder=6)
     T(ax, 0.0, -0.66, tx("same"), 30 if LANG == "zh" else 20, WHITE)
 
 

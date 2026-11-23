@@ -20,7 +20,7 @@
 說文解字,Shuowen Jiezi,Literature,A-01,2nd-century dictionary by Xu Shen describing dragon ascendance
 詩經,Shijing (Book of Songs),Literature,A-01,Ancient Chinese poetry collection containing the Odes of Bin
 三垣,Three Enclosures,Asterism,A-02,"Ziwei Yuan, Taiwei Yuan, and Tianshi Yuan"
-紫微垣,Purple Forbidden Enclosure (Ziwei Yuan),Asterism,A-02,Circumpolar enclosure representing the celestial imperial palace
+紫微垣,Purple Forbidden Enclosure (Ziwei Yuan),Asterism,"A-02, EN15",Circumpolar enclosure representing the celestial imperial palace; short form on English cards: the Ziwei Enclosure
 太微垣,Supreme Palace Enclosure (Taiwei Yuan),Asterism,A-02,Southern enclosure representing the celestial government ministries
 天市垣,Heavenly Market Enclosure (Tianshi Yuan),Asterism,A-02,Summer/autumn enclosure representing the public marketplace
 紫禁城,Forbidden City,Cultural Concept,A-02,Imperial palace in Beijing named after the celestial Ziwei palace
@@ -296,3 +296,17 @@ Vavaʻu,Vavaʻu,Place,"A-10, EN49",
 Tafahi,Tafahi,Place,"A-10, EN49",Niua group; 313 km north of Vavaʻu
 Tongatapu（東加本島）,Tongatapu (main island),Place,"A-10, EN49",
 北極星,the Pole Star,Star Name,"A-10, EN49",label 'Pole Star'
+元宵,the Lantern Festival,Festival,"H-元宵, EN15",15th day of the 1st lunar month
+上元,the Upper Yuan,Festival,"H-元宵, EN15",first of the three Yuan days (Middle Yuan 7/15; Lower Yuan 10/15)
+三官大帝,the Three Officials,Deity,"H-元宵, EN15","Heaven, Earth and Water Officials"
+天官,the Heaven Official (Tianguan),Deity,"H-元宵, EN15",grants blessings (天官賜福); not the 天官 of 史記・天官書
+紫微大帝,Ziwei Dadi,Deity,"H-元宵, EN15",a title of the Heaven Official (又稱 = also called)
+天帝,the Sky Emperor,Cultural Concept,"H-元宵, EN15",the Ziwei Enclosure is his palace
+帝車（斗為帝車）,the Sky Emperor's chariot,Asterism,"H-元宵, EN15",the Big Dipper (Shiji; Sima Qian)
+Воз,"Voz (the Cart)",Asterism,"A-22, EN16",Belarusian name for the Big Dipper; a goods wagon (not a hay wain)
+Малы воз,"Maly voz (the Small Cart)",Asterism,"A-22, EN16",Belarusian name for the Little Dipper
+Гвоздзь,"Hvozdz (the Nail)",Star Name,"A-22, EN16",Belarusian name for Polaris; Stellarium spells Gvozd
+Іллёў воз,"Illioŭ voz (Elijah's cart)",Asterism,"A-22, EN16",Christianized name of the Big Dipper; Stellarium spells Illyouo voz
+以利亞（Ілля）,the prophet Elijah,Person,"A-22, EN16",English Bible spelling; Stellarium uses Elias
+Пярун,Perun,Deity,"A-22, EN16",Slavic thunder god (Belarusian Piarun); hedged: 一說
+Carul Mare,Carul Mare (the Big Cart),Asterism,"A-22, A-23, EN16",Romanian name for the Big Dipper
