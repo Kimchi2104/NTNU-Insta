@@ -16,7 +16,7 @@ Karama 河谷的河道與遺址位置是示意（論文只說在 Mamuju 縣）�
 不翻拍書封、不畫族人肖像、不畫帆船與紅衣陶（照片美宣另尋授權）。
 
 執行：python3 make_a27_diagrams.py            （中文，輸出 05_素材/A-27_曼達爾/_概念圖/）
-      python3 make_a27_diagrams.py --lang en  （英文，輸出 _概念圖/en/；本次只出 zh）
+      python3 make_a27_diagrams.py --lang en  （英文，輸出 _概念圖/en/；只出 EN21 用到的 C-A27-01 地圖層）
 """
 import os, sys, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -96,7 +96,7 @@ TXT = {
         "c08_src": "PyEphem 4.2.1 自算（台北 25.033°N 121.565°E；鵝鑾鼻 21.90°N）",
     },
     "en": {
-        "c01_title": "The Mandar's sea", "c01_sub": "Hand-drawn sketch; routes are schematic",
+        "c01_title": "The Mandar's sea", "c01_sub": "Hand-drawn sketch, not an exact coastline",
         "mandar": "the Mandar", "mandar2": "(coastal West Sulawesi)", "majene": "Majene", "strait": "Makassar Strait",
         "sulawesi": "Sulawesi", "borneo": "Borneo", "java": "Java", "sumatra": "Sumatra", "png": "New Guinea",
         "aus": "Australia",
@@ -555,7 +555,11 @@ def main():
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
         A26.LANG = LANG
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
         CB.set_base(os.path.join(OUT, LANG))
+        # EN21 只用 C-A27-01 的地圖層（02 鏡第一頁）；其他幾張要用時再加進來
+        CB.emit("", [("地圖", c01_map)], title="C-A27-01_曼達爾的海")
+        return
     os.makedirs(OUT, exist_ok=True)
     CB.emit("", [("地圖", c01_map), ("航線", c01_route), ("季風", c01_monsoon)], title="C-A27-01_曼達爾的海")
     CB.emit("", [("書目", c02_bib)], title="C-A27-02_資料從哪來")
