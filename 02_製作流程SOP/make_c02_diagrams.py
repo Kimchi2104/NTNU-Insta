@@ -19,12 +19,69 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import numpy as np
 from matplotlib.patches import Circle, Ellipse, Polygon, Rectangle, Arc
 import c_series_base as C
-from c_series_base import AMBER, BLUE, WHITE, GREEN, PURPLE, BG, T, arrow, emit, save, newfig, newcard, water
+from c_series_base import AMBER, BLUE, WHITE, GREEN, PURPLE, BG, arrow, emit, save, newfig, newcard, water
 import gen_ep_assets as G
 
 BASE = G.find_base(os.path.dirname(os.path.abspath(__file__)))
 C.set_base(os.path.join(BASE, "05_素材/C-02_地有四游"))
 PX = 540.0                       # 1 個畫布單位 = Canva 540 px（方形圖層 1080 寬）
+OUT = os.path.join(BASE, "05_素材/C-02_地有四游")
+LANG = "zh"     # python3 make_c02_diagrams.py --lang en → 只出 EN43 用的四組（地有四游、舟行不覺、兩種視角、時間軸）到 en/
+# 英文版：圖上每一段中文字 → 英文（字級在 SIZE_EN 另外縮；沒列的字照原樣）
+TXT = {"en": {
+    "地有四游": "Four Wanderings of the Earth", "《尚書・考靈曜》（漢代緯書）": "Kaolingyao (a Han-dynasty text)",
+    "依原文方位示意・非等比例": "Directions as in the text; not to scale",
+    "北": "N", "南": "S", "西": "W", "東": "E", "俯視": "Top view", "側視": "Side view", "上": "up", "下": "down",
+    "冬至": "Winter", "夏至": "Summer", "春秋分": "Equinoxes", "三萬里": "30,000 li", "地": "Earth",
+    "「冬至地上，北而西三萬里」": "Winter solstice: up, north and west, 30,000 li",
+    "「夏至地下，南而東復三萬里」": "Summer solstice: down, south and east, 30,000 li back",
+    "「春秋二分其中矣」": "Equinoxes: in the middle",
+    "「譬如人在大舟中閉牖而坐」": "“Like sitting in a big boat, windows shut”",
+    "《尚書・考靈曜》": "Kaolingyao", "閉牖": "windows shut", "舟行": "moving",
+    "「舟行而人不覺也」": "“The boat moves, unfelt”",
+    "船在走，艙裡的人卻一點也感覺不到": "The boat sails on; the person inside feels nothing",
+    "「地恆動不止，": "“The earth never stops moving,", "而人不知」": "yet people do not know it.”",
+    "同一艘船，兩種視角": "One boat, two views", "從岸上看": "From the shore", "從艙裡看": "From the cabin",
+    "船在動": "The boat moves", "岸和水都在往後退": "shore and water slip by",
+    "一切靜止": "All is still", "燈直直垂著，沒有線索": "lamp hangs straight: no clue",
+    "誰在動？關在艙裡，判斷不出來": "Who is moving? From inside, you can’t tell",
+    "地在動而人不知，是同一個道理": "Same reason the earth moves and we don’t know",
+    "同一個比喻": "The same comparison", "舟行而人不覺 × 伽利略的大船船艙": "The unfelt boat × Galileo’s ship cabin",
+    "西漢末～東漢初": "Han, around 1 CE", "舟行而人不覺": "the unfelt boat", "1632 年": "1632",
+    "伽利略": "Galileo", "《關於兩大世界": "Dialogue Concerning", "體系的對話》": "the Two Chief World Systems",
+    "相隔約一千六百年": "about 1,600 years apart",
+    "但兩者說的「地動」不一樣": "But their “moving earth” is not the same",
+    "四游：大地一年來回平移，天仍繞著地轉": "Wanderings: the earth shifts to and fro each year;",
+    "伽利略：地球自轉，又繞太陽公轉": "Galileo: Earth spins, and orbits the Sun",
+    "相同的是：身在其中，察覺不到自己在動": "Shared: from inside, you can’t feel your own motion",
+    "※ 不宜說成「中國比西方更早發現地動」": "※ Not “China found the moving Earth first”",
+}}
+# 英文比中文寬：這些字串在英文版用較小字級
+SIZE_EN = {"Four Wanderings of the Earth": 34, "Kaolingyao (a Han-dynasty text)": 22,
+           "Winter solstice: up, north and west, 30,000 li": 22,
+           "Summer solstice: down, south and east, 30,000 li back": 22, "Equinoxes: in the middle": 22,
+           "“Like sitting in a big boat, windows shut”": 24, "“The boat moves, unfelt”": 32,
+           "The boat sails on; the person inside feels nothing": 20,
+           "“The earth never stops moving,": 34, "yet people do not know it.”": 34,
+           "Who is moving? From inside, you can’t tell": 24, "Same reason the earth moves and we don’t know": 20,
+           "The unfelt boat × Galileo’s ship cabin": 22, "Dialogue Concerning": 20,
+           "the Two Chief World Systems": 16, "shore and water slip by": 19, "lamp hangs straight: no clue": 19, "30,000 li": 19, "Han, around 1 CE": 24,
+           "Wanderings: the earth shifts to and fro each year;": 20,
+           "Galileo: Earth spins, and orbits the Sun": 20,
+           "Shared: from inside, you can’t feel your own motion": 21,
+           "But their “moving earth” is not the same": 24, "Earth": 22, "Equinoxes": 20}
+
+
+def tx(s):
+    return TXT[LANG].get(s, s) if LANG != "zh" else s
+
+
+def T(ax, x, y, s, size=20, *a, **k):
+    """包一層 c_series_base.T：英文版換字、縮字"""
+    s = tx(s)
+    if LANG != "zh":
+        size = SIZE_EN.get(s, size)
+    return C.T(ax, x, y, s, size, *a, **k)
 
 
 def footer(ax, s="示意圖・非等比例", y=-0.94):
@@ -99,8 +156,9 @@ def sy_track(ax):
     for k0, k1 in [(-1, 0), (0, 1)]:                 # 只畫站與站之間（不穿過地塊）
         (x0, y0), (x1, y1) = tv_pos(k0), tv_pos(k1)
         ax.plot([x0 + BH, x1 - BH], [y0 - BH, y1 + BH], c=WHITE, lw=2.6, ls=(0, (7, 5)), alpha=.6)
-    T(ax, -0.57, 0.235, "三萬里", 22, AMBER)
-    T(ax, -0.12, 0.10, "三萬里", 22, BLUE)
+    en = LANG != "zh"                                # 英文字較寬：挪到線外，不壓地塊
+    T(ax, -0.67 if en else -0.57, 0.26 if en else 0.235, "三萬里", 22, AMBER)
+    T(ax, 0.03 if en else -0.12, 0.04 if en else 0.10, "三萬里", 22, BLUE)
 
 
 def sy_block_tv(ax, dx=0.0, dy=0.0):
@@ -343,8 +401,12 @@ def tl_gap(ax):
 
 def tl_diff(ax):
     T(ax, 0, -0.33, "但兩者說的「地動」不一樣", 26, GREEN)
-    T(ax, 0, -0.44, "四游：大地一年來回平移，天仍繞著地轉", 24, AMBER)
-    T(ax, 0, -0.54, "伽利略：地球自轉，又繞太陽公轉", 24, BLUE)
+    if LANG == "zh":
+        T(ax, 0, -0.44, "四游：大地一年來回平移，天仍繞著地轉", 24, AMBER)
+    else:                                            # 英文太長，拆兩行
+        T(ax, 0, -0.42, "四游：大地一年來回平移，天仍繞著地轉", 24, AMBER)
+        C.T(ax, 0, -0.49, "the sky still turns around it", 20, AMBER)
+    T(ax, 0, -0.54 if LANG == "zh" else -0.57, "伽利略：地球自轉，又繞太陽公轉", 24, BLUE)
 
 
 def tl_same(ax):
@@ -485,7 +547,26 @@ def preview(sub, name, fns):
     save(f, sub, name, transparent=False)
 
 
-if __name__ == "__main__":
+def main_en():
+    """英文版：只出 EN43 用的四組，檔名與中文版相同，放在 en/ 底下"""
+    sy = [("題辭", sy_title), ("框", sy_frame), ("站位", sy_stations), ("軌跡", sy_track),
+          ("地塊俯視", sy_block_tv), ("地塊側視", sy_block_sv),
+          ("冬至", sy_quote("冬至")), ("夏至", sy_quote("夏至")), ("春秋分", sy_quote("春秋分"))]
+    emit("地有四游", sy, title="地有四游")
+    emit("舟行不覺", [("恆動", heng_dong)], title="舟行不覺", preview_name="預覽_恆動")
+    emit("舟行不覺", [("題辭", boat_quote), ("水", boat_water), ("船", boat_hull), ("閉牖", boat_windows),
+                      ("人", boat_sitter), ("行進", boat_motion)], title="舟行不覺")
+    emit("兩種視角", [("分隔", rv_split), ("艙外", rv_outside), ("艙內", rv_inside), ("結論", rv_end)],
+         title="兩種視角")
+    emit("時間軸", [("題辭", tl_title), ("軸", tl_axis), ("間隔", tl_gap), ("差異", tl_diff), ("相同", tl_same)],
+         title="時間軸")
+
+
+if __name__ == "__main__" and "--lang" in sys.argv:
+    LANG = sys.argv[sys.argv.index("--lang") + 1]
+    C.set_base(os.path.join(OUT, LANG))
+    main_en()
+elif __name__ == "__main__":
     print("── 地有四游 ──")
     sy = [("題辭", sy_title), ("框", sy_frame), ("站位", sy_stations), ("軌跡", sy_track),
           ("地塊俯視", sy_block_tv), ("地塊側視", sy_block_sv),
