@@ -3,7 +3,7 @@
   C-A10-01_東加地圖       → 逐字稿 02 鏡（島嶼層）、11 鏡（島嶼層→航線層）
   C-A10-02_Tafahi的翅膀   → 逐字稿 10 鏡（地平層→母雞層）
   C-A10-03_兩份東加星圖   → 逐字稿 15 鏡（9:16 對照表圖卡，可存圖）
-輸出：05_素材/A-10_東加/_概念圖/
+輸出：05_素材/A-10_東加/_概念圖/（--lang en → _概念圖/en/，只出 EN49 用的 C-A10-01、02）
 
 v1（2026/7，同檔名舊版）畫的是「三隻野鴨從同一個方位接力升起」：查證後不成立——
 獵戶腰帶從正東升起（方位 90°），假十字、南十字從東南偏南升起（方位約 150°），三者不同方位；
@@ -26,6 +26,37 @@ BASE = G.find_base(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, "05_素材/A-10_東加/_概念圖")
 C.set_base(OUT)
 RED, GREY, SEA = "#FF6B6B", "#7C8BA8", "#2A4A7A"
+LANG = "zh"          # python3 make_a10_diagrams.py --lang en → 只出 C-A10-01、02 的英文版到 _概念圖/en/
+TXT = {
+    "zh": {
+        "c01_title": "東加王國：一百七十座左右的島", "c01_sub": "島的位置依實際經緯度；島形示意",
+        "Tongatapu": "Tongatapu 東加本島", "Haʻapai": "Haʻapai 群島", "Vavaʻu": "Vavaʻu 群島",
+        "ʻUvea": "ʻUvea（今法屬瓦利斯）", "Samoa": "薩摩亞", "Lau": "斐濟 Lau 群島", "Fiji": "斐濟",
+        "span": "南北約 {} 公里", "c01_src": "星名出處：Tukuʻaho 的航海指南（十九世紀末）→ Collocott 1922",
+        "N": "正北", "NW": "北偏西 {}°", "NE": "北偏東 {}°", "sep": "・",
+        "c02_title": "從 Vavaʻu 往北看", "c02_sub": "11 月中・晚上十點前後（2026/11/13 21:48）",
+        "tafahi_dir": "Tafahi 在這個方向（{} 公里外，看不到）",
+        "wing": "Tafahi 的翅膀", "alt": "高 {}–{}°",
+        "hen": "「像一隻母雞，張開翅膀孵在 Tafahi 上」",
+        "hen_src": "Collocott 1922 記為八顆星；是哪八顆說法不一，Stellarium 推測是仙后座",
+    },
+    "en": {
+        "c01_title": "Tonga: about 170 islands", "c01_sub": "Islands at their true positions; shapes schematic",
+        "Tongatapu": "Tongatapu (main island)", "Haʻapai": "Haʻapai", "Vavaʻu": "Vavaʻu",
+        "ʻUvea": "ʻUvea (Wallis)", "Samoa": "Samoa", "Lau": "Lau Islands (Fiji)", "Fiji": "Fiji",
+        "span": "{} km north–south", "c01_src": "Star names: Tukuʻaho’s sailing guide (1890s) → Collocott 1922",
+        "N": "due north", "NW": "{}° W of N", "NE": "{}° E of N", "sep": " · ",
+        "c02_title": "Looking north from Vavaʻu", "c02_sub": "Mid-November, around 10 p.m. (13 Nov 2026, 21:48)",
+        "tafahi_dir": "Tafahi lies this way ({} km, out of sight)",
+        "wing": "Tafahi’s Wing", "alt": "{}–{}° high",
+        "hen": "“Like a hen, wings spread, brooding over Tafahi”",
+        "hen_src": "Collocott 1922: eight stars, which ones is unclear; Stellarium guesses Cassiopeia",
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 
 
 def gc_km(a, b):
@@ -60,8 +91,8 @@ def mp(lat, lon):
 
 
 def c01_islands(ax):
-    T(ax, 0.0, 0.92, "東加王國：一百七十座左右的島", 31, WHITE)
-    T(ax, 0.0, 0.845, "島的位置依實際經緯度；島形示意", 17, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c01_title"), 31, WHITE)
+    T(ax, 0.0, 0.845, tx("c01_sub"), 17, GREY, w="normal")
     for lat in (-14, -16, -18, -20, -22):
         a, b = mp(lat, -182.7), mp(lat, -170.8)
         ax.plot([a[0], b[0]], [a[1], a[1]], c=WHITE, lw=0.8, alpha=.18, ls=(0, (4, 5)), zorder=2)
@@ -75,41 +106,41 @@ def c01_islands(ax):
         ax.scatter([x], [y], s=big[nm], c=AMBER if nm in tonga else GREY,
                    alpha=1 if nm in tonga else .8, zorder=8, lw=0)
     lab = {  # 名稱, dx, dy, 字級, 顏色, ha
-        "Tongatapu": ("Tongatapu 東加本島", -0.05, -0.01, 17, WHITE, "right"),
+        "Tongatapu": (tx("Tongatapu"), -0.05, -0.01, 17, WHITE, "right"),
         "ʻEua": ("ʻEua", 0.04, -0.03, 13, GREY, "left"),
-        "Haʻapai": ("Haʻapai 群島", 0.05, 0.0, 16, WHITE, "left"),
-        "Vavaʻu": ("Vavaʻu 群島", 0.05, 0.0, 17, WHITE, "left"),
+        "Haʻapai": (tx("Haʻapai"), 0.05, 0.0, 16, WHITE, "left"),
+        "Vavaʻu": (tx("Vavaʻu"), 0.05, 0.0, 17, WHITE, "left"),
         "Niuatoputapu": ("Niuatoputapu", 0.05, -0.035, 14, WHITE, "left"),
         "Tafahi": ("Tafahi", 0.04, 0.03, 16, AMBER, "left"),
         "Niuafoʻou": ("Niuafoʻou", 0.04, 0.0, 14, WHITE, "left"),
         "ʻAta": ("ʻAta", -0.035, 0.0, 12, GREY, "right"),
-        "ʻUvea": ("ʻUvea（今法屬瓦利斯）", -0.04, 0.0, 15, WHITE, "right"),
+        "ʻUvea": (tx("ʻUvea"), -0.04, 0.0, 15, WHITE, "right"),
         "Futuna": ("Futuna", 0.0, -0.045, 12, GREY, "center"),
-        "Savaiʻi": ("薩摩亞", 0.03, 0.06, 15, GREY, "center"),
+        "Savaiʻi": (tx("Samoa"), 0.03, 0.06, 15, GREY, "center"),
         "Upolu": ("", 0, 0, 1, GREY, "left"),
-        "Lakeba": ("斐濟 Lau 群島", 0.0, -0.05, 13, GREY, "center"),
-        "Vanua Levu": ("斐濟", 0.0, 0.05, 15, GREY, "center"),
+        "Lakeba": (tx("Lau"), 0.0, -0.05, 13, GREY, "center"),
+        "Vanua Levu": (tx("Fiji"), 0.0, 0.05, 15, GREY, "center"),
     }
     for nm, (txt, dx, dy, fs, col, ha) in lab.items():
         if not txt:
             continue
         x, y = mp(*P[nm])
         T(ax, x + dx, y + dy, txt, fs, col, ha=ha, w="bold" if col == WHITE else "normal")
-    # 南北跨度
-    x = 0.80
+    # 南北跨度（英文：往右移，讓出 Kapakau ʻo Tafahi 的標籤）
+    x = 0.80 if LANG == "zh" else 0.92
     y1, y0 = mp(*P["Niuafoʻou"])[1], mp(*P["ʻAta"])[1]
     ax.plot([x, x], [y0, y1], c=AMBER, lw=1.6, alpha=.8)
     for yy in (y0, y1):
         ax.plot([x - 0.02, x + 0.02], [yy, yy], c=AMBER, lw=1.6, alpha=.8)
     km = gc_km(P["Niuafoʻou"], P["ʻAta"])
-    ax.text(x + 0.045, (y0 + y1) / 2, f"南北約 {round(km, -1):.0f} 公里", fontproperties=C.FP,
+    ax.text(x + 0.045, (y0 + y1) / 2, tx("span").format(f"{round(km, -1):.0f}"), fontproperties=C.FP,
             fontsize=15, color=AMBER, ha="center", va="center", rotation=90, weight="bold")
     # 比例尺
     sx0, sy = -0.80, -0.80
     L = 200 / 111.2 * SC * 1.0                 # 緯度 1° ≈ 111.2 km（南北向比例尺）
     ax.plot([sx0, sx0 + L], [sy, sy], c=WHITE, lw=2.0, alpha=.7)
     T(ax, sx0 + L / 2, sy + 0.035, "200 km", 12, GREY, w="normal")
-    T(ax, 0.0, -0.92, "星名出處：Tukuʻaho 的航海指南（十九世紀末）→ Collocott 1922", 15, GREY,
+    T(ax, 0.0, -0.92, tx("c01_src"), 15, GREY,
       w="normal")
 
 
@@ -134,13 +165,13 @@ def c01_routes(ax):
         p0, p1 = mp(*P[a]), mp(*P[b])
         C.arrow(ax, p1, p0, c=col, lw=3.0, alpha=.95, style="-|>")
         km, br = gc_km(P[a], P[b]), bearing(P[a], P[b])
-        dirn = "正北" if abs(((br + 180) % 360) - 180) < 1 else \
-            (f"北偏西 {360 - br:.0f}°" if br > 180 else f"北偏東 {br:.0f}°")
+        dirn = tx("N") if abs(((br + 180) % 360) - 180) < 1 else \
+            (tx("NW").format(f"{360 - br:.0f}") if br > 180 else tx("NE").format(f"{br:.0f}"))
         mx, my = (p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2
         T(ax, mx + dx, my + dy, txt, 17, col, ha=ha)
-        T(ax, mx + dx, my + dy - 0.055, f"{km:.0f} km・{dirn}", 15, WHITE, w="normal", ha=ha)
-    tx, ty = mp(*P["Tafahi"])
-    wicon(ax, tx + 0.02, ty + 0.13, 0.025, GREEN)
+        T(ax, mx + dx, my + dy - 0.055, f"{km:.0f} km{tx('sep')}{dirn}", 15, WHITE, w="normal", ha=ha)
+    fx, fy = mp(*P["Tafahi"])
+    wicon(ax, fx + 0.02, fy + 0.13, 0.025, GREEN)
     ux, uy = mp(*P["ʻUvea"])
     ringicon(ax, ux, uy + 0.12, 0.05, GREEN)
 
@@ -174,8 +205,8 @@ def xy(alt, az):
 
 
 def c02_horizon(ax):
-    T(ax, 0.0, 0.92, "從 Vavaʻu 往北看", 32, WHITE)
-    T(ax, 0.0, 0.845, "11 月中・晚上十點前後（2026/11/13 21:48）", 18, GREY, w="normal")
+    T(ax, 0.0, 0.92, tx("c02_title"), 32, WHITE)
+    T(ax, 0.0, 0.845, tx("c02_sub"), 18, GREY, w="normal")
     ax.add_patch(C.Rectangle((-0.95, -0.95), 1.9, HZ + 0.95, fc=C.BG, ec="none", zorder=3))
     ax.plot([-0.94, 0.94], [HZ, HZ], c=WHITE, lw=2.2, alpha=.7, zorder=5)
     for k in range(3):
@@ -184,7 +215,7 @@ def c02_horizon(ax):
     for az in (-20, -10, 0, 10, 20):
         x = az * SD
         ax.plot([x, x], [HZ - 0.018, HZ + 0.018], c=WHITE, lw=1.4, alpha=.6, zorder=6)
-        lab = "正北" if az == 0 else (f"北偏西 {-az}°" if az < 0 else f"北偏東 {az}°")
+        lab = tx("N") if az == 0 else (tx("NW").format(-az) if az < 0 else tx("NE").format(az))
         T(ax, x, HZ - 0.33, lab, 14 if az else 17, WHITE if az == 0 else GREY,
           w="bold" if az == 0 else "normal")
     # Tafahi 的方向（312 km 外，海面以下看不到）
@@ -193,7 +224,7 @@ def c02_horizon(ax):
     ax.plot([x, x], [HZ, HZ + 0.70], c=AMBER, lw=1.4, ls=(0, (5, 5)), alpha=.55, zorder=6)
     ax.add_patch(C.Polygon([(x - 0.03, HZ - 0.005), (x + 0.03, HZ - 0.005), (x, HZ + 0.035)],
                            closed=True, fc=AMBER, ec="none", alpha=.9, zorder=7))
-    T(ax, x, HZ - 0.075, f"Tafahi 在這個方向（{gc_km(P['Vavaʻu'], P['Tafahi']):.0f} 公里外，看不到）",
+    T(ax, x, HZ - 0.075, tx("tafahi_dir").format(f"{gc_km(P['Vavaʻu'], P['Tafahi']):.0f}"),
       15, AMBER)                                   # 置中於三角形，右端不貼邊
     # 仰角尺
     for alt in (10, 20):
@@ -223,15 +254,15 @@ def c02_hen(ax):
                    lw=0)
     top = max(ys)
     T(ax, cx, top + 0.30, "Kapakau ʻo Tafahi", 26, GREEN)
-    T(ax, cx, top + 0.225, "Tafahi 的翅膀", 19, GREEN, w="normal")
+    T(ax, cx, top + 0.225, tx("wing"), 19, GREEN, w="normal")
     lo, hi = min(a for a, _, _ in ALTAZ.values()), max(a for a, _, _ in ALTAZ.values())
-    T(ax, max(xs) + 0.05, (min(ys) + max(ys)) / 2, f"高 {lo:.0f}–{hi:.0f}°", 16, WHITE, ha="left",
+    T(ax, max(xs) + 0.05, (min(ys) + max(ys)) / 2, tx("alt").format(f"{lo:.0f}", f"{hi:.0f}"), 16, WHITE, ha="left",
       w="normal")
     ax.add_patch(C.FancyBboxPatch((-0.86, -0.90), 1.72, 0.22,
                                   boxstyle="round,pad=0.01,rounding_size=0.03",
                                   fc="#1B2240", ec=GREEN, lw=1.4, zorder=4))
-    T(ax, 0.0, -0.745, "「像一隻母雞，張開翅膀孵在 Tafahi 上」", 19, WHITE)
-    T(ax, 0.0, -0.835, "Collocott 1922 記為八顆星；是哪八顆說法不一，Stellarium 推測是仙后座", 13.5,
+    T(ax, 0.0, -0.745, tx("hen"), 19, WHITE)
+    T(ax, 0.0, -0.835, tx("hen_src"), 13.5,
       GREY, w="normal")
 
 
@@ -290,8 +321,11 @@ def c03_card(ax):
 
 
 def main():
-    global ALTAZ
-    os.makedirs(OUT, exist_ok=True)
+    global ALTAZ, LANG
+    if "--lang" in sys.argv:
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        C.set_base(os.path.join(OUT, LANG))
+    os.makedirs(C._BASE, exist_ok=True)
     ALTAZ = cas_altaz()
     for nm, (alt, az, v) in ALTAZ.items():
         print(f"  {nm}: 高 {alt:.1f}°、方位 {az:+.1f}°")
@@ -299,6 +333,8 @@ def main():
           f"Tongatapu→ʻUvea {gc_km(P['Tongatapu'], P['ʻUvea']):.0f} km、{bearing(P['Tongatapu'], P['ʻUvea']):.1f}°")
     C.emit("", [("島嶼", c01_islands), ("航線", c01_routes)], title="C-A10-01_東加地圖")
     C.emit("", [("地平", c02_horizon), ("母雞", c02_hen)], title="C-A10-02_Tafahi的翅膀")
+    if LANG != "zh":                       # 英文版：只出 EN49 會用到的兩組，寫到 _概念圖/en/
+        return
     f, ax = C.newcard(dark=True)
     c03_card(ax)
     C.save(f, "", "C-A10-03_兩份東加星圖_圖卡.png", transparent=False)
