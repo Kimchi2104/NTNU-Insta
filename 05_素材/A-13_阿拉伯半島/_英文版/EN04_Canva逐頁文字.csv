@@ -1,31 +1,31 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,開場字卡,3,World Sky Cultures,"One sky. The desert people saw — a
 calendar.",cover,Cover: text block replaced with English; EN · EP04 tag
-2,,鏡頭01開始,3,,"Desert seasons are hard to read from the
-ground — so people read the stars.",bottom,E02
-3,,鏡頭01結束＝鏡頭02開始,3,,"Desert seasons are hard to read from the
-ground — so people read the stars.",bottom,E02
+2,,鏡頭01開始,3,,"Desert seasons are hard to tell from the
+land — so people read the stars.",bottom,E02
+3,,鏡頭01結束＝鏡頭02開始,3,,"Desert seasons are hard to tell from the
+land — so people read the stars.",bottom,E02
 4,,鏡頭02結束＝鏡頭03開始,2,,,,no text; the frame the diagram appears on
 5,,鏡頭03-概念圖1,3,,,,diagram → English (`_概念圖/en/C-A13-01_星星年曆_月站層_透明.png`)
 6,,鏡頭03-概念圖2,3,,,,+ `C-A13-01_星星年曆_季節層_透明.png` (English)
 7,,鏡頭03-概念圖3,4,,,,+ `C-A13-01_星星年曆_今天層_透明.png` (English)
-8,,鏡頭03-概念圖收＝鏡頭04開始,3,The year begins with the Pleiades,"Around June 7, al-Thurayyā, the
-Pleiades, first appears before dawn:
+8,,鏡頭03-概念圖收＝鏡頭04開始,3,The year opens with the Pleiades,"Around June 7, al-Thurayyā (the
+Pleiades) first appears before dawn, and
 summer begins.",bottom,diagram fades; E04; station labels
-9,,鏡頭04結束＝鏡頭05開始,4,The year begins with the Pleiades,"Around June 7, al-Thurayyā, the
-Pleiades, first appears before dawn:
+9,,鏡頭04結束＝鏡頭05開始,4,The year opens with the Pleiades,"Around June 7, al-Thurayyā (the
+Pleiades) first appears before dawn, and
 summer begins.",bottom,"E04; label 昴宿 6/7 → Pleiades Jun 7; then the sky moves straight to 13 (pages 10–12, the slide east and Suhail, removed)"
-13,,鏡頭07-中1,4,Mid-October: the rains,"The rainy season begins: al-Wasm, “the
-brand.” The first rain brands the dry
-land green.",bottom,"E05; station labels (Eye, Forehead, Mane)"
-14,,鏡頭07-中2,4,Mid-October: the rains,"The rainy season begins: al-Wasm, “the
-brand.” The first rain brands the dry
-land green.",bottom,"E05; station labels (Arc, Raised, Cover, Claws)"
-15,,鏡頭07結束＝鏡頭08開始,5,,"Legend says rain in the sea becomes
-pearls; on sand, truffles.",top,E06
-16,,鏡頭08結束,8,"December 7, at dawn","The Scorpion’s head, al-Iklīl, “the
-Crown,” rises in the east. At the same
-dawn, the Pleiades set in the west.",top,"E07; labels 冠冕 12/7 → Crown Dec 7, 心臟 → Heart, 蠍螯 → Claws"
+13,,鏡頭07-中1,4,Mid-October: the rains,"The rainy season starts — al-Wasm, “the
+brand.” The first rain brands dry land
+green.",bottom,"E05; station labels (Eye, Forehead, Mane)"
+14,,鏡頭07-中2,4,Mid-October: the rains,"The rainy season starts — al-Wasm, “the
+brand.” The first rain brands dry land
+green.",bottom,"E05; station labels (Arc, Raised, Cover, Claws)"
+15,,鏡頭07結束＝鏡頭08開始,5,,"Legend says this rain becomes pearls at
+sea — truffles on sand.",top,E06
+16,,鏡頭08結束,8,"December 7: al-Iklīl, “the Crown”","Before dawn, the Scorpion’s head rises
+in the east as the Pleiades set in the
+west.",top,"E07; labels 冠冕 12/7 → Crown Dec 7, 心臟 → Heart, 蠍螯 → Claws"
 17,,鏡頭08-概念圖1,3,,,,diagram → English (`_概念圖/en/C-A13-02_守望者_地平層_透明.png`)
 18,,鏡頭08-概念圖2,3,,,,+ `C-A13-02_守望者_升起層_透明.png` (English)
 19,,鏡頭08-概念圖3,3,,,,+ `C-A13-02_守望者_落下層_透明.png` (English)
@@ -33,12 +33,12 @@ dawn, the Pleiades set in the west.",top,"E07; labels 冠冕 12/7 → Crown Dec 
 21,,鏡頭08-概念圖收＝鏡頭09開始,7,,"Before Islam, people believed stars
 setting at dawn brought rain — the
 Pleiades most of all.",top,diagram fades; E09
-22,,鏡頭09結束＝鏡頭10開始,5,,"From that dawn: the desert’s forty
-coldest days, al-Murabbaʿāniyya.",top,"E10; then **hard cut (no transition)** to 26 (pages 23–25, Venus and the name card, removed)"
+22,,鏡頭09結束＝鏡頭10開始,5,,"December 7 starts the desert’s forty
+coldest days: al-Murabbaʿāniyya.",top,"E10; then **hard cut (no transition)** to 26 (pages 23–25, Venus and the name card, removed)"
 26,,鏡頭11開始,6,"Over 1,000 years ago, Arabs said","“When the Pleiades rise at nightfall,
 the shepherd looks for a cloak.”",bottom,E11; labels 昴宿／昴宿的清真寺 → Pleiades／Mosque of the Pleiades
-27,,鏡頭11結束＝鏡頭12開始,6,Look east after dark,"This month the Pleiades are already up
-at dusk, with red Aldebaran below.",bottom,E12; label 小跟班 → Follower (Aldebaran)
-46,,端卡（下集見）,4,"Monday, December 21","Winter solstice: a year measured by a
+27,,鏡頭11結束＝鏡頭12開始,6,Look east after dark,"This month, the Pleiades are already up,
+with red Aldebaran below.",bottom,E12; label 小跟班 → Follower (Aldebaran)
+46,,端卡（下集見）,4,"Next · Monday, December 21","Winter solstice: a year measured by a
 stick.",endcard,E13
 47,,追蹤頁,—,,Follow for a new sky every week.,endcard,E14
