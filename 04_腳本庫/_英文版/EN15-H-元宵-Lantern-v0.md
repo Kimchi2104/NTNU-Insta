@@ -21,7 +21,7 @@
 | E03 | 4 | — | — | | *(pages 4–5: English diagram "The Three Officials" — Upper Yuan, Heaven Official grants blessings; no text on top)* | — |
 | E04 | 7 | 6, 7 | bottom | | Another name: Ziwei Dadi. The same name as the northern sky’s centre: the Ziwei Enclosure. | 2.1 |
 | E05 | 4 | 8, 9 | top | Same name, two things | *(English diagram: "Folk religion" vs "Ancient star map", "same name: Ziwei"; headline only)* | — |
-| E06 | 7 | 10 | bottom | | One is a god. One is a star region — the Sky Emperor’s palace, the sky’s turning hub. | 2.4 |
+| E06 | 7 | 10 | bottom | | One is a god. One is a star region: the Sky Emperor’s palace, the sky’s turning hub. | 2.4 |
 | E07 | 7 | 11 | bottom | The Sky Emperor’s chariot | Just outside its walls: the Big Dipper. Sima Qian called it the Sky Emperor’s chariot. | 2.1 |
 | E08 | 7 | 12, 13 | bottom | Look east tonight | Tonight, after dark, look east: a nearly full Moon with Jupiter and Mars close by. | 2.1 |
 | E09 | 4 | 14 | endcard | This Wednesday | Belarus: a farmer’s sky and Elijah’s chariot. | 1.8 |
