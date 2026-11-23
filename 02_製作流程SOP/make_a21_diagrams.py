@@ -14,7 +14,7 @@ C-A21-06 薩米星名小辭典（9:16 圖卡，可存圖）→ 12 鏡
 天象 PyEphem 4.2.1 自算（台北 25.033°N 121.565°E UTC+8 15°C／1010 hPa；Kautokeino 69.01°N 23.04°E CET −15°C）。
 
 執行：python3 make_a21_diagrams.py            （中文，輸出 05_素材/A-21_薩米/_概念圖/）
-      python3 make_a21_diagrams.py --lang en  （英文，輸出 _概念圖/en/；本次只出 zh）
+      python3 make_a21_diagrams.py --lang en  （英文，輸出 _概念圖/en/；只出 EN14 用到的 C-A21-03）
 """
 import os, sys, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -96,7 +96,7 @@ TXT = {
         "s_sarvvis": "Sarvvis (δ Per)", "s_aldu": "Áldu (ε Per)",
         "s_rang": "Rangifer (49 Cas)", "s_tar": "Tarandus (2 UMi)",
         "c03_title": "The arrow that must not fly", "c03_sub": "Stellarium sami; Turi 1910",
-        "hunter": "Fávdna the Hunter (Arcturus)", "bow": "Bow (Big Dipper)",
+        "hunter": "Hunter Fávdna (Arcturus)", "bow": "Bow (Big Dipper)",
         "pole": "Boahjenásti", "pole2": "the Sky Support (Polaris)",
         "deer": "Sarvvis (Cas–Per–Aur)", "hit": "Hit it = the sky falls, the world ends", "still": "So the bow stays drawn",
         "c07_title": "How high does Sirius get in Sápmi?", "south": "S",
@@ -325,8 +325,9 @@ def c03_arrow(ax):
                 arrowprops=dict(arrowstyle="-|>", color=RED, lw=3, mutation_scale=28), zorder=7)
     for s in (1, -1):
         ax.plot([-0.05, 0.05], [-0.05 * s, 0.05 * s], c=RED, lw=4, zorder=9)
-    T(ax, 0.0, -0.50, tx("hit"), 19, RED)
-    T(ax, 0.0, -0.60, tx("still"), 16, WHITE, w="normal")
+    dy = -0.12 if LANG == "en" else 0.0          # 英文的獵人標籤較長，兩行字往下移，免得疊到
+    T(ax, 0.0, -0.50 + dy, tx("hit"), 19, RED)
+    T(ax, 0.0, -0.60 + dy, tx("still"), 16, WHITE, w="normal")
 
 
 # ══════════════════ C-A21-07 天狼星貼地平線 ══════════════════
@@ -510,7 +511,11 @@ def main():
     global LANG
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
         CB.set_base(os.path.join(OUT, LANG))
+        # EN14 只用 C-A21-03（06 鏡）；其他幾張要用時再加進來
+        CB.emit("", [("狩獵", c03_hunt), ("箭", c03_arrow)], title="C-A21-03_不能射的那一箭")
+        return
     os.makedirs(OUT, exist_ok=True)
     print("── C-A21 概念圖 ──")
     CB.emit("", [("地圖", c01_map), ("神鼓", c01_drum)], title="C-A21-01_薩米在哪裡")
