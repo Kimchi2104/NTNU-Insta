@@ -14,7 +14,7 @@ C-A25-06 這週末抬頭看（9:16 圖卡，可存圖；台北 2027/3/12–14、
 28 個名字照原書順序與拼法（ſ 改 s），中譯照逐字稿星名表 A。
 
 執行：python3 make_a25_diagrams.py            （中文，輸出 05_素材/A-25_圖皮瓜拉尼/_概念圖/）
-      python3 make_a25_diagrams.py --lang en  （英文，輸出 _概念圖/en/；本次只出 zh）
+      python3 make_a25_diagrams.py --lang en  （英文，輸出 _概念圖/en/；只出 EN19 用到的 01–04）
 """
 import os, sys, math, re, subprocess, tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -86,9 +86,9 @@ TXT = {
         "c06_src": "PyEphem 4.2.1 自算（台北 25.033°N 121.565°E；墾丁 21.95°N 120.80°E）",
     },
     "en": {
-        "c01_title": "1612: the Isle of Maragnan", "c01_sub": "Hand-drawn sketch; coastlines schematic",
+        "c01_title": "1612: Maranhão Island", "c01_sub": "Hand-drawn sketch; coastlines schematic",
         "fr": "France", "eu": "Europe", "af": "Africa", "sa": "South America", "atl": "Atlantic", "eq": "Equator 0°",
-        "sl1": "Isle of Maragnan", "sl2": "today's São Luís · 2.5°S",
+        "sl1": "Maranhão Island", "sl2": "today's São Luís · 2.5°S",
         "route": "sailed from France, 1612", "fort1": "Fort Saint-Louis", "fort2": "named 8 Sep 1612",
         "c01_foot": "France's colony on Brazil's north coast, France Équinoxiale, retaken by Portugal in 1615",
         "c02_title": "Published in Paris, 1614", "c02_cap1": "Claude d'Abbeville (Capuchin friar)",
@@ -97,7 +97,7 @@ TXT = {
         "c02b_title": "A name for every star", "c02b_ref": "Ch. 51, fol. 316r", "c02b_hi": "nom propre: its own name",
         "c03_title": "The 28 names he wrote down", "c03_sub": "in the book's order and spelling",
         "zh9": {0: "rainy jaw", 2: "grill of nine stars", 6: "crayfish", 14: "monkey", 15: "crab", 21: "long basket",
-                20: "round honey", 25: "blazing fire", 17: "boy eating porridge"},
+                20: "round honey", 25: "blazing fire", 17: "boy eating soup"},
         "c03b_title": "“Many others I leave out”", "c03b_ref": "fol. 319v",
         "c03b_hi": "…plusieurs autres que ie laisse pour euiter la plus grande prolixité",
         "c03q_title": "Mostly, he never said which stars", "c03q_foot": "Identified in the book itself: Pleiades, a cross, the morning star",
@@ -338,7 +338,9 @@ def c03_q(ax):
         ax.add_patch(CB.FancyBboxPatch((x - 0.11, y - 0.07), 0.22, 0.14, boxstyle="round,pad=0.0,rounding_size=0.02",
                                        fc="#0B0F1E", ec=AMBER if known else GREY, lw=1.6 if known else 1.0,
                                        zorder=8))
-        T(ax, x, y + 0.012, kn[i] if known else "？", 15 if known else 22, AMBER if known else GREY, z=9)
+        q = "？" if LANG == "zh" else "?"               # 英文版沒有 CJK 字型：全形問號會變豆腐
+        ksz = 15 if LANG == "zh" or len(kn.get(i, "")) <= 9 else 11
+        T(ax, x, y + 0.012, kn[i] if known else q, ksz if known else 22, AMBER if known else GREY, z=9)
         T(ax, x, y - 0.048, nm if len(nm) <= 12 else nm[:11] + "…", 8.5, GREY, w="normal", z=9)
     T(ax, 0.0, -0.86, tx("c03q_foot"), 14, AMBER, w="normal")
 
@@ -482,6 +484,8 @@ def main():
     emit_groups("C-A25-03_二十八個名字", [("名單", c03_list), ("九個", c03_nine), ("結尾原文", c03_end), ("問號", c03_q)],
                 [("預覽", ["名單", "九個"]), ("結尾預覽", ["結尾原文", "問號"])])
     CB.emit("", [("地圖", c04_map), ("時間軸", c04_time)], title="C-A25-04_兩千五百公里")
+    if LANG != "zh":                          # EN19 沒用到昴宿與雨、這週末圖卡
+        return
     CB.emit("", [("原文", c05_text), ("年環", c05_ring)], title="C-A25-05_昴宿與雨")
     f, ax = CB.newcard(dark=True)
     c06_card(ax)
