@@ -1,4 +1,4 @@
-# EN06 ｜ Norse Yule: A Wolf's Jaw in the Sky ・ v0 (awaiting Gemini review)
+# EN06 ｜ Norse Yule: A Wolf's Jaw in the Sky ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -18,13 +18,13 @@
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The Vikings saw — a wolf’s jaw. | — |
 | E02 | 6 | 2 | bottom | | Scandinavians still call Christmas jul. The old English word is Yule. | 1.8 |
-| E03 | 5 | 3 | bottom | | The feast reached the North before Christianity: three nights from midwinter. | 2.2 |
-| E04 | 14 | — | — | | *(pages 4–6: English diagram "How did Yule become Christmas?", 3 layers: three nights → King Hákon's law → today's jul; page 7: diagram fades, no text)* | — |
+| E03 | 5 | 3 | bottom | | Before Christianity reached the North, the feast ran three nights from midwinter. | 2.4 |
+| E04 | 14 | — | — | | *(pages 4–6: English diagram “How did Yule become Christmas?”, 3 layers: three nights → King Hákon’s law → today's jul; page 7: diagram fades, no text)* | — |
 | E05 | 7 | 13 | bottom | The wolf’s jaw | A late-1100s Icelandic manuscript names this V of stars Úlfs kjaptr: the wolf’s jaw. | 2.0 |
-| E06 | 7 | 14 | bottom | | Which wolf? The manuscript doesn’t say. But in Norse myth, the sky is always on the run. | 2.4 |
-| E07 | 13 | — | — | | *(pages 15–17: English diagram "The chase across the sky", 3 layers: Sköll chases the Sun → Hati chases the Moon → the horses of Sun, Day and Night)* | — |
+| E06 | 7 | 14 | bottom | | Which wolf? The book doesn’t say. But in Norse myth, the sky is always on the run. | 2.4 |
+| E07 | 13 | — | — | | *(pages 15–17: English diagram “The chase across the sky”, 3 layers: Sköll chases the Sun → Hati chases the Moon → the horses of Sun, Day and Night)* | — |
 | E08 | 10 | 18, 19 | bottom | A jaw by the Sun’s road | The jaw opens beside the road of the Sun and Moon. So some guess it waits to bite them. | 1.9 |
-| E09 | 9 | 20 | bottom | Others saw a jaw too | Babylon: a bull’s jaw. The Tikuna: a crocodile’s mouth. The Tupi: a tapir’s jaw. The Inuit saw dogs. | 2.0 |
+| E09 | 9 | 20 | bottom | Others saw a jaw too | Babylon: a bull’s jaw. The Tikuna: a crocodile’s mouth. The Tupi: a tapir’s jaw. But the Inuit saw dogs. | 2.1 |
 | E10 | 8 | 40 | top | Look east after dark | Late December: the wolf’s jaw climbs in the east, with Orion’s Belt below it. | 1.8 |
 | E11 | 3 | 45 | endcard | Next Wednesday | Inuit: telling time in the polar night. | 2.3 |
 | E12 | 3 | 46 | endcard | | Follow for a new sky every week. | 2.3 |
@@ -83,16 +83,16 @@ Total 85 s (the follow page is not counted, as in EN01).
 
 ## YouTube
 
-- **Title**: Norse Yule: a wolf's jaw in the sky
+- **Title**: Norse Yule: a wolf’s jaw in the sky
 - **Description**:
-  Before Christmas, the North had Yule — and Scandinavians still call Christmas jul. A late-1100s Icelandic manuscript names the V of the Hyades Úlfs kjaptr, "the wolf's jaw". In Norse myth, wolves chase the Sun and the Moon across the sky, and the jaw opens right beside their road, so some guess it is waiting to bite them. Babylon, the Tikuna and the Tupi saw a jaw or a mouth here too.
+  Before Christmas, the North had Yule — and Scandinavians still call Christmas jul. A late-1100s Icelandic manuscript names the V of the Hyades Úlfs kjaptr, “the wolf’s jaw.” In Norse myth, wolves chase the Sun and the Moon across the sky, and the jaw opens right beside their road, so some guess it is waiting to bite them. Babylon, the Tikuna and the Tupi saw a jaw or a mouth here too.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: GKS 1812 4to (Beckman & Kålund, Alfræði íslenzk II: Rímtöl, 1914–16); Snorri, Edda (Gylfaginning 10–12, 51) and Heimskringla (Hákonar saga góða); Stellarium sky cultures (norse, norse_edda, babylonian_mulapin, tikuna, tupi).
 
 ## Caption (Instagram / Facebook / Threads)
 
 Before Christmas there was Yule — and a wolf’s jaw among the stars. 🐺
-Scandinavians still call Christmas jul; the old English word is Yule, a feast that reached the North before Christianity.
+Scandinavians still call Christmas jul; the old English word is Yule, a feast kept in the North before Christianity reached it.
 A late-1100s Icelandic manuscript names the V of the Hyades Úlfs kjaptr: the wolf’s jaw. Which wolf? The book doesn’t say. But in Norse myth, the wolf Sköll chases the Sun and Hati chases the Moon, and this jaw opens right by their road. Some guess it is waiting for them.
 Late December, after dark: look east for the wolf’s jaw, with Orion’s Belt below it.
 Next Wednesday: the Inuit, telling time in the polar night.
@@ -113,3 +113,18 @@ Wording to check:
 7. E09 "Babylon: a bull’s jaw" = 「古巴比倫叫它『公牛的下顎』」; "the Tikuna: a crocodile’s mouth"; "the Tupi: a tapir’s jaw" (the Chinese adds the Lokono, kept on the label); "The Inuit saw dogs" = 「上週的因紐特人，看到的則是一群狗」 ("last week" dropped). The headline "Others saw a jaw too" covers the first three; the Inuit line is the contrast, as in the Chinese 「則是」.
 8. E10 is the one rewritten line (Northern-Hemisphere mid-latitudes, not Taipei): the Chinese has Taipei 25 Dec 20:00, Aldebaran 57° up in the east and the Belt to its lower right. At 35–50° N on a late-December evening the Hyades are likewise climbing in the east with the Belt below them; "below it" simplifies 「右下方」. Please check this is acceptable.
 9. Diagram C-A15-01 (English) "Everyone must have a share of beer, or pay a fine — the feast lasts as long as the beer" = 「每個人都得備好一份啤酒，不然就罰錢——酒喝多久，節就過多久」. Diagram C-A15-03: Árvakr “Early Riser”, Alsviðr “Very Swift”, Hrímfaxi’s foam "from its bit" (the diagram's 嚼子; the narration says 嘴邊).
+
+## 審稿合併（Gemini EN06 審稿 → v1）
+
+採用（每條都對回中文 A-15 v2 逐字稿）：
+1. **E03**（🟡）：改為 “Before Christianity reached the North, the feast ran three nights from midwinter.”（12 字 ÷ 5 s ＝ 2.4 w/s）。依據 02 鏡「比基督教更早到北方：從仲冬那一夜開始，一連過三晚」；原句 “three nights from midwinter” 容易讀成「離仲冬三晚」，補動詞 ran 消歧。Gemini 原建議用 “it lasted”，改成 “the feast ran”，避免 it 指向 Christianity。Caption 同步改 “a feast kept in the North before Christianity reached it”。
+2. **E09**（🟡）：句首補 But：“But the Inuit saw dogs.”（19 字 ÷ 9 s ＝ 2.1 w/s）。依據 08 鏡「看到的則是一群狗」的轉折。
+3. **E06**（⚪，部分採用）：Gemini 要把 “The manuscript” 縮成 “It”（避免第 3 行孤字）。“It” 緊接著 Which wolf? 會讀成指那匹狼，所以改用 “The book”（中文 06 鏡「書上沒寫」，Caption 也用 book）。17 字 ÷ 7 s ＝ 2.4 w/s 不變。
+4. **標點**（⚪）：YouTube 標題與說明、Beats 內的圖表說明（E04、E07 的雙引號、Hákon’s）統一改成彎引號／彎撇號。Page sequence 第 20 頁 tapir’s jaw (Lokono) 本來就是彎撇號。
+
+不採用：
+- **E01 替代 Hook**（⚪）：Gemini 自己也建議維持原句；固定開場句型 “One sky. The [people] saw — [X].” 不動，封面第二行已是節目表的鉤子。
+- **「沒把握的地方」1–5 項**：Gemini 皆判定維持現狀（E10 below it、E02 Scandinavians、E05 this V of stars、E08 some guess、Lokono 只留標籤、兩張英文概念圖核對無誤），沒有要改的字。
+- Gemini 的新事實：沒有提出，無需排除。
+
+Canva：EN06 的 Canva 英文版尚未做（A-15_Canva媒體ID.json 沒有 en 區塊），所以沒有換字的頁面；卡 07 直接用 v1。
