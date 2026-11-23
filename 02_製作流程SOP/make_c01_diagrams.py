@@ -25,6 +25,66 @@ C.set_base(os.path.join(BASE, "05_素材/C-01_論天三家"))
 RED = "#FF6B6B"
 SUB = {"蓋": "蓋天說", "渾": "渾天說", "宣": "宣夜說", "三": "_三家並置"}
 
+# ── 英文版（EN42）：python3 make_c01_diagrams.py --lang en → 只出英文版用到的 5 組到 _概念圖/en/ ──
+# 圖上所有字都經過 T()；英文模式下照 TXT["en"] 換字（值可以是 "字"、("字", 字級) 或 ("字", 字級, y 位移)），
+# 找不到譯文、又含中文的字串會印警告，不會默默留中文。
+LANG = "zh"
+TXT = {"en": {
+    "示意圖・非等比例": "Schematic · not to scale",
+    # 蓋天兩版（只用題辭＋第一版）
+    "蓋天說，其實有兩版": ("Gaitian came in two versions", 36),
+    "第一版": ("Version 1", 30),
+    "「天員如張蓋，地方如棋局」": ("“The sky is round like an open canopy;\nthe earth is square like a chessboard”", 22, -0.02),
+    "《晉書・天文志》引周髀家": "Book of Jin, quoting the Zhoubi school",
+    # 蟻行磨石
+    "蟻行磨石": ("An Ant on a Millstone", 38),
+    "日月實東行，而天牽之以西沒": ("“Sun and moon really move east; the sky drags them west”", 21),
+    "磨左旋而蟻右去，磨疾而蟻遲，": ("“The stone turns left, the ant goes right;", 24),
+    "故不得不隨磨以左迴焉": ("the stone is fast, the ant slow — so it is carried left”", 24),
+    "磨左旋（天）": ("Stone = the sky", 20), "轉得快": ("turns left, fast", 18),
+    "蟻右行（日月）": ("Ant = sun, moon", 20), "爬得慢": ("crawls right, slow", 18),
+    # 天球（只用題辭、天球、載水而浮、地）
+    "「渾天如雞子，天體圓如彈丸，": ("“Huntian: the sky is like a hen’s egg,", 27),
+    "地如雞子中黃」": ("round as a pellet; the earth is the yolk”", 27),
+    "傳張衡《渾天儀注》": "attributed to Zhang Heng (Huntian Yi Zhu)",
+    "天表裏有水……天地各乘氣而立，載水而浮": ("“Inside the sky there is water … the earth floats on it”", 22),
+    "地如\n雞子中黃": ("Earth =\nthe yolk", 24),
+    # 宣夜
+    "「天了無質，仰而瞻之，高遠無極」": ("“The sky has no substance. Look up:\nhigh and far, without end”", 26, -0.03),
+    "《晉書・天文志》引東漢郗萌記先師所傳": "Book of Jin: Xi Meng (Eastern Han) records his teachers",
+    "「日月眾星，自然浮生虛空之中，": ("“Sun, moon and stars float freely in empty space;", 23),
+    "其行其止皆須氣焉」": ("moving or stopping, all by qi”", 23),
+    "日": "Sun", "月": "Moon", "歲星": "Jupiter", "熒惑": "Mars", "填星": "Saturn", "太白": "Venus",
+    "辰星": "Mercury",
+    # 三家並置
+    "論天三家": ("Three Theories of the Sky", 40),
+    "「古言天者有三家」——《晉書・天文志》": "“Of old, three schools spoke of the sky” — Book of Jin",
+    "蓋天說": ("Gaitian", 34), "渾天說": ("Huntian", 34), "宣夜說": ("Xuanye", 34),
+    "「天象蓋笠」": ("“Sky like a hat”", 21), "「渾天如雞子」": ("“Sky like an egg”", 21),
+    "「天了無質」": ("“No substance”", 21),
+    # 蔡邕評語：英文直接寫在 CAI_EN（兩行一框）
+    "東漢蔡邕上書評三家": "Eastern Han scholar Cai Yong judged the three",
+    "見《晉書・天文志》": "recorded in the Book of Jin",
+}}
+
+
+def tx(s, size):
+    if LANG == "zh" or not s:
+        return s, size, 0.0
+    v = TXT[LANG].get(s)
+    if v is None:
+        if any("　" <= ch <= "鿿" or "＀" <= ch <= "￯" for ch in s):
+            print(f"  ⚠ 沒有英文：{s}")
+        return s, size, 0.0
+    if isinstance(v, str):
+        return v, size, 0.0
+    return v[0], v[1], (v[2] if len(v) > 2 else 0.0)
+
+
+def T(ax, x, y, s, size=20, *a, **k):
+    s, size, dy = tx(s, size)
+    C.T(ax, x, y + dy, s, size, *a, **k)
+
 
 def footer(ax, s="示意圖・非等比例", y=-0.94):
     T(ax, 0, y, s, 20, WHITE, alpha=.55)
@@ -640,10 +700,11 @@ def trio_col(key):
 
 
 CAI = {"蓋": ["考驗天狀，", "多所違失」"], "渾": ["近得其情」"], "宣": ["絕無師法」"]}
+CAI_EN = {"蓋": ["“Tested:", "often wrong”"], "渾": ["“Close to", "the truth”"], "宣": ["“No method", "handed down”"]}
 
 
 def trio_cai(key):
-    cx, col, lines = COLX[key], COLC[key], CAI[key]
+    cx, col, lines = COLX[key], COLC[key], (CAI_EN[key] if LANG == "en" else CAI[key])
 
     def fn(ax):
         n = len(lines)
@@ -652,7 +713,7 @@ def trio_cai(key):
         ax.add_patch(FancyBboxPatch((cx-0.27, -0.47-h), 0.54, h, boxstyle="round,pad=0.012,rounding_size=0.03",
                                     fc=BG, ec=col, lw=2.2, alpha=.95))
         for i, s in enumerate(lines):
-            T(ax, cx, yc + (n-1)*0.0425 - i*0.085, ("「" if i == 0 else "") + s, 24, col)
+            T(ax, cx, yc + (n-1)*0.0425 - i*0.085, ("「" if i == 0 and LANG == "zh" else "") + s, 24, col)
     return fn
 
 
@@ -706,7 +767,33 @@ def card():
     save(f, SUB["三"], "三家對照表_圖卡_黑底.png", transparent=False)
 
 
+def main_en():
+    """英文版：只出 EN42 用到的 5 組（子資料夾、檔名同中文版）"""
+    print("── 蓋天兩版（題辭＋第一版）──")
+    emit(SUB["蓋"], [("題辭", gai2_title), ("第一版", gai2_v1)], title="蓋天兩版")
+    print("── 蟻行磨石 ──")
+    emit(SUB["蓋"], [("題辭", mill_title), ("磨盤", mill), ("蟻", mill_ant), ("旋向", mill_dirs)],
+         title="蟻行磨石")
+    print("── 渾天：天球（題辭、天球、載水而浮、地）──")
+    emit(SUB["渾"], [("題辭", hun_title), ("天球", hun_sphere), ("載水而浮", hun_water), ("地", hun_earth)],
+         title="天球")
+    print("── 宣夜 ──")
+    emit(SUB["宣"], [("氣_第1", qi_layer(0)), ("氣_第2", qi_layer(1)), ("氣_第3", qi_layer(2)),
+                     ("眾星", xy_stars), ("日月五星", xy_bodies), ("題辭", xy_title), ("題辭2", xy_title2)],
+         title="宣夜")
+    print("── 三家並置 ──")
+    emit(SUB["三"], [("題辭", trio_title), ("蓋天", trio_col("蓋")), ("渾天", trio_col("渾")),
+                     ("宣夜", trio_col("宣")), ("評_蓋天", trio_cai("蓋")), ("評_渾天", trio_cai("渾")),
+                     ("評_宣夜", trio_cai("宣")), ("評_出處", trio_cai_note), ("宣夜高亮", trio_glow)],
+         title="論天三家")
+    print("done")
+
+
 if __name__ == "__main__":
+    if "--lang" in sys.argv:                  # 英文版：寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        C.set_base(os.path.join(BASE, "05_素材/C-01_論天三家/_概念圖", LANG))
+        main_en(); sys.exit()
     print("── 蓋天兩版 ──")
     emit(SUB["蓋"], [("題辭", gai2_title), ("第一版", gai2_v1), ("四角", gai2_corners), ("第二版", gai2_v2)],
          title="蓋天兩版")
