@@ -1,0 +1,45 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,3,World Sky Cultures,"One sky. The Bugis sailors saw — a
+compass.",cover,Cover: text block replaced with English; EN · EP20 tag
+2,,鏡頭01開始,2,,"The Bugis of South Sulawesi, Indonesia,
+are famous traders and sailors.",bottom,E02; **delete** the last-episode labels (Guirá Nhandu／上集：圖皮的美洲鴕) and the rhea lines: international viewers have not seen A-25
+7,,鏡頭01結束＝鏡頭02開始,3,,"The Bugis of South Sulawesi, Indonesia,
+are famous traders and sailors.",bottom,E02 (pages 3–6 removed: the rotation runs 2 → 7 in one Match & Move)
+8,,鏡頭02-概念圖1,2.5,Their wooden ships sailed far,,top,"map, English (`_概念圖/en/C-A26-01_航線地圖_地圖層`); E03 headline"
+9,,鏡頭02-概念圖2,3,Their wooden ships sailed far,,top,+ English `航線層`; E03 headline
+10,,鏡頭02-概念圖收＝鏡頭03開始,5.5,,"Crews told anthropologist Gene Ammarell
+which star rises or sets over each
+island.",bottom,diagram fades; E04
+11,,鏡頭03-概念圖1,2.5,He called it a star compass,,top,"compass, English (`C-A26-02_星羅盤_港口層`); E05 headline"
+12,,鏡頭03-概念圖2,3.5,He called it a star compass,,top,+ English `星路層`; E05 headline
+13,,鏡頭03-概念圖收＝鏡頭04開始,4.5,,"Their most-used guides: Alpha Centauri
+and Hadar, side by side. The Bugis call
+them bintoéng balué — the Widow.",bottom,diagram fades; E06
+19,,鏡頭04結束＝鏡頭05開始,5,Her groom died before the wedding,"Their most-used guides: Alpha Centauri
+and Hadar, side by side. The Bugis call
+them bintoéng balué — the Widow.",bottom、top,E06 + E07; label bintoéng balué (pages 14–18 removed)
+23,,鏡頭05結束＝鏡頭06開始,6,"Late July, at dusk, facing south","She stands right over the port of Bima.
+Sailors set course by her.",top,E08; labels 寡婦 → the Widow; 往 Bima 港 184.5° → to Bima port 184.5° (pages 20–22 removed)
+26,,鏡頭07-中1,2.5,The Southern Cross: a lame house,"Beside her, bola képpang: one post is
+shorter than the other, so the house
+leans.",top,"E09; labels 瘸腿的房子 → the lame house; 山羊（煤袋） → the goat (Coalsack) (pages 24–25, the distance diagram, removed)"
+30,,鏡頭07結束,5,The Southern Cross: a lame house,"Beside her, bola képpang: one post is
+shorter than the other, so the house
+leans.",top,E09; labels as page 26
+31,,鏡頭08開始,4,,"And north? At 5° S, the Pole Star is
+always below the horizon.",bottom,**hard cut (no transition)** to the north disk; E10
+34,,鏡頭08-中3,2.5,,"And north? At 5° S, the Pole Star is
+always below the horizon.",bottom,E10; labels 船星（北斗） → the Ship Star (Big Dipper); ↓ 北極星：地平線下 5° → ↓ Pole Star: 5° below the horizon
+37,,鏡頭08結束＝鏡頭09開始,6,The Big Dipper: the Ship Star,"North is marked by bintoéng kappala'é —
+like their own wooden boats.",bottom,E11; labels as page 34
+44,,鏡頭10開始,3,"East: Altair, the Eastern Star","Bintoéng timoro'. Seen from Sulawesi, it
+rises almost due east.",top,"**hard cut** to the long chart (pages 38–43, the Mandar Widow and the Magellanic Clouds, removed); E12"
+47,,鏡頭10結束＝鏡頭11開始,3.5,"East: Altair, the Eastern Star","Bintoéng timoro'. Seen from Sulawesi, it
+rises almost due east.",top,E12; labels 東方的星 → the Eastern Star; 正東 → due east; 牛郎星從東偏北 9° 升起 → Altair rises 9° north of east
+71,,鏡頭14開始,7,"Late March, after dark: look northeast","The Big Dipper, handle down: the Bugis
+ship.",bottom,**hard cut** to the north disk (Taipei view); E13; label 船星（北斗） → the Ship Star (Big Dipper)
+93,,鏡頭16開始,3,Next Wednesday,"Mandar: the same Dipper becomes a
+fishing net.",endcard,E14; label 船星 → the Ship Star
+96,,鏡頭16-中3,3,Next Wednesday,"Mandar: the same Dipper becomes a
+fishing net.",endcard,E14; label 曼達爾：漁網（下集） → Mandar: the fishing net (next week)
+99,,鏡頭16結束,3,,Follow for a new sky every week.,endcard,E15; labels as page 96

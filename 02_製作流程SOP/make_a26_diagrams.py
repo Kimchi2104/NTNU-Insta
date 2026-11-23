@@ -16,7 +16,7 @@ C-A26-07 這週末抬頭看（9:16 圖卡，可存圖；台北 2027/3/19–3/20�
 （tukano 001、tupi 001、bugis 002＋003），星點照 Hipparcos。不翻拍任何書影、不畫族人肖像、不畫 Pinisi 帆船（照片另尋授權）。
 
 執行：python3 make_a26_diagrams.py            （中文，輸出 05_素材/A-26_布吉斯/_概念圖/）
-      python3 make_a26_diagrams.py --lang en  （英文，輸出 _概念圖/en/；本次只出 zh）
+      python3 make_a26_diagrams.py --lang en  （英文，輸出 _概念圖/en/；只出 EN20 用的 C-A26-01、02）
 """
 import os, sys, math, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -75,10 +75,10 @@ TXT = {
         "c07_src": "PyEphem 4.2.1 自算（台北 25.033°N 121.565°E；墾丁 21.95°N 120.80°E）",
     },
     "en": {
-        "c01_title": "How far South Sulawesi's sailing ships went", "c01_sub": "Hand-drawn sketch; routes are schematic",
+        "c01_title": "How far South Sulawesi ships sailed", "c01_sub": "Hand-drawn sketch; routes are schematic",
         "sulawesi": "Sulawesi", "borneo": "Borneo", "java": "Java", "sumatra": "Sumatra", "malay": "Malay Peninsula",
-        "png": "New Guinea", "aus": "Australia", "phil": "Philippines", "makassar": "Makassar", "bugis": "the Bugis",
-        "bugis2": "(South Sulawesi)", "r_arch": "all over the Indonesian archipelago", "r_west": "west: Malay Peninsula, Singapore",
+        "png": "New\nGuinea", "aus": "Australia", "phil": "Philippines", "makassar": "Makassar", "bugis": "the Bugis",
+        "bugis2": "(South Sulawesi)", "r_arch": "all over the Indonesian archipelago", "r_west": "west: Malaya, Singapore",
         "r_south": "south: northern Australia", "flores": "Flores Sea", "singapore": "Singapore",
         "c01_foot": "Rasyid, Hidayat & Orchiston 2021, p. 550; boatbuilding: UNESCO 2017 (Pinisi)",
         "c02_title": "A star compass", "c02_sub": "Seen from Balobaloang: one bearing per port",
@@ -511,9 +511,12 @@ def c07_card(ax):
 
 def main():
     global LANG
-    if "--lang" in sys.argv:
+    if "--lang" in sys.argv:                      # 英文版：只出 EN20 會用到的兩組，寫到 _概念圖/en/
         LANG = sys.argv[sys.argv.index("--lang") + 1]
         CB.set_base(os.path.join(OUT, LANG))
+        CB.emit("", [("地圖", c01_map), ("航線", c01_route)], title="C-A26-01_航線地圖")
+        CB.emit("", [("港口", c02_ports), ("星路", c02_star)], title="C-A26-02_星羅盤")
+        return
     os.makedirs(OUT, exist_ok=True)
     CB.emit("", [("地圖", c01_map), ("航線", c01_route)], title="C-A26-01_航線地圖")
     CB.emit("", [("港口", c02_ports), ("星路", c02_star)], title="C-A26-02_星羅盤")
