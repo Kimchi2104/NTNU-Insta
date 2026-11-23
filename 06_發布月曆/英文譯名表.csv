@@ -20,7 +20,7 @@
 說文解字,Shuowen Jiezi,Literature,A-01,2nd-century dictionary by Xu Shen describing dragon ascendance
 詩經,Shijing (Book of Songs),Literature,A-01,Ancient Chinese poetry collection containing the Odes of Bin
 三垣,Three Enclosures,Asterism,A-02,"Ziwei Yuan, Taiwei Yuan, and Tianshi Yuan"
-紫微垣,Purple Forbidden Enclosure (Ziwei Yuan),Asterism,A-02,Circumpolar enclosure representing the celestial imperial palace
+紫微垣,Purple Forbidden Enclosure (Ziwei Yuan),Asterism,"A-02, EN15",Circumpolar enclosure representing the celestial imperial palace; short form on English cards: the Ziwei Enclosure
 太微垣,Supreme Palace Enclosure (Taiwei Yuan),Asterism,A-02,Southern enclosure representing the celestial government ministries
 天市垣,Heavenly Market Enclosure (Tianshi Yuan),Asterism,A-02,Summer/autumn enclosure representing the public marketplace
 紫禁城,Forbidden City,Cultural Concept,A-02,Imperial palace in Beijing named after the celestial Ziwei palace
@@ -255,3 +255,11 @@ Yikáísdáhí（等待黎明的）,Yikáísdáhí (Awaiting the Dawn) / the Mil
 hooghan,hooghan,Cultural Concept,"A-16, EN09",Childrey's spelling; English “hogan” not used
 鹿皮袋（A-16）,fawnskin pouch,Cultural Concept,"A-16, EN09",Childrey: spotted skin of a fawn
 初霜到春雷,from first frost to first thunder,Cultural Concept,"A-16, EN09",the storytelling season
+元宵,the Lantern Festival,Festival,"H-元宵, EN15",15th day of the 1st lunar month
+上元,the Upper Yuan,Festival,"H-元宵, EN15",first of the three Yuan days (Middle Yuan 7/15; Lower Yuan 10/15)
+三官大帝,the Three Officials,Deity,"H-元宵, EN15","Heaven, Earth and Water Officials"
+天官,the Heaven Official (Tianguan),Deity,"H-元宵, EN15",grants blessings (天官賜福); not the 天官 of 史記・天官書
+紫微大帝,Ziwei Dadi,Deity,"H-元宵, EN15",a title of the Heaven Official (又稱 = also called)
+天帝,the Sky Emperor,Cultural Concept,"H-元宵, EN15",the Ziwei Enclosure is his palace
+帝車（斗為帝車）,the Sky Emperor's chariot,Asterism,"H-元宵, EN15",the Big Dipper (Shiji; Sima Qian)
+司馬遷,Sima Qian,Person,"H-元宵, EN15",author of the Shiji
