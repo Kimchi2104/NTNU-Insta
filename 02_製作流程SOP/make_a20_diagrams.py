@@ -6,7 +6,7 @@
   C-A20-03_紅鳥興周      → 09 鏡（火落屋頂層 → 赤烏層 → 歲在鶉火層）
   C-A20-05_除夕抬頭看    → 12 鏡（9:16 圖卡，可存圖）
   C-A20-04_四象總圖      → 15 鏡（9:16 圖卡，可存圖）
-輸出：05_素材/A-20_朱雀/_概念圖/（--lang en → _概念圖/en/；這次只出 zh）
+輸出：05_素材/A-20_朱雀/_概念圖/（--lang en → _概念圖/en/：只出 EN13 用到的 C-A20-02、03）
 
 來源（數字與逐字稿 v1「星空對時」一致；圖卡的高度方位由 PyEphem 現算，含大氣折射 1010 hPa、15°C）：
   Stellarium chinese（二十八宿連線）；《禮記・曲禮上》；《左傳・襄公九年》（咮為鶉火，心為大火）；
@@ -83,18 +83,18 @@ TXT = {
         "huozheng": "Fire Officer (ancient)", "q_zuo": "\"The beak is Quail Fire, the Heart is Great Fire\"",
         "c01_note": "Their seasonal risings told people when to start and stop fires",
         "c01_src": "Du Yu: fire officers were honoured with these two stars after death",
-        "c02_title": "One egg", "c02_sub": "Records of the Grand Historian: Yin Annals",
+        "c02_title": "One egg", "c02_sub": "Shiji: Annals of Yin",
         "jiandi": "Jiandi", "bath": "three women go bathing", "egg": "a dark bird dropped its egg; Jiandi swallowed it",
-        "qi": "Xie", "qi_zy": "(契)", "qi2": "ancestor of Shang", "q_shi": "\"Heaven bade the dark bird descend and give birth to Shang\"",
+        "qi": "Xie", "qi_zy": "", "qi2": "ancestor of Shang", "q_shi": "\"Heaven sent the dark bird down to bear Shang\"",
         "q_shi_src": "Book of Songs, Hymns of Shang",
         "c02b_title": "Not laid by the Vermilion Bird", "c02b_sub": "xuan = black",
         "yan": "dark bird = swallow", "yan2": "Mao and Zheng commentaries; Yueling: swallows return in mid-spring",
         "shang": "Shang's star: Great Fire (Antares)", "shang2": "\"Shang took the Great Fire\" — Zuozhuan",
-        "c03_title": "A red bird for Zhou", "c03_sub": "Zhou Annals; Discourses of the States",
+        "c03_title": "A red bird for Zhou", "c03_sub": "Shiji: Annals of Zhou; Guoyu (Discourses of the States)",
         "q_fire": "\"A fire came down onto the king's house\"", "fire2": "after King Wu crossed the Yellow River",
-        "q_wu": "\"It became a crow, red in colour\"", "wu2": "the fire turned into a red crow",
-        "q_guo": "\"When King Wu attacked Yin, Jupiter was in Quail Fire\"",
-        "guo2": "sui = Jupiter; Quail Fire = Zhou's field",
+        "q_wu": "\"…a crow, red in colour\"", "wu2": "the fire turned into a red crow",
+        "q_guo": "\"Jupiter was in Quail Fire\"",
+        "guo2": "the year King Wu attacked Yin · Quail Fire = Zhou's field",
         "shou": "Quail Head", "huo": "Quail Fire", "wei": "Quail Tail", "sui": "Jupiter",
         "c03_note": "Modern orbits: in Jan 1046 BCE Jupiter was in the Star mansion (Quail Fire)",
         "c03_src": "1046 BCE = Xia–Shang–Zhou Chronology Project date; whether the record is first-hand is debated",
@@ -354,13 +354,15 @@ def c03_fire(ax):
 
 def c03_crow(ax):
     ax.add_patch(Polygon(bird_shape("crow", -0.12, 0.26, 0.34), closed=True, fc=RED, ec=WHITE, lw=1.4, zorder=6))
-    T(ax, 0.32, 0.22, tx("q_wu"), 22, RED)
-    T(ax, 0.32, 0.13, tx("wu2"), 14, WHITE, w="normal")
+    wx = 0.32 if LANG == "zh" else 0.46           # 英文較長：右移，避開烏鴉
+    T(ax, wx, 0.22, tx("q_wu"), 22, RED)
+    T(ax, wx, 0.13, tx("wu2"), 14, WHITE, w="normal")
 
 
 def c03_sui(ax):
-    T(ax, 0, -0.24, tx("q_guo"), 22, AMBER)
-    T(ax, 0, -0.33, tx("guo2"), 14, WHITE, w="normal")
+    gx = 0.0 if LANG == "zh" else 0.32           # 英文句子較長：移到房子右邊
+    T(ax, gx, -0.24, tx("q_guo"), 22, AMBER)
+    T(ax, gx, -0.33, tx("guo2"), 14, WHITE, w="normal")
     y0, h = -0.56, 0.12
     segs = [("wei", -0.85, -0.30, .18), ("huo", -0.30, 0.30, .55), ("shou", 0.30, 0.85, .18)]   # 東在左
     for key, a, b, al in segs:
@@ -445,6 +447,11 @@ def main():
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
         C.set_base(os.path.join(OUT, LANG))
+        os.makedirs(C._BASE, exist_ok=True)       # 英文版：只出 EN13 會用到的兩組（蛋、紅鳥）
+        C.emit("", [("河邊", c02_river), ("蛋", c02_egg), ("契", c02_qi)], title="C-A20-02_一顆蛋")
+        C.emit("", [("燕子", c02_swallow)], preview_name="燕子預覽", title="C-A20-02_一顆蛋")
+        C.emit("", [("火落屋頂", c03_fire), ("赤烏", c03_crow), ("歲在鶉火", c03_sui)], title="C-A20-03_紅鳥興周")
+        return
     os.makedirs(C._BASE, exist_ok=True)
     C.emit("", [("三象", c06_three), ("引文", c06_quote), ("朱雀", c06_bird)], title="C-A20-06_前朱鳥後玄武")
     C.emit("", [("柳宿", c01_liu), ("心宿", c01_xin), ("火正", c01_zheng)], title="C-A20-01_兩個火")

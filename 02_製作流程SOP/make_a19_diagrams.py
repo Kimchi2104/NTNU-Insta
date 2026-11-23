@@ -68,7 +68,7 @@ TXT = {
         "c05_title": "How far is Canopus?", "sun": "Sun", "sir": "Sirius 8.6 ly", "can": "Canopus 309 ly",
         "far": "36× farther", "bright": "Intrinsically about 660× brighter than Sirius", "bright2": "so it looks only a little fainter",
         "old_cn": "In China: the Old Man of the South Pole", "quote": "“When the Old Man appears, there is peace; when not, war.”",
-        "src": "Shiji, Treatise on the Celestial Offices", "xian": "", "ly": "ly",
+        "src": "Shiji, Treatise on the Heavenly Offices", "xian": "", "ly": "ly",
         "c06_title": "This weekend: Suhail", "c06_date": "Fri 29 Jan 2027, Taipei · facing south",
         "S": "S", "SE": "SE", "SW": "SW", "c06_can": "Canopus", "c06_sir": "Sirius",
         "c06_t": "21:43 due south, 12°", "n1": "Find a clear southern horizon", "n2": "Kenting (Eluanbi): 15° (21:47)",
@@ -315,6 +315,9 @@ def main():
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
         C.set_base(os.path.join(OUT, LANG))
+        os.makedirs(C._BASE, exist_ok=True)       # 英文版：只出 EN12 會用到的 C-A19-02（其他幾組的故事 EN12 沒講）
+        C.emit("", [("原字", c02_orig), ("抄錯", c02_copy)], title="C-A19-02_抄錯一個字母")
+        return
     os.makedirs(C._BASE, exist_ok=True)
     C.emit("", [("今日", c01_now), ("古詩", c01_old)], title="C-A19-01_兩層阿拉伯星空")
     C.emit("", [("原字", c02_orig), ("抄錯", c02_copy)], title="C-A19-02_抄錯一個字母")
