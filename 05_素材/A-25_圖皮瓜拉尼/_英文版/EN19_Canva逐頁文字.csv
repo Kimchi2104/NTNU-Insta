@@ -1,0 +1,61 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,4.5,World Sky Cultures,"One sky. The Tupinambá saw — an ostrich
+hungry for eggs.",cover,Cover: text block replaced with English; EN · EP19 tag
+2,,鏡頭01開始,2,,"1612: a French fort on Maranhão Island,
+Brazil. Four Capuchin friars came with
+the ships.",bottom,E02; labels → Yandoutin (rhea) / Ouyra-Oupia (two eggs)
+3,,鏡頭01結束＝鏡頭02開始,2,,"1612: a French fort on Maranhão Island,
+Brazil. Four Capuchin friars came with
+the ships.",bottom,E02
+4,,鏡頭02-概念圖1,3,,"1612: a French fort on Maranhão Island,
+Brazil. Four Capuchin friars came with
+the ships.",bottom,E02; English `C-A25-01_馬拉尼昂島_地圖層`
+5,,鏡頭02-概念圖2,3,,"1612: a French fort on Maranhão Island,
+Brazil. Four Capuchin friars came with
+the ships.",bottom,E02; ＋English `航線層`
+6,,鏡頭02-概念圖收＝鏡頭03開始,1.5,,"One, Claude d’Abbeville, published a
+book in Paris in 1614.",bottom,E03; diagram fades
+7,,鏡頭03-概念圖,3.5,,"One, Claude d’Abbeville, published a
+book in Paris in 1614.",bottom,"E03; English `C-A25-02_1614年的書_扉頁層` (title page, caption “Claude d'Abbeville (Capuchin friar)”)"
+8,,鏡頭03-概念圖收＝鏡頭04開始,1.5,,"Nearly everyone knew most of their
+stars, each by a name the ancestors
+gave.",bottom,E04
+9,,鏡頭04-概念圖,4.5,,"Nearly everyone knew most of their
+stars, each by a name the ancestors
+gave.",bottom,"E04; English `C-A25-02_1614年的書_原文層` (“A name for every star”, nom propre boxed)"
+10,,鏡頭04-概念圖收＝鏡頭05開始,1.5,,"Then he copied 28 names: a rainy jaw, a
+nine-star grill, a monkey, a boy eating
+soup.",bottom,E05
+11,,鏡頭05-概念圖1,2.5,,"Then he copied 28 names: a rainy jaw, a
+nine-star grill, a monkey, a boy eating
+soup.",bottom,E05; English `C-A25-03_二十八個名字_名單層`
+12,,鏡頭05-概念圖2,3.5,,"Then he copied 28 names: a rainy jaw, a
+nine-star grill, a monkey, a boy eating
+soup.",bottom,E05; ＋English `九個層` (nine names with English meanings)
+13,,鏡頭05-概念圖收＝鏡頭06開始,1.5,,"Then: “and many others, which I leave
+out.” Mostly, he never said which stars.",bottom,E06
+14,,鏡頭06-概念圖1,3,,"Then: “and many others, which I leave
+out.” Mostly, he never said which stars.",bottom,E06; English `C-A25-03_二十八個名字_結尾原文層` (“Many others I leave out”)
+15,,鏡頭06-概念圖2,3,,"Then: “and many others, which I leave
+out.” Mostly, he never said which stars.",bottom,"E06; ＋English `問號層` (28 tiles; Pleiades, morning star, a cross)"
+16,,鏡頭06-概念圖收＝鏡頭07開始,4.5,,"The island’s Tupinambá later vanished
+through war, disease and slavery.",bottom,"E07; diagram fades; half a second of empty sky before the text, as in Chinese"
+17,,鏡頭07-概念圖1,5.5,,"Nearly 400 years later, astronomer
+Germano Afonso watched the sky with the
+Guarani.",bottom,E08; English `C-A25-04_兩千五百公里_地圖層`
+18,,鏡頭07-概念圖2,5,,"Distant relatives, 2,500 km apart, with
+similar skies. Some names came back.",bottom,E09; ＋English `時間軸層`
+19,,鏡頭07-概念圖收＝鏡頭08開始＝鏡頭09開始,7,The white ostrich,"The grandest, Yandoutin: Afonso traced
+it as a rhea, from the Southern Cross to
+Scorpius.",bottom,"E10; whole rhea lit; labels → Yandoutin / white ostrich (rhea), small “identified by Afonso”"
+20,,鏡頭09結束＝鏡頭10開始,4.5,,"Its beak reaches for two stars:
+Ouyra-Oupia, “the two eggs”.",bottom,E11; close-up on the beak; label → Ouyra-Oupia / two eggs (the orange “swallowed eggs” circles stay but get no caption)
+21,,鏡頭10結束,7,,"The Guarani say the Southern Cross grips
+its head. Let go, and it drinks the
+earth dry.",bottom,E12; label 南十字抓頭 → the Southern Cross holds its head; then Match & Move straight to 51 (both south disc)
+51,,鏡頭18開始,6,"In March, around midnight","Its body, Scorpius, rises in the
+southeast. From mid-northern latitudes,
+its head never rises.",top,"E13; disc back upright, closing on Scorpius; label 鴕鳥的身體 → the rhea’s body; Chinese next-episode card removed from this page"
+52,,鏡頭18結束,5,Next Wednesday,"Bugis: the sailors’ star compass.
+
+Follow for a new sky every week.",endcard、endcard,E14 + E15; end card text → Next Wednesday; keep the follow CTA
