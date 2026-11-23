@@ -1,0 +1,39 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,3,World Sky Cultures,"One sky. The Tongans saw — sailing
+routes.",cover,"Cover: text block replaced with English; second line = the hook (“In Tonga, some star names are sailing orders.”, written into the schedule with this v0); EN · EP49 tag"
+2,,鏡頭01開始,4,Tonga: about 170 islands,"For Tongans, astronomy was part of
+navigation.",bottom,E02 (the Chinese 字卡 is replaced)
+3,,鏡頭01結束＝鏡頭02開始,3,Tonga: about 170 islands,"For Tongans, astronomy was part of
+navigation.",bottom,E02
+4,,鏡頭02結束,7,,"Their sky survives almost only in a
+sailing guide written by high chief
+Tukuʻaho in the 1890s.",bottom,E03
+5,,鏡頭02-概念圖,4,Some star names are sailing orders,,top,"map, English (`_概念圖/en/C-A10-01_東加地圖_島嶼層_透明.png`); E04 headline only"
+6,,鏡頭02-概念圖收＝鏡頭03開始,2,,,,diagram fades; no text; then the sky slides north up the corridor to 18 (pages 7–17 removed)
+18,,鏡頭08結束,7,No Pole Star in Tonga,"From Tonga, the Pole Star stays more
+than 20° below the horizon.",bottom,E06; label Pole Star
+19,,長圖轉北盤2＝鏡頭09開始,7,The way north needs other stars,"Mid-November, 10 p.m., on Vavaʻu: a W
+sits about 10° above the northern sea.",top,"**hard cut (no transition)** from 18: long chart → north disc, same frame; E07"
+20,,鏡頭09結束＝鏡頭10開始,2,The way north needs other stars,"Mid-November, 10 p.m., on Vavaʻu: a W
+sits about 10° above the northern sea.",top,"disc turns, mountain rises to the Vavaʻu horizon; E07; label Kapakau ʻo Tafahi / Tafahi’s Wing"
+21,,鏡頭10結束,6,Kapakau ʻo Tafahi: Tafahi’s Wing,"The guide says it is a hen, wings
+spread, brooding over Tafahi island.",top,E08; labels as 20 + Cassiopeia
+22,,鏡頭10-概念圖1,3,Too far to see the island,,top,"diagram, English (`_概念圖/en/C-A10-02_Tafahi的翅膀_地平層_透明.png`); E09 headline only"
+23,,鏡頭10-概念圖2,4,Too far to see the island,,top,+ `en/…_母雞層`; E09 headline only
+24,,鏡頭10-概念圖收＝鏡頭11開始,4,,"Which eight stars? Sources differ.
+Stellarium guesses Cassiopeia.",top,diagram fades; E10; label as 20
+25,,鏡頭11結束,7,ʻAo ʻo ʻUvea: ʻUvea’s circlet,"A ring of small stars. Use it only when
+it sits over ʻUvea like a headband.",top,"disc turns to −39°, mountain moves to the Tongatapu horizon; E11; label ʻAo ʻo ʻUvea / ʻUvea’s circlet"
+26,,鏡頭11-概念圖1,3,ʻUvea: 880 km to the north,,top,"map, English (`en/C-A10-01_東加地圖_島嶼層`); E12 headline only"
+27,,鏡頭11-概念圖2,4,ʻUvea: 880 km to the north,,top,+ `en/…_航線層`; E12 headline only
+28,,鏡頭11-概念圖收,5,,"Stellarium guesses Corona Borealis,
+highest in Tonga’s north on July
+evenings.",top,"diagram fades; E13; label as 25; then the disc turns straight to 41 (pages 29–40, the pigeon roost, Hina’s boat, the Pleiades, the two records and the return to the long chart, removed; same disc group, so Match & Move)"
+41,,鏡頭16結束＝鏡頭17開始,7,Look up this week,"After dark, look northwest: the W of
+Cassiopeia, Stellarium’s guess for
+Tafahi’s Wing.",bottom,"E14; labels Tafahi’s Wing (Cassiopeia); Taipei horizon. The Chinese disc angle (−159.2°) is 13 Nov 20:00; for 31 Jan 20:00 the sky has turned about 78° further: set about +123° (= −237°) so the W sits in the northwest, and check the label sits clear of the text"
+42,,鏡頭17結束,3,Look up this week,"After dark, look northwest: the W of
+Cassiopeia, Stellarium’s guess for
+Tafahi’s Wing.",bottom,E14; as 41 (+20 min)
+43,,端卡（下集見）,4,Next Wednesday,Ancient Arabia: a desert zoo in the sky.,endcard,E15
+44,,追蹤頁,—,,Follow for a new sky every week.,endcard,E16
