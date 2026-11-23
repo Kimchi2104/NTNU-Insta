@@ -5,7 +5,7 @@
 | Source | Chinese A-26 v1 (`A-26-布吉斯帆船民族的星羅盤-逐字稿-v1.md`, fact-checked + external review 11/11). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-03-24 (Wed) 21:00 Taiwan time**: EN20 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Chinese A-26 airs 3/19) |
 | Length | **83 s** (including the 3 s follow page), 15 beats, ~138 words of body text plus headlines (no voice-over; text over light music) |
-| Story | One story only: **the sky as a sailor's compass**. Bugis crews know which star rises or sets over which island; the Widow (Alpha Centauri + Hadar) stands over the port of Bima at dusk in late July; next to her the Southern Cross is a lame house; at 5° S the Pole Star never shows, so north is the Big Dipper, the Ship Star; Altair, the Eastern Star, rises almost due east. Close: the Ship in our own March sky, and next week's Mandar see a fishing net there |
+| Story | One story only: **the sky as a sailor's compass**. Bugis crews know which star rises or sets over which island; the Widow (Alpha Centauri + Hadar) stands over the port of Bima at dusk in late July; next to her the Southern Cross is a lame house; at 5° S the Pole Star never shows, so north is the Big Dipper, the ship; Altair, the Eastern Star, rises almost due east. Close: the Ship in our own March sky, and next week's Mandar see a fishing net there |
 | Canva | Copy of `A-26 布吉斯` → `EN20 A-26 布吉斯` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover). The Chinese design has no separate end-card / follow pages: shot 16 (pages 93–99, the Ship fading into Mandar's net) already carries 下集見, so E14 and E15 replace that text. Skipped middle pages (“-中n”) are simply unused: Canva's Match & Move interpolates the same path. English diagrams: `05_素材/A-26_布吉斯/_概念圖/en/` (same file names as the Chinese layers). |
 | Opening line | *One sky. The Bugis sailors saw — a compass.* (= the Chinese 統一開頭) |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.36; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
@@ -26,7 +26,7 @@
 | E08 | 6 | 23 | top | Late July, at dusk, facing south | She stands right over the port of Bima. Sailors set course by her. | 2.2 |
 | E09 | 7.5 | 26, 30 | top | The Southern Cross: a lame house | Beside her, bola képpang: one post is shorter than the other, so the house leans. | 2.0 |
 | E10 | 6.5 | 31, 34 | bottom | | And north? At 5° S, the Pole Star is always below the horizon. | 1.8 |
-| E11 | 6 | 37 | bottom | The Big Dipper: the Ship Star | North is marked by bintoéng kappala'é — like their own wooden boats. | 1.8 |
+| E11 | 6 | 37 | bottom | The Big Dipper: the ship | North is marked by bintoéng kappala'é — like their own wooden boats. | 1.8 |
 | E12 | 6.5 | 44, 47 | top | East: Altair, the Eastern Star | Bintoéng timoro'. Seen from Sulawesi, it rises almost due east. | 1.5 |
 | E13 | 7 | 71 | bottom | Late March, after dark: look northeast | The Big Dipper, handle down: the Bugis ship. | 1.1 |
 | E14 | 6 | 93, 96 | endcard | Next Wednesday | Mandar: the same Dipper becomes a fishing net. | 1.3 |
@@ -52,13 +52,13 @@
 | 26 | | 鏡頭07-中1 | 2.5 | E09; labels 瘸腿的房子 → the lame house; 山羊（煤袋） → the goat (Coalsack) (pages 24–25, the distance diagram, removed) |
 | 30 | | 鏡頭07結束 | 5 | E09; labels as page 26 |
 | 31 | | 鏡頭08開始 | 4 | **hard cut (no transition)** to the north disk; E10 |
-| 34 | | 鏡頭08-中3 | 2.5 | E10; labels 船星（北斗） → the Ship Star (Big Dipper); ↓ 北極星：地平線下 5° → ↓ Pole Star: 5° below the horizon |
+| 34 | | 鏡頭08-中3 | 2.5 | E10; labels 船星（北斗） → the ship (Big Dipper); ↓ 北極星：地平線下 5° → ↓ Pole Star: 5° below the horizon |
 | 37 | | 鏡頭08結束＝鏡頭09開始 | 6 | E11; labels as page 34 |
 | 44 | | 鏡頭10開始 | 3 | **hard cut** to the long chart (pages 38–43, the Mandar Widow and the Magellanic Clouds, removed); E12 |
 | 47 | | 鏡頭10結束＝鏡頭11開始 | 3.5 | E12; labels 東方的星 → the Eastern Star; 正東 → due east; 牛郎星從東偏北 9° 升起 → Altair rises 9° north of east |
-| 71 | | 鏡頭14開始 | 7 | **hard cut** to the north disk (Taipei view); E13; label 船星（北斗） → the Ship Star (Big Dipper) |
-| 93 | | 鏡頭16開始 | 3 | E14; label 船星 → the Ship Star |
-| 96 | | 鏡頭16-中3 | 3 | E14; label 曼達爾：漁網（下集） → Mandar: the fishing net (next week) |
+| 71 | | 鏡頭14開始 | 7 | **hard cut** to the north disk (Taipei view); E13; label 船星（北斗） → the ship (Big Dipper) |
+| 93 | | 鏡頭16開始 | 3 | E14; label 船星 → the ship |
+| 96 | | 鏡頭16-中3 | 3 | E14; label 曼達爾：漁網（下集） → Mandar: the fishing-net star (next week) |
 | 99 | | 鏡頭16結束 | 3 | E15; labels as page 96 |
 
 Total 83 s (including the 3 s follow page).
@@ -77,16 +77,16 @@ Total 83 s (including the 3 s follow page).
 | bola képpang（瘸腿的房子） | bola képpang, a lame house | Southern Cross |
 | bembé'é（山羊） | the goat (Coalsack) | label only |
 | 北極星 | the Pole Star | as EN49 |
-| bintoéng kappala'é（船星） | bintoéng kappala'é, the Ship Star | Big Dipper (+ ψ UMa, β γ UMi) |
+| bintoéng kappala'é（船星） | bintoéng kappala'é, the ship | Big Dipper (+ ψ UMa, β γ UMi); same gloss as EN21 (譯名表) |
 | bintoéng timoro'（東方的星） | bintoéng timoro', the Eastern Star | Altair |
 | 曼達爾 | Mandar | next week's EN21 |
-| Bittoéng Panjala（漁網） | the fishing net | label keeps Bittoéng Panjala |
+| Bittoéng Panjala（漁網） | the fishing-net star | as EN21; label keeps Bittoéng Panjala |
 
 ## YouTube
 
 - **Title**: Bugis sailors: a compass made of stars
 - **Description**:
-  The Bugis of South Sulawesi, Indonesia, are famous sailors — and their compass is the sky. Crews know which star rises or sets over each island. Alpha Centauri and Hadar are the Widow, a bride whose groom died before the wedding; at dusk in late July she stands over the port of Bima. The Southern Cross is a lame house. And at 5° south, where the Pole Star never rises, the Big Dipper is the Ship Star.
+  The Bugis of South Sulawesi, Indonesia, are famous sailors — and their compass is the sky. Crews know which star rises or sets over each island. Alpha Centauri and Hadar are the Widow, a bride whose groom died before the wedding; at dusk in late July she stands over the port of Bima. The Southern Cross is a lame house. And at 5° south, where the Pole Star never rises, the Big Dipper is the ship.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: G. Ammarell, Bugis Navigation (1999) and in Selin (ed.), Encyclopaedia of the History of Science… (2008); Ôhashi & Orchiston 2021; Pelras 1987; Stellarium sky culture “bugis”; UNESCO 2017 (Pinisi, art of boatbuilding in South Sulawesi).
 
@@ -94,7 +94,7 @@ Total 83 s (including the 3 s follow page).
 
 A compass with no needle — just stars. 🧭
 For Bugis sailors of South Sulawesi, every star rises or sets over a known island. Alpha Centauri and Hadar are the Widow: her groom died before the wedding. At dusk in late July she stands right over the port of Bima, and crews set course by her. Beside her, the Southern Cross is a lame house — one post too short.
-North of the equator? Late March, after dark, look northeast: the Big Dipper, handle down. To the Bugis, that’s the Ship Star.
+North of the equator? Late March, after dark, look northeast: the Big Dipper, handle down. To the Bugis, that’s the ship.
 Next Wednesday: the Mandar — same sea, same Dipper, a fishing net.
 #WorldSkyCultures #astronomy #stars #Bugis #Sulawesi #Indonesia #navigation #skylore
 (First comment: sources — Ammarell 1999, 2008; Ôhashi & Orchiston 2021; Pelras 1987; Stellarium bugis; UNESCO 2017.)
