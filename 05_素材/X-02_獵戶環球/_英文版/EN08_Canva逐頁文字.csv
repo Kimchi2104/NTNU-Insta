@@ -1,39 +1,43 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場,3,World Sky Cultures,"One sky. The whole world knows — these
-three stars.",cover,Cover: text block replaced with English; EN · EP08 tag
-2,,鏡頭01開始,3,,"China calls them Shen. Egypt: Sah.
-Australia’s Kamilaroi: Birray Birray.",top,E02 (top box; the Chinese 字卡 on this page is removed)
-3,,鏡頭01結束＝鏡頭02開始,4,,"China calls them Shen. Egypt: Sah.
-Australia’s Kamilaroi: Birray Birray.",top,"E02; labels 中國／埃及／澳洲 → China／Egypt／Australia (參 → Shen; Sah, Birray Birray stay)"
-4,,鏡頭02-概念圖1,3,,"Three near-equal stars in a straight
-line, under 3° long.",bottom,E03; `_概念圖/en/C-X02-01_正東升起_北方層`
-5,,鏡頭02-概念圖2,3,,"Three near-equal stars in a straight
-line, under 3° long.",bottom,E03; ＋`台北層`
+1,,開場,3,World Sky Cultures,"One sky. Three stars the whole world
+knows.",cover,Cover: text block replaced with English; EN · EP08 tag
+2,,鏡頭01開始,3,,"China calls them Shen (“three”). Egypt:
+Sah. Australia’s Kamilaroi: Birray
+Birray.",top,E02 (top box; the Chinese 字卡 on this page is removed)
+3,,鏡頭01結束＝鏡頭02開始,4,,"China calls them Shen (“three”). Egypt:
+Sah. Australia’s Kamilaroi: Birray
+Birray.",top,"E02; labels 中國／埃及／澳洲 → China／Egypt／Australia (參 → Shen; Sah, Birray Birray stay)"
+4,,鏡頭02-概念圖1,3,,"Orion’s Belt: three similarly bright
+stars in a straight line, under 3°
+across.",bottom,E03; `_概念圖/en/C-X02-01_正東升起_北方層`
+5,,鏡頭02-概念圖2,3,,"Orion’s Belt: three similarly bright
+stars in a straight line, under 3°
+across.",bottom,E03; ＋`台北層`
 6,,鏡頭02-概念圖3,4,,"Almost on the celestial equator, they
-rise due east everywhere — from the
-Arctic to New Zealand.",bottom,E04; ＋`南方層` (its caption: the south sees Orion upside down)
+rise due east — from the Arctic to New
+Zealand.",bottom,E04; ＋`南方層` (its caption: the south sees Orion upside down)
 7,,鏡頭02-概念圖收＝鏡頭03開始,3,,"Almost on the celestial equator, they
-rise due east everywhere — from the
-Arctic to New Zealand.",bottom,E04; diagram fades; then the sky moves to page 17
-17,,鏡頭08結束＝鏡頭09開始,8,Three peoples saw fire here,"The Kamilaroi’s Birray Birray are three
-young boys: the Belt. Rigel is their
-campfire; the Sword, their fire stick.",bottom,E05; labels 三個男孩（澳洲）／營火／撥火棍 → three boys (Australia)／campfire／fire stick; Birray Birray stays
-18,,鏡頭09結束＝鏡頭10開始,7,,"The Maya: the first fire of creation.
-Three stars are its hearthstones; the
-Orion Nebula, its smoke.",top,E06; labels 三塊爐石（馬雅）／煙／獵戶座大星雲 → three hearthstones (Maya)／smoke／Orion Nebula; Oxib' Xk'ub' stays
-19,,鏡頭10結束,10,,"The Aztecs saw a fire drill. Every 52
-years, all fires were put out and
-priests drilled a new one on a hilltop.",bottom,E07; label 鑽火棍（阿茲特克） → fire drill (Aztec); Mamalhuaztli stays
-20,,鏡頭10-概念圖1,2.5,,"If no fire came, the sun would not rise
-again.",bottom,E08; `_概念圖/en/C-X02-03_三地的火_澳洲層`
-21,,鏡頭10-概念圖2,2.5,,"If no fire came, the sun would not rise
-again.",bottom,E08; ＋`馬雅層`
-22,,鏡頭10-概念圖3,3,,"If no fire came, the sun would not rise
-again.",bottom,E08; ＋`阿茲特克層`
+rise due east — from the Arctic to New
+Zealand.",bottom,E04; diagram fades; then the sky moves to page 17
+17,,鏡頭08結束＝鏡頭09開始,8,Three peoples saw fire here,"The Kamilaroi: the Belt is Birray
+Birray, three young boys. Rigel is their
+campfire, the Sword their fire stick.",bottom,E05; labels 三個男孩（澳洲）／營火／撥火棍 → three boys (Australia)／campfire／fire stick; Birray Birray stays
+18,,鏡頭09結束＝鏡頭10開始,7,,"The Maya: creation’s fire. Three stars
+form a triangle of hearthstones. The
+Orion Nebula is its smoke.",top,E06; labels 三塊爐石（馬雅）／煙／獵戶座大星雲 → three hearthstones (Maya)／smoke／Orion Nebula; Oxib' Xk'ub' stays
+19,,鏡頭10結束,10,,"The Aztecs saw a wooden fire drill.
+Every 52 years, all fires were put out.
+Priests drilled a new one on a hilltop.",bottom,E07; label 鑽火棍（阿茲特克） → fire drill (Aztec); Mamalhuaztli stays
+20,,鏡頭10-概念圖1,2.5,,"If no fire caught, the Aztecs believed
+the sun would not rise again.",bottom,E08; `_概念圖/en/C-X02-03_三地的火_澳洲層`
+21,,鏡頭10-概念圖2,2.5,,"If no fire caught, the Aztecs believed
+the sun would not rise again.",bottom,E08; ＋`馬雅層`
+22,,鏡頭10-概念圖3,3,,"If no fire caught, the Aztecs believed
+the sun would not rise again.",bottom,E08; ＋`阿茲特克層`
 23,,鏡頭10-概念圖收＝鏡頭11開始,2,,,,diagram fades; no text
-31,,鏡頭13結束,8,"Early January, 8 p.m.: look southeast","Red Betelgeuse upper left, blue-white
-Rigel lower right, the Belt between.
-Below it, the brightest star: Sirius.",top,"E10; labels 參宿四／參宿七／腰帶／天狼星 → Betelgeuse／Rigel／the Belt／Sirius (the Chinese 今晚 card, page 32, is Taipei-only and not used)"
+31,,鏡頭13結束,8,"Early January, 20:00 (Northern sky)","Look southeast: red Betelgeuse top left,
+blue-white Rigel bottom right, the Belt
+in between. Brightest below: Sirius.",top,"E10; labels 參宿四／參宿七／腰帶／天狼星 → Betelgeuse／Rigel／the Belt／Sirius (the Chinese 今晚 card, page 32, is Taipei-only and not used)"
 35,,下集見,3,Next Wednesday,"Navajo: star stories told only in
 winter.",endcard,E11 (background is already the Navajo First Slim One — EN09’s subject)
 36,,追蹤,—,,Follow for a new sky every week.,endcard,E12
