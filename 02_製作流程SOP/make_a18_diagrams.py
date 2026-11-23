@@ -15,7 +15,7 @@
   C-A18-12_對正北           → 13 鏡（方框層；標「推測」）
   C-A18-13_以為有好幾千年   → 16 鏡（年表層：1799 → 1821 → 1822）
   15 鏡的丹德拉圓形黃道圖不在這裡：美宣另尋授權圖（羅浮宮原件照片或 1802 年版畫）。
-輸出：05_素材/A-18_古埃及/_概念圖/（--lang en → _概念圖/en/）
+輸出：05_素材/A-18_古埃及/_概念圖/（--lang en → _概念圖/en/，只出 EN11 用的 C-A18-01、02、04、05）
 
 來源（數字一律與逐字稿 v1「星空對時」一致，今晚圖卡的高度方位由 PyEphem 現算）：
   天狼星晨出：PyEphem 4.2.1 自算（太陽在地平線下 9.5–10.5° 時天狼星高 1°；Censorinus 139 年校準）；
@@ -99,7 +99,7 @@ TXT = {
     "en": {
         "c01_title": "A year of the Nile", "c01_sub": "Valley cross-section (schematic)",
         "desert": "Desert: almost no rain", "river": "Nile", "rise": "Summer: the river rises",
-        "flood": "Fields on both banks flooded", "soil": "Receding water leaves black silt",
+        "flood": "Banks flooded", "soil": "Black silt left behind",
         "kemet": "Kemet = the Black Land", "kemet2": "what Egyptians called their country",
         "c02_title": "Sopdet vanishes and returns", "c02_sub": "Sirius, seen from Egypt",
         "west": "West", "east": "East", "dusk": "Spring · dusk", "dusk2": "sinks into the sunset glow",
@@ -113,8 +113,8 @@ TXT = {
         "drift": "Rising of Sirius", "drift2": "1 day later every 4 years",
         "drift3": "A full circle: about 1,460 years",
         "c04_title": "When Sirius reappears", "c04_sub": "Gregorian (proleptic); computed with PyEphem",
-        "solstice": "Solstice 6/24", "old": "2500 BCE · Memphis", "old2": "6/28–29",
-        "old3": "just as the flood arrived", "now": "2027 · Cairo", "now2": "8/5–6",
+        "solstice": "Solstice Jun 24", "old": "2500 BCE · Memphis", "old2": "Jun 28–29",
+        "old3": "just as the flood arrived", "now": "2027 · Cairo", "now2": "Aug 5–6",
         "late": "about 38 days later", "jun": "Jun", "jul": "Jul", "aug": "Aug",
         "c04_note": "Criterion: Sun about 10° below the horizon, Sirius 1° high",
         "c05_title": "1970: the Aswan High Dam", "before": "Before: a flood every summer",
@@ -190,8 +190,9 @@ def c01_flood(ax):
     ax.add_patch(Polygon([(-0.70, -0.16), (-0.18, -0.20), (-0.10, -0.34), (0.10, -0.34),
                           (0.18, -0.20), (0.70, -0.16), (0.73, -0.09), (-0.73, -0.09)],
                          closed=True, fc=BLUE, ec="none", alpha=.45, zorder=2))
-    T(ax, -0.42, 0.06, tx("flood"), 18, WHITE, w="normal")
-    C.arrow(ax, (-0.42, -0.11), (-0.42, 0.01), c=WHITE, lw=1.6, alpha=.7)
+    fx = -0.42 if LANG == "zh" else -0.56            # 英文字較寬：往左移，避開「Summer: the river rises」
+    T(ax, fx, 0.06, tx("flood"), 18, WHITE, w="normal")
+    C.arrow(ax, (fx, -0.11), (fx, 0.01), c=WHITE, lw=1.6, alpha=.7)
 
 
 def c01_soil(ax):
@@ -333,7 +334,10 @@ def c04_old(ax):
         T(ax, _dx(doy), y - 0.06, tx(key), 16, GREY, w="normal")
     xs = _dx(175)                                         # 夏至 6/24
     ax.plot([xs, xs], [y, y + 0.30], c=WHITE, lw=1.4, alpha=.6, ls=(0, (4, 4)))
-    T(ax, xs, y + 0.35, tx("solstice"), 16, WHITE, w="normal")
+    if LANG == "zh":
+        T(ax, xs, y + 0.35, tx("solstice"), 16, WHITE, w="normal")
+    else:                                                 # 英文較長：靠右對齊到虛線，避開琥珀色的線
+        T(ax, xs + 0.01, y + 0.35, tx("solstice"), 16, WHITE, w="normal", ha="right")
     xo = (_dx(179) + _dx(180)) / 2                        # 6/28–29
     ax.add_patch(Rectangle((_dx(179) - 0.008, y - 0.015), _dx(180) - _dx(179) + 0.016, 0.20,
                            fc=AMBER, ec="none", alpha=.95, zorder=5))
@@ -706,9 +710,12 @@ def main():
     C.emit("", [("漲水", c01_rise), ("淹沒", c01_flood), ("黑土", c01_soil)], title="C-A18-01_尼羅河的一年")
     C.emit("", [("西沉", c02_set), ("消失", c02_gone), ("晨出", c02_dawn), ("漲水", c02_nile)],
            title="C-A18-02_消失與晨出")
-    C.emit("", [("三季", c03_seasons), ("五天", c03_five), ("漂移", c03_drift)], title="C-A18-03_曆法的漂移")
+    if LANG == "zh":
+        C.emit("", [("三季", c03_seasons), ("五天", c03_five), ("漂移", c03_drift)], title="C-A18-03_曆法的漂移")
     C.emit("", [("古代", c04_old), ("今天", c04_now)], title="C-A18-04_晚了一個多月")
     C.emit("", [("高壩", c05_dam)], title="C-A18-05_河已經不等了")
+    if LANG != "zh":                       # 英文版：只出 EN11 會用到的四組（01、02、04、05），寫到 _概念圖/en/
+        return
     C.emit("", [("格子", c06_grid), ("十二小時", c06_hours)], title="C-A18-06_星星時刻表")
     C.emit("", [("剖面", c07_section)], title="C-A18-07_北面的入口")
     C.emit("", [("木樁", c08_stakes), ("牛腿", c08_leg)], title="C-A18-08_拉繩定位")
