@@ -1,4 +1,4 @@
-# EN05 ｜ Winter Solstice: A Year Measured by a Stick ・ v0 (2026-11-22, waiting for Gemini review)
+# EN05 ｜ Winter Solstice: A Year Measured by a Stick ・ v1 (2026-11-23, Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -8,7 +8,7 @@
 | Story | One story only: **a stick measures the year**. The longest noon shadow marks the winter solstice; from one longest shadow to the next is a year of 365¼ days, so the sky got 365¼ degrees; later China's Shoushi calendar took 365.2425 days, the same number as the Gregorian calendar. Ends with a noon-shadow tip and tonight's Moon by the Pleiades |
 | Canva | Not made yet. Copy of the Chinese design `H - 冬至` (DAHWtFEggSE), to be named `EN05 H - 冬至` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 28 = next-episode card, 29 = follow page). |
 | Opening line | *One sky. Ancient China saw — a year in a shadow.* |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.5: E08; = words in Text ÷ seconds on screen, headline not counted; cover excluded, as in EN01–EN04) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.5: E06 / E08; = words in Text ÷ seconds on screen, headline not counted; cover excluded, as in EN01–EN04) |
 
 ## Beats (text on screen)
 
@@ -21,9 +21,9 @@
 | E03 | 9 | — | — | | *(pages 4–6: English diagram "Gnomon: one pole, one shadow", 3 layers, no text on top)* | — |
 | E04 | 5 | 7 | bottom | | From one longest shadow to the next: one year, 365¼ days. | 2.2 |
 | E05 | 10 | — | — | | *(pages 8–10: English diagram "A year of shadows", 3 layers, no text on top)* | — |
-| E06 | 5 | 11 | bottom | | So the sky got 365¼ degrees: the Sun moves one a day. | 2.4 |
-| E07 | 8 | 21 | bottom | 365.2425 days | China’s Shoushi calendar later took 365.2425 days. So does Europe’s Gregorian calendar, 300 years on. | 1.9 |
-| E08 | 8 | 26 | bottom | Try it today | At noon, a stick’s shadow is the longest of the year. Tonight, the nearly full Moon sits by the Pleiades. | 2.5 |
+| E06 | 5 | 11 | bottom | | So the sky got 365¼ degrees — the Sun moves one each day. | 2.4 |
+| E07 | 8 | 21 | bottom | 365.2425 days | Later, China’s Shoushi calendar used a year of 365.2425 days. So did Europe’s Gregorian calendar, 300 years later. | 2.3 |
+| E08 | 8 | 26 | bottom | Try it today | Northern Hemisphere: a stick’s noon shadow is the year’s longest. Tonight, a nearly full Moon sits by the Pleiades. | 2.4 |
 | E09 | 4 | 28 | endcard | This Wednesday | Norse Yule: a wolf’s jaw in the sky. | 2.0 |
 | E10 | 3 | 29 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -71,19 +71,19 @@ Total 60 s (the follow page is not counted, as in EN03).
 
 - **Title**: Winter solstice: a year measured by a stick
 - **Description**:
-  Today the noon shadow is the longest of the year. In ancient China a pole 8 chi tall and a flat ruler on the ground marked that day; from one longest shadow to the next is a year of 365¼ days, so the sky was divided into 365¼ degrees. Later the Shoushi calendar took the year as 365.2425 days, the same number Europe’s Gregorian calendar uses.
+  In the Northern Hemisphere, today’s noon shadow is the longest of the year. In ancient China, a pole 8 chi (Chinese feet) tall and a flat ruler on the ground marked that day; from one longest shadow to the next is a year of 365¼ days, so the sky was divided into 365¼ degrees. Later, China’s Shoushi calendar used a year of 365.2425 days — the same number Europe’s Gregorian calendar uses.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
-  Sources: Zhoubi Suanjing; Shangshu, "Yao Dian"; Yuan Shi, Treatise on Astronomy; shadow lengths and sky positions computed with PyEphem.
+  Sources: Zhoubi Suanjing; Yuan Shi; shadow lengths and sky positions computed with PyEphem.
 
 ## Caption (Instagram / Facebook / Threads)
 
 One stick and its shadow can measure a whole year. ☀️
-Today the noon shadow is the longest of the year: the winter solstice. In ancient China, a pole and a flat ruler marked that day. From one longest shadow to the next: 365¼ days. So the sky got 365¼ degrees, one for each day.
-Later, China’s Shoushi calendar took the year as 365.2425 days, the same number Europe’s Gregorian calendar uses.
+In the Northern Hemisphere, today’s noon shadow is the longest of the year — the winter solstice. In ancient China, a pole and a flat ruler marked that day. From one longest shadow to the next: 365¼ days. So the sky got 365¼ degrees, one for each day.
+Later, China’s Shoushi calendar used a year of 365.2425 days — the same number Europe’s Gregorian calendar uses.
 Try it at noon today. Tonight, the nearly full Moon sits by the Pleiades.
 This Wednesday: Norse Yule, a wolf’s jaw in the sky.
 #WorldSkyCultures #wintersolstice #astronomy #gnomon #calendar #Pleiades
-(First comment: sources — Zhoubi Suanjing; Shangshu "Yao Dian"; Yuan Shi, Treatise on Astronomy; PyEphem.)
+(First comment: sources — Zhoubi Suanjing; Yuan Shi; PyEphem.)
 
 ## Cuts and changes (for the reviewer)
 
@@ -93,8 +93,30 @@ Wording to check:
 1. Cover "Ancient China saw — a year in a shadow." The Chinese 統一開頭 is 「同一片星空，冬至這一天——影子最長；古人用一根棍子——量出一年」 (「古人」 without naming China); the episode's sources are all Chinese (周髀、授時曆), so "Ancient China" is used to fit the series' opening pattern.
 2. E02 "Before calendars" = 01 鏡「沒有日曆的年代」; "With a stick" = 「靠一根棍子」.
 3. E04 = 03 鏡「從這次最長，數到下次最長，就是一年：三百六十五又四分之一天」.
-4. E06 "the Sun moves one a day" = 03 鏡「所以古人把天空也分成三百六十五又四分之一度——太陽一天走一度」.
-5. E07 "took 365.2425 days" keeps 「授時曆一年取」 (adopted, not discovered: the value comes from the 1199 Tongtian calendar, per the Chinese 考據). "300 years later" = 「三百年後」 (1281 → 1582). Guo Shoujing's name is not on screen because his tall gnomon was cut.
-6. E08 is the Northern Hemisphere version of 10 鏡: no clock time or length; "longest of the year" holds north of the Tropic of Cancer, and around the solstice the noon shadow barely changes for a few days (04 鏡), so the tip works on Dec 21 or 22. "Tonight, the nearly full Moon sits by the Pleiades" = 「今晚月亮快滿了，昴宿就在它旁邊」 (12/21 evening ~90%, 6.6° away at 20:00 Taipei; 12/22 96%, 9.3°).
+4. E06 "the Sun moves one each day" = 03 鏡「所以古人把天空也分成三百六十五又四分之一度——太陽一天走一度」.
+5. E07 "used a year of 365.2425 days" keeps 「授時曆一年取」 (adopted, not discovered: the value comes from the 1199 Tongtian calendar, per the Chinese 考據). "300 years later" = 「三百年後」 (1281 → 1582). Guo Shoujing's name is not on screen because his tall gnomon was cut.
+6. E08 is the Northern Hemisphere version of 10 鏡: no clock time or length; "longest of the year" holds north of the Tropic of Cancer, and around the solstice the noon shadow barely changes for a few days (04 鏡), so the tip works on Dec 21 or 22. "Tonight, a nearly full Moon sits by the Pleiades" = 「今晚月亮快滿了，昴宿就在它旁邊」 (12/21 evening ~90%, 6.6° away at 20:00 Taipei; 12/22 96%, 9.3°).
 7. E09: EN06 (A-15 Norse Yule) publishes Wednesday 12/23, so "This Wednesday".
 8. Diagram C-HDZ-01 English keeps the Zhoubi lengths in chi (1.6 / 13.5) and the "from the shadow length" note; C-HDZ-02 keeps "calculated" and the old-degree footnote.
+
+## 審稿合併 (Gemini review → v1, 2026-11-23)
+
+Each 🔴🟡 was checked against the Chinese v1 script. Spelling follows the Chinese star-name table; no new facts were added.
+
+**Adopted (8)**
+1. 🔴 E07: `used a year of 365.2425 days. So did … 300 years later` (keeps 「一年取」 = adopted, not invented; fixes the tense clash). 18 words / 8 s = 2.3 w/s.
+2. 🔴 E08: added `Northern Hemisphere:`. The Chinese 10 鏡 is Taipei-only; without it the line is false south of the equator. Not a new fact, only a limit. 19 words / 8 s = 2.4 w/s; `the` → `a` for the Moon so the card fits 3 lines of ≤ 40 letters.
+3. 🔴 YouTube description + Caption: same Northern Hemisphere qualifier.
+4. 🔴 Sources (YouTube + first comment): removed `Shangshu, "Yao Dian"`; both its uses (日短星昴, 366 days) were cut from EN05.
+5. 🟡 E06: em-dash for the Chinese 「——」, `one each day`. Still 12 words / 5 s = 2.4 w/s.
+6. 🟡 YouTube + Caption: `took the year as` → `used a year of`.
+7. 🟡 YouTube: `8 chi (Chinese feet)`.
+8. 🟡 Sources: `Yuan Shi, Treatise on Astronomy` → `Yuan Shi`. The Chinese list cites 《元史・天文志》 only for the 4-zhang gnomon and jingfu, which are cut; no other treatise name is invented.
+
+**Not adopted (4)**
+1. 🟡 E01/E02 alternative hook (`measured a year — with one stick`): the cover keeps the series opening pattern `One sky. Ancient {culture} saw —` (see Wording to check #1). E02 keeps `With a stick.` as the closing answer, as in the 01 鏡 voice-over order.
+2. ⚪ E04 `:` → `—`: optional; the Chinese 03 鏡 uses 「：」 here.
+3. 🟡 C-HDZ-01 note `Sun direction` → `Sun altitude`, and ⚪ C-HDZ-02 straight apostrophe: these are changes inside the diagram PNGs. They need a re-export of the English diagrams (diagram task), not a transcript edit; recorded here so the diagram pass picks them up.
+4. Gemini 「沒把握」 items 1–5: no change needed. 1: the Moon for 12/21 is ~90% and 6.6° from the Pleiades (Wording to check #6), so “nearly full Moon by the Pleiades” holds; 2: handled in Adopted 8; 3: Adopted 7 covers the text, the diagram stays as is; 4: `1.5 chi` is deliberate; 5: EN06 title is `Norse Yule: A Wolf's Jaw in the Sky` and publishes Wed 12/23, so E09 matches.
+
+**Canva**: `H-冬至_Canva媒體ID.json` has no `en` block, so the English design has not been made yet; nothing was changed in Canva. Card 07 will use v1.
