@@ -16,6 +16,32 @@ BASE = G.find_base(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, "05_素材/A-08_西伯利亞/_概念圖")
 C.set_base(OUT)
 RED, GREY = "#FF6B6B", "#7C8BA8"
+LANG = "zh"          # python3 make_a08_diagrams.py --lang en → 只出 C-A08-01 的英文版到 _概念圖/en/（EN50 用）
+TXT = {
+    "zh": {
+        "title": "一場永不結束的狩獵", "sub": "北斗的宇宙追獵：西伯利亞 → 北美",
+        "evenki": "埃文基（西伯利亞）", "calf": "小熊座＝小駝鹿", "mw": "銀河＝Манги 的雪橇痕",
+        "bowl": "斗口＝駝鹿 Хэглэн（的腳）", "handle": "斗柄＝追牠的獵人",
+        "story": "駝鹿傍晚把太陽頂走，獵人追上、射中、把太陽搶回來——每天重演",
+        "bering": "↓　有學者推測：一萬多年前跟著人走過白令陸橋　↓",
+        "mikmaq": "米克馬克（北美東北部）", "bear": "斗口＝熊", "seven": "斗柄＋牧夫座＝七個獵人",
+        "same": "同一個追獵的故事：只有獵物從駝鹿換成了熊",
+    },
+    "en": {
+        "title": "A hunt that never ends", "sub": "The cosmic hunt in the Big Dipper: Siberia → North America",
+        "evenki": "Evenki (Siberia)", "calf": "Little Dipper = the calf", "mw": "Milky Way = Mangi’s ski track",
+        "bowl": "Bowl = the moose Kheglen (its legs)", "handle": "Handle = the hunters",
+        "story": "Each evening the moose takes the sun; the hunter shoots it and brings the sun back",
+        "bering": "↓  Some scholars think: it crossed the Bering land bridge with people, 10,000+ years ago  ↓",
+        "mikmaq": "Mi’kmaq (North America)", "bear": "Bowl = a bear",
+        "seven": "Handle + Boötes = seven hunters",
+        "same": "The same hunt: only the prey changed, from moose to bear",
+    },
+}
+
+
+def tx(k):
+    return TXT[LANG][k]
 
 # 北斗示意（斗口在左、斗柄往右上）：天樞 天璇 天璣 天權 玉衡 開陽 搖光
 DIP = [(0.00, 0.17), (0.02, 0.00), (0.24, -0.03), (0.25, 0.12),
@@ -41,35 +67,35 @@ def dipper(ax, ox, oy, s, bowl_c, handle_c, extra=None, extra_c=None):
 
 
 def c01_evenki(ax):
-    T(ax, 0.0, 0.93, "一場永不結束的狩獵", 34, WHITE)
-    T(ax, 0.0, 0.855, "北斗的宇宙追獵：西伯利亞 → 北美", 19, GREY, w="normal")
-    T(ax, -0.88, 0.74, "埃文基（西伯利亞）", 21, AMBER, ha="left")
+    T(ax, 0.0, 0.93, tx("title"), 34, WHITE)
+    T(ax, 0.0, 0.855, tx("sub"), 19, GREY, w="normal")
+    T(ax, -0.88, 0.74, tx("evenki"), 21, AMBER, ha="left")
     P = dipper(ax, -0.12, 0.40, 0.95, AMBER, GREEN)
     ax.plot(*zip(*UMI), c=BLUE, lw=2.4, zorder=4)
     for p in UMI:
         ax.scatter([p[0]], [p[1]], s=90, c=BLUE, zorder=5)
-    T(ax, -0.56, 0.27, "小熊座＝小駝鹿", 15, BLUE)
+    T(ax, -0.56, 0.27, tx("calf"), 15, BLUE)
     # 銀河＝雪橇痕：畫面下緣一道
     xs = [-0.86 + i * 0.0288 for i in range(61)]
     ys = [0.12 + 0.025 * math.sin(i / 6.0) for i in range(61)]
     ax.plot(xs, ys, c=MW, lw=12, alpha=.20, zorder=3, solid_capstyle="round")
     ax.plot(xs, ys, c=MW, lw=2.2, alpha=.8, ls=(0, (6, 4)), zorder=3)
-    T(ax, 0.50, 0.215, "銀河＝Манги 的雪橇痕", 16, MW)
-    T(ax, P[1][0] + 0.10, P[1][1] - 0.075, "斗口＝駝鹿 Хэглэн（的腳）", 17, AMBER)
-    T(ax, P[5][0] + 0.02, P[5][1] + 0.10, "斗柄＝追牠的獵人", 17, GREEN)
-    T(ax, 0.0, 0.02, "駝鹿傍晚把太陽頂走，獵人追上、射中、把太陽搶回來——每天重演", 15.5,
+    T(ax, 0.50, 0.215, tx("mw"), 16, MW)
+    T(ax, P[1][0] + 0.10, P[1][1] - 0.075, tx("bowl"), 17, AMBER)
+    T(ax, P[5][0] + 0.02, P[5][1] + 0.10, tx("handle"), 17, GREEN)
+    T(ax, 0.0, 0.02, tx("story"), 15.5,
       WHITE, w="normal")
 
 
 def c01_mikmaq(ax):
     ax.plot([-0.90, 0.90], [-0.08, -0.08], c="#2A3456", lw=1.4, zorder=1)
-    T(ax, 0.0, -0.155, "↓　有學者推測：一萬多年前跟著人走過白令陸橋　↓", 15.5, GREY,
+    T(ax, 0.0, -0.155, tx("bering"), 15.5, GREY,
       w="normal")
-    T(ax, -0.88, -0.27, "米克馬克（北美東北部）", 21, AMBER, ha="left")
+    T(ax, -0.88, -0.27, tx("mikmaq"), 21, AMBER, ha="left")
     P = dipper(ax, -0.52, -0.52, 0.95, AMBER, GREEN, extra=BOO, extra_c=GREEN)
-    T(ax, P[1][0] + 0.02, P[1][1] - 0.075, "斗口＝熊", 17, AMBER)
-    T(ax, 0.34, -0.25, "斗柄＋牧夫座＝七個獵人", 17, GREEN)
-    T(ax, 0.0, -0.92, "同一個追獵的故事：只有獵物從駝鹿換成了熊", 17, WHITE, w="normal")
+    T(ax, P[1][0] + 0.02, P[1][1] - 0.075, tx("bear"), 17, AMBER)
+    T(ax, 0.34, -0.25, tx("seven"), 17, GREEN)
+    T(ax, 0.0, -0.92, tx("same"), 17, WHITE, w="normal")
 
 
 def pole_panel(ax, cx, cy, name, col, sub):
@@ -108,6 +134,12 @@ def c02_betelgeuse(ax):
 
 
 if __name__ == "__main__":
+    if "--lang" in sys.argv:                      # 英文版：只出 EN50 會用到的 C-A08-01，寫到 _概念圖/en/
+        LANG = sys.argv[sys.argv.index("--lang") + 1]
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
+        C.set_base(os.path.join(OUT, LANG))
+        C.emit("", [("埃文基", c01_evenki), ("米克馬克", c01_mikmaq)], title="C-A08-01_宇宙追獵")
+        sys.exit(0)
     os.makedirs(OUT, exist_ok=True)
     C.emit("", [("埃文基", c01_evenki), ("米克馬克", c01_mikmaq)], title="C-A08-01_宇宙追獵")
     C.emit("", [("北極星", c02_polaris), ("參宿四", c02_betelgeuse)],
