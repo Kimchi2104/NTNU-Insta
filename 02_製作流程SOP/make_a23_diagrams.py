@@ -90,16 +90,16 @@ TXT = {
         "trough": "水槽（仙女座）", "well": "井口四角", "c06_src": "台北；PyEphem 自算，高度含大氣折射",
     },
     "en": {
-        "c01_title": "1896: a star chart sent across the country", "c01_sub": "Ion Otescu, Romanian Peasants' Beliefs in Stars and Sky (1907)",
-        "chart": "a chart for Bucharest", "send": "sent to village teachers", "ask": "ask the oldest peasants",
+        "c01_title": "1896: a star chart for the whole country", "c01_sub": "Ion Otescu, Romanian Peasants' Beliefs in Stars and Sky (1907)",
+        "chart": "a chart for Bucharest", "send": "to village teachers", "ask": "ask the oldest farmers",
         "map_note": "Kingdom of Romania, 1896 (schematic; Transylvania not included)",
         "buc": "Bucharest", "neamt": "Neamț 13", "prahova": "Prahova 5", "arges": "Argeș 3",
         "others": "18 more from other counties", "total": "39 useful replies",
         "src01": "Otescu 1907, SARM transl. preface p.1; 39 places in the source list",
-        "c01y_title": "When did peasants watch the stars?", "c01y_sub": "Otescu 1907 (SARM transl. p.1)",
+        "c01y_title": "When did farmers watch the stars?", "c01y_sub": "Otescu 1907 (SARM transl. p.1)",
         "months": ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"], "mo": "",
         "farm": "Jun–Sep: farm work, stars tell the time", "shep": "Rest of the year: only the shepherds",
-        "shep2": "so peasants called them “the shepherds' stars”",
+        "shep2": "so farmers called them “the shepherds' stars”",
         "c02_title": "The Cowherd and the Weaver, swapped", "c02_sub": "Same row of stars, two stories",
         "cn": "China", "ro": "Romania",
         "cn1": "The Cowherd (Altair) carries a yoke", "cn2": "with his two children", "cn3": "the Weaver (Vega) across the river",
@@ -536,7 +536,13 @@ def main():
     global LANG
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
         CB.set_base(os.path.join(OUT, LANG))
+        # EN17 只用 C-A23-01（02、03 鏡）；其他幾張要用時再加進來
+        t1 = "C-A23-01_Otescu的星圖與回信"
+        CB.emit("", [("星圖", c01_chart), ("回信", c01_reply)], title=t1)
+        CB.emit("", [("一年", c01_year)], title=t1, preview_name="一年預覽")
+        return
     os.makedirs(OUT, exist_ok=True)
     print("── C-A23 概念圖 ──")
     t1 = "C-A23-01_Otescu的星圖與回信"
