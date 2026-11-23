@@ -1,0 +1,50 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,3,World Sky Cultures,"One sky. Siberian hunters saw — a hunt
+that never ends.",cover,Cover: text block replaced with English; second line = the schedule’s hook; EN · EP50 tag
+2,,鏡頭01開始,2,The Big Dipper is a moose,"In central Siberia, its Russian name is
+Los’: the moose. Farther east, mostly a
+bear.",top-left,"E02 (page 3, the end of the opening zoom, removed: the sky moves straight from 2 to 4)"
+4,,鏡頭02開始,3,The Big Dipper is a moose,"In central Siberia, its Russian name is
+Los’: the moose. Farther east, mostly a
+bear.",top-left,E02; label 駝鹿 → moose (under Лось)
+5,,鏡頭02結束,3,The Big Dipper is a moose,"In central Siberia, its Russian name is
+Los’: the moose. Farther east, mostly a
+bear.",top-left,E02; labels as 4
+6,,鏡頭03開始,7,The Evenki story,"For the Evenki, the sky is an upper
+forest. There lives a cosmic moose:
+Kheglen.",top-left,E03; label 宇宙駝鹿（埃文基） → the cosmic moose (Evenki) (under Хэглэн)
+7,,鏡頭03結束,6,,"Each evening it carries off the sun on
+its antlers. Night falls.",top-left,E04; labels as 6
+8,,鏡頭04開始,7,"Mangi, the hunter","The hunter Mangi follows on skis, shoots
+the moose and takes the sun back. Day
+breaks.",bottom,E05; labels 駝鹿的腳／三個獵人 → the moose’s legs／three hunters
+9,,鏡頭04結束,7,,"The bowl’s four stars: the moose’s legs.
+The handle’s three: the hunters. Every
+night, it happens again.",bottom,"E06; labels as 8; then the sky moves to 11 (page 10, where the Хэглэн label returns at the bottom, removed)"
+11,,鏡頭05結束＝鏡頭06開始,6,,"The Little Dipper: a calf following its
+mother. The Milky Way: Mangi’s ski
+track.",bottom-left,E07; labels 駝鹿的腳／三個獵人／小駝鹿／雪橇痕＝銀河 → the moose’s legs／three hunters／the calf／ski track = Milky Way
+12,,鏡頭06結束,7,The same hunt in America?,"Some scholars think the story crossed
+the Bering land bridge with people, over
+10,000 years ago.",bottom-left,E08; labels as 11
+13,,鏡頭06-概念圖1,3,The same hunt in America?,"Some scholars think the story crossed
+the Bering land bridge with people, over
+10,000 years ago.",bottom-left,"diagram, English (`_概念圖/en/C-A08-01_宇宙追獵_埃文基層_透明.png`); E08 headline only"
+14,,鏡頭06-概念圖2,3,The same hunt in America?,"Some scholars think the story crossed
+the Bering land bridge with people, over
+10,000 years ago.",bottom-left,+ `_概念圖/en/C-A08-01_宇宙追獵_米克馬克層_透明.png`; E08 headline only
+15,,鏡頭06-概念圖收,7,,"The Mi’kmaq of North America tell it
+too: the bowl is a bear, the handle its
+hunters.",bottom-left,"diagram fades; E09; labels as 11; then **hard cut (no transition)** to 34 (pages 16–33, the Golden Stake, the migrating birds, the Goose Road, the Duck Nest and the Threshers, removed)"
+34,,鏡頭15結束,3,A hunt that never ends,"The whole sky turns around the Pole
+Star.",top,"E10; the Golden Stake circle stays, no label"
+35,,長圖轉北盤1＝鏡頭16開始,2,A hunt that never ends,"The whole sky turns around the Pole
+Star.",top,"E10; **no transition** from 34 (same frame, strip chart swapped for the north disc)"
+36,,鏡頭16結束＝鏡頭17開始,7,,"Bowl first, handle behind: the hunters
+chase the moose forever. In the Evenki
+forest, it never sets.",top,"E11; the disc turns (Match & Move from 35), mountain low (Tura, 64° N)"
+37,,鏡頭17結束＝鏡頭18開始,7,Look north this February,"After dark, the moose climbs in the
+northeast, hunters behind. They circle
+the Pole Star all night.",top,"E12; **move the mountain back down to where it is on 36** (Y≈1796), so the whole Dipper stays above the horizon (the Chinese page raises it to Taipei’s horizon, which hides the bowl: right for 9 Oct in Taipei, wrong for this text)"
+39,,端卡（下集見）,3,Next Wednesday,Sámi: a reindeer hunt across the sky.,endcard,E14
+40,,追蹤頁,3,,Follow for a new sky every week.,endcard,E15
