@@ -90,7 +90,7 @@ TXT = {
         "c02_q1": "“As they were still going on and talking,", "c02_q2": "a chariot of fire and horses of fire separated them,",
         "c02_q3": "and Elijah went up by a whirlwind into heaven.”",
         "c02_note1": "The text says “by a whirlwind”;", "c02_note2": "riding the fiery chariot up is folk and icon tradition",
-        "c03_title": "Thunder = Elijah driving", "c03_wheel": "wheels rolling across the sky = thunder",
+        "c03_title": "Thunder = Elijah driving", "c03_wheel": "rolling wheels = thunder",
         "c03_bolt": "lightning = chasing the devil", "c03_src": "East Slavic folk belief (cited in Ivanov & Toporov 1974)",
         "c04_title": "A Belarusian farmer's calendar", "c04_sub": "feasts and their stars",
         "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
@@ -280,7 +280,7 @@ def c03_wheel(ax):
 def c03_bolt(ax):
     pts = [(0.38, 0.42), (0.24, 0.10), (0.33, 0.10), (0.20, -0.25), (0.42, 0.05), (0.33, 0.05), (0.46, 0.42)]
     ax.add_patch(CB.Polygon(pts, closed=True, fc="#FFF3B0", ec=AMBER, lw=2, zorder=6))
-    T(ax, 0.33, -0.33, tx("c03_bolt"), 16, "#FFF3B0")
+    T(ax, 0.33, -0.33 if LANG == "zh" else -0.40, tx("c03_bolt"), 16, "#FFF3B0")   # 英文較長：往下讓開車輪那行
     T(ax, 0, -0.55, tx("c03_src"), 11, GREY, w="normal")
 
 
