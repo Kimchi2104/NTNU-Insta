@@ -14,7 +14,7 @@ C-A29-06 這週末抬頭看（9:16 圖卡；台北 2027/4/23 20:00）→ 19 鏡
 PyEphem 4.2.1 自算（含折射 1010 hPa、20°C；恆星 J2000）。不畫人物、不臨摹照片；pinnetu 與 S'Ardia 照片美宣另尋授權。
 
 執行：python3 make_a29_diagrams.py            （中文，輸出 05_素材/A-29_薩丁尼亞/_概念圖/）
-      python3 make_a29_diagrams.py --lang en  （英文，輸出 _概念圖/en/；本次只出 zh）
+      python3 make_a29_diagrams.py --lang en  （英文，輸出 _概念圖/en/；只出 EN25 用到的 C-A29-02）
 """
 import os, sys, math
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -104,7 +104,7 @@ TXT = {
         "num_foot": "ISTAT 2024 report (sheep); population end of 2023; sheep only",
         "c02_title": "The shepherds' summer clock", "c02_sub": "Sedilo, night of 16–17 August · facing east",
         "east": "E", "ene": "ENE", "ese": "ESE",
-        "t1": "00:00", "t1b": "S'Udrone (Pleiades) rises", "t2": "03:22", "t2b": "Sos Bacheddos appear (Belt rises)",
+        "t1": "00:00", "t1b": "S'Udrone rises", "t2": "03:22", "t2b": "Sos Bacheddos appear (Belt rises)",
         "t3": "04:55", "t3b": "Dawn twilight: Alnilam {:.0f}°, Saiph {:.0f}°", "home": "→ bring the flock home",
         "grape": "the Bunch", "stick": "the Sticks", "dawn": "dawn",
         "c02_foot": "Times are 0° horizon risings; hills east of Sedilo delay them. Computed with PyEphem 4.2.1",
@@ -640,6 +640,10 @@ def main():
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
         CB.set_base(os.path.join(OUT, LANG))
+        os.makedirs(os.path.join(OUT, LANG), exist_ok=True)
+        # EN25 只用 C-A29-02 夏夜牧羊鐘三層（Canva 13–15）；其他幾張要用時再加進來
+        CB.emit("", [("葡萄", c02_grape), ("牧杖", c02_stick), ("晨光", c02_dawn)], title="C-A29-02_夏夜牧羊鐘")
+        return
     os.makedirs(OUT, exist_ok=True)
     CB.emit("", [("地圖", c01_map), ("數字", c01_num)], title="C-A29-01_薩丁尼亞")
     CB.emit("", [("葡萄", c02_grape), ("牧杖", c02_stick), ("晨光", c02_dawn)], title="C-A29-02_夏夜牧羊鐘")
