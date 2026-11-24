@@ -8,7 +8,7 @@
   C-A33-06_hautapu            → 逐字稿 11 鏡（爐火層→熱氣層→名字層；不畫人物、不仿既有插畫）
   C-A33-07_這週抬頭看         → 逐字稿 13 鏡（9:16 圖卡，可存圖）
   C-A33-08_北島示意           → 逐字稿 12 鏡（單層；海岸線為自繪示意，約 40 個經緯度點連成）
-輸出：05_素材/A-33_毛利Matariki/_概念圖/（--lang en → _概念圖/en/）
+輸出：05_素材/A-33_毛利Matariki/_概念圖/（--lang en → 只出 EN33 用的 C-A33-01、02 到 _概念圖/en/）
 
 來源：MBIE／employment.govt.nz（2022/6/24 第一次放假；「the first public holiday to recognise Te Ao Māori」）；
       Matariki Advisory Group 日期表、Te Papa（2027 Tangaroa 期 6/27–30、假日 6/25；九星的領域）；
@@ -93,7 +93,7 @@ TXT = {
         "c02_title": "Picking the day: Pipiri 2027", "c02_sub": "NZ time; moon phases by PyEphem, Tangaroa period per Te Papa",
         "wk": ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
         "new": "new", "full": "full", "lq": "last qtr", "tangaroa": "Tangaroa 27–30 Jun",
-        "holiday": "holiday", "rule1": "Rule: the Friday closest to Tangaroa in the month of Pipiri",
+        "holiday": "holiday", "rule1": "Official rule: the Friday closest to Tangaroa in Pipiri",
         "rule2": "27 Jun is a Sunday → holiday on Fri 25 Jun",
         "c03_title": "Same day, two seasons", "c03_sub": "Daylight on 21 June 2027 (local times)",
         "tpe": "Taipei 25°N", "wlg": "Wellington 41°S", "summer": "North: almost midsummer",
@@ -515,6 +515,8 @@ def main():
         print(f"  {k} 黎明重現 {heliacal(k)}；6/21 白天 {daylight(k)}")
     C.emit("", [("年份", c01_years), ("今年", c01_this)], title="C-A33-01_Matariki假日")
     C.emit("", [("月曆", c02_cal), ("放假", c02_holiday)], title="C-A33-02_怎麼挑日子")
+    if LANG == "en":                     # 英文版 EN33 只用 C-A33-01、02（其餘頁在英文版刪掉）
+        return
     for nm, fn in (("C-A33-03_兩個季節", c03), ("C-A33-08_北島示意", c08)):
         f, ax = C.newfig(); fn(ax); C.save(f, "", f"{nm}_透明.png")
         f, ax = C.newfig(dark=True); fn(ax); C.save(f, "", f"{nm}_預覽_黑底.png", transparent=False)
