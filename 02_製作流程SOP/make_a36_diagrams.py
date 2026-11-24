@@ -6,7 +6,7 @@
   C-A36-04_查理的橡樹        → 09 鏡（單層：南天小窗，台北看得到的最南 −65°）
   C-A36-05_六月晚上的五個星群 → 12 鏡（9:16 圖卡，可存圖：台北 2027/6/18 22:00 全天）
   C-A36-06_星群也有國籍      → 9:16 圖卡（貼文輪播用；逐字稿分鏡表沒有指定鏡頭，不進 Reels 逐頁表）
-輸出：05_素材/A-36_現代星群/_概念圖/（--lang en → _概念圖/en/）；這次只出 zh。
+輸出：05_素材/A-36_現代星群/_概念圖/（--lang en → 只出 EN34 用的 C-A36-01、02 到 _概念圖/en/）。
 
 來源：星位＝Stellarium hip_gaia3 星表（07_資料來源/_cache）；連線＝02_星群Asterisms.csv、Stellarium modern_iau
       （UMa 19 星、IAU 邊界 edges B1875→J2000，與 make_a36_v4.py 同一份）、chinese、arabic_indigenous；
@@ -419,6 +419,8 @@ def main():
                    cx=0.0, cy=0.06)
     C.emit("", [("大熊", c01_uma), ("北斗", c01_bd)], title="C-A36-01_星座與星群")
     C.emit("", [("近處", c02_near), ("天津四", c02_deneb)], title="C-A36-02_夏季大三角的距離")
+    if LANG == "en":                     # 英文版 EN34 只用 C-A36-01、02
+        return
     f, ax = C.newfig(); c03_coh(ax); C.save(f, "", "C-A36-03_衣架的真實距離_透明.png")
     f, ax = C.newfig(dark=True); c03_coh(ax); C.save(f, "", "C-A36-03_衣架的真實距離_預覽_黑底.png", transparent=False)
     f, ax = C.newfig(); c04_oak(ax); C.save(f, "", "C-A36-04_查理的橡樹_透明.png")
