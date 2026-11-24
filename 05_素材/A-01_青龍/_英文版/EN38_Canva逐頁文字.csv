@@ -1,0 +1,31 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡（同一片星空，中國古代看見——一條龍）,3,World Sky Cultures,"One sky. The ancient Chinese saw — a
+dragon.",cover,Cover: text block replaced with English; second line = the hook; EN · EP38 tag
+2,,心宿特寫（蒼龍的心臟）,5,Look south after dark,"In July, a red star sits low in the
+southern sky.",top,E02; delete the Chinese title box (天上為什麼是一條龍？…／蒼龍的心臟); label 心宿（龍心） → Xin (the Heart). Page 3 (seven other cultures’ names for Xin) removed
+4,,心宿三星標籤：這顆紅色的星，中國人叫它「心」,6,"Antares, “rival of Mars”","In ancient China it had another name:
+Dahuo, “the Great Fire.”",top,"E03; labels 心宿二 Antares → Antares; delete 心宿一／心宿三／Alniyat. Pages 5–6 (the Arabic name, Babylon and Greece) removed"
+7,,天蠍座連線：阿拉伯人和後來的西方人看見蠍子,5,In the West: a scorpion,"These stars form Scorpius, and Antares
+is its heart.",top,E04; delete the vertical Chinese text box
+8,,青龍連線：三千年前的中國人看見一條龍,5,,"But 3,000 years ago, China looked up and
+saw a dragon.",top,E05; delete the vertical Chinese text box
+9,,角・亢・氐：龍角到龍尾七十度以上、七個拳頭,7,Over 70° of sky,"From horns to tail it spans more than
+70° — about seven fists at arm’s length.",bottom,E06; labels 角／亢／氐 → Jiao／Kang／Di
+10,,房・心・尾・箕：東方七宿合起來叫東方蒼龍,6,The Azure Dragon of the East,"Seven of the 28 lunar mansions, joined
+into one dragon.",bottom,E07; labels 房／心／尾／箕 → Fang／Xin／Wei／Ji
+11,,角宿：只有兩顆星，角宿一＝處女座主星 Spica,5,"Jiao, “the Horns”","The brighter of its two stars is Spica,
+Virgo’s chief star.",bottom,"E08; labels 角宿一 → (delete), Spica stays; 角宿 → Jiao"
+12,,亢宿：龍的咽喉,3,"Kang, “the Neck”",The dragon’s throat.,bottom,"E09; labels 亢宿 → Kang; 角宿 → Jiao. Then straight to 17 (pages 13–16: Dajiao, the two Sheti, the Dipper handle from the 《史記》, Di as the chest, Fang as a room and a carriage, removed)"
+17,,房宿四星：天駟，天上的四匹馬,6,Fang: the belly,"Four stars, also called Tiansi — the
+Four Celestial Steeds.",bottom,"E10; label 房宿 → Fang. Pages 18–19 (Tianfu spokes, the doors of the room) removed"
+20,,心宿三星：中間紅的是大火，龍的心臟,7,"Xin, “the Heart”","Three stars. The red one in the middle
+is the Great Fire: the dragon’s heart.",bottom,E11; label 心宿二 → Antares (the Great Fire). Page 21 (the Huozheng office) removed
+22,,尾宿：大尾巴泡在銀河裡,5,"Wei, “the Tail”","A long tail, dipping into the Milky Way.",bottom,"E12; label 尾宿 → Wei. Pages 23–25 (Fu Yue, 騎箕尾, the dressing room) removed"
+26,,箕宿：四顆星圍成一只簸箕,4,"Ji, “the Winnowing Basket”",Four stars at the tip of the tail.,bottom,"E13; label 箕宿 → Ji. Page 27 (糠、杵, the 《詩經・大東》 line) removed"
+28,,七個星宿，一條完整的龍（《易經》乾卦六爻）,9,A calendar in the sky,"At spring dusk, its horns rise in the
+east. Where the dragon stands tells the
+season, and when to sow.",top,"E14; replace the Chinese box. Then hard cut to 40 (pages 29–39: the Book of Changes diagram, 七月流火, 參商, the path to the pole, empty transition pages, removed)"
+40,,青龍只是四分之一：玄武・白虎・朱雀,5,Just one of four,"North: the Black Tortoise. West: the
+White Tiger. South: the Vermilion Bird.",top,"E15. Pages 41–44 (二十八宿 card, 同一片星空 card, empty pages) removed"
+45,,端卡（下週五：天上的紫禁城，紫微垣）,3,Next Wednesday,Korea: a star chart on banknotes.,endcard,E16 (replaces 下週五／我們走進星空的正中央／天上的紫禁城，紫微垣)
+46,,追蹤頁,3,,Follow for a new sky every week.,endcard,E17 (the three ntnu_astronomy handles stay)
