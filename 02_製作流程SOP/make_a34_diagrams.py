@@ -6,7 +6,7 @@
   C-A34-03b_蘇菲的尺           → 逐字稿 05 鏡（單位層→銀河層）
   C-A34-04_天空與天球儀        → 逐字稿 08 鏡（天空層→天球儀層）
   C-A34-05_用蘇菲的眼睛看天    → 逐字稿 14 鏡（9:16 圖卡，可存圖）
-輸出：05_素材/A-34_蘇菲之書/_概念圖/（--lang en → _概念圖/en/，這次只出 zh）
+輸出：05_素材/A-34_蘇菲之書/_概念圖/（--lang en → _概念圖/en/；EN31 只用 C-A34-01）
 
 來源：Stellarium arabic_al-sufi（stellarium-master；al-Ajaji：description 的「一肘＝2°20′」「矛＝6 肘」、
       Aql_9「碰到銀河」原文、And／SFA 連線）；Kunitzsch 1987（ESO Messenger 49：Ptolemy + 12°42′、
@@ -74,7 +74,7 @@ TXT = {
         "e986": "986", "e986b": "dies",
         "persian": "A Persian, writing in Arabic — the language of scholarship",
         "book_zh": "Book of the Images of the Fixed Stars", "book_tr": "Kitāb Ṣuwar al-Kawākib al-Thābita",
-        "age": "Over 1,060 years old in 2027",
+        "age": "Written over 1,060 years ago",
         "c02_title": "Ptolemy → al-Ṣūfī", "c02_sub": "Schematic: dot size = brightness",
         "ptol": "Ptolemy's Almagest", "ptol2": "c. 150 CE · 48 constellations · 1,000+ stars",
         "sufi": "al-Ṣūfī checks the real sky", "sufi2": "c. 964 · star by star",
@@ -95,8 +95,8 @@ TXT = {
         "e": "E", "w": "W",
         "c05_title": "See the sky with al-Ṣūfī's eyes", "c05_date": "Fri 4 June 2027 · Taipei",
         "r1t": "8 pm", "r1a": "Arcturus", "r1b": "high in the east, 71°",
-        "r1c": "al-Simāk al-Rāmiḥ — the high one with the spear",
-        "r2a": "Spica", "r2b": "south, 53° (due south 8:29)", "r2c": "al-Simāk al-Aʿzal — the unarmed high one",
+        "r1c": "al-Simāk al-Rāmiḥ — the raised one with a lance",
+        "r2a": "Spica", "r2b": "south, 53° (due south 8:29)", "r2c": "al-Simāk al-Aʿzal — the unarmed raised one",
         "r3a": "Vega", "r3b": "northeast, 19°", "r3c": "al-Nasr al-Wāqiʿ — the swooping eagle",
         "r4t": "10 pm", "r4a": "Altair", "r4b": "due east, 18.5° (rises 8:36)",
         "r4c": "al-Nasr al-Ṭāʾir — the flying eagle",
@@ -371,6 +371,8 @@ def main():
     if "--lang" in sys.argv:                      # 英文版寫到 _概念圖/en/
         LANG = sys.argv[sys.argv.index("--lang") + 1]
         C.set_base(os.path.join(OUT, LANG))
+        C.emit("", [("生平", c01_life), ("書名", c01_book)], title="C-A34-01_蘇菲是誰")   # EN31 只用這一組
+        return
     os.makedirs(OUT, exist_ok=True)
     run_all()
 
