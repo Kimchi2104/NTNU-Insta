@@ -7,7 +7,7 @@
   C-X04-05_春季大三角與大鑽石 → 13 鏡（9:16 圖卡，可存圖）
   C-X04-06_今晚抬頭看         → 14 鏡（9:16 圖卡，可存圖）
   C-X04-07_兩顆星同時升起     → 10 鏡（檀香山層→台北層）
-輸出：05_素材/X-04_春空導航/_概念圖/（--lang en → _概念圖/en/，這次只出 zh）
+輸出：05_素材/X-04_春空導航/_概念圖/（--lang en → _概念圖/en/，只出 EN23 用到的 C-X04-01）
 
 來源：Stellarium modern（RH1、SpT、GDi）；Hipparcos 新歸算（van Leeuwen 2007）視差與自行
 （大角 μα* −1093.4、μδ −1999.4 mas/yr）；Hesiod, Works and Days 564–570；Halley 1718, Phil. Trans. 30;
@@ -226,6 +226,9 @@ def c01_stars(ax):
         ax.scatter([x], [y], s=star_size(S[h][2]), c=col, zorder=8, lw=0)
     lab = {MIZ: ("開陽", -0.10, 0.012), ALK: ("搖光", -0.10, -0.012), ALI: ("玉衡", 0.02, 0.065),
            ARCTURUS: ("大角", 0.085, 0.0), SPICA: ("角宿一", 0.10, -0.01)}
+    if LANG == "en":                              # 英文字較長：往外推，免得蓋到星點
+        lab.update({MIZ: ("開陽", -0.15, 0.012), ALK: ("搖光", -0.15, -0.012),
+                    ARCTURUS: ("大角", 0.16, 0.0), SPICA: ("角宿一", 0.12, -0.01)})
     for h, (k, dx, dy) in lab.items():
         x, y = p01(h)
         col = AMBER if h == ARCTURUS else BLUE if h == SPICA else WHITE
@@ -550,6 +553,8 @@ def main():
         C.set_base(os.path.join(OUT, LANG))
     os.makedirs(OUT, exist_ok=True)
     C.emit("", [("星點", c01_stars), ("圓", c01_circle), ("偏差", c01_offset)], title="C-X04-01_弧線是真的")
+    if LANG == "en":                              # EN23 只用 C-X04-01（其餘概念圖英文版沒用到，不出）
+        return
     C.emit("", [("鐘面", c02_face), ("四季", c02_seasons)], title="C-X04-02_斗柄鐘面")
     C.emit("", [("前700", c03_r1), ("阿斯克拉2027", c03_r2), ("台北", c03_r3)], title="C-X04-03_赫西俄德的黃昏")
     C.emit("", [("星點", c04_stars), ("軌跡", c04_track)], title="C-X04-04_大角在走路")
