@@ -10,7 +10,7 @@
   C-A28-09_兩條黃道            → 16 鏡「兩尺」＋「十二宮」
   C-A28-10_今晚抬頭看          → 17 鏡（9:16 圖卡，可存圖）
   （C-A28-01 恆星黃道 27 格做成星圖層，見 make_a28_v4.py「恆星黃道27格」＋「27宿門牌」）
-輸出：05_素材/A-28_印度/_概念圖/（--lang en → _概念圖/en/）
+輸出：05_素材/A-28_印度/_概念圖/（--lang en → _概念圖/en/，只出 EN24 用到的 C-A28-02 妻子層、C-A28-03）
 
 來源：《泰帝利耶本集》2.3.5（33 個女兒、Soma 王、rājayakṣma）；《摩訶婆羅多・沙利耶篇》（Ganguli 譯 9.35：
       Dakṣa 27 個女兒、Prabhāsa 沐浴）；《薄伽梵往世書》6.6.2、6.6.23；《濕婆往世書》Koṭirudra Saṃhitā 14。
@@ -88,7 +88,7 @@ TXT = {
         "c02b_2": "Dakṣa: “Treat them all alike!”", "c02b_3": "Soma didn't → cursed with a wasting disease",
         "c03_title": "Thinner every day", "c03_1": "The gods pleaded: treat every wife equally,",
         "c03_2": "then bathe at Prabhāsa by the sea",
-        "c03_wane": "half a month waning", "c03_wax": "half a month waxing", "c03_c1": "phases of the Moon",
+        "c03_wane": "½ month waning", "c03_wax": "½ month waxing", "c03_c1": "phases of the Moon",
         "c03_c2": "about 29.5 days", "c03_foot": "The later Śiva Purāṇa: Śiva saved him",
         "c04_title": "Somnāth: “Lord of the Moon”", "c04_sub": "West coast of India, Gujarat (land only, no borders)",
         "india": "Indian subcontinent", "arab": "Arabian Sea", "bay": "Bay of Bengal",
@@ -546,6 +546,11 @@ def main():
     if "--lang" in sys.argv:
         LANG = sys.argv[sys.argv.index("--lang") + 1]
         C.set_base(os.path.join(OUT, LANG))
+        os.makedirs(C._BASE, exist_ok=True)
+        # EN24 只用 C-A28-02「妻子」層（Canva 8）與 C-A28-03 兩層（Canva 16）；其他幾張要用時再加進來
+        emit_alone("C-A28-02_二十七位妻子", [("妻子", c02_wives)])
+        C.emit("", [("消瘦", c03_wane), ("盈虧", c03_cycle)], title="C-A28-03_盈虧")
+        return
     os.makedirs(C._BASE, exist_ok=True)
     for hip in (21421, 80763):
         DIST[hip] = min_dist_by_year(hip)
