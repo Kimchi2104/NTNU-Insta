@@ -24,9 +24,9 @@
 | E06 | 5 | 6 | top | Second-oldest of its kind | Korea calls it the world’s second-oldest star chart carved in stone. | 2.2 |
 | E07 | 7 | 7 | top | A familiar sky | If you know the Chinese sky, it looks familiar: the same asterisms, the same names. | 2.1 |
 | E08 | 5 | 23 | top | Late July, after dark | Look high in the east: three bright stars along the Milky Way. | 2.4 |
-| E09 | 4 | 24 | bottom-left | The Weaver Girl | In the West: Vega. | 1.0 |
+| E09 | 4 | 24 | bottom-left | The Weaver | In the West: Vega. | 1.0 |
 | E10 | 4 | 25 | bottom-left | The River Drum | In the West: Altair. | 1.0 |
-| E11 | 5 | 26 | bottom-left | The Celestial Ford | In the West: Deneb. Together: the Summer Triangle. | 1.6 |
+| E11 | 5 | 26 | bottom-left | The Heavenly Ford | In the West: Deneb. Together: the Summer Triangle. | 1.6 |
 | E12 | 7 | 27 | top | Same characters, new sound | The chart writes them in the same Chinese characters. Korean reads them Jingnyeo, Hago, Cheonjin. | 2.1 |
 | E13 | 7 | 42 | top | One chart, six centuries | From Goguryeo to Joseon to today’s wallets: the sky hasn’t changed, only the voices reading it. | 2.3 |
 | E14 | 3 | 45 | endcard | Next: Sunday, August 8 | Qixi: the Cowherd and the Weaver. | 2.0 |
@@ -46,9 +46,9 @@
 | 6 | | 星圖全景（無字） | 5 | E06 |
 | 7 | | 它正是中國那一套，朝鮮透過《步天歌》繼承 | 7 | E07; replace the Chinese box. Then hard cut to 23 (pages 8–22: Xin as the Emperor’s seat, the dragon mansions as a court, the ranks of the single stars, Fu Yue, removed) |
 | 23 | | 往西邊看：銀河兩岸的三顆亮星 | 5 | E08; replace the Chinese box (it says “look west”; the English gives the late-July evening direction instead) |
-| 24 | | 織女 직녀 (JikNyeo) The Weaver | 4 | E09; labels: keep 織女; 직녀 (JikNyeo) → 직녀 (Jingnyeo); The Weaver → The Weaver Girl; delete 織布的女人（同） |
+| 24 | | 織女 직녀 (JikNyeo) The Weaver | 4 | E09; labels: keep 織女; 직녀 (JikNyeo) → 직녀 (Jingnyeo); The Weaver stays; delete 織布的女人（同） |
 | 25 | | 河鼓 하고 (HaGo) Drum of River | 4 | E10; labels: keep 河鼓; 하고 (HaGo) → 하고 (Hago); Drum of River → The River Drum |
-| 26 | | 天津 천진 (CheonJin) Ferry of Sky | 5 | E11; labels: keep 天津; 천진 (CheonJin) → 천진 (Cheonjin); Ferry of Sky → The Celestial Ford; delete 天上的渡船 |
+| 26 | | 天津 천진 (CheonJin) Ferry of Sky | 5 | E11; labels: keep 天津; 천진 (CheonJin) → 천진 (Cheonjin); Ferry of Sky → The Heavenly Ford; delete 天上的渡船 |
 | 27 | | 一個漢字都沒有改，不過音變了：JikNyeo、CheonJin | 7 | E12; delete all three Chinese boxes (織女 韓語唸 JikNyeo／天津 唸 CheonJin／在這張圖上…音變了). Then hard cut to 42 (pages 28–41: the River Drum as three generals, the Cowherd name, the Black Tortoise mansions, the Dipper as a government, removed) |
 | 42 | | 這張星圖保存的不只是星星的位置，更是一整份官職名冊；國寶已取消編號 | 7 | E13; delete both Chinese boxes. Pages 43–44 (empty) removed |
 | 45 | | 端卡（下集見：日本：月亮驛站） | 3 | E14 (replaces 下集見／日本：月亮驛站) |
@@ -66,9 +66,9 @@ Total 79 s (E15 included).
 | 平壤 | Pyongyang | 譯名表 |
 | 高句麗 | Goguryeo | 譯名表 |
 | 星官 | asterisms | as the series |
-| 織女 | the Weaver Girl; Korean Jingnyeo (직녀); Vega | 譯名表 Jingnyeo (직녀) / Vega — RR per the report (not the Stellarium JikNyeo) |
-| 河鼓 | the River Drum; Korean Hago (하고); Altair | 譯名表 |
-| 天津 | the Celestial Ford; Korean Cheonjin (천진); Deneb | 譯名表 A-04 row (EN35 has “Tianjin, a ford” for the Chinese asterism) |
+| 織女 | the Weaver; Korean Jingnyeo (직녀); Vega | 譯名表 織女（故事人物）the Weaver (EN39) and Jingnyeo (직녀) / Vega — RR per the report (not the Stellarium JikNyeo) |
+| 河鼓 | the River Drum; Korean Hago (하고); Altair | 譯名表 (new row 河鼓（星官）) |
+| 天津 | the Heavenly Ford; Korean Cheonjin (천진); Deneb | 譯名表 天津 row (EN39: Tianjin, “the Heavenly Ford”) |
 | 夏季大三角 | the Summer Triangle | 譯名表 |
 | 牛郎織女（七夕） | Qixi: the Cowherd and the Weaver | end card = EN39 title |
 
@@ -76,7 +76,7 @@ Total 79 s (E15 included).
 
 - **Title**: Korea: a 600-year-old star chart on the 10,000-won note
 - **Description**:
-  The back of Korea’s 10,000-won note carries a whole sky: 1,467 stars from Cheonsang Yeolcha Bunya Ji Do, a star chart carved in stone in 1395. Its asterisms are the Chinese ones, written in the same characters but read in Korean: the Weaver Girl is Jingnyeo, the River Drum Hago, the Celestial Ford Cheonjin — Vega, Altair and Deneb, the Summer Triangle.
+  The back of Korea’s 10,000-won note carries a whole sky: 1,467 stars from Cheonsang Yeolcha Bunya Ji Do, a star chart carved in stone in 1395. Its asterisms are the Chinese ones, written in the same characters but read in Korean: the Weaver is Jingnyeo, the River Drum Hago, the Heavenly Ford Cheonjin — Vega, Altair and Deneb, the Summer Triangle.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Bank of Korea (10,000-won note, 2007); National Palace Museum of Korea; Stellarium sky culture “korean”.
 
@@ -84,7 +84,7 @@ Total 79 s (E15 included).
 
 A star chart printed on Korean money. 💵
 The back of the 10,000-won note shows Cheonsang Yeolcha Bunya Ji Do, carved in stone in 1395: 1,467 stars in one circle. Korea calls it the world’s second-oldest star chart in stone.
-Its asterisms are the Chinese ones — same characters, a Korean voice: the Weaver Girl is Jingnyeo, the River Drum Hago, the Celestial Ford Cheonjin. In the West: Vega, Altair, Deneb, the Summer Triangle.
+Its asterisms are the Chinese ones — same characters, a Korean voice: the Weaver is Jingnyeo, the River Drum Hago, the Heavenly Ford Cheonjin. In the West: Vega, Altair, Deneb, the Summer Triangle.
 Late July evenings: look high in the east.
 Next: Sunday, August 8 — Qixi, the Cowherd and the Weaver.
 #WorldSkyCultures #astronomy #stars #Korea #Joseon #SummerTriangle #Vega #skylore
@@ -103,10 +103,10 @@ Wording to check:
 6. E06 “Korea calls it” keeps the report’s note that “second-oldest” is the Korean usual account (韓方通行說法; the oldest is the Suzhou chart of 1247).
 7. E07 = script「如果你懂中國星官，看這張圖會有種奇妙的熟悉感——因為它們，本來就是同一套天空」; “the same names” = Canva「一個漢字都沒有改」.
 8. E08 replaces the script’s wrong「九月晚上西南方」(report: Vega and Deneb are never in the south-west from Taiwan). Checked for 2027-07-28: at 22:00 local, 40° N, Vega az 89° alt 76°, Deneb az 65° alt 54°, Altair az 124° alt 45°; at 50° N Vega alt 73°. “High in the east” is accurate.
-9. E09–E11 “the Weaver Girl / the River Drum / the Celestial Ford” are the 譯名表 names; the Canva labels say The Weaver / Drum of River / Ferry of Sky (Stellarium) and are changed to match.
+9. E09–E11 “the Weaver / the River Drum / the Heavenly Ford” follow the 譯名表 (the Weaver and the Heavenly Ford as in EN39); the Canva labels say The Weaver / Drum of River / Ferry of Sky (Stellarium): the last two are changed to match.
 10. E12 Korean names in the official Revised Romanization (report: 직녀 → Jingnyeo because of nasalisation; 하고 Hago; 천진 Cheonjin), not the Stellarium spellings JikNyeo / HaGo / CheonJin the Chinese uses.
 11. E11 “Together: the Summer Triangle” and E09–E11 “In the West: Vega / Altair / Deneb” = script 118–136s.
 12. E13 = script 136–156s「一張星圖，走過高句麗、朝鮮、到今天的錢包。天空沒有變，變的是唸它的人」; “six centuries” = 「六百年前」 (report: acceptable).
 13. E14 the next English episode is EN39 Qixi on Sunday 2027-08-08 (there is no Wednesday episode on 8/4), so the end card names the date instead of “Next Wednesday”.
-14. 天津: EN40 uses “the Celestial Ford” (the 譯名表 A-04 row’s note: “Celestial Ford asterism”); EN35 (X-07) glosses the same asterism as “Tianjin, a ford”. Both say ford; no separate 譯名表 row was added for EN40. The reviewer may unify.
+14. 天津: EN40 uses “the Heavenly Ford” (= the 譯名表 天津 row from EN39). Older rows still differ: A-04 Korean row note “Celestial Ford”, EN35 “Tianjin, a ford”; not changed here.
 15. Page sequence is the authority for timing (total 79 s).
