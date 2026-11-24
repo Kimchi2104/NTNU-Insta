@@ -469,7 +469,66 @@ H. A. Rey,H. A. Rey,Person,"A-30, EN26",Hans Augusto Rey; The Stars: A New Way t
 巨爵座,Crater,Constellation,"A-30, EN26",Ruelle La Coupe
 烏鴉座,Corvus,Constellation,"A-30, EN26",Ruelle Le Corbeau
 北極五星,the five Pole stars,Asterism,"A-02, EN37","Di (the Emperor) = the second star, β UMi (not the middle one)"
+天河（中國的銀河名）,"Tianhe, ""the Heavenly River""",Cultural Concept,"X-07, EN35",on-screen gloss; label Tianhe (Heavenly River); 銀河 / 天河 row (H-七夕) keeps Silver River for 銀河
+咸池,"Xianchi, a star pool",Asterism,"X-07, EN35",Auriga; on screen 'star pools'
+天潢,"Tianhuang, a pond",Asterism,"X-07, EN35",Auriga; Stellarium 'Celestial Pier' not used (no ford sense in Jinshu)
+天船,"Tianchuan, a boat",Asterism,"X-07, EN35",Perseus (+1 Cam)
+天津（中國星官）,"Tianjin, a ford",Asterism,"X-07, EN35","Cygnus, 9 stars; the Korean reading row (A-04) stays"
+天江,"Tianjiang, a river",Asterism,"X-07, EN35","Ophiuchus, 4 stars; on screen 'another river'"
+漢津（箕斗之間）,the river's ford; diagram title: the Ford of the Han,Cultural Concept,"X-07, EN35","Erya, Shitian"
+《爾雅》,the Erya (ancient Erya),Cultural Concept,"X-07, EN35","diagram source line: Erya, Shitian"
+銀河中心（銀心）,the galaxy's centre; label Galactic Centre,Cultural Concept,"X-07, EN35","British spelling, as the series"
+天空的縫線（蒙古）,a seam; seam of the sky,Cultural Concept,"X-07, EN35","Тэнгэрийн заадас; opening line 'a river, a road, a seam'"
+Toloa（東加的野鴨）,"Toloa, the wild duck",Asterism,"X-08, EN36",Tonga; label only
+Manu（阿努塔的大鳥）,"Manu, the great bird",Asterism,"X-08, EN36","Anuta: Sirius body, Canopus and Procyon wings (EN01); label only"
+織女／牛郎（七夕故事的人物）,the Weaver / the Cowherd,Cultural Concept,"X-08, EN36",as EN39's title; the stars stay Vega / Altair
+帳篷頂（黑腳族彩繪）,tipi tops,Cultural Concept,"X-08, EN36",the Blackfoot painted the Big Dipper and Pleiades on tipi tops; see 彩繪帳篷
+把自己的日子寫上天,wrote its days on the sky,Cultural Concept,"X-08, EN36",season-finale theme line
+蘇菲（ʿAbd al-Raḥmān al-Ṣūfī）,al-Ṣūfī,Person,"A-34, EN31","Persian astronomer (903–986), wrote in Arabic; Latin Azophi"
+《恆星圖像之書》,Book of Fixed Stars (Book of the Images of the Fixed Stars),Literature,"A-34, EN31","Kitāb Ṣuwar al-Kawākib al-Thābita, c. 964; short form in titles and captions"
+古代阿拉伯人的老星名,the old Arab star names,Term,"A-34, EN31",pre-Islamic Arab names kept in anwāʾ books; not “desert” or “Bedouin”
+拿矛的高舉者 al-Simāk al-Rāmiḥ,the raised one with a lance,Star Name,"A-34, EN31",Arcturus; al-Simāk = the raised one (A-13 ring label “Raised”)
+沒拿武器的高舉者 al-Simāk al-Aʿzal,the unarmed raised one,Star Name,"A-34, EN31",Spica
+大魚 al-Ḥūt al-ʿAẓīm,the Great Fish,Asterism,"A-34, EN31",Arab constellation across Andromeda (Stellarium SFA)
+一小抹像雲的光斑 laṭkha saḥābiyya,"a little smudge, like a cloud",Term,"A-34, EN31",al-Ṣūfī’s description of M31; not “little cloud”
+仙女座大星系,the Andromeda Galaxy,Deep Sky,"A-34, EN31",M31; 2.5 million light-years
+仙女座,Andromeda,Constellation,"A-34, EN31",al-Musalsala
+英仙座,Perseus,Constellation,"A-34, EN31",Birshāwish
+妖怪的頭 raʾs al-ghūl,a ghoul’s head: raʾs al-ghūl,Star Name,"A-34, EN31","Algol (β Per); Arabic rendering of Ptolemy’s Gorgon’s head, not an old Arab name"
+大陵五,Algol (Beta Persei),Star Name,"A-34, EN31",
+俯衝的老鷹 al-Nasr al-Wāqiʿ,the swooping eagle,Star Name,"A-34, EN31",Vega; nasr can also mean a vulture
+飛翔的老鷹 al-Nasr al-Ṭāʾir,the flying eagle,Star Name,"A-34, EN31",Altair
+室女座,Virgo,Constellation,"A-34, EN31",al-ʿAdhrāʾ; chart label
+托勒密,Ptolemy,Person,"A-34, EN31",Almagest c. 150 CE; 48 Greek constellations
+88 個星座（IAU）,the 88 constellations,Term,"A-35, EN32","list fixed 1922 (Rome); borders approved 1928, published 1930"
+Plancius 的南天 12 座,"Apus, Chamaeleon, Dorado, Grus, Hydrus, Indus, Musca, Pavo, Phoenix, Triangulum Australe, Tucana, Volans",Constellation,"A-35, EN32",= 天燕、蝘蜓、劍魚、天鶴、水蛇、印第安、蒼蠅、孔雀、鳳凰、南三角、杜鵑、飛魚; Dutch navigators Keyser & de Houtman
+天貓座,Lynx,Constellation,"A-35, EN32",Hevelius 1690: “you need a lynx’s eyes”
+Lacaille 的 14 座,"Antlia, Caelum, Circinus, Fornax, Horologium, Mensa, Microscopium, Norma, Octans, Pictor, Pyxis, Reticulum, Sculptor, Telescopium",Constellation,"A-35, EN32",= 唧筒、雕具、圓規、天爐、時鐘、山案、顯微鏡、矩尺、南極、繪架、羅盤、網罟、玉夫、望遠鏡
+開普敦的桌山,"Table Mountain, Cape Town",Place,"A-35, EN32",= Mensa
+好望角,the Cape of Good Hope,Place,"A-35, EN32",
+Delporte,Belgian astronomer (Eugène) Delporte,Person,"A-35, EN32",Uccle observatory; not a priest (Stellarium error)
+長蛇座,Hydra,Constellation,"A-35, EN32","largest: 1,303 sq. deg"
+大麥哲倫雲,the Large Magellanic Cloud,Deep Sky,"A-35, EN32",label
+Matariki（昴宿，毛利）,Matariki (the Pleiades),Asterism,"A-33, EN33","Māori name of the Pleiades and of its brightest star (Alcyone, ‘the mother’); dawn return in June = Māori New Year; New Zealand public holiday since 2022"
+Matariki 九星的領域,food in the soil / fruit and birds / fresh water / the sea / rain / wind / health / wishes / the departed,Cultural Concept,"A-33, EN33",Tupuānuku / Tupuārangi / Waitī / Waitā / Waipuna-ā-rangi / Ururangi / Matariki / Hiwa-i-te-rangi / Pōhutukawa (Mātāmua 2017; Te Papa); Canva domain labels
+Hiwa-i-te-rangi,Hiwa-i-te-rangi: new year wishes,Star Name,"A-33, EN33","Celaeno (16 Tau), mag 5.5"
+Pōhutukawa,Pōhutukawa: those lost this past year,Star Name,"A-33, EN33","Asterope (21 Tau), mag 5.8; label ‘the departed’"
+Te Ao Māori（毛利世界觀）,Te Ao Māori (the Māori world view),Cultural Concept,"A-33, EN33",government quote: “the first public holiday to recognise Te Ao Māori”
+Pipiri／Tangaroa（毛利月曆）,Pipiri (the month) / Tangaroa (the nights near last quarter),Cultural Concept,"A-33, EN33",diagram C-A33-02: “Official rule: the Friday closest to Tangaroa in Pipiri”
+Rangi Mātāmua,Rangi Mātāmua,Person,"A-33, EN33",Māori astronomer; 2017 book signed Rangi Matamua (cite that spelling in sources)
+星群（現代／IAU 意義）,an asterism,Cultural Concept,"A-36, EN34",a well-known pattern that is not one of the IAU's 88 constellations; for Chinese 星官 in this sense-contrast EN34 says 'a star group of its own'
+北斗（中國星官）,Beidou — the Northern Dipper,Asterism,"A-36, EN34",its own star group in China (Shiji: keeps the seasons and directions); vs the Big Dipper (IAU asterism)
+al-nasr al-wāqiʿ（俯衝的鷹）,‘the swooping eagle’ (source of Vega),Asterism,"A-36, EN34","al-Ṣūfī asterism: Vega + ε¹, ζ¹ Lyr"
+al-nasr al-ṭāʾir（飛翔的鷹）,‘the flying eagle’ (source of Altair),Asterism,"A-36, EN34","al-Ṣūfī asterism: Altair + β, γ Aql"
+dhanab al-dajāja（母雞的尾巴）,‘the hen’s tail’ (source of Deneb),Star Name,"A-36, EN34",
+春季大曲線,the Arc to Arcturus,Western Asterism,"X-04, A-36, EN34",Big Dipper handle → Arcturus → Spica
+中秋節,Mid-Autumn Festival,Festival,"A-06, EN45",15th day of the 8th lunar month
+王充,Wang Chong,Person,"A-06, EN45",1st-century author of the Lunheng: “the 28 mansions are lodges of the Sun and Moon”
+井宿,"Jing, “the Well”",Asterism,"A-06, EN45","22nd lunar mansion; widest, 33°"
+觜宿,"Zui, “the Turtle Beak”",Asterism,"A-06, EN45","20th lunar mansion; narrowest, 2°"
+鬼宿,"Gui, “the Ghosts”",Asterism,"A-06, EN45",23rd lunar mansion; label only in EN45
+參宿,"Shen, “the Three Stars”",Asterism,"A-06, EN45",21st lunar mansion (Orion); label only in EN45
+黃道,the ecliptic,Astronomy Term,"A-06, EN45",
 處女座,Virgo,Western Constellation,"A-01, EN38",Spica (角宿一) is its chief star
 織女（星官）,the Weaver Girl,Asterism,"A-04, EN40",Korean Jingnyeo; brightest star Vega (織女一)
 河鼓（星官）,the River Drum,Asterism,"A-04, EN40",Korean Hago; brightest star Altair (河鼓二)
-天津（星官）,the Celestial Ford,Asterism,"A-04, EN40",Korean Cheonjin; brightest star Deneb (天津四)

@@ -68,7 +68,7 @@ Total 79 s (E15 included).
 | 星官 | asterisms | as the series |
 | 織女 | the Weaver Girl; Korean Jingnyeo (직녀); Vega | 譯名表 Jingnyeo (직녀) / Vega — RR per the report (not the Stellarium JikNyeo) |
 | 河鼓 | the River Drum; Korean Hago (하고); Altair | 譯名表 |
-| 天津 | the Celestial Ford; Korean Cheonjin (천진); Deneb | 譯名表 |
+| 天津 | the Celestial Ford; Korean Cheonjin (천진); Deneb | 譯名表 A-04 row (EN35 has “Tianjin, a ford” for the Chinese asterism) |
 | 夏季大三角 | the Summer Triangle | 譯名表 |
 | 牛郎織女（七夕） | Qixi: the Cowherd and the Weaver | end card = EN39 title |
 
@@ -108,4 +108,5 @@ Wording to check:
 11. E11 “Together: the Summer Triangle” and E09–E11 “In the West: Vega / Altair / Deneb” = script 118–136s.
 12. E13 = script 136–156s「一張星圖，走過高句麗、朝鮮、到今天的錢包。天空沒有變，變的是唸它的人」; “six centuries” = 「六百年前」 (report: acceptable).
 13. E14 the next English episode is EN39 Qixi on Sunday 2027-08-08 (there is no Wednesday episode on 8/4), so the end card names the date instead of “Next Wednesday”.
-14. Page sequence is the authority for timing (total 79 s).
+14. 天津: EN40 uses “the Celestial Ford” (the 譯名表 A-04 row’s note: “Celestial Ford asterism”); EN35 (X-07) glosses the same asterism as “Tianjin, a ford”. Both say ford; no separate 譯名表 row was added for EN40. The reviewer may unify.
+15. Page sequence is the authority for timing (total 79 s).

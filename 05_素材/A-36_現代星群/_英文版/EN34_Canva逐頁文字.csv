@@ -1,0 +1,40 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,3,World Sky Cultures,"One sky. The Big Dipper — isn’t a
+constellation.",cover,Cover: text block replaced with English; second line = the new hook (*The star shapes you know first? Many aren’t constellations.*); EN · EP34 tag
+2,,鏡頭01開始,4,88 official constellations,"The sky is split into 88 official
+constellations. Many shapes you spot
+first aren’t on the list.",top,"E02; north plate, IAU boundaries + Big Dipper"
+3,,鏡頭01結束＝鏡頭02開始,4,88 official constellations,"The sky is split into 88 official
+constellations. Many shapes you spot
+first aren’t on the list.",top,"E02; labels Big Dipper, Polaris stay; 北斗七星 → remove"
+4,,鏡頭02結束,6,,"The Big Dipper is just the Great Bear’s
+rear and tail.",bottom,E03; labels Ursa Major stays; 大熊座 → remove; 北斗七星＝星群 → Big Dipper = asterism (the label “asterism” below it → remove)
+5,,鏡頭02-概念圖1,3,"Famous, but unofficial: an asterism",,top,"diagram C-A36-01, English, bear layer (`_概念圖/en/C-A36-01_星座與星群_大熊層_透明.png`); E04 headline"
+6,,鏡頭02-概念圖2,3,"Famous, but unofficial: an asterism",,top,+ Big Dipper layer (`…_北斗層_透明.png`); E04 headline
+7,,鏡頭02-概念圖收＝鏡頭03開始,3,It depends whose rules,"In China, though, Beidou — the Northern
+Dipper — was a star group of its own,
+keeping the seasons and directions.",bottom,diagram fades; E05; labels as page 4
+8,,鏡頭03結束＝鏡頭04開始,6,It depends whose rules,"In China, though, Beidou — the Northern
+Dipper — was a star group of its own,
+keeping the seasons and directions.",bottom,E05; labels 北斗（中國星官） → Beidou (China); 管四季、定方向 → seasons and directions; IAU：大熊座（白框） → IAU: Ursa Major (white outline); then the plate turns east (shortened from 18 s)
+9,,鏡頭04結束,6,The Summer Triangle,"Vega, Altair and Deneb sit in three
+different constellations: Lyra, Aquila
+and Cygnus.",bottom,"E06; labels 織女 25 光年 → Vega 25 ly; 天琴座 → Lyra; 牛郎 17 光年 → Altair 17 ly; 天鷹座 → Aquila; 天津四 1000＋光年 → Deneb 1,000+ ly; 天鵝座 → Cygnus; Summer Triangle stays"
+10,,鏡頭04-概念圖1,3,Close in the sky only,,top,"diagram C-A36-02, English, near layer (`_概念圖/en/C-A36-02_夏季大三角的距離_近處層_透明.png`); E07 headline"
+11,,鏡頭04-概念圖2,4,Close in the sky only,,top,+ Deneb layer (`…_天津四層_透明.png`); E07 headline
+12,,鏡頭04-概念圖收＝鏡頭05開始,5,"English names, Arabic roots","Vega comes from Arabic for ‘the swooping
+eagle’; Altair, ‘the flying eagle’.",bottom,diagram fades; E08; labels as page 9 (shortened from 19 s)
+13,,鏡頭05結束,8,,"In Arabia, each eagle comes with two
+small stars — an asterism of its own.
+Deneb: ‘the hen’s tail’.",bottom,"E09; Arabic labels stay; 俯衝的鷹 → Vega → swooping eagle → Vega; 飛翔的鷹 → Altair → flying eagle → Altair; 母雞的尾巴 → Deneb → hen’s tail → Deneb; then straight to 33 (pages 14–32: Pegasus square, Teapot, Coathanger, retired constellations, IAU star names, Formosa, removed; 13 and 33 are both on the north plate at 22:00)"
+33,,鏡頭12開始,4,Find them tonight,"Late evening, look east: the Summer
+Triangle is climbing. Northwest: the Big
+Dipper, handle up.",bottom,E10; label 東方：夏季大三角 → East: Summer Triangle
+34,,鏡頭12-中1,4,Find them tonight,"Late evening, look east: the Summer
+Triangle is climbing. Northwest: the Big
+Dipper, handle up.",bottom,E10; label 西北：北斗（斗柄朝上） → NW: Big Dipper (handle up)
+35,,鏡頭12結束,7,,"Follow the handle’s curve to Arcturus,
+then Spica: the Arc to Arcturus, in the
+west.",bottom,"E11; label 春季大曲線 → Arc to Arcturus (Arcturus, Spica stay); then straight to 47 (pages 36–46: card C-A36-05 with the full Moon of 18 June, and the Chinese next-episode spin, removed)"
+47,,端卡（下集見）,4,Next Wednesday,"The Milky Way: a river, a road, a rift.",endcard,E12
+48,,追蹤頁,3,,Follow for a new sky every week.,endcard,E13
