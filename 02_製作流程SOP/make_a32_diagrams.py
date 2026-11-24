@@ -92,7 +92,7 @@ TXT = {
         "c03_r1": "Crescent hilāl: what day it is", "c03_r2": "after sunset, low in the west,",
         "c03_r3": "the first thin crescent starts the month",
         "c03_w": "W", "c03_sun": "just after sunset",
-        "c04_title": "Lunar stations on today's star maps",
+        "c04_title": "Lunar stations on star maps",
         "c04_sub": "18 of the 28 stations still name stars on the IAU's official list",
         "c04_h": ["#", "Station (meaning)", "IAU star name"],
         "c04_foot1": "* name later moved to a nearby star: Subra, Iklil, Albaldah, Alrescha",

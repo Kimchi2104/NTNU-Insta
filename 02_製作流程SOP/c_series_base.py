@@ -29,6 +29,9 @@ def font():
               "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"]:
         if os.path.exists(f):
             fontManager.addfont(f); fams.append(FontProperties(fname=f).get_name())
+    bold = "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"   # 同一字族的粗體；沒載入時 weight="bold" 會退回 Regular
+    if os.path.exists(bold):
+        fontManager.addfont(bold)
     fams.append("DejaVu Sans")
     return FontProperties(family=fams)
 FP = font()

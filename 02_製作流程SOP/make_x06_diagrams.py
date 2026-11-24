@@ -75,20 +75,20 @@ TXT = {
     "en": {
         "c01_title": "Before the compass came aboard", "c01_sub": "timeline not to scale",
         "now": "today",
-        "sahul_t": "50,000 years ago", "sahul1": "Crossing to Sahul", "sahul2": "(Australia + New Guinea)",
+        "sahul_t": "50,000 yrs ago", "sahul1": "Crossing to Sahul", "sahul2": "(Australia + New Guinea)",
         "sahul3": "Most islands on the way", "sahul4": "could see the next one", "sahul_q": "Stars used? No evidence",
         "ody_t": "c. 2,700 years ago", "ody1": "The Odyssey", "ody2": "keep the Bear on your left",
-        "pz_t": "AD 1119", "pz1": "Pingzhou Ketan", "q1": "At night, watch the stars;", "q2": "by day, watch the sun;",
-        "q3": "when overcast, watch the compass.",
-        "an1_t": "c. 4,000 years ago", "an1": "south from Taiwan",
-        "an2_t": "c. 2,900 years ago", "an2": "reaching Tonga",
-        "an3_t": "800–1,000 years ago", "an3": "reaching Hawaiʻi",
+        "pz_t": "AD 1119", "pz1": "Pingzhou Ketan", "q1": "By night, the stars;", "q2": "by day, the sun;",
+        "q3": "overcast: the compass.",
+        "an1_t": "4,000 yrs ago", "an1": "from Taiwan",
+        "an2_t": "2,900 yrs ago", "an2": "to Tonga",
+        "an3_t": "800–1,000 yrs ago", "an3": "to Hawaiʻi",
         "map_note": "solid = islands in sight   dashed = open-sea legs out of sight of land (schematic)",
         "Taiwan": "Taiwan", "Luzon": "Philippines", "Sulawesi": "Sulawesi", "Bismarck": "Bismarck Is.",
         "Vanuatu": "Vanuatu", "Fiji": "Fiji", "Tonga": "Tonga", "Samoa": "Samoa", "Tahiti": "Tahiti",
         "Hawaii": "Hawaiʻi",
-        "c02_haw": "Hawaiʻi: 32 houses", "c02_haw2": "star compass organised by Nainoa Thompson (A-09)",
-        "c02_ara": "Arab: 32 star points", "c02_ara2": "where bright stars rise (E) and set (W)",
+        "c02_haw": "Hawaiʻi: 32 houses", "c02_haw2": "the star compass organised by Nainoa Thompson",
+        "c02_ara": "Arabia: 32 star points", "c02_ara2": "where bright stars rise (E) and set (W)",
         "N": "N", "E": "E", "S": "S", "W": "W",
         "jah": "Polaris", "jah2": "al-Jāh", "scp": "S. pole",
         "五車二": "Capella", "織女": "Vega", "昴宿": "Pleiades", "大角": "Arcturus", "牛郎": "Altair", "心宿二": "Antares",
@@ -234,6 +234,8 @@ def c01_austronesian(ax):
            "Vanuatu": (-0.03, -0.01, "right", WHITE, 13), "Fiji": (0.0, -0.045, "center", WHITE, 13),
            "Tonga": (0.0, -0.045, "center", AMBER, 15), "Samoa": (0.0, 0.045, "center", WHITE, 13),
            "Tahiti": (0.0, -0.045, "center", WHITE, 13), "Hawaii": (0.0, 0.045, "center", AMBER, 16)}
+    if LANG != "zh":                                        # 英文字較長：菲律賓標在右邊，免得出框
+        lab["Luzon"] = (0.03, 0.0, "left", WHITE, 13)
     for nm, (lat, lon) in P.items():
         x, y = mp(lat, lon)
         col = lab[nm][3]
@@ -367,7 +369,7 @@ def c03_card(ax):
         ax.text(0.09, y - 0.092, tx(q), fontproperties=C.FP, fontsize=14.5, color=WHITE, ha="left", va="center",
                 weight="bold", zorder=3)
         for i, line in enumerate(tx(e)):
-            ax.text(0.11, y - 0.135 - 0.034 * i, ("　" if line.startswith("＝") else "・") + line, fontproperties=C.FP, fontsize=12, color=WHITE,
+            ax.text(0.11, y - 0.135 - 0.034 * i, ("　" if line.startswith(("＝", "=")) else ("・" if LANG == "zh" else "• ")) + line, fontproperties=C.FP, fontsize=12, color=WHITE,
                     ha="left", va="center", alpha=.88, zorder=3)
         y -= hh + 0.014
     ax.text(0.5, 0.062, tx("c03_foot"), fontproperties=C.FP, fontsize=10.5, color=GREY, ha="center", va="center")
