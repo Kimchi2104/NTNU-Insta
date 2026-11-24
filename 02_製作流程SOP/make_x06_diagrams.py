@@ -75,7 +75,7 @@ TXT = {
     "en": {
         "c01_title": "Before the compass came aboard", "c01_sub": "timeline not to scale",
         "now": "today",
-        "sahul_t": "50,000 years ago", "sahul1": "Crossing to Sahul", "sahul2": "(Australia + New Guinea)",
+        "sahul_t": "50,000 yrs ago", "sahul1": "Crossing to Sahul", "sahul2": "(Australia + New Guinea)",
         "sahul3": "Most islands on the way", "sahul4": "could see the next one", "sahul_q": "Stars used? No evidence",
         "ody_t": "c. 2,700 years ago", "ody1": "The Odyssey", "ody2": "keep the Bear on your left",
         "pz_t": "AD 1119", "pz1": "Pingzhou Ketan", "q1": "By night, the stars;", "q2": "by day, the sun;",
