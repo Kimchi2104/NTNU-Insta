@@ -1,0 +1,37 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,3,World Sky Cultures,"One sky. A Paris astronomer saw — a star
+map made only of lines.",cover,Cover: text block replaced with English; second line = the hook (*Who drew the lines in your star app?*); EN · EP26 tag
+2,,鏡頭01開始＝鏡頭01b開始,3,Who drew these lines?,"The lines that join the stars in your
+app: who drew them?",top,"E02; **delete** the green Sa Frache lines (L7) and both labels (L14: Sa Frache／鐮刀（上週・薩丁尼亞）), so this page shows the stars only; the Chinese text card is removed"
+3,,鏡頭01b結束＝鏡頭02開始,3,Who drew these lines?,"The lines that join the stars in your
+app: who drew them?",top,E02; the default (white) lines appear; label Stellarium 預設的獅子 → Stellarium’s default Leo
+4,,鏡頭02結束＝鏡頭03開始,9,"Borders only, no lines","Not the IAU. In the 1920s it fixed 88
+constellations, but only their borders,
+like a map. Never the lines.",top,E03; IAU names 獅子／小獅／六分儀／長蛇／巨爵／室女／后髮／大熊／烏鴉／唧筒／獵犬／船帆／半人馬 → Leo／Leo Minor／Sextans／Hydra／Crater／Virgo／Coma Berenices／Ursa Major／Corvus／Antlia／Canes Venatici／Vela／Centaurus
+5,,鏡頭03結束＝鏡頭03b開始,7,Same lion: 10,"So one lion can be drawn many ways. The
+star app Stellarium, by default: 10
+lines.",top,E04; label Stellarium 預設：10 條 → Stellarium default: 10 lines
+6,,鏡頭03b結束＝鏡頭03c開始,4,Same lion: 10 / 18,"H. A. Rey, who drew Curious George: 18
+lines.",top,E05; label H. A. Rey：18 條 → H. A. Rey: 18 lines
+7,,鏡頭03c結束＝鏡頭04開始＝鏡頭05開始＝鏡頭06開始,7,Same lion: 10 / 18 / 32,"And in 1786, one man drew 32: Alexandre
+Ruelle, a “student astronomer” at the
+Paris Observatory.",top,E06; label Ruelle 1786：32 條 → Ruelle 1786: 32 lines
+8,,鏡頭06結束＝鏡頭07開始,8,"70 constellations, only lines","Star maps then hid the stars inside
+mythical figures and animals. Ruelle
+took the pictures out.",bottom,E07; keep the French names; Chinese under them 獅子座／室女座／巨爵座／烏鴉座／長蛇座／巨蟹座／后髮座／大熊座／南船座 → Leo／Virgo／Crater／Corvus／Hydra／Cancer／Coma Berenices／Ursa Major／Argo Navis
+9,,鏡頭07結束,9,A geometric lion,"Sickle, body, hind legs: all cut into
+triangles and polygons. Even five stars
+of today’s Leo Minor are in it.",bottom,"E08; labels 小獅座的五顆星／今天屬於小獅座 → five stars／today in Leo Minor; Le Lion stays; then **hard cut** to 14 (pages 10–13, the vanished constellations and Bharaṇī, removed)"
+14,,鏡頭09開始,9,An idea ahead of its time,"Sadly, it came too early and did not
+catch on. European star maps took up
+lines slowly, in the 19th century.",top,"E09; Chinese under the French names 獅子座／巨爵座／烏鴉座／后髮座 → Leo／Crater／Corvus／Coma Berenices; then the sky moves to 20 (pages 15–19, the timeline diagram, Dunhuang, Bucur and the 1,802-figure diagrams, removed; 14 and 19 are the same frame)"
+20,,鏡頭13開始,6,"Stars are astronomy, lines are culture","The lines in your app: centuries of
+people’s choices, stacked up.",top,E10; labels 獅子座／室女座／牧夫座 → Leo／Virgo／Boötes; 白：Stellarium 預設／藍：H. A. Rey／琥珀：Ruelle 1786 → white: Stellarium default／blue: H. A. Rey／amber: Ruelle 1786
+21,,鏡頭14開始,8,"Early May, after dark","Leo rides high in the south. The bright
+orange dot by its Sickle is Mars: don’t
+connect it.",bottom,"E11; labels 火星（別連進去） → Mars (don’t connect it); 軒轅十四 → Regulus; 獅子座：頭頂 → Leo (drop 頭頂: overhead is true for Taiwan, not 40° N); 巨爵座 → Crater; 最亮 3.6 等・要暗處 → brightest mag 3.6: find a dark sky; 烏鴉座 → Corvus; 角宿一 → Spica"
+23,,鏡頭14-概念圖收,7,Join the dots your way,"Take a sheet of paper and join the stars
+your way. Your lines are a sky culture
+too.",bottom,"E12; labels as 21 (page 22, the Taipei 4/30 look-up card, removed; 21 and 23 are the same frame); then straight to 26 (pages 24–25, the Chinese next-episode sky, removed)"
+26,,端卡（下集見）,3,Next Wednesday,Australia: an emu made of darkness.,endcard,E13
+27,,追蹤頁,3,,Follow for a new sky every week.,endcard,E14
