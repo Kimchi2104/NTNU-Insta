@@ -71,7 +71,7 @@ TXT = {
         "c03_place": "Goodooga (29°S), {} · facing south",
         "c03_1": "① April–May: running", "c03_1s": "the whole emu is up, both legs above the horizon",
         "c03_2": "② June–August: on the nest", "c03_2s": "no legs; the male sits on the eggs — time to collect them",
-        "c03_3": "③ Late August: upright, two eggs", "c03_3s": "head = small egg, body = big egg: chicks hatching, stop",
+        "c03_3": "③ Late August: upright, two eggs", "c03_3s": "head + body = two eggs: chicks about to hatch — stop collecting",
         "c03_4": "④ November: in the waterhole", "c03_4s": "lying on the horizon = the waterholes are full",
         "c03_5": "December: below the horizon = the Black Emu on Earth", "date1": "25 May 21:00",
         "date2": "1 Jul 21:00", "date3": "25 Aug 19:30", "date4": "15 Nov 21:00", "date5": "20 Dec",
@@ -82,7 +82,7 @@ TXT = {
         "small": "small circle (initiates and Elders only)", "path": "path from the large to the small circle",
         "fan": "68 grounds: mostly facing south to south-west", "fan2": "Fuller, Hamacher & Norris 2013",
         "sky": "August evening: the emu stands in the SSW", "map_b": "body ↔ large circle",
-        "map_s": "head ↔ small circle", "guess": "a researchers' interpretation (Fuller et al. 2014)",
+        "map_s": "head ↔ small circle", "guess": "researchers' interpretation (Fuller et al. 2014)",
         "c04_foot": "Schematic — not any real site", "N": "N",
     },
 }
@@ -346,7 +346,7 @@ def c03_4(ax):
     cal_frame(ax, 4, "c03_4", "c03_4s", "date4")
     x, y = PC(*f5(256.0, -36.0))
     T(ax, x, y - 0.13, tx("c03_5"), 15, PURPLE, z=12)
-    T(ax, x, y - 0.20, f"（{tx('date5')}）", 13, GREY, w="normal", z=12)
+    T(ax, x, y - 0.20, (f"({tx('date5')})" if LANG == "en" else f"（{tx('date5')}）"), 13, GREY, w="normal", z=12)
 
 
 # ══════════════════════ C-A31-04 bora 場地 ══════════════════════
@@ -369,7 +369,7 @@ def c04_site(ax):
     ax.plot([0.0, 0.0], [big[1] + 0.075, small[1] - 0.0275], c=WHITE, lw=1.8, ls=(0, (2, 3)), zorder=5)
     T(ax, 0.30, big[1] - 0.06, tx("big"), 15, WHITE, ha="left")
     T(ax, 0.12, small[1], tx("small"), 14, WHITE, ha="left")
-    T(ax, 0.06, (big[1] + small[1]) / 2, tx("path") + f"（{BORA_AZ:.0f}°）", 12, GREY, w="normal", ha="left")
+    T(ax, 0.06, (big[1] + small[1]) / 2, tx("path") + (f" ({BORA_AZ:.0f}°)" if LANG == "en" else f"（{BORA_AZ:.0f}°）"), 12, GREY, w="normal", ha="left")
     # 指北：方位 0° 相對「往上」順時針 −213° → 畫面角度 90+213
     cx, cy, r = 0.78, -0.75, 0.08
     a = math.radians(90 + BORA_AZ)
@@ -400,7 +400,10 @@ def c04_sky(ax):
     T(ax, bx + 0.18, by + 0.02, tx("map_b"), 15, AMBER, ha="left")
     T(ax, hx + 0.10, hy + 0.01, tx("map_s"), 15, AMBER, ha="left")
     T(ax, 0.0, 0.83, tx("sky"), 16, PURPLE)
-    T(ax, 0.55, 0.10, tx("guess"), 12, GREY, w="normal")
+    if LANG == "en":                     # 英文較長：移到「頭 ↔ 小圈」下面一行，避免重疊
+        T(ax, hx + 0.10, hy - 0.05, tx("guess"), 12, GREY, w="normal", ha="left")
+    else:
+        T(ax, 0.55, 0.10, tx("guess"), 12, GREY, w="normal")
 
 
 # ══════════════════════ 9:16 圖卡 ══════════════════════
