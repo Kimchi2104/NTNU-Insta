@@ -1,0 +1,44 @@
+﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
+1,,開場字卡,3,World Sky Cultures,"One sky. Sardinian shepherds saw — a
+stone hut.",cover,Cover: text block replaced with English; second line = the schedule’s hook; EN · EP25 tag
+2,,鏡頭01開始,3,An island of sheep,"Sardinia, west of Italy, is the
+Mediterranean’s second-largest island.
+Sheep outnumber people about two to one.",top,E02; the Chinese text card on 2–3 is removed
+3,,鏡頭01結束＝鏡頭02開始,4,An island of sheep,"Sardinia, west of Italy, is the
+Mediterranean’s second-largest island.
+Sheep outnumber people about two to one.",top,"E02; label 牧人石屋 → the shepherd’s hut; then straight to 6 (pages 4–5, the Chinese map and sheep-count diagram, removed; 3 and 6 are the same frame)"
+6,,鏡頭02-概念圖收＝鏡頭03開始,3,Star names from Sedilo,"These star names are in the dialect of
+Sedilo, a small town in the island’s
+centre.",top,E03; label as 3
+7,,鏡頭03結束＝鏡頭04開始,4,Star names from Sedilo,"These star names are in the dialect of
+Sedilo, a small town in the island’s
+centre.",top,E03; label as 3
+8,,鏡頭04-中1,4,"Hut, grapes, sickle","One book reads them as island life: a
+shepherd’s hut, a winegrower’s grapes, a
+farmer’s sickle.",bottom,E04; labels 牧人的小屋 → the shepherd’s hut; 一串葡萄 → a bunch of grapes
+9,,鏡頭04結束＝鏡頭05開始,3,"Hut, grapes, sickle","One book reads them as island life: a
+shepherd’s hut, a winegrower’s grapes, a
+farmer’s sickle.",bottom,E04; label 農夫的鐮刀 → the farmer’s sickle
+10,,鏡頭05結束＝鏡頭06開始,8,Su Pinnetu: the hut,"Taurus’s V and Aldebaran: Su Pinnetu, a
+shepherd’s hut. Stone walls, a pointed
+roof of branches.",top,"E05; labels 牧人石屋 → the shepherd’s hut; 石牆＋木枝尖頂 → stone walls, roof of branches"
+11,,鏡頭06結束＝鏡頭07開始,8,S’Udrone: a bunch of grapes,"The Pleiades are S’Udrone: a big bunch
+of grapes. Romanians see a hen and
+chicks; Sardinia sees grapes.",top,"E06; the reference frame P10 shows no S’Udrone label here — if the page has none, add S’Udrone / a bunch of grapes beside the Pleiades (purple, as on page 8)"
+12,,鏡頭07結束＝鏡頭08開始,8,Sos Bacheddos: the sticks,"Below, Orion is Sos Bacheddos: the
+shepherds’ sticks. The Belt has its own
+name: Sas Tres Marias, the Three Marias.",bottom,E07; labels 牧杖 → the shepherds’ sticks; 三個瑪利亞 → the Three Marias
+13,,鏡頭08-概念圖1,3,Summer night: the grapes rise,,top,"diagram, English (`_概念圖/en/C-A29-02_夏夜牧羊鐘_葡萄層_透明.png`); E08a headline only"
+14,,鏡頭08-概念圖2,3,Then the sticks appear,,top,"diagram, English (+ `C-A29-02_夏夜牧羊鐘_牧杖層_透明.png`); E08b headline only"
+15,,鏡頭08-概念圖3,3,Time to bring the flock home,,top,"diagram, English (+ `C-A29-02_夏夜牧羊鐘_晨光層_透明.png`); E08c headline only"
+16,,鏡頭08-概念圖收＝鏡頭09開始,8,A shepherds’ night clock,"A shepherds’ clock: on summer nights the
+flock grazes until the sticks rise.
+Then, back to the fold.",bottom,"E08; labels as 12; then straight to 21 (pages 17–20 removed: Canis Major “the driver of the sticks”, the steel star, the supper-star Venus diagram)"
+21,,鏡頭11結束,8,Sa Mandra: the sheepfold,"Auriga is Sa Mandra, the sheepfold.
+Greeks saw a charioteer with a goat;
+Sardinians, a fence for sheep.",bottom,E09; labels 羊圈 → the sheepfold; Capella／小母山羊（拉丁）→ Capella / little she-goat (Latin)
+22,,鏡頭12開始,8,Sa Frache: the farmer’s sickle,"Leo’s backward question mark is Sa
+Frache: the farmer’s sickle. This week
+after dark, look high in the southwest.",top,"E10; label 鐮刀・農人的記號 → the farmer’s sickle; then straight to 47 (pages 23–46 removed: the Seven Brothers, the cross of St Constantine and S’Ardia, the widows’ dance, the deer horn, the straw road, the help-us card, the Taipei look-up card, the Ruelle preview)"
+47,,端卡（下集見）,3,Next Wednesday,"Paris, 1786: a star map of lines.",endcard,E11
+48,,追蹤頁,3,,Follow for a new sky every week.,endcard,E12
