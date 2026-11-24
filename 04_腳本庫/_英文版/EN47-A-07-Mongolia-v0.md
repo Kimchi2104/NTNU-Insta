@@ -4,11 +4,11 @@
 |---|---|
 | Source | Chinese A-07 v2 (`A-07-蒙古整片天空拴在一根金樁上-逐字稿-v2.md`, fact-checked). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-04-11 (Sun) 21:00 Taiwan time**: EN47 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Sunday re-run slot; April evenings: the Big Dipper rides high in the northeast) |
-| Length | **80 s** (including the 3 s follow page), 13 beats, ~172 words on screen (no voice-over; text over light music) |
+| Length | **80 s** (including the 3 s follow page), 13 beats, ~159 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the Golden Stake**. The Big Dipper is seven old men (or Seven Buddhas); a legend makes them seven orphan brothers whose youngest brother caught the king’s golden arrow and became the Pole Star, Altan Gadas, the tethering post of the steppe. The whole sky turns around it, the seven brothers circling like horses tied to a post |
 | Canva | Not made yet. Copy of the Chinese design `A-07 蒙古` (design ID not recorded in the repo), to be named `EN47 A-07 蒙古` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 37 = next-episode card, 38 = follow page). **If the Chinese design has no pages 37–38** (end card made inside page 36), put E12 and E13 on two copies of page 36 instead. |
 | Opening line | *One sky. Mongolians saw — seven old men.* (= the Chinese 統一開頭) |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.5; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.4, E08; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
 ## Beats (text on screen)
 
@@ -20,14 +20,14 @@
 | E02 | 7 | 2, 3 | bottom | The Big Dipper | In Mongolian it is Doloon övgön: the Seven Old Men. | 1.4 |
 | E03 | 8 | 4, 5 | bottom | | More often, Doloon Burkhan: the Seven Buddhas. Some still offer it a little milk, morning and evening. | 2.1 |
 | E04 | 5 | 6 | bottom-right | A legend | Eight orphan brothers saved a queen from a monster. | 1.8 |
-| E05 | 8 | 7 | bottom-right | | The king threw a golden arrow into the sky. The youngest brother caught it and became the Pole Star. | 2.4 |
-| E06 | 7 | 8 | bottom-right | | His seven older brothers became the Big Dipper. Every night, they come to visit him. | 2.1 |
+| E05 | 8 | 7 | bottom-right | | The king threw a golden arrow into the sky. The youngest caught it. | 1.6 |
+| E06 | 7 | 8 | bottom-right | | He became the Pole Star. His seven brothers, the Dipper, visit him nightly. | 1.9 |
 | E07 | 7 | 9 | bottom-right | Altan Gadas, the Golden Stake | A gadas is a wooden post driven into the steppe to tether animals. | 1.9 |
-| E08 | 8 | 32 | bottom | Look north this April | After dark, the Dipper rides high in the northeast. Stretch its two end stars over five times to reach the stake. | 2.5 |
+| E08 | 8 | 32 | bottom | Look north this April | After dark, the Dipper rides high in the northeast. Stretch its two end stars over five times: the stake. | 2.4 |
 | E09 | 7 | 33 | bottom | The whole sky turns | The seven brothers circle the stake all night, like horses tied to a post. | 2.0 |
-| E10 | 7 | 34 | top | | In Ulaanbaatar the stake stands 48° high. The Dipper never sets: all seven brothers, every night. | 2.1 |
+| E10 | 7 | 34 | top | | In Ulaanbaatar the stake stands 48° high. The Dipper never sets: all seven brothers, every night. | 2.3 |
 | E11 | 7 | 36 | top | | In a world on the move, they tied the whole sky to one fixed stake. | 2.1 |
-| E12 | 3 | 37 | endcard | Next Wednesday | Arc to Arcturus: steer by the spring sky. | 2.3 |
+| E12 | 3 | 37 | endcard | Next Wednesday | Arc to Arcturus: spring star-hopping. | 1.7 |
 | E13 | 3 | 38 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -68,7 +68,7 @@ Total 80 s (E13 included).
 | гадас | a gadas | “a wooden post driven into the steppe to tether animals” |
 | 烏蘭巴托 | Ulaanbaatar | |
 | 天樞／天璇／天璣／天權／玉衡／開陽／輔／搖光 | Dubhe / Merak / Phecda / Megrez / Alioth / Mizar / Alcor / Alkaid | chart labels only |
-| 大角 | Arcturus | next-episode card |
+| 大角 | Arcturus | next-episode card (EN23) |
 
 ## YouTube
 
@@ -84,7 +84,7 @@ Mongolia tied the whole sky to one golden stake. 🐎
 The Big Dipper is Doloon övgön, the Seven Old Men, or more often Doloon Burkhan, the Seven Buddhas. Some still offer it a little milk, morning and evening.
 A legend: eight orphan brothers saved a queen from a monster. The king threw a golden arrow into the sky; the youngest caught it and became the Pole Star, Altan Gadas, the Golden Stake. A gadas is the post that tethers animals on the steppe. His seven brothers come to visit every night, circling him like horses tied to a post.
 Look north this April after dark: the Dipper rides high in the northeast. Stretch its two end stars a little over five times and you reach the stake.
-Next Wednesday: Arc to Arcturus — steer by the spring sky.
+Next Wednesday: Arc to Arcturus — spring star-hopping.
 #WorldSkyCultures #astronomy #BigDipper #PoleStar #Mongolia #skylore #stargazing
 (First comment: sources — Stellarium “mongolian”; mongoltoli.mn; Elverskog 2006, JIABS 29.1.)
 
@@ -95,7 +95,7 @@ Dropped from the Chinese version (all still in the Chinese episode): the “last
 Wording to check:
 1. E02 “Doloon övgön: the Seven Old Men”; E03 “More often, Doloon Burkhan: the Seven Buddhas” = 02 鏡「蒙古人叫它 Долоон өвгөн，七位老人；更常叫的名字是 Долоон бурхан——七尊佛」.
 2. E03 “Some still offer it a little milk, morning and evening” = 「直到今天，還有人早晚灑一點奶敬它」 (the Chinese 考據 五: not “every household”, not “the first milk”). “offer” rather than “sprinkle” to keep the line short; the Chinese 灑 = sprinkle.
-3. E04–E06 = 03 鏡 (the main line only, as the Chinese). “whoever caught it, it was theirs” (誰接到，就歸誰) is dropped for length; the arrow is still “caught”.
+3. E04–E06 = 03 鏡 (the main line only, as the Chinese). “whoever caught it, it was theirs” (誰接到，就歸誰) and “older” (七個哥哥 → “his seven brothers”) are dropped so each narrow box stays within 3 lines (~27 letters each); “visit him nightly” = 「每天晚上都來看他」.
 4. E07 “A gadas is a wooden post driven into the steppe to tether animals” = 04 鏡「гадас 是打進草原土裡、拴牲口的木樁」. Spelling Altan Gadas (not Stellarium’s Hadaas), as the Chinese 考據 一.
 5. E08 “over five times” = 04 鏡「拉長五倍多」 (28.7° ÷ 5.37° = 5.3). “its two end stars” = 勺口這兩顆星 (Merak → Dubhe).
 6. E08 “Look north this April … high in the northeast” is the Northern-Hemisphere tip replacing the Taipei 2 Oct tip; it is not in the Chinese script. Checked for 11 Apr, 21:00 local time at 40° N: Dubhe ~67° up a little east of north, Alkaid ~53° up in the northeast; the whole Dipper is above the horizon all night at 35–50° N. Matches the schedule note 「晚上 8 點北斗高掛東北」.
