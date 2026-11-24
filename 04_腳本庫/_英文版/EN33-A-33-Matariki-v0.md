@@ -4,7 +4,7 @@
 |---|---|
 | Source | Chinese A-33 v1 (`A-33-毛利Matariki星星升起就是新年-逐字稿-v1.md`, fact-checked + external review 11/13). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-06-23 (Wed) 21:00 Taiwan time**: EN33 in `06_發布月曆/節目表_萬國星空_英文版.csv` — two days before New Zealand’s Matariki holiday (Fri 25 June); Chinese A-33 airs on the holiday itself |
-| Length | **90 s** (including the 3 s follow page), 14 beats, ~145 words on screen (no voice-over; text over light music) |
+| Length | **90 s** (including the 3 s follow page), 14 beats, ~142 words on screen (no voice-over; text over light music) |
 | Story | One story only: **a star cluster sets a national holiday.** Matariki = the Pleiades; it hides in the Sun’s glare in April–May and returns at dawn in June, in the southern winter: the new year. The holiday date follows the stars and then the Moon. Many accounts count seven stars; the nine-star version (Rangi Mātāmua, from a 1933 family manuscript) gives each star a domain — and the two that hold wishes and the dead are the faintest. Close: the Pleiades before dawn this week |
 | Canva | Copy of the Chinese A-33 design (`DAHXDo_Ghfw`), named `EN33 A-33 毛利` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 2–35 = 製作表 pages 1–34, 36 = next-episode card, 37 = follow page, per `_卡04進度/進度.md`). Diagrams C-A33-01 and C-A33-02: English versions in `05_素材/A-33_毛利Matariki/_概念圖/en/` (same file names). |
 | Opening line | *One sky. The Māori saw — a new year.* (= the Chinese 統一開頭) |
@@ -29,7 +29,7 @@
 | E11 | 8 | 21 | bottom | | Matariki, the mother: health. Hiwa-i-te-rangi: new year wishes. Pōhutukawa: those lost this past year. | 1.75 |
 | E12 | 6 | 23 | bottom | The two faintest | Those last two are the faintest: you need a truly dark sky. | 1.8 |
 | E13 | 8 | 24 | bottom | Before dawn this week | The Pleiades sit low in the east-northeast — as New Zealand greets its new year. | 1.75 |
-| E14 | 4 | 36 | endcard | Next Wednesday | The Milky Way: a river, a road, a rift. | 2.25 |
+| E14 | 4 | 36 | endcard | Next Wednesday | Asterisms: the star patterns textbooks skip. | 1.5 |
 | E15 | 3 | 37 | endcard | | Follow for a new sky every week. | 2.33 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -79,7 +79,7 @@ Total 90 s (E15 included).
 | Hiwa-i-te-rangi（新年的願望） | Hiwa-i-te-rangi: new year wishes | |
 | Pōhutukawa（過去一年離開的人） | Pōhutukawa: those lost this past year | |
 | 東北東 | east-northeast | |
-| 銀河環球（X-07） | The Milky Way: a river, a road, a rift | EN35 title |
+| 現代星座（下）：星群（A-36） | Asterisms: the star patterns textbooks skip | EN34 title (next Wednesday, 30 June; the Chinese order is A-36 then A-33) |
 
 ## YouTube
 
@@ -96,13 +96,13 @@ Matariki is the Pleiades. Each April and May it hides in the Sun’s glare; in J
 Since 2022 it has been a public holiday in New Zealand. The date follows the stars, then the Moon: on the official rule, the Friday closest to the Tangaroa nights of the month Pipiri. This year: Friday 25 June.
 Many accounts count seven stars. Lately, nine get the most attention — from a family manuscript finished in 1933, shared by Māori astronomer Rangi Mātāmua. Each star watches over something: food from the soil, fruit and birds, fresh water, the sea, rain, wind, health, the new year’s wishes, and those who died in the past year.
 Before dawn this week, find the Pleiades low in the east-northeast.
-Next Wednesday: the Milky Way — a river, a road, a rift.
+Next Wednesday: asterisms — the star patterns textbooks skip.
 #WorldSkyCultures #Matariki #Pleiades #astronomy #MāoriNewYear #NewZealand #skylore
 (First comment: sources — Matamua 2017; employment.govt.nz; Matariki Advisory Group; Te Papa; Te Ara; Stellarium maori.)
 
 ## Cuts and changes (for the reviewer)
 
-Dropped from the Chinese version (all still in the Chinese episode): the bridge from last Friday (asterisms); the solstice daylight comparison (Wellington 9.2 h vs Taipei 13.7 h, diagram C-A33-03); “Taiwan sees it four or five days before New Zealand” (diagram C-A33-04); reading the year from how clear the cluster looks; the nine-star card C-A33-05; the hautapu ceremony and the comparison with Chinese New Year (C-A33-06); Puanga / Rigel on the west coast and Puaka (C-A33-08); tonight’s Antares (Rehua) and the Taipei times for tomorrow’s dawn (card C-A33-07); the next-Friday Chinese teaser (replaced by next Wednesday’s English episode).
+Dropped from the Chinese version (all still in the Chinese episode): the bridge from last Friday (asterisms); the solstice daylight comparison (Wellington 9.2 h vs Taipei 13.7 h, diagram C-A33-03); “Taiwan sees it four or five days before New Zealand” (diagram C-A33-04); reading the year from how clear the cluster looks; the nine-star card C-A33-05; the hautapu ceremony and the comparison with Chinese New Year (C-A33-06); Puanga / Rigel on the west coast and Puaka (C-A33-08); tonight’s Antares (Rehua) and the Taipei times for tomorrow’s dawn (card C-A33-07); the next-Friday Chinese teaser (the Milky Way, X-07; replaced by next Wednesday’s English episode, EN34 asterisms — in English the order of A-36 and A-33 is swapped).
 
 Wording to check:
 1. E02 “Since 2022 … has had a public holiday called Matariki” = 02 鏡「二〇二二年起，紐西蘭多了一個國定假日，叫 Matariki」. The headline “This Friday” is true for the English publish date (Wed 23 June → Fri 25 June); the Chinese airs on the day.
