@@ -1,0 +1,42 @@
+# EN26 英文審稿
+
+## 一、逐條意見
+
+| 嚴重度（🔴必改／🟡建議／⚪可選） | 位置（beat 編號） | 原文 | 問題 | 建議改法 | 依據（中文稿的哪一句） |
+|---|---|---|---|---|---|
+| 🔴必改 | YouTube Description | `So the same lion is drawn 10 ways, 18 ways, 32 ways.` | Factual/wording error: 10, 18, and 32 are the number of **lines**, not the number of ways the lion is drawn. | `So the same lion is drawn with 10 lines, 18 lines, or 32 lines.` | 03 鏡：「星空軟體 Stellarium 預設的獅子，十條線；畫《好奇猴喬治》的 H. A. Rey，用了十八條；而一七八六年，有個人畫了三十二條。」 |
+| 🔴必改 | E07 | `Star maps then hid the stars inside mythical figures and animals. Ruelle took the pictures out.` | Overstated compared to the Chinese source: dropping 「大多」 (“most”) turns a hedged historical statement into an absolute claim (especially since exceptions like van der Heyden and East Asian star charts existed). | `Most star maps then hid the stars inside mythical figures and animals. Ruelle took the pictures out.` (17 words / 8 s = 2.1 w/s) | 06 鏡：「當時的星圖，星座大多畫成神話人物和動物，星星藏在圖畫裡，不容易認。」 |
+| 🟡建議 | E01（Cover Hook）＆ E02 | E01: `Who drew the lines in your star app?` / E02 Headline: `Who drew these lines?` / E02 Text: `The lines that join the stars in your app: who drew them?` | **Hook & repetition**: `Who drew the lines in your star app?` is a solid, relatable hook on its own, but combined with E02 it repeats the exact same question three times in the first 9 seconds. Also, `The lines that join the stars in your app: who drew them?` feels slightly stiff with a colon. Using a surprising claim on the cover will stop scrollers faster and let E02 ask the question cleanly. | Cover hook alternative: `Your star app’s constellation lines aren’t official.` <br>E02 Text: `Those lines connecting the stars in your app — who drew them?` (11 words / 6 s = 1.8 w/s) | 01 鏡：「今天換個問題：你手機上看到的星座連線，是誰畫的？」 |
+| 🟡建議 | E03（及 Page 4 標籤、YouTube、Caption） | `Not the IAU. In the 1920s it fixed 88 constellations, but only their borders, like a map. Never the lines.` | 1. **Undefined acronym**: `IAU` is never spelled out on screen (Chinese 02 鏡 says 「國際天文學聯合會」 in full and puts `IAU 國際天文學聯合會` in the corner). General viewers will not know what `IAU` stands for.<br>2. **Idiom**: `fixed 88 constellations` can read as “repaired”; `only their borders, like a map` is slightly awkward (borders are like *country borders* on a map, not like a map itself). | E03 Text: `Not the IAU. In the 1920s it defined 88 constellations — borders only, like countries on a map. Never the lines.` (20 words / 9 s = 2.2 w/s). Add a small corner label `IAU = International Astronomical Union` on Page 4, and spell out `International Astronomical Union (IAU)` on first mention in YouTube Description and Caption. | 02 鏡：「先說答案：不是國際天文學聯合會。它在一九二〇年代定下八十八個星座，規定的只是天空裡的『邊界』，像地圖上的國界；裡面怎麼連線，從來沒規定。」＋畫面構想「角落小字『IAU 國際天文學聯合會』」 |
+| 🟡建議 | E08 | `Sickle, body, hind legs: all cut into triangles and polygons. Even five stars of today’s Leo Minor are in it.` | Because the Sardinia sickle bridge (A-29) was cut from EN26, `Sickle` appears here without explanation; general international viewers won’t know it refers to Leo’s curved head/mane (which also affects E11’s `by its Sickle`). | `Its Sickle head, body, hind legs: cut into triangles and polygons. Even five stars of today’s Leo Minor are in it.` (21 words / 9 s = 2.3 w/s, 3 lines ≤ 38 chars) | 07 鏡：「看他的獅子：鐮刀、身體、後腿，被切成一個個三角形和多邊形；連今天屬於小獅座的五顆星，也一起畫進大獅子裡。」 |
+| 🟡建議 | E09 | `Sadly, it came too early and did not catch on. European star maps took up lines slowly, in the 19th century.` | `took up lines` sounds slightly unidiomatic in English (more like taking up a hobby), and `did not` is slightly stiffer than `didn’t` (E11 uses `don’t`). | `Sadly, it came too early and didn’t catch on. European star maps only slowly adopted lines in the 19th century.` (19–20 words / 9 s = 2.1–2.2 w/s) | 09 鏡：「可惜 Ruelle 這個點子太早了，當年沒有流行起來。歐洲的星圖要到十九世紀，才慢慢改畫連線」 |
+| 🟡建議 | E11 | `Leo rides high in the south. The bright orange dot by its Sickle is Mars: don’t connect it.` | Overuse of colons across the script (7 of 12 body beats use `:`). For a playful aside like `don’t connect it`, an em dash `—` reads much more naturally than a colon. | `Leo rides high in the south. The bright orange dot by its Sickle is Mars — don’t connect it.` (17–18 words / 8 s = 2.1–2.3 w/s) | 14 鏡：「鐮刀旁那顆橘紅色的亮星是火星，別連進去。」 |
+| ⚪可選 | E04 | `So one lion can be drawn many ways. The star app Stellarium, by default: 10 lines.` | Comma + colon in `The star app Stellarium, by default: 10 lines.` is slightly choppy. | `So one lion can be drawn many ways. The star app Stellarium: 10 lines by default.` (15 words / 7 s = 2.1 w/s) | 03 鏡：「所以同一隻獅子，可以有好多種畫法：星空軟體 Stellarium 預設的獅子，十條線」 |
+| ⚪可選 | E10 | `The lines in your app: centuries of people’s choices, stacked up.` | `people’s choices` is a slightly literal translation of 「很多人的選擇」; `human choices` reads a bit more smoothly. | `The lines in your app: centuries of human choices, stacked up.` (11 words / 6 s = 1.8 w/s) | 13 鏡：「換句話說，你在 App 裡看到的線，是幾百年來很多人的選擇疊起來的」 |
+| ⚪可選 | E12 | Headline: `Join the dots your way` / Text: `Take a sheet of paper and join the stars your way. Your lines are a sky culture too.` | Headline and body both repeat `join` and `your way`. Also, `connect` (already used in E11) is more universally idiomatic than `join` for “connect the dots”. | Headline: `Draw your own lines` (4 words) / Text: `Grab a sheet of paper and connect the stars your way. Your lines are a sky culture, too.` (17 words / 7 s = 2.4 w/s) | 14 鏡：「拿張紙，照你的眼睛連連看——你的線，也是一種星空文化。」 |
+| ⚪可選 | E05 | `H. A. Rey, who drew Curious George: 18 lines.` | Book/character series title `Curious George` is italicized in the Glossary; italicizing it on screen (if the Canva font supports it) is cleaner. | `H. A. Rey, who drew *Curious George*: 18 lines.` | 03 鏡：「畫《好奇猴喬治》的 H. A. Rey，用了十八條」 |
+
+## 二、建議的定稿版
+
+| # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
+|---|---|---|---|---|---|---|
+| E01 | 3 | 1 | cover | World Sky Cultures | One sky. A Paris astronomer saw — a star map made only of lines. *(second line = hook: **Your star app’s constellation lines aren’t official.**)* | — |
+| E02 | 6 | 2, 3 | top | Who drew these lines? | **Those lines connecting the stars in your app — who drew them?** | **1.8** |
+| E03 | 9 | 4 | top | Borders only, no lines | **Not the IAU. In the 1920s it defined 88 constellations — borders only, like countries on a map. Never the lines.** | 2.2 |
+| E04 | 7 | 5 | top | Same lion: 10 | **So one lion can be drawn many ways. The star app Stellarium: 10 lines by default.** | **2.1** |
+| E05 | 4 | 6 | top | Same lion: 10 / 18 | H. A. Rey, who drew ***Curious George***: 18 lines. | 2.0 |
+| E06 | 7 | 7 | top | Same lion: 10 / 18 / 32 | And in 1786, one man drew 32: Alexandre Ruelle, a “student astronomer” at the Paris Observatory. | 2.3 |
+| E07 | 8 | 8 | bottom | 70 constellations, only lines | **Most star maps then hid the stars inside mythical figures and animals. Ruelle took the pictures out.** | **2.1** |
+| E08 | 9 | 9 | bottom | A geometric lion | **Its Sickle head, body, hind legs: cut into triangles and polygons. Even five stars of today’s Leo Minor are in it.** | **2.3** |
+| E09 | 9 | 14 | top | An idea ahead of its time | **Sadly, it came too early and didn’t catch on. European star maps only slowly adopted lines in the 19th century.** | **2.2** |
+| E10 | 6 | 20 | top | Stars are astronomy, lines are culture | **The lines in your app: centuries of human choices, stacked up.** | 1.8 |
+| E11 | 8 | 21 | bottom | Early May, after dark | **Leo rides high in the south. The bright orange dot by its Sickle is Mars — don’t connect it.** | 2.3 |
+| E12 | 7 | 23 | bottom | **Draw your own lines** | **Grab a sheet of paper and connect the stars your way. Your lines are a sky culture, too.** | 2.4 |
+| E13 | 3 | 26 | endcard | Next Wednesday | Australia: an emu made of darkness. | 2.0 |
+| E14 | 3 | 27 | endcard | | Follow for a new sky every week. | 2.3 |
+
+## 三、沒把握的地方
+
+1. **E11 南半球觀眾的方位（`Leo rides high in the south.`）**：英文版「Wording to check #8」已說明這句是照北緯約 40° 寫的，因此刪去了台北專屬的「頭頂」。對國際觀眾而言，南半球看獅子座是在北方而非南方；如果不打算加註 `In northern skies`（會增加字數並推高語速），可維持現狀照英文版系列的北半球慣例，但若本系列有特別標註北半球的做法，建議在此處統一。
+2. **Page 4 補上 `IAU = International Astronomical Union` 小字**：中文 02 鏡的畫面構想有「角落小字『IAU 國際天文學聯合會』」，但 EN26 的 Page sequence（Page 4 Note）沒有列出這項標籤。建議確認 Canva Page 4 上是否保留了該角落小字位置，若有則直接換成 `IAU = International Astronomical Union`。
+3. **E01 統一開頭的破折號空格**：`One sky. A Paris astronomer saw — a star map made only of lines.` 採前後加空格的 ` — `，與 E02、E03、E11 建議改法一致；若整個英文版系列（EN01–EN25）習慣無空格破折號（`—`），合併成 v1 時請統一格式。
