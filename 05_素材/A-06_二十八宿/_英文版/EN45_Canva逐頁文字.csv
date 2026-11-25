@@ -1,36 +1,36 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡（四個文明都幫月亮蓋了 28 間房；中秋特輯）,3,World Sky Cultures,"One sky. Four civilisations saw — the
-Moon’s rooms.",cover,"Cover: text block replaced with English (second line = the hook); delete 中秋特輯 and the 28 間房 line; EN · EP45 tag. Page 3 (spin, no text) removed: hard cut to 2 → 4"
-2,,今晚是中秋：你抬頭看的月亮住在有名字的房間裡——室宿,5,Mid-Autumn tonight,"Tonight’s Moon is staying in a room with
+1,,開場字卡（四個文明都幫月亮蓋了 28 間房；中秋特輯）,3,World Sky Cultures,"One sky. Four civilisations counted —
+the Moon’s rooms.",cover,"Cover: text block replaced with English (second line = the hook); delete 中秋特輯 and the 28 間房 line; EN · EP45 tag. Page 3 (spin, no text) removed: hard cut to 2 → 4"
+2,,今晚是中秋：你抬頭看的月亮住在有名字的房間裡——室宿,5,Mid-Autumn night,"Tonight’s Moon is staying in a room with
 a name.",top,"E02; **delete** the red 室宿 (the Moon was in Shi on 2026-09-25, not necessarily in 2027)"
 4,,王充：「二十八宿為日月舍，猶地有郵亭為長吏廨矣。」,7,Inns along the sky,"“The 28 mansions are lodges of the Sun
-and Moon.” — Wang Chong, 1st century",bottom,"E03 (quote and attribution in the same bottom box); then hard cut to 6 (page 5, the Moon moving into Shi at 17:00 on 2026-09-25, removed)"
+and Moon.” — Wang Chong, 1st century CE",bottom,"E03 (quote and attribution in the same bottom box); then hard cut to 6 (page 5, the Moon moving into Shi at 17:00 on 2026-09-25, removed)"
 6,,為什麼要蓋房間？月亮繞天一圈二十七點三天,5,Why rooms?,"The Moon takes 27.3 days to circle the
 sky.",top,E04; labels 角宿／角宿一／亢宿／氐宿 → Jiao／Spica／Kang／Di; then Match & Move to 8 (page 7 removed: its line “by the Moon’s star you know the day of the month” is wrong per the fact-check report)
 8,,「軫與角屬，圜道也」；中國切二十八段，從角宿起,5,28 mansions,"China cut that path into 28 mansions,
-starting from Jiao, “the Horns.”",top,"E05; labels as 6; then hard cut to 10 (page 9, “all the way to Zhen”, removed)"
-10,,界線畫出來：大小差十六倍；最大的井宿 33°，月亮要走兩天半,7,One room per night?,"Draw the borders: the biggest, Jing,
-“the Well,” spans 33°. The Moon needs 2½
+starting from Jiao (the Horns).",top,"E05; labels as 6; then hard cut to 10 (page 9, “all the way to Zhen”, removed)"
+10,,界線畫出來：大小差十六倍；最大的井宿 33°，月亮要走兩天半,7,One room per night?,"Draw the borders: the biggest, Jing (the
+Well), spans 33°. The Moon needs 2.5
 days.",bottom,E06; labels 鬼宿／井宿 → Gui／Jing
-11,,最小的觜宿只有 2°，三個半小時就穿過去,6,,"The smallest, Zui, “the Turtle Beak,” is
-just 2°: crossed in 3½ hours.",bottom,E07; labels 井宿／觜宿／參宿 → Jing／Zui／Shen
-12,,所以中國的宿根本不是照「月亮一晚住一間」切的,5,Sixteen times apart,"So China’s mansions were never cut as
+11,,最小的觜宿只有 2°，三個半小時就穿過去,6,,"The smallest, Zui (the Turtle Beak), is
+just 2° — crossed in 3.5 hours.",bottom,E07; labels 井宿／觜宿／參宿 → Jing／Zui／Shen
+12,,所以中國的宿根本不是照「月亮一晚住一間」切的,5,16 times the size,"So China’s mansions were never built for
 “one night, one room.”",bottom,"E08; then hard cut to 24 (pages 13–23: the Han-dynasty dial from the Ruyin tomb, the bright determinative stars and their replacements, right ascension, the north-pole “cake” view, removed)"
-24,,印度不一樣：黃道切成二十七等份，每份十三度二十分,6,India: 27 equal parts,"India cut the ecliptic into 27 equal
+24,,印度不一樣：黃道切成二十七等份，每份十三度二十分,6,India did it differently,"India cut the ecliptic into 27 equal
 parts, each exactly 13°20′.",top,"E09; then hard cut to 27 (pages 25–26, no text, removed)"
 27,,原本有第二十八個 Abhijit，織女星那一段；改成等分後被擠掉,6,"A 28th, squeezed out","There was once a 28th, Abhijit, by Vega.
-Equal parts squeezed it out.",bottom,"E10; label 織女 → Vega; then hard cut to 31 (pages 28–30: Abhijit／Śravaṇa vs. Chinese Nü／Niu and Zhu Kezhen, removed)"
-31,,阿拉伯叫它 manāzil，月亮的驛站，二十八站,5,Arabia: 28 stations,"The Arabs called them manāzil: the
+Splitting evenly pushed it out.",bottom,"E10; label 織女 → Vega; then hard cut to 31 (pages 28–30: Abhijit／Śravaṇa vs. Chinese Nü／Niu and Zhu Kezhen, removed)"
+31,,阿拉伯叫它 manāzil，月亮的驛站，二十八站,5,Arabia: 28 stations,"The Arabs called them manāzil — the
 Moon’s stations. Twenty-eight of them.",bottom,"E11; then Match & Move to 36 (pages 32–35: the commentators’ 28 nights, the 13-day rain markers, the Quran, removed)"
 36,,所以「四個文明各自發明了二十八宿」這句話並不成立,5,Invented four times?,"“Four civilisations each invented the 28
-mansions”: that does not hold.",bottom,E12
-37,,日本、韓國承自中國，阿拉伯多半來自印度；真正的候選人只有中國、印度,6,,"Japan and Korea took theirs from China;
-the Arabs’ most likely came from India.",bottom,E13
+mansions” — that doesn’t hold up.",bottom,E12
+37,,日本、韓國承自中國，阿拉伯多半來自印度；真正的候選人只有中國、印度,6,,"Japan and Korea adopted China’s; the
+Arab system most likely came from India.",bottom,E13
 38,,這兩邊誰先、還是各想各的，學界吵到今天還沒吵完,5,,"China or India first, or each on its
 own? Scholars still argue.",bottom,"E14; then Match & Move to 42 (pages 39–41: precession swapping Zui and Shen, the Qianlong reform, removed)"
 42,,今晚往東看：飛馬座大四方形立著像菱形，最右邊的角就是室宿,7,Look east after dark,"The Great Square of Pegasus stands like
-a diamond. Its right-hand corner is Shi,
-“the Room.”",bottom,"E15; delete the last line 「——月亮今晚住那裡」 (2026 only); then hard cut to 44 (page 43, the 2026 full-moon time, removed)"
-44,,中秋快樂；下週五，我們往草原走,3,Happy Mid-Autumn!,"Next Wednesday: another people, another
+a diamond. Its right corner is Shi (the
+Room).",bottom,"E15; delete the last line 「——月亮今晚住那裡」 (2026 only); then hard cut to 44 (page 43, the 2026 full-moon time, removed)"
+44,,中秋快樂；下週五，我們往草原走,3,Happy Mid-Autumn Festival!,"Next Wednesday: another people, another
 sky.",endcard,E16 (replaces 中秋快樂／下週五，我們往草原走)
 45,,追蹤頁,3,,Follow for a new sky every week.,endcard,E17 (the three ntnu_astronomy handles stay)
