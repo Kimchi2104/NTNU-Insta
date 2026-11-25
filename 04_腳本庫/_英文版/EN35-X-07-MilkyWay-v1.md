@@ -1,11 +1,11 @@
-# EN35 ｜ The Milky Way: A River, a Road, a Rift ・ v0 (awaiting Gemini review)
+# EN35 ｜ The Milky Way: A River, a Road, a Seam ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
 | Source | Chinese X-07 v1 (`X-07-銀河環球一條河一條路一道縫-逐字稿-v1.md`, fact-checked + external review 11/18). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-07-07 (Wed) 21:00 Taiwan time**: EN35 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Chinese X-07 airs 7/2) |
 | Length | **86 s** (including the 3 s follow page), 14 beats, ~143 words on screen (no voice-over; text over light music) |
-| Story | One story only: **the river and its ford.** The Chinese saw a river and set pools, a boat, a ford and another river along it; the Erya puts the river’s ford between Ji and Dou — and in ancient Arabia those same stars were ostriches going down to drink and heading back, so the ford lies between the two flocks. One quick beat (plus the names card) says others saw a road, a seam, a dragon, ash. Then the truth: it is our galaxy, and on summer nights we face its centre, right by that ford |
+| Story | One story only: **the river and its ford.** The Chinese saw a river and set pools, a boat, a ford and another river along it; the Erya puts the river’s ford between Ji and Dou — and in ancient Arabia eight of those stars were ostriches, four going down to drink and four heading back, so the ford lies between the two flocks. One quick beat (plus the names card) says others saw a road, a seam, a dragon, ash. Then the truth: it is our galaxy, and on summer nights we face its centre, right by that ford |
 | Canva | Copy of the Chinese X-07 design (`DAHXDk_bwro`), named `EN35 X-07 銀河環球` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 37 = last 製作表 page, 38 = next-episode card, 39 = follow page). If the Chinese design ends differently, put E13 and E14 on its next-episode and follow pages. Diagrams: English versions in `05_素材/X-07_銀河環球/_概念圖/en/` (same file names). |
 | Opening line | *One sky. The world saw — a river, a road, a seam.* (= the Chinese 統一開頭「全世界看見——一條河、一條路、一道縫」) |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.43, E04; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
@@ -17,17 +17,17 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The world saw — a river, a road, a seam. | — |
-| E02 | 7 | 2, 3 | bottom | A river in the sky | To the Chinese, it was a river: Tianhe, “the Heavenly River.” | 1.4 |
-| E03 | 6 | 4, 5, 6 | bottom | Pools, a boat, a ford | Along it they set star pools, a boat, a ford, and another river. *(hard cut 3 → 4, as in the Chinese; the sky scrolls Auriga → Perseus → Cygnus)* | 2.2 |
-| E04 | 7 | 7 | top | Between the Basket and Dipper | The ancient Erya: between Ji, “the Winnowing Basket,” and Dou, “the Southern Dipper,” lies the river’s ford. | 2.4 |
-| E05 | 8 | 8 | top | Four ostriches go to drink | In ancient Arabia, Ji’s four stars were ostriches going to drink. Four in Dou are heading back, having drunk. | 2.4 |
+| E02 | 7 | 2, 3 | bottom | A river in the sky | To the Chinese, the Milky Way was a river: Tianhe, “the Heavenly River.” | 1.9 |
+| E03 | 6 | 4, 5, 6 | bottom | Pools, a boat, a ford | Along it they placed star pools, a boat, a ford, and another river. *(hard cut 3 → 4, as in the Chinese; the sky scrolls Auriga → Perseus → Cygnus)* | 2.2 |
+| E04 | 7 | 7 | top | Between the Basket and Dipper | The ancient text Erya puts the river’s ford between Ji (“Winnowing Basket”) and Dou (“Southern Dipper”). | 2.3 |
+| E05 | 8 | 8 | top | Four ostriches go to drink | In ancient Arabia, Ji’s four stars were ostriches going to drink. Four in Dou were heading back after drinking. | 2.4 |
 | E06 | 9 | 9, 10, 11 | top | The ford lies between the flocks | *(diagram pages: headline only; the diagram’s own lines read “The same eight stars: the Chinese ford sits between the two flocks”)* | — |
 | E07 | 6 | 12, 27 | bottom | Not everyone saw a river | Others saw a road for souls, a seam, a dragon, even ash. *(Match & Move 12 → 27: from Sagittarius out to the whole summer Milky Way; pages 13–26 removed)* | 2.0 |
 | E08 | 4 | 28 | — | | *(the 9:16 names card C-X07-02, English version, full screen; no caption)* | — |
 | E09 | 7 | 29, 30 | bottom | What it really is | It is our own galaxy: a disc about 100,000 light-years wide. | 1.6 |
 | E10 | 6 | 31, 32 | top | We look along the disc | *(diagram pages: headline only; the diagram reads “Along the disc: stars pile up into a river”)* | — |
-| E11 | 9 | 33, 34 | top | The centre, beside the ford | On summer nights we face the galaxy’s centre: in Sagittarius, right by that ford, 27,000 light-years away. | 1.9 |
-| E12 | 7 | 36 | bottom | Tonight: look south | On a moonless night, get far from city lights. Late evening, look low in the south. *(page 35, the Taipei card C-X07-04, removed; 34 and 36 are the same frame)* | 2.3 |
+| E11 | 9 | 33, 34 | top | The centre, beside the ford | On northern summer nights we face the galaxy’s centre — in Sagittarius, right by that ford, 27,000 light-years away. | 2.0 |
+| E12 | 7 | 36 | bottom | Northern sky: how to see it | On a moonless night, get far from city lights. Late evening, look low in the south. *(page 35, the Taipei card C-X07-04, removed; 34 and 36 are the same frame)* | 2.3 |
 | E13 | 4 | 38 | endcard | Next Wednesday | Season finale: many ways of seeing one sky. | 2.0 |
 | E14 | 3 | 39 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -37,7 +37,7 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the English hook (*Four ostriches drink from the river in the sky.*); EN · EP35 tag |
+| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; first line = E01 (the series opening line); second line = the English hook (*Four ostriches drink from the river in the sky.*); EN · EP35 tag |
 | 2 | | 鏡頭01開始 | 3 | E02; summer Milky Way, Scorpius–Sagittarius |
 | 3 | | 鏡頭01結束＝鏡頭02開始 | 4 | E02; label 天河・河漢 → Tianhe (Heavenly River); then **hard cut** to 4 (as in the Chinese) |
 | 4 | | 鏡頭03開始 | 2 | E03; labels 咸池／水池 → Xianchi／a pool; 天潢／積水池 → Tianhuang／a pond |
@@ -55,7 +55,7 @@
 | 30 | | 鏡頭11結束 | 5 | E09; labels Milky Way stays; **remove** 奶的路 (the milk story is not in the English text) |
 | 31 | | 鏡頭11-概念圖1 | 3 | disc diagram, English (`_概念圖/en/C-X07-03_我們在盤子裡_側視層_透明.png`); E10 headline |
 | 32 | | 鏡頭11-概念圖2 | 3 | + sight-line layer (`…_視線層`); E10 headline |
-| 33 | | 鏡頭11-概念圖收＝鏡頭12開始 | 3 | diagram fades; E11; labels 銀河中心 → Galactic Centre; 2.7 萬光年外 → 27,000 ly away; 箕宿 → Ji; 漢津 → the river’s ford |
+| 33 | | 鏡頭11-概念圖收＝鏡頭12開始 | 3 | diagram fades; E11; labels 銀河中心 → Galactic Centre; 2.7 萬光年外 → 27,000 light-years away; 箕宿 → Ji; 漢津 → the river’s ford |
 | 34 | | 鏡頭12結束 | 6 | E11; labels as page 33; then straight to 36 (page 35, the Taipei card, removed) |
 | 36 | | 鏡頭12-概念圖收＝鏡頭13開始 | 7 | E12; **remove** the 下集 label; then straight to 38 (page 37, the Chinese next-episode frame, removed) |
 | 38 | | 端卡（下集見） | 4 | E13 |
@@ -91,22 +91,22 @@ Total 86 s (E14 included).
 
 - **Title**: The Milky Way: a river, a road, a seam
 - **Description**:
-  To the Chinese, the Milky Way was a river — and an ancient text puts its ford between two star groups, Ji and Dou. In ancient Arabia, those same stars were ostriches: four going down to drink, four heading back. The ford lies between the flocks. Others saw a road for souls, a seam, a dragon, even ash.
-  It is really our own galaxy, a disc about 100,000 light-years wide; on summer nights we face its centre, in Sagittarius, right by that ford.
+  To the Chinese, the Milky Way was a river — and an ancient text puts its ford between two star groups, Ji and Dou. In ancient Arabia, eight of those stars were ostriches: four going down to drink, four heading back. The ford lies between the flocks. Others saw a road for souls, a seam, a dragon, even ash.
+  It is really our own galaxy, a disc about 100,000 light-years wide; on northern summer nights we face its centre, in Sagittarius, right by that ford.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
-  Sources: Erya, Shitian; Stellarium sky cultures (chinese, arabic_ancient by Khalid al-Ajaji); McClintock, The Old North Trail (1910); Rasyid, Hidayat & Orchiston 2021; Bleek & Lloyd 1911; GRAVITY Collaboration 2019, 2021.
+  Sources: Erya, Shitian; Stellarium sky cultures (chinese, arabic_ancient by Khalid al-Ajaji, mongolian, vanuatu_netwar); McClintock, The Old North Trail (1910); Rasyid, Hidayat & Orchiston 2021; Bleek & Lloyd 1911; GRAVITY Collaboration 2019, 2021.
 
 ## Caption (Instagram / Facebook / Threads)
 
 Four ostriches drink from the river in the sky. 🌌
 To the Chinese, the Milky Way was a river. The ancient Erya puts its ford between two star groups: Ji, the Winnowing Basket, and Dou, the Southern Dipper.
-In ancient Arabia, those same stars were ostriches — four going down to drink, four heading back. The Chinese ford sits right between the two flocks.
+In ancient Arabia, eight of those stars were ostriches — four going down to drink, four heading back. The Chinese ford sits right between the two flocks.
 Others saw a road for souls, a seam, a dragon, even ash.
-It is really our own galaxy: on summer nights we face its centre, in Sagittarius — right by that ford.
-Tonight: on a moonless night, far from city lights, look low in the south.
+It is really our own galaxy: on northern summer nights we face its centre, in Sagittarius — right by that ford.
+Northern sky: on a moonless night, far from city lights, look low in the south.
 Next Wednesday: the season finale — many ways of seeing one sky.
 #WorldSkyCultures #astronomy #MilkyWay #stars #skylore #Sagittarius #ChineseAstronomy
-(First comment: sources — Erya, Shitian; Stellarium chinese & arabic_ancient (al-Ajaji); McClintock 1910; Rasyid, Hidayat & Orchiston 2021; Bleek & Lloyd 1911; GRAVITY 2019, 2021.)
+(First comment: sources — Erya, Shitian; Stellarium chinese, arabic_ancient (al-Ajaji), mongolian, vanuatu_netwar; McClintock 1910; Rasyid, Hidayat & Orchiston 2021; Bleek & Lloyd 1911; GRAVITY 2019, 2021.)
 
 ## Cuts and changes (for the reviewer)
 
@@ -124,5 +124,29 @@ Wording to check:
 9. E11 “On summer nights we face the galaxy’s centre: in Sagittarius, right by that ford, 27,000 light-years away” = 12 鏡「夏夜，我們正對著盤子的中心，就在人馬座、剛才那個渡口旁邊，兩萬七千光年外」 (Sgr A* 4.6° from γ² Sgr).
 10. E12 is the Northern-Hemisphere version of 12 鏡 (Taipei: 7/2–7/6, 21:00–01:00, due south at 23:00, 36° high): no times or dates, because EN35 airs 7/7 and the Chinese viewing window ends 7/6–7/7 (7/7 the Moon sets 21:25 in Taipei). “low in the south” because the centre culminates at 90° − latitude − 29° (21° at 40° N); “far from city lights” = 「找個遠離城市燈光、南方開闊的地方」.
 11. The cover’s second line is the new English hook (also written into the schedule), not a translation of the Chinese cover.
-12. The working title keeps “a Rift” (schedule); on screen and on YouTube the word is “seam”, which is what the Chinese 縫線 means. Rename the schedule title if you agree.
+12. The working title said “a Rift” (schedule); on screen and on YouTube the word is “seam”, which is what the Chinese 縫線 means. v1 renames the title here and in the schedule (and the EN34 next-episode card).
 13. Page sequence is the authority for timing (total 86 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN35_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese X-07 v1; spellings follow its star-name table (al-Naʿām al-wārid / al-Naʿām al-ṣādir unchanged). No new facts were added. Reading speed rechecked for every changed beat (E02 11 words ÷ 7 s = 1.6; E03 13 ÷ 6 = 2.2; E04 16 ÷ 7 = 2.3; E05 19 ÷ 8 = 2.4; E11 18 ÷ 9 = 2.0; E12 unchanged 16 ÷ 7 = 2.3), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted (10 items, 4 of them in part):
+1. “Those same stars were ostriches” (🔴, Story / YouTube / Caption): checked against 04 鏡 and the 譯名表 — Ji’s four stars are the drinking ostriches, but only four of Dou’s six (φ, σ, τ, ζ Sgr = Dou 1, 4, 5, 6) are the departing ones; Dou 2 and 3 are “not in the ostriches”. The three texts now say “eight of those stars were ostriches”. The diagram’s own line “The same eight stars” was already right.
+2. E04 (🔴): “The ancient text Erya puts the river’s ford between Ji (“Winnowing Basket”) and Dou (“Southern Dipper”).” — “text” tells a first-time viewer what the Erya is; the parentheses stop the quote marks splitting across lines (now 38 / 40 / 24 letters). Kept “the river’s ford” (v0 had it; Gemini’s version dropped “river’s”, but E03’s “a ford” is one of the pools-and-boat set, so the Erya’s ford needs the river).
+3. E05 (🔴): tense fixed — “Four in Dou were heading back after drinking.” (v0 mixed “were” and “are … having drunk”; 04 鏡「喝飽了、正要離開」 keeps the progressive).
+4. E02 (🟡): “the Milky Way” named in the first line (the cover and E01 never say it).
+5. E03 (🟡, in part): “placed” for “set”. Kept “star pools”: the Chinese 考據 warns against reading the pools as water, and the Glossary row says so.
+6. E11 (🟡, in part): the colon becomes a dash and the line now breaks cleanly (37 / 39 / 38). Kept “galaxy’s” (without it “the centre” has no owner) and added “northern” (“On northern summer nights”): the Chinese 夏夜 is Taipei’s sky; in the southern hemisphere the centre is overhead in winter. Same for the YouTube description and Caption.
+7. E12 (🟡, in part): headline “Northern sky: how to see it” (the v0 headline “Tonight: look south” clashed with the conditional “On a moonless night”, and “look low in the south” is northern mid-latitudes only, as Gemini’s section 3 note 1 says). The body stays as in v0 (it is already 16 words ÷ 7 s = 2.3; Gemini’s “late at night” version adds nothing). Caption: “Northern sky: on a moonless night, …” instead of “Tonight: …”.
+8. Page 33 label (🟡): “27,000 light-years away” instead of “27,000 ly away”.
+9. Title (🟡): “A Rift” → “A Seam”; the schedule title and the EN34 next-episode card change with it (see Wording to check 12).
+10. Sources (⚪): `mongolian` and `vanuatu_netwar` added to the Stellarium list (the Chinese 來源 欄 lists both; the seam and the ash come from them). E02 w/s corrected (⚪).
+
+Not adopted:
+- E01 (🔴, 🟡) cover: there is no conflict — the cover has two lines: the series opening line (E01 in Beats = Chinese 統一開頭) and the hook (the schedule’s 「英文鉤子（第一張字卡）」, in the Page sequence note). The Page sequence note now says “first line = E01; second line = the English hook”. The dash after “saw” stays (all the other episodes use “One sky. The [people] saw — …” = the Chinese 統一開頭); the colon version is not used.
+- E12 (🟡) body “look low in the south late at night”: kept v0’s two short sentences (see 7).
+
+Gemini’s section 3 notes: (1) the northern-hemisphere qualifier is now on screen (items 6–7); (2) cover layout — see above; (3) the English diagrams (E06, E08, E10) were not checked by Gemini; the Canva pass (card 07) must check the PNG spellings (al-Naʿām al-wārid, al-Naʿām al-ṣādir, ǀXam, Bittoéng Naga, Yikáísdáhí, etc.) against the Chinese star-name table.
+
+Canva: no `en` block in `X-07_Canva媒體ID.json` (no English text placed yet), nothing to replace.
