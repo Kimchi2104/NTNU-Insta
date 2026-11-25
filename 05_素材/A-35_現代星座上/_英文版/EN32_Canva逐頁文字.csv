@@ -1,44 +1,41 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡,3,World Sky Cultures,"One sky. Astronomers cut it — into 88
+1,,開場字卡,3,World Sky Cultures,"One sky. Astronomers carved it into 88
 pieces.",cover,"Cover: text block replaced with English; second line = the new hook (*In 1930, the whole sky was carved into 88 pieces.*); EN · EP32 tag"
-2,,鏡頭01開始,3,It began with Ptolemy,"Today’s 88 began with Ptolemy’s 48,
+2,,鏡頭01開始,3,Ptolemy’s 48,"Today’s 88 began with Ptolemy’s 48,
 listed nearly 1,900 years ago.",top,"E02; the strip zooms out, 88 stick figures and borders fade in"
-3,,鏡頭01結束＝鏡頭02開始,3,It began with Ptolemy,"Today’s 88 began with Ptolemy’s 48,
+3,,鏡頭01結束＝鏡頭02開始,3,Ptolemy’s 48,"Today’s 88 began with Ptolemy’s 48,
 listed nearly 1,900 years ago.",top,E02; Ptolemy labels 獅子座 → Leo; 室女座 → Virgo; 長蛇座 → Hydra; 烏鴉座 → Corvus; 巨爵座 → Crater; 大熊座 → Ursa Major; 半人馬座 → Centaurus
 4,,鏡頭02結束,4,,"But Ptolemy never saw the far southern
 sky.",top,"E03; labels as 3; then **hard cut** to 12 (pages 5–11: diagram C-A35-01 at 150 CE, the strip-to-southern-disc move and shot 03 “what Alexandria couldn’t see”, removed)"
-12,,鏡頭04開始,4,12 new in the south,"In the late 1500s, Dutch navigators
-charted the south.",top,**hard cut**; E04; labels 天燕座 → Apus; 蝘蜓座 → Chamaeleon; 變色龍 → chameleon; 劍魚座 → Dorado; 天鶴座 → Grus; 水蛇座 → Hydrus; 印第安座 → Indus; 蒼蠅座 → Musca; 孔雀座 → Pavo; 鳳凰座 → Phoenix; 南三角座 → Triangulum Australe; 杜鵑座 → Tucana; 飛魚座 → Volans
+12,,鏡頭04開始,4,12 new in the southern sky,"In the late 1500s, Dutch navigators
+charted those stars.",top,**hard cut**; E04; labels 天燕座 → Apus; 蝘蜓座 → Chamaeleon; 變色龍 → chameleon; 劍魚座 → Dorado; 天鶴座 → Grus; 水蛇座 → Hydrus; 印第安座 → Indus; 蒼蠅座 → Musca; 孔雀座 → Pavo; 鳳凰座 → Phoenix; 南三角座 → Triangulum Australe; 杜鵑座 → Tucana; 飛魚座 → Volans
 13,,鏡頭04結束,6,,"Plancius made 12 new constellations: a
 peacock, a toucan, a chameleon, a flying
 fish…",top,"E05; labels as 12; then **hard cut** to 19 (pages 14–18: diagram C-A35-01 at 1597 and the disc-to-strip move, removed)"
-19,,鏡頭05開始＝鏡頭05b開始,8,Hevelius: 7 more,"In 1690, Hevelius filled northern gaps.
-The Lynx: he said you need a lynx’s eyes
-to see it.",bottom,"**hard cut**; E06; labels 天貓座 → Lynx; 要有山貓的眼睛 → “you need a lynx’s eyes”; then **hard cut** to 26 (pages 20–25: the shield for the Polish king, diagram C-A35-01 at 1690, the strip-to-disc move, removed)"
+19,,鏡頭05開始＝鏡頭05b開始,8,Hevelius: 7 more,"Hevelius’s 1690 atlas filled northern
+and equatorial gaps. For the Lynx, he
+said you need a lynx’s eyes.",bottom,"**hard cut**; E06; labels 天貓座 → Lynx; 要有山貓的眼睛 → you need a lynx’s eyes; then **hard cut** to 26 (pages 20–25: the shield for the Polish king, diagram C-A35-01 at 1690, the strip-to-disc move, removed)"
 26,,鏡頭06開始,2,Lacaille: 14 more,"In the 1750s, Lacaille measured nearly
-10,000 southern stars at the Cape of
-Good Hope.",top,**hard cut**; E07; label 南極座 → Octans
+10,000 stars at the Cape of Good Hope.",top,**hard cut**; E07; label 南極座 → Octans
 27,,鏡頭06-中1,5,Lacaille: 14 more,"In the 1750s, Lacaille measured nearly
-10,000 southern stars at the Cape of
-Good Hope.",top,E07; labels 唧筒座 → Antlia; 圓規座 → Circinus; 天爐座 → Fornax; 時鐘座 → Horologium; 山案座 → Mensa; 桌山 → Table Mountain; 顯微鏡座 → Microscopium; 矩尺座 → Norma; 南極座 → Octans; 繪架座 → Pictor; 羅盤座 → Pyxis; 網罟座 → Reticulum; 玉夫座 → Sculptor; 望遠鏡座 → Telescopium
+10,000 stars at the Cape of Good Hope.",top,E07; labels 唧筒座 → Antlia; 圓規座 → Circinus; 天爐座 → Fornax; 時鐘座 → Horologium; 山案座 → Mensa; 桌山 → Table Mountain; 顯微鏡座 → Microscopium; 矩尺座 → Norma; 南極座 → Octans; 繪架座 → Pictor; 羅盤座 → Pyxis; 網罟座 → Reticulum; 玉夫座 → Sculptor; 望遠鏡座 → Telescopium
 28,,鏡頭06結束,7,,"His 14 new constellations are almost all
 instruments: telescope, microscope,
 clock, air pump…",top,E08; labels as 27 + 雕具座 → Caelum
 29,,鏡頭06b開始,4,,"And one mountain: Cape Town’s Table
-Mountain, now Mensa.",bottom,"E09; labels 山案座 → Mensa; 開普敦的桌山 → Table Mountain, Cape Town; 大麥哲倫雲 → Large Magellanic Cloud; then **hard cut** to 37 (pages 30–36: diagram C-A35-01 at 1756, the disc-to-strip move and the dropped constellations, removed)"
+Mountain — Mensa.",bottom,"E09; labels 山案座 → Mensa; 開普敦的桌山 → Table Mountain, Cape Town; 大麥哲倫雲 → Large Magellanic Cloud; then **hard cut** to 37 (pages 30–36: diagram C-A35-01 at 1756, the disc-to-strip move and the dropped constellations, removed)"
 37,,鏡頭08開始,8,1922: the list of 88,"In 1922, the new International
-Astronomical Union fixed the list: 88,
-each with a code like UMa.",top,"**hard cut**; E10; label 大熊座 → Ursa Major (the codes CVn, Com, Leo, UMa, UMi stay); then straight to 41 (pages 38–40: Orion and the 88-origins card C-A35-04, removed)"
+Astronomical Union set the list: 88,
+each with a three-letter code like UMa.",top,"**hard cut**; E10; label 大熊座 → Ursa Major (the codes CVn, Com, Leo, UMa, UMi stay); then straight to 41 (pages 38–40: Orion and the 88-origins card C-A35-04, removed)"
 41,,鏡頭09開始,5,But where are the borders?,"A list has no borders. Belgian
 astronomer Delporte drew them:",bottom,"E11; grid layer brightens, borders draw in the north"
 42,,鏡頭09b開始,4,,straight lines along the sky’s grid.,bottom,E12; borders reach −30°
 43,,鏡頭09c開始,5,1930: no gaps left,"Approved in 1928, published in 1930: the
 whole sky, no gaps.",bottom,E13; all borders done
-44,,鏡頭10開始,7,A constellation is land,"Now a constellation is a plot of land:
-every point in the sky belongs to
-exactly one.",top,"E14; labels 長蛇座 → Hydra; 1,303 平方度・最大 → 1,303 sq. deg · largest"
-45,,鏡頭10結束,5,,"The largest, Hydra, is 19 times the
-smallest, the Southern Cross.",top,"E15; labels 南十字座 → Crux (Southern Cross); 68 平方度・最小 → 68 sq. deg · smallest; then straight to 68 (pages 46–67: diagram C-A35-02, Serpens in two pieces, the 1875 tilt, the four constellations Taipei never sees, the Chinese 283 asterisms, tonight’s Serpens and Scutum, the Big Dipper teaser, removed)"
+44,,鏡頭10開始,7,A plot of sky,"Now a constellation is a plot of sky:
+every point belongs to exactly one.",top,"E14; labels 長蛇座 → Hydra; 1,303 平方度・最大 → 1,303 sq deg · largest"
+45,,鏡頭10結束,5,,"The largest, Hydra, is 19 times the size
+of the Southern Cross.",top,"E15; labels 南十字座 → Crux (Southern Cross); 68 平方度・最小 → 68 sq deg · smallest; then straight to 68 (pages 46–67: diagram C-A35-02, Serpens in two pieces, the 1875 tilt, the four constellations Taipei never sees, the Chinese 283 asterisms, tonight’s Serpens and Scutum, the Big Dipper teaser, removed)"
 68,,端卡（下集見）,4,Next Wednesday,"Matariki: when the stars rise, the new
 year begins.",endcard,E16
 69,,追蹤頁,3,,Follow for a new sky every week.,endcard,E17

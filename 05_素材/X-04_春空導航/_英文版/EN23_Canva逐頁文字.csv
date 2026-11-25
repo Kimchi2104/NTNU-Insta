@@ -1,24 +1,25 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,開場字卡,3,World Sky Cultures,"One sky. Stargazers saw — a path to find
 the stars.",cover,Cover: text block replaced with English; second line = the schedule’s hook; EN · EP23 tag
-2,,鏡頭01開始,4,"First, find the Big Dipper","In April, after dark, it rides high in
-the northeast.",bottom,E02 (the X-03 ten-figure flash is not used)
+2,,鏡頭01開始,4,"First, find the Big Dipper","After dark in April, look high in the
+northeast.",bottom,E02 (the X-03 ten-figure flash is not used)
 3,,鏡頭01結束＝鏡頭02開始,5,,"Follow the curve of its handle. Keep
 going in a big arc.",bottom,E03; label 北斗七星 → Big Dipper; then the sky slides down the arc to 4
 4,,鏡頭02結束＝鏡頭03開始,8,Arc to Arcturus,"About three fists away: an orange star,
-the northern sky’s brightest.",bottom-right,"E04; labels 搖光／開陽／大角 → Alkaid／Mizar／Arcturus; the “three fists = about 30°” hand sketch, if the Chinese design has it, gets the English “3 fists ≈ 30°”"
-5,,鏡頭03結束＝鏡頭04開始,6,Spike to Spica,"Carry the same arc south, about as far:
-blue-white Spica.",top,E05; labels 大角／角宿一 → Arcturus／Spica
-6,,鏡頭04結束,4,"Four stars, one circle","Mizar, Alkaid, Arcturus and Spica sit
+the northern sky’s brightest.",bottom-right,"E04; labels 搖光／開陽／大角 → Alkaid／Mizar／Arcturus; the “three fists = about 30°” hand sketch, if the Chinese design has it, gets the English label “3 fists at arm’s length ≈ 30°”"
+5,,鏡頭03結束＝鏡頭04開始,6,Spike to Spica,"Extend the same arc south, about as far,
+to blue-white Spica.",top,E05; labels 大角／角宿一 → Arcturus／Spica
+6,,鏡頭04結束,4,"Four stars, one circle","Mizar, Alkaid, Arcturus and Spica lie
 almost on one circle.",bottom-right,E06; labels 搖光／開陽／大角／角宿一 → Alkaid／Mizar／Arcturus／Spica
 7,,鏡頭04-概念圖1,3,"Four stars, one circle",,top,"diagram, English (`_概念圖/en/C-X04-01_弧線是真的_星點層_透明.png`); E06b"
 8,,鏡頭04-概念圖2,3,"Four stars, one circle",,top,+ `_概念圖/en/C-X04-01_弧線是真的_圓層_透明.png`; E06b
 9,,鏡頭04-概念圖3,3,"Four stars, one circle",,top,+ `_概念圖/en/C-X04-01_弧線是真的_偏差層_透明.png`; E06b
-10,,鏡頭04-概念圖收,6,,"Stellarium software even builds it in as
-a star-hopping guide.",bottom-right,"diagram fades; E07; labels as 6 (the Stellarium screenshot of the Chinese version is not used); then the sky moves to 25 (pages 11–24: the Chinese asterisms and the Shiji, the handle clock, the Han-dynasty equinox, removed)"
-25,,鏡頭08開始,7,The bear’s guardian,"The Greeks named Arcturus Arktouros: the
-guardian of the bear.",bottom,"E08; labels 守熊的人 → guardian of the bear (under Ἀρκτοῦρος); 牧夫座 → Boötes (under Βοώτης); then **hard cut (no transition)** to 50 (pages 26–49: Hesiod’s dusk, the Sámi bow, the Tukano serpent, the Arabic pair, the Hawaiian canoes, Arcturus on the move, Spica’s light, the Spring Triangle and Diamond, the Taipei 19:30 crescent, removed)"
-50,,鏡頭14結束,9,Look east this April,"Mid-April, 9 p.m.: Arcturus in the east,
-Spica lower in the southeast.",top-left,E09; labels 大角／角宿一 → Arcturus／Spica; **remove the overlaid card C-X04-06** if the Chinese page 50 still carries it (that card is page 51 in the Chinese design; it is Taipei-only)
+10,,鏡頭04-概念圖收,6,,"The astronomy app Stellarium even
+includes it as a star-hopping guide.",bottom-right,"diagram fades; E07; labels as 6 (the Stellarium screenshot of the Chinese version is not used); then the sky moves to 25 (pages 11–24: the Chinese asterisms and the Shiji, the handle clock, the Han-dynasty equinox, removed)"
+25,,鏡頭08開始,7,The bear’s guardian,"The Greeks called Arcturus Arktouros —
+“guardian of the bear.”",bottom,"E08; labels 守熊的人 → guardian of the bear (under Ἀρκτοῦρος); 牧夫座 → Boötes (under Βοώτης); then **hard cut (no transition)** to 50 (pages 26–49: Hesiod’s dusk, the Sámi bow, the Tukano serpent, the Arabic pair, the Hawaiian canoes, Arcturus on the move, Spica’s light, the Spring Triangle and Diamond, the Taipei 19:30 crescent, removed)"
+50,,鏡頭14結束,9,Look east this April,"Northern skies, mid-April, 21:00:
+Arcturus in the east, Spica lower in the
+southeast.",top-left,E09; labels 大角／角宿一 → Arcturus／Spica; **remove the overlaid card C-X04-06** if the Chinese page 50 still carries it (that card is page 51 in the Chinese design; it is Taipei-only)
 54,,端卡（下集見）,3,Next Wednesday,India: the Moon’s 27 wives.,endcard,E10
 55,,追蹤頁,3,,Follow for a new sky every week.,endcard,E11

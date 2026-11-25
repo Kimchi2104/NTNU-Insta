@@ -1,46 +1,45 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,開場字卡,3,World Sky Cultures,"One sky. The whole world saw — this
 ladle.",cover,Cover: text block replaced with English; second line = the schedule’s hook; EN · EP22 tag
-3,,鏡頭01結束,5,Ten lives of one ladle,"Seven stars shaped like a ladle, and ten
-lives around the world.",bottom,"E02 (page 2, the Mandar net callback, removed: the English episode opens on the plain Dipper); labels 北斗 → Beidou (China); Big Dipper stays; 北美：大水杓 → North America; then straight to 9 (pages 4–8, why it never set 3,000 years ago and diagram C-X03-01, removed)"
-9,,鏡頭03開始,5,① A bull’s foreleg,"Ancient Egyptians called it Meskhetyu,
+3,,鏡頭01結束,5,Ten lives of one ladle,"Seven stars shaped like a ladle — ten
+lives around the world.",bottom,"E02 (page 2, the Mandar net callback, removed: the English episode opens on the plain Dipper); labels 北斗 → Beidou (Northern Dipper, China); Big Dipper stays; 北美：大水杓 → North America; then straight to 9 (pages 4–8, why it never set 3,000 years ago and diagram C-X03-01, removed)"
+9,,鏡頭03開始,5,① A bull’s foreleg,"Ancient Egyptians called it Meskhetyu
 and drew it on coffin lids.",bottom,**hard cut** (as in the Chinese); E03; labels 牛的前腿 → the bull’s foreleg; remove 梅斯克提烏 (Chinese pronunciation guide)
 10,,鏡頭04開始,3,② A cart,"From northern and eastern Europe to
 China, people see a cart.",bottom,E04; labels 北歐：男人的車 → Norse: the Man’s Chariot; 白俄：以利亞的車 → Belarus: Elijah’s cart
 11,,鏡頭04b開始,3,② A cart,"From northern and eastern Europe to
-China, people see a cart.",bottom,"E04; labels 帝車／中國：天帝的車 → China: the Sky Emperor’s chariot (the Chinese characters 帝車 stay as the original name); then straight to 15 (pages 12–14, Babylon and Bali, removed)"
+China, people see a cart.",bottom,"E04; labels 帝車／中國：天帝的車 → China: Dìchē, the Sky Emperor’s chariot (the Chinese characters 帝車 stay as the original name); then straight to 15 (pages 12–14, Babylon and Bali, removed)"
 15,,鏡頭05開始,4,③ A bear,"In Homer, the Bear turns in place,
-watching Orion: the only one that never
-bathes in the ocean.",bottom,E05
+watching Orion — it alone never bathes
+in the ocean.",bottom,E05
 16,,鏡頭05結束,4,③ A bear,"In Homer, the Bear turns in place,
-watching Orion: the only one that never
-bathes in the ocean.",bottom,"E05; labels 希臘：熊 → Greek: bear; 梵文：熊 → Sanskrit: bear; 大熊全形：托勒密（2 世紀） → full bear: Ptolemy (2nd c.); **remove** 熊腳在荷馬時代的雅典就已貼著地平線 (not in the English text); then the disc moves to 22 (pages 17–21, the Athens diagram C-X03-02 and the Seven Sages close-up, removed)"
-22,,鏡頭06結束,7,④ Seven people,"India’s seven sages, Mongolia’s seven
-old men, the Blackfoot’s seven brothers
-and their little sister.",bottom,E06; labels 七位仙人（印度） → seven sages (India); 七位老人（蒙古） → seven old men (Mongolia); 七兄弟和小妹（黑腳族） → seven brothers and their sister (Blackfoot)
-23,,鏡頭07開始,7,⑤ A bier,"In Arabia, the bowl is a bier, and the
-handle the daughters who carry it.",bottom,"E07; labels 棺架 → the bier; 抬棺的女兒 → the daughters (bearers); بنات نعش stays; then to 25 (page 24, the al-Suhā close-up, removed; al-Suhā returns in E13)"
-25,,鏡頭08開始,2,⑥ Robbers,"In Macedonian folklore, a gang circling
-all night, like thieves around a house.",bottom,E08; label 馬其頓：一夥強盜 → Macedonia: a gang of robbers
-26,,鏡頭08結束,5,⑥ Robbers,"In Macedonian folklore, a gang circling
-all night, like thieves around a house.",bottom,E08; label as 25 (the disc spins: “all night”)
-27,,鏡頭09開始,3,⑦ A fish-eating serpent,"In the Amazon, the Tukano say: when it
-touches the horizon at dusk, it swallows
-nearly all the river’s fish.",bottom,E09; label 圖卡諾：吞魚的大蛇 → Tukano: the fish-eating serpent
-30,,鏡頭09-概念圖收,6,⑦ A fish-eating serpent,"In the Amazon, the Tukano say: when it
-touches the horizon at dusk, it swallows
-nearly all the river’s fish.",bottom,"E09 (pages 28–29, the Chinese equator diagram C-X03-03, removed; 27 and 30 are the same frame); label as 27"
-31,,鏡頭10開始,3,⑧ A ship ⑨ A net,"For the Bugis, a ship. For the Mandar
+watching Orion — it alone never bathes
+in the ocean.",bottom,"E05; labels 希臘：熊 → Greek: bear; 梵文：熊 → Sanskrit: bear; 大熊全形：托勒密（2 世紀） → full bear: Ptolemy (2nd c.); **remove** 熊腳在荷馬時代的雅典就已貼著地平線 (not in the English text); then the disc moves to 22 (pages 17–21, the Athens diagram C-X03-02 and the Seven Sages close-up, removed)"
+22,,鏡頭06結束,7,④ Seven people,"India: seven sages. Mongolia: seven old
+men. Blackfoot: seven brothers and their
+little sister.",bottom,E06; labels 七位仙人（印度） → seven sages (India); 七位老人（蒙古） → seven old men (Mongolia); 七兄弟和小妹（黑腳族） → seven brothers and their little sister (Blackfoot)
+23,,鏡頭07開始,7,⑤ A bier,"In Arabia, the bowl is a bier; the
+handle, the daughters who carry it.",bottom,"E07; labels 棺架 → the bier; 抬棺的女兒 → the daughters (bearers); بنات نعش stays; then to 25 (page 24, the al-Suhā close-up, removed; al-Suhā returns in E13)"
+25,,鏡頭08開始,2,⑥ Robbers,"In Macedonian folklore, a gang circles
+all night — like thieves around a house.",bottom,E08; label 馬其頓：一夥強盜 → Macedonia: a gang of robbers
+26,,鏡頭08結束,5,⑥ Robbers,"In Macedonian folklore, a gang circles
+all night — like thieves around a house.",bottom,E08; label as 25 (the disc spins: “all night”)
+27,,鏡頭09開始,3,⑦ A fish-eating serpent,"To the Amazon’s Tukano, when it touches
+the horizon at dusk each year, it
+swallows nearly all the river’s fish.",bottom,E09; label 圖卡諾：吞魚的大蛇 → Tukano: the fish-eating serpent
+30,,鏡頭09-概念圖收,6,⑦ A fish-eating serpent,"To the Amazon’s Tukano, when it touches
+the horizon at dusk each year, it
+swallows nearly all the river’s fish.",bottom,"E09 (pages 28–29, the Chinese equator diagram C-X03-03, removed; 27 and 30 are the same frame); label as 27"
+31,,鏡頭10開始,3,"⑧ A ship, ⑨ A net","For the Bugis, a ship. For Mandar
 fishermen, a fishing net.",top,E10; label ⑧ 布吉斯：船 → ⑧ Bugis: ship
-32,,鏡頭10b開始,3,⑧ A ship ⑨ A net,"For the Bugis, a ship. For the Mandar
+32,,鏡頭10b開始,3,"⑧ A ship, ⑨ A net","For the Bugis, a ship. For Mandar
 fishermen, a fishing net.",top,**hard cut** (as in the Chinese); E10; label ⑨ 曼達爾：漁網星 → ⑨ Mandar: fishing-net star
 33,,鏡頭11開始,7,⑩ Prey,"For the Evenki of Siberia, the bowl is a
-moose’s legs, the handle its hunter.",top,"E11; labels 駝鹿的腳 → the moose’s legs; 追牠的獵人 → the hunter; then **hard cut** to 37 (pages 34–36, the Inuit caribou and the Chinese ten-lives card C-X03-04, removed)"
-37,,鏡頭12開始,7,"Early April, 9 pm: look northeast","It is already high. Around 11 pm it
+moose’s legs; the handle, its hunter.",top,"E11; labels 駝鹿的腳 → the moose’s legs; 追牠的獵人 → the hunter; then **hard cut** to 37 (pages 34–36, the Inuit caribou and the Chinese ten-lives card C-X03-04, removed)"
+37,,鏡頭12開始,7,"Early April, 21:00: look northeast","It is already high. Around 23:00 it
 stands highest in the north, upside
-down.",bottom,"E12; labels: **remove** 天樞 47°／搖光 28°／台北 20:00 (Taipei numbers). The horizon is Taipei’s; at 40° N the Dipper is higher (Dubhe ~66° at 9 pm on 7 Apr), so the image only understates it"
-38,,鏡頭12結束,6,Test your eyes,"Al-Suhā, the faint star beside Mizar,
-was said to test eyesight. Can you see
-it?",bottom,"E13; labels: **remove** 天樞 53°／搖光 56°; 23:00 整個倒掛 → 11 pm: upside down; then straight to 43 (pages 39–42, the Chinese look-up card C-X03-05 and the next-episode arc, removed)"
+down.",bottom,"E12; labels: **remove** 天樞 47°／搖光 28°／台北 20:00 (Taipei numbers). The horizon is Taipei’s; at 40° N the Dipper is higher (Dubhe ~66° at 21:00 on 7 Apr), so the image only understates it"
+38,,鏡頭12結束,6,Test your eyes,"Beside Mizar, faint al-Suhā was said to
+test eyesight. Can you see it?",bottom,"E13; labels: **remove** 天樞 53°／搖光 56°; 23:00 整個倒掛 → 23:00: upside down; then straight to 43 (pages 39–42, the Chinese look-up card C-X03-05 and the next-episode arc, removed)"
 43,,端卡（下集見）,3,Next Wednesday,Follow the handle’s arc to a star.,endcard,E14
 44,,追蹤頁,3,,Follow for a new sky every week.,endcard,E15

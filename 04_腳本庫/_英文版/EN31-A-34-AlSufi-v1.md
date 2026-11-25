@@ -1,4 +1,4 @@
-# EN31 ｜ Al-Ṣūfī’s Book of Fixed Stars: A Star Atlas over 1,000 Years Old ・ v0 (awaiting Gemini review)
+# EN31 ｜ Al-Ṣūfī’s Book of Fixed Stars: A Star Atlas over 1,000 Years Old ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -19,15 +19,15 @@
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Al-Ṣūfī saw — two skies. | — |
 | E02 | 7 | 2, 3 | bottom | A book over 1,000 years old | Around 964, the Persian astronomer al-Ṣūfī presented his ruler with a book. | 1.7 |
 | E03 | 5 | 6 | bottom | Layer one: the Greek sky | He re-checked Ptolemy’s 48 Greek constellations against the sky, star by star. | 2.4 |
-| E04 | 5 | 15 | bottom | Layer two: old Arab names | Under each Greek figure, he added the old Arab star names. | 2.2 |
-| E05 | 5 | 16 | top | | Arcturus: ‘the raised one with a lance’. Spica: ‘the unarmed raised one’. *(the 高舉者 labels sit mid-frame; keep the box above them)* | 2.4 |
-| E06 | 6 | 17 | top | A fish and a smudge | Some Arab constellations he drew in too: a great fish across Andromeda. | 2.0 |
+| E04 | 5 | 15 | bottom | Layer two: old Arab names | Under each Greek constellation, he added the old Arab star names. | 2.2 |
+| E05 | 5 | 16 | top | | Arcturus: “the raised one with a lance”. Spica: “the unarmed raised one”. *(the 高舉者 labels sit mid-frame; keep the box above them)* | 2.4 |
+| E06 | 6 | 17 | top | A fish and a smudge | He drew in some Arab constellations too: a great fish across Andromeda. | 2.0 |
 | E07 | 6 | 18 | top | | By the fish’s mouth, he noted a little smudge, like a cloud. | 2.0 |
-| E08 | 7 | 19 | top | | It’s the Andromeda Galaxy, 2.5 million light-years away: the earliest known record of it. | 2.0 |
-| E09 | 9 | 22, 23 | bottom | Names we still use | Perseus carries a ghoul’s head: in Arabic, raʾs al-ghūl. Today’s star name: Algol. | 1.4 |
-| E10 | 7 | 24 | bottom | June evenings: look up | After dark, Arcturus shines high, Spica lower toward the south: the two raised ones. | 2.0 |
-| E11 | 4 | 25 | top | Two eagles in the east | Late evening, look east: Vega and Altair. | 1.8 |
-| E12 | 6 | 26 | top | | ‘The swooping eagle’ and ‘the flying eagle’: their names come from these. | 2.0 |
+| E08 | 7 | 19 | top | | It’s the Andromeda Galaxy, 2.5 million light-years away — the earliest known record of it. | 2.0 |
+| E09 | 9 | 22, 23 | bottom | Names we still use | Perseus carries a ghoul’s head — raʾs al-ghūl in Arabic. Today we call the star Algol. | 1.7 |
+| E10 | 7 | 24 | bottom | June evenings: look up | After dark, Arcturus shines high, and Spica lower to the south — the two raised ones. | 2.1 |
+| E11 | 4 | 25 | top | Two eagles in the east | Later in the evening, look east: Vega and Altair. | 2.3 |
+| E12 | 6 | 26 | top | | “The swooping eagle” and “the flying eagle” — that’s where their names come from. | 2.2 |
 | E13 | 4 | 30 | endcard | Next Wednesday | Who decided the 88 constellations? | 1.3 |
 | E14 | 3 | 31 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -39,7 +39,7 @@ Diagram C-A34-01 (pages 4–5, English) carries its own title, “Who was al-Ṣ
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the new hook (*Around 964, one book wrote down two skies.*); EN · EP31 tag |
+| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the new hook (*Around 964, one book held two skies.*); EN · EP31 tag |
 | 2 | | 鏡頭01開始 | 4 | E02; manuscript image fading in (if the designer used BnF Arabe 5036, its corner tag 「1430 年代撒馬爾罕抄本」 → *Samarkand copy, 1430s*) |
 | 3 | | 鏡頭01結束＝鏡頭02開始 | 3 | E02 |
 | 4 | | 鏡頭02-概念圖1 | 3 | diagram C-A34-01, English: life layer (`_概念圖/en/C-A34-01_蘇菲是誰_生平層_透明.png`); no caption |
@@ -48,8 +48,8 @@ Diagram C-A34-01 (pages 4–5, English) carries its own title, “Who was al-Ṣ
 | 15 | | 鏡頭05-概念圖收＝鏡頭06開始 | 5 | E04 |
 | 16 | | 鏡頭06結束 | 5 | E05; labels 拿矛的高舉者 → the raised one with a lance; 沒拿武器的高舉者 → the unarmed raised one; 牧夫座 → Boötes; 室女座 → Virgo |
 | 17 | | 鏡頭07開始 | 6 | E06; labels 仙女座 → Andromeda; 大魚（阿拉伯星座） → the Great Fish (Arab constellation); 一小抹像雲的光斑 → a little cloud-like smudge |
-| 18 | | 鏡頭07結束＝鏡頭08開始 | 6 | E07; labels 仙女座大星系・250 萬光年 → Andromeda Galaxy · 2.5 million ly; 魚嘴（ν And） → the fish’s mouth (ν And); manuscript inset (Andromeda with the fish) stays |
-| 19 | | 鏡頭08結束 | 7 | E08; labels as 17; then straight to 22 (pages 20–21, the sky-vs-globe diagram C-A34-04, removed) |
+| 18 | | 鏡頭07結束＝鏡頭08開始 | 6 | E07; labels 魚嘴（ν And） → the fish’s mouth (ν And); 一小抹像雲的光斑 → a little cloud-like smudge; **no galaxy name yet** (E07 still keeps the secret: the Andromeda Galaxy label moves to page 19); manuscript inset (Andromeda with the fish) stays |
+| 19 | | 鏡頭08結束 | 7 | E08; labels as 18 + 仙女座大星系・250 萬光年 → Andromeda Galaxy · 2.5 million light-years; then straight to 22 (pages 20–21, the sky-vs-globe diagram C-A34-04, removed) |
 | 22 | | 鏡頭08-概念圖收＝鏡頭09開始＝鏡頭10開始 | 3 | E09; **remove** the Marsh 144 colophon image if the designer placed it here (shot 09 is cut) |
 | 23 | | 鏡頭10結束＝鏡頭11開始＝鏡頭12開始 | 6 | E09; labels 英仙座 → Perseus; 妖怪的頭 → Algol（大陵五） → the ghoul’s head → Algol; **remove** the Dürer 1515 star map if placed here (shot 11 is cut); the Perseus manuscript inset stays |
 | 24 | | 鏡頭12結束 | 7 | E10; labels 大角 → Arcturus; 角宿一 → Spica; **remove** 天頂（晚上 8 點） and its zenith ring (Taipei-only) |
@@ -72,18 +72,18 @@ Total 89 s (E14 included).
 | 古代阿拉伯人的老星名 | the old Arab star names | not “desert” / “Bedouin” (Chinese 考據備忘) |
 | 兩層天空 | two skies; layer one / layer two | |
 | 高舉者 al-Simāk | the raised one(s) | A-13 ring label “Raised” |
-| 拿矛的高舉者 al-Simāk al-Rāmiḥ | ‘the raised one with a lance’ | Arcturus |
-| 沒拿武器的高舉者 al-Simāk al-Aʿzal | ‘the unarmed raised one’ | Spica |
+| 拿矛的高舉者 al-Simāk al-Rāmiḥ | “the raised one with a lance” | Arcturus |
+| 沒拿武器的高舉者 al-Simāk al-Aʿzal | “the unarmed raised one” | Spica |
 | 牧夫座／室女座 | Boötes / Virgo | labels only |
 | 大魚 al-Ḥūt al-ʿAẓīm | a great fish; label “the Great Fish (Arab constellation)” | |
 | 仙女座 al-Musalsala | Andromeda | |
 | 一小抹像雲的光斑 laṭkha saḥābiyya | a little smudge, like a cloud | not “little cloud” (Chinese 考據 ③) |
 | 仙女座大星系（250 萬光年） | the Andromeda Galaxy, 2.5 million light-years away | |
 | 英仙座 Birshāwish | Perseus | |
-| 妖怪的頭 raʾs al-ghūl | a ghoul’s head: raʾs al-ghūl | ghūl = ghoul |
+| 妖怪的頭 raʾs al-ghūl | a ghoul’s head; raʾs al-ghūl | ghūl = ghoul |
 | 大陵五 | Algol | |
 | 大角／角宿一 | Arcturus / Spica | |
-| 俯衝的老鷹 al-Nasr al-Wāqiʿ／飛翔的老鷹 al-Nasr al-Ṭāʾir | ‘the swooping eagle’ / ‘the flying eagle’ | Vega / Altair; nasr can also mean a vulture (glossary note only) |
+| 俯衝的老鷹 al-Nasr al-Wāqiʿ／飛翔的老鷹 al-Nasr al-Ṭāʾir | “the swooping eagle” / “the flying eagle” | Vega / Altair; nasr can also mean a vulture (glossary note only) |
 | 下集：88 個星座誰說了算 | Who decided the 88 constellations? | EN32 title |
 
 ## YouTube
@@ -96,11 +96,11 @@ Total 89 s (E14 included).
 
 ## Caption (Instagram / Facebook / Threads)
 
-Around 964, one book wrote down two skies. 📖
+Around 964, one book held two skies. 📖
 The Persian astronomer al-Ṣūfī re-checked Ptolemy’s 48 Greek constellations star by star. Under each one, he added the old Arab star names: Arcturus is “the raised one with a lance”, Spica “the unarmed raised one”.
 He drew in some Arab constellations too — a great fish across Andromeda. By its mouth he noted a little smudge, like a cloud: the Andromeda Galaxy, 2.5 million light-years away. It’s the earliest known record of it.
 His names live on: Perseus carries a ghoul’s head, raʾs al-ghūl — today’s Algol. Vega and Altair come from “the swooping eagle” and “the flying eagle”.
-June evenings: Arcturus high after dark, Spica lower toward the south; later, Vega and Altair rise in the east.
+June evenings (from the Northern Hemisphere): Arcturus high after dark, Spica lower to the south; later, Vega and Altair rise in the east.
 Next Wednesday: who decided the 88 constellations?
 #WorldSkyCultures #astronomy #AlSufi #Andromeda #starnames #history #skylore
 (First comment: sources — Stellarium arabic_al-sufi; Kunitzsch 1987, The Messenger 49; Kunitzsch 1989; Kunitzsch & Smart.)
@@ -112,12 +112,35 @@ Dropped from the Chinese version (all still in the Chinese episode): the bridge 
 Wording to check:
 1. E02 “Around 964 … presented his ruler with a book” = 02 鏡「大約西元九百六十四年，他把書獻給當時的君主」; the headline “over 1,000 years old” = the book (c. 964), not any surviving copy (Chinese ⚠: no surviving manuscript is 1,000 years old).
 2. E03 “re-checked … against the sky, star by star” = 03 鏡「一顆一顆重新對著天空看」. “Layer one / Layer two” headlines frame 06 鏡「一次收進兩層天空」.
-3. E04 “Under each Greek figure, he added the old Arab star names” = 06 鏡「書裡每個希臘星座底下，他都附上古代阿拉伯人的老星名，再一顆顆對好」 (“figure” = constellation, to stay under 2.5 w/s).
+3. E04 “Under each Greek constellation, he added the old Arab star names” = 06 鏡「書裡每個希臘星座底下，他都附上古代阿拉伯人的老星名，再一顆顆對好」 (“constellation”, not “figure”: same word count).
 4. E05 “the raised one with a lance” / “the unarmed raised one” = 「拿矛的高舉者」「沒拿武器的高舉者」; the Chinese notes the meaning of al-Simāk is disputed (high one / raised one / supporter) — the series uses “raised” (A-13).
-5. E06 “Some Arab constellations he drew in too” = 07 鏡「有些阿拉伯星座，他也一併畫進書裡」.
+5. E06 “He drew in some Arab constellations too” = 07 鏡「有些阿拉伯星座，他也一併畫進書裡」.
 6. E07–E08 “a little smudge, like a cloud” = 「一小抹像雲的光斑」 (laṭkha saḥābiyya; Kunitzsch 1987); “the earliest known record of it” keeps 「目前所知最早」 — not “first to discover a galaxy”.
-7. E09 “Perseus carries a ghoul’s head: in Arabic, raʾs al-ghūl. Today’s star name: Algol” = 10 鏡. This is the Arabic translation of Ptolemy’s Gorgon’s head (the Greek layer), not an old Arab name — the headline “Names we still use” is deliberately neutral about which layer.
+7. E09 “Perseus carries a ghoul’s head — raʾs al-ghūl in Arabic. Today we call the star Algol” = 10 鏡. This is the Arabic translation of Ptolemy’s Gorgon’s head (the Greek layer), not an old Arab name — the headline “Names we still use” is deliberately neutral about which layer.
 8. E10 is the Northern-Hemisphere version of 12 鏡 (Taipei 8 pm: Arcturus 71° east, Spica 53° south). For mid-northern latitudes in June: Arcturus high after dark, Spica lower in the south. “the two raised ones” keeps the 「那兩位高舉者」 link.
 9. E11–E12 are the Northern-Hemisphere version of 13 鏡 (Taipei: Vega NE at 8 pm, Altair due east after 10 pm). “Their names come from these” = 「Vega、Altair 這兩個名字，就是從這裡來的」. “eagle” follows the Chinese (nasr can also mean a vulture; glossary note).
 10. The cover’s second line is the new English hook (also written into the schedule), not a translation of the Chinese cover. The schedule’s working title (“A Star Atlas over 1,000 Years Old”) is kept as the episode title; YouTube uses the shorter “two skies in one book”.
 11. Page sequence is the authority for timing (total 89 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN31_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-34 v1 (02, 06, 07, 10, 12, 13 鏡); spellings follow its star-name table. No new facts were added. Reading speed rechecked for every changed beat (E04 11 words ÷ 5 s = 2.2; E05 12 ÷ 5 = 2.4; E06 12 ÷ 6 = 2.0; E08 15 ÷ 7 = 2.1 → 2.0 as before, the dash adds no word; E09 15 ÷ 9 = 1.7; E10 15 ÷ 7 = 2.1; E11 9 ÷ 4 = 2.25; E12 13 ÷ 6 = 2.2), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. Cover hook (🔴): *Around 964, one book held two skies.* (“a book wrote down” is not idiomatic; 節目表鉤子 column, Caption first line and the page 1 note changed to match).
+2. E05, E12, Glossary (🔴): double quotes “ ” instead of single quotes. The layout note in E05 is already in *( )*, which `gen_en_pages.py` strips from the on-screen text, so it cannot be pasted into Canva by mistake.
+3. E12 (🔴): “— that’s where their names come from” (13 鏡「這兩個名字，就是從這裡來的」).
+4. E04 (🟡): “Greek constellation” (06 鏡), same word count.
+5. E06 (🟡): natural word order (07 鏡「有些阿拉伯星座，他也一併畫進書裡」).
+6. E09 (🟡): dash and “Today we call the star Algol” (10 鏡; 1.7 w/s).
+7. E10 (🟡) and Caption: “and Spica lower to the south — the two raised ones”; the Caption now says “(from the Northern Hemisphere)”.
+8. E11 (🟡): “Later in the evening” (13 鏡「十點以後」).
+9. Page 18/19 labels (🟡): the “Andromeda Galaxy · 2.5 million light-years” label (spelled out, not “ly”) moves to page 19 with E08, so page 18 does not give away E07’s smudge.
+10. E08 (⚪): dash before “the earliest known record of it”.
+
+Not adopted:
+- E13 “Who chose the 88 constellations?” (🟡): kept “decided”. “Decide” takes a direct object in English, and the line is the title of EN32 in the schedule; changing it would need the schedule, YouTube and EN32 titles to change together, which is outside this card.
+- Cover alternative “One sky. Around 964, one book held two.” (§3 note 1): the cover keeps *One sky. Al-Ṣūfī saw — two skies.* as the series’ first line, and the hook is the second line, as the page 1 note says.
+- E02 “presented a book to his ruler” (⚪): kept; not an error.
+
+Canva: no English block yet in `A-34_Canva媒體ID.json`, nothing to replace.

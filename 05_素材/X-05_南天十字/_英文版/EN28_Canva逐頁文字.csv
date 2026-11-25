@@ -7,25 +7,24 @@ them up and you lose south.",bottom,E02; labels 南十字 → Southern Cross; �
 them up and you lose south.",bottom,E02; labels as page 2
 4,,鏡頭02結束＝鏡頭03開始,6,The true one: the Southern Cross,"The smallest constellation: four bright
 stars in a kite, plus a faint fifth.",bottom,E03; labels 十字架一 → Gacrux; 十字架二 → Acrux; 十字架三 → Mimosa; 十字架四 → δ Crucis; 第五顆星 → the fifth star; 煤袋 → Coalsack
-5,,鏡頭03結束,7,It points the way,"Extend the long bar about 4.5 times: you
-land within 3° of the south celestial
-pole.",top,E04; labels 南天極 → south celestial pole; 差不到 3° → within 3°; 指針 → the Pointers (move it down below the text box if they touch); 南門二 → Alpha Centauri; 馬腹一 → Hadar; 延長 4.5 倍 → extend 4.5×
+5,,鏡頭03結束,7,It points the way,"Extend the long bar about 4.5 times —
+you land within 3° of the south
+celestial pole.",top,E04; labels 南天極 → south celestial pole; 差不到 3° → within 3°; 指針 → the Pointers (move it down below the text box if they touch); 南門二 → Alpha Centauri; 馬腹一 → Hadar; 延長 4.5 倍 → extend 4.5×
 6,,鏡頭03-概念圖1,3,Drop to the horizon: due south,,top,E05; diagram → English `C-X05-01_找南方的兩條線_延長層_透明.png`
 7,,鏡頭03-概念圖2,3,Drop to the horizon: due south,,top,E05; + English `中垂線層`
 8,,鏡頭03-概念圖3,3,Drop to the horizon: due south,,top,"E05; + English `地平線層`; the diagram fades out during the move to page 13 (pages 9–12, the names of the cross in other cultures, removed)"
-13,,鏡頭05結束＝鏡頭06開始,6,"The False Cross: bigger, dimmer","About 30° west. No bright pointers
-beside it, no Coalsack.",bottom,E06; labels 天社三 → δ Velorum; 天社五 → κ Velorum; 海石一 → ε Carinae; 海石二 → ι Carinae; 假十字 → False Cross
-14,,鏡頭06結束,6,,"Try the same trick: you miss the pole by
-more than 20°.",bottom,E07; labels 南天極 → south celestial pole; 差 22° → 22° off; 差 28° → 28° off; 假十字 → False Cross. Keep the text box below Y 1500 (the pole label sits at Y 1436)
-15,,鏡頭06-概念圖1,4,South: 24° east or 42° west,,top,E08; diagram → English `C-X05-03_認錯十字_真南層_透明.png`
-16,,鏡頭06-概念圖2,4,South: 24° east or 42° west,,top,E08; + English `假十字層`
-17,,鏡頭06-概念圖收＝鏡頭07開始,3,The Diamond Cross,"A name from modern stargazers: closer to
-the pole, all four stars in Carina.",bottom,E09; diagram fades
-18,,鏡頭07結束,4,The Diamond Cross,"A name from modern stargazers: closer to
-the pole, all four stars in Carina.",bottom,"E09; labels 鑽石十字 → Diamond Cross; Miaplacidus stays (delete 南船五 under it); 南船四 → ω Carinae; 圈內：墾丁永遠看不到 → inside: never rises at 22° N (pages 19–29: Taiwan in spring, Chinese asterisms, Tonga, precession, Taipei view, removed)"
-30,,鏡頭12結束＝鏡頭13開始,7,"Mid-May, 9 p.m.: look due south","From 22° N the cross stands upright,
-5–11° up. North of about 33° N, it never
-rises.",top,"E10; labels 十字架一 10.9° → Gacrux 10.9°; 十字架二 5.0° → Acrux 5.0°; 南門二 → Alpha Centauri; 馬腹一 → Hadar; 墾丁、蘭嶼・今晚 21:00 → 22° N, mid-May, 9 p.m. (pages 31–32, the moon and the ""tonight"" card, removed)"
+13,,鏡頭05結束＝鏡頭06開始,6,"The False Cross: bigger, dimmer overall","About 30° west. No bright pointers
+beside it, no dark Coalsack patch.",bottom,E06; labels 天社三 → δ Velorum; 天社五 → κ Velorum; 海石一 → ε Carinae; 海石二 → ι Carinae; 假十字 → False Cross
+14,,鏡頭06結束,6,,"Try the same trick — you miss the pole
+by more than 20°.",bottom,E07; labels 南天極 → south celestial pole; 差 22° → 22° off; 差 28° → 28° off; 假十字 → False Cross. Keep the text box below Y 1500 (the pole label sits at Y 1436)
+15,,鏡頭06-概念圖1,4,Off 24° east or 42° west,,top,E08; diagram → English `C-X05-03_認錯十字_真南層_透明.png`
+16,,鏡頭06-概念圖2,4,Off 24° east or 42° west,,top,E08; + English `假十字層`
+17,,鏡頭06-概念圖收＝鏡頭07開始,3,The Diamond Cross,"Named by modern stargazers. Closer to
+the pole, all four stars sit in Carina.",bottom,E09; diagram fades
+18,,鏡頭07結束,4,The Diamond Cross,"Named by modern stargazers. Closer to
+the pole, all four stars sit in Carina.",bottom,"E09; labels 鑽石十字 → Diamond Cross; Miaplacidus stays (delete 南船五 under it); 南船四 → ω Carinae; 圈內：墾丁永遠看不到 → inside: never rises at 22° N (pages 19–29: Taiwan in spring, Chinese asterisms, Tonga, precession, Taipei view, removed)"
+30,,鏡頭12結束＝鏡頭13開始,7,"Mid-May, 21:00: look due south","At 22° N it stands upright, 5–11° high.
+North of about 33° N, it never rises.",top,"E10; labels 十字架一 10.9° → Gacrux 10.9°; 十字架二 5.0° → Acrux 5.0°; 南門二 → Alpha Centauri; 馬腹一 → Hadar; 墾丁、蘭嶼・今晚 21:00 → 22° N, mid-May, 21:00 (pages 31–32, the moon and the ""tonight"" card, removed)"
 33,,鏡頭13-概念圖收＝鏡頭14開始,3,Next Wednesday,"Before the compass: finding the way by
 stars. Follow for a new sky every week.",endcard,E11 replaces 下集見
 34,,鏡頭14結束,4,Next Wednesday,"Before the compass: finding the way by

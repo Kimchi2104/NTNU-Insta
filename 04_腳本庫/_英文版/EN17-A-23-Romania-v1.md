@@ -1,4 +1,4 @@
-# EN17 ｜ Romania: A Shepherd's Farm in the Stars ・ v0 (2026-11-23, for Gemini review)
+# EN17 ｜ Romania: A Shepherd’s Farm in the Stars ・ v1 (2026-11-25, Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -19,17 +19,17 @@
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Romanian shepherds saw — a farm in the stars. | — |
 | E02 | 6 | 2, 7 | bottom | | In 1896, Ion Otescu sent a star chart to village teachers all over Romania. | 2.3 |
 | E03 | 6 | 8, 9 | top | Ask the oldest farmers | *(English diagram `en/C-A23-01` star chart + replies layers; headline only)* | — |
-| E04 | 3 | 10 | bottom | | The question: what are the stars called? | 2.3 |
+| E04 | 3 | 10 | bottom | | His question: what are the stars called? | 2.3 |
 | E05 | 3 | 11 | top | Who watched the stars? | *(English diagram `en/C-A23-01` year layer; headline only)* | — |
-| E06 | 5 | 12 | bottom | | In summer, farmers told time by them. Otherwise, only shepherds kept watching. | 2.4 |
+| E06 | 5 | 12 | bottom | | Farmers told time by them mostly in summer. Other months, only shepherds. | 2.4 |
 | E07 | 7 | 13, 14, 16 | bottom | The winter sky: a farm | High in the north, Capella is Capra, the she-goat. Three faint stars beside her are her kids. | 2.4 |
-| E08 | 9 | 22, 23, 24, 25 | bottom | Dulăul, the sheepdog | South: the brightest star, Sirius, sits on Dulăul, the big dog that guards the sheep. Procyon is a little dog. | 2.2 |
+| E08 | 9 | 22, 23, 24, 25 | bottom | Dulăul, the sheepdog | South: Sirius, the brightest star, sits on the big sheepdog Dulăul. Procyon is a little dog. | 1.8 |
 | E09 | 4 | 26, 27 | bottom | | West: the Pleiades are a hen with her chicks. | 2.3 |
 | E10 | 7 | 28, 29 | bottom | The Alarm Clock | The Hyades: a herd of boars. Aldebaran: “the pigs’ bright star” — some say “the Alarm Clock.” | 2.3 |
-| E11 | 7 | 51, 52, 53 | bottom | The Shepherd, Ciobanul | And the shepherd himself? Vega. The four faint stars beside him are his sheep. | 2.0 |
-| E12 | 6 | 54, 55 | bottom | | This time of year, he rises only late at night, in the northeast. | 2.2 |
-| E13 | 9 | 64, 65, 66, 67 | bottom | Sheep need water | So the sky has a well, too: the Great Square of Pegasus is Puțul, the well. Andromeda is the water trough. | 2.3 |
-| E14 | 8 | 93, 94, 96 | bottom | Look up this week | After dark: Sirius in the south, the she-goat high overhead. Before dawn, the Shepherd is high in the east. | 2.4 |
+| E11 | 7 | 51, 52, 53 | bottom | The Shepherd, Ciobanul | And the Shepherd himself? Vega. The four faint stars beside him are his sheep. | 2.0 |
+| E12 | 6 | 54, 55 | bottom | | This time of year, he doesn’t rise until late at night, in the northeast. | 2.3 |
+| E13 | 9 | 64, 65, 66, 67 | bottom | Sheep need water | So the sky has a well, too — Puțul, the Great Square of Pegasus. Andromeda is the water trough. | 2.0 |
+| E14 | 8 | 93, 94, 96 | bottom | Look up this week | After dark: Sirius south, the she-goat high in the north. Before dawn: the Shepherd, high in the northeast. | 2.3 |
 | E15 | 4 | 106 | endcard | Next Wednesday | Tukano: the Amazon’s rain calendar in the stars. | 2.0 |
 | E16 | 3 | 107 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -80,7 +80,7 @@ Total 90 s.
 | Chinese script | English used | Notes |
 |---|---|---|
 | 羅馬尼亞 | Romania, Romanian | |
-| Ion Otescu（數學教育家） | Ion Otescu | the book: *Credințele țăranului român despre cer și stele* (1907); English diagram cites the SARM translation *Romanian Peasants' Beliefs in Stars and Sky*. "mathematics educator" dropped for length |
+| Ion Otescu（數學教育家） | Ion Otescu | the book: *Credințele țăranului român despre cer și stele* (1907); English diagram cites the SARM translation *Romanian Peasants’ Beliefs in Stars and Sky*. "mathematics educator" dropped for length |
 | 鄉村老師／村裡最老的農民 | village teachers / the oldest farmers | SARM says "peasants"; "farmers" on screen (the Chinese 農民) |
 | 牧羊人 | shepherds / the Shepherd | |
 | 五車二＝Capra 母山羊 | Capella is Capra, the she-goat | 星名表 Capra (cu trei iezi) |
@@ -110,7 +110,7 @@ Total 90 s.
 In Romania, the winter sky is a shepherd’s farm. 🐑
 In 1896, Ion Otescu sent a star chart to village teachers all over Romania: ask the oldest farmers what the stars are called. Farmers watched mostly in summer, to tell time. The rest of the year, only the shepherds kept watching.
 Their sky: Capella is the she-goat with three kids. Sirius sits on the sheepdog. The Pleiades are a hen with chicks, the Hyades a herd of boars, and Aldebaran is “the pigs’ bright star” — some say “the Alarm Clock.” Vega is the Shepherd, with four faint stars for sheep. And the flock has a well: the Great Square of Pegasus.
-This week after dark: Sirius in the south, the she-goat high overhead. Before dawn, the Shepherd is high in the east.
+This week after dark: Sirius in the south, the she-goat high in the north. Before dawn: the Shepherd, high in the northeast.
 #WorldSkyCultures #Romania #folklore #astronomy #Sirius #Vega
 (First comment: sources — Otescu 1907, SARM English transl. 2009; Stellarium romanian; Traditional Romanian Constellations project (crt-ro.com).)
 
@@ -131,3 +131,24 @@ Wording to check:
 10. E14 is the Northern-Hemisphere version of 19 鏡 (Taipei 20:00 / 05:00): in early March at mid-northern latitudes, after dark Sirius is in the south and Capella near the zenith; before dawn (about 05:00) Vega is 50–60° up in the east-northeast. No clock times, no planets (Jupiter and Mars are in Leo, which the English does not name).
 11. E15: EN18 (A-24 Tukano) publishes Wednesday 3/10, so "Next Wednesday".
 12. Diagram C-A23-01 (English): "1896: a star chart for the whole country"; "to village teachers / ask the oldest farmers"; "39 useful replies / 18 more from other counties"; year layer "When did farmers watch the stars?" (the old draft English said "peasants"; changed to "farmers" to match the on-screen text).
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN17_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-23 v1 (`A-23-羅馬尼亞牧羊人的星空農場-逐字稿-v1.md`); spellings follow its 星名表. No new facts were added. Reading speed rechecked for every changed beat (E04 7 words ÷ 3 s = 2.3; E06 12 ÷ 5 = 2.4; E08 16 ÷ 9 = 1.8; E11 14 ÷ 7 = 2.0; E12 14 ÷ 6 = 2.3; E13 18 ÷ 9 = 2.0; E14 18 ÷ 8 = 2.3), all ≤ 2.5; Text lines ≤ 40 letters, ≤ 3 lines, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. E06 (🔴): “Farmers told time by them mostly in summer. Other months, only shepherds.” Restores the hedge 「多半」 and the temporal “the rest of the year” (一年其他時候); “Otherwise” read as a condition.
+2. E14 (🔴): “northeast” (19 鏡「清晨五點往東北看」, same as E12); the caption’s “in the east” fixed the same way. Gemini’s “she-goat overhead” → “high in the north” = 19 鏡「母山羊在北邊高空」 and E07 (Gemini §3 note 2 allows either; the Chinese wording was kept so the three beats agree). Gemini’s “Sirius south” kept (Chinese 「正南方」).
+3. E08 (🟡): “South: Sirius, the brightest star, sits on the big sheepdog Dulăul. Procyon is a little dog.” = 「在看羊的大狗 Dulăul 身上」; no longer repeats the headline’s “Dulăul, the sheepdog” in a long phrase.
+4. E12 (🟡): “doesn’t rise until late at night” = 「要過了半夜，才……升起」.
+5. E13 (🟡): “So the sky has a well, too — Puțul, the Great Square of Pegasus.” Removes the double “well”; 14 鏡「飛馬座的大四邊形是一口井 Puțul」.
+6. E04 (⚪): “His question” (Otescu’s, from E02).
+7. E11 (⚪): “Shepherd” capitalised, as in the headline and E14.
+8. YouTube description (⚪): curly apostrophe in “Peasants’”; title line likewise.
+
+Not adopted:
+- E01 (🟡) “One sky. To Romanian shepherds, it was a farm.” / “Romanian shepherds looked up and saw a whole farm.”: the cover keeps the series opener *One sky. The [people] saw — [X].* (Chinese 統一開頭 「羅馬尼亞的牧羊人看見——一座農場」); Gemini’s §3 note 3 allows keeping it. “a farm in the stars” is the Chinese 鉤子.
+
+Gemini §3 note 1 (the diagram’s “18 more from other counties”): checked. The Chinese A-23 v1 states 39 useful replies with Neamț 13, Prahova 5, Argeș 3 named in the preface and “其餘 18 份” unmapped (note on C-A23-01; 39 − 13 − 5 − 3 = 18), and the Chinese diagram carries 「其餘 18 份來自其他縣份」. The English diagram is the same number; no change.
+
+Canva: no English block in `A-23_Canva媒體ID.json`, nothing to replace.
