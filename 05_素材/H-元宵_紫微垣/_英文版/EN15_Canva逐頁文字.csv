@@ -1,32 +1,30 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡,3,World Sky Cultures,"One sky. At the Lantern Festival —
+1,,開場字卡,3,World Sky Cultures,"One sky. On Lantern Festival night —
 people honour the Heaven Official.",cover,Cover: text block replaced with English; EN · EP15 tag
-2,,鏡頭01開始,3,The Lantern Festival,"It is also the Upper Yuan: the Heaven
-Official’s birthday.",bottom,E02
-3,,鏡頭01結束＝鏡頭02開始,2,The Lantern Festival,"It is also the Upper Yuan: the Heaven
-Official’s birthday.",bottom,E02
+2,,鏡頭01開始,3,The Lantern Festival,"It’s also the Upper Yuan Festival: the
+Heaven Official’s birthday.",bottom,E02
+3,,鏡頭01結束＝鏡頭02開始,2,The Lantern Festival,"It’s also the Upper Yuan Festival: the
+Heaven Official’s birthday.",bottom,E02
 4,,鏡頭02-概念圖1,2,,,,diagram → English (`_概念圖/en/C-HYX-01_上元天官_上元層_透明.png`)
 5,,鏡頭02-概念圖2,2,,,,+ `C-HYX-01_上元天官_三元層_透明.png` (English)
-6,,鏡頭02-概念圖收＝鏡頭03開始,3,,"Another name: Ziwei Dadi. The same name
-as the northern sky’s centre: the Ziwei
-Enclosure.",bottom,diagram fades; E04
-7,,鏡頭03結束＝鏡頭04開始,4,,"Another name: Ziwei Dadi. The same name
-as the northern sky’s centre: the Ziwei
-Enclosure.",bottom,E04; labels 紫微垣／北極星 → Ziwei Enclosure／Polaris
-8,,鏡頭04-概念圖1,2,"Same name, two things",,top,diagram → English (`_概念圖/en/C-HYX-02_同名兩回事_天官層_透明.png`); E05 headline
-9,,鏡頭04-概念圖2,2,"Same name, two things",,top,+ `C-HYX-02_同名兩回事_紫微垣層_透明.png` (English); E05 headline
-10,,鏡頭04結束＝鏡頭05開始,7,,"One is a god. One is a star region: the
-Sky Emperor’s palace, the sky’s turning
-hub.",bottom,"diagram fades, the disk turns; E06; label 紫微垣 → Ziwei Enclosure"
-11,,鏡頭05結束＝鏡頭06開始,7,The Sky Emperor’s chariot,"Just outside its walls: the Big Dipper.
+6,,鏡頭02-概念圖收＝鏡頭03開始,3,,"He’s also called Ziwei Dadi — the same
+name as the northern sky’s centre, the
+Ziwei Enclosure.",bottom,diagram fades; E04
+7,,鏡頭03結束＝鏡頭04開始,4,,"He’s also called Ziwei Dadi — the same
+name as the northern sky’s centre, the
+Ziwei Enclosure.",bottom,E04; labels 紫微垣／北極星 → Ziwei Enclosure／Polaris
+8,,鏡頭04-概念圖1,2,"Same name, two different things",,top,diagram → English (`_概念圖/en/C-HYX-02_同名兩回事_天官層_透明.png`); E05 headline
+9,,鏡頭04-概念圖2,2,"Same name, two different things",,top,+ `C-HYX-02_同名兩回事_紫微垣層_透明.png` (English); E05 headline
+10,,鏡頭04結束＝鏡頭05開始,7,,"One is a god, the other a star region —
+the Sky Emperor’s palace, pivot of the
+sky.",bottom,"diagram fades, the disk turns; E06; label 紫微垣 → Ziwei Enclosure"
+11,,鏡頭05結束＝鏡頭06開始,7,The Sky Emperor’s chariot,"Outside its walls sits the Big Dipper.
 Sima Qian called it the Sky Emperor’s
 chariot.",bottom,E07; labels 帝車 → the Sky Emperor’s chariot; Illioŭ voz／以利亞的車 → Illioŭ voz／Elijah’s cart (keep: it leads into EN16)
-12,,鏡頭06結束＝鏡頭07開始,4,Look east tonight,"Tonight, after dark, look east: a nearly
-full Moon with Jupiter and Mars close
-by.",bottom,E08; labels 月亮／木星／火星／軒轅十四 → Moon／Jupiter／Mars／Regulus; drop the small 「最圓（望）2/21 07:23」 line
-13,,鏡頭07結束,3,Look east tonight,"Tonight, after dark, look east: a nearly
-full Moon with Jupiter and Mars close
-by.",bottom,E08
+12,,鏡頭06結束＝鏡頭07開始,4,Look east tonight,"After dark, spot a nearly full Moon with
+Jupiter and Mars close by.",bottom,E08; labels 月亮／木星／火星／軒轅十四 → Moon／Jupiter／Mars／Regulus; drop the small 「最圓（望）2/21 07:23」 line
+13,,鏡頭07結束,3,Look east tonight,"After dark, spot a nearly full Moon with
+Jupiter and Mars close by.",bottom,E08
 14,,端卡（下集見）,4,This Wednesday,"Belarus: a farmer’s sky and Elijah’s
 chariot.",endcard,E09; the A-02 thumbnail and the Romania teaser go (neither is in English yet)
 15,,追蹤頁,—,,Follow for a new sky every week.,endcard,E10
