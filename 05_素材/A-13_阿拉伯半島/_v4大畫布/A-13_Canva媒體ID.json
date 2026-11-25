@@ -36,5 +36,19 @@
     "C-A13-04_沙漠星名小辭典_圖卡.png": "MAHXW9rxCH0",
     "C-A13-05_這週末往東看_圖卡.png": "MAHXW6QnaRA"
   },
-  "concept_commit": "a148976573224e51ac516bc085c0fb52aaad61f6"
+  "concept_commit": "a148976573224e51ac516bc085c0fb52aaad61f6",
+  "en": {
+    "design_id": "DAHZrcZ9NuU",
+    "design_title": "EN04 A-13 阿拉伯半島",
+    "commit": "fc5b7a042318db8c8b150f4821769959e87c1800",
+    "concept": {
+      "C-A13-01_星星年曆_月站層_透明.png": "MAHb8mXgStw",
+      "C-A13-01_星星年曆_季節層_透明.png": "MAHb8uGOi9o",
+      "C-A13-01_星星年曆_今天層_透明.png": "MAHb8s1atPg",
+      "C-A13-02_守望者_地平層_透明.png": "MAHb8qJ4ycc",
+      "C-A13-02_守望者_升起層_透明.png": "MAHb8vngiSM",
+      "C-A13-02_守望者_落下層_透明.png": "MAHb8kb10nI",
+      "C-A13-02_守望者_引文層_透明.png": "MAHb8pilb88"
+    }
+  }
 }

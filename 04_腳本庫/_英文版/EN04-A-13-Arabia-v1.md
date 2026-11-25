@@ -6,7 +6,7 @@
 | Publish | **2026-12-16 (Wed) 21:00 Taiwan time**: EN04 in `06_發布月曆/節目表_萬國星空_英文版.csv` |
 | Length | **90 s**, 14 beats, ~143 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the desert's star calendar and its rain**. A star seen for the first time at dawn marks each 13-day station; the year opens with the Pleiades; the rains (al-Wasm); in December the Crown rises as the Pleiades set (the "watchers"), the old belief that the Pleiades' setting brought the most rain, and the forty coldest days. Ends with the Pleiades in the evening sky now |
-| Canva | Not made yet. Copy of the Chinese design `A-13 阿拉伯半島` (DAHWtAtSdto), to be named `EN04 A-13 阿拉伯半島` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 46 = next-episode card, 47 = follow page). |
+| Canva | `EN04 A-13 阿拉伯半島` (DAHZrcZ9NuU), a copy of the Chinese design (DAHWtAtSdto). **Placed 2026-11-25 (card 07)**: English text, English diagrams (7 layers) and translated labels on the 23 kept pages + the credits page, now Canva pages 1–24 (the "Now" column below); pages 25–48 are unused — delete them in grid view. Credits page (original 48) still has Chinese job titles and names. Cover hook = `Desert people watched the Pleiades to know when the rain would come.` (schedule hook with “Bedouins” replaced, see review note 1). End card p46 = `Next · Monday, December 21` + EN05 title + EN05 hook (4 s is too short for this text: set the page to about 7 s). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 46 = next-episode card, 47 = follow page). |
 | Opening line | *One sky. The desert people saw — a calendar.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.3: E02; = words in Text ÷ seconds on screen, headline not counted; cover excluded, as in EN01–EN03) |
 
@@ -37,29 +37,29 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP04 tag |
-| 2 | | 鏡頭01開始 | 3 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 3 | E02 |
-| 4 | | 鏡頭02結束＝鏡頭03開始 | 2 | no text; the frame the diagram appears on |
-| 5 | | 鏡頭03-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A13-01_星星年曆_月站層_透明.png`) |
-| 6 | | 鏡頭03-概念圖2 | 3 | + `C-A13-01_星星年曆_季節層_透明.png` (English) |
-| 7 | | 鏡頭03-概念圖3 | 4 | + `C-A13-01_星星年曆_今天層_透明.png` (English) |
-| 8 | | 鏡頭03-概念圖收＝鏡頭04開始 | 3 | diagram fades; E04; station labels |
-| 9 | | 鏡頭04結束＝鏡頭05開始 | 4 | E04; label 昴宿 6/7 → Pleiades Jun 7; then the sky moves straight to 13 (pages 10–12, the slide east and Suhail, removed) |
-| 13 | | 鏡頭07-中1 | 4 | E05; station labels (Eye, Forehead, Mane) |
-| 14 | | 鏡頭07-中2 | 4 | E05; station labels (Arc, Raised, Cover, Claws) |
-| 15 | | 鏡頭07結束＝鏡頭08開始 | 5 | E06 |
-| 16 | | 鏡頭08結束 | 8 | E07; labels 冠冕 12/7 → Crown Dec 7, 心臟 → Heart, 蠍螯 → Claws |
-| 17 | | 鏡頭08-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A13-02_守望者_地平層_透明.png`) |
-| 18 | | 鏡頭08-概念圖2 | 3 | + `C-A13-02_守望者_升起層_透明.png` (English) |
-| 19 | | 鏡頭08-概念圖3 | 3 | + `C-A13-02_守望者_落下層_透明.png` (English) |
-| 20 | | 鏡頭08-概念圖4 | 4 | + `C-A13-02_守望者_引文層_透明.png` (English) |
-| 21 | | 鏡頭08-概念圖收＝鏡頭09開始 | 7 | diagram fades; E09 |
-| 22 | | 鏡頭09結束＝鏡頭10開始 | 5 | E10; then **hard cut (no transition)** to 26 (pages 23–25, Venus and the name card, removed) |
-| 26 | | 鏡頭11開始 | 6 | E11; labels 昴宿／昴宿的清真寺 → Pleiades／Mosque of the Pleiades |
-| 27 | | 鏡頭11結束＝鏡頭12開始 | 6 | E12; label 小跟班 → Follower (Aldebaran) |
-| 46 | | 端卡（下集見） | 4 | E13 |
-| 47 | | 追蹤頁 | — | E14 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP04 tag |
+| 2 | 2 | 鏡頭01開始 | 3 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 3 | E02 |
+| 4 | 4 | 鏡頭02結束＝鏡頭03開始 | 2 | no text; the frame the diagram appears on |
+| 5 | 5 | 鏡頭03-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A13-01_星星年曆_月站層_透明.png`) |
+| 6 | 6 | 鏡頭03-概念圖2 | 3 | + `C-A13-01_星星年曆_季節層_透明.png` (English) |
+| 7 | 7 | 鏡頭03-概念圖3 | 4 | + `C-A13-01_星星年曆_今天層_透明.png` (English) |
+| 8 | 8 | 鏡頭03-概念圖收＝鏡頭04開始 | 3 | diagram fades; E04; station labels |
+| 9 | 9 | 鏡頭04結束＝鏡頭05開始 | 4 | E04; label 昴宿 6/7 → Pleiades Jun 7; then the sky moves straight to 13 (pages 10–12, the slide east and Suhail, removed) |
+| 13 | 10 | 鏡頭07-中1 | 4 | E05; station labels (Eye, Forehead, Mane) |
+| 14 | 11 | 鏡頭07-中2 | 4 | E05; station labels (Arc, Raised, Cover, Claws) |
+| 15 | 12 | 鏡頭07結束＝鏡頭08開始 | 5 | E06 |
+| 16 | 13 | 鏡頭08結束 | 8 | E07; labels 冠冕 12/7 → Crown Dec 7, 心臟 → Heart, 蠍螯 → Claws |
+| 17 | 14 | 鏡頭08-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A13-02_守望者_地平層_透明.png`) |
+| 18 | 15 | 鏡頭08-概念圖2 | 3 | + `C-A13-02_守望者_升起層_透明.png` (English) |
+| 19 | 16 | 鏡頭08-概念圖3 | 3 | + `C-A13-02_守望者_落下層_透明.png` (English) |
+| 20 | 17 | 鏡頭08-概念圖4 | 4 | + `C-A13-02_守望者_引文層_透明.png` (English) |
+| 21 | 18 | 鏡頭08-概念圖收＝鏡頭09開始 | 7 | diagram fades; E09 |
+| 22 | 19 | 鏡頭09結束＝鏡頭10開始 | 5 | E10; then **hard cut (no transition)** to 26 (pages 23–25, Venus and the name card, removed) |
+| 26 | 20 | 鏡頭11開始 | 6 | E11; labels 昴宿／昴宿的清真寺 → Pleiades／Mosque of the Pleiades |
+| 27 | 21 | 鏡頭11結束＝鏡頭12開始 | 6 | E12; label 小跟班 → Follower (Aldebaran) |
+| 46 | 22 | 端卡（下集見） | 4 | E13 |
+| 47 | 23 | 追蹤頁 | — | E14 |
 
 Total 90 s (the follow page is not counted, as in EN03).
 
