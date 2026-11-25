@@ -1,25 +1,24 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,封面（同一片星空，夏朝人看見——馱著洛書的神龜）,3,World Sky Cultures,"One sky. The Chinese saw — a turtle
-wrapped in a snake.",cover,Cover: text block → E01 + hook line (the Chinese line is the one the fact-check corrects); EN · EP46 tag
+entwined with a snake.",cover,Cover: text block → E01 + hook line (the Chinese line is the one the fact-check corrects); EN · EP46 tag
 2,,北方七宿全景（字卡「北方玄武／它們是二十八宿的北方七宿／斗牛女虛危室壁」）,9,"Xuanwu, the Black Tortoise","Guardian of the north — and of winter,
 water and death. Its stars: seven lunar
 mansions.",top,E02; the big coloured row 斗 牛 女 虛 危 室 壁 → Dou Niu Nü Xu Wei Shi Bi (same colours); chart labels 斗宿（南斗六星）／牛宿／女宿／虛宿／危宿／室宿／壁宿 → Dou (Southern Dipper)／Niu／Nü／Xu／Wei／Shi／Bi; 壁宿二／室宿二 → Alpheratz／Scheat
-3,,斗宿（字卡「九月入夜以後抬頭，這七個星宿會排成一道長弧，從南方的斗宿——」）,6,Look south in September,"After dark, the seven make a long arc,
-from Dou in the south…",top,E03; label 斗宿（南斗六星） → Dou (Southern Dipper)
+3,,斗宿（字卡「九月入夜以後抬頭，這七個星宿會排成一道長弧，從南方的斗宿——」）,6,Look south in September,"After dark, the seven arc from Dou, the
+Southern Dipper, in the south…",top,E03; label 斗宿（南斗六星） → Dou (Southern Dipper)
 4,,室宿、壁宿（字卡「——到東方的室宿和壁宿」）,5,,"…to Shi and Bi in the east: the Room and
 the Wall.",top,E04; labels 壁宿／室宿 → Bi／Shi; 壁宿二／室宿二 → Alpheratz／Scheat
-5,,螣蛇（上框「玄是黑色…龜…蛇」；下框「其中的螣蛇是傳說中會飛的蛇…」）,10,And the snake?,"North of the Room and the Wall: Tengshe,
-“the Flying Serpent”. Turtle and snake,
-one still, one moving: Xuanwu.",top,"E05 in the top box; **delete the lower box** (its ""22 stars"" and ""north of Pegasus"" are kept out to stay short); label 螣蛇 → Tengshe"
+5,,螣蛇（上框「玄是黑色…龜…蛇」；下框「其中的螣蛇是傳說中會飛的蛇…」）,10,And the snake?,"Just north lies Tengshe, “the Flying
+Serpent.” Turtle and snake, one still,
+one moving, make Xuanwu.",top,"E05 in the top box; **delete the lower box** (its ""22 stars"" and ""north of Pegasus"" are kept out to stay short); label 螣蛇 → Tengshe"
 18,,飛馬座四邊形（字卡「而室宿兩顆星加上壁宿兩顆星，正好圍出西方所說的飛馬座四邊形」）,8,"Same four stars, two readings","Two stars of the Room, two of the Wall:
 in the West, the Great Square of
 Pegasus.",bottom,E06; labels 飛馬座 → Pegasus; 壁宿一 → Algenib; 壁宿二 → Alpheratz (names as in the translation table; card 07 checks they sit on the right corners)
-20,,羽林軍、壘壁陣（字卡「全天最大軍隊…」；45 個小標籤 羽林軍一～四十五）,7,An army in the sky,"South of the Square camps a sky army:
-the Yulinjun, “Feathered Forest Guard”,
-45 stars.",top,E07; **delete the 45 tiny 羽林軍 numbers** (unreadable at phone size); 壘壁陣 → Leibizhen (Ramparts); 北落師門 → Beiluo Shimen (Fomalhaut); delete 魚的嘴（阿拉伯）
-21,,北落師門（字卡「代表軍營大門的亮星…魚的嘴」）,8,The gate of the camp,"Fomalhaut, the lone bright star low in
-the south. Its Chinese name, Beiluo
-Shimen: “gate of the northern army”.",top,E08; same labels as page 20
+20,,羽林軍、壘壁陣（字卡「全天最大軍隊…」；45 個小標籤 羽林軍一～四十五）,7,An army in the sky,"South of the Square camps Yulinjun,
+“Feathered Forest Guard” — 45 stars.",top,E07; **delete the 45 tiny 羽林軍 numbers** (unreadable at phone size); 壘壁陣 → Leibizhen (Ramparts); 北落師門 → Beiluo Shimen (Fomalhaut); delete 魚的嘴（阿拉伯）
+21,,北落師門（字卡「代表軍營大門的亮星…魚的嘴」）,8,The gate of the camp,"Fomalhaut stands out low in the autumn
+south. In Chinese, Beiluo Shimen: “gate
+of the northern camp.”",top,E08; same labels as page 20
 25,,四象輪值（字卡「玄武最終會沉到地平線下。四象輪流值班…」）,8,The Four Symbols,"Dragon in the east, turtle and snake in
 the north, tiger in the west, bird in
 the south.",bottom,E09
