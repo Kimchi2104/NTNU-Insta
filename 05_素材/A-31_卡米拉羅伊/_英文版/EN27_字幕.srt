@@ -17,7 +17,7 @@ with researchers.
 4
 00:00:16,000 --> 00:00:22,000
 The dark rifts in the Milky Way are dust
-clouds, hundreds of light-years away.
+clouds hundreds of light-years away.
 
 5
 00:00:22,000 --> 00:00:28,000
@@ -27,18 +27,19 @@ beside the Southern Cross.
 6
 00:00:28,000 --> 00:00:35,000
 Its long neck runs past Alpha Centauri
-and Hadar; its body and legs reach
+and Hadar. Its body and legs reach
 Scorpius and Sagittarius.
 
 7
 00:01:02,000 --> 00:01:08,000
 From Taiwan, its head barely clears the
-horizon. Farther north, it never rises.
+horizon. Much farther north, it never
+rises.
 
 8
 00:01:08,000 --> 00:01:14,000
-But its body and legs — Scorpius to
-Sagittarius — rise into view.
+Its body and legs — Scorpius to
+Sagittarius — climb into view.
 
 9
 00:01:14,000 --> 00:01:18,000
