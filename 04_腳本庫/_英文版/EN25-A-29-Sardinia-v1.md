@@ -1,4 +1,4 @@
-# EN25 ｜ Sardinia: Stars of Farmers and Herders ・ v0 (awaiting Gemini review)
+# EN25 ｜ Sardinia: Stars of Farmers and Herders ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -17,18 +17,18 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Sardinian shepherds saw — a stone hut. | — |
-| E02 | 7 | 2, 3 | top | An island of sheep | Sardinia, west of Italy, is the Mediterranean’s second-largest island. Sheep outnumber people about two to one. | 2.3 |
-| E03 | 7 | 6, 7 | top | Star names from Sedilo | These star names are in the dialect of Sedilo, a small town in the island’s centre. | 2.3 |
+| E02 | 7 | 2, 3 | top | An island of sheep | Sardinia, west of mainland Italy, is the Mediterranean’s second-largest island. Sheep outnumber people about two to one. | 2.4 |
+| E03 | 7 | 6, 7 | top | Star names from Sedilo | These star names are in the dialect of Sedilo, a small town in the island’s center. | 2.3 |
 | E04 | 7 | 8, 9 | bottom | Hut, grapes, sickle | One book reads them as island life: a shepherd’s hut, a winegrower’s grapes, a farmer’s sickle. | 2.3 |
-| E05 | 8 | 10 | top | Su Pinnetu: the hut | Taurus’s V and Aldebaran: Su Pinnetu, a shepherd’s hut. Stone walls, a pointed roof of branches. | 2.0 |
-| E06 | 8 | 11 | top | S’Udrone: a bunch of grapes | The Pleiades are S’Udrone: a big bunch of grapes. Romanians see a hen and chicks; Sardinia sees grapes. | 2.3 |
-| E07 | 8 | 12 | bottom | Sos Bacheddos: the sticks | Below, Orion is Sos Bacheddos: the shepherds’ sticks. The Belt has its own name: Sas Tres Marias, the Three Marias. | 2.5 |
+| E05 | 8 | 10 | top | Su Pinnetu: the hut | The V of Taurus and Aldebaran: Su Pinnetu, a shepherd’s hut. Round stone walls, a pointed roof of branches. | 2.4 |
+| E06 | 8 | 11 | top | S’Udrone: a bunch of grapes | The Pleiades are S’Udrone: a big bunch of grapes. Romanians see a hen and chicks; Sardinians see grapes. | 2.3 |
+| E07 | 8 | 12 | bottom | Sos Bacheddos: the sticks | Below, Orion is Sos Bacheddos: the shepherds’ sticks. Its belt is Sas Tres Marias, the Three Marias. | 2.1 |
 | E08a | 3 | 13 | top | Summer night: the grapes rise | *(diagram page: headline only; English diagram `_概念圖/en/C-A29-02_夏夜牧羊鐘_葡萄層_透明.png`)* | — |
 | E08b | 3 | 14 | top | Then the sticks appear | *(diagram page: headline only; + `…_牧杖層_透明.png`)* | — |
 | E08c | 3 | 15 | top | Time to bring the flock home | *(diagram page: headline only; + `…_晨光層_透明.png`)* | — |
-| E08 | 8 | 16 | bottom | A shepherds’ night clock | A shepherds’ clock: on summer nights the flock grazes until the sticks rise. Then, back to the fold. | 2.3 |
+| E08 | 8 | 16 | bottom | A shepherds’ night clock | On summer nights, the flock grazes until the sticks rise — then back to the fold. | 1.9 |
 | E09 | 8 | 21 | bottom | Sa Mandra: the sheepfold | Auriga is Sa Mandra, the sheepfold. Greeks saw a charioteer with a goat; Sardinians, a fence for sheep. | 2.1 |
-| E10 | 8 | 22 | top | Sa Frache: the farmer’s sickle | Leo’s backward question mark is Sa Frache: the farmer’s sickle. This week after dark, look high in the southwest. | 2.4 |
+| E10 | 8 | 22 | top | Sa Frache: the farmer’s sickle | Leo’s backward question mark is Sa Frache. In northern skies this week, look high in the southwest after dark. | 2.4 |
 | E11 | 3 | 47 | endcard | Next Wednesday | Paris, 1786: a star map of lines. | 2.3 |
 | E12 | 3 | 48 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -81,19 +81,19 @@ Total 87 s (E12 included).
 
 - **Title**: Sardinia’s sky of shepherds: a stone hut in Taurus
 - **Description**:
-  On the island of Sardinia, where sheep outnumber people, the old star names read like island life. Taurus’s V is Su Pinnetu, a shepherd’s stone hut; the Pleiades are a bunch of grapes; Orion is Sos Bacheddos, the shepherds’ sticks; Auriga is a sheepfold; Leo’s sickle is a farmer’s sickle. On summer nights the flock grazed until the sticks rose — then back to the fold.
+  On the island of Sardinia, where sheep outnumber people, the old star names read like island life. The V of Taurus is Su Pinnetu, a shepherd’s stone hut; the Pleiades are a bunch of grapes; Orion is Sos Bacheddos, the shepherds’ sticks; Auriga is a sheepfold; Leo’s sickle is a farmer’s sickle. On summer nights the flock grazes until the sticks rise — then back to the fold.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
-  Sources: Stellarium sky culture “sardinian” (star names collected by Tonino Bussu and Marco Puddu; added by Giuseppe Putzolu, 2017); T. Bussu 2013.
+  Sources: Stellarium sky culture “sardinian” (star names collected by Tonino Bussu and Marco Puddu; added by Giuseppe Putzolu, 2017); T. Bussu 2013, 2023.
 
 ## Caption (Instagram / Facebook / Threads)
 
 The stars of Taurus? Sardinian shepherds saw a stone hut. 🐑
-Sardinia, west of Italy, is the Mediterranean’s second-largest island — with about twice as many sheep as people. Its star names, in the dialect of the town of Sedilo, read like island life.
-Taurus’s V and Aldebaran: Su Pinnetu, a shepherd’s hut of stone walls and a pointed roof of branches. The Pleiades: S’Udrone, a big bunch of grapes (Romanians see a hen and chicks). Orion: Sos Bacheddos, the shepherds’ sticks; its Belt, Sas Tres Marias. On summer nights the flock grazed until the sticks rose — then back to the fold.
-Auriga is Sa Mandra, the sheepfold; Leo’s sickle is Sa Frache, the farmer’s sickle. This week after dark, look high in the southwest.
+Sardinia, west of mainland Italy, is the Mediterranean’s second-largest island — with about twice as many sheep as people. Its star names, in the dialect of the town of Sedilo, read like island life.
+The V of Taurus and Aldebaran: Su Pinnetu, a shepherd’s hut of round stone walls and a pointed roof of branches. The Pleiades: S’Udrone, a big bunch of grapes (Romanians see a hen and chicks). Orion: Sos Bacheddos, the shepherds’ sticks; its Belt, Sas Tres Marias. On summer nights the flock grazes until the sticks rise — then back to the fold.
+Auriga is Sa Mandra, the sheepfold; Leo’s sickle is Sa Frache, the farmer’s sickle. In northern skies this week, look high in the southwest after dark.
 Next Wednesday: Paris, 1786 — a star map of lines.
 #WorldSkyCultures #astronomy #Sardinia #Sardegna #Pleiades #Orion #Taurus #skylore
-(First comment: sources — Stellarium “sardinian” (Bussu, Puddu; Putzolu 2017); Bussu 2013.)
+(First comment: sources — Stellarium “sardinian” (Bussu, Puddu; Putzolu 2017); Bussu 2013, 2023.)
 
 ## Cuts and changes (for the reviewer)
 
@@ -108,7 +108,28 @@ Wording to check:
 6. E07 = 07 鏡「獵戶座叫 Sos Bacheddos：一根根牧杖；腰帶三顆另有名字：Sas Tres Marias，三個瑪利亞」; 牧杖 = “the shepherds’ sticks” (Stellarium: The Sticks).
 7. E08 and the three diagram headlines = 08 鏡「這幾根牧杖，是牧人的夜間時鐘。夏天，羊群在夜裡吃草；後半夜，先看到那串葡萄爬上來，接著 Sos Bacheddos 露臉，就該把羊趕回圈了」; “until the sticks rise” compresses the grapes-then-sticks sequence, which the diagram headlines (E08a–c) show step by step.
 8. E09 = 11 鏡 (“Up north” dropped) 「御夫座叫 Sa Mandra，羊圈。希臘人在這裡看見抱著母山羊和小羊的御夫；薩丁尼亞人看見的，是圈羊的柵欄」; “with a goat” drops the kids.
-9. E10 = 12 鏡「獅子座，那把反寫問號的鐮刀，叫 Sa Frache，就是農人的記號」; “the farmer’s sickle” follows the label table (The Sickle) and 04 鏡「農夫的鐮刀」. “This week after dark, look high in the southwest” replaces the Taipei tip (19 鏡; not in the Chinese script). Checked with PyEphem 4.2.1 for 40° N, 28 Apr 2027, 21:30 local time (UTC, UTC−5, UTC+1): Regulus 53–55° up at azimuth 223–228° (southwest); the Sun is 24–26° below the horizon. Taurus and Orion have set by then, so the hut and sticks are not in the tip.
+9. E10 = 12 鏡「獅子座，那把反寫問號的鐮刀，叫 Sa Frache，就是農人的記號」; “the farmer’s sickle” follows the label table (The Sickle) and 04 鏡「農夫的鐮刀」. “In northern skies this week, look high in the southwest after dark” replaces the Taipei tip (19 鏡; not in the Chinese script). Checked with PyEphem 4.2.1 for 40° N, 28 Apr 2027, 21:30 local time (UTC, UTC−5, UTC+1): Regulus 53–55° up at azimuth 223–228° (southwest); the Sun is 24–26° below the horizon. Taurus and Orion have set by then, so the hut and sticks are not in the tip.
 10. English diagram C-A29-02: the existing English strings in `make_a29_diagrams.py`; “S'Udrone (Pleiades) rises” shortened to “S'Udrone rises” so it does not run into “Sos Bacheddos appear (Belt rises)” when the layers stack.
 11. The cover’s second line is the schedule’s hook (written for this v0 from the opening line: “The stars of Taurus? Sardinian shepherds saw a stone hut.”).
 12. Page sequence is the authority for timing (total 87 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN25_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-29 v1; spellings follow its star-name table. No new facts were added. Reading speed rechecked for every changed beat (E02 17 words ÷ 7 s = 2.4; E05 19 ÷ 8 = 2.4; E06 18 ÷ 8 = 2.3; E07 17 ÷ 8 = 2.1; E08 15 ÷ 8 = 1.9; E10 19 ÷ 8 = 2.4), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. E10 (🔴): “In northern skies this week, …” (the tip is not in the Chinese script, which scopes it to Taiwan 「這週末在台灣」; same wording as EN14 / EN41). The repeated “the farmer’s sickle” is dropped from the text because the headline carries it (12 鏡「就是農人的記號」). Caption matched, with “in the southwest after dark”.
+2. E03 (🟡): “center” (US spelling, as “backward” in E10).
+3. E07 (🟡): “Its belt is Sas Tres Marias, the Three Marias.” (07 鏡「腰帶三顆另有名字」), 17 words.
+4. E08 (🟡): headline-repeating lead-in cut (08 鏡 unchanged in meaning). YouTube description and caption changed to the present tense (⚪, “grazes … rise”) to match.
+5. Sources (🟡): “T. Bussu 2013, 2023” (Chinese 來源欄: Bussu 2013 labarbagia.net article and the 2023 book 《L'incanto del cielo stellato》); first comment matched.
+6. E02 (⚪): “west of mainland Italy” (02 鏡「義大利西邊」; Sardinia is itself part of Italy).
+7. E05 (⚪): “The V of Taurus and Aldebaran … Round stone walls” (05 鏡「圓牆」); YouTube description and caption matched.
+8. E06 (⚪): “Sardinians see grapes” (parallel with E09).
+
+Not adopted:
+- E01 (🔴) and the alternative cover line “Taurus? Sardinian shepherds saw a stone hut.”: Beats E01 is the series line (the Chinese 統一開頭), and page 1 shows two lines, the series line first and the schedule’s hook second, as in every other episode (Wording #11). So there is no contradiction: the second line already is the stop-scrolling hook “The stars of Taurus? Sardinian shepherds saw a stone hut.”. No change.
+- E04 “One book on these stars reads them…” (Gemini §3 note 2, optional): three more words would push E04 to about 2.7 w/s over the 7 s it is on screen; the Chinese 「Bussu 的書」 is only a blurb attribution, so “One book” stays.
+- C-A29-02 straight vs curly quotes (Gemini §3 note 4): diagram artwork, not this script; left to the next time the diagram is exported.
+
+Canva: no English block in `A-29_Canva媒體ID.json`, nothing to replace.
