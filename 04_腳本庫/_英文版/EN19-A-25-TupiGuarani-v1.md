@@ -1,11 +1,11 @@
-# EN19 ｜ Tupi-Guarani: A Sky Written Down in 1614 ・ v0 (2026-11-23, waiting for Gemini review)
+# EN19 ｜ Tupi-Guarani: A Sky Written Down in 1614 ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
 | Source | Chinese A-25 v1 (`A-25-圖皮-瓜拉尼1614年傳教士抄下的星空-逐字稿-v1.md`, fact-checked + external review 11/11). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-03-17 (Wed) 21:00 Taiwan time** — EN19 in `06_發布月曆/節目表_萬國星空_英文版.csv` (five days after the Chinese episode on 3/12) |
 | Length | **85 s**, 15 beats, ~185 words on screen (no voice-over; text over light music) |
-| Story | One story only: **a friar wrote down 28 star names in 1614, then stopped** — and almost 400 years later, an astronomer working with the Guarani recovered one of them: a giant rhea reaching for two eggs. |
+| Story | One story only: **a friar wrote down 28 star names in 1614, then stopped** — and almost 400 years later, an astronomer working with the Guarani recovered several of them, among them a giant rhea reaching for two eggs. |
 | Canva | Copy of the Chinese design `A-25 圖皮瓜拉尼` → `EN19 A-25 圖皮瓜拉尼` (card 07). `Canva page` = Chinese 製作表 page + 1 (page 1 = cover). The Chinese design ends at page 52 (鏡頭18結束 carries the next-episode card); if it has extra end pages, put E14–E15 there instead. **Diagram pages** (4, 5, 7, 9, 11, 12, 14, 15, 17, 18): swap in the English PNGs from `05_素材/A-25_圖皮瓜拉尼/_概念圖/en/` (same file names); the black panel covers Y 415–1505, so the text goes in the strip **under the panel** (`bottom` = X 110, Y 1510, W 860, 40 px, ≤ 3 lines, as EN44) — nothing on the diagram itself. Sky pages: `bottom` = template EN-B lower third. Sky labels: translate the Chinese half (see Page sequence notes). |
 | Opening line | *One sky. The Tupinambá saw — an ostrich hungry for eggs.* |
 | Reading speed | ≤ 2.5 words/sec on every beat (max 2.4; = words in Text ÷ seconds that text is on screen, headline not counted) |
@@ -16,19 +16,19 @@
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
-| E01 | 4.5 | 1 | cover | World Sky Cultures | One sky. The Tupinambá saw — an ostrich hungry for eggs. *(second line on the cover = the schedule hook: He wrote down 28 star names. Then: “I’ll skip the rest.”)* | 2.4 |
+| E01 | 4.5 | 1 | cover | World Sky Cultures | One sky. The Tupinambá saw — an ostrich hungry for eggs. | 2.2 |
 | E02 | 10 | 2, 3, 4, 5 | bottom | | 1612: a French fort on Maranhão Island, Brazil. Four Capuchin friars came with the ships. | 1.5 |
-| E03 | 5 | 6, 7 | bottom | | One, Claude d’Abbeville, published a book in Paris in 1614. | 2.0 |
-| E04 | 6 | 8, 9 | bottom | | Nearly everyone knew most of their stars, each by a name the ancestors gave. | 2.3 |
-| E05 | 7.5 | 10, 11, 12 | bottom | | Then he copied 28 names: a rainy jaw, a nine-star grill, a monkey, a boy eating soup. | 2.3 |
-| E06 | 7.5 | 13, 14, 15 | bottom | | Then: “and many others, which I leave out.” Mostly, he never said which stars. | 1.9 |
-| E07 | 4.5 | 16 | bottom | | The island’s Tupinambá later vanished through war, disease and slavery. | 2.2 |
+| E03 | 5 | 6, 7 | bottom | | One friar, Claude d’Abbeville, published a book in Paris in 1614. | 2.2 |
+| E04 | 6 | 8, 9 | bottom | | He wrote: nearly everyone on the island knew most stars, each named by ancestors. | 2.3 |
+| E05 | 7.5 | 10, 11, 12 | bottom | | He listed 28 names: a rainy jaw, a nine-star grill, a monkey, a boy eating soup. | 2.1 |
+| E06 | 7.5 | 13, 14, 15 | bottom | | He ended with: “and many others, which I leave out.” For most, he never said which stars. | 2.3 |
+| E07 | 4.5 | 16 | bottom | | The island’s Tupinambá later vanished amid war, disease and slavery. | 2.2 |
 | E08 | 5.5 | 17 | bottom | | Nearly 400 years later, astronomer Germano Afonso watched the sky with the Guarani. | 2.4 |
-| E09 | 5 | 18 | bottom | | Distant relatives, 2,500 km apart, with similar skies. Some names came back. | 2.4 |
-| E10 | 7 | 19 | bottom | The white ostrich | The grandest, Yandoutin: Afonso traced it as a rhea, from the Southern Cross to Scorpius. | 2.1 |
+| E09 | 5 | 18 | bottom | | Distant relatives, 2,500 km apart, with similar skies. He recognised several names. | 2.4 |
+| E10 | 7 | 19 | bottom | The “white ostrich” | The grandest, Yandoutin: Afonso identified it as a rhea, from the Southern Cross to Scorpius. | 2.1 |
 | E11 | 4.5 | 20 | bottom | | Its beak reaches for two stars: Ouyra-Oupia, “the two eggs”. | 2.2 |
-| E12 | 7 | 21 | bottom | | The Guarani say the Southern Cross grips its head. Let go, and it drinks the earth dry. | 2.4 |
-| E13 | 6 | 51 | top | In March, around midnight | Its body, Scorpius, rises in the southeast. From mid-northern latitudes, its head never rises. | 2.3 |
+| E12 | 7 | 21 | bottom | | The Guarani say the Southern Cross grips its head. If freed, it drinks the earth dry. | 2.3 |
+| E13 | 6 | 51 | top | In March, around midnight | Its body, Scorpius, rises in the southeast. From mid-northern latitudes, its head stays hidden. | 2.3 |
 | E14 | 5 | 52 | endcard | Next Wednesday | Bugis: the sailors’ star compass. | 1.0 |
 | E15 | 5 | 52 | endcard | | Follow for a new sky every week. | 1.4 |
 
@@ -44,7 +44,7 @@
 | 4 | | 鏡頭02-概念圖1 | 3 | E02; English `C-A25-01_馬拉尼昂島_地圖層` |
 | 5 | | 鏡頭02-概念圖2 | 3 | E02; ＋English `航線層` |
 | 6 | | 鏡頭02-概念圖收＝鏡頭03開始 | 1.5 | E03; diagram fades |
-| 7 | | 鏡頭03-概念圖 | 3.5 | E03; English `C-A25-02_1614年的書_扉頁層` (title page, caption “Claude d'Abbeville (Capuchin friar)”) |
+| 7 | | 鏡頭03-概念圖 | 3.5 | E03; English `C-A25-02_1614年的書_扉頁層` (title page, caption “Claude d’Abbeville (Capuchin friar)”) |
 | 8 | | 鏡頭03-概念圖收＝鏡頭04開始 | 1.5 | E04 |
 | 9 | | 鏡頭04-概念圖 | 4.5 | E04; English `C-A25-02_1614年的書_原文層` (“A name for every star”, nom propre boxed) |
 | 10 | | 鏡頭04-概念圖收＝鏡頭05開始 | 1.5 | E05 |
@@ -73,7 +73,7 @@ Total 85 s (last page included).
 | 圖皮-瓜拉尼語族 | Tupi-Guarani | diagram only |
 | 馬拉尼昂島 | Maranhão Island | today’s São Luís; the 1614 book spells it Maragnan (kept in the book title) |
 | 嘉布遣會士 | Capuchin friars | |
-| Claude d'Abbeville | Claude d’Abbeville | |
+| Claude d’Abbeville | Claude d’Abbeville | |
 | Germano Afonso | Germano Afonso | “astronomer” on screen (the Chinese says Brazilian astronomer; kept in caption and description) |
 | Yandoutin（白色的鴕鳥＝美洲鴕） | Yandoutin, the “white ostrich” — a rhea | the book says l’Autruche blanche; the rhea identification is Afonso’s |
 | Ouyra-Oupia（兩顆蛋） | Ouyra-Oupia, “the two eggs” | γ, δ Mus |
@@ -86,7 +86,7 @@ Total 85 s (last page included).
 
 - **Title**: 28 star names from 1614 — and the rhea that came back
 - **Description**:
-  In 1614 a French friar, Claude d’Abbeville, published the star names of the Tupinambá of Maranhão Island, Brazil: a rainy jaw, a grill of nine stars, a boy eating soup… then wrote “and many others, which I leave out.” Mostly he never said which stars. Nearly 400 years later, astronomer Germano Afonso, working with the Guarani, recognised one: Yandoutin, a giant rhea from the Southern Cross to Scorpius, reaching for two eggs.
+  In 1614 a French friar, Claude d’Abbeville, published the star names of the Tupinambá of Maranhão Island, Brazil: a rainy jaw, a grill of nine stars, a boy eating soup… then wrote “and many others, which I leave out.” Mostly he never said which stars. Nearly 400 years later, astronomer Germano Afonso, working with the Guarani, recognised several, among them Yandoutin, a giant rhea from the Southern Cross to Scorpius, reaching for two eggs.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Claude d’Abbeville, Histoire de la mission des pères Capucins en l’Isle de Maragnan (Paris, 1614; Internet Archive scan); G. B. Afonso on Guarani and Tupinambá astronomy; Stellarium sky culture “tupi”.
 
@@ -94,7 +94,7 @@ Total 85 s (last page included).
 
 He wrote down 28 star names. Then: “I’ll skip the rest.” ✍️
 In 1614, the friar Claude d’Abbeville published the star names of the Tupinambá of Maranhão Island, Brazil: a rainy jaw, a nine-star grill, a monkey, a boy eating soup — “and many others, which I leave out.” Mostly, he never said which stars.
-Nearly 400 years later, Brazilian astronomer Germano Afonso watched the sky with the Guarani and recognised one: Yandoutin, the “white ostrich” — a rhea from the Southern Cross to Scorpius, its beak reaching for two eggs.
+Nearly 400 years later, Brazilian astronomer Germano Afonso watched the sky with the Guarani and recognised several, among them Yandoutin, the “white ostrich” — a rhea from the Southern Cross to Scorpius, its beak reaching for two eggs.
 Next Wednesday: the Bugis and their star compass.
 #WorldSkyCultures #astronomy #stars #Brazil #Tupi #Guarani #SouthernCross #skylore
 (First comment: sources — Abbeville 1614, fol. 316r–320v; Afonso; Stellarium tupi.)
@@ -106,14 +106,37 @@ Dropped from the Chinese version (all still in the Chinese episode): the bridge 
 Wording to check:
 1. E01 “an ostrich hungry for eggs” = Chinese opening 「一隻想吃蛋的鴕鳥」; “ostrich” is the friar’s word, explained as a rhea in E10.
 2. E02 “1612: a French fort on Maranhão Island, Brazil. Four Capuchin friars came with the ships.” = 02 鏡 (the fort later became São Luís — on the diagram only).
-3. E04 compresses 「當地幾乎人人都認得那半邊天大部分的星，而且每一顆都叫得出名字——那是祖先取的」 (fol. 316r: “leur nom propre que leurs predecesseurs ont inuenté”). “Their stars” stands for 「那半邊天」 (leur hemisphere).
-4. E05 picks four of the nine names in the Chinese 05 鏡; “a boy eating soup” = 「喝湯的小男孩」 (le petit garçon qui mange du potage). The English diagram was changed from “porridge” to “soup” to match.
+3. E04 (“He wrote:” restored) compresses 「當地幾乎人人都認得那半邊天大部分的星，而且每一顆都叫得出名字——那是祖先取的」 (fol. 316r: “leur nom propre que leurs predecesseurs ont inuenté”). “Their stars” stands for 「那半邊天」 (leur hemisphere).
+4. E05 (“listed”) picks four of the nine names in the Chinese 05 鏡; “a boy eating soup” = 「喝湯的小男孩」 (le petit garçon qui mange du potage). The English diagram was changed from “porridge” to “soup” to match.
 5. E06 quote = fol. 319v 「plusieurs autres que ie laisse pour euiter la plus grande prolixité」; the Chinese says 「免得太囉嗦」 — “to avoid being long-winded” is left out of the on-screen quote for length (it is on the diagram in French).
 6. E07 keeps 「島上那群圖皮南巴人，後來也在戰爭、疫病和奴役裡消失了」 as “The island’s Tupinambá …” (only that group, not all Tupinambá).
 7. E09 “Distant relatives, 2,500 km apart, with similar skies. Some names came back” = 「兩邊是遠親，隔了兩千五百公里，星座竟然很像；他這才把好幾個認了回來」 (diagram: “over 2,500 km in a straight line”).
-8. E10 keeps the attribution: the book says white ostrich; “Afonso traced it as a rhea, from the Southern Cross to Scorpius” = 08 鏡.
+8. E10 keeps the attribution: the book says white ostrich; “Afonso identified it as a rhea, from the Southern Cross to Scorpius” = 08 鏡.
 9. E12 = 10 鏡 「南十字緊緊抓著鴕鳥的頭；要是放開，牠會把地上的水全部喝光，大家都會渴死」 — “drinks the earth dry” compresses the last two clauses.
-10. E13 is the Northern-Hemisphere version of 16 鏡 (Kenting, 3/13 01:00: Antares 13° up; the beak and eggs below the horizon all night). My own estimate (not in the Chinese script): at 40° N in mid-March, the front of Scorpius (β Sco) rises about 23:40 and Antares about 00:30 local mean time (an hour later on clocks already on daylight time), in the southeast; the Southern Cross and the Coal Sack (dec. −57° to −63°) never clear the horizon north of about 33° N. No clock time on screen. Reviewer: check “From mid-northern latitudes, its head never rises.”
+10. E13 is the Northern-Hemisphere version of 16 鏡 (Kenting, 3/13 01:00: Antares 13° up; the beak and eggs below the horizon all night). My own estimate (not in the Chinese script): at 40° N in mid-March, the front of Scorpius (β Sco) rises about 23:40 and Antares about 00:30 local mean time (an hour later on clocks already on daylight time), in the southeast; the Southern Cross and the Coal Sack (dec. −57° to −63°) never clear the horizon north of about 33° N. No clock time on screen. Reviewer: check “From mid-northern latitudes, its head stays hidden.” (no “never”: precession slowly shifts the declinations; Chinese v1 avoids 「永遠」)
 11. E14 = EN20 (A-26 Bugis, 2027-03-24); “the sailors’ star compass” = schedule title 「帆船民族的星羅盤」.
-12. The cover’s second line is the schedule hook (newly set from the Chinese hook 「他抄下 28 個星名，然後寫：其他的，我就不寫了。」).
+12. The cover shows the series line only (reading speed); the schedule hook (from the Chinese hook 「他抄下 28 個星名，然後寫：其他的，我就不寫了。」) opens the caption.
 13. Page sequence is the authority for timing (total 85 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN19_審稿_gemini.md`. Every 🔴🟡⚪ was checked against the Chinese A-25 v1; spellings follow its name table. No new facts added. Reading speed rechecked for every changed beat (E01 10 words ÷ 4.5 s = 2.2; E03 11 ÷ 5 = 2.2; E04 14 ÷ 6 = 2.3; E05 16 ÷ 7.5 = 2.1; E06 17 ÷ 7.5 = 2.3; E07 10 ÷ 4.5 = 2.2; E09 12 ÷ 5 = 2.4; E10 15 ÷ 7 = 2.1; E12 16 ÷ 7 = 2.3; E13 14 ÷ 6 = 2.3), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. E13 (🔴): “its head stays hidden” instead of “never rises” — Chinese v1 removed 「永遠」 (precession); the same wording is used in the Wording-to-check note. The midnight timing is my own estimate (Antares rises about 00:30 local mean time at 40° N in mid-March: H = acos(−tan 40° · tan −26.4°) ≈ 65°, LST ≈ 12.1 h vs. LST at midnight ≈ 11.6 h); “around midnight” kept.
+2. E04 (🔴): “He wrote:” restored (04 鏡「書裡有一段寫星星。他說：」) and the subject made explicit (“on the island”).
+3. E01 (🔴, partly): the cover now holds the series line only. The second (schedule-hook) line is removed from the cover because 21 words in 4.5 s breaks the 2.5 w/s rule; the hook stays in the schedule, YouTube title and caption line 1.
+4. E03 (🟡): “One friar, …” (adds the referent).
+5. E05 (🟡): “listed” instead of “copied” (avoids repeating “Then” next to E06).
+6. E06 (🟡): “He ended with: … For most, he never said which stars.” (06 鏡「名單最後他寫」).
+7. E07 (🟡): “vanished amid” (= 「在戰爭、疫病和奴役裡消失」).
+8. E10 (🟡): “identified it as a rhea” (= 認出) and the quotes around “white ostrich” in the headline.
+9. E12 (🟡): “If freed” (= 「要是放開」; no imperative).
+10. E09 (⚪) and YouTube/Caption/Story (🟡): “recognised several” — the Chinese 07 鏡 says 「好幾個認了回來」. E09 uses “He recognised several names.” rather than Gemini’s “traced back”, to keep E10’s “identified” as the only identification verb.
+11. Typography (⚪): d’Abbeville with a curly apostrophe everywhere.
+
+Not adopted:
+- E01 option A (“28 star names in 1614. Then: “I’ll skip the rest.””): every episode’s cover keeps the series pattern *One sky. The [people] saw — [X].* (Chinese 統一開頭 「同一片星空，圖皮南巴人看見——一隻想吃蛋的鴕鳥」); Gemini’s §3 note 2 allows this. The em-dash is the Chinese 「——」.
+- Gemini’s §3 note 3 (US spelling / Oxford comma): the series stays in international spelling (“recognised”, no Oxford comma), as EN01–EN14.
+
+Canva: no English blocks yet in `A-25_Canva媒體ID.json`, nothing to replace.
