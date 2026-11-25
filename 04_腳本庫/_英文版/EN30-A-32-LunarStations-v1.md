@@ -1,4 +1,4 @@
-# EN30 ｜ Arabic Lunar Stations: Where the Moon Stays Each Night ・ v0 (awaiting Gemini review)
+# EN30 ｜ Arabic Lunar Stations: Where the Moon Stays Each Night ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -8,7 +8,7 @@
 | Story | One story only: **the Moon’s 28 inns and their names.** The Moon moves about 13° a night; each night’s stop is a manzil. The signs read like desert life — a great scorpion, a flock of ostriches, an empty place where the Moon sleeps outdoors — and more than half still name stars today (Aldebaran, Shaula, Zubenelgenubi); the Heart is a heart in China too. Close: on Sunday 6 June the first thin crescent opens the Islamic New Year on Saudi Arabia’s calendar |
 | Canva | Copy of the Chinese A-32 design, named `EN30 A-32 阿拉伯月站` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 51 = last 製作表 page, 52 = next-episode card, 53 = follow page). If the Chinese design ends differently, put E13 and E14 on its next-episode and follow pages. Card C-A32-04: English version in `05_素材/A-32_阿拉伯月站/_概念圖/en/` (same file name). |
 | Opening line | *One sky. The Arabs saw — inns where the Moon stays each night.* (= the Chinese 統一開頭) |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.33, E06/E09/E10; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.38, E11; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
 ## Beats (text on screen)
 
@@ -18,16 +18,16 @@
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The Arabs saw — inns where the Moon stays each night. | — |
 | E02 | 8 | 2, 3 | bottom-left | 28 inns for the Moon | Each night, the Moon shifts about 13° east. In 27 or 28 nights, it circles the sky. | 2.1 |
-| E03 | 5 | 4 | bottom-left | | In Arabic, each night’s stop is a manzil: a lodging. *(narrow left box: the Saʿd al-Suʿūd label sits bottom-right)* | 2.0 |
-| E04 | 9 | 15, 16 | top | Signs from desert life | Around Scorpius: a great scorpion, with claws, a heart and a raised tail. | 1.4 |
-| E05 | 8 | 17 | top | | Then a flock of ostriches. Then al-Baldah, ‘the empty place’: no bright stars, so the Moon sleeps outdoors. | 2.3 |
-| E06 | 6 | 20 | bottom | Still on our star maps | The inn signs reached Europe. Aldebaran is al-Dabarān, ‘the follower’: it follows the Pleiades. | 2.3 |
-| E07 | 3 | 21 | bottom | | Shaula: ‘the raised tail’. | 1.3 |
-| E08 | 8 | 22, 23 | bottom-left | | The scorpion’s claws are now Libra: Zubenelgenubi and Zubeneschamali, ‘southern claw’ and ‘northern claw’. *(narrow left box: the Zubenelgenubi label sits right of centre at Y ≈ 1250–1300)* | 1.8 |
+| E03 | 5 | 4 | bottom-left | | In Arabic, each night’s stop is a manzil — a lodging. *(narrow left box: the Saʿd al-Suʿūd label sits bottom-right)* | 2.0 |
+| E04 | 9 | 15, 16 | top | Inn signs from desert life | Around Scorpius: a great scorpion, with claws, a heart and a raised tail. | 1.4 |
+| E05 | 8 | 17 | top | | Next, a flock of ostriches. Then al-Baldah, “the empty place” — no bright stars, so the Moon sleeps outdoors. | 2.3 |
+| E06 | 6 | 20 | bottom | Still on our star maps | The inn signs reached Europe. Aldebaran is al-Dabarān, “the follower” — it follows the Pleiades. | 2.3 |
+| E07 | 3 | 21 | bottom | | Shaula: “the raised tail”. | 1.3 |
+| E08 | 8 | 22, 23 | bottom-left | | Those claws are now in Libra: Zubenelgenubi and Zubeneschamali — “southern claw” and “northern claw”. *(narrow left box: the Zubenelgenubi label sits right of centre at Y ≈ 1250–1300)* | 1.8 |
 | E09 | 6 | 25 | bottom-left | | More than half of the 28 stations live on in official IAU star names. | 2.3 |
-| E10 | 6 | 27 | bottom | Same heart in China | Antares: in China, a star of Xin, ‘the Heart’. In Arabic, al-Qalb, ‘the heart’. | 2.3 |
-| E11 | 8 | 38 | bottom | The crescent sets the date | Islamic months traditionally start at the first thin crescent. Saudi Arabia’s calendar: New Year on Sunday 6 June. | 2.3 |
-| E12 | 7 | 39 | bottom | 6 June, after sunset | Look low in the west-northwest: a thin crescent at the feet of Gemini. | 1.9 |
+| E10 | 6 | 27 | bottom | Same heart in China | Antares: in China, a star of Xin, “the Heart”. In Arabic, al-Qalb, “the heart”. | 2.3 |
+| E11 | 8 | 38 | bottom | The crescent sets the date | Islamic months traditionally start with the first thin crescent. Saudi Arabia’s calendar puts New Year on Sunday 6 June. | 2.4 |
+| E12 | 7 | 39 | bottom | 6 June, after sunset | Look low in the west-northwest for a thin crescent near the feet of Gemini. | 2.0 |
 | E13 | 4 | 52 | endcard | Next Wednesday | Al-Ṣūfī’s Book of Fixed Stars, over 1,000 years old. | 2.3 |
 | E14 | 3 | 53 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -42,7 +42,7 @@ The card on page 24 (C-A32-04, English) carries its own title, “Lunar stations
 | 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the new hook (*28 inns for the Moon — and over half still name stars today.*); EN · EP30 tag |
 | 2 | | 鏡頭01開始 | 5 | E02; the ecliptic band and the Moon jumping one night at a time |
 | 3 | | 鏡頭01結束＝鏡頭02開始 | 3 | E02; station-sign labels (if shown): Chinese gloss → English as page 4 |
-| 4 | | 鏡頭02結束＝鏡頭03開始 | 5 | E03; labels 帳篷的吉星 → of the tents; 吉中之吉 → luckiest of the lucky; 水桶的前口 → the bucket’s front spout; then **hard cut** to 15 (pages 5–14: diagram C-A32-01 “13° a night”, the Qurʾān 10:5 diagram, the stations-vs-crescent diagram, removed) |
+| 4 | | 鏡頭02結束＝鏡頭03開始 | 5 | E03; labels 帳篷的吉星 → lucky star of the tents; 吉中之吉 → luckiest of the lucky; 水桶的前口 → the bucket’s front spout; then **hard cut** to 15 (pages 5–14: diagram C-A32-01 “13° a night”, the Qurʾān 10:5 diagram, the stations-vs-crescent diagram, removed) |
 | 15 | | 鏡頭06開始 | 5 | **hard cut** (as in the Chinese); E04; labels 螯 → the claws; 心臟 → the heart |
 | 16 | | 鏡頭06-中1 | 4 | E04; labels 心臟 → the heart; 翹起的尾巴 → the raised tail |
 | 17 | | 鏡頭06結束 | 8 | E05; labels 鴕鳥群 → the ostriches; 空地 → the empty place; then **hard cut** to 20 (pages 18–19, the four lucky stars and this weekend’s Moon, removed) |
@@ -68,14 +68,14 @@ Total 89 s (E14 included).
 | manzil（下榻處） | a manzil: a lodging | |
 | 大蠍子：螯／心臟／翹起的尾巴 | a great scorpion: claws, a heart, a raised tail | al-Zubānā / al-Qalb / al-Shawlah |
 | 鴕鳥群（al-Naʿāʾim） | a flock of ostriches | label “the ostriches” |
-| al-Baldah（空地） | al-Baldah, ‘the empty place’ | card C-A32-04 wording; EN04’s ring label was “Open land” |
-| 畢宿五 Aldebaran／al-Dabarān（跟在後面的） | Aldebaran is al-Dabarān, ‘the follower’ | |
+| al-Baldah（空地） | al-Baldah, “the empty place” | card C-A32-04 wording; EN04’s ring label was “Open land” |
+| 畢宿五 Aldebaran／al-Dabarān（跟在後面的） | Aldebaran is al-Dabarān, “the follower” | |
 | 昴宿（al-Thurayyā） | the Pleiades | |
-| Shaula（翹起的尾巴） | Shaula: ‘the raised tail’ | |
-| Zubenelgenubi／Zubeneschamali（南邊的螯／北邊的螯） | ‘southern claw’ / ‘northern claw’ | |
+| Shaula（翹起的尾巴） | Shaula: “the raised tail” | |
+| Zubenelgenubi／Zubeneschamali（南邊的螯／北邊的螯） | “southern claw” / “northern claw” | |
 | 國際天文聯合會的正式星名表 | official IAU star names | |
-| 心宿二／心宿 | Antares; Xin, ‘the Heart’ | pinyin + meaning on first mention |
-| al-Qalb（心臟） | al-Qalb, ‘the heart’ | |
+| 心宿二／心宿 | Antares; Xin, “the Heart” | pinyin + meaning on first mention |
+| al-Qalb（心臟） | al-Qalb, “the heart” | |
 | 眉月（hilāl） | the first thin crescent | hilāl not on screen |
 | 沙烏地官方曆的伊斯蘭新年 | New Year on Saudi Arabia’s calendar | Umm al-Qura |
 | 低彎 al-Hanʿah | al-Hanʿah · the downward bend | label only; card C-A32-04 wording |
@@ -93,10 +93,10 @@ Total 89 s (E14 included).
 ## Caption (Instagram / Facebook / Threads)
 
 28 inns for the Moon — and over half still name stars today. 🌙
-Each night the Moon shifts about 13° east. In Arabic, each night’s stop is a manzil: a lodging.
+Each night the Moon shifts about 13° east. In Arabic, each night’s stop is a manzil — a lodging.
 The signs read like desert life: a great scorpion with claws, a heart and a raised tail; a flock of ostriches; al-Baldah, “the empty place”, where the Moon sleeps outdoors.
 They reached Europe: Aldebaran is al-Dabarān, “the follower” (it follows the Pleiades); Shaula is “the raised tail”; Zubenelgenubi and Zubeneschamali are the scorpion’s southern and northern claws. And Antares is a heart in China and in Arabia alike.
-Sunday 6 June, just after sunset: look low in the west-northwest for the first thin crescent — New Year on Saudi Arabia’s Islamic calendar.
+Sunday 6 June, just after sunset: look low in the west-northwest for the first thin crescent — the Islamic New Year on Saudi Arabia’s calendar.
 Next Wednesday: Al-Ṣūfī’s Book of Fixed Stars, over 1,000 years old.
 #WorldSkyCultures #astronomy #Moon #lunarmansions #Arabic #starnames #skylore
 (First comment: sources — Stellarium arabic_lunar_stations / arabic_indigenous / arabic_al-sufi; IAU WGSN; Kunitzsch & Smart; Umm al-Qura.)
@@ -112,8 +112,29 @@ Wording to check:
 4. E06 “The inn signs reached Europe” = 08 鏡「這些旅店的招牌，後來傳到歐洲」.
 5. E08 “are now Libra” = 09 鏡「就是今天天秤座這兩顆」.
 6. E09 “More than half of the 28 stations live on in official IAU star names” = 「二十八間裡，超過一半的名字，今天還寫在國際天文聯合會的正式星名表上」 (the card: 18 of 28).
-7. E10 “Antares: in China, a star of Xin, ‘the Heart’” = 10b 鏡「天蠍的紅心，中國叫心宿二」 (心宿二 = the second star of the Heart mansion; “a star of Xin” avoids claiming it is the whole mansion).
-8. E11 “traditionally” keeps 05 鏡「傳統上」; “Saudi Arabia’s calendar: New Year on Sunday 6 June” = 13 鏡「六月六號星期天，是沙烏地官方曆的伊斯蘭新年」 (not every country’s date).
+7. E10 “Antares: in China, a star of Xin, “the Heart”” = 10b 鏡「天蠍的紅心，中國叫心宿二」 (心宿二 = the second star of the Heart mansion; “a star of Xin” avoids claiming it is the whole mansion).
+8. E11 “traditionally” keeps 05 鏡「傳統上」; “Saudi Arabia’s calendar puts New Year on Sunday 6 June” = 13 鏡「六月六號星期天，是沙烏地官方曆的伊斯蘭新年」 (not every country’s date).
 9. E12 is the Northern-Hemisphere version of 13 鏡 (Taipei: 19:00–19:30, 14° up at 19:10, below 10° around 19:33). The Chinese computes Taipei only; “low in the west-northwest, just after sunset” is the general direction, and the Taipei numbers are removed from the labels. Reviewer: please confirm the wording does not promise a sighting.
 10. The cover’s second line is the new English hook (also written into the schedule), not a translation of the Chinese cover.
 11. Page sequence is the authority for timing (total 89 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN30_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-32 v1; the transliterations and star names already match its star-name table and are unchanged. No new facts were added. Reading speed rechecked for every changed beat (E05 18 words ÷ 8 s = 2.25, shown as 2.3; E08 14 ÷ 8 = 1.8; E11 19 ÷ 8 = 2.4; E12 14 ÷ 7 = 2.0), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. E05, E06, E07, E08, E10, Glossary (🔴): double quotes “ ” instead of single quotes (house style; Caption already used them). The full stop stays outside the closing quote, as before.
+2. E04 headline (🟡): “Inn signs from desert life” (08 鏡「這些旅店的招牌」), so “signs” is not read as zodiac signs.
+3. E08 (🟡): “Those claws are now in Libra: Zubenelgenubi and Zubeneschamali — “southern claw” and “northern claw”.” (09 鏡 says the two stars are in Libra today; shorter, fits the narrow box).
+4. E11 (🟡): “start with the first thin crescent … puts New Year on Sunday 6 June” (05 鏡, 13 鏡; “Sunday” kept because the Chinese says 星期天; 19 words, 2.4 w/s).
+5. E12 (🟡): “Look low … for a thin crescent near the feet of Gemini” — frames it as something to look for, no promised sighting (answers Wording to check 9).
+6. E03, E05, E06, E08 (⚪): dashes instead of colons (“Next, a flock of ostriches” in E05); Caption manzil line likewise.
+7. Page 4 label (⚪): 帳篷的吉星 → “lucky star of the tents” (星名表: Saʿd al-Akhbiyah).
+8. Caption (⚪): “the Islamic New Year on Saudi Arabia’s calendar” (13 鏡).
+
+Not adopted:
+- E01 / cover (🟡): kept the series pattern *One sky. The Arabs saw — inns where the Moon stays each night.* (= the Chinese 統一開頭); the schedule’s hook *28 inns for the Moon — and over half still name stars today.* is the second line, as the page 1 note already says. Gemini’s alternative hook (“and you still know their names”) is not used: the “over half still name stars” claim is the fact from the Chinese.
+- E09 “IAU” (§3 note 3): kept; page 24’s card spells out “the IAU’s official list”.
+- Punctuation outside the closing quote (§3 note 2): kept (British style, as `6 June`).
+
+Canva: no English block yet in `A-32_Canva媒體ID.json`, nothing to replace.
