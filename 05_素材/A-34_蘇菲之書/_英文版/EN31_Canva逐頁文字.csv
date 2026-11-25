@@ -1,5 +1,5 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡,3,World Sky Cultures,One sky. Al-Ṣūfī saw — two skies.,cover,"Cover: text block replaced with English; second line = the new hook (*Around 964, one book wrote down two skies.*); EN · EP31 tag"
+1,,開場字卡,3,World Sky Cultures,One sky. Al-Ṣūfī saw — two skies.,cover,"Cover: text block replaced with English; second line = the new hook (*Around 964, one book held two skies.*); EN · EP31 tag"
 2,,鏡頭01開始,4,"A book over 1,000 years old","Around 964, the Persian astronomer
 al-Ṣūfī presented his ruler with a book.",bottom,"E02; manuscript image fading in (if the designer used BnF Arabe 5036, its corner tag 「1430 年代撒馬爾罕抄本」 → *Samarkand copy, 1430s*)"
 3,,鏡頭01結束＝鏡頭02開始,3,"A book over 1,000 years old","Around 964, the Persian astronomer
@@ -9,30 +9,31 @@ al-Ṣūfī presented his ruler with a book.",bottom,E02
 6,,鏡頭02-概念圖收＝鏡頭03開始,5,Layer one: the Greek sky,"He re-checked Ptolemy’s 48 Greek
 constellations against the sky, star by
 star.",bottom,"diagram fades; E03; then straight to 15 (pages 7–14: Ptolemy-to-al-Ṣūfī C-A34-02, precession 12°42′ C-A34-03, the cubit ruler C-A34-03b, removed; all freezes on this same frame)"
-15,,鏡頭05-概念圖收＝鏡頭06開始,5,Layer two: old Arab names,"Under each Greek figure, he added the
-old Arab star names.",bottom,E04
-16,,鏡頭06結束,5,,"Arcturus: ‘the raised one with a lance’.
-Spica: ‘the unarmed raised one’.",top,E05; labels 拿矛的高舉者 → the raised one with a lance; 沒拿武器的高舉者 → the unarmed raised one; 牧夫座 → Boötes; 室女座 → Virgo
-17,,鏡頭07開始,6,A fish and a smudge,"Some Arab constellations he drew in too:
+15,,鏡頭05-概念圖收＝鏡頭06開始,5,Layer two: old Arab names,"Under each Greek constellation, he added
+the old Arab star names.",bottom,E04
+16,,鏡頭06結束,5,,"Arcturus: “the raised one with a lance”.
+Spica: “the unarmed raised one”.",top,E05; labels 拿矛的高舉者 → the raised one with a lance; 沒拿武器的高舉者 → the unarmed raised one; 牧夫座 → Boötes; 室女座 → Virgo
+17,,鏡頭07開始,6,A fish and a smudge,"He drew in some Arab constellations too:
 a great fish across Andromeda.",top,E06; labels 仙女座 → Andromeda; 大魚（阿拉伯星座） → the Great Fish (Arab constellation); 一小抹像雲的光斑 → a little cloud-like smudge
 18,,鏡頭07結束＝鏡頭08開始,6,,"By the fish’s mouth, he noted a little
-smudge, like a cloud.",top,E07; labels 仙女座大星系・250 萬光年 → Andromeda Galaxy · 2.5 million ly; 魚嘴（ν And） → the fish’s mouth (ν And); manuscript inset (Andromeda with the fish) stays
+smudge, like a cloud.",top,E07; labels 魚嘴（ν And） → the fish’s mouth (ν And); 一小抹像雲的光斑 → a little cloud-like smudge; **no galaxy name yet** (E07 still keeps the secret: the Andromeda Galaxy label moves to page 19); manuscript inset (Andromeda with the fish) stays
 19,,鏡頭08結束,7,,"It’s the Andromeda Galaxy, 2.5 million
-light-years away: the earliest known
-record of it.",top,"E08; labels as 17; then straight to 22 (pages 20–21, the sky-vs-globe diagram C-A34-04, removed)"
-22,,鏡頭08-概念圖收＝鏡頭09開始＝鏡頭10開始,3,Names we still use,"Perseus carries a ghoul’s head: in
-Arabic, raʾs al-ghūl. Today’s star name:
-Algol.",bottom,E09; **remove** the Marsh 144 colophon image if the designer placed it here (shot 09 is cut)
-23,,鏡頭10結束＝鏡頭11開始＝鏡頭12開始,6,Names we still use,"Perseus carries a ghoul’s head: in
-Arabic, raʾs al-ghūl. Today’s star name:
-Algol.",bottom,E09; labels 英仙座 → Perseus; 妖怪的頭 → Algol（大陵五） → the ghoul’s head → Algol; **remove** the Dürer 1515 star map if placed here (shot 11 is cut); the Perseus manuscript inset stays
-24,,鏡頭12結束,7,June evenings: look up,"After dark, Arcturus shines high, Spica
-lower toward the south: the two raised
-ones.",bottom,E10; labels 大角 → Arcturus; 角宿一 → Spica; **remove** 天頂（晚上 8 點） and its zenith ring (Taipei-only)
-25,,鏡頭13開始,4,Two eagles in the east,"Late evening, look east: Vega and
-Altair.",top,E11; label 俯衝的老鷹 → Vega（織女） → the swooping eagle → Vega
-26,,鏡頭13結束＝鏡頭14開始,6,,"‘The swooping eagle’ and ‘the flying
-eagle’: their names come from these.",top,"E12; labels as 25 + 飛翔的老鷹 → Altair（牛郎） → the flying eagle → Altair; then straight to 29 (pages 27–28: card C-A34-05 with Taipei times, removed)"
+light-years away — the earliest known
+record of it.",top,"E08; labels as 18 + 仙女座大星系・250 萬光年 → Andromeda Galaxy · 2.5 million light-years; then straight to 22 (pages 20–21, the sky-vs-globe diagram C-A34-04, removed)"
+22,,鏡頭08-概念圖收＝鏡頭09開始＝鏡頭10開始,3,Names we still use,"Perseus carries a ghoul’s head — raʾs
+al-ghūl in Arabic. Today we call the
+star Algol.",bottom,E09; **remove** the Marsh 144 colophon image if the designer placed it here (shot 09 is cut)
+23,,鏡頭10結束＝鏡頭11開始＝鏡頭12開始,6,Names we still use,"Perseus carries a ghoul’s head — raʾs
+al-ghūl in Arabic. Today we call the
+star Algol.",bottom,E09; labels 英仙座 → Perseus; 妖怪的頭 → Algol（大陵五） → the ghoul’s head → Algol; **remove** the Dürer 1515 star map if placed here (shot 11 is cut); the Perseus manuscript inset stays
+24,,鏡頭12結束,7,June evenings: look up,"After dark, Arcturus shines high, and
+Spica lower to the south — the two
+raised ones.",bottom,E10; labels 大角 → Arcturus; 角宿一 → Spica; **remove** 天頂（晚上 8 點） and its zenith ring (Taipei-only)
+25,,鏡頭13開始,4,Two eagles in the east,"Later in the evening, look east: Vega
+and Altair.",top,E11; label 俯衝的老鷹 → Vega（織女） → the swooping eagle → Vega
+26,,鏡頭13結束＝鏡頭14開始,6,,"“The swooping eagle” and “the flying
+eagle” — that’s where their names come
+from.",top,"E12; labels as 25 + 飛翔的老鷹 → Altair（牛郎） → the flying eagle → Altair; then straight to 29 (pages 27–28: card C-A34-05 with Taipei times, removed)"
 29,,鏡頭15結束,3,,,,"pull-back, no caption"
 30,,端卡（下集見）,4,Next Wednesday,Who decided the 88 constellations?,endcard,E13
 31,,追蹤頁,3,,Follow for a new sky every week.,endcard,E14

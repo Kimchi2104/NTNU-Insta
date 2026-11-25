@@ -1,4 +1,4 @@
-# EN45 ｜ The 28 Lunar Mansions: Where the Moon Rests ・ v0 (awaiting Gemini review)
+# EN45 ｜ The 28 Lunar Mansions: Where the Moon Rests ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -7,7 +7,7 @@
 | Length | **89 s** (including the 3 s follow page), 17 beats, 195 words of body text on screen (~230 with headlines) (no voice-over; text over light music) |
 | Story | One story only: **does the Moon sleep in a new room each night?** The Moon circles the sky in 27.3 days, and a 1st-century writer called the 28 mansions its lodges — but China’s rooms differ sixteenfold in size (Jing 33°, Zui 2°), so they were never “one night, one room”. India cut 27 equal parts and squeezed out a 28th; the Arabs counted 28 stations. Four civilisations, but not four inventions. Close: the Great Square of Pegasus in the east, with Shi at its corner |
 | Canva | Copy of the Chinese design: **`EN45 A-06 中秋` already exists** (DAHZrZ5qhsg, 82 pages) — card 07 works in that copy. The aired design is the old (pre-v4) format: no 製作表, no page names, no speaker notes, no concept diagrams; every Chinese word on the kept pages (captions and star labels) is a Canva text element, so **no English diagram is needed**. The “Chinese page name” column below describes what is on the page. Page 1 = cover, 44 = Mid-Autumn / next-episode card, 45 = follow page, 46–82 = references and credits (unused). |
-| Opening line | *One sky. Four civilisations saw — the Moon’s rooms.* (= the Chinese 統一開頭「同一片星空，四個文明都在數——月亮的房間」; “28” left out because India’s main system has 27) |
+| Opening line | *One sky. Four civilisations counted — the Moon’s rooms.* (= the Chinese 統一開頭「同一片星空，四個文明都在數——月亮的房間」; “28” left out because India’s main system has 27) |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4, E05 and E14; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
 ## Beats (text on screen)
@@ -16,22 +16,22 @@
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
-| E01 | 3 | 1 | cover | World Sky Cultures | One sky. Four civilisations saw — the Moon’s rooms. *(second line = the hook: Does the Moon sleep in a new room each night?)* | — |
-| E02 | 5 | 2 | top | Mid-Autumn tonight | Tonight’s Moon is staying in a room with a name. | 2.0 |
-| E03 | 7 | 4 | bottom | Inns along the sky | “The 28 mansions are lodges of the Sun and Moon.” — Wang Chong, 1st century | 2.1 |
+| E01 | 3 | 1 | cover | World Sky Cultures | One sky. Four civilisations counted — the Moon’s rooms. *(second line = the hook: Does the Moon sleep in a new room each night?)* | — |
+| E02 | 5 | 2 | top | Mid-Autumn night | Tonight’s Moon is staying in a room with a name. | 2.0 |
+| E03 | 7 | 4 | bottom | Inns along the sky | “The 28 mansions are lodges of the Sun and Moon.” — Wang Chong, 1st century CE | 2.1 |
 | E04 | 5 | 6 | top | Why rooms? | The Moon takes 27.3 days to circle the sky. | 1.8 |
-| E05 | 5 | 8 | top | 28 mansions | China cut that path into 28 mansions, starting from Jiao, “the Horns.” | 2.4 |
-| E06 | 7 | 10 | bottom | One room per night? | Draw the borders: the biggest, Jing, “the Well,” spans 33°. The Moon needs 2½ days. | 2.1 |
-| E07 | 6 | 11 | bottom | | The smallest, Zui, “the Turtle Beak,” is just 2°: crossed in 3½ hours. | 2.2 |
-| E08 | 5 | 12 | bottom | Sixteen times apart | So China’s mansions were never cut as “one night, one room.” | 2.2 |
-| E09 | 6 | 24 | top | India: 27 equal parts | India cut the ecliptic into 27 equal parts, each exactly 13°20′. | 1.8 |
-| E10 | 6 | 27 | bottom | A 28th, squeezed out | There was once a 28th, Abhijit, by Vega. Equal parts squeezed it out. | 2.2 |
-| E11 | 5 | 31 | bottom | Arabia: 28 stations | The Arabs called them manāzil: the Moon’s stations. Twenty-eight of them. | 2.2 |
-| E12 | 5 | 36 | bottom | Invented four times? | “Four civilisations each invented the 28 mansions”: that does not hold. | 2.2 |
-| E13 | 6 | 37 | bottom | | Japan and Korea took theirs from China; the Arabs’ most likely came from India. | 2.3 |
+| E05 | 5 | 8 | top | 28 mansions | China cut that path into 28 mansions, starting from Jiao (the Horns). | 2.4 |
+| E06 | 7 | 10 | bottom | One room per night? | Draw the borders: the biggest, Jing (the Well), spans 33°. The Moon needs 2.5 days. | 2.1 |
+| E07 | 6 | 11 | bottom | | The smallest, Zui (the Turtle Beak), is just 2° — crossed in 3.5 hours. | 2.2 |
+| E08 | 5 | 12 | bottom | 16 times the size | So China’s mansions were never built for “one night, one room.” | 2.2 |
+| E09 | 6 | 24 | top | India did it differently | India cut the ecliptic into 27 equal parts, each exactly 13°20′. | 1.8 |
+| E10 | 6 | 27 | bottom | A 28th, squeezed out | There was once a 28th, Abhijit, by Vega. Splitting evenly pushed it out. | 2.2 |
+| E11 | 5 | 31 | bottom | Arabia: 28 stations | The Arabs called them manāzil — the Moon’s stations. Twenty-eight of them. | 2.2 |
+| E12 | 5 | 36 | bottom | Invented four times? | “Four civilisations each invented the 28 mansions” — that doesn’t hold up. | 2.2 |
+| E13 | 6 | 37 | bottom | | Japan and Korea adopted China’s; the Arab system most likely came from India. | 2.2 |
 | E14 | 5 | 38 | bottom | | China or India first, or each on its own? Scholars still argue. | 2.4 |
-| E15 | 7 | 42 | bottom | Look east after dark | The Great Square of Pegasus stands like a diamond. Its right-hand corner is Shi, “the Room.” | 2.3 |
-| E16 | 3 | 44 | endcard | Happy Mid-Autumn! | Next Wednesday: another people, another sky. | 2.0 |
+| E15 | 7 | 42 | bottom | Look east after dark | The Great Square of Pegasus stands like a diamond. Its right corner is Shi (the Room). | 2.3 |
+| E16 | 3 | 44 | endcard | Happy Mid-Autumn Festival! | Next Wednesday: another people, another sky. | 2.0 |
 | E17 | 3 | 45 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -67,17 +67,17 @@ Total 89 s (E17 included).
 | 二十八宿 | the 28 mansions | 譯名表 Twenty-Eight Mansions |
 | 房間／宿 | rooms | the Chinese episode’s own metaphor (「月亮的房間」) |
 | 中秋 | Mid-Autumn (Festival) | new |
-| 王充 | Wang Chong, 1st century | new; quote from the 論衡 (*Lunheng*), shortened: “… like post stations on earth” left out |
+| 王充 | Wang Chong, 1st century CE | new; quote from the 論衡 (*Lunheng*), shortened: “… like post stations on earth” left out |
 | 恆星月 27.3 天 | 27.3 days | 譯名表 sidereal month (term not on screen) |
-| 角宿 | Jiao, “the Horns” | 譯名表; labels also Spica (角宿一), Kang (亢宿), Di (氐宿) |
-| 井宿 | Jing, “the Well” | new |
-| 觜宿 | Zui, “the Turtle Beak” | new |
+| 角宿 | Jiao (the Horns) | 譯名表; labels also Spica (角宿一), Kang (亢宿), Di (氐宿) |
+| 井宿 | Jing (the Well) | new |
+| 觜宿 | Zui (the Turtle Beak) | new |
 | 鬼宿／參宿 | Gui／Shen | labels only (pages 10, 11); new |
 | 黃道 | the ecliptic | new |
 | Abhijit／織女星 | Abhijit, by Vega | 譯名表 |
-| manāzil（月亮的驛站） | manāzil: the Moon’s stations | 譯名表 Manāzil al-Qamar; lower-case as in the Chinese design |
+| manāzil（月亮的驛站） | manāzil — the Moon’s stations | 譯名表 Manāzil al-Qamar; lower-case as in the Chinese design |
 | 飛馬座大四方形 | the Great Square of Pegasus | 譯名表 (秋季大四邊形) |
-| 室宿 | Shi, “the Room” | 譯名表 “the Encampment / Room”; “Room” chosen to match the episode’s metaphor |
+| 室宿 | Shi (the Room) | 譯名表 “the Encampment / Room”; “Room” chosen to match the episode’s metaphor |
 
 ## YouTube
 
@@ -92,8 +92,8 @@ Total 89 s (E17 included).
 Does the Moon sleep in a new room each night? 🌕
 The Moon circles the sky in 27.3 days. China cut its path into 28 mansions, but the rooms differ sixteenfold: Jing spans 33°, Zui just 2°. India cut 27 equal parts; the Arabs counted 28 stations, manāzil.
 Four civilisations, not four inventions: Japan and Korea took theirs from China, and the Arabic system most likely came from India.
-Tonight, look east after dark: the Great Square of Pegasus, with Shi at its right-hand corner.
-Happy Mid-Autumn!
+Tonight, look east after dark: the Great Square of Pegasus, with Shi at its right corner.
+Happy Mid-Autumn Festival!
 #WorldSkyCultures #MidAutumn #Moon #astronomy #lunarmansions #Nakshatra #skylore
 (First comment: sources — Wang Chong, Lunheng; Sun & Kistemaker 1997; Saha & Lahiri 1992; Kunitzsch in Selin (ed.); Stellarium chinese, indian & arabic_lunar_stations.)
 
@@ -106,10 +106,36 @@ Wording to check:
 2. E02 “Tonight’s Moon is staying in a room with a name” = 「你抬頭看的那顆月亮，住在一間有名字的房間裡」 without the name 室宿 (that was 2026-09-25; the 2027 Moon’s mansion was not checked, so no name is given).
 3. E03 shortens Wang Chong: 「二十八宿為日月舍，猶地有郵亭為長吏廨矣」 → “The 28 mansions are lodges of the Sun and Moon.” The second half (like post stations for officials on earth) is cut; the headline “Inns along the sky” carries the image.
 4. E05 “China cut that path into 28 mansions, starting from Jiao” = 「中國沿著這條路切了二十八段，從角宿起」.
-5. E06–E08: 井宿 33°, two and a half days; 觜宿 2°, three and a half hours; 「大小差十六倍」 → headline “Sixteen times apart”; 「根本不是照『月亮一晚住一間』切的」 → “never cut as ‘one night, one room’.”
+5. E06–E08: 井宿 33°, two and a half days; 觜宿 2°, three and a half hours; 「大小差十六倍」 → headline “16 times the size”; 「根本不是照『月亮一晚住一間』切的」 → “never built for ‘one night, one room’.”
 6. E09 “exactly 13°20′” = 「每份剛好十三度二十分」.
-7. E10 “Equal parts squeezed it out” compresses 「後來印度人把黃道改成等分，二十八除不盡，它就被擠掉了」; “only kept for choosing dates” is cut.
+7. E10 “Splitting evenly pushed it out” compresses 「後來印度人把黃道改成等分，二十八除不盡，它就被擠掉了」; “only kept for choosing dates” is cut.
 8. E13 “most likely” = 「多半」 (the hedge is kept); E14 keeps 「學界吵到今天還沒吵完」 as “Scholars still argue.”
 9. E15 is the Chinese 「今晚往東邊看，飛馬座那個大四方形立著像個菱形，最右邊那個角就是室宿」 without 「月亮今晚住那裡」. In mid-September at northern mid-latitudes the Square is in the east after dark, standing on a corner; the right-hand (southern) corner is Markab, α Peg, Shi’s determinative star.
 10. E16 “another people, another sky”: no English episode is scheduled after EN45 yet (it is the last row by date), so the end card names none; replace it when the next Wednesday is scheduled.
 11. Page sequence is the authority for timing (total 89 s).
+
+## 審稿合併（Gemini 審稿 → v1）
+
+來源：`04_腳本庫/_審稿/EN45_審稿_gemini.md`。每條都對回中文定稿（Canva A-06 頁文字）；Gemini 沒有提出新事實，新事實一律不收。改完逐格重算 w/s（全部 ≤ 2.5，最高 2.4＝E05、E14）、每行 ≤ 40 字母、字卡 ≤ 6 字。
+
+採用（14 條）：
+- 🔴 E08 headline “Sixteen times apart” → “16 times the size”（對應「大小差十六倍」，“apart” 會讀成距離）。
+- 🟡 E01 “saw” → “counted”（中文「都在數」）；YouTube／Caption／Opening line 同步。
+- 🟡 E02 “Mid-Autumn tonight” → “Mid-Autumn night”（避免與內文 “Tonight’s” 重複）。
+- 🟡 E05／E06／E07／E15 星名釋義改括號：Jiao (the Horns)、Jing (the Well)、Zui (the Turtle Beak)、Shi (the Room)；Glossary、Caption 同步。
+- 🟡 E06／E07 “2½／3½” → “2.5／3.5”（與 E04 的 27.3 一致；Canva 字型 ½ 容易縮小）。
+- 🟡 E07 冒號 → 破折號 “2° — crossed in 3.5 hours”。
+- 🟡 E08 “cut as” → “built for”（避免與 E05、E09 的 cut 重複；中文「照…切的」意思不變）。
+- 🟡 E09 headline → “India did it differently”（中文「印度不一樣」；不再重複內文）。
+- 🟡 E10 “Equal parts squeezed it out” → “Splitting evenly pushed it out”（中文「改成等分後被擠掉」）。
+- 🟡 E12 “that does not hold” → “that doesn’t hold up”。
+- 🟡 E13 → “Japan and Korea adopted China’s; the Arab system most likely came from India.”（保留「多半」＝most likely）。
+- 🟡 E16 headline → “Happy Mid-Autumn Festival!”。
+- ⚪ E03 加 CE（王充約 27–97 CE，無歧義）；E11 內文冒號 → 破折號；E15 “right-hand” → “right”。
+
+不採用：
+- 🔴 E01／E12 “civilisations” → “civilizations”：系列英文稿一向用英式拼法（colour、17 Feb、civilisations，EN13 合併已定案）；句末引號句點在內是系列體例，不是美式拼法的證據，兩者不矛盾。不改。
+- 🟡 E01 封面重排（把鉤子改成頂部主句、「28 rooms for the Moon」）：系列封面固定「World Sky Cultures」＋開場句＋第二行鉤子（同 EN01–EN13）；“28 rooms” 也會抹掉 India 主系統是 27 的限定（見 header Opening line 說明）。只收 “counted”。
+- 第三節 1（四個文明 vs 五個地區）：維持中文原文「四個文明」；E13 的日韓是承自中國，並非獨立文明，不矛盾。
+- 第三節 3（加 Nakshatra）：中文稿該頁沒有，屬新增，不收。
+- 第三節 4（南半球視角）：忠於中文稿「今晚往東看」，不加字。

@@ -5,20 +5,20 @@ map made only of lines.
 
 2
 00:00:03,000 --> 00:00:09,000
-The lines that join the stars in your
-app: who drew them?
+Those lines connecting the stars in your
+app — who drew them?
 
 3
 00:00:09,000 --> 00:00:18,000
-Not the IAU. In the 1920s it fixed 88
-constellations, but only their borders,
-like a map. Never the lines.
+Not the IAU. In the 1920s it defined 88
+constellations — borders only, like
+countries on a map. Never the lines.
 
 4
 00:00:18,000 --> 00:00:25,000
 So one lion can be drawn many ways. The
-star app Stellarium, by default: 10
-lines.
+star app Stellarium: 10 lines by
+default.
 
 5
 00:00:25,000 --> 00:00:29,000
@@ -33,37 +33,37 @@ Paris Observatory.
 
 7
 00:00:36,000 --> 00:00:44,000
-Star maps then hid the stars inside
+Most star maps then hid the stars inside
 mythical figures and animals. Ruelle
 took the pictures out.
 
 8
 00:00:44,000 --> 00:00:53,000
-Sickle, body, hind legs: all cut into
+Leo’s Sickle, body, hind legs: cut into
 triangles and polygons. Even five stars
 of today’s Leo Minor are in it.
 
 9
 00:00:53,000 --> 00:01:02,000
-Sadly, it came too early and did not
-catch on. European star maps took up
-lines slowly, in the 19th century.
+Sadly, it came too early and didn’t
+catch on. European star maps only slowly
+adopted lines in the 19th century.
 
 10
 00:01:02,000 --> 00:01:08,000
 The lines in your app: centuries of
-people’s choices, stacked up.
+human choices, stacked up.
 
 11
 00:01:08,000 --> 00:01:16,000
 Leo rides high in the south. The bright
-orange dot by its Sickle is Mars: don’t
+orange dot by its Sickle is Mars — don’t
 connect it.
 
 12
 00:01:16,000 --> 00:01:23,000
-Take a sheet of paper and join the stars
-your way. Your lines are a sky culture
+Grab some paper and connect the stars
+your way. Your lines are a sky culture,
 too.
 
 13
