@@ -1,35 +1,34 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,開場字卡,3,World Sky Cultures,"One sky. The ancient Chinese saw — a
-vermilion bird.",cover,"Cover: text block replaced with English; second line = the schedule’s hook (“A black bird’s egg began one dynasty. A red bird, the next.”); EN · EP13 tag"
-2,,鏡頭01開始,4,Lunar New Year special,"China’s sky has four great beasts. The
-last of them: the Vermilion Bird of the
-south.",top,E02; label 老人星 → Canopus; the Chinese 字卡 is removed
-3,,鏡頭01結束,4,Lunar New Year special,"China’s sky has four great beasts. The
-last of them: the Vermilion Bird of the
-south.",top,"E02; then Match & Move straight to page 16 (pages 4–15, the north-disc Four Symbols shot, are unused)"
+vermilion bird.",cover,"Cover: text block replaced with English (E01 only, one line; no second hook line); EN · EP13 tag"
+2,,鏡頭01開始,4,Lunar New Year special,"China’s sky has four great beasts. In
+the south flies the Vermilion Bird.",top,E02; label 老人星 → Canopus; the Chinese 字卡 is removed
+3,,鏡頭01結束,4,Lunar New Year special,"China’s sky has four great beasts. In
+the south flies the Vermilion Bird.",top,"E02; then Match & Move straight to page 16 (pages 4–15, the north-disc Four Symbols shot, are unused)"
 16,,鏡頭03開始,3,"Seven mansions, one bird","Seven lunar mansions form one bird. Sima
 Qian: Liu the beak, Xing the neck, Zhang
 the crop, Yi the wings.",bottom,E03; labels 井宿／鬼宿 → Jing／Gui
 17,,鏡頭03結束＝鏡頭04開始,7,"Seven mansions, one bird","Seven lunar mansions form one bird. Sima
 Qian: Liu the beak, Xing the neck, Zhang
 the crop, Yi the wings.",bottom,E03; Sima Qian labels in English (keep the bottom box clear of the Zhen label at Y 1433)
-18,,鏡頭04結束＝鏡頭05開始,6,"Head, Fire, Tail","Its other name is Chun, “quail”. Its
-middle third: Chunhuo, “Quail Fire”.",top,"E04; Quail Head／Fire／Tail labels sit at Y 1580, so the text goes top; then Match & Move to 26"
-26,,鏡頭07-概念圖1,3,The egg in the title,,top,"diagram, English (`_概念圖/en/C-A20-02_一顆蛋_河邊層`) fades in as the sky moves; E05 headline only"
-27,,鏡頭07-概念圖2,3,The egg in the title,,top,+ `en/…_蛋層`; E05 headline only
-28,,鏡頭07-概念圖3,3,The egg in the title,,top,+ `en/…_契層`; E05 headline only
+18,,鏡頭04結束＝鏡頭05開始,6,"Head, Fire, Tail","Its other name is Chun, literally
+“quail.” Its middle third: Chunhuo,
+“Quail Fire.”",top,"E04; Quail Head／Fire／Tail labels sit at Y 1580, so the text goes top; then Match & Move to 26"
+26,,鏡頭07-概念圖1,3,The egg that began the Shang,,top,"diagram, English (`_概念圖/en/C-A20-02_一顆蛋_河邊層`) fades in as the sky moves; E05 headline only"
+27,,鏡頭07-概念圖2,3,The egg that began the Shang,,top,+ `en/…_蛋層`; E05 headline only
+28,,鏡頭07-概念圖3,3,The egg that began the Shang,,top,+ `en/…_契層`; E05 headline only
 29,,鏡頭07-概念圖收＝鏡頭08開始,5,,"But the bird that laid it wasn’t the
 Vermilion Bird.",bottom,diagram fades; E06; feast labels removed
 30,,鏡頭08-概念圖,5,"A black bird, not red",,top,`en/C-A20-02_一顆蛋_燕子層`; E07 headline only
 31,,鏡頭08-概念圖收＝鏡頭09開始,5,,"The Shang watched another star: the
 Great Fire, the Azure Dragon’s heart.",bottom,diagram fades; E08; feast labels removed
-32,,鏡頭09-概念圖1,3,"Then a red bird, for Zhou",,top,`en/C-A20-03_紅鳥興周_火落屋頂層`; E09 headline only
-33,,鏡頭09-概念圖2,3,"Then a red bird, for Zhou",,top,+ `en/…_赤烏層`; E09 headline only
-34,,鏡頭09-概念圖3,3,"Then a red bird, for Zhou",,top,+ `en/…_歲在鶉火層`; E09 headline only
-35,,鏡頭09結束＝鏡頭11開始,7,,"The Guoyu says Jupiter stood in Quail
-Fire that year — Zhou’s own field of
+32,,鏡頭09-概念圖1,3,A red bird for the Zhou,,top,`en/C-A20-03_紅鳥興周_火落屋頂層`; E09 headline only
+33,,鏡頭09-概念圖2,3,A red bird for the Zhou,,top,+ `en/…_赤烏層`; E09 headline only
+34,,鏡頭09-概念圖3,3,A red bird for the Zhou,,top,+ `en/…_歲在鶉火層`; E09 headline only
+35,,鏡頭09結束＝鏡頭11開始,7,,"The old text Guoyu says Jupiter stood in
+Quail Fire that year — the Zhou’s own
 sky.",top,"diagram gone, sky slides to the Quail Fire band; E10; labels → Liu／Xing／Zhang／Yi"
 36,,鏡頭11結束,8,"This New Year, again","Jupiter is back in Quail Fire. Look east
-after dark: it’s the brightest light.",bottom,"E11; labels → Jupiter −2.6／Regulus／Mars／Quail Fire; the corner note → “In the real sky: Jupiter, Regulus, Mars, top to bottom”; then **hard cut** to 59"
+after dark: it’s the brightest light.",bottom,"E11; labels → Jupiter (mag −2.6)／Regulus／Mars／Quail Fire; the corner note → “In the real sky, around 8 pm: Jupiter, Regulus, Mars, top to bottom”; then **hard cut** to 59"
 59,,端卡（下集見）,4,Happy Lunar New Year!,"Next, on 17 Feb: the Sámi reindeer hunt.",endcard,E12
 60,,追蹤頁,—,,Follow for a new sky every week.,endcard,E13
