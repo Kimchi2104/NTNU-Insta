@@ -1,0 +1,41 @@
+# EN23 英文審稿
+
+## 一、逐條意見
+
+| 嚴重度（🔴必改／🟡建議／⚪可選） | 位置（beat 編號） | 原文 | 問題 | 建議改法 | 依據（中文稿的哪一句） |
+|---|---|---|---|---|---|
+| 🔴必改 | E09 | `Mid-April, 9 p.m.: Arcturus in the east, Spica lower in the southeast.` | Uses 12-hour time (`9 p.m.`) instead of the required 24-hour format (`21:00`). Also, this viewing tip replaces the Taipei-specific Chinese beat with a Northern Hemisphere tip, which is inaccurate for Southern Hemisphere viewers (where Spica is higher than Arcturus and both sit in the northeast/east-northeast at 21:00 in mid-April). | Change `9 p.m.` to `21:00`: `Mid-April, 21:00: Arcturus in the east, Spica lower in the southeast.` (If space allows in the narrow box or in the caption, add a Northern Hemisphere qualifier, e.g. `(Northern Hemisphere)`.) | 14 鏡：「九點，北斗在北方偏東，大角在正東方三十多度高，角宿一在東南東。」（本句屬英文版為北半球重寫的新內容，非直譯；時間格式依審稿規範須用 24 小時制） |
+| 🔴必改 | Caption | `Mid-April, around 9 p.m.: Arcturus in the east, Spica lower in the southeast.` | Same 12-hour time violation (`9 p.m.`). | `Mid-April, around 21:00 (Northern Hemisphere): Arcturus in the east, Spica lower in the southeast.` | 同上（時間格式須用 24 小時制） |
+| 🟡建議 | E01（封面／鉤子） | `World Sky Cultures` / `One sky. Stargazers saw — a path to find the stars.` | **Hook**: Neither the series title nor the tagline stops a stranger scrolling in the first 2 seconds — “a path to find the stars” is vague and feels like branding rather than a payoff. Also, **Page sequence (page 1)** says `second line = the schedule’s hook` (`Follow the Dipper’s handle: arc to Arcturus.`), which contradicts the Beats table’s E01 text; clarify which line goes on page 1. Even the schedule hook assumes a stranger already knows what “the Dipper” and “Arcturus” are. | Clarify whether page 1 uses the series tagline or the episode hook. For a scroll-stopping cover/first-page alternative: Headline `Find two stars from the Dipper` (6 words) or `Use the Big Dipper to star-hop` (6 words); subline `Follow its handle in one big arc to the northern sky’s brightest star.` | 01 鏡：「同一片星空，觀星的人看見——一條找星星的路。」；02 鏡：「順著斗柄彎的方向，畫一道大弧出去……北半天球最亮的恆星，大角。」 |
+| 🟡建議 | E02 | `In April, after dark, it rides high in the northeast.` | Two back-to-back introductory phrases (`In April, after dark,`) feel choppy, and at 10 words in 4 s (2.5 w/s) plus a 5-word headline, the page is right at the reading-speed ceiling. Factually, like E09, this is a Northern Hemisphere generalization not present in the Taipei-specific Chinese script. | Tighten for faster reading and active flow: `After dark in April, look high in the northeast.` (9 words, 2.3 w/s). | 02 鏡：「先找北斗：這幾天晚上八點，它在東北方半天高，斗柄朝右下。」 |
+| 🟡建議 | E04 / Page sequence (p. 4) | `About three fists away: an orange star, the northern sky’s brightest.` / `3 fists ≈ 30°` | Drops 「手臂伸直」 (“at arm’s length”) from both the on-screen text and the hand-sketch label (`3 fists ≈ 30°`). Without “at arm’s length,” a beginner holding a fist near their face will misjudge the 30° span. | Keep E04 concise for the narrow box, but update the page 4 hand-sketch label to `3 fists at arm’s length ≈ 30°`. | 02 鏡：「手臂伸直，大約三個拳頭遠，你會碰到一顆橘色的亮星：北半天球最亮的恆星，大角。」 |
+| 🟡建議 | E05 | `Carry the same arc south, about as far: blue-white Spica.` | `about as far:` followed by a colon reads slightly telegraphic/stilted in English. | `Extend the same arc south, about as far, to blue-white Spica.` (11 words, 1.8 w/s) | 03 鏡：「再順著同一道弧，往南延伸差不多一樣遠，就會看到一顆藍白色的星：角宿一。」 |
+| 🟡建議 | E06 | `Mizar, Alkaid, Arcturus and Spica sit almost on one circle.` | `sit almost on one circle` is slightly non-idiomatic in English astronomy/geometry (`lie` is standard, as already used in the header’s Story summary). Also right at 2.5 w/s (10 words in 4 s) with a 4-word headline. | `Mizar, Alkaid, Arcturus and Spica lie almost on one circle.` (10 words, 2.5 w/s) — or shorter: `Mizar, Alkaid, Arcturus, Spica—almost on one circle.` (8 words, 2.0 w/s). | 04 鏡：「斗柄尾端的開陽、搖光，加上大角、角宿一，幾乎就在同一個圓上。」 |
+| 🟡建議 | E07 / Glossary | `Stellarium software even builds it in as a star-hopping guide.` | Drops 「天文」 (“astronomy”), so viewers unfamiliar with Stellarium will not know what kind of software it is. `builds it in` is also slightly awkward compared to `includes it` or `has it built in`. In addition, the Glossary row says `“the Stellarium software” on first mention`, which does not match E07. | `The astronomy app Stellarium even includes it as a star-hopping guide.` (11 words, 1.8 w/s; 3 lines in narrow box) — and update the Glossary note to match. | 04 鏡：「連天文軟體 Stellarium，都把這條線內建成指星的輔助線。」 |
+| 🟡建議 | E08 | `The Greeks named Arcturus Arktouros: the guardian of the bear.` | `named Arcturus Arktouros` sounds circular (since *Arcturus* is the Latinized form of *Arktouros*) and puts the two names side by side without quotation marks or a dash. | `The Greeks called Arcturus Arktouros—“guardian of the bear.”` (9 words, 1.3 w/s; follows the `—` and `“ ”` punctuation rules and matches the YouTube description’s `called`). | 08 鏡：「希臘人叫大角 Arktouros，守熊的人。」 |
+| 🟡建議 | Caption | `It isn’t forced: Mizar, Alkaid, Arcturus and Spica sit almost on one circle` / `Arcturus, the brightest of the northern sky.` | `It isn’t forced` is a literal translation of 「不是硬湊的」 and sounds slightly unnatural in English; `the brightest of the northern sky` is cleaner with `star in`. | `The arc is real: Mizar, Alkaid, Arcturus and Spica lie almost on one circle` / `Arcturus, the brightest star in the northern sky.` | 04 鏡：「這道弧不是硬湊的：斗柄尾端的開陽、搖光，加上大角、角宿一，幾乎就在同一個圓上。」；02 鏡：「北半天球最亮的恆星，大角。」 |
+| ⚪可選 | E01 / Caption | `Stargazers saw — a path` / `India — the Moon’s 27 wives.` | Spaced em-dashes (` — `) are used in E01 and Caption. Standard US/international short-form style uses unspaced em-dashes (`—`), though spaced is fine if it is the series house style. | Standardize em-dash spacing across Beats, YouTube, and Caption (recommend unspaced `—`). | 01 鏡：「觀星的人看見——一條找星星的路。」 |
+| ⚪可選 | YouTube Description | `keep going about as far and you reach Spica.` / `sit almost on one circle.` | Slightly casual (`about as far`) and `sit` → `lie` for consistency with E06. | `keep going about the same distance and you reach Spica.` / `lie almost on one circle.` | 03 鏡、04 鏡 |
+
+## 二、建議的定稿版（整張 Beats 表照原格式重寫一次，改過的格子標 **粗體**）
+
+| # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
+|---|---|---|---|---|---|---|
+| E01 | 3 | 1 | cover | World Sky Cultures | **One sky. Stargazers saw—a path to find the stars.** | — |
+| E02 | 4 | 2 | bottom | First, find the Big Dipper | **After dark in April, look high in the northeast.** | **2.3** |
+| E03 | 5 | 3 | bottom | | Follow the curve of its handle. Keep going in a big arc. | 2.4 |
+| E04 | 8 | 4 | bottom-right | Arc to Arcturus | About three fists away: an orange star, the northern sky’s brightest. | 1.4 |
+| E05 | 6 | 5 | top | Spike to Spica | **Extend the same arc south, about as far, to blue-white Spica.** | **1.8** |
+| E06 | 4 | 6 | bottom-right | Four stars, one circle | **Mizar, Alkaid, Arcturus and Spica lie almost on one circle.** | 2.5 |
+| E06b | 9 | 7, 8, 9 | top | Four stars, one circle | *(headline only; the English diagram carries its own captions)* | — |
+| E07 | 6 | 10 | bottom-right | | **The astronomy app Stellarium even includes it as a star-hopping guide.** | **1.8** |
+| E08 | 7 | 25 | bottom | The bear’s guardian | **The Greeks called Arcturus Arktouros—“guardian of the bear.”** | **1.3** |
+| E09 | 9 | 50 | top-left | Look east this April | **Mid-April, 21:00: Arcturus in the east, Spica lower in the southeast.** | **1.2** |
+| E10 | 3 | 54 | endcard | Next Wednesday | India: the Moon’s 27 wives. | 1.7 |
+| E11 | 3 | 55 | endcard | | Follow for a new sky every week. | 2.3 |
+
+## 三、沒把握的地方
+
+1. **封面第 1 頁的文案分工**：Beats 表 E01 放的是系列統一開頭 `One sky. Stargazers saw — a path to find the stars.`，但 Page sequence 第 1 頁的 Note 寫 `second line = the schedule’s hook`（Cuts and changes #9 指的是 `Follow the Dipper’s handle: arc to Arcturus.`）。不確定封面是否兩句並存，或其中一句會取代另一句；定稿合併時需確認。
+2. **北半球限定標註（E02、E09）**：EN23 把中文版的台北觀星資訊改成北半球中緯度版本（Cuts and changes #1、#7 以 40°N 檢算），但畫面文字沒有標示「北半球（Northern Hemisphere）」。若國際觀眾包含南半球讀者，E02 與 E09 的方位與高度關係會不符；是否要在 E09 畫面（會略增字數）或僅在 Caption 加上 `(Northern Hemisphere)`，交由定稿決定。
+3. **窄框折行實測（E04、E06、E07、E09）**：`bottom-right`／`top-left` 寬度為 520–600 px，字數落在 60–70 字元左右，實際是否能穩在 3 行以內需進 Canva 套字型後確認。
