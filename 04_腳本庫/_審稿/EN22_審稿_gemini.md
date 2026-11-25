@@ -1,0 +1,49 @@
+# EN22 英文審稿
+
+## 一、逐條意見
+
+| 嚴重度（🔴必改／🟡建議／⚪可選） | 位置（beat 編號） | 原文 | 問題 | 建議改法 | 依據（中文稿的哪一句） |
+|---|---|---|---|---|---|
+| 🔴必改 | E12（Headline） | `Early April, 9 pm: look northeast` | Uses 12-hour time (`9 pm`) instead of required 24-hour time; also produces a double colon if changed directly to `21:00:`. In addition, this viewing tip is localized for ~40° N in early April (not in the Chinese script, which gives Taipei 4/2 at 20:00) and does not state that it applies to the Northern Hemisphere. | `Early April, 21:00 — look northeast` (and consider noting "Northern Hemisphere" in the caption or on-screen if space allows). | 12 鏡：「八點往東北方抬頭：它已經爬到半天高……」 |
+| 🔴必改 | E12（Text） | `It is already high. Around 11 pm it stands highest in the north, upside down.` | Uses 12-hour time (`11 pm`) instead of required 24-hour time. (Same issue on Canva page 38 label: `11 pm: upside down`.) | `It is already high. Around 23:00 it stands highest in the north, upside down.` (and page 38 label: `23:00: upside down`). | 12 鏡：「十一點前後，它升到北方最高處，整個倒掛。」 |
+| 🟡建議 | E01（Cover / Hook） | `One sky. The whole world saw — this ladle.` | Faithful to the Chinese series opening, but as a 2-second scroll-stopper for an international viewer who has not seen the series, it is slow and abstract ("this ladle" does not immediately register as the Big Dipper or create curiosity). | Alternative hook: `A bull’s leg, a bier, robbers — all the Big Dipper.` (Mirrors the Chinese schedule hook and IG caption opening; immediately sparks curiosity in <2 s. Keep the original only if the uniform series opening is mandatory.) | 統一開頭：「同一片星空，全世界都看見——這把勺子。」；節目表鉤子：「牛腿、車、熊、仙人、棺架、強盜、大蛇、船、漁網、獵物——都是它」 |
+| 🟡建議 | E02（Text） | `Seven stars shaped like a ladle, and ten lives around the world.` | Repeats "ladle" and "ten lives" from E01/E02 headline; slightly wordy at 2.4 w/s. | `Seven stars shaped like a ladle — ten lives around the world.` (2.2 w/s, punchier rhythm.) | 01 鏡：「七顆星排成一把勺子……可是在世界各地，它活出了十種人生。」 |
+| 🟡建議 | E06（Text） | `India’s seven sages, Mongolia’s seven old men, the Blackfoot’s seven brothers and their little sister.` | 102 characters (tight 3-line wrap at 37/39/24 chars); asyndetic list without "and" before the third item; `the Blackfoot’s` is slightly clunky as a possessive. | `India: seven sages. Mongolia: seven old men. Blackfoot: seven brothers and their little sister.` (95 chars, 2.0 w/s, cleaner parallel structure for fast reading.) | 06 鏡：「在印度，他們是七位仙人。……蒙古說是七位老人，北美的黑腳族說是七兄弟和小妹」 |
+| 🟡建議 | E07（Text） | `In Arabia, the bowl is a bier, and the handle the daughters who carry it.` | Ellipsis of "is" after `the handle` without a separating comma causes a brief reading stumble. | `In Arabia, the bowl is a bier; the handle, the daughters who carry it.` (2.0 w/s, instant parsing.) | 07 鏡：「阿拉伯人說，斗口四顆是一副棺架，斗柄三顆是抬棺的女兒。」 |
+| 🟡建議 | E08（Text） | `In Macedonian folklore, a gang circling all night, like thieves around a house.` | Sentence fragment (`a gang circling`), and uses a comma before `like` where the Chinese uses a dash (`——`). | `In Macedonian folklore, a gang circles all night — like thieves around a house.` (Full clause, 1.9 w/s.) | 08 鏡：「馬其頓民間說，這七顆星是一夥強盜，整夜在天上兜圈子——就像小偷繞著人家的房子打轉。」 |
+| 🟡建議 | E09（Text） | `In the Amazon, the Tukano say: when it touches the horizon at dusk, it swallows nearly all the river’s fish.` | Drops the seasonal cue 「每年」 ("each year"), which could make it sound like a nightly event; also 108 characters (middle line hits the 40-char ceiling). | `To the Amazon’s Tukano, when it touches the horizon at dusk each year, it swallows nearly all the river’s fish.` (20 words, 2.2 w/s, wraps cleanly at 39/33/37 chars, preserves 「每年」「碰到」「幾乎」「河裡的魚」.) | 09 鏡：「圖卡諾人說，那是一條大蛇：每年，它在黃昏碰到地平線的那段日子，河裡的魚，幾乎都被它吞光了。」 |
+| 🟡建議 | E10（Headline & Text） | `⑧ A ship ⑨ A net` / `For the Bugis, a ship. For the Mandar fishermen, a fishing net.` | Headline items run together visually without a separator; `For the Mandar fishermen` sounds slightly unidiomatic ("Mandar fishermen" or "the Mandar"). | Headline: `⑧ A ship · ⑨ A net` / Text: `For the Bugis, a ship. For Mandar fishermen, a fishing net.` | 10 鏡：「布吉斯人看見一艘木造帆船；曼達爾漁夫把它一路連進天龍座，看成一張漁網。」 |
+| 🟡建議 | E11（Text） | `For the Evenki of Siberia, the bowl is a moose’s legs, the handle its hunter.` | Comma splice / missing pause before the elliptical second clause. Regarding the author’s note on singular vs. plural hunter: keep singular `its hunter`, because the Chinese script names a single mythical hunter (`Манги`). | `For the Evenki of Siberia, the bowl is a moose’s legs; the handle, its hunter.` | 11 鏡：「西伯利亞的埃文基人說，斗口是駝鹿的腳，斗柄是追牠的獵人」；名稱表：「Хэглэн／Манги｜宇宙駝鹿（斗口＝駝鹿的腳）／獵人（斗柄）」 |
+| 🟡建議 | E13（Text） | `Al-Suhā, the faint star beside Mizar, was said to test eyesight. Can you see it?` | Sits right at the 2.50 w/s reading-speed ceiling; capitalizing `Al-Suhā` at the start of the sentence slightly diverges from the lowercase `al-Suhā` in the Chinese 名稱表 and Caption. | `Beside Mizar, faint al-Suhā was said to test eyesight. Can you see it?` (13 words, 2.2 w/s, keeps exact `al-Suhā` spelling and the `was said to` hedge.) | 07 鏡：「開陽旁邊那顆小星，這裡叫 al-Suhā，據說從前用來考眼力」；12 鏡：「開陽旁邊，你看得到 al-Suhā 嗎？」 |
+| 🟡建議 | Page sequence（p. 3, p. 11 labels） | `北斗 → Beidou (China)` / `帝車／中國：天帝的車 → China: the Sky Emperor’s chariot` | Chinese asterisms should show pinyin + meaning on first mention: p. 3 has pinyin (`Beidou`) without meaning; p. 11 has meaning (`the Sky Emperor’s chariot`) without pinyin (`Dìchē` / `Diche`). | p. 3: `Beidou — Northern Dipper (China)` (or `Beidou (Northern Dipper, China)`); p. 11: `Diche: the Sky Emperor’s chariot (China)`. | 名稱表：「北斗｜中國｜北方的斗（量米的勺）」「帝車｜中國｜天帝的車」 |
+| ⚪可選 | E03（Text） | `Ancient Egyptians called it Meskhetyu, and drew it on coffin lids.` | Unnecessary comma before `and` in a compound predicate with one subject. | `Ancient Egyptians called it Meskhetyu and drew it on coffin lids.` | 03 鏡：「古埃及人叫它 Meskhetyu。四千年前的棺材蓋上，就畫著這條牛腿。」 |
+| ⚪可選 | E05（Text） | `In Homer, the Bear turns in place, watching Orion: the only one that never bathes in the ocean.` | Colon works, though an em-dash (`—`) reads more smoothly for the appositive clause on screen. | `In Homer, the Bear turns in place, watching Orion — the only one that never bathes in the ocean.` | 05 鏡：「荷馬的史詩寫，大熊——人們也叫它車——在原地打轉，望著獵戶，只有它不下海洗澡。」 |
+| ⚪可選 | Header（Canva row） | `If the Chinese design ends differently, put E17 and E18 on its next-episode and follow pages.` | Copy-paste typo: this script’s endcards are `E14` and `E15`, not `E17` and `E18`. | `If the Chinese design ends differently, put E14 and E15 on its next-episode and follow pages.` | —（本稿 Beats 表僅至 E15） |
+| ⚪可選 | Page sequence（p. 22 label） | `七兄弟和小妹（黑腳族） → seven brothers and their sister (Blackfoot)` | Minor wording mismatch with E06 (`their little sister`), though `Seven Brothers and Their Sister` matches the Stellarium name in 名稱表. | Either keep as-is (matches Stellarium) or align both to `their little sister` / `their sister`. | 06 鏡：「七兄弟和小妹」；名稱表：「Seven Brothers and Their Sister」 |
+
+## 二、建議的定稿版（整張 Beats 表照原格式重寫一次，改過的格子標 **粗體**）
+
+| # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
+|---|---|---|---|---|---|---|
+| E01 | 3 | 1 | cover | World Sky Cultures | **A bull’s leg, a bier, robbers — all the Big Dipper.** | — |
+| E02 | 5 | 3 | bottom | Ten lives of one ladle | **Seven stars shaped like a ladle — ten lives around the world.** | **2.2** |
+| E03 | 5 | 9 | bottom | ① A bull’s foreleg | **Ancient Egyptians called it Meskhetyu and drew it on coffin lids.** | 2.2 |
+| E04 | 6 | 10, 11 | bottom | ② A cart | From northern and eastern Europe to China, people see a cart. | 1.8 |
+| E05 | 8 | 15, 16 | bottom | ③ A bear | **In Homer, the Bear turns in place, watching Orion — the only one that never bathes in the ocean.** | 2.3 |
+| E06 | 7 | 22 | bottom | ④ Seven people | **India: seven sages. Mongolia: seven old men. Blackfoot: seven brothers and their little sister.** | **2.0** |
+| E07 | 7 | 23 | bottom | ⑤ A bier | **In Arabia, the bowl is a bier; the handle, the daughters who carry it.** | **2.0** |
+| E08 | 7 | 25, 26 | bottom | ⑥ Robbers | **In Macedonian folklore, a gang circles all night — like thieves around a house.** | 1.9 |
+| E09 | 9 | 27, 30 | bottom | ⑦ A fish-eating serpent | **To the Amazon’s Tukano, when it touches the horizon at dusk each year, it swallows nearly all the river’s fish.** | 2.2 |
+| E10 | 6 | 31, 32 | top | **⑧ A ship · ⑨ A net** | **For the Bugis, a ship. For Mandar fishermen, a fishing net.** | **1.8** |
+| E11 | 7 | 33 | top | ⑩ Prey | **For the Evenki of Siberia, the bowl is a moose’s legs; the handle, its hunter.** | 2.1 |
+| E12 | 7 | 37 | bottom | **Early April, 21:00 — look northeast** | **It is already high. Around 23:00 it stands highest in the north, upside down.** | **2.0** |
+| E13 | 6 | 38 | bottom | Test your eyes | **Beside Mizar, faint al-Suhā was said to test eyesight. Can you see it?** | **2.2** |
+| E14 | 3 | 43 | endcard | Next Wednesday | Follow the handle’s arc to a star. | 2.3 |
+| E15 | 3 | 44 | endcard | | Follow for a new sky every week. | 2.3 |
+
+## 三、沒把握的地方
+
+1. **E01 統一開頭 vs. 鉤子**：英文系列是否硬性要求跨文化特輯保留 `One sky. The whole world saw — this ladle.` 作為統一開頭？如果是，E01 維持原文即可，但建議把「牛腿、棺架、強盜」這類具體反差提前放進 E02 或封面上方副標，以提升前兩秒留存率。
+2. **E12 的北半球預設與天文數據核對**：E12 以北緯 40°、4 月 7 日 21:00／23:00 取代中文稿的台北 4 月 2 日 20:00／23:00，此組數據不在中文稿中（屬於英文版自行在地化改寫）。南半球觀眾在 4 月初看北斗不會「already high」或「highest in the north」，是否要在 E12 或 Caption 補一句 `(Northern Hemisphere)`，請定稿時決定。
+3. **E14 下集預告的強度**：中文稿 13 鏡寫「去找北半天球最亮的恆星」，英文版 E14 為了在 3 秒內控制在 7 字（2.3 w/s），壓縮成 `Follow the handle’s arc to a star.`，雖無事實錯誤但略顯平淡；若直寫 `the brightest star` 又會漏掉「北半天球」而變成事實錯誤（全天最亮是天狼星）。除非把 E14 放寬到 4 秒（改寫為 `Follow the handle’s arc to the northern sky’s brightest star.`），否則建議維持原句。
+4. **YouTube / Caption 引用的《百道梵書》出處**：英文版正片已刪掉印度「熊」的典故（僅保留第 16 頁標籤 `ṛkṣa`），YouTube 與首留言仍列 `Śatapatha Brāhmaṇa 2.1.2.4`——若作為第 16 頁標籤的出處，保留無妨；若只列正片文字提到的出處，可斟酌是否保留。
