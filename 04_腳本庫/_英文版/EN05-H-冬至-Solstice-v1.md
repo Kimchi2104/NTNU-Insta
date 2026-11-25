@@ -6,7 +6,7 @@
 | Publish | **2026-12-21 (Mon) 21:00 Taiwan time** (festival short; the solstice is 12/21 20:50 UTC): EN05 in `06_發布月曆/節目表_萬國星空_英文版.csv` |
 | Length | **60 s** (festival short, 30–60 s), 10 beats, ~102 words on screen (no voice-over; text over light music) |
 | Story | One story only: **a stick measures the year**. The longest noon shadow marks the winter solstice; from one longest shadow to the next is a year of 365¼ days, so the sky got 365¼ degrees; later China's Shoushi calendar took 365.2425 days, the same number as the Gregorian calendar. Ends with a noon-shadow tip and tonight's Moon by the Pleiades |
-| Canva | Not made yet. Copy of the Chinese design `H - 冬至` (DAHWtFEggSE), to be named `EN05 H - 冬至` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 28 = next-episode card, 29 = follow page). |
+| Canva | `EN05 H-冬至` (DAHZrSeV3Bg), a copy of the Chinese design `H - 冬至` (DAHWtFEggSE). **Placed 2026-11-25**: English cover, text, diagrams and end cards on the 15 kept pages, which now sit in order as Canva pages 1–15 (the "Now" column below); pages 16–30 are unused — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 28 = next-episode card, 29 = follow page). |
 | Opening line | *One sky. Ancient China saw — a year in a shadow.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.5: E06 / E08; = words in Text ÷ seconds on screen, headline not counted; cover excluded, as in EN01–EN04) |
 
@@ -33,21 +33,21 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP05 tag |
-| 2 | | 鏡頭01開始 | 4 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 4 | E02 |
-| 4 | | 鏡頭02-概念圖1 | 3 | diagram → English (`_概念圖/en/C-HDZ-01_圭表_表與圭層_透明.png`) |
-| 5 | | 鏡頭02-概念圖2 | 3 | + `C-HDZ-01_圭表_夏至層_透明.png` (English) |
-| 6 | | 鏡頭02-概念圖3 | 3 | + `C-HDZ-01_圭表_冬至層_透明.png` (English) |
-| 7 | | 鏡頭02-概念圖收＝鏡頭03開始 | 5 | diagram fades; E04 |
-| 8 | | 鏡頭03-概念圖1 | 3 | diagram → English (`_概念圖/en/C-HDZ-02_一年的影子_影長層_透明.png`) |
-| 9 | | 鏡頭03-概念圖2 | 3 | + `C-HDZ-02_一年的影子_一年層_透明.png` (English) |
-| 10 | | 鏡頭03-概念圖3 | 4 | + `C-HDZ-02_一年的影子_一度層_透明.png` (English) |
-| 11 | | 鏡頭03-概念圖收＝鏡頭04開始 | 5 | diagram fades; E06; then straight to 21 (pages 12–20: Zu Chongzhi, Guo Shoujing's tall gnomon and the year-length card, removed; same sky, so the move is invisible) |
-| 21 | | 鏡頭06-概念圖收＝鏡頭07開始 | 8 | E07; then the sky slides east to 26 (pages 22–25, the Yao Dian / Yu Xi labels and the Taipei card, removed) |
-| 26 | | 鏡頭10-概念圖收＝鏡頭11開始 | 8 | E08; Pleiades + Moon, no labels |
-| 28 | | 端卡（下集見） | 4 | E09 |
-| 29 | | 追蹤頁 | — | E10 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP05 tag |
+| 2 | 2 | 鏡頭01開始 | 4 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 4 | E02 |
+| 4 | 4 | 鏡頭02-概念圖1 | 3 | diagram → English (`_概念圖/en/C-HDZ-01_圭表_表與圭層_透明.png`) |
+| 5 | 5 | 鏡頭02-概念圖2 | 3 | + `C-HDZ-01_圭表_夏至層_透明.png` (English) |
+| 6 | 6 | 鏡頭02-概念圖3 | 3 | + `C-HDZ-01_圭表_冬至層_透明.png` (English) |
+| 7 | 7 | 鏡頭02-概念圖收＝鏡頭03開始 | 5 | diagram fades; E04 |
+| 8 | 8 | 鏡頭03-概念圖1 | 3 | diagram → English (`_概念圖/en/C-HDZ-02_一年的影子_影長層_透明.png`) |
+| 9 | 9 | 鏡頭03-概念圖2 | 3 | + `C-HDZ-02_一年的影子_一年層_透明.png` (English) |
+| 10 | 10 | 鏡頭03-概念圖3 | 4 | + `C-HDZ-02_一年的影子_一度層_透明.png` (English) |
+| 11 | 11 | 鏡頭03-概念圖收＝鏡頭04開始 | 5 | diagram fades; E06; then straight to 21 (pages 12–20: Zu Chongzhi, Guo Shoujing's tall gnomon and the year-length card, removed; same sky, so the move is invisible) |
+| 21 | 12 | 鏡頭06-概念圖收＝鏡頭07開始 | 8 | E07; then the sky slides east to 26 (pages 22–25, the Yao Dian / Yu Xi labels and the Taipei card, removed) |
+| 26 | 13 | 鏡頭10-概念圖收＝鏡頭11開始 | 8 | E08; Pleiades + Moon, no labels |
+| 28 | 14 | 端卡（下集見） | 4 | E09 |
+| 29 | 15 | 追蹤頁 | — | E10 |
 
 Total 60 s (the follow page is not counted, as in EN03).
 
@@ -119,4 +119,4 @@ Each 🔴🟡 was checked against the Chinese v1 script. Spelling follows the Ch
 3. 🟡 C-HDZ-01 note `Sun direction` → `Sun altitude`, and ⚪ C-HDZ-02 straight apostrophe: these are changes inside the diagram PNGs. They need a re-export of the English diagrams (diagram task), not a transcript edit; recorded here so the diagram pass picks them up.
 4. Gemini 「沒把握」 items 1–5: no change needed. 1: the Moon for 12/21 is ~90% and 6.6° from the Pleiades (Wording to check #6), so “nearly full Moon by the Pleiades” holds; 2: handled in Adopted 8; 3: Adopted 7 covers the text, the diagram stays as is; 4: `1.5 chi` is deliberate; 5: EN06 title is `Norse Yule: A Wolf's Jaw in the Sky` and publishes Wed 12/23, so E09 matches.
 
-**Canva**: `H-冬至_Canva媒體ID.json` has no `en` block, so the English design has not been made yet; nothing was changed in Canva. Card 07 will use v1.
+**Canva** (2026-11-25, card 07): English placed from v1; `H-冬至_Canva媒體ID.json` now has an `en` block.

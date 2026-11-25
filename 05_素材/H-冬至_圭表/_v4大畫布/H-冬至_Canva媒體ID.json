@@ -32,5 +32,18 @@
   "C-HDZ-05_一年有多長_圖卡.png": "MAHXiCipOB8",
   "C-HDZ-06_今天怎麼看_圖卡.png": "MAHXiKpTkX8"
  },
- "concept_commit": "6a03109（01、02、03 取中層）／64876b2（其餘）"
+ "concept_commit": "6a03109（01、02、03 取中層）／64876b2（其餘）",
+ "en": {
+  "design_id": "DAHZrSeV3Bg",
+  "design_title": "EN05 H-冬至",
+  "commit": "fc5b7a042318db8c8b150f4821769959e87c1800",
+  "concept": {
+   "C-HDZ-01_圭表_表與圭層_透明.png": "MAHb8mrplbA",
+   "C-HDZ-01_圭表_夏至層_透明.png": "MAHb8mQswHk",
+   "C-HDZ-01_圭表_冬至層_透明.png": "MAHb8nbyiu4",
+   "C-HDZ-02_一年的影子_影長層_透明.png": "MAHb8qk3T9E",
+   "C-HDZ-02_一年的影子_一年層_透明.png": "MAHb8pVb3tM",
+   "C-HDZ-02_一年的影子_一度層_透明.png": "MAHb8htihAI"
+  }
+ }
 }
