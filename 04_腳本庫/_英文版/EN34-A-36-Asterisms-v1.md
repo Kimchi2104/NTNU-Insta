@@ -114,7 +114,7 @@ Wording to check:
 
 Source: `04_腳本庫/_審稿/EN34_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-36 v1; spellings follow its star-name table. No new facts were added. Reading speed rechecked for every changed beat (E02 16 words ÷ 8 s = 2.0; E05 18 ÷ 9 = 2.0; E08 12 ÷ 5 = 2.4; E09 17 ÷ 8 = 2.1; E10 17 ÷ 8 = 2.1; E11 13 ÷ 7 = 1.9), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
 
-Adopted (9 of 10 rows):
+Adopted (8 of Gemini’s 10 rows, 3 of them in part; items 8–9 follow from them):
 1. E01 (🔴, in part): the dash between subject and verb is dropped — “One sky. The Big Dipper isn’t a constellation.” (the Chinese 「北斗七星——其實不是星座」 dash is a Chinese rhythm; in English it reads as a mistake).
 2. E08 (🔴): double quotes “the swooping eagle” / “the flying eagle” (Caption and Glossary already used them; Glossary changed too).
 3. E09 (🔴): double quotes “the hen’s tail”; “each eagle has two small stars” (「各帶兩顆小星」; “comes with” sounded commercial; 17 words ÷ 8 s = 2.1).

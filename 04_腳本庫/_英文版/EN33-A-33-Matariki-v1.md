@@ -122,7 +122,7 @@ Wording to check:
 
 Source: `04_腳本庫/_審稿/EN33_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-33 v1; spellings follow its star-name table (all Māori names unchanged, all macrons kept). No new facts were added. Reading speed rechecked for every changed beat (E05 16 words ÷ 8 s = 2.0; E09 17 ÷ 8 = 2.1; E12 14 ÷ 6 = 2.3; E13 15 ÷ 8 = 1.9), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
 
-Adopted (6 of 8 rows, 1 of them in part):
+Adopted (7 items, 2 of them in part):
 1. E13 (🔴): “low between northeast and east”. The Chinese 13 鏡 says 東北東 from Taipei; Gemini is right that New Zealand sees the cluster in the northeast (the Chinese 星空對時表: Auckland 56°→47°, Wellington 54°→45°). The new wording is true for both. Caption line changed to match (Wording to check 10 updated; Glossary row 東北東 updated).
 2. E03 (🟡): headline “Why does the date change?” (02 鏡「它每年日期都不一樣」; the answer, 03 鏡「日期由天上決定」, follows in E04–E06).
 3. E05 (🟡): “It returns before sunrise, in the southern winter. The old year ends — a new one begins.” (drops the repeated “In June”, the semicolon becomes a dash).

@@ -1,22 +1,22 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,開場字卡,3,World Sky Cultures,"One sky. The world saw — a river, a
-road, a seam.",cover,Cover: text block replaced with English; second line = the English hook (*Four ostriches drink from the river in the sky.*); EN · EP35 tag
-2,,鏡頭01開始,3,A river in the sky,"To the Chinese, it was a river: Tianhe,
-“the Heavenly River.”",bottom,"E02; summer Milky Way, Scorpius–Sagittarius"
-3,,鏡頭01結束＝鏡頭02開始,4,A river in the sky,"To the Chinese, it was a river: Tianhe,
-“the Heavenly River.”",bottom,E02; label 天河・河漢 → Tianhe (Heavenly River); then **hard cut** to 4 (as in the Chinese)
-4,,鏡頭03開始,2,"Pools, a boat, a ford","Along it they set star pools, a boat, a
-ford, and another river.",bottom,E03; labels 咸池／水池 → Xianchi／a pool; 天潢／積水池 → Tianhuang／a pond
-5,,鏡頭03-中1,2,"Pools, a boat, a ford","Along it they set star pools, a boat, a
-ford, and another river.",bottom,E03; label 天船 → Tianchuan (a boat)
-6,,鏡頭03-中2,2,"Pools, a boat, a ford","Along it they set star pools, a boat, a
-ford, and another river.",bottom,E03; labels 天津／渡口 → Tianjin／a ford
-7,,鏡頭03結束＝鏡頭04開始,7,Between the Basket and Dipper,"The ancient Erya: between Ji, “the
-Winnowing Basket,” and Dou, “the
-Southern Dipper,” lies the river’s ford.",top,"E04; labels 箕宿 → Ji; 斗宿 → Dou; 漢津／箕斗之間 → the river’s ford／between Ji and Dou; the 天江 line stays (its label, if shown: 天江 → Tianjiang (a river))"
+road, a seam.",cover,Cover: text block replaced with English; first line = E01 (the series opening line); second line = the English hook (*Four ostriches drink from the river in the sky.*); EN · EP35 tag
+2,,鏡頭01開始,3,A river in the sky,"To the Chinese, the Milky Way was a
+river: Tianhe, “the Heavenly River.”",bottom,"E02; summer Milky Way, Scorpius–Sagittarius"
+3,,鏡頭01結束＝鏡頭02開始,4,A river in the sky,"To the Chinese, the Milky Way was a
+river: Tianhe, “the Heavenly River.”",bottom,E02; label 天河・河漢 → Tianhe (Heavenly River); then **hard cut** to 4 (as in the Chinese)
+4,,鏡頭03開始,2,"Pools, a boat, a ford","Along it they placed star pools, a boat,
+a ford, and another river.",bottom,E03; labels 咸池／水池 → Xianchi／a pool; 天潢／積水池 → Tianhuang／a pond
+5,,鏡頭03-中1,2,"Pools, a boat, a ford","Along it they placed star pools, a boat,
+a ford, and another river.",bottom,E03; label 天船 → Tianchuan (a boat)
+6,,鏡頭03-中2,2,"Pools, a boat, a ford","Along it they placed star pools, a boat,
+a ford, and another river.",bottom,E03; labels 天津／渡口 → Tianjin／a ford
+7,,鏡頭03結束＝鏡頭04開始,7,Between the Basket and Dipper,"The ancient text Erya puts the river’s
+ford between Ji (“Winnowing Basket”) and
+Dou (“Southern Dipper”).",top,"E04; labels 箕宿 → Ji; 斗宿 → Dou; 漢津／箕斗之間 → the river’s ford／between Ji and Dou; the 天江 line stays (its label, if shown: 天江 → Tianjiang (a river))"
 8,,鏡頭04結束,8,Four ostriches go to drink,"In ancient Arabia, Ji’s four stars were
 ostriches going to drink. Four in Dou
-are heading back, having drunk.",top,E05; labels 下河喝水的鴕鳥 → ostriches going to drink; 喝飽離開的鴕鳥 → ostriches heading back; 渡口 → ford; the two Arabic names stay
+were heading back after drinking.",top,E05; labels 下河喝水的鴕鳥 → ostriches going to drink; 喝飽離開的鴕鳥 → ostriches heading back; 渡口 → ford; the two Arabic names stay
 9,,鏡頭04-概念圖1,3,The ford lies between the flocks,,top,"ford diagram, English (`_概念圖/en/C-X07-01_箕斗之間_中國層_透明.png`); E06 headline"
 10,,鏡頭04-概念圖2,3,The ford lies between the flocks,,top,+ Arabic layer (`…_阿拉伯層`); E06 headline
 11,,鏡頭04-概念圖3,3,The ford lies between the flocks,,top,+ overlay layer (`…_疊合層`); E06 headline
@@ -31,13 +31,13 @@ dragon, even ash.",bottom,"E07; whole summer Milky Way, no lines"
 100,000 light-years wide.",bottom,E09; labels Milky Way stays; **remove** 奶的路 (the milk story is not in the English text)
 31,,鏡頭11-概念圖1,3,We look along the disc,,top,"disc diagram, English (`_概念圖/en/C-X07-03_我們在盤子裡_側視層_透明.png`); E10 headline"
 32,,鏡頭11-概念圖2,3,We look along the disc,,top,+ sight-line layer (`…_視線層`); E10 headline
-33,,鏡頭11-概念圖收＝鏡頭12開始,3,"The centre, beside the ford","On summer nights we face the galaxy’s
-centre: in Sagittarius, right by that
-ford, 27,000 light-years away.",top,"diagram fades; E11; labels 銀河中心 → Galactic Centre; 2.7 萬光年外 → 27,000 ly away; 箕宿 → Ji; 漢津 → the river’s ford"
-34,,鏡頭12結束,6,"The centre, beside the ford","On summer nights we face the galaxy’s
-centre: in Sagittarius, right by that
-ford, 27,000 light-years away.",top,"E11; labels as page 33; then straight to 36 (page 35, the Taipei card, removed)"
-36,,鏡頭12-概念圖收＝鏡頭13開始,7,Tonight: look south,"On a moonless night, get far from city
+33,,鏡頭11-概念圖收＝鏡頭12開始,3,"The centre, beside the ford","On northern summer nights we face the
+galaxy’s centre — in Sagittarius, right
+by that ford, 27,000 light-years away.",top,"diagram fades; E11; labels 銀河中心 → Galactic Centre; 2.7 萬光年外 → 27,000 light-years away; 箕宿 → Ji; 漢津 → the river’s ford"
+34,,鏡頭12結束,6,"The centre, beside the ford","On northern summer nights we face the
+galaxy’s centre — in Sagittarius, right
+by that ford, 27,000 light-years away.",top,"E11; labels as page 33; then straight to 36 (page 35, the Taipei card, removed)"
+36,,鏡頭12-概念圖收＝鏡頭13開始,7,Northern sky: how to see it,"On a moonless night, get far from city
 lights. Late evening, look low in the
 south.",bottom,"E12; **remove** the 下集 label; then straight to 38 (page 37, the Chinese next-episode frame, removed)"
 38,,端卡（下集見）,4,Next Wednesday,"Season finale: many ways of seeing one
