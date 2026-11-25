@@ -22,7 +22,7 @@
 | E04 | 9 | 14, 15, 16, 17, 18, 19 | bottom | The Big Dipper = Voz | Around the Nail turns a cart: the Big Dipper is Voz, the Cart. The Little Dipper is Maly voz, the Small Cart. | 2.4 |
 | E05 | 5 | 20, 21, 22 | bottom | Then came Christianity | After Christianity arrived, the cart got a driver: the prophet Elijah. | 2.2 |
 | E06 | 7 | 23, 24, 25 | bottom | In the Bible | He never died: “a chariot of fire… and Elijah went up by a whirlwind into heaven.” | 2.3 |
-| E07 | 6 | 27 | bottom | Elijah’s fiery chariot | So the Big Dipper is also Illioŭ voz: Elijah’s cart — a fiery chariot. | 2.3 |
+| E07 | 6 | 27 | bottom | Elijah’s fiery chariot | So the Big Dipper is also Illioŭ voz: Elijah’s cart — a fiery chariot. | 2.2 |
 | E08 | 6 | 28, 29 | top | East Slavic folklore: summer thunder | *(English diagram `en/C-A22-03` "Thunder = Elijah driving": rolling wheels = thunder, lightning = chasing the devil; headline only)* | — |
 | E09 | 5 | 30 | bottom | | His feast day is in early August — thunderstorms and harvest time. | 2.2 |
 | E10 | 5 | 34 | bottom | | Some think the driver was once the Slavic thunder god Perun. | 2.2 |

@@ -1,4 +1,4 @@
-# EN18 ｜ Tukano: The Amazon's Rain Calendar in the Stars ・ v0 (2026-11-23, for Gemini review)
+# EN18 ｜ Tukano: The Amazon’s Rain Calendar in the Stars ・ v1 (2026-11-25, Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -8,7 +8,7 @@
 | Story | One story only: **the floods are named after the stars**. On the Tiquié River the Tukano watch which constellation is setting in the west at dusk; a setting often brings a few days of rain and a flood (poero), and the flood takes the constellation's name. Around the year: the little fish and the shrimp, the jaguar, the Pleiades (New Year), the venomous snake Aña with Antares as its venom sac, the armadillo (also a sacred flute). Ends with the jaguar's head in Cassiopeia this week, setting on the Tiquié: the jaguar's flood |
 | Canva | Not made yet. Copy of the Chinese design `A-24 圖卡諾` (DAHazKTMdH8, 100 pages; copied from DAHWtHll2X0 after the 100-page limit), to be named `EN18 A-24 圖卡諾` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 2–97 = 製作表 pages 1–96). **End card and follow page: 98 and 99 are assumed** (the pages after 97: 下集見, 追蹤我們); card 07 checks with `read-design` and corrects the two numbers if the design differs. |
 | Opening line | *One sky. The Tukano saw — a whole year of floods.* |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.43: E09; = words in Text ÷ seconds on screen, headline not counted; cover excluded, as in EN01–EN17) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.4: E06; = words in Text ÷ seconds on screen, headline not counted; cover excluded, as in EN01–EN17) |
 
 ## Beats (text on screen)
 
@@ -17,20 +17,20 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The Tukano saw — a whole year of floods. | — |
-| E02 | 6 | 2, 7 | bottom | | Northwest Brazil, the Tiquié River: for the Tukano, the most important meat is fish. | 2.3 |
-| E03 | 6 | 14, 15, 16 | top | Watch what sets at dusk | What matters is not when a constellation rises, but when it sets. | 2.0 |
-| E04 | 5 | 17, 18 | top | | After sunset they look west: which one is sinking now? | 2.0 |
-| E05 | 7 | 19, 20, 21 | top | A setting often brings a flood | *(English diagram `en/C-A24-03` poero: setting → rain → river rises; headline only)* | — |
-| E06 | 5 | 22 | top | | So floods are named for constellations: pamõ poero is “the armadillo’s flood.” | 2.4 |
-| E07 | 4 | 26 | bottom | | February: a little fish, and the shrimp chasing it. | 2.3 |
-| E08 | 5 | 27, 28 | top | Mar–Apr: the jaguar, piece by piece | *(English diagram `en/C-A24-05` ring, February + March–April layers; headline only)* | — |
-| E09 | 7 | 30 | bottom | The Pleiades set: New Year | Late April: Ñohkoatero, “a group of stars” — the Pleiades. The Tukano here say the new year begins. | 2.4 |
+| E02 | 6 | 2, 7 | bottom | | Tiquié River, northwest Brazil: fish is central to meals, and the river’s rise matters. | 2.3 |
+| E03 | 6 | 14, 15, 16 | top | Watching what sets at dusk | What matters is not when a constellation rises, but when it sets. | 2.0 |
+| E04 | 5 | 17, 18 | top | | After sunset, they look west: which one is sinking now? | 2.0 |
+| E05 | 7 | 19, 20, 21 | top | Setting stars often bring a flood | *(English diagram `en/C-A24-03` poero: setting → rain → river rises; headline only)* | — |
+| E06 | 5 | 22 | top | | So floods are named after constellations: pamõ poero is “the armadillo’s flood.” | 2.4 |
+| E07 | 4 | 26 | bottom | | February: a little fish sets, chased by a shrimp. | 2.3 |
+| E08 | 5 | 27, 28 | top | March–April: the jaguar, piece by piece | *(English diagram `en/C-A24-05` ring, February + March–April layers; headline only)* | — |
+| E09 | 7 | 30 | bottom | The Pleiades set: New Year | Late April: Ñohkoatero, “a group of stars.” The Tukano here say the new year begins. | 2.1 |
 | E10 | 7 | 45, 47, 50 | bottom | Aña, the venomous snake | September to November: Aña, from Scorpius to Sagittarius. Red Antares is its venom sac. | 2.0 |
-| E11 | 7 | 51, 53, 56 | bottom | Pamõ, the armadillo | December: the armadillo. It is also a sacred flute; only men know its true shape. | 2.1 |
+| E11 | 7 | 51, 53, 56 | bottom | Pamõ, the armadillo | December: the armadillo — also a sacred flute. Only men know its true shape in the sky. | 2.3 |
 | E12 | 7 | 57, 58, 59 | top | A whole year of floods | *(English diagram `en/C-A24-05` ring, all layers; its centre line reads "The sky reads almost like a river"; headline only)* | — |
-| E13 | 8 | 74, 75, 76, 77 | top | Look up this week | After dark, look low in the northwest: the west half of Cassiopeia’s W is the jaguar’s head. | 2.1 |
-| E14 | 6 | 78, 80 | top | | On the Tiquié it is touching the horizon: by their calendar, the jaguar’s flood. | 2.2 |
-| E15 | 3 | 98 | endcard | Next Wednesday | Tupi-Guarani: a sky written down in 1614. | 2.3 |
+| E13 | 8 | 74, 75, 76, 77 | top | Northern skies this week | After dark, look low in the northwest: the west half of Cassiopeia’s W is the jaguar’s head. | 2.1 |
+| E14 | 6 | 78, 80 | top | | On the Tiquié, it’s touching the horizon — by their calendar, the jaguar’s flood. | 2.2 |
+| E15 | 3 | 98 | endcard | Next Wednesday | Tupi-Guarani: a sky published in 1614. | 2.0 |
 | E16 | 3 | 99 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -57,7 +57,7 @@
 | 30 | | 鏡頭08開始＝鏡頭09開始 | 7 | E09; label Ñohkoatero／一群星（昴宿） → Ñohkoatero／group of stars (Pleiades); then Match & Move straight to 45 (pages 31–44, the fish rack, the adze handle and the bitten leg, the egret, removed; the long chart slides to Scorpius) |
 | 45 | | 鏡頭12-中1 | 2 | E10; then straight to 47 |
 | 47 | | 鏡頭12-中3 | 2 | E10; then straight to 50 |
-| 50 | | 鏡頭12結束＝鏡頭13開始 | 3 | E10; labels Aña／毒蛇（天蠍＋人馬） → Aña／venomous snake (Sco + Sgr); 毒囊（心宿二） → venom sac (Antares); 頭／蛋／尾巴 (if placed) → head／eggs／tail |
+| 50 | | 鏡頭12結束＝鏡頭13開始 | 3 | E10; labels Aña／毒蛇（天蠍＋人馬） → Aña／venomous snake (Sco + Sgr); 毒囊（心宿二） → venom sac (Antares); 頭／蛋／尾巴 (if placed) → eggs／tail only; drop 頭 (the beheading is not in the English) |
 | 51 | | 鏡頭13-中1 | 2 | E11; then straight to 53 |
 | 53 | | 鏡頭13-中3 | 2 | E11; then straight to 56 |
 | 56 | | 鏡頭13結束＝鏡頭14開始 | 3 | E11; label Pamõ／犰狳（天鷹＋海豚） → Pamõ／armadillo (Aql + Del); the Chinese small line 「只畫公開描述的星」 → delete (the drawing itself stays public-stars-only; no flute shape) |
@@ -91,22 +91,22 @@ Total 89 s.
 | 心宿二＝毒囊 | red Antares … its venom sac | |
 | Pamõ（犰狳，也是聖笛） | Pamõ, the armadillo; a sacred flute | only the public stars are drawn |
 | 仙后座 W 的西半邊 | the west half of Cassiopeia’s W | |
-| A-25 圖皮-瓜拉尼（EN19） | Tupi-Guarani: a sky written down in 1614 | end card = EN19 title |
+| A-25 圖皮-瓜拉尼（EN19） | Tupi-Guarani: a sky published in 1614 | end card; Chinese 19 鏡: recorded 1612, published 1614. EN19’s v0 title still says “Written Down in 1614” — to be aligned in its own review |
 
 ## YouTube
 
 - **Title**: Tukano: the Amazon’s rain calendar in the stars
 - **Description**:
-  On the Tiquié River in northwest Brazil, the Tukano watch which constellation is setting in the west at dusk. A setting often brings a few days of rain and a flood, poero, and the flood is named after the stars: the armadillo’s flood, pamõ poero. Around the year: a little fish and a shrimp, the jaguar, the Pleiades (when they set, a new year begins), the venomous snake Aña with red Antares as its venom sac, and the armadillo, which is also a sacred flute. This week the jaguar’s head, the west half of Cassiopeia’s W, is touching the horizon on the Tiquié.
+  On the Tiquié River in northwest Brazil, the Tukano watch which constellation is setting in the west at dusk. When a constellation sets, it often brings a few days of rain and a flood, poero, and the flood is named after the stars: the armadillo’s flood, pamõ poero. Around the year: a little fish and a shrimp, the jaguar, the Pleiades (when they set, a new year begins), the venomous snake Aña with red Antares as its venom sac, and the armadillo, which is also a sacred flute. This week the jaguar’s head, the west half of Cassiopeia’s W, is touching the horizon on the Tiquié.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Walmir Thomazi Cardoso, O Céu dos Tukano na escola Yupuri: construindo um calendário dinâmico (PhD thesis, PUC-SP, 2007); Stellarium sky culture “tukano” (Cardoso).
 
 ## Caption (Instagram / Facebook / Threads)
 
 In the Amazon, the floods are named after the stars. 🌧️
-On the Tiquié River in northwest Brazil, the Tukano care less about when a constellation rises than when it sets. After sunset they look west: what is sinking now? A setting often brings a few days of rain and a flood — poero. When the armadillo sets, it’s pamõ poero, the armadillo’s flood.
+On the Tiquié River in northwest Brazil, the Tukano care less about when a constellation rises than when it sets. After sunset they look west: what is sinking now? When a constellation sets, it often brings a few days of rain and a flood — poero. When the armadillo sets, it’s pamõ poero, the armadillo’s flood.
 February: a little fish and the shrimp chasing it. March–April: the jaguar, piece by piece. Late April: the Pleiades, and a new year. September to November: Aña, the venomous snake, with red Antares as its venom sac. December: the armadillo, also a sacred flute.
-This week after dark, look low in the northwest: the west half of Cassiopeia’s W is the jaguar’s head.
+In northern skies this week, after dark, look low in the northwest: the west half of Cassiopeia’s W is the jaguar’s head.
 #WorldSkyCultures #Amazon #Tukano #astronomy #skylore #Pleiades
 (First comment: sources — Cardoso 2007, O Céu dos Tukano na escola Yupuri (PUC-SP); Stellarium tukano.)
 
@@ -116,7 +116,7 @@ Dropped from the Chinese version (all still in the Chinese episode): the bridge 
 
 Wording to check:
 1. Cover "The Tukano saw — a whole year of floods." = 統一開頭「圖卡諾人看見——一整年的漲水」.
-2. E02 = 02 鏡「巴西西北角……有一條河叫 Tiquié。河邊住著圖卡諾人和他們的鄰居，餐桌上最重要的肉，是河裡的魚」 (neighbours dropped).
+2. E02 = 02 鏡「巴西西北角……有一條河叫 Tiquié。……餐桌上最重要的肉，是河裡的魚。河水什麼時候漲、什麼時候退，他們看得很重」 (neighbours dropped; “fish is central to meals” = 餐桌上最重要的肉是魚, and the 河水漲退 sentence is restored in short form so E03–E05 follow).
 3. E03/E04 = 04 鏡「他們最看重的，不是星座升起，而是它落下。太陽一下山，就往西邊看：哪個星座正要沉進地平線？」.
 4. E05 headline keeps the hedge 「常常」 → "often": 05 鏡「一個星座或星座的一段落下，常常就跟著幾天雨，河水漲一次」.
 5. E06 = 05 鏡「漲水直接用星座取名……pamõ poero——犰狳的漲水」.
@@ -130,3 +130,25 @@ Wording to check:
 13. E14 = 17 鏡「這幾天在 Tiquié，牠正碰到地平線；照圖卡諾的日曆，這正是美洲豹的漲水」. The Chinese computes this for 5 March (whiskers 3.8°, Caph 5.5° at 19:14); Cardoso's table puts the head's setting in the first half of March, so it still holds for 10 March.
 14. E15: EN19 (A-25 Tupi-Guarani) publishes Wednesday 3/17, so "Next Wednesday".
 15. Diagrams C-A24-03 and C-A24-05: the English strings were already in `make_a24_diagrams.py`; `--lang en` now outputs just these two. Ring fixes: "fer-de-lance (Sco + Sgr)" → "snake (Sco + Sgr)" and "group of stars (Pleiades)" → "star group (Pleiades)" (both ran off the edge), the missing space in "The sky reads almost like a river", "★ New Year" moved off the blue arc, and the katakana dot in "Mhʉã・Dahsiʉ" → " · " (the English font has no glyph for it).
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN18_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-24 v1 (`A-24-圖卡諾亞馬遜的星空雨季曆-逐字稿-v1.md`); spellings follow its 星名表. No new facts were added. Reading speed rechecked for every changed beat (E02 14 words ÷ 6 s = 2.3; E04 10 ÷ 5 = 2.0; E06 12 ÷ 5 = 2.4; E07 9 ÷ 4 = 2.3; E09 15 ÷ 7 = 2.1; E11 16 ÷ 7 = 2.3; E14 13 ÷ 6 = 2.2; E15 6 ÷ 3 = 2.0), all ≤ 2.5; Text lines ≤ 40 letters, ≤ 3 lines, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. E13 (🔴): headline “Northern skies this week” and, in the caption, “In northern skies this week, after dark, look low in the northwest”. The Chinese says 「在台灣」; Cassiopeia is not up after dark for much of the Southern Hemisphere.
+2. E15 (🔴): “Tupi-Guarani: a sky published in 1614.” Chinese 19 鏡: 一六一二年抄下、兩年後寫進書裡; the 1614 date belongs to the book. The EN19 title (still “Written Down in 1614” in its v0) is outside this card and is flagged for its own review; glossary note added.
+3. E02 (🟡): “fish is central to meals, and the river’s rise matters.” Restores the bridge 「河水什麼時候漲、什麼時候退，他們看得很重」 that v0 dropped; “and” instead of Gemini’s “so” (the Chinese does not say fish is the reason). “meat is fish” → “central to meals” (English “meat” excludes fish).
+4. E05 headline (🟡): “Setting stars often bring a flood” (“a setting” reads as a backdrop); hedge “often” kept (「常常」). YouTube and caption: “When a constellation sets, it often brings …”.
+5. E07 (🟡): “a little fish sets, chased by a shrimp” = 「二月落下的」, so the calendar is tied to setting.
+6. E09 (🟡): shortened, “the Pleiades” left to the headline and label; Gemini’s “For the Tukano here, this starts the new year” → “The Tukano here say the new year begins” (keeps the attribution 「這裡的圖卡諾人說」).
+7. E11 (🟡): “— also a sacred flute. Only men know its true shape in the sky.” = 「這個星座在天上真正的樣子」; no semicolon.
+8. E03 headline (⚪) “Watching what sets at dusk”; E04 (⚪) comma; E06 (⚪) “named after”; E08 headline (⚪) “March–April”; E14 (⚪) “On the Tiquié, it’s touching the horizon — …” (w/s 13 ÷ 6 = 2.2; the v0 number was right for 13 words).
+9. Gemini §3 note 3 (page 50 “head” label): Page sequence now drops 頭, since the beheading (12 鏡 「頭被砍斷」) is not in the English.
+
+Not adopted:
+- E01 (🟡) hook without the dash / “In the Amazon, the stars name the floods.”: the cover keeps the series opener *One sky. The [people] saw — [X].* (Chinese 統一開頭 「圖卡諾人看見——一整年的漲水」); Gemini’s §3 note 4 allows keeping it. The caption already opens with the stars-name-floods line.
+- §3 note 1 (add “Public stars only” on page 56): the Chinese small line 「只畫公開描述的星」 was removed on purpose (Page sequence); it would be new on-screen copy, and the drawing stays public-stars-only. The beat’s own wording (“true shape in the sky”) now makes clear the secret is the constellation shape, not the drawing.
+- §3 note 2: EN19 itself is not touched here (separate card); only EN18’s end card follows the Chinese.
+
+Canva: no English block in `A-24_Canva媒體ID.json`, nothing to replace.

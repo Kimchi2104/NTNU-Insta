@@ -28,7 +28,7 @@
 | E10 | 7 | 28, 29 | bottom | The Alarm Clock | The Hyades: a herd of boars. Aldebaran: “the pigs’ bright star” — some say “the Alarm Clock.” | 2.3 |
 | E11 | 7 | 51, 52, 53 | bottom | The Shepherd, Ciobanul | And the Shepherd himself? Vega. The four faint stars beside him are his sheep. | 2.0 |
 | E12 | 6 | 54, 55 | bottom | | This time of year, he doesn’t rise until late at night, in the northeast. | 2.3 |
-| E13 | 9 | 64, 65, 66, 67 | bottom | Sheep need water | So the sky has a well, too — Puțul, the Great Square of Pegasus. Andromeda is the water trough. | 1.9 |
+| E13 | 9 | 64, 65, 66, 67 | bottom | Sheep need water | So the sky has a well, too — Puțul, the Great Square of Pegasus. Andromeda is the water trough. | 2.0 |
 | E14 | 8 | 93, 94, 96 | bottom | Look up this week | After dark: Sirius south, the she-goat high in the north. Before dawn: the Shepherd, high in the northeast. | 2.3 |
 | E15 | 4 | 106 | endcard | Next Wednesday | Tukano: the Amazon’s rain calendar in the stars. | 2.0 |
 | E16 | 3 | 107 | endcard | | Follow for a new sky every week. | 2.3 |
@@ -134,7 +134,7 @@ Wording to check:
 
 ## 審稿合併 (Gemini review merged)
 
-Source: `04_腳本庫/_審稿/EN17_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-23 v1 (`A-23-羅馬尼亞牧羊人的星空農場-逐字稿-v1.md`); spellings follow its 星名表. No new facts were added. Reading speed rechecked for every changed beat (E04 7 words ÷ 3 s = 2.3; E06 12 ÷ 5 = 2.4; E08 16 ÷ 9 = 1.8; E11 14 ÷ 7 = 2.0; E12 14 ÷ 6 = 2.3; E13 17 ÷ 9 = 1.9; E14 18 ÷ 8 = 2.3), all ≤ 2.5; Text lines ≤ 40 letters, ≤ 3 lines, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+Source: `04_腳本庫/_審稿/EN17_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-23 v1 (`A-23-羅馬尼亞牧羊人的星空農場-逐字稿-v1.md`); spellings follow its 星名表. No new facts were added. Reading speed rechecked for every changed beat (E04 7 words ÷ 3 s = 2.3; E06 12 ÷ 5 = 2.4; E08 16 ÷ 9 = 1.8; E11 14 ÷ 7 = 2.0; E12 14 ÷ 6 = 2.3; E13 18 ÷ 9 = 2.0; E14 18 ÷ 8 = 2.3), all ≤ 2.5; Text lines ≤ 40 letters, ≤ 3 lines, headlines ≤ 6 words (re-run `gen_en_pages.py`).
 
 Adopted:
 1. E06 (🔴): “Farmers told time by them mostly in summer. Other months, only shepherds.” Restores the hedge 「多半」 and the temporal “the rest of the year” (一年其他時候); “Otherwise” read as a condition.
