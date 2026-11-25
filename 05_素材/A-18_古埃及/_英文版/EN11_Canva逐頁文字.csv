@@ -1,6 +1,6 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,開場字卡,3,World Sky Cultures,"One sky. The ancient Egyptians saw — a
-star that woke the Nile.",cover,"Cover: text block replaced with English; second line = the schedule’s hook (“When Sirius returned, the Nile flooded. Not anymore.”); EN · EP11 tag"
+star that woke the Nile.",cover,"Cover: text block replaced with English, one line only (E01; the schedule’s hook goes in the caption, 3 s cannot hold two lines); EN · EP11 tag"
 2,,鏡頭01開始,5,,"Egypt gets almost no rain. Life depends
 on the Nile.",bottom,E02 (the Chinese 字卡 is replaced)
 3,,鏡頭01結束＝鏡頭02開始,2,,"Egypt gets almost no rain. Life depends
@@ -8,34 +8,31 @@ on the Nile.",bottom,E02; label Sopdet / Sirius
 4,,鏡頭02-概念圖1,3,"Every summer, the Nile rose",,top,"diagram, English (`_概念圖/en/C-A18-01_尼羅河的一年_漲水層_透明.png`); E03 headline only"
 5,,鏡頭02-概念圖2,3,"Every summer, the Nile rose",,top,+ `en/…_淹沒層`; E03 headline only
 6,,鏡頭02-概念圖3,3,"Every summer, the Nile rose",,top,+ `en/…_黑土層`; E03 headline only
-7,,鏡頭02-概念圖收＝鏡頭03開始,7,,"Sirius, which the Egyptians called
-Sopdet, sinks into the sunset glow each
-spring.",bottom,diagram fades; E04; then the zoom in to Sirius (fov 26 → 18)
-8,,鏡頭03結束,2,,"Sirius, which the Egyptians called
-Sopdet, sinks into the sunset glow each
-spring.",bottom,E04; label Sopdet / Sirius
+7,,鏡頭02-概念圖收＝鏡頭03開始,7,,"The Egyptians called Sirius Sopdet. Each
+spring, it sinks into the sunset glow.",bottom,diagram fades; E04; then the zoom in to Sirius (fov 26 → 18)
+8,,鏡頭03結束,2,,"The Egyptians called Sirius Sopdet. Each
+spring, it sinks into the sunset glow.",bottom,E04; label Sopdet / Sirius
 9,,鏡頭03-概念圖1,3,Gone for about 70 days,,top,"diagram, English (`_概念圖/en/C-A18-02_消失與晨出_西沉層_透明.png`); E05 headline only"
 10,,鏡頭03-概念圖2,3,Gone for about 70 days,,top,+ `en/…_消失層`; E05 headline only
 11,,鏡頭03-概念圖3,3,Gone for about 70 days,,top,+ `en/…_晨出層`; E05 headline only
 12,,鏡頭03-概念圖4,3,Gone for about 70 days,,top,+ `en/…_漲水層`; E05 headline only
-13,,鏡頭03-概念圖收＝鏡頭04開始＝鏡頭05開始,6,New Year = Sirius returns,"Around then the river began to rise. The
-Egyptian year originally began that day.",bottom,diagram fades; E06; label Sopdet / Sirius
+13,,鏡頭03-概念圖收＝鏡頭04開始＝鏡頭05開始,6,New Year = Sirius returns,"Around then, the river started rising.
+Egypt’s year originally began that day.",bottom,diagram fades; E06; label Sopdet / Sirius
 14,,鏡頭05結束,7,And today? We did the math.,"Pyramid age, Memphis: Sirius returned a
-few days after the solstice, just in
+few days after the summer solstice, in
 time for the flood.",bottom,"E07 (the zoom out, fov 18 → 26, plays under it); then straight to 21 (pages 15–20, the 365-day calendar and the 1,460-year cycle, removed; the frame does not move)"
 21,,鏡頭07-概念圖1,3,Over a month late,,top,"diagram, English (`_概念圖/en/C-A18-04_晚了一個多月_古代層_透明.png`); E08 headline only"
 22,,鏡頭07-概念圖2,4,Over a month late,,top,+ `en/…_今天層`; E08 headline only
-23,,鏡頭07-概念圖收＝鏡頭08開始,5,,"Today in Cairo, Sirius waits until
-around 5 August.",bottom,diagram fades; E09; label Sopdet / Sirius
+23,,鏡頭07-概念圖收＝鏡頭08開始,5,,"Today in Cairo, Sirius doesn’t return
+until around August 5.",bottom,diagram fades; E09; label Sopdet / Sirius
 24,,鏡頭08-概念圖,4,And the Nile no longer floods,,top,"diagram, English (`_概念圖/en/C-A18-05_河已經不等了_高壩層_透明.png`); E10 headline only"
-25,,鏡頭08-概念圖收＝鏡頭09開始,7,The river no longer waits,"In 1970 the Aswan High Dam was finished.
-The yearly flood now stays in a
-reservoir.",bottom,"diagram fades; E11; label Sopdet / Sirius; then the sky moves to 51 (pages 26–50, Sah and Sopdet, the star clock, the northern sky, the pyramid, the cord rite and Dendera, removed)"
-51,,鏡頭18開始,7,Look up this week,"Around 10 p.m., face south: Sirius
-stands at its highest, with Orion to its
-upper right.",bottom,"E12; labels Sopdet / Sirius, Sah / Orion"
-52,,鏡頭18結束,3,Look up this week,"Around 10 p.m., face south: Sirius
-stands at its highest, with Orion to its
-upper right.",bottom,E12; labels as 51 (the Taipei card C-A18-10 on page 53 is not used)
+25,,鏡頭08-概念圖收＝鏡頭09開始,7,The river no longer waits,"Finished in 1970, the Aswan High Dam now
+holds the yearly flood in a reservoir.",bottom,"diagram fades; E11; label Sopdet / Sirius; then the sky moves to 51 (pages 26–50, Sah and Sopdet, the star clock, the northern sky, the pyramid, the cord rite and Dendera, removed)"
+51,,鏡頭18開始,7,Look up this week,"North of the equator, face south around
+22:00: Sirius is highest, with Orion to
+its upper right.",bottom,"E12; labels Sopdet / Sirius, Sah / Orion"
+52,,鏡頭18結束,3,Look up this week,"North of the equator, face south around
+22:00: Sirius is highest, with Orion to
+its upper right.",bottom,E12; labels as 51 (the Taipei card C-A18-10 on page 53 is not used)
 56,,端卡（下集見）,4,Next Wednesday,Ancient Arabia: a desert zoo in the sky.,endcard,E13
 57,,追蹤頁,—,,Follow for a new sky every week.,endcard,E14
