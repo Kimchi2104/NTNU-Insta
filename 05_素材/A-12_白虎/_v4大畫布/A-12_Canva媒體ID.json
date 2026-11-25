@@ -41,5 +41,16 @@
     "C-A12-03_西羌線索_結論層_透明.png": "MAHXQn26hQI",
     "C-A12-07_今晚往東看_圖卡.png": "MAHXQrQnfMM"
   },
-  "concept_commit": "072f6e5bfbb039c29fcf450ba14540b465999167"
+  "concept_commit": "072f6e5bfbb039c29fcf450ba14540b465999167",
+  "en": {
+    "design_id": "DAHZrV1TvtM",
+    "design_title": "EN03 A-12 白虎",
+    "commit": "fc5b7a042318db8c8b150f4821769959e87c1800",
+    "concept": {
+      "C-A12-01_參字_三星層_透明.png": "MAHb8oERBmQ",
+      "C-A12-01_參字_字形層_透明.png": "MAHb8nnI7ow",
+      "C-A12-01_參字_說明層_透明.png": "MAHb8jiVais",
+      "C-A12-05_同一條腰帶_圖卡.png": "MAHb8urcPgc"
+    }
+  }
 }

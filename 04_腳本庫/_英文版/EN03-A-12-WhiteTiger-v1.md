@@ -6,7 +6,7 @@
 | Publish | **2026-12-09 (Wed) 21:00 Taiwan time**: EN03 in `06_發布月曆/節目表_萬國星空_英文版.csv` |
 | Length | **85 s**, 13 beats, ~149 words on screen (no voice-over; text over light music) |
 | Story | One story only: **Orion is a Chinese tiger**. The west's white tiger, Sima Qian's description (the Belt as a balance beam, shoulders, legs, head), the character 參 drawn as these three stars, other peoples who also named the Belt for "three", and the 6,000-year-old shell tiger |
-| Canva | Not made yet. Copy of the Chinese design `A-12 白虎` (DAHWtFlSqqs), to be named `EN03 A-12 白虎` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 43 = next-episode card, 44 = follow page). |
+| Canva | `EN03 A-12 白虎` (DAHZrV1TvtM), a copy of the Chinese design. **Placed 2026-11-25**: English text, English diagrams and translated labels on the 16 kept pages, which now sit in order as Canva pages 1–16 (the "Now" column below), followed by the credits page (17, kept as is); pages 18–45 are unused — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold, body 44 px; labels on pages 6 (now 5) shrunk to 56 px so the English fits. |
 | Opening line | *One sky. Ancient China saw — a white tiger.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.3; cover excluded, see review merge E01) |
 
@@ -32,26 +32,26 @@
 
 ## Page sequence (what the editor sets in Canva)
 
-`Canva page` = the original page number (Chinese design); `Now` = filled in by the Canva pass after the unused pages are moved to the back. Transitions are Match & Move unless marked. Labels on kept pages are translated in the Canva pass (as in EN01).
+`Canva page` = the original page number (Chinese design); `Now` = where the page sits after Claude moved the unused pages to the back (2026-11-25). Pages 18–45 are unused: delete them in grid view; page 17 is the credits page. Transitions are Match & Move unless marked. Labels on kept pages are translated in the Canva pass (as in EN01).
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP03 tag |
-| 2 | | 鏡頭01開始 | 5 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 5 | E02; then the sky moves straight to 33 (pages 4–5, the seven-mansion slide and the 28-animal labels, removed) |
-| 33 | | 鏡頭12結束 | 7 | E03; mansion labels 參宿／觜宿／畢宿／昴宿／胃宿 → Shen／Zi／Bi／Mao／Wei |
-| 6 | | 鏡頭04結束＝鏡頭05開始 | 7 | E04; 天官書 labels: 觜觿（虎首）／左肩／右肩／衡石／罰／左股／右股／參為白虎 → Zuixi (head)／left shoulder／right shoulder／balance beam／Punishment／left leg／right leg／"Shen is the White Tiger" |
-| 7 | | 鏡頭05結束 | 7 | E05 |
-| 8 | | 鏡頭05-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A12-01_參字_三星層_透明.png`) |
-| 9 | | 鏡頭05-概念圖2 | 3 | + `C-A12-01_參字_字形層_透明.png` (English) |
-| 10 | | 鏡頭05-概念圖3 | 3 | + `C-A12-01_參字_說明層_透明.png` (English) |
-| 11 | | 鏡頭05-概念圖收＝鏡頭06開始 | 9 | diagram fades; E07 |
-| 12 | | 鏡頭06結束 | 8 | E08 |
-| 13 | | 鏡頭06-概念圖 | 4 | card → English (`_概念圖/en/C-A12-05_同一條腰帶_圖卡.png`); then the sky moves to 38 |
-| 38 | | 鏡頭12-概念圖收＝鏡頭13開始 | 9 | E10; mansion labels as page 33 |
-| 39 | | 鏡頭13結束 | 8 | E11; mansion labels as page 33 |
-| 43 | | 端卡（下集見） | 4 | E12 |
-| 44 | | 追蹤頁 | — | E13 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP03 tag |
+| 2 | 2 | 鏡頭01開始 | 5 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 5 | E02; then the sky moves straight to 33 (pages 4–5, the seven-mansion slide and the 28-animal labels, removed) |
+| 33 | 4 | 鏡頭12結束 | 7 | E03; mansion labels 參宿／觜宿／畢宿／昴宿／胃宿 → Shen／Zi／Bi／Mao／Wei |
+| 6 | 5 | 鏡頭04結束＝鏡頭05開始 | 7 | E04; 天官書 labels: 觜觿（虎首）／左肩／右肩／衡石／罰／左股／右股／參為白虎 → Zuixi (head)／left shoulder／right shoulder／balance beam／Punishment／left leg／right leg／"Shen is the White Tiger" |
+| 7 | 6 | 鏡頭05結束 | 7 | E05 |
+| 8 | 7 | 鏡頭05-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A12-01_參字_三星層_透明.png`) |
+| 9 | 8 | 鏡頭05-概念圖2 | 3 | + `C-A12-01_參字_字形層_透明.png` (English) |
+| 10 | 9 | 鏡頭05-概念圖3 | 3 | + `C-A12-01_參字_說明層_透明.png` (English) |
+| 11 | 10 | 鏡頭05-概念圖收＝鏡頭06開始 | 9 | diagram fades; E07 |
+| 12 | 11 | 鏡頭06結束 | 8 | E08 |
+| 13 | 12 | 鏡頭06-概念圖 | 4 | card → English (`_概念圖/en/C-A12-05_同一條腰帶_圖卡.png`); then the sky moves to 38 |
+| 38 | 13 | 鏡頭12-概念圖收＝鏡頭13開始 | 9 | E10; mansion labels as page 33 |
+| 39 | 14 | 鏡頭13結束 | 8 | E11; mansion labels as page 33 |
+| 43 | 15 | 端卡（下集見） | 4 | E12 |
+| 44 | 16 | 追蹤頁 | — | E13 |
 
 Total 85 s (the follow page is not counted, as in EN01).
 
