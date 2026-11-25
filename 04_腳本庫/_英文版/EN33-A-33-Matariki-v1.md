@@ -1,4 +1,4 @@
-# EN33 ｜ Matariki: When the Stars Rise, the New Year Begins ・ v0 (awaiting Gemini review)
+# EN33 ｜ Matariki: When the Stars Rise, the New Year Begins ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -18,17 +18,17 @@
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The Māori saw — a new year. | — |
 | E02 | 6 | 2, 3 | bottom | This Friday in New Zealand | Since 2022, New Zealand has had a public holiday called Matariki. | 1.8 |
-| E03 | 6 | 4, 5 | top | Who sets the date? | *(headline only; diagram C-A33-01, English, carries the dates and the government quote)* | — |
+| E03 | 6 | 4, 5 | top | Why does the date change? | *(headline only; diagram C-A33-01, English, carries the dates and the government quote)* | — |
 | E04 | 8 | 6, 7 | bottom | Matariki = the Pleiades | Each April and May, it sinks into the evening twilight and hides in the Sun’s glare. | 2.0 |
-| E05 | 8 | 8 | bottom | Back at dawn in June | In June it returns before sunrise, in the southern winter. The old year ends; a new one begins. | 2.25 |
+| E05 | 8 | 8 | bottom | Back at dawn in June | It returns before sunrise, in the southern winter. The old year ends — a new one begins. | 2.25 |
 | E06 | 7 | 9, 10 | top | Then the Moon picks the day | *(headline only; diagram C-A33-02, English, carries the official rule)* | — |
 | E07 | 5 | — | — | | *(move only: page 11 fades the diagram, then the sky zooms into the cluster, 17)* | — |
 | E08 | 3 | 18 | bottom | Seven stars — or nine? | Many accounts count seven. | 1.3 |
-| E09 | 8 | 19 | bottom | | Lately, nine get the most attention: Māori astronomer Rangi Mātāmua drew them from a 1933 family manuscript. | 2.1 |
+| E09 | 8 | 19 | bottom | | Lately, nine get the most attention: Māori astronomer Rangi Mātāmua compiled them from a 1933 family manuscript. | 2.1 |
 | E10 | 7 | 20 | bottom | Each star watches over something | Food from the soil. Fruit and birds. Fresh water. The sea. Rain. Wind. | 1.9 |
 | E11 | 8 | 21 | bottom | | Matariki, the mother: health. Hiwa-i-te-rangi: new year wishes. Pōhutukawa: those lost this past year. | 1.75 |
-| E12 | 6 | 23 | bottom | The two faintest | Those last two are the faintest: you need a truly dark sky. | 1.8 |
-| E13 | 8 | 24 | bottom | Before dawn this week | The Pleiades sit low in the east-northeast — as New Zealand greets its new year. | 1.75 |
+| E12 | 6 | 23 | bottom | The two faintest | Those last two are the dimmest — you need a dark sky to see them. | 2.3 |
+| E13 | 8 | 24 | bottom | Before dawn this week | The Pleiades sit low between northeast and east — as New Zealand greets its new year. | 1.9 |
 | E14 | 4 | 36 | endcard | Next Wednesday | Asterisms: the star patterns textbooks skip. | 1.5 |
 | E15 | 3 | 37 | endcard | | Follow for a new sky every week. | 2.33 |
 
@@ -38,7 +38,7 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the new hook (*A star cluster comes back — and a country takes a day off.*); EN · EP33 tag |
+| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; first line = E01 (the series opening line); second line = the new hook (*A star cluster comes back — and a country takes a day off.*); EN · EP33 tag |
 | 2 | | 鏡頭01開始 | 3 | E02; zoom from Orion–Taurus toward the Pleiades (shortened from 13 s) |
 | 3 | | 鏡頭01結束＝鏡頭02開始 | 3 | E02; labels Matariki stays; 昴宿 → the Pleiades |
 | 4 | | 鏡頭02-概念圖1 | 3 | diagram C-A33-01, English, years layer (`_概念圖/en/C-A33-01_Matariki假日_年份層_透明.png`); E03 headline |
@@ -52,7 +52,7 @@
 | 17 | | 鏡頭07結束＝鏡頭08開始 | 2 | cluster close-up, no labels, no text |
 | 18 | | 鏡頭08結束＝鏡頭08b開始 | 3 | E08; seven name labels (Māori, unchanged) |
 | 19 | | 鏡頭08b結束＝鏡頭09開始 | 8 | E09; nine name labels |
-| 20 | | 鏡頭09結束＝鏡頭10開始 | 7 | E10; domain labels 土裡的食物 → food in the soil; 樹上的果實和鳥 → fruit and birds; 淡水 → fresh water; 大海 → the sea; 雨 → rain; 風 → wind |
+| 20 | | 鏡頭09結束＝鏡頭10開始 | 7 | E10; domain labels 土裡的食物 → food from the soil; 樹上的果實和鳥 → fruit and birds; 淡水 → fresh water; 大海 → the sea; 雨 → rain; 風 → wind |
 | 21 | | 鏡頭10結束 | 8 | E11; labels 母親・健康・2.9 等 → mother · health · mag 2.9; 新年的願望・5.5 等 → wishes · mag 5.5; 離開的人・5.8 等 → the departed · mag 5.8; then straight to 23 (page 22, card C-A33-05, removed) |
 | 23 | | 鏡頭10-概念圖收 | 6 | E12; labels as 21 |
 | 24 | | 鏡頭11開始 | 8 | E13; cluster at fov 7, no labels; then straight to 36 (pages 25–35: hautapu, Puanga, Antares/Rehua tonight, card C-A33-07 and the Chinese next-episode text, removed) |
@@ -78,14 +78,14 @@ Total 90 s (E15 included).
 | Tupuānuku／Tupuārangi／Waitī／Waitā／Waipuna-ā-rangi／Ururangi | (labels only) food in the soil / fruit and birds / fresh water / the sea / rain / wind | names stay on the chart as in the Chinese |
 | Hiwa-i-te-rangi（新年的願望） | Hiwa-i-te-rangi: new year wishes | |
 | Pōhutukawa（過去一年離開的人） | Pōhutukawa: those lost this past year | |
-| 東北東 | east-northeast | |
+| 東北東 | between northeast and east | the Chinese 東北東 is Taipei’s view; the English line has to hold in New Zealand too (northeast, azimuth 45–56°) and at northern mid-latitudes (east-northeast, 64–71°) |
 | 現代星座（下）：星群（A-36） | Asterisms: the star patterns textbooks skip | EN34 title (next Wednesday, 30 June; the Chinese order is A-36 then A-33) |
 
 ## YouTube
 
 - **Title**: Matariki: when the stars rise, the new year begins
 - **Description**:
-  Each April and May the Pleiades — Matariki — vanish into the Sun’s glare. In June they return at dawn, in the southern winter, and for the Māori a new year begins. Since 2022 New Zealand has made it a public holiday, its date set by the stars and the Moon: this year, Friday 25 June. Many accounts count seven stars; in recent years nine get the most attention, each watching over food, water, weather, health, wishes — or the dead.
+  Each April and May the Pleiades — Matariki — vanish into the Sun’s glare. In June they return at dawn, in the southern winter, and for the Māori a new year begins. Since 2022 New Zealand has made it a public holiday, its date set by the stars and the Moon: this year, Friday 25 June. Many accounts count seven stars; in recent years nine get the most attention, each watching over food, water, weather, health, wishes — or those lost this past year.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Rangi Matamua, Matariki: The Star of the Year (2017); NZ Government (employment.govt.nz); Matariki Advisory Group dates 2022–2052; Te Papa; Te Ara; Stellarium sky culture (maori, Dan Smale).
 
@@ -94,8 +94,8 @@ Total 90 s (E15 included).
 A star cluster comes back — and a country takes a day off. ✨
 Matariki is the Pleiades. Each April and May it hides in the Sun’s glare; in June it returns at dawn, in the southern winter. The old year ends, a new one begins.
 Since 2022 it has been a public holiday in New Zealand. The date follows the stars, then the Moon: on the official rule, the Friday closest to the Tangaroa nights of the month Pipiri. This year: Friday 25 June.
-Many accounts count seven stars. Lately, nine get the most attention — from a family manuscript finished in 1933, shared by Māori astronomer Rangi Mātāmua. Each star watches over something: food from the soil, fruit and birds, fresh water, the sea, rain, wind, health, the new year’s wishes, and those who died in the past year.
-Before dawn this week, find the Pleiades low in the east-northeast.
+Many accounts count seven stars. Lately, nine get the most attention — from a family manuscript finished in 1933, shared by Māori astronomer Rangi Mātāmua. Each star watches over something: food from the soil, fruit and birds, fresh water, the sea, rain, wind, health, the new year’s wishes, and those lost in the past year.
+Before dawn this week, find the Pleiades low between northeast and east.
 Next Wednesday: asterisms — the star patterns textbooks skip.
 #WorldSkyCultures #Matariki #Pleiades #astronomy #MāoriNewYear #NewZealand #skylore
 (First comment: sources — Matamua 2017; employment.govt.nz; Matariki Advisory Group; Te Papa; Te Ara; Stellarium maori.)
@@ -114,6 +114,27 @@ Wording to check:
 7. E10 domains shortened: 「土裡長的食物」 → food from the soil; 「樹上的果實和鳥」 → fruit and birds; 「淡水和河裡的食物」 → fresh water; 「大海和海裡的食物」 → the sea.
 8. E11 “Matariki, the mother: health” = 10 鏡「Matariki 是母親，照看人們的健康」; “new year wishes” = 「收下新年的願望」; “Pōhutukawa: those lost this past year” = 「代表過去一年離開的人」.
 9. E12 “you need a truly dark sky” = 「要在很黑的地方才看得到」.
-10. E13 is the Northern-Hemisphere version of 13 鏡 (Taipei, 26 June 03:30–04:00, east-northeast, 10°→17°). Checked with PyEphem for 24 June when the Sun is 12° below the horizon: Alcyone 17° up at 25° N, 14° at 35° N, 11° at 40° N, 8° at 45° N, azimuth 64–71° — so “low in the east-northeast” holds across the mid-latitudes. “as New Zealand greets its new year” = 「跟紐西蘭一起迎新年」.
+10. E13 is the Northern-Hemisphere version of 13 鏡 (Taipei, 26 June 03:30–04:00, east-northeast, 10°→17°). Checked with PyEphem for 24 June when the Sun is 12° below the horizon: Alcyone 17° up at 25° N, 14° at 35° N, 11° at 40° N, 8° at 45° N, azimuth 64–71° — so “low in the east-northeast” holds across northern mid-latitudes; in New Zealand the same dawn sky is northeast (azimuth 45–56° per the Chinese 星空對時表: Auckland 56°→47°, Wellington 54°→45°), so v1 says “between northeast and east”, which is true for both. “as New Zealand greets its new year” = 「跟紐西蘭一起迎新年」.
 11. The cover’s second line is the new English hook (also written into the schedule), not a translation of the Chinese cover.
 12. Page sequence is the authority for timing (total 90 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN33_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-33 v1; spellings follow its star-name table (all Māori names unchanged, all macrons kept). No new facts were added. Reading speed rechecked for every changed beat (E05 16 words ÷ 8 s = 2.0; E09 17 ÷ 8 = 2.1; E12 14 ÷ 6 = 2.3; E13 15 ÷ 8 = 1.9), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted (6 of 8 rows, 1 of them in part):
+1. E13 (🔴): “low between northeast and east”. The Chinese 13 鏡 says 東北東 from Taipei; Gemini is right that New Zealand sees the cluster in the northeast (the Chinese 星空對時表: Auckland 56°→47°, Wellington 54°→45°). The new wording is true for both. Caption line changed to match (Wording to check 10 updated; Glossary row 東北東 updated).
+2. E03 (🟡): headline “Why does the date change?” (02 鏡「它每年日期都不一樣」; the answer, 03 鏡「日期由天上決定」, follows in E04–E06).
+3. E05 (🟡): “It returns before sunrise, in the southern winter. The old year ends — a new one begins.” (drops the repeated “In June”, the semicolon becomes a dash).
+4. E09 (🟡, in part): Gemini’s point that “drew them” can be misread as drawing is right, but “shared them” loses 整理. Used “compiled them from a 1933 family manuscript” (08 鏡「整理祖先……的手稿」); kept “Lately” (= 近年) rather than “Now”.
+5. E12 (🟡): “Those last two are the dimmest — you need a dark sky to see them.” (no “faintest” echo of the headline; “to see them” restored; 14 words ÷ 6 s = 2.3 — v0’s 1.8 was a miscalculation).
+6. E10 (⚪): label 土裡的食物 → “food from the soil”, same as the subtitle.
+7. YouTube description and Caption (⚪, in part): “those lost this past year / in the past year” instead of “the dead” / “those who died”, matching E11 and 10 鏡「過去一年離開的人」; Caption direction line follows E13.
+
+Not adopted:
+- E01 (🔴) “These stars return — and a country takes the day off.” There is no conflict: the cover has two lines — the series opening line (= Chinese 統一開頭, E01 in Beats) and the hook (the schedule’s 「英文鉤子（第一張字卡）」, in the Page sequence note). Every episode so far (EN14, etc.) is built this way and the cover is outside the reading-speed count. The Page sequence note now says “first line = E01; second line = the new hook” to make this explicit. The hook itself stays: “comes back” matches 03 鏡「再從……黎明裡冒出來」.
+- YouTube “in recent years nine have gained…” (⚪): the on-screen line says “get”; the description keeps the same tense as E09.
+
+Gemini’s section 3 notes: (1) cover layout — settled as above; (2) diagrams C-A33-01/02 were not checked by Gemini; the Canva pass (card 07) must check date format (“25 June”) and macrons on the English PNGs; (3) E13 wording — chose the shorter “between northeast and east”.
+
+Canva: no `en` block in `A-33_Canva媒體ID.json` (no English text placed yet), nothing to replace.
