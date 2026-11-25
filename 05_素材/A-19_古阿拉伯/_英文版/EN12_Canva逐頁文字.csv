@@ -1,6 +1,6 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
 1,,開場字卡,3,World Sky Cultures,"One sky. The ancient Arabs saw — a
-desert zoo.",cover,"Cover: text block replaced with English; second line = the schedule’s hook (“Ostriches, gazelles, hyenas — a desert zoo overhead.”); EN · EP12 tag"
+desert zoo.",cover,"Cover: text block replaced with English; text = E01 (the series opening line); the schedule’s hook (“Ostriches, gazelles, hyenas — a desert zoo overhead.”) is the Caption’s first line, not on the cover; EN · EP12 tag"
 2,,鏡頭01開始,4,Star names in old poems,"Around the rise of Islam, Bedouin star
 names lived in poems. Later scholars
 wrote them down.",top,E02; Sirius close-up (label 天狼星 → Sirius); the Chinese 字卡 is removed
@@ -9,10 +9,10 @@ names lived in poems. Later scholars
 wrote them down.",top,"E02; then Match & Move straight to page 7 (pages 4–6, the C-A19-01 diagram, are unused)"
 7,,鏡頭03開始,6,Over 20 kinds of animals,"Of 100-plus constellations, many are
 animals: gazelles, oryx, wolves, hyenas,
-camels, wild asses, eagles, ravens…",bottom,E03; animal lines (amber)
+camels, wild donkeys, eagles, ravens…",bottom,E03; animal lines (amber)
 8,,鏡頭03結束,3,Over 20 kinds of animals,"Of 100-plus constellations, many are
 animals: gazelles, oryx, wolves, hyenas,
-camels, wild asses, eagles, ravens…",bottom,E03
+camels, wild donkeys, eagles, ravens…",bottom,E03
 9,,鏡頭04A開始,3,The biggest: a lion,"It sprawls from Gemini all the way to
 Virgo.",bottom,E04; label 獅子 → the Lion
 10,,鏡頭04A結束,2,The biggest: a lion,"It sprawls from Gemini all the way to
@@ -22,22 +22,22 @@ and the gazelles leapt in fright.",bottom,E05
 12,,鏡頭04B結束,7,,"Three star pairs below the Great Bear:
 the hoofprints. Alula, Tania, Talitha —
 first, second, third leap.",bottom,E06; labels 第一跳／第二跳／第三跳 → first leap／second leap／third leap
-13,,鏡頭05開始,7,A whole family of ostriches,"Fomalhaut and Diphda: two male
+13,,鏡頭05開始,7,A whole family of ostriches,"Fomalhaut and Diphda are two male
 ostriches, al-Ẓalīmān. The faint stars
-between them: the chicks.",top,"**hard cut (no transition)**, as in the Chinese; E07; labels → male ostrich (Fomalhaut)／male ostrich (Diphda)／the chicks"
+between them are the chicks.",top,"**hard cut (no transition)**, as in the Chinese; E07; labels → male ostrich (Fomalhaut)／male ostrich (Diphda)／the chicks"
 14,,鏡頭05結束＝鏡頭06開始,4,,Cetus holds a few mother ostriches.,top,E08; label 鴕鳥媽媽 → mother ostriches
 15,,鏡頭06-中1,5,,"Next door, in Eridanus: a nest, with
 eggs and even eggshells.",bottom,E09; label 鴕鳥窩 → ostrich nest
-16,,鏡頭06結束,6,One letter miscopied,"One star’s official name, Azha, means
-“ostrich nest” — with one letter
+16,,鏡頭06結束,6,One letter miscopied,"One star’s official name, Azha, comes
+from the Arabic for “ostrich nest” —
 miscopied.",bottom,E10; Azha close-up
 17,,鏡頭06-概念圖1,3,From nest to star name,,top,"diagram, English version (`_概念圖/en/C-A19-02_抄錯一個字母_原字層`); E11 headline only"
 18,,鏡頭06-概念圖2,3,From nest to star name,,top,+ `en/…_抄錯層`; E11 headline only
 19,,鏡頭06-概念圖收,2,,,,diagram fades; no text
 20,,鏡頭07開始,7,In summer: two more flocks,"In Sagittarius, four ostriches walk down
-to the Milky Way to drink. Four more
-head back.",top,**hard cut (no transition)**; E13; labels → ostriches going to drink／ostriches heading back; the corner note 夏天的星空 → the summer sky
-21,,鏡頭07結束,6,Gone on earth,"The Arabian ostrich died out in the 20th
+to the Milky Way river to drink. Four
+more head back.",top,**hard cut (no transition)**; E13; labels → ostriches going to drink／ostriches heading back; the corner note 夏天的星空 → the summer sky
+21,,鏡頭07結束,6,Gone on Earth,"Arabian ostriches died out in the 20th
 century. In the sky, they remain.",top,E14; then hard cut to 47
 47,,端卡（下集見）,3,This Saturday,Lunar New Year: the Vermilion Bird.,endcard,E15
 48,,追蹤頁,—,,Follow for a new sky every week.,endcard,E16
