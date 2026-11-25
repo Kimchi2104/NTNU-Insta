@@ -1,10 +1,10 @@
-# EN16 ｜ Belarus: A Farmer's Sky and Elijah's Chariot ・ v0 (2026-11-23, for Gemini review)
+# EN16 ｜ Belarus: A Farmer’s Sky and Elijah’s Chariot ・ v1 (2026-11-25, Gemini review merged)
 
 | Item | Content |
 |---|---|
 | Source | Chinese A-22 v1 (`A-22-白俄羅斯農民曆星空與以利亞的馬車-逐字稿-v1.md`, fact-checked + external review 2026-11-11). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-02-24 (Wed) 21:00 Taiwan time**: EN16 in `06_發布月曆/節目表_萬國星空_英文版.csv` |
-| Length | **78 s**, 14 beats, ~165 words on screen (no voice-over; text over light music) |
+| Length | **78 s**, 13 beats, ~165 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the Big Dipper is a cart, and Elijah drives it**. In Belarus the Pole Star is the Nail and the Big Dipper turns around it as Voz, the Cart. After Christianity arrived the cart got a driver, the prophet Elijah, who went up to heaven by a chariot of fire; summer thunder is Elijah driving. His feast is in early August; some think the driver was once the thunder god Perun. Other peoples saw a cart there too. Ends with a sky-watching tip for the Cart |
 | Canva | Not made yet. Copy of the Chinese design `A-22 白俄羅斯` (DAHWtHGx6gg), to be named `EN16 A-22 白俄羅斯` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 100 = end card with the follow CTA; the design is full at 100 pages, so there is no separate follow page). |
 | Opening line | *One sky. Belarusian farmers saw — a cart in the stars.* |
@@ -17,17 +17,17 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Belarusian farmers saw — a cart in the stars. | — |
-| E02 | 7 | 2, 3, 4, 5, 6 | bottom | | Researchers found village elders in Belarus still knew the stars’ names in the 21st century. | 2.1 |
+| E02 | 7 | 2, 3, 4, 5, 6 | bottom | | Into the 21st century, researchers found Belarusian village elders still knew the star names. | 2.0 |
 | E03 | 6 | 10, 11, 12, 13 | bottom | The Nail | The Pole Star is Hvozdz, the Nail. The whole sky turns around it. | 2.2 |
-| E04 | 9 | 14, 15, 16, 17, 18, 19 | bottom | The Big Dipper = Voz | And around the Nail turns a cart: the Big Dipper is Voz, the Cart; the Little Dipper is Maly voz. | 2.2 |
+| E04 | 9 | 14, 15, 16, 17, 18, 19 | bottom | The Big Dipper = Voz | Around the Nail turns a cart: the Big Dipper is Voz, the Cart. The Little Dipper is Maly voz, the Small Cart. | 2.4 |
 | E05 | 5 | 20, 21, 22 | bottom | Then came Christianity | After Christianity arrived, the cart got a driver: the prophet Elijah. | 2.2 |
-| E06 | 7 | 23, 24, 25 | bottom | | The Bible says he never died: “a chariot of fire… and Elijah went up by a whirlwind.” | 2.4 |
-| E07 | 6 | 27 | bottom | Elijah’s fiery chariot | So the Big Dipper is also Illioŭ voz: Elijah’s cart — a fiery chariot. | 2.3 |
-| E08 | 6 | 28, 29 | top | Summer thunder: Elijah’s chariot | *(English diagram `en/C-A22-03` "Thunder = Elijah driving": rolling wheels = thunder, lightning = chasing the devil; headline only)* | — |
-| E09 | 5 | 30 | bottom | | His feast is in early August: thunderstorms and harvest time. | 2.0 |
-| E10 | 5 | 34 | bottom | | Some think the driver was once the thunder god Perun. | 2.0 |
+| E06 | 7 | 23, 24, 25 | bottom | In the Bible | He never died: “a chariot of fire… and Elijah went up by a whirlwind into heaven.” | 2.3 |
+| E07 | 6 | 27 | bottom | Elijah’s fiery chariot | So the Big Dipper is also Illioŭ voz: Elijah’s cart — a fiery chariot. | 2.2 |
+| E08 | 6 | 28, 29 | top | East Slavic folklore: summer thunder | *(English diagram `en/C-A22-03` "Thunder = Elijah driving": rolling wheels = thunder, lightning = chasing the devil; headline only)* | — |
+| E09 | 5 | 30 | bottom | | His feast day is in early August — thunderstorms and harvest time. | 2.2 |
+| E10 | 5 | 34 | bottom | | Some think the driver was once the Slavic thunder god Perun. | 2.2 |
 | E11 | 8 | 35, 36 | bottom | The Dipper is a cart | Not just Belarus: the Norse saw the Man’s Chariot, Romania the Big Cart, China the Sky Emperor’s chariot. | 2.3 |
-| E12 | 5 | 37, 38 | bottom | Look up this week | After dark, look northeast: the Cart is climbing the sky. | 2.0 |
+| E12 | 5 | 37, 38 | bottom | Northern sky this week | Later in the evening, look northeast: the Cart is climbing the sky. | 2.4 |
 | E13 | 6 | 100 | endcard | Next Wednesday | Romania: a shepherd’s farm in the stars. Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -103,9 +103,9 @@ Total 78 s.
 
 In Belarus, the Big Dipper is a cart — driven by the prophet Elijah. ⚡
 Village elders in Belarus still knew the old star names into the 21st century. The Pole Star is Hvozdz, the Nail; around it turns Voz, the Cart.
-After Christianity arrived, the cart got a driver: Elijah. The Bible says a chariot of fire came between him and his companion, and he went up by a whirlwind. So the Dipper is also Illioŭ voz, Elijah’s cart. Summer thunder? That’s Elijah driving. Some think the driver was once the thunder god Perun.
+After Christianity arrived, the cart got a driver: Elijah. The Bible says a chariot of fire came between him and his companion, and he went up by a whirlwind. So the Dipper is also Illioŭ voz, Elijah’s cart. In East Slavic folklore, summer thunder is Elijah driving. Some think the driver was once the thunder god Perun.
 The Norse saw the Man’s Chariot, Romania the Big Cart, China the Sky Emperor’s chariot.
-This week after dark, look northeast: the Cart is climbing.
+This week, later in the evening, look northeast: the Cart is climbing.
 #WorldSkyCultures #Belarus #BigDipper #folklore #astronomy #Elijah
 (First comment: sources — Avilin 2008, “Astronyms in Belarussian folk beliefs”, Archaeologia Baltica 10; Kanaplianikau 2008; Stellarium belarusian; 2 Kings 2:11; East Slavic thunder belief cited in Ivanov & Toporov 1974.)
 
@@ -118,12 +118,33 @@ Wording to check:
 2. E02 = 02 鏡「研究者發現，到了二十一世紀，村裡的老人還叫得出星星的名字」 (fieldwork 1994–2005, Kanaplianikau / Avilin 2008).
 3. E03 "The whole sky turns around it" = 03 鏡「整片天空就繞著這根釘子轉」.
 4. E04: "the Big Dipper is Voz, the Cart" — Voz is a wagon for goods (大車), not "the Hay Wain" (the Chinese 考據 rejects 「載乾草的車」).
-5. E06 "The Bible says he never died" = 05 鏡「聖經說他沒有死」; the quote is 2 Kings 2:11 shortened with an ellipsis ("…parted them both asunder; and"). The text says *by a whirlwind*, not *in* the chariot — kept, as the Chinese diagram notes.
+5. E06 headline "In the Bible" + "He never died" = 05 鏡「聖經說他沒有死」; the quote is 2 Kings 2:11 shortened with an ellipsis ("…parted them both asunder; and"), now ending "into heaven" = 「升天去了」. The text says *by a whirlwind*, not *in* the chariot — kept, as the Chinese diagram notes.
 6. E07 "a fiery chariot" = 06 鏡「一輛火焰馬車」 (v1 changed 「燒著火的車」 to avoid "a cart on fire").
-7. E08 headline "Summer thunder: Elijah’s chariot" = 06 鏡「東斯拉夫民間說，夏天打雷，就是他駕著車在天上跑」; lightning = chasing the devil stays on the diagram only.
+7. E08 headline "East Slavic folklore: summer thunder" = 06 鏡「東斯拉夫民間說，夏天打雷，就是他駕著車在天上跑」; lightning = chasing the devil stays on the diagram only.
 8. E09 = 07 鏡「他的節日在八月初，正是雷雨多、麥子收割的時候」 ("harvest" = 麥子收割).
 9. E10 keeps the hedge 「也有人認為」 → "Some think".
 10. E11 = 08 鏡; "China the Sky Emperor’s chariot" = 「司馬遷也說『斗為帝車』——天帝的車」 (Sima Qian's name dropped for length; EN15 names him).
-11. E12 is the Northern-Hemisphere version of 17 鏡「九點以後，北斗從東北方爬上來」: in late February at mid-northern latitudes the Dipper stands in the northeast after dark, handle down, and climbs through the evening. No clock time. "the Cart" (not "the Big Dipper") ties back to E04.
+11. E12 is the Northern-Hemisphere version of 17 鏡「九點以後，北斗從東北方爬上來」: in late February at mid-northern latitudes the Dipper stands in the northeast in the evening, handle down, and climbs. No clock time; “later in the evening” (not “after dark”) because at 25° N it has not risen at dusk. "the Cart" (not "the Big Dipper") ties back to E04.
 12. E13: EN17 (A-23 Romania) publishes Wednesday 3/3, so "Next Wednesday". The A-22 design is full at 100 pages, so the follow line shares the end card.
 13. Diagram C-A22-03 (English): "rolling wheels = thunder" (shortened from "wheels rolling across the sky = thunder") and the lightning line moved down so the two captions no longer overlap.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN16_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-22 v1 (`A-22-白俄羅斯農民曆星空與以利亞的馬車-逐字稿-v1.md`); spellings follow its 星名表. No new facts were added. Reading speed rechecked for every changed beat (E02 14 words ÷ 7 s = 2.0; E04 22 ÷ 9 = 2.4; E06 16 ÷ 7 = 2.3; E09 11 ÷ 5 = 2.2; E10 11 ÷ 5 = 2.2; E12 12 ÷ 5 = 2.4), all ≤ 2.5; Text lines ≤ 40 letters, ≤ 3 lines, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. Header (🟡): “13 beats” (the table has E01–E13); straight apostrophes in the title made curly.
+2. E02 (🟡): “Into the 21st century, researchers found Belarusian village elders still knew the star names.” Leads with the timeframe, keeps the fieldwork attribution. Gemini’s “old star names” → “star names”: 「星星的名字」 has no “old”.
+3. E04 (🟡): “… The Little Dipper is Maly voz, the Small Cart.” = 「Maly voz，小車」; the body text now explains the term; the semicolon is a full stop.
+4. E06 (🟡): headline “In the Bible” + “… went up by a whirlwind into heaven.” Restores 「升天」 (2 Kings 2:11 “into heaven”); “The Bible says” moved to the headline, so reading speed falls to 2.3.
+5. E08 headline (🟡): “East Slavic folklore: summer thunder” = 「東斯拉夫民間說」 (the Chinese 考據 keeps the wider East Slavic attribution deliberately, v1 備註); the diagram already says “Thunder = Elijah driving”. Caption likewise: “In East Slavic folklore, summer thunder is Elijah driving.”
+6. E09 (🟡): “His feast day is in early August — thunderstorms and harvest time.”; “feast day” so non-Christian readers do not read a meal.
+7. E10 (🟡): “the Slavic thunder god Perun” = 星名表「斯拉夫雷神」; hedge “Some think” kept.
+8. E12 (🟡): headline “Northern sky this week” (southern viewers are not misled). Gemini §3 note 3: the Chinese says 「九點以後」 and the Dipper has not risen at dusk at 25° N, so “After dark” is changed to “Later in the evening” (text, and the caption’s “later in the evening”); 12 words ÷ 5 s = 2.4.
+
+Not adopted:
+- E01 (🟡) alternative hook “In Belarus, the Big Dipper is a chariot of fire”: the cover keeps the series pattern (*One sky. The [people] saw — [X].*, Chinese 統一開頭 「白俄羅斯的農民看見——…」); the cart → Elijah’s fiery chariot reveal is the story arc (E05–E07), and a chariot-of-fire cover would pre-empt E04–E07 and the Chinese structure. Gemini’s §3 note 1 allows keeping it.
+- E05 (⚪) headline “A new driver”: “Then came Christianity” is the standalone beat card (Chinese 「基督教傳進來以後」); keep.
+- E11 (⚪) capitalisation / subject parallelism: kept verbatim with EN15 (“Sky Emperor’s chariot”), as Gemini itself allows.
+
+Canva: no English block in `A-22_Canva媒體ID.json`, nothing to replace.
