@@ -1,0 +1,40 @@
+# EN11 英文審稿
+
+## 一、逐條意見
+| 嚴重度（🔴必改／🟡建議／⚪可選） | 位置（beat 編號） | 原文 | 問題 | 建議改法 | 依據（中文稿的哪一句） |
+|---|---|---|---|---|---|
+| 🔴必改 | E12 | `Around 10 p.m., face south: Sirius stands at its highest, with Orion to its upper right.` | 1. **Time format**: uses `10 p.m.` instead of 24-hour time (required by style guide).<br>2. **Hemisphere scope**: for an international audience, “face south” with Orion to the “upper right” is false in the Southern Hemisphere (south of ~16.7°S, Sirius transits to the north, with Orion to its lower left).<br>3. Minor wording: `is highest` reads more plainly than `stands at its highest`. | `North of the equator, face south around 22:00: Sirius is highest, with Orion to its upper right.` (17 words, 1.7 w/s, 3 lines ≤ 40 chars) | 18 鏡：「十點半往正南看：天狼星爬到最高，四十八度；獵戶在它右上方。」（中文稿針對台北 25°N；英文版面向全球觀眾，刪去仰角後仍須限定北半球並改為 24 小時制） |
+| 🟡建議 | E07 | `Pyramid age, Memphis: Sirius returned a few days after the solstice, just in time for the flood.` | 1. **Ambiguity**: `the solstice` omits “summer”; for a late-January release and global viewers, bare “the solstice” can be misread as the winter solstice (the YouTube description and Caption both say `the summer solstice`).<br>2. **Reading density**: 17 words in 7 s (2.4 w/s) plus a 6-word headline (`And today? We did the math.`) = 23 words in 7 s, and 96 characters barely fit 3 lines. | `Pyramid age, Memphis: Sirius returned days after the summer solstice, in time for the flood.` (15 words, 2.1 w/s, 92 chars / 3 lines) | 07 鏡：「金字塔時代，天狼星在孟斐斯重新出現，大約在夏至後幾天，正好趕上漲水」 |
+| 🟡建議 | E09（及 YouTube／Caption） | `Today in Cairo, Sirius waits until around 5 August.` | 1. **Date-format inconsistency**: British `5 August` clashes with US `Jun 28–29` / `Aug 5–6` in E08 (and US `math` in E07).<br>2. **Clarity**: `Sirius waits` slightly over-personifies the star; `doesn’t return` is clearer after E08’s “Over a month late”. | `Today in Cairo, Sirius doesn’t return until around August 5.` (10 words, 2.0 w/s, 2 lines). Also change `5 August` → `August 5` in YouTube Description and Caption. | 07 鏡：「今天在開羅，要等到八月五日前後——晚了一個多月。」 |
+| 🟡建議 | E11（及 YouTube） | `In 1970 the Aswan High Dam was finished. The yearly flood now stays in a reservoir.` | `stays in a reservoir` is unidiomatic and slightly imprecise (reservoir water is held back and regulated, not permanently sitting there). Active voice is also tighter and punchier. Keep `finished` (not “opened”, since inauguration was Jan 1971). | `Finished in 1970, the Aswan High Dam now holds the yearly flood in a reservoir.` (15 words, 2.1 w/s, 79 chars). In YouTube Description: `the yearly flood is held in a reservoir.` | 08 鏡：「一九七〇年亞斯文高壩完工，每年的大水就被攔進水庫。」／考據備忘：「1970 年完工（1971 年 1 月落成啟用）……每年的洪水從此被調節。」 |
+| 🟡建議 | E06 | `Around then the river began to rise. The Egyptian year originally began that day.` | Repeats `began` in two consecutive sentences; missing comma after `Around then`; 14 words in 6 s (2.3 w/s) plus a 4-word headline is slightly tight. | `Around then, the river started rising. Egypt’s year originally began that day.` (12 words, 2.0 w/s, 2 lines ≤ 40 chars) | 04 鏡：「差不多就在這時候，河水開始漲——埃及的一年，原本就從這一天開始。」 |
+| 🟡建議 | E01／Cover（Hook 評估） | `One sky. The ancient Egyptians saw — a star that woke the Nile.`（Page sequence 備註另列第二行：`When Sirius returned, the Nile flooded. Not anymore.`） | **Hook check**: The series opener (`One sky. The ancient Egyptians saw — a star that woke the Nile.`) is atmospheric, but on its own it is gentle rather than an instant 2-second scroll-stopper. The schedule’s second line (`When Sirius returned, the Nile flooded. Not anymore.`) IS a strong scroll-stopper because of the punchy reversal (“Not anymore.”). However, putting BOTH lines plus `World Sky Cultures` on a 3-second cover totals 23 words in 3 s—too much to read before the cut. | Keep the schedule’s hook prominently on the cover (and list it in the Beats table if it appears on screen), or give the cover 4 s if both lines stay. **Alternative hook** (if using one punchy line on the cover): `One star once woke the Nile. Not anymore.` (8 words) | 統一開頭：「同一片星空，古埃及人看見——一顆叫醒尼羅河的星。」／⚠️鉤子：「天狼星一回來，尼羅河就漲水——四千多年後，兩邊都不等了」 |
+| 🟡建議 | E04 | `Sirius, which the Egyptians called Sopdet, sinks into the sunset glow each spring.` | The embedded relative clause (`which the Egyptians called Sopdet`) is slightly heavy for on-screen reading. Two short plain sentences read faster. | `The Egyptians called Sirius Sopdet. Each spring, it sinks into the sunset glow.` (13 words, 1.4 w/s, 3 lines ≤ 40 chars) | 03 鏡：「天狼星，埃及人叫 Sopdet。每年春天，它沉進夕陽的光裡」 |
+| 🟡建議 | Caption | `Sirius returned to Memphis a few days after the summer solstice.` | Idiom: a star does not “return to” a city like a visitor; it returns *in* or *over* Memphis. | `in Memphis, Sirius returned a few days after the summer solstice.` | 07 鏡：「金字塔時代，天狼星在孟斐斯重新出現，大約在夏至後幾天」 |
+| ⚪可選 | Caption（首留言） | `calibrated on Censorinus’s year 139` | `year 139` right next to `2500 BCE` is clearer with an era label (`139 CE`). | `calibrated on Censorinus’s 139 CE` | 06 鏡／首留言：「西元一三九年」 |
+| ⚪可選 | E03（概念圖） | `the river rises / banks flooded / black silt left behind` | Minor tense/form mix in diagram labels (`rises` present vs `flooded` past/participle) under a past-tense headline (`Every summer, the Nile rose`). | `river rises / banks flood / black silt left behind` (or all past: `river rose / banks flooded / black silt left behind`) | 02 鏡：「河水從六月開始漲，淹過兩岸；退去時留下一層黑色的沃土」 |
+
+## 二、建議的定稿版（整張 Beats 表照原格式重寫一次，改過的格子標 **粗體**）
+
+| # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
+|---|---|---|---|---|---|---|
+| E01 | 3 | 1 | cover | World Sky Cultures | One sky. The ancient Egyptians saw — a star that woke the Nile. | — |
+| E02 | 7 | 2, 3 | bottom | | Egypt gets almost no rain. Life depends on the Nile. | 1.4 |
+| E03 | 9 | 4, 5, 6 | top | Every summer, the Nile rose | *(diagram `en/C-A18-01`: the river rises / banks flooded / black silt left behind / Kemet = the Black Land)* | — |
+| E04 | 9 | 7, 8 | bottom | | **The Egyptians called Sirius Sopdet. Each spring, it sinks into the sunset glow.** | 1.4 |
+| E05 | 12 | 9, 10, 11, 12 | top | Gone for about 70 days | *(diagram `en/C-A18-02`: spring dusk / about 70 days unseen / summer, before sunrise: first glint / the river begins to rise)* | — |
+| E06 | 6 | 13 | bottom | New Year = Sirius returns | **Around then, the river started rising. Egypt’s year originally began that day.** | **2.0** |
+| E07 | 7 | 14 | bottom | And today? We did the math. | **Pyramid age, Memphis: Sirius returned days after the summer solstice, in time for the flood.** | **2.1** |
+| E08 | 7 | 21, 22 | top | Over a month late | *(diagram `en/C-A18-04`: 2500 BCE Memphis Jun 28–29 / 2027 Cairo Aug 5–6 / about 38 days later)* | — |
+| E09 | 5 | 23 | bottom | | **Today in Cairo, Sirius doesn’t return until around August 5.** | **2.0** |
+| E10 | 4 | 24 | top | And the Nile no longer floods | *(diagram `en/C-A18-05`: 1970, the Aswan High Dam; Lake Nasser holds the flood)* | — |
+| E11 | 7 | 25 | bottom | The river no longer waits | **Finished in 1970, the Aswan High Dam now holds the yearly flood in a reservoir.** | **2.1** |
+| E12 | 10 | 51, 52 | bottom | Look up this week | **North of the equator, face south around 22:00: Sirius is highest, with Orion to its upper right.** | **1.7** |
+| E13 | 4 | 56 | endcard | Next Wednesday | Ancient Arabia: a desert zoo in the sky. | 2.0 |
+| E14 | 3 | 57 | endcard | | Follow for a new sky every week. | 2.3 |
+
+## 三、沒把握的地方
+
+1. **E12 時間換算（`around 22:00`）**：中文稿 18 鏡寫的是 2027/1/22 台北 22:30（天狼星 22:33 中天），英文稿改為 2027/1/27 發布且說明天狼星當晚約地方時 22:20 中天，因此寫 `around 22:00`（配合「this week」跨 1 月底到 2 月初，中天時間從 22:20 提早到約 21:50，是合理的概數）。因規則不另外查證外部資料，此處僅依作者在「Cuts and changes #8」提供的 22:20 數字判定合理。
+2. **E13 下集預告標題（`Ancient Arabia: a desert zoo in the sky.`）**：此標題來自英文節目表（EN12），而非中文稿 A-18（中文稿 19 鏡預告的是老人星與兩群鴕鳥）。未能從 A-18 原稿本身核對該標題是否與 EN12 一致，請合併時對照英文節目表確認。
+3. **E01 封面文字量**：Page sequence 備註寫封面第二行會放排程鉤子（`When Sirius returned, the Nile flooded. Not anymore.`），但 Beats 表 E01 並未列出該句；若兩句同時出現在 3 秒的封面頁上，視覺密度會偏高，建議在 Canva 排版時確認兩者的字級層次或微調停留秒數。
