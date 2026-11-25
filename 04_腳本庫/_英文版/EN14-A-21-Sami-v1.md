@@ -1,11 +1,11 @@
-# EN14 ｜ Sámi: A Reindeer Hunt Across the Sky ・ v0 (awaiting Gemini review)
+# EN14 ｜ Sámi: A Reindeer Hunt Across the Sky ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
 | Source | Chinese A-21 v1 (`A-21-薩米馴鹿獵人的星空狩獵圖-逐字稿-v1.md`, fact-checked + external review 11/09). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-02-17 (Wed) 21:00 Taiwan time**: EN14 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Chinese A-21 airs 2/12) |
 | Length | **89 s** (including the 3 s follow page), 13 beats, ~177 words on screen (no voice-over; text over light music) |
-| Story | One story only: **the hunt that cannot end**. The prey is a giant reindeer, Sarvvis (Cassiopeia → Perseus → Capella; two of its stars got official IAU names in 2025); the hunter is Arcturus, Fávdna, and his bow is the Big Dipper. Between them stands the Pole Star, the Sky Support: if the arrow hits it, the sky falls. So the bow stays drawn every night. Close: the same Dipper is a moose in Siberia (last week’s EN50) and a caribou for the Inuit |
+| Story | One story only: **the hunt that isn’t over yet**. The prey is a giant reindeer, Sarvvis (Cassiopeia → Perseus → Capella; two of its stars got official IAU names in 2025); the hunter is Arcturus, Fávdna, and his bow is the Big Dipper. Between them stands the Pole Star, the Sky Support: if the arrow hits it, the sky falls. So the bow stays drawn every night. Close: the same Dipper is a moose in Siberia (last week’s EN50) and a caribou for the Inuit |
 | Canva | Not made yet: **the Chinese A-21 Canva design does not exist yet** (card 04 first). The English copy will be named `EN14 A-21 薩米` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 43 = next-episode card, 44 = follow page). If the Chinese design ends differently, put E12 and E13 on two copies of page 37. |
 | Opening line | *One sky. The Sámi saw — a hunt that isn’t over yet.* (= the Chinese 統一開頭) |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.43; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
@@ -19,14 +19,14 @@
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The Sámi saw — a hunt that isn’t over yet. | — |
 | E02 | 8 | 2, 3 | top | | The Sámi live in the far north of Norway, Sweden and Finland, and on Russia’s Kola Peninsula. *(page 3: set the box below the Fávdna label, Y ≈ 350–560)* | 2.1 |
 | E03 | 5 | 6 | top | One sky, one hunt | Few Sámi constellations survive, but they all tell one story. | 2.0 |
-| E04 | 7 | 7 | top-left | The prey: Sarvvis | A giant bull reindeer — some say a moose — from Cassiopeia’s W through Perseus to Capella. | 2.4 |
-| E05 | 7 | 8 | bottom | Named by the IAU, 2025 | In late 2025, the IAU named two stars in Perseus Sarvvis and Áldu: bull and cow reindeer. | 2.4 |
-| E06 | 7 | 13 | bottom-left | The hunter: Fávdna | Across the sky: Arcturus, the hunter Fávdna. His bow is the Big Dipper, aimed at the reindeer. | 2.4 |
+| E04 | 7 | 7 | top-left | The prey: Sarvvis | A giant bull reindeer (some say a moose) from Cassiopeia’s W through Perseus to Capella. | 2.1 |
+| E05 | 7 | 8 | bottom | Named by the IAU, 2025 | In late 2025, the IAU named two Perseus stars: Sarvvis and Áldu — bull and cow reindeer. | 2.3 |
+| E06 | 7 | 13 | bottom-left | The hunter: Fávdna | Across the sky is Arcturus. His bow is the Big Dipper, aimed north at the reindeer. | 2.3 |
 | E07 | 7 | 14 | bottom | The problem: the Pole Star | It sits right between them: Boahjenásti, the star that holds up the sky. | 1.9 |
 | E08 | 13 | 15, 16, 17 | top | The arrow that must not fly | Legend says that if Fávdna’s arrow hits it, the sky falls and the world ends. *(pages 16–17: headline only; the body would sit on the diagram)* | 2.1 *(on p. 15)* |
 | E09 | 7 | 18 | top | | So every night the bow is drawn, but the arrow waits. The hunt is not over yet. | 2.4 |
-| E10 | 8 | 33 | top-left | One Dipper, three stories | Siberian hunters see a moose here; the Inuit, a caribou. For the Sámi, it is a hunter’s bow. | 2.3 |
-| E11 | 11 | 36, 37 | bottom | Mid-February, 11 pm: look north | Arcturus is up in the east, the bow high in the northeast, the reindeer in the northwest — the Pole Star between. | 2.0 |
+| E10 | 8 | 33 | top-left | One Dipper, three stories | Siberian hunters see a moose; the Inuit see a caribou. For the Sámi, it’s a hunter’s bow. | 2.1 |
+| E11 | 11 | 36, 37 | bottom | Mid-February, 23:00: look north | Northern skies: Arcturus in the east, the bow northeast, the reindeer northwest — the Pole Star in between. | 1.6 |
 | E12 | 3 | 43 | endcard | Next Wednesday | Belarus: a farmer’s sky and Elijah’s chariot. | 2.3 |
 | E13 | 3 | 44 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -66,7 +66,7 @@ Total 89 s (E13 included).
 | 仙后座的 W／英仙座／五車二 | Cassiopeia’s W / Perseus / Capella | |
 | 國際天文聯合會 | the IAU | WGSN, 25 Dec 2025 |
 | Sarvvis／Áldu（IAU 2025） | Sarvvis and Áldu: bull and cow reindeer | δ Per A / ε Per A |
-| Fávdna（大角星） | Arcturus, the hunter Fávdna | spelling as the Chinese 星名表 (✓) |
+| Fávdna（大角星） | Arcturus (headline: the hunter Fávdna) | spelling as the Chinese 星名表 (✓) |
 | Fauna davgge（北斗七星） | his bow: the Big Dipper / Fávdna’s bow | the Sámi name stays on the chart label only |
 | Boahjenásti（北極星） | Boahjenásti, the star that holds up the sky / the Sky Support | |
 | 西伯利亞的獵人：駝鹿 | Siberian hunters: a moose | as EN50 |
@@ -77,16 +77,16 @@ Total 89 s (E13 included).
 
 - **Title**: Sámi: a reindeer hunt across the sky
 - **Description**:
-  For the Sámi of the far north, the whole sky is one hunt. The prey is a giant reindeer, Sarvvis, from Cassiopeia to Capella; the hunter is Arcturus, and his bow is the Big Dipper. But the Pole Star stands in between — the Sky Support. Legend says that if the arrow hits it, the sky falls. So the bow stays drawn, night after night.
+  For the Sámi of the far north, the whole sky is one hunt. The prey is Sarvvis, a giant bull reindeer (some say a moose), from Cassiopeia to Capella; the hunter is Arcturus, and his bow is the Big Dipper. But the Pole Star stands in between — the Sky Support. Legend says that if the arrow hits it, the sky falls. So the bow stays drawn, night after night.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Stellarium sky culture “sami” (J. Persson, after B. Lundmark 1982); Johan Turi, Muitalus sámiid birra (1910; tr. T. A. DuBois, An Account of the Sámi, 2011); IAU WGSN star names (25 Dec 2025).
 
 ## Caption (Instagram / Facebook / Threads)
 
-The Big Dipper is a bow — and the arrow must never fly. 🦌
+The Big Dipper is a bow — and the arrow must not fly. 🦌
 For the Sámi, the whole sky is one hunt. The prey: Sarvvis, a giant reindeer (some say a moose) stretching from Cassiopeia to Capella. The hunter: Arcturus, Fávdna, with the Big Dipper as his bow.
 Between them stands the Pole Star, Boahjenásti, the star that holds up the sky. Legend says that if the arrow hits it, the sky falls and the world ends. So every night the bow is drawn — and the hunt isn’t over yet.
-In late 2025, the IAU named two stars in Perseus Sarvvis and Áldu: bull and cow reindeer.
+In late 2025, the IAU named two Perseus stars: Sarvvis and Áldu — bull and cow reindeer.
 Next Wednesday: Belarus — a farmer’s sky and Elijah’s chariot.
 #WorldSkyCultures #astronomy #Sami #Arctic #BigDipper #Arcturus #reindeer #skylore
 (First comment: sources — Stellarium “sami” (Persson, after Lundmark 1982); Turi 1910 / DuBois 2011; IAU WGSN 2025.)
@@ -108,3 +108,25 @@ Wording to check:
 10. E11 is the Northern-Hemisphere tip replacing the Taipei 12 Feb tip; it is not in the Chinese script. Checked for 17 Feb, 23:00 local time at 40° N: Arcturus ~19° (ENE), Dubhe ~61° (NE), Alkaid lower, Capella ~51° and Mirfak ~34° (NW–W), Caph ~17° (NW), Polaris 40°. The Chinese gives the same arrangement for Taipei at 23:00 (「十一點前後，獵人、弓、北極星和鹿都在天上，北極星在正中間」); the Chinese caveat 「仙后座已經很低」 is a Taipei fact (5–7°) and is dropped because at 40° N Cassiopeia is ~17° up.
 11. The cover’s second line is the schedule’s hook, not a translation of the Chinese cover’s second line.
 12. Page sequence is the authority for timing (total 89 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN14_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese A-21 v1; spellings follow its star-name table. No new facts were added. Reading speed rechecked for every changed beat (E04 15 words ÷ 7 s = 2.1; E05 16 ÷ 7 = 2.3; E06 16 ÷ 7 = 2.3; E10 17 ÷ 8 = 2.1; E11 18 ÷ 11 = 1.6), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. E11 headline (🔴): “23:00” instead of “11 pm” (24-hour rule; 11 鏡字卡「23:00 整場狩獵」).
+2. E11 text (🟡): “Northern skies: …, the Pole Star in between.” Marks the Northern-Hemisphere scope and drops the abrupt “between.” Directions unchanged (see Wording to check #10).
+3. E05 (🟡): “named two Perseus stars: Sarvvis and Áldu — bull and cow reindeer” (04 鏡 has the colon); caption line changed to match.
+4. E06 (🟡): “Across the sky is Arcturus. … aimed north at the reindeer.” Fávdna is already in the headline; “north” restored (05 鏡「弓朝著北方的那頭鹿」).
+5. E10 (🟡): “see a moose; the Inuit see a caribou. … it’s a hunter’s bow.” (10 鏡 says the same without “here”).
+6. Caption (🟡): “must not fly” instead of “must never fly” (v1 avoided “never”: Turi’s version shoots on the last day; matches E08).
+7. YouTube description (🟡): “Sarvvis, a giant bull reindeer (some say a moose)” — restores the hedge from 03 鏡.
+8. E04 (⚪): parentheses instead of two dashes (15 words, 2.1 w/s).
+9. Header (⚪): “the hunt that isn’t over yet” (v1 備註 changed 永遠不會結束 → 到今天還沒結束).
+
+Not adopted:
+- E01 (🟡) “One sky. For the Sámi, the hunt still isn’t over.”: the cover keeps the series pattern *One sky. The [people] saw — [X].*, which is the Chinese 統一開頭 (「同一片星空，薩米人看見——一場還沒結束的狩獵」); Gemini’s §3 note 3 allows keeping it. The pivot to E02’s geography is the same in every episode.
+
+Gemini’s section 3 notes: (1) E11 east vs. east-northeast: kept “east” (simplified on purpose; ENE would not fit the word budget); (2) DuBois 2011 stays in the sources as the Chinese 來源欄 flags it 未親核, to be settled with the Chinese first comment; (3) narrow boxes E04 / E06 / E10 are 3 lines at most — to be eyeballed in Canva (card 07).
+
+Canva: no English blocks yet in `A-21_Canva媒體ID.json`, nothing to replace.
