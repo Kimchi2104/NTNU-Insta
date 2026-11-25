@@ -1,4 +1,4 @@
-# EN28 ｜ Southern Crosses: True, False and Diamond ・ v0 (awaiting Gemini review)
+# EN28 ｜ Southern Crosses: True, False and Diamond ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -8,7 +8,7 @@
 | Story | One story only: **how to find south with the right cross**. The Southern Cross points to the pole (extend the long bar 4.5 times, then drop to the horizon); the bigger False Cross, 30° west, sends you 20°+ off; the Diamond Cross sits closer to the pole. Close: where the true cross stands in mid-May |
 | Canva | Copy of `X-05 南天十字` → `EN28 X-05 南天十字` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover). The Chinese design has no separate end-card / follow pages: shot 14 (pages 33–34) carries 下集見, so E11 replaces that text. Cover second line = the schedule's English hook: *Pick the wrong cross and south moves 20° or more.* English diagrams: `05_素材/X-05_南天十字/_概念圖/en/` (same file names as the Chinese layers; C-X05-01 and C-X05-03 are used, C-X05-05 is there if wanted). |
 | Opening line | *One sky. Those looking for south saw — three crosses.* (= the Chinese 統一開頭 「找南方的人看見——三個十字」) |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.43, E10; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.29, E04/E10; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
 ## Beats (text on screen)
 
@@ -19,14 +19,14 @@
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Those looking for south saw — three crosses. | — |
 | E02 | 7 | 2, 3 | bottom | Three crosses in the south | One true, one false, one diamond. Mix them up and you lose south. | 1.9 |
 | E03 | 6 | 4 | bottom | The true one: the Southern Cross | The smallest constellation: four bright stars in a kite, plus a faint fifth. | 2.17 |
-| E04 | 7 | 5 | top | It points the way | Extend the long bar about 4.5 times: you land within 3° of the south celestial pole. | 2.29 |
+| E04 | 7 | 5 | top | It points the way | Extend the long bar about 4.5 times — you land within 3° of the south celestial pole. | 2.29 |
 | E05 | 9 | 6, 7, 8 | top | Drop to the horizon: due south | *(diagram pages: headline only; English C-X05-01 shows the bar, the Pointers' bisector and the drop)* | — |
-| E06 | 6 | 13 | bottom | The False Cross: bigger, dimmer | About 30° west. No bright pointers beside it, no Coalsack. | 1.7 |
-| E07 | 6 | 14 | bottom | | Try the same trick: you miss the pole by more than 20°. | 1.8 |
-| E08 | 8 | 15, 16 | top | South: 24° east or 42° west | *(diagram pages: headline only; English C-X05-03 says: at sea, 21° S, False Cross at its highest)* | — |
-| E09 | 7 | 17, 18 | bottom | The Diamond Cross | A name from modern stargazers: closer to the pole, all four stars in Carina. | 2.0 |
-| E10 | 7 | 30 | top | Mid-May, 9 p.m.: look due south | From 22° N the cross stands upright, 5–11° up. North of about 33° N, it never rises. | 2.43 |
-| E11 | 7 | 33, 34 | endcard | Next Wednesday | Before the compass: finding the way by stars. Follow for a new sky every week. | 2.0 |
+| E06 | 6 | 13 | bottom | The False Cross: bigger, dimmer overall | About 30° west. No bright pointers beside it, no dark Coalsack patch. | 2.0 |
+| E07 | 6 | 14 | bottom | | Try the same trick — you miss the pole by more than 20°. | 2.0 |
+| E08 | 8 | 15, 16 | top | Off 24° east or 42° west | *(diagram pages: headline only; English C-X05-03 says: at sea, 21° S, False Cross at its highest)* | — |
+| E09 | 7 | 17, 18 | bottom | The Diamond Cross | Named by modern stargazers. Closer to the pole, all four stars sit in Carina. | 2.0 |
+| E10 | 7 | 30 | top | Mid-May, 21:00: look due south | At 22° N it stands upright, 5–11° high. North of about 33° N, it never rises. | 2.29 |
+| E11 | 7 | 33, 34 | endcard | Next Wednesday | Before the compass: finding the way by stars. Follow for a new sky every week. | 2.14 |
 
 ## Page sequence (what the editor sets in Canva)
 
@@ -48,7 +48,7 @@
 | 16 | | 鏡頭06-概念圖2 | 4 | E08; + English `假十字層` |
 | 17 | | 鏡頭06-概念圖收＝鏡頭07開始 | 3 | E09; diagram fades |
 | 18 | | 鏡頭07結束 | 4 | E09; labels 鑽石十字 → Diamond Cross; Miaplacidus stays (delete 南船五 under it); 南船四 → ω Carinae; 圈內：墾丁永遠看不到 → inside: never rises at 22° N (pages 19–29: Taiwan in spring, Chinese asterisms, Tonga, precession, Taipei view, removed) |
-| 30 | | 鏡頭12結束＝鏡頭13開始 | 7 | E10; labels 十字架一 10.9° → Gacrux 10.9°; 十字架二 5.0° → Acrux 5.0°; 南門二 → Alpha Centauri; 馬腹一 → Hadar; 墾丁、蘭嶼・今晚 21:00 → 22° N, mid-May, 9 p.m. (pages 31–32, the moon and the "tonight" card, removed) |
+| 30 | | 鏡頭12結束＝鏡頭13開始 | 7 | E10; labels 十字架一 10.9° → Gacrux 10.9°; 十字架二 5.0° → Acrux 5.0°; 南門二 → Alpha Centauri; 馬腹一 → Hadar; 墾丁、蘭嶼・今晚 21:00 → 22° N, mid-May, 21:00 (pages 31–32, the moon and the "tonight" card, removed) |
 | 33 | | 鏡頭13-概念圖收＝鏡頭14開始 | 3 | E11 replaces 下集見 |
 | 34 | | 鏡頭14結束 | 4 | E11; labels as page 2 |
 
@@ -81,10 +81,10 @@ Total 73 s.
 
 ## Caption (Instagram / Facebook / Threads)
 
-Pick the wrong cross and south moves 20° or more. ✝️
+Pick the wrong cross and south moves 20° or more. 🧭
 The Southern Cross is the smallest constellation: four bright stars in a kite, plus a faint fifth. Extend its long bar about 4.5 times and you land within 3° of the south celestial pole; drop straight down to the horizon, and that is due south.
 About 30° west is the bigger, dimmer False Cross, with no bright pointers beside it. Try the same trick and you miss the pole by more than 20°. Closer to the pole sits the Diamond Cross, all four stars in Carina.
-Mid-May, around 9 p.m., the Southern Cross stands upright due south — if you are south of about 33° N.
+Mid-May, around 21:00, the Southern Cross stands upright due south at low northern latitudes (at 22° N it sits 5–11° high; north of about 33° N, it never rises).
 Next Wednesday: before the compass — finding the way by stars.
 #WorldSkyCultures #astronomy #SouthernCross #Crux #FalseCross #navigation #stargazing
 (First comment: sources — Stellarium modern asterisms; positions computed with PyEphem.)
@@ -100,7 +100,30 @@ Wording to check:
 4. E06 "About 30° west. No bright pointers beside it, no Coalsack." = 05 鏡「再往西大約三十度……它旁邊沒有那兩顆亮晶晶的指針，也沒有煤袋」; "bigger, dimmer" = 「更大、整體暗一點」.
 5. E07 "more than 20°" = 06 鏡「離它二十度以上」 (22° and 28° on the chart).
 6. E08 headline "South: 24° east or 42° west" = the Chinese 字卡 「偏東 24° 或偏西 42°」; the diagram keeps the hedge (at sea, 21° S, at culmination only).
-7. **E10 (derived)**: "From 22° N … 5–11° up" = 12 鏡 Kenting / Lanyu 「離地平線五到十一度」 at 21:00 on 5/14 (Gacrux 10.9°, Acrux 5.0°). "North of about 33° N, it never rises" is the 譯名表 note for the Southern Cross (Gacrux, dec −57.1°, has its highest point on the horizon at about 33° N; Acrux already at about 27° N). EN28 airs 5/19, when the cross is upright about 20 minutes earlier than on 5/14; "around 9 p.m." covers both.
+7. **E10 (derived)**: "At 22° N … 5–11° high" = 12 鏡 Kenting / Lanyu 「離地平線五到十一度」 at 21:00 on 5/14 (Gacrux 10.9°, Acrux 5.0°). "North of about 33° N, it never rises" is the 譯名表 note for the Southern Cross (Gacrux, dec −57.1°, has its highest point on the horizon at about 33° N; Acrux already at about 27° N). EN28 airs 5/19, when the cross is upright about 20 minutes earlier than on 5/14; "around 9 p.m." covers both.
 8. E09 "a name from modern stargazers" = 07 鏡「這是現代觀星的人取的名字」; "all four stars in Carina" = 「四顆星都在船底座」.
 9. E11 = EN29's working title *Before the Compass: Finding the Way by Stars*.
 10. Page sequence is the authority for timing (total 73 s).
+
+## 審稿合併 (Gemini review merged)
+
+Source: `04_腳本庫/_審稿/EN28_審稿_gemini.md`. Every 🔴🟡 was checked against the Chinese X-05 v1; spellings follow its star-name table. No new facts were added. Reading speed rechecked for every changed beat (E04 16 words ÷ 7 s = 2.29; E06 12 ÷ 6 = 2.0; E07 12 ÷ 6 = 2.0; E09 14 ÷ 7 = 2.0; E10 16 ÷ 7 = 2.29; E11 15 ÷ 7 = 2.14), all ≤ 2.5; Text lines ≤ 40 letters, headlines ≤ 6 words (re-run `gen_en_pages.py`).
+
+Adopted:
+1. E10 headline, page 30 label and Caption (🔴): “21:00” instead of “9 p.m.” (24-hour rule; 12 鏡「今晚九點」, 星空對時 21:00).
+2. Caption (🔴): the “stands upright due south — if you are south of about 33° N” sentence overstated (Acrux, dec −63.1°, never rises north of about 27° N). Now: “at low northern latitudes (at 22° N it sits 5–11° high; north of about 33° N, it never rises)”, which follows 12 鏡 (墾丁、蘭嶼 五到十一度).
+3. E10 text (🟡): “At 22° N it stands upright, 5–11° high.” (“high” for altitude; 16 words, 2.29 w/s).
+4. E06 headline (🟡): “dimmer overall” (05 鏡「整體暗一點」; δ Cru is fainter than all four False Cross stars).
+5. E06 text (🟡): “no dark Coalsack patch” (02 鏡「旁邊還貼著一塊黑」; the Coalsack introduction was cut from E03).
+6. E08 headline (🟡): “Off 24° east or 42° west” (06 鏡字卡「偏東 24° 或偏西 42°」; it is an error, not the direction of south).
+7. E09 text (🟡): two short sentences (“Named by modern stargazers. Closer to the pole, all four stars sit in Carina.”).
+8. E04, E07 (⚪): dash instead of colon; the w/s column of E07 (2.0) and E11 (2.14) corrected.
+9. Caption (⚪): ✝️ → 🧭 (the series is cross-cultural).
+
+Not adopted:
+- E01 (🟡): the cover keeps the series pattern *One sky. Those looking for south saw — three crosses.* (= the Chinese 統一開頭); the schedule’s hook *Pick the wrong cross and south moves 20° or more.* is the cover’s second line, as the page 1 note already says. Gemini’s alternative cover line is not used; “People looking for south” is no closer to the Chinese 「找南方的人」 than “Those”.
+- E10 “27° N” alternative (§3 note 1): “north of about 33° N, it never rises” stays as in the 譯名表 note for the Southern Cross (Gacrux, the northernmost star, is the limit); the Caption no longer ties it to “stands upright”, which was the actual overstatement.
+- E11 “by the stars” (⚪): kept as is, to match EN29’s working title.
+- E06 “bright pointer stars” (§3 note 3): kept “pointers”; the Pointers are labelled on pages 5–8.
+
+Canva: no English block yet in `X-05_Canva媒體ID.json`, nothing to replace.
