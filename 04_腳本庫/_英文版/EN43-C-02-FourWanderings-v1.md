@@ -1,4 +1,4 @@
-# EN43 ｜ Four Wanderings of the Earth: A Han-Dynasty Idea ・ v0 (awaiting Gemini review)
+# EN43 ｜ Four Wanderings of the Earth: A Han-Dynasty Idea ・ v1 (2026-11-25, Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -8,7 +8,7 @@
 | Story | One story only: **the boat with closed windows**. A Han-dynasty text says the earth drifts back and forth every year and never stops — we just can't feel it, like a person sitting in a boat's cabin with the windows shut. About 1,600 years later Galileo used a ship's cabin too. Then the line the Chinese marks 「不可剪」: the two “moving earths” are different, only the insight is shared. Per the schedule, “earlier than Galileo” is **not** the hook |
 | Canva | Copy of `C-02 地有四遊` → `EN43 C-02 地有四遊` (card 07). **C-02 page numbers = the numbers in `05_素材/C-02_地有四游/_canva/C-02_逐頁製作表.md` as written** (that table already counts the opening page as p1, so no +1, as with C-03/EN44); 下集見 = 36, 追蹤 = 37, 參考文獻 = 38. Every content page is a concept diagram (1080 × 1080 square at Y 420–1500): swap in the English layers from `05_素材/C-02_地有四游/en/` (same sub-folders and file names as the Chinese layers; moved layers keep the Chinese offsets). Text goes **only in the strip under the square** (`bottom` = X 110, Y 1505, W 860, 40 px, ≤ 3 lines) — nothing over the diagram; no headlines on content pages, because each English diagram carries its own title. |
 | Opening line | *One sky. Han China said: the earth always moves — unnoticed.* (= the Chinese 統一開頭 「同一片星空，漢朝人說——大地一直在動，只是你不知道。」) |
-| Reading speed | ≤ 2.5 words/sec on every beat (max 2.5 on the cover, 2.46 elsewhere; = words in Text ÷ seconds that text is on screen, headline not counted) |
+| Reading speed | ≤ 2.5 words/sec on every beat (max 2.5 on the cover, 2.3 elsewhere; = words in Text ÷ seconds that text is on screen, headline not counted) |
 
 ## Beats (text on screen)
 
@@ -18,16 +18,16 @@
 |---|---|---|---|---|---|---|
 | E01 | 4 | 1 | cover | World Sky Cultures | One sky. Han China said: the earth always moves — unnoticed. | 2.5 |
 | E02 | 5.5 | 3, 4 | bottom | | A Han-dynasty text, the Kaolingyao, makes a bold claim: the earth wanders. | 2.2 |
-| E03 | 6.5 | 5, 6 | bottom | | Winter solstice: the earth shifts 30,000 li up, north and west. Summer: back the other way. | 2.46 |
-| E04 | 6 | 7, 8, 9, 10 | bottom | | At the equinoxes it sits in the middle. Once a year, there and back. | 2.3 |
-| E05 | 4.5 | 15 | bottom | | So why don’t we feel it? The text goes on: | 2.0 |
-| E06 | 8 | 16, 17, 18, 19 | bottom | | Picture yourself in a big boat’s cabin, with the windows shut. | 1.4 |
+| E03 | 6.5 | 5, 6 | bottom | | Winter solstice: 30,000 li up, north and west. Summer solstice: back the other way. | 2.2 |
+| E04 | 6 | 7, 8, 9, 10 | bottom | | At the equinoxes, it sits in the middle. Once a year, there and back. | 2.3 |
+| E05 | 4.5 | 15 | bottom | | So why don’t we feel it? The text goes on: | 2.2 |
+| E06 | 8 | 16, 17, 18, 19 | bottom | | Picture yourself in the cabin of a big boat, with the windows shut. | 1.6 |
 | E07 | 3.5 | 20 | bottom | | The boat moves. You feel nothing. | 1.7 |
 | E08 | 8 | 21, 22, 23 | bottom | | From the shore, the boat moves. From the cabin, all is still. | 1.5 |
-| E09 | 9.5 | 24, 25 | bottom | | About 1,600 years later, in 1632, Galileo put people in a ship’s cabin too — to show we can’t feel Earth move. | 2.2 |
-| E10 | 7 | 26 | bottom | | But it’s not the same motion: a yearly to-and-fro, versus Earth spinning and circling the Sun. | 2.4 |
-| E11 | 9 | 27 | bottom | | What’s shared is the insight: from inside, you can’t feel your own motion. So don’t say China found it first. | 2.2 |
-| E12 | 3.5 | 36 | endcard | Next Wednesday | Mandar: the same Dipper becomes a fishing net. | 2.3 |
+| E09 | 9.5 | 24, 25 | bottom | | About 1,600 years later, in 1632, Galileo used a ship’s cabin too — to show we can’t feel Earth move. | 2.1 |
+| E10 | 7 | 26 | bottom | | Not the same motion: a yearly back-and-forth versus Earth spinning and circling the Sun. | 2.0 |
+| E11 | 9 | 27 | bottom | | Same insight: from inside, you can’t feel your own motion. Still, don’t say China found Earth’s motion first. | 2.0 |
+| E12 | 3.5 | 36 | endcard | Next Wednesday | Mandar: the Big Dipper becomes a fishing net. | 2.3 |
 | E13 | 3 | 37 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -75,13 +75,13 @@ Total 78 s (including the 3 s follow page).
 | 閉牖 | windows shut | diagram label |
 | 伽利略 | Galileo | |
 | 《關於兩大世界體系的對話》 | Dialogue Concerning the Two Chief World Systems | 1632; diagram + description |
-| 曼達爾 | Mandar | next Wednesday's EN21 |
+| 曼達爾／北斗 | Mandar / the Big Dipper | next Wednesday's EN21 (the Chinese script’s 北斗) |
 
 ## YouTube
 
 - **Title**: Four Wanderings of the Earth: a Han-dynasty idea
 - **Description**:
-  A Han-dynasty text, the Shangshu kaolingyao, says the earth drifts 30,000 li north-west and back every year — and “never stops moving, yet people do not know it”, like someone sitting in a boat with the windows shut. About 1,600 years later, Galileo used a ship's cabin to show why we can't feel Earth move. But the two “moving earths” are different: a yearly to-and-fro under a turning sky, versus a spinning Earth that circles the Sun. What they share is the insight.
+  A Han-dynasty text, the Shangshu kaolingyao, says the earth drifts 30,000 li north-west and back every year — and “never stops moving, yet people do not know it”, like someone sitting in a boat with the windows shut. About 1,600 years later, Galileo used a ship’s cabin to show why we can’t feel Earth move. But the two “moving earths” are different: a yearly to-and-fro under a turning sky, versus a spinning Earth that circles the Sun. What they share is the insight.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Shangshu kaolingyao (Han apocrypha, as quoted in later compilations); Galileo, Dialogue Concerning the Two Chief World Systems (1632), Second Day.
 
@@ -90,8 +90,8 @@ Total 78 s (including the 3 s follow page).
 “The earth never stops moving, yet people do not know it.” — a Han-dynasty text 🌏
 Why don’t we feel it? “Like sitting in a big boat with the windows shut: the boat moves, and you feel nothing.”
 About 1,600 years later, Galileo shut people in a ship’s cabin to make the same point about Earth.
-But careful: the Han idea is a yearly to-and-fro under a turning sky; Galileo’s Earth spins and circles the Sun. Same insight, different motion — not “China found it first”.
-Next Wednesday: the Mandar — same Dipper, a fishing net.
+But careful: the Han idea is a yearly to-and-fro under a turning sky; Galileo’s Earth spins and circles the Sun. Same insight, different motion — not “China found Earth’s motion first”.
+Next Wednesday: the Mandar — the Big Dipper as a fishing net.
 #WorldSkyCultures #astronomy #HistoryOfScience #ChineseAstronomy #Galileo #relativity #skylore
 (First comment: sources — Shangshu kaolingyao (Han apocrypha); Galileo, Dialogue (1632), Second Day.)
 
@@ -110,7 +110,39 @@ Wording to check:
 6. E06–E07 paraphrase 「就像坐在大船的船艙裡，窗戶關上，船在走，你卻一點感覺也沒有」; the diagram carries the quotes “Like sitting in a big boat, windows shut” and “The boat moves, unfelt”.
 7. E08 = 「從岸上看，船在動；從艙裡看，一切都靜止」. The diagram's small line under “From the shore” (「岸和水都在往後退」) is rendered “shore and water slip by”.
 8. E09 “About 1,600 years later, in 1632, Galileo put people in a ship’s cabin too” = 「大約一千六百年後，伽利略在一六三二年……也把人關進大船的船艙」 (not “the identical cabin”, per the Chinese v2 fix).
-9. E10 “a yearly to-and-fro, versus Earth spinning and circling the Sun” = 「四游是大地一年來回平移，天照樣繞著地轉；伽利略講的，是地球自轉、又繞著太陽公轉」 (the turning sky is on the diagram line, not in the strip, for length).
-10. E11 “So don’t say China found it first” = 「所以別說成『中國比伽利略更早發現地動』」.
+9. E10 “a yearly back-and-forth versus Earth spinning and circling the Sun” = 「四游是大地一年來回平移，天照樣繞著地轉；伽利略講的，是地球自轉、又繞著太陽公轉」 (the turning sky is on the diagram line, not in the strip, for length).
+10. E11 “Still, don’t say China found Earth’s motion first” = 「所以別說成『中國比伽利略更早發現地動』」 (“Earth’s motion” = 地動, so the sentence cannot be read as “China did not have the insight”).
 11. Diagram dates: the timeline says “Han, around 1 CE” for 「西漢末～東漢初」 (the Chinese script: 約公元前後).
 12. Page sequence is the authority for timing (total 78 s). The Sec column in Beats is not additive.
+
+---
+
+## 審稿合併（Gemini EN43，2026-11-25）
+
+來源：`_審稿/EN43_審稿_gemini.md`。每條都對回中文定稿 C-02 v2（`C-02-地有四游比伽利略早一千六百年的相對運動-逐字稿-v2.md`，逐鏡表 01–13 鏡與 ※重要界定）。w/s 沿用 v0 算法（Text 的空白分隔詞數，破折號算一個 ÷ 該文字在畫面上的秒數，不含 headline；封面不計）。
+
+**採用（11 條）**
+
+| Beat | 改了什麼 | 依據 |
+|---|---|---|
+| E11 🔴 | `What’s shared is the insight: … So don’t say China found it first.` → `Same insight: from inside, you can’t feel your own motion. Still, don’t say China found Earth’s motion first.`（18 詞 ÷ 9 s = 2.0）；Caption 同步 `not “China found Earth’s motion first”` | 13 鏡（「本段不可剪」）「身在其中，就察覺不到自己在動——這個洞見，是同一個。所以別說成『中國比伽利略更早發現**地動**』」。v0 的 `it` 會指回前一句的 insight，讀起來像自相矛盾（剛說漢朝有這個洞見，又說別說中國先發現）。真的會讀反，必改。學術界定本身沒動：結論不同、洞見相同、不說中國更早發現地動 |
+| E03 🟡 | `Winter solstice: the earth shifts 30,000 li up, north and west. Summer: back the other way.` → `Winter solstice: 30,000 li up, north and west. Summer solstice: back the other way.`（14 詞 ÷ 6.5 s = 2.2；v0 是 2.46） | 03–04 鏡「冬至，大地往上、往北、往西，移動三萬里；夏至反過來」。E02 剛說 `the earth wanders`、圖層在動地塊，主詞可省；`Summer solstice` 補回完整節氣。`30,000 li` 維持（中文稿沒給換算，不加） |
+| E04 ⚪ | `At the equinoxes,` 加逗號 | 標點 |
+| E05 ⚪ | w/s `2.0` → `2.2`（10 詞 ÷ 4.5 s，v0 算錯；文字不動） | 算術 |
+| E06 🟡 | `a big boat’s cabin` → `the cabin of a big boat`（1.6 w/s） | 09 鏡「大船的船艙」；所有格疊兩層確實彆扭 |
+| E09 🟡 | `Galileo put people in a ship’s cabin too` → `Galileo used a ship’s cabin too`（20 詞 ÷ 9.5 s = 2.1） | 11 鏡「也把人關進大船的船艙，用來說明……」；書名在圖層、不在字條上，`put people in` 聽起來像真的做實驗。`used` 是中文的「用來說明」，也與 Story、YouTube 說明一致。不是新事實 |
+| E10 🟡 | `But it’s not the same motion: a yearly to-and-fro, versus …` → `Not the same motion: a yearly back-and-forth versus Earth spinning and circling the Sun.`（14 詞 ÷ 7 s = 2.0） | 12 鏡「四游是大地一年來回平移……伽利略講的，是地球自轉、又繞著太陽公轉」；`to-and-fro` 偏英式、`, versus` 的逗號多餘。「天照樣繞著地轉」仍在頁 26 圖層，字條不放（同 v0） |
+| E12 🟡 | `Mandar: the same Dipper becomes a fishing net.` → `Mandar: the Big Dipper becomes a fishing net.`（8 詞，2.3，沒變）；Caption、glossary 同步 | EN43 全篇沒提過北斗，`the same Dipper` 單看這集會問「哪個 Dipper」。下集 A-27 的鉤子就是「同一個北斗……曼達爾人看見漁網」，北斗＝Big Dipper，不是新事實 |
+| YouTube ⚪ | 直撇號 `ship's`、`can't` → 彎撇號 | 與 Beats、Caption 排版一致 |
+| Caption 🟡 | 同 E11 | 同 E11；另外 `the same Dipper` → `the Big Dipper`（同 E12） |
+| 其他 | 開頭 Reading speed 列改成「封面 2.5、其餘最高 2.3」 | E03 降下來後重算 |
+
+**不採用**
+
+| Beat | Gemini 建議 | 不採用理由 |
+|---|---|---|
+| E01 🟡 | `One sky. Han China said the earth moves — unfelt.` | 封面開場句是中文統一開頭「漢朝人說——大地**一直**在動，只是你不知道」的直譯，`always` 對應「一直」，是這集的核心（`never stops` 的持續感）；Gemini 自己在「沒把握」第 3 點也承認。封面不計 w/s（EN01 前例），v0 的 2.5 是把破折號排除後算的，維持不動 |
+
+**留給主編／圖層（本卡不動）**：Gemini 沒把握第 1 點（`li` 對國際觀眾陌生）——中文稿沒給公里換算，不加；第 2 點（E05、E10 對圖層字的分工）出圖後再實看一次頁 15、頁 26。
+
+**Canva**：`C-02_Canva媒體ID.json` 只有 `concept`／`mountain`／`background` 等中文區塊，**沒有 `en` 區塊**，英文 Canva（`EN43 C-02 地有四遊`）尚未排頁，沒有要換字的頁。

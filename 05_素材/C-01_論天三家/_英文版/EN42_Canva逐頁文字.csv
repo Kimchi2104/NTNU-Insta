@@ -2,19 +2,17 @@
 1,,開頭頁,4,World Sky Cultures,"One sky. Ancient China argued over its
 shape.",cover,Cover: text block replaced with English; EN · EP42 tag
 2,,鏡頭02-論天三家,5,,"From the Han dynasty to the Tang: about
-800 years of argument.",bottom,E02; English `_三家並置/論天三家_題辭層`
-3,,鏡頭03-＋蓋天,1.5,,"Three schools. The sky is an umbrella,
-an egg — or no shell at all?",bottom,E03; ＋`論天三家_蓋天層`
-4,,鏡頭03-＋渾天,1.5,,"Three schools. The sky is an umbrella,
-an egg — or no shell at all?",bottom,E03; ＋`論天三家_渾天層`
-5,,鏡頭03-＋宣夜,3,,"Three schools. The sky is an umbrella,
-an egg — or no shell at all?",bottom,E03; ＋`論天三家_宣夜層`
-6,,鏡頭04-蓋天兩版,1.5,,"Gaitian, first version: the sky is an
-open canopy; the earth, a square
-chessboard.",bottom,E04; English `蓋天說/蓋天兩版_題辭層`
-7,,鏡頭04-＋第一版,4.5,,"Gaitian, first version: the sky is an
-open canopy; the earth, a square
-chessboard.",bottom,"E04; ＋`蓋天兩版_第一版層` (umbrella + chessboard). Pages 8–21 removed: Zengzi's corners, version 2, side view, seven paths, gnomon"
+800 years of debate.",bottom,E02; English `_三家並置/論天三家_題辭層`
+3,,鏡頭03-＋蓋天,1.5,,"Three schools: an umbrella, an egg, or
+no shell at all?",bottom,E03; ＋`論天三家_蓋天層`
+4,,鏡頭03-＋渾天,1.5,,"Three schools: an umbrella, an egg, or
+no shell at all?",bottom,E03; ＋`論天三家_渾天層`
+5,,鏡頭03-＋宣夜,3,,"Three schools: an umbrella, an egg, or
+no shell at all?",bottom,E03; ＋`論天三家_宣夜層`
+6,,鏡頭04-蓋天兩版,1.5,,"Early Gaitian: sky like an open canopy,
+earth like a square chessboard.",bottom,E04; English `蓋天說/蓋天兩版_題辭層`
+7,,鏡頭04-＋第一版,4.5,,"Early Gaitian: sky like an open canopy,
+earth like a square chessboard.",bottom,"E04; ＋`蓋天兩版_第一版層` (umbrella + chessboard). Pages 8–21 removed: Zengzi's corners, version 2, side view, seven paths, gnomon"
 22,,鏡頭12-蟻行磨石,3,,"The sun rises east, sets west. How? An
 ant on a millstone.",bottom,E05; English `蓋天說/蟻行磨石_題辭層`＋`磨盤層`
 23,,鏡頭12-＋螞蟻,3,,"The sun rises east, sets west. How? An
@@ -31,11 +29,13 @@ left anyway.",bottom,E06; −90° / −60°
 27,,鏡頭13-轉3,2,,"The stone turns left, fast. The ant
 crawls right, slowly — and is carried
 left anyway.",bottom,E06; −135° / −90°
-28,,鏡頭14-天球,3.5,,"Huntian, attributed to Zhang Heng: the
-sky is an egg, the earth its yolk.",bottom,E07; English `渾天說/天球_題辭層`＋`天球層`
-29,,鏡頭14-＋地,3.5,,"Huntian, attributed to Zhang Heng: the
-sky is an egg, the earth its yolk.",bottom,E07; ＋`天球_地層` (“Earth = the yolk”)
-30,,鏡頭15-＋載水而浮,4.5,,"Water inside the shell — and the earth
+28,,鏡頭14-天球,3.5,,"Huntian, in a text attributed to Zhang
+Heng: the sky is an egg, the earth its
+yolk.",bottom,E07; English `渾天說/天球_題辭層`＋`天球層`
+29,,鏡頭14-＋地,3.5,,"Huntian, in a text attributed to Zhang
+Heng: the sky is an egg, the earth its
+yolk.",bottom,E07; ＋`天球_地層` (“Earth = the yolk”)
+30,,鏡頭15-＋載水而浮,4.5,,"Water inside and out — and the earth
 floats on it.",bottom,"E08; ＋`天球_載水而浮層`. Pages 31–35 removed (pole, equator, ecliptic, 28 mansions, half seen / half hidden)"
 36,,鏡頭17-蔡邕評蓋天,5,,"This sphere could be built as an
 instrument and used for calendars.",bottom,E09; English `_三家並置` four layers ＋`評_出處層`＋`評_蓋天層` (“Tested: often wrong”)
@@ -43,19 +43,19 @@ instrument and used for calendars.",bottom,E09; English `_三家並置` four lay
 “close to the truth”.",bottom,E10; ＋`評_渾天層` (“Close to the truth”)
 38,,鏡頭18-宣夜,4,,"The third, and boldest: Xuanye. Its
 books are long lost.",bottom,E11; `宣夜說/宣夜_氣_第1–3層`＋`眾星層` full-bleed (no text in these layers; English files are identical)
-39,,鏡頭18-＋題辭,5.5,,"One saying survives: the sky has no
+39,,鏡頭18-＋題辭,5.5,,"One account survives: the sky has no
 substance, high and far, without end.",bottom,E12; ＋English `宣夜_題辭層`. Pages 40–42 removed (why the sky looks blue)
 43,,鏡頭20-日月五星,4,,"Sun, moon and stars float in empty
 space, pushed by qi. Planets speed up,
-slow, turn back.",bottom,"E13; ＋English `宣夜_日月五星層`＋`宣夜_題辭2層` (Sun, Moon, Jupiter, Mars, Saturn, Venus, Mercury)"
+slow down, turn back.",bottom,"E13; ＋English `宣夜_日月五星層`＋`宣夜_題辭2層` (Sun, Moon, Jupiter, Mars, Saturn, Venus, Mercury)"
 44,,鏡頭20-飄移,4,,"Sun, moon and stars float in empty
 space, pushed by qi. Planets speed up,
-slow, turn back.",bottom,E13; qi layers drift (as Chinese)
-45,,鏡頭21-三家評語,6,,"No instruments, no calendar. Cai Yong:
+slow down, turn back.",bottom,E13; qi layers drift (as Chinese)
+45,,鏡頭21-三家評語,6,,"No instruments, no calendars. Cai Yong:
 “no method handed down”.",bottom,E14; English `_三家並置` all comment layers ＋`評_宣夜層` (“No method handed down”)
-46,,鏡頭21-＋宣夜高亮,8,,"Its qi isn’t modern physics. But it
-broke the hard shell: closer to today’s
-universe than the other two.",bottom,"E15; ＋`論天三家_宣夜高亮層`. Page 47 (Chinese comparison card, all Chinese text) removed"
+46,,鏡頭21-＋宣夜高亮,8,,"Its qi isn’t modern physics. Yet it
+broke the hard shell — closest of the
+three to today’s universe.",bottom,"E15; ＋`論天三家_宣夜高亮層`. Page 47 (Chinese comparison card, all Chinese text) removed"
 48,,下集見,3,Next Wednesday,"Tupi-Guarani: a sky written down in
 1614.",endcard,E16
 49,,追蹤我們,—,,Follow for a new sky every week.,endcard,E17
