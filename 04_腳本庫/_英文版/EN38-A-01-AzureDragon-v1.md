@@ -1,4 +1,4 @@
-# EN38 ｜ The Azure Dragon: Why China Saw a Dragon ・ v0 (awaiting Gemini review)
+# EN38 ｜ The Azure Dragon: Why China Saw a Dragon ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -17,20 +17,20 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. The ancient Chinese saw — a dragon. *(second line = the hook: Where the West sees a scorpion, China saw a dragon.)* | — |
-| E02 | 5 | 2 | top | Look south after dark | In July, a red star sits low in the southern sky. | 2.2 |
-| E03 | 6 | 4 | top | Antares, “rival of Mars” | In ancient China it had another name: Dahuo, “the Great Fire.” | 1.8 |
+| E02 | 5 | 2 | top | Look south after dark | Northern Hemisphere, July: a red star sits low in the south. | 2.2 |
+| E03 | 6 | 4 | top | Antares, “rival of Mars” | In ancient China, it had another name: Dahuo, “the Great Fire.” | 1.8 |
 | E04 | 5 | 7 | top | In the West: a scorpion | These stars form Scorpius, and Antares is its heart. | 1.8 |
 | E05 | 5 | 8 | top | | But 3,000 years ago, China looked up and saw a dragon. | 2.2 |
-| E06 | 7 | 9 | bottom | Over 70° of sky | From horns to tail it spans more than 70° — about seven fists at arm’s length. | 2.3 |
+| E06 | 7 | 9 | bottom | Over 70° of sky | From horns to tail, it spans more than 70° — about seven fists at arm’s length. | 2.3 |
 | E07 | 6 | 10 | bottom | The Azure Dragon of the East | Seven of the 28 lunar mansions, joined into one dragon. | 1.7 |
-| E08 | 5 | 11 | bottom | Jiao, “the Horns” | The brighter of its two stars is Spica, Virgo’s chief star. | 2.2 |
+| E08 | 5 | 11 | bottom | Jiao, “the Horns” | Two stars — led by Spica, Virgo’s brightest star. | 1.8 |
 | E09 | 3 | 12 | bottom | Kang, “the Neck” | The dragon’s throat. | 1.0 |
-| E10 | 6 | 17 | bottom | Fang: the belly | Four stars, also called Tiansi — the Four Celestial Steeds. | 1.7 |
-| E11 | 7 | 20 | bottom | Xin, “the Heart” | Three stars. The red one in the middle is the Great Fire: the dragon’s heart. | 2.1 |
+| E10 | 6 | 17 | bottom | Fang — the dragon’s belly | Four stars, also called Tiansi — the Four Celestial Steeds. | 1.7 |
+| E11 | 7 | 20 | bottom | Xin, “the Heart” | Three stars. The red one in the middle is the Great Fire — the dragon’s heart. | 2.3 |
 | E12 | 5 | 22 | bottom | Wei, “the Tail” | A long tail, dipping into the Milky Way. | 1.6 |
 | E13 | 4 | 26 | bottom | Ji, “the Winnowing Basket” | Four stars at the tip of the tail. | 2.0 |
-| E14 | 9 | 28 | top | A calendar in the sky | At spring dusk, its horns rise in the east. Where the dragon stands tells the season, and when to sow. | 2.2 |
-| E15 | 5 | 40 | top | Just one of four | North: the Black Tortoise. West: the White Tiger. South: the Vermilion Bird. | 2.4 |
+| E14 | 9 | 28 | top | A calendar in the sky | At spring dusk, its horns rise in the east. The dragon’s position tells the season, and when to sow. | 2.1 |
+| E15 | 5 | 40 | top | Just one of four | North: Black Tortoise. West: White Tiger. South: Vermilion Bird. | 1.8 |
 | E16 | 3 | 45 | endcard | Next Wednesday | Korea: a star chart on banknotes. | 2.0 |
 | E17 | 3 | 46 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -41,7 +41,7 @@
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
 | 1 | | 開場字卡（同一片星空，中國古代看見——一條龍） | 3 | Cover: text block replaced with English; second line = the hook; EN · EP38 tag |
-| 2 | | 心宿特寫（蒼龍的心臟） | 5 | E02; delete the Chinese title box (天上為什麼是一條龍？…／蒼龍的心臟); label 心宿（龍心） → Xin (the Heart). Page 3 (seven other cultures’ names for Xin) removed |
+| 2 | | 心宿特寫（蒼龍的心臟） | 5 | E02; delete the Chinese title box (天上為什麼是一條龍？…／蒼龍的心臟); **delete the label 心宿（龍心）, do not translate it** (a pinyin star name and “the Heart” before the dragon is revealed = spoiler; Xin first appears on page 20). Page 3 (seven other cultures’ names for Xin) removed |
 | 4 | | 心宿三星標籤：這顆紅色的星，中國人叫它「心」 | 6 | E03; labels 心宿二 Antares → Antares; delete 心宿一／心宿三／Alniyat. Pages 5–6 (the Arabic name, Babylon and Greece) removed |
 | 7 | | 天蠍座連線：阿拉伯人和後來的西方人看見蠍子 | 5 | E04; delete the vertical Chinese text box |
 | 8 | | 青龍連線：三千年前的中國人看見一條龍 | 5 | E05; delete the vertical Chinese text box |
@@ -72,7 +72,7 @@ Total 87 s (E17 included).
 | 角宿／角宿一 | Jiao, “the Horns” / Spica | 譯名表 |
 | 亢宿 | Kang, “the Neck” | 譯名表; the text says “throat” (= 咽喉) |
 | 氐宿 | Di | label only (譯名表 Di, “the Root / Chest”) |
-| 房宿／天駟 | Fang: the belly / Tiansi, the Four Celestial Steeds | 譯名表 Fang “the Room / Belly”; Tiansi “Four Celestial Steeds” |
+| 房宿／天駟 | Fang — the dragon’s belly / Tiansi, the Four Celestial Steeds | 譯名表 Fang “the Room / Belly”; Tiansi “Four Celestial Steeds” |
 | 心宿 | Xin, “the Heart” | 譯名表 |
 | 尾宿 | Wei, “the Tail” | 譯名表 |
 | 箕宿 | Ji, “the Winnowing Basket” | 譯名表 |
@@ -92,7 +92,7 @@ Total 87 s (E17 included).
 Where the West sees a scorpion, ancient China saw a dragon. 🐉
 Its heart is the red star Antares — in China, Dahuo, “the Great Fire.” From horns to tail the dragon spans more than 70° of sky: about seven fists at arm’s length.
 Seven of the 28 lunar mansions make its body. When its horns rose at spring dusk, people knew the season had turned.
-July evenings: look low in the south for the red star.
+July evenings (Northern Hemisphere): look low in the south for the red star.
 Next Wednesday: Korea — a star chart on banknotes.
 #WorldSkyCultures #astronomy #stars #AzureDragon #Antares #Scorpius #ChineseAstronomy #skylore
 (First comment: sources — Shuowen Jiezi; Stellarium chinese sky culture.)
@@ -103,15 +103,47 @@ Dropped from the Chinese version (all still in the Chinese episode): the seven o
 
 Wording to check:
 1. E01 cover = the Chinese cover「同一片星空，中國古代看見——一條龍」. The hook (second line) is new wording of script 00–06s「西方人看見獅子、天蠍、獵人。但三千年前的中國人抬頭，看見的是——一條龍」; the schedule’s hook cell is filled with it.
-2. E02 “In July, a red star sits low in the southern sky” — northern mid-latitude version of「今晚天黑後往南方看」/「八月晚上九點，面向南方」. Checked for 2027-07-21 21:00 local: Antares az 172°, alt 23° at 40° N; alt 13° at 50° N. “Low” is accurate for both.
+2. E02 “Northern Hemisphere, July: a red star sits low in the south” — northern mid-latitude version of「今晚天黑後往南方看」/「八月晚上九點，面向南方」. Checked for 2027-07-21 21:00 local: Antares az 172°, alt 23° at 40° N; alt 13° at 50° N. “Low” is accurate for both; the qualifier is added because the line is false south of the equator (as EN05 E08).
 3. E03 “rival of Mars” = script 118–142s「Antares，意思是『火星的對手』」(report: confirmed).
 4. E04 “Antares is its heart” = script「天蠍的心臟 Antares」; the Canva page says Arabs and later Westerners saw a scorpion — the English says only “the West”.
 5. E06 “more than 70°, about seven fists” follows the corrected Chinese Canva (「七十度以上」「大約七個拳頭」) and the report (75.2° between the farthest member stars; 67–71° from Spica to the Ji stars). The script’s「將近九十度」is wrong and is not used.
 6. 七月流火 is left out on purpose: the report shows that because of precession the scene in the poem now happens in early October, not July; explaining that would take more than one screen.
 7. E05 “3,000 years ago” = script「三千年前的中國人」.
-8. E08 “two stars” = Canva「只有兩顆星」(Stellarium 角 = 2 members, report appendix A3); “Virgo’s chief star” =「處女座的主星」.
+8. E08 “two stars” = Canva「只有兩顆星」(Stellarium 角 = 2 members, report appendix A3); “led by Spica, Virgo’s brightest star” = script「最亮的角宿一，就是……處女座主星」 (Spica is indeed Virgo’s brightest).
 9. E09 headline uses the 譯名表 name (“the Neck”), text the script’s meaning (咽喉, “throat”).
 10. E12 no star count: the script says nine stars, the Canva says ten (Stellarium has 10 members); the English avoids the number.
-11. E14 “At spring dusk, its horns rise in the east” = script「春分傍晚，龍角從東方地平線升起」(report: broadly correct, Spica rises 19:47 on 2026-03-20 at Taipei); “Where the dragon stands tells the season, and when to sow” =「看龍到哪，就知道季節到哪、該不該播種」.
-12. E15 = script 142–158s「北方還有玄武、西方有白虎、南方有朱雀」.
+11. E14 “At spring dusk, its horns rise in the east” = script「春分傍晚，龍角從東方地平線升起」(report: broadly correct, Spica rises 19:47 on 2026-03-20 at Taipei); “The dragon’s position tells the season, and when to sow” =「看龍到哪，就知道季節到哪、該不該播種」.
+12. E15 = script 142–158s「北方還有玄武、西方有白虎、南方有朱雀」 (articles dropped so the list scans as a list).
 13. Page sequence is the authority for timing (total 87 s).
+
+---
+
+## 審稿合併（Gemini EN38，2026-11-25）
+
+來源：`_審稿/EN38_審稿_gemini.md`。每條都對回中文定稿 A-01 v1（`A-01-中國四象青龍-逐字稿-v1.md`）與 `_查核/舊集查核報告_2026-10-28.md`。w/s 沿用 v0 算法（Text 的空白分隔詞數，破折號算一個 ÷ 該文字在畫面上的秒數，不含 headline；封面不計）。Gemini 沒有任何 🔴 事實錯誤；它建議新增的事實一律不收。
+
+**採用（10 條）**
+
+| Beat | 改了什麼 | 依據 |
+|---|---|---|
+| E02 🔴 | 頁 2 **刪掉**標籤「心宿（龍心）」（Note 欄改成「刪除、不翻」）。Xin 第一次出現留到頁 20（E11） | 英文版把「龍」的揭曉延到 E05；頁 2 就打 `Xin (the Heart)` 等於提前劇透，又在沒有解釋時丟出一個拼音星宿名。中文稿 06–16s 也是先說「紅色亮星」才揭曉 |
+| E02 ⚪ | `In July, a red star sits low in the southern sky.` → `Northern Hemisphere, July: a red star sits low in the south.`（11 詞，2.2 w/s）；Caption 同步加 `(Northern Hemisphere)` | 「南方低空」只在北半球成立；系列有前例（EN05 E08 加 `Northern Hemisphere:`）。查核報告 2027-07-21 21:00 的高度 23° / 13° 只是北半球數字，沒有新事實 |
+| E03 ⚪ | `In ancient China,` 加逗號 | 標點 |
+| E06 ⚪ | `From horns to tail,` 加逗號（w/s 仍 2.3，因為 v0 算破折號） | 標點 |
+| E08 🟡 | `The brighter of its two stars is Spica, Virgo’s chief star.` → `Two stars — led by Spica, Virgo’s brightest star.`（9 詞，1.8 w/s；v0 是 2.2） | 中文稿 24–58s「最亮的角宿一，就是……處女座主星」；Spica 確實是處女座最亮星，`chief star` 是「主星」的直譯、英文不自然；星數「兩顆」維持（查核報告附錄 A3） |
+| E10 🟡 | headline `Fang: the belly` → `Fang — the dragon’s belly`（headline 4 詞；內文沒動，w/s 維持 1.7，Gemini 寫的 1.5 是算錯）；glossary 同步 | 與 E08、E09、E11–E13 的 `Pinyin, “Meaning”` 格式一致；中文稿「房宿，龍腹」。沒用引號，因為「房」字面不是 belly（譯名表 Room / Belly） |
+| E11 ⚪ | `the Great Fire: the dragon’s heart` → `the Great Fire — the dragon’s heart`（16 詞 ÷ 7 s = 2.3；v0 的 2.1 是把「Fire:」算成一個詞，改破折號後如實算 2.3） | 與 E06、E10 的破折號一致；中文稿 24–58s |
+| E14 🟡 | `Where the dragon stands tells…` → `The dragon’s position tells the season, and when to sow.`（19 詞 ÷ 9 s = 2.1）；`in the east` 保留 | 中文稿 66–96s「龍角從東方地平線升起」＋96–118s「看龍到哪，就知道季節到哪」。`stands` 確實怪；Gemini 的 `sits` 同樣是擬人，改成名詞 `position`（= 到哪）。沒收它刪掉 `in the east` 的版本（那是中文稿有的事實） |
+| E15 🟡 | 去掉三個 `the`：`North: Black Tortoise. West: White Tiger. South: Vermilion Bird.`（9 詞，1.8 w/s；v0 是 2.4） | 中文稿 142–158s；清單式字卡好掃讀。專名第一次出現的完整形式在 glossary 不變 |
+| 全部 | 重算每格 w/s ≤ 2.5、每行 ≤ 40 字母（見 `gen_en_pages.py` 輸出）、字卡 ≤ 6 字 | — |
+
+**不採用**
+
+| Beat | Gemini 建議 | 不採用理由 |
+|---|---|---|
+| E01 🟡 | 封面改成單句 `Where the West sees a scorpion, China saw a dragon.`，或 `One sky. Scorpion to the West — dragon to China.` | 封面 = 中文封面「同一片星空，中國古代看見——一條龍」＋節目表鉤子當第二行，是英文版規格的開場句型（`One sky. The [people] saw — [X].`，EN01–EN44 都照此，EN01 審稿也同樣不採用）；封面不計 w/s。`saw` 重複是兩行各自的主詞不同（古代中國人／西方人），改成 `Scorpion to the West — dragon to China` 反而丟掉「三千年前」的伏筆（E05） |
+| E07 🟡（Di） | 七宿只介紹六宿，要加氐宿一頁（總長 90 s），或在 E07 改口 | 七個宿的名字其實都在畫面上：頁 9 標 Jiao／Kang／Di，頁 10 標 Fang／Xin／Wei／Ji，共七個，觀眾數得出來。加一頁要猜 Canva 頁號（頁 13–16 的哪一頁是氐宿，v0 只寫「Di as the chest」在其中）、總長也會多 3 秒；E07 只說 `Seven of the 28 lunar mansions`，沒有說「接下來逐一介紹七個」，所以不算漏。留給 Canva 排頁時（卡 07）若要補，再加 |
+| E02 ⚪ | 改 `In northern skies each July…`（12 詞 2.4 w/s） | 採用的是更短的 `Northern Hemisphere, July:` 版本（2.2 w/s），見上 |
+| E05 ⚪ | `China looked up` 擬人，改 `ancient China saw` 或 `people in China looked up and saw` | 保留。中文稿「三千年前的中國人抬頭，看見的是——一條龍」；`ancient China` 與 E03 `In ancient China` 重複，`people in China…` 超過 2.5 w/s 的餘裕（5 s） |
+
+**Canva**：`A-01` 沒有 `Canva媒體ID.json`，英文 Canva（`EN38 A-01 蒼龍`，DAHZrX-6YeE）尚未排頁（Now 欄空白），沒有要換字的頁；頁 2 的標籤刪除已寫進 Page sequence，卡 07 照做。
