@@ -1,10 +1,10 @@
-# EN50 ｜ Siberia: A Hunt That Never Ends ・ v0 (awaiting Gemini review)
+# EN50 ｜ Siberia: A Hunt That Never Ends ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
 | Source | Chinese A-08 v2 (`A-08-西伯利亞一場永不結束的狩獵-逐字稿-v2.md`, fact-checked). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-02-10 (Wed) 21:00 Taiwan time**: EN50 in `06_發布月曆/節目表_萬國星空_英文版.csv` (February evenings: the Big Dipper climbs in the northeast) |
-| Length | **89 s** (including the 3 s follow page), 15 beats, ~178 words on screen (no voice-over; text over light music) |
+| Length | **89 s** (including the 3 s follow page), 15 beats, ~188 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the Evenki cosmic hunt**. The Big Dipper is a moose that carries off the sun each evening; the hunter Mangi shoots it and brings the sun back. Bowl = the moose’s legs, handle = the hunters, Little Dipper = the calf, Milky Way = Mangi’s ski track. Some scholars think the same story crossed into North America (the Mi’kmaq: a bear and its hunters). The sky turns, and the hunt never ends |
 | Canva | Not made yet. Copy of the Chinese design `A-08 西伯利亞` (design ID not recorded in the repo), to be named `EN50 A-08 西伯利亞` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 39 = next-episode card, 40 = follow page). **If the Chinese design has no pages 39–40** (end card made inside page 38), put E14 and E15 on two copies of page 37 instead. |
 | Opening line | *One sky. Siberian hunters saw — a hunt that never ends.* (= the Chinese 統一開頭) |
@@ -17,17 +17,17 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Siberian hunters saw — a hunt that never ends. | — |
-| E02 | 8 | 2, 4, 5 | top-left | The Big Dipper is a moose | In central Siberia, its Russian name is Los’: the moose. Farther east, mostly a bear. *(the Лось label sits below the bowl; the narrow top-left box stays clear of Alkaid at upper right)* | 1.9 |
-| E03 | 7 | 6 | top-left | The Evenki story | For the Evenki, the sky is an upper forest. There lives a cosmic moose: Kheglen. | 2.1 |
+| E02 | 8 | 2, 4, 5 | top-left | The Big Dipper is a moose | In central Siberia, it’s often called Los’ — the moose. Farther east, mostly a bear. *(the Лось label sits below the bowl; the narrow top-left box stays clear of Alkaid at upper right)* | 1.9 |
+| E03 | 7 | 6 | top-left | The Evenki story | For the Evenki, the sky is an upper forest, home to a cosmic moose named Kheglen. | 2.3 |
 | E04 | 6 | 7 | top-left | | Each evening it carries off the sun on its antlers. Night falls. | 2.0 |
-| E05 | 7 | 8 | bottom | Mangi, the hunter | The hunter Mangi follows on skis, shoots the moose and takes the sun back. Day breaks. | 2.3 |
+| E05 | 7 | 8 | bottom | Mangi, the hunter | Mangi follows on skis, shoots it with one arrow, and takes back the sun. Day breaks. | 2.3 |
 | E06 | 7 | 9 | bottom | | The bowl’s four stars: the moose’s legs. The handle’s three: the hunters. Every night, it happens again. | 2.4 |
 | E07 | 6 | 11 | bottom-left | | The Little Dipper: a calf following its mother. The Milky Way: Mangi’s ski track. *(clear of the ski-track label at lower right)* | 2.3 |
-| E08 | 13 | 12, 13, 14 | bottom-left | The same hunt in America? | Some scholars think the story crossed the Bering land bridge with people, over 10,000 years ago. *(pages 13–14: headline only; the body would sit on the diagram)* | 2.3 *(on p. 12)* |
+| E08 | 13 | 12, 13, 14 | bottom-left | The same hunt in North America? | Some scholars think it crossed the Bering land bridge with people over 10,000 years ago. *(pages 13–14: headline only; the body would sit on the diagram)* | 2.1 *(on p. 12)* |
 | E09 | 7 | 15 | bottom-left | | The Mi’kmaq of North America tell it too: the bowl is a bear, the handle its hunters. | 2.4 |
 | E10 | 5 | 34, 35 | top | A hunt that never ends | The whole sky turns around the Pole Star. *(page 34 → 35 is a hard cut, same frame)* | 1.6 |
-| E11 | 7 | 36 | top | | Bowl first, handle behind: the hunters chase the moose forever. In the Evenki forest, it never sets. | 2.4 |
-| E12 | 7 | 37 | top | Look north this February | After dark, the moose climbs in the northeast, hunters behind. They circle the Pole Star all night. | 2.4 |
+| E11 | 7 | 36 | top | | Bowl first, handle behind: hunters chase the moose forever. In Evenki forests, the moose never sets. | 2.4 |
+| E12 | 7 | 37 | top | Look north this February | After dark, the moose climbs in the northeast, hunters behind. In northern skies, they circle all night. | 2.4 |
 | E13 | — | — | — | | *(page 38, the Chinese next-episode card in the sky, is removed)* | — |
 | E14 | 3 | 39 | endcard | Next Wednesday | Sámi: a reindeer hunt across the sky. | 2.3 |
 | E15 | 3 | 40 | endcard | | Follow for a new sky every week. | 2.3 |
@@ -83,14 +83,14 @@ Total 89 s (E15 included).
 
 - **Title**: Siberia: a hunt that never ends
 - **Description**:
-  In Siberia the Big Dipper is a moose. The Evenki say it carries off the sun every evening; the hunter Mangi chases it on skis, shoots it and brings the sun back. The bowl is the moose, the handle its hunters, the Milky Way his ski track. Some scholars think the same story crossed the Bering land bridge: the Mi’kmaq of North America see a bear and its hunters.
+  In Siberia the Big Dipper is a moose. The Evenki say it carries off the sun every evening; the hunter Mangi chases it on skis, shoots it with an arrow and brings the sun back. The bowl is the moose’s legs, the handle its hunters, the Milky Way his ski track. Some scholars think the same story crossed the Bering land bridge: the Mi’kmaq of North America see a bear and its hunters.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Stellarium sky culture “siberian”; A. F. Anisimov (Evenki cosmology); Yu. E. Berezkin, “Cosmic Hunt: Variants of Siberian–North American Myth”, Folklore 31 (2005); S. Hagar, “The Celestial Bear”, Journal of American Folklore 13 (1900).
 
 ## Caption (Instagram / Facebook / Threads)
 
 In Siberia, the Big Dipper is a moose — and the hunt never stops. 🫎
-The Evenki say a cosmic moose, Kheglen, carries off the sun on its antlers every evening. The hunter Mangi follows on skis, shoots it and brings the sun back: day breaks. The bowl is the moose, the handle its hunters, the Little Dipper a calf, the Milky Way Mangi’s ski track.
+The Evenki say a cosmic moose, Kheglen, carries off the sun on its antlers every evening. The hunter Mangi follows on skis, shoots it with an arrow and brings the sun back: day breaks. The bowl is the moose’s legs, the handle its hunters, the Little Dipper a calf, the Milky Way Mangi’s ski track.
 Some scholars think the story crossed the Bering land bridge more than 10,000 years ago: the Mi’kmaq of North America see a bear chased by hunters.
 Look north this February after dark: the moose climbs in the northeast, the hunters right behind.
 Next Wednesday: the Sámi — a reindeer hunt across the sky.
@@ -102,16 +102,36 @@ Next Wednesday: the Sámi — a reindeer hunt across the sky.
 Dropped from the Chinese version (all still in the Chinese episode): the “last Friday on the steppe” bridge; “moose, not the Chinese 麋鹿” (a Chinese-language point); the Golden Stake (Altai Алтын казык, Turkic “iron stake”); Emlen’s 1970 planetarium buntings and the sky’s axis; the Milky Way as Goose Road and Mamai’s Road; the Pleiades as Duck Nest, hen with chicks and Subaru; Orion’s Belt as the Threshers (Кичиги) and the name moving to the Dipper in European Russia; the 9 Oct Taipei sky (bowl set in the northwest, Duck Nest rising, Threshers at 22:00); the next-Friday Chinese teaser (replaced by next Wednesday’s English episode). Concept diagram C-A08-02 (birds and the sky’s axis) is not used, so it has no English version.
 
 Wording to check:
-1. E02 “In central Siberia, its Russian name is Los’: the moose. Farther east, mostly a bear.” = 02 鏡「西伯利亞的俄文名字叫 Лось——駝鹿……在西伯利亞中部，這個名字最常聽到；再往東，人們多半叫它熊」.
-2. E03 “an upper forest” = 「天空是上面那一層的森林」.
+1. E02 “In central Siberia, it’s often called Los’ — the moose. Farther east, mostly a bear.” = 02 鏡「西伯利亞的俄文名字叫 Лось——駝鹿……在西伯利亞中部，這個名字最常聽到；再往東，人們多半叫它熊」.
+2. E03 “an upper forest, home to a cosmic moose” = 「天空是上面那一層的森林」.
 3. E04 “carries off the sun on its antlers” = 「把太陽頂在角上，拖進林子裡」 (“into the forest” dropped for length).
-4. E05 “follows on skis” = 「踩著雪橇追上去」. The Chinese 雪橇 can mean sled; skis chosen because the same script calls the Milky Way his 滑雪道 (ski track) and the label table says 滑雪留下的痕跡.
+4. E05 “follows on skis, shoots it with one arrow” = 「踩著雪橇追上去，一箭射中」. The Chinese 雪橇 can mean sled; skis chosen because the same script calls the Milky Way his 滑雪道 (ski track) and the label table says 滑雪留下的痕跡.
 5. E06 “Every night, it happens again” = 「每天晚上，這場追獵都重演一次」.
 6. E07 “a calf following its mother” = 「跟在媽媽後面的小駝鹿」 (the moose is female in the Evenki story).
-7. E08 keeps the hedge: “Some scholars think … over 10,000 years ago” = 「有學者推測，它一萬多年前就跟著人走過白令陸橋」. The headline ends in a question mark for the same reason.
+7. E08 keeps the hedge: “Some scholars think it crossed … over 10,000 years ago” = 「有學者推測，它一萬多年前就跟著人走過白令陸橋」. The headline ends in a question mark for the same reason.
 8. E09 = 06 鏡「北美的米克馬克人也說：斗口是一頭熊，斗柄是追牠的獵人」. The diagram adds Boötes (seven hunters), as the Chinese diagram does.
 9. E10 “the Pole Star”: the Chinese 16 鏡 says 金樁 (Golden Stake); the name was cut with shot 07, so the plain English name is used.
-10. E11 “In the Evenki forest, it never sets” = 「在埃文基人的森林裡，駝鹿整夜不落」 (Tura, 64.3° N: the whole Dipper is circumpolar).
-11. E12 is the Northern-Hemisphere tip replacing the Taipei 9 Oct tip; it is not in the Chinese script. Checked for 10 Feb, 20:00 local time at 40° N: Dubhe ~37° up, Alkaid ~11° up, both in the northeast, bowl higher than the handle (rising side of the pole); the whole Dipper stays above the horizon all night at 35–50° N in February. Matches the schedule note 「北斗正從東北升起」.
+10. E11 “In Evenki forests, the moose never sets” = 「在埃文基人的森林裡，駝鹿整夜不落」 (Tura, 64.3° N: the whole Dipper is circumpolar).
+11. E12 is the Northern-Hemisphere tip replacing the Taipei 9 Oct tip; it is not in the Chinese script (“In northern skies” added in v1: “all night” does not hold for the Southern Hemisphere or low northern latitudes). Checked for 10 Feb, 20:00 local time at 40° N: Dubhe ~37° up, Alkaid ~11° up, both in the northeast, bowl higher than the handle (rising side of the pole); the whole Dipper stays above the horizon all night at 35–50° N in February. Matches the schedule note 「北斗正從東北升起」.
 12. The cover’s second line is the schedule’s hook, not a translation of the Chinese cover’s second line.
 13. Page sequence is the authority for timing (total 89 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review → v1)
+
+Review table has 10 rows; each was checked against the Chinese v2 (A-08 逐字稿 v2). 7 adopted, 3 not adopted. No new facts were taken from the review.
+
+Adopted:
+1. E05 (🔴): “Mangi follows on skis, shoots it with one arrow, and takes back the sun. Day breaks.” 04 鏡 says 一箭射中; “shoots the moose” alone reads as a gun. “The hunter” dropped (the headline already says it). 16 words ÷ 7 s = 2.3 w/s. Gemini wrote “an arrow”; “one arrow” keeps 一箭. YouTube description and caption changed to match.
+2. E08 headline (🔴): “The same hunt in North America?” (6 words). 06 鏡 says 北美; the Mi’kmaq live in eastern Canada and Maine, and “America” alone reads as the US.
+3. E03 (🟡): “For the Evenki, the sky is an upper forest, home to a cosmic moose named Kheglen.” 16 words ÷ 7 s = 2.3 w/s; one colon fewer.
+4. E08 text (🟡): “it crossed the Bering land bridge with people over 10,000 years ago”; 15 words ÷ 7 s = 2.1 w/s. The hedge “Some scholars think” stays. “it” = the hunt in the headline = 06 鏡「它」.
+5. E12 (🟡): “In northern skies, they circle all night.” A qualifier, not a new fact; “all night” is false for the Southern Hemisphere. 17 words ÷ 7 s = 2.4 w/s.
+6. E02 (⚪): “it’s often called Los’ — the moose” matches 「在西伯利亞中部，這個名字最常聽到」 and no longer pins the name to central Siberia only. 15 words ÷ 8 s = 1.9 w/s.
+7. E11 (⚪) and YouTube/Caption (⚪): E11 “hunters chase the moose forever. In Evenki forests, the moose never sets.” 16 words ÷ 7 s = 2.3 w/s (matches 16 鏡 「駝鹿整夜不落」). Description and caption now say “the moose’s legs”, as E06 does.
+
+Not adopted:
+- E01 (🟡): the cover keeps the series pattern *One sky. The [people] saw — [X].* (same reason as EN01–EN04, EN10); it translates 統一開頭 「同一片星空，西伯利亞獵人看見——一場永不結束的狩獵」. The cover is not counted in w/s.
+- E06 (⚪): kept “The bowl’s four stars: the moose’s legs. The handle’s three: the hunters.” 2.4 w/s is under 2.5, the chart label “three hunters” is on screen, and the shorter version would make “four” and “three” sound like nouns. No change.
+- Open point 1 (female moose with antlers, E04/E07) and point 2 (curly apostrophe in `Los’`): no change. Both follow the Chinese fact-checked script (03 鏡 「頂在角上」、05 鏡 「媽媽後面的小駝鹿」); the apostrophe is checked by eye on Canva page 4 when the English Canva is made.
+
+Checks after the merge: every beat ≤ 2.5 w/s (max 2.43); no on-screen line over 40 letters (see `gen_en_pages.py` output); headlines ≤ 6 words; Canva has no English block yet (`A-08_Canva媒體ID.json` keys: layers, mountain, background, concept, _design), so no Canva page was changed.
