@@ -1,0 +1,46 @@
+# EN50 英文審稿
+
+## 一、逐條意見
+
+| 嚴重度（🔴必改／🟡建議／⚪可選） | 位置（beat 編號） | 原文 | 問題 | 建議改法 | 依據（中文稿的哪一句） |
+|---|---|---|---|---|---|
+| 🔴必改 | E05 | `The hunter Mangi follows on skis, shoots the moose and takes the sun back. Day breaks.` | "shoots the moose" without mentioning an arrow strongly implies a rifle/gun to modern English readers, changing the traditional Evenki hunt. Also, "The hunter" repeats the headline `Mangi, the hunter` right above it. | `Mangi follows on skis, shoots it with an arrow, and takes back the sun. Day breaks.` (16 words, 2.3 w/s) | 04 鏡：「獵人 Манги 踩著雪橇追上去，一箭射中駝鹿，把太陽搶回來——天就亮了。」 |
+| 🔴必改 | E08（Headline） | `The same hunt in America?` | For an international audience, "America" alone usually means the United States, whereas the Chinese script specifies North America and the Mi’kmaq live primarily in eastern Canada (and Maine). | `The same hunt in North America?` (6 words, within the ≤ 6-word headline limit) | 06 鏡：「北美的米克馬克人也說：斗口是一頭熊，斗柄是追牠的獵人。」 |
+| 🟡建議 | E01（Cover / Hook） | `One sky. Siberian hunters saw — a hunt that never ends.` | **Hook check**: The line is atmospheric and matches the series template, so it partially works, but the em-dash splits verb and direct object (`saw — a hunt`) awkwardly, and `hunters` / `hunt` repeats within five words. For a stranger scrolling silently in the first 2 seconds, tightening the rhythm makes it land faster. | Alternative keeping the series template: `One sky. In Siberia, they saw a hunt that never ends.` (Or, if breaking the template is allowed: `The Big Dipper is a moose — and the hunt never ends.`) | 統一開頭：「同一片星空，西伯利亞獵人看見——一場永不結束的狩獵。」 |
+| 🟡建議 | E03 | `For the Evenki, the sky is an upper forest. There lives a cosmic moose: Kheglen.` | "There lives a cosmic moose" sounds slightly archaic/story-bookish rather than plain modern English, and adds to the heavy use of colons across the script (7 beats use colons). | `For the Evenki, the sky is an upper forest, home to a cosmic moose named Kheglen.` (16 words, 2.3 w/s) or `For the Evenki, the sky is an upper forest. A cosmic moose lives there, named Kheglen.` (16 words, 2.3 w/s) | 03 鏡：「天空是上面那一層的森林，住著一頭宇宙駝鹿，Хэглэн。」 |
+| 🟡建議 | E08（Text） | `Some scholars think the story crossed the Bering land bridge with people, over 10,000 years ago.` | Good preservation of the hedge, but the comma before `over 10,000 years ago` is unnecessary, and at 96 characters in a narrow `bottom-left` box (W 520–600) it may wrap onto 4 lines. Replacing `the story` with `it` saves 8 characters and 1 word. | `Some scholars think it crossed the Bering land bridge with people over 10,000 years ago.` (15 words, 88 chars, 2.1 w/s on p. 12) | 06 鏡：「有學者推測，它一萬多年前就跟著人走過白令陸橋——」 |
+| 🟡建議 | E12 | `After dark, the moose climbs in the northeast, hunters behind. They circle the Pole Star all night.` | **Added fact (not in Chinese v2)**: Replaces the Taipei 9 Oct observing tip with a February Northern-Hemisphere tip. While astronomically valid for ~35°–50° N in February, "all night" does not hold for viewers in low northern latitudes (e.g. Taiwan at 25° N) or the Southern Hemisphere. Qualifying "in northern skies" prevents misleading international viewers. | `After dark, the moose climbs in the northeast, hunters behind. In northern skies, they circle all night.` (17 words, 2.4 w/s) | 中文 17 鏡為台北 10/9 20:00 星空（本段為英文版 2 月發布日另補，非中文稿原文） |
+| ⚪可選 | E02 | `In central Siberia, its Russian name is Los’: the moose. Farther east, mostly a bear.` | The Chinese says the Russian name in Siberia is Лось, and it is *most often heard* in central Siberia. Saying "In central Siberia, its Russian name is..." slightly narrows the Russian name to central Siberia only. Also, dropping one colon eases colon fatigue. | `In central Siberia, it’s often called Los’ — the moose. Farther east, mostly a bear.` (15 words, 1.9 w/s) | 02 鏡：「西伯利亞的俄文名字叫 Лось——駝鹿……在西伯利亞中部，這個名字最常聽到；再往東，人們多半叫它熊。」 |
+| ⚪可選 | E06 | `The bowl’s four stars: the moose’s legs. The handle’s three: the hunters. Every night, it happens again.` | E05 introduces a single hunter (`Mangi, the hunter`), while E06 shifts to plural `the hunters` (matching the Chinese chart label `三個獵人` and 16 鏡 `三個獵人`). Clear enough with the chart label on screen, though `three hunters` makes the shift even smoother. Also at 2.43 w/s and 102 chars, it is close to the ceiling. | Keep as written if the `three hunters` chart label is prominent, or tighten slightly: `Four bowl stars: the moose’s legs. Three handle stars: the hunters. Every night, it happens again.` (16 words, 2.3 w/s) | 04 鏡：「斗口四顆，是駝鹿的腳；斗柄三顆，是追在後面的獵人。每天晚上，這場追獵都重演一次。」 |
+| ⚪可選 | E11 | `Bowl first, handle behind: the hunters chase the moose forever. In the Evenki forest, it never sets.` | In `it never sets`, the pronoun `it` is clear enough (referring to `the moose`), though `the moose` is more concrete and matches the Chinese wording. At 17 words (2.43 w/s), replacing `it` with `the moose` would exceed 2.5 w/s unless trimmed elsewhere. | Keep as written, or trim one word to name the moose: `Bowl first, handle behind: hunters chase the moose forever. In Evenki forests, the moose never sets.` (16 words, 2.3 w/s) | 16 鏡：「在埃文基人的森林裡，駝鹿整夜不落，這場追獵從來不停。」 |
+| ⚪可選 | YouTube Description & Caption | `The bowl is the moose, the handle its hunters` | Simplifies `the moose’s legs` (E06) to `the moose`. Harmless in a short summary, but `the moose’s legs` is more consistent with the video text and the Chinese script. | `The bowl is the moose’s legs, the handle its hunters` | 04 鏡：「斗口四顆，是駝鹿的腳；斗柄三顆，是追在後面的獵人。」 |
+
+---
+
+## 二、建議的定稿版（整張 Beats 表照原格式重寫一次，改過的格子標 **粗體**）
+
+| # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
+|---|---|---|---|---|---|---|
+| E01 | 3 | 1 | cover | World Sky Cultures | **One sky. In Siberia, they saw a hunt that never ends.** | — |
+| E02 | 8 | 2, 4, 5 | top-left | The Big Dipper is a moose | **In central Siberia, it’s often called Los’ — the moose. Farther east, mostly a bear.** *(the Лось label sits below the bowl; the narrow top-left box stays clear of Alkaid at upper right)* | 1.9 |
+| E03 | 7 | 6 | top-left | The Evenki story | **For the Evenki, the sky is an upper forest, home to a cosmic moose named Kheglen.** | **2.3** |
+| E04 | 6 | 7 | top-left | | Each evening it carries off the sun on its antlers. Night falls. | 2.0 |
+| E05 | 7 | 8 | bottom | Mangi, the hunter | **Mangi follows on skis, shoots it with an arrow, and takes back the sun. Day breaks.** | 2.3 |
+| E06 | 7 | 9 | bottom | | The bowl’s four stars: the moose’s legs. The handle’s three: the hunters. Every night, it happens again. | 2.4 |
+| E07 | 6 | 11 | bottom-left | | The Little Dipper: a calf following its mother. The Milky Way: Mangi’s ski track. *(clear of the ski-track label at lower right)* | 2.3 |
+| E08 | 13 | 12, 13, 14 | bottom-left | **The same hunt in North America?** | **Some scholars think it crossed the Bering land bridge with people over 10,000 years ago.** *(pages 13–14: headline only; the body would sit on the diagram)* | **2.1 *(on p. 12)*** |
+| E09 | 7 | 15 | bottom-left | | The Mi’kmaq of North America tell it too: the bowl is a bear, the handle its hunters. | 2.4 |
+| E10 | 5 | 34, 35 | top | A hunt that never ends | The whole sky turns around the Pole Star. *(page 34 → 35 is a hard cut, same frame)* | 1.6 |
+| E11 | 7 | 36 | top | | Bowl first, handle behind: the hunters chase the moose forever. In the Evenki forest, it never sets. | 2.4 |
+| E12 | 7 | 37 | top | Look north this February | **After dark, the moose climbs in the northeast, hunters behind. In northern skies, they circle all night.** | **2.4** |
+| E13 | — | — | — | | *(page 38, the Chinese next-episode card in the sky, is removed)* | — |
+| E14 | 3 | 39 | endcard | Next Wednesday | Sámi: a reindeer hunt across the sky. | 2.3 |
+| E15 | 3 | 40 | endcard | | Follow for a new sky every week. | 2.3 |
+
+---
+
+## 三、沒把握的地方
+
+1. **Mother moose with antlers (E04 + E07)**: E04 says the moose carries off the sun "on its antlers," and E07 calls the Little Dipper "a calf following its mother." Biologically, female moose (cows) do not grow antlers, so a few sharp-eyed English viewers might comment on this. However, both details come directly from the Chinese fact-checked script (03 鏡「牠把太陽頂在角上」+ 說明「天上的母駝鹿」; 05 鏡「跟在媽媽後面的小駝鹿」), and the Chinese 考據備忘 notes that Evenki variants differ (one has a mother moose with a calf, another has a bull moose stealing the sun). I kept both faithful to the Chinese script rather than altering the myth; the editor can decide whether to mention the variant in the pinned source comment.
+2. **Transliteration punctuation for `Los’`**: The script uses a curly right single quotation mark (`Los’`) for the Russian soft sign `ь` (matching `Mi’kmaq`), whereas the Chinese 首留言 uses a straight apostrophe (`Los'`). Typographically, `Los’` is fine for on-screen display, though in Canva some fonts render a curly apostrophe wide after `s` — worth a quick visual check on page 4.
+3. **E01 template flexibility**: I am unsure how strictly the English series locks the `One sky. [People] saw — ...` phrasing from `節目表_萬國星空_英文版.csv`. If the schedule's exact wording is locked, keep E01 as written; if minor smoothing is allowed, `One sky. In Siberia, they saw a hunt that never ends.` reads more naturally in English.
