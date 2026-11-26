@@ -1,0 +1,38 @@
+# EN29 英文審稿
+
+## 一、逐條意見
+
+| 嚴重度（🔴必改／🟡建議／⚪可選） | 位置（beat 編號） | 原文 | 問題 | 建議改法 | 依據（中文稿的哪一句） |
+|---|---|---|---|---|---|
+| 🔴必改 | E11（以及 Caption 第 101 行） | `All night, the Pole Star sits about as high as your latitude.` | Drops the Chinese location qualifier（「在台北」）and states this universally for an international audience. Viewers in the Southern Hemisphere cannot see the Pole Star at all. | `North of the equator, the Pole Star sits about as high as your latitude all night.`（Caption 同步加上 `North of the equator:`） | 11 鏡：「今晚在台北，自己試試看：往正北看，北極星整晚都在二十五度上下，剛好是台北的緯度。」 |
+| 🟡建議 | E05（以及 Page 1 cover hook、Caption 第 97 行） | `The first Chinese record of a compass at sea, 900 years ago: used only on cloudy days.` | “cloudy days” implies daytime only, whereas Chinese 「陰天／陰晦」 means overcast skies day or night (when neither the sun nor the stars are visible). Also replaces the repeated colon pattern with a dash and trims word count from 17 to 16 (2.4 → 2.3 w/s). | `The first Chinese record of a ship’s compass, 900 years ago — used only under cloudy skies.`（Cover hook 與 Caption 的 `cloudy days` 建議同步改為 `cloudy skies` 或 `overcast skies`） | 03b 鏡：「中國書裡第一次寫到船上用指南針，是九百年前，而且是陰天才用：『夜則觀星，晝則觀日，陰晦觀指南針。』」 |
+| 🟡建議 | E01 / Cover（Page 1） | `One sky. The seafarers saw — a map without a compass.` / Page sequence Note: `second line = the schedule’s hook (*900 years ago, the compass was only for cloudy days.*)` | **Hook & density**: The Beats table omits the cover hook, while the Page sequence puts both the 10-word opening line and the 10-word hook on a 3-second cover (23 words total with headline — unreadable in 3 s). As a scroll-stopper, `One sky. The seafarers saw — a map without a compass.` is poetic rather than arresting, and “The seafarers” sounds slightly stiff compared to “sailors” in E02. The schedule’s hook (`900 years ago, the compass was only for cloudy days.`) is much stronger at stopping a stranger in the first 2 seconds. | Cover 保留單一主句（例如用排程鉤子，改為 `900 years ago, the compass was only Plan B.` 或 `900 years ago, the compass was only for overcast skies.`）；若封面仍要放系列統一開頭，建議精簡為 `One sky. Sailors saw — a map without a compass.`，不要在同頁疊兩句長文。 | 01 鏡：「同一片星空，航海的人看見——一張不用羅盤的地圖。」；03b 鏡：「中國書裡第一次寫到船上用指南針，是九百年前，而且是陰天才用」 |
+| 🟡建議 | E07 | `Hawaiians later split the horizon into 32 houses. Arcturus straight overhead means you’ve reached Hawaiʻi, 19° N.` | At 113 characters inside a narrow `bottom-left` box (W 520–600), this will likely wrap to 4–5 lines, exceeding the ≤ 3 lines per page limit. | `Hawaiians later split the horizon into 32 houses. Arcturus straight overhead means Hawaiʻi, 19° N.`（98 字元、15 字、1.9 w/s，較容易收進窄框 3 行內） | 05 鏡：「後來夏威夷人把地平線切成三十二間房子……大角星掛在正頭頂，就到了北緯十九度的夏威夷。」 |
+| 🟡建議 | E06 | `1976: Micronesian navigator Mau Piailug took the canoe Hōkūleʻa to Tahiti, no instruments.` | “, no instruments.” is slightly clipped; “sailed” is more idiomatic than “took” for a voyaging canoe. | `1976: Micronesian navigator Mau Piailug sailed the canoe Hōkūleʻa to Tahiti without instruments.`（13 字、2.2 w/s、96 字元） | 05 鏡：「一九七六年，密克羅尼西亞的航海師 Mau Piailug，帶著獨木舟 Hōkūleʻa 不靠儀器開到大溪地。」 |
+| 🟡建議 | E09 | `But the 32 compass points still bore star names: mostly where bright stars rise or set.` | “bore star names” sounds slightly formal/literary for plain on-screen text; replacing the colon with an em-dash also reduces colon overuse across the script. | `But the 32 compass points still had star names — mostly where bright stars rise or set.`（16 字、2.3 w/s、87 字元） | 09 鏡：「可是羅盤的三十二個方位，還是用星星命名：大多是某顆亮星升起或落下的地方」 |
+| ⚪可選 | E03 | `Oldest surviving written record: the Odyssey, 2,700 years ago. A goddess says: keep the Great Bear on your left.` | Two colons in two consecutive sentences feel choppy, and at 112 characters it sits right at the 3-line / 40-char-per-line ceiling. | `Oldest surviving text: the Odyssey, 2,700 years ago. A goddess says to keep the Great Bear on your left.`（19 字、2.4 w/s、104 字元，去掉第二個冒號並保留 `surviving` 的「現存」限定） | 03 鏡：「現存最早寫下來的紀錄，在兩千七百年前的《奧德賽》：女神交代奧德修斯，讓大熊座一直留在左手邊。」 |
+| ⚪可選 | YouTube Description（第 91 行）與 Caption（第 99 行） | `900 years ago, a Chinese book records a ship’s compass for the first time — and it was used only when the sky was overcast.` / `the Odyssey tells Odysseus to keep the Great Bear on his left` | 1) Tense shift in YouTube description (`records` → `was used` / `was overcast`). 2) Minor phrasing: in the poem it is a goddess (Calypso), not “the Odyssey”, who tells Odysseus. 3) Caption 第 98 行寫 `(1119)`，YouTube 來源行寫 `(c. 1119)`，中文考據備忘寫「約成於 1119 年」，加 `c.` 較一致。 | YouTube 改 `recorded` 並與 Caption 一同改為 `in the Odyssey, a goddess tells Odysseus to keep the Great Bear on his left`；Caption 第 98 行 `(1119)` 可改 `(c. 1119)`。 | 03 鏡：「女神交代奧德修斯，讓大熊座一直留在左手邊。」；考據備忘：「書約成於 1119 年」 |
+
+## 二、建議的定稿版（整張 Beats 表照原格式重寫一次，改過的格子標 **粗體**）
+
+| # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
+|---|---|---|---|---|---|---|
+| E01 | 3 | 1 | cover | World Sky Cultures | **One sky. Sailors saw — a map without a compass.** *(note: if the cover uses the schedule’s hook instead, use “900 years ago, the compass was only Plan B.” or “900 years ago, the compass was only for overcast skies.” — do not stack both lines on a 3 s cover)* | — |
+| E02 | 6 | 2, 3 | bottom-left | Before the compass | From the Pacific to the Indian Ocean, sailors steered by the stars. *(the five coloured route-star lines fade in behind it; bottom-right is the Bugis/Mandar label)* | 2.0 |
+| E03 | 8 | 9 | bottom | Bear on the left: sail east | **Oldest surviving text: the Odyssey, 2,700 years ago. A goddess says to keep the Great Bear on your left.** | 2.4 |
+| E04 | 5 | 12 | top | Compass: only when overcast | *(diagram page: headline only; pages 10–11 build the timeline with no caption)* | — |
+| E05 | 7 | 13 | bottom | | **The first Chinese record of a ship’s compass, 900 years ago — used only under cloudy skies.** | **2.3** |
+| E06 | 6 | 18 | top | Hawaiʻi: a star compass | **1976: Micronesian navigator Mau Piailug sailed the canoe Hōkūleʻa to Tahiti without instruments.** | 2.2 |
+| E07 | 8 | 20 | bottom-left | | **Hawaiians later split the horizon into 32 houses. Arcturus straight overhead means Hawaiʻi, 19° N.** *(in Canva: narrow left box at Y ≈ 1000–1300, clear of the Pole Star label at Y 1419 and Hōkūleʻa at the top)* | **1.9** |
+| E08 | 5 | 29 | top | Arabia: 32 star points | 15th century: navigator Ibn Mājid already had a magnetic needle on board. | 2.4 |
+| E09 | 7 | 30 | top | | **But the 32 compass points still had star names — mostly where bright stars rise or set.** | 2.3 |
+| E10 | 7 | 31, 32 | top | Also 32, just like Hawaiʻi | *(diagram pages: headline only; the diagram’s own line reads “Two systems, developed separately”)* | — |
+| E11 | 7 | 37 | top | Tonight: look due north | **North of the equator, the Pole Star sits about as high as your latitude all night.** | **2.3** |
+| E12 | 4 | 47 | endcard | Next Wednesday | Arabic lunar stations: where the Moon stays each night. | 2.3 |
+| E13 | 3 | 48 | endcard | | Follow for a new sky every week. | 2.3 |
+
+## 三、沒把握的地方
+
+1. **Page 10–11 時間軸概念圖（`C-X06-01_時間軸_莎湖層_透明.png`）無字幕過場**：中文版 02 鏡有旁白解釋「五萬年前渡海到莎湖，沿途島嶼多半看得見、有沒有用星星沒有證據」，英文版已刪掉該段旁白，Page 10 僅放 3 秒概念圖且無字幕。本審稿未檢視該英文圖檔本身；若圖上只標 `Sahul (Australia + New Guinea)` 與問號而沒有簡短說明，國際觀眾在 3 秒內可能會疑惑為何時間軸從澳洲開始。
+2. **E01 封面文字的最終取捨**：Page sequence 第 39 行寫封面第二行是排程鉤子（*900 years ago, the compass was only for cloudy days.*），而 Beats 表 E01 寫的是系列統一開頭（*One sky. The seafarers saw — a map without a compass.*）。不確定 Canva 封面版型是「排程鉤子取代統一開頭」，還是兩者並存；若兩者並存，3 秒內字數會明顯超載，建議合併時確認只留其一。
+3. **E03「Bear on the left: sail east」的推論跳步**：中文版 03 鏡多了一句「大熊在北邊，留在左手邊，就是往東開」；英文版省略了「大熊在北邊」，全靠 Page 9 畫面上的 `Pole Star` 與地平線方位讓觀眾自行連結。若不熟悉北天星座的觀眾看不懂「為何大熊在左＝往東」，可再評估畫面是否已有明確的 `N` / `E` 標示。
