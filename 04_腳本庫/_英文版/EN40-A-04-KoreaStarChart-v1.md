@@ -1,4 +1,4 @@
-# EN40 ｜ Korea: A Star Chart on the 10,000-Won Note ・ v0 (awaiting Gemini review)
+# EN40 ｜ Korea: A Star Chart on the 10,000-Won Note ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -16,19 +16,19 @@
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
-| E01 | 3 | 1 | cover | World Sky Cultures | One sky. Korea carved it in stone — and printed it on money. *(second line = the schedule’s hook: A star chart printed on Korean money.)* | — |
+| E01 | 3 | 1 | cover | World Sky Cultures | One sky. Korea carved it in stone — and printed it on money. *(one line only on the cover; the schedule’s hook “A star chart printed on Korean money.” goes to the caption/thumbnail)* | — |
 | E02 | 6 | 2 | top | In Korean wallets | This may be the most widely printed star chart in the world. | 2.0 |
 | E03 | 6 | 3 | top | The 10,000-won note | On its back: a whole sky of 1,467 stars in one circle. | 2.0 |
 | E04 | 7 | 4 | top | Cheonsang Yeolcha Bunya Ji Do | A chart of the heavens, carved in stone in 1395 for King Taejo of Joseon. | 2.1 |
-| E05 | 7 | 5 | top | | Tradition says it was recut from an old rubbing handed down from Pyongyang. | 1.9 |
-| E06 | 5 | 6 | top | Second-oldest of its kind | Korea calls it the world’s second-oldest star chart carved in stone. | 2.2 |
-| E07 | 7 | 7 | top | A familiar sky | If you know the Chinese sky, it looks familiar: the same asterisms, the same names. | 2.1 |
-| E08 | 5 | 23 | top | Late July, after dark | Look high in the east: three bright stars along the Milky Way. | 2.4 |
+| E05 | 7 | 5 | top | | Tradition says it was recut from a Goguryeo-era Pyongyang rubbing. | 1.4 |
+| E06 | 5 | 6 | top | Second-oldest of its kind | Korea calls it the world’s second-oldest stone star chart. | 1.8 |
+| E07 | 7 | 7 | top | A familiar sky | If you know the Chinese sky, it’s the same asterisms — and the same names. | 2.0 |
+| E08 | 5 | 23 | top | Late July, after dark (northern sky) | Look high in the east: three bright stars along the Milky Way. | 2.4 |
 | E09 | 4 | 24 | bottom-left | The Weaver | In the West: Vega. | 1.0 |
 | E10 | 4 | 25 | bottom-left | The River Drum | In the West: Altair. | 1.0 |
-| E11 | 5 | 26 | bottom-left | The Heavenly Ford | In the West: Deneb. Together: the Summer Triangle. | 1.6 |
-| E12 | 7 | 27 | top | Same characters, new sound | The chart writes them in the same Chinese characters. Korean reads them Jingnyeo, Hago, Cheonjin. | 2.1 |
-| E13 | 7 | 42 | top | One chart, six centuries | From Goguryeo to Joseon to today’s wallets: the sky hasn’t changed, only the voices reading it. | 2.3 |
+| E11 | 5 | 26 | bottom-left | The Heavenly Ford | In the West: Deneb. Together, the Summer Triangle. | 1.6 |
+| E12 | 7 | 27 | top | Same characters, different sound | Written in the same Chinese characters, but read in Korean: Jingnyeo, Hago, Cheonjin. | 1.9 |
+| E13 | 7 | 42 | top | One chart, six centuries | From Goguryeo to Joseon to today’s wallets: the sky hasn’t changed — only the voices reading it. | 2.3 |
 | E14 | 3 | 45 | endcard | Next: Sunday, August 8 | Qixi: the Cowherd and the Weaver. | 2.0 |
 | E15 | 3 | 46 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -38,7 +38,7 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡（同一片星空，朝鮮王朝把它刻在石碑；現代韓國把它印上鈔票） | 3 | Cover: text block replaced with English; second line = the hook; EN · EP40 tag |
+| 1 | | 開場字卡（同一片星空，朝鮮王朝把它刻在石碑；現代韓國把它印上鈔票） | 3 | Cover: text block replaced with English (the opening line only; the hook goes to the caption/thumbnail); EN · EP40 tag |
 | 2 | | 這張圖可能是全世界被印最多次的星圖 | 6 | E02; replace the Chinese box |
 | 3 | | 一萬元韓元紙鈔的背面：1,467 顆星、272 個星官 | 6 | E03; replace the Chinese box (the English drops the 272 asterisms: the script and the report give 271/272) |
 | 4 | | 朝鮮太祖四年（1395 年）《天象列次分野之圖》：依十二次和分野排列 | 7 | E04; replace both Chinese boxes; keep the Hangul title 천상열차분야지도 under the English headline |
@@ -83,9 +83,9 @@ Total 79 s (E15 included).
 ## Caption (Instagram / Facebook / Threads)
 
 A star chart printed on Korean money. 💵
-The back of the 10,000-won note shows Cheonsang Yeolcha Bunya Ji Do, carved in stone in 1395: 1,467 stars in one circle. Korea calls it the world’s second-oldest star chart in stone.
+The back of the 10,000-won note shows Cheonsang Yeolcha Bunya Ji Do, carved in stone in 1395: 1,467 stars in one circle. Korea calls it the world’s second-oldest stone star chart.
 Its asterisms are the Chinese ones — same characters, a Korean voice: the Weaver is Jingnyeo, the River Drum Hago, the Heavenly Ford Cheonjin. In the West: Vega, Altair, Deneb, the Summer Triangle.
-Late July evenings: look high in the east.
+Late July evenings, northern sky: look high in the east.
 Next: Sunday, August 8 — Qixi, the Cowherd and the Weaver.
 #WorldSkyCultures #astronomy #stars #Korea #Joseon #SummerTriangle #Vega #skylore
 (First comment: sources — Bank of Korea, 10,000-won note issued 2007-01-22; National Palace Museum of Korea; Stellarium korean sky culture.)
@@ -95,11 +95,11 @@ Next: Sunday, August 8 — Qixi, the Cowherd and the Weaver.
 Dropped from the Chinese version (all still in the Chinese episode): the twelve stations and field allocation (十二次、分野) in the chart’s name; Gwon Geun and the twelve men; the stone sunk in the river; the 《步天歌》 transmission; the whole “official ranks” story (Xin as the Emperor’s seat, the dragon mansions as a court, the ranks of the single stars of Fang, Xin and Wei, Fu Yue in the 《晉書》 and 《隋書》); the River Drum as three generals and the Cowherd name; the Black Tortoise mansions; the Dipper as a government; the national treasure and its abolished number; the Celestial Drumstick and the Left and Right Flags (script 62–96s); the next-Friday Japan teaser (replaced by the next English episode).
 
 Wording to check:
-1. E01 = the Chinese 統一開頭「同一片星空，朝鮮人把它——刻在石碑、印上鈔票」; the hook (second line) is the schedule’s.
+1. E01 = the Chinese 統一開頭「同一片星空，朝鮮人把它——刻在石碑、印上鈔票」; the schedule’s hook is for the caption/thumbnail, not stacked on the cover.
 2. E02 keeps the hedge: script「全世界流通量最大的星圖，**可能**就在韓國人的錢包裡」/ Canva「可能是全世界被印最多次的星圖」(report: no statistics either way, the hedge must stay).
 3. E03 “1,467 stars” = script and report. The note was issued 2007-01-22 (report), not on screen.
 4. E04 “for King Taejo of Joseon” = script「西元 1395 年，朝鮮太祖找來權近等十二位天文學家…刻在石碑上」.
-5. E05 “Tradition says it was recut from an old rubbing handed down from Pyongyang” = script「把一張從平壤流傳下來的舊拓本，重新刻在石碑上」; “Tradition says” follows the report (碑文所載傳說) and the Canva (「傳說」).
+5. E05 “Tradition says it was recut from a Goguryeo-era Pyongyang rubbing” = script「把一張從平壤流傳下來的舊拓本，重新刻在石碑上」; “Tradition says” follows the report (碑文所載傳說) and the Canva (「傳說」).
 6. E06 “Korea calls it” keeps the report’s note that “second-oldest” is the Korean usual account (韓方通行說法; the oldest is the Suzhou chart of 1247).
 7. E07 = script「如果你懂中國星官，看這張圖會有種奇妙的熟悉感——因為它們，本來就是同一套天空」; “the same names” = Canva「一個漢字都沒有改」.
 8. E08 replaces the script’s wrong「九月晚上西南方」(report: Vega and Deneb are never in the south-west from Taiwan). Checked for 2027-07-28: at 22:00 local, 40° N, Vega az 89° alt 76°, Deneb az 65° alt 54°, Altair az 124° alt 45°; at 50° N Vega alt 73°. “High in the east” is accurate.
@@ -110,3 +110,18 @@ Wording to check:
 13. E14 the next English episode is EN39 Qixi on Sunday 2027-08-08 (there is no Wednesday episode on 8/4), so the end card names the date instead of “Next Wednesday”.
 14. 天津: EN40 uses “the Heavenly Ford” (= the 譯名表 天津 row from EN39). Older rows still differ: A-04 Korean row note “Celestial Ford”, EN35 “Tianjin, a ford”; not changed here.
 15. Page sequence is the authority for timing (total 79 s).
+
+## 審稿合併 (Gemini review → v1)
+
+**Adopted (8 of 8 table rows; E08 and E05 in a modified form):**
+- 🟡 E01: cover = opening line only; the hook “A star chart printed on Korean money.” goes to caption/thumbnail (Page sequence note and Cuts #1 updated). Gemini’s alternative hook “A 600-year-old star chart — printed on Korean money.” not used (the cover keeps the series frame; the Chinese cover is 刻在石碑、印上鈔票).
+- 🟡 E05: “Tradition says it was recut from a Goguryeo-era Pyongyang rubbing.” (10 w / 7 s = 1.4). Introduces Goguryeo before E13 uses it; the report’s wording is 「依高句麗平壤石刻拓本重刻（碑文所載傳說）」, and “Tradition says” stays as the hedge. Cuts #5 updated.
+- 🟡 E08: headline “Late July, after dark (northern sky)” and Caption “Late July evenings, northern sky” (same tag as EN08 / EN37); the body keeps “high in the east”, which is checked for 40° N (Cuts #8). 5 words in the headline, w/s unchanged at 2.4.
+- 🟡 E12: headline “Same characters, different sound” (= 另一種聲音); text “Written in the same Chinese characters, but read in Korean: Jingnyeo, Hago, Cheonjin.” (13 w / 7 s = 1.9).
+- ⚪ E06 “the world’s second-oldest stone star chart” (9 w / 5 s = 1.8; Caption likewise); ⚪ E07 “it’s the same asterisms — and the same names” (14 w / 7 s = 2.0); ⚪ E11 “Together, the Summer Triangle.”; ⚪ E13 em dash.
+
+**Not adopted / unchanged:**
+- Gemini’s open point 3 (no pinyin on E09–E11): unchanged, as v0 explained it (Korean names and English glosses only; no information overload on a text-only 79 s).
+- Open point 4 (“six centuries” vs “From Goguryeo”): unchanged; the Chinese 136–156 s says the same (「走過高句麗、朝鮮、到今天的錢包」) and the headline counts from the 1395 chart.
+
+All w/s ≤ 2.5; lines ≤ 40 letters and ≤ 3 lines checked by gen_en_pages.py.

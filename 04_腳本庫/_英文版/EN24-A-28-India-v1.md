@@ -1,4 +1,4 @@
-# EN24 ｜ India: The Moon's 27 Wives ・ v0 (awaiting Gemini review)
+# EN24 ｜ India: The Moon's 27 Wives ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -8,7 +8,7 @@
 | Story | One story only: **the Moon's 27 wives and how the Moon got its phases** (the epic version). Arcturus and Spica are two of the wives → the Moon's path is cut into 27 mansions, one wife in each, one night per house → Dakṣa's 27 daughters marry Soma, who loves only Rohiṇī (Aldebaran) → the other 26 complain, Soma breaks his promise, Dakṣa curses him with a wasting disease → the gods plead; treat them equally and bathe at Prabhāsa → the curse stays: half a month waning, half waxing. Close: Indian months are named for the full Moon's house; this week's full Moon is in Citrā, so this month is Caitra |
 | Canva | Copy of the Chinese A-28 design (`DAHWtWYQNj8`), named `EN24 A-28 印度吠陀` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 53 = last 製作表 page, 54 = next-episode card, 55 = follow page; see `_卡04進度/進度.md`). If the Chinese design ends differently, put E15 and E16 on its next-episode and follow pages. |
 | Opening line | *One sky. India saw — the Moon’s 27 wives.* (= the Chinese 統一開頭「同一片星空，印度人看見——月亮的二十七位妻子」) |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.50, E03 and E12; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.50, E03 and E13; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
 ## Beats (text on screen)
 
@@ -19,17 +19,17 @@
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. India saw — the Moon’s 27 wives. | — |
 | E02 | 7 | 2 | top | Two wives of the Moon | Arcturus and Spica. In India, they are Svātī and Citrā — two wives of the same husband. | 2.3 |
 | E03 | 4 | 4 | top | | The Moon circles the sky in just over 27 days. | 2.5 |
-| E04 | 8 | 5 | top | 27 Nakṣatras: one night each | India split its path into 27 mansions. Each is a wife’s house; the Moon spends one night in each. | 2.4 |
-| E05 | 8 | 6, 7 | top | Rohiṇī, “the red one” | Dakṣa had many daughters. Twenty-seven married the Moon god, Soma. But Soma loved only one. | 1.9 |
+| E04 | 8 | 5 | top | 27 Nakṣatras: one night each | India split its path into 27 mansions. A wife lives in each; the Moon changes houses every night. | 2.3 |
+| E05 | 8 | 6, 7 | top | Rohiṇī, “the red one” | The god Dakṣa had many daughters. Twenty-seven married the Moon god Soma — who loved only Rohiṇī. | 2.0 |
 | E06 | 3 | 8 | top | Soma’s 27 wives | *(diagram page: headline only; English diagram `_概念圖/en/C-A28-02_二十七位妻子_妻子層_透明.png`)* | — |
-| E07 | 7 | 9 | top | The partial husband | He stayed with Rohiṇī every night. The other 26 went home to complain to their father. | 2.3 |
-| E08 | 7 | 11 | top | A father-in-law’s curse | Soma promised to treat them all alike, and didn’t. Furious, Dakṣa cursed him with a wasting disease. | 2.4 |
-| E09 | 5 | 12 | top | Thinner every day | The Moon grew thinner every day. On Earth, the herbs withered too. | 2.4 |
-| E10 | 7 | 14 | top | Bathe at Prabhāsa | The gods pleaded. Dakṣa gave in: treat every wife equally, and bathe at Prabhāsa, by the sea. | 2.4 |
+| E07 | 7 | 9 | top | Playing favorites | He stayed with Rohiṇī every night. The other 26 went home to complain to their father. | 2.3 |
+| E08 | 7 | 11 | top | A father-in-law’s curse | Soma promised to treat them all alike, but didn’t. Furious, Dakṣa cursed him with a wasting disease. | 2.4 |
+| E09 | 5 | 12 | top | Thinner every day | The Moon grew thinner every day. On Earth, herbs withered too. | 2.2 |
+| E10 | 7 | 14 | top | Bathe at Prabhāsa | The gods pleaded. Dakṣa gave in: treat them equally, and bathe at sacred Prabhāsa by the sea. | 2.4 |
 | E11 | 4 | 16 | top | Half waning, half waxing | *(diagram page: headline only; English diagram `_概念圖/en/C-A28-03_盈虧_消瘦層_透明.png` + `…_盈虧層_透明.png`)* | — |
-| E12 | 8 | 17 | top | The Moon’s phases | He lived, but the curse stayed: half the month he wastes away, half he recovers. These are the Moon’s phases. | 2.5 |
-| E13 | 4 | 36 | top | Twelve months, twelve wives | Indian months are named for the full Moon’s house. | 2.3 |
-| E14 | 8 | 37 | top | Full Moon in Citrā: Caitra | This week’s full Moon was in Citrā, so this month is Caitra. After dark, look southeast for Spica. | 2.3 |
+| E12 | 8 | 17 | top | The curse remains | He lived, but the curse stayed: half the month he wastes away, half he recovers — the Moon’s phases. | 2.3 |
+| E13 | 4 | 36 | top | Twelve months, twelve wives | Indian lunar months are named after the full Moon’s house. | 2.5 |
+| E14 | 8 | 37 | top | Full Moon in Citrā: Caitra | This week’s full Moon was in Citrā, so this month is Caitra. | 1.4 |
 | E15 | 3 | 54 | endcard | Next Wednesday | Sardinia: stars of farmers and herders. | 2.0 |
 | E16 | 3 | 55 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -39,7 +39,7 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP24 tag |
+| 1 | | 開場字卡 | 3 | Cover: text block replaced with English (the opening line only; the schedule’s hook goes to the caption/thumbnail, not on the cover); EN · EP24 tag |
 | 2 | | 鏡頭01開始 | 7 | E02; the Chinese text card is removed; labels 大角 → Arcturus, 角宿一 → Spica; then straight to 4 (page 3, the zoom-in end, removed: its Svātī label sits in the top text box) |
 | 4 | | 鏡頭02開始 | 4 | E03; the 27 numbered mansion labels (IAST) stay |
 | 5 | | 鏡頭02結束 | 8 | E04 |
@@ -70,11 +70,11 @@ Total 89 s (E16 included).
 | Citrā | Citrā | IAST |
 | 月站 Nakṣatra | lunar mansion(s); 27 Nakṣatras | as A-06 in the glossary sheet |
 | Dakṣa | Dakṣa | IAST |
-| 月神 Soma | the Moon god, Soma | |
+| 月神 Soma | the Moon god Soma | no comma |
 | Rohiṇī（紅色的那位） | Rohiṇī, “the red one” | label 紅色的那位 → the red one |
 | 畢宿五 | Aldebaran | label only |
 | 消瘦病（yakṣma） | a wasting disease | |
-| 草藥 | the herbs | |
+| 草藥 | herbs | |
 | Prabhāsa | Prabhāsa | the holy place by the sea |
 | 月亮的盈虧 | the Moon’s phases | |
 | Caitra（月名） | Caitra | |
@@ -86,17 +86,17 @@ Total 89 s (E16 included).
 - **Description**:
   In India, the Moon’s path is cut into 27 lunar mansions, the Nakṣatras — and each one is a wife. In the epic, Dakṣa’s 27 daughters marry the Moon god Soma, who loves only Rohiṇī, “the red one” (Aldebaran). Dakṣa curses him with a wasting disease; the gods plead, and Soma lives, but ever since he wastes away for half the month and recovers for the other half.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
-  Sources: Mahābhārata, Śalya Parvan (Ganguli trans. 9.35); Bhāgavata Purāṇa 6.6.2, 6.6.23; Taittirīya Saṃhitā 2.3.5; Stellarium sky culture “indian”.
+  Sources: Mahābhārata, Śalya Parvan (Ganguli trans. 9.35); Bhāgavata Purāṇa 6.6.2, 6.6.23; Stellarium sky culture “indian”.
 
 ## Caption (Instagram / Facebook / Threads)
 
 The Moon had 27 wives — and loved only one. 🌕
 In India, the Moon’s path is cut into 27 lunar mansions, the Nakṣatras. Each is a wife’s house, and the Moon spends one night in each. Arcturus and Spica are two of them: Svātī and Citrā.
-In the epic, Dakṣa’s 27 daughters marry the Moon god, Soma. But Soma stays with Rohiṇī, “the red one” (Aldebaran), every night. The others go home to complain; Soma promises to treat them alike, and doesn’t. Dakṣa curses him with a wasting disease. The gods plead, and Dakṣa gives in: treat every wife equally, and bathe at Prabhāsa, by the sea. Soma lives, but the curse stays: half the month he wastes away, half he recovers.
-Indian months are named for the full Moon’s house. This week’s full Moon was in Citrā, so this month is Caitra.
+In the epic, Dakṣa’s 27 daughters marry the Moon god Soma. But Soma stays with Rohiṇī, “the red one” (Aldebaran), every night. The others go home to complain; Soma promises to treat them alike, and doesn’t. Dakṣa curses him with a wasting disease. The gods plead, and Dakṣa gives in: treat them equally, and bathe at sacred Prabhāsa by the sea. Soma lives, but the curse stays: half the month he wastes away, half he recovers.
+Indian lunar months are named after the full Moon’s house. This week’s full Moon was in Citrā, so this month is Caitra.
 Next Wednesday: Sardinia — stars of farmers and herders.
 #WorldSkyCultures #astronomy #India #Nakshatra #Moon #moonphases #Spica #Aldebaran #skylore
-(First comment: sources — Mahābhārata, Śalya Parvan; Bhāgavata Purāṇa 6.6; Taittirīya Saṃhitā 2.3.5; Stellarium “indian”.)
+(First comment: sources — Mahābhārata, Śalya Parvan; Bhāgavata Purāṇa 6.6; Stellarium “indian”.)
 
 ## Cuts and changes (for the reviewer)
 
@@ -110,7 +110,29 @@ Wording to check:
 5. E09–E10 = 05 鏡「月亮一天比一天瘦，地上的草藥也跟著枯萎。眾神出面求情，Dakṣa 才鬆口：要他平等對待每一位妻子，再去海邊的聖地 Prabhāsa 沐浴」; 草藥 = “the herbs”.
 6. E12 = 06 鏡「命是保住了，但詛咒收不回：從此月亮半個月消瘦、半個月復原——這就是月亮的盈虧」; “These are the Moon’s phases” (not “That is why”: the Chinese states the identification, not a cause).
 7. E13 = 14 鏡「印度曆的月份，也用妻子命名：滿月住哪一家，就用她的名字當月名」.
-8. E14 replaces the Taiwan-time wording of 14 鏡「下週二晚上的滿月在 Citrā 旁邊，所以現在這個月叫 Caitra」: the episode airs 21 Apr 21:00 Taiwan time, after the full Moon (21 Apr 06:27 Taiwan = 20 Apr 22:27 UTC, sidereal longitude 186.4° = Citrā, per the Chinese 星空對時), so the English says “This week’s full Moon was in Citrā”. “After dark, look southeast for Spica” is the Northern-Hemisphere tip replacing the Taipei look-up (17 鏡; not in the Chinese script). Checked with PyEphem 4.2.1 for 40° N, 21:00 local time on 20–21 Apr 2027 (UTC, UTC−5, UTC+1): Spica 26–28° up at azimuth 134–138° (southeast); on 20 Apr the full Moon is 7–10° below Spica, on 21 Apr ~20° away. Arcturus is 40–43° up in the east (not used).
+8. E14 replaces the Taiwan-time wording of 14 鏡「下週二晚上的滿月在 Citrā 旁邊，所以現在這個月叫 Caitra」: the episode airs 21 Apr 21:00 Taiwan time, after the full Moon (21 Apr 06:27 Taiwan = 20 Apr 22:27 UTC, sidereal longitude 186.4° = Citrā, per the Chinese 星空對時), so the English says “This week’s full Moon was in Citrā”. v0’s sky-watching tip (“look southeast for Spica”) was cut in v1: it is not in the Chinese script and holds only for northern skies.
 9. Labels: 紅色的那位 → “the red one” (lower case, as in E05; the English diagram has “the Red One (Aldebaran)” from the existing script).
-10. The cover’s second line is the schedule’s hook (written for this v0 from the Chinese ⚠ note’s hook 「月亮每晚住一位妻子家」 and 03 鏡: “The Moon had 27 wives — and loved only one.”).
+10. The cover carries the opening line only. The schedule’s hook (“The Moon had 27 wives — and loved only one.”, from the Chinese ⚠ note’s hook 「月亮每晚住一位妻子家」 and 03 鏡) is for the caption/thumbnail.
 11. Page sequence is the authority for timing (total 89 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review → v1)
+
+**Adopted (12 of 13 table rows; the label row partly):**
+- 🔴 E14: cut “After dark, look southeast for Spica.” It is not in the Chinese script (17 鏡 is a Taipei sky guide) and is hemisphere-specific. Chose the “cut” option, not “From northern skies…”, because that would keep a sentence the Chinese does not have.
+- 🔴 E01 / Page 1: cover = opening line only; the hook “The Moon had 27 wives — and loved only one.” moves to caption/thumbnail (Page sequence note and Cuts #10 updated).
+- 🟡 E04: “A wife lives in each; the Moon changes houses every night.” (= 02 鏡 「每一段住著一位妻子，月亮每晚換一家住」; removes “each” ×3; 18 w / 8 s = 2.3).
+- 🟡 E05: “The god Dakṣa … Soma — who loved only Rohiṇī.” (03 鏡 names Rohiṇī; 16 w / 8 s = 2.0).
+- 🟡 E07 headline: “Playing favorites” (= 04 鏡字卡 「偏心的丈夫」).
+- 🟡 E10: “treat them equally, and bathe at sacred Prabhāsa by the sea.” (restores 「聖地」; 17 w / 7 s = 2.4; “all wives” would give 2.57, so “them”).
+- 🟡 E12: headline “The curse remains”; text ends “— the Moon’s phases” (18 w / 8 s = 2.3; the dash keeps the Chinese’s identification, not a cause).
+- 🟡 E13: “Indian lunar months are named after the full Moon’s house.” (10 w / 4 s = 2.5; 「印度曆」 is a lunar calendar here).
+- 🟡 Sources: removed Taittirīya Saṃhitā 2.3.5 from the YouTube description and first comment (the 33-daughter Vedic version is cut from EN24).
+- ⚪ E08 “but didn’t”; ⚪ E09 “herbs” (glossary updated); ⚪ “the Moon god Soma” without comma everywhere.
+
+**Not adopted:**
+- 🟡 E01 alternative hook / E02 headline “Two stars, two wives”: kept “One sky. India saw —” (the series’ fixed opening frame) and “Two wives of the Moon” (= 01 鏡 title 「月亮的二十七位妻子」; naming the husband early is intended).
+- 🟡 Optional “Bhāgavata Purāṇa 11.6.36” source: not in the Chinese script’s verified sources, so not added.
+- ⚪ “the red one” vs “the Red One” on the diagram: the diagram PNG is a separate asset; label stays lower case here; fix when the diagram is re-exported.
+- Gemini’s open point 1 (full Moon near the Citrā/Svātī edge, Chinese 待查核 #13) is unchanged: E14 keeps “in Citrā” as in the Chinese 14 鏡; if #13 changes the Chinese, change E14 too.
+
+All w/s ≤ 2.5; every Text/Headline within 40 letters per line and headlines ≤ 6 words (checked by gen_en_pages.py).

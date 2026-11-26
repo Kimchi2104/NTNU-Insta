@@ -1,4 +1,4 @@
-# EN29 ｜ Before the Compass: Finding the Way by Stars ・ v0 (awaiting Gemini review)
+# EN29 ｜ Before the Compass: Finding the Way by Stars ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -7,8 +7,8 @@
 | Length | **89 s** (including the 3 s follow page), 13 beats, ~145 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the compass came late, and came last.** The first Chinese record of a ship’s compass (1119) uses it only when it is overcast; the oldest written star-steering is the Odyssey (keep the Bear on your left); Hawaiʻi’s 32 star houses and Arcturus overhead; Ibn Mājid already had a magnetic needle, yet his 32 compass points were named for stars. Close: tonight the Pole Star’s height is about your latitude |
 | Canva | Copy of the Chinese X-06 design, named `EN29 X-06 星星導航總集` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 46 = last 製作表 page, 47 = next-episode card, 48 = follow page). If the Chinese design ends differently, put E11 and E12 on its next-episode and follow pages. Diagrams: English versions in `05_素材/X-06_星星導航總集/_概念圖/en/` (same file names). |
-| Opening line | *One sky. The seafarers saw — a map without a compass.* (= the Chinese 統一開頭) |
-| Reading speed | ≤ 2.5 words/sec on every page (max 2.43, E05; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
+| Opening line | *One sky. Sailors saw — a map without a compass.* (= the Chinese 統一開頭「同一片星空，航海的人看見——一張不用羅盤的地圖」) |
+| Reading speed | ≤ 2.5 words/sec on every page (max 2.50, E03; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
 ## Beats (text on screen)
 
@@ -16,17 +16,17 @@
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
-| E01 | 3 | 1 | cover | World Sky Cultures | One sky. The seafarers saw — a map without a compass. | — |
+| E01 | 3 | 1 | cover | World Sky Cultures | One sky. Sailors saw — a map without a compass. | — |
 | E02 | 6 | 2, 3 | bottom-left | Before the compass | From the Pacific to the Indian Ocean, sailors steered by the stars. *(the five coloured route-star lines fade in behind it; bottom-right is the Bugis/Mandar label)* | 2.0 |
-| E03 | 8 | 9 | bottom | Bear on the left: sail east | Oldest surviving written record: the Odyssey, 2,700 years ago. A goddess says: keep the Great Bear on your left. | 2.4 |
+| E03 | 8 | 9 | bottom | Bear on the left: sail east | Oldest surviving written record: the Odyssey, 2,700 years ago. A goddess says to keep the Great Bear on your left. | 2.5 |
 | E04 | 5 | 12 | top | Compass: only when overcast | *(diagram page: headline only; pages 10–11 build the timeline with no caption)* | — |
-| E05 | 7 | 13 | bottom | | The first Chinese record of a compass at sea, 900 years ago: used only on cloudy days. | 2.4 |
-| E06 | 6 | 18 | top | Hawaiʻi: a star compass | 1976: Micronesian navigator Mau Piailug took the canoe Hōkūleʻa to Tahiti, no instruments. | 2.2 |
-| E07 | 8 | 20 | bottom-left | | Hawaiians later split the horizon into 32 houses. Arcturus straight overhead means you’ve reached Hawaiʻi, 19° N. *(in Canva: narrow left box at Y ≈ 1000–1300, clear of the Pole Star label at Y 1419 and Hōkūleʻa at the top)* | 2.1 |
+| E05 | 7 | 13 | bottom | | The first Chinese record of a ship’s compass, 900 years ago — used only under overcast skies. | 2.3 |
+| E06 | 6 | 18 | top | Hawaiʻi: a star compass | 1976: Micronesian navigator Mau Piailug sailed the canoe Hōkūleʻa to Tahiti without instruments. | 2.2 |
+| E07 | 8 | 20 | bottom-left | | Hawaiians later split the horizon into 32 houses. Arcturus straight overhead means Hawaiʻi, 19° N. *(in Canva: narrow left box at Y ≈ 1000–1300, clear of the Pole Star label at Y 1419 and Hōkūleʻa at the top)* | 1.9 |
 | E08 | 5 | 29 | top | Arabia: 32 star points | 15th century: navigator Ibn Mājid already had a magnetic needle on board. | 2.4 |
-| E09 | 7 | 30 | top | | But the 32 compass points still bore star names: mostly where bright stars rise or set. | 2.3 |
+| E09 | 7 | 30 | top | | But the 32 compass points still had star names — mostly where bright stars rise or set. | 2.3 |
 | E10 | 7 | 31, 32 | top | Also 32, just like Hawaiʻi | *(diagram pages: headline only; the diagram’s own line reads “Two systems, developed separately”)* | — |
-| E11 | 7 | 37 | top | Tonight: look due north | All night, the Pole Star sits about as high as your latitude. | 1.7 |
+| E11 | 7 | 37 | top | Tonight: look due north | North of the equator, the Pole Star sits about as high as your latitude all night. | 2.3 |
 | E12 | 4 | 47 | endcard | Next Wednesday | Arabic lunar stations: where the Moon stays each night. | 2.3 |
 | E13 | 3 | 48 | endcard | | Follow for a new sky every week. | 2.3 |
 
@@ -36,7 +36,7 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook (*900 years ago, the compass was only for cloudy days.*); EN · EP29 tag |
+| 1 | | 開場字卡 | 3 | Cover: text block replaced with English (the opening line only; the schedule’s hook is for the caption/thumbnail, not stacked on the 3 s cover); EN · EP29 tag |
 | 2 | | 鏡頭01開始 | 4 | E02; overview labels 夏威夷／東加／阿努塔／布吉斯・曼達爾／阿拉伯 → Hawaiʻi／Tonga／Anuta／Bugis · Mandar／Arabia |
 | 3 | | 鏡頭01結束＝鏡頭02開始 | 2 | E02; labels as page 2; then straight to 6 (pages 4–5, the “10,000 years can’t be proven” diagram, removed; 3 and 5 are the same frame) |
 | 6 | | 長圖轉北盤1-回中心 | 2 | transition |
@@ -88,17 +88,17 @@ Total 89 s (E13 included).
 
 - **Title**: Before the compass: finding the way by stars
 - **Description**:
-  900 years ago, a Chinese book records a ship’s compass for the first time — and it was used only when the sky was overcast. Long before that, the Odyssey tells Odysseus to keep the Great Bear on his left. Hawaiian navigators split the horizon into 32 star houses; the Arab navigator Ibn Mājid already had a magnetic needle, yet his 32 compass points were named for the stars.
+  900 years ago, a Chinese book recorded a ship’s compass for the first time — and it was used only when the sky was overcast. Long before that, in the Odyssey, a goddess tells Odysseus to keep the Great Bear on his left. Hawaiian navigators split the horizon into 32 star houses; the Arab navigator Ibn Mājid already had a magnetic needle, yet his 32 compass points were named for the stars.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
   Sources: Homer, Odyssey 5.270–277; Zhu Yu, Pingzhou Ketan, ch. 2 (c. 1119); Polynesian Voyaging Society (Hōkūleʻa, 1976); G. R. Tibbetts, Arab Navigation in the Indian Ocean before the Coming of the Portuguese (1971).
 
 ## Caption (Instagram / Facebook / Threads)
 
-900 years ago, the compass was only for cloudy days. 🧭
-“By night, watch the stars; by day, the sun; when it is overcast, the compass.” — the first Chinese record of a compass at sea (1119).
-Older still: the Odyssey tells Odysseus to keep the Great Bear on his left — the Bear is in the north, so he sails east.
+900 years ago, the compass was only for overcast skies. 🧭
+“By night, watch the stars; by day, the sun; when it is overcast, the compass.” — the first Chinese record of a ship’s compass (c. 1119).
+Older still: in the Odyssey, a goddess tells Odysseus to keep the Great Bear on his left — the Bear is in the north, so he sails east.
 In 1976, Mau Piailug took the canoe Hōkūleʻa to Tahiti with no instruments; Hawaiians later split the horizon into 32 star houses. And the Arab navigator Ibn Mājid had a magnetic needle, yet his 32 compass points were named for stars.
-Tonight: look due north. The Pole Star sits about as high as your latitude.
+Tonight, north of the equator: look due north. The Pole Star sits about as high as your latitude.
 Next Wednesday: Arabic lunar stations — where the Moon stays each night.
 #WorldSkyCultures #astronomy #navigation #wayfinding #Hokulea #PoleStar #skylore
 (First comment: sources — Homer, Odyssey 5.270–277; Zhu Yu, Pingzhou Ketan ch. 2; PVS; Tibbetts 1971.)
@@ -111,12 +111,34 @@ Wording to check:
 1. E01 “a map without a compass” = 統一開頭「一張不用羅盤的地圖」.
 2. E02 “From the Pacific to the Indian Ocean, sailors steered by the stars” compresses 05–09 鏡 (the tour from Hawaiʻi to the Indian Ocean); it says nothing about dates.
 3. E03 “Oldest surviving written record” = 03 鏡「現存最早寫下來的紀錄」 (the hedge “surviving” is the Chinese 現存); “2,700 years ago” = 「兩千七百年前」. The goddess’s instruction is only “keep the Bear on your left”; “sail east” is in the headline, not in her words (as the Chinese splits it into two sentences).
-4. E04/E05 “only when overcast / used only on cloudy days” = 03b 鏡「而且是陰天才用」 and 陰晦觀指南針; “the first Chinese record of a compass at sea” = 「中國書裡第一次寫到船上用指南針」 (not “the first in the world”); “900 years ago” = 2027 − 1119.
+4. E04/E05 “only when overcast / used only under overcast skies” = 03b 鏡「而且是陰天才用」 and 陰晦觀指南針; “the first Chinese record of a compass at sea” = 「中國書裡第一次寫到船上用指南針」 (not “the first in the world”); “900 years ago” = 2027 − 1119.
 5. E06 “no instruments” = 「不靠儀器」; “took the canoe Hōkūleʻa to Tahiti” = 「帶著獨木舟 Hōkūleʻa……開到大溪地」.
 6. E07 “Hawaiians later split the horizon into 32 houses” = 05 鏡「後來夏威夷人把地平線切成三十二間房子」; “Arcturus straight overhead means you’ve reached Hawaiʻi, 19° N” = 「大角星掛在正頭頂，就到了北緯十九度的夏威夷」.
 7. E08 “already had a magnetic needle on board” = 09 鏡「船上已經有了磁針」 (secondary sources; Tibbetts not checked in the original — the Chinese says so too).
 8. E09 “mostly where bright stars rise or set” keeps the Chinese 「大多是」; the Pole Star (due north) is the exception shown on the page 29 label.
 9. E10 “Also 32, just like Hawaiʻi” = 「剛好跟夏威夷一樣，也是三十二」; the diagram adds “Two systems, developed separately” (the Chinese diagram’s 兩套系統，各自發展) so the headline does not suggest one borrowed from the other.
 10. E11 is the Northern-Hemisphere version of 11 鏡 (Taipei: 25°, Taipei’s latitude) using the Chinese card C-X06-03 line 「北極星的高度≈所在的緯度」; “about” keeps the ≈ (the Pole Star is 0.62° from the pole).
-11. The cover’s second line is the new English hook (also written into the schedule), not a translation of the Chinese cover.
+11. The cover carries the opening line only. The English hook (also in the schedule; 900 years ago, the compass was only for overcast skies.) is for the caption/thumbnail, not a translation of the Chinese cover.
 12. Page sequence is the authority for timing (total 89 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review → v1)
+
+**Adopted (8 of 9 table rows; E03 partly):**
+- 🔴 E11 (+ Caption): “North of the equator, the Pole Star sits about as high as your latitude all night.” The Chinese 11 鏡 says 「在台北」; the English drops the Taipei example, so it needs the Northern-Hemisphere limit (Pole Star is invisible south of the equator). 16 w / 7 s = 2.3.
+- 🟡 E05 (+ Caption first line, YouTube already said “overcast”): “ship’s compass … — used only under overcast skies” (= 03b 鏡 「陰天才用」「陰晦觀指南針」; “cloudy days” read as daytime only). Used “overcast” (not Gemini’s “cloudy”) to match the E04 headline “only when overcast”. 16 w / 7 s = 2.3. The schedule’s hook cell was changed the same way.
+- 🟡 E01 / cover: one line only. Chose the series’ opening line, not the hook, with “Sailors” (= 航海的人, same word as E02); the hook goes to caption/thumbnail (Page sequence note and Cuts #11 updated).
+- 🟡 E07: “Arcturus straight overhead means Hawaiʻi, 19° N.” (15 w / 8 s = 1.9; 98 chars so the narrow left box holds 3 lines).
+- 🟡 E06: “sailed the canoe Hōkūleʻa to Tahiti without instruments” (13 w / 6 s = 2.2).
+- 🟡 E09: “still had star names — mostly where…” (16 w / 7 s = 2.3).
+- ⚪ E03: dropped the second colon only (“A goddess says to keep the Great Bear on your left.”, 20 w / 8 s = 2.5, still 3 lines).
+- ⚪ YouTube “recorded” (tense) + “in the Odyssey, a goddess tells Odysseus…” (03 鏡 女神交代); Caption “(c. 1119)” (考據備忘「約成於 1119 年」).
+
+**Not adopted:**
+- ⚪ E03 “Oldest surviving text”: Gemini changed “written record” to “text”, which reads as the oldest text of any kind. The Chinese 「現存最早寫下來的紀錄」 is about star navigation, so “written record” stays.
+- 🟡 Cover hook “…only Plan B.” / “…only for overcast skies.” as the cover line: “Plan B” is not in the Chinese, and the opening line is the series frame.
+
+**Open points (no change here):**
+- Pages 10–11 timeline diagram (no caption): the English PNG was not checked; confirm on the Canva pass that it carries its own short label, as the Chinese 02 鏡 narration is gone.
+- E03 “sail east” inference: the caption explains it (“the Bear is in the north, so he sails east”); on Page 9 check that N / E show on the disc.
+
+All w/s ≤ 2.5; lines ≤ 40 letters and ≤ 3 lines checked by gen_en_pages.py.

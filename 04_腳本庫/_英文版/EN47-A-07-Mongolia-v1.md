@@ -1,4 +1,4 @@
-# EN47 ｜ Mongolia: The Whole Sky Tied to a Golden Stake ・ v0 (awaiting Gemini review)
+# EN47 ｜ Mongolia: The Whole Sky Tied to a Golden Stake ・ v1 (Gemini review merged)
 
 | Item | Content |
 |---|---|
@@ -17,15 +17,15 @@
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
 | E01 | 3 | 1 | cover | World Sky Cultures | One sky. Mongolians saw — seven old men. | — |
-| E02 | 7 | 2, 3 | bottom | The Big Dipper | In Mongolian it is Doloon övgön: the Seven Old Men. | 1.4 |
-| E03 | 8 | 4, 5 | bottom | | More often, Doloon Burkhan: the Seven Buddhas. Some still offer it a little milk, morning and evening. | 2.1 |
+| E02 | 7 | 2, 3 | bottom | The Big Dipper | In Mongolian it is Doloon Övgön: the Seven Old Men. | 1.4 |
+| E03 | 8 | 4, 5 | bottom | | More often, Doloon Burkhan: the Seven Buddhas. Some still sprinkle a little milk in offering, morning and evening. | 2.3 |
 | E04 | 5 | 6 | bottom-right | A legend | Eight orphan brothers saved a queen from a monster. | 1.8 |
 | E05 | 8 | 7 | bottom-right | | The king threw a golden arrow into the sky. The youngest caught it. | 1.6 |
 | E06 | 7 | 8 | bottom-right | | He became the Pole Star. His seven brothers, the Dipper, visit him nightly. | 1.9 |
 | E07 | 7 | 9 | bottom-right | Altan Gadas, the Golden Stake | A gadas is a wooden post driven into the steppe to tether animals. | 1.9 |
-| E08 | 8 | 32 | bottom | Look north this April | After dark, the Dipper rides high in the northeast. Stretch its two end stars over five times: the stake. | 2.4 |
+| E08 | 8 | 32 | bottom | Northern sky, this April | The Dipper rides high in the northeast. Extend the bowl’s two outer stars over five times to the stake. | 2.4 |
 | E09 | 7 | 33 | bottom | The whole sky turns | The seven brothers circle the stake all night, like horses tied to a post. | 2.0 |
-| E10 | 7 | 34 | top | | In Ulaanbaatar the stake stands 48° high. The Dipper never sets: all seven brothers, every night. | 2.3 |
+| E10 | 7 | 34 | top | | In Ulaanbaatar, the stake stands 48° high. The Dipper never sets: all seven brothers, every night. | 2.3 |
 | E11 | 7 | 36 | top | | In a world on the move, they tied the whole sky to one fixed stake. | 2.1 |
 | E12 | 3 | 37 | endcard | Next Wednesday | Arc to Arcturus: spring star-hopping. | 1.7 |
 | E13 | 3 | 38 | endcard | | Follow for a new sky every week. | 2.3 |
@@ -36,7 +36,7 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP47 tag |
+| 1 | | 開場字卡 | 3 | Cover: text block replaced with English (the opening line only; the schedule’s hook goes to the caption/thumbnail); EN · EP47 tag |
 | 2 | | 鏡頭01開始 | 3 | E02 |
 | 3 | | 鏡頭01結束 | 4 | E02; the seven lines light up |
 | 4 | | 鏡頭02開始 | 3 | E03; labels 天樞／天璇／天璣／天權／玉衡／開陽／輔／搖光 → Dubhe／Merak／Phecda／Megrez／Alioth／Mizar／Alcor／Alkaid; 七尊佛 → Seven Buddhas; 七位老人 → Seven Old Men (under the Cyrillic) |
@@ -59,7 +59,7 @@ Total 80 s (E13 included).
 | Chinese script | English used | Notes |
 |---|---|---|
 | 北斗七星 | the Big Dipper | |
-| Долоон өвгөн（七位老人） | Doloon övgön: the Seven Old Men | as `英文譯名表.csv`; the Cyrillic stays on the chart label |
+| Долоон өвгөн（七位老人） | Doloon Övgön: the Seven Old Men | capital Ö to match Doloon Burkhan / Altan Gadas and the Chinese first comment (`英文譯名表.csv` still has lower-case övgön); the Cyrillic stays on the chart label |
 | Долоон бурхан（七尊佛） | Doloon Burkhan: the Seven Buddhas | Stellarium pronounce “Doloon Burkhan”; бурхан is also “god” (the Chinese first comment adds it; on screen only “Buddhas”, as the Chinese 02 鏡) |
 | 八個孤兒兄弟 | eight orphan brothers | |
 | 金箭 | a golden arrow | |
@@ -76,32 +76,47 @@ Total 80 s (E13 included).
 - **Description**:
   In Mongolia the Big Dipper is seven old men, or the Seven Buddhas. A legend says eight orphan brothers saved a queen; the king threw a golden arrow into the sky, and the youngest brother caught it and became the Pole Star: Altan Gadas, the Golden Stake, the post that tethers animals on the steppe. His seven brothers circle him every night.
   World Sky Cultures: the same sky, seen by different peoples. From the NTNU Astronomy Club, Taiwan. New episode every Wednesday.
-  Sources: Stellarium sky culture “mongolian” (description and star names); Mongolian dictionary mongoltoli.mn (гадас); Elverskog 2006, JIABS 29.1.
+  Sources: Stellarium sky culture “mongolian” (description and star names); Mongolian dictionary mongoltoli.mn (гадас).
 
 ## Caption (Instagram / Facebook / Threads)
 
 Mongolia tied the whole sky to one golden stake. 🐎
-The Big Dipper is Doloon övgön, the Seven Old Men, or more often Doloon Burkhan, the Seven Buddhas. Some still offer it a little milk, morning and evening.
+The Big Dipper is Doloon Övgön, the Seven Old Men, or more often Doloon Burkhan, the Seven Buddhas. Some still sprinkle a little milk in offering, morning and evening.
 A legend: eight orphan brothers saved a queen from a monster. The king threw a golden arrow into the sky; the youngest caught it and became the Pole Star, Altan Gadas, the Golden Stake. A gadas is the post that tethers animals on the steppe. His seven brothers come to visit every night, circling him like horses tied to a post.
-Look north this April after dark: the Dipper rides high in the northeast. Stretch its two end stars a little over five times and you reach the stake.
+Look north this April after dark (northern sky): the Dipper rides high in the northeast. Extend the bowl’s two outer stars a little over five times and you reach the stake.
 Next Wednesday: Arc to Arcturus — spring star-hopping.
 #WorldSkyCultures #astronomy #BigDipper #PoleStar #Mongolia #skylore #stargazing
-(First comment: sources — Stellarium “mongolian”; mongoltoli.mn; Elverskog 2006, JIABS 29.1.)
+(First comment: sources — Stellarium “mongolian”; mongoltoli.mn.)
 
 ## Cuts and changes (for the reviewer)
 
 Dropped from the Chinese version (all still in the Chinese episode): the “last Friday, the 28 lunar mansions” bridge; the twelve zodiac birth stars and their two versions (Stellarium’s cycling order vs the Mongolian *Seven Stars Sutra* returning order, 2026/2027) and diagram C-A07-01; Taiwan’s temple birth-star table, the Daoist and Buddhist Dipper sutras and their spread to Japan, Korea, Tibet and Mongolia; the Ursa Major moving group (distances, “not one family”, 50,000 years) and diagram C-A07-02; the cross-cultural names (Siberian moose, Inuit caribou, Arabian bier, Norse wagon, Blackfoot and Sardinian seven brothers); the Milky Way as the sky’s seam (Тэнгэрийн заадас); Stellarium’s bow and arrow (Нум сум) and its misplaced Three Stags, with the correction (Гурван марал = Orion’s Belt) and the hunter legend; the Taipei sky on 2 Oct (stake 25° up, bowl setting in the northwest after 8 p.m.); the next-Friday Siberia teaser (replaced by next Wednesday’s English episode). No concept diagram is used, so no English diagram is needed for this episode.
 
 Wording to check:
-1. E02 “Doloon övgön: the Seven Old Men”; E03 “More often, Doloon Burkhan: the Seven Buddhas” = 02 鏡「蒙古人叫它 Долоон өвгөн，七位老人；更常叫的名字是 Долоон бурхан——七尊佛」.
-2. E03 “Some still offer it a little milk, morning and evening” = 「直到今天，還有人早晚灑一點奶敬它」 (the Chinese 考據 五: not “every household”, not “the first milk”). “offer” rather than “sprinkle” to keep the line short; the Chinese 灑 = sprinkle.
+1. E02 “Doloon Övgön: the Seven Old Men”; E03 “More often, Doloon Burkhan: the Seven Buddhas” = 02 鏡「蒙古人叫它 Долоон өвгөн，七位老人；更常叫的名字是 Долоон бурхан——七尊佛」.
+2. E03 “Some still sprinkle a little milk in offering, morning and evening” = 「直到今天，還有人早晚灑一點奶敬它」 (the Chinese 考據 五: not “every household”, not “the first milk”). “sprinkle … in offering” = 灑 + 敬 (v1; v0 had “offer”).
 3. E04–E06 = 03 鏡 (the main line only, as the Chinese). “whoever caught it, it was theirs” (誰接到，就歸誰) and “older” (七個哥哥 → “his seven brothers”) are dropped so each narrow box stays within 3 lines (~27 letters each); “visit him nightly” = 「每天晚上都來看他」.
 4. E07 “A gadas is a wooden post driven into the steppe to tether animals” = 04 鏡「гадас 是打進草原土裡、拴牲口的木樁」. Spelling Altan Gadas (not Stellarium’s Hadaas), as the Chinese 考據 一.
 5. E08 “over five times” = 04 鏡「拉長五倍多」 (28.7° ÷ 5.37° = 5.3). “its two end stars” = 勺口這兩顆星 (Merak → Dubhe).
-6. E08 “Look north this April … high in the northeast” is the Northern-Hemisphere tip replacing the Taipei 2 Oct tip; it is not in the Chinese script. Checked for 11 Apr, 21:00 local time at 40° N: Dubhe ~67° up a little east of north, Alkaid ~53° up in the northeast; the whole Dipper is above the horizon all night at 35–50° N. Matches the schedule note 「晚上 8 點北斗高掛東北」.
+6. E08 “Northern sky, this April … high in the northeast” is the Northern-Hemisphere tip replacing the Taipei 2 Oct tip; it is not in the Chinese script. Checked for 11 Apr, 21:00 local time at 40° N: Dubhe ~67° up a little east of north, Alkaid ~53° up in the northeast; the whole Dipper is above the horizon all night at 35–50° N. Matches the schedule note 「晚上 8 點北斗高掛東北」.
 7. E09 headline “The whole sky turns” = 14 鏡「整片天空繞著金樁轉」; text “circle the stake all night, like horses tied to a post” = 「七個哥哥也繞著它，像被拴住的馬，繞著樁子走了一整夜」.
 8. E10 “48° high” = 15 鏡「金樁掛在四十八度高」 (Ulaanbaatar 47.9° N); “The Dipper never sets: all seven brothers, every night” = 「北斗整夜不落，七兄弟天天到齊」.
 9. E11 = 16 鏡「在一個會搬家的世界裡，他們把整片天空，拴在一根不動的樁上」.
 10. Page 36: the Chinese page puts the mountain at Taipei’s horizon; the English keeps Ulaanbaatar’s, so the sky shown matches E10–E11.
-11. The cover’s second line is the schedule’s hook (written for this v0: *Mongolia tied the whole sky to one golden stake.*), not a translation of the Chinese cover’s second line.
+11. The cover carries the opening line only. The schedule’s hook (*Mongolia tied the whole sky to one golden stake.*) is for the caption/thumbnail, not a translation of the Chinese cover.
 12. Page sequence is the authority for timing (total 80 s). The Sec column in Beats is not additive.
+
+## 審稿合併 (Gemini review → v1)
+
+**Adopted (5 of 7 table rows in full, 2 in a modified form):**
+- 🔴 E08 (+ Caption): the pointer instruction was ambiguous (“its two end stars” could be the Dipper’s two ends). Chinese 04 鏡 says 「勺口這兩顆星的距離拉長五倍多」, so v1: “Extend the bowl’s two outer stars over five times to the stake.” (Gemini’s wording plus “two”; Caption keeps “a little over five times”). To stay ≤ 2.5 w/s, “After dark,” left the body (21 words would be 2.6) and the headline became “Northern sky, this April”: 19 w / 8 s = 2.4. This also covers the 🟡 hemisphere remark (the tip is v0’s own adaptation; Cuts #6).
+- 🔴 E01 / Page 1: cover = opening line only (“One sky. Mongolians saw — seven old men.” = 統一開頭); Page sequence note and Cuts #11 now say the hook goes to caption/thumbnail, so the three places agree.
+- 🟡 E02: “Doloon Övgön” (capital Ö); glossary and caption changed too. `英文譯名表.csv` is not touched here (still lower case), flagged for the series owner.
+- 🟡 E03: “Some still sprinkle a little milk in offering, morning and evening.” (= 灑一點奶敬它; kept “a little”; 18 w / 8 s = 2.3; Cuts #2 updated).
+- 🟡 Sources: removed Elverskog 2006, JIABS 29.1 from the YouTube description and the first comment (it only supported the twelve zodiac stars and the Dipper sutra, which EN47 cut).
+- ⚪ E10: comma after “In Ulaanbaatar”.
+
+**Not adopted:**
+- 🔴 E01 new cover line “Mongolia tied the whole sky to one golden stake.” / “One golden stake holds up…”: the series’ cover is the opening line from the Chinese 統一開頭; the stake hook belongs to the schedule/caption. Kept “seven old men”.
+
+All w/s ≤ 2.5; lines ≤ 40 letters and ≤ 3 lines checked by gen_en_pages.py.
