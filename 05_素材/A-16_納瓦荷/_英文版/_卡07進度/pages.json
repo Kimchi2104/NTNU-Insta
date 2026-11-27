@@ -1,0 +1,355 @@
+[
+ {
+  "page": 2,
+  "page_id": "PB0YZZL5bLnzBwGV",
+  "cn_name": "鏡頭01開始",
+  "sec": "4",
+  "headline": "",
+  "subtitle": "Navajo elders say sky stories are told\nonly in winter — from first frost to\nfirst thunder.",
+  "pos": "bottom",
+  "notes": "EN09 p2 鏡頭01開始 — 4 s — Navajo elders say sky stories are told only in winter — from first frost to first thunder.",
+  "concept_layers": [],
+  "label_changes": [],
+  "next_in_csv": "E02"
+ },
+ {
+  "page": 3,
+  "page_id": "PBmmq3rljkWXttNG",
+  "cn_name": "鏡頭01結束＝鏡頭02開始",
+  "sec": "4",
+  "headline": "",
+  "subtitle": "Navajo elders say sky stories are told\nonly in winter — from first frost to\nfirst thunder.",
+  "pos": "bottom",
+  "notes": "EN09 p3 鏡頭01結束＝鏡頭02開始 — 4 s — Navajo elders say sky stories are told only in winter — from first frost to first thunder.",
+  "concept_layers": [],
+  "label_changes": [],
+  "next_in_csv": "E02; then straight to 8 (pages 4–7, the Chinese winter-calendar diagram and the \"save it for winter\" shot, removed)"
+ },
+ {
+  "page": 8,
+  "page_id": "PBQCc9m6lghCJL3w",
+  "cn_name": "鏡頭04-中1",
+  "sec": "3",
+  "headline": "One of many versions",
+  "subtitle": "Each family and ceremony has its own\nversion. This is one published telling.",
+  "pos": "bottom",
+  "notes": "EN09 p8 鏡頭04-中1 — 3 s — One of many versions / Each family and ceremony has its own version. This is one published telling. (corner note: Childrey 2004, Nightway tradition)",
+  "concept_layers": [],
+  "label_changes": [],
+  "next_in_csv": "E03; the Chinese corner note 「Childrey 2004，依 Nightway 傳統」 → *Childrey 2004, Nightway tradition*"
+ },
+ {
+  "page": 9,
+  "page_id": "PBWxy4GClyYvQmPD",
+  "cn_name": "鏡頭04結束＝鏡頭05開始",
+  "sec": "4",
+  "headline": "One of many versions",
+  "subtitle": "Each family and ceremony has its own\nversion. This is one published telling.",
+  "pos": "bottom",
+  "notes": "EN09 p9 鏡頭04結束＝鏡頭05開始 — 4 s — One of many versions / Each family and ceremony has its own version. This is one published telling.",
+  "concept_layers": [],
+  "label_changes": [],
+  "next_in_csv": "E03"
+ },
+ {
+  "page": 10,
+  "page_id": "PBwLXVRvh81KnCmr",
+  "cn_name": "鏡頭05-概念圖1",
+  "sec": "3",
+  "headline": "Long ago, in the first hooghan",
+  "subtitle": "",
+  "pos": "top",
+  "notes": "EN09 p10 鏡頭05-概念圖1 — 3 s — Long ago, in the first hooghan",
+  "concept_layers": [
+   {
+    "name": "hooghan",
+    "asset_id": "MAHcI4K3Yfw"
+   }
+  ],
+  "label_changes": [],
+  "next_in_csv": "diagram, English (`_概念圖/en/C-A16-02_黑神的晶石_hooghan層_透明.png`); E04 headline only"
+ },
+ {
+  "page": 11,
+  "page_id": "PB8f2NKxkWGNrY8Z",
+  "cn_name": "鏡頭05-概念圖2",
+  "sec": "2",
+  "headline": "Black God stamped. Crystals leapt upward.",
+  "subtitle": "",
+  "pos": "top",
+  "notes": "EN09 p11 鏡頭05-概念圖2 — 2 s — Black God stamped. Crystals leapt upward.",
+  "concept_layers": [
+   {
+    "name": "hooghan",
+    "asset_id": "MAHcI4K3Yfw"
+   },
+   {
+    "name": "ankle",
+    "asset_id": "MAHcI20-SxI"
+   }
+  ],
+  "label_changes": [],
+  "next_in_csv": "+ ankle layer (English, `…_腳踝層_透明.png`); E05 headline only; then straight to 14 (pages 12–13, knee and hip, removed)"
+ },
+ {
+  "page": 14,
+  "page_id": "PB65G7WVZD7frhkM",
+  "cn_name": "鏡頭05-概念圖5",
+  "sec": "2",
+  "headline": "Black God stamped. Crystals leapt upward.",
+  "subtitle": "",
+  "pos": "top",
+  "notes": "EN09 p14 鏡頭05-概念圖5 — 2 s — Black God stamped. Crystals leapt upward.",
+  "concept_layers": [
+   {
+    "name": "hooghan",
+    "asset_id": "MAHcI4K3Yfw"
+   },
+   {
+    "name": "ankle",
+    "asset_id": "MAHcI20-SxI"
+   },
+   {
+    "name": "knee",
+    "asset_id": "MAHcIz5D3PE"
+   },
+   {
+    "name": "hip",
+    "asset_id": "MAHcI4Ov6bk"
+   },
+   {
+    "name": "shoulder",
+    "asset_id": "MAHcIxqMgWo"
+   }
+  ],
+  "label_changes": [],
+  "next_in_csv": "+ knee, hip, shoulder layers (`…_膝層／腰層／肩層_透明.png`, all English); E05 headline only"
+ },
+ {
+  "page": 15,
+  "page_id": "PBmXYrP1vxFlrBrV",
+  "cn_name": "鏡頭05-概念圖6",
+  "sec": "4",
+  "headline": "“They are called stars.”",
+  "subtitle": "",
+  "pos": "top",
+  "notes": "EN09 p15 鏡頭05-概念圖6 — 4 s — “They are called stars.”",
+  "concept_layers": [
+   {
+    "name": "hooghan",
+    "asset_id": "MAHcI4K3Yfw"
+   },
+   {
+    "name": "ankle",
+    "asset_id": "MAHcI20-SxI"
+   },
+   {
+    "name": "knee",
+    "asset_id": "MAHcIz5D3PE"
+   },
+   {
+    "name": "hip",
+    "asset_id": "MAHcI4Ov6bk"
+   },
+   {
+    "name": "shoulder",
+    "asset_id": "MAHcIxqMgWo"
+   },
+   {
+    "name": "temple",
+    "asset_id": "MAHcI1aiGpI"
+   }
+  ],
+  "label_changes": [],
+  "next_in_csv": "+ temple layer (`…_太陽穴層_透明.png`, English, carries “They are called stars”); E06 headline only"
+ },
+ {
+  "page": 16,
+  "page_id": "PBCtYM25CJRKzcxB",
+  "cn_name": "鏡頭05-概念圖收＝鏡頭06開始",
+  "sec": "3",
+  "headline": "",
+  "subtitle": "",
+  "pos": "",
+  "notes": "EN09 p16 鏡頭05-概念圖收＝鏡頭06開始 — 3 s — ",
+  "concept_layers": [],
+  "label_changes": [],
+  "next_in_csv": "diagram fades; no text; then the sky moves straight to 28 (pages 17–27, the north disc — North Fire, the Revolving Male and Female, the hooghan overlay — removed)"
+ },
+ {
+  "page": 28,
+  "page_id": "PBWRcl1RM5bG0chc",
+  "cn_name": "北盤轉長圖1-下移＝鏡頭10開始",
+  "sec": "5",
+  "headline": "Setting the sky in order",
+  "subtitle": "From a fawnskin pouch, he placed them.\nIn the west: the First Slim One (Orion).",
+  "pos": "bottom",
+  "notes": "EN09 p28 北盤轉長圖1-下移＝鏡頭10開始 — 5 s — Setting the sky in order / From a fawnskin pouch, he placed them. In the west: the First Slim One (Orion).",
+  "concept_layers": [],
+  "label_changes": [
+   "第一個瘦長的人（獵戶） → the First Slim One (Orion)"
+  ],
+  "next_in_csv": "E07; label 第一個瘦長的人（獵戶） → the First Slim One (Orion) (ʼÁtséʼetsʼózí stays)"
+ },
+ {
+  "page": 29,
+  "page_id": "PB06r5Z1SV1tC7Y5",
+  "cn_name": "鏡頭10結束＝鏡頭11開始",
+  "sec": "3",
+  "headline": "Setting the sky in order",
+  "subtitle": "From a fawnskin pouch, he placed them.\nIn the west: the First Slim One (Orion).",
+  "pos": "bottom",
+  "notes": "EN09 p29 鏡頭10結束＝鏡頭11開始 — 3 s — Setting the sky in order / From a fawnskin pouch, he placed them. In the west: the First Slim One (Orion).",
+  "concept_layers": [],
+  "label_changes": [
+   "第一個瘦長的人（獵戶） → the First Slim One (Orion)"
+  ],
+  "next_in_csv": "E07; label as page 28; then straight to 35 (pages 30–34, the First Big One and the planting diagram, removed)"
+ },
+ {
+  "page": 35,
+  "page_id": "PB3YS84s8tP1pg1T",
+  "cn_name": "鏡頭12結束",
+  "sec": "6",
+  "headline": "",
+  "subtitle": "Next, seven small stars like those at\nhis temple: Dilyéhé, the Pleiades.",
+  "pos": "bottom",
+  "notes": "EN09 p35 鏡頭12結束 — 6 s — Next, seven small stars like those at his temple: Dilyéhé, the Pleiades.",
+  "concept_layers": [],
+  "label_changes": [
+   "昴宿 → the Pleiades"
+  ],
+  "next_in_csv": "E08; label 昴宿 → the Pleiades (Dilyéhé stays); then straight to 39 (pages 36–38, the Chinese ceremony-calendar diagram, removed)"
+ },
+ {
+  "page": 39,
+  "page_id": "PBXBL1p27nk2jWQS",
+  "cn_name": "鏡頭13結束＝鏡頭14開始",
+  "sec": "6",
+  "headline": "Yikáísdáhí: Awaiting the Dawn",
+  "subtitle": "Last, he swept a fistful of fine\ncrystals across the sky: the Milky Way.",
+  "pos": "bottom",
+  "notes": "EN09 p39 鏡頭13結束＝鏡頭14開始 — 6 s — Yikáísdáhí: Awaiting the Dawn / Last, he swept a fistful of fine crystals across the sky: the Milky Way.",
+  "concept_layers": [],
+  "label_changes": [
+   "等待黎明的（銀河） → Awaiting the Dawn (Milky Way)"
+  ],
+  "next_in_csv": "E09; label 等待黎明的（銀河） → Awaiting the Dawn (Milky Way) (Yikáísdáhí stays)"
+ },
+ {
+  "page": 40,
+  "page_id": "PB2ljmh0ZgcDpBFx",
+  "cn_name": "鏡頭14-概念圖1",
+  "sec": "3",
+  "headline": "Coyote: “Why didn’t you ask me?”",
+  "subtitle": "",
+  "pos": "top",
+  "notes": "EN09 p40 鏡頭14-概念圖1 — 3 s — Coyote: “Why didn’t you ask me?”",
+  "concept_layers": [
+   {
+    "name": "coyote",
+    "asset_id": "MAHcI1XoKYg"
+   }
+  ],
+  "label_changes": [],
+  "next_in_csv": "Coyote diagram, English (`_概念圖/en/C-A16-03_郊狼吹散星星_郊狼層_透明.png`); E10 headline only"
+ },
+ {
+  "page": 41,
+  "page_id": "PBsmzky7MWrNY5vh",
+  "cn_name": "鏡頭14-概念圖2",
+  "sec": "3",
+  "headline": "He blew the rest skyward",
+  "subtitle": "",
+  "pos": "top",
+  "notes": "EN09 p41 鏡頭14-概念圖2 — 3 s — He blew the rest skyward",
+  "concept_layers": [
+   {
+    "name": "coyote",
+    "asset_id": "MAHcI1XoKYg"
+   },
+   {
+    "name": "blow",
+    "asset_id": "MAHcI6yXITM"
+   }
+  ],
+  "label_changes": [],
+  "next_in_csv": "+ blow layer (`…_吹散層_透明.png`, English “Whoosh—”); E11 headline only"
+ },
+ {
+  "page": 42,
+  "page_id": "PBVxdZbwdkh72fDS",
+  "cn_name": "鏡頭14-概念圖收＝鏡頭15開始",
+  "sec": "7",
+  "headline": "",
+  "subtitle": "So most stars have no names — a jumble.\nCoyote laughed: “But the sky got\nprettier!”",
+  "pos": "bottom",
+  "notes": "EN09 p42 鏡頭14-概念圖收＝鏡頭15開始 — 7 s — So most stars have no names — a jumble. Coyote laughed: “But the sky got prettier!”",
+  "concept_layers": [],
+  "label_changes": [
+   "第一個瘦長的人（獵戶） → the First Slim One (Orion)",
+   "昴宿 → the Pleiades"
+  ],
+  "next_in_csv": "diagram fades; E12; labels 第一個瘦長的人（獵戶）／昴宿 → the First Slim One (Orion)／the Pleiades; then straight to 46 (pages 43–45, the order-and-chaos diagram, removed)"
+ },
+ {
+  "page": 46,
+  "page_id": "PBrKtHbDhnnNQpgD",
+  "cn_name": "鏡頭16開始",
+  "sec": "3",
+  "headline": "The Coyote Star",
+  "subtitle": "One crystal left. Coyote set it far\nsouth: “This is my star.” Many think\nit’s Canopus.",
+  "pos": "bottom",
+  "notes": "EN09 p46 鏡頭16開始 — 3 s — The Coyote Star / One crystal left. Coyote set it far south: “This is my star.” Many think it’s Canopus.",
+  "concept_layers": [],
+  "label_changes": [],
+  "next_in_csv": "E13"
+ },
+ {
+  "page": 47,
+  "page_id": "PBq6kzfGdH6S1Ymm",
+  "cn_name": "鏡頭16結束",
+  "sec": "5",
+  "headline": "The Coyote Star",
+  "subtitle": "One crystal left. Coyote set it far\nsouth: “This is my star.” Many think\nit’s Canopus.",
+  "pos": "bottom",
+  "notes": "EN09 p47 鏡頭16結束 — 5 s — The Coyote Star / One crystal left. Coyote set it far south: “This is my star.” Many think it’s Canopus.",
+  "concept_layers": [],
+  "label_changes": [
+   "郊狼的星（老人星？） → the Coyote Star (Canopus?)"
+  ],
+  "next_in_csv": "E13; label 郊狼的星（老人星？） → the Coyote Star (Canopus?) (Mąʼii bizǫ stays); then the sky moves straight to 52 (pages 48–51, the Window Rock / Taipei altitude diagram, removed)"
+ },
+ {
+  "page": 52,
+  "page_id": "PBQVTPS2t8bJGyCv",
+  "cn_name": "鏡頭17結束",
+  "sec": "6",
+  "headline": "Order and chaos",
+  "subtitle": "Black God’s order, Coyote’s chaos — the\nNavajo say the world holds both in\nbalance.",
+  "pos": "bottom",
+  "notes": "EN09 p52 鏡頭17結束 — 6 s — Order and chaos / Black God’s order, Coyote’s chaos — the Navajo say the world holds both in balance.",
+  "concept_layers": [],
+  "label_changes": [
+   "第一個瘦長的人（獵戶） → the First Slim One (Orion)",
+   "昴宿 → the Pleiades (same as p42)"
+  ],
+  "next_in_csv": "E14; labels as page 42"
+ },
+ {
+  "page": 61,
+  "page_id": "PBwJcV1drQwlySj5",
+  "cn_name": "鏡頭19開始",
+  "sec": "6",
+  "headline": "Look south on winter nights",
+  "subtitle": "Low below Sirius hides Canopus — under\n2° high in Navajo country.",
+  "pos": "bottom",
+  "notes": "EN09 p61 鏡頭19開始 — 6 s — Look south on winter nights / Low below Sirius hides Canopus — under 2° high in Navajo country.",
+  "concept_layers": [],
+  "label_changes": [
+   "天狼星 → Sirius",
+   "郊狼的星（老人星？） → the Coyote Star (Canopus?)"
+  ],
+  "next_in_csv": "E15 (pages 53–60, the Taipei 11 p.m. north disc, removed; Match & Move from 52 on the same wide chart); labels 天狼星 → Sirius, 郊狼的星（老人星？） → the Coyote Star (Canopus?); then straight to 64 (page 62, the Chinese \"tonight 11 p.m.\" card, and 63 removed)"
+ }
+]

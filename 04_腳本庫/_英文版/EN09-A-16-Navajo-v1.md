@@ -4,9 +4,9 @@
 |---|---|
 | Source | Chinese A-16 v2 (`A-16-納瓦荷只在冬天說的星星故事-逐字稿-v2.md`, fact-checked). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-01-13 (Wed) 21:00 Taiwan time**: EN09 in `06_發布月曆/節目表_萬國星空_英文版.csv` (must go out in winter: first frost to first thunder) |
-| Length | **88 s**, 17 beats, ~159 words on screen (no voice-over; text over light music) |
+| Length | **90 s**, 17 beats, ~159 words on screen (no voice-over; text over light music) |
 | Story | One story only: **how the stars were made**, in one published version (Childrey 2004). Black God’s crystals jump from ankle to temple — "they are called stars"; he sets out the First Slim One (Orion), Dilyéhé (the Pleiades) and the Milky Way; Coyote grabs the pouch and blows the rest across the sky; the last one may be Canopus; order and chaos in balance |
-| Canva | Not made yet. Copy of the Chinese design `A-16 納瓦荷` (card 04 has not built it yet), to be named `EN09 A-16 納瓦荷` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 64 = next-episode card, 65 = follow page). |
+| Canva | `EN09 A-16 納瓦荷` (DAHZrbWhzdk), a copy of the Chinese design `A-16 納瓦荷` (DAHWtDtKBN4). **Placed 2026-11-27**: English layers, headlines and subtitles on 20 content pages, cover, next-episode and follow pages; they now sit in order as Canva pages 1–23 (the “Now” column below), page 24 = 鳴謝/製作團隊 (kept), pages 25–66 = unused — delete them in grid view. Page numbers elsewhere in this file are the original numbers (= Chinese 製作表 page + 1; 64 = next-episode card, 65 = follow page, 66 = credits). The speaker notes carry the original numbers (`EN09 p{original page} …`). Cover = English title + hook from the schedule (no fill-in line); next-episode card = EN41. |
 | Opening line | *One sky. The Navajo saw — stars scattered by Coyote.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.3 on E08/E09/E13/E14/E16/E17; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -16,7 +16,7 @@
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
-| E01 | 3 | 1 | cover | World Sky Cultures | One sky. The Navajo saw — stars scattered by Coyote. | — |
+| E01 | 3 | 1 | cover | World Sky Cultures | Navajo: Star Stories Told Only in Winter. Coyote scattered the stars — and this story is told only in winter. | — |
 | E02 | 8 | 2, 3 | bottom | | Navajo elders say sky stories are told only in winter — from first frost to first thunder. | 2.0 |
 | E03 | 7 | 8, 9 | bottom | One of many versions | Each family and ceremony has its own version. This is one published telling. | 1.9 |
 | E04 | 3 | 10 | top | Long ago, in the first hooghan | *(diagram only: hooghan (earth lodge), Mother Earth, Father Sky; caption to say the night sky was still dark)* | — |
@@ -31,7 +31,7 @@
 | E13 | 8 | 46, 47 | bottom | The Coyote Star | One crystal left. Coyote set it far south: “This is my star.” Many think it’s Canopus. | 2.0 |
 | E14 | 6 | 52 | bottom | Order and chaos | Black God’s order, Coyote’s chaos — the Navajo say the world holds both in balance. | 2.3 |
 | E15 | 6 | 61 | bottom | Look south on winter nights | Low below Sirius hides Canopus — under 2° high in Navajo country. | 1.8 |
-| E16 | 3 | 64 | endcard | Next Wednesday | Blackfoot: the lost children in the sky. | 2.3 |
+| E16 | 5 | 64 | endcard | This Sunday | Japan: A Whole Sky of Farm Tools. In Japan, Orion’s Belt is a plough. | 2.6 |
 | E17 | 3 | 65 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -40,31 +40,31 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English (one line, E01); EN · EP09 tag |
-| 2 | | 鏡頭01開始 | 4 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 4 | E02; then straight to 8 (pages 4–7, the Chinese winter-calendar diagram and the "save it for winter" shot, removed) |
-| 8 | | 鏡頭04-中1 | 3 | E03; the Chinese corner note 「Childrey 2004，依 Nightway 傳統」 → *Childrey 2004, Nightway tradition* |
-| 9 | | 鏡頭04結束＝鏡頭05開始 | 4 | E03 |
-| 10 | | 鏡頭05-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A16-02_黑神的晶石_hooghan層_透明.png`); E04 headline only |
-| 11 | | 鏡頭05-概念圖2 | 2 | + ankle layer (English, `…_腳踝層_透明.png`); E05 headline only; then straight to 14 (pages 12–13, knee and hip, removed) |
-| 14 | | 鏡頭05-概念圖5 | 2 | + knee, hip, shoulder layers (`…_膝層／腰層／肩層_透明.png`, all English); E05 headline only |
-| 15 | | 鏡頭05-概念圖6 | 4 | + temple layer (`…_太陽穴層_透明.png`, English, carries “They are called stars”); E06 headline only |
-| 16 | | 鏡頭05-概念圖收＝鏡頭06開始 | 3 | diagram fades; no text; then the sky moves straight to 28 (pages 17–27, the north disc — North Fire, the Revolving Male and Female, the hooghan overlay — removed) |
-| 28 | | 北盤轉長圖1-下移＝鏡頭10開始 | 5 | E07; label 第一個瘦長的人（獵戶） → the First Slim One (Orion) (ʼÁtséʼetsʼózí stays) |
-| 29 | | 鏡頭10結束＝鏡頭11開始 | 3 | E07; label as page 28; then straight to 35 (pages 30–34, the First Big One and the planting diagram, removed) |
-| 35 | | 鏡頭12結束 | 6 | E08; label 昴宿 → the Pleiades (Dilyéhé stays); then straight to 39 (pages 36–38, the Chinese ceremony-calendar diagram, removed) |
-| 39 | | 鏡頭13結束＝鏡頭14開始 | 6 | E09; label 等待黎明的（銀河） → Awaiting the Dawn (Milky Way) (Yikáísdáhí stays) |
-| 40 | | 鏡頭14-概念圖1 | 3 | Coyote diagram, English (`_概念圖/en/C-A16-03_郊狼吹散星星_郊狼層_透明.png`); E10 headline only |
-| 41 | | 鏡頭14-概念圖2 | 3 | + blow layer (`…_吹散層_透明.png`, English “Whoosh—”); E11 headline only |
-| 42 | | 鏡頭14-概念圖收＝鏡頭15開始 | 7 | diagram fades; E12; labels 第一個瘦長的人（獵戶）／昴宿 → the First Slim One (Orion)／the Pleiades; then straight to 46 (pages 43–45, the order-and-chaos diagram, removed) |
-| 46 | | 鏡頭16開始 | 3 | E13 |
-| 47 | | 鏡頭16結束 | 5 | E13; label 郊狼的星（老人星？） → the Coyote Star (Canopus?) (Mąʼii bizǫ stays); then the sky moves straight to 52 (pages 48–51, the Window Rock / Taipei altitude diagram, removed) |
-| 52 | | 鏡頭17結束 | 6 | E14; labels as page 42 |
-| 61 | | 鏡頭19開始 | 6 | E15 (pages 53–60, the Taipei 11 p.m. north disc, removed; Match & Move from 52 on the same wide chart); labels 天狼星 → Sirius, 郊狼的星（老人星？） → the Coyote Star (Canopus?); then straight to 64 (page 62, the Chinese "tonight 11 p.m." card, and 63 removed) |
-| 64 | | 端卡（下集見） | 3 | E16 |
-| 65 | | 追蹤頁 | — | E17 |
+| 1 | 1 | 開場字卡 | 3 | Cover: English title + hook from the schedule (E01; the series fill-in line “One sky. The Navajo saw — …” is not on the cover); EN · EP09 tag |
+| 2 | 2 | 鏡頭01開始 | 4 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 4 | E02; then straight to 8 (pages 4–7, the Chinese winter-calendar diagram and the "save it for winter" shot, removed) |
+| 8 | 4 | 鏡頭04-中1 | 3 | E03; the Chinese corner note 「Childrey 2004，依 Nightway 傳統」 → *Childrey 2004, Nightway tradition* |
+| 9 | 5 | 鏡頭04結束＝鏡頭05開始 | 4 | E03 |
+| 10 | 6 | 鏡頭05-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A16-02_黑神的晶石_hooghan層_透明.png`); E04 headline only |
+| 11 | 7 | 鏡頭05-概念圖2 | 2 | + ankle layer (English, `…_腳踝層_透明.png`); E05 headline only; then straight to 14 (pages 12–13, knee and hip, removed) |
+| 14 | 8 | 鏡頭05-概念圖5 | 2 | + knee, hip, shoulder layers (`…_膝層／腰層／肩層_透明.png`, all English); E05 headline only |
+| 15 | 9 | 鏡頭05-概念圖6 | 4 | + temple layer (`…_太陽穴層_透明.png`, English, carries “They are called stars”); E06 headline only |
+| 16 | 10 | 鏡頭05-概念圖收＝鏡頭06開始 | 3 | diagram fades; no text; then the sky moves straight to 28 (pages 17–27, the north disc — North Fire, the Revolving Male and Female, the hooghan overlay — removed) |
+| 28 | 11 | 北盤轉長圖1-下移＝鏡頭10開始 | 5 | E07; label 第一個瘦長的人（獵戶） → the First Slim One (Orion) (ʼÁtséʼetsʼózí stays) |
+| 29 | 12 | 鏡頭10結束＝鏡頭11開始 | 3 | E07; label as page 28; then straight to 35 (pages 30–34, the First Big One and the planting diagram, removed) |
+| 35 | 13 | 鏡頭12結束 | 6 | E08; label 昴宿 → the Pleiades (Dilyéhé stays); then straight to 39 (pages 36–38, the Chinese ceremony-calendar diagram, removed) |
+| 39 | 14 | 鏡頭13結束＝鏡頭14開始 | 6 | E09; label 等待黎明的（銀河） → Awaiting the Dawn (Milky Way) (Yikáísdáhí stays) |
+| 40 | 15 | 鏡頭14-概念圖1 | 3 | Coyote diagram, English (`_概念圖/en/C-A16-03_郊狼吹散星星_郊狼層_透明.png`); E10 headline only |
+| 41 | 16 | 鏡頭14-概念圖2 | 3 | + blow layer (`…_吹散層_透明.png`, English “Whoosh—”); E11 headline only |
+| 42 | 17 | 鏡頭14-概念圖收＝鏡頭15開始 | 7 | diagram fades; E12; labels 第一個瘦長的人（獵戶）／昴宿 → the First Slim One (Orion)／the Pleiades; then straight to 46 (pages 43–45, the order-and-chaos diagram, removed) |
+| 46 | 18 | 鏡頭16開始 | 3 | E13 |
+| 47 | 19 | 鏡頭16結束 | 5 | E13; label 郊狼的星（老人星？） → the Coyote Star (Canopus?) (Mąʼii bizǫ stays); then the sky moves straight to 52 (pages 48–51, the Window Rock / Taipei altitude diagram, removed) |
+| 52 | 20 | 鏡頭17結束 | 6 | E14; labels as page 42 |
+| 61 | 21 | 鏡頭19開始 | 6 | E15 (pages 53–60, the Taipei 11 p.m. north disc, removed; Match & Move from 52 on the same wide chart); labels 天狼星 → Sirius, 郊狼的星（老人星？） → the Coyote Star (Canopus?); then straight to 64 (page 62, the Chinese "tonight 11 p.m." card, and 63 removed) |
+| 64 | 22 | 端卡（下集見） | 5 | E16 (next by publish date = EN41, Sun 2027/01/17; title + hook from the schedule; 5 s because it carries 13 words) |
+| 65 | 23 | 追蹤頁 | — | E17 |
 
-Total 88 s.
+Total 90 s (the end card now holds 5 s for the longer text).
 
 ## Glossary (every name used)
 
@@ -100,7 +100,7 @@ Total 88 s.
 Coyote scattered the stars — and this story is told only in winter. ❄️
 Navajo elders say sky stories belong to the season from first frost to first thunder. In one published version, Black God set the first constellations in place: the First Slim One (Orion), Dilyéhé (the Pleiades), the Milky Way. Then Coyote grabbed Black God’s fawnskin pouch and blew the rest across the sky. Coyote laughed: “But the sky got prettier!”
 Each family and ceremony has its own version; this is one published telling.
-Next Wednesday: Blackfoot — the lost children in the sky.
+This Sunday: Japan — a whole sky of farm tools.
 #WorldSkyCultures #astronomy #stars #Navajo #Diné #Coyote #Pleiades #skylore
 (First comment: sources — Childrey 2004, Star Trails: Navajo; Stellarium navajo; Navajo Skies guide (Indigenous Education Institute).)
 
@@ -123,7 +123,7 @@ Wording to check:
 12. E15 is a Northern-Hemisphere sky tip, not a translation: "under 2° high" in Navajo country = 16 鏡「在納瓦荷的家鄉，它最高離地平線不到兩度」; "below bright Sirius" = 19 鏡「天狼星下面低低的那顆」. North of about 37° N Canopus never rises; the line says "hides" and gives the Navajo-country figure rather than promising viewers a sighting.
 13. Cover is one line, the series pattern (as EN01–EN07); the winter rule is stated on page 2 (E02) and in the caption's first line, not on the cover.
 14. Page 61's frame is the Chinese Taipei view (Sirius and the Coyote Star in the south); E15 does not mention Taipei.
-15. Page sequence is the authority for timing (total 88 s). The Sec column in Beats is not additive.
+15. Page sequence is the authority for timing (total 90 s). The Sec column in Beats is not additive.
 
 ## 審稿合併 (Gemini review → v1)
 
@@ -148,6 +148,6 @@ Partly adopted:
 Not adopted:
 - E01 new hook "This Navajo star story is told only in winter." and the tightened hook: the cover keeps the series pattern *One sky. The [people] saw — [X].*
 - E12 optional "But now the sky is prettier!": "got prettier" fits Coyote’s voice and 變漂亮了; kept.
-- Duration remark (88 s vs 91 s): the follow page (65) is not counted, as in EN01 and EN07; pages 1–64 sum to 88 s.
+- Duration remark (88 s vs 91 s): the follow page (65) is not counted, as in EN01 and EN07; pages 1–64 sum to 90 s since the end card was set to 5 s (it was 88 s at 3 s).
 - New facts: none taken (summer exception, Window Rock rise times).
 - Section 3 item 1 (E16 "lost children"): matches the schedule's EN10 title "The Lost Children in the Sky"; settle when EN10 is reviewed. Items 2, 3 and 5 are Canva-pass or editor decisions with no text change here; item 4 is covered by adopted item 9.
