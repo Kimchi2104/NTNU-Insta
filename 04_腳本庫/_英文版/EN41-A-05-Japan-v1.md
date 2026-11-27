@@ -6,8 +6,8 @@
 | Publish | **2027-01-17 (Sun) 21:00 Taiwan time**: EN41 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Sunday rerun slot for an episode already aired in Chinese; in January the white-tiger mansions, Pleiades to Orion, fill the evening sky) |
 | Length | **89 s** (including the 3 s follow page), 14 beats, ~182 words on screen (no voice-over; text over light music) |
 | Story | One story only: **Japan copied China’s grid of 28 mansions but gave them Japanese names**: a rice-levelling rod, possibly a bellows, a plough. Most are scholars’ readings, but two are really old: **Subaru** (the Pleiades, “gathered into one”) and **Karasukiboshi** (Orion’s Belt, the plough), and other farming peoples see tools in the same belt |
-| Canva | Not made yet. Copy of the Chinese design `A-05 日本` (design ID not recorded in the repo), to be named `EN41 A-05 日本` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 49 = next-episode card, 50 = follow page). **If the Chinese design has no pages 49–50** (A-05 was made before the end-card template), put E13 and E14 on a copy of page 48 instead. |
-| Opening line | *In Japan, Orion’s Belt is a plough.* (the schedule’s hook) |
+| Canva | `EN41 A-05 日本` (DAHZrTeVeW4), a copy of the Chinese design. **Placed 2026-11-27**: English text on the 16 kept pages (cover, 13 content pages, next-episode and follow pages) plus the kept credits page; they now sit in order as Canva pages 1–17 (the "Now" column below), pages 18–61 are unused — delete them in grid view. **Page numbers:** the "Canva page" column below keeps the numbers used when this script was written (Chinese 製作表 page + 1); this copy of the design actually has 61 pages (the Chinese design has extra step pages for the Kitora labels, source cards and Shot 16), so the real original page numbers are in the "Design page" column, and the speaker notes use those (`EN41 p{Design page}`). Headlines 72 px bold (they wrap to 2 lines at W 860), body 44 px, narrow boxes where labels sit (see `Canva逐頁文字放置規格.md` §4). No concept diagram is used, so no images were uploaded. |
+| Opening line | *One sky. Japan renamed it — in its own words.* then the schedule’s hook *In Japan, Orion’s Belt is a plough.* (the Chinese cover line is “同一片星空，日本人把它叫回自己的話”; a “saw —” form would give the hook away twice) |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.3; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
 ## Beats (text on screen)
@@ -16,7 +16,7 @@
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
-| E01 | 3 | 1 | cover | World Sky Cultures | In Japan, Orion’s Belt is a plough. | — |
+| E01 | 3 | 1 | cover | World Sky Cultures | One sky. Japan renamed it — in its own words. In Japan, Orion’s Belt is a plough. | — |
 | E02 | 6 | 23 | bottom | Borrowed grid, new names | Japan took China’s Twenty-Eight Mansions: the whole grid, but not the names. | 2.2 |
 | E03 | 6 | 24 | bottom | | In the Edo period, scholars gave each mansion a Japanese reading. In the western sky: | 2.5 |
 | E04 | 7 | 25 | bottom | | Tokakiboshi: a rice-levelling rod. Tataraboshi: possibly a bellows. Karasukiboshi: a plough. | 1.6 |
@@ -28,33 +28,33 @@
 | E10 | 9 | 38 | bottom | Same stars, more tools | The Bugis: a plough. Romania: a little plough. Belarus: mowers. Siberia: threshers. The Tukano: an adze handle. | 1.9 |
 | E11 | 7 | 39 | bottom | | Unlikely they copied each other. Wherever people live by the sky, they see their own tools. | 2.3 |
 | E12 | 10 | 47, 48 | bottom | Northern skies: look south in January | Around 20:00, the Pleiades are high in the south. Orion’s Belt, the plough, follows to the southeast. | 1.7 |
-| E13 | 3 | 49 | endcard | Next Wednesday | The Blackfoot: lost children in the sky. | 2.3 |
+| E13 | 3 | 49 | endcard | Next Wednesday | Blackfoot: The Lost Children in the Sky. Painted on top of the tipi: the Big Dipper and the Pleiades. | — |
 | E14 | 3 | 50 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
 
 `Canva page` = the original page number (Chinese design); `Now` = filled in by the Canva pass after the unused pages are moved to the back. Transitions are Match & Move unless marked. Labels on kept pages are translated in the Canva pass: the kana labels (L7 和名) stay, the Chinese mansion names (L6 繁中宿名) are removed, and each Chinese meaning line (L8 和名語意 / cross-culture 中譯) is replaced by the English in `05_素材/A-05_日本/_v4大畫布/A-05_標籤對照表.csv` (column 英文翻譯; romaji from column 拼音).
 
-| Canva page | Now | Chinese page name | Sec to next | Note |
-|---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP41 tag; then **hard cut (no transition)** to 23 (pages 2–22, the Subaru opening, the Kitora tomb chart, its four circles and the latitude dispute, removed) |
-| 23 | | 鏡頭06開始 | 6 | E02; labels: kana + English meaning for Tokakiboshi … Karasukiboshi (奎–参); 胃 and 觜 (no agreed meaning) keep the kana only |
-| 24 | | 鏡頭06結束＝鏡頭07開始 | 6 | E03; labels as 23 |
-| 25 | | 鏡頭07結束＝鏡頭08開始 | 7 | E04; labels as 23; then the sky moves east to 28 (pages 26–27, the Korea comparison card and the southern-mansions sweep, removed) |
-| 28 | | 鏡頭09結束＝鏡頭10開始 | 4 | E05; kana labels of the southern mansions (井–軫) stay; mansions with no agreed meaning (井 張 軫) keep the kana only: never paste the label table’s “(no agreed meaning) — Stellarium: …” notes on screen |
-| 29 | | 鏡頭10結束 | 5 | E05 (the Chinese card 江戸の訳名／十一個意味不明 is replaced by E05); then the sky moves to 32 (pages 30–31, the Hyades folk names, removed) |
-| 32 | | 鏡頭12開始 | 6 | E06 (the three Chinese source cards are replaced by E06); labels すばるぼし → Subaruboshi / gathered into one bundle |
-| 33 | | 鏡頭12結束＝鏡頭13開始 | 6 | E07 |
-| 34 | | 鏡頭13結束 | 6 | E08; **no car logo** (as in the Chinese: we do not draw trademarks); then **hard cut (no transition)** to 37 (pages 35–36, the dialect diagram, removed) |
-| 37 | | 鏡頭14開始 | 8 | E09; label からすきぼし 唐鋤星 → Karasukiboshi / plough star (Japan) |
-| 38 | | 鏡頭14結束 | 9 | E10; cross-culture labels (English from the label table, culture in brackets): Bintoéng Rakkalaé / Plough (Bugis, Sulawesi), Rarița / The Little Plough (Romania), Касцы Kastsy / The Mowers (Belarus), Kichigi / Threshers (Siberia), Sioyahpu / Adze Handle (Tukano, Amazon); the other belt labels (Sfredelul mare, Sos Bacheddos, al-Naẓm, Ullaktut, 桛星) are removed |
-| 39 | | 鏡頭15開始 | 7 | E11; then the sky moves to 47 (pages 40–46, the north-disc Myōken / Onmyōryō shot, removed) |
-| 47 | | 鏡頭17開始 | 6 | E12; the Chinese end card EP6 中秋 in the frame is removed; kana labels as 23; mansions with no agreed meaning (胃 觜) keep the kana only |
-| 48 | | 鏡頭17結束 | 4 | E12 |
-| 49 | | 端卡（下集見） | 3 | E13 |
-| 50 | | 追蹤頁 | 3 | E14 |
+| Canva page | Design page | Now | Chinese page name | Sec to next | Note |
+|---|---|---|---|---|---|
+| 1 | 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP41 tag; then **hard cut (no transition)** to 23 (pages 2–22, the Subaru opening, the Kitora tomb chart, its four circles and the latitude dispute, removed) |
+| 23 | 24 | 2 | 鏡頭06開始 | 6 | E02; labels: kana + English meaning for Tokakiboshi … Karasukiboshi (奎–参); 胃 and 觜 (no agreed meaning) keep the kana only |
+| 24 | 25 | 3 | 鏡頭06結束＝鏡頭07開始 | 6 | E03; labels as 23 |
+| 25 | 27 | 4 | 鏡頭07結束＝鏡頭08開始 | 7 | E04; labels as 23; then the sky moves east to 28 (pages 26–27, the Korea comparison card and the southern-mansions sweep, removed) |
+| 28 | 31 | 5 | 鏡頭09結束＝鏡頭10開始 | 4 | E05; kana labels of the southern mansions (井–軫) stay; mansions with no agreed meaning (井 張 軫) keep the kana only: never paste the label table’s “(no agreed meaning) — Stellarium: …” notes on screen |
+| 29 | 32 | 6 | 鏡頭10結束 | 5 | E05 (the Chinese card 江戸の訳名／十一個意味不明 is replaced by E05); then the sky moves to 32 (pages 30–31, the Hyades folk names, removed) |
+| 32 | 37 | 7 | 鏡頭12開始 | 6 | E06 (the three Chinese source cards are replaced by E06); labels すばるぼし → Subaruboshi / gathered into one bundle |
+| 33 | 41 | 8 | 鏡頭12結束＝鏡頭13開始 | 6 | E07 |
+| 34 | 42 | 9 | 鏡頭13結束 | 6 | E08; **no car logo** (as in the Chinese: we do not draw trademarks); then **hard cut (no transition)** to 37 (pages 35–36, the dialect diagram, removed) |
+| 37 | 45 | 10 | 鏡頭14開始 | 8 | E09; label からすきぼし 唐鋤星 → Karasukiboshi / plough star (Japan) |
+| 38 | 46 | 11 | 鏡頭14結束 | 9 | E10; cross-culture labels (English from the label table, culture in brackets): Bintoéng Rakkalaé / Plough (Bugis, Sulawesi), Rarița / The Little Plough (Romania), Касцы Kastsy / The Mowers (Belarus), Kichigi / Threshers (Siberia), Sioyahpu / Adze Handle (Tukano, Amazon); the other belt labels (Sfredelul mare, Sos Bacheddos, al-Naẓm, Ullaktut, 桛星) are removed |
+| 39 | 47 | 12 | 鏡頭15開始 | 7 | E11; then the sky moves to 47 (pages 40–46, the north-disc Myōken / Onmyōryō shot, removed) |
+| 47 | 55 | 13 | 鏡頭17開始 | 6 | E12; the Chinese end card EP6 中秋 in the frame is removed; kana labels as 23; mansions with no agreed meaning (胃 觜) keep the kana only |
+| 48 | 57 | 14 | 鏡頭17結束 | 4 | E12 |
+| 49 | 59 | 15 | 端卡（下集見） | 3 | E13 |
+| 50 | 60 | 16 | 追蹤頁 | 3 | E14 |
 
-Total 89 s (E14 included).
+Total 89 s (E14 included). Design page 61 (credits: Appreciation / Production / Art Department list) is kept as Now 17 and not timed here; delete it in grid view if it is not wanted after the follow page.
 
 ## Glossary (every name used)
 

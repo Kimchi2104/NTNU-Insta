@@ -481,5 +481,17 @@
     46,
     47,
     48
-  ]
+  ],
+  "en": {
+    "design_id": "DAHZrX4QVXk",
+    "design_title": "EN10 A-17 黑腳族",
+    "commit": "79b9efb9665179b3fa7bc9bcc22b5576e68083fc",
+    "concept": {
+      "en/C-A17-01_三層的帳篷_帳篷層_透明.png": "MAHcIwHAEsM",
+      "en/C-A17-01_三層的帳篷_夜空層_透明.png": "MAHcI9wcMqY",
+      "en/C-A17-01_三層的帳篷_大地層_透明.png": "MAHcI58HOsw",
+      "en/C-A17-04_春天看不見_日曆層_透明.png": "MAHcI5ZbyTM",
+      "en/C-A17-04_春天看不見_回來層_透明.png": "MAHcI-qbLk4"
+    }
+  }
 }
