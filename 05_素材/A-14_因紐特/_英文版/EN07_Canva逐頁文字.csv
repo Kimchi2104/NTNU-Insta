@@ -1,45 +1,45 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡,3,World Sky Cultures,"One sky. The Inuit saw — a polar-night
+1,1,開場字卡,3,World Sky Cultures,"One sky. The Inuit saw — a polar-night
 clock.",cover,Cover: text block replaced with English; one line only (E01); EN · EP07 tag
-2,,鏡頭01開始,5,,"Igloolik, Arctic Canada, 69° N. From
+2,2,鏡頭01開始,5,,"Igloolik, Arctic Canada, 69° N. From
 late November, the sun stays down.",bottom,E02
-3,,鏡頭01結束＝鏡頭02開始,5,,"It doesn’t return until mid-January.
+3,3,鏡頭01結束＝鏡頭02開始,5,,"It doesn’t return until mid-January.
 This is Tauvikjuaq: the Great Darkness.",bottom,"E03; then straight to 9 (pages 4–7, the polar-night diagram with the Taipei comparison, and page 8 removed; the disc keeps turning, 18:00 → 20:00)"
-9,,鏡頭03結束＝鏡頭04開始,7,So when do you wake up?,"No sun, no clock. Hunters left a small
+9,4,鏡頭03結束＝鏡頭04開始,7,So when do you wake up?,"No sun, no clock. Hunters left a small
 hole in the igloo to watch the stars.",bottom,E04; label Nuutuittuq／從來不動的（北極星） → Nuutuittuq／the one that never moves (North Star)
-10,,鏡頭04結束＝鏡頭05開始,7,Nuutuittuq: the one that never moves,"An elder recalled propping a harpoon
+10,5,鏡頭04結束＝鏡頭05開始,7,Nuutuittuq: the one that never moves,"An elder recalled propping a harpoon
 beside a snow wall, aiming it at the
 North Star.",bottom,"E05; harpoon overlay (`C-A14-魚叉_透明.png`, no text, reused as is); labels Nuutuittuq as page 9, Tukturjuit／馴鹿（北斗） → Tukturjuit／the caribou (Big Dipper)"
-11,,鏡頭05-中1,4,The caribou: a clock hand,"The Big Dipper is Tukturjuit, the
+11,6,鏡頭05-中1,4,The caribou: a clock hand,"The Big Dipper is Tukturjuit, the
 caribou. An old hunter said, “Near
 midnight, it rears up on its hind legs.”",bottom,"E06; labels as page 10; 狼群 (Amaruqjuit) label → Amaruqjuit／the wolves (Pelly Bay), if present"
-12,,鏡頭05結束＝鏡頭06開始,5,The caribou: a clock hand,"The Big Dipper is Tukturjuit, the
+12,7,鏡頭05結束＝鏡頭06開始,5,The caribou: a clock hand,"The Big Dipper is Tukturjuit, the
 caribou. An old hunter said, “Near
 midnight, it rears up on its hind legs.”",bottom,E06
-13,,鏡頭06-中1,4,,"By morning, the caribou had shifted
+13,8,鏡頭06-中1,4,,"By morning, the caribou had shifted
 across the sky. The harpoon still
 pointed at the star.",bottom,E07; label Quturjuuk／鎖骨（御夫＋雙子） → Quturjuuk／the collarbones (Auriga + Gemini)
-14,,鏡頭06結束,4,,"By morning, the caribou had shifted
+14,9,鏡頭06結束,4,,"By morning, the caribou had shifted
 across the sky. The harpoon still
 pointed at the star.",bottom,"E07; then straight to 20 (pages 15–17, the collarbone-clock diagram, and pages 18–19, the lamp stand and oil bag, removed)"
-20,,鏡頭07結束,2,,,,transition: the disc turns back to 0° and zooms to Cassiopeia; labels Pituaq／Ursuutaattiaq → the lamp stand／the seal-oil bag
-21,,鏡頭08開始,2,,,,"**hard cut (no transition)** from 20: same frame, disc → wide chart"
-22,,鏡頭08結束＝鏡頭09開始,7,The dawn alarm: Aagjuuk,"Before dawn, the key clock stars rise in
+20,10,鏡頭07結束,2,,,,transition: the disc turns back to 0° and zooms to Cassiopeia; labels Pituaq／Ursuutaattiaq → the lamp stand／the seal-oil bag
+21,11,鏡頭08開始,2,,,,"**hard cut (no transition)** from 20: same frame, disc → wide chart"
+22,12,鏡頭08結束＝鏡頭09開始,7,The dawn alarm: Aagjuuk,"Before dawn, the key clock stars rise in
 the northeast: Altair and Tarazed,
 called Aagjuuk.",bottom,"E09; label Aagjuuk／牛郎星＋河鼓三 → Aagjuuk／Altair + Tarazed; then straight to 28 (page 23 and pages 24–27, the ""first sighting"" diagram, removed)"
-28,,鏡頭09-概念圖收＝鏡頭10開始,3,Aagjuliqtuq!,"Children were sent out before dawn to
+28,13,鏡頭09-概念圖收＝鏡頭10開始,3,Aagjuliqtuq!,"Children were sent out before dawn to
 check. When adults said aagjuliqtuq,
 “Aagjuuk has risen,” work began.",bottom,E10; label as page 22
-29,,鏡頭10結束＝鏡頭11開始,7,Aagjuliqtuq!,"Children were sent out before dawn to
+29,14,鏡頭10結束＝鏡頭11開始,7,Aagjuliqtuq!,"Children were sent out before dawn to
 check. When adults said aagjuliqtuq,
 “Aagjuuk has risen,” work began.",bottom,E10; label as page 22
-30,,鏡頭11結束＝鏡頭12開始,9,"A calendar, too","For older Inuit, its first dawn sighting
+30,15,鏡頭11結束＝鏡頭12開始,9,"A calendar, too","For older Inuit, its first dawn sighting
 meant the solstice. In December 1990, an
 elder announced it on Igloolik radio.",bottom,E11; label as page 22
-31,,鏡頭12結束,6,Look west in late December,"In northern mid-latitudes, catch Aagjuuk
+31,16,鏡頭12結束,6,Look west in late December,"In northern mid-latitudes, catch Aagjuuk
 after dark, before it sets.",bottom,"E12; labels: Two Sunbeams／兩道陽光（阿拉斯加 Noatak 傳說）、Peggittyn／帶來新年的光（楚科奇）、河鼓／牛郎挑著兩個孩子（中國）、Te Aamonga／扁擔（阿努塔）、Fata de împărat／挑擔的公主（羅馬尼亞） → Two Sunbeams／(Noatak, Alaska)、Peggittyn／light that brings the new year (Chukchi)、Hegu (River Drum)／the Cowherd with his two children (China)、Te Aamonga／the carrying pole (Anuta)、Fata de împărat／the princess with a carrying pole (Romania); then the sky moves to 41"
-41,,鏡頭17結束＝鏡頭18開始,6,Tomorrow: qauppat,"In many Inuit dialects, “tomorrow” is
+41,17,鏡頭17結束＝鏡頭18開始,6,Tomorrow: qauppat,"In many Inuit dialects, “tomorrow” is
 qauppat: “if it becomes day.”",bottom,"E13; labels: chase labels as in the Chinese (Ullaktut／the Running Hunters, Nanurjuk／the Polar Bear, Qimmiit／the Dogs, Singuuriq／Sirius)"
-45,,端卡（下集見）,3,Next Wednesday,"Orion: three stars the whole world
-knows.",endcard,E14
-46,,追蹤頁,—,,Follow for a new sky every week.,endcard,E15
+45,18,端卡（下集見）,3,Next up,"The Lost Fifth Symbol. Four beasts guard
+China’s sky. Who sits in the middle?",endcard,E14
+46,19,追蹤頁,—,,Follow for a new sky every week.,endcard,E15

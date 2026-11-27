@@ -6,7 +6,7 @@
 | Publish | **2026-12-30 (Wed) 21:00 Taiwan time**: EN07 in `06_發布月曆/節目表_萬國星空_英文版.csv` (the polar night at Igloolik lasts to mid-January) |
 | Length | **89 s**, 15 beats, ~187 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the star clock of the polar night** at Igloolik. No sun for a month and a half; the elder's harpoon aimed at the North Star, the caribou (Big Dipper) turning round it overnight; Aagjuuk (Altair and Tarazed) as the dawn alarm and the solstice calendar; *qauppat*, "tomorrow" = "if it becomes day" |
-| Canva | Not made yet. Copy of the Chinese design `A-14 因紐特` (DAHWtNu0E_8), to be named `EN07 A-14 因紐特` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 45 = next-episode card, 46 = follow page). |
+| Canva | `EN07 A-14 因紐特` (DAHZrRP7yFU), a copy of the Chinese design (DAHWtNu0E_8). **Placed 2026-11-27**: English text and translated labels on the 19 kept pages, which now sit in order as Canva pages 1–19 (the "Now" column below); page 20 is the credits page (kept, as is); pages 21–47 are the unused originals — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold, body 44 px; narrow left box (X 60, W 520, 38 px) on pages 10–14 where the harpoon crosses the lower middle. Waiting for hand finishing. |
 | Opening line | *One sky. The Inuit saw — a polar-night clock.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -29,7 +29,7 @@
 | E11 | 9 | 30 | bottom | A calendar, too | For older Inuit, its first dawn sighting meant the solstice. In December 1990, an elder announced it on Igloolik radio. | 2.1 |
 | E12 | 6 | 31 | bottom | Look west in late December | In northern mid-latitudes, catch Aagjuuk after dark, before it sets. | 1.7 |
 | E13 | 6 | 41 | bottom | Tomorrow: qauppat | In many Inuit dialects, “tomorrow” is qauppat: “if it becomes day.” | 1.8 |
-| E14 | 3 | 45 | endcard | Next Wednesday | Orion: three stars the whole world knows. | 2.3 |
+| E14 | 3 | 45 | endcard | Next up | The Lost Fifth Symbol. Four beasts guard China’s sky. Who sits in the middle? *(EN44 airs Sun 2027-01-03, the next English episode by date; EN08 Orion follows on 01-06)* | 2.3 |
 | E15 | 3 | 46 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -38,25 +38,25 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; one line only (E01); EN · EP07 tag |
-| 2 | | 鏡頭01開始 | 5 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 5 | E03; then straight to 9 (pages 4–7, the polar-night diagram with the Taipei comparison, and page 8 removed; the disc keeps turning, 18:00 → 20:00) |
-| 9 | | 鏡頭03結束＝鏡頭04開始 | 7 | E04; label Nuutuittuq／從來不動的（北極星） → Nuutuittuq／the one that never moves (North Star) |
-| 10 | | 鏡頭04結束＝鏡頭05開始 | 7 | E05; harpoon overlay (`C-A14-魚叉_透明.png`, no text, reused as is); labels Nuutuittuq as page 9, Tukturjuit／馴鹿（北斗） → Tukturjuit／the caribou (Big Dipper) |
-| 11 | | 鏡頭05-中1 | 4 | E06; labels as page 10; 狼群 (Amaruqjuit) label → Amaruqjuit／the wolves (Pelly Bay), if present |
-| 12 | | 鏡頭05結束＝鏡頭06開始 | 5 | E06 |
-| 13 | | 鏡頭06-中1 | 4 | E07; label Quturjuuk／鎖骨（御夫＋雙子） → Quturjuuk／the collarbones (Auriga + Gemini) |
-| 14 | | 鏡頭06結束 | 4 | E07; then straight to 20 (pages 15–17, the collarbone-clock diagram, and pages 18–19, the lamp stand and oil bag, removed) |
-| 20 | | 鏡頭07結束 | 2 | transition: the disc turns back to 0° and zooms to Cassiopeia; labels Pituaq／Ursuutaattiaq → the lamp stand／the seal-oil bag |
-| 21 | | 鏡頭08開始 | 2 | **hard cut (no transition)** from 20: same frame, disc → wide chart |
-| 22 | | 鏡頭08結束＝鏡頭09開始 | 7 | E09; label Aagjuuk／牛郎星＋河鼓三 → Aagjuuk／Altair + Tarazed; then straight to 28 (page 23 and pages 24–27, the "first sighting" diagram, removed) |
-| 28 | | 鏡頭09-概念圖收＝鏡頭10開始 | 3 | E10; label as page 22 |
-| 29 | | 鏡頭10結束＝鏡頭11開始 | 7 | E10; label as page 22 |
-| 30 | | 鏡頭11結束＝鏡頭12開始 | 9 | E11; label as page 22 |
-| 31 | | 鏡頭12結束 | 6 | E12; labels: Two Sunbeams／兩道陽光（阿拉斯加 Noatak 傳說）、Peggittyn／帶來新年的光（楚科奇）、河鼓／牛郎挑著兩個孩子（中國）、Te Aamonga／扁擔（阿努塔）、Fata de împărat／挑擔的公主（羅馬尼亞） → Two Sunbeams／(Noatak, Alaska)、Peggittyn／light that brings the new year (Chukchi)、Hegu (River Drum)／the Cowherd with his two children (China)、Te Aamonga／the carrying pole (Anuta)、Fata de împărat／the princess with a carrying pole (Romania); then the sky moves to 41 |
-| 41 | | 鏡頭17結束＝鏡頭18開始 | 6 | E13; labels: chase labels as in the Chinese (Ullaktut／the Running Hunters, Nanurjuk／the Polar Bear, Qimmiit／the Dogs, Singuuriq／Sirius) |
-| 45 | | 端卡（下集見） | 3 | E14 |
-| 46 | | 追蹤頁 | — | E15 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; one line only (E01); EN · EP07 tag |
+| 2 | 2 | 鏡頭01開始 | 5 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 5 | E03; then straight to 9 (pages 4–7, the polar-night diagram with the Taipei comparison, and page 8 removed; the disc keeps turning, 18:00 → 20:00) |
+| 9 | 4 | 鏡頭03結束＝鏡頭04開始 | 7 | E04; label Nuutuittuq／從來不動的（北極星） → Nuutuittuq／the one that never moves (North Star) |
+| 10 | 5 | 鏡頭04結束＝鏡頭05開始 | 7 | E05; harpoon overlay (`C-A14-魚叉_透明.png`, no text, reused as is); labels Nuutuittuq as page 9, Tukturjuit／馴鹿（北斗） → Tukturjuit／the caribou (Big Dipper) |
+| 11 | 6 | 鏡頭05-中1 | 4 | E06; labels as page 10; 狼群 (Amaruqjuit) label → Amaruqjuit／the wolves (Pelly Bay), if present |
+| 12 | 7 | 鏡頭05結束＝鏡頭06開始 | 5 | E06 |
+| 13 | 8 | 鏡頭06-中1 | 4 | E07; label Quturjuuk／鎖骨（御夫＋雙子） → Quturjuuk／the collarbones (Auriga + Gemini) |
+| 14 | 9 | 鏡頭06結束 | 4 | E07; then straight to 20 (pages 15–17, the collarbone-clock diagram, and pages 18–19, the lamp stand and oil bag, removed) |
+| 20 | 10 | 鏡頭07結束 | 2 | transition: the disc turns back to 0° and zooms to Cassiopeia; labels Pituaq／Ursuutaattiaq → the lamp stand／the seal-oil bag |
+| 21 | 11 | 鏡頭08開始 | 2 | **hard cut (no transition)** from 20: same frame, disc → wide chart |
+| 22 | 12 | 鏡頭08結束＝鏡頭09開始 | 7 | E09; label Aagjuuk／牛郎星＋河鼓三 → Aagjuuk／Altair + Tarazed; then straight to 28 (page 23 and pages 24–27, the "first sighting" diagram, removed) |
+| 28 | 13 | 鏡頭09-概念圖收＝鏡頭10開始 | 3 | E10; label as page 22 |
+| 29 | 14 | 鏡頭10結束＝鏡頭11開始 | 7 | E10; label as page 22 |
+| 30 | 15 | 鏡頭11結束＝鏡頭12開始 | 9 | E11; label as page 22 |
+| 31 | 16 | 鏡頭12結束 | 6 | E12; labels: Two Sunbeams／兩道陽光（阿拉斯加 Noatak 傳說）、Peggittyn／帶來新年的光（楚科奇）、河鼓／牛郎挑著兩個孩子（中國）、Te Aamonga／扁擔（阿努塔）、Fata de împărat／挑擔的公主（羅馬尼亞） → Two Sunbeams／(Noatak, Alaska)、Peggittyn／light that brings the new year (Chukchi)、Hegu (River Drum)／the Cowherd with his two children (China)、Te Aamonga／the carrying pole (Anuta)、Fata de împărat／the princess with a carrying pole (Romania); then the sky moves to 41 |
+| 41 | 17 | 鏡頭17結束＝鏡頭18開始 | 6 | E13; labels: chase labels as in the Chinese (Ullaktut／the Running Hunters, Nanurjuk／the Polar Bear, Qimmiit／the Dogs, Singuuriq／Sirius) |
+| 45 | 18 | 端卡（下集見） | 3 | E14 |
+| 46 | 19 | 追蹤頁 | — | E15 |
 
 Total 89 s (the follow page is not counted, as in EN01).
 

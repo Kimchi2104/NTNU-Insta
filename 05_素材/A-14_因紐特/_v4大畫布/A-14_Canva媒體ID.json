@@ -38,5 +38,11 @@
     "C-A14-06_這週末抬頭看_圖卡.png": "MAHXY9sMi9c",
     "C-A14-魚叉_透明.png": "MAHXYxASjTk"
   },
-  "concept_commit": "776f86fc344e45d236ea0cb6025cdd1993a9af3d"
+  "concept_commit": "776f86fc344e45d236ea0cb6025cdd1993a9af3d",
+  "en": {
+    "design_id": "DAHZrRP7yFU",
+    "design_title": "EN07 A-14 因紐特",
+    "commit": "b58ca5ef71d2b2fe4da7e20c7865b93ce0bbc8be",
+    "concept": {}
+  }
 }
