@@ -36,5 +36,18 @@
   "C-X02-04_年輕的巨星_年齡層_透明.png": "MAHXg00XbV0",
   "C-X02-06_今晚往東南東看_圖卡.png": "MAHXhA7q7bM"
  },
- "concept_commit": "f10c67186c3c9010d15dc078bb3b69671b823494"
+ "concept_commit": "f10c67186c3c9010d15dc078bb3b69671b823494",
+ "en": {
+  "design_id": "DAHZrad8pyQ",
+  "design_title": "EN08 X-02 全世界都認得的三顆星",
+  "commit": "b7be523a6db7af561ca81a6437291498e7515b5f",
+  "concept": {
+   "C-X02-01_正東升起_北方層_透明.png": "MAHcEpT0qNI",
+   "C-X02-01_正東升起_台北層_透明.png": "MAHcErrDD_4",
+   "C-X02-01_正東升起_南方層_透明.png": "MAHcEurONM0",
+   "C-X02-03_三地的火_澳洲層_透明.png": "MAHcEhcB1cY",
+   "C-X02-03_三地的火_馬雅層_透明.png": "MAHcEiViryg",
+   "C-X02-03_三地的火_阿茲特克層_透明.png": "MAHcEp6tXM0"
+  }
+ }
 }

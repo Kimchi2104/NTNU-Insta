@@ -6,7 +6,7 @@
 | Publish | **2027-01-06 (Wed) 21:00 Taiwan time** — EN08 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Orion is up all night) |
 | Length | **69 s** to the start of the follow page, 12 beats, ~151 words on screen (no voice-over; text over light music) |
 | Story | One story only: **Orion’s Belt as fire** — the Kamilaroi campfire, the Maya hearthstones, the Aztec fire drill — set up by the three names in the hook and why everyone on Earth sees these stars (they rise due east everywhere). |
-| Canva | Copy of `X-02 全世界都認得的三顆星` (DAHWtE3JZlQ) → `EN08 X-02 全世界都認得的三顆星`. `Canva page` = 製作表 page + 1 (page 1 is the opening). Concept-diagram pages (4–6, 20–22): swap in `05_素材/X-02_獵戶環球/_概念圖/en/` (same file names) on the existing 75 % black panel (Y 420–1500); body text goes in the strip under the panel (`bottom` = X 110, Y 1505, W 860, 40 px, ≤ 3 lines), never on the diagram. Star pages: translate the Chinese half of each label pair (list in the Page sequence notes); original-language labels stay. |
+| Canva | **Placed 2026-11-27** in `EN08 X-02 全世界都認得的三顆星` (DAHZrad8pyQ): 17 kept pages + the credits page now sit as Canva pages 1–18 ("Now" column); unused pages are 19–37 — delete them. Copy of `X-02 全世界都認得的三顆星` (DAHWtE3JZlQ) → `EN08 X-02 全世界都認得的三顆星`. `Canva page` = 製作表 page + 1 (page 1 is the opening). Concept-diagram pages (4–6, 20–22): swap in `05_素材/X-02_獵戶環球/_概念圖/en/` (same file names) on the existing 75 % black panel (Y 420–1500); body text goes in the strip under the panel (`bottom` = X 110, Y 1505, W 860, 40 px, ≤ 3 lines), never on the diagram. Star pages: translate the Chinese half of each label pair (list in the Page sequence notes); original-language labels stay. |
 | Opening line | *One sky. Three stars the whole world knows.* |
 | Reading speed | ≤ 2.5 words/sec on every beat (max 2.4; = words in Text ÷ seconds that text is on screen, headline not counted) |
 
@@ -16,7 +16,7 @@
 
 | # | Sec | On pages | Pos | Headline (≤ 6 words) | Text | w/s |
 |---|---|---|---|---|---|---|
-| E01 | 3 | 1 | cover | World Sky Cultures | One sky. Three stars the whole world knows. | — |
+| E01 | 3 | 1 | cover | World Sky Cultures | Orion: Three Stars the Whole World Knows / China: Shen. Egypt: Sah. The Kamilaroi: Birray Birray. *(cover as placed in Canva: schedule title + hook)* | — |
 | E02 | 7 | 2, 3 | top | | China calls them Shen (“three”). Egypt: Sah. Australia’s Kamilaroi: Birray Birray. | 1.6 |
 | E03 | 6 | 4, 5 | bottom | | Orion’s Belt: three similarly bright stars in a straight line, under 3° across. | 2.2 |
 | E04 | 7 | 6, 7 | bottom | | Almost on the celestial equator, they rise due east — from the Arctic to New Zealand. *(page 7: the diagram has faded; same box position)* | 2.1 |
@@ -26,32 +26,32 @@
 | E08 | 8 | 20, 21, 22 | bottom | | If no fire caught, the Aztecs believed the sun would not rise again. | 1.6 |
 | E09 | 2 | — | — | | *(page 23: diagram fades; then the sky zooms out to page 31)* | — |
 | E10 | 8 | 31 | top | Early January, 20:00 (Northern sky) | Look southeast: red Betelgeuse top left, blue-white Rigel bottom right, the Belt in between. Brightest below: Sirius. | 2.1 |
-| E11 | 3 | 35 | endcard | Next Wednesday | Navajo: star stories told only in winter. | 2.3 |
+| E11 | 3 | 35 | endcard | Coming up Sunday | Hawaiʻi: Four Star Lines Home. 1976: no compass, no map — 34 days to Tahiti. *(= EN48, the next episode by publish date, Sun 2027-01-10; end-card title + hook from the schedule; ≥ 5 s recommended)* | 4.3 |
 | E12 | 3 | 36 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
 
-`Canva page` = the original page number (Chinese design = 製作表 page + 1). Pages not listed are unused: 8–16, 24–30, 32–34, 37 onward. Transitions are Match & Move.
+`Canva page` = the original page number (Chinese design = 製作表 page + 1). Pages not listed are unused: 8–16, 24–30, 32–34 (moved to the end, Canva pages 19–37; the credits page, original 37, stays at Canva page 18). Transitions are Match & Move.
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場 | 3 | Cover: text block replaced with English; EN · EP08 tag |
-| 2 | | 鏡頭01開始 | 3 | E02 (top box; the Chinese 字卡 on this page is removed) |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 4 | E02; labels 中國／埃及／澳洲 → China／Egypt／Australia (參 → Shen; Sah, Birray Birray stay) |
-| 4 | | 鏡頭02-概念圖1 | 3 | E03; `_概念圖/en/C-X02-01_正東升起_北方層` |
-| 5 | | 鏡頭02-概念圖2 | 3 | E03; ＋`台北層` |
-| 6 | | 鏡頭02-概念圖3 | 4 | E04; ＋`南方層` (its caption: the south sees Orion upside down) |
-| 7 | | 鏡頭02-概念圖收＝鏡頭03開始 | 3 | E04; diagram fades; then the sky moves to page 17 |
-| 17 | | 鏡頭08結束＝鏡頭09開始 | 8 | E05; labels 三個男孩（澳洲）／營火／撥火棍 → three boys (Australia)／campfire／fire stick; Birray Birray stays |
-| 18 | | 鏡頭09結束＝鏡頭10開始 | 7 | E06; labels 三塊爐石（馬雅）／煙／獵戶座大星雲 → three hearthstones (Maya)／smoke／Orion Nebula; Oxib' Xk'ub' stays |
-| 19 | | 鏡頭10結束 | 10 | E07; label 鑽火棍（阿茲特克） → fire drill (Aztec); Mamalhuaztli stays |
-| 20 | | 鏡頭10-概念圖1 | 2.5 | E08; `_概念圖/en/C-X02-03_三地的火_澳洲層` |
-| 21 | | 鏡頭10-概念圖2 | 2.5 | E08; ＋`馬雅層` |
-| 22 | | 鏡頭10-概念圖3 | 3 | E08; ＋`阿茲特克層` |
-| 23 | | 鏡頭10-概念圖收＝鏡頭11開始 | 2 | diagram fades; no text |
-| 31 | | 鏡頭13結束 | 8 | E10; labels 參宿四／參宿七／腰帶／天狼星 → Betelgeuse／Rigel／the Belt／Sirius (the Chinese 今晚 card, page 32, is Taipei-only and not used) |
-| 35 | | 下集見 | 3 | E11 (background is already the Navajo First Slim One — EN09’s subject) |
-| 36 | | 追蹤 | — | E12 |
+| 1 | 1 | 開場 | 3 | Cover: text block replaced with English; EN · EP08 tag |
+| 2 | 2 | 鏡頭01開始 | 3 | E02 (top box; the Chinese 字卡 on this page is removed) |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 4 | E02; labels 中國／埃及／澳洲 → China／Egypt／Australia (參 → Shen; Sah, Birray Birray stay) |
+| 4 | 4 | 鏡頭02-概念圖1 | 3 | E03; `_概念圖/en/C-X02-01_正東升起_北方層` |
+| 5 | 5 | 鏡頭02-概念圖2 | 3 | E03; ＋`台北層` |
+| 6 | 6 | 鏡頭02-概念圖3 | 4 | E04; ＋`南方層` (its caption: the south sees Orion upside down) |
+| 7 | 7 | 鏡頭02-概念圖收＝鏡頭03開始 | 3 | E04; diagram fades; then the sky moves to page 17 |
+| 17 | 8 | 鏡頭08結束＝鏡頭09開始 | 8 | E05; labels 三個男孩（澳洲）／營火／撥火棍 → three boys (Australia)／campfire／fire stick; Birray Birray stays |
+| 18 | 9 | 鏡頭09結束＝鏡頭10開始 | 7 | E06; labels 三塊爐石（馬雅）／煙／獵戶座大星雲 → three hearthstones (Maya)／smoke／Orion Nebula; Oxib' Xk'ub' stays |
+| 19 | 10 | 鏡頭10結束 | 10 | E07; label 鑽火棍（阿茲特克） → fire drill (Aztec); Mamalhuaztli stays |
+| 20 | 11 | 鏡頭10-概念圖1 | 2.5 | E08; `_概念圖/en/C-X02-03_三地的火_澳洲層` |
+| 21 | 12 | 鏡頭10-概念圖2 | 2.5 | E08; ＋`馬雅層` |
+| 22 | 13 | 鏡頭10-概念圖3 | 3 | E08; ＋`阿茲特克層` |
+| 23 | 14 | 鏡頭10-概念圖收＝鏡頭11開始 | 2 | diagram fades; no text |
+| 31 | 15 | 鏡頭13結束 | 8 | E10; labels 參宿四／參宿七／腰帶／天狼星 → Betelgeuse／Rigel／the Belt／Sirius (the Chinese 今晚 card, page 32, is Taipei-only and not used) |
+| 35 | 16 | 下集見 | 3 | E11 (next = EN48 Hawaiʻi; the background is still the Navajo First Slim One — EN09’s subject — swap by hand) |
+| 36 | 17 | 追蹤 | — | E12 |
 
 Total 69 s to the start of the follow page (EN01 counts the same way).
 
