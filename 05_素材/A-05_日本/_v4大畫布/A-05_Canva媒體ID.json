@@ -32,5 +32,12 @@
  "_design": {
   "id": "DAHV2DZTsZI",
   "title": "A-05 日本"
+ },
+ "en": {
+  "design_id": "DAHZrTeVeW4",
+  "design_title": "EN41 A-05 日本",
+  "commit": "79b9efb9665179b3fa7bc9bcc22b5576e68083fc",
+  "note": "此集英文版不用概念圖（沒有英文概念圖需上傳），長圖／山／背景沿用中文媒體 ID；英文只是在每頁加字、換標籤文字",
+  "concept": {}
  }
 }

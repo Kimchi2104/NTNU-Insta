@@ -6,7 +6,7 @@
 | Publish | **2027-01-20 (Wed) 21:00 Taiwan time**: EN10 in `06_發布月曆/節目表_萬國星空_英文版.csv` (five days after the Chinese episode; the Pleiades are high in the evening sky) |
 | Length | **80 s**, 13 beats (cover + 10 story beats + 2 end cards), ~130 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the Pleiades are the Lost Children**: six poor children with no yellow calf robes, mocked, lost on the prairie and taken into the sky, which is why they are missing in spring while the calves are yellow and come back when the calves turn brown. Opened by the painted tipi, whose black top band carries the Big Dipper and the Pleiades (the schedule’s hook; used in the caption, not on the cover) |
-| Canva | Not made yet. Copy of the Chinese design `A-17 黑腳族` (DAHWtKFbiSQ), to be named `EN10 A-17 黑腳族` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 59 = next-episode card, 60 = follow page, as in `A-17_補頁清單.md`). |
+| Canva | `EN10 A-17 黑腳族` (DAHZrX4QVXk), a copy of the Chinese design. **Placed 2026-11-27**: English text, English diagrams and translated labels on the 16 kept pages, which now sit in order as Canva pages 1–16 (the "Now" column below); page 17 = the references/credits page (kept as is); pages 18–61 are unused (moved to the back) — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold, body 44 px, full-width boxes only (no narrow boxes). |
 | Opening line | *One sky. The Blackfoot saw — six lost children.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.3; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -36,22 +36,22 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English (E01 only, one line; no second hook line); EN · EP10 tag |
-| 2 | | 鏡頭01開始 | 5 | E02 (the Chinese 字卡 is replaced) |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 8 | E03; label Lost Children |
-| 4 | | 鏡頭02-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A17-01_三層的帳篷_帳篷層_透明.png`); E04 headline only |
-| 5 | | 鏡頭02-概念圖2 | 4 | + `en/…_夜空層`; E04 headline only |
-| 6 | | 鏡頭02-概念圖3 | 3 | + `en/…_大地層`; E04 headline only |
-| 7 | | 鏡頭02-概念圖收＝鏡頭03開始＝鏡頭04開始 | 7 | diagram fades; E05; label Lost Children; then the sky moves to 41 (pages 8–40, the seven brothers, the Dipper clock, the hole in the sky, Feather Woman, the Spider Man and Scarface, removed) |
-| 41 | | 鏡頭13-概念圖收＝鏡頭14開始 | 8 | E06; label Lost Children |
-| 42 | | 鏡頭14結束＝鏡頭15開始 | 7 | E07; label as 41 |
-| 43 | | 鏡頭15結束 | 7 | E08; label as 41 |
-| 44 | | 鏡頭15-概念圖1 | 3 | calendar diagram, English (`_概念圖/en/C-A17-04_春天看不見_日曆層_透明.png`); E09 headline only |
-| 45 | | 鏡頭15-概念圖2 | 4 | + `en/…_回來層`; E09 headline only |
-| 46 | | 鏡頭15-概念圖收＝鏡頭16開始 | 7 | diagram fades; E10; label as 41; then straight to 50 (pages 47–49, the dogs version, removed; the frame does not move) |
-| 50 | | 鏡頭16-概念圖收＝鏡頭17開始 | 8 | E11; label Lost Children (Pleiades) |
-| 59 | | 端卡（下集見） | 3 | E12 |
-| 60 | | 追蹤頁 | — | E13 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English (E01 only, one line; no second hook line); EN · EP10 tag |
+| 2 | 2 | 鏡頭01開始 | 5 | E02 (the Chinese 字卡 is replaced) |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 8 | E03; label Lost Children |
+| 4 | 4 | 鏡頭02-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A17-01_三層的帳篷_帳篷層_透明.png`); E04 headline only |
+| 5 | 5 | 鏡頭02-概念圖2 | 4 | + `en/…_夜空層`; E04 headline only |
+| 6 | 6 | 鏡頭02-概念圖3 | 3 | + `en/…_大地層`; E04 headline only |
+| 7 | 7 | 鏡頭02-概念圖收＝鏡頭03開始＝鏡頭04開始 | 7 | diagram fades; E05; label Lost Children; then the sky moves to 41 (pages 8–40, the seven brothers, the Dipper clock, the hole in the sky, Feather Woman, the Spider Man and Scarface, removed) |
+| 41 | 8 | 鏡頭13-概念圖收＝鏡頭14開始 | 8 | E06; label Lost Children |
+| 42 | 9 | 鏡頭14結束＝鏡頭15開始 | 7 | E07; label as 41 |
+| 43 | 10 | 鏡頭15結束 | 7 | E08; label as 41 |
+| 44 | 11 | 鏡頭15-概念圖1 | 3 | calendar diagram, English (`_概念圖/en/C-A17-04_春天看不見_日曆層_透明.png`); E09 headline only |
+| 45 | 12 | 鏡頭15-概念圖2 | 4 | + `en/…_回來層`; E09 headline only |
+| 46 | 13 | 鏡頭15-概念圖收＝鏡頭16開始 | 7 | diagram fades; E10; label as 41; then straight to 50 (pages 47–49, the dogs version, removed; the frame does not move) |
+| 50 | 14 | 鏡頭16-概念圖收＝鏡頭17開始 | 8 | E11; label Lost Children (Pleiades) |
+| 59 | 15 | 端卡（下集見） | 3 | E12 |
+| 60 | 16 | 追蹤頁 | — | E13 |
 
 Total 80 s.
 

@@ -1,31 +1,31 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡,3,World Sky Cultures,"One sky. The Blackfoot saw — six lost
+1,1,開場字卡,3,World Sky Cultures,"One sky. The Blackfoot saw — six lost
 children.",cover,"Cover: text block replaced with English (E01 only, one line; no second hook line); EN · EP10 tag"
-2,,鏡頭01開始,5,The Blackfoot,"They call themselves Niitsitapi, “the
+2,2,鏡頭01開始,5,The Blackfoot,"They call themselves Niitsitapi, “the
 real people.” Today: Alberta and
 Montana.",bottom,E02 (the Chinese 字卡 is replaced)
-3,,鏡頭01結束＝鏡頭02開始,8,,"Over a century ago, a writer counted one
+3,3,鏡頭01結束＝鏡頭02開始,8,,"Over a century ago, a writer counted one
 Great Plains summer camp: one in ten
 tipis was painted.",bottom,E03; label Lost Children
-4,,鏡頭02-概念圖1,3,A night sky on the tipi,,top,"diagram, English (`_概念圖/en/C-A17-01_三層的帳篷_帳篷層_透明.png`); E04 headline only"
-5,,鏡頭02-概念圖2,4,A night sky on the tipi,,top,+ `en/…_夜空層`; E04 headline only
-6,,鏡頭02-概念圖3,3,A night sky on the tipi,,top,+ `en/…_大地層`; E04 headline only
-7,,鏡頭02-概念圖收＝鏡頭03開始＝鏡頭04開始,7,,"The designs came in dreams and belong to
+4,4,鏡頭02-概念圖1,3,A night sky on the tipi,,top,"diagram, English (`_概念圖/en/C-A17-01_三層的帳篷_帳篷層_透明.png`); E04 headline only"
+5,5,鏡頭02-概念圖2,4,A night sky on the tipi,,top,+ `en/…_夜空層`; E04 headline only
+6,6,鏡頭02-概念圖3,3,A night sky on the tipi,,top,+ `en/…_大地層`; E04 headline only
+7,7,鏡頭02-概念圖收＝鏡頭03開始＝鏡頭04開始,7,,"The designs came in dreams and belong to
 their owners. No one else may copy them.",bottom,"diagram fades; E05; label Lost Children; then the sky moves to 41 (pages 8–40, the seven brothers, the Dipper clock, the hole in the sky, Feather Woman, the Spider Man and Scarface, removed)"
-41,,鏡頭13-概念圖收＝鏡頭14開始,8,The Pleiades: the Lost Children,"In spring, buffalo calves are yellow.
+41,8,鏡頭13-概念圖收＝鏡頭14開始,8,The Pleiades: the Lost Children,"In spring, buffalo calves are yellow.
 After the hunt, children played in
 yellow calf robes.",bottom,E06; label Lost Children
-42,,鏡頭14結束＝鏡頭15開始,7,,"Six poor children had none. The others
+42,9,鏡頭14結束＝鏡頭15開始,7,,"Six poor children had none. The others
 laughed and called them “mangy old
 bulls.”",bottom,E07; label as 41
-43,,鏡頭15結束,7,,"Ashamed to go home, they got lost on the
+43,10,鏡頭15結束,7,,"Ashamed to go home, they got lost on the
 prairie and were taken into the sky.",bottom,E08; label as 41
-44,,鏡頭15-概念圖1,3,Gone while calves are yellow,,top,"calendar diagram, English (`_概念圖/en/C-A17-04_春天看不見_日曆層_透明.png`); E09 headline only"
-45,,鏡頭15-概念圖2,4,Gone while calves are yellow,,top,+ `en/…_回來層`; E09 headline only
-46,,鏡頭15-概念圖收＝鏡頭16開始,7,,"In autumn, when the calves turn brown,
+44,11,鏡頭15-概念圖1,3,Gone while calves are yellow,,top,"calendar diagram, English (`_概念圖/en/C-A17-04_春天看不見_日曆層_透明.png`); E09 headline only"
+45,12,鏡頭15-概念圖2,4,Gone while calves are yellow,,top,+ `en/…_回來層`; E09 headline only
+46,13,鏡頭15-概念圖收＝鏡頭16開始,7,,"In autumn, when the calves turn brown,
 the children return every night.",bottom,"diagram fades; E10; label as 41; then straight to 50 (pages 47–49, the dogs version, removed; the frame does not move)"
-50,,鏡頭16-概念圖收＝鏡頭17開始,8,Look up this month,"From northern latitudes, the Lost
+50,14,鏡頭16-概念圖收＝鏡頭17開始,8,Look up this month,"From northern latitudes, the Lost
 Children ride high in the south around
 20:00.",bottom,E11; label Lost Children (Pleiades)
-59,,端卡（下集見）,3,Next Wednesday: Ancient Egypt,The star that woke the Nile.,endcard,E12
-60,,追蹤頁,—,,Follow for a new sky every week.,endcard,E13
+59,15,端卡（下集見）,3,Next Wednesday: Ancient Egypt,The star that woke the Nile.,endcard,E12
+60,16,追蹤頁,—,,Follow for a new sky every week.,endcard,E13
