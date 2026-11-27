@@ -6,7 +6,7 @@
 | Publish | **2027-01-10 (Sun) 21:00 Taiwan time**: EN48 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Makahiki season; the Pleiades high at 20:00). The next episode, EN09 Navajo, is Wed 2027-01-13, so “Next Wednesday” is right |
 | Length | **89 s**, 17 beats, ~155 words on screen (no voice-over; text over light music) |
 | Story | One story only: **how Hōkūleʻa found its way with no instruments**. The 1976 voyage to Tahiti; Nainoa Thompson's four star lines (a modern memory aid); the backbone line through Hōkūleʻa = Arcturus; Hōkūleʻa overhead = home latitude; and the winter line, Makaliʻi's bailer, whose Pleiades start the Makahiki new year |
-| Canva | Copy of the Chinese design `A-09 夏威夷星線` (already published), to be named `EN48 A-09 夏威夷星線` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 40 = next-episode card, 41 = follow page). |
+| Canva | `EN48 A-09 夏威夷` (DAHZrcch6yc), a copy of the Chinese design. **Placed 2026-11-27**: English text, English diagrams and translated labels on the 22 kept pages, which now sit in order as Canva pages 1–22 (the "Now" column below); page 23 is the credits page (kept, as is); pages 24–45 are the unused originals — delete them in grid view. The copy has 45 pages (3 more than the numbering below because the Chinese design has duplicate hold pages 4, 6, 7; the first page of each run was used): page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold, body 44 px; narrow boxes where labels sit (see `Canva逐頁文字放置規格.md` §4). Cover and end card follow the schedule (title + hook, next episode EN09); see the 2026-11-27 note at the end. Waiting for hand finishing. |
 | Opening line | *One sky. Hawaiians see four star lines home.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4, E07; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -40,28 +40,28 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English (E01 only; the schedule's hook `1976: no compass, no map — 34 days to Tahiti.` is for the caption and the schedule, not the cover); EN · EP48 tag |
-| 2 | | 鏡頭01開始 | 4 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 4 | E02 |
-| 4 | | 鏡頭02結束 | 4 | E03; labels 大角星／角宿一 → Arcturus／Spica (Hōkūleʻa, Hikianalia stay) |
-| 5 | | 鏡頭02-概念圖1 | 3 | map, English (`_概念圖/en/C-A09-03_航線與三角_島嶼層_透明.png`); E04 headline only |
-| 6 | | 鏡頭02-概念圖2 | 3 | map + route layer, English (`…_航線層_透明.png`); E04 headline only |
-| 7 | | 鏡頭02-概念圖收＝鏡頭03開始 | 5 | diagram fades; E05; labels as page 4; then straight to 11 (pages 8–10, the Chinese star-compass diagram, removed) |
-| 11 | | 鏡頭04-概念圖收＝鏡頭05開始 | 6 | E06; label 脊椎骨 → the backbone (Ka Iwikuamoʻo stays) |
-| 12 | | 鏡頭05結束＝鏡頭06開始 | 5 | E07; label 南十字 → Southern Cross (Hānaiakamalama stays) |
-| 13 | | 鏡頭06結束 | 6 | E08; label 北極星 → North Star (Hōkūpaʻa stays) |
-| 14 | | 長圖轉北盤1＝鏡頭07開始 | 2 | **hard cut (no transition)** from 13: same frame, wide chart → north disc; E09; label as page 13 |
-| 15 | | 鏡頭07結束＝鏡頭08開始 | 6 | E09; disc labels Makaliʻi 的舀水杓／脊椎骨／酋長的釣線／Kawelo 的風箏 → Makaliʻi’s bailer／the backbone／the chief’s fishing line／Kawelo’s kite (labels keep the full names); then straight to 17 (page 16, the pointer stars, removed) |
-| 17 | | 北盤轉長圖1-歸位 | 2 | transition: the disc turns back to 0°; **hide the red pointer layer (北盤L9)**, since page 16 is gone |
-| 18 | | 北盤轉長圖1 | 2 | **hard cut (no transition)** from 17: disc → wide chart; hide the pointer layer (L9) here too |
-| 19 | | 北盤轉長圖1-下移＝鏡頭09開始 | 4 | E11; label 南十字 → Southern Cross |
-| 20 | | 鏡頭09-概念圖1 | 4 | latitude diagram, English (`_概念圖/en/C-A09-02_緯度尺_天頂星層_透明.png`); E12 headline only |
-| 21 | | 鏡頭09-概念圖2 | 4 | + Southern Cross layer, English (`…_南十字層_透明.png`); E12 headline only; then **hard cut (no transition)** to 30 (pages 22–29, the fishing line, the navigator's triangle and the kite, removed) |
-| 30 | | 鏡頭13開始 | 7 | E13; labels 五車二／北河二／北河三／南河三／天狼星／參宿三／獵戶座 → Capella／Castor／Pollux／Procyon／Sirius／Mintaka／Orion (Hawaiian names stay) |
-| 31 | | 鏡頭13結束＝鏡頭14開始 | 7 | E14; **delete the two Siberian labels** (西伯利亞：鴨巢／打穀者; that episode is not in the English story); 昴宿星團／參宿三／獵戶座 → the Pleiades／Mintaka／Orion |
-| 32 | | 鏡頭14結束 | 5 | E15; labels 五車二／昴宿星團 → Capella／the Pleiades; then straight to 40 (pages 33–39, the turning disc and the Taipei-tonight horizon, removed) |
-| 40 | | 端卡（下集見） | 3 | E16 |
-| 41 | | 追蹤頁 | — | E17 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English (E01 only; the schedule's hook `1976: no compass, no map — 34 days to Tahiti.` is for the caption and the schedule, not the cover); EN · EP48 tag |
+| 2 | 2 | 鏡頭01開始 | 4 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 4 | E02 |
+| 4 | 4 | 鏡頭02結束 | 4 | E03; labels 大角星／角宿一 → Arcturus／Spica (Hōkūleʻa, Hikianalia stay) |
+| 5 | 5 | 鏡頭02-概念圖1 | 3 | map, English (`_概念圖/en/C-A09-03_航線與三角_島嶼層_透明.png`); E04 headline only |
+| 6 | 6 | 鏡頭02-概念圖2 | 3 | map + route layer, English (`…_航線層_透明.png`); E04 headline only |
+| 7 | 7 | 鏡頭02-概念圖收＝鏡頭03開始 | 5 | diagram fades; E05; labels as page 4; then straight to 11 (pages 8–10, the Chinese star-compass diagram, removed) |
+| 11 | 8 | 鏡頭04-概念圖收＝鏡頭05開始 | 6 | E06; label 脊椎骨 → the backbone (Ka Iwikuamoʻo stays) |
+| 12 | 9 | 鏡頭05結束＝鏡頭06開始 | 5 | E07; label 南十字 → Southern Cross (Hānaiakamalama stays) |
+| 13 | 10 | 鏡頭06結束 | 6 | E08; label 北極星 → North Star (Hōkūpaʻa stays) |
+| 14 | 11 | 長圖轉北盤1＝鏡頭07開始 | 2 | **hard cut (no transition)** from 13: same frame, wide chart → north disc; E09; label as page 13 |
+| 15 | 12 | 鏡頭07結束＝鏡頭08開始 | 6 | E09; disc labels Makaliʻi 的舀水杓／脊椎骨／酋長的釣線／Kawelo 的風箏 → Makaliʻi’s bailer／the backbone／the chief’s fishing line／Kawelo’s kite (labels keep the full names); then straight to 17 (page 16, the pointer stars, removed) |
+| 17 | 13 | 北盤轉長圖1-歸位 | 2 | transition: the disc turns back to 0°; **hide the red pointer layer (北盤L9)**, since page 16 is gone |
+| 18 | 14 | 北盤轉長圖1 | 2 | **hard cut (no transition)** from 17: disc → wide chart; hide the pointer layer (L9) here too |
+| 19 | 15 | 北盤轉長圖1-下移＝鏡頭09開始 | 4 | E11; label 南十字 → Southern Cross |
+| 20 | 16 | 鏡頭09-概念圖1 | 4 | latitude diagram, English (`_概念圖/en/C-A09-02_緯度尺_天頂星層_透明.png`); E12 headline only |
+| 21 | 17 | 鏡頭09-概念圖2 | 4 | + Southern Cross layer, English (`…_南十字層_透明.png`); E12 headline only; then **hard cut (no transition)** to 30 (pages 22–29, the fishing line, the navigator's triangle and the kite, removed) |
+| 30 | 18 | 鏡頭13開始 | 7 | E13; labels 五車二／北河二／北河三／南河三／天狼星／參宿三／獵戶座 → Capella／Castor／Pollux／Procyon／Sirius／Mintaka／Orion (Hawaiian names stay) |
+| 31 | 19 | 鏡頭13結束＝鏡頭14開始 | 7 | E14 (**placed top-left, narrow box**: the lower half is taken by the Ka Heihei／Orion labels); **delete the two Siberian labels** (西伯利亞：鴨巢／打穀者; that episode is not in the English story); 昴宿星團／參宿三／獵戶座 → the Pleiades／Mintaka／Orion |
+| 32 | 20 | 鏡頭14結束 | 5 | E15; labels 五車二／昴宿星團 → Capella／the Pleiades; then straight to 40 (pages 33–39, the turning disc and the Taipei-tonight horizon, removed) |
+| 40 | 21 | 端卡（下集見） | 3 | E16 |
+| 41 | 22 | 追蹤頁 | — | E17 |
 
 Total 89 s.
 
@@ -155,3 +155,9 @@ Source: `04_腳本庫/_審稿/EN48_審稿_gemini.md`. Each 🔴🟡 checked agai
 - Gemini doubts #2 (Navajo teaser) checked: matches EN09 title in the schedule. #5: see item 12. #6: spelling, see item 2.
 
 No `en` block in `A-09_Canva媒體ID.json` yet → no Canva edits in this card.
+
+## Canva pass (2026-11-27)
+
+- **Cover**: World Sky Cultures (96 px bold) / 萬國星空 (40) / NTNU Astronomy Club / `Hawaiʻi: Four Star Lines Home` (schedule title) / `1976: no compass, no map — 34 days to Tahiti.` (schedule hook) / tag `EN · EP48`. The E01 line (`One sky. Hawaiians see four star lines home.`) is not on the cover (the card says cover = schedule title + hook); it stays in the caption-side wording if wanted.
+- **End card** (next episode by publish date = EN09, Wed 2027-01-13): `Next Wednesday` / `Navajo: Star Stories Told Only in Winter` / hook `Coyote scattered the stars — and this story is told only in winter.` (19 words: hold the page about 8 s, not 3 s). Follow page: `Follow for a new sky every week.` (handles and credits unchanged).
+- Pages with positions different from the table: p7 headline at Y 1060 (two lines, above the horizon line) with the body at Y 1290; p31 top-left narrow box; p30 compressed (56/38 px, bottom, kept above Y 1580).
