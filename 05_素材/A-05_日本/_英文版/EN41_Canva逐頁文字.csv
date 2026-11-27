@@ -1,40 +1,44 @@
 ﻿Canva頁,現在頁,頁名,停留秒,英文字卡,英文字幕,位置,處理
-1,,開場字卡,3,World Sky Cultures,"In Japan, Orion’s Belt is a plough.",cover,"Cover: text block replaced with English; second line = the schedule’s hook; EN · EP41 tag; then **hard cut (no transition)** to 23 (pages 2–22, the Subaru opening, the Kitora tomb chart, its four circles and the latitude dispute, removed)"
-23,,鏡頭06開始,6,"Borrowed grid, new names","Japan took China’s Twenty-Eight
+1,1,開場字卡,3,World Sky Cultures,"One sky. Japan renamed it — in its own
+words. In Japan, Orion’s Belt is a
+plough.",cover,"Cover: text block replaced with English; second line = the schedule’s hook; EN · EP41 tag; then **hard cut (no transition)** to 23 (pages 2–22, the Subaru opening, the Kitora tomb chart, its four circles and the latitude dispute, removed)"
+23,2,鏡頭06開始,6,"Borrowed grid, new names","Japan took China’s Twenty-Eight
 Mansions: the whole grid, but not the
 names.",bottom,E02; labels: kana + English meaning for Tokakiboshi … Karasukiboshi (奎–参); 胃 and 觜 (no agreed meaning) keep the kana only
-24,,鏡頭06結束＝鏡頭07開始,6,,"In the Edo period, scholars gave each
+24,3,鏡頭06結束＝鏡頭07開始,6,,"In the Edo period, scholars gave each
 mansion a Japanese reading. In the
 western sky:",bottom,E03; labels as 23
-25,,鏡頭07結束＝鏡頭08開始,7,,"Tokakiboshi: a rice-levelling rod.
+25,4,鏡頭07結束＝鏡頭08開始,7,,"Tokakiboshi: a rice-levelling rod.
 Tataraboshi: possibly a bellows.
 Karasukiboshi: a plough.",bottom,"E04; labels as 23; then the sky moves east to 28 (pages 26–27, the Korea comparison card and the southern-mansions sweep, removed)"
-28,,鏡頭09結束＝鏡頭10開始,4,"Scholars’ readings, not folk names","These are mid-Edo readings, not old folk
+28,5,鏡頭09結束＝鏡頭10開始,4,"Scholars’ readings, not folk names","These are mid-Edo readings, not old folk
 names. Eleven of the 28 still have no
 agreed meaning.",bottom,E05; kana labels of the southern mansions (井–軫) stay; mansions with no agreed meaning (井 張 軫) keep the kana only: never paste the label table’s “(no agreed meaning) — Stellarium: …” notes on screen
-29,,鏡頭10結束,5,"Scholars’ readings, not folk names","These are mid-Edo readings, not old folk
+29,6,鏡頭10結束,5,"Scholars’ readings, not folk names","These are mid-Edo readings, not old folk
 names. Eleven of the 28 still have no
 agreed meaning.",bottom,"E05 (the Chinese card 江戸の訳名／十一個意味不明 is replaced by E05); then the sky moves to 32 (pages 30–31, the Hyades folk names, removed)"
-32,,鏡頭12開始,6,But two are real,"One is Subaru, the Pleiades. A
+32,7,鏡頭12開始,6,But two are real,"One is Subaru, the Pleiades. A
 dictionary recorded it around 934 CE.",top,E06 (the three Chinese source cards are replaced by E06); labels すばるぼし → Subaruboshi / gathered into one bundle
-33,,鏡頭12結束＝鏡頭13開始,6,,"The word means to gather scattered
+33,8,鏡頭12結束＝鏡頭13開始,6,,"The word means to gather scattered
 things into one bundle.",top,E07
-34,,鏡頭13結束,6,,"In 1955, a carmaker chose the name: six
+34,9,鏡頭13結束,6,,"In 1955, a carmaker chose the name: six
 stars for six merged companies.",top,"E08; **no car logo** (as in the Chinese: we do not draw trademarks); then **hard cut (no transition)** to 37 (pages 35–36, the dialect diagram, removed)"
-37,,鏡頭14開始,8,The second: the plough star,"Karasukiboshi: Orion’s Belt, often with
+37,10,鏡頭14開始,8,The second: the plough star,"Karasukiboshi: Orion’s Belt, often with
 the three small stars below — a bent
 handle, a plough.",bottom,E09; label からすきぼし 唐鋤星 → Karasukiboshi / plough star (Japan)
-38,,鏡頭14結束,9,"Same stars, more tools","The Bugis: a plough. Romania: a little
+38,11,鏡頭14結束,9,"Same stars, more tools","The Bugis: a plough. Romania: a little
 plough. Belarus: mowers. Siberia:
 threshers. The Tukano: an adze handle.",bottom,"E10; cross-culture labels (English from the label table, culture in brackets): Bintoéng Rakkalaé / Plough (Bugis, Sulawesi), Rarița / The Little Plough (Romania), Касцы Kastsy / The Mowers (Belarus), Kichigi / Threshers (Siberia), Sioyahpu / Adze Handle (Tukano, Amazon); the other belt labels (Sfredelul mare, Sos Bacheddos, al-Naẓm, Ullaktut, 桛星) are removed"
-39,,鏡頭15開始,7,,"Unlikely they copied each other.
+39,12,鏡頭15開始,7,,"Unlikely they copied each other.
 Wherever people live by the sky, they
 see their own tools.",bottom,"E11; then the sky moves to 47 (pages 40–46, the north-disc Myōken / Onmyōryō shot, removed)"
-47,,鏡頭17開始,6,Northern skies: look south in January,"Around 20:00, the Pleiades are high in
+47,13,鏡頭17開始,6,Northern skies: look south in January,"Around 20:00, the Pleiades are high in
 the south. Orion’s Belt, the plough,
 follows to the southeast.",bottom,E12; the Chinese end card EP6 中秋 in the frame is removed; kana labels as 23; mansions with no agreed meaning (胃 觜) keep the kana only
-48,,鏡頭17結束,4,Northern skies: look south in January,"Around 20:00, the Pleiades are high in
+48,14,鏡頭17結束,4,Northern skies: look south in January,"Around 20:00, the Pleiades are high in
 the south. Orion’s Belt, the plough,
 follows to the southeast.",bottom,E12
-49,,端卡（下集見）,3,Next Wednesday,The Blackfoot: lost children in the sky.,endcard,E13
-50,,追蹤頁,3,,Follow for a new sky every week.,endcard,E14
+49,15,端卡（下集見）,3,Next Wednesday,"Blackfoot: The Lost Children in the Sky.
+Painted on top of the tipi: the Big
+Dipper and the Pleiades.",endcard,E13
+50,16,追蹤頁,3,,Follow for a new sky every week.,endcard,E14
