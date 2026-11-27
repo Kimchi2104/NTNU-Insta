@@ -6,7 +6,7 @@
 | Publish | **2027-01-03 (Sun) 21:00 Taiwan time** — EN44 in `06_發布月曆/節目表_萬國星空_英文版.csv` (an already-aired Chinese episode; Sunday slot because all three candidate star groups are up in one evening) |
 | Length | **87.5 s** to the end card (+ follow page), 17 beats, ~196 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the empty centre of the Four Symbols** — an old list of five creature chiefs puts a human there, and nobody knows which stars that human is. Three candidates, no answer. |
-| Canva | Copy of `C-03 麒麟與裸獸` → `EN44 C-03 麒麟與裸獸`. **C-03 page numbers = the numbers in `_canva/C-03_逐頁製作表.md` as written** (that table already counts the opening page as p1, so no +1); 下集見 = 45, 追蹤 = 46, 參考文獻 = 47. Every content page is a concept diagram (1080 × 1080 square at Y 420–1500): swap in the English layers from `05_素材/C-03_麒麟與倮獸/_概念圖/en/` (same sub-folders and file names as the Chinese layers). Text goes **only in the strip under the square** (`bottom` = X 110, Y 1505, W 860, 40 px, ≤ 3 lines) — nothing over the diagram; no headlines on content pages, because each English diagram already carries its own title. |
+| Canva | `EN44 C-03 麒麟與裸獸` (DAHZrRH_Rm8), a copy of the Chinese design. **Placed 2026-11-27**: English layers + strip text on 28 content pages, cover, next-episode and follow pages; they now sit in order as Canva pages 1–31 (the "Now" column below), page 32 = 參考文獻 (kept, Chinese sources), pages 33–47 = unused — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers. Strip text = 40 px, X 110 Y 1505 W 860. Copy of `C-03 麒麟與裸獸` → `EN44 C-03 麒麟與裸獸`. **C-03 page numbers = the numbers in `_canva/C-03_逐頁製作表.md` as written** (that table already counts the opening page as p1, so no +1); 下集見 = 45, 追蹤 = 46, 參考文獻 = 47. Every content page is a concept diagram (1080 × 1080 square at Y 420–1500): swap in the English layers from `05_素材/C-03_麒麟與倮獸/_概念圖/en/` (same sub-folders and file names as the Chinese layers). Text goes **only in the strip under the square** (`bottom` = X 110, Y 1505, W 860, 40 px, ≤ 3 lines) — nothing over the diagram; no headlines on content pages, because each English diagram already carries its own title. |
 | Opening line | *One sky. Ancient China counted five sacred beasts. One vanished.* |
 | Reading speed | ≤ 2.5 words/sec on every beat (max 2.5; = words in Text ÷ seconds that text is on screen, headline not counted) |
 
@@ -36,41 +36,41 @@
 
 ## Page sequence (what the editor sets in Canva)
 
-`Canva page` = the page number in the Chinese design (= `C-03_逐頁製作表.md`, no +1 for this episode). Pages not listed are unused: 15, 17–27, 36, 37, 44, 47. Transitions are Match & Move unless marked.
+`Canva page` = the page number in the Chinese design (= `C-03_逐頁製作表.md`, no +1 for this episode). Pages not listed are unused: 15, 17–27, 36, 37, 44 (47 = 參考文獻, kept as is). `Now` = the page's position after the unused pages were moved to the back (2026-11-27). Transitions are Match & Move unless marked.
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開頭頁 | 4 | Cover: text block replaced with English; EN · EP44 tag |
-| 2 | | 鏡頭02-四象・青龍 | 1.5 | E02; English layers `四象與五象/四象盤_題辭_四象層`、`外圈`、`青龍` |
-| 3 | | 鏡頭02-＋朱雀 | 1 | E02; ＋`朱雀層` |
-| 4 | | 鏡頭02-＋白虎 | 1 | E02; ＋`白虎層` |
-| 5 | | 鏡頭02-＋玄武 | 1.5 | E02; ＋`玄武層` |
-| 6 | | 鏡頭02-＋中央留空 | 3 | E03; ＋`中央留空層` (“?” / centre) |
-| 7 | | 鏡頭03-五蟲說 | 3.5 | E04; English `五蟲說/五蟲說_題辭層`、`表頭層` |
-| 8 | | 鏡頭03-＋羽 | 1.5 | E04; ＋`列1層` |
-| 9 | | 鏡頭03-＋毛 | 1.5 | E05; ＋`列2層` |
-| 10 | | 鏡頭03-＋甲 | 1.5 | E05; ＋`列3層` |
-| 11 | | 鏡頭03-＋鱗 | 2 | E05; ＋`列4層` |
-| 12 | | 鏡頭04-＋倮 | 2 | E06; ＋`列5層` |
-| 13 | | 鏡頭04-＋結語 | 3.5 | E06; ＋`結語層` |
-| 14 | | 鏡頭05-對照 | 2 | E07; English `四象五蟲對照/對照_題辭層`、`欄位層`、`項目層` |
-| 16 | | 鏡頭05-＋對不上 | 5 | E07; ＋`對得上層`＋`對不上層` (page 15 removed: both link layers now appear together) |
-| 28 | | 鏡頭09-中央倮獸 | 3 | E08; English `四象盤_題辭_中央層`＋wheel＋`中央倮獸層` |
-| 29 | | 鏡頭09-＋月令 | 4 | E08; ＋`月令層` |
-| 30 | | 鏡頭09-三候選 | 4.5 | E09; English `倮獸主星候選/候選_題辭層`、`方框層` |
-| 31 | | 鏡頭10-軒轅 | 2.5 | E10; English `軒轅十七星/軒轅_題辭層` (stars and lines are the same as Chinese) |
-| 32 | | 鏡頭10-＋名稱線索 | 3 | E10; ＋`名稱層`＋`線索層` |
-| 33 | | 鏡頭10-＋十七顆 | 5 | E11; ＋`編號層` (numbers 1–17) |
-| 34 | | 鏡頭11-牛郎織女 | 3.5 | E12; English `牛郎織女/牛郎織女_題辭層`、`名稱層` |
-| 35 | | 鏡頭11-＋夏季大三角 | 3.5 | E12; ＋`三鹿層` (= Summer Triangle layer; file name kept from v1) |
-| 38 | | 鏡頭12-＋弧旌枉矢 | 3 | E13; English `考工記五旗/五旗_題辭層`＋`旗1–5層` (pages 36–37 removed: all five flags appear at once) |
-| 39 | | 鏡頭12-＋結語 | 3 | E13; ＋`結語層` |
-| 40 | | 鏡頭12-弧矢 | 2.5 | E14; English `弧矢九星/弧矢_題辭層`、`名稱層`、`天狼層` |
-| 41 | | 鏡頭12-＋直狼 | 4.5 | E14; ＋`直狼層` (arrow to Sirius) |
-| 42 | | 鏡頭13-三候選？ | 3 | E15; English `候選_題辭層`、`方框層`、`問號層` |
-| 43 | | 鏡頭13-＋沒有答案 | 5 | E15; ＋`結語層` (“Still no answer”) |
-| 45 | | 下集見 | 3 | E16 |
-| 46 | | 追蹤我們 | — | E17 |
+| 1 | 1 | 開頭頁 | 4 | Cover: text block replaced with English; EN · EP44 tag |
+| 2 | 2 | 鏡頭02-四象・青龍 | 1.5 | E02; English layers `四象與五象/四象盤_題辭_四象層`、`外圈`、`青龍` |
+| 3 | 3 | 鏡頭02-＋朱雀 | 1 | E02; ＋`朱雀層` |
+| 4 | 4 | 鏡頭02-＋白虎 | 1 | E02; ＋`白虎層` |
+| 5 | 5 | 鏡頭02-＋玄武 | 1.5 | E02; ＋`玄武層` |
+| 6 | 6 | 鏡頭02-＋中央留空 | 3 | E03; ＋`中央留空層` (“?” / centre) |
+| 7 | 7 | 鏡頭03-五蟲說 | 3.5 | E04; English `五蟲說/五蟲說_題辭層`、`表頭層` |
+| 8 | 8 | 鏡頭03-＋羽 | 1.5 | E04; ＋`列1層` |
+| 9 | 9 | 鏡頭03-＋毛 | 1.5 | E05; ＋`列2層` |
+| 10 | 10 | 鏡頭03-＋甲 | 1.5 | E05; ＋`列3層` |
+| 11 | 11 | 鏡頭03-＋鱗 | 2 | E05; ＋`列4層` |
+| 12 | 12 | 鏡頭04-＋倮 | 2 | E06; ＋`列5層` |
+| 13 | 13 | 鏡頭04-＋結語 | 3.5 | E06; ＋`結語層` |
+| 14 | 14 | 鏡頭05-對照 | 2 | E07; English `四象五蟲對照/對照_題辭層`、`欄位層`、`項目層` |
+| 16 | 15 | 鏡頭05-＋對不上 | 5 | E07; ＋`對得上層`＋`對不上層` (page 15 removed: both link layers now appear together) |
+| 28 | 16 | 鏡頭09-中央倮獸 | 3 | E08; English `四象盤_題辭_中央層`＋wheel＋`中央倮獸層` |
+| 29 | 17 | 鏡頭09-＋月令 | 4 | E08; ＋`月令層` |
+| 30 | 18 | 鏡頭09-三候選 | 4.5 | E09; English `倮獸主星候選/候選_題辭層`、`方框層` |
+| 31 | 19 | 鏡頭10-軒轅 | 2.5 | E10; English `軒轅十七星/軒轅_題辭層` (stars and lines are the same as Chinese) |
+| 32 | 20 | 鏡頭10-＋名稱線索 | 3 | E10; ＋`名稱層`＋`線索層` |
+| 33 | 21 | 鏡頭10-＋十七顆 | 5 | E11; ＋`編號層` (numbers 1–17) |
+| 34 | 22 | 鏡頭11-牛郎織女 | 3.5 | E12; English `牛郎織女/牛郎織女_題辭層`、`名稱層` |
+| 35 | 23 | 鏡頭11-＋夏季大三角 | 3.5 | E12; ＋`三鹿層` (= Summer Triangle layer; file name kept from v1) |
+| 38 | 24 | 鏡頭12-＋弧旌枉矢 | 3 | E13; English `考工記五旗/五旗_題辭層`＋`旗1–5層` (pages 36–37 removed: all five flags appear at once) |
+| 39 | 25 | 鏡頭12-＋結語 | 3 | E13; ＋`結語層` |
+| 40 | 26 | 鏡頭12-弧矢 | 2.5 | E14; English `弧矢九星/弧矢_題辭層`、`名稱層`、`天狼層` |
+| 41 | 27 | 鏡頭12-＋直狼 | 4.5 | E14; ＋`直狼層` (arrow to Sirius) |
+| 42 | 28 | 鏡頭13-三候選？ | 3 | E15; English `候選_題辭層`、`方框層`、`問號層` |
+| 43 | 29 | 鏡頭13-＋沒有答案 | 5 | E15; ＋`結語層` (“Still no answer”) |
+| 45 | 30 | 下集見 | 3 | E16 |
+| 46 | 31 | 追蹤我們 | — | E17 |
 
 Total 87.5 s to the start of the follow page (EN01 counts the same way).
 
