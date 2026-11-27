@@ -6,7 +6,7 @@
 | Publish | **2026-12-23 (Wed) 21:00 Taiwan time**: EN06 in `06_發布月曆/節目表_萬國星空_英文版.csv` (before Christmas: Yule has to come before 25 Dec) |
 | Length | **85 s**, 12 beats, ~127 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the wolf's jaw**. Yule as the frame (the feast older than Christmas in the North), the Hyades as Úlfs kjaptr, the wolves that chase the Sun and Moon, the jaw sitting by their road ("some guess"), and other peoples who also saw a jaw in the V |
-| Canva | Not made yet. Copy of the Chinese design `A-15 北歐` (DAHWtDlrVcE), to be named `EN06 A-15 北歐` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 45 = next-episode card, 46 = follow page). |
+| Canva | `EN06 A-15 北歐` (DAHZrQ8YGt0), a copy of the Chinese design. **Placed 2026-11-27**: English text, English diagrams and translated labels on the 18 kept pages, which now sit in order as Canva pages 1–18 (the "Now" column below); page 19 is the credits page (kept, unchanged); pages 20–47 are unused — delete them in grid view. Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 45 = next-episode card, 46 = follow page). |
 | Opening line | *One sky. The Vikings saw — a wolf’s jaw.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -31,28 +31,28 @@
 
 ## Page sequence (what the editor sets in Canva)
 
-`Canva page` = the original page number (Chinese design); `Now` = filled in by the Canva pass after the unused pages are moved to the back. Transitions are Match & Move unless marked. Labels on kept pages are translated in the Canva pass (as in EN01; the Chinese 中譯 line is replaced by the English one).
+`Canva page` = the original page number (Chinese design); `Now` = where the page sits after Claude moved the unused pages to the back (2026-11-27). Pages 20–47 are unused: delete them in grid view. Transitions are Match & Move unless marked. Labels on kept pages are translated in the Canva pass (as in EN01; the Chinese 中譯 line is replaced by the English one).
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule's hook; EN · EP06 tag |
-| 2 | | 鏡頭01開始 | 6 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 5 | E03; label Úlfs kjaptr／狼嘴（畢宿） → Úlfs kjaptr／the wolf’s jaw (Hyades) |
-| 4 | | 鏡頭02-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A15-01_Yule變聖誕_仲冬層_透明.png`) |
-| 5 | | 鏡頭02-概念圖2 | 5 | + `C-A15-01_Yule變聖誕_立法層_透明.png` (English) |
-| 6 | | 鏡頭02-概念圖3 | 4 | + `C-A15-01_Yule變聖誕_今天層_透明.png` (English) |
-| 7 | | 鏡頭02-概念圖收＝鏡頭03開始 | 2 | diagram fades; then straight to 13 (pages 8–12, the eight reindeer and the "few names survive" zoom-out, removed; same framing, so nothing moves) |
-| 13 | | 鏡頭05結束＝鏡頭06開始 | 7 | E05; label as page 3 |
-| 14 | | 鏡頭06結束 | 7 | E06; label as page 3 |
-| 15 | | 鏡頭06-概念圖1 | 4 | diagram → English (`_概念圖/en/C-A15-03_天上的追逐_太陽層_透明.png`) |
-| 16 | | 鏡頭06-概念圖2 | 4 | + `C-A15-03_天上的追逐_月亮層_透明.png` (English) |
-| 17 | | 鏡頭06-概念圖3 | 5 | + `C-A15-03_天上的追逐_神駒層_透明.png` (English) |
-| 18 | | 鏡頭06-概念圖收＝鏡頭07開始 | 2 | diagram fades; E08 |
-| 19 | | 鏡頭07結束＝鏡頭08開始 | 8 | E08; the Sun-and-Moon road (ecliptic) fades in; label as page 3 |
-| 20 | | 鏡頭08結束 | 9 | E09; cross-culture labels: 公牛的下顎（巴比倫）／鱷魚的嘴（Tikuna）／貘的下巴（圖皮）／貘的下巴（洛科諾）／狗群（因紐特） → bull’s jaw (Babylon)／crocodile’s mouth (Tikuna)／tapir’s jaw (Tupi)／tapir’s jaw (Lokono)／the Dogs (Inuit); then the sky moves to 40 (page 21, the Chinese "same V" card, removed) |
-| 40 | | 鏡頭15開始 | 8 | E10; labels: wolf’s jaw as page 3; Friggerock／Frigg 的紡紗桿（瑞典民間） → Friggerock／Frigg’s distaff (Swedish folk name); Fiskikarlar／漁夫（獵戶腰帶） → Fiskikarlar／the Fishermen (Orion’s Belt) |
-| 45 | | 端卡（下集見） | 3 | E11 |
-| 46 | | 追蹤頁 | — | E12 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule's hook; EN · EP06 tag |
+| 2 | 2 | 鏡頭01開始 | 6 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 5 | E03; label Úlfs kjaptr／狼嘴（畢宿） → Úlfs kjaptr／the wolf’s jaw (Hyades) |
+| 4 | 4 | 鏡頭02-概念圖1 | 3 | diagram → English (`_概念圖/en/C-A15-01_Yule變聖誕_仲冬層_透明.png`) |
+| 5 | 5 | 鏡頭02-概念圖2 | 5 | + `C-A15-01_Yule變聖誕_立法層_透明.png` (English) |
+| 6 | 6 | 鏡頭02-概念圖3 | 4 | + `C-A15-01_Yule變聖誕_今天層_透明.png` (English) |
+| 7 | 7 | 鏡頭02-概念圖收＝鏡頭03開始 | 2 | diagram fades; then straight to 13 (pages 8–12, the eight reindeer and the "few names survive" zoom-out, removed; same framing, so nothing moves) |
+| 13 | 8 | 鏡頭05結束＝鏡頭06開始 | 7 | E05; label as page 3 |
+| 14 | 9 | 鏡頭06結束 | 7 | E06; label as page 3 |
+| 15 | 10 | 鏡頭06-概念圖1 | 4 | diagram → English (`_概念圖/en/C-A15-03_天上的追逐_太陽層_透明.png`) |
+| 16 | 11 | 鏡頭06-概念圖2 | 4 | + `C-A15-03_天上的追逐_月亮層_透明.png` (English) |
+| 17 | 12 | 鏡頭06-概念圖3 | 5 | + `C-A15-03_天上的追逐_神駒層_透明.png` (English) |
+| 18 | 13 | 鏡頭06-概念圖收＝鏡頭07開始 | 2 | diagram fades; E08 |
+| 19 | 14 | 鏡頭07結束＝鏡頭08開始 | 8 | E08; the Sun-and-Moon road (ecliptic) fades in; label as page 3 |
+| 20 | 15 | 鏡頭08結束 | 9 | E09; cross-culture labels: 公牛的下顎（巴比倫）／鱷魚的嘴（Tikuna）／貘的下巴（圖皮）／貘的下巴（洛科諾）／狗群（因紐特） → bull’s jaw (Babylon)／crocodile’s mouth (Tikuna)／tapir’s jaw (Tupi)／tapir’s jaw (Lokono)／the Dogs (Inuit); then the sky moves to 40 (page 21, the Chinese "same V" card, removed) |
+| 40 | 16 | 鏡頭15開始 | 8 | E10; labels: wolf’s jaw as page 3; Friggerock／Frigg 的紡紗桿（瑞典民間） → Friggerock／Frigg’s distaff (Swedish folk name); Fiskikarlar／漁夫（獵戶腰帶） → Fiskikarlar／the Fishermen (Orion’s Belt) |
+| 45 | 17 | 端卡（下集見） | 3 | E11 |
+| 46 | 18 | 追蹤頁 | — | E12 |
 
 Total 85 s (the follow page is not counted, as in EN01).
 

@@ -36,5 +36,18 @@
     "C-A15-06_北歐星名小辭典_圖卡.png": "MAHXZx-T7MM",
     "C-A15-07_這週末抬頭看_圖卡.png": "MAHXZ7xEwUM"
   },
-  "concept_commit": "b4e99d2027ff83c08dd8da543d2180b76f07cbe5"
+  "concept_commit": "b4e99d2027ff83c08dd8da543d2180b76f07cbe5",
+  "en": {
+    "design_id": "DAHZrQ8YGt0",
+    "design_title": "EN06 A-15 北歐",
+    "commit": "b7be523a6db7af561ca81a6437291498e7515b5f",
+    "concept": {
+      "C-A15-01_Yule變聖誕_仲冬層_透明.png": "MAHcEhSCy70",
+      "C-A15-01_Yule變聖誕_立法層_透明.png": "MAHcEkAQlZE",
+      "C-A15-01_Yule變聖誕_今天層_透明.png": "MAHcEg_BNYM",
+      "C-A15-03_天上的追逐_太陽層_透明.png": "MAHcElJFgls",
+      "C-A15-03_天上的追逐_月亮層_透明.png": "MAHcEsnnDAs",
+      "C-A15-03_天上的追逐_神駒層_透明.png": "MAHcEqFkvg0"
+    }
+  }
 }
