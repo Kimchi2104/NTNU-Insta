@@ -25,5 +25,14 @@
  "_design": {
   "id": "DAHWs-SqnWM",
   "title": "A-08 西伯利亞"
+ },
+ "en": {
+  "design_id": "DAHZrZ1IvhE",
+  "design_title": "EN50 A-08 西伯利亞",
+  "commit": "a25f79aa5bdb0fa7346111c55ea53ba5d92e8b6e",
+  "concept": {
+   "C-A08-01_宇宙追獵_埃文基層_透明.png": "MAHcL6Fdj_U",
+   "C-A08-01_宇宙追獵_米克馬克層_透明.png": "MAHcL8xbgpc"
+  }
  }
 }
