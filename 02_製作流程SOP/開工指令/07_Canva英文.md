@@ -6,6 +6,7 @@
 ## 你先做
 - [ ] 該集**中文 Canva 已做完、手工收尾也做完**（副本不會同步；中文版沒做完就複製的副本只有上一集或韓國集的內容，要刪掉重複製）
 - [ ] 學校帳號：打開**同一集**的中文設計 → Make a copy → 名字＝中文原名前加 `EN{nn} `（例 `EN01 A-11 阿努塔`）→ 放「萬國星空 EN」資料夾 → 分享給 kimjoo2104（可編輯）
+- [ ] 副本超過 100 頁也不用再刪頁：卡 07 會自己另開一份只含英文版用得到的頁的「精簡稿」（EN16、EN17、EN18、EN20 這四集的中文版排了中間頁，副本刪掉片尾還是 100 頁以上）。它呼叫 merge-designs 時會跳一次權限確認，按允許
 - [ ] 看剩餘用量夠不夠做完一個 transaction
 
 ## 貼給 Claude（整段複製；保留一種存檔方式）
@@ -22,7 +23,13 @@
 4. 05_素材/{集}_…/_v4大畫布/{EP}_Canva媒體ID.json；EN01 的做法見 04_腳本庫/_英文版/EN01-A-11-Anuta-v1.md 表頭的 Canva 列
 
 要做：
-- read-design 開 transaction（大型輸出會存成檔案，用 python 解析）；對照 Page sequence 表決定每頁去留
+- **先看副本頁數**（search-designs 的 page_count）。≥ 100 頁的設計連接器開不了 transaction，也沒辦法在原地移頁，改走**精簡稿**：
+  1. 用 merge-designs（type＝create_new_design，title＝「{設計名}（精簡）」），一個 insert_pages：source 是那份副本，page_numbers 只列 Page sequence 表「Canva page」欄有的頁，照表的順序。這是另開一份新設計，不刪頁、不動原副本
+  2. 對精簡稿開 transaction，拿每頁備註裡的中文頁名對 Page sequence 表的「Chinese page name」，頁數與順序都要一致。對不上就停下來回報（表示副本的頁序跟中文設計不同），不要硬做。備註或秒數沒帶過來的話，備註照表重寫，秒數列進收尾清單
+  3. 之後全部在精簡稿上做。它的頁號就是表的列序，直接填進 Now 欄；裡面沒有不用的頁，所以不用移頁，Kim 也不用刪尾頁
+  4. 媒體ID.json 的 en.design_id 寫精簡稿的 ID，另記 en.source_design_id＝原副本。回報寫明成品是精簡稿（附連結）、原副本可以刪
+  5. merge-designs 做不出來 → 回報 Page sequence 表沒用到的頁號（寫成範圍），請 Kim 在格狀檢視刪到 99 頁以內再繼續
+- 副本 < 100 頁：read-design 開 transaction（大型輸出會存成檔案，用 python 解析）；對照 Page sequence 表決定每頁去留
 - 英文概念圖 upload-asset-from-url（commit SHA 的 raw 連結）→ 該頁 update_fill＋crop_media 0/0/1032/1032
 - 封面照版型第四節，文字＝英文節目表該列的「英文標題」＋「英文鉤子」；內容頁 add_text＋format_text（字卡 72 px 粗體、字幕 44 px、窄框 38–40 px，座標照放置規格第四節）；中譯標籤 replace_text 成英文（＋resize_element、position_element 對回星點）；「下集見」＝英文節目表裡**發布日排在本集之後的那一集**的英文標題＋鉤子（通常是 EN{nn+1}；節慶集前後不照編號，以發布日為準），追蹤我們改英文，參考文獻保留——這三頁不用問，直接改，改了什麼寫進回報；每頁備註改英文（EN{nn} p{原頁號} 頁名 — 到下一頁幾秒 — 這頁的文字）
 - 不用的頁全部 reorder_page 到最後一張保留頁之後；再用 design_content 讀回頁序（presenter_notes 在 transaction 裡可能是舊的，不能拿來比）
