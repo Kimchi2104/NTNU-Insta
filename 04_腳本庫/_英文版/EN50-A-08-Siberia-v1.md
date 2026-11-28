@@ -6,7 +6,7 @@
 | Publish | **2027-02-10 (Wed) 21:00 Taiwan time**: EN50 in `06_發布月曆/節目表_萬國星空_英文版.csv` (February evenings: the Big Dipper climbs in the northeast) |
 | Length | **89 s** (including the 3 s follow page), 15 beats, ~188 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the Evenki cosmic hunt**. The Big Dipper is a moose that carries off the sun each evening; the hunter Mangi shoots it and brings the sun back. Bowl = the moose’s legs, handle = the hunters, Little Dipper = the calf, Milky Way = Mangi’s ski track. Some scholars think the same story crossed into North America (the Mi’kmaq: a bear and its hunters). The sky turns, and the hunt never ends |
-| Canva | Not made yet. Copy of the Chinese design `A-08 西伯利亞` (design ID not recorded in the repo), to be named `EN50 A-08 西伯利亞` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 39 = next-episode card, 40 = follow page). **If the Chinese design has no pages 39–40** (end card made inside page 38), put E14 and E15 on two copies of page 37 instead. |
+| Canva | `EN50 A-08 西伯利亞` (DAHZrZ1IvhE), a copy of the Chinese design. **Placed 2026-11-28**: English text, English diagrams and translated labels on the 19 kept pages, now Canva pages 1–19 (the "Now" column below); page 20 is the references page (kept as the last page); pages 21–44 are unused: delete them in grid view. **The real Chinese design has 44 pages and its numbering is shifted from the page numbers below** (split caption pages): the "Canva page" column below is this file's numbering; original design index = Canva page + 1 for 5–13, diagram pages 13/14 = index 15/16, the Mi’kmaq page 15 = index 14 (moved after the diagrams), 34/35/36/37 = index 37/38/39/40, 39/40 = index 42/43. Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 39 = next-episode card, 40 = follow page). **If the Chinese design has no pages 39–40** (end card made inside page 38), put E14 and E15 on two copies of page 37 instead. |
 | Opening line | *One sky. Siberian hunters saw — a hunt that never ends.* (= the Chinese 統一開頭) |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.43; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -38,27 +38,34 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP50 tag |
-| 2 | | 鏡頭01開始 | 2 | E02 (page 3, the end of the opening zoom, removed: the sky moves straight from 2 to 4) |
-| 4 | | 鏡頭02開始 | 3 | E02; label 駝鹿 → moose (under Лось) |
-| 5 | | 鏡頭02結束 | 3 | E02; labels as 4 |
-| 6 | | 鏡頭03開始 | 7 | E03; label 宇宙駝鹿（埃文基） → the cosmic moose (Evenki) (under Хэглэн) |
-| 7 | | 鏡頭03結束 | 6 | E04; labels as 6 |
-| 8 | | 鏡頭04開始 | 7 | E05; labels 駝鹿的腳／三個獵人 → the moose’s legs／three hunters |
-| 9 | | 鏡頭04結束 | 7 | E06; labels as 8; then the sky moves to 11 (page 10, where the Хэглэн label returns at the bottom, removed) |
-| 11 | | 鏡頭05結束＝鏡頭06開始 | 6 | E07; labels 駝鹿的腳／三個獵人／小駝鹿／雪橇痕＝銀河 → the moose’s legs／three hunters／the calf／ski track = Milky Way |
-| 12 | | 鏡頭06結束 | 7 | E08; labels as 11 |
-| 13 | | 鏡頭06-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A08-01_宇宙追獵_埃文基層_透明.png`); E08 headline only |
-| 14 | | 鏡頭06-概念圖2 | 3 | + `_概念圖/en/C-A08-01_宇宙追獵_米克馬克層_透明.png`; E08 headline only |
-| 15 | | 鏡頭06-概念圖收 | 7 | diagram fades; E09; labels as 11; then **hard cut (no transition)** to 34 (pages 16–33, the Golden Stake, the migrating birds, the Goose Road, the Duck Nest and the Threshers, removed) |
-| 34 | | 鏡頭15結束 | 3 | E10; the Golden Stake circle stays, no label |
-| 35 | | 長圖轉北盤1＝鏡頭16開始 | 2 | E10; **no transition** from 34 (same frame, strip chart swapped for the north disc) |
-| 36 | | 鏡頭16結束＝鏡頭17開始 | 7 | E11; the disc turns (Match & Move from 35), mountain low (Tura, 64° N) |
-| 37 | | 鏡頭17結束＝鏡頭18開始 | 7 | E12; **move the mountain back down to where it is on 36** (Y≈1796), so the whole Dipper stays above the horizon (the Chinese page raises it to Taipei’s horizon, which hides the bowl: right for 9 Oct in Taipei, wrong for this text) |
-| 39 | | 端卡（下集見） | 3 | E14 |
-| 40 | | 追蹤頁 | 3 | E15 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP50 tag |
+| 2 | 2 | 鏡頭01開始 | 2 | E02 (page 3, the end of the opening zoom, removed: the sky moves straight from 2 to 4) |
+| 4 | 3 | 鏡頭02開始 | 3 | E02; label 駝鹿 → moose (under Лось) |
+| 5 | 4 | 鏡頭02結束 | 3 | E02; labels as 4 |
+| 6 | 5 | 鏡頭03開始 | 7 | E03; label 宇宙駝鹿（埃文基） → the cosmic moose (Evenki) (under Хэглэн) |
+| 7 | 6 | 鏡頭03結束 | 6 | E04; labels as 6 |
+| 8 | 7 | 鏡頭04開始 | 7 | E05; labels 駝鹿的腳／三個獵人 → the moose’s legs／three hunters |
+| 9 | 8 | 鏡頭04結束 | 7 | E06; labels as 8; then the sky moves to 11 (page 10, where the Хэглэн label returns at the bottom, removed) |
+| 11 | 9 | 鏡頭05結束＝鏡頭06開始 | 6 | E07; labels 駝鹿的腳／三個獵人／小駝鹿／雪橇痕＝銀河 → the moose’s legs／three hunters／the calf／ski track = Milky Way |
+| 12 | 10 | 鏡頭06結束 | 7 | E08; labels as 11 |
+| 13 | 11 | 鏡頭06-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A08-01_宇宙追獵_埃文基層_透明.png`); E08 headline only |
+| 14 | 12 | 鏡頭06-概念圖2 | 3 | + `_概念圖/en/C-A08-01_宇宙追獵_米克馬克層_透明.png`; E08 headline only |
+| 15 | 13 | 鏡頭06-概念圖收 | 7 | diagram fades; E09; labels as 11; then **hard cut (no transition)** to 34 (pages 16–33, the Golden Stake, the migrating birds, the Goose Road, the Duck Nest and the Threshers, removed) |
+| 34 | 14 | 鏡頭15結束 | 3 | E10; the Golden Stake circle stays, no label |
+| 35 | 15 | 長圖轉北盤1＝鏡頭16開始 | 2 | E10; **no transition** from 34 (same frame, strip chart swapped for the north disc) |
+| 36 | 16 | 鏡頭16結束＝鏡頭17開始 | 7 | E11; the disc turns (Match & Move from 35), mountain low (Tura, 64° N) |
+| 37 | 17 | 鏡頭17結束＝鏡頭18開始 | 7 | E12; **move the mountain back down to where it is on 36** (Y≈1796), so the whole Dipper stays above the horizon (the Chinese page raises it to Taipei’s horizon, which hides the bowl: right for 9 Oct in Taipei, wrong for this text) |
+| 39 | 18 | 端卡（下集見） | 3 | E14 |
+| 40 | 19 | 追蹤頁 | 3 | E15 |
 
 Total 89 s (E15 included).
+
+### Canva pass notes (2026-11-28, card 07)
+
+- Page 20 in the Canva design is the references page (original index 44), kept as the last page after the follow page; pages 21–44 are unused.
+- Pos that differ from the Beats table: **p13/p14** (diagram pages): headline at the top (X110 Y262, 64 px bold) because the 1032 px diagram panel fills the middle; **p8** (E05): headline Y1362 + body Y1448 (not Y1290/1375) because the bowl’s lower star sits at Y≈1296; **p12** (E08): two-line headline X110 Y1225 W600 (56 px) with the body at Y1375 (40 px); **p15** (E09): moved after the two diagram pages as in the table (original index 14); **p37** (E12): the real design’s mountain on that page was already at the same height as p36 (Y≈1624, not raised), so only a 5 px nudge was needed; **p39**: headline “Next Wednesday” 100 px + the EN14 title and hook (52 px, centred), per the card rule (the table’s E14 line is shorter).
+- Narrow boxes (W 520–600): p2, p4, p5 (E02), p6, p7 (E03, E04), p11, p12, p13 (E07, E08, E09).
+- Reading speed on p39 is above 2.5 w/s with the full title + hook (about 19 words in 3 s): set that page to 5–6 s or shorten it.
 
 ## Glossary (every name used)
 
