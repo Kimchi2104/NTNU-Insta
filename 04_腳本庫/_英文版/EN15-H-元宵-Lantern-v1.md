@@ -6,7 +6,7 @@
 | Publish | **2027-02-20 (Sat, Lantern Festival) 21:00 Taiwan time** (festival short, same day as the Chinese): EN15 in `06_發布月曆/節目表_萬國星空_英文版.csv` |
 | Length | **48 s** (festival short, 30–60 s), 10 beats, ~93 words on screen (no voice-over; text over light music) |
 | Story | One story only: **one name, two things**. The Lantern Festival is the Upper Yuan, the Heaven Official's birthday; he is also called Ziwei Dadi — the same name as the Ziwei Enclosure, the star region at the centre of the northern sky. A god of worship and an ancient star region share a name, nothing more. Just outside its walls, the Big Dipper is the Sky Emperor's chariot. Ends with tonight's nearly full Moon near Jupiter and Mars |
-| Canva | Not made yet. Copy of the Chinese design `H - 元宵` (DAHWtNPA5go), to be named `EN15 H - 元宵` (card 07). Page numbers below are the Chinese design's numbers (= Chinese 製作表 page + 1; page 1 = cover, 2–13 = 製作表 1–12, 14 = next-episode card, 15 = follow page — 14/15 assumed from the H-冬至 layout; card 07 checks). |
+| Canva | `EN15 H-元宵` (DAHZrWJ5NmE). **Placed 2026-11-28 (card 07)**: English text, English diagrams and translated labels on the 15 story pages, which sit in order as Canva pages 1–15 (the "Now" column below = the original numbers; nothing had to move). Pages 16–62 are unused (pages 16–47 are the old Korean A-04 pages that came with the copy, 48–62 the references/credits pages) — delete them in grid view. The copy held the Korean episode, not H-元宵, so the 15 Chinese H-元宵 pages were inserted at the front (merge-designs, nothing deleted). Headlines 72 px bold, body 44 px; p11 headline wraps to 2 lines and p7/p10 subtitles sit at Y 1490 to clear the Big Dipper lines (see `Canva逐頁文字放置規格.md` §4). |
 | Opening line | *One sky. On Lantern Festival night — people honour the Heaven Official.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4: E06; = words in Text ÷ seconds on screen, headline not counted; cover excluded, as in EN01–EN05) |
 
@@ -33,21 +33,21 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP15 tag |
-| 2 | | 鏡頭01開始 | 3 | E02 |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 2 | E02 |
-| 4 | | 鏡頭02-概念圖1 | 2 | diagram → English (`_概念圖/en/C-HYX-01_上元天官_上元層_透明.png`) |
-| 5 | | 鏡頭02-概念圖2 | 2 | + `C-HYX-01_上元天官_三元層_透明.png` (English) |
-| 6 | | 鏡頭02-概念圖收＝鏡頭03開始 | 3 | diagram fades; E04 |
-| 7 | | 鏡頭03結束＝鏡頭04開始 | 4 | E04; labels 紫微垣／北極星 → Ziwei Enclosure／Polaris |
-| 8 | | 鏡頭04-概念圖1 | 2 | diagram → English (`_概念圖/en/C-HYX-02_同名兩回事_天官層_透明.png`); E05 headline |
-| 9 | | 鏡頭04-概念圖2 | 2 | + `C-HYX-02_同名兩回事_紫微垣層_透明.png` (English); E05 headline |
-| 10 | | 鏡頭04結束＝鏡頭05開始 | 7 | diagram fades, the disk turns; E06; label 紫微垣 → Ziwei Enclosure |
-| 11 | | 鏡頭05結束＝鏡頭06開始 | 7 | E07; labels 帝車 → the Sky Emperor’s chariot; Illioŭ voz／以利亞的車 → Illioŭ voz／Elijah’s cart (keep: it leads into EN16) |
-| 12 | | 鏡頭06結束＝鏡頭07開始 | 4 | E08; labels 月亮／木星／火星／軒轅十四 → Moon／Jupiter／Mars／Regulus; drop the small 「最圓（望）2/21 07:23」 line |
-| 13 | | 鏡頭07結束 | 3 | E08 |
-| 14 | | 端卡（下集見） | 4 | E09; the A-02 thumbnail and the Romania teaser go (neither is in English yet) |
-| 15 | | 追蹤頁 | — | E10 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; EN · EP15 tag |
+| 2 | 2 | 鏡頭01開始 | 3 | E02 |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 2 | E02 |
+| 4 | 4 | 鏡頭02-概念圖1 | 2 | diagram → English (`_概念圖/en/C-HYX-01_上元天官_上元層_透明.png`) |
+| 5 | 5 | 鏡頭02-概念圖2 | 2 | + `C-HYX-01_上元天官_三元層_透明.png` (English) |
+| 6 | 6 | 鏡頭02-概念圖收＝鏡頭03開始 | 3 | diagram fades; E04 |
+| 7 | 7 | 鏡頭03結束＝鏡頭04開始 | 4 | E04; labels 紫微垣／北極星 → Ziwei Enclosure／Polaris |
+| 8 | 8 | 鏡頭04-概念圖1 | 2 | diagram → English (`_概念圖/en/C-HYX-02_同名兩回事_天官層_透明.png`); E05 headline |
+| 9 | 9 | 鏡頭04-概念圖2 | 2 | + `C-HYX-02_同名兩回事_紫微垣層_透明.png` (English); E05 headline |
+| 10 | 10 | 鏡頭04結束＝鏡頭05開始 | 7 | diagram fades, the disk turns; E06; label 紫微垣 → Ziwei Enclosure |
+| 11 | 11 | 鏡頭05結束＝鏡頭06開始 | 7 | E07; labels 帝車 → the Sky Emperor’s chariot; Illioŭ voz／以利亞的車 → Illioŭ voz／Elijah’s cart (keep: it leads into EN16) |
+| 12 | 12 | 鏡頭06結束＝鏡頭07開始 | 4 | E08; labels 月亮／木星／火星／軒轅十四 → Moon／Jupiter／Mars／Regulus; drop the small 「最圓（望）2/21 07:23」 line |
+| 13 | 13 | 鏡頭07結束 | 3 | E08 |
+| 14 | 14 | 端卡（下集見） | 4 | E09; the A-02 thumbnail and the Romania teaser go (neither is in English yet) |
+| 15 | 15 | 追蹤頁 | — | E10 |
 
 Total 48 s (the follow page is not counted, as in EN03 / EN05).
 
