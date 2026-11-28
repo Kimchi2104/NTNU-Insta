@@ -1,0 +1,779 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NTNU Astronomy Club//World Sky Cultures EN//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:萬國星空 英文版發布
+X-WR-TIMEZONE:Asia/Taipei
+BEGIN:VEVENT
+UID:wsc-en01@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20261125T130000Z
+DTEND:20261125T133000Z
+SUMMARY:萬國星空 EN01｜A-11 阿努塔（英文版發布）
+DESCRIPTION:Anuta: A Tiny Island That Remembers a Sea of Stars\nHook: An is
+ land of 0.4 km² — and a sky full of sailing stars.\n對應中文集：A
+ -11 阿努塔：半平方公里小島的星空智慧\n長度：60–90 s
+ 　發布時間：21:00（台灣）\n檔期：中文 11/20 後的週三\n
+ 平台：Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的英
+ 文節目表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en02@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20261202T130000Z
+DTEND:20261202T133000Z
+SUMMARY:萬國星空 EN02｜X-01 昴宿環球（英文版發布）
+DESCRIPTION:The Pleiades: One Cluster\, a Hundred Names\nHook: Japan calls 
+ it Subaru. The Māori call it Matariki.\n對應中文集：X-01 昴宿環
+ 球之旅：七姊妹的一百個名字\n長度：60–90 s　發布時間
+ ：21:00（台灣）\n檔期：十一月底到十二月昴宿整夜可見\
+ n平台：Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的
+ 英文節目表為準：06_發布月曆/節目表_萬國星空_英文版.c
+ sv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en03@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20261209T130000Z
+DTEND:20261209T133000Z
+SUMMARY:萬國星空 EN03｜A-12 白虎（英文版發布）
+DESCRIPTION:The White Tiger: Orion in a Chinese Sky\nHook: Orion's Belt is 
+ three stars of a Chinese tiger.\n對應中文集：A-12 白虎：參宿與
+ 西羌的冬夜\n長度：60–90 s　發布時間：21:00（台灣）\n
+ 檔期：中文 12/4 後；獵戶傍晚升起\n平台：Facebook、Instagr
+ am、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_發
+ 布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en04@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20261216T130000Z
+DTEND:20261216T133000Z
+SUMMARY:萬國星空 EN04｜A-13 阿拉伯半島（英文版發布）
+DESCRIPTION:Arabia: The Stars That Brought the Rain\nHook: Bedouins watched
+  the Pleiades to know when the rain would come.\n對應中文集：A-13 
+ 阿拉伯半島：Thurayya 與沙漠的雨季\n長度：60–90 s　發布
+ 時間：21:00（台灣）\n檔期：中文 12/11 後\n平台：Facebook
+ 、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為
+ 準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en05@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20261221T130000Z
+DTEND:20261221T133000Z
+SUMMARY:萬國星空 EN05｜H-冬至（英文版發布）
+DESCRIPTION:Winter Solstice: A Year Measured by a Stick\nHook: One stick an
+ d its shadow can measure a whole year.\n對應中文集：H-冬至 冬至
+ ：一根棍子如何量出一年\n長度：30–60 s　發布時間：21:
+ 00（台灣）\n檔期：冬至（12/21 20:50 UTC＝台灣 12/22 04:50）
+ ；比中文早一天，國際上是 12/21\n平台：Facebook、Instagram
+ 、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_發
+ 布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en06@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20261223T130000Z
+DTEND:20261223T133000Z
+SUMMARY:萬國星空 EN06｜A-15 北歐（英文版發布）
+DESCRIPTION:Norse Yule: A Wolf's Jaw in the Sky\nHook: Before Christmas the
+ re was Yule — and a wolf's jaw among the stars.\n對應中文集：A-15 
+ 北歐：Yule 之夜的狼與神駒\n長度：60–90 s　發布時間：2
+ 1:00（台灣）\n檔期：聖誕節前（跟 A-14 對調：Yule 要在 12
+ /25 前）\n平台：Facebook、Instagram、YouTube、Threads\n日期以 G
+ itHub 的英文節目表為準：06_發布月曆/節目表_萬國星空_
+ 英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en07@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20261230T130000Z
+DTEND:20261230T133000Z
+SUMMARY:萬國星空 EN07｜A-14 因紐特（英文版發布）
+DESCRIPTION:Inuit: Telling Time in the Polar Night\nHook: No sunrise for a 
+ month and a half — so they read the time in the stars.\n對應中文集
+ ：A-14 因紐特：極夜裡的星鐘\n長度：60–90 s　發布時間
+ ：21:00（台灣）\n檔期：中文 12/18；極夜到 1 月中\n平台
+ ：Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節
+ 目表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en44@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270103T130000Z
+DTEND:20270103T133000Z
+SUMMARY:萬國星空 EN44｜C-03 麒麟與倮獸（英文版發布）
+DESCRIPTION:The Lost Fifth Symbol\nHook: Four beasts guard China’s sky. W
+ ho sits in the middle?\n對應中文集：C-03 麒麟與倮獸：消失的
+ 第五象\n長度：60–90 s　發布時間：21:00（台灣）\n檔期
+ ：三組「第五象」候選星一個晚上看得到：天黑後牛郎
+ 織女在西方低空、天狼從東南升起，晚上九點前後軒轅
+ 十四升起（原排 9/8：那時天狼、軒轅入夜都看不到）\n
+ 平台：Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的英
+ 文節目表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en08@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270106T130000Z
+DTEND:20270106T133000Z
+SUMMARY:萬國星空 EN08｜X-02 獵戶環球（英文版發布）
+DESCRIPTION:Orion: Three Stars the Whole World Knows\nHook: China: Shen. Eg
+ ypt: Sah. The Kamilaroi: Birray Birray.\n對應中文集：X-02 獵戶環
+ 球：全世界都認得的三顆星\n長度：60–90 s　發布時間：
+ 21:00（台灣）\n檔期：中文 1/1 後；獵戶整夜可見\n平台：
+ Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目
+ 表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en48@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270110T130000Z
+DTEND:20270110T133000Z
+SUMMARY:萬國星空 EN48｜A-09 夏威夷星線（英文版發布）
+DESCRIPTION:Hawaiʻi: Four Star Lines Home\nHook: 1976: no compass\, no map
+  — 34 days to Tahiti.\n對應中文集：A-09 夏威夷星線：不用
+ 儀器橫渡太平洋\n長度：60–90 s　發布時間：21:00（台灣
+ ）\n檔期：Makahiki 季（11 月起約四個月）；晚上 8 點昴宿
+ 在頭頂，Ke Kā o Makaliʻi 整條都升起（原排 10/6：那時昴
+ 宿才剛升起）\n平台：Facebook、Instagram、YouTube、Threads\n日
+ 期以 GitHub 的英文節目表為準：06_發布月曆/節目表_萬國
+ 星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en09@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270113T130000Z
+DTEND:20270113T133000Z
+SUMMARY:萬國星空 EN09｜A-16 納瓦荷（英文版發布）
+DESCRIPTION:Navajo: Star Stories Told Only in Winter\nHook: Coyote scattere
+ d the stars — and this story is told only in winter.\n對應中文集：
+ A-16 納瓦荷：只在冬天說的星星故事\n長度：60–90 s　發
+ 布時間：21:00（台灣）\n檔期：只能在冬天發（初霜到春
+ 雷，最晚二月）；中文 1/8 後\n平台：Facebook、Instagram、Yo
+ uTube、Threads\n日期以 GitHub 的英文節目表為準：06_發布月
+ 曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en41@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270117T130000Z
+DTEND:20270117T133000Z
+SUMMARY:萬國星空 EN41｜A-05 日本（英文版發布）
+DESCRIPTION:Japan: A Whole Sky of Farm Tools\nHook: In Japan\, Orion’s Be
+ lt is a plough.\n對應中文集：A-05 日本月站：古墳天花板上
+ 的星空\n長度：60–90 s　發布時間：21:00（台灣）\n檔期
+ ：晚上 8 點室、壁、奎、婁、胃、昴從西方一路排到頭
+ 頂（原排 8/18：那時昴宿入夜還沒升起）\n平台：Facebook
+ 、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為
+ 準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en10@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270120T130000Z
+DTEND:20270120T133000Z
+SUMMARY:萬國星空 EN10｜A-17 黑腳族（英文版發布）
+DESCRIPTION:Blackfoot: The Lost Children in the Sky\nHook: Painted on top o
+ f the tipi: the Big Dipper and the Pleiades.\n對應中文集：A-17 黑
+ 腳族：留在天上的六個孩子\n長度：60–90 s　發布時間：
+ 21:00（台灣）\n檔期：中文 1/15 後\n平台：Facebook、Instagram
+ 、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_發
+ 布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en11@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270127T130000Z
+DTEND:20270127T133000Z
+SUMMARY:萬國星空 EN11｜A-18 古埃及（英文版發布）
+DESCRIPTION:Ancient Egypt: The Star That Woke the Nile\nHook: When Sirius r
+ eturned\, the Nile flooded. Not anymore.\n對應中文集：A-18 古埃及
+ ：叫醒尼羅河的天狼星\n長度：60–90 s　發布時間：21:00
+ （台灣）\n檔期：中文 1/22 後；天狼星冬夜最高\n平台：F
+ acebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目
+ 表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en49@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270131T130000Z
+DTEND:20270131T133000Z
+SUMMARY:萬國星空 EN49｜A-10 東加（英文版發布）
+DESCRIPTION:Tonga: Star Names That Are Sailing Routes\nHook: In Tonga\, som
+ e star names are sailing orders.\n對應中文集：A-10 東加：星星
+ 的名字就是航線\n長度：60–90 s　發布時間：21:00（台灣
+ ）\n檔期：晚上 8 點獵戶腰帶與天狼在東南高掛、仙后在
+ 西北（原排 10/13：那時獵戶入夜還沒升起）\n平台：Facebo
+ ok、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為
+ 準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en12@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270203T130000Z
+DTEND:20270203T133000Z
+SUMMARY:萬國星空 EN12｜A-19 古阿拉伯（英文版發布）
+DESCRIPTION:Ancient Arabia: A Desert Zoo in the Sky\nHook: Ostriches\, gaze
+ lles\, hyenas — a desert zoo overhead.\n對應中文集：A-19 古阿拉
+ 伯：兩隻鴕鳥與擋路的老人星\n長度：60–90 s　發布時間
+ ：21:00（台灣）\n檔期：中文 1/29 後\n平台：Facebook、Instag
+ ram、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_
+ 發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en13@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270206T130000Z
+DTEND:20270206T133000Z
+SUMMARY:萬國星空 EN13｜A-20 朱雀（英文版發布）
+DESCRIPTION:The Vermilion Bird: A Lunar New Year Special\nHook: A black bir
+ d’s egg began one dynasty. A red bird\, the next.\n對應中文集：A-2
+ 0 春節特輯｜朱雀：一顆蛋孵出一個王朝\n長度：60–90 s
+ 　發布時間：21:00（台灣）\n檔期：春節（初一 2/6）；中
+ 文 2/5 除夕\n平台：Facebook、Instagram、YouTube、Threads\n日期
+ 以 GitHub 的英文節目表為準：06_發布月曆/節目表_萬國星
+ 空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en50@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270210T130000Z
+DTEND:20270210T133000Z
+SUMMARY:萬國星空 EN50｜A-08 西伯利亞（英文版發布）
+DESCRIPTION:Siberia: A Hunt That Never Ends\nHook: In Siberia\, the Big Dip
+ per is a moose — and the hunt never stops.\n對應中文集：A-08 西
+ 伯利亞：獵人、馴鹿與三星\n長度：60–90 s　發布時間：
+ 21:00（台灣）\n檔期：晚上 8 點獵戶在正南、昴宿高掛、
+ 北斗正從東北升起；補春節那一週週三的空檔（原排 10/2
+ 0）\n平台：Facebook、Instagram、YouTube、Threads\n日期以 GitHub 
+ 的英文節目表為準：06_發布月曆/節目表_萬國星空_英文
+ 版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en14@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270217T130000Z
+DTEND:20270217T133000Z
+SUMMARY:萬國星空 EN14｜A-21 薩米（英文版發布）
+DESCRIPTION:Sámi: A Reindeer Hunt Across the Sky\nHook: The Big Dipper is 
+ a bow — and the arrow must never fly.\n對應中文集：A-21 薩米：
+ 馴鹿獵人的星空狩獵圖\n長度：60–90 s　發布時間：21:00
+ （台灣）\n檔期：中文 2/12 後\n平台：Facebook、Instagram、Yo
+ uTube、Threads\n日期以 GitHub 的英文節目表為準：06_發布月
+ 曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en15@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270220T130000Z
+DTEND:20270220T133000Z
+SUMMARY:萬國星空 EN15｜H-元宵（英文版發布）
+DESCRIPTION:Lantern Festival: Blessings from the Sky\nHook: The god of the 
+ Lantern Festival shares a name with the centre of the sky.\n對應中文
+ 集：H-元宵 元宵：天官賜福與紫微大帝\n長度：30–60 s　
+ 發布時間：21:00（台灣）\n檔期：元宵當天；短片，可與
+ 中文同日\n平台：Facebook、Instagram、YouTube、Threads\n日期以
+  GitHub 的英文節目表為準：06_發布月曆/節目表_萬國星空_
+ 英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en16@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270224T130000Z
+DTEND:20270224T133000Z
+SUMMARY:萬國星空 EN16｜A-22 白俄羅斯（英文版發布）
+DESCRIPTION:Belarus: A Farmer's Sky and Elijah's Chariot\nHook: In Belarus\
+ , the Big Dipper is a cart — driven by the prophet Elijah.\n對應中文
+ 集：A-22 白俄羅斯：農民曆星空與以利亞的馬車\n長度：6
+ 0–90 s　發布時間：21:00（台灣）\n檔期：中文 2/19 後\n平
+ 台：Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文
+ 節目表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en17@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270303T130000Z
+DTEND:20270303T133000Z
+SUMMARY:萬國星空 EN17｜A-23 羅馬尼亞（英文版發布）
+DESCRIPTION:Romania: A Shepherd's Farm in the Stars\n對應中文集：A-23
+  羅馬尼亞：牧羊人的星空農場\n長度：60–90 s　發布時
+ 間：21:00（台灣）\n檔期：中文 2/26 後\n平台：Facebook、Ins
+ tagram、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06
+ _發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en18@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270310T130000Z
+DTEND:20270310T133000Z
+SUMMARY:萬國星空 EN18｜A-24 圖卡諾（英文版發布）
+DESCRIPTION:Tukano: The Amazon's Rain Calendar in the Stars\n對應中文
+ 集：A-24 圖卡諾：亞馬遜的星空雨季曆\n長度：60–90 s　
+ 發布時間：21:00（台灣）\n檔期：中文 3/5 後\n平台：Facebo
+ ok、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為
+ 準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en42@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270314T130000Z
+DTEND:20270314T133000Z
+SUMMARY:萬國星空 EN42｜C-01 論天三家（英文版發布）
+DESCRIPTION:Ancient China's Three Theories of the Sky\nHook: An umbrella\, 
+ an egg\, or no shell at all?\n對應中文集：C-01 古中國人以為天
+ 空長什麼樣？——論天三家\n長度：60–90 s　發布時間：
+ 21:00（台灣）\n檔期：全年可用（學術番外）；提前到春
+ 季週日\n平台：Facebook、Instagram、YouTube、Threads\n日期以 Gi
+ tHub 的英文節目表為準：06_發布月曆/節目表_萬國星空_英
+ 文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en19@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270317T130000Z
+DTEND:20270317T133000Z
+SUMMARY:萬國星空 EN19｜A-25 圖皮瓜拉尼（英文版發布）
+DESCRIPTION:Tupi-Guarani: A Sky Written Down in 1614\nHook: He wrote down 2
+ 8 star names. Then: “I’ll skip the rest.”\n對應中文集：A-25 
+ 圖皮-瓜拉尼：1614 年傳教士抄下的星空\n長度：60–90 s　
+ 發布時間：21:00（台灣）\n檔期：中文 3/12 後\n平台：Faceb
+ ook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表
+ 為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en20@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270324T130000Z
+DTEND:20270324T133000Z
+SUMMARY:萬國星空 EN20｜A-26 布吉斯（英文版發布）
+DESCRIPTION:Bugis: The Sailors' Star Compass\nHook: A compass with no needl
+ e — just stars.\n對應中文集：A-26 布吉斯：帆船民族的星
+ 羅盤\n長度：60–90 s　發布時間：21:00（台灣）\n檔期：
+ 中文 3/19 後\n平台：Facebook、Instagram、YouTube、Threads\n日期
+ 以 GitHub 的英文節目表為準：06_發布月曆/節目表_萬國星
+ 空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en43@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270328T130000Z
+DTEND:20270328T133000Z
+SUMMARY:萬國星空 EN43｜C-02 地有四游（英文版發布）
+DESCRIPTION:Four Wanderings of the Earth: A Han-Dynasty Idea\nHook: The ear
+ th never stops moving. Why can’t you feel it?\n對應中文集：C-02 
+ 地有四游：比伽利略早一千年的相對運動\n長度：60–90 s
+ 　發布時間：21:00（台灣）\n檔期：全年可用（學術番外
+ ）；提前到春季週日\n平台：Facebook、Instagram、YouTube、Thr
+ eads\n日期以 GitHub 的英文節目表為準：06_發布月曆/節目
+ 表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en21@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270331T130000Z
+DTEND:20270331T133000Z
+SUMMARY:萬國星空 EN21｜A-27 曼達爾（英文版發布）
+DESCRIPTION:Mandar: Another Star Map of the Same Sea\nHook: Same Big Dipper
+ : the Bugis saw a ship\, the Mandar a fishing net.\n對應中文集：A-27
+  曼達爾：同一片海的另一套星圖\n長度：60–90 s　發布
+ 時間：21:00（台灣）\n檔期：中文 3/26 後\n平台：Facebook、
+ Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為準
+ ：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en22@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270407T130000Z
+DTEND:20270407T133000Z
+SUMMARY:萬國星空 EN22｜X-03 北斗環球（英文版發布）
+DESCRIPTION:The Big Dipper: Ten Lives of One Ladle\nHook: A bull’s leg\, 
+ a cart\, a bear\, a bier\, robbers — all the Big Dipper.\n對應中文
+ 集：X-03 北斗環球：一個勺子的十種人生\n長度：60–90 s
+ 　發布時間：21:00（台灣）\n檔期：中文 4/2 後；北斗傍
+ 晚高掛\n平台：Facebook、Instagram、YouTube、Threads\n日期以 Gi
+ tHub 的英文節目表為準：06_發布月曆/節目表_萬國星空_英
+ 文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en47@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270411T130000Z
+DTEND:20270411T133000Z
+SUMMARY:萬國星空 EN47｜A-07 蒙古（英文版發布）
+DESCRIPTION:Mongolia: The Whole Sky Tied to a Golden Stake\nHook: Mongolia 
+ tied the whole sky to one golden stake.\n對應中文集：A-07 蒙古：
+ 北斗是七位老人\n長度：60–90 s　發布時間：21:00（台灣
+ ）\n檔期：晚上 8 點北斗高掛東北（原排 9/29）\n平台：Fa
+ cebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目
+ 表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en23@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270414T130000Z
+DTEND:20270414T133000Z
+SUMMARY:萬國星空 EN23｜X-04 春空導航（英文版發布）
+DESCRIPTION:Arc to Arcturus: Spring Sky Navigation\nHook: Follow the Dipper
+ ’s handle: arc to Arcturus.\n對應中文集：X-04 春空導航術：
+ 沿著斗柄找大角\n長度：60–90 s　發布時間：21:00（台灣
+ ）\n檔期：中文 4/9 後\n平台：Facebook、Instagram、YouTube、Th
+ reads\n日期以 GitHub 的英文節目表為準：06_發布月曆/節目
+ 表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en24@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270421T130000Z
+DTEND:20270421T133000Z
+SUMMARY:萬國星空 EN24｜A-28 印度（英文版發布）
+DESCRIPTION:India: The Moon's 27 Wives\nHook: The Moon had 27 wives — and
+  loved only one.\n對應中文集：A-28 印度：月亮的 27 位妻子\n
+ 長度：60–90 s　發布時間：21:00（台灣）\n檔期：中文 4/1
+ 6 後\n平台：Facebook、Instagram、YouTube、Threads\n日期以 GitHub
+  的英文節目表為準：06_發布月曆/節目表_萬國星空_英文
+ 版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en25@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270428T130000Z
+DTEND:20270428T133000Z
+SUMMARY:萬國星空 EN25｜A-29 薩丁尼亞（英文版發布）
+DESCRIPTION:Sardinia: Stars of Farmers and Herders\nHook: The stars of Taur
+ us? Sardinian shepherds saw a stone hut.\n對應中文集：A-29 薩丁尼
+ 亞：地中海島嶼的農牧星空\n長度：60–90 s　發布時間：
+ 21:00（台灣）\n檔期：中文 4/23 後\n平台：Facebook、Instagram
+ 、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_發
+ 布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en26@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270505T130000Z
+DTEND:20270505T133000Z
+SUMMARY:萬國星空 EN26｜A-30 呂埃勒（英文版發布）
+DESCRIPTION:Ruelle 1786: A Star Map Made Only of Lines\nHook: Who drew the 
+ lines in your star app?\n對應中文集：A-30 呂埃勒：1786 年，一
+ 張只有線的星圖\n長度：60–90 s　發布時間：21:00（台灣
+ ）\n檔期：中文 4/30 後\n平台：Facebook、Instagram、YouTube、T
+ hreads\n日期以 GitHub 的英文節目表為準：06_發布月曆/節目
+ 表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en37@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270509T130000Z
+DTEND:20270509T133000Z
+SUMMARY:萬國星空 EN37｜A-02 三垣（英文版發布）
+DESCRIPTION:The Three Enclosures: A Forbidden City in the Sky\nHook: At the
+  center of the sky: the emperor's palace.\n對應中文集：A-02 三垣
+ ：天上的紫禁城\n長度：60–90 s　發布時間：21:00（台灣
+ ）\n檔期：晚上 9 點三垣同時看得到：太微垣在頭頂、紫
+ 微垣在北、天市垣剛從東方升起（原排 7/21：那時太微垣
+ 已經西沉）\n平台：Facebook、Instagram、YouTube、Threads\n日期
+ 以 GitHub 的英文節目表為準：06_發布月曆/節目表_萬國星
+ 空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en27@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270512T130000Z
+DTEND:20270512T133000Z
+SUMMARY:萬國星空 EN27｜A-31 卡米拉羅伊（英文版發布）
+DESCRIPTION:Kamilaroi and Euahlayi: The Emu Made of Darkness\nHook: They jo
+ in the stars — and the dark between.\n對應中文集：A-31 卡米拉
+ 羅伊與尤瓦萊：由黑暗組成的鴯鶓\n長度：60–90 s　發布
+ 時間：21:00（台灣）\n檔期：中文 5/7 後；銀河暗帶傍晚
+ 升起\n平台：Facebook、Instagram、YouTube、Threads\n日期以 GitHu
+ b 的英文節目表為準：06_發布月曆/節目表_萬國星空_英文
+ 版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en28@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270519T130000Z
+DTEND:20270519T133000Z
+SUMMARY:萬國星空 EN28｜X-05 南天十字（英文版發布）
+DESCRIPTION:Southern Crosses: True\, False and Diamond\nHook: Pick the wron
+ g cross and south moves 20° or more.\n對應中文集：X-05 南天的十
+ 字路口：真十字、假十字、鑽石十字\n長度：60–90 s　發
+ 布時間：21:00（台灣）\n檔期：中文 5/14 後\n平台：Facebook
+ 、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為
+ 準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en29@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270526T130000Z
+DTEND:20270526T133000Z
+SUMMARY:萬國星空 EN29｜X-06 星星導航總集（英文版發布）
+DESCRIPTION:Before the Compass: Finding the Way by Stars\nHook: 900 years a
+ go\, the compass was only for overcast skies.\n對應中文集：X-06 星
+ 星導航總集：在羅盤上船以前\n長度：60–90 s　發布時間
+ ：21:00（台灣）\n檔期：中文 5/21 後\n平台：Facebook、Instag
+ ram、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_
+ 發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en30@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270602T130000Z
+DTEND:20270602T133000Z
+SUMMARY:萬國星空 EN30｜A-32 阿拉伯月站（英文版發布）
+DESCRIPTION:Arabic Lunar Stations: Where the Moon Stays Each Night\nHook: 2
+ 8 inns for the Moon — and over half still name stars today.\n對應中
+ 文集：A-32 阿拉伯月站：月亮每晚的下榻處\n長度：60–90
+  s　發布時間：21:00（台灣）\n檔期：中文 5/28 後\n平台：
+ Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目
+ 表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en31@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270609T130000Z
+DTEND:20270609T133000Z
+SUMMARY:萬國星空 EN31｜A-34 蘇菲之書（英文版發布）
+DESCRIPTION:Al-Ṣūfī's Book of Fixed Stars: A Star Atlas over 1\,000 Yea
+ rs Old\nHook: Around 964\, one book held two skies.\n對應中文集：A-3
+ 4 蘇菲之書：一千多年前的星圖手稿\n長度：60–90 s　發
+ 布時間：21:00（台灣）\n檔期：中文 6/4 後\n平台：Facebook
+ 、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為
+ 準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en32@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270616T130000Z
+DTEND:20270616T133000Z
+SUMMARY:萬國星空 EN32｜A-35 現代星座上（英文版發布）
+DESCRIPTION:Who Decided the 88 Constellations?\nHook: In 1930\, the whole s
+ ky was carved into 88 pieces.\n對應中文集：A-35 現代星座（上
+ ）：88 個星座誰說了算\n長度：60–90 s　發布時間：21:00
+ （台灣）\n檔期：中文 6/11 後\n平台：Facebook、Instagram、Yo
+ uTube、Threads\n日期以 GitHub 的英文節目表為準：06_發布月
+ 曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en33@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270623T130000Z
+DTEND:20270623T133000Z
+SUMMARY:萬國星空 EN33｜A-33 毛利Matariki（英文版發布）
+DESCRIPTION:Matariki: When the Stars Rise\, the New Year Begins\nHook: A st
+ ar cluster comes back — and a country takes a day off.\n對應中文集
+ ：A-33 毛利 Matariki：星星升起就是新年\n長度：60–90 s　
+ 發布時間：21:00（台灣）\n檔期：Matariki 國定假日 6/25 前
+ （跟 A-36 對調）\n平台：Facebook、Instagram、YouTube、Threads\n
+ 日期以 GitHub 的英文節目表為準：06_發布月曆/節目表_萬
+ 國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en34@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270630T130000Z
+DTEND:20270630T133000Z
+SUMMARY:萬國星空 EN34｜A-36 現代星群（英文版發布）
+DESCRIPTION:Asterisms: The Star Patterns Textbooks Skip\nHook: The star sha
+ pes you know first? Many aren’t constellations.\n對應中文集：A-36 
+ 現代星座（下）：課本沒教的星群 Asterisms\n長度：60–90 
+ s　發布時間：21:00（台灣）\n檔期：中文 6/18\n平台：Faceb
+ ook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表
+ 為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en35@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270707T130000Z
+DTEND:20270707T133000Z
+SUMMARY:萬國星空 EN35｜X-07 銀河環球（英文版發布）
+DESCRIPTION:The Milky Way: A River\, a Road\, a Seam\nHook: Four ostriches 
+ drink from the river in the sky.\n對應中文集：X-07 銀河環球：
+ 一條河、一條路、一道縫\n長度：60–90 s　發布時間：21:
+ 00（台灣）\n檔期：中文 7/2 後\n平台：Facebook、Instagram、Y
+ ouTube、Threads\n日期以 GitHub 的英文節目表為準：06_發布月
+ 曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en36@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270714T130000Z
+DTEND:20270714T133000Z
+SUMMARY:萬國星空 EN36｜X-08 第一季完結（英文版發布）
+DESCRIPTION:Season Finale: Many Ways of Seeing One Sky\nHook: One sky: a dr
+ agon\, a moose hunt\, a fishing net.\n對應中文集：X-08 第一季完
+ 結：同一片星空的 27 種目光\n長度：60–90 s　發布時間
+ ：21:00（台灣）\n檔期：中文 7/9 後；第一季中文完結\n平
+ 台：Facebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文
+ 節目表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en38@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270721T130000Z
+DTEND:20270721T133000Z
+SUMMARY:萬國星空 EN38｜A-01 青龍（英文版發布）
+DESCRIPTION:The Azure Dragon: Why China Saw a Dragon\nHook: Where the West 
+ sees a scorpion\, China saw a dragon.\n對應中文集：A-01 天上為什
+ 麼是一條龍？——中國四象與青龍\n長度：60–90 s　發布
+ 時間：21:00（台灣）\n檔期：晚上 9 點心宿二（龍心）在
+ 正南；第一季完結後的第一個週三（原排 7/28）\n平台：F
+ acebook、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目
+ 表為準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en40@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270728T130000Z
+DTEND:20270728T133000Z
+SUMMARY:萬國星空 EN40｜A-04 韓國（英文版發布）
+DESCRIPTION:Korea: A Star Chart on the 10\,000-Won Note\nHook: A star chart
+  printed on Korean money.\n對應中文集：A-04 韓國：印在一萬元
+ 鈔票上的星圖\n長度：60–90 s　發布時間：21:00（台灣）\
+ n檔期：夏季大三角入夜高掛（原排 8/11）\n平台：Facebook
+ 、Instagram、YouTube、Threads\n日期以 GitHub 的英文節目表為
+ 準：06_發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en39@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270808T130000Z
+DTEND:20270808T133000Z
+SUMMARY:萬國星空 EN39｜H-七夕（英文版發布）
+DESCRIPTION:Qixi: The Cowherd and the Weaver\nHook: Meet once a year? Light
+  alone takes 14.6 years to cross.\n對應中文集：H-七夕 七夕：牛
+ 郎織女隔著的不只是銀河\n長度：30–60 s　發布時間：21:
+ 00（台灣）\n檔期：七夕 2027/8/8\n平台：Facebook、Instagram、
+ YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_發布
+ 月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en46@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270908T130000Z
+DTEND:20270908T133000Z
+SUMMARY:萬國星空 EN46｜A-03 玄武（英文版發布）
+DESCRIPTION:The Black Tortoise: Turtle and Snake of the Autumn Sky\nHook: N
+ ot one animal\, but two: a turtle and a snake.\n對應中文集：A-03 玄
+ 武：馱著洛書上天的龜蛇\n長度：60–90 s　發布時間：21:
+ 00（台灣）\n檔期：晚上 9 點玄武七宿橫跨南方天空；排
+ 在中秋集之前（原排 9/22）\n平台：Facebook、Instagram、YouTu
+ be、Threads\n日期以 GitHub 的英文節目表為準：06_發布月曆/
+ 節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wsc-en45@ntnu-astro-wsc
+DTSTAMP:20261128T000000Z
+DTSTART:20270915T130000Z
+DTEND:20270915T133000Z
+SUMMARY:萬國星空 EN45｜A-06 二十八宿（英文版發布）
+DESCRIPTION:The 28 Lunar Mansions: Where the Moon Rests\nHook: Does the Moo
+ n sleep in a new room each night?\n對應中文集：A-06 中秋特輯｜
+ 二十八宿：月亮的 28 間驛站\n長度：60–90 s　發布時間
+ ：21:00（台灣）\n檔期：中秋 2027/9/15\n平台：Facebook、Insta
+ gram、YouTube、Threads\n日期以 GitHub 的英文節目表為準：06_
+ 發布月曆/節目表_萬國星空_英文版.csv
+CATEGORIES:萬國星空,英文版
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
