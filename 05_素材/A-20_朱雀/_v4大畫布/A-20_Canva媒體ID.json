@@ -114,5 +114,20 @@
     "PBL3T7w7FMKQLKK4",
     "PBtSMWXdNlzGnvLw",
     "PBsBwPb3L9TZRSrP"
-  ]
+  ],
+  "en": {
+    "design_id": "DAHZrWNj4_E",
+    "design_title": "EN13 A-20 春節",
+    "commit": "a25f79aa5bdb0fa7346111c55ea53ba5d92e8b6e",
+    "note": "2026-11-28 副本＝中文 A-20（DAHWtJUYWzY）的複製。只換了有中文字的概念圖層；星空、山、背景沿用中文媒體 ID。保留頁 1–20，舊頁 21–61 已移到最後。",
+    "concept": {
+      "C-A20-02_一顆蛋_河邊層_透明.png": "MAHcLwqsuuw",
+      "C-A20-02_一顆蛋_蛋層_透明.png": "MAHcL-v6E2s",
+      "C-A20-02_一顆蛋_契層_透明.png": "MAHcL1DVwq4",
+      "C-A20-02_一顆蛋_燕子層_透明.png": "MAHcL-Tcw8s",
+      "C-A20-03_紅鳥興周_火落屋頂層_透明.png": "MAHcL1wdCm8",
+      "C-A20-03_紅鳥興周_赤烏層_透明.png": "MAHcLw75Qo8",
+      "C-A20-03_紅鳥興周_歲在鶉火層_透明.png": "MAHcL5tTLlk"
+    }
+  }
 }
