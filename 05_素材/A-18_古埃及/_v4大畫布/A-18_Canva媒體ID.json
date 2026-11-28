@@ -328,5 +328,22 @@
   "追蹤我們 PBQssKFW4z60wZ0y",
   "舊頁（參考文獻等）"
  ],
- "concept_commit_v2": "0a6fdbd577ea0c38c2093beb6db8376e46e3e6b2"
+ "concept_commit_v2": "0a6fdbd577ea0c38c2093beb6db8376e46e3e6b2",
+ "en": {
+  "design_id": "DAHZrf9iROM",
+  "design_title": "EN11 A-18 古埃及",
+  "commit": "a25f79aa5bdb0fa7346111c55ea53ba5d92e8b6e",
+  "concept": {
+   "C-A18-01_尼羅河的一年_漲水層_透明.png": "MAHcLwK6JfE",
+   "C-A18-01_尼羅河的一年_淹沒層_透明.png": "MAHcL7M2ynQ",
+   "C-A18-01_尼羅河的一年_黑土層_透明.png": "MAHcL-cthYo",
+   "C-A18-02_消失與晨出_西沉層_透明.png": "MAHcL7ZisOg",
+   "C-A18-02_消失與晨出_消失層_透明.png": "MAHcL97qefs",
+   "C-A18-02_消失與晨出_晨出層_透明.png": "MAHcL0WxcCM",
+   "C-A18-02_消失與晨出_漲水層_透明.png": "MAHcL_drqZo",
+   "C-A18-04_晚了一個多月_古代層_透明.png": "MAHcL_c7q9g",
+   "C-A18-04_晚了一個多月_今天層_透明.png": "MAHcL1xxoEg",
+   "C-A18-05_河已經不等了_高壩層_透明.png": "MAHcL_6vLV4"
+  }
+ }
 }
