@@ -6,7 +6,7 @@
 | Publish | **2027-01-31 (Sun) 21:00 Taiwan time**: EN49 in `06_發布月曆/節目表_萬國星空_英文版.csv` (moved up 2026-11-22: Cassiopeia in the evening northwest). The next episode, EN12 Ancient Arabia, is Wed 2027-02-03, so “Next Wednesday” is right |
 | Length | **89 s**, 15 beats, ~134 words on screen (no voice-over; text over light music) |
 | Story | One story only: **star names that are sailing orders**. Tukuʻaho’s sailing guide; from Tonga the Pole Star never rises, so the way north uses other stars: Kapakau ʻo Tafahi, the hen brooding over Tafahi, and ʻAo ʻo ʻUvea, the circlet to be worn over ʻUvea |
-| Canva | Not made yet. Copy of the Chinese design `A-11 東加` (DAHWtImuHQ0; Canva file name says A-11, repo and schedule say A-10), to be named `EN49 A-11 東加` (card 07; same rule as the Chinese name). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover; 43 = next-episode card, 44 = follow page, by the same pattern as A-11 / EN01 — check in the Canva pass). |
+| Canva | `EN49 A-10 東加` (DAHZredp1qQ), a copy of the Chinese design. **Placed 2026-11-28**: English text, English diagrams and translated labels on the 22 kept pages, which now sit in order as Canva pages 1–22 (the "Now" column below); pages 23–45 are unused — delete them in grid view. Headlines 72 px bold, body 44 px (full-width boxes; no narrow boxes needed except where noted in the handover). The north disc on pages 41–42 (Now 18–19) was **not** turned to +123°: the disc is separate layers, so a turn would break the label–star alignment; set it by hand. (Older note: Chinese design was `A-11 東加`, DAHWtImuHQ0; the Canva file name says A-11, repo and schedule say A-10.) Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover; 43 = next-episode card, 44 = follow page, by the same pattern as A-11 / EN01 — check in the Canva pass). |
 | Opening line | *One sky. The Tongans saw — sailing routes.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -39,27 +39,28 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the hook (“In Tonga, some star names are sailing orders.”, written into the schedule with this v0); EN · EP49 tag |
-| 2 | | 鏡頭01開始 | 4 | E02 (the Chinese 字卡 is replaced) |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 3 | E02 |
-| 4 | | 鏡頭02結束 | 7 | E03 |
-| 5 | | 鏡頭02-概念圖 | 4 | map, English (`_概念圖/en/C-A10-01_東加地圖_島嶼層_透明.png`); E04 headline only |
-| 6 | | 鏡頭02-概念圖收＝鏡頭03開始 | 2 | diagram fades; no text; then the sky slides north up the corridor to 18 (pages 7–17 removed) |
-| 18 | | 鏡頭08結束 | 7 | E06; label Pole Star |
-| 19 | | 長圖轉北盤2＝鏡頭09開始 | 7 | **hard cut (no transition)** from 18: long chart → north disc, same frame; E07 |
-| 20 | | 鏡頭09結束＝鏡頭10開始 | 2 | disc turns, mountain rises to the Vavaʻu horizon; E07; label Kapakau ʻo Tafahi / Tafahi’s Wing |
-| 21 | | 鏡頭10結束 | 6 | E08; labels as 20 + Cassiopeia |
-| 22 | | 鏡頭10-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A10-02_Tafahi的翅膀_地平層_透明.png`); E09 headline only |
-| 23 | | 鏡頭10-概念圖2 | 4 | + `en/…_母雞層`; E09 headline only |
-| 24 | | 鏡頭10-概念圖收＝鏡頭11開始 | 4 | diagram fades; E10; label as 20 |
-| 25 | | 鏡頭11結束 | 7 | disc turns to −39°, mountain moves to the Tongatapu horizon; E11; label ʻAo ʻo ʻUvea / ʻUvea’s Circlet |
-| 26 | | 鏡頭11-概念圖1 | 3 | map, English (`en/C-A10-01_東加地圖_島嶼層`); E12 headline only |
-| 27 | | 鏡頭11-概念圖2 | 4 | + `en/…_航線層`; E12 headline only |
-| 28 | | 鏡頭11-概念圖收 | 5 | diagram fades; E13; label as 25; then the disc turns straight to 41 (pages 29–40, the pigeon roost, Hina’s boat, the Pleiades, the two records and the return to the long chart, removed; same disc group, so Match & Move) |
-| 41 | | 鏡頭16結束＝鏡頭17開始 | 7 | E14; labels Tafahi’s Wing (Cassiopeia); Taipei horizon. The Chinese disc angle (−159.2°) is 13 Nov 20:00; for 31 Jan 20:00 the sky has turned about 78° further: set about +123° (= −237°) so the W sits in the northwest, and check the label sits clear of the text |
-| 42 | | 鏡頭17結束 | 3 | E14; as 41 (+20 min) |
-| 43 | | 端卡（下集見） | 4 | E15 |
-| 44 | | 追蹤頁 | — | E16 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; second line = the hook (“In Tonga, some star names are sailing orders.”, written into the schedule with this v0); EN · EP49 tag |
+| 2 | 2 | 鏡頭01開始 | 4 | E02 (the Chinese 字卡 is replaced) |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 3 | E02 |
+| 4 | 4 | 鏡頭02結束 | 7 | E03 |
+| 5 | 5 | 鏡頭02-概念圖 | 4 | map, English (`_概念圖/en/C-A10-01_東加地圖_島嶼層_透明.png`); E04 headline only |
+| 6 | 6 | 鏡頭02-概念圖收＝鏡頭03開始 | 2 | diagram fades; no text; then the sky slides north up the corridor to 18 (pages 7–17 removed) |
+| 18 | 7 | 鏡頭08結束 | 7 | E06; label Pole Star |
+| 19 | 8 | 長圖轉北盤2＝鏡頭09開始 | 7 | **hard cut (no transition)** from 18: long chart → north disc, same frame; E07 |
+| 20 | 9 | 鏡頭09結束＝鏡頭10開始 | 2 | disc turns, mountain rises to the Vavaʻu horizon; E07; label Kapakau ʻo Tafahi / Tafahi’s Wing |
+| 21 | 10 | 鏡頭10結束 | 6 | E08; labels as 20 + Cassiopeia |
+| 22 | 11 | 鏡頭10-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A10-02_Tafahi的翅膀_地平層_透明.png`); E09 headline only |
+| 23 | 12 | 鏡頭10-概念圖2 | 4 | + `en/…_母雞層`; E09 headline only |
+| 24 | 13 | 鏡頭10-概念圖收＝鏡頭11開始 | 4 | diagram fades; E10; label as 20 |
+| 25 | 14 | 鏡頭11結束 | 7 | disc turns to −39°, mountain moves to the Tongatapu horizon; E11; label ʻAo ʻo ʻUvea / ʻUvea’s Circlet |
+| 26 | 15 | 鏡頭11-概念圖1 | 3 | map, English (`en/C-A10-01_東加地圖_島嶼層`); E12 headline only |
+| 27 | 16 | 鏡頭11-概念圖2 | 4 | + `en/…_航線層`; E12 headline only |
+| 28 | 17 | 鏡頭11-概念圖收 | 5 | diagram fades; E13; label as 25; then the disc turns straight to 41 (pages 29–40, the pigeon roost, Hina’s boat, the Pleiades, the two records and the return to the long chart, removed; same disc group, so Match & Move) |
+| 41 | 18 | 鏡頭16結束＝鏡頭17開始 | 7 | E14; labels Tafahi’s Wing (Cassiopeia); Taipei horizon. The Chinese disc angle (−159.2°) is 13 Nov 20:00; for 31 Jan 20:00 the sky has turned about 78° further: set about +123° (= −237°) so the W sits in the northwest, and check the label sits clear of the text |
+| 42 | 19 | 鏡頭17結束 | 3 | E14; as 41 (+20 min) |
+| 43 | 20 | 端卡（下集見） | 4 | E15 |
+| 44 | 21 | 追蹤頁 | — | E16 |
+| 45 | 22 | 製作名單（鳴謝） | — | Credits page, kept unchanged (last kept page); notes only |
 
 Total 89 s (the follow page’s 3 s is the end hold, as in EN01).
 
