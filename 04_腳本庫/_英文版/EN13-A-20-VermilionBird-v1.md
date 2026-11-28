@@ -6,7 +6,7 @@
 | Publish | **2027-02-06 (Sat) 21:00 Taiwan time**: EN13 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Lunar New Year’s Day; Chinese episode on New Year’s Eve, 2/5) |
 | Length | **79 s**, 13 beats, ~115 words on screen (no voice-over; text over light music) |
 | Story | One story only: **one egg, two dynasties**. The Vermilion Bird is built from seven lunar mansions, and its middle third is Quail Fire. The egg that began the Shang was laid by a *black* bird (a swallow, say the old commentaries); the *red* bird came with the Zhou, the year Jupiter stood in Quail Fire. This New Year, Jupiter is in Quail Fire again. |
-| Canva | Not made yet. Copy of the Chinese design `A-20 朱雀`, to be named `EN13 A-20 朱雀` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 59 = next-episode card, 60 = follow page). |
+| Canva | `EN13 A-20 春節` (DAHZrWNj4_E), a copy of the Chinese design. **Placed 2026-11-28**: English text, English diagrams and translated labels on the 19 kept pages, which now sit in order as Canva pages 1–19 (the "Now" column below); page 20 is the credits page (kept, as is); pages 21–61 are the unused originals — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold, body 44 px; narrow/moved boxes where labels sit (see `Canva逐頁文字放置規格.md` §4). Cover and end card follow the schedule (title + hook, next episode EN14); see the 2026-11-28 note at the end. Waiting for hand finishing. |
 | Opening line | *One sky. The ancient Chinese saw — a vermilion bird.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -36,25 +36,25 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English (E01 only, one line; no second hook line); EN · EP13 tag |
-| 2 | | 鏡頭01開始 | 4 | E02; label 老人星 → Canopus; the Chinese 字卡 is removed |
-| 3 | | 鏡頭01結束 | 4 | E02; then Match & Move straight to page 16 (pages 4–15, the north-disc Four Symbols shot, are unused) |
-| 16 | | 鏡頭03開始 | 3 | E03; labels 井宿／鬼宿 → Jing／Gui |
-| 17 | | 鏡頭03結束＝鏡頭04開始 | 7 | E03; Sima Qian labels in English (keep the bottom box clear of the Zhen label at Y 1433) |
-| 18 | | 鏡頭04結束＝鏡頭05開始 | 6 | E04; Quail Head／Fire／Tail labels sit at Y 1580, so the text goes top; then Match & Move to 26 |
-| 26 | | 鏡頭07-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A20-02_一顆蛋_河邊層`) fades in as the sky moves; E05 headline only |
-| 27 | | 鏡頭07-概念圖2 | 3 | + `en/…_蛋層`; E05 headline only |
-| 28 | | 鏡頭07-概念圖3 | 3 | + `en/…_契層`; E05 headline only |
-| 29 | | 鏡頭07-概念圖收＝鏡頭08開始 | 5 | diagram fades; E06; feast labels removed |
-| 30 | | 鏡頭08-概念圖 | 5 | `en/C-A20-02_一顆蛋_燕子層`; E07 headline only |
-| 31 | | 鏡頭08-概念圖收＝鏡頭09開始 | 5 | diagram fades; E08; feast labels removed |
-| 32 | | 鏡頭09-概念圖1 | 3 | `en/C-A20-03_紅鳥興周_火落屋頂層`; E09 headline only |
-| 33 | | 鏡頭09-概念圖2 | 3 | + `en/…_赤烏層`; E09 headline only |
-| 34 | | 鏡頭09-概念圖3 | 3 | + `en/…_歲在鶉火層`; E09 headline only |
-| 35 | | 鏡頭09結束＝鏡頭11開始 | 7 | diagram gone, sky slides to the Quail Fire band; E10; labels → Liu／Xing／Zhang／Yi |
-| 36 | | 鏡頭11結束 | 8 | E11; labels → Jupiter (mag −2.6)／Regulus／Mars／Quail Fire; the corner note → “In the real sky, around 8 pm: Jupiter, Regulus, Mars, top to bottom”; then **hard cut** to 59 |
-| 59 | | 端卡（下集見） | 4 | E12 |
-| 60 | | 追蹤頁 | — | E13 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English (E01 only, one line; no second hook line); EN · EP13 tag |
+| 2 | 2 | 鏡頭01開始 | 4 | E02; label 老人星 → Canopus; the Chinese 字卡 is removed |
+| 3 | 3 | 鏡頭01結束 | 4 | E02; then Match & Move straight to page 16 (pages 4–15, the north-disc Four Symbols shot, are unused) |
+| 16 | 4 | 鏡頭03開始 | 3 | E03; labels 井宿／鬼宿 → Jing／Gui |
+| 17 | 5 | 鏡頭03結束＝鏡頭04開始 | 7 | E03; Sima Qian labels in English (keep the bottom box clear of the Zhen label at Y 1433) |
+| 18 | 6 | 鏡頭04結束＝鏡頭05開始 | 6 | E04; Quail Head／Fire／Tail labels sit at Y 1580, so the text goes top; then Match & Move to 26 |
+| 26 | 7 | 鏡頭07-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A20-02_一顆蛋_河邊層`) fades in as the sky moves; E05 headline only |
+| 27 | 8 | 鏡頭07-概念圖2 | 3 | + `en/…_蛋層`; E05 headline only |
+| 28 | 9 | 鏡頭07-概念圖3 | 3 | + `en/…_契層`; E05 headline only |
+| 29 | 10 | 鏡頭07-概念圖收＝鏡頭08開始 | 5 | diagram fades; E06; feast labels removed |
+| 30 | 11 | 鏡頭08-概念圖 | 5 | `en/C-A20-02_一顆蛋_燕子層`; E07 headline only |
+| 31 | 12 | 鏡頭08-概念圖收＝鏡頭09開始 | 5 | diagram fades; E08; feast labels removed |
+| 32 | 13 | 鏡頭09-概念圖1 | 3 | `en/C-A20-03_紅鳥興周_火落屋頂層`; E09 headline only |
+| 33 | 14 | 鏡頭09-概念圖2 | 3 | + `en/…_赤烏層`; E09 headline only |
+| 34 | 15 | 鏡頭09-概念圖3 | 3 | + `en/…_歲在鶉火層`; E09 headline only |
+| 35 | 16 | 鏡頭09結束＝鏡頭11開始 | 7 | diagram gone, sky slides to the Quail Fire band; E10; labels → Liu／Xing／Zhang／Yi |
+| 36 | 17 | 鏡頭11結束 | 8 | E11; labels → Jupiter (mag −2.6)／Regulus／Mars／Quail Fire; the corner note → “In the real sky, around 8 pm: Jupiter, Regulus, Mars, top to bottom”; then **hard cut** to 59 |
+| 59 | 18 | 端卡（下集見） | 4 | E12 |
+| 60 | 19 | 追蹤頁 | — | E13 |
 
 Total 79 s.
 
@@ -143,3 +143,12 @@ Gemini 共 14 條（🔴3、🟡7、⚪4）。每條都對回中文 A-20 v2；�
 - ⚪ E03 加 “Historian”：三行已 35／39／29 字母，加字會逼近 40 上限，Sima Qian 在 Glossary 已有。
 - ⚪ E11 headline “Back this New Year”：內文已有 “back”，同格重複；“This New Year, again” 對應中文「巧的是，今年除夕」。
 - Gemini 第三節（沒把握）：封面規格＝上一條；`17 Feb` 對照節目表 EN14 為 2027/02/17，無誤；p.36 時間＝上面第 8 條。
+
+## Canva pass (2026-11-28)
+
+- **Cover**: World Sky Cultures (96 px bold) / 萬國星空 (40) / NTNU Astronomy Club / `One sky. The ancient Chinese saw — a vermilion bird.` (fill-in line, the second half in pink) / `The Vermilion Bird: A Lunar New Year Special` (schedule title) / `A black bird’s egg began one dynasty. A red bird, the next.` (schedule hook, three short lines) / tag `EN · EP13`. This differs from the p.1 note above ("E01 only, one line; no second hook line"): the card says cover = schedule title + hook.
+- **End card** (next episode by publish date = EN14, Wed 2027-02-17): `Happy Lunar New Year!` / `Next episode` / `Sámi: A Reindeer Hunt Across the Sky` / hook `The Big Dipper is a bow — and the arrow must never fly.` (the old `日本：月亮驛站` line was replaced). Follow page: `Follow us!` plus `Follow for a new sky every week.` (handles unchanged). Credits page (20) kept as is.
+- **Pages whose Pos differs from the table**: p17 headline + body at the top (Y 262 / 440) instead of bottom, because the Zhen label (Y 1394) and the bird figure fill the lower half; p16 stays at the bottom but the headline is two lines (Y 1245, body Y 1420); p36 middle-left box (headline Y 960, body Y 1065, W 740) because the Quail Fire label sits at the bottom left and the star figure at the bottom right; p35 body at the top (Y 290, no headline).
+- **Not done**: the p.36 corner note `In the real sky, around 8 pm: Jupiter, Regulus, Mars, top to bottom` — the Chinese page has no corner-note text element to translate (the layer is part of the sky image), so nothing was added. The feast star lines (L6, pages 26–31) remain; only the feast labels were removed.
+- Labels: p18 Quail Head／Fire／Tail set at 44 px (68 px would not fit at the right edge); p17 labels at 54 px.
+
