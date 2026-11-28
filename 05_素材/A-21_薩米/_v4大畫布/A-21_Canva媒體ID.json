@@ -40,5 +40,14 @@
     "last_done": 41,
     "next_page": null,
     "note": "Canva 完成（2026-11-11）：新頁41頁＋封面/下集見/追蹤我們/參考文獻保留，舊頁已移到最後，待手工收尾"
+  },
+  "en": {
+    "design_id": "DAHZrY8fnRM",
+    "design_title": "EN14 A-21 薩米",
+    "commit": "a7587428f5115380202a977a9a9f2268ad06983c",
+    "concept": {
+      "C-A21-03_不能射的那一箭_狩獵層_透明.png": "MAHcLxfDDUg",
+      "C-A21-03_不能射的那一箭_箭層_透明.png": "MAHcLyYgGLM"
+    }
   }
 }
