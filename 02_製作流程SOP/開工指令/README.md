@@ -62,6 +62,7 @@
 | `../外包任務書/01_網路考據.md` | Gemini（深度研究） | 整份＋該集 v0，不改字 | `_審稿/{集}_考據_gemini.md` |
 | `../外包任務書/02_審稿Critic.md` | Antigravity，4 個 agent | 整份＋v0，每個 agent 指定一個角色 | `_審稿/{集}_審稿-{角色}_antigravity.md` ×4 |
 | `../外包任務書/04_英文審稿.md` | Gemini | 整份＋英文稿 v0＋中文定稿 | `_審稿/EN{nn}_審稿_gemini.md` |
+| `../外包任務書/05_發布文案.md` | Antigravity 或 Claude（Sonnet） | 說「做文案 A-23、A-24」「做文案 EN17」；要 Word 檔說「出文案檔」 | `06_發布月曆/文案/{中文IG｜聯盟FB｜英文IG}/{集}.md`＋三份 docx |
 
 Antigravity 交件後會自己 push，再開卡 02 或 06。一次一集。送審可以整個交給 Antigravity 的 `/schedule` 每天自動做（用 Credit，不吃 Claude Usage）：見 `../外包任務書/README.md`「自動送審」。Antigravity 的對話第一行寫「【A-22 考據】」「【A-22 審稿-天文】」「【EN03 英文審稿】」，側欄才分得出來。
 
