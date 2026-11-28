@@ -4,9 +4,9 @@
 |---|---|
 | Source | Chinese A-21 v1 (`A-21-薩米馴鹿獵人的星空狩獵圖-逐字稿-v1.md`, fact-checked + external review 11/09). Nothing here is new; see "Cuts and changes" for what was dropped. |
 | Publish | **2027-02-17 (Wed) 21:00 Taiwan time**: EN14 in `06_發布月曆/節目表_萬國星空_英文版.csv` (Chinese A-21 airs 2/12) |
-| Length | **89 s** (including the 3 s follow page), 13 beats, ~177 words on screen (no voice-over; text over light music) |
+| Length | **92 s** (including the 3 s follow page), 13 beats, ~177 words on screen (no voice-over; text over light music) |
 | Story | One story only: **the hunt that isn’t over yet**. The prey is a giant reindeer, Sarvvis (Cassiopeia → Perseus → Capella; two of its stars got official IAU names in 2025); the hunter is Arcturus, Fávdna, and his bow is the Big Dipper. Between them stands the Pole Star, the Sky Support: if the arrow hits it, the sky falls. So the bow stays drawn every night. Close: the same Dipper is a moose in Siberia (last week’s EN50) and a caribou for the Inuit |
-| Canva | Not made yet: **the Chinese A-21 Canva design does not exist yet** (card 04 first). The English copy will be named `EN14 A-21 薩米` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 43 = next-episode card, 44 = follow page). If the Chinese design ends differently, put E12 and E13 on two copies of page 37. |
+| Canva | `EN14 A-21 薩米` (DAHZrY8fnRM), a copy of the finished Chinese design. **Placed 2026-11-28**: English text, English diagrams and translated labels on the 17 kept pages, which now sit in order as Canva pages 1–17 (the "Now" column below); page 18 = the references page (kept as is); pages 19–45 are unused — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). Headlines 72 px bold unless noted (E05 64, E07 56, E10 56 in a narrow box); body 44 px; narrow side boxes where labels or the arrow sit (see `Canva逐頁文字放置規格.md` §4). |
 | Opening line | *One sky. The Sámi saw — a hunt that isn’t over yet.* (= the Chinese 統一開頭) |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.43; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -27,7 +27,7 @@
 | E09 | 7 | 18 | top | | So every night the bow is drawn, but the arrow waits. The hunt is not over yet. | 2.4 |
 | E10 | 8 | 33 | top-left | One Dipper, three stories | Siberian hunters see a moose; the Inuit see a caribou. For the Sámi, it’s a hunter’s bow. | 2.1 |
 | E11 | 11 | 36, 37 | bottom | Mid-February, 23:00: look north | Northern skies: Arcturus in the east, the bow northeast, the reindeer northwest — the Pole Star in between. | 1.6 |
-| E12 | 3 | 43 | endcard | Next Wednesday | Belarus: a farmer’s sky and Elijah’s chariot. | 2.3 |
+| E12 | 6 | 43 | endcard | Next Saturday | Lantern Festival: Blessings from the Sky — The god of the Lantern Festival shares a name with the centre of the sky. *(title line + hook line; the next episode by publish date is EN15, 2027-02-20)* | 2.3 |
 | E13 | 3 | 44 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -36,25 +36,25 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP14 tag |
-| 2 | | 鏡頭01開始 | 3 | E02; the Chinese opening text card on 2–3 is removed |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 5 | E02; labels 獵人（大角星）／Fávdna 的弓（北斗）／公馴鹿（一說駝鹿） → the hunter (Arcturus)／Fávdna’s bow (Big Dipper)／bull reindeer (some say moose); then the sky stays put into 6 (pages 4–5, the Sápmi map and drum diagram, removed) |
-| 6 | | 鏡頭02-概念圖收＝鏡頭03開始 | 5 | E03; label as 3 (Sarvvis only) |
-| 7 | | 鏡頭03結束＝鏡頭04開始 | 7 | E04; label Sarvvis／公馴鹿（一說駝鹿） → bull reindeer (some say moose) |
-| 8 | | 鏡頭04結束 | 7 | E05; labels 公馴鹿（英仙 δ）／母馴鹿（英仙 ε） → bull reindeer (δ Per)／cow reindeer (ε Per); then the sky moves to 13 (pages 9–12, the 1736 / 1743 / 2025 diagram, removed) |
-| 13 | | 鏡頭05結束＝鏡頭06開始 | 7 | E06; labels 獵人（大角星）／Fávdna 的弓（北斗） → the hunter (Arcturus)／Fávdna’s bow (Big Dipper) |
-| 14 | | 鏡頭06-中1 | 7 | E07; labels as 13 + 撐住天空的星（北極星） → the Sky Support (Pole Star); Sarvvis label as 7 |
-| 15 | | 鏡頭06結束 | 7 | E08 |
-| 16 | | 鏡頭06-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A21-03_不能射的那一箭_狩獵層_透明.png`); E08 headline only |
-| 17 | | 鏡頭06-概念圖2 | 3 | + `_概念圖/en/C-A21-03_不能射的那一箭_箭層_透明.png`; E08 headline only |
-| 18 | | 鏡頭06-概念圖收 | 7 | diagram fades; E09; then the disc turns straight to 33 (pages 19–32, the helpers, Gállá, Sirius and the Milky Way, removed; Match & Move works because 18 and 33 are both north-disc pages) |
-| 33 | | 鏡頭10結束 | 8 | E10; labels 駝鹿（西伯利亞）／馴鹿（因紐特）／Fávdna 的弓＋弓（薩米） → moose (Siberia)／caribou (Inuit)／Fávdna’s bow (Sámi); **remove the Arcturus cross-culture label** (al-Simāk al-Rāmiḥ / 拿長矛的人) — not in the English text |
-| 36 | | 鏡頭11開始 | 2 | E11; labels (Taipei facing north) as on 3/14: bull reindeer (some say moose)／Fávdna’s bow (Big Dipper)／the Sky Support (Pole Star) |
-| 37 | | 鏡頭11結束 | 9 | E11; labels as 36 + the hunter (Arcturus); the mountain stays (Taipei’s north horizon; at 40° N the horizon is lower, so the image only understates what viewers see) |
-| 43 | | 端卡（下集見） | 3 | E12 |
-| 44 | | 追蹤頁 | 3 | E13 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English; second line = the schedule’s hook; EN · EP14 tag |
+| 2 | 2 | 鏡頭01開始 | 3 | E02; the Chinese opening text card on 2–3 is removed |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 5 | E02; labels 獵人（大角星）／Fávdna 的弓（北斗）／公馴鹿（一說駝鹿） → the hunter (Arcturus)／Fávdna’s bow (Big Dipper)／bull reindeer (some say moose); then the sky stays put into 6 (pages 4–5, the Sápmi map and drum diagram, removed) |
+| 6 | 4 | 鏡頭02-概念圖收＝鏡頭03開始 | 5 | E03; label as 3 (Sarvvis only) |
+| 7 | 5 | 鏡頭03結束＝鏡頭04開始 | 7 | E04; label Sarvvis／公馴鹿（一說駝鹿） → bull reindeer (some say moose) |
+| 8 | 6 | 鏡頭04結束 | 7 | E05; labels 公馴鹿（英仙 δ）／母馴鹿（英仙 ε） → bull reindeer (δ Per)／cow reindeer (ε Per); then the sky moves to 13 (pages 9–12, the 1736 / 1743 / 2025 diagram, removed) |
+| 13 | 7 | 鏡頭05結束＝鏡頭06開始 | 7 | E06; labels 獵人（大角星）／Fávdna 的弓（北斗） → the hunter (Arcturus)／Fávdna’s bow (Big Dipper) |
+| 14 | 8 | 鏡頭06-中1 | 7 | E07; labels as 13 + 撐住天空的星（北極星） → the Sky Support (Pole Star); Sarvvis label as 7 |
+| 15 | 9 | 鏡頭06結束 | 7 | E08 |
+| 16 | 10 | 鏡頭06-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A21-03_不能射的那一箭_狩獵層_透明.png`); E08 headline only |
+| 17 | 11 | 鏡頭06-概念圖2 | 3 | + `_概念圖/en/C-A21-03_不能射的那一箭_箭層_透明.png`; E08 headline only |
+| 18 | 12 | 鏡頭06-概念圖收 | 7 | diagram fades; E09; then the disc turns straight to 33 (pages 19–32, the helpers, Gállá, Sirius and the Milky Way, removed; Match & Move works because 18 and 33 are both north-disc pages) |
+| 33 | 13 | 鏡頭10結束 | 8 | E10; labels 駝鹿（西伯利亞）／馴鹿（因紐特）／Fávdna 的弓＋弓（薩米） → moose (Siberia)／caribou (Inuit)／Fávdna’s bow (Sámi); **remove the Arcturus cross-culture label** (al-Simāk al-Rāmiḥ / 拿長矛的人) — not in the English text |
+| 36 | 14 | 鏡頭11開始 | 2 | E11; labels (Taipei facing north) as on 3/14: bull reindeer (some say moose)／Fávdna’s bow (Big Dipper)／the Sky Support (Pole Star) |
+| 37 | 15 | 鏡頭11結束 | 9 | E11; labels as 36 + the hunter (Arcturus); the mountain stays (Taipei’s north horizon; at 40° N the horizon is lower, so the image only understates what viewers see) |
+| 43 | 16 | 端卡（下集見） | 6 | E12 |
+| 44 | 17 | 追蹤頁 | 3 | E13 |
 
-Total 89 s (E13 included).
+Total 92 s (E13 included; the end card is 6 s so the hook line stays under 2.5 words/sec).
 
 ## Glossary (every name used)
 
@@ -87,7 +87,7 @@ The Big Dipper is a bow — and the arrow must not fly. 🦌
 For the Sámi, the whole sky is one hunt. The prey: Sarvvis, a giant reindeer (some say a moose) stretching from Cassiopeia to Capella. The hunter: Arcturus, Fávdna, with the Big Dipper as his bow.
 Between them stands the Pole Star, Boahjenásti, the star that holds up the sky. Legend says that if the arrow hits it, the sky falls and the world ends. So every night the bow is drawn — and the hunt isn’t over yet.
 In late 2025, the IAU named two Perseus stars: Sarvvis and Áldu — bull and cow reindeer.
-Next Wednesday: Belarus — a farmer’s sky and Elijah’s chariot.
+Next Saturday: the Lantern Festival — blessings from the sky.
 #WorldSkyCultures #astronomy #Sami #Arctic #BigDipper #Arcturus #reindeer #skylore
 (First comment: sources — Stellarium “sami” (Persson, after Lundmark 1982); Turi 1910 / DuBois 2011; IAU WGSN 2025.)
 
@@ -129,4 +129,4 @@ Not adopted:
 
 Gemini’s section 3 notes: (1) E11 east vs. east-northeast: kept “east” (simplified on purpose; ENE would not fit the word budget); (2) DuBois 2011 stays in the sources as the Chinese 來源欄 flags it 未親核, to be settled with the Chinese first comment; (3) narrow boxes E04 / E06 / E10 are 3 lines at most — to be eyeballed in Canva (card 07).
 
-Canva: no English blocks yet in `A-21_Canva媒體ID.json`, nothing to replace.
+Canva: done 2026-11-28 (card 07); the `en` block is in `A-21_Canva媒體ID.json`.
