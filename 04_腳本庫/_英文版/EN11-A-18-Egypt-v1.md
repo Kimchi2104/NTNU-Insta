@@ -6,7 +6,7 @@
 | Publish | **2027-01-27 (Wed) 21:00 Taiwan time**: EN11 in `06_發布月曆/節目表_萬國星空_英文版.csv` (five days after the Chinese episode; Sirius is highest late in the evening) |
 | Length | **90 s**, 14 beats, ~123 words on screen (no voice-over; text over light music) |
 | Story | One story only: **Sirius and the Nile flood**. Sirius (Sopdet) vanishes for about 70 days, flashes back at dawn just as the river starts to rise, and the year begins. Then the schedule’s hook: today it comes back over a month later, and since the 1970 dam the river does not flood at all |
-| Canva | Not made yet. Copy of the Chinese design `A-18 古埃及` (DAHWtB5e4ic), to be named `EN11 A-18 古埃及` (card 07). Page numbers below are the Chinese design’s numbers (= Chinese 製作表 page + 1; page 1 = cover, 56 = next-episode card, 57 = follow page, as in `A-18_補頁清單.md`: “下集見、追蹤我們往後順延 6 頁”). Check 56/57 in the Canva pass. |
+| Canva | `EN11 A-18 古埃及` (DAHZrf9iROM), a copy of the Chinese design `A-18 古埃及`. **Placed 2026-11-28**: English text, English diagrams and translated labels on the kept pages, which now sit in order as Canva pages 1–24 (the “Now” column below); page 24 = 鳴謝 credits (kept, bilingual); pages 25–58 are unused — delete them in grid view. Page numbers elsewhere in this file and in the speaker notes are the original numbers (= Chinese 製作表 page + 1). |
 | Opening line | *One sky. The ancient Egyptians saw — a star that woke the Nile.* |
 | Reading speed | ≤ 2.5 words/sec on every page (max 2.4; = words in Text ÷ seconds that text is on screen, headline not counted; cover excluded as in EN01) |
 
@@ -28,7 +28,7 @@
 | E10 | 4 | 24 | top | And the Nile no longer floods | *(diagram `en/C-A18-05`: 1970, the Aswan High Dam; Lake Nasser holds the flood)* | — |
 | E11 | 7 | 25 | bottom | The river no longer waits | Finished in 1970, the Aswan High Dam now holds the yearly flood in a reservoir. | 2.1 |
 | E12 | 10 | 51, 52 | bottom | Look up this week | North of the equator, face south around 22:00: Sirius is highest, with Orion to its upper right. | 1.6 |
-| E13 | 4 | 56 | endcard | Next Wednesday | Ancient Arabia: a desert zoo in the sky. | 2.0 |
+| E13 | 4 | 56 | endcard | This Sunday | Tonga: Star Names That Are Sailing Routes. In Tonga, some star names are sailing orders. *(next by publish date = EN49, Sun 2027/01/31; title + hook from the schedule)* | 3.0 |
 | E14 | 3 | 57 | endcard | | Follow for a new sky every week. | 2.3 |
 
 ## Page sequence (what the editor sets in Canva)
@@ -37,31 +37,32 @@
 
 | Canva page | Now | Chinese page name | Sec to next | Note |
 |---|---|---|---|---|
-| 1 | | 開場字卡 | 3 | Cover: text block replaced with English, one line only (E01; the schedule’s hook goes in the caption, 3 s cannot hold two lines); EN · EP11 tag |
-| 2 | | 鏡頭01開始 | 5 | E02 (the Chinese 字卡 is replaced) |
-| 3 | | 鏡頭01結束＝鏡頭02開始 | 2 | E02; label Sopdet / Sirius |
-| 4 | | 鏡頭02-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A18-01_尼羅河的一年_漲水層_透明.png`); E03 headline only |
-| 5 | | 鏡頭02-概念圖2 | 3 | + `en/…_淹沒層`; E03 headline only |
-| 6 | | 鏡頭02-概念圖3 | 3 | + `en/…_黑土層`; E03 headline only |
-| 7 | | 鏡頭02-概念圖收＝鏡頭03開始 | 7 | diagram fades; E04; then the zoom in to Sirius (fov 26 → 18) |
-| 8 | | 鏡頭03結束 | 2 | E04; label Sopdet / Sirius |
-| 9 | | 鏡頭03-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A18-02_消失與晨出_西沉層_透明.png`); E05 headline only |
-| 10 | | 鏡頭03-概念圖2 | 3 | + `en/…_消失層`; E05 headline only |
-| 11 | | 鏡頭03-概念圖3 | 3 | + `en/…_晨出層`; E05 headline only |
-| 12 | | 鏡頭03-概念圖4 | 3 | + `en/…_漲水層`; E05 headline only |
-| 13 | | 鏡頭03-概念圖收＝鏡頭04開始＝鏡頭05開始 | 6 | diagram fades; E06; label Sopdet / Sirius |
-| 14 | | 鏡頭05結束 | 7 | E07 (the zoom out, fov 18 → 26, plays under it); then straight to 21 (pages 15–20, the 365-day calendar and the 1,460-year cycle, removed; the frame does not move) |
-| 21 | | 鏡頭07-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A18-04_晚了一個多月_古代層_透明.png`); E08 headline only |
-| 22 | | 鏡頭07-概念圖2 | 4 | + `en/…_今天層`; E08 headline only |
-| 23 | | 鏡頭07-概念圖收＝鏡頭08開始 | 5 | diagram fades; E09; label Sopdet / Sirius |
-| 24 | | 鏡頭08-概念圖 | 4 | diagram, English (`_概念圖/en/C-A18-05_河已經不等了_高壩層_透明.png`); E10 headline only |
-| 25 | | 鏡頭08-概念圖收＝鏡頭09開始 | 7 | diagram fades; E11; label Sopdet / Sirius; then the sky moves to 51 (pages 26–50, Sah and Sopdet, the star clock, the northern sky, the pyramid, the cord rite and Dendera, removed) |
-| 51 | | 鏡頭18開始 | 7 | E12; labels Sopdet / Sirius, Sah / Orion |
-| 52 | | 鏡頭18結束 | 3 | E12; labels as 51 (the Taipei card C-A18-10 on page 53 is not used) |
-| 56 | | 端卡（下集見） | 4 | E13 |
-| 57 | | 追蹤頁 | — | E14 |
+| 1 | 1 | 開場字卡 | 3 | Cover: text block replaced with English, one line only (E01; the schedule’s hook goes in the caption, 3 s cannot hold two lines); EN · EP11 tag |
+| 2 | 2 | 鏡頭01開始 | 5 | E02 (the Chinese 字卡 is replaced) |
+| 3 | 3 | 鏡頭01結束＝鏡頭02開始 | 2 | E02; label Sopdet / Sirius |
+| 4 | 4 | 鏡頭02-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A18-01_尼羅河的一年_漲水層_透明.png`); E03 headline only |
+| 5 | 5 | 鏡頭02-概念圖2 | 3 | + `en/…_淹沒層`; E03 headline only |
+| 6 | 6 | 鏡頭02-概念圖3 | 3 | + `en/…_黑土層`; E03 headline only |
+| 7 | 7 | 鏡頭02-概念圖收＝鏡頭03開始 | 7 | diagram fades; E04; then the zoom in to Sirius (fov 26 → 18) |
+| 8 | 8 | 鏡頭03結束 | 2 | E04; label Sopdet / Sirius |
+| 9 | 9 | 鏡頭03-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A18-02_消失與晨出_西沉層_透明.png`); E05 headline only |
+| 10 | 10 | 鏡頭03-概念圖2 | 3 | + `en/…_消失層`; E05 headline only |
+| 11 | 11 | 鏡頭03-概念圖3 | 3 | + `en/…_晨出層`; E05 headline only |
+| 12 | 12 | 鏡頭03-概念圖4 | 3 | + `en/…_漲水層`; E05 headline only |
+| 13 | 13 | 鏡頭03-概念圖收＝鏡頭04開始＝鏡頭05開始 | 6 | diagram fades; E06; label Sopdet / Sirius |
+| 14 | 14 | 鏡頭05結束 | 7 | E07 (the zoom out, fov 18 → 26, plays under it); then straight to 21 (pages 15–20, the 365-day calendar and the 1,460-year cycle, removed; the frame does not move) |
+| 21 | 15 | 鏡頭07-概念圖1 | 3 | diagram, English (`_概念圖/en/C-A18-04_晚了一個多月_古代層_透明.png`); E08 headline only |
+| 22 | 16 | 鏡頭07-概念圖2 | 4 | + `en/…_今天層`; E08 headline only |
+| 23 | 17 | 鏡頭07-概念圖收＝鏡頭08開始 | 5 | diagram fades; E09; label Sopdet / Sirius |
+| 24 | 18 | 鏡頭08-概念圖 | 4 | diagram, English (`_概念圖/en/C-A18-05_河已經不等了_高壩層_透明.png`); E10 headline only |
+| 25 | 19 | 鏡頭08-概念圖收＝鏡頭09開始 | 7 | diagram fades; E11; label Sopdet / Sirius; then the sky moves to 51 (pages 26–50, Sah and Sopdet, the star clock, the northern sky, the pyramid, the cord rite and Dendera, removed) |
+| 51 | 20 | 鏡頭18開始 | 7 | E12; labels Sopdet / Sirius, Sah / Orion |
+| 52 | 21 | 鏡頭18結束 | 3 | E12; labels as 51 (the Taipei card C-A18-10 on page 53 is not used) |
+| 56 | 22 | 端卡（下集見） | 5 | E13 (5 s because it carries 15 words, as EN09) |
+| 57 | 23 | 追蹤頁 | — | E14 |
+| 58 | 24 | 鳴謝頁 | — | credits page, bilingual already; kept unchanged after the follow page |
 
-Total 90 s (the follow page’s 3 s is the end hold, as in EN01).
+Total 91 s (the end card now holds 5 s for the longer text; the follow page’s 3 s is the end hold, as in EN01).
 
 ## Glossary (every name used)
 
@@ -94,7 +95,7 @@ Total 90 s (the follow page’s 3 s is the end hold, as in EN01).
 When Sirius returned, the Nile flooded. Not anymore. 🌊✨
 The ancient Egyptians called Sirius Sopdet. Each spring it sank into the sunset glow and stayed hidden for about 70 days. One summer dawn it flashed back above the horizon, the river began to rise, and the year began.
 We did the math: in the pyramid age, Sirius returned over Memphis a few days after the summer solstice. Today, in Cairo, it doesn’t return until around August 5 — over a month late. And since the Aswan High Dam (1970), the Nile no longer floods every year.
-Next Wednesday: Ancient Arabia — a desert zoo in the sky.
+This Sunday: Tonga — star names that are sailing routes.
 #WorldSkyCultures #astronomy #stars #AncientEgypt #Sirius #Nile #skylore
 (First comment: sources — Stellarium egyptian (Berglund, after Belmonte); Censorinus, De Die Natali 21.10; how we computed the dates: the first morning Sirius stands 1° high while the Sun is 9.5–10.5° below the horizon, calibrated on Censorinus’s 139 CE: 2500 BCE Memphis = Gregorian Jun 28–29, 2027 Cairo = Aug 5–6, about 38 days apart.)
 
@@ -111,7 +112,7 @@ Wording to check:
 6. E09 “doesn’t return until around August 5” = 07「要等到八月五日前後」 (US date order, as the diagram); E08 “over a month late” = 「晚了一個多月」 (38 days, our own computation, as in the Chinese).
 7. E11 “In 1970 the Aswan High Dam was finished” = 08「一九七〇年亞斯文高壩完工」 (inaugurated Jan 1971 — the Chinese 考據備忘 note); “holds the yearly flood in a reservoir” = 「每年的大水就被攔進水庫」. The headline “The river no longer waits” = 題眼「等天狼星的河，已經不等了」.
 8. E12 sky tip rewritten for northern mid-latitudes, late January: the Chinese says “10:30 tonight, Taipei, Sirius at its highest, 48°, Orion to its upper right”. The English drops the altitude (it depends on latitude) and says “North of the equator … around 22:00” (24-hour time; Sirius transits about 22:20 local mean time on Jan 27, and south of the equator the picture is mirrored).
-9. E13 points to EN12 Ancient Arabia (Wed Feb 3), the Wednesday series, not to the Sunday re-run EN49 Tonga (Jan 31); same rule as EN48.
+9. E13 points to EN49 Tonga (Sun Jan 31), the next episode **by publish date** (card 07 rule, as EN09 → EN41); the earlier draft pointed to EN12 Ancient Arabia (Wed Feb 3). The end card therefore says “This Sunday”, and the caption’s last line follows.
 10. The cover carries one line only (E01); the schedule’s hook is the caption’s first line.
 11. Page sequence is the authority for timing (total 90 s). The Sec column in Beats is not additive where a block spans pages.
 
